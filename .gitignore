@@ -1,0 +1,44 @@
+# Environments and binaries (rebuild per README)
+.venv/
+bin/
+node_modules/
+__pycache__/
+*.pyc
+
+# Secrets and session logs
+.withmd-handoff.json
+.env
+films/*/logs/
+
+# Third-party reference films (download with yt-dlp, see HANDOFF.md)
+refs-videos/
+films/*/refs/films/
+
+# Music: full Mixkit downloads and previews are regenerable from catalogue/*.py
+music/catalogue/mp3/
+music/catalogue/previews/
+
+# Art film materials: archive masters, candidates and cutouts (URLs and rights are in materials/assets.json)
+films/tin-art/materials/raw/
+films/tin-art/materials/candidates/
+films/tin-art/materials/cut/
+films/tin-art/materials/index/
+
+# Renders: keep only the finished films, posters and the board sheet
+films/*/out/*
+!films/*/out/poster.png
+!films/tin-launch/out/tin-launch.mp4
+!films/tin-art/out/tin-art-share.mp4
+!films/tin-art/out/board/
+films/tin-art/out/board/*
+!films/tin-art/out/board/BOARD.png
+
+# Licensed files that must not be redistributed in a public repo
+# Mixkit audio (allowed inside videos, not as standalone files): rebuild with music/tools (see README)
+*.wav
+*.mp3
+# Fonts: Funktional Grotesk (tin-web, private) and SF Mono (Apple)
+*.ttf
+*.otf
+*.woff
+*.woff2

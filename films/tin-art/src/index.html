@@ -1,0 +1,28 @@
+<!doctype html>
+<meta charset="utf-8">
+<title>Tin art film</title>
+<!--
+  The film. window.FILM = { duration, width, height }; window.seek(t) paints the exact frame for film time t from
+  nothing but t (src/film.js). The engine (mark, paper, grain, treatments) is src/engine.js, the materials are
+  src/stills.js, the music grid is music-cut/cue.js (House Vibez, song bars 25-35; see docs/MUSIC.md).
+  Render: node tools/render.mjs video --page src/index.html --w 1080 --h 1080 --fps 24 --sub 1 --out out/animatic.mp4
+-->
+<style>
+  @font-face { font-family: "Funktional Grotesk"; src: url("../refs/brand/fonts/FunktionalGrotesk-Medium.ttf"); font-weight: 500; }
+  @font-face { font-family: "Funktional Grotesk"; src: url("../refs/brand/fonts/FunktionalGrotesk-Book.ttf"); font-weight: 400; }
+  @font-face { font-family: "SF Mono"; src: url("../refs/brand/fonts/SFMono-Medium.otf"); font-weight: 500; }
+  /* Liberation Sans (SIL OFL 1.1, src/fonts/LiberationSans-LICENSE.txt): Arial's metrics, for the 2004 results page */
+  @font-face { font-family: "Liberation Sans"; src: url("fonts/LiberationSans-Regular.ttf"); font-weight: 400; }
+  @font-face { font-family: "Liberation Sans"; src: url("fonts/LiberationSans-Bold.ttf"); font-weight: 700; }
+  html, body { margin: 0; background: #F5F1E6; overflow: hidden; }
+  /* fits a browser window for the preview; in render mode the viewport is the canvas size, so this is 1:1 */
+  canvas { display: block; width: min(100vw, 100vh); height: auto; }
+</style>
+<canvas id="c"></canvas>
+<script src="../tools/lib/motion.js"></script>
+<script src="../music/tools/music.js"></script>
+<script src="../music-cut/cue.js"></script>
+<script src="mark-fit.js"></script>
+<script src="engine.js"></script>
+<script src="stills.js"></script>
+<script src="film.js"></script>

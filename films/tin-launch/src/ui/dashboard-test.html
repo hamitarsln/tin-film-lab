@@ -1,0 +1,46 @@
+<!doctype html>
+<meta charset="utf-8">
+<title>Tin dashboard: test sheet</title>
+<!-- Shoots the dashboard window alone. ?view=reader|system|decisions|empty (or #view, or window.DASH_VIEW).
+     The film renderer can shoot it too: it sets FILM and a no-op seek(). -->
+<link rel="stylesheet" href="../tokens.css">
+<link rel="stylesheet" href="dashboard.css">
+<style>
+  html, body { margin: 0; }
+  body { width: 1920px; height: 1080px; overflow: hidden; background: var(--paper); }
+  #window { position: absolute; left: 160px; top: 40px; width: 1600px; height: 1000px; }
+</style>
+<div id="window"></div>
+<script src="dashboard.js"></script>
+<script>
+  const dash = Dashboard(document.getElementById('window'), { assetBase: '../../' });
+  const { el } = dash;
+  // '' (inherit), not 'visible': a child set to visible would show through a hidden view.
+  const vis = (e, on) => { e.style.visibility = on ? '' : 'hidden'; };
+
+  // The states the film passes through: the plan in the reader (7.1), the system after the drop (9.1),
+  // a decision waiting (11.3), and the decision approved (12.3).
+  function setView(view) {
+    const afterDrop = view !== 'reader';
+    vis(el.viewReader, view === 'reader');
+    vis(el.viewSystem, view === 'system');
+    vis(el.viewDecisions, view === 'decisions' || view === 'empty');
+    vis(el.projectSummaryIdle, !afterDrop);
+    vis(el.projectSummaryRunning, afterDrop);
+    el.systemCount.textContent = afterDrop ? '2' : '';
+    vis(el.decisionCount, view === 'decisions');
+    const decisionsActive = view === 'decisions' || view === 'empty';
+    el.navSystem.classList.toggle('is-active', !decisionsActive);
+    el.navDecisions.classList.toggle('is-active', decisionsActive);
+    vis(el.decItem, view !== 'empty');
+    vis(el.decCard, view !== 'empty');
+    vis(el.decEmpty, view === 'empty');
+  }
+
+  const q = new URLSearchParams(location.search);
+  setView(q.get('view') || location.hash.slice(1) || window.DASH_VIEW || 'reader');
+  window.dash = dash;
+  window.setView = setView;
+  window.FILM = { duration: 1, width: 1920, height: 1080 };
+  window.seek = () => {};
+</script>

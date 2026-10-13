@@ -1,0 +1,23 @@
+<!doctype html>
+<meta charset="utf-8">
+<title>Tin: launch film</title>
+<!-- One continuous take. seek(t) paints any frame from t alone. See docs/ANIMATION_GUIDE.md. -->
+<link rel="stylesheet" href="tokens.css">
+<link rel="stylesheet" href="ui/dashboard.css">
+<link rel="stylesheet" href="film.css">
+<div id="stage">
+  <div id="world"></div>
+  <div id="captions" class="layer"></div>
+</div>
+<script src="../tools/lib/motion.js"></script>
+<script src="../music/tools/music.js"></script>
+<script src="../music-cut/cue.js"></script>
+<script src="engine.js"></script>
+<script src="ui/dashboard.js"></script>
+<script src="scenes/captions.js"></script>
+<script src="scenes/terminal.js"></script>
+<script src="scenes/dash-timeline.js"></script>
+<script src="scenes/cursor.js"></script>
+<script src="scenes/camera.js"></script>
+<script src="scenes/endcard.js"></script>
+<script src="main.js"></script>

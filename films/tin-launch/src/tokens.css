@@ -1,0 +1,30 @@
+/* Tin film tokens: refs/brand/DESIGN.md. Every colour and font in the film comes from here. */
+@font-face { font-family: "FG"; src: url("../refs/brand/fonts/FunktionalGrotesk-Light.ttf"); font-weight: 300; }
+@font-face { font-family: "FG"; src: url("../refs/brand/fonts/FunktionalGrotesk-Book.ttf"); font-weight: 400; }
+@font-face { font-family: "FG"; src: url("../refs/brand/fonts/FunktionalGrotesk-Medium.ttf"); font-weight: 500; }
+@font-face { font-family: "SFM"; src: url("../refs/brand/fonts/SFMono-Medium.otf"); font-weight: 500; }
+:root {
+  --paper: #F5F1E6;
+  --paper-warm: #ECE6D5;
+  --paper-pale: #F9F7F0;
+  --paper-light: #FEFDFB;
+  --paper-deep: #B9AE98;
+  --paper-ink: #78715F;
+  --ink: #080808;
+  --ink-84: rgba(8, 8, 8, 0.84);
+  --ink-64: rgba(8, 8, 8, 0.64);
+  --ink-42: rgba(8, 8, 8, 0.42);
+  --line: rgba(0, 0, 0, 0.18);
+  --line-soft: rgba(0, 0, 0, 0.09);
+  --line-strong: rgba(0, 0, 0, 0.35);
+  --rose-soft: #EED2D4;
+  --terminal: #90D7E4;
+  --terminal-deep: #63AEBF;
+  --green: #66DC9D;
+  --green-deep: #2FA069;
+  --butter: #EBDE9A;
+  --butter-deep: #C9A227;
+  --lime: oklch(0.90 0.22 120);
+  --sans: "FG", system-ui, sans-serif;
+  --mono: "SFM", ui-monospace, monospace;
+}

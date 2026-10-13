@@ -1,0 +1,46 @@
+<!doctype html>
+<meta charset="utf-8">
+<title>Tin art film: materials board</title>
+<!--
+  Materials board. seek(i) paints still i (src/stills.js): the Tin mark rebuilt from material i on Tin's paper.
+  Pure function of i: images are preloaded once, paper and grain come from fixed seeds, nothing carries between calls.
+-->
+<style>
+  @font-face { font-family: "Funktional Grotesk"; src: url("../refs/brand/fonts/FunktionalGrotesk-Medium.ttf"); font-weight: 500; }
+  @font-face { font-family: "Funktional Grotesk"; src: url("../refs/brand/fonts/FunktionalGrotesk-Book.ttf"); font-weight: 400; }
+  @font-face { font-family: "SF Mono"; src: url("../refs/brand/fonts/SFMono-Medium.otf"); font-weight: 500; }
+  /* Liberation Sans (SIL OFL 1.1, src/fonts/LiberationSans-LICENSE.txt): Arial's metrics, for the 2004 results page */
+  @font-face { font-family: "Liberation Sans"; src: url("fonts/LiberationSans-Regular.ttf"); font-weight: 400; }
+  @font-face { font-family: "Liberation Sans"; src: url("fonts/LiberationSans-Bold.ttf"); font-weight: 700; }
+  html, body { margin: 0; background: #F5F1E6; overflow: hidden; }
+  canvas { display: block; }
+</style>
+<canvas id="c"></canvas>
+<script src="../tools/lib/motion.js"></script>
+<script src="mark-fit.js"></script>
+<script src="engine.js"></script>
+<script src="stills.js"></script>
+<script>
+(() => {
+const B = window.BOARD, g = B.ctx;
+let ready = null;
+window.seek = async (t) => {
+  await ready;
+  const still = window.STILLS.find(s => s.n === Math.round(t));
+  // every paint starts from a default context and restores it after, so no state carries between stills
+  if (g.reset) g.reset();
+  g.save();
+  try {
+    B.drawPaper(g);
+    if (!still) { g.fillStyle = B.INK; g.fill(B.markPath); B.drawGrain(g); return; }
+    await still.draw(g, B);
+    if (still.grain !== false) B.drawGrain(g, still.grainAlpha ?? 0.07);
+  } finally { g.restore(); }
+};
+ready = (async () => {
+  await Promise.all(['500 40px "Funktional Grotesk"', '400 40px "Funktional Grotesk"', '500 40px "SF Mono"', '400 40px "Liberation Sans"', '700 40px "Liberation Sans"'].map(f => document.fonts.load(f)));
+  await Promise.all(window.STILLS.flatMap(x => (x.images || []).map(B.img)));
+  window.FILM = { duration: Math.max(...window.STILLS.map(x => x.n)), width: B.W, height: B.H, stills: window.STILLS.map(x => ({ n: x.n, slug: x.slug })) };
+})();
+})();
+</script>

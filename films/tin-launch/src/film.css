@@ -1,0 +1,46 @@
+/* Film layers. No transitions, no animations: every moving property is set from seek(t). */
+html, body { margin: 0; background: var(--paper); overflow: hidden; }
+* { box-sizing: border-box; }
+#stage { position: absolute; left: 0; top: 0; width: 1920px; height: 1080px; transform-origin: 0 0;
+  overflow: hidden; background: var(--paper); -webkit-font-smoothing: antialiased; }
+#world { position: absolute; left: 0; top: 0; width: 0; height: 0; transform-origin: 0 0; }
+.layer { position: absolute; left: 0; top: 0; width: 1920px; height: 1080px; pointer-events: none; }
+#endwrap { position: absolute; left: 0; top: 0; width: 1920px; height: 1080px; transform-origin: 0 0; }
+
+/* Captions: FG Medium, ink, typed word by word. */
+.cap { position: absolute; left: 120px; top: 0; transform-origin: 0 0; white-space: nowrap; color: var(--ink-84);
+  font-family: var(--sans); font-weight: 500; letter-spacing: -0.035em; }
+.cap .line { position: relative; display: block; }
+.cap .w { display: inline-block; visibility: hidden; }
+.cap .line.quiet { color: var(--ink-64); font-weight: 400; }
+.caret { position: absolute; left: 0; top: 0; background: var(--ink); visibility: hidden; }
+
+/* The agent's surface: terminal blue, ink mono. */
+#terminal { position: absolute; left: 0; top: 0; background: var(--terminal); overflow: hidden; }
+#terminal .tl { position: absolute; left: 44px; white-space: pre; font-family: var(--mono); font-weight: 500;
+  font-size: 24px; line-height: 40px; color: var(--ink-84); }
+#terminal .dim { color: rgba(8, 8, 8, 0.46); }
+#terminal .strong { color: var(--ink); }
+#terminal .path { position: relative; }
+#terminal .uline { position: absolute; left: 0; bottom: 4px; height: 2px; background: var(--ink); width: 0; }
+#terminal .tcaret { position: absolute; width: 14px; height: 30px; background: var(--ink); visibility: hidden; }
+
+/* Tin's window on the sheet: a frame that grows out of the plan path and reveals the dashboard inside. */
+#dashFrame { position: absolute; left: 0; top: 0; overflow: hidden; background: var(--paper-pale); border: 1px solid var(--line-strong); }
+#dashInner { position: absolute; left: 0; top: 0; width: 1600px; height: 1000px; }
+
+/* Cursor in screen space, mapped through the camera so it sticks to the UI. */
+#cursor, .cursor-trail { position: absolute; left: 0; top: 0; width: 40px; height: 40px; visibility: hidden; }
+
+/* End card. */
+#endbg { position: absolute; left: 0; top: 0; width: 1920px; height: 1080px; background: var(--paper); visibility: hidden; }
+#floodRect { position: absolute; left: 0; top: 0; background: var(--lime); visibility: hidden; }
+.end-logo { position: absolute; overflow: hidden; }
+.end-logo img { position: absolute; left: 0; top: 0; width: 100%; height: 100%; }
+.end-text { position: absolute; left: 120px; white-space: nowrap; color: var(--ink-84); font-family: var(--sans); }
+.end-text .w { display: inline-block; visibility: hidden; }
+.end-cmd { position: absolute; white-space: pre; font-family: var(--mono); font-weight: 500; color: var(--ink); }
+
+/* The drop: plan rows' workflow names fly to the System cards' titles (card title type, tin-dash scope). */
+.tin-dash .dash-flyer { position: absolute; left: 0; top: 0; z-index: 20; display: none; white-space: nowrap; transform-origin: 0 0;
+  font-family: var(--sans); font-weight: 500; font-size: 14.5px; line-height: 18px; color: var(--ink-84); }

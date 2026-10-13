@@ -1,0 +1,264 @@
+<title>Launch Film Music</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700&family=Hanken+Grotesk:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<style>
+/* Layout: a crate index. One column of tracks grouped by style; each row is a player strip with the track's energy, its drop and your verdict. */
+:root {
+  --bg: #f3f4f1;
+  --panel: #ffffff;
+  --ink: #15171a;
+  --muted: #5d636b;
+  --line: #dcdfdb;
+  --wave: #b9bec4;
+  --window: #e6e9f9;
+  --accent: #2443d6;
+  --accent-ink: #ffffff;
+  --keep: #1d7a46;
+  --maybe: #a86a00;
+  --no: #b3261e;
+  --display: "Bricolage Grotesque", "Hanken Grotesk", system-ui, sans-serif;
+  --body: "Hanken Grotesk", system-ui, -apple-system, "Segoe UI", sans-serif;
+  --mono: "IBM Plex Mono", ui-monospace, "SFMono-Regular", Menlo, monospace;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg: #111316; --panel: #191c20; --ink: #eceef0; --muted: #9aa1a9; --line: #2b3036;
+    --wave: #4a525b; --window: #1f2747; --accent: #7d94ff; --accent-ink: #0d1020;
+    --keep: #5cc98a; --maybe: #f0b44c; --no: #ff8a80; color-scheme: dark;
+  }
+}
+:root[data-theme="dark"] {
+  --bg: #111316; --panel: #191c20; --ink: #eceef0; --muted: #9aa1a9; --line: #2b3036;
+  --wave: #4a525b; --window: #1f2747; --accent: #7d94ff; --accent-ink: #0d1020;
+  --keep: #5cc98a; --maybe: #f0b44c; --no: #ff8a80; color-scheme: dark;
+}
+* { box-sizing: border-box; }
+body { background: var(--bg); color: var(--ink); font: 15px/1.5 var(--body); }
+.wrap { max-width: 1040px; margin: 0 auto; padding-inline: 20px; padding-block: 36px 80px; display: grid; gap: 28px; }
+header { display: grid; gap: 12px; }
+h1 { font: 700 clamp(30px, 5vw, 46px)/1.05 var(--display); letter-spacing: -0.02em; margin: 0; text-wrap: balance; }
+.lede { color: var(--muted); max-width: 68ch; margin: 0; }
+.lede b { color: var(--ink); font-weight: 600; }
+.tally { display: flex; flex-wrap: wrap; gap: 8px 22px; font: 500 13px var(--mono); color: var(--muted); font-variant-numeric: tabular-nums; }
+.tally span b { color: var(--ink); font-weight: 500; }
+.tally .k b { color: var(--keep); } .tally .m b { color: var(--maybe); } .tally .n b { color: var(--no); }
+.bar { position: sticky; top: env(safe-area-inset-top, 0px); z-index: 5; background: var(--bg); padding-block: 10px; border-bottom: 1px solid var(--line); display: flex; flex-wrap: wrap; gap: 8px; align-items: center; }
+.chip { font: 500 13px var(--body); border: 1px solid var(--line); background: var(--panel); color: var(--ink); border-radius: 999px; padding: 5px 12px; cursor: pointer; }
+.chip[aria-pressed="true"] { background: var(--ink); color: var(--bg); border-color: var(--ink); }
+.chip:focus-visible, button:focus-visible, input:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+.sep { width: 1px; height: 22px; background: var(--line); margin-inline: 4px; }
+.status { margin-left: auto; font: 12px var(--mono); color: var(--muted); }
+section.style { display: grid; gap: 10px; }
+section.style h2 { font: 700 22px/1.2 var(--display); margin: 8px 0 0; letter-spacing: -0.01em; }
+section.style p.why { margin: 0 0 4px; color: var(--muted); font-size: 14px; max-width: 70ch; }
+.row { background: var(--panel); border: 1px solid var(--line); border-radius: 10px; padding: 14px 16px; display: grid; grid-template-columns: 44px minmax(0, 1fr) auto; gap: 6px 16px; align-items: center; }
+.row.playing { border-color: var(--accent); }
+.play { width: 44px; height: 44px; border-radius: 50%; border: 0; background: var(--accent); color: var(--accent-ink); cursor: pointer; display: grid; place-items: center; grid-row: span 2; }
+.play svg { width: 16px; height: 16px; fill: currentColor; }
+.meta { min-width: 0; display: flex; flex-wrap: wrap; align-items: baseline; gap: 2px 12px; }
+.title { font: 600 16px var(--body); }
+.author { color: var(--muted); font-size: 13px; }
+.stats { font: 12px var(--mono); color: var(--muted); display: flex; flex-wrap: wrap; gap: 4px 14px; font-variant-numeric: tabular-nums; }
+.stats b { color: var(--ink); font-weight: 500; }
+.verdict { display: flex; gap: 6px; grid-row: span 2; align-self: start; }
+.verdict button { font: 600 13px var(--body); border: 1px solid var(--line); background: transparent; color: var(--muted); border-radius: 7px; padding: 6px 11px; cursor: pointer; }
+.verdict button[data-v="keep"][aria-pressed="true"] { background: var(--keep); border-color: var(--keep); color: var(--panel); }
+.verdict button[data-v="maybe"][aria-pressed="true"] { background: var(--maybe); border-color: var(--maybe); color: var(--panel); }
+.verdict button[data-v="no"][aria-pressed="true"] { background: var(--no); border-color: var(--no); color: var(--panel); }
+.wave { grid-column: 2 / 3; position: relative; height: 46px; cursor: pointer; }
+.wave canvas { width: 100%; height: 100%; display: block; }
+.lower { grid-column: 1 / -1; display: flex; flex-wrap: wrap; gap: 8px 14px; align-items: center; }
+.tags { display: flex; flex-wrap: wrap; gap: 4px; }
+.tag { font-size: 12px; color: var(--muted); border: 1px solid var(--line); border-radius: 4px; padding: 0 6px; }
+.note { flex: 1 1 240px; min-width: 0; font: 14px var(--body); color: var(--ink); background: var(--bg); border: 1px solid var(--line); border-radius: 7px; padding: 6px 10px; }
+.src { font: 12px var(--mono); color: var(--muted); }
+.src a { color: var(--accent); }
+.empty { color: var(--muted); padding: 20px 0; }
+footer { color: var(--muted); font-size: 13px; max-width: 75ch; display: grid; gap: 6px; }
+footer p { margin: 0; }
+@media (max-width: 640px) {
+  .row { grid-template-columns: 44px minmax(0, 1fr); }
+  .verdict { grid-column: 1 / -1; grid-row: auto; }
+  .wave { grid-column: 1 / -1; }
+}
+@media (prefers-reduced-motion: reduce) { * { transition: none !important; } }
+</style>
+
+<div class="wrap">
+  <header>
+    <h1>Launch Film Music</h1>
+    <p class="lede">The 42 candidate tracks for the Tin launch film. I measured 255 royalty-free Mixkit tracks for tempo, beat steadiness, intro length and how hard the bass jumps at the first drop. The best seven in each style are here. Every preview is <b>32 seconds, starting 16 seconds before the drop</b>, so you hear the build and the hit. The bar under each title shows the whole track's energy. The tinted band is the preview and the line is the drop. Click the bar to jump. Mark each track Keep, Maybe or No. Your verdicts save here and I read them back.</p>
+    <div class="tally" id="tally"></div>
+  </header>
+  <div class="bar" role="toolbar" aria-label="Filters">
+    <div id="styleChips" style="display:flex;flex-wrap:wrap;gap:8px"></div>
+    <span class="sep" aria-hidden="true"></span>
+    <div id="verdictChips" style="display:flex;flex-wrap:wrap;gap:8px"></div>
+    <span class="status" id="status">Connecting…</span>
+  </div>
+  <main id="list"></main>
+  <footer>
+    <p>License: Mixkit Stock Music Free License. Allowed in social posts, online ads and YouTube with no attribution. Not allowed in broadcast, games or CDs, and tracks can't be remixed or registered with Content ID. That covers a founder's launch film. Shipping these tracks inside Tin for every customer is a separate question for Mixkit's user terms.</p>
+    <p>The numbers are measurements, not taste. Drop times are where the bass energy jumps at least 6 dB bar over bar, located to the nearest 20 ms. Check them by ear before cutting a film to one.</p>
+  </footer>
+</div>
+<audio id="player" preload="none"></audio>
+
+<script id="data" type="application/json">__CATALOGUE__</script>
+<script>
+const CAT = JSON.parse(document.getElementById('data').textContent);
+const WHY = {
+  keynote: 'Synth-led electronic with a clear pulse. The Apple-keynote and AI-lab launch look.',
+  house: 'Four-on-the-floor at 117 to 130 BPM. Easy to cut UI states on every beat.',
+  hiphop: 'Swagger and space. Half-time drums leave room for a voiceover.',
+  cinematic: 'Builds and impacts for a story arc: problem, turn, payoff.',
+  bright: 'Upbeat pop energy. Friendly product films, but the most likely to sound stock.',
+  calm: 'Softer beds for a hero loop on the landing page or under a talking voice.'
+};
+const fmt = s => s == null ? '—' : `${Math.floor(s / 60)}:${String(Math.floor(s % 60)).padStart(2, '0')}${s % 1 ? '.' + String(Math.round((s % 1) * 10)).slice(0,1) : ''}`;
+const state = { verdicts: {}, style: 'all', show: 'all', playing: null, db: null, uid: null };
+const player = document.getElementById('player');
+const rows = new Map();
+
+function chip(label, pressed, onClick) {
+  const b = document.createElement('button');
+  b.className = 'chip'; b.type = 'button'; b.textContent = label;
+  b.setAttribute('aria-pressed', String(pressed)); b.onclick = onClick; return b;
+}
+function renderChips() {
+  const sc = document.getElementById('styleChips'); sc.replaceChildren();
+  sc.append(chip('All styles', state.style === 'all', () => { state.style = 'all'; renderChips(); applyFilter(); }));
+  for (const s of CAT.styles) sc.append(chip(s.label, state.style === s.key, () => { state.style = s.key; renderChips(); applyFilter(); }));
+  const vc = document.getElementById('verdictChips'); vc.replaceChildren();
+  for (const [k, l] of [['all', 'Any verdict'], ['unrated', 'Unrated'], ['keep', 'Keep'], ['maybe', 'Maybe'], ['no', 'No']])
+    vc.append(chip(l, state.show === k, () => { state.show = k; renderChips(); applyFilter(); }));
+}
+function renderTally() {
+  const c = { keep: 0, maybe: 0, no: 0 };
+  for (const t of CAT.tracks) { const v = state.verdicts[t.id]?.verdict; if (v) c[v]++; }
+  const un = CAT.tracks.length - c.keep - c.maybe - c.no;
+  document.getElementById('tally').innerHTML =
+    `<span class="k">Keep <b>${c.keep}</b></span><span class="m">Maybe <b>${c.maybe}</b></span><span class="n">No <b>${c.no}</b></span><span>Unrated <b>${un}</b></span><span>Tracks <b>${CAT.tracks.length}</b></span>`;
+}
+function applyFilter() {
+  for (const sec of document.querySelectorAll('section.style')) {
+    let any = false;
+    for (const el of sec.querySelectorAll('.row')) {
+      const t = rows.get(Number(el.dataset.id)).t;
+      const v = state.verdicts[t.id]?.verdict || 'unrated';
+      const ok = (state.style === 'all' || t.style === state.style) && (state.show === 'all' || v === state.show);
+      el.hidden = !ok; any ||= ok;
+    }
+    sec.hidden = !any;
+  }
+}
+const PLAY = '<svg viewBox="0 0 16 16" aria-hidden="true"><path d="M4 2.5v11l9.5-5.5z"/></svg>';
+const PAUSE = '<svg viewBox="0 0 16 16" aria-hidden="true"><path d="M3.5 2.5h3v11h-3zM9.5 2.5h3v11h-3z"/></svg>';
+
+function drawWave(r) {
+  const { t, canvas } = r; const dpr = window.devicePixelRatio || 1;
+  const w = canvas.clientWidth, h = canvas.clientHeight; if (!w) return;
+  canvas.width = w * dpr; canvas.height = h * dpr;
+  const g = canvas.getContext('2d'); g.scale(dpr, dpr);
+  const css = getComputedStyle(document.documentElement);
+  const D = t.duration, X = s => (s / D) * w;
+  g.fillStyle = css.getPropertyValue('--window');
+  g.fillRect(X(t.preview_start), 0, X(t.preview_len), h);
+  const n = t.curve.length, bw = w / n;
+  g.fillStyle = css.getPropertyValue('--wave');
+  t.curve.forEach((v, i) => { const bh = Math.max(2, v * (h - 6)); g.fillRect(i * bw + 1, (h - bh) / 2, Math.max(1, bw - 2), bh); });
+  const drop = t.first_drop ?? null;
+  if (drop != null) { g.fillStyle = css.getPropertyValue('--accent'); g.fillRect(X(drop) - 1, 0, 2, h); }
+  if (state.playing === t.id && !player.paused || state.playing === t.id && player.currentTime > 0) {
+    g.fillStyle = css.getPropertyValue('--ink'); g.fillRect(X(t.preview_start + player.currentTime) - 1, 2, 2, h - 4);
+  }
+}
+function setPlaying(id) {
+  for (const [rid, r] of rows) { const on = rid === id && !player.paused; r.el.classList.toggle('playing', rid === id); r.btn.innerHTML = on ? PAUSE : PLAY; r.btn.setAttribute('aria-label', (on ? 'Pause ' : 'Play ') + r.t.title); }
+}
+function toggle(t, seekTo) {
+  if (state.playing !== t.id) {
+    const prev = state.playing; state.playing = t.id;
+    player.src = `previews/${t.id}.mp3`;
+    if (prev != null) drawWave(rows.get(prev));
+  }
+  if (seekTo != null) { player.currentTime = seekTo; player.play().catch(() => {}); }
+  else if (player.paused) player.play().catch(() => {}); else player.pause();
+}
+player.addEventListener('play', () => setPlaying(state.playing));
+player.addEventListener('pause', () => setPlaying(state.playing));
+player.addEventListener('ended', () => setPlaying(state.playing));
+let raf = 0;
+player.addEventListener('timeupdate', () => { cancelAnimationFrame(raf); raf = requestAnimationFrame(() => state.playing != null && drawWave(rows.get(state.playing))); });
+
+function renderVerdict(r) {
+  const v = state.verdicts[r.t.id] || {};
+  for (const b of r.vbtns) b.setAttribute('aria-pressed', String(b.dataset.v === v.verdict));
+  if (document.activeElement !== r.note) r.note.value = v.note || '';
+}
+async function save(t, patch) {
+  const cur = { ...(state.verdicts[t.id] || {}) };
+  const next = { ...cur, ...patch, title: t.title, style: t.style, updatedAt: new Date().toISOString(), by: state.uid || null };
+  state.verdicts[t.id] = next; renderVerdict(rows.get(t.id)); renderTally(); applyFilter();
+  if (!state.db) { setStatus('Not saved: this view has no shared storage'); return; }
+  try { await state.db.collection('verdicts').doc(String(t.id)).set(next); setStatus('Saved'); }
+  catch (e) { setStatus(e?.code === 'permission_denied' ? 'Not saved: you can view but not vote' : 'Not saved: ' + (e?.code || 'error')); }
+}
+function setStatus(s) { document.getElementById('status').textContent = s; }
+
+function build() {
+  const list = document.getElementById('list');
+  for (const s of CAT.styles) {
+    const sec = document.createElement('section'); sec.className = 'style'; sec.dataset.style = s.key;
+    sec.innerHTML = `<h2>${s.label}</h2><p class="why">${WHY[s.key] || ''}</p>`;
+    for (const t of CAT.tracks.filter(x => x.style === s.key)) {
+      const el = document.createElement('article'); el.className = 'row'; el.dataset.id = t.id;
+      const dropTxt = t.first_drop != null ? `drop <b>${fmt(t.first_drop)}</b> <span title="bass jump">+${t.first_drop_db} dB</span>` : 'no hard drop';
+      el.innerHTML = `
+        <button class="play" type="button" aria-label="Play ${t.title}">${PLAY}</button>
+        <div class="meta"><span class="title"></span><span class="author"></span>
+          <span class="stats"><span><b>${Math.round(t.bpm)}</b> BPM</span><span>${dropTxt}</span><span>intro <b>${fmt(t.intro)}</b></span><span>length <b>${fmt(t.duration)}</b></span></span></div>
+        <div class="verdict" role="group" aria-label="Verdict">
+          <button type="button" data-v="keep" aria-pressed="false">Keep</button>
+          <button type="button" data-v="maybe" aria-pressed="false">Maybe</button>
+          <button type="button" data-v="no" aria-pressed="false">No</button></div>
+        <div class="wave" title="Whole track energy. Tinted band is the preview, line is the drop. Click to jump."><canvas></canvas></div>
+        <div class="lower"><div class="tags"></div>
+          <input class="note" id="note-${t.id}" type="text" placeholder="Note: what it suits, where it drags" aria-label="Note for ${t.title}">
+          <span class="src">Mixkit #${t.id} · <a href="${t.source}" target="_blank" rel="noopener">full track</a></span></div>`;
+      el.querySelector('.title').textContent = t.title;
+      el.querySelector('.author').textContent = 'by ' + t.author;
+      const tg = el.querySelector('.tags'); for (const x of t.tags.slice(0, 6)) { const s2 = document.createElement('span'); s2.className = 'tag'; s2.textContent = x; tg.append(s2); }
+      const r = { t, el, btn: el.querySelector('.play'), canvas: el.querySelector('canvas'), note: el.querySelector('.note'), vbtns: [...el.querySelectorAll('.verdict button')] };
+      rows.set(t.id, r);
+      r.btn.onclick = () => toggle(t);
+      el.querySelector('.wave').onclick = ev => {
+        const box = ev.currentTarget.getBoundingClientRect(); const at = ((ev.clientX - box.left) / box.width) * t.duration;
+        const rel = Math.min(Math.max(at - t.preview_start, 0), t.preview_len - 0.5); toggle(t, rel);
+      };
+      for (const b of r.vbtns) b.onclick = () => { const cur = state.verdicts[t.id]?.verdict; save(t, { verdict: cur === b.dataset.v ? null : b.dataset.v }); };
+      let timer; r.note.addEventListener('input', () => { clearTimeout(timer); timer = setTimeout(() => save(t, { note: r.note.value.trim() }), 800); });
+      sec.append(el);
+    }
+    list.append(sec);
+  }
+  requestAnimationFrame(() => rows.forEach(drawWave));
+  addEventListener('resize', () => rows.forEach(drawWave));
+  matchMedia('(prefers-color-scheme: dark)').addEventListener?.('change', () => rows.forEach(drawWave));
+}
+
+build(); renderChips(); renderTally(); applyFilter();
+
+(async () => {
+  const db = await window.claude?.use?.('db').catch(() => null);
+  if (!db) { setStatus('Verdicts can’t be saved in this view'); return; }
+  state.db = db;
+  try { const user = await window.claude.use('user'); state.uid = user ? await user.id() : null; } catch {}
+  db.collection('verdicts').onSnapshot(snap => {
+    for (const d of snap.docs) state.verdicts[Number(d.id)] = d.data();
+    rows.forEach(renderVerdict); renderTally(); applyFilter();
+    setStatus(snap.empty ? 'Ready. No verdicts yet' : 'Synced');
+  }, e => setStatus('Sync stopped: ' + (e?.code || 'error')));
+})();
+</script>

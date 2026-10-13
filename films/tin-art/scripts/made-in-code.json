@@ -1,0 +1,64 @@
+[
+ {
+  "id": "code:paper",
+  "status": "film",
+  "stills": "all",
+  "title": "Tin's paper #F5F1E6 with fine grain and fibres; grain that moves every frame",
+  "archive": "made in code",
+  "file": "src/engine.js",
+  "use": "Ground of every shot. Fixed paper (seeded noise and fibres, ~1.7 levels) plus a zero-mean grain field shifted by a frame-seeded offset every frame (~2.3 levels on paper, ~1.8 levels of change frame to frame)."
+ },
+ {
+  "id": "code:mark-fit",
+  "status": "film",
+  "stills": "all",
+  "title": "The Tin mark with the n's arches refitted as smooth Beziers",
+  "archive": "made in code from refs/brand/mark.svg",
+  "file": "src/mark-fit.js",
+  "use": "scripts/markfit.py: least-squares smoothing spline through the traced polygon's arches (max deviation 0.30 and 0.28 viewBox units); every straight edge kept vertex for vertex."
+ },
+ {
+  "id": "code:web-banner",
+  "status": "film",
+  "stills": [
+   "18"
+  ],
+  "title": "1996 banner GIF: the mark on a 20 px grid in two web-safe colours, ordered dither, hard shadow",
+  "archive": "made in code",
+  "file": "materials/cut/18-banner-pixels.png",
+  "use": "scripts/web1996.py banner2 --px 20 --fill checker --shadow: web-safe #FF0000 and #FFCC00 in a Bayer 4x4 pattern (a flat orange the 216-colour palette could not show), one-cell black drop shadow. No source image."
+ },
+ {
+  "id": "code:search-results",
+  "status": "film",
+  "stills": [
+   "19"
+  ],
+  "title": "Search results page, c. 2004 (generic, example.com domains)",
+  "archive": "made in code",
+  "file": "src/stills.js",
+  "use": "Set in Liberation Sans (SIL OFL 1.1, Arial's metrics; src/fonts/) at 2.2x a 2004 page, inside the mark, on Tin's deep paper (paper-deep from DESIGN.md). No real engine, brand or site."
+ },
+ {
+  "id": "code:terminal",
+  "status": "film",
+  "stills": [
+   "20"
+  ],
+  "title": "The terminal: an agent's marketing log on terminal blue #90D7E4",
+  "archive": "made in code",
+  "file": "src/stills.js",
+  "use": "SF Mono (refs/brand/fonts) at 46 px, ink at 0.86; the log scrolls one line per beat; the drain floods the mark with ink from the top over one beat."
+ },
+ {
+  "id": "code:end-card",
+  "status": "film",
+  "stills": [
+   "E"
+  ],
+  "title": "End card: mark, hairline grid, tin.computer, lime cursor",
+  "archive": "made in code",
+  "file": "src/film.js",
+  "use": "Funktional Grotesk Medium; 9% ink grid aligned to the mark's cap line and baseline; lime-cta block cursor, the only lime in the film."
+ }
+]
