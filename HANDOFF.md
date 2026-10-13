@@ -172,6 +172,11 @@ For each kept track:
   `map.png` as lanes for the model to look at, and `check.mp3`, 60 s with clicks on the grid and a bell at each section,
   for a human to verify by ear.
 
+### Getting the audio
+The repo has no Mixkit audio (the licence covers the music inside videos, not as files). Run
+`uv run python music/fetch_audio.py` to download the sources, verify them against `music/audio-manifest.json` and
+rebuild the cuts, check clips and the sound-effects stem.
+
 ### Cut and sync
 ```bash
 uv run --project ../.. python music/tools/cut.py music/library/745-house-vibez music-cut --bars 11 --land drop --at 8 --fade-bars 1.5

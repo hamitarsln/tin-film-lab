@@ -21,13 +21,15 @@ mkdir -p bin && ln -sf "$(uv run python -c 'import imageio_ffmpeg;print(imageio_
 ```
 
 Licensed files are not in the repo. Restore them before rendering:
-- **Fonts:** copy `FunktionalGrotesk-*.ttf` and `SFMono-Medium.otf` from tin-web's `public/fonts/` (private, Tin team access)
-  into `films/*/refs/brand/fonts/` and `films/tin-art/src/fonts/`.
-- **Music:** `music/catalogue/*.py` re-downloads the Mixkit tracks; `music/tools/map_track.py` rebuilds each track's
-  `check.mp3`; `music/tools/cut.py` recreates each film's `music-cut/music.wav` with the arguments in its `docs/MUSIC.md`.
-  The demo film's sound effects are Mixkit downloads listed in `films/tin-launch/sfx/`.
+- **Mixkit audio:** `uv run python music/fetch_audio.py` (under a minute). It downloads the 19 library tracks and the six
+  sound effects from Mixkit, checks each against `music/audio-manifest.json`, and rebuilds every file made from them:
+  the films' `music-cut/music.wav` (byte-identical to the originals), the demo's `sfx/sfx.wav` (byte-identical) and
+  each track's `check.mp3`. Add `--catalogue` for all 255 measured tracks (about 1.1 GB). Mixkit's free licence covers
+  the music inside videos, which is why the audio itself isn't committed.
+- **Fonts:** copy `FunktionalGrotesk-*.ttf` and `SFMono-Medium.otf` from tin-web's `public/fonts/` (private, Tin team
+  access) into `films/*/refs/brand/fonts/` and `films/tin-art/src/fonts/`.
 
-Also not in the repo (too large, regenerable or third-party): the full Mixkit mp3s (`music/catalogue/*.py` rebuild them),
+Also not in the repo (too large, regenerable or third-party): the full Mixkit catalogue mp3s (`music/fetch_audio.py --catalogue`),
 the art film's archive masters and cutouts (every source URL and rights field is in
 `films/tin-art/materials/assets.json`; ask Ege for a tarball rather than re-downloading 5 GB), intermediate renders,
 run logs and the downloaded reference films.
