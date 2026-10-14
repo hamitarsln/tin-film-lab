@@ -2,7 +2,7 @@
 
 A 20-second, 16:9 feature film for developers and indie hackers. Code → CLI → language files → try the CLI. Paper shapes, Loci and a short code example carry the story.
 
-The brief came from three questions: what feature to show, who should watch and act, and which format/style to use. This is the selected LocIn example, not a new Tin workflow or a general video generator.
+The brief came from three questions: what feature to show, who should watch and act, and which format/style to use. [Saved brief](BRIEF.md) → [story and three frames](STORY.md). For a new film, use the repo's [guided flow](../../FILM_FLOW.md).
 
 ## Render from a fresh checkout
 

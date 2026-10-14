@@ -2,6 +2,8 @@
 
 A 19.67-second film: read by typing, answer a question about the passage, then keep reading. This packages the selected v5 study, including the book ending with Wippy. The picture and music direction are unchanged.
 
+[Saved brief](BRIEF.md) → [story and three frames](STORY.md). For a new film, use the repo's [guided flow](../../FILM_FLOW.md).
+
 ## Render from a fresh checkout
 
 Needs Node.js, npm, Python 3 and uv. Run from the repository root:
