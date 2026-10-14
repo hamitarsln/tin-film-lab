@@ -63,5 +63,6 @@ Verify a fresh checkout can restore the inputs and render. Commit only the selec
 
 - [LocIn CLI brief](films/locin-cli-launch/BRIEF.md) → [story / three frames](films/locin-cli-launch/STORY.md) → [render commands](films/locin-cli-launch/README.md). Three user answers chose the feature, action and art direction.
 - [ReadnType reading brief](films/readntype-reading-launch/BRIEF.md) → [story / three frames](films/readntype-reading-launch/STORY.md) → [render commands](films/readntype-reading-launch/README.md). Existing feedback chose reading and comprehension, then the book ending with Wippy.
+- [Tin MCP brief](films/tin-mcp-launch/BRIEF.md) → [story / three frames](films/tin-mcp-launch/STORY.md) → [render commands](films/tin-mcp-launch/README.md). Three user answers chose MCP work, product makers and a product-focused film. Direction review came before the music preview.
 
 These films show different stories and music choices. Reuse the render contract and tools; choose the next film's story from its own brief.

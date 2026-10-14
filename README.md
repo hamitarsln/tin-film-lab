@@ -14,10 +14,11 @@ For a new film with your coding agent, start with [FILM_FLOW.md](FILM_FLOW.md): 
 | `films/tin-art/` | Art film in the style of Fable 5 (21.6 s, square). Share copy: `out/tin-art-share.mp4`. |
 | `films/locin-cli-launch/` | 20 s CLI feature film; [brief](films/locin-cli-launch/BRIEF.md), story and clean-checkout render commands. |
 | `films/readntype-reading-launch/` | 19.67 s reading/comprehension film; [brief](films/readntype-reading-launch/BRIEF.md), story and clean-checkout render commands. |
+| `films/tin-mcp-launch/` | 20 s MCP feature film; [brief](films/tin-mcp-launch/BRIEF.md), product example and clean-checkout render commands. |
 
 ## Setup
 
-The LocIn and ReadnType examples have smaller setup commands in their READMEs and include their open fonts. The full original Tin film setup below also needs the private brand fonts and archive inputs.
+The LocIn, ReadnType and Tin MCP examples have smaller setup commands in their READMEs and use included open fonts. The full original Tin film setup below also needs the private brand fonts and archive inputs.
 
 ```bash
 uv sync                                    # librosa 0.11 / numba 0.61 pins matter (newer numba segfaults)
