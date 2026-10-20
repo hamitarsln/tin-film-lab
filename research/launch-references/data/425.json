@@ -1,0 +1,371 @@
+{
+  "id": 425,
+  "viewed_evidence": [
+    "technical-review-2026-10-19/deep-review/motion/425/timeline-00.jpg",
+    "technical-review-2026-10-19/deep-review/motion/425/timeline-01.jpg",
+    "astra-review-2026-10-20/evidence/group-3/425/dense29-32.jpg",
+    "astra-review-2026-10-20/evidence/group-3/425/full24.jpg",
+    "astra-review-2026-10-20/evidence/group-3/425/full41.jpg"
+  ],
+  "product_from_film": "ChatGPT helps shoppers state preferences, refine products and receive a shopping report.",
+  "explains_well": "Budget, usage, brightness and style feedback make personalization concrete.",
+  "unclear": "The TV example changes to skincare before the final report, breaking the complete task chain.",
+  "product_type": "consumer assistant",
+  "scenario": "Find a bright-room TV, then show serum research.",
+  "product_clear_time": 3,
+  "product_clear_basis": "Personal shopper statement is followed by Best TVs for a bright room input.",
+  "scenes": [
+    {
+      "start": 0,
+      "end": 5,
+      "action": "ChatGPT is now your personal shopper builds, then TV query is entered.",
+      "design": "Black type on white and rounded input.",
+      "purpose": "State shopping task",
+      "id": "V01",
+      "evidence": "Visible 1 fps samples, source 0–5s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 5,
+      "end": 12,
+      "action": "Search status becomes advice, room images and research invitation.",
+      "design": "Chat response with prioritization bullets.",
+      "purpose": "Start research",
+      "id": "V02",
+      "evidence": "Visible 1 fps samples, source 5–12s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 12,
+      "end": 19,
+      "action": "Built around you precedes budget, usage and feature questions; blue selections choose up to $1200, all-around and high brightness.",
+      "design": "One question per screen.",
+      "purpose": "Collect preferences",
+      "id": "V03",
+      "evidence": "Visible 1 fps samples, source 12–19s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 19,
+      "end": 28,
+      "action": "TV card gains preference tags; feedback asks what is disliked, Style is selected, another TV appears.",
+      "design": "Stacked white product cards on blue.",
+      "purpose": "Refine recommendation",
+      "id": "V04",
+      "evidence": "Visible 1 fps samples, source 19–28s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 28,
+      "end": 37,
+      "action": "Research statement leads to one weight-set card, then moving catalog grid; serum card becomes focus.",
+      "design": "Many product images and prices.",
+      "purpose": "Broaden shopping range",
+      "id": "V05",
+      "evidence": "Visible 1 fps samples, source 28–37s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 37,
+      "end": 41,
+      "action": "Finding more serums, numbered products and progress lead to checkmark.",
+      "design": "Blue progress and white field.",
+      "purpose": "Show research state",
+      "id": "V06",
+      "evidence": "Visible 1 fps samples, source 37–41s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 41,
+      "end": 49,
+      "action": "Serum report under $50 appears, then Best Overall and comparison columns scroll.",
+      "design": "Report says Shopped for 4m, 15 products viewed.",
+      "purpose": "Deliver report",
+      "id": "V07",
+      "evidence": "Visible 1 fps samples, source 41–49s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 49,
+      "end": 52.433,
+      "action": "Shopping on ChatGPT resolves to knot logo.",
+      "design": "Minimal brand close.",
+      "purpose": "Name feature",
+      "id": "V08",
+      "evidence": "Visible 1 fps samples, source 49–52.433s; boundaries approximate, between-frame action unresolved."
+    }
+  ],
+  "sound": [
+    {
+      "id": "A01",
+      "start": 0,
+      "end": 52.433,
+      "layer": "unknown",
+      "detail": "No validated audio listening; speech, music, effects, mix and sync remain unverified.",
+      "visual_relation": "All visual scenes; alignment not checked",
+      "evidence": "No actual audio supplied to this review; existing technical-review-2026-10-19/deep-review/audio/425.json is not listening evidence."
+    }
+  ],
+  "categories": [
+    {
+      "finding": "TV request, questions and refinement give a causal start; category montage leads to a separate serum report.",
+      "evidence": "V01–V07",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q01"
+    },
+    {
+      "finding": "Black sentence on white builds to personal shopper, naming the role immediately.",
+      "evidence": "V01 0–2s",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q02"
+    },
+    {
+      "finding": "General shoppers and their research task are clear by the bright-room TV query at 3s.",
+      "evidence": "V01",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q03"
+    },
+    {
+      "finding": "At 29.5s a weight-set card stands alone, then a grid fills the view by 29.75s and translates across products. Exact entry between these samples is unresolved.",
+      "evidence": "V05; dense29-32.jpg",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q04"
+    },
+    {
+      "finding": "White explanatory cards divide stages; blue product-card scene links refinement to the wider catalog, then white report closes.",
+      "evidence": "V03–V07",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q05"
+    },
+    {
+      "finding": "Flat white and pale blue, rounded cards and isolated product photographs keep a retail catalog feel.",
+      "evidence": "V04/V05",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q06"
+    },
+    {
+      "finding": "Questions are short; response and report contain much smaller text. Full 41s reveals explicit 4m and 15-products context.",
+      "evidence": "V02/V03/V07",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q07"
+    },
+    {
+      "finding": "Voice presence and delivery remain unverified.",
+      "evidence": "No validated audio listening",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q08"
+    },
+    {
+      "finding": "Music character and arc remain unverified.",
+      "evidence": "No validated audio listening",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q09"
+    },
+    {
+      "finding": "Sound effects remain unverified.",
+      "evidence": "No validated audio listening",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q10"
+    },
+    {
+      "finding": "Sound-to-motion timing remain unverified.",
+      "evidence": "No validated audio listening",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q11"
+    },
+    {
+      "finding": "Room photos, isolated product pictures and simplified interface states provide the assets; provenance is unknown.",
+      "evidence": "V02/V04/V05",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q12"
+    },
+    {
+      "finding": "Source duration supplied as 52.433s; no independent compression, clipping or delivery check.",
+      "evidence": "Assigned metadata; source integrity checked by parent",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q13"
+    },
+    {
+      "finding": "The silent viewer can follow questions, feedback and a ranked report; no speech is required to identify the main feature.",
+      "evidence": "V01–V07",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q14"
+    },
+    {
+      "finding": "One centered question or card holds focus; the grid briefly spreads attention before isolating serum.",
+      "evidence": "V03–V06",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q15"
+    },
+    {
+      "finding": "Questions get distinct holds, while the report comparison scroll carries more detail than can be comfortably read in one pass.",
+      "evidence": "V03/V07",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q16"
+    },
+    {
+      "finding": "Personal-shopper promise is answered by preferences and report, though the final report does not resolve the opening TV task.",
+      "evidence": "V01/V03/V07",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q17"
+    },
+    {
+      "finding": "Simple choices appear designed to reduce shopping overload; catalog abundance then resolves to a best-overall pick.",
+      "evidence": "V03/V05/V07",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q18"
+    },
+    {
+      "finding": "Blue choice highlights and card shape persist, but TV-to-serum change loses the original need.",
+      "evidence": "V04–V07",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q19"
+    },
+    {
+      "finding": "Visible preference selections change shown recommendations. Research duration, accuracy, ranking and commerce behavior are claims of the demo, not independently verified.",
+      "evidence": "V04/V07",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q20"
+    },
+    {
+      "finding": "Chat input and OpenAI mark identify the product; rounded retail cards and blue selections are broadly reusable.",
+      "evidence": "V01/V08",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q21"
+    },
+    {
+      "finding": "A TV report before the category montage would complete the example; trim the catalog pan to fund this hold.",
+      "evidence": "V04/V05/V07",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q22"
+    },
+    {
+      "finding": "For Tin, turn brief questions into tagged asset recommendations, then a comparison report. Need one brief, alternatives and reasons for each.",
+      "evidence": "V03/V04/V07",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q23"
+    },
+    {
+      "finding": "No human new-viewer test; product description above is model interpretation of sampled images.",
+      "evidence": "V01–V08",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q24"
+    },
+    {
+      "finding": "No phone-size, safe-area or flash assessment; small UI text needs separate preview.",
+      "evidence": "Contact sheets",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q25"
+    }
+  ],
+  "lessons": {
+    "keep": "Show one preference at a time and carry its label into the recommended result.",
+    "try": [
+      "Try a Tin brief with three questions, then an asset card tagged with those exact choices.",
+      "Try a same-scenario report after a user rejects one style, showing why the replacement fits."
+    ],
+    "avoid": "Avoid changing the task just before its final result.",
+    "open": "Audio, exact card-entry interpolation and real recommendation quality remain unverified."
+  },
+  "comparison": {
+    "story": "State shopping task → Start research → Collect preferences → Refine recommendation → Broaden shopping range → Show research state → Deliver report → Name feature",
+    "motion": "At 29.5s a weight-set card stands alone, then a grid fills the view by 29.75s and translates across products. Exact entry between these samples is unresolved.",
+    "sound": "No validated listening; no absence claims.",
+    "texture": "Flat white and pale blue, rounded cards and isolated product photographs keep a retail catalog feel.",
+    "lesson": "Show one preference at a time and carry its label into the recommended result."
+  },
+  "elements": [
+    {
+      "kind": "ui",
+      "name": "prompt input",
+      "events": [
+        "V01"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "form",
+      "events": [
+        "V03"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "product card",
+      "events": [
+        "V04",
+        "V05"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "table",
+      "events": [
+        "V07"
+      ]
+    },
+    {
+      "kind": "motion",
+      "name": "moving grid",
+      "events": [
+        "V05"
+      ]
+    }
+  ],
+  "reviewer_model": "gpt-6-astra",
+  "scope": "sampled visual and story review; ASR and measured signal support; no validated audio listening",
+  "closer_windows": [
+    {
+      "start": 29,
+      "end": 32,
+      "rate_fps": 4,
+      "evidence": [
+        "astra-review-2026-10-20/evidence/group-3/425/dense29-32.jpg"
+      ],
+      "resolved": "Single weight-set card at about 29.5s becomes catalog grid by 29.75s, followed by grid travel. Entry path between samples unresolved."
+    }
+  ]
+}

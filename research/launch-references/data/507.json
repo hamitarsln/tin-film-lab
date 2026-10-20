@@ -1,0 +1,353 @@
+{
+  "id": 507,
+  "reviewer_model": "gpt-6-astra",
+  "scope": "sampled visual and story review; ASR and measured signal support; no validated audio listening",
+  "viewed_evidence": [
+    "technical-review-2026-10-19/deep-review/motion/507/timeline-00.jpg",
+    "technical-review-2026-10-19/deep-review/motion/507/timeline-01.jpg",
+    "technical-review-2026-10-19/deep-review/motion/507/timeline-02.jpg",
+    "technical-review-2026-10-19/deep-review/audio/507-speech.json"
+  ],
+  "closer_windows": [],
+  "product_from_film": "The Editor Company is introduced as a business the filmmaker is starting to fund a first movie; its exact client service is not explained.",
+  "explains_well": "The cereal-business analogy gives the company launch a clear personal reason.",
+  "unclear": "The audience learns why the company exists before learning what a customer can buy from it.",
+  "product_type": "creative company origin story",
+  "scenario": "Launch a business to finance a first film.",
+  "product_clear_time": null,
+  "product_clear_basis": "The company name and profile appear, but the service scope and customer deliverable are not established.",
+  "scenes": [
+    {
+      "id": "V01",
+      "start": 0,
+      "end": 10,
+      "action": "A nighttime cinema scene carries ep4. the editor company. A message offers to fund a first film, then the creator works on a laptop in a dim bedroom.",
+      "design": "Red theater light, teal room light, small white captions and message close-ups.",
+      "purpose": "Establish an offered opportunity and a decision to take another route.",
+      "evidence": "Visible chronological 1 fps samples, source 0–10s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V02",
+      "start": 10,
+      "end": 27,
+      "action": "Older-looking office footage and photos introduce Airbnb’s founders, early listings and presidential cereal boxes. A recession graphic and $30,000 text appear.",
+      "design": "Mixed-resolution archival-looking media and close cereal-box images.",
+      "purpose": "Explain the side-business analogy.",
+      "evidence": "Visible chronological 1 fps samples, source 10–27s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V03",
+      "start": 27,
+      "end": 37,
+      "action": "A Y Combinator photo, Airbnb branding and a text answer showing a $66.27 billion market-cap claim complete the analogy.",
+      "design": "Reframed photographs and a cropped information screen.",
+      "purpose": "Connect the early stunt to later scale.",
+      "evidence": "Visible chronological 1 fps samples, source 27–37s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V04",
+      "start": 37,
+      "end": 50,
+      "action": "A helmeted creator in a car, a desk of notebooks, a close selfie-like shot and people running at sunset accompany questions about building a venture-backed company and needing money.",
+      "design": "Cinematic warm shadows, moving handheld-looking framing and short captions.",
+      "purpose": "Turn the analogy back to the creator’s personal goal.",
+      "evidence": "Visible chronological 1 fps samples, source 37–50s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V05",
+      "start": 50,
+      "end": 60,
+      "action": "A camera monitor, The Editor Company social profile, a working camera setup and a filmmaker beside shipping containers appear. Captions say the company will fund a first movie.",
+      "design": "Production equipment, profile page and behind-the-scenes footage.",
+      "purpose": "Reveal the company and its purpose.",
+      "evidence": "Visible chronological 1 fps samples, source 50–60s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V06",
+      "start": 60,
+      "end": 63.772,
+      "action": "A car travels along a dusty road beneath follow for ep5.",
+      "design": "Wide landscape, dust trail and short centered text.",
+      "purpose": "Invite viewers to continue the series.",
+      "evidence": "Visible chronological 1 fps samples, source 60–63.772s; boundary approximate; exact motion between samples unverified."
+    }
+  ],
+  "sound": [
+    {
+      "id": "A01",
+      "start": 0,
+      "end": 63.772,
+      "layer": "unknown",
+      "detail": "No validated direct audio listening was performed. Music, speech delivery, effects, mix and sync remain unknown, not absent.",
+      "visual_relation": "All visual scenes; audiovisual alignment unverified",
+      "evidence": "Visual samples only; no actual audio range supplied to this reviewer."
+    },
+    {
+      "id": "A02",
+      "start": 0.74,
+      "end": 59.02,
+      "layer": "ASR draft",
+      "detail": "The coherent ASR draft links an offered movie investment to Airbnb’s cereal story, then says The Editor Company is the creator’s way to earn money for a first movie. The draft supports the analogy and personal motivation; it does not define the client service or verify historical and valuation claims.",
+      "visual_relation": "Story text support; exact audiovisual alignment and delivery unverified.",
+      "evidence": "technical-review-2026-10-19/deep-review/audio/507-speech.json; local faster-whisper base CPU int8 draft; VAD candidates only, recognition errors possible."
+    }
+  ],
+  "categories": [
+    {
+      "id": "Q01",
+      "finding": "An offered film investment leads to an Airbnb cereal analogy, then a personal business reveal and invitation to follow the next episode.",
+      "evidence": "V01–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q02",
+      "finding": "The cinema and visible funding message create a concrete personal-stakes hook.",
+      "evidence": "V01",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q03",
+      "finding": "Followers of the filmmaker’s journey are the clearest audience. Potential clients are not given a specific service or purchase path.",
+      "evidence": "V01,V05–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q04",
+      "finding": "Photos and messages are enlarged and reframed; quick cuts link old office material to cinematic personal footage, and the ending holds a moving car with its dust trail.",
+      "evidence": "V01–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q05",
+      "finding": "The edit moves from present-day personal footage to a historical analogy and back. Small captions hold the narrative link across varied source styles.",
+      "evidence": "V01–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q06",
+      "finding": "Red cinema light, teal interiors and golden sunset footage contrast with rougher archival-looking clips and screenshots.",
+      "evidence": "V01–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q07",
+      "finding": "Small white captions follow the story in different screen positions. The company profile is brief, and its broad line about making a company cool does not define a deliverable.",
+      "evidence": "V01–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q08",
+      "finding": "The coherent ASR draft links an offered movie investment to Airbnb’s cereal story, then says The Editor Company is the creator’s way to earn money for a first movie. The draft supports the analogy and personal motivation; it does not define the client service or verify historical and valuation claims.",
+      "evidence": "A02",
+      "status": "uncertain",
+      "reason": "ASR text only; no validated listening, delivery or voice origin.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q09",
+      "finding": "Voice delivery, music, effects and audiovisual alignment were not established by this visual pass.",
+      "evidence": "A01",
+      "status": "not checked",
+      "reason": "No validated direct audio listening input.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q10",
+      "finding": "Voice delivery, music, effects and audiovisual alignment were not established by this visual pass.",
+      "evidence": "A01",
+      "status": "not checked",
+      "reason": "No validated direct audio listening input.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q11",
+      "finding": "Voice delivery, music, effects and audiovisual alignment were not established by this visual pass.",
+      "evidence": "A01",
+      "status": "not checked",
+      "reason": "No validated direct audio listening input.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q12",
+      "finding": "Cinema and travel footage, message screenshots, older business photos, cereal packaging, desk details and production-equipment shots create the visual essay.",
+      "evidence": "V01–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q13",
+      "finding": "Manifest duration 63.772s; indexed dimensions 1920×1080. Source unchanged flag recorded; fresh encoding and audio clipping checks not run.",
+      "evidence": "Group manifest",
+      "status": "uncertain",
+      "reason": "Inherited technical metadata; no fresh media probe in this review.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q14",
+      "finding": "Captions and screenshots make much of the personal story readable without sound, but the exact business service remains absent.",
+      "evidence": "V01–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q15",
+      "finding": "The funding message and cereal boxes are strong concrete anchors. The company’s own service receives less visual emphasis than the analogy.",
+      "evidence": "V01–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q16",
+      "finding": "The Airbnb section takes roughly twenty-seven seconds of a one-minute film; the company itself appears near the final ten seconds.",
+      "evidence": "V02–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q17",
+      "finding": "Funding a first movie is the repeated goal. The company is presented as the means, with no customer work example to complete that business explanation.",
+      "evidence": "V01,V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q18",
+      "finding": "The personal footage and captions create an independent, slightly self-mocking origin story. The exact vocal tone remains unverified.",
+      "evidence": "V04–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q19",
+      "finding": "The cereal analogy explains financing a creative goal through another business. It does not establish similarity between the two business models.",
+      "evidence": "V02–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q20",
+      "finding": "The historical and market-cap statements are claims within the film, not independently checked facts. The message screenshot and profile do not verify funding terms or service capacity.",
+      "evidence": "V01–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q21",
+      "finding": "The episode label, company profile and follow-for-episode-five ending frame the launch as an ongoing creator series.",
+      "evidence": "V01,V05,V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q22",
+      "finding": "After the company reveal, add one example of a client deliverable and a clear contact or service line before the follow prompt.",
+      "evidence": "V05–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q23",
+      "finding": "Use one concrete analogy to explain a founder’s motivation, then return visibly to the present-day goal.",
+      "evidence": "V02–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q24",
+      "finding": "The Editor Company is introduced as a business the filmmaker is starting to fund a first movie; its exact client service is not explained.",
+      "evidence": "Model reading from inspected images",
+      "status": "uncertain",
+      "reason": "Model-only new-viewer interpretation; no human test.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q25",
+      "finding": "Contact sheets inspected at displayed size; a phone-size playback, caption audit, flash audit and formal accessibility check were not performed.",
+      "evidence": "Viewed sheets",
+      "status": "not checked",
+      "reason": "Full-size moving-image and device checks unavailable in this pass.",
+      "experiment": "none"
+    }
+  ],
+  "lessons": {
+    "keep": "Give a company origin story one tangible analogy and a clear personal goal.",
+    "avoid": "Explaining the founder’s reason for starting while leaving the buyer’s reason to hire unclear.",
+    "open": "Service scope, customer deliverables, historical claims and audio remain unverified.",
+    "try": [
+      "For Tin, use a short founder motivation story, then immediately show one customer campaign and the service delivered.",
+      "Compare this cut with a version that halves the historical analogy and uses the time for a client example."
+    ]
+  },
+  "comparison": {
+    "story": "Establish an offered opportunity and a decision to take another route. → Explain the side-business analogy. → Connect the early stunt to later scale. → Turn the analogy back to the creator’s personal goal. → Reveal the company and its purpose. → Invite viewers to continue the series.",
+    "motion": "Photos and messages are enlarged and reframed; quick cuts link old office material to cinematic personal footage, and the ending holds a moving car with its dust trail. Sampling scope: 1 fps unless a closer window is recorded.",
+    "sound": "No validated listening; unknown.",
+    "texture": "Red theater light, teal room light, small white captions and message close-ups.; Mixed-resolution archival-looking media and close cereal-box images.; Reframed photographs and a cropped information screen.; Cinematic warm shadows, moving handheld-looking framing and short captions.; Production equipment, profile page and behind-the-scenes footage.; Wide landscape, dust trail and short centered text.",
+    "lesson": "Give a company origin story one tangible analogy and a clear personal goal."
+  },
+  "elements": [
+    {
+      "kind": "ui",
+      "name": "message thread",
+      "events": [
+        "V01"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "social profile",
+      "events": [
+        "V05"
+      ]
+    },
+    {
+      "kind": "motion",
+      "name": "photo reframing",
+      "events": [
+        "V02",
+        "V03"
+      ]
+    },
+    {
+      "kind": "texture",
+      "name": "mixed archival-looking footage",
+      "events": [
+        "V02",
+        "V03"
+      ]
+    },
+    {
+      "kind": "texture",
+      "name": "colored cinematic lighting",
+      "events": [
+        "V01",
+        "V04"
+      ]
+    }
+  ]
+}

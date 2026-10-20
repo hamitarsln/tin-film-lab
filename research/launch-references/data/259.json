@@ -1,0 +1,319 @@
+{
+  "id": 259,
+  "reviewer_model": "gpt-6-astra",
+  "scope": "sampled visual and story review; ASR and measured signal support; no validated audio listening",
+  "viewed_evidence": [
+    "technical-review-2026-10-19/deep-review/motion/259/timeline-00.jpg",
+    "technical-review-2026-10-19/deep-review/motion/259/timeline-01.jpg",
+    "technical-review-2026-10-19/deep-review/audio/259-speech.json"
+  ],
+  "closer_windows": [],
+  "product_from_film": "The film promotes quick prediction-market bets in an onchain app.",
+  "explains_well": "The closing Quick bets line gives a clear speed-oriented promise after a repeated prediction-market theme.",
+  "unclear": "No app screen shows a market, stake, time window, confirmation or settlement.",
+  "product_type": "prediction-market app",
+  "scenario": "Make short-duration bets on price outcomes.",
+  "product_clear_time": 44,
+  "product_clear_basis": "Quick bets · Live now names the feature after the app mark.",
+  "scenes": [
+    {
+      "id": "V01",
+      "start": 0,
+      "end": 12,
+      "action": "Talking-head, stage and news clips repeat a prediction-market theme. Restaurant film scenes alternate with posts whose prediction-market phrases are highlighted yellow.",
+      "design": "Mixed source clips, dark borders, text crops and distortion.",
+      "purpose": "Present prediction markets as a widely discussed trend.",
+      "evidence": "Visible chronological 1 fps samples, source 0–12s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V02",
+      "start": 12,
+      "end": 29,
+      "action": "Several film characters in restaurant and meeting scenes alternate in close-up. Occasional single-word captions appear.",
+      "design": "Reaction-shot montage with little persistent explanatory text.",
+      "purpose": "Stage a contrast between long-wait bets and short-term price predictions, supported by ASR.",
+      "evidence": "Visible chronological 1 fps samples, source 12–29s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V03",
+      "start": 29,
+      "end": 40,
+      "action": "Cash imagery leads to layered money, watch, public-figure and entertainment images. The restaurant scene returns around Predict the game / moment text fragments.",
+      "design": "Overlapping cutout collage and finance imagery.",
+      "purpose": "Build a fast speculative mood.",
+      "evidence": "Visible chronological 1 fps samples, source 29–40s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V04",
+      "start": 40,
+      "end": 48.114,
+      "action": "A blue-and-pink symbol overlays the restaurant, then sits on black with your onchain super app. Quick bets · Live now holds to the end.",
+      "design": "Simple brand mark and centered white closing copy.",
+      "purpose": "Name the app category and feature availability.",
+      "evidence": "Visible chronological 1 fps samples, source 40–48.114s; boundary approximate; exact motion between samples unverified."
+    }
+  ],
+  "sound": [
+    {
+      "id": "A01",
+      "start": 0,
+      "end": 48.114,
+      "layer": "unknown",
+      "detail": "No validated direct audio listening was performed. Music, speech delivery, effects, mix and sync remain unknown, not absent.",
+      "visual_relation": "All visual scenes; audiovisual alignment unverified",
+      "evidence": "Visual samples only; no actual audio range supplied to this reviewer."
+    },
+    {
+      "id": "A02",
+      "start": 0,
+      "end": 34.97,
+      "layer": "ASR draft",
+      "detail": "The ASR draft repeats prediction markets, contrasts long waits with a BTC-price prediction in the next 15 minutes, and ends with predict-the-game/moment wording. It supplies the argument missing from many visual captions. Recognition is imperfect, and the relationship between these words and the reused footage is unverified; no voice origin or delivery is established.",
+      "visual_relation": "Story text support; exact audiovisual alignment and delivery unverified.",
+      "evidence": "technical-review-2026-10-19/deep-review/audio/259-speech.json; local faster-whisper base CPU int8 draft; VAD candidates only, recognition errors possible."
+    }
+  ],
+  "categories": [
+    {
+      "id": "Q01",
+      "finding": "Prediction-market chatter leads to a dialogue contrast, money collage and a quick-bets launch card.",
+      "evidence": "V01–V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q02",
+      "finding": "The opening assembles several speakers to imply a current topic without explaining one user task.",
+      "evidence": "V01",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q03",
+      "finding": "The product category is partly in the draft dialogue, while the visible quick-bets feature is named only around 44 s.",
+      "evidence": "V02,V04,A02",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q04",
+      "finding": "Rapid source changes, highlighted text crops and stacked images create movement; exact distortion and cut timing are unverified.",
+      "evidence": "V01,V03",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q05",
+      "finding": "Repeated restaurant footage anchors the collage, but continuity is thematic rather than a demonstrated app task.",
+      "evidence": "V02–V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q06",
+      "finding": "Dark framing, yellow highlights and money imagery contrast with the blue/pink brand mark.",
+      "evidence": "V01–V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q07",
+      "finding": "Quick bets is readable at the end. Much of the middle uses only brief words or uncaptioned faces, so its explanation depends on dialogue.",
+      "evidence": "V02,V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q08",
+      "finding": "The ASR draft repeats prediction markets, contrasts long waits with a BTC-price prediction in the next 15 minutes, and ends with predict-the-game/moment wording. It supplies the argument missing from many visual captions. Recognition is imperfect, and the relationship between these words and the reused footage is unverified; no voice origin or delivery is established.",
+      "evidence": "A02",
+      "status": "uncertain",
+      "reason": "ASR text only; no validated listening, delivery or voice origin.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q09",
+      "finding": "Voice delivery, music, effects and audiovisual alignment were not established by this visual pass.",
+      "evidence": "A01",
+      "status": "not checked",
+      "reason": "No validated direct audio listening input.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q10",
+      "finding": "Voice delivery, music, effects and audiovisual alignment were not established by this visual pass.",
+      "evidence": "A01",
+      "status": "not checked",
+      "reason": "No validated direct audio listening input.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q11",
+      "finding": "Voice delivery, music, effects and audiovisual alignment were not established by this visual pass.",
+      "evidence": "A01",
+      "status": "not checked",
+      "reason": "No validated direct audio listening input.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q12",
+      "finding": "News, entertainment footage, social posts and image cutouts are mixed; rights, origin and any audio alteration are unknown.",
+      "evidence": "V01–V03",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q13",
+      "finding": "Manifest duration 48.114s; indexed dimensions 1440×1080. Source unchanged flag recorded; fresh encoding and audio clipping checks not run.",
+      "evidence": "Group manifest",
+      "status": "uncertain",
+      "reason": "Inherited technical metadata; no fresh media probe in this review.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q14",
+      "finding": "Without listening, the prediction-market theme is clear but the long-versus-short bet argument is incomplete; ASR gives draft support.",
+      "evidence": "V01,V02,A02",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q15",
+      "finding": "The closing card has clear focus, while the collage spreads attention across many unrelated images.",
+      "evidence": "V03,V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q16",
+      "finding": "About 40 s build the cultural montage before the app mark and quick-bets card. No time is given to a task walkthrough.",
+      "evidence": "V01–V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q17",
+      "finding": "The quick-bets card answers the long-wait premise in words, without showing a faster completed experience.",
+      "evidence": "V02,V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q18",
+      "finding": "Money imagery and confident reactions suggest excitement and competitive identity; this is interpretation.",
+      "evidence": "V02,V03",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q19",
+      "finding": "No single bet or account persists across the film; recurring characters provide the only strong visual continuity.",
+      "evidence": "V02–V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q20",
+      "finding": "The film does not establish bet duration through readable UI, payout rules, a confirmed order or settlement. The ASR mentions 15 minutes; no exact product duration is verified.",
+      "evidence": "V02,V04,A02",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q21",
+      "finding": "The quick-bets positioning is specific, but the money and film collage is largely transferable to other trading brands.",
+      "evidence": "V03,V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q22",
+      "finding": "Replace one collage section with a readable market card, stake choice and final settled result.",
+      "evidence": "V03,V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q23",
+      "finding": "Tin can use a cultural hook briefly, then move quickly to a concrete task that earns the closing promise.",
+      "evidence": "V01,V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q24",
+      "finding": "The film promotes quick prediction-market bets in an onchain app.",
+      "evidence": "Model reading from inspected images",
+      "status": "uncertain",
+      "reason": "Model-only new-viewer interpretation; no human test.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q25",
+      "finding": "Contact sheets inspected at displayed size; a phone-size playback, caption audit, flash audit and formal accessibility check were not performed.",
+      "evidence": "Viewed sheets",
+      "status": "not checked",
+      "reason": "Full-size moving-image and device checks unavailable in this pass.",
+      "experiment": "none"
+    }
+  ],
+  "lessons": {
+    "keep": "End a broad theme with a short, clear feature name.",
+    "avoid": "Avoid making the entire product explanation depend on repurposed dialogue.",
+    "open": "Exact market duration, order flow, settlement, source provenance, altered dialogue and all audio remain unverified.",
+    "try": [
+      "Use a brief cultural opening for Tin, then show one complete campaign action before the CTA.",
+      "Compare a promise-only ending with an ending that includes the finished artifact and next step."
+    ]
+  },
+  "comparison": {
+    "story": "Present prediction markets as a widely discussed trend. → Stage a contrast between long-wait bets and short-term price predictions, supported by ASR. → Build a fast speculative mood. → Name the app category and feature availability.",
+    "motion": "Rapid source changes, highlighted text crops and stacked images create movement; exact distortion and cut timing are unverified. Sampling scope: 1 fps unless a closer window is recorded.",
+    "sound": "No validated listening; unknown.",
+    "texture": "Mixed source clips, dark borders, text crops and distortion.; Reaction-shot montage with little persistent explanatory text.; Overlapping cutout collage and finance imagery.; Simple brand mark and centered white closing copy.",
+    "lesson": "End a broad theme with a short, clear feature name."
+  },
+  "elements": [
+    {
+      "kind": "ui",
+      "name": "social post crops",
+      "events": [
+        "V01"
+      ]
+    },
+    {
+      "kind": "motion",
+      "name": "layered image collage",
+      "events": [
+        "V03"
+      ]
+    },
+    {
+      "kind": "texture",
+      "name": "film and news footage",
+      "events": [
+        "V01",
+        "V02",
+        "V03"
+      ]
+    }
+  ]
+}

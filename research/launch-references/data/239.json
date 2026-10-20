@@ -1,0 +1,382 @@
+{
+  "id": 239,
+  "reviewer_model": "gpt-6-astra",
+  "scope": "sampled visual and story review; ASR and measured signal support; no validated audio listening",
+  "viewed_evidence": [
+    "technical-review-2026-10-19/deep-review/motion/239/timeline-00.jpg",
+    "technical-review-2026-10-19/deep-review/motion/239/timeline-01.jpg",
+    "technical-review-2026-10-19/deep-review/motion/239/timeline-02.jpg",
+    "technical-review-2026-10-19/deep-review/motion/239/timeline-03.jpg",
+    "technical-review-2026-10-19/deep-review/audio/239-speech.json"
+  ],
+  "closer_windows": [],
+  "product_from_film": "Cofounder presents agents that help run a company across customer, marketing and engineering work.",
+  "explains_well": "Family questions provide a reason to show different business tasks while the person stays calm outside.",
+  "unclear": "The screens show many outputs but the inputs, permissions and handoffs behind each agent task are difficult to follow.",
+  "product_type": "business agents",
+  "scenario": "Run customer, marketing and engineering tasks from a shared agent workspace.",
+  "product_clear_time": 22,
+  "product_clear_basis": "Captions describe AI helping people start businesses while a company-role workspace is visible.",
+  "scenes": [
+    {
+      "id": "V01",
+      "start": 0,
+      "end": 13,
+      "action": "A person rests in a flower-covered field under the Cofounder title, then walks across the landscape using a phone. An empty outdoor table comes into view.",
+      "design": "Wide natural scenery, warm light and small yellow dialogue captions.",
+      "purpose": "Set a calm life context before business work.",
+      "evidence": "Visible chronological 1 fps samples, source 0–13s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V02",
+      "start": 13,
+      "end": 34,
+      "action": "A laptop is placed on the table. Its pale workspace has Cofounder at the center and business roles around it; small previews and activity messages appear as the phone conversation continues in the background.",
+      "design": "Screen in foreground, person and flowers behind it.",
+      "purpose": "Introduce a company supported by multiple agents.",
+      "evidence": "Visible chronological 1 fps samples, source 13–34s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V03",
+      "start": 34,
+      "end": 51,
+      "action": "The view moves closer to a customer-focused agent panel and a table that gains rows. A message or form panel then opens over it. The person remains on the phone beside the laptop.",
+      "design": "Pale table, left agent card and bottom status strip.",
+      "purpose": "Show customer work while dialogue addresses earlier difficulties.",
+      "evidence": "Visible chronological 1 fps samples, source 34–51s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V04",
+      "start": 51,
+      "end": 63,
+      "action": "A social-post agent panel shows a text document, then a growing gallery of portrait-format creatives. The person rests in the field behind the laptop.",
+      "design": "Document-to-gallery changes on a large laptop screen.",
+      "purpose": "Demonstrate marketing output while keeping the calm-life motif.",
+      "evidence": "Visible chronological 1 fps samples, source 51–63s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V05",
+      "start": 63,
+      "end": 75,
+      "action": "The setting changes to a misty ridge. An engineering agent panel shows an editor-like task surface, a completion state with confetti and a small site preview.",
+      "design": "Cool landscape, pale software panel and celebration particles.",
+      "purpose": "Show engineering progress and completion.",
+      "evidence": "Visible chronological 1 fps samples, source 63–75s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V06",
+      "start": 75,
+      "end": 98,
+      "action": "The field workspace returns. The person sits at the laptop and types; a central response panel expands with several agent rows and text. A final detailed form appears before the view leaves the laptop.",
+      "design": "Closer hands, response list and form views.",
+      "purpose": "Return control to the person and show coordination.",
+      "evidence": "Visible chronological 1 fps samples, source 75–98s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V07",
+      "start": 98,
+      "end": 106.189,
+      "action": "The field fills the frame with Cofounder, then Run a company with agents.",
+      "design": "White serif title and plain promise over flowers.",
+      "purpose": "Summarize the offer.",
+      "evidence": "Visible chronological 1 fps samples, source 98–106.189s; boundary approximate; exact motion between samples unverified."
+    }
+  ],
+  "sound": [
+    {
+      "id": "A01",
+      "start": 0,
+      "end": 106.189,
+      "layer": "unknown",
+      "detail": "No validated direct audio listening was performed. Music, speech delivery, effects, mix and sync remain unknown, not absent.",
+      "visual_relation": "All visual scenes; audiovisual alignment unverified",
+      "evidence": "Visual samples only; no actual audio range supplied to this reviewer."
+    },
+    {
+      "id": "A02",
+      "start": 10.12,
+      "end": 103.99,
+      "layer": "ASR draft",
+      "detail": "The ASR draft follows calls about starting a company, getting help with customer work and marketing, and family concern about workload and self-care. This supports the calm-life versus business-work structure. Some phrases and speaker boundaries are weak; captions provide additional visible context. Delivery and exact alignment remain unverified.",
+      "visual_relation": "Story text support; exact audiovisual alignment and delivery unverified.",
+      "evidence": "technical-review-2026-10-19/deep-review/audio/239-speech.json; local faster-whisper base CPU int8 draft; VAD candidates only, recognition errors possible."
+    }
+  ],
+  "categories": [
+    {
+      "id": "Q01",
+      "finding": "A calm field scene leads to family questions, agent task examples, a return to hands-on control and the company-running promise.",
+      "evidence": "V01–V07",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q02",
+      "finding": "A person lying in flowers under Cofounder creates a quiet opening instead of showing work pressure.",
+      "evidence": "V01",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q03",
+      "finding": "The role map and business-starting captions establish the broad product by about 22 s; specific tasks follow.",
+      "evidence": "V02",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q04",
+      "finding": "Tables populate, document text appears, a creative gallery grows and a completion screen adds confetti. Exact cursor actions are not always readable.",
+      "evidence": "V03–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q05",
+      "finding": "The laptop remains the foreground anchor as the background changes from field to ridge and back.",
+      "evidence": "V02–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q06",
+      "finding": "Soft landscapes and pale software screens make the work feel calm; yellow captions provide a separate dialogue layer.",
+      "evidence": "V01–V07",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q07",
+      "finding": "The ending promise is clear. Many table cells and status messages are too small to read while also following captions.",
+      "evidence": "V03–V07",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q08",
+      "finding": "The ASR draft follows calls about starting a company, getting help with customer work and marketing, and family concern about workload and self-care. This supports the calm-life versus business-work structure. Some phrases and speaker boundaries are weak; captions provide additional visible context. Delivery and exact alignment remain unverified.",
+      "evidence": "A02",
+      "status": "uncertain",
+      "reason": "ASR text only; no validated listening, delivery or voice origin.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q09",
+      "finding": "Voice delivery, music, effects and audiovisual alignment were not established by this visual pass.",
+      "evidence": "A01",
+      "status": "not checked",
+      "reason": "No validated direct audio listening input.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q10",
+      "finding": "Voice delivery, music, effects and audiovisual alignment were not established by this visual pass.",
+      "evidence": "A01",
+      "status": "not checked",
+      "reason": "No validated direct audio listening input.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q11",
+      "finding": "Voice delivery, music, effects and audiovisual alignment were not established by this visual pass.",
+      "evidence": "A01",
+      "status": "not checked",
+      "reason": "No validated direct audio listening input.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q12",
+      "finding": "Landscape footage, laptop screens and software overlays are visible; capture and compositing methods are unknown.",
+      "evidence": "V01–V07",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q13",
+      "finding": "Manifest duration 106.189s; indexed dimensions 1920×1080. Source unchanged flag recorded; fresh encoding and audio clipping checks not run.",
+      "evidence": "Group manifest",
+      "status": "uncertain",
+      "reason": "Inherited technical metadata; no fresh media probe in this review.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q14",
+      "finding": "Captions and the draft script explain the family conversation. Visual task outputs show breadth, but exact operations need closer readable steps.",
+      "evidence": "V02–V06,A02",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q15",
+      "finding": "Large foreground screens make the software prominent, but dialogue captions and distant human action divide attention.",
+      "evidence": "V02–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q16",
+      "finding": "The opening takes about 13 s before the laptop arrives. Long screen holds give the tasks room, with a shorter closing promise.",
+      "evidence": "V01–V07",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q17",
+      "finding": "Concern about workload is answered by task progress and a relaxed person; this is the main story payoff.",
+      "evidence": "V03–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q18",
+      "finding": "Family concern and outdoor rest suggest reassurance and reduced pressure. This interpretation is supported by captions and draft text, not heard delivery.",
+      "evidence": "V01–V06,A02",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q19",
+      "finding": "The same laptop workspace links departments, but each task begins after its setup and does not retain one shared input artifact.",
+      "evidence": "V02–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q20",
+      "finding": "Populated tables, creatives and completion states are shown. Agent setup, permissions, output quality and actual company outcomes are not established.",
+      "evidence": "V03–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q21",
+      "finding": "Family calls paired with calm outdoor work give a distinctive frame to a broad agent platform.",
+      "evidence": "V01–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q22",
+      "finding": "Give one department a readable request, approval and result before expanding to the other roles.",
+      "evidence": "V03–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q23",
+      "finding": "Tin can connect a human concern about workload to one clear campaign result, using a stable environment to hold the story together.",
+      "evidence": "V03,V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q24",
+      "finding": "Cofounder presents agents that help run a company across customer, marketing and engineering work.",
+      "evidence": "Model reading from inspected images",
+      "status": "uncertain",
+      "reason": "Model-only new-viewer interpretation; no human test.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q25",
+      "finding": "Contact sheets inspected at displayed size; a phone-size playback, caption audit, flash audit and formal accessibility check were not performed.",
+      "evidence": "Viewed sheets",
+      "status": "not checked",
+      "reason": "Full-size moving-image and device checks unavailable in this pass.",
+      "experiment": "none"
+    }
+  ],
+  "lessons": {
+    "keep": "Pair a human concern with a task result while keeping the person visible in the setting.",
+    "avoid": "Avoid using a broad role map and completed screens as the full explanation of agent coordination.",
+    "open": "Exact task inputs, permission steps, output correctness, response latency, screen production and all audio remain unverified.",
+    "try": [
+      "Show a Tin user discussing a launch deadline while a named campaign moves from brief to approved draft.",
+      "Hold one readable request and result before pulling back to a multi-agent overview."
+    ]
+  },
+  "comparison": {
+    "story": "Set a calm life context before business work. → Introduce a company supported by multiple agents. → Show customer work while dialogue addresses earlier difficulties. → Demonstrate marketing output while keeping the calm-life motif. → Show engineering progress and completion. → Return control to the person and show coordination. → Summarize the offer.",
+    "motion": "Tables populate, document text appears, a creative gallery grows and a completion screen adds confetti. Exact cursor actions are not always readable. Sampling scope: 1 fps unless a closer window is recorded.",
+    "sound": "No validated listening; unknown.",
+    "texture": "Wide natural scenery, warm light and small yellow dialogue captions.; Screen in foreground, person and flowers behind it.; Pale table, left agent card and bottom status strip.; Document-to-gallery changes on a large laptop screen.; Cool landscape, pale software panel and celebration particles.; Closer hands, response list and form views.; White serif title and plain promise over flowers.",
+    "lesson": "Pair a human concern with a task result while keeping the person visible in the setting."
+  },
+  "elements": [
+    {
+      "kind": "ui",
+      "name": "agent workspace",
+      "events": [
+        "V02",
+        "V06"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "table",
+      "events": [
+        "V03"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "document",
+      "events": [
+        "V04"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "creative gallery",
+      "events": [
+        "V04"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "form",
+      "events": [
+        "V03",
+        "V06"
+      ]
+    },
+    {
+      "kind": "motion",
+      "name": "completion confetti",
+      "events": [
+        "V05"
+      ]
+    },
+    {
+      "kind": "texture",
+      "name": "natural landscape",
+      "events": [
+        "V01",
+        "V02",
+        "V03",
+        "V04",
+        "V05",
+        "V06",
+        "V07"
+      ]
+    }
+  ]
+}

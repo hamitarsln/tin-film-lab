@@ -1,0 +1,402 @@
+{
+  "id": 363,
+  "viewed_evidence": [
+    "technical-review-2026-10-19/deep-review/motion/363/timeline-00.jpg",
+    "technical-review-2026-10-19/deep-review/motion/363/timeline-01.jpg",
+    "technical-review-2026-10-19/deep-review/motion/363/timeline-02.jpg",
+    "technical-review-2026-10-19/deep-review/motion/363/timeline-03.jpg",
+    "astra-review-2026-10-20/evidence/group-3/363/full49.jpg",
+    "astra-review-2026-10-20/evidence/group-3/363/full58.jpg",
+    "astra-review-2026-10-20/evidence/group-3/363/full75.jpg",
+    "technical-review-2026-10-19/deep-review/audio/363-speech.json"
+  ],
+  "product_from_film": "Jam presents an open-source distribution tool for builders, with outreach, SEO and social monitoring workflows.",
+  "explains_well": "The node cards expose concrete stages such as finding contacts, drafting emails, connecting GitHub and opening a pull request.",
+  "unclear": "The film moves across several workflows without showing one consistent customer result; some status cards conflict with their own details.",
+  "product_type": "marketing automation",
+  "scenario": "Set up outreach, repository SEO changes and social lead monitoring",
+  "product_clear_time": 33,
+  "product_clear_basis": "Distribution Playbooks title follows builders introduction; concrete product prompt starts near 37 s.",
+  "scenes": [
+    {
+      "start": 0,
+      "end": 16,
+      "action": "Outdoor logo introduces a person with laptop and roses; face close-ups and a seated disappointed pose lead to do not be like her, then a streetcar and logo.",
+      "design": "Dusk waterfront, outlined logo and large white text.",
+      "purpose": "Stage failed attention as a comic problem",
+      "id": "V01",
+      "evidence": "Visible 1 fps samples, source 0–16s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 16,
+      "end": 29,
+      "action": "Two presenters sit outdoors with open-source/builders titles and backer names appearing around them.",
+      "design": "Bridge background; growing small text lists.",
+      "purpose": "Introduce audience and credibility",
+      "id": "V02",
+      "evidence": "Visible 1 fps samples, source 16–29s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 29,
+      "end": 37,
+      "action": "Indoor presenter explains beside a whiteboard; Distribution Playbooks appears.",
+      "design": "Dim room and large title.",
+      "purpose": "Set up workflow tour",
+      "id": "V03",
+      "evidence": "Visible 1 fps samples, source 29–37s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 37,
+      "end": 45,
+      "action": "Chat prompt and angled response discuss a product website and a social monitoring campaign.",
+      "design": "Dark chat UI photographed at an angle.",
+      "purpose": "Show natural-language planning",
+      "id": "V04",
+      "evidence": "Visible 1 fps samples, source 37–45s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 45,
+      "end": 60,
+      "action": "Contacts table gives way to linked workflow cards: find contacts, draft, send and follow-up. At 49 s draft is Awaiting and send is Idle while its inner list says Sending and sent. A notification inbox follows near 59 s.",
+      "design": "Node graph with pink links and colored status borders.",
+      "purpose": "Show outreach workflow",
+      "id": "V05",
+      "evidence": "Visible 1 fps samples, source 45–60s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 60,
+      "end": 70,
+      "action": "Presenter introduces search; Connect GitHub card changes Awaiting to Completed, repository analysis Running to Completed.",
+      "design": "Dark node graph; clear text statuses.",
+      "purpose": "Start SEO workflow",
+      "id": "V06",
+      "evidence": "Visible 1 fps samples, source 60–70s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 70,
+      "end": 83,
+      "action": "File-reading activity precedes a completed summary with pull request 40 and nine files edited, then code differences.",
+      "design": "Agent output and green/red code diff.",
+      "purpose": "Show proposed repository changes",
+      "id": "V07",
+      "evidence": "Visible 1 fps samples, source 70–83s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 83,
+      "end": 91,
+      "action": "Presenters return for recurring work explanation.",
+      "design": "Indoor medium shots.",
+      "purpose": "Explain ongoing service",
+      "id": "V08",
+      "evidence": "Visible 1 fps samples, source 83–91s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 91,
+      "end": 98,
+      "action": "Monitoring nodes lead to 13 posts analyzed, four high priority, six complaints and 67% average relevance, with Connect Slack control.",
+      "design": "Dark metrics and Slack prompt.",
+      "purpose": "Show social monitoring output",
+      "id": "V09",
+      "evidence": "Visible 1 fps samples, source 91–98s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 98,
+      "end": 112.431,
+      "action": "Two presenters sit together; Open Source title and many picture/video tiles accumulate, clear away, then You/Spreads and outlined Jam logo close.",
+      "design": "Collage over people and white typography.",
+      "purpose": "Close builder positioning",
+      "id": "V10",
+      "evidence": "Visible 1 fps samples, source 98–112.431s; boundaries approximate, between-frame action unresolved."
+    }
+  ],
+  "sound": [
+    {
+      "id": "A01",
+      "start": 0,
+      "end": 112.431,
+      "layer": "unknown",
+      "detail": "No validated audio listening; speech, music, effects, mix and sync remain unverified.",
+      "visual_relation": "All visual scenes; alignment not checked",
+      "evidence": "No actual audio supplied to this review; existing technical-review-2026-10-19/deep-review/audio/363.json is not listening evidence."
+    },
+    {
+      "id": "A02",
+      "start": 16.26,
+      "end": 109.8,
+      "layer": "ASR draft",
+      "detail": "Candidate script explains open-source distribution for builders, product research, lead/email/follow-up workflow, weekly repository changes and social lead monitoring. It claims instant reply notifications and weekly content work, broader than the shown states. Reject the unclear opening dialogue, Huygonface, dropping emails, plural guess and leaking as reliable exact wording. Delivery, music and effects are unheard.",
+      "visual_relation": "V02–V10; broad script support, exact alignment unverified",
+      "evidence": "technical-review-2026-10-19/deep-review/audio/363-speech.json; existing faster-whisper base CPU int8"
+    }
+  ],
+  "categories": [
+    {
+      "finding": "Comic lack of attention leads to builders introduction, outreach, SEO, social monitoring and open-source close. These are separate examples rather than one retained campaign.",
+      "evidence": "V01–V10",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q01"
+    },
+    {
+      "finding": "Outlined Jam logo overlays waterfront footage; a person and laptop appear but the distribution task is not yet clear.",
+      "evidence": "V01 0–2 s",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q02"
+    },
+    {
+      "finding": "Builders and open source are visible at 16–19 s; Distribution Playbooks at 33 s narrows the task and the later screens explain channels.",
+      "evidence": "V02–V06",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q03"
+    },
+    {
+      "finding": "The graph view moves horizontally along connected cards while outlines and status words change; closing tiles accumulate around presenters. Exact camera easing and tile paths are not resolved by 1 fps samples.",
+      "evidence": "V05–V06, V10",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q04"
+    },
+    {
+      "finding": "Hard cuts switch outdoor sketch, indoor presenters and angled screens. Repeated people help bridge the three product examples.",
+      "evidence": "V01–V10",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q05"
+    },
+    {
+      "finding": "Dusk outdoor footage and dim indoor shots contrast with near-black UI and pink graph links. Small outlined branding remains consistent.",
+      "evidence": "V01–V10",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q06"
+    },
+    {
+      "finding": "Node headings are readable, but angled chat prose and backer lists are dense. At full49 the prominent Idle label conflicts with the internal Sending list.",
+      "evidence": "V02, V04–V05; full49.jpg",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q07"
+    },
+    {
+      "finding": "Voice presence and delivery remain unverified.",
+      "evidence": "No validated audio listening",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q08"
+    },
+    {
+      "finding": "Music character and arc remain unverified.",
+      "evidence": "No validated audio listening",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q09"
+    },
+    {
+      "finding": "Sound effects remain unverified.",
+      "evidence": "No validated audio listening",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q10"
+    },
+    {
+      "finding": "Sound-to-motion timing remain unverified.",
+      "evidence": "No validated audio listening",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q11"
+    },
+    {
+      "finding": "Presenter and street footage mix with screen close-ups and a closing photo/video collage. Asset sources and production software are not established.",
+      "evidence": "V01–V10",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q12"
+    },
+    {
+      "finding": "Source duration supplied as 112.431s; no independent compression, clipping or delivery check.",
+      "evidence": "Assigned metadata; source integrity checked by parent",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q13"
+    },
+    {
+      "finding": "Visible workflow names convey outreach, GitHub and social monitoring; the uncaptioned opening conversation and much of the presenter explanation are lost silently.",
+      "evidence": "V01–V09",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q14"
+    },
+    {
+      "finding": "Colored node outlines guide the eye through the graph; the closing collage competes with presenters and the open-source message.",
+      "evidence": "V05–V06, V10",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q15"
+    },
+    {
+      "finding": "The opening and credibility setup takes nearly 29 seconds before the product tour. The UI tour then adds three large workflows with little time on each final result.",
+      "evidence": "V01–V09",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q16"
+    },
+    {
+      "finding": "The opening suggests a need for attention. Distribution workflows answer that theme, but no resulting customer reply, ranking change or won user is carried to the ending.",
+      "evidence": "V01, V05–V10",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q17"
+    },
+    {
+      "finding": "Roses, disappointment and do not be like her suggest a comic rejection setup; founders and active graphs then suggest agency. Audience reaction is unmeasured.",
+      "evidence": "V01–V06",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q18"
+    },
+    {
+      "finding": "The same presenters and dark graph style connect sections. The prompt first shows social monitoring before the email tour, weakening a single-plan sequence.",
+      "evidence": "V04–V05, V09",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q19"
+    },
+    {
+      "finding": "Visible repository completion includes pull request 40 and nine files edited, followed by a diff. This supports a shown proposed change, not merged code or improved ranking. Outreach main statuses remain pending/idle; metrics and Slack connection do not prove notifications arrived.",
+      "evidence": "V05–V09; full49.jpg, full58.jpg, full75.jpg",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q20"
+    },
+    {
+      "finding": "The natural-language-to-node-graph combination and builder-oriented GitHub output identify the offer; roses and city footage provide a more personal but loose opening.",
+      "evidence": "V01, V04–V07",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q21"
+    },
+    {
+      "finding": "Keep a short setup and one complete workflow. Use the time saved from backer lists and closing collage for an actual approved email or reviewed pull request result.",
+      "evidence": "V02, V05, V07, V10",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q22"
+    },
+    {
+      "finding": "For Tin, show the same campaign prompt, generated steps, approval and one resulting artifact. Requires consistent run IDs, real status captures and a readable final output.",
+      "evidence": "V04–V07",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q23"
+    },
+    {
+      "finding": "No human new-viewer test; product description above is model interpretation of sampled images.",
+      "evidence": "V01–V10",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q24"
+    },
+    {
+      "finding": "No phone-size, safe-area or flash assessment; small UI text needs separate preview.",
+      "evidence": "Contact sheets",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q25"
+    }
+  ],
+  "lessons": {
+    "keep": "Show named workflow stages and an inspectable output such as a pull request.",
+    "try": [
+      "For a Tin outreach demo, retain one contact through drafted email, approval, sent state and a labeled response; keep status labels consistent.",
+      "For a repository workflow, show prompt, completed change summary and one readable diff, then explicitly label the user review step."
+    ],
+    "avoid": "Avoid showing internal sending activity under an Idle heading or switching workflows before a clear result.",
+    "open": "Workflow execution, delivered emails, ranking impact, claimed backing and all audio remain unverified."
+  },
+  "comparison": {
+    "story": "Stage failed attention as a comic problem → Introduce audience and credibility → Set up workflow tour → Show natural-language planning → Show outreach workflow → Start SEO workflow → Show proposed repository changes → Explain ongoing service → Show social monitoring output → Close builder positioning",
+    "motion": "The graph view moves horizontally along connected cards while outlines and status words change; closing tiles accumulate around presenters. Exact camera easing and tile paths are not resolved by 1 fps samples.",
+    "sound": "No validated listening; no absence claims.",
+    "texture": "Dusk outdoor footage and dim indoor shots contrast with near-black UI and pink graph links. Small outlined branding remains consistent.",
+    "lesson": "Show named workflow stages and an inspectable output such as a pull request."
+  },
+  "elements": [
+    {
+      "kind": "ui",
+      "name": "chat",
+      "events": [
+        "V04"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "table",
+      "events": [
+        "V05"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "node graph",
+      "events": [
+        "V05",
+        "V06",
+        "V09"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "code diff",
+      "events": [
+        "V07"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "metrics",
+      "events": [
+        "V09"
+      ]
+    },
+    {
+      "kind": "texture",
+      "name": "presenter footage",
+      "events": [
+        "V02",
+        "V03",
+        "V08",
+        "V10"
+      ]
+    }
+  ],
+  "reviewer_model": "gpt-6-astra",
+  "scope": "sampled visual and story review; ASR and measured signal support; no validated audio listening",
+  "closer_windows": []
+}

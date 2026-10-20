@@ -1,0 +1,348 @@
+{
+  "id": 516,
+  "reviewer_model": "gpt-6-astra",
+  "scope": "sampled visual and story review; ASR and measured signal support; no validated audio listening",
+  "viewed_evidence": [
+    "technical-review-2026-10-19/deep-review/motion/516/timeline-00.jpg",
+    "technical-review-2026-10-19/deep-review/motion/516/timeline-01.jpg",
+    "technical-review-2026-10-19/deep-review/motion/516/timeline-02.jpg"
+  ],
+  "closer_windows": [],
+  "product_from_film": "Perplexity is framed as a personal knowledge tool through a phone question and a desktop article-like answer.",
+  "explains_well": "The history-of-tools montage connects curiosity to familiar ways people seek knowledge.",
+  "unclear": "The phone asks about an acoustic guitar, while the later desktop shows moon-landing history, so no single question is followed through to its answer.",
+  "product_type": "knowledge brand film",
+  "scenario": "Ask a personal question and explore information.",
+  "product_clear_time": 36,
+  "product_clear_basis": "The phone shows Help me buy an acoustic guitar after the personal-knowledge statement.",
+  "scenes": [
+    {
+      "id": "V01",
+      "start": 0,
+      "end": 8,
+      "action": "A lit office at night and flowing sand-like forms carry questions about what drives the world and the quest for knowledge.",
+      "design": "Dark cinematic images with centered white text.",
+      "purpose": "Introduce curiosity as the theme.",
+      "evidence": "Visible chronological 1 fps samples, source 0–8s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V02",
+      "start": 8,
+      "end": 27,
+      "action": "A painted fire scene, cave marks, pyramids, printing machinery, early computers, transport, scientific models, a synthesizer and an early web directory appear in succession.",
+      "design": "Mixed historical-looking footage and images with a repeated centered text line.",
+      "purpose": "Place modern knowledge tools in a long history.",
+      "evidence": "Visible chronological 1 fps samples, source 8–27s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V03",
+      "start": 27,
+      "end": 37,
+      "action": "The future of knowledge is personal appears on black. A dark phone view shows a voice-style waveform and the request Help me buy an acoustic guitar.",
+      "design": "Low-lit phone packshot and restrained blue waveform.",
+      "purpose": "Introduce a personal question interface.",
+      "evidence": "Visible chronological 1 fps samples, source 27–37s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V04",
+      "start": 37,
+      "end": 46,
+      "action": "A person on a train, music equipment, Earth above a lunar surface and metalworking sparks accompany passions, interests and a mission to serve curiosity.",
+      "design": "Warm travel footage, space imagery and bright sparks.",
+      "purpose": "Connect knowledge to varied human interests.",
+      "evidence": "Visible chronological 1 fps samples, source 37–46s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V05",
+      "start": 46,
+      "end": 54,
+      "action": "A laptop rises into view and displays Moon Landing History Overview with an image and structured text. The page changes layout as the view moves closer.",
+      "design": "Dark laptop against gray with a clean article-like result.",
+      "purpose": "Show an information output on desktop.",
+      "evidence": "Visible chronological 1 fps samples, source 46–54s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V06",
+      "start": 54,
+      "end": 68.868,
+      "action": "An eye behind glasses reflects blue imagery, then Join us and Where knowledge begins lead to the Perplexity symbol, name and perplexity.ai.",
+      "design": "Extreme eye close-up, blue circular imagery and black logo cards.",
+      "purpose": "End with curiosity and the brand destination.",
+      "evidence": "Visible chronological 1 fps samples, source 54–68.868s; boundary approximate; exact motion between samples unverified."
+    }
+  ],
+  "sound": [
+    {
+      "id": "A01",
+      "start": 0,
+      "end": 68.868,
+      "layer": "unknown",
+      "detail": "No validated direct audio listening was performed. Music, speech delivery, effects, mix and sync remain unknown, not absent.",
+      "visual_relation": "All visual scenes; audiovisual alignment unverified",
+      "evidence": "Visual samples only; no actual audio range supplied to this reviewer."
+    }
+  ],
+  "categories": [
+    {
+      "id": "Q01",
+      "finding": "A history of curiosity and tools narrows to personal questions, broadens to human interests and ends on a knowledge output and brand.",
+      "evidence": "V01–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q02",
+      "finding": "A lit office at night and a broad question create a reflective opening rather than an immediate product task.",
+      "evidence": "V01",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q03",
+      "finding": "Curious people seeking personal information are the broad audience. The acoustic-guitar prompt is the first concrete product use at 36s.",
+      "evidence": "V03",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q04",
+      "finding": "Historical images cut rapidly, the phone rotates or reframes while its waveform changes, a laptop lifts into view, and a close eye image leads into blue abstract imagery and the logo.",
+      "evidence": "V02–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q05",
+      "finding": "Centered text links the varied montage. Black title space slows the film before the phone and again at the closing brand sequence.",
+      "evidence": "V01–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q06",
+      "finding": "Grainy historical-looking material, sand, fire, metal sparks and dark glossy devices create a mix of human history and contemporary technology.",
+      "evidence": "V01–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q07",
+      "finding": "Short centered statements are readable in isolation, though white text over busy historical images can lose contrast. The actual interface is comparatively small and dark.",
+      "evidence": "V01–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q08",
+      "finding": "Voice delivery, music, effects and audiovisual alignment were not established by this visual pass.",
+      "evidence": "A01",
+      "status": "not checked",
+      "reason": "No validated direct audio listening input.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q09",
+      "finding": "Voice delivery, music, effects and audiovisual alignment were not established by this visual pass.",
+      "evidence": "A01",
+      "status": "not checked",
+      "reason": "No validated direct audio listening input.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q10",
+      "finding": "Voice delivery, music, effects and audiovisual alignment were not established by this visual pass.",
+      "evidence": "A01",
+      "status": "not checked",
+      "reason": "No validated direct audio listening input.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q11",
+      "finding": "Voice delivery, music, effects and audiovisual alignment were not established by this visual pass.",
+      "evidence": "A01",
+      "status": "not checked",
+      "reason": "No validated direct audio listening input.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q12",
+      "finding": "Historical-looking footage, illustrations, device views, lifestyle shots, space imagery, an eye close-up and title graphics form the film. Provenance is unverified.",
+      "evidence": "V01–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q13",
+      "finding": "Manifest duration 68.868s; indexed dimensions 1280×720. Source unchanged flag recorded; fresh encoding and audio clipping checks not run.",
+      "evidence": "Group manifest",
+      "status": "uncertain",
+      "reason": "Inherited technical metadata; no fresh media probe in this review.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q14",
+      "finding": "The text states the curiosity theme and the phone request. The film shows no answer to that request, even without considering sound.",
+      "evidence": "V01–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q15",
+      "finding": "The large montage and text carry attention longer than the interfaces. The phone is dark, while the desktop result gets a clearer close view.",
+      "evidence": "V02–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q16",
+      "finding": "About twenty-seven seconds establish history before the personal-knowledge claim. Product screens receive a smaller share than the brand atmosphere.",
+      "evidence": "V01–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q17",
+      "finding": "The theme remains knowledge, but the acoustic-guitar input and moon-history output belong to different tasks.",
+      "evidence": "V03,V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q18",
+      "finding": "Historical discovery, space and craft imagery suggest wonder and ambition. Actual musical or vocal mood is unknown.",
+      "evidence": "V01–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q19",
+      "finding": "The product surfaces connect to the theme but do not form one continuous question-to-answer demonstration.",
+      "evidence": "V03,V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q20",
+      "finding": "The images show selected interfaces, not answer accuracy or source quality. Funding details from the source title are not visible evidence in this film.",
+      "evidence": "V03,V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q21",
+      "finding": "The final Perplexity mark and URL identify the tool after a long thematic build. Earlier branding is much subtler.",
+      "evidence": "V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q22",
+      "finding": "Keep the guitar question and show its actual answer with a clear next action, replacing part of the later general-interest montage.",
+      "evidence": "V03–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q23",
+      "finding": "Use a shared text position and one thematic idea to unify visually diverse historical and modern material.",
+      "evidence": "V01–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q24",
+      "finding": "Perplexity is framed as a personal knowledge tool through a phone question and a desktop article-like answer.",
+      "evidence": "Model reading from inspected images",
+      "status": "uncertain",
+      "reason": "Model-only new-viewer interpretation; no human test.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q25",
+      "finding": "Contact sheets inspected at displayed size; a phone-size playback, caption audit, flash audit and formal accessibility check were not performed.",
+      "evidence": "Viewed sheets",
+      "status": "not checked",
+      "reason": "Full-size moving-image and device checks unavailable in this pass.",
+      "experiment": "none"
+    }
+  ],
+  "lessons": {
+    "keep": "Connect varied images with a consistent text position and clear theme.",
+    "avoid": "Pairing unrelated input and output examples in a way that weakens the workflow story.",
+    "open": "The guitar answer, information sources, output accuracy, footage provenance and audio remain unverified.",
+    "try": [
+      "For Tin, use a short history-of-marketing setup, then keep one business question through its campaign result.",
+      "Compare the existing guitar-to-moon sequence with a matched guitar question and recommendation output."
+    ]
+  },
+  "comparison": {
+    "story": "Introduce curiosity as the theme. → Place modern knowledge tools in a long history. → Introduce a personal question interface. → Connect knowledge to varied human interests. → Show an information output on desktop. → End with curiosity and the brand destination.",
+    "motion": "Historical images cut rapidly, the phone rotates or reframes while its waveform changes, a laptop lifts into view, and a close eye image leads into blue abstract imagery and the logo. Sampling scope: 1 fps unless a closer window is recorded.",
+    "sound": "No validated listening; unknown.",
+    "texture": "Dark cinematic images with centered white text.; Mixed historical-looking footage and images with a repeated centered text line.; Low-lit phone packshot and restrained blue waveform.; Warm travel footage, space imagery and bright sparks.; Dark laptop against gray with a clean article-like result.; Extreme eye close-up, blue circular imagery and black logo cards.",
+    "lesson": "Connect varied images with a consistent text position and clear theme."
+  },
+  "elements": [
+    {
+      "kind": "ui",
+      "name": "voice question",
+      "events": [
+        "V03"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "article-like answer",
+      "events": [
+        "V05"
+      ]
+    },
+    {
+      "kind": "motion",
+      "name": "historical montage",
+      "events": [
+        "V02"
+      ]
+    },
+    {
+      "kind": "motion",
+      "name": "device reveal",
+      "events": [
+        "V03",
+        "V05"
+      ]
+    },
+    {
+      "kind": "texture",
+      "name": "historical-looking footage",
+      "events": [
+        "V02"
+      ]
+    },
+    {
+      "kind": "texture",
+      "name": "metal sparks",
+      "events": [
+        "V04"
+      ]
+    }
+  ]
+}

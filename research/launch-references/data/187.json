@@ -1,0 +1,371 @@
+{
+  "id": 187,
+  "reviewer_model": "gpt-6-astra",
+  "scope": "sampled visual and story review; ASR and measured signal support; no validated audio listening",
+  "viewed_evidence": [
+    "technical-review-2026-10-19/deep-review/motion/187/timeline-00.jpg",
+    "technical-review-2026-10-19/deep-review/motion/187/timeline-01.jpg",
+    "technical-review-2026-10-19/deep-review/motion/187/timeline-02.jpg",
+    "technical-review-2026-10-19/deep-review/audio/187-speech.json"
+  ],
+  "closer_windows": [],
+  "product_from_film": "Limrun connects cloud coding agents to mobile build and browser simulator environments.",
+  "explains_well": "A build request leads to the same circle-game simulator, a preview link and an opened browser preview.",
+  "unclear": "The film skips how the mobile environment is connected and does not show a readable test result before the preview.",
+  "product_type": "developer infrastructure",
+  "scenario": "Build and preview a mobile game from a coding-agent sandbox.",
+  "product_clear_time": 25,
+  "product_clear_basis": "The agent view connects to a recognizable mobile simulator after the build request.",
+  "scenes": [
+    {
+      "id": "V01",
+      "start": 0,
+      "end": 11,
+      "action": "An opening card promises cloud agents for mobile teams. A seated founder introduces the product, followed by a Linear-like issue and pull-request page.",
+      "design": "Dark orange-glow backdrop, floating windows and bottom captions.",
+      "purpose": "Establish the existing cloud-agent workflow.",
+      "evidence": "Visible chronological 1 fps samples, source 0–11s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V02",
+      "start": 11,
+      "end": 20,
+      "action": "A sandbox window receives three warning callouts linked to iOS, Android and game requirements. The founder returns to introduce the solution.",
+      "design": "Orange outlined container and connector callouts.",
+      "purpose": "Show the missing mobile environment.",
+      "evidence": "Visible chronological 1 fps samples, source 11–20s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V03",
+      "start": 20,
+      "end": 29,
+      "action": "An agent build request fills the screen, then shrinks beside a phone simulator. The Speedy Circles title changes to a game screen with colored circles.",
+      "design": "Orange connector between agent and phone; dark game interface.",
+      "purpose": "Demonstrate build, test and review artifact.",
+      "evidence": "Visible chronological 1 fps samples, source 20–29s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V04",
+      "start": 29,
+      "end": 34,
+      "action": "A preview table shows a simulator link and install link. A cursor targets the simulator link; the circle game appears in a browser window.",
+      "design": "Enlarged link table followed by white browser shell.",
+      "purpose": "Show how a reviewer opens the result.",
+      "evidence": "Visible chronological 1 fps samples, source 29–34s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V05",
+      "start": 34,
+      "end": 44,
+      "action": "Replit examples show feed and map previews. Rork views show code or agent panels beside an iPhone, then a game.",
+      "design": "Dark development workspaces and embedded phone shells.",
+      "purpose": "Give integration examples.",
+      "evidence": "Visible chronological 1 fps samples, source 34–44s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V06",
+      "start": 44,
+      "end": 52,
+      "action": "Partner names form a loose group. A social post appears beside a rising minute count that reaches over one million.",
+      "design": "Small logos, post card and large numeric counter.",
+      "purpose": "Claim adoption and scale.",
+      "evidence": "Visible chronological 1 fps samples, source 44–52s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V07",
+      "start": 52,
+      "end": 64,
+      "action": "Founder close and wider shots explain wider access. Cursor, Devin, Google Cloud, E2B, Docker, AWS and Daytona labels appear around him.",
+      "design": "Warm indoor setting and white logo pills.",
+      "purpose": "Present compatibility and audience.",
+      "evidence": "Visible chronological 1 fps samples, source 52–64s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V08",
+      "start": 64,
+      "end": 71.333,
+      "action": "A demo URL holds on the dark background; a final shot shows the founder holding a box against a wall of Mac mini boxes.",
+      "design": "Minimal end card then physical hardware visual joke.",
+      "purpose": "Invite a demo and end on infrastructure personality.",
+      "evidence": "Visible chronological 1 fps samples, source 64–71.333s; boundary approximate; exact motion between samples unverified."
+    }
+  ],
+  "sound": [
+    {
+      "id": "A01",
+      "start": 0,
+      "end": 71.333,
+      "layer": "unknown",
+      "detail": "No validated direct audio listening was performed. Music, speech delivery, effects, mix and sync remain unknown, not absent.",
+      "visual_relation": "All visual scenes; audiovisual alignment unverified",
+      "evidence": "Visual samples only; no actual audio range supplied to this reviewer."
+    },
+    {
+      "id": "A02",
+      "start": 1.09,
+      "end": 71.05,
+      "layer": "ASR draft",
+      "detail": "ASR draft supports the mobile-environment gap, Xcode build request, simulator test/demo recording, browser preview, integration examples and scale claim. Product names and a few phrases are misrecognized. It supports script structure only; delivery, soundtrack and sync were not heard.",
+      "visual_relation": "Story text support; exact audiovisual alignment and delivery unverified.",
+      "evidence": "technical-review-2026-10-19/deep-review/audio/187-speech.json; local faster-whisper base CPU int8 draft; VAD candidates only, recognition errors possible."
+    }
+  ],
+  "categories": [
+    {
+      "id": "Q01",
+      "finding": "Existing agent workflow hits mobile environment limits; Limrun adds build, simulator and review links, followed by integration and scale claims.",
+      "evidence": "V01–V07",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q02",
+      "finding": "A direct title identifies mobile development teams before the founder appears.",
+      "evidence": "V01",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q03",
+      "finding": "The title identifies the audience immediately; the build-to-simulator sequence makes the specific task clear around 25 s.",
+      "evidence": "V01,V03",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q04",
+      "finding": "Windows enlarge for reading, shrink into paired layouts and connect by orange lines; warning callouts accumulate beside the sandbox. Exact easing is unverified.",
+      "evidence": "V02–V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q05",
+      "finding": "The same circle game links agent output, simulator and browser preview, giving the central sequence strong continuity.",
+      "evidence": "V03,V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q06",
+      "finding": "Orange glows and thin outlines unite otherwise varied white and dark development tools.",
+      "evidence": "V01–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q07",
+      "finding": "Bottom captions explain each step; the preview links receive a useful close-up, while code and partner interfaces remain small.",
+      "evidence": "V03–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q08",
+      "finding": "ASR draft supports the mobile-environment gap, Xcode build request, simulator test/demo recording, browser preview, integration examples and scale claim. Product names and a few phrases are misrecognized. It supports script structure only; delivery, soundtrack and sync were not heard.",
+      "evidence": "A02",
+      "status": "uncertain",
+      "reason": "ASR text only; no validated listening, delivery or voice origin.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q09",
+      "finding": "Voice delivery, music, effects and audiovisual alignment were not established by this visual pass.",
+      "evidence": "A01",
+      "status": "not checked",
+      "reason": "No validated direct audio listening input.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q10",
+      "finding": "Voice delivery, music, effects and audiovisual alignment were not established by this visual pass.",
+      "evidence": "A01",
+      "status": "not checked",
+      "reason": "No validated direct audio listening input.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q11",
+      "finding": "Voice delivery, music, effects and audiovisual alignment were not established by this visual pass.",
+      "evidence": "A01",
+      "status": "not checked",
+      "reason": "No validated direct audio listening input.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q12",
+      "finding": "Founder footage, interface captures, diagrams, partner logos and a hardware-wall ending are mixed; source and production methods are unverified.",
+      "evidence": "V01–V08",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q13",
+      "finding": "Manifest duration 71.333s; indexed dimensions 1920×1080. Source unchanged flag recorded; fresh encoding and audio clipping checks not run.",
+      "evidence": "Group manifest",
+      "status": "uncertain",
+      "reason": "Inherited technical metadata; no fresh media probe in this review.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q14",
+      "finding": "The captions and same-game continuity explain the build and preview workflow without relying on heard narration.",
+      "evidence": "V02–V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q15",
+      "finding": "Orange outlines and connectors move attention from agent to simulator; enlarged preview links isolate the next action.",
+      "evidence": "V03,V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q16",
+      "finding": "The central workflow takes roughly 14 s; later integrations, scale and compatibility add several separate proof claims.",
+      "evidence": "V03–V07",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q17",
+      "finding": "The opening mobile-cloud promise is answered with a mobile preview that can be opened from a link.",
+      "evidence": "V01,V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q18",
+      "finding": "Warnings establish a practical obstacle, the running game offers relief, and the hardware-wall ending adds humor.",
+      "evidence": "V02,V04,V08",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q19",
+      "finding": "The circle-game title and colored-circle screen remain traceable through the central demonstration. Integration examples then switch tasks.",
+      "evidence": "V03–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q20",
+      "finding": "A coherent demonstration is shown, but edited frames do not verify sub-second build triggering, test depth or one-million-minute usage.",
+      "evidence": "V03,V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q21",
+      "finding": "Mobile simulators, platform-specific requirements and physical Mac hardware make the proposition concrete beyond a generic agent pitch.",
+      "evidence": "V02–V04,V08",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q22",
+      "finding": "The build-to-preview sequence is essential; a readable test result would strengthen the claim that the app was tested.",
+      "evidence": "V03,V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q23",
+      "finding": "Tin can preserve one campaign artifact from agent work to a review link and opened preview, with clear connectors between states.",
+      "evidence": "V03,V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q24",
+      "finding": "Limrun connects cloud coding agents to mobile build and browser simulator environments.",
+      "evidence": "Model reading from inspected images",
+      "status": "uncertain",
+      "reason": "Model-only new-viewer interpretation; no human test.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q25",
+      "finding": "Contact sheets inspected at displayed size; a phone-size playback, caption audit, flash audit and formal accessibility check were not performed.",
+      "evidence": "Viewed sheets",
+      "status": "not checked",
+      "reason": "Full-size moving-image and device checks unavailable in this pass.",
+      "experiment": "none"
+    }
+  ],
+  "lessons": {
+    "keep": "Carry the same output through agent work, review link and opened preview.",
+    "avoid": "Avoid using rapid build edits as evidence of actual build speed.",
+    "open": "Build timing, test results, integrations, adoption metrics, exact motion, asset rights and audio delivery remain unverified.",
+    "try": [
+      "Show one Tin creative being generated, linked in a review message and opened in its final placement.",
+      "Add one readable test or approval result before the preview link to separate completion from verification."
+    ]
+  },
+  "comparison": {
+    "story": "Establish the existing cloud-agent workflow. → Show the missing mobile environment. → Demonstrate build, test and review artifact. → Show how a reviewer opens the result. → Give integration examples. → Claim adoption and scale. → Present compatibility and audience. → Invite a demo and end on infrastructure personality.",
+    "motion": "Windows enlarge for reading, shrink into paired layouts and connect by orange lines; warning callouts accumulate beside the sandbox. Exact easing is unverified. Sampling scope: 1 fps unless a closer window is recorded.",
+    "sound": "No validated listening; unknown.",
+    "texture": "Dark orange-glow backdrop, floating windows and bottom captions.; Orange outlined container and connector callouts.; Orange connector between agent and phone; dark game interface.; Enlarged link table followed by white browser shell.; Dark development workspaces and embedded phone shells.; Small logos, post card and large numeric counter.; Warm indoor setting and white logo pills.; Minimal end card then physical hardware visual joke.",
+    "lesson": "Carry the same output through agent work, review link and opened preview."
+  },
+  "elements": [
+    {
+      "kind": "ui",
+      "name": "code editor",
+      "events": [
+        "V05"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "phone simulator",
+      "events": [
+        "V03",
+        "V04",
+        "V05"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "preview table",
+      "events": [
+        "V04"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "issue tracker",
+      "events": [
+        "V01"
+      ]
+    },
+    {
+      "kind": "motion",
+      "name": "connector lines",
+      "events": [
+        "V02",
+        "V03"
+      ]
+    }
+  ]
+}

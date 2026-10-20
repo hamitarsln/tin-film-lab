@@ -1,0 +1,358 @@
+{
+  "id": 162,
+  "reviewer_model": "gpt-6-astra",
+  "scope": "sampled visual and story review; ASR and measured signal support; no validated audio listening",
+  "viewed_evidence": [
+    "technical-review-2026-10-19/deep-review/motion/162/timeline-00.jpg",
+    "technical-review-2026-10-19/deep-review/motion/162/timeline-01.jpg",
+    "technical-review-2026-10-19/deep-review/audio/162-speech.json"
+  ],
+  "closer_windows": [],
+  "product_from_film": "Memoir turns software product progress into marketing content and helps teams publish it.",
+  "explains_well": "The film names a specific problem—shipping without attention—and connects an update to channel drafts.",
+  "unclear": "The source connection, review controls and confirmed publication are not fully demonstrated.",
+  "product_type": "marketing content agent",
+  "scenario": "Turn a shipped product update into LinkedIn/X posts and a shared content strategy.",
+  "product_clear_time": 19,
+  "product_clear_basis": "Drafted LinkedIn and X posts for a CLI update lead to two channel-specific draft cards.",
+  "scenes": [
+    {
+      "id": "V01",
+      "start": 0,
+      "end": 13,
+      "action": "Launch footage and shipping-is-not-the-bottleneck copy lead to engineering metrics, daily updates and a tiny dark square in a large dot field.",
+      "design": "Cream background, orange emphasis, sparse shapes and small subtitles.",
+      "purpose": "Separate shipping speed from audience attention.",
+      "evidence": "Visible chronological 1 fps samples, source 0–13s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V02",
+      "start": 13,
+      "end": 20,
+      "action": "Memoir logo appears, followed by a shipped-update message and Drafted LinkedIn and X posts for the new Memoir CLI. Two social draft cards appear.",
+      "design": "Cream canvas, black message bubble, serif response and channel cards.",
+      "purpose": "Show product progress becoming content.",
+      "evidence": "Visible chronological 1 fps samples, source 13–20s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V03",
+      "start": 20,
+      "end": 28,
+      "action": "3 or 300 scales across a dot field. A queue-like interface shows story drafts including architecture of early communities and psychology of silent readers, with readiness/publication controls.",
+      "design": "Large team-size numbers and light editorial UI.",
+      "purpose": "Present ongoing story finding and packaging.",
+      "evidence": "Visible chronological 1 fps samples, source 20–28s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V04",
+      "start": 28,
+      "end": 33,
+      "action": "A small blank composer gives way to Your setup and a voice settings form with text being entered.",
+      "design": "Minimal white cards and form fields.",
+      "purpose": "Address blank-post friction and brand setup.",
+      "evidence": "Visible chronological 1 fps samples, source 28–33s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V05",
+      "start": 33,
+      "end": 43,
+      "action": "Two dotted tracks align under in sync. Small update cards appear on a line, then connect around a central Strategy document.",
+      "design": "Thin lines, orange/black nodes and a simple shared document.",
+      "purpose": "Represent engineering/marketing coordination.",
+      "evidence": "Visible chronological 1 fps samples, source 33–43s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V06",
+      "start": 43,
+      "end": 49.758,
+      "action": "Build the Product gives way to a large central dot amid many smaller dots, then Memoir logo and Let Memoir help the world notice.",
+      "design": "Cream field, expanding black focal shape and restrained end plate.",
+      "purpose": "Return to attention and brand promise.",
+      "evidence": "Visible chronological 1 fps samples, source 43–49.758s; boundary approximate; exact motion between samples unverified."
+    }
+  ],
+  "sound": [
+    {
+      "id": "A01",
+      "start": 0,
+      "end": 49.758,
+      "layer": "unknown",
+      "detail": "No validated direct audio listening was performed. Music, speech delivery, effects, mix and sync remain unknown, not absent.",
+      "visual_relation": "All visual scenes; audiovisual alignment unverified",
+      "evidence": "Visual samples only; no actual audio range supplied to this reviewer."
+    },
+    {
+      "id": "A02",
+      "start": 0.01,
+      "end": 45.89,
+      "layer": "ASR draft",
+      "detail": "ASR draft coherently follows shipping-versus-attention, autonomous marketing, product progress becoming content, story packaging/publication and engineering-marketing alignment. It broadly matches visible labels and diagrams. The claim that people want the content is unmeasured; delivery, music, effects and sync remain unheard.",
+      "visual_relation": "Story text support; exact audiovisual alignment and delivery unverified.",
+      "evidence": "technical-review-2026-10-19/deep-review/audio/162-speech.json; local faster-whisper base CPU int8 draft; VAD candidates only, recognition errors possible."
+    }
+  ],
+  "categories": [
+    {
+      "id": "Q01",
+      "finding": "Attention problem leads to update-to-post example, ongoing content, voice setup, team alignment and a notice-the-product close.",
+      "evidence": "V01–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q02",
+      "finding": "Shipping isn’t the bottleneck anymore reframes a familiar software success metric immediately.",
+      "evidence": "V01",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q03",
+      "finding": "Channel-specific drafts from a CLI update clarify the marketing task by 19 s.",
+      "evidence": "V02",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q04",
+      "finding": "Dots change density and alignment, cards appear on lines and a central shape grows; exact easing and paths are unverified.",
+      "evidence": "V01,V03,V05,V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q05",
+      "finding": "The attention dot field returns at the end, while product-update cards lead into the shared strategy diagram.",
+      "evidence": "V01,V05,V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q06",
+      "finding": "Cream, black and muted orange create an editorial tone, with sparse diagrams rather than cinematic footage.",
+      "evidence": "V01–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q07",
+      "finding": "Large claims and serif draft headings are readable; fine UI text and bottom captions are small.",
+      "evidence": "V02–V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q08",
+      "finding": "ASR draft coherently follows shipping-versus-attention, autonomous marketing, product progress becoming content, story packaging/publication and engineering-marketing alignment. It broadly matches visible labels and diagrams. The claim that people want the content is unmeasured; delivery, music, effects and sync remain unheard.",
+      "evidence": "A02",
+      "status": "uncertain",
+      "reason": "ASR text only; no validated listening, delivery or voice origin.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q09",
+      "finding": "Voice delivery, music, effects and audiovisual alignment were not established by this visual pass.",
+      "evidence": "A01",
+      "status": "not checked",
+      "reason": "No validated direct audio listening input.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q10",
+      "finding": "Voice delivery, music, effects and audiovisual alignment were not established by this visual pass.",
+      "evidence": "A01",
+      "status": "not checked",
+      "reason": "No validated direct audio listening input.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q11",
+      "finding": "Voice delivery, music, effects and audiovisual alignment were not established by this visual pass.",
+      "evidence": "A01",
+      "status": "not checked",
+      "reason": "No validated direct audio listening input.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q12",
+      "finding": "Minimal motion graphics combine with editorial software screens; real connected data and publication are unverified.",
+      "evidence": "V02–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q13",
+      "finding": "Manifest duration 49.758 s; indexed dimensions 1920×1080. Source unchanged flag recorded; fresh encoding and audio clipping checks not run.",
+      "evidence": "Group manifest",
+      "status": "uncertain",
+      "reason": "Inherited technical metadata; no fresh media probe in this review.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q14",
+      "finding": "Draft labels, channel cards and setup form communicate the workflow visually; ASR clarifies the progress-to-content thesis.",
+      "evidence": "V02–V05,A02",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q15",
+      "finding": "A small shipped-update message leads to a larger drafted-content response, emphasizing the output.",
+      "evidence": "V02",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q16",
+      "finding": "The 50 s film reaches a product example by 16–19 s, then divides time between UI and abstract team alignment.",
+      "evidence": "V02–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q17",
+      "finding": "The initial lack-of-attention problem returns in the closing expanding dot and world-notice line.",
+      "evidence": "V01,V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q18",
+      "finding": "The orderly diagrams frame marketing as a calm companion to shipping; this is visual interpretation.",
+      "evidence": "V02–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q19",
+      "finding": "Dot fields, cream background and restrained orange accents connect problem, workflow and identity.",
+      "evidence": "V01–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q20",
+      "finding": "Drafted channel cards and content queue are visible, but source ingestion, approval, publication receipt and engagement results are not verified.",
+      "evidence": "V02,V03",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q21",
+      "finding": "Memoir’s editorial styling fits a story-finding marketing agent; the message is specific to software teams.",
+      "evidence": "V01–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q22",
+      "finding": "One source change and a confirmed live post would strengthen the central promise more than the abstract strategy diagram.",
+      "evidence": "V02,V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q23",
+      "finding": "Direct Tin reference: explain which business event triggers content, show channel-specific drafts, then approval and a live destination.",
+      "evidence": "V02–V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q24",
+      "finding": "Memoir turns software product progress into marketing content and helps teams publish it.",
+      "evidence": "Model reading from inspected images",
+      "status": "uncertain",
+      "reason": "Model-only new-viewer interpretation; no human test.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q25",
+      "finding": "Contact sheets inspected at displayed size; a phone-size playback, caption audit, flash audit and formal accessibility check were not performed.",
+      "evidence": "Viewed sheets",
+      "status": "not checked",
+      "reason": "Full-size moving-image and device checks unavailable in this pass.",
+      "experiment": "none"
+    }
+  ],
+  "lessons": {
+    "keep": "Connect one real product event to a readable, channel-specific draft.",
+    "avoid": "Avoid implying autonomous publication from a draft card or generic queue state.",
+    "open": "Source ingestion, brand fidelity, approval, publication, engagement and audio delivery remain unverified.",
+    "try": [
+      "For Tin, show a shipped feature or new product record becoming LinkedIn and email drafts, with source links.",
+      "Follow voice setup with a before/after draft and a human approval, then show the actual published URL."
+    ]
+  },
+  "comparison": {
+    "story": "Separate shipping speed from audience attention. → Show product progress becoming content. → Present ongoing story finding and packaging. → Address blank-post friction and brand setup. → Represent engineering/marketing coordination. → Return to attention and brand promise.",
+    "motion": "Dots change density and alignment, cards appear on lines and a central shape grows; exact easing and paths are unverified. Sampling scope: 1 fps unless a closer window is recorded.",
+    "sound": "No validated listening; unknown.",
+    "texture": "Cream background, orange emphasis, sparse shapes and small subtitles.; Cream canvas, black message bubble, serif response and channel cards.; Large team-size numbers and light editorial UI.; Minimal white cards and form fields.; Thin lines, orange/black nodes and a simple shared document.; Cream field, expanding black focal shape and restrained end plate.",
+    "lesson": "Connect one real product event to a readable, channel-specific draft."
+  },
+  "elements": [
+    {
+      "kind": "ui",
+      "name": "social post draft",
+      "events": [
+        "V02"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "content queue",
+      "events": [
+        "V03"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "voice settings",
+      "events": [
+        "V04"
+      ]
+    },
+    {
+      "kind": "motion",
+      "name": "aligned dot tracks",
+      "events": [
+        "V05"
+      ]
+    },
+    {
+      "kind": "motion",
+      "name": "connected strategy document",
+      "events": [
+        "V05"
+      ]
+    },
+    {
+      "kind": "texture",
+      "name": "cream editorial layout",
+      "events": [
+        "V01",
+        "V02",
+        "V06"
+      ]
+    }
+  ]
+}

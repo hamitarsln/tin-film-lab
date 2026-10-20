@@ -1,0 +1,351 @@
+{
+  "id": 181,
+  "product_from_film": "Juno is presented as a health companion that uses personal data to support daily planning and prepare a doctor-visit summary.",
+  "explains_well": "The same person moves from a difficult evening at home to a prepared appointment, with the companion helping in both settings.",
+  "unclear": "The floating character and panels do not show how the real phone app collects data, changes tasks or produces the doctor summary.",
+  "product_type": "health companion app",
+  "scenario": "A woman struggles to reach care, accepts a health-journey prompt, receives a symptom/task suggestion and later gets help preparing for an appointment.",
+  "product_clear_time": 35,
+  "product_clear_basis": "At 32–38s the companion shows health panels and captions describe a possible symptom flare and moving non-essential tasks; Juno is named on the final download card.",
+  "scenes": [
+    {
+      "start": 0,
+      "end": 16,
+      "action": "A woman lies on a bed using her phone, then sits up looking troubled, with tissues and warm bedside light around her.",
+      "design": "Intimate bedroom, muted green clothes and amber lighting.",
+      "purpose": "Establish a personal care-access problem; appointment context comes from draft dialogue.",
+      "evidence": "1 fps source samples in 0–16s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V01"
+    },
+    {
+      "start": 16,
+      "end": 26,
+      "action": "The phone lies on the blanket and projects a blue Start your health journey prompt with No/Yes choices. She presses Yes.",
+      "design": "Holographic blue panel contrasts with the warm room.",
+      "purpose": "Stage an explicit opt-in to the companion.",
+      "evidence": "1 fps source samples in 16–26s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V02"
+    },
+    {
+      "start": 26,
+      "end": 40,
+      "action": "A glowing orange character on a cloud appears with health profile/biometric panels. Captions say a symptom flare may be coming and suggest moving non-essential tasks to tomorrow.",
+      "design": "Friendly cartoon figure, floating gold panels and reaction close-ups.",
+      "purpose": "Present proactive support in a personal scene.",
+      "evidence": "1 fps source samples in 26–40s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V03"
+    },
+    {
+      "start": 40,
+      "end": 50,
+      "action": "The companion says it can move tasks and get the light so she can rest; it disappears, the room darkens and the scene fades to black.",
+      "design": "Warm light reduces and the woman looks more relaxed.",
+      "purpose": "Show a simple environmental outcome after the suggestion.",
+      "evidence": "1 fps source samples in 40–50s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V04"
+    },
+    {
+      "start": 50,
+      "end": 63,
+      "action": "In a bright waiting-room-like setting, the companion asks how she feels and says a full summary of symptoms and biometrics is ready for the doctor.",
+      "design": "Cream room, plant, notebook and the same orange cloud character.",
+      "purpose": "Extend support from home to appointment preparation.",
+      "evidence": "1 fps source samples in 50–63s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V05"
+    },
+    {
+      "start": 63,
+      "end": 69,
+      "action": "A captioned doctor call invites Erica in; she smiles and leaves the chair.",
+      "design": "Close reaction shot and gentle light.",
+      "purpose": "Resolve the access/preparation story with an appointment.",
+      "evidence": "1 fps source samples in 63–69s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V06"
+    },
+    {
+      "start": 69,
+      "end": 74.884,
+      "action": "Download Juno Today and Your health companion for chronic illness appear with app-store badges.",
+      "design": "Soft cream translucent card against the room background.",
+      "purpose": "Name the app, audience and download action.",
+      "evidence": "1 fps source samples in 69–74.884s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V07"
+    }
+  ],
+  "sound": [
+    {
+      "id": "A01",
+      "start": 0,
+      "end": 74.884,
+      "layer": "ASR draft / unknown",
+      "detail": "The draft opening describes no appointments for six months and a voicemail message. Later text largely follows the visible companion dialogue. It misrecognizes symptom flare and contradicts the visible nervous but ready caption, so captions take priority for those words. No validated listening.",
+      "visual_relation": "V01,V03–V06; script context only, delivery and synchronization unknown.",
+      "evidence": "technical-review-2026-10-19/deep-review/audio/181-speech.json; local faster-whisper draft compared with visible captions."
+    }
+  ],
+  "categories": [
+    {
+      "id": "Q01",
+      "finding": "Care-access frustration → opt-in → companion suggestion → rest → appointment preparation → doctor call → download.",
+      "evidence": "V01–V07",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q02",
+      "finding": "A person on a bed surrounded by tissues creates a specific personal situation; the care-access barrier is supplied by the draft dialogue.",
+      "evidence": "V01,A01",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q03",
+      "finding": "The companion task becomes clear at 35s through symptom/task captions; chronic-illness audience and Juno name are explicit on the ending card.",
+      "evidence": "V03,V07",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q04",
+      "finding": "A blue panel rises from the phone, Yes is selected, a character/panels appear and the room darkens. Exact effects easing is unverified.",
+      "evidence": "V02–V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q05",
+      "finding": "The same person and companion connect bedroom and waiting room; a black interval separates the two episodes.",
+      "evidence": "V03–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q06",
+      "finding": "Warm domestic light and soft gold character panels make the companion visually gentle; the initial blue prompt marks its arrival.",
+      "evidence": "V01–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q07",
+      "finding": "Dialogue captions explain the task while small biometric panels imply data context. The final app/category line is readable and held.",
+      "evidence": "V03,V05,V07",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q08",
+      "finding": "ASR adds the appointment barrier but contains clear recognition errors; visible captions support later dialogue. Voice qualities and mix remain unchecked.",
+      "evidence": "A01",
+      "status": "uncertain",
+      "reason": "Draft text and visible captions only.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q09",
+      "finding": "Music character and structure are unverified.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "No validated listening.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q10",
+      "finding": "Effects and their sources are unverified.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "No validated listening; waveform peaks do not identify effects.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q11",
+      "finding": "Sound sync is unverified.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "No validated listening or paired audiovisual timing.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q12",
+      "finding": "Live-action-style scenes and a floating cartoon companion visualize the offer; this is not a demonstration of the actual phone interface.",
+      "evidence": "V02–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q13",
+      "finding": "Source duration 74.884 s; Watch metadata 1920 × 1080. Frame rate, audio clipping and export quality not checked here.",
+      "evidence": "Whole film",
+      "status": "supported",
+      "reason": "Parent source metadata supports duration and dimensions; visual review is sampled.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q14",
+      "finding": "Captioned companion dialogue makes the later support story readable silently; the opening access problem is less explicit without speech.",
+      "evidence": "V01,V03–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q15",
+      "finding": "Close reaction shots keep the person central while floating panels sit beside the companion; no detailed summary document is shown.",
+      "evidence": "V03,V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q16",
+      "finding": "The first 26s establish frustration and opt-in; two support episodes then lead to a 6s download card.",
+      "evidence": "V01–V07",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q17",
+      "finding": "An initially troubled person later enters a doctor visit prepared; the film gives emotional closure without showing the summary itself.",
+      "evidence": "V01,V05,V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q18",
+      "finding": "Soft character design and warm lighting may suggest reassurance and companionship; actual viewer reaction is unmeasured.",
+      "evidence": "V03–V06",
+      "status": "uncertain",
+      "reason": "Interpretation of visual choices.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q19",
+      "finding": "One person, recurring character and consistent warm palette create continuity across two locations.",
+      "evidence": "V01–V07",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q20",
+      "finding": "Symptom prediction, task changes and health-summary capabilities are dramatized claims. Clinical accuracy, data handling and integrations were not independently checked.",
+      "evidence": "V03–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q21",
+      "finding": "The cloud companion gives Juno a memorable character; a real app screen would better distinguish practical behavior from the visual metaphor.",
+      "evidence": "V03,V05,V07",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q22",
+      "finding": "Insert the actual task change or summary preview to connect the character story to app behavior.",
+      "evidence": "V04,V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "Show a phone screen with the moved task, then a readable symptom-summary preview before the doctor call."
+    },
+    {
+      "id": "Q23",
+      "finding": "For Tin, keep the human situation while revealing the actual artifact produced by the agent.",
+      "evidence": "V05,V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "After a supportive assistant scene, show the exact campaign brief or report ready for a meeting."
+    },
+    {
+      "id": "Q24",
+      "finding": "No human new-viewer test was performed.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "The product summary is this model’s film-only reading.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q25",
+      "finding": "Mobile preview and accessibility checks were not performed.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "Contact sheets are evidence views, not a stated mobile preview or compliance test.",
+      "experiment": "none"
+    }
+  ],
+  "elements": [
+    {
+      "kind": "ui",
+      "name": "yes-no prompt",
+      "events": [
+        "V02"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "health data panels",
+      "events": [
+        "V03"
+      ]
+    },
+    {
+      "kind": "motion",
+      "name": "floating companion reveal",
+      "events": [
+        "V03"
+      ]
+    },
+    {
+      "kind": "motion",
+      "name": "room light dimming",
+      "events": [
+        "V04"
+      ]
+    },
+    {
+      "kind": "texture",
+      "name": "warm domestic lighting",
+      "events": [
+        "V01",
+        "V03",
+        "V04"
+      ]
+    }
+  ],
+  "lessons": {
+    "keep": "Use the same person and companion across two concrete situations to show continuity of support.",
+    "try": [
+      "Show the moved task and a readable doctor-summary preview in the actual phone interface.",
+      "For Tin, reveal the precise brief or report the assistant prepares for the users meeting."
+    ],
+    "avoid": "Letting a friendly character stand in for every practical product step.",
+    "open": "Data entry, actual app workflow, summary content, clinical claims, integrations and audio remain unverified."
+  },
+  "comparison": {
+    "story": "Frustration at home → companion opt-in → daily support → prepared appointment → download.",
+    "motion": "Holographic prompt, character reveal and room dimming; fine effects timing unverified.",
+    "sound": "ASR adds opening context; caption contradictions are noted, no validated listening.",
+    "texture": "Warm bedroom, glowing cloud character and calm cream waiting room.",
+    "lesson": "An emotional support story becomes more concrete when its generated artifact is shown."
+  },
+  "reviewer_model": "gpt-6-astra",
+  "scope": "sampled visual and story review; ASR and measured signal support; no validated audio listening",
+  "viewed_evidence": [
+    "technical-review-2026-10-19/deep-review/motion/181/timeline-00.jpg",
+    "technical-review-2026-10-19/deep-review/motion/181/timeline-01.jpg",
+    "technical-review-2026-10-19/deep-review/motion/181/timeline-02.jpg"
+  ],
+  "closer_windows": []
+}

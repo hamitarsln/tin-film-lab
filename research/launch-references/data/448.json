@@ -1,0 +1,373 @@
+{
+  "id": 448,
+  "product_from_film": "ChatGPT Atlas is a browser with page-aware assistance, inline writing help, browsing memory and an agent that prepares shopping carts.",
+  "explains_well": "The shopping example shows a request, a Continue confirmation, visible browsing steps and a cart ready for checkout.",
+  "unclear": "The email-shortening example ends before a clearly readable revised draft, so its before-and-after is incomplete.",
+  "product_type": "AI browser",
+  "scenario": "Ask about a rental and flight, revise an email, reopen past pages and prepare beach supplies in a cart.",
+  "product_clear_time": 14,
+  "product_clear_basis": "The named app opens a browser and navigates to a travel site by 14s; the page-aware sidebar appears at 23s.",
+  "scenes": [
+    {
+      "start": 0,
+      "end": 17,
+      "action": "A desktop dock reveals the Atlas icon; title and address/search field lead into a browser opening a rental site.",
+      "design": "Minimal white field and blue/purple window surround.",
+      "purpose": "Introduce a browser app.",
+      "evidence": "1 fps source samples in 0–17s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V01"
+    },
+    {
+      "start": 17,
+      "end": 32,
+      "action": "ChatGPT by your side title leads to an A-frame rental page; sidebar asks about nearby hikes and lists options.",
+      "design": "Page beside chat with a page-context chip.",
+      "purpose": "Show assistance grounded in the current page.",
+      "evidence": "1 fps source samples in 17–32s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V02"
+    },
+    {
+      "start": 32,
+      "end": 42,
+      "action": "Brief course, shoe and article prompts lead to a flight itinerary question about a mother’s room during a connection; the sidebar answers.",
+      "design": "Same page/sidebar layout.",
+      "purpose": "Extend contextual help across tasks.",
+      "evidence": "1 fps source samples in 32–42s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V03"
+    },
+    {
+      "start": 42,
+      "end": 50,
+      "action": "Assists when you need it leads to an email draft; selected text gets a Make this more concise request.",
+      "design": "Inline selection and small prompt.",
+      "purpose": "Show writing help in place; revised output is not clearly shown.",
+      "evidence": "1 fps source samples in 42–50s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V04"
+    },
+    {
+      "start": 50,
+      "end": 61,
+      "action": "Picks up where you left off leads to a request to reopen last week’s Halloween decorations; several matching-looking tabs appear.",
+      "design": "Browser tab row and chat confirmation.",
+      "purpose": "Demonstrate browsing memory.",
+      "evidence": "1 fps source samples in 50–61s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V05"
+    },
+    {
+      "start": 61,
+      "end": 72,
+      "action": "Takes action for you leads to an Instacart beach-supplies request. The assistant proposes items and asks to use the browser; Continue is selected.",
+      "design": "Store page, sidebar and explicit confirmation button.",
+      "purpose": "Start agent action with a visible user choice.",
+      "evidence": "1 fps source samples in 61–72s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V06"
+    },
+    {
+      "start": 72,
+      "end": 87,
+      "action": "Status labels show sunscreen search, option review, scrolling and adding to cart. The assistant reports readiness; the cart contains sunscreen and beach items and shows Go to checkout.",
+      "design": "Browser actions, cart panel and green checkout button.",
+      "purpose": "Provide a cart-preparation result; purchase is not shown.",
+      "evidence": "1 fps source samples in 72–87s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V07"
+    },
+    {
+      "start": 87,
+      "end": 97.7,
+      "action": "Smarter way to explore the web, Atlas name/icon and download URL close on white.",
+      "design": "Minimal typography and app icon.",
+      "purpose": "Close with a download invitation.",
+      "evidence": "1 fps source samples in 87–97.7s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V08"
+    }
+  ],
+  "categories": [
+    {
+      "id": "Q01",
+      "finding": "Browser introduction → contextual answers → writing → memory → shopping action.",
+      "evidence": "V01–V08",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q02",
+      "finding": "Atlas appears among familiar desktop app icons, positioning it as an everyday app.",
+      "evidence": "V01",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q03",
+      "finding": "Browser navigation is visible by 14s; the side-by-side page and chat explain the central interaction.",
+      "evidence": "V01,V02",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q04",
+      "finding": "UI reframing enlarges prompts and results; tabs accumulate and status labels follow browser actions. Exact easing unverified.",
+      "evidence": "V02–V07",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q05",
+      "finding": "Short white title cards separate capabilities while the browser/sidebar layout stays consistent.",
+      "evidence": "V02–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q06",
+      "finding": "Plain white UI and soft blue/purple surrounds keep emphasis on website content.",
+      "evidence": "V01–V08",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q07",
+      "finding": "Page-context chips, Continue and action labels are functional cues. Long answers contain more detail than can be read at montage speed.",
+      "evidence": "V02,V03,V06,V07",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q08",
+      "finding": "Voice delivery is unverified.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "No validated listening.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q09",
+      "finding": "Music character and structure are unverified.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "No validated listening.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q10",
+      "finding": "Effects and their sources are unverified.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "No validated listening; waveform peaks do not identify effects.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q11",
+      "finding": "Sound sync is unverified.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "No validated listening or paired audiovisual timing.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q12",
+      "finding": "Browser, third-party pages, email draft, chat and store cart are demonstrated; live behavior and source data unverified.",
+      "evidence": "V01–V07",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q13",
+      "finding": "Source duration 97.7 s; Watch metadata 1920 × 1080. Frame rate, audio clipping and export quality not checked here.",
+      "evidence": "Whole film",
+      "status": "supported",
+      "reason": "Parent source metadata supports duration and dimensions; visual review is sampled.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q14",
+      "finding": "The silent workflow is largely readable through requests, chapter cards and visible outputs; email revision is the weak payoff.",
+      "evidence": "V02–V07",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q15",
+      "finding": "The page stays left and the request/answer right; later reframing focuses the cart and checkout boundary.",
+      "evidence": "V02,V03,V06,V07",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q16",
+      "finding": "Several brief examples establish range, then shopping gets a longer request-to-result sequence.",
+      "evidence": "V03,V07",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q17",
+      "finding": "The promise of web assistance pays off in a prepared cart and recovered tabs.",
+      "evidence": "V01,V05,V07",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q18",
+      "finding": "Familiar tasks and a controlled confirmation step suggest convenience and user control; response unmeasured.",
+      "evidence": "V05–V07",
+      "status": "uncertain",
+      "reason": "Visual interpretation.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q19",
+      "finding": "Consistent page-context chips connect each question to its current page. Shopping items remain traceable into the cart.",
+      "evidence": "V02,V03,V06,V07",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q20",
+      "finding": "The film shows selected answers, tab recovery and cart states, not verified answer accuracy, memory scope, reliable automation or a completed purchase.",
+      "evidence": "V02–V07",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q21",
+      "finding": "Atlas icon, page-aware ChatGPT sidebar and the browsing-memory example distinguish the browser story.",
+      "evidence": "V01,V02,V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q22",
+      "finding": "Finish the inline rewrite example.",
+      "evidence": "V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "Hold the original and shortened draft in the same email field so the change can be read."
+    },
+    {
+      "id": "Q23",
+      "finding": "Make approval and action status visible in an agent demo.",
+      "evidence": "V06,V07",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "For Tin, show a proposed campaign action, user confirmation, named execution steps and a reviewable result."
+    },
+    {
+      "id": "Q24",
+      "finding": "No human new-viewer test was performed.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "The product summary is this model’s film-only reading.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q25",
+      "finding": "Mobile preview and accessibility checks were not performed.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "Contact sheets are evidence views, not a stated mobile preview or compliance test.",
+      "experiment": "none"
+    }
+  ],
+  "elements": [
+    {
+      "kind": "ui",
+      "name": "browser shell",
+      "events": [
+        "V01",
+        "V02",
+        "V03",
+        "V05",
+        "V06",
+        "V07"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "chat sidebar",
+      "events": [
+        "V02",
+        "V03",
+        "V06"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "email draft",
+      "events": [
+        "V04"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "shopping cart",
+      "events": [
+        "V07"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "confirmation button",
+      "events": [
+        "V06"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "action status label",
+      "events": [
+        "V07"
+      ]
+    }
+  ],
+  "lessons": {
+    "keep": "Show a user confirmation before the agent acts, then visible action steps and a result.",
+    "try": [
+      "Make the shortened email result readable beside its original.",
+      "For Tin, show proposed action, confirmation, execution steps and reviewable campaign output."
+    ],
+    "avoid": "Treating a cart-ready state as a completed purchase.",
+    "open": "Answer accuracy, memory behavior, execution reliability and sound remain unverified."
+  },
+  "comparison": {
+    "story": "Assist → write → remember → act.",
+    "motion": "UI reframing, accumulating tabs and action status labels.",
+    "sound": "No validated listening or available ASR.",
+    "texture": "White software UI with soft colored surrounds.",
+    "lesson": "A visible confirmation and cart boundary make agent action understandable."
+  },
+  "reviewer_model": "gpt-6-astra",
+  "scope": "sampled visual and story review; ASR and measured signal support; no validated audio listening",
+  "viewed_evidence": [
+    "technical-review-2026-10-19/deep-review/motion/448/timeline-00.jpg",
+    "technical-review-2026-10-19/deep-review/motion/448/timeline-01.jpg",
+    "technical-review-2026-10-19/deep-review/motion/448/timeline-02.jpg",
+    "technical-review-2026-10-19/deep-review/motion/448/timeline-03.jpg"
+  ],
+  "closer_windows": [],
+  "sound": [
+    {
+      "id": "A01",
+      "start": 0,
+      "end": 97.7,
+      "layer": "unknown",
+      "detail": "No validated audio listening. Voice delivery, music, effects and mix are unknown.",
+      "visual_relation": "All scenes; sound alignment unverified",
+      "evidence": "No actual audio perception in this review; prepared audio files are not listening evidence."
+    }
+  ]
+}

@@ -1,0 +1,340 @@
+{
+  "id": 281,
+  "reviewer_model": "gpt-6-astra",
+  "scope": "sampled visual and story review; ASR and measured signal support; no validated audio listening",
+  "viewed_evidence": [
+    "technical-review-2026-10-19/deep-review/motion/281/timeline-00.jpg",
+    "technical-review-2026-10-19/deep-review/motion/281/timeline-01.jpg",
+    "technical-review-2026-10-19/deep-review/audio/281-speech.json"
+  ],
+  "closer_windows": [],
+  "product_from_film": "21st Agents is presented as a production layer for Claude Code SDK agents.",
+  "explains_well": "The founders explain how infrastructure built for their own agents became the new product.",
+  "unclear": "The film never shows the promised TypeScript definition, deployment command or a running deployed agent.",
+  "product_type": "developer infrastructure",
+  "scenario": "Turn internal agent infrastructure into a service for deploying agents.",
+  "product_clear_time": 42,
+  "product_clear_basis": "The 21st Agents title and production-layer caption name the current offer.",
+  "scenes": [
+    {
+      "id": "V01",
+      "start": 0,
+      "end": 9,
+      "action": "A blue logo leads to two seated presenters. A UI gallery, a rising 21st.dev Users chart and a collage of design components appear.",
+      "design": "White graphic cards, blue chart line and office interview.",
+      "purpose": "Establish the earlier UI product and its claimed audience.",
+      "evidence": "Visible chronological 1 fps samples, source 0–9s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V02",
+      "start": 9,
+      "end": 18,
+      "action": "The presenters describe custom agents. Three repository rows show rising star counters, then More than 15,000 Github stars fills the screen.",
+      "design": "Black repository labels with large blue total.",
+      "purpose": "Use adoption of earlier work as credibility.",
+      "evidence": "Visible chronological 1 fps samples, source 9–18s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V03",
+      "start": 18,
+      "end": 32,
+      "action": "A Claude Code terminal-like graphic appears. The presenters describe rebuilding agents and the difficulty of production. Stacked retro Critical error dialogs cover them; captions list sandboxes, OAuth, streaming and observability.",
+      "design": "Peach terminal title, gray error boxes and alternating interview angles.",
+      "purpose": "Name the infrastructure problem that led to the product.",
+      "evidence": "Visible chronological 1 fps samples, source 18–32s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V04",
+      "start": 32,
+      "end": 44,
+      "action": "The founders explain that other teams face the same problems. Black dots form a mark and the title 21st Agents appears with a production-layer caption.",
+      "design": "Sparse black-on-white product reveal.",
+      "purpose": "Connect internal experience to the new offer.",
+      "evidence": "Visible chronological 1 fps samples, source 32–44s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V05",
+      "start": 44,
+      "end": 54.868,
+      "action": "The presenter says to define an agent in TypeScript, deploy and ship. The interview fades to the blue 21ST wordmark on white, then fades out.",
+      "design": "Interview and simple closing brand card.",
+      "purpose": "Give a verbal next step without a deployment demonstration.",
+      "evidence": "Visible chronological 1 fps samples, source 44–54.868s; boundary approximate; exact motion between samples unverified."
+    }
+  ],
+  "sound": [
+    {
+      "id": "A01",
+      "start": 0,
+      "end": 54.868,
+      "layer": "unknown",
+      "detail": "No validated direct audio listening was performed. Music, speech delivery, effects, mix and sync remain unknown, not absent.",
+      "visual_relation": "All visual scenes; audiovisual alignment unverified",
+      "evidence": "Visual samples only; no actual audio range supplied to this reviewer."
+    },
+    {
+      "id": "A02",
+      "start": 1.19,
+      "end": 48.09,
+      "layer": "ASR draft",
+      "detail": "The ASR draft supports the origin story and production-layer pitch, but mistranscribes Claude as Cloud and 15,000 stars as 50,000. Visible captions correct those terms. Its broken infrastructure-list sentence is not treated as exact dialogue. No heard delivery or sound claims are made.",
+      "visual_relation": "Story text support; exact audiovisual alignment and delivery unverified.",
+      "evidence": "technical-review-2026-10-19/deep-review/audio/281-speech.json; local faster-whisper base CPU int8 draft; VAD candidates only, recognition errors possible."
+    }
+  ],
+  "categories": [
+    {
+      "id": "Q01",
+      "finding": "Earlier UI product and agent adoption lead to a production problem, internal solution and new-product reveal.",
+      "evidence": "V01–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q02",
+      "finding": "The founders begin with their previous product and audience rather than a current user task.",
+      "evidence": "V01",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q03",
+      "finding": "The current offer is named around 42 s, late in a 55 s film.",
+      "evidence": "V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q04",
+      "finding": "Star counters rise, error windows stack and dots assemble into a logo. No actual deployment state transition is shown.",
+      "evidence": "V02–V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q05",
+      "finding": "The origin story links custom agents, a Claude Code rewrite and reusable infrastructure.",
+      "evidence": "V02–V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q06",
+      "finding": "Blue marks the existing brand and statistics; the new agent mark uses black dots on white.",
+      "evidence": "V01,V02,V04,V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q07",
+      "finding": "Large adoption numbers are readable. Technical pain points are mostly delivered as short captions over the interview.",
+      "evidence": "V02,V03",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q08",
+      "finding": "The ASR draft supports the origin story and production-layer pitch, but mistranscribes Claude as Cloud and 15,000 stars as 50,000. Visible captions correct those terms. Its broken infrastructure-list sentence is not treated as exact dialogue. No heard delivery or sound claims are made.",
+      "evidence": "A02",
+      "status": "uncertain",
+      "reason": "ASR text only; no validated listening, delivery or voice origin.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q09",
+      "finding": "Voice delivery, music, effects and audiovisual alignment were not established by this visual pass.",
+      "evidence": "A01",
+      "status": "not checked",
+      "reason": "No validated direct audio listening input.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q10",
+      "finding": "Voice delivery, music, effects and audiovisual alignment were not established by this visual pass.",
+      "evidence": "A01",
+      "status": "not checked",
+      "reason": "No validated direct audio listening input.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q11",
+      "finding": "Voice delivery, music, effects and audiovisual alignment were not established by this visual pass.",
+      "evidence": "A01",
+      "status": "not checked",
+      "reason": "No validated direct audio listening input.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q12",
+      "finding": "Interview footage, UI-gallery views and graphic overlays are visible. Production software is unknown.",
+      "evidence": "V01–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q13",
+      "finding": "Manifest duration 54.868s; indexed dimensions 1920×1080. Source unchanged flag recorded; fresh encoding and audio clipping checks not run.",
+      "evidence": "Group manifest",
+      "status": "uncertain",
+      "reason": "Inherited technical metadata; no fresh media probe in this review.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q14",
+      "finding": "Captions make the origin story accessible visually, but viewers cannot follow the deployment process from the imagery.",
+      "evidence": "V03–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q15",
+      "finding": "The gallery and counters interrupt the interview with proof-like material; the final deployment promise receives no equivalent screen example.",
+      "evidence": "V01,V02,V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q16",
+      "finding": "About 40 s explain history and pain before the current product title. Only the closing seconds describe how to use it.",
+      "evidence": "V01–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q17",
+      "finding": "The reveal names a solution but shows no running agent, deployment success or observability output.",
+      "evidence": "V04,V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q18",
+      "finding": "The two-person interview and account of difficult internal work seek peer credibility; this is a creative interpretation.",
+      "evidence": "V02–V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q19",
+      "finding": "The UI gallery belongs to the earlier platform. The film does not clearly show the interface or output of the new production layer.",
+      "evidence": "V01,V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q20",
+      "finding": "User counts, star totals and state-of-the-art language are claims. The visible star total is 15,000; the ASR draft incorrectly says 50,000. Deployment capabilities are not demonstrated.",
+      "evidence": "V01–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q21",
+      "finding": "Sandboxes, OAuth, streaming and observability identify a specific developer infrastructure problem.",
+      "evidence": "V03",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q22",
+      "finding": "Replace a few seconds of founder history with one TypeScript definition, deploy command and successful running-agent screen.",
+      "evidence": "V03–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q23",
+      "finding": "Tin can use an internal origin story briefly, then spend more time showing the exact action the new product enables.",
+      "evidence": "V01–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q24",
+      "finding": "21st Agents is presented as a production layer for Claude Code SDK agents.",
+      "evidence": "Model reading from inspected images",
+      "status": "uncertain",
+      "reason": "Model-only new-viewer interpretation; no human test.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q25",
+      "finding": "Contact sheets inspected at displayed size; a phone-size playback, caption audit, flash audit and formal accessibility check were not performed.",
+      "evidence": "Viewed sheets",
+      "status": "not checked",
+      "reason": "Full-size moving-image and device checks unavailable in this pass.",
+      "experiment": "none"
+    }
+  ],
+  "lessons": {
+    "keep": "Name the concrete infrastructure problems behind the product.",
+    "avoid": "Avoid spending most of a launch film proving an earlier product while leaving the new one unseen.",
+    "open": "Deployment flow, reliability, adoption claims and all heard audio remain unverified.",
+    "try": [
+      "For Tin, pair a short origin story with the actual workflow that now solves the problem.",
+      "Show configuration, one launch action and a visible successful run in one continuous example."
+    ]
+  },
+  "comparison": {
+    "story": "Establish the earlier UI product and its claimed audience. → Use adoption of earlier work as credibility. → Name the infrastructure problem that led to the product. → Connect internal experience to the new offer. → Give a verbal next step without a deployment demonstration.",
+    "motion": "Star counters rise, error windows stack and dots assemble into a logo. No actual deployment state transition is shown. Sampling scope: 1 fps unless a closer window is recorded.",
+    "sound": "No validated listening; unknown.",
+    "texture": "White graphic cards, blue chart line and office interview.; Black repository labels with large blue total.; Peach terminal title, gray error boxes and alternating interview angles.; Sparse black-on-white product reveal.; Interview and simple closing brand card.",
+    "lesson": "Name the concrete infrastructure problems behind the product."
+  },
+  "elements": [
+    {
+      "kind": "ui",
+      "name": "component gallery",
+      "events": [
+        "V01"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "line chart",
+      "events": [
+        "V01"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "error dialog",
+      "events": [
+        "V03"
+      ]
+    },
+    {
+      "kind": "motion",
+      "name": "numeric counters",
+      "events": [
+        "V02"
+      ]
+    },
+    {
+      "kind": "motion",
+      "name": "dot logo assembly",
+      "events": [
+        "V04"
+      ]
+    }
+  ]
+}

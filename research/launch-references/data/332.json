@@ -1,0 +1,339 @@
+{
+  "id": 332,
+  "product_from_film": "Pencil creates website, social-post and mobile-app designs on a shared canvas from prompts, with a parallel-agent control.",
+  "explains_well": "The surf-club/coffee-shop brief remains consistent across three web pages, social cards and mobile layouts, making the expanding output set easy to connect.",
+  "unclear": "Many colored agent labels and simultaneous changes are visible, but the film does not show how a user selects, reviews or corrects one agent’s result.",
+  "product_type": "AI design canvas with parallel agents",
+  "scenario": "A surf-club website request grows into menu and team pages, then social posts and mobile screens before a download invitation.",
+  "product_clear_time": 4,
+  "product_clear_basis": "A readable design prompt at 0–3s is followed by multiple artboards and agent labels at 4s, with page content appearing by 9s.",
+  "viewed_evidence": [
+    "technical-review-2026-10-19/deep-review/motion/332/timeline-00.jpg",
+    "technical-review-2026-10-19/deep-review/motion/332/timeline-01.jpg",
+    "astra-review-2026-10-20/evidence/group-1/332/2s.jpg"
+  ],
+  "scenes": [
+    {
+      "start": 0,
+      "end": 4,
+      "action": "A prompt asks for a surf club and coffee shop in Encinitas, plus menu and barista pages. A parallel-agents menu opens beside the prompt.",
+      "design": "Close dark canvas input on a pale background.",
+      "purpose": "Define the task and parallel control.",
+      "evidence": "1 fps source samples in 0–4s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V01"
+    },
+    {
+      "start": 4,
+      "end": 18,
+      "action": "Three artboards gain layouts, imagery, text and buttons while colored agent/cursor labels appear in different areas.",
+      "design": "Dark design canvas, blue selection outlines and colored labels.",
+      "purpose": "Show several pages developing together.",
+      "evidence": "1 fps source samples in 4–18s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V02"
+    },
+    {
+      "start": 18,
+      "end": 32,
+      "action": "A second prompt asks for social media posts and a mobile app, with a 4x indicator. A row of branded social cards fills beneath the website pages.",
+      "design": "Prompt close-up followed by a wider canvas and warm surf/coffee imagery.",
+      "purpose": "Extend the same brief to another format.",
+      "evidence": "1 fps source samples in 18–32s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V03"
+    },
+    {
+      "start": 32,
+      "end": 41,
+      "action": "Narrow mobile artboards beside the team page gain images, cards and controls. The canvas pulls back to show the full web/social/mobile set.",
+      "design": "Tall mobile frames and a growing canvas overview.",
+      "purpose": "Show the output family together.",
+      "evidence": "1 fps source samples in 32–41s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V04"
+    },
+    {
+      "start": 41,
+      "end": 49.69,
+      "action": "Typed-looking text states Autonomous Design Agency, then Download Today and pencil.dev.",
+      "design": "Monospaced white text with cursor-like underscores on black.",
+      "purpose": "Name the promise and destination.",
+      "evidence": "1 fps source samples in 41–49.69s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V05"
+    }
+  ],
+  "sound": [
+    {
+      "id": "A01",
+      "start": 0,
+      "end": 49.69,
+      "layer": "unknown",
+      "detail": "No speech draft is available and no validated listening was performed. Music, speech, effects and synchronization are unknown; visible typing and cursor activity do not establish their sound.",
+      "visual_relation": "V01–V05; explanation comes from prompts and design states.",
+      "evidence": "Manifest speech_draft is null; inspected chronological sheets and 2s source frame."
+    }
+  ],
+  "categories": [
+    {
+      "id": "Q01",
+      "finding": "Website brief and parallel control → three pages → social/mobile extension → complete canvas → download.",
+      "evidence": "V01–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q02",
+      "finding": "The film opens directly on a specific surf-club design request.",
+      "evidence": "V01",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q03",
+      "finding": "People making coordinated web and marketing designs are the apparent audience.",
+      "evidence": "V01–V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q04",
+      "finding": "Artboards progressively gain content while multiple colored agent labels occupy different areas. This shows concurrent-looking work states, not measured execution speed.",
+      "evidence": "V02–V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q05",
+      "finding": "Prompt close-ups establish each task, then wide canvas views show the expanding result set.",
+      "evidence": "V01–V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q06",
+      "finding": "A dark editor and black layouts use warm coffee/surf photos, white text and red accents; colored agent labels stand apart.",
+      "evidence": "V02–V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q07",
+      "finding": "The first prompt was inspected at full size. Closing text is clear; dense canvas copy and individual agent labels are small.",
+      "evidence": "V01–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q08",
+      "finding": "Voice delivery is unverified.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "No validated listening.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q09",
+      "finding": "Music character and structure are unverified.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "No validated listening.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q10",
+      "finding": "Effects and their sources are unverified.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "No validated listening; waveform peaks do not identify effects.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q11",
+      "finding": "Sound sync is unverified.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "No validated listening or paired audiovisual timing.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q12",
+      "finding": "Product interface capture and minimal title cards dominate; asset generation and underlying agent operation are not independently inspected.",
+      "evidence": "V01–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q13",
+      "finding": "Source duration 49.69 s; Watch metadata 1804 × 1080. Frame rate, audio clipping and export quality not checked here.",
+      "evidence": "Whole film",
+      "status": "supported",
+      "reason": "Parent source metadata supports duration and dimensions; visual review is sampled.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q14",
+      "finding": "The brief-to-artboard sequence is understandable without a transcript. Agent responsibilities and review steps are less explicit.",
+      "evidence": "V01–V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q15",
+      "finding": "Close prompts and changing selection outlines guide attention, though several active areas compete in the wide views.",
+      "evidence": "V01–V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q16",
+      "finding": "About 37s show growing designs after the short prompt setup, then roughly 9s close with text.",
+      "evidence": "V01–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q17",
+      "finding": "The final overview visibly contains the requested web, social and mobile formats; no handoff or export follows.",
+      "evidence": "V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q18",
+      "finding": "Multiple active labels and accumulating outputs suggest speed and scale; actual viewer response and processing time are unmeasured.",
+      "evidence": "V02–V04",
+      "status": "uncertain",
+      "reason": "Visual interpretation only.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q19",
+      "finding": "One surf/coffee identity persists across the different formats, giving the breadth a common subject.",
+      "evidence": "V01–V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q20",
+      "finding": "Agent concurrency, generation time, autonomy and usable export behavior are not independently verified. The 4x indicator is a UI label, not measured speedup.",
+      "evidence": "V01–V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q21",
+      "finding": "Showing related formats on one canvas makes the parallel-work promise visually concrete.",
+      "evidence": "V02–V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q22",
+      "finding": "Show one user correction across the output family.",
+      "evidence": "V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "Change a shared brand detail and show which web, social and mobile designs update."
+    },
+    {
+      "id": "Q23",
+      "finding": "For Tin, keep related campaign outputs visible together.",
+      "evidence": "V03,V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "Show a shared brief producing an image, caption and scheduled preview, then one review correction across them."
+    },
+    {
+      "id": "Q24",
+      "finding": "No human new-viewer test was performed.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "The product summary is this model’s film-only reading.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q25",
+      "finding": "Mobile preview and accessibility checks were not performed.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "Contact sheets are evidence views, not a stated mobile preview or compliance test.",
+      "experiment": "none"
+    }
+  ],
+  "elements": [
+    {
+      "kind": "ui",
+      "name": "prompt field",
+      "events": [
+        "V01",
+        "V03"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "parallel-agent control",
+      "events": [
+        "V01",
+        "V03"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "design canvas",
+      "events": [
+        "V02",
+        "V03",
+        "V04"
+      ]
+    },
+    {
+      "kind": "motion",
+      "name": "multiple agent cursors",
+      "events": [
+        "V02",
+        "V03",
+        "V04"
+      ]
+    },
+    {
+      "kind": "motion",
+      "name": "artboards fill with content",
+      "events": [
+        "V02",
+        "V03",
+        "V04"
+      ]
+    }
+  ],
+  "lessons": {
+    "keep": "Use one identity to connect several output formats on a shared canvas.",
+    "try": [
+      "Show one shared brand correction updating related designs.",
+      "For Tin, show image, caption and schedule preview together and apply one review correction."
+    ],
+    "avoid": "Treating many moving labels as a measured speed or quality result.",
+    "open": "Agent roles, user review, shared corrections, export behavior and audio qualities remain unverified."
+  },
+  "comparison": {
+    "story": "Specific brief → parallel pages → social/mobile family → download.",
+    "motion": "Multiple agent labels, progressive artboard content and canvas pullback.",
+    "sound": "No draft or validated listening.",
+    "texture": "Dark editor with warm branded imagery and colored agent labels.",
+    "lesson": "A shared canvas makes breadth tangible; one correction would make control equally clear."
+  },
+  "reviewer_model": "gpt-6-astra",
+  "scope": "sampled visual and story review; ASR and measured signal support; no validated audio listening",
+  "closer_windows": []
+}

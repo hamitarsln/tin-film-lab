@@ -1,0 +1,343 @@
+{
+  "id": 514,
+  "product_from_film": "Friend is a wearable pendant companion that sends named, context-related messages to a phone.",
+  "explains_well": "The same pendant-to-phone message pattern appears during a walk, gaming and a meal, making companionship concrete.",
+  "unclear": "The film does not explain when the pendant listens, when a touch is needed, or how a conversation becomes a phone reply.",
+  "product_type": "Wearable companion",
+  "scenario": "Carry a named companion through everyday moments and receive short comments on a phone.",
+  "product_clear_time": 23,
+  "product_clear_basis": "The garden sequence links the worn pendant and a named phone notification; the gaming and meal scenes clarify the repeated companion pattern.",
+  "scenes": [
+    {
+      "start": 0,
+      "end": 9,
+      "action": "A woman walks through a lush garden; friend appears in large white type.",
+      "design": "Bright foliage and wide landscape framing.",
+      "purpose": "Introduce an everyday setting and brand.",
+      "evidence": "1 fps source samples in 0–9s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V01"
+    },
+    {
+      "start": 9,
+      "end": 29,
+      "action": "The woman touches her white round pendant, takes out her phone, sees an Amy notification and smiles, then walks through plants.",
+      "design": "Pendant close-up, message overlay and human reaction.",
+      "purpose": "Connect the wearable with a companion response.",
+      "evidence": "1 fps source samples in 9–29s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V02"
+    },
+    {
+      "start": 29,
+      "end": 47,
+      "action": "Friends play a game in a dim room; a pendant has a blue light, and a phone message from Jackson teases the player about losing.",
+      "design": "Blue-green lighting, controllers, pendant and phone inserts.",
+      "purpose": "Give the companion a playful social role.",
+      "evidence": "1 fps source samples in 29–47s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V03"
+    },
+    {
+      "start": 47,
+      "end": 66,
+      "action": "A worker eats a wrap while watching a film on a phone; Emily notifications comment on the moment, including a question about the falafel, followed by another short reply.",
+      "design": "Brick back room, food, landscape phone and pendant close-ups.",
+      "purpose": "Show companionship during a quiet work break.",
+      "evidence": "1 fps source samples in 47–66s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V04"
+    },
+    {
+      "start": 66,
+      "end": 96,
+      "action": "Two people sit on a rooftop and talk; the woman wears a pendant and later touches it while the man reaches for a drink.",
+      "design": "Long two-person view gradually framed closer, warm daylight and city equipment.",
+      "purpose": "Place the companion within an intimate human interaction.",
+      "evidence": "1 fps source samples in 66–96s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V05"
+    },
+    {
+      "start": 96,
+      "end": 103.978,
+      "action": "friend appears over the pair, then on black; Pre-order now for $99 leads to friend.com.",
+      "design": "Small centered white type on black.",
+      "purpose": "Close with brand, offer and destination.",
+      "evidence": "1 fps source samples in 96–103.978s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V06"
+    }
+  ],
+  "sound": [
+    {
+      "id": "A01",
+      "start": 0,
+      "end": 103.978,
+      "layer": "ASR dialogue support",
+      "detail": "The draft supports casual gaming dialogue, comments during a meal, and a rooftop exchange about a private place and a companion going everywhere. Several short fragments are garbled and were not used. It supplies no clear technical product explanation. Voice performance, music, effects and sync remain unassessed.",
+      "visual_relation": "V02–V05 use social dialogue around the visible pendant and phone messages.",
+      "evidence": "Local 514-speech.json; visual scenes establish the settings, not inferred hearing."
+    }
+  ],
+  "categories": [
+    {
+      "id": "Q01",
+      "finding": "Garden companion → gaming tease → meal comments → rooftop intimacy → preorder.",
+      "evidence": "V01–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q02",
+      "finding": "The garden opens with a human outing and an unexplained brand, delaying the object’s role.",
+      "evidence": "V01,V02",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q03",
+      "finding": "The first phone response suggests companionship around 23s; later scenes repeat and strengthen that reading.",
+      "evidence": "V02–V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q04",
+      "finding": "Wide scenes alternate with pendant and phone inserts; the rooftop view becomes closer across sampled states. Exact cuts and camera movement unverified.",
+      "evidence": "V02–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q05",
+      "finding": "The repeated pendant, named message and reaction link otherwise separate settings.",
+      "evidence": "V02–V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q06",
+      "finding": "Sunlit greenery, dim gaming light and a brick work room distinguish everyday contexts.",
+      "evidence": "V01–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q07",
+      "finding": "Names and brief messages give the companion a personality; the close gives a clear price and URL.",
+      "evidence": "V02–V04,V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q08",
+      "finding": "ASR supports casual scene dialogue but does not establish heard performance or the companion’s audio behavior.",
+      "evidence": "A01",
+      "status": "uncertain",
+      "reason": "No validated listening.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q09",
+      "finding": "Music character and structure are unverified.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "No validated listening.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q10",
+      "finding": "Effects and their sources are unverified.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "No validated listening; waveform peaks do not identify effects.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q11",
+      "finding": "Sound sync is unverified.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "No validated listening or paired audiovisual timing.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q12",
+      "finding": "Live-action people, a round pendant and phone notifications are visible; device sensing and message generation are not exposed.",
+      "evidence": "V02–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q13",
+      "finding": "Source duration 103.978 s; Watch metadata 1920 × 1080. Frame rate, audio clipping and export quality not checked here.",
+      "evidence": "Whole film",
+      "status": "supported",
+      "reason": "Parent source metadata supports duration and dimensions; visual review is sampled.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q14",
+      "finding": "Pendant and notification inserts convey the premise without dialogue; the longer rooftop exchange needs dialogue context.",
+      "evidence": "V02–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q15",
+      "finding": "Object close-ups interrupt wider social scenes at the points where the companion becomes relevant.",
+      "evidence": "V02–V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q16",
+      "finding": "Three brief use cases lead to a roughly thirty-second rooftop scene, shifting from function toward relationship.",
+      "evidence": "V02–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q17",
+      "finding": "Short context-related replies are the shown benefit; setup, sensing and response controls remain absent.",
+      "evidence": "V02–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q18",
+      "finding": "The replies and human reactions frame the device as company and playful attention; actual audience response is unmeasured.",
+      "evidence": "V02–V05",
+      "status": "uncertain",
+      "reason": "Interpretation of staged scenes.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q19",
+      "finding": "Touch or wearing the pendant precedes messages, but the film does not establish a consistent trigger rule.",
+      "evidence": "V02–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q20",
+      "finding": "Ambient awareness, actual response generation, privacy, availability and price are not independently verified; visible scenes are demonstrations of a premise.",
+      "evidence": "V02–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q21",
+      "finding": "Using named messages across varied everyday situations gives an abstract companion idea a repeatable visual form.",
+      "evidence": "V02–V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q22",
+      "finding": "Make the interaction rule visible once.",
+      "evidence": "V02",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "Show one clear start action, the context captured and the matching reply, including how listening ends."
+    },
+    {
+      "id": "Q23",
+      "finding": "Use a consistent output motif across different situations.",
+      "evidence": "V02–V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "For Tin, repeat one recognizable result card across three different campaign tasks."
+    },
+    {
+      "id": "Q24",
+      "finding": "No human new-viewer test was performed.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "The product summary is this model’s film-only reading.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q25",
+      "finding": "Mobile preview and accessibility checks were not performed.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "Contact sheets are evidence views, not a stated mobile preview or compliance test.",
+      "experiment": "none"
+    }
+  ],
+  "elements": [
+    {
+      "kind": "ui",
+      "name": "phone notification",
+      "events": [
+        "V02",
+        "V03",
+        "V04"
+      ]
+    },
+    {
+      "kind": "motion",
+      "name": "shot scale changes",
+      "events": [
+        "V02",
+        "V03",
+        "V04",
+        "V05"
+      ]
+    },
+    {
+      "kind": "texture",
+      "name": "live-action everyday scenes",
+      "events": [
+        "V01",
+        "V02",
+        "V03",
+        "V04",
+        "V05"
+      ]
+    },
+    {
+      "kind": "texture",
+      "name": "colored room lighting",
+      "events": [
+        "V03"
+      ]
+    }
+  ],
+  "lessons": {
+    "keep": "Repeat the pendant, named reply and human reaction across several settings.",
+    "try": [
+      "Show one complete trigger-to-reply interaction with a clear listening boundary.",
+      "For Tin, use a recognizable result card across different campaign tasks."
+    ],
+    "avoid": "Letting lifestyle scenes carry the entire explanation of an unfamiliar interaction.",
+    "open": "Listening rules, privacy, generated replies, voice and music remain unverified."
+  },
+  "comparison": {
+    "story": "Everyday companionship through four social settings.",
+    "motion": "Object inserts and changing shot scales; exact transitions unassessed.",
+    "sound": "Partial dialogue draft only; no validated listening.",
+    "texture": "Naturalistic outdoor, gaming, work-break and rooftop scenes.",
+    "lesson": "A repeated message motif makes a companion tangible, but one explicit interaction would clarify control."
+  },
+  "reviewer_model": "gpt-6-astra",
+  "scope": "sampled visual and story review; ASR and measured signal support; no validated audio listening",
+  "viewed_evidence": [
+    "technical-review-2026-10-19/deep-review/motion/514/timeline-00.jpg",
+    "technical-review-2026-10-19/deep-review/motion/514/timeline-01.jpg",
+    "technical-review-2026-10-19/deep-review/motion/514/timeline-02.jpg",
+    "technical-review-2026-10-19/deep-review/motion/514/timeline-03.jpg"
+  ],
+  "closer_windows": []
+}

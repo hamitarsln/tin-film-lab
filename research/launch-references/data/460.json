@@ -1,0 +1,358 @@
+{
+  "id": 460,
+  "reviewer_model": "gpt-6-astra",
+  "scope": "sampled visual and story review; ASR and measured signal support; no validated audio listening",
+  "viewed_evidence": [
+    "technical-review-2026-10-19/deep-review/motion/460/timeline-00.jpg",
+    "technical-review-2026-10-19/deep-review/motion/460/timeline-01.jpg",
+    "technical-review-2026-10-19/deep-review/motion/460/timeline-02.jpg"
+  ],
+  "closer_windows": [],
+  "product_from_film": "Nothing presents a family of phones, earbuds and headphones with a shared industrial design.",
+  "explains_well": "Repeated transparent parts, circular forms and white lighting make varied products feel like one recognizable family.",
+  "unclear": "The fast retrospective does not clearly separate model names or explain what is newly available; the short software examples lack action labels.",
+  "product_type": "consumer hardware brand retrospective",
+  "scenario": "Explore the device family and glimpses of phone software.",
+  "product_clear_time": 7,
+  "product_clear_basis": "Phones are followed by a clear earbud case and earbud close-up.",
+  "scenes": [
+    {
+      "id": "V01",
+      "start": 0,
+      "end": 5,
+      "action": "People queue outside stores, then white curved lights surround the Nothing name on black.",
+      "design": "Street footage and luminous arcs with dot-style lettering.",
+      "purpose": "Establish community interest and brand.",
+      "evidence": "Visible chronological 1 fps samples, source 0–5s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V02",
+      "start": 5,
+      "end": 20,
+      "action": "Transparent-looking phones and earbuds appear in close and floating views, with a bird, insects, a snake-like form and glowing green trails around devices.",
+      "design": "Exposed-looking internal forms, glossy surfaces and black or white backgrounds.",
+      "purpose": "Build the hardware design identity.",
+      "evidence": "Visible chronological 1 fps samples, source 5–20s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V03",
+      "start": 20,
+      "end": 35,
+      "action": "Yellow earbuds, dancers, an earbud wearer, several phones and headphone wearers lead to a pixel display and a dark/light phone pair.",
+      "design": "Product macros, portrait footage and precise geometric layouts.",
+      "purpose": "Expand the product family.",
+      "evidence": "Visible chronological 1 fps samples, source 20–35s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V04",
+      "start": 35,
+      "end": 44,
+      "action": "A phone displays a social post showing shoes. The post is highlighted or captured in changing screen states, then appears in a collection-like page with another tile.",
+      "design": "Small phone centered on white with yellow accents.",
+      "purpose": "Suggest saving content into a phone workspace.",
+      "evidence": "Visible chronological 1 fps samples, source 35–44s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V05",
+      "start": 44,
+      "end": 49,
+      "action": "A search field asks what RBF stands for and leads to a phone answer with text and a portrait.",
+      "design": "Minimal query field followed by a large answer view.",
+      "purpose": "Show a brief question-to-answer feature.",
+      "evidence": "Visible chronological 1 fps samples, source 44–49s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V06",
+      "start": 49,
+      "end": 59,
+      "action": "Store crowds, hands testing devices, an event audience and stage screens alternate with widgets and a headphone wearer.",
+      "design": "Documentary-looking event footage and clean interface inserts.",
+      "purpose": "Return to community and the broader ecosystem.",
+      "evidence": "Visible chronological 1 fps samples, source 49–59s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V07",
+      "start": 59,
+      "end": 63.8,
+      "action": "Thanks for all your support, We are only just getting started appears before the Nothing wordmark resolves on black.",
+      "design": "Small centered statement and white dot lettering.",
+      "purpose": "Close the retrospective with thanks and continuation.",
+      "evidence": "Visible chronological 1 fps samples, source 59–63.8s; boundary approximate; exact motion between samples unverified."
+    }
+  ],
+  "sound": [
+    {
+      "id": "A01",
+      "start": 0,
+      "end": 63.8,
+      "layer": "unknown",
+      "detail": "No validated direct audio listening was performed. Music, speech delivery, effects, mix and sync remain unknown, not absent.",
+      "visual_relation": "All visual scenes; audiovisual alignment unverified",
+      "evidence": "Visual samples only; no actual audio range supplied to this reviewer."
+    }
+  ],
+  "categories": [
+    {
+      "id": "Q01",
+      "finding": "Store interest leads to a hardware-family montage, two software glimpses and community footage before a thank-you ending.",
+      "evidence": "V01–V07",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q02",
+      "finding": "Real queues supply an immediate social-interest cue before the luminous brand mark.",
+      "evidence": "V01",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q03",
+      "finding": "Design-conscious phone and audio-device buyers are the implied audience; phones and earbuds establish the category within seven seconds.",
+      "evidence": "V02",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q04",
+      "finding": "Devices rotate or reframe in floating views, camera macros cut to full products, glowing trails surround a phone, and screen states change around a saved post and search answer.",
+      "evidence": "V02–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q05",
+      "finding": "Black and white backgrounds, circular forms and recurring luminous details keep the rapid product changes visually coherent.",
+      "evidence": "V01–V07",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q06",
+      "finding": "Transparent-looking shells, metal details, glossy glass, pixel lights and green glow define the material vocabulary.",
+      "evidence": "V02,V03",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q07",
+      "finding": "Hardware silhouettes are clear. The saved-post action and collection page are small and lack labels, while the later search question is easier to read.",
+      "evidence": "V02–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q08",
+      "finding": "Voice delivery, music, effects and audiovisual alignment were not established by this visual pass.",
+      "evidence": "A01",
+      "status": "not checked",
+      "reason": "No validated direct audio listening input.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q09",
+      "finding": "Voice delivery, music, effects and audiovisual alignment were not established by this visual pass.",
+      "evidence": "A01",
+      "status": "not checked",
+      "reason": "No validated direct audio listening input.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q10",
+      "finding": "Voice delivery, music, effects and audiovisual alignment were not established by this visual pass.",
+      "evidence": "A01",
+      "status": "not checked",
+      "reason": "No validated direct audio listening input.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q11",
+      "finding": "Voice delivery, music, effects and audiovisual alignment were not established by this visual pass.",
+      "evidence": "A01",
+      "status": "not checked",
+      "reason": "No validated direct audio listening input.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q12",
+      "finding": "Product imagery, animal or insect imagery, portrait footage, interface animation and event documentation are visible; asset provenance is unverified.",
+      "evidence": "V01–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q13",
+      "finding": "Manifest duration 63.8s; indexed dimensions 1920×1080. Source unchanged flag recorded; fresh encoding and audio clipping checks not run.",
+      "evidence": "Group manifest",
+      "status": "uncertain",
+      "reason": "Inherited technical metadata; no fresh media probe in this review.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q14",
+      "finding": "The visual pass establishes product categories and the final thank-you message. It does not establish funding details from the source title.",
+      "evidence": "V01–V07",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q15",
+      "finding": "Large product macros command attention; the centered phone demos provide less readable detail than the surrounding packshots.",
+      "evidence": "V02–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q16",
+      "finding": "The hardware montage is fast, then the saved-post sequence holds for several seconds before a short search and community finale.",
+      "evidence": "V02–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q17",
+      "finding": "The shoe post stays recognizable through several saved-content states. Model changes elsewhere are not labelled as a timeline or comparison.",
+      "evidence": "V02–V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q18",
+      "finding": "Queues, device testing and an event audience frame the brand as a community with momentum. Heard sound and mood remain unknown.",
+      "evidence": "V01,V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q19",
+      "finding": "The RBF question leads to an answer view, but the saved-post sequence omits a clear user action cue and explanation of the destination.",
+      "evidence": "V04,V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q20",
+      "finding": "The footage does not verify model specifications, funding, answer accuracy or the exact capture gesture. Closely sampled motion would be needed to identify the software transition mechanics.",
+      "evidence": "V02–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q21",
+      "finding": "Distinctive lighting and dot lettering link the devices to Nothing, reinforced by opening and closing names.",
+      "evidence": "V01–V07",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q22",
+      "finding": "Add short model labels and a capture-action label, or narrow the film to one new device and its main benefit.",
+      "evidence": "V02–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q23",
+      "finding": "Repeat a small set of material and light choices across different products to make a family recognizable.",
+      "evidence": "V02,V03",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q24",
+      "finding": "Nothing presents a family of phones, earbuds and headphones with a shared industrial design.",
+      "evidence": "Model reading from inspected images",
+      "status": "uncertain",
+      "reason": "Model-only new-viewer interpretation; no human test.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q25",
+      "finding": "Contact sheets inspected at displayed size; a phone-size playback, caption audit, flash audit and formal accessibility check were not performed.",
+      "evidence": "Viewed sheets",
+      "status": "not checked",
+      "reason": "Full-size moving-image and device checks unavailable in this pass.",
+      "experiment": "none"
+    }
+  ],
+  "lessons": {
+    "keep": "Unify a product family through repeated circular geometry and material details.",
+    "avoid": "Using rapid model changes without indicating which product or feature is new.",
+    "open": "Model chronology, capture gesture, source-title funding details, specifications and audio remain unverified.",
+    "try": [
+      "For Tin, give each campaign tool the same simple visual motif while showing one distinct task per tool.",
+      "Add a short Save this post label and a named destination to the shoe-post sequence."
+    ]
+  },
+  "comparison": {
+    "story": "Establish community interest and brand. → Build the hardware design identity. → Expand the product family. → Suggest saving content into a phone workspace. → Show a brief question-to-answer feature. → Return to community and the broader ecosystem. → Close the retrospective with thanks and continuation.",
+    "motion": "Devices rotate or reframe in floating views, camera macros cut to full products, glowing trails surround a phone, and screen states change around a saved post and search answer. Sampling scope: 1 fps unless a closer window is recorded.",
+    "sound": "No validated listening; unknown.",
+    "texture": "Street footage and luminous arcs with dot-style lettering.; Exposed-looking internal forms, glossy surfaces and black or white backgrounds.; Product macros, portrait footage and precise geometric layouts.; Small phone centered on white with yellow accents.; Minimal query field followed by a large answer view.; Documentary-looking event footage and clean interface inserts.; Small centered statement and white dot lettering.",
+    "lesson": "Unify a product family through repeated circular geometry and material details."
+  },
+  "elements": [
+    {
+      "kind": "ui",
+      "name": "content collection",
+      "events": [
+        "V04"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "search",
+      "events": [
+        "V05"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "answer page",
+      "events": [
+        "V05"
+      ]
+    },
+    {
+      "kind": "motion",
+      "name": "floating product views",
+      "events": [
+        "V02",
+        "V03"
+      ]
+    },
+    {
+      "kind": "texture",
+      "name": "transparent-looking shell",
+      "events": [
+        "V02"
+      ]
+    },
+    {
+      "kind": "texture",
+      "name": "glowing light",
+      "events": [
+        "V01",
+        "V02"
+      ]
+    }
+  ]
+}

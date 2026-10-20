@@ -1,0 +1,364 @@
+{
+  "id": 502,
+  "reviewer_model": "gpt-6-astra",
+  "scope": "sampled visual and story review; ASR and measured signal support; no validated audio listening",
+  "viewed_evidence": [
+    "technical-review-2026-10-19/deep-review/motion/502/timeline-00.jpg",
+    "technical-review-2026-10-19/deep-review/motion/502/timeline-01.jpg",
+    "technical-review-2026-10-19/deep-review/motion/502/timeline-02.jpg",
+    "technical-review-2026-10-19/deep-review/motion/502/timeline-03.jpg",
+    "technical-review-2026-10-19/deep-review/audio/502-speech.json"
+  ],
+  "closer_windows": [],
+  "product_from_film": "Cluely is framed as an invisible conversation assistant that supplies live suggestions and context.",
+  "explains_well": "The floating panels make hidden assistance visible, changing from suggestions to errors and then recovery as the date develops.",
+  "unclear": "The restaurant metaphor does not explain the real device, input setup or how a user reads suggestions during an actual meeting.",
+  "product_type": "conversation assistant comedy",
+  "scenario": "Use live suggestions during a date, then attempt to recover from an exposed lie.",
+  "product_clear_time": 9,
+  "product_clear_basis": "The listening overlay produces a suggested age response beside the conversation.",
+  "scenes": [
+    {
+      "id": "V01",
+      "start": 0,
+      "end": 12,
+      "action": "A restaurant date appears with a floating blue-edged frame between the pair. Cluely is introduced, and a Listening interface shows analysis and a suggested age response.",
+      "design": "Warm restaurant light and translucent digital panels.",
+      "purpose": "Introduce invisible help through a social situation.",
+      "evidence": "Visible chronological 1 fps samples, source 0–12s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V02",
+      "start": 12,
+      "end": 37,
+      "action": "Profile and work-history cards accompany the woman’s questions. The man responds; a Restate you are 30 years old prompt leads to a green Continue conversation card.",
+      "design": "Alternating close-ups and overlay views with profile information.",
+      "purpose": "Show contextual suggestions apparently sustaining the conversation.",
+      "evidence": "Visible chronological 1 fps samples, source 12–37s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V03",
+      "start": 37,
+      "end": 56,
+      "action": "A wider side view keeps the floating panel between the couple. A server brings drinks, and red Critical Error, Escalation Likely and Need to Recover panels appear.",
+      "design": "Warm table scene interrupted by bright red warning graphics.",
+      "purpose": "Turn the apparent success into a comic failure.",
+      "evidence": "Visible chronological 1 fps samples, source 37–56s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V04",
+      "start": 56,
+      "end": 78,
+      "action": "The woman prepares to leave. A recovery indicator and profile-image grid lead to a tulip painting reference and compliment suggestions while the man apologizes and appeals to her.",
+      "design": "Red status changes to reference cards and longer suggestion text.",
+      "purpose": "Show a recovery attempt using personal context.",
+      "evidence": "Visible chronological 1 fps samples, source 56–78s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V05",
+      "start": 78,
+      "end": 93,
+      "action": "The conversation resumes briefly. An anime-convention calendar card appears as the man responds about scheduling, and the woman leaves.",
+      "design": "Standing two-person scene, calendar card and reaction close-ups.",
+      "purpose": "Undercut the recovery with a final joke.",
+      "evidence": "Visible chronological 1 fps samples, source 78–93s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V06",
+      "start": 93,
+      "end": 98.666,
+      "action": "Cluely appears on black with a line that cycles through sales calls, meetings and everything.",
+      "design": "White logo and small changing tagline.",
+      "purpose": "Translate the date metaphor into broader product positioning.",
+      "evidence": "Visible chronological 1 fps samples, source 93–98.666s; boundary approximate; exact motion between samples unverified."
+    }
+  ],
+  "sound": [
+    {
+      "id": "A01",
+      "start": 0,
+      "end": 98.666,
+      "layer": "unknown",
+      "detail": "No validated direct audio listening was performed. Music, speech delivery, effects, mix and sync remain unknown, not absent.",
+      "visual_relation": "All visual scenes; audiovisual alignment unverified",
+      "evidence": "Visual samples only; no actual audio range supplied to this reviewer."
+    },
+    {
+      "id": "A02",
+      "start": 5.16,
+      "end": 91.55,
+      "layer": "ASR draft",
+      "detail": "The coherent ASR draft gives the date’s age and work-history exchange, drink-order exposure, apology using an art reference, and scheduling punchline. It supports the narrative sequence only; speech delivery and audiovisual timing are unverified.",
+      "visual_relation": "Story text support; exact audiovisual alignment and delivery unverified.",
+      "evidence": "technical-review-2026-10-19/deep-review/audio/502-speech.json; local faster-whisper base CPU int8 draft; VAD candidates only, recognition errors possible."
+    }
+  ],
+  "categories": [
+    {
+      "id": "Q01",
+      "finding": "Live suggestions sustain a date, a drink-order interruption exposes a lie, the assistant attempts recovery, and scheduling creates another failure.",
+      "evidence": "V01–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q02",
+      "finding": "A visible digital frame inside an ordinary restaurant makes the invisible-assistant premise unusual and immediate.",
+      "evidence": "V01",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q03",
+      "finding": "The final card names sales calls and meetings, but the main example targets general conversation anxiety through a date.",
+      "evidence": "V01,V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q04",
+      "finding": "Translucent profile and suggestion cards appear around the listener, green confirmation becomes stacked red warnings, a recovery bar changes, and reference images replace the error state.",
+      "evidence": "V01–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q05",
+      "finding": "Color-coded overlay states carry the plot alongside reaction shots: neutral assistance, green success, red failure and recovery.",
+      "evidence": "V01–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q06",
+      "finding": "Warm candlelit surroundings contrast with cool blue borders, glass-like panels and vivid error red.",
+      "evidence": "V01–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q07",
+      "finding": "Short status labels are legible. Longer profile and suggestion text becomes small or blurred in several close and angled views.",
+      "evidence": "V02–V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q08",
+      "finding": "The coherent ASR draft gives the date’s age and work-history exchange, drink-order exposure, apology using an art reference, and scheduling punchline. It supports the narrative sequence only; speech delivery and audiovisual timing are unverified.",
+      "evidence": "A02",
+      "status": "uncertain",
+      "reason": "ASR text only; no validated listening, delivery or voice origin.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q09",
+      "finding": "Voice delivery, music, effects and audiovisual alignment were not established by this visual pass.",
+      "evidence": "A01",
+      "status": "not checked",
+      "reason": "No validated direct audio listening input.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q10",
+      "finding": "Voice delivery, music, effects and audiovisual alignment were not established by this visual pass.",
+      "evidence": "A01",
+      "status": "not checked",
+      "reason": "No validated direct audio listening input.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q11",
+      "finding": "Voice delivery, music, effects and audiovisual alignment were not established by this visual pass.",
+      "evidence": "A01",
+      "status": "not checked",
+      "reason": "No validated direct audio listening input.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q12",
+      "finding": "Staged restaurant footage, floating interface graphics, profile cards, images and a calendar are visible. Their fidelity to a real product is unverified.",
+      "evidence": "V01–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q13",
+      "finding": "Manifest duration 98.666s; indexed dimensions 1920×1080. Source unchanged flag recorded; fresh encoding and audio clipping checks not run.",
+      "evidence": "Group manifest",
+      "status": "uncertain",
+      "reason": "Inherited technical metadata; no fresh media probe in this review.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q14",
+      "finding": "The coherent ASR draft supplies the age lie, work-history discussion, drink interruption, apology and scheduling joke; visible panels show the assistance role.",
+      "evidence": "V01–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q15",
+      "finding": "Bright status cards direct attention at plot turns, while reaction close-ups make the social consequences readable.",
+      "evidence": "V02–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q16",
+      "finding": "The film spends most of its runtime on one extended scenario, with the real meeting use cases only named at the end.",
+      "evidence": "V01–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q17",
+      "finding": "The same couple and floating frame maintain continuity; profile information and the tulip reference carry into the recovery appeal.",
+      "evidence": "V01–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q18",
+      "finding": "Awkward reactions, exposed deception and a failed recovery create social comedy. Heard delivery and music are unverified.",
+      "evidence": "V01–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q19",
+      "finding": "Listening, analysis and suggestion states are depicted, but no real installation, device or control interaction explains how this works in practice.",
+      "evidence": "V01–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q20",
+      "finding": "The scene is a staged metaphor, not evidence of real-time accuracy, profile access or recovery effectiveness. The final departure also prevents a simple success claim.",
+      "evidence": "V01–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q21",
+      "finding": "Cluely opens and closes the film, with the final changing tagline connecting the joke to sales and meetings.",
+      "evidence": "V01,V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q22",
+      "finding": "After the date scene, add a brief real meeting interface showing where suggestions appear and what the user controls.",
+      "evidence": "V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q23",
+      "finding": "Make an invisible process understandable through a consistent visual state system.",
+      "evidence": "V01–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q24",
+      "finding": "Cluely is framed as an invisible conversation assistant that supplies live suggestions and context.",
+      "evidence": "Model reading from inspected images",
+      "status": "uncertain",
+      "reason": "Model-only new-viewer interpretation; no human test.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q25",
+      "finding": "Contact sheets inspected at displayed size; a phone-size playback, caption audit, flash audit and formal accessibility check were not performed.",
+      "evidence": "Viewed sheets",
+      "status": "not checked",
+      "reason": "Full-size moving-image and device checks unavailable in this pass.",
+      "experiment": "none"
+    }
+  ],
+  "lessons": {
+    "keep": "Use clear interface states to make hidden assistance part of the visible story.",
+    "avoid": "Leaving the real product surface unclear after an extended metaphor.",
+    "open": "Actual device setup, data access, suggestion quality, live timing and audio remain unverified.",
+    "try": [
+      "For Tin, show listening, drafting and approval states beside a campaign conversation with distinct readable labels.",
+      "Add a short actual meeting screen after the restaurant metaphor to explain the real usage surface."
+    ]
+  },
+  "comparison": {
+    "story": "Introduce invisible help through a social situation. → Show contextual suggestions apparently sustaining the conversation. → Turn the apparent success into a comic failure. → Show a recovery attempt using personal context. → Undercut the recovery with a final joke. → Translate the date metaphor into broader product positioning.",
+    "motion": "Translucent profile and suggestion cards appear around the listener, green confirmation becomes stacked red warnings, a recovery bar changes, and reference images replace the error state. Sampling scope: 1 fps unless a closer window is recorded.",
+    "sound": "No validated listening; unknown.",
+    "texture": "Warm restaurant light and translucent digital panels.; Alternating close-ups and overlay views with profile information.; Warm table scene interrupted by bright red warning graphics.; Red status changes to reference cards and longer suggestion text.; Standing two-person scene, calendar card and reaction close-ups.; White logo and small changing tagline.",
+    "lesson": "Use clear interface states to make hidden assistance part of the visible story."
+  },
+  "elements": [
+    {
+      "kind": "ui",
+      "name": "suggestion panel",
+      "events": [
+        "V01",
+        "V02",
+        "V04"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "error notification",
+      "events": [
+        "V03",
+        "V04"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "profile card",
+      "events": [
+        "V02",
+        "V04"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "calendar card",
+      "events": [
+        "V05"
+      ]
+    },
+    {
+      "kind": "motion",
+      "name": "status color change",
+      "events": [
+        "V02",
+        "V03",
+        "V04"
+      ]
+    },
+    {
+      "kind": "texture",
+      "name": "translucent panel",
+      "events": [
+        "V01"
+      ]
+    }
+  ]
+}

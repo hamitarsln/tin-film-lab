@@ -1,0 +1,363 @@
+{
+  "id": 371,
+  "product_from_film": "ramAIn moves data between business applications by operating their interfaces, illustrated with invoice processing.",
+  "explains_well": "An approved invoice is opened, structured, entered into an ERP form and sent, with the same invoice number recurring.",
+  "unclear": "The film shows the agent learning interface fields but not how a user defines and starts this workflow.",
+  "product_type": "Business workflow automation",
+  "scenario": "Find an approved partner invoice, extract its data, populate an internal invoice form and send it.",
+  "product_clear_time": 22,
+  "product_clear_basis": "Visible text says it uses a computer like a human to move data across portals, legacy systems and desktop apps by 22s.",
+  "scenes": [
+    {
+      "start": 0,
+      "end": 14,
+      "action": "Company data is described as scattered across desktop apps, web portals and legacy systems. Messy/disconnected labels and an APIs-end statement follow.",
+      "design": "Pale green gradient/grid, small app windows and changing text.",
+      "purpose": "Frame integration gaps.",
+      "evidence": "1 fps source samples in 0–14s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V01"
+    },
+    {
+      "start": 14,
+      "end": 31,
+      "action": "ramAIn and a bowl-like mark appear. Large text explains computer use and data movement, then a 10x competitor comparison and invoice-processing setup.",
+      "design": "Green accent type, app fragments and competitor logo cards.",
+      "purpose": "Introduce the agent and claim before the example.",
+      "evidence": "1 fps source samples in 14–31s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V02"
+    },
+    {
+      "start": 31,
+      "end": 46,
+      "action": "An invoice form gains labeled green field boxes. A partner billing portal opens, an approved invoice is selected and its fields/rows are highlighted.",
+      "design": "Tilted application windows, status pill and field highlights.",
+      "purpose": "Show interface recognition and source-document selection.",
+      "evidence": "1 fps source samples in 31–46s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V03"
+    },
+    {
+      "start": 46,
+      "end": 59,
+      "action": "Extracted invoice data appears as a clean table. An ERP screen opens, then an invoice form receives customer, address, dates and other header values.",
+      "design": "Floating structured table, form fields and agent cursor label.",
+      "purpose": "Carry source data into the target application.",
+      "evidence": "1 fps source samples in 46–59s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V04"
+    },
+    {
+      "start": 59,
+      "end": 73,
+      "action": "Dropdowns and item fields are populated across two rows; quantities, rates and totals change, then the send-invoice control is approached.",
+      "design": "Invoice table, green selection borders and calculated totals.",
+      "purpose": "Demonstrate multi-field entry and review state.",
+      "evidence": "1 fps source samples in 59–73s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V05"
+    },
+    {
+      "start": 73,
+      "end": 79,
+      "action": "A send-email dialog opens with an invoice attachment. The send control is selected and an Invoice sent confirmation appears.",
+      "design": "Email preview and green check toast.",
+      "purpose": "Provide a visible completion state.",
+      "evidence": "1 fps source samples in 73–79s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V06"
+    },
+    {
+      "start": 79,
+      "end": 92,
+      "action": "An internal-apps/external-apps diagram connects through the brand mark. Unified API/UI automation and speed/reach comparisons follow.",
+      "design": "Node diagram and centered green/black statements.",
+      "purpose": "Generalize the demonstrated workflow.",
+      "evidence": "1 fps source samples in 79–92s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V07"
+    },
+    {
+      "start": 92,
+      "end": 97.1,
+      "action": "ramAIn identity, automation slogan and website hold.",
+      "design": "Pale green field and green URL button.",
+      "purpose": "Close with destination.",
+      "evidence": "1 fps source samples in 92–97.1s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V08"
+    }
+  ],
+  "sound": [
+    {
+      "id": "A01",
+      "start": 0,
+      "end": 97.1,
+      "layer": "ASR draft",
+      "detail": "Draft supports scattered data, API limits, computer-use automation and the invoice find/read/extract/enter/send sequence. Brand names and a few words are garbled. Visible text gives a narrower 10x comparison on pre-trained surfaces; speed remains a film claim. Delivery, music, effects and sync are unverified.",
+      "visual_relation": "V01–V08; explanatory script follows the demonstration.",
+      "evidence": "371-speech.json draft plus visible text; no validated listening."
+    }
+  ],
+  "categories": [
+    {
+      "id": "Q01",
+      "finding": "Fragmented data → agent → interface recognition → source invoice → ERP entry → sent state → wider integrations.",
+      "evidence": "V01–V08",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q02",
+      "finding": "Your company’s data appears over pale green, then words separate before everywhere. The problem starts as text.",
+      "evidence": "V01",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q03",
+      "finding": "Operations teams moving business data are addressed; the invoice example narrows the broad computer-use proposition.",
+      "evidence": "V02–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q04",
+      "finding": "Text changes position, windows tilt/scale and green outlines mark successive fields. Cursor and form values advance across sampled states; exact easing is unverified.",
+      "evidence": "V01–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q05",
+      "finding": "The extracted table bridges source invoice and target ERP, preserving the data idea across different app layouts.",
+      "evidence": "V03,V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q06",
+      "finding": "Pale green glow/grid and green highlights unify the light business applications.",
+      "evidence": "V01–V08",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q07",
+      "finding": "Headings explain each stage; field labels and invoice number help continuity. The speed comparison includes a small pre-trained-surfaces qualifier.",
+      "evidence": "V02–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q08",
+      "finding": "ASR supports an explanatory problem/demo/benefit script. Brand recognition errors and sound qualities remain open.",
+      "evidence": "A01",
+      "status": "uncertain",
+      "reason": "Draft support only.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q09",
+      "finding": "Music character and structure are unverified.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "No validated listening.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q10",
+      "finding": "Effects and their sources are unverified.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "No validated listening; waveform peaks do not identify effects.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q11",
+      "finding": "Sound sync is unverified.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "No validated listening or paired audiovisual timing.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q12",
+      "finding": "Stylized app windows, invoice tables and a connection diagram dominate. Real-time operation and asset origin are unverified.",
+      "evidence": "V01–V08",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q13",
+      "finding": "Source duration 97.1 s; Watch metadata 1920 × 1080. Frame rate, audio clipping and export quality not checked here.",
+      "evidence": "Whole film",
+      "status": "supported",
+      "reason": "Parent source metadata supports duration and dimensions; visual review is sampled.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q14",
+      "finding": "Stage labels, structured table and sent confirmation communicate the main workflow without verified sound.",
+      "evidence": "V03–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q15",
+      "finding": "Green outlines and an agent-labeled cursor point to the active field, while status pills explain the larger operation.",
+      "evidence": "V03–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q16",
+      "finding": "The invoice example receives about 48s, with enough states to show header and line-item entry. The first 31s delay that concrete task.",
+      "evidence": "V01–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q17",
+      "finding": "The API-limit premise is answered by a visible cross-application form flow ending in sent confirmation. The actual no-API mechanism is not proven.",
+      "evidence": "V01,V03–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q18",
+      "finding": "Scattered words and failure framing give way to orderly fields and a check toast, suggesting resolution; response is unmeasured.",
+      "evidence": "V01–V06",
+      "status": "uncertain",
+      "reason": "Visual interpretation only.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q19",
+      "finding": "The recurring invoice number and line-item table link source and target better than the later generic integrations diagram.",
+      "evidence": "V03–V07",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q20",
+      "finding": "The film shows data-entry and sent states. Actual delivery, field accuracy, no-API operation, comparative speed and universal compatibility are unverified.",
+      "evidence": "V03–V07",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q21",
+      "finding": "Field recognition and an end-to-end invoice example make the automation category concrete; the bowl mark adds identity.",
+      "evidence": "V02–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q22",
+      "finding": "Show how this workflow starts.",
+      "evidence": "V03",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "Add one setup screen selecting the partner source and target ERP, then show the run trigger before interface recognition."
+    },
+    {
+      "id": "Q23",
+      "finding": "For Tin, carry a shared identifier through a cross-app task.",
+      "evidence": "V03–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "Follow one campaign ID from brief through generated asset and publishing confirmation, with the source data briefly visible at each handoff."
+    },
+    {
+      "id": "Q24",
+      "finding": "No human new-viewer test was performed.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "The product summary is this model’s film-only reading.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q25",
+      "finding": "Mobile preview and accessibility checks were not performed.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "Contact sheets are evidence views, not a stated mobile preview or compliance test.",
+      "experiment": "none"
+    }
+  ],
+  "elements": [
+    {
+      "kind": "ui",
+      "name": "invoice",
+      "events": [
+        "V03",
+        "V04",
+        "V05"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "form",
+      "events": [
+        "V03",
+        "V04",
+        "V05"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "dropdown",
+      "events": [
+        "V05"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "email preview",
+      "events": [
+        "V06"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "node diagram",
+      "events": [
+        "V07"
+      ]
+    }
+  ],
+  "lessons": {
+    "keep": "Use a structured table to bridge the source document and target form.",
+    "try": [
+      "Show the source/target setup and run trigger before the invoice demonstration.",
+      "For Tin, retain one campaign identifier through brief, asset and publishing confirmation."
+    ],
+    "avoid": "Leaving workflow initiation implicit while spending many seconds on broad automation claims.",
+    "open": "Setup, actual delivery, extraction accuracy, speed comparison, mechanism and audio qualities remain unverified."
+  },
+  "comparison": {
+    "story": "Data fragmentation → invoice extraction/entry/send → generalization.",
+    "motion": "Field highlights, cursor movement, app-window reframing and form states.",
+    "sound": "ASR supports the walkthrough; no validated listening.",
+    "texture": "Light green technical background and business UI.",
+    "lesson": "A shared document and explicit completion state make cross-app automation easier to follow."
+  },
+  "reviewer_model": "gpt-6-astra",
+  "scope": "sampled visual and story review; ASR and measured signal support; no validated audio listening",
+  "viewed_evidence": [
+    "technical-review-2026-10-19/deep-review/motion/371/timeline-00.jpg",
+    "technical-review-2026-10-19/deep-review/motion/371/timeline-01.jpg",
+    "technical-review-2026-10-19/deep-review/motion/371/timeline-02.jpg",
+    "technical-review-2026-10-19/deep-review/motion/371/timeline-03.jpg"
+  ],
+  "closer_windows": []
+}

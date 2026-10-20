@@ -1,0 +1,369 @@
+{
+  "id": 457,
+  "reviewer_model": "gpt-6-astra",
+  "scope": "sampled visual and story review; ASR and measured signal support; no validated audio listening",
+  "viewed_evidence": [
+    "technical-review-2026-10-19/deep-review/motion/457/timeline-00.jpg",
+    "technical-review-2026-10-19/deep-review/motion/457/timeline-01.jpg",
+    "technical-review-2026-10-19/deep-review/motion/457/timeline-02.jpg",
+    "technical-review-2026-10-19/deep-review/motion/457/timeline-03.jpg",
+    "technical-review-2026-10-19/deep-review/audio/457-speech.json"
+  ],
+  "closer_windows": [],
+  "product_from_film": "Memelord.com combines meme discovery, editing and AI video creation.",
+  "explains_well": "The film shows its own character, script, storyboard and timeline assets inside the editor, linking the pitch to its output.",
+  "unclear": "Many features appear quickly, but no single user input is followed through to a finished export; the alert feature is mostly a metaphor.",
+  "product_type": "meme and video creation tool",
+  "scenario": "Find a meme, edit it and create a character-led video.",
+  "product_clear_time": 36,
+  "product_clear_basis": "A template grid and meme canvas give the first concrete view of the editing product.",
+  "scenes": [
+    {
+      "id": "V01",
+      "start": 0,
+      "end": 14,
+      "action": "A hoodie cartoon character presents a book, energy drink and masks. A money-bag scene gives way to a running group chasing money.",
+      "design": "Saturated cartoon figures over green rolling hills and blue sky.",
+      "purpose": "Introduce meme culture and an exaggerated funding story.",
+      "evidence": "Visible chronological 1 fps samples, source 0–14s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V02",
+      "start": 14,
+      "end": 32,
+      "action": "The character raises a Memelord.com sign, scans with a metal detector and displays phone, laptop and beeper props. A beeper explosion joke leads to a painter character and a clapperboard interruption.",
+      "design": "Cartoon props, rapid costume changes and visual jokes.",
+      "purpose": "Announce the new version and shift toward showing software.",
+      "evidence": "Visible chronological 1 fps samples, source 14–32s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V03",
+      "start": 32,
+      "end": 43,
+      "action": "A painter-costumed presenter stands on a lawn beside retro-style editor windows. A template grid leads to a meme canvas, an AI edit dialog and changed headline text.",
+      "design": "Desktop-window borders and a large meme preview over live-action-looking footage.",
+      "purpose": "Show meme selection and editing.",
+      "evidence": "Visible chronological 1 fps samples, source 32–43s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V04",
+      "start": 43,
+      "end": 63,
+      "action": "A video timeline shows the same hoodie character. Character poses, script and storyboard rows, a generation dialog and timeline clips appear beside the presenter.",
+      "design": "Layered creation screens with recurring character artwork.",
+      "purpose": "Connect the film to its creation tools.",
+      "evidence": "Visible chronological 1 fps samples, source 43–63s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V05",
+      "start": 63,
+      "end": 85,
+      "action": "Animated output examples include a piano scene, camera characters and film-style settings. A director chair and hillside brand sign lead back to the presenter and timeline, which changes clips.",
+      "design": "Mixed cartoon styles, cinematic references and editor overlays.",
+      "purpose": "Suggest a range of video outputs and styles.",
+      "evidence": "Visible chronological 1 fps samples, source 63–85s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V06",
+      "start": 85,
+      "end": 101,
+      "action": "A rainbow prop leads to pop-art and painted character looks, then the presenter appears beside a Try Free landing page and reacts to the surrounding scene.",
+      "design": "Painterly references and a web page over the recurring hill.",
+      "purpose": "Move from creative range to signup and a self-referential joke.",
+      "evidence": "Visible chronological 1 fps samples, source 85–101s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V07",
+      "start": 101,
+      "end": 107.2,
+      "action": "The presenter remains on the hill with a giant Memelord.com wordmark.",
+      "design": "Bright landscape and oversized domain text.",
+      "purpose": "End on the destination.",
+      "evidence": "Visible chronological 1 fps samples, source 101–107.2s; boundary approximate; exact motion between samples unverified."
+    }
+  ],
+  "sound": [
+    {
+      "id": "A01",
+      "start": 0,
+      "end": 107.2,
+      "layer": "unknown",
+      "detail": "No validated direct audio listening was performed. Music, speech delivery, effects, mix and sync remain unknown, not absent.",
+      "visual_relation": "All visual scenes; audiovisual alignment unverified",
+      "evidence": "Visual samples only; no actual audio range supplied to this reviewer."
+    },
+    {
+      "id": "A02",
+      "start": 0,
+      "end": 107,
+      "layer": "ASR draft",
+      "detail": "The coherent ASR draft describes funding, meme alerts, editing, character generation, scripts and storyboards, then claims the film was made in Memelord for about $300 and invites a free trial. It supports the pitch structure only; cost, production provenance and vocal delivery are unverified.",
+      "visual_relation": "Story text support; exact audiovisual alignment and delivery unverified.",
+      "evidence": "technical-review-2026-10-19/deep-review/audio/457-speech.json; local faster-whisper base CPU int8 draft; VAD candidates only, recognition errors possible."
+    }
+  ],
+  "categories": [
+    {
+      "id": "Q01",
+      "finding": "Funding and meme jokes lead to a software interruption, editing examples, video creation screens, outputs and a free-trial invitation.",
+      "evidence": "V01–V07",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q02",
+      "finding": "The hoodie character and meme props establish internet-comedy tone immediately, before the product is explained.",
+      "evidence": "V01",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q03",
+      "finding": "Meme makers and marketers are the implied users; concrete editing becomes visible around 36s.",
+      "evidence": "V03",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q04",
+      "finding": "Characters change costumes through cuts, props appear in quick jokes, editor windows overlay the presenter, and timeline clips switch among animated examples.",
+      "evidence": "V01–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q05",
+      "finding": "The recurring hill and character connect the varied visual styles, while the clapperboard interruption marks the move into the demo.",
+      "evidence": "V01–V07",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q06",
+      "finding": "Flat cartoons, painted styles, live-action-looking presenter footage and retro desktop borders make the film deliberately mixed.",
+      "evidence": "V01–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q07",
+      "finding": "The large sign and final domain are clear. Script rows, timelines and generation settings are much denser and brief.",
+      "evidence": "V02,V04,V07",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q08",
+      "finding": "The coherent ASR draft describes funding, meme alerts, editing, character generation, scripts and storyboards, then claims the film was made in Memelord for about $300 and invites a free trial. It supports the pitch structure only; cost, production provenance and vocal delivery are unverified.",
+      "evidence": "A02",
+      "status": "uncertain",
+      "reason": "ASR text only; no validated listening, delivery or voice origin.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q09",
+      "finding": "Voice delivery, music, effects and audiovisual alignment were not established by this visual pass.",
+      "evidence": "A01",
+      "status": "not checked",
+      "reason": "No validated direct audio listening input.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q10",
+      "finding": "Voice delivery, music, effects and audiovisual alignment were not established by this visual pass.",
+      "evidence": "A01",
+      "status": "not checked",
+      "reason": "No validated direct audio listening input.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q11",
+      "finding": "Voice delivery, music, effects and audiovisual alignment were not established by this visual pass.",
+      "evidence": "A01",
+      "status": "not checked",
+      "reason": "No validated direct audio listening input.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q12",
+      "finding": "Character animation, presenter footage, software overlays, meme imagery and painted references are visible. The claim that the film was made in the tool is not independently verified.",
+      "evidence": "V01–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q13",
+      "finding": "Manifest duration 107.2s; indexed dimensions 1920×1080. Source unchanged flag recorded; fresh encoding and audio clipping checks not run.",
+      "evidence": "Group manifest",
+      "status": "uncertain",
+      "reason": "Inherited technical metadata; no fresh media probe in this review.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q14",
+      "finding": "Visuals show editing and generation surfaces, but many business and feature claims rely on the available script draft.",
+      "evidence": "V03–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q15",
+      "finding": "The large presenter and moving character compete with small editor details; the clean template canvas is easier to follow than the later timeline montage.",
+      "evidence": "V03,V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q16",
+      "finding": "About thirty seconds of jokes and setup precede the software. The remaining demo spans several features without holding one task to completion.",
+      "evidence": "V01–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q17",
+      "finding": "The same hoodie character appears in the opening, character selection and timeline, giving a useful asset continuity cue.",
+      "evidence": "V01,V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q18",
+      "finding": "Exaggerated props, fourth-wall jokes and familiar film references aim for irreverent humor. Heard delivery and music are unknown.",
+      "evidence": "V01–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q19",
+      "finding": "Template selection, edit dialog and changed text suggest a short editing chain. Video creation is a series of selected stages without a clear final export action.",
+      "evidence": "V03,V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q20",
+      "finding": "Funding, full-film production and the low production-cost claim come from the ASR draft and are not verified. Alert setup and delivery are not shown as an interface workflow.",
+      "evidence": "V01,V02,V04,V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q21",
+      "finding": "The domain appears on signs, a landing page and the final hillside, keeping the destination prominent.",
+      "evidence": "V02,V06,V07",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q22",
+      "finding": "Use one character and one script row through generation, preview and export, then show the broader style range.",
+      "evidence": "V04,V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q23",
+      "finding": "Show recognizable assets from the promotional film inside the product to make the creation promise tangible.",
+      "evidence": "V01,V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q24",
+      "finding": "Memelord.com combines meme discovery, editing and AI video creation.",
+      "evidence": "Model reading from inspected images",
+      "status": "uncertain",
+      "reason": "Model-only new-viewer interpretation; no human test.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q25",
+      "finding": "Contact sheets inspected at displayed size; a phone-size playback, caption audit, flash audit and formal accessibility check were not performed.",
+      "evidence": "Viewed sheets",
+      "status": "not checked",
+      "reason": "Full-size moving-image and device checks unavailable in this pass.",
+      "experiment": "none"
+    }
+  ],
+  "lessons": {
+    "keep": "Reuse the film’s own character in the visible creation screens.",
+    "avoid": "Packing several creation stages into a montage without a readable input-to-export chain.",
+    "open": "Actual alert behavior, full production provenance, claimed cost, output controls and audio remain unverified.",
+    "try": [
+      "For Tin, show the launch film’s actual campaign brief and creative in its editor before returning to the finished ad.",
+      "Replace one metaphor scene with a real alert setup and received alert, keeping the same meme example."
+    ]
+  },
+  "comparison": {
+    "story": "Introduce meme culture and an exaggerated funding story. → Announce the new version and shift toward showing software. → Show meme selection and editing. → Connect the film to its creation tools. → Suggest a range of video outputs and styles. → Move from creative range to signup and a self-referential joke. → End on the destination.",
+    "motion": "Characters change costumes through cuts, props appear in quick jokes, editor windows overlay the presenter, and timeline clips switch among animated examples. Sampling scope: 1 fps unless a closer window is recorded.",
+    "sound": "No validated listening; unknown.",
+    "texture": "Saturated cartoon figures over green rolling hills and blue sky.; Cartoon props, rapid costume changes and visual jokes.; Desktop-window borders and a large meme preview over live-action-looking footage.; Layered creation screens with recurring character artwork.; Mixed cartoon styles, cinematic references and editor overlays.; Painterly references and a web page over the recurring hill.; Bright landscape and oversized domain text.",
+    "lesson": "Reuse the film’s own character in the visible creation screens."
+  },
+  "elements": [
+    {
+      "kind": "ui",
+      "name": "template grid",
+      "events": [
+        "V03"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "canvas",
+      "events": [
+        "V03"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "timeline",
+      "events": [
+        "V04",
+        "V05"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "storyboard",
+      "events": [
+        "V04"
+      ]
+    },
+    {
+      "kind": "motion",
+      "name": "costume cuts",
+      "events": [
+        "V01",
+        "V02"
+      ]
+    },
+    {
+      "kind": "texture",
+      "name": "painted character",
+      "events": [
+        "V06"
+      ]
+    }
+  ]
+}

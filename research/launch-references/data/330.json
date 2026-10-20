@@ -1,0 +1,335 @@
+{
+  "id": 330,
+  "product_from_film": "Xbox is presented as a home game console with a controller, DVD remote kit and games, received as a surprise at home.",
+  "explains_well": "The package display is established before the recipient arrives, so the later reaction has a clear object and payoff.",
+  "unclear": "The clip ends before setup or play; it communicates receiving the console more clearly than the experience of using it.",
+  "product_type": "Home game console; personal arrival/reaction video",
+  "scenario": "A camera records an Xbox bundle, waits for a school bus, follows the recipient home and captures the discovery and inspection of the games.",
+  "product_clear_time": 5,
+  "product_clear_basis": "By 5s the Xbox package, controller, remote and game cases are visible together on a chair.",
+  "scenes": [
+    {
+      "start": 0,
+      "end": 9,
+      "action": "A close view of a green Xbox mark widens to a boxed console and accessories arranged on an armchair, with game cases above.",
+      "design": "Low-resolution handheld home footage and green/black packaging.",
+      "purpose": "Establish the surprise before the recipient sees it.",
+      "evidence": "1 fps source samples in 0–9s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V01"
+    },
+    {
+      "start": 9,
+      "end": 28,
+      "action": "The camera moves among the DVD remote kit, controller, Xbox package, Halo book and several game cases.",
+      "design": "Close handheld views and readable packaging labels.",
+      "purpose": "Show the contents and specific items.",
+      "evidence": "1 fps source samples in 9–28s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V02"
+    },
+    {
+      "start": 28,
+      "end": 47,
+      "action": "A residential street is held as a school bus arrives and stops. A brief monochrome return to the package display interrupts the wait.",
+      "design": "Outdoor home-camera view and one black-and-white insert.",
+      "purpose": "Build anticipation around the arriving recipient.",
+      "evidence": "1 fps source samples in 28–47s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V03"
+    },
+    {
+      "start": 47,
+      "end": 60,
+      "action": "People leave the bus and walk along the street; the camera follows, then waits on the closed front door.",
+      "design": "Handheld following and held doorway.",
+      "purpose": "Bring the recipient toward the prepared reveal.",
+      "evidence": "1 fps source samples in 47–60s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V04"
+    },
+    {
+      "start": 60,
+      "end": 75,
+      "action": "The door opens. The recipient enters, looks toward the chair, approaches and reacts with smiles and a hand near the mouth.",
+      "design": "Domestic room and alternating product/reaction framing.",
+      "purpose": "Deliver the discovery payoff.",
+      "evidence": "1 fps source samples in 60–75s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V05"
+    },
+    {
+      "start": 75,
+      "end": 90.46,
+      "action": "The recipient looks through and picks up game cases, talks with the camera holder and looks back toward the items.",
+      "design": "Close hands, packaging and face views.",
+      "purpose": "Let the reaction continue into inspection of the gift.",
+      "evidence": "1 fps source samples in 75–90.46s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V06"
+    }
+  ],
+  "sound": [
+    {
+      "id": "A01",
+      "start": 0,
+      "end": 90.46,
+      "layer": "script support only",
+      "detail": "ASR supports a launch-day/homecoming setup, a retrospective statement about excitement getting off the bus, and a short exchange near the end. The middle reaction wording is partly garbled and not quoted. The draft mentions November 15 and Xbox launch day, but source date/authenticity is not independently established. No heard delivery, music, ambient sound or sync was verified.",
+      "visual_relation": "V01–V06; text frames the street wait as anticipation of the console.",
+      "evidence": "330-speech.json draft, visible packaging and final caption."
+    }
+  ],
+  "categories": [
+    {
+      "id": "Q01",
+      "finding": "Prepared Xbox bundle → wait for arrival → doorway → discovery → item inspection.",
+      "evidence": "V01–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q02",
+      "finding": "A green Xbox mark immediately leads to the full bundle, revealing the surprise to the viewer first.",
+      "evidence": "V01",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q03",
+      "finding": "The clip speaks to console/gaming interest through hardware and game packaging, with a personal recipient at its center.",
+      "evidence": "V01,V02,V05,V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q04",
+      "finding": "Handheld pans and close approaches inspect objects, then follow arrival and reactions. Exact camera timing is sampled.",
+      "evidence": "V01–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q05",
+      "finding": "The brief monochrome package insert during the bus wait reminds the viewer what is waiting indoors.",
+      "evidence": "V03",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q06",
+      "finding": "Green/black Xbox packaging stands out in a warm domestic room; the outdoor wait is muted daylight.",
+      "evidence": "V01–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q07",
+      "finding": "Packaging supplies most product text; there are few added captions and no promotional CTA.",
+      "evidence": "V01,V02,V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q08",
+      "finding": "ASR supports personal narration and conversation, including retrospective anticipation. Delivery and audio mix are unknown.",
+      "evidence": "A01",
+      "status": "uncertain",
+      "reason": "Draft only, no validated listening.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q09",
+      "finding": "Music character and structure are unverified.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "No validated listening.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q10",
+      "finding": "Effects and their sources are unverified.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "No validated listening; waveform peaks do not identify effects.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q11",
+      "finding": "Sound sync is unverified.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "No validated listening or paired audiovisual timing.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q12",
+      "finding": "Low-resolution handheld home footage and a short monochrome insert give a personal-recording form. Exact date, provenance and editing history are unverified.",
+      "evidence": "V01–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q13",
+      "finding": "Source duration 90.46 s; Watch metadata 814 × 600. Frame rate, audio clipping and export quality not checked here.",
+      "evidence": "Whole film",
+      "status": "supported",
+      "reason": "Parent source metadata supports duration and dimensions; visual review is sampled.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q14",
+      "finding": "The bundle and discovery are visually clear; launch-day context comes from the draft and source labeling.",
+      "evidence": "V01,V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q15",
+      "finding": "Close packaging views establish the objects, then face and hand reactions take over.",
+      "evidence": "V02,V05,V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q16",
+      "finding": "About 28s inspect the bundle and 32s wait/follow the arrival before the indoor reveal around 60s.",
+      "evidence": "V01–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q17",
+      "finding": "The viewer knows the surprise well before the recipient, so the doorway and reaction complete a clear anticipation arc.",
+      "evidence": "V01,V03–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q18",
+      "finding": "Smiles, a hand near the mouth and close inspection suggest surprise and delight; heard reaction and internal feeling are not claimed.",
+      "evidence": "V05,V06",
+      "status": "uncertain",
+      "reason": "Visible behavior only.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q19",
+      "finding": "The same armchair display anchors the setup and discovery, preserving spatial continuity.",
+      "evidence": "V01,V03,V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q20",
+      "finding": "No console performance, gameplay or actual launch-date authenticity is established by this review. The source title’s year is not treated as visual proof.",
+      "evidence": "V01–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q21",
+      "finding": "This is a recipient-centered arrival clip rather than a feature-led launch presentation; its value is anticipation and visible response.",
+      "evidence": "V01–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q22",
+      "finding": "Extend the payoff into first use.",
+      "evidence": "V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "Add a short setup or first-game action while keeping the recipient visible."
+    },
+    {
+      "id": "Q23",
+      "finding": "For Tin, show the person receiving the finished output.",
+      "evidence": "V05,V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "Capture a client opening an approved campaign preview and making one concrete choice or publishing it."
+    },
+    {
+      "id": "Q24",
+      "finding": "No human new-viewer test was performed.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "The product summary is this model’s film-only reading.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q25",
+      "finding": "Mobile preview and accessibility checks were not performed.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "Contact sheets are evidence views, not a stated mobile preview or compliance test.",
+      "experiment": "none"
+    }
+  ],
+  "elements": [
+    {
+      "kind": "motion",
+      "name": "handheld product inspection",
+      "events": [
+        "V01",
+        "V02",
+        "V06"
+      ]
+    },
+    {
+      "kind": "motion",
+      "name": "arrival and reaction sequence",
+      "events": [
+        "V03",
+        "V04",
+        "V05"
+      ]
+    },
+    {
+      "kind": "texture",
+      "name": "low-resolution home video",
+      "events": [
+        "V01",
+        "V02",
+        "V03",
+        "V04",
+        "V05",
+        "V06"
+      ]
+    }
+  ],
+  "lessons": {
+    "keep": "Establish the object before showing its recipient’s discovery.",
+    "try": [
+      "Continue into one first-use action.",
+      "For Tin, show a client opening the finished campaign and making a concrete choice or publishing it."
+    ],
+    "avoid": "Treating visible excitement as evidence of product performance.",
+    "open": "First-use experience, historical provenance, exact date and audio qualities remain unverified."
+  },
+  "comparison": {
+    "story": "Surprise prepared → bus arrival → discovery → inspection.",
+    "motion": "Handheld object views and following the recipient.",
+    "sound": "Personal/retrospective ASR support; no validated listening.",
+    "texture": "Low-resolution home footage and physical packaging.",
+    "lesson": "A known object plus a delayed recipient reveal creates a clear human payoff."
+  },
+  "reviewer_model": "gpt-6-astra",
+  "scope": "sampled visual and story review; ASR and measured signal support; no validated audio listening",
+  "viewed_evidence": [
+    "technical-review-2026-10-19/deep-review/motion/330/timeline-00.jpg",
+    "technical-review-2026-10-19/deep-review/motion/330/timeline-01.jpg",
+    "technical-review-2026-10-19/deep-review/motion/330/timeline-02.jpg"
+  ],
+  "closer_windows": []
+}

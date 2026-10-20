@@ -1,0 +1,356 @@
+{
+  "id": 248,
+  "viewed_evidence": [
+    "technical-review-2026-10-19/deep-review/motion/248/timeline-00.jpg",
+    "technical-review-2026-10-19/deep-review/motion/248/timeline-01.jpg",
+    "technical-review-2026-10-19/deep-review/motion/248/timeline-02.jpg",
+    "astra-review-2026-10-20/evidence/group-3/248/frame-14.jpg",
+    "astra-review-2026-10-20/evidence/group-3/248/frame-14-5.jpg",
+    "technical-review-2026-10-19/deep-review/audio/248-speech.json"
+  ],
+  "product_from_film": "Sherpa automatically runs website changes and experiments to improve visitor conversion.",
+  "explains_well": "Coworkers questioning a marketer’s unexpected results make the benefit and reduced coordination effort easy to understand.",
+  "unclear": "No specific experiment, page change or measured comparison is shown, so the improved result remains detached from the software action.",
+  "product_type": "website experimentation",
+  "scenario": "Let a growth marketer run website experiments without repeatedly requesting help from engineering and analytics.",
+  "product_clear_time": 2,
+  "product_clear_basis": "Opening text says Sherpa improves the website on its own; later captions identify experiments and conversion.",
+  "scenes": [
+    {
+      "start": 0,
+      "end": 6,
+      "action": "City building and office move carry text saying Sherpa improves websites and was given to Ryan without telling his team.",
+      "design": "Soft office-documentary look and centred setup text.",
+      "purpose": "Set a workplace mystery",
+      "id": "V01",
+      "evidence": "Visible 1 fps samples, source 0–6s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 6,
+      "end": 19,
+      "action": "Coworker asks about a 40 percent rise; Ryan agrees, followed by a short Sherpa dashboard and website glimpse.",
+      "design": "Desk conversation, reaction cuts and curved-monitor close-up.",
+      "purpose": "Introduce the surprising result",
+      "id": "V02",
+      "evidence": "Visible 1 fps samples, source 6–19s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 19,
+      "end": 26,
+      "action": "Ryan describes growth marketing, website optimisation, ads, SEO and email.",
+      "design": "Interview name label and working-at-desk footage.",
+      "purpose": "Identify the user",
+      "id": "V03",
+      "evidence": "Visible 1 fps samples, source 19–26s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 26,
+      "end": 43,
+      "action": "Engineer is asked about signup changes; analytics colleague describes fewer questions, then a whiteboard centres Ryan’s name.",
+      "design": "Conversational office footage, interview and mock investigation board.",
+      "purpose": "Show reduced dependence on teammates",
+      "id": "V04",
+      "evidence": "Visible 1 fps samples, source 26–43s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 43,
+      "end": 48,
+      "action": "CEO praises the result and says rising conversion is enough.",
+      "design": "Seated interview and Ryan at his screen.",
+      "purpose": "Add organisational approval",
+      "id": "V05",
+      "evidence": "Visible 1 fps samples, source 43–48s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 48,
+      "end": 61,
+      "action": "Captions claim 40 experiments in a month and changes to layout, animation and visuals; Ryan attributes results to a good feeling.",
+      "design": "Workplace reactions and calm interview close-up.",
+      "purpose": "Maintain the hidden-helper joke",
+      "id": "V06",
+      "evidence": "Visible 1 fps samples, source 48–61s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 61,
+      "end": 72.539,
+      "action": "Find out what Ryan knows overlays his face, followed by withsherpa.ai and an invitation to enter a URL.",
+      "design": "Held portrait and cream brand card.",
+      "purpose": "Invite a trial",
+      "id": "V07",
+      "evidence": "Visible 1 fps samples, source 61–72.539s; boundaries approximate, between-frame action unresolved."
+    }
+  ],
+  "sound": [
+    {
+      "id": "A01",
+      "start": 0,
+      "end": 72.539,
+      "layer": "unknown",
+      "detail": "No validated audio listening; speech, music, effects, mix and sync remain unverified.",
+      "visual_relation": "All visual scenes; alignment not checked",
+      "evidence": "No actual audio supplied to this review; existing technical-review-2026-10-19/deep-review/audio/248.json is not listening evidence."
+    },
+    {
+      "id": "A02",
+      "start": 4.84,
+      "end": 58.11,
+      "layer": "ASR draft",
+      "detail": "Candidate dialogue supports the result mystery, marketer role, fewer analytics questions, experiment count and understated closing joke. Signup-flow wording, the CEO introduction and convulsion are recognition errors; visible captions clarify conversion. No performance verification or heard delivery is inferred.",
+      "visual_relation": "V02–V06; candidate dialogue structure only",
+      "evidence": "technical-review-2026-10-19/deep-review/audio/248-speech.json; existing faster-whisper base CPU int8"
+    }
+  ],
+  "categories": [
+    {
+      "finding": "The opening reveals the helper to viewers while coworkers investigate Ryan’s success. Interviews build the joke before a URL invitation.",
+      "evidence": "V01–V07",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q01"
+    },
+    {
+      "finding": "The opening sentence names the product benefit immediately, then the secret-from-the-team setup gives a reason to keep watching.",
+      "evidence": "V01",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q02"
+    },
+    {
+      "finding": "Autonomous website improvement is clear at 0–2 s; later dialogue narrows it to experiments and conversion.",
+      "evidence": "V01,V06",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q03"
+    },
+    {
+      "finding": "Camera pans, reaction cuts and a name arrow guide the office story. Interface movement is only glimpsed; no website-edit animation or complete experiment is shown.",
+      "evidence": "V02–V06",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q04"
+    },
+    {
+      "finding": "Desk exchanges alternate with direct interview shots, creating a mock-documentary structure. The whiteboard insert extends the investigation joke.",
+      "evidence": "V02–V06",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q05"
+    },
+    {
+      "finding": "Soft warm light, ordinary desks and slightly muted colour keep the film grounded in a small office; cream and rust branding closes it.",
+      "evidence": "V01–V07",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q06"
+    },
+    {
+      "finding": "Dialogue captions explain the roles and claimed results. The full-size 14.5 s frame confirms an experiment dashboard, but small blurred text limits detailed interpretation.",
+      "evidence": "V02–V06; full frame 14.5 s",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q07"
+    },
+    {
+      "finding": "Voice presence and delivery remain unverified.",
+      "evidence": "No validated audio listening",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q08"
+    },
+    {
+      "finding": "Music character and arc remain unverified.",
+      "evidence": "No validated audio listening",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q09"
+    },
+    {
+      "finding": "Sound effects remain unverified.",
+      "evidence": "No validated audio listening",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q10"
+    },
+    {
+      "finding": "Sound-to-motion timing remain unverified.",
+      "evidence": "No validated audio listening",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q11"
+    },
+    {
+      "finding": "Office performance, interview shots, a whiteboard and filmed dashboard are visible. Whether dialogue is spontaneous or staged is not established.",
+      "evidence": "V01–V07",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q12"
+    },
+    {
+      "finding": "Source duration supplied as 72.539s; no independent compression, clipping or delivery check.",
+      "evidence": "Assigned metadata; source integrity checked by parent",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q13"
+    },
+    {
+      "finding": "Setup text and dialogue captions make the mystery and proposition understandable silently. The exact experiment workflow remains absent.",
+      "evidence": "V01–V07",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q14"
+    },
+    {
+      "finding": "Faces and reactions dominate, making the social story clear. The dashboard receives much less time than the performance claims.",
+      "evidence": "V02–V06",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q15"
+    },
+    {
+      "finding": "The benefit is named immediately, but almost the entire film sustains the mystery rather than explaining one experiment.",
+      "evidence": "V01–V07",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q16"
+    },
+    {
+      "finding": "The final invitation resolves where the viewer can learn the secret, but it does not reveal a specific change responsible for the result.",
+      "evidence": "V06,V07",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q17"
+    },
+    {
+      "finding": "Coworker suspicion, the investigation board and Ryan’s understated response suggest playful confidence and reduced work pressure.",
+      "evidence": "V04–V06; interpretation",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q18"
+    },
+    {
+      "finding": "Same office, recurring Ryan and consistent interview labels connect the perspectives of marketing, engineering, analytics and leadership.",
+      "evidence": "V02–V06",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q19"
+    },
+    {
+      "finding": "The 40 percent increase and 40 experiments are film claims. The dashboard glimpse does not establish sample size, causality, statistical validity or the effects of individual changes.",
+      "evidence": "V02,V06",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q20"
+    },
+    {
+      "finding": "The team-investigation framing gives an automation benefit a social consequence, rather than only presenting a feature list.",
+      "evidence": "V01–V06",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q21"
+    },
+    {
+      "finding": "Reveal one before-and-after page, its experiment result and the decision to keep or reject it before the final invitation.",
+      "evidence": "V06,V07",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q22"
+    },
+    {
+      "finding": "For automation, show how work changes for the team, then connect that story to one observable system action and result.",
+      "evidence": "V02–V06",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q23"
+    },
+    {
+      "finding": "No human new-viewer test; product description above is model interpretation of sampled images.",
+      "evidence": "V01–V07",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q24"
+    },
+    {
+      "finding": "No phone-size, safe-area or flash assessment; small UI text needs separate preview.",
+      "evidence": "Contact sheets",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q25"
+    }
+  ],
+  "lessons": {
+    "keep": "Show an automation benefit through the changed interactions of a real-looking team.",
+    "try": [
+      "Add a short reveal of one experiment with the original page, variant and result before the CTA.",
+      "Show a rejected experiment alongside a winner to explain how Sherpa decides which changes to retain."
+    ],
+    "avoid": "Avoid leaving the claimed improvement disconnected from a visible experiment.",
+    "open": "Which change produced the result, and how does the system decide whether to keep it?"
+  },
+  "comparison": {
+    "story": "Set a workplace mystery → Introduce the surprising result → Identify the user → Show reduced dependence on teammates → Add organisational approval → Maintain the hidden-helper joke → Invite a trial",
+    "motion": "Camera pans, reaction cuts and a name arrow guide the office story. Interface movement is only glimpsed; no website-edit animation or complete experiment is shown.",
+    "sound": "No validated listening; no absence claims.",
+    "texture": "Soft warm light, ordinary desks and slightly muted colour keep the film grounded in a small office; cream and rust branding closes it.",
+    "lesson": "Show an automation benefit through the changed interactions of a real-looking team."
+  },
+  "elements": [
+    {
+      "kind": "ui",
+      "name": "experiment dashboard",
+      "events": [
+        "V02"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "website preview",
+      "events": [
+        "V02"
+      ]
+    },
+    {
+      "kind": "texture",
+      "name": "office interview",
+      "events": [
+        "V03",
+        "V04",
+        "V05"
+      ]
+    },
+    {
+      "kind": "texture",
+      "name": "investigation whiteboard",
+      "events": [
+        "V04"
+      ]
+    }
+  ],
+  "reviewer_model": "gpt-6-astra",
+  "scope": "sampled visual and story review; ASR and measured signal support; no validated audio listening",
+  "closer_windows": []
+}

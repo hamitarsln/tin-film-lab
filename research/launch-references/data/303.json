@@ -1,0 +1,344 @@
+{
+  "id": 303,
+  "product_from_film": "Librar is a school-library management system that identifies books from shelf photos and provides collection and usage insights.",
+  "explains_well": "The shelf-photo phone view leads into a catalog and chart, giving the AI-librarian claim a concrete setup task.",
+  "unclear": "The film does not show how an identified book reaches a student or how the catalog work leads to the claimed increase in reading.",
+  "product_type": "school library management",
+  "scenario": "A presenter explains staffing needs, demonstrates shelf-photo setup through UI inserts and claims time savings and higher reading rates.",
+  "product_clear_time": 22,
+  "product_clear_basis": "At 21–23s a phone captures shelves and shows a result state, followed by catalog organization at 25s; the broad library-system label appears at 13–16s.",
+  "scenes": [
+    {
+      "start": 0,
+      "end": 8,
+      "action": "A presenter sits before library shelves. A shelf close-up gains four circular icons, three marked, with text saying three of four schools lack a qualified librarian.",
+      "design": "Dark warm bookshelves, captions and simple statistic graphic.",
+      "purpose": "Frame the staffing problem.",
+      "evidence": "1 fps source samples in 0–8s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V01"
+    },
+    {
+      "start": 8,
+      "end": 20,
+      "action": "The presenter explains the difficulty of library management. Librar branding and large AI librarian words appear.",
+      "design": "Orange pixel-like brand mark and white type.",
+      "purpose": "Introduce the category and promise.",
+      "evidence": "1 fps source samples in 8–20s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V02"
+    },
+    {
+      "start": 20,
+      "end": 28,
+      "action": "A phone overlay shows shelf capture then a result count. A catalog table and donut chart appear with identifies/organizes labels.",
+      "design": "Phone UI, catalog and collection chart.",
+      "purpose": "Show the setup and organization mechanism.",
+      "evidence": "1 fps source samples in 20–28s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V03"
+    },
+    {
+      "start": 28,
+      "end": 34,
+      "action": "The presenter describes inventory, acquisitions and usage insights; hundreds of hours appears prominently.",
+      "design": "Presenter and benefit typography.",
+      "purpose": "State the staff-time benefit.",
+      "evidence": "1 fps source samples in 28–34s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V04"
+    },
+    {
+      "start": 34,
+      "end": 41,
+      "action": "Close-ups show an open book and turning pages. The presenter returns with a 2X reading-rate claim for some schools.",
+      "design": "Physical book detail and large metric.",
+      "purpose": "Connect management to a reading mission.",
+      "evidence": "1 fps source samples in 34–41s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V05"
+    },
+    {
+      "start": 41,
+      "end": 49.382,
+      "action": "The presenter and shelf views lead to a closed book being passed toward hands. Librar branding and www.librarlabs.com close the film.",
+      "design": "Warm book imagery and white logo card.",
+      "purpose": "Make the student-facing mission tangible and give a destination.",
+      "evidence": "1 fps source samples in 41–49.382s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V06"
+    }
+  ],
+  "sound": [
+    {
+      "id": "A01",
+      "start": 0,
+      "end": 49.382,
+      "layer": "ASR draft / unknown",
+      "detail": "The draft broadly explains staffing, shelf-photo setup, organization, insights, time savings and reading goals. Product names and several phrases are misrecognized; captions and UI support the main reading. No validated listening, delivery, music, effects or sync assessment.",
+      "visual_relation": "V01–V06; visual captions support the explanatory script.",
+      "evidence": "technical-review-2026-10-19/deep-review/audio/303-speech.json"
+    }
+  ],
+  "categories": [
+    {
+      "id": "Q01",
+      "finding": "Staffing problem → AI library system → shelf-photo catalog setup → staff benefit → reading mission → book handoff and URL.",
+      "evidence": "V01–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q02",
+      "finding": "A seated presenter in front of books immediately establishes the library setting; captions begin the problem statement.",
+      "evidence": "V01",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q03",
+      "finding": "School-library staff and students are explicit. Shelf-photo identification gives the product a concrete function by 22–25s.",
+      "evidence": "V01,V03",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q04",
+      "finding": "Statistic circles fill, text changes scale and UI overlays replace one another over the presenter. Page turns and the final handoff provide physical action. Exact transition paths are unverified.",
+      "evidence": "V01–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q05",
+      "finding": "Shelf imagery bridges the staffing statistic and photo setup; the final book handoff returns software benefits to a physical reading object.",
+      "evidence": "V01,V03,V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q06",
+      "finding": "Dark red-brown shelves, pale gray clothing and orange branding create a warm library identity.",
+      "evidence": "V01–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q07",
+      "finding": "Captions carry the explanation and benefit words are large. Phone result text and catalog details are small compared with the presenter.",
+      "evidence": "V01–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q08",
+      "finding": "The draft supports the broad pitch with wording errors resolved only where captions are visible. Voice delivery remains unchecked.",
+      "evidence": "A01",
+      "status": "uncertain",
+      "reason": "ASR/caption support only.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q09",
+      "finding": "Music character and structure are unverified.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "No validated listening.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q10",
+      "finding": "Effects and their sources are unverified.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "No validated listening; waveform peaks do not identify effects.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q11",
+      "finding": "Sound sync is unverified.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "No validated listening or paired audiovisual timing.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q12",
+      "finding": "Presenter, bookshelf and book close-ups combine with phone and catalog inserts; production methods and sources are unknown.",
+      "evidence": "V01–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q13",
+      "finding": "Source duration 49.382 s; Watch metadata 1920 × 1080. Frame rate, audio clipping and export quality not checked here.",
+      "evidence": "Whole film",
+      "status": "supported",
+      "reason": "Parent source metadata supports duration and dimensions; visual review is sampled.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q14",
+      "finding": "Captions and UI preserve the main proposition silently. The link from organization to actual student use remains implied.",
+      "evidence": "V01–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q15",
+      "finding": "The presenter anchors the frame, but UI overlays are brief and small. The book handoff has a clear physical focus.",
+      "evidence": "V03,V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q16",
+      "finding": "The setup task gets about eight seconds, while staffing and impact claims occupy most of the film. One named book could make the brief demo easier to follow.",
+      "evidence": "V01–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q17",
+      "finding": "The staffing problem is answered by collection automation and time claims. The student-reading goal ends in a handoff image rather than a measured usage story.",
+      "evidence": "V01,V03–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q18",
+      "finding": "Concern about unmet reading needs shifts toward helpful automation and a tangible book handoff; audience response is unmeasured.",
+      "evidence": "V01–V06",
+      "status": "uncertain",
+      "reason": "Interpretation of framing.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q19",
+      "finding": "Bookshelves, photos, catalog and physical books connect the sequence, but no specific title is traced through the workflow.",
+      "evidence": "V01–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q20",
+      "finding": "The staffing statistic, hundreds-of-hours saving, doubled reading rates and literacy goal are claims. Identification accuracy, study basis and actual student outcomes were not checked.",
+      "evidence": "V01,V04,V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q21",
+      "finding": "Shelf-photo catalog setup and the orange pixel-like Librar mark distinguish the offer.",
+      "evidence": "V02,V03",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q22",
+      "finding": "Trace one title from shelf to student.",
+      "evidence": "V03,V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "Show a shelf photo identifying one book, its catalog record and a student finding or borrowing that title."
+    },
+    {
+      "id": "Q23",
+      "finding": "For Tin, show one asset across intake, organization and use.",
+      "evidence": "V03,V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "Capture a source asset, locate its organized record and show it selected in a campaign draft."
+    },
+    {
+      "id": "Q24",
+      "finding": "No human new-viewer test was performed.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "The product summary is this model’s film-only reading.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q25",
+      "finding": "Mobile preview and accessibility checks were not performed.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "Contact sheets are evidence views, not a stated mobile preview or compliance test.",
+      "experiment": "none"
+    }
+  ],
+  "elements": [
+    {
+      "kind": "ui",
+      "name": "phone camera view",
+      "events": [
+        "V03"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "catalog table",
+      "events": [
+        "V03"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "donut chart",
+      "events": [
+        "V03"
+      ]
+    },
+    {
+      "kind": "motion",
+      "name": "statistic icon row",
+      "events": [
+        "V01"
+      ]
+    },
+    {
+      "kind": "texture",
+      "name": "bookshelves and paper pages",
+      "events": [
+        "V01",
+        "V02",
+        "V03",
+        "V04",
+        "V05",
+        "V06"
+      ]
+    }
+  ],
+  "lessons": {
+    "keep": "Connect a physical source, such as shelves, to the resulting organized digital view.",
+    "try": [
+      "Trace one book from shelf photo to catalog to student use.",
+      "For Tin, trace one source asset from capture to organized record to selected campaign use."
+    ],
+    "avoid": "Jumping from administrative automation to reading outcomes without the intervening user action.",
+    "open": "Identification accuracy, staffing statistics, time savings, reading outcomes and audio remain unverified."
+  },
+  "comparison": {
+    "story": "Staff shortage → shelf-photo organization → time and reading benefits.",
+    "motion": "Statistic icons, UI overlays and physical book handoff.",
+    "sound": "Broad ASR/caption support with errors; no listening.",
+    "texture": "Warm bookshelves and orange branding.",
+    "lesson": "A physical-to-digital task becomes stronger when one item stays traceable."
+  },
+  "reviewer_model": "gpt-6-astra",
+  "scope": "sampled visual and story review; ASR and measured signal support; no validated audio listening",
+  "viewed_evidence": [
+    "technical-review-2026-10-19/deep-review/motion/303/timeline-00.jpg",
+    "technical-review-2026-10-19/deep-review/motion/303/timeline-01.jpg"
+  ],
+  "closer_windows": []
+}

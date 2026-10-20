@@ -1,0 +1,361 @@
+{
+  "id": 461,
+  "reviewer_model": "gpt-6-astra",
+  "scope": "sampled visual and story review; ASR and measured signal support; no validated audio listening",
+  "viewed_evidence": [
+    "technical-review-2026-10-19/deep-review/motion/461/timeline-00.jpg",
+    "technical-review-2026-10-19/deep-review/motion/461/timeline-01.jpg",
+    "technical-review-2026-10-19/deep-review/motion/461/timeline-02.jpg",
+    "technical-review-2026-10-19/deep-review/audio/461-speech.json"
+  ],
+  "closer_windows": [],
+  "product_from_film": "Reve lets people change and explore images with plain-language requests.",
+  "explains_well": "Several prompts stay beside the same image as a visible change appears, making the creative action easy to follow.",
+  "unclear": "The lamp search does not show whether results are real purchasable products, while the projected-photo edit omits a clear command.",
+  "product_type": "image creation and editing",
+  "scenario": "Change a portrait, imagine a poster, repaint a vehicle and explore room lighting.",
+  "product_clear_time": 13,
+  "product_clear_basis": "A request for a bleached buzzcut is followed by a visibly changed portrait.",
+  "scenes": [
+    {
+      "id": "V01",
+      "start": 0,
+      "end": 17,
+      "action": "Friends gather at an old desktop computer. Reve and See your ideas appear; a yearbook image is selected and a bleached-buzzcut request leads to a changed portrait.",
+      "design": "Warm library setting, old keyboard and clean white prompt controls.",
+      "purpose": "Establish playful image editing with a clear before and after.",
+      "evidence": "Visible chronological 1 fps samples, source 0–17s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V02",
+      "start": 17,
+      "end": 32,
+      "action": "A young person in a garage supplies a selfie with A poster of me as a rockstar. A printed-looking concert poster appears, followed by a smile and guitar performance.",
+      "design": "Dark garage, amplifier details and worn poster styling.",
+      "purpose": "Connect imagined identity to a personal creative payoff.",
+      "evidence": "Visible chronological 1 fps samples, source 17–32s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V03",
+      "start": 32,
+      "end": 46,
+      "action": "A person in a car workshop shows a white pickup image with Give my car a new paint job. The same vehicle becomes blue, then the view returns to the person and phone.",
+      "design": "Workshop surfaces and a persistent white prompt pill.",
+      "purpose": "Show a practical visual variation.",
+      "evidence": "Visible chronological 1 fps samples, source 32–46s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V04",
+      "start": 46,
+      "end": 56,
+      "action": "A projected fairground portrait appears behind a woman. A closer image view shows a selection grid and the pictured person in changed positions, then returns to the projection.",
+      "design": "Large projection, selection handles and an intimate room.",
+      "purpose": "Suggest direct image manipulation; the precise command is unclear.",
+      "evidence": "Visible chronological 1 fps samples, source 46–56s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V05",
+      "start": 56,
+      "end": 72,
+      "action": "A couple in a lighting shop leads to Find me lights for this room, a Searching indicator and a written response. Two different ceiling lamps appear in the same dining-room image, then printed options are handled.",
+      "design": "Warm lighting displays, white search text and room mockups.",
+      "purpose": "Make design exploration useful to a household choice.",
+      "evidence": "Visible chronological 1 fps samples, source 56–72s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V06",
+      "start": 72,
+      "end": 80.583,
+      "action": "Reimagine reality overlays the couple, then reve.com holds on black.",
+      "design": "Simple white typography and warm faces.",
+      "purpose": "Close with the creative promise and destination.",
+      "evidence": "Visible chronological 1 fps samples, source 72–80.583s; boundary approximate; exact motion between samples unverified."
+    }
+  ],
+  "sound": [
+    {
+      "id": "A01",
+      "start": 0,
+      "end": 80.583,
+      "layer": "unknown",
+      "detail": "No validated direct audio listening was performed. Music, speech delivery, effects, mix and sync remain unknown, not absent.",
+      "visual_relation": "All visual scenes; audiovisual alignment unverified",
+      "evidence": "Visual samples only; no actual audio range supplied to this reviewer."
+    },
+    {
+      "id": "A02",
+      "start": 0,
+      "end": 8,
+      "layer": "ASR draft",
+      "detail": "The short ASR draft contains generic conversational fragments only. It does not reliably explain the image tasks and is not used as a product script. No delivery or other sound claim is made.",
+      "visual_relation": "Story text support; exact audiovisual alignment and delivery unverified.",
+      "evidence": "technical-review-2026-10-19/deep-review/audio/461-speech.json; local faster-whisper base CPU int8 draft; VAD candidates only, recognition errors possible."
+    }
+  ],
+  "categories": [
+    {
+      "id": "Q01",
+      "finding": "Friends editing a portrait lead to a musician poster, vehicle color, photo manipulation and household lighting before the brand close.",
+      "evidence": "V01–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q02",
+      "finding": "A social moment around an old computer gives the image tool a familiar, playful setting.",
+      "evidence": "V01",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q03",
+      "finding": "People exploring personal creative ideas are the audience. The portrait change at 13s gives the first clear product result.",
+      "evidence": "V01",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q04",
+      "finding": "Prompt text builds, portraits and vehicle colors switch between states, a selection grid appears over a photo, and room lamps change while the surrounding room stays recognizable.",
+      "evidence": "V01–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q05",
+      "finding": "Repeated prompt pills link different people and use cases; returns to their reactions give each example a human ending.",
+      "evidence": "V01–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q06",
+      "finding": "Old computer plastic, books, garage surfaces, paper posters and warm lamps give digital editing a tactile setting.",
+      "evidence": "V01–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q07",
+      "finding": "Short prompts are enlarged and readable. The projected-photo sequence has less clear text than the other examples.",
+      "evidence": "V01–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q08",
+      "finding": "The short ASR draft contains generic conversational fragments only. It does not reliably explain the image tasks and is not used as a product script. No delivery or other sound claim is made.",
+      "evidence": "A02",
+      "status": "uncertain",
+      "reason": "ASR text only; no validated listening, delivery or voice origin.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q09",
+      "finding": "Voice delivery, music, effects and audiovisual alignment were not established by this visual pass.",
+      "evidence": "A01",
+      "status": "not checked",
+      "reason": "No validated direct audio listening input.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q10",
+      "finding": "Voice delivery, music, effects and audiovisual alignment were not established by this visual pass.",
+      "evidence": "A01",
+      "status": "not checked",
+      "reason": "No validated direct audio listening input.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q11",
+      "finding": "Voice delivery, music, effects and audiovisual alignment were not established by this visual pass.",
+      "evidence": "A01",
+      "status": "not checked",
+      "reason": "No validated direct audio listening input.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q12",
+      "finding": "Lifestyle scenes, prompt overlays, edited image states, a projected photo and printed mockups are visible. Generation and filming provenance are unknown.",
+      "evidence": "V01–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q13",
+      "finding": "Manifest duration 80.583s; indexed dimensions 1620×1080. Source unchanged flag recorded; fresh encoding and audio clipping checks not run.",
+      "evidence": "Group manifest",
+      "status": "uncertain",
+      "reason": "Inherited technical metadata; no fresh media probe in this review.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q14",
+      "finding": "Visible prompts and changed results carry most of the explanation without a usable full speech transcript.",
+      "evidence": "V01–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q15",
+      "finding": "The edit results fill the frame and preserve familiar subjects, making the changes easy to locate.",
+      "evidence": "V01–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q16",
+      "finding": "Each example receives a brief setup, image change and reaction. The lamp search receives more process detail than the projected-photo edit.",
+      "evidence": "V01–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q17",
+      "finding": "The same portrait, pickup and room remain recognizable across changed states, giving concrete before-and-after continuity.",
+      "evidence": "V01,V03,V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q18",
+      "finding": "Friends, music aspirations and a couple choosing lights frame the tool as personal imagination rather than a technical process. Sound mood is unknown.",
+      "evidence": "V01–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q19",
+      "finding": "Portrait, poster and paint requests connect to visible results. Lamp suggestions show visual options but omit product links or purchase details.",
+      "evidence": "V01–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q20",
+      "finding": "The film does not establish generation time, edit accuracy across unseen attempts, the exact photo-manipulation command or whether lamp options are purchasable matches.",
+      "evidence": "V01–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q21",
+      "finding": "Reve appears early and the simple domain closes the film after several related examples.",
+      "evidence": "V01,V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q22",
+      "finding": "Add one short action label to the projected-photo edit and a product card to the lamp search if shopping is the intended promise.",
+      "evidence": "V04,V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q23",
+      "finding": "Keep the scene and subject stable while changing one requested visual property.",
+      "evidence": "V01,V03,V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q24",
+      "finding": "Reve lets people change and explore images with plain-language requests.",
+      "evidence": "Model reading from inspected images",
+      "status": "uncertain",
+      "reason": "Model-only new-viewer interpretation; no human test.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q25",
+      "finding": "Contact sheets inspected at displayed size; a phone-size playback, caption audit, flash audit and formal accessibility check were not performed.",
+      "evidence": "Viewed sheets",
+      "status": "not checked",
+      "reason": "Full-size moving-image and device checks unavailable in this pass.",
+      "experiment": "none"
+    }
+  ],
+  "lessons": {
+    "keep": "Show a short request and preserve the subject so the requested change is easy to see.",
+    "avoid": "Leaving a search result visually attractive but unclear about its real-world use.",
+    "open": "Exact photo edit mechanics, lamp sourcing, generation time, output consistency and audio remain unverified.",
+    "try": [
+      "For Tin, keep one ad layout fixed while a request changes only its headline or image treatment.",
+      "Compare the lamp sequence with a version that includes one real result card and its link."
+    ]
+  },
+  "comparison": {
+    "story": "Establish playful image editing with a clear before and after. → Connect imagined identity to a personal creative payoff. → Show a practical visual variation. → Suggest direct image manipulation; the precise command is unclear. → Make design exploration useful to a household choice. → Close with the creative promise and destination.",
+    "motion": "Prompt text builds, portraits and vehicle colors switch between states, a selection grid appears over a photo, and room lamps change while the surrounding room stays recognizable. Sampling scope: 1 fps unless a closer window is recorded.",
+    "sound": "No validated listening; unknown.",
+    "texture": "Warm library setting, old keyboard and clean white prompt controls.; Dark garage, amplifier details and worn poster styling.; Workshop surfaces and a persistent white prompt pill.; Large projection, selection handles and an intimate room.; Warm lighting displays, white search text and room mockups.; Simple white typography and warm faces.",
+    "lesson": "Show a short request and preserve the subject so the requested change is easy to see."
+  },
+  "elements": [
+    {
+      "kind": "ui",
+      "name": "prompt composer",
+      "events": [
+        "V01",
+        "V02",
+        "V03"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "selection grid",
+      "events": [
+        "V04"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "searching indicator",
+      "events": [
+        "V05"
+      ]
+    },
+    {
+      "kind": "motion",
+      "name": "image variation",
+      "events": [
+        "V01",
+        "V03",
+        "V05"
+      ]
+    },
+    {
+      "kind": "texture",
+      "name": "paper poster",
+      "events": [
+        "V02"
+      ]
+    },
+    {
+      "kind": "texture",
+      "name": "old computer",
+      "events": [
+        "V01"
+      ]
+    }
+  ]
+}

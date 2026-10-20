@@ -1,0 +1,346 @@
+{
+  "id": 151,
+  "product_from_film": "Pear presents a social prediction-market account that finds markets across services and lets users follow others’ trades.",
+  "explains_well": "A news question becomes a Yes/No market, a cross-service search and a social trade card before a portfolio result.",
+  "unclear": "Routing quality, odds, settlement, eligibility, fees and actual returns are not verified.",
+  "product_type": "social prediction-market platform",
+  "scenario": "See SpaceX news, select a Yes outcome, find a market, share a position and view a closed position.",
+  "product_clear_time": 12,
+  "product_clear_basis": "A Yes/No market appears at 7s, followed by Finding best markets between Pear and named market services at 10–12s.",
+  "scenes": [
+    {
+      "start": 0,
+      "end": 7,
+      "action": "A runner stops at a wall of news screens and uses his phone. Pear logo appears early.",
+      "design": "Night city, reflections and large broadcast screens.",
+      "purpose": "Connect a current-event question to a potential action.",
+      "evidence": "1 fps source samples in 0–7s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V01"
+    },
+    {
+      "start": 7,
+      "end": 13,
+      "action": "A SpaceX IPO question has No $0.49 and Yes $0.51 options; Yes is enlarged, then Finding best markets links Pear with Kalshi and Polymarket marks.",
+      "design": "Minimal pale UI, red/green choices and service icons.",
+      "purpose": "Show market selection and implied cross-service finding.",
+      "evidence": "1 fps source samples in 7–13s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V02"
+    },
+    {
+      "start": 13,
+      "end": 22,
+      "action": "Several people use phones in different settings. Social Trading Network appears, then a bought-position card with replies and engagement counts is enlarged.",
+      "design": "Human reaction shots and white social-market card.",
+      "purpose": "Connect individual trading to shared activity.",
+      "evidence": "1 fps source samples in 13–22s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V03"
+    },
+    {
+      "start": 22,
+      "end": 31,
+      "action": "Phone user reactions lead to a news presenter, newspaper montage and rocket imagery with a rising green value line.",
+      "design": "News-like media, rocket ascent and financial overlay.",
+      "purpose": "Suggest a market event and rising position value; causal accuracy unverified.",
+      "evidence": "1 fps source samples in 22–31s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V04"
+    },
+    {
+      "start": 31,
+      "end": 38.8,
+      "action": "A phone shows closed positions, the initial user smiles, then Built For Prediction Markets and a Pear waitlist URL appear over sky.",
+      "design": "White portfolio UI and soft blue-cloud end card.",
+      "purpose": "Present a result and invitation to join.",
+      "evidence": "1 fps source samples in 31–38.8s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V05"
+    }
+  ],
+  "categories": [
+    {
+      "id": "Q01",
+      "finding": "News discovery → outcome selection → market finding → social trade → event/value montage → closed position → waitlist.",
+      "evidence": "V01–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q02",
+      "finding": "A runner and Pear logo establish a character and brand; the product task emerges only after he reaches the news screens.",
+      "evidence": "V01",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q03",
+      "finding": "Prediction trading is visible at 7s, cross-service finding by 12s and social function around 18s.",
+      "evidence": "V02,V03",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q04",
+      "finding": "Outcome selection enlarges, service marks change, social card scales up and a green value line rises over rocket footage. Exact timing and paths unverified.",
+      "evidence": "V02–V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q05",
+      "finding": "Real-world-looking phone use alternates with clean UI; the news/rocket theme connects the market question with the later value montage.",
+      "evidence": "V01–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q06",
+      "finding": "Night reflections and warm interiors contrast with pale interface cards and a bright sky ending.",
+      "evidence": "V01,V03,V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q07",
+      "finding": "Market question and Yes/No prices are readable focal points; social details and final portfolio entries are more dense.",
+      "evidence": "V02,V03,V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q08",
+      "finding": "The inspected ASR draft provides partial script-role support; recognition limits are recorded in A02. Audible voice characteristics and delivery remain unchecked.",
+      "evidence": "A02",
+      "status": "uncertain",
+      "reason": "Local draft text was read; no direct listening.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q09",
+      "finding": "Music character and structure are unverified.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "No validated listening.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q10",
+      "finding": "Effects and their sources are unverified.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "No validated listening; waveform peaks do not identify effects.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q11",
+      "finding": "Sound sync is unverified.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "No validated listening or paired audiovisual timing.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q12",
+      "finding": "Human footage, news-like presenter, newspaper graphics, launch imagery and designed UI are combined. Origins and authenticity are not established.",
+      "evidence": "V01–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q13",
+      "finding": "Source duration 38.8 s; Watch metadata 1280 × 720. Frame rate, audio clipping and export quality not checked here.",
+      "evidence": "Whole film",
+      "status": "supported",
+      "reason": "Parent source metadata supports duration and dimensions; visual review is sampled.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q14",
+      "finding": "Silent sequence shows a news-linked prediction, market choice and social position. The relation between displayed contract price and later dollar values is unexplained.",
+      "evidence": "V02–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q15",
+      "finding": "Enlarged Yes choice and social card focus attention on one action at a time before the wider event montage.",
+      "evidence": "V02,V03",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q16",
+      "finding": "Several product functions and market-success cues fit into 39s. One complete trade with defined values could reduce ambiguity.",
+      "evidence": "V02–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q17",
+      "finding": "The news question becomes a position and closed-state display, but the event resolution and financial calculation are not clearly explained.",
+      "evidence": "V01,V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q18",
+      "finding": "Excited phone users and rising rocket/value imagery may imply opportunity and reward; audience response is unmeasured.",
+      "evidence": "V03,V04",
+      "status": "uncertain",
+      "reason": "Interpretation of visual choices.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q19",
+      "finding": "The SpaceX IPO question and returning initial user connect the story across interfaces and other users.",
+      "evidence": "V01–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q20",
+      "finding": "The film shows selection, service marks, social trade and closed-position states. Actual routing, returns, settlement and platform access are untested.",
+      "evidence": "V02–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q21",
+      "finding": "Pear appears on the runner, routing card and waitlist close; the social-market card adds product-specific context.",
+      "evidence": "V01,V02,V03,V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q22",
+      "finding": "A clear outcome-resolution screen could replace some rocket imagery and explain the result more directly.",
+      "evidence": "V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "Show entry cost, settlement condition and final position outcome using one consistent unit."
+    },
+    {
+      "id": "Q23",
+      "finding": "For Tin, retain the original user and question through the final result, with consistent units and labels.",
+      "evidence": "V01,V02,V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "Carry one campaign question from brief to published asset and its clearly defined result."
+    },
+    {
+      "id": "Q24",
+      "finding": "No human new-viewer test was performed.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "The product summary is this model’s film-only reading.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q25",
+      "finding": "Mobile preview and accessibility checks were not performed.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "Contact sheets are evidence views, not a stated mobile preview or compliance test.",
+      "experiment": "none"
+    }
+  ],
+  "elements": [
+    {
+      "kind": "ui",
+      "name": "prediction market",
+      "events": [
+        "V02"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "service routing",
+      "events": [
+        "V02"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "social trade card",
+      "events": [
+        "V03"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "portfolio",
+      "events": [
+        "V05"
+      ]
+    },
+    {
+      "kind": "motion",
+      "name": "rising chart overlay",
+      "events": [
+        "V04"
+      ]
+    },
+    {
+      "kind": "texture",
+      "name": "night city footage",
+      "events": [
+        "V01"
+      ]
+    }
+  ],
+  "lessons": {
+    "keep": "Carry one news question and the same user through selection to a visible result.",
+    "try": [
+      "Replace part of the rocket montage with entry cost, settlement condition and final outcome in one consistent unit.",
+      "For Tin, keep one campaign question visible from brief to published asset and its defined result."
+    ],
+    "avoid": "Using rising rockets and excited reactions as proof of returns or accurate market routing.",
+    "open": "Eligibility, fees, routing, settlement, displayed-value meaning, footage origins and audio remain unverified."
+  },
+  "comparison": {
+    "story": "News → prediction choice → routing → social position → value montage → portfolio → waitlist.",
+    "motion": "Enlarged choice/card and rising line; precise timing unresolved.",
+    "sound": "No validated listening; all sound layers unknown.",
+    "texture": "Night city and phone users, pale UI and rocket/news montage.",
+    "lesson": "A returning user and repeated question connect a multi-feature story."
+  },
+  "reviewer_model": "gpt-6-astra",
+  "scope": "sampled visual and story review; ASR and measured signal support; no validated audio listening",
+  "viewed_evidence": [
+    "technical-review-2026-10-19/deep-review/motion/151/timeline-00.jpg",
+    "technical-review-2026-10-19/deep-review/motion/151/timeline-01.jpg"
+  ],
+  "closer_windows": [],
+  "sound": [
+    {
+      "id": "A01",
+      "start": 0,
+      "end": 38.8,
+      "layer": "unknown",
+      "detail": "No validated audio listening. Voice delivery, music, effects and mix are unknown.",
+      "visual_relation": "All scenes; sound alignment unverified",
+      "evidence": "No actual audio perception in this review; prepared audio files are not listening evidence."
+    },
+    {
+      "id": "A02",
+      "start": 0,
+      "end": 38.8,
+      "layer": "ASR draft",
+      "detail": "The draft is fragmented dialogue plus an IPO-news-style line around 24s. It suggests a hype/news catalyst, but does not reliably explain the product workflow. Garbled opening words are rejected; the IPO valuation/date statement is treated only as a film claim. No validated listening; delivery, music, effects, mix and synchronization remain unknown.",
+      "visual_relation": "Whole-film script role only; ASR timing and audible delivery not validated.",
+      "evidence": "technical-review-2026-10-19/deep-review/audio/151-speech.json; local faster-whisper draft inspected."
+    }
+  ]
+}

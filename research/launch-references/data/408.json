@@ -1,0 +1,355 @@
+{
+  "id": 408,
+  "reviewer_model": "gpt-6-astra",
+  "scope": "sampled visual and story review; ASR and measured signal support; no validated audio listening",
+  "viewed_evidence": [
+    "technical-review-2026-10-19/deep-review/motion/408/timeline-00.jpg",
+    "technical-review-2026-10-19/deep-review/motion/408/timeline-01.jpg",
+    "astra-review-2026-10-20/evidence/group-2/408-10-13-4fps.jpg"
+  ],
+  "closer_windows": [
+    {
+      "start": 10,
+      "end": 13,
+      "rate_fps": 4,
+      "evidence": [
+        "astra-review-2026-10-20/evidence/group-2/408-10-13-4fps.jpg"
+      ],
+      "resolved": "Gauge needle sweeps toward the right as colored segments change; a direct switch leads to changing bar heights and a yellow bar. Card tilting is visible, but exact easing is not established."
+    }
+  ],
+  "product_from_film": "Lottielab offers editable animated card templates.",
+  "explains_well": "Color and text changes show that the polished cards can be customized.",
+  "unclear": "The opening cards look like a software dashboard before the editor reveals that they are animation templates.",
+  "product_type": "motion design tool",
+  "scenario": "Customize animated search, chart, gauge and task cards.",
+  "product_clear_time": 18,
+  "product_clear_basis": "A color picker changes the globe card, followed by editable card text.",
+  "scenes": [
+    {
+      "id": "V01",
+      "start": 0,
+      "end": 5,
+      "action": "View moves across a white grid of search, analytics, globe, task and gauge cards; changing chart bars and colored cards create an overview.",
+      "design": "Soft white cards, shadows and saturated inset gradients.",
+      "purpose": "Preview the collection.",
+      "evidence": "Visible chronological 1 fps samples, source 0–5s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V02",
+      "start": 5,
+      "end": 18,
+      "action": "Individual cards float against blue, orange, green, red and purple backgrounds. Search text fills and results change; gauge needle sweeps; bars rise and fall; task entries change; globe sits over concentric color rings.",
+      "design": "Rounded cards and pastel dimensional icons.",
+      "purpose": "Show animation variety.",
+      "evidence": "Visible chronological 1 fps samples, source 5–18s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V03",
+      "start": 18,
+      "end": 23,
+      "action": "A color picker changes the globe card from green-blue to purple-pink. Text controls then change the gauge title to Quality you can see while its needle moves.",
+      "design": "Editor controls beside the enlarged design.",
+      "purpose": "Demonstrate customization.",
+      "evidence": "Visible chronological 1 fps samples, source 18–23s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V04",
+      "start": 23,
+      "end": 29,
+      "action": "Editor pulls back to a grid with layers and timeline, followed by the clean six-card preview where bars, search results and gauge continue changing.",
+      "design": "White editing canvas, bottom timeline and finished card grid.",
+      "purpose": "Connect editable project to preview.",
+      "evidence": "Visible chronological 1 fps samples, source 23–29s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V05",
+      "start": 29,
+      "end": 31.766,
+      "action": "Purple Lottielab icon and lottielab.com/templates settle on a pale lavender background.",
+      "design": "Small centered mark and URL.",
+      "purpose": "Provide the template destination.",
+      "evidence": "Visible chronological 1 fps samples, source 29–31.766s; boundary approximate; exact motion between samples unverified."
+    }
+  ],
+  "sound": [
+    {
+      "id": "A01",
+      "start": 0,
+      "end": 31.766,
+      "layer": "unknown",
+      "detail": "No validated direct audio listening was performed. Music, speech delivery, effects, mix and sync remain unknown, not absent.",
+      "visual_relation": "All visual scenes; audiovisual alignment unverified",
+      "evidence": "Visual samples only; no actual audio range supplied to this reviewer."
+    }
+  ],
+  "categories": [
+    {
+      "id": "Q01",
+      "finding": "Finished cards lead to editable color and copy, then back to the finished layout and template URL.",
+      "evidence": "V01–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q02",
+      "finding": "A close view travels across search and integration cards; animation craft is visible but the template product is not yet named.",
+      "evidence": "V01",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q03",
+      "finding": "The editor at 18–23s identifies a customization tool for designers; the URL confirms templates at the end.",
+      "evidence": "V03,V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q04",
+      "finding": "Cards tilt and change scale; search text builds, the gauge needle sweeps left to right, chart bars change height and one bar gains yellow emphasis. The gauge and bars were checked at 4 fps from 10–13s.",
+      "evidence": "V02,V03",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q05",
+      "finding": "Colored background changes separate card examples; editor controls later replace the isolated presentation. Dense samples show a direct gauge-to-chart change near 11.5s, not a morph between data types.",
+      "evidence": "V02–V03",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q06",
+      "finding": "Soft shadows, blurred edges during some card movements, luminous gradients and pale dimensional gauge parts give a polished template treatment.",
+      "evidence": "V01–V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q07",
+      "finding": "Card labels describe sample use cases, not the template product. Editable title fields provide stronger evidence of the actual offer than generic Sales analytics copy.",
+      "evidence": "V02–V03",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q08",
+      "finding": "Voice delivery, music, effects and audiovisual alignment were not established by this visual pass.",
+      "evidence": "A01",
+      "status": "not checked",
+      "reason": "No validated direct audio listening input.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q09",
+      "finding": "Voice delivery, music, effects and audiovisual alignment were not established by this visual pass.",
+      "evidence": "A01",
+      "status": "not checked",
+      "reason": "No validated direct audio listening input.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q10",
+      "finding": "Voice delivery, music, effects and audiovisual alignment were not established by this visual pass.",
+      "evidence": "A01",
+      "status": "not checked",
+      "reason": "No validated direct audio listening input.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q11",
+      "finding": "Voice delivery, music, effects and audiovisual alignment were not established by this visual pass.",
+      "evidence": "A01",
+      "status": "not checked",
+      "reason": "No validated direct audio listening input.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q12",
+      "finding": "All visible assets are designed cards, icons and editor screens. Their creation software is not inferred beyond the shown product interface.",
+      "evidence": "V01–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q13",
+      "finding": "Manifest duration 31.766s; indexed dimensions 1920×1080. Source unchanged flag recorded; fresh encoding and audio clipping checks not run.",
+      "evidence": "Group manifest",
+      "status": "uncertain",
+      "reason": "Inherited technical metadata; no fresh media probe in this review.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q14",
+      "finding": "Color and text editing are clear without speech. Viewers must wait for those controls to distinguish templates from a business dashboard.",
+      "evidence": "V01–V03",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q15",
+      "finding": "Single-card isolation focuses each animation; the color picker and text fields then split attention between action and result.",
+      "evidence": "V02–V03",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q16",
+      "finding": "About 18s showcase cards before five seconds of customization. An earlier editor glimpse would improve category clarity.",
+      "evidence": "V01–V03",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q17",
+      "finding": "The opening grid returns as a clean preview after editing, paying off the collection view with customization.",
+      "evidence": "V01,V03,V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q18",
+      "finding": "The changing colors and soft floating cards appear designed to create delight and a sense of easy polish; audience response is not measured.",
+      "evidence": "V02–V03",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q19",
+      "finding": "Globe and gauge cards remain recognizable when controls appear; the final grid reconnects the isolated examples.",
+      "evidence": "V02–V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q20",
+      "finding": "Color and title edits are visible. Export, embed behavior and integration with a live site are not shown.",
+      "evidence": "V03–V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q21",
+      "finding": "The purple mark and templates URL identify Lottielab; the sample card content could belong to many products.",
+      "evidence": "V02,V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q22",
+      "finding": "Shorten one isolated card and introduce editable-template wording earlier; preserve the direct color and title demonstrations.",
+      "evidence": "V02–V03",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q23",
+      "finding": "For a Tin creative-template library, show one finished card, change brand colors and headline beside it, then show the updated set. Use actual editable states and a simple gauge or chart motion asset.",
+      "evidence": "V02–V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q24",
+      "finding": "Lottielab offers editable animated card templates.",
+      "evidence": "Model reading from inspected images",
+      "status": "uncertain",
+      "reason": "Model-only new-viewer interpretation; no human test.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q25",
+      "finding": "Contact sheets inspected at displayed size; a phone-size playback, caption audit, flash audit and formal accessibility check were not performed.",
+      "evidence": "Viewed sheets",
+      "status": "not checked",
+      "reason": "Full-size moving-image and device checks unavailable in this pass.",
+      "experiment": "none"
+    }
+  ],
+  "lessons": {
+    "keep": "Pair a polished template with an immediate visible customization.",
+    "avoid": "Letting generic sample card copy disguise the actual product category.",
+    "open": "Export workflow, precise easing and all sound remain unverified.",
+    "try": [
+      "For Tin brand templates, change a palette beside the preview and keep both states on screen.",
+      "Test an opening Editable animated cards label before the showcase, then compare new-viewer understanding."
+    ]
+  },
+  "comparison": {
+    "story": "Preview the collection. → Show animation variety. → Demonstrate customization. → Connect editable project to preview. → Provide the template destination.",
+    "motion": "Cards tilt and change scale; search text builds, the gauge needle sweeps left to right, chart bars change height and one bar gains yellow emphasis. The gauge and bars were checked at 4 fps from 10–13s. Sampling scope: 1 fps unless a closer window is recorded.",
+    "sound": "No validated listening; unknown.",
+    "texture": "Soft white cards, shadows and saturated inset gradients.; Rounded cards and pastel dimensional icons.; Editor controls beside the enlarged design.; White editing canvas, bottom timeline and finished card grid.; Small centered mark and URL.",
+    "lesson": "Pair a polished template with an immediate visible customization."
+  },
+  "elements": [
+    {
+      "kind": "ui",
+      "name": "chart",
+      "events": [
+        "V02"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "search",
+      "events": [
+        "V02"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "color picker",
+      "events": [
+        "V03"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "timeline",
+      "events": [
+        "V04"
+      ]
+    },
+    {
+      "kind": "motion",
+      "name": "gauge needle rotation",
+      "events": [
+        "V02"
+      ]
+    },
+    {
+      "kind": "motion",
+      "name": "bar height changes",
+      "events": [
+        "V02"
+      ]
+    },
+    {
+      "kind": "texture",
+      "name": "gradient backgrounds",
+      "events": [
+        "V02"
+      ]
+    }
+  ]
+}

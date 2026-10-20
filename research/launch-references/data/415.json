@@ -1,0 +1,351 @@
+{
+  "id": 415,
+  "reviewer_model": "gpt-6-astra",
+  "scope": "sampled visual and story review; ASR and measured signal support; no validated audio listening",
+  "viewed_evidence": [
+    "technical-review-2026-10-19/deep-review/motion/415/timeline-00.jpg",
+    "technical-review-2026-10-19/deep-review/motion/415/timeline-01.jpg",
+    "technical-review-2026-10-19/deep-review/audio/415-speech.json"
+  ],
+  "closer_windows": [],
+  "product_from_film": "Lovable Connectors bring external design context and services into app building.",
+  "explains_well": "The Miro board attachment and Firecrawl Connect button show two different connector roles.",
+  "unclear": "The finished lead-finding app is not run on a company URL, so scraping output is missing.",
+  "product_type": "app builder",
+  "scenario": "Build a company-finding app from Miro wireframes and connect Firecrawl.",
+  "product_clear_time": 12,
+  "product_clear_basis": "Miro context is attached to an app-building prompt.",
+  "scenes": [
+    {
+      "id": "V01",
+      "start": 0,
+      "end": 9,
+      "action": "Connectors title leads to a tool grid. A large colored cursor selects Miro, which gains an enabled state; project settings then scroll through connector rows.",
+      "design": "White settings panels over pink, orange and purple glow.",
+      "purpose": "Introduce available connections.",
+      "evidence": "Visible chronological 1 fps samples, source 0–9s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V02",
+      "start": 9,
+      "end": 15,
+      "action": "Prompt text asks for an app to find companies to sell to. A small board thumbnail is dragged into the composer and a yellow Miro tag appears with the wireframe reference.",
+      "design": "Isolated rounded composer and enlarged pointer.",
+      "purpose": "Supply design context.",
+      "evidence": "Visible chronological 1 fps samples, source 9–15s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V03",
+      "start": 15,
+      "end": 20,
+      "action": "Lovable editor shows chat and a preview that becomes a LeadFinder page with Discover Companies to Sell To, URL field and blue action button.",
+      "design": "Split chat and pale blue web preview.",
+      "purpose": "Show the proposed app.",
+      "evidence": "Visible chronological 1 fps samples, source 15–20s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V04",
+      "start": 20,
+      "end": 28,
+      "action": "Chat discusses setup and secrets, then a Connect Firecrawl card changes from Connect to Connected. More implementation text follows.",
+      "design": "Enlarged chat column, blue connector button and soft gradient framing.",
+      "purpose": "Add the scraping service.",
+      "evidence": "Visible chronological 1 fps samples, source 20–28s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V05",
+      "start": 28,
+      "end": 40.708,
+      "action": "LeadFinder page returns without a demonstrated search result. Other dashboard and course-site examples follow; tool icons surround Lovable, now in Lovable appears, and the logo closes.",
+      "design": "Varied app previews, icon cluster and vivid gradient end treatment.",
+      "purpose": "Show breadth and announce availability.",
+      "evidence": "Visible chronological 1 fps samples, source 28–40.708s; boundary approximate; exact motion between samples unverified."
+    }
+  ],
+  "sound": [
+    {
+      "id": "A01",
+      "start": 0,
+      "end": 40.708,
+      "layer": "unknown",
+      "detail": "No validated direct audio listening was performed. Music, speech delivery, effects, mix and sync remain unknown, not absent.",
+      "visual_relation": "All visual scenes; audiovisual alignment unverified",
+      "evidence": "Visual samples only; no actual audio range supplied to this reviewer."
+    },
+    {
+      "id": "A02",
+      "start": 1.29,
+      "end": 36.67,
+      "layer": "ASR draft",
+      "detail": "The coherent ASR draft explains connecting tools, using a Miro wireframe board and integrating Firecrawl for scraping. It claims the app matches the board and becomes more capable; those claims exceed the visible preview and connected state. Miro is misrecognized as mirror. Delivery and sound design remain unverified.",
+      "visual_relation": "Story text support; exact audiovisual alignment and delivery unverified.",
+      "evidence": "technical-review-2026-10-19/deep-review/audio/415-speech.json; local faster-whisper base CPU int8 draft; VAD candidates only, recognition errors possible."
+    }
+  ],
+  "categories": [
+    {
+      "id": "Q01",
+      "finding": "Connector selection leads to design context, generated app preview and a service connection; the story ends before the app performs its main task.",
+      "evidence": "V01–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q02",
+      "finding": "A partial Connectors title and colorful transition identify an integration release only broadly. The tool grid at 2s makes the subject concrete.",
+      "evidence": "V01",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q03",
+      "finding": "App builders are addressed by the build prompt; Miro provides design reference and Firecrawl provides scraping capability.",
+      "evidence": "V02–V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q04",
+      "finding": "An oversized colored cursor moves among connector tiles, a board thumbnail enters the prompt, text accumulates and the Connect button changes to Connected.",
+      "evidence": "V01–V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q05",
+      "finding": "Zoomed UI pieces alternate with full editor views; the returning LeadFinder page links the setup stages, while the final unrelated previews broaden the pitch.",
+      "evidence": "V02–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q06",
+      "finding": "Soft pink-purple-orange glow surrounds bright UI; the ending switches to dark blue with vivid color waves.",
+      "evidence": "V01–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q07",
+      "finding": "The prompt and connector button are prioritized. Setup prose and secrets details are smaller and pass quickly, leaving actual required configuration less clear.",
+      "evidence": "V02,V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q08",
+      "finding": "The coherent ASR draft explains connecting tools, using a Miro wireframe board and integrating Firecrawl for scraping. It claims the app matches the board and becomes more capable; those claims exceed the visible preview and connected state. Miro is misrecognized as mirror. Delivery and sound design remain unverified.",
+      "evidence": "A02",
+      "status": "uncertain",
+      "reason": "ASR text only; no validated listening, delivery or voice origin.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q09",
+      "finding": "Voice delivery, music, effects and audiovisual alignment were not established by this visual pass.",
+      "evidence": "A01",
+      "status": "not checked",
+      "reason": "No validated direct audio listening input.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q10",
+      "finding": "Voice delivery, music, effects and audiovisual alignment were not established by this visual pass.",
+      "evidence": "A01",
+      "status": "not checked",
+      "reason": "No validated direct audio listening input.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q11",
+      "finding": "Voice delivery, music, effects and audiovisual alignment were not established by this visual pass.",
+      "evidence": "A01",
+      "status": "not checked",
+      "reason": "No validated direct audio listening input.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q12",
+      "finding": "UI recordings or composites, tool icons and app previews carry the film; exact asset creation methods are unknown.",
+      "evidence": "V01–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q13",
+      "finding": "Manifest duration 40.708s; indexed dimensions 1280×720. Source unchanged flag recorded; fresh encoding and audio clipping checks not run.",
+      "evidence": "Group manifest",
+      "status": "uncertain",
+      "reason": "Inherited technical metadata; no fresh media probe in this review.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q14",
+      "finding": "Silent viewing shows attachment, generated page and connected status. The difference between design-context access and runtime service capability needs more explanation.",
+      "evidence": "V02–V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q15",
+      "finding": "Large cursor and bright glow guide the viewer to Miro, the composer and Firecrawl button. Full-page previews then show the result shape.",
+      "evidence": "V01–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q16",
+      "finding": "Several setup messages pass in eight seconds; the visible Connected state is simpler than the surrounding API-key discussion.",
+      "evidence": "V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q17",
+      "finding": "The opening promises more powerful connected apps. A generated page and connection state support setup, but no working scrape pays off the lead-finder request.",
+      "evidence": "V02–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q18",
+      "finding": "The quick attachment and Connected change appear designed to suggest ease and possibility; no user response is measured.",
+      "evidence": "V02–V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q19",
+      "finding": "LeadFinder remains consistent before and after service setup. Miro reference content is too small to compare precisely against the generated layout.",
+      "evidence": "V02–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q20",
+      "finding": "The film shows a board attachment, app preview and connected Firecrawl state. It does not show retrieved companies, data quality or full credential setup.",
+      "evidence": "V02–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q21",
+      "finding": "Lovable gradients and heart mark support recognition; the concrete Miro-to-app and Firecrawl sequence is more specific than the final logo cluster.",
+      "evidence": "V02–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q22",
+      "finding": "Replace one final dashboard example with a URL submission and returned company data. Keep both connector roles because they explain different benefits.",
+      "evidence": "V04–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q23",
+      "finding": "For Tin connectors, show one source supplying brief context and another delivering a campaign action, then display the resulting artifact. Capture exact permission and connected states.",
+      "evidence": "V02–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q24",
+      "finding": "Lovable Connectors bring external design context and services into app building.",
+      "evidence": "Model reading from inspected images",
+      "status": "uncertain",
+      "reason": "Model-only new-viewer interpretation; no human test.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q25",
+      "finding": "Contact sheets inspected at displayed size; a phone-size playback, caption audit, flash audit and formal accessibility check were not performed.",
+      "evidence": "Viewed sheets",
+      "status": "not checked",
+      "reason": "Full-size moving-image and device checks unavailable in this pass.",
+      "experiment": "none"
+    }
+  ],
+  "lessons": {
+    "keep": "Show both context access and an action service inside one workflow.",
+    "avoid": "Stopping at Connected when the opening task needs an actual output.",
+    "open": "Full setup requirements, app execution, wireframe fidelity and sound remain unverified.",
+    "try": [
+      "For Tin, attach a brand board, create a draft and connect a publishing service before showing the published preview.",
+      "For this lead finder, submit one company URL and hold the resulting structured details beside the source."
+    ]
+  },
+  "comparison": {
+    "story": "Introduce available connections. → Supply design context. → Show the proposed app. → Add the scraping service. → Show breadth and announce availability.",
+    "motion": "An oversized colored cursor moves among connector tiles, a board thumbnail enters the prompt, text accumulates and the Connect button changes to Connected. Sampling scope: 1 fps unless a closer window is recorded.",
+    "sound": "No validated listening; unknown.",
+    "texture": "White settings panels over pink, orange and purple glow.; Isolated rounded composer and enlarged pointer.; Split chat and pale blue web preview.; Enlarged chat column, blue connector button and soft gradient framing.; Varied app previews, icon cluster and vivid gradient end treatment.",
+    "lesson": "Show both context access and an action service inside one workflow."
+  },
+  "elements": [
+    {
+      "kind": "ui",
+      "name": "connector settings",
+      "events": [
+        "V01"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "chat",
+      "events": [
+        "V02",
+        "V04"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "app preview",
+      "events": [
+        "V03",
+        "V05"
+      ]
+    },
+    {
+      "kind": "motion",
+      "name": "attachment drag",
+      "events": [
+        "V02"
+      ]
+    },
+    {
+      "kind": "motion",
+      "name": "cursor emphasis",
+      "events": [
+        "V01",
+        "V02"
+      ]
+    },
+    {
+      "kind": "texture",
+      "name": "gradient glow",
+      "events": [
+        "V01",
+        "V05"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,331 @@
+{
+  "id": 5,
+  "reviewer_model": "gpt-6-astra",
+  "scope": "sampled visual and story review; ASR and measured signal support; no validated audio listening",
+  "viewed_evidence": [
+    "technical-review-2026-10-19/deep-review/motion/005/timeline-00.jpg",
+    "technical-review-2026-10-19/deep-review/motion/005/timeline-01.jpg",
+    "watch-cache/frames/1b25d03871027ac4/frame_0021.jpg",
+    "watch-cache/frames/1b25d03871027ac4/frame_0022.jpg",
+    "astra-review-2026-10-20/evidence/group-2/005-43-47-4fps.jpg"
+  ],
+  "closer_windows": [
+    {
+      "start": 43,
+      "end": 47,
+      "rate_fps": 4,
+      "evidence": [
+        "astra-review-2026-10-20/evidence/group-2/005-43-47-4fps.jpg"
+      ],
+      "resolved": "Watch get_moment first returned only 43 s and 46 s. Local ffmpeg sheet at 4 fps shows letters breaking into twisting fragments around traffic; exact easing and compositing remain unverified."
+    }
+  ],
+  "product_from_film": "Dia sponsors a street-art campaign; its software function is not explained in the visible film.",
+  "explains_well": "The sequence makes the replacement of AI ads by art tangible through close details and street views.",
+  "unclear": "What Dia does and how this relates to a Windows release remain unclear from the film alone.",
+  "product_type": "brand campaign",
+  "scenario": "Show paintings placed in city advertising spaces.",
+  "product_clear_time": null,
+  "product_clear_basis": "No product workflow or browser function appears in the inspected images.",
+  "scenes": [
+    {
+      "id": "V01",
+      "start": 0,
+      "end": 11,
+      "action": "Soft art close-ups alternate with passing pedestrians. Small white sentences build the claim of covering AI ads with hand-painted art.",
+      "design": "Wrinkled poster surfaces, muted paintings, small serif copy.",
+      "purpose": "State the campaign idea.",
+      "evidence": "Visible chronological 1 fps samples, source 0–11s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V02",
+      "start": 11,
+      "end": 21,
+      "action": "A wide street view gains an ornate red circular label over the wall art. Framed images on white and a night street view replace it.",
+      "design": "Red decorative seal; clean white photo layout; traffic streaks.",
+      "purpose": "Present the first artwork in context.",
+      "evidence": "Visible chronological 1 fps samples, source 11–21s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V03",
+      "start": 21,
+      "end": 30,
+      "action": "A second mural appears behind pedestrians; an ornate white rectangle encloses Head in the clouds. Smaller photos then isolate the work.",
+      "design": "Graffiti wall, pale ornamental border, white margins.",
+      "purpose": "Show another artwork and title.",
+      "evidence": "Visible chronological 1 fps samples, source 21–30s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V04",
+      "start": 30,
+      "end": 40,
+      "action": "Two artworks appear side by side with white and yellow frames and titles. Small image pair on white gives way to night street views.",
+      "design": "Sun glare, mural texture, two decorative frames.",
+      "purpose": "Extend the campaign across works and locations.",
+      "evidence": "Visible chronological 1 fps samples, source 30–40s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V05",
+      "start": 40,
+      "end": 47.013,
+      "action": "The Better Days Series and Dia lettering build over a wide street view. In 43–47 s closer samples, letters distort and break into twisting fragments around passing vans, then vanish.",
+      "design": "Irregular white hand-lettered title over the street.",
+      "purpose": "Name the campaign and sponsor.",
+      "evidence": "Visible chronological 1 fps samples, source 40–47.013s; boundary approximate; exact motion between samples unverified."
+    }
+  ],
+  "sound": [
+    {
+      "id": "A01",
+      "start": 0,
+      "end": 47.013,
+      "layer": "unknown",
+      "detail": "No validated direct audio listening was performed. Music, speech delivery, effects, mix and sync remain unknown, not absent.",
+      "visual_relation": "All visual scenes; audiovisual alignment unverified",
+      "evidence": "Visual samples only; no actual audio range supplied to this reviewer."
+    }
+  ],
+  "categories": [
+    {
+      "id": "Q01",
+      "finding": "A campaign statement leads to artwork examples and finally the campaign name; there is no software task narrative.",
+      "evidence": "V01–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q02",
+      "finding": "Blurred mural detail and a passing person establish a street-art setting but no product in the first two seconds.",
+      "evidence": "V01",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q03",
+      "finding": "Dia is named near the end; the audience for its software and browser task cannot be established visually.",
+      "evidence": "V05",
+      "status": "uncertain",
+      "reason": "Brand name is visible, function is not demonstrated.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q04",
+      "finding": "Ornate title frames appear over street scenes; the closing letters break into twisting fragments. The 4 fps closer view supports fragmentation, not exact easing.",
+      "evidence": "V02–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q05",
+      "finding": "Full street views alternate with photos isolated on white; the artwork carries continuity across the layout changes.",
+      "evidence": "V02–V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q06",
+      "finding": "Wrinkled posters, painted faces, graffiti and sunlight give the work physical texture; origins are not independently verified.",
+      "evidence": "V01–V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q07",
+      "finding": "Small serif sentences explain the art project; decorative artwork labels and the larger hand-lettered ending perform separate roles.",
+      "evidence": "V01,V03,V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q08",
+      "finding": "Voice delivery, music, effects and audiovisual alignment were not established by this visual pass.",
+      "evidence": "A01",
+      "status": "not checked",
+      "reason": "No validated direct audio listening input.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q09",
+      "finding": "Voice delivery, music, effects and audiovisual alignment were not established by this visual pass.",
+      "evidence": "A01",
+      "status": "not checked",
+      "reason": "No validated direct audio listening input.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q10",
+      "finding": "Voice delivery, music, effects and audiovisual alignment were not established by this visual pass.",
+      "evidence": "A01",
+      "status": "not checked",
+      "reason": "No validated direct audio listening input.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q11",
+      "finding": "Voice delivery, music, effects and audiovisual alignment were not established by this visual pass.",
+      "evidence": "A01",
+      "status": "not checked",
+      "reason": "No validated direct audio listening input.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q12",
+      "finding": "Real-world-looking street imagery and still-photo layouts show murals in place; the film claims hand painting but production provenance is unverified.",
+      "evidence": "V01–V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q13",
+      "finding": "Manifest duration 47.013 s; indexed dimensions 1280×720. Source unchanged flag recorded; fresh encoding and audio clipping checks not run.",
+      "evidence": "Group manifest",
+      "status": "uncertain",
+      "reason": "Inherited technical metadata; no fresh media probe in this review.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q14",
+      "finding": "The visible sentences explain replacing AI ads with art; the software proposition is missing in this silent pass.",
+      "evidence": "V01,V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q15",
+      "finding": "Decorative borders direct attention to each painting, though traffic and pedestrians sometimes cross the same area.",
+      "evidence": "V02–V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q16",
+      "finding": "Most scenes name one artwork at a time; the paired work at 30–36 s asks viewers to read two ornate labels.",
+      "evidence": "V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q17",
+      "finding": "The promise of covering ads with art is answered through several installations; the ending names the series.",
+      "evidence": "V01–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q18",
+      "finding": "The claim of better days and the art tour suggest a gentler public-space mood; this is an interpretation, not measured response.",
+      "evidence": "V01,V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q19",
+      "finding": "Artworks recur in wide and isolated views, making the white-layout inserts traceable.",
+      "evidence": "V02–V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q20",
+      "finding": "Installed-looking artwork supports the campaign story; no software capability is shown or tested.",
+      "evidence": "V01–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q21",
+      "finding": "The ornate artwork labels and uneven title letters form a consistent art identity; without Dia the sponsor is not identifiable.",
+      "evidence": "V02–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q22",
+      "finding": "Each mural adds variety; fewer location inserts could leave time for one sentence explaining the sponsor.",
+      "evidence": "V02–V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q23",
+      "finding": "Tin can present campaign outputs in their real placement, then isolate each asset on white with a short result label.",
+      "evidence": "V02–V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q24",
+      "finding": "Dia sponsors a street-art campaign; its software function is not explained in the visible film.",
+      "evidence": "Model reading from inspected images",
+      "status": "uncertain",
+      "reason": "Model-only new-viewer interpretation; no human test.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q25",
+      "finding": "Contact sheets inspected at displayed size; a phone-size playback, caption audit, flash audit and formal accessibility check were not performed.",
+      "evidence": "Viewed sheets",
+      "status": "not checked",
+      "reason": "Full-size moving-image and device checks unavailable in this pass.",
+      "experiment": "none"
+    }
+  ],
+  "lessons": {
+    "keep": "Alternate the artwork in its real setting with a clean isolated view of the same asset.",
+    "avoid": "Avoid assuming viewers know the sponsor when the film never states its product function.",
+    "open": "Sound, artwork provenance and the software audience remain unverified.",
+    "try": [
+      "For a Tin campaign case, pair each posted creative with its real street or feed placement, using the same crop to connect the two.",
+      "Test a hand-lettered campaign title that breaks apart as a foreground object crosses; use 4 fps proof frames before judging its path."
+    ]
+  },
+  "comparison": {
+    "story": "State the campaign idea. → Present the first artwork in context. → Show another artwork and title. → Extend the campaign across works and locations. → Name the campaign and sponsor.",
+    "motion": "Ornate title frames appear over street scenes; the closing letters break into twisting fragments. The 4 fps closer view supports fragmentation, not exact easing. Sampling scope: 1 fps unless a closer window is recorded.",
+    "sound": "No validated listening; unknown.",
+    "texture": "Wrinkled poster surfaces, muted paintings, small serif copy.; Red decorative seal; clean white photo layout; traffic streaks.; Graffiti wall, pale ornamental border, white margins.; Sun glare, mural texture, two decorative frames.; Irregular white hand-lettered title over the street.",
+    "lesson": "Alternate the artwork in its real setting with a clean isolated view of the same asset."
+  },
+  "elements": [
+    {
+      "kind": "texture",
+      "name": "wrinkled street posters",
+      "events": [
+        "V01"
+      ]
+    },
+    {
+      "kind": "motion",
+      "name": "letter fragmentation",
+      "events": [
+        "V05"
+      ]
+    },
+    {
+      "kind": "texture",
+      "name": "ornate artwork frames",
+      "events": [
+        "V02",
+        "V03",
+        "V04"
+      ]
+    }
+  ]
+}

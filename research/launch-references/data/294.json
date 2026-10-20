@@ -1,0 +1,386 @@
+{
+  "id": 294,
+  "viewed_evidence": [
+    "technical-review-2026-10-19/deep-review/motion/294/timeline-00.jpg",
+    "technical-review-2026-10-19/deep-review/motion/294/timeline-01.jpg",
+    "technical-review-2026-10-19/deep-review/motion/294/timeline-02.jpg",
+    "astra-review-2026-10-20/evidence/group-3/294/26.jpg",
+    "astra-review-2026-10-20/evidence/group-3/294/63.jpg",
+    "technical-review-2026-10-19/deep-review/audio/294-speech.json"
+  ],
+  "product_from_film": "ZeroSettle helps mobile apps move subscribers to direct billing and configure retention offers.",
+  "explains_well": "The film shows both the subscriber checkout and the developer controls behind offers.",
+  "unclear": "It does not show how the old subscription ends or how the SDK is installed, despite the quick-setup promise.",
+  "product_type": "mobile billing SDK",
+  "scenario": "Switch an app subscriber to direct billing, save a cancellation and target an offer",
+  "product_clear_time": 19,
+  "product_clear_basis": "Switch to Direct Billing offer appears inside an app after fee comparison.",
+  "scenes": [
+    {
+      "start": 0,
+      "end": 7,
+      "action": "Logo gives way to App Store 30% arrow pointing to ZeroSettle 5% plus 50c.",
+      "design": "Simple icons and fee labels on white.",
+      "purpose": "State pricing comparison",
+      "id": "V01",
+      "evidence": "Visible 1 fps samples, source 0–7s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 7,
+      "end": 14,
+      "action": "15 Minute Setup, Zero App Store Fees and Higher Retention appear separately.",
+      "design": "Bold centred black claims.",
+      "purpose": "Summarise benefits",
+      "id": "V02",
+      "evidence": "Visible 1 fps samples, source 7–14s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 14,
+      "end": 22,
+      "action": "Phone account view zooms toward Switch to Direct Billing and Save 20% Forever offer.",
+      "design": "Dark JustOne app and teal offer button.",
+      "purpose": "Show subscriber invitation",
+      "id": "V03",
+      "evidence": "Visible 1 fps samples, source 14–22s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 22,
+      "end": 32,
+      "action": "Subscription sheet offers Apple Pay; payment sheet shows switch and monthly plan, then account returns with confetti.",
+      "design": "Phone checkout and success-like celebration.",
+      "purpose": "Show switching flow",
+      "id": "V04",
+      "evidence": "Visible 1 fps samples, source 22–32s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 32,
+      "end": 47,
+      "action": "Cancellation reason list selects too expensive; retention offer follows with discount and pause option, then confetti.",
+      "design": "Green-selected reason and offer card.",
+      "purpose": "Show save-the-sale flow",
+      "id": "V05",
+      "evidence": "Visible 1 fps samples, source 32–47s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 47,
+      "end": 60,
+      "action": "Desktop dashboard shows revenue and product charts; Products table appears and price/discount fields change.",
+      "design": "Orange navigation, charts and product table.",
+      "purpose": "Show developer management",
+      "id": "V06",
+      "evidence": "Visible 1 fps samples, source 47–60s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 60,
+      "end": 72,
+      "action": "Switch & Save targeting screen changes subscription-window presets and phased-rollout slider from broad to smaller percentage.",
+      "design": "Audience form, eligible product chips and sandbox tip.",
+      "purpose": "Show controlled rollout",
+      "id": "V07",
+      "evidence": "Visible 1 fps samples, source 60–72s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 72,
+      "end": 79.866,
+      "action": "ZeroSettle logo holds on white.",
+      "design": "Green logo.",
+      "purpose": "Close",
+      "id": "V08",
+      "evidence": "Visible 1 fps samples, source 72–79.866s; boundaries approximate, between-frame action unresolved."
+    }
+  ],
+  "sound": [
+    {
+      "id": "A01",
+      "start": 0,
+      "end": 79.866,
+      "layer": "unknown",
+      "detail": "No validated audio listening; speech, music, effects, mix and sync remain unverified.",
+      "visual_relation": "All visual scenes; alignment not checked",
+      "evidence": "No actual audio supplied to this review; existing technical-review-2026-10-19/deep-review/audio/294.json is not listening evidence."
+    },
+    {
+      "id": "A02",
+      "start": 1.22,
+      "end": 76.82,
+      "layer": "ASR draft",
+      "detail": "Candidate narration identifies a mobile SDK, direct-billing switch, Apple Pay browser sheet, cancellation-save offers and campaign targeting. Reject dads for developers and the ambiguous 70% cut closing phrase as exact fee wording. Visual fee labels are primary; no heard delivery or mix finding.",
+      "visual_relation": "V01–V08; candidate script only",
+      "evidence": "technical-review-2026-10-19/deep-review/audio/294-speech.json; existing faster-whisper base CPU int8"
+    }
+  ],
+  "categories": [
+    {
+      "finding": "Fee comparison leads to subscriber switching, cancellation retention, then developer reporting and targeting. It explains both sides of the service, but skips installation and old-plan closure.",
+      "evidence": "V01–V08",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q01"
+    },
+    {
+      "finding": "Green ZeroSettle logo identifies the brand; the financial comparison arrives at 3 s.",
+      "evidence": "V01, 0–2 s",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q02"
+    },
+    {
+      "finding": "Direct billing offer makes the purpose clear by 19 s; dashboard and candidate script identify app developers as the buyer.",
+      "evidence": "V03, V06–V07",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q03"
+    },
+    {
+      "finding": "Phone view moves between full-device and closer crops; modal sheets open, selected reasons change and rollout slider moves left across samples. Exact transition easing is unresolved.",
+      "evidence": "V03–V07",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q04"
+    },
+    {
+      "finding": "White gaps separate switching, retention and dashboard examples. The switch from phone to desktop cleanly changes from subscriber experience to developer control.",
+      "evidence": "V04–V07",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q05"
+    },
+    {
+      "finding": "Mostly white space frames dark mobile screens and a pale orange dashboard. Green/teal buttons and confetti mark accepted offers.",
+      "evidence": "V03–V07",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q06"
+    },
+    {
+      "finding": "Benefit headings are clear. Full 26 s frame shows a $0 current payment with $5.59 monthly plan, which needs billing-timing explanation; full 63 s frame makes targeting rules readable.",
+      "evidence": "V04, V07; full frames 26 and 63 s",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q07"
+    },
+    {
+      "finding": "Voice presence and delivery remain unverified.",
+      "evidence": "No validated audio listening",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q08"
+    },
+    {
+      "finding": "Music character and arc remain unverified.",
+      "evidence": "No validated audio listening",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q09"
+    },
+    {
+      "finding": "Sound effects remain unverified.",
+      "evidence": "No validated audio listening",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q10"
+    },
+    {
+      "finding": "Sound-to-motion timing remain unverified.",
+      "evidence": "No validated audio listening",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q11"
+    },
+    {
+      "finding": "Phone-shell UI and desktop dashboard captures dominate; no production stack or live-payment status is established.",
+      "evidence": "V03–V07",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q12"
+    },
+    {
+      "finding": "Source duration supplied as 79.866s; no independent compression, clipping or delivery check.",
+      "evidence": "Assigned metadata; source integrity checked by parent",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q13"
+    },
+    {
+      "finding": "The discount offer, Apple Pay sheet and retention choice are visible without sound. The meaning of current $0 versus ongoing price is less explicit.",
+      "evidence": "V03–V05",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q14"
+    },
+    {
+      "finding": "Zoomed offers guide attention to action buttons, then desktop close-ups focus on product settings and rollout controls.",
+      "evidence": "V03–V07",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q15"
+    },
+    {
+      "finding": "The examples have useful holds, but the last logo stays about eight seconds while integration and subscription migration details remain absent.",
+      "evidence": "V03–V08",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q16"
+    },
+    {
+      "finding": "Lower fees and retention are illustrated with switch and save offers. The 15-minute setup claim is not answered with an integration example.",
+      "evidence": "V02–V07",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q17"
+    },
+    {
+      "finding": "Plain screens and accepted-offer confetti appear intended to make a billing change feel easy and beneficial. No actual retention effect was measured.",
+      "evidence": "V03–V05",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q18"
+    },
+    {
+      "finding": "JustOne phone examples switch to a DiveGenius dashboard, so settings are not visibly tied to the same subscription seen earlier.",
+      "evidence": "V03–V07",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q19"
+    },
+    {
+      "finding": "The film shows checkout-like states and configurable offers. Fee applicability, successful migration, setup time and retention gains are claims not independently checked.",
+      "evidence": "V01–V07",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q20"
+    },
+    {
+      "finding": "The pairing of direct billing and cancellation-save controls gives ZeroSettle a specific growth-management story.",
+      "evidence": "V03–V07",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q21"
+    },
+    {
+      "finding": "Use the same app in phone and dashboard views, and replace part of the closing hold with old-plan/new-plan timing and a minimal SDK step.",
+      "evidence": "V06–V08",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q22"
+    },
+    {
+      "finding": "For a developer service, show the customer flow first, then the exact dashboard setting that creates it. Match app name, plan and offer across both.",
+      "evidence": "V03–V07",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q23"
+    },
+    {
+      "finding": "No human new-viewer test; product description above is model interpretation of sampled images.",
+      "evidence": "V01–V08",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q24"
+    },
+    {
+      "finding": "No phone-size, safe-area or flash assessment; small UI text needs separate preview.",
+      "evidence": "Contact sheets",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q25"
+    }
+  ],
+  "lessons": {
+    "keep": "Keep subscriber checkout and developer targeting in the same film.",
+    "try": [
+      "Follow one JustOne plan from its dashboard discount setting to the phone offer, payment and old/new billing status.",
+      "Replace five seconds of the logo hold with the minimum SDK integration step and a clear next action for developers."
+    ],
+    "avoid": "Avoid showing a subscription switch without explaining current charge and future billing timing.",
+    "open": "Audio is unheard; billing rules, fee applicability, integration time and retention results remain unverified."
+  },
+  "comparison": {
+    "story": "State pricing comparison → Summarise benefits → Show subscriber invitation → Show switching flow → Show save-the-sale flow → Show developer management → Show controlled rollout → Close",
+    "motion": "Phone view moves between full-device and closer crops; modal sheets open, selected reasons change and rollout slider moves left across samples. Exact transition easing is unresolved.",
+    "sound": "No validated listening; no absence claims.",
+    "texture": "Mostly white space frames dark mobile screens and a pale orange dashboard. Green/teal buttons and confetti mark accepted offers.",
+    "lesson": "Keep subscriber checkout and developer targeting in the same film."
+  },
+  "elements": [
+    {
+      "kind": "ui",
+      "name": "phone shell",
+      "events": [
+        "V03",
+        "V04",
+        "V05"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "payment sheet",
+      "events": [
+        "V04"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "cancellation form",
+      "events": [
+        "V05"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "dashboard",
+      "events": [
+        "V06"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "product table",
+      "events": [
+        "V06"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "targeting form",
+      "events": [
+        "V07"
+      ]
+    },
+    {
+      "kind": "motion",
+      "name": "slider adjustment",
+      "events": [
+        "V07"
+      ]
+    }
+  ],
+  "reviewer_model": "gpt-6-astra",
+  "scope": "sampled visual and story review; ASR and measured signal support; no validated audio listening",
+  "closer_windows": []
+}

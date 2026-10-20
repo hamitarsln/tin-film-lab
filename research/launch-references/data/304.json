@@ -1,0 +1,341 @@
+{
+  "id": 304,
+  "product_from_film": "Aurus is framed as a trading brand focused on control and timing, but the film does not explain a specific product or feature.",
+  "explains_well": "Clocks, waiting numbers, crowded trading floors and focused individuals build a consistent theme of control under pressure.",
+  "unclear": "The viewer cannot tell what Aurus lets them do, how it differs from another trading tool or what action to take next.",
+  "product_type": "trading brand teaser; exact product unclear",
+  "scenario": "A montage contrasts waiting, cost and market chaos with focus and control, ending in a gold Aurus logo.",
+  "product_clear_time": null,
+  "product_clear_basis": "Trading is named around 38s, but there is no identified interface, task or feature explaining the product.",
+  "scenes": [
+    {
+      "start": 0,
+      "end": 9,
+      "action": "Money figures, a silhouetted person under COMFORT, cash, an eye and a watch precede a solitary figure in a dark open space.",
+      "design": "Mixed monochrome/color imagery and small bottom captions.",
+      "purpose": "Introduce control and time pressure.",
+      "evidence": "1 fps source samples in 0–9s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V01"
+    },
+    {
+      "start": 9,
+      "end": 21,
+      "action": "CLARITY fills the screen before a crowded trading floor. A sign changes words, an office view gains CERTAINTY, and a YOUR TURN display falls from high numbers; coins appear on black.",
+      "design": "Large word graphics, archival-looking floor footage and red digital numerals.",
+      "purpose": "Frame waiting and uncertainty as costly.",
+      "evidence": "1 fps source samples in 9–21s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V02"
+    },
+    {
+      "start": 21,
+      "end": 31,
+      "action": "Cash, a city, inset monochrome footage and a money counter lead to a podium speaker, trading desks and a focused person with chart overlays.",
+      "design": "Rapid media collage and financial imagery.",
+      "purpose": "Turn the argument toward focus.",
+      "evidence": "1 fps source samples in 21–31s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V03"
+    },
+    {
+      "start": 31,
+      "end": 41,
+      "action": "A person faces a gallery wall, followed by market rows, an eye with chart graphics, a brain scan, floating coins, a trading chart and a clock.",
+      "design": "Varied metaphor images with recurring finance/time motifs.",
+      "purpose": "State intentional choice and timing.",
+      "evidence": "1 fps source samples in 31–41s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V04"
+    },
+    {
+      "start": 41,
+      "end": 48,
+      "action": "Gold macro surfaces reveal an upward-arrow-like mark, then Aurus appears beside it on black.",
+      "design": "Textured gold object and black brand card.",
+      "purpose": "Reveal the brand.",
+      "evidence": "1 fps source samples in 41–48s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V05"
+    },
+    {
+      "start": 48,
+      "end": 51.151,
+      "action": "Black frames hold through the remaining sampled ending.",
+      "design": "Black.",
+      "purpose": "End the film; no additional visible instruction.",
+      "evidence": "1 fps source samples in 48–51.151s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V06"
+    }
+  ],
+  "sound": [
+    {
+      "id": "A01",
+      "start": 0,
+      "end": 51.151,
+      "layer": "ASR draft / unknown",
+      "detail": "The draft coherently repeats comfort/control, waiting/cost, clarity/focus and choosing the trade/timing. It supplies a brand manifesto rather than a functional explanation. No validated listening, voice delivery, music, effects or sync assessment.",
+      "visual_relation": "V01–V05; visible captions support the broad script.",
+      "evidence": "technical-review-2026-10-19/deep-review/audio/304-speech.json"
+    }
+  ],
+  "categories": [
+    {
+      "id": "Q01",
+      "finding": "Control/time pressure → cost of waiting → focus → trading choice → brand reveal.",
+      "evidence": "V01–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q02",
+      "finding": "Large money values and COMFORT behind a silhouette establish financial stakes and attitude, not a product task.",
+      "evidence": "V01",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q03",
+      "finding": "Traders are implied by market imagery and the 38s line about choosing a trade. Exact function remains unestablished.",
+      "evidence": "V03,V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q04",
+      "finding": "Oversized words, changing queue numbers, inset clips and chart overlays punctuate the montage. Gold macro views resolve into a logo; exact motion paths are unverified.",
+      "evidence": "V01–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q05",
+      "finding": "Associative matches connect clocks to waiting and cash to cost. The many different sources do not form a single user journey.",
+      "evidence": "V01–V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q06",
+      "finding": "Dark scenes, monochrome footage, yellow type, teal financial screens and textured gold build a serious finance treatment.",
+      "evidence": "V01–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q07",
+      "finding": "Large theme words are legible, while the persistent bottom captions are small. There is no explanatory feature text or CTA.",
+      "evidence": "V01–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q08",
+      "finding": "ASR/captions support the manifesto wording; audible character and pacing were not heard.",
+      "evidence": "A01",
+      "status": "uncertain",
+      "reason": "Text support only.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q09",
+      "finding": "Music character and structure are unverified.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "No validated listening.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q10",
+      "finding": "Effects and their sources are unverified.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "No validated listening; waveform peaks do not identify effects.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q11",
+      "finding": "Sound sync is unverified.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "No validated listening or paired audiovisual timing.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q12",
+      "finding": "Financial footage, film-like scenes, eye/brain imagery, clocks and gold graphics are mixed. Their origins and production methods are unknown.",
+      "evidence": "V01–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q13",
+      "finding": "Source duration 51.151 s; Watch metadata 1920 × 1080. Frame rate, audio clipping and export quality not checked here.",
+      "evidence": "Whole film",
+      "status": "supported",
+      "reason": "Parent source metadata supports duration and dimensions; visual review is sampled.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q14",
+      "finding": "The pressure-versus-focus theme survives through imagery and captions, but no functional product meaning emerges.",
+      "evidence": "V01–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q15",
+      "finding": "Large words and isolated props guide individual shots; frequent subject changes make the overall focus conceptual.",
+      "evidence": "V01–V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q16",
+      "finding": "The film spends nearly 48s building attitude before the brand card, with no concrete task to anchor the promise.",
+      "evidence": "V01–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q17",
+      "finding": "Control and clarity are restated at the end, but no product action demonstrates either.",
+      "evidence": "V01,V04,V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q18",
+      "finding": "Urgency, cost and chaos shift toward confidence and focus; response is unmeasured.",
+      "evidence": "V01–V05",
+      "status": "uncertain",
+      "reason": "Interpretation of montage and text.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q19",
+      "finding": "Clocks, money and market imagery recur, but no person, account or trade is traceable across the sequence.",
+      "evidence": "V01–V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q20",
+      "finding": "Control, reduced noise and better timing are brand promises. No order entry, fee comparison, execution or result is shown or tested.",
+      "evidence": "V02–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q21",
+      "finding": "The gold arrow-like mark identifies Aurus late; most preceding motifs could fit many trading brands.",
+      "evidence": "V01–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q22",
+      "finding": "Add one specific feature before the logo.",
+      "evidence": "V04,V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "Show a trading decision, the relevant control and a clear confirmation state without implying a guaranteed outcome."
+    },
+    {
+      "id": "Q23",
+      "finding": "For Tin, support a control-themed montage with a visible choice.",
+      "evidence": "V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "Show a reviewer selecting one draft, changing a clear setting and approving the revised asset."
+    },
+    {
+      "id": "Q24",
+      "finding": "No human new-viewer test was performed.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "The product summary is this model’s film-only reading.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q25",
+      "finding": "Mobile preview and accessibility checks were not performed.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "Contact sheets are evidence views, not a stated mobile preview or compliance test.",
+      "experiment": "none"
+    }
+  ],
+  "elements": [
+    {
+      "kind": "ui",
+      "name": "market data table",
+      "events": [
+        "V04"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "trading chart",
+      "events": [
+        "V03",
+        "V04"
+      ]
+    },
+    {
+      "kind": "motion",
+      "name": "large theme typography",
+      "events": [
+        "V01",
+        "V02"
+      ]
+    },
+    {
+      "kind": "motion",
+      "name": "changing queue numbers",
+      "events": [
+        "V02"
+      ]
+    },
+    {
+      "kind": "texture",
+      "name": "textured gold logo",
+      "events": [
+        "V05"
+      ]
+    }
+  ],
+  "lessons": {
+    "keep": "Repeat clocks and financial objects to maintain a coherent theme across varied footage.",
+    "try": [
+      "Show one relevant trading control and its confirmation state.",
+      "For Tin, show a reviewer choice, setting change and approved revision."
+    ],
+    "avoid": "Treating a manifesto about control as an explanation of the actual product.",
+    "open": "Product function, intended next action, trading claims, source rights and audio remain unverified."
+  },
+  "comparison": {
+    "story": "Financial urgency → focus manifesto → gold brand reveal.",
+    "motion": "Kinetic words, countdown-like numbers and associative montage.",
+    "sound": "Coherent manifesto ASR; no listening.",
+    "texture": "Dark finance imagery, teal screens and gold.",
+    "lesson": "Recurring motifs unify a montage but do not replace a specific product action."
+  },
+  "reviewer_model": "gpt-6-astra",
+  "scope": "sampled visual and story review; ASR and measured signal support; no validated audio listening",
+  "viewed_evidence": [
+    "technical-review-2026-10-19/deep-review/motion/304/timeline-00.jpg",
+    "technical-review-2026-10-19/deep-review/motion/304/timeline-01.jpg"
+  ],
+  "closer_windows": []
+}

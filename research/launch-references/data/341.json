@@ -1,0 +1,398 @@
+{
+  "id": 341,
+  "viewed_evidence": [
+    "technical-review-2026-10-19/deep-review/motion/341/timeline-00.jpg",
+    "technical-review-2026-10-19/deep-review/motion/341/timeline-01.jpg",
+    "technical-review-2026-10-19/deep-review/motion/341/timeline-02.jpg",
+    "astra-review-2026-10-20/evidence/group-3/341/dense.jpg",
+    "technical-review-2026-10-19/deep-review/audio/341-speech.json"
+  ],
+  "product_from_film": "OctaPulse presents automated fish handling and visual inspection for aquaculture.",
+  "explains_well": "The hand-held fish beside a robot-held fish gives a direct visual comparison of manual and automated work.",
+  "unclear": "The long industry introduction delays the product, and the film does not connect inspection labels to an actual grading decision.",
+  "product_type": "aquaculture robotics and inspection",
+  "scenario": "A robot-like mechanism handles fish, followed by labelled fin detection.",
+  "product_clear_time": 51,
+  "product_clear_basis": "Manual-versus-robot fish handling introduces the concrete task; fin labels add inspection around 57s.",
+  "scenes": [
+    {
+      "start": 0,
+      "end": 10,
+      "action": "Wide and overhead views show circular fish pens, tanks and schooling fish.",
+      "design": "Sea footage and split-screen farm views.",
+      "purpose": "Establish aquaculture.",
+      "id": "V01",
+      "evidence": "Visible 1 fps samples, source 0–10s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 10,
+      "end": 24,
+      "action": "A feed-conversion chart claims 6x efficiency; farm/land imagery carries an emissions figure, then Earth appears with 10 billion people and Math matters.",
+      "design": "White statistics, teal bars and orange emphasis.",
+      "purpose": "Make the industry case.",
+      "id": "V02",
+      "evidence": "Visible 1 fps samples, source 10–24s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 24,
+      "end": 36,
+      "action": "A farm vessel view gets a growing percentage ending at 30% by 2030. A teal montage says Better tools, followed by fish on a processing surface.",
+      "design": "Large statistics and industrial imagery.",
+      "purpose": "Introduce scaling pressure.",
+      "id": "V03",
+      "evidence": "Visible 1 fps samples, source 24–36s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 36,
+      "end": 51,
+      "action": "Fish pens carry a $350B market claim. Fish footage leads to Maximize every resource and three panels of water equipment, pens and feed.",
+      "design": "Teal aquatic palette and resource collage.",
+      "purpose": "Define the resource-efficiency goal.",
+      "id": "V04",
+      "evidence": "Visible 1 fps samples, source 36–51s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 51,
+      "end": 57,
+      "action": "A person holding a fish is compared with a robot-like gripper holding one. The robot view expands, then cuts to a wider conveyor view where the held fish lowers.",
+      "design": "Manual/robot split screen; rendered-looking machinery scene, origin unverified.",
+      "purpose": "Show the proposed handling change.",
+      "id": "V05",
+      "evidence": "Visible 1 fps samples, source 51–57s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 57,
+      "end": 63,
+      "action": "A fish on a green grid receives coloured fin labels and point connections.",
+      "design": "Caudal, adipose, anal, pelvic and pectoral fin overlays.",
+      "purpose": "Illustrate visual inspection.",
+      "id": "V06",
+      "evidence": "Visible 1 fps samples, source 57–63s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 63,
+      "end": 74,
+      "action": "Farm views carry six-figure-contract and largest-US-trout-producer claims, followed by a map with highlighted regions.",
+      "design": "Large text and glowing world map.",
+      "purpose": "Present traction and expansion.",
+      "id": "V07",
+      "evidence": "Visible 1 fps samples, source 63–74s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 74,
+      "end": 84,
+      "action": "Farm footage shares a frame with underwater robot-like devices among fish. A coloured spherical mark emerges in water, then Earth appears with Helping feed the world.",
+      "design": "Underwater imagery and dimensional brand graphic.",
+      "purpose": "Expand the vision from farm to global food supply.",
+      "id": "V08",
+      "evidence": "Visible 1 fps samples, source 74–84s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 84,
+      "end": 88.88,
+      "action": "tryoctapulse.com appears on a dark field and fades to black.",
+      "design": "Small orange URL.",
+      "purpose": "Provide a destination.",
+      "id": "V09",
+      "evidence": "Visible 1 fps samples, source 84–88.88s; boundaries approximate, between-frame action unresolved."
+    }
+  ],
+  "sound": [
+    {
+      "id": "A01",
+      "start": 0,
+      "end": 88.88,
+      "layer": "unknown",
+      "detail": "No validated audio listening; speech, music, effects, mix and sync remain unverified.",
+      "visual_relation": "All visual scenes; alignment not checked",
+      "evidence": "No actual audio supplied to this review; existing technical-review-2026-10-19/deep-review/audio/341.json is not listening evidence."
+    },
+    {
+      "id": "A02",
+      "start": 0.23,
+      "end": 83.74,
+      "layer": "ASR draft",
+      "detail": "Candidate narration makes the aquaculture growth case, then claims faster inspection, over 95% accuracy, phenotyping, grading, a six-figure contract and expansion. Reject corrupted brand spelling Octopults and treat the split growth phrase cautiously. These are script claims, not verified performance or heard delivery.",
+      "visual_relation": "V01–V08; candidate script roles only, no heard sync.",
+      "evidence": "technical-review-2026-10-19/deep-review/audio/341-speech.json; existing faster-whisper base CPU int8"
+    }
+  ],
+  "categories": [
+    {
+      "finding": "The film argues for aquaculture growth and efficient resources before showing robotic handling and fin inspection, then traction and a global vision.",
+      "evidence": "V01–V09",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q01"
+    },
+    {
+      "finding": "A wide sea view shows rings of fish pens under a cloudy sky. It identifies the setting, but no specific product action yet.",
+      "evidence": "V01, 0–2s",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q02"
+    },
+    {
+      "finding": "Aquaculture is clear immediately. Automated fish handling becomes concrete around 51s, with inspection around 57s.",
+      "evidence": "V01; V05–V06",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q03"
+    },
+    {
+      "finding": "Dense 53–57s samples show the robot panel widening to replace the manual panel, then a cut to a wider belt view with the held fish lowering toward it. This is an illustrated action, not evidence of deployed hardware.",
+      "evidence": "V05, dense53–57",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q04"
+    },
+    {
+      "finding": "Most changes are cuts between farm views and statistic cards. Split panels compare resources and manual versus robot handling; the latter is the clearest explanatory transition.",
+      "evidence": "V02–V05",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q05"
+    },
+    {
+      "finding": "Teal water and blue-green equipment unify the film; orange figures highlight claims. The inspection grid uses bright categorical colours.",
+      "evidence": "V01–V08",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q06"
+    },
+    {
+      "finding": "Large statistics are readable but often lack visible sources. Fin labels explain the inspection target; no pass/fail or grade result appears.",
+      "evidence": "V02–V03, V06–V07",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q07"
+    },
+    {
+      "finding": "Voice presence and delivery remain unverified.",
+      "evidence": "No validated audio listening",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q08"
+    },
+    {
+      "finding": "Music character and arc remain unverified.",
+      "evidence": "No validated audio listening",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q09"
+    },
+    {
+      "finding": "Sound effects remain unverified.",
+      "evidence": "No validated audio listening",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q10"
+    },
+    {
+      "finding": "Sound-to-motion timing remain unverified.",
+      "evidence": "No validated audio listening",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q11"
+    },
+    {
+      "finding": "Aerial-looking farm footage, underwater fish, handling imagery, dimensional robot scenes and data overlays are mixed. Their origins and deployment status are unknown.",
+      "evidence": "V01–V08",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q12"
+    },
+    {
+      "finding": "Source duration supplied as 88.88s; no independent compression, clipping or delivery check.",
+      "evidence": "Assigned metadata; source integrity checked by parent",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q13"
+    },
+    {
+      "finding": "Silent viewing shows aquaculture scale and the manual/robot comparison. The specific speed and accuracy claims are supported only as candidate script text.",
+      "evidence": "V01–V08; ASR 51–58s",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q14"
+    },
+    {
+      "finding": "Central statistics dominate scenic images. The paired fish at 51–54s provides a much more direct focus than the broad industry montage.",
+      "evidence": "V02–V05",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q15"
+    },
+    {
+      "finding": "About 50s of market and resource context precedes the concrete product task. Inspection itself receives only several seconds.",
+      "evidence": "V01–V06",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q16"
+    },
+    {
+      "finding": "The opening establishes a large food-production sector; the ending returns to feeding the world. The product mechanism is a short bridge between these broad claims.",
+      "evidence": "V01 and V08; V05–V06",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q17"
+    },
+    {
+      "finding": "Scale statistics appear designed to create urgency, while automated handling and global expansion suggest optimism. This is a creative interpretation.",
+      "evidence": "V02–V08",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q18"
+    },
+    {
+      "finding": "Fish pens, teal water and fish imagery remain consistent. The robot-handling view does not trace one individual fish into the labelled inspection result.",
+      "evidence": "V01–V08",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q19"
+    },
+    {
+      "finding": "Handling and labelled fins are shown as visual examples. Candidate ASR claims five minutes to under 30 seconds and over 95% accuracy; no timed case, accuracy method or contract evidence is supplied.",
+      "evidence": "V05–V07; ASR 51–69s",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q20"
+    },
+    {
+      "finding": "Fish-fin labels and the handling comparison are specific to this product category. Earth, market size and growth graphics could fit many industrial pitches.",
+      "evidence": "V02–V08",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q21"
+    },
+    {
+      "finding": "Move the manual/robot comparison earlier and shorten the repeated sector case. Add the inspection decision and its practical next action.",
+      "evidence": "V01–V06",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q22"
+    },
+    {
+      "finding": "For an industrial tool, pair a familiar manual action with a clearly labelled automated counterpart, then carry the same object into measurement and decision. Use verified captures or label illustrations.",
+      "evidence": "V05–V06",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q23"
+    },
+    {
+      "finding": "No human new-viewer test; product description above is model interpretation of sampled images.",
+      "evidence": "V01–V09",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q24"
+    },
+    {
+      "finding": "No phone-size, safe-area or flash assessment; small UI text needs separate preview.",
+      "evidence": "Contact sheets",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q25"
+    }
+  ],
+  "lessons": {
+    "keep": "Keep the same-task manual-versus-robot comparison before showing detailed inspection labels.",
+    "try": [
+      "Open on manual inspection beside the automated concept, then explain the farm context in one short scene.",
+      "Track one fish from measurement to a visible grade and routing decision, with the shown time labelled accurately."
+    ],
+    "avoid": "Avoid letting sector statistics consume most of the time before the product appears.",
+    "open": "Audio, hardware deployment, speed, accuracy and commercial claims are not independently checked; imagery origin is uncertain."
+  },
+  "comparison": {
+    "story": "Establish aquaculture. → Make the industry case. → Introduce scaling pressure. → Define the resource-efficiency goal. → Show the proposed handling change. → Illustrate visual inspection. → Present traction and expansion. → Expand the vision from farm to global food supply. → Provide a destination.",
+    "motion": "Dense 53–57s samples show the robot panel widening to replace the manual panel, then a cut to a wider belt view with the held fish lowering toward it. This is an illustrated action, not evidence of deployed hardware.",
+    "sound": "No validated listening; no absence claims.",
+    "texture": "Teal water and blue-green equipment unify the film; orange figures highlight claims. The inspection grid uses bright categorical colours.",
+    "lesson": "Keep the same-task manual-versus-robot comparison before showing detailed inspection labels."
+  },
+  "elements": [
+    {
+      "kind": "ui",
+      "name": "chart",
+      "events": [
+        "V02"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "map",
+      "events": [
+        "V07"
+      ]
+    },
+    {
+      "kind": "motion",
+      "name": "split screen",
+      "events": [
+        "V04",
+        "V05",
+        "V08"
+      ]
+    },
+    {
+      "kind": "texture",
+      "name": "aquaculture footage",
+      "events": [
+        "V01",
+        "V03"
+      ]
+    },
+    {
+      "kind": "texture",
+      "name": "fish inspection overlays",
+      "events": [
+        "V06"
+      ]
+    },
+    {
+      "kind": "motion",
+      "name": "robot handling illustration",
+      "events": [
+        "V05"
+      ]
+    }
+  ],
+  "reviewer_model": "gpt-6-astra",
+  "scope": "sampled visual and story review; ASR and measured signal support; no validated audio listening",
+  "closer_windows": [
+    {
+      "start": 53,
+      "end": 57,
+      "rate_fps": 4,
+      "evidence": [
+        "astra-review-2026-10-20/evidence/group-3/341/dense.jpg"
+      ],
+      "resolved": "Robot panel widens over the manual comparison, then cuts from close fish handling to a wide conveyor view; the gripper-held fish lowers toward the belt. Full handling cycle and real deployment are not established."
+    }
+  ]
+}

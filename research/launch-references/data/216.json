@@ -1,0 +1,382 @@
+{
+  "id": 216,
+  "viewed_evidence": [
+    "technical-review-2026-10-19/deep-review/motion/216/timeline-00.jpg",
+    "technical-review-2026-10-19/deep-review/motion/216/timeline-01.jpg",
+    "technical-review-2026-10-19/deep-review/motion/216/timeline-02.jpg",
+    "technical-review-2026-10-19/deep-review/audio/216-speech.json",
+    "astra-review-2026-10-20/evidence/group-3/216/dense.jpg"
+  ],
+  "product_from_film": "Clicky is a Mac desktop companion beside the cursor that can receive spoken tasks and run several agents.",
+  "explains_well": "Colour choices, cursor companions and task status cards give the agent a small, personal presence on the desktop.",
+  "unclear": "The demo changes tasks before showing a clear request, completed result and user response for any one of them.",
+  "product_type": "desktop AI companion",
+  "scenario": "Ask for help with a document or research while keeping agent status beside the desktop cursor.",
+  "product_clear_time": 46,
+  "product_clear_basis": "Clicky controls show a talk shortcut, and a task card says it is rewriting a resume PDF; ASR supplies earlier companion positioning.",
+  "scenes": [
+    {
+      "start": 0,
+      "end": 8,
+      "action": "A note types a reflection about missing the earlier internet.",
+      "design": "Soft cream editor over a turquoise desktop.",
+      "purpose": "Set a nostalgic theme",
+      "id": "V01",
+      "evidence": "Visible 1 fps samples, source 0–8s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 8,
+      "end": 17,
+      "action": "Old forum, game, Reddit, Windows and Mac screens appear, then the image darkens.",
+      "design": "Filmed laptop screens and familiar older interfaces.",
+      "purpose": "Recall playful computing",
+      "id": "V02",
+      "evidence": "Visible 1 fps samples, source 8–17s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 17,
+      "end": 22,
+      "action": "Person works outside and inside a narrow booth.",
+      "design": "Warm outdoor scene followed by dark enclosed work space.",
+      "purpose": "Show present-day fatigue",
+      "id": "V03",
+      "evidence": "Visible 1 fps samples, source 17–22s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 22,
+      "end": 31,
+      "action": "Desktop apps, terminal and a build screen lead to social posts with small product videos.",
+      "design": "Warm filmed laptop and screen close-ups.",
+      "purpose": "Introduce a personal software project",
+      "id": "V04",
+      "evidence": "Visible 1 fps samples, source 22–31s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 31,
+      "end": 40,
+      "action": "User picks a colour, sees a small companion and greeting, then the desktop returns.",
+      "design": "Small dark setup panel over blue wallpaper.",
+      "purpose": "Personalise the companion",
+      "id": "V05",
+      "evidence": "Visible 1 fps samples, source 31–40s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 40,
+      "end": 50,
+      "action": "Clicky menu shows a talk shortcut and colours; a hand uses the laptop, a browser and terminal appear, and a card reports rewriting a resume PDF.",
+      "design": "Notch-area panel, coloured pointer and task status card.",
+      "purpose": "Show desktop help in progress",
+      "id": "V06",
+      "evidence": "Visible 1 fps samples, source 40–50s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 50,
+      "end": 58,
+      "action": "Colours change; an Agents panel lists tasks, and stacked companions have research status cards.",
+      "design": "Coloured cursors and compact task cards.",
+      "purpose": "Show multiple tasks",
+      "id": "V07",
+      "evidence": "Visible 1 fps samples, source 50–58s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 58,
+      "end": 65.967,
+      "action": "Small video plays on the desktop; typed note hopes to restore curiosity, followed by launch time and heyclicky.com/new.",
+      "design": "Quiet desktop, personal note and black end cards.",
+      "purpose": "Close with an invitation",
+      "id": "V08",
+      "evidence": "Visible 1 fps samples, source 58–65.967s; boundaries approximate, between-frame action unresolved."
+    }
+  ],
+  "sound": [
+    {
+      "id": "A01",
+      "start": 0,
+      "end": 65.967,
+      "layer": "unknown",
+      "detail": "No validated audio listening; speech, music, effects, mix and sync remain unverified.",
+      "visual_relation": "All visual scenes; alignment not checked",
+      "evidence": "No actual audio supplied to this review; existing technical-review-2026-10-19/deep-review/audio/216.json is not listening evidence."
+    },
+    {
+      "id": "A02",
+      "start": 2.09,
+      "end": 60.25,
+      "layer": "ASR draft",
+      "detail": "Candidate script describes early-internet nostalgia, a Mac companion beside the cursor, a notch home, screen-aware help and a wish to restore curiosity. Borems and a fragment around 52 s are unreliable; no voice delivery or audio character is inferred.",
+      "visual_relation": "V01–V08; candidate script gives the companion positioning not fully written on screen.",
+      "evidence": "technical-review-2026-10-19/deep-review/audio/216-speech.json; existing faster-whisper base CPU int8"
+    }
+  ],
+  "categories": [
+    {
+      "finding": "Nostalgia leads to a personal project, companion setup and several agent examples, then returns to the wish for curiosity.",
+      "evidence": "V01–V08",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q01"
+    },
+    {
+      "finding": "A typed personal reflection establishes mood before the product. Without script support, the early function is unclear.",
+      "evidence": "V01",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q02"
+    },
+    {
+      "finding": "The product is visually identifiable in setup at 31 s, but task capability becomes concrete around the resume status at 46 s. Candidate ASR explains the companion earlier.",
+      "evidence": "V05,V06; A02",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q03"
+    },
+    {
+      "finding": "Typed text and colour changes personalise the desktop. Dense samples show the centre greeting fading while a dark panel appears at the notch around 38.5 s; after a cut the menu opens downward around 40.25 s. Exact cursor-following motion remains unresolved.",
+      "evidence": "V05,V06; dense 37–41 s",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q04"
+    },
+    {
+      "finding": "Older screen clips form a nostalgia montage; later cuts move among the laptop, controls and task status rather than holding one workflow.",
+      "evidence": "V02,V04–V07",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q05"
+    },
+    {
+      "finding": "Soft yellow-green light, filmed screens and turquoise wallpaper create a personal desktop mood; dark small panels sit within it.",
+      "evidence": "V01–V08",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q06"
+    },
+    {
+      "finding": "Colour controls and short task headings are readable, but detailed status text is small and the initiating request is not held on screen.",
+      "evidence": "V05–V07",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q07"
+    },
+    {
+      "finding": "Voice presence and delivery remain unverified.",
+      "evidence": "No validated audio listening",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q08"
+    },
+    {
+      "finding": "Music character and arc remain unverified.",
+      "evidence": "No validated audio listening",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q09"
+    },
+    {
+      "finding": "Sound effects remain unverified.",
+      "evidence": "No validated audio listening",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q10"
+    },
+    {
+      "finding": "Sound-to-motion timing remain unverified.",
+      "evidence": "No validated audio listening",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q11"
+    },
+    {
+      "finding": "Filmed laptops, desktop capture-like inserts, outdoor footage and a typed note appear. Capture tools and source origins are not established.",
+      "evidence": "V01–V08",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q12"
+    },
+    {
+      "finding": "Source duration supplied as 65.967s; no independent compression, clipping or delivery check.",
+      "evidence": "Assigned metadata; source integrity checked by parent",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q13"
+    },
+    {
+      "finding": "The typed opening and closing communicate the theme silently; the companion proposition depends partly on the candidate script, and the task demos lack a full text request.",
+      "evidence": "V01,V05–V08",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q14"
+    },
+    {
+      "finding": "Close-ups direct attention to the tiny cursor companion and notch controls. Wider laptop shots make status text harder to read.",
+      "evidence": "V05–V07",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q15"
+    },
+    {
+      "finding": "Nearly half the duration builds nostalgia and project context; setup and multiple tasks then share roughly 27 s.",
+      "evidence": "V01–V07",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q16"
+    },
+    {
+      "finding": "The ending restores the opening personal-note format, but no task completion supplies a concrete product payoff.",
+      "evidence": "V01,V06–V08",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q17"
+    },
+    {
+      "finding": "Older interfaces and the wish to feel curious suggest affection for playful computing; enclosed work footage suggests fatigue.",
+      "evidence": "V01–V03,V08; interpretation",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q18"
+    },
+    {
+      "finding": "The same desktop wallpaper, small coloured companions and filmed laptop connect the product scenes.",
+      "evidence": "V04–V08",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q19"
+    },
+    {
+      "finding": "Status cards show work in progress. Screen awareness, task completion, file changes and parallel execution quality are not independently demonstrated.",
+      "evidence": "V06,V07",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q20"
+    },
+    {
+      "finding": "A companion with a notch home and colour identity gives desktop agents a recognisable small character.",
+      "evidence": "V05–V07; A02",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q21"
+    },
+    {
+      "finding": "Follow the resume task from spoken or typed request to the revised page, with the companion reporting completion.",
+      "evidence": "V06",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q22"
+    },
+    {
+      "finding": "For a playful assistant, pair personal character design with one useful task that visibly finishes.",
+      "evidence": "V05–V07",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q23"
+    },
+    {
+      "finding": "No human new-viewer test; product description above is model interpretation of sampled images.",
+      "evidence": "V01–V08",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q24"
+    },
+    {
+      "finding": "No phone-size, safe-area or flash assessment; small UI text needs separate preview.",
+      "evidence": "Contact sheets",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q25"
+    }
+  ],
+  "lessons": {
+    "keep": "Give an assistant a small, consistent place and colour on the user’s desktop.",
+    "try": [
+      "Show the resume request, the changed paragraph and a completion card in one continuous example.",
+      "Compare two agents with distinct colour labels and show which finished file belongs to each."
+    ],
+    "avoid": "Avoid using several progress cards as the only demonstration of useful work.",
+    "open": "What did Clicky change, and how does the user inspect or accept the result?"
+  },
+  "comparison": {
+    "story": "Set a nostalgic theme → Recall playful computing → Show present-day fatigue → Introduce a personal software project → Personalise the companion → Show desktop help in progress → Show multiple tasks → Close with an invitation",
+    "motion": "Typed text and colour changes personalise the desktop. Dense samples show the centre greeting fading while a dark panel appears at the notch around 38.5 s; after a cut the menu opens downward around 40.25 s. Exact cursor-following motion remains unresolved.",
+    "sound": "No validated listening; no absence claims.",
+    "texture": "Soft yellow-green light, filmed screens and turquoise wallpaper create a personal desktop mood; dark small panels sit within it.",
+    "lesson": "Give an assistant a small, consistent place and colour on the user’s desktop."
+  },
+  "elements": [
+    {
+      "kind": "ui",
+      "name": "terminal",
+      "events": [
+        "V04",
+        "V06"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "agent task list",
+      "events": [
+        "V07"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "status notification",
+      "events": [
+        "V06",
+        "V07"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "colour picker",
+      "events": [
+        "V05"
+      ]
+    },
+    {
+      "kind": "texture",
+      "name": "filmed laptop",
+      "events": [
+        "V02",
+        "V04"
+      ]
+    }
+  ],
+  "reviewer_model": "gpt-6-astra",
+  "scope": "sampled visual and story review; ASR and measured signal support; no validated audio listening",
+  "closer_windows": [
+    {
+      "start": 37,
+      "end": 41,
+      "rate_fps": 4,
+      "evidence": [
+        "astra-review-2026-10-20/evidence/group-3/216/dense.jpg"
+      ],
+      "resolved": "The centre greeting fades as a dark panel appears at the notch around 38.5 s; after a framing cut the panel is closed, then it opens down from the notch around 40.25 s. Exact cursor tracking remains unresolved."
+    }
+  ]
+}

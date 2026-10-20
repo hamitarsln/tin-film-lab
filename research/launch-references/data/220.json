@@ -1,0 +1,336 @@
+{
+  "id": 220,
+  "reviewer_model": "gpt-6-astra",
+  "scope": "sampled visual and story review; ASR and measured signal support; no validated audio listening",
+  "viewed_evidence": [
+    "technical-review-2026-10-19/deep-review/motion/220/timeline-00.jpg",
+    "technical-review-2026-10-19/deep-review/motion/220/timeline-01.jpg",
+    "technical-review-2026-10-19/deep-review/audio/220-speech.json"
+  ],
+  "closer_windows": [],
+  "product_from_film": "Zerion CLI presents wallet analysis, trading and swap commands for an assistant-style interface.",
+  "explains_well": "Different people ask concrete wallet questions while the same input box stays in place.",
+  "unclear": "Every scenario stops at the request; no answer, quote or completed action shows what the commands return.",
+  "product_type": "crypto agent tooling",
+  "scenario": "Ask for wallet exposure, transfer routing, performance or yield information.",
+  "product_clear_time": 26,
+  "product_clear_basis": "Readable /zerion-analyze, /zerion-trading and /zerion-swap commands lead to the Zerion CLI brand.",
+  "scenes": [
+    {
+      "id": "V01",
+      "start": 0,
+      "end": 4,
+      "action": "A person at a low laptop camera asks a wallet question while a translucent assistant input box sits across the foreground. Another person is visible behind him.",
+      "design": "Casual room and white glass-like composer.",
+      "purpose": "Introduce conversational wallet work.",
+      "evidence": "Visible chronological 1 fps samples, source 0–4s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V02",
+      "start": 4,
+      "end": 14,
+      "action": "The same composer overlays a man in a car and another at an outdoor table, each using a laptop and making a different request.",
+      "design": "Stable interface position across contrasting daily environments.",
+      "purpose": "Expand to transfer routing and wallet performance.",
+      "evidence": "Visible chronological 1 fps samples, source 4–14s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V03",
+      "start": 14,
+      "end": 19,
+      "action": "A person in a club faces a phone-style keyboard and composer while colored lights and people fill the background.",
+      "design": "Mobile keyboard overlay and nightlife lighting.",
+      "purpose": "Show the request format in a mobile setting.",
+      "evidence": "Visible chronological 1 fps samples, source 14–19s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V04",
+      "start": 19,
+      "end": 26,
+      "action": "A laptop user in a cafe types behind the same large translucent composer. The message text changes, but no answer panel appears.",
+      "design": "Cafe window colors, keyboard close-up and repeated input surface.",
+      "purpose": "Add another use case without changing the interaction model.",
+      "evidence": "Visible chronological 1 fps samples, source 19–26s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V05",
+      "start": 26,
+      "end": 34.033,
+      "action": "The interface moves to a blue gradient and cycles through /zerion-analyze, /zerion-trading and /zerion-swap before a small device symbol and Zerion CLI lockup.",
+      "design": "White command box and blue gradient branding.",
+      "purpose": "Name the command package behind the requests.",
+      "evidence": "Visible chronological 1 fps samples, source 26–34.033s; boundary approximate; exact motion between samples unverified."
+    }
+  ],
+  "sound": [
+    {
+      "id": "A01",
+      "start": 0,
+      "end": 34.033,
+      "layer": "unknown",
+      "detail": "No validated direct audio listening was performed. Music, speech delivery, effects, mix and sync remain unknown, not absent.",
+      "visual_relation": "All visual scenes; audiovisual alignment unverified",
+      "evidence": "Visual samples only; no actual audio range supplied to this reviewer."
+    },
+    {
+      "id": "A02",
+      "start": 0.26,
+      "end": 19.2,
+      "layer": "ASR draft",
+      "detail": "ASR draft supports requests about Polymarket exposure, moving funds from Base to Ethereum, Solana wallet performance and USDC yield. Several final terms are misrecognized, so exact protocol names and wording are not asserted. No voice delivery, music or sync was heard.",
+      "visual_relation": "Story text support; exact audiovisual alignment and delivery unverified.",
+      "evidence": "technical-review-2026-10-19/deep-review/audio/220-speech.json; local faster-whisper base CPU int8 draft; VAD candidates only, recognition errors possible."
+    }
+  ],
+  "categories": [
+    {
+      "id": "Q01",
+      "finding": "A sequence of wallet requests in daily settings leads to command names and the CLI identity.",
+      "evidence": "V01–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q02",
+      "finding": "A close laptop viewpoint and floating composer establish a person asking an assistant; the wallet task needs the message or ASR.",
+      "evidence": "V01,A02",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q03",
+      "finding": "ASR identifies wallet tasks early; the readable command names and final CLI mark explain the tool category around 26 s.",
+      "evidence": "V05,A02",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q04",
+      "finding": "The input surface remains fixed across scene changes, then command text cycles on a clean gradient. Exact typing timing is unverified.",
+      "evidence": "V01–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q05",
+      "finding": "Matching composer position carries the viewer across rooms, car, outdoor table, club and cafe.",
+      "evidence": "V01–V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q06",
+      "finding": "Everyday photographic-looking scenes contrast with translucent UI; the ending simplifies to a blue brand field.",
+      "evidence": "V01–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q07",
+      "finding": "Foreground composer text is low-contrast and small over busy footage; final slash commands are much easier to read.",
+      "evidence": "V01–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q08",
+      "finding": "ASR draft supports requests about Polymarket exposure, moving funds from Base to Ethereum, Solana wallet performance and USDC yield. Several final terms are misrecognized, so exact protocol names and wording are not asserted. No voice delivery, music or sync was heard.",
+      "evidence": "A02",
+      "status": "uncertain",
+      "reason": "ASR text only; no validated listening, delivery or voice origin.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q09",
+      "finding": "Voice delivery, music, effects and audiovisual alignment were not established by this visual pass.",
+      "evidence": "A01",
+      "status": "not checked",
+      "reason": "No validated direct audio listening input.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q10",
+      "finding": "Voice delivery, music, effects and audiovisual alignment were not established by this visual pass.",
+      "evidence": "A01",
+      "status": "not checked",
+      "reason": "No validated direct audio listening input.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q11",
+      "finding": "Voice delivery, music, effects and audiovisual alignment were not established by this visual pass.",
+      "evidence": "A01",
+      "status": "not checked",
+      "reason": "No validated direct audio listening input.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q12",
+      "finding": "People using devices are combined with overlaid input UI; actual interaction capture and imagery origin are unverified.",
+      "evidence": "V01–V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q13",
+      "finding": "Manifest duration 34.033s; indexed dimensions 1280×720. Source unchanged flag recorded; fresh encoding and audio clipping checks not run.",
+      "evidence": "Group manifest",
+      "status": "uncertain",
+      "reason": "Inherited technical metadata; no fresh media probe in this review.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q14",
+      "finding": "Typing and slash commands are visible, but the exact requested tasks are harder to follow without speech and no outcomes are shown.",
+      "evidence": "V01–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q15",
+      "finding": "The composer anchors the center, though faces, hands and background movement compete through its transparency.",
+      "evidence": "V01–V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q16",
+      "finding": "Five short user settings occupy most of 34 s; the repeated request pattern gives breadth but no completed example.",
+      "evidence": "V01–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q17",
+      "finding": "The opening assistant request ends in tool naming rather than a response to that request.",
+      "evidence": "V01,V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q18",
+      "finding": "Casual and varied settings suggest convenient access to wallet help; this is intended positioning rather than measured response.",
+      "evidence": "V01–V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q19",
+      "finding": "One composer design links all users; the underlying wallet and task change each time.",
+      "evidence": "V01–V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q20",
+      "finding": "Requests and command names establish intended functions, not accurate analysis, cheapest routing or an executed swap.",
+      "evidence": "V01–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q21",
+      "finding": "The /zerion command family and CLI ending identify the product, while lifestyle scenes mainly broaden the audience.",
+      "evidence": "V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q22",
+      "finding": "Keep one request and show its answer with a readable source or route, then use shorter examples for breadth.",
+      "evidence": "V01–V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q23",
+      "finding": "Tin can show the same request surface in different work settings, but should complete the first request before adding more.",
+      "evidence": "V01–V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q24",
+      "finding": "Zerion CLI presents wallet analysis, trading and swap commands for an assistant-style interface.",
+      "evidence": "Model reading from inspected images",
+      "status": "uncertain",
+      "reason": "Model-only new-viewer interpretation; no human test.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q25",
+      "finding": "Contact sheets inspected at displayed size; a phone-size playback, caption audit, flash audit and formal accessibility check were not performed.",
+      "evidence": "Viewed sheets",
+      "status": "not checked",
+      "reason": "Full-size moving-image and device checks unavailable in this pass.",
+      "experiment": "none"
+    }
+  ],
+  "lessons": {
+    "keep": "Use a stable input surface to connect different users and contexts.",
+    "avoid": "Avoid a request-only montage that leaves the value of the answer unseen.",
+    "open": "Response content, route selection, wallet analysis, execution, exact typing motion and audio delivery remain unverified.",
+    "try": [
+      "Show one Tin request in a real work setting, then its returned plan before switching users.",
+      "Replace translucent text over footage with a brief solid-background close-up at the important input and answer."
+    ]
+  },
+  "comparison": {
+    "story": "Introduce conversational wallet work. → Expand to transfer routing and wallet performance. → Show the request format in a mobile setting. → Add another use case without changing the interaction model. → Name the command package behind the requests.",
+    "motion": "The input surface remains fixed across scene changes, then command text cycles on a clean gradient. Exact typing timing is unverified. Sampling scope: 1 fps unless a closer window is recorded.",
+    "sound": "No validated listening; unknown.",
+    "texture": "Casual room and white glass-like composer.; Stable interface position across contrasting daily environments.; Mobile keyboard overlay and nightlife lighting.; Cafe window colors, keyboard close-up and repeated input surface.; White command box and blue gradient branding.",
+    "lesson": "Use a stable input surface to connect different users and contexts."
+  },
+  "elements": [
+    {
+      "kind": "ui",
+      "name": "assistant composer",
+      "events": [
+        "V01",
+        "V02",
+        "V03",
+        "V04"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "mobile keyboard",
+      "events": [
+        "V03"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "slash commands",
+      "events": [
+        "V05"
+      ]
+    },
+    {
+      "kind": "texture",
+      "name": "blue gradient",
+      "events": [
+        "V05"
+      ]
+    }
+  ]
+}

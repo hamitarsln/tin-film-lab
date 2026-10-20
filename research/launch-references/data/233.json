@@ -1,0 +1,335 @@
+{
+  "id": 233,
+  "reviewer_model": "gpt-6-astra",
+  "scope": "sampled visual and story review; ASR and measured signal support; no validated audio listening",
+  "viewed_evidence": [
+    "technical-review-2026-10-19/deep-review/motion/233/timeline-00.jpg",
+    "technical-review-2026-10-19/deep-review/motion/233/timeline-01.jpg",
+    "technical-review-2026-10-19/deep-review/audio/233-speech.json"
+  ],
+  "closer_windows": [],
+  "product_from_film": "Zerion presents a settlement layer for agents handling everyday requests.",
+  "explains_well": "The same floating input follows a person across several everyday settings, making the assistant feel available anywhere.",
+  "unclear": "No request reaches a visible completed purchase, booking or account change, so what Zerion settles stays abstract.",
+  "product_type": "agent payments",
+  "scenario": "Ask an agent for gifts, a haircut, party supplies and a subscription change.",
+  "product_clear_time": 29,
+  "product_clear_basis": "The closing line says Zerion settles it after Your agent acts.",
+  "scenes": [
+    {
+      "id": "V01",
+      "start": 0,
+      "end": 7,
+      "action": "A person at an outdoor table uses a laptop while a large translucent composer sits in front. Text fills the composer and small tool chips remain below.",
+      "design": "Wide lens, trees, bright daylight and glass-like input overlay.",
+      "purpose": "Introduce a personal request in daily life.",
+      "evidence": "Visible chronological 1 fps samples, source 0–7s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V02",
+      "start": 7,
+      "end": 15,
+      "action": "The person appears in a train seat, then close to the camera in a library. The same composer stays centered while its text changes.",
+      "design": "Low laptop viewpoint and persistent pale overlay.",
+      "purpose": "Extend the assistant across locations and tasks.",
+      "evidence": "Visible chronological 1 fps samples, source 7–15s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V03",
+      "start": 15,
+      "end": 21,
+      "action": "A bandana-and-sunglasses version leans toward the laptop in a dim room with colored lights. More request text appears in the same composer.",
+      "design": "Close face, saturated room lights and repeated UI.",
+      "purpose": "Add a playful party-supply use case.",
+      "evidence": "Visible chronological 1 fps samples, source 15–21s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V04",
+      "start": 21,
+      "end": 27,
+      "action": "A person in a public indoor venue faces the laptop. Request text changes while the composer and tool chips keep their position.",
+      "design": "Dark venue with colorful background fixtures.",
+      "purpose": "Show another everyday task and revision.",
+      "evidence": "Visible chronological 1 fps samples, source 21–27s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V05",
+      "start": 27,
+      "end": 34.733,
+      "action": "Blue gradient cards read Your agent acts, then Zerion settles it, followed by the white brand mark.",
+      "design": "Simple centered white text and blue gradient.",
+      "purpose": "Name the settlement promise.",
+      "evidence": "Visible chronological 1 fps samples, source 27–34.733s; boundary approximate; exact motion between samples unverified."
+    }
+  ],
+  "sound": [
+    {
+      "id": "A01",
+      "start": 0,
+      "end": 34.733,
+      "layer": "unknown",
+      "detail": "No validated direct audio listening was performed. Music, speech delivery, effects, mix and sync remain unknown, not absent.",
+      "visual_relation": "All visual scenes; audiovisual alignment unverified",
+      "evidence": "Visual samples only; no actual audio range supplied to this reviewer."
+    },
+    {
+      "id": "A02",
+      "start": 0.65,
+      "end": 26.56,
+      "layer": "ASR draft",
+      "detail": "The ASR draft gives requests for a birthday gift, a haircut, party supplies and changing a New York Times subscription. It supports a sequence of everyday instructions and revisions. Some verbs and the subscription phrase are misrecognized; no delivery or completed action is established.",
+      "visual_relation": "Story text support; exact audiovisual alignment and delivery unverified.",
+      "evidence": "technical-review-2026-10-19/deep-review/audio/233-speech.json; local faster-whisper base CPU int8 draft; VAD candidates only, recognition errors possible."
+    }
+  ],
+  "categories": [
+    {
+      "id": "Q01",
+      "finding": "Several everyday requests share one input surface, then a closing line assigns settlement to Zerion.",
+      "evidence": "V01–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q02",
+      "finding": "The outdoor laptop view begins with the person and composer already present, without an explanatory title.",
+      "evidence": "V01",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q03",
+      "finding": "The assistant use is visible early, but Zerion’s role is named only around 29 s and remains broad.",
+      "evidence": "V01,V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q04",
+      "finding": "Text changes inside a stable composer while the background location and person framing switch. Exact typing cadence is unverified.",
+      "evidence": "V01–V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q05",
+      "finding": "The fixed composer acts as the continuity anchor across abrupt location changes.",
+      "evidence": "V01–V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q06",
+      "finding": "A translucent pale input overlays live-action scenes; the final blue gradient separates the brand statement.",
+      "evidence": "V01–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q07",
+      "finding": "Closing copy is simple and readable. Pale composer text competes with bright backgrounds and can be hard to read at sheet size.",
+      "evidence": "V01,V02,V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q08",
+      "finding": "The ASR draft gives requests for a birthday gift, a haircut, party supplies and changing a New York Times subscription. It supports a sequence of everyday instructions and revisions. Some verbs and the subscription phrase are misrecognized; no delivery or completed action is established.",
+      "evidence": "A02",
+      "status": "uncertain",
+      "reason": "ASR text only; no validated listening, delivery or voice origin.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q09",
+      "finding": "Voice delivery, music, effects and audiovisual alignment were not established by this visual pass.",
+      "evidence": "A01",
+      "status": "not checked",
+      "reason": "No validated direct audio listening input.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q10",
+      "finding": "Voice delivery, music, effects and audiovisual alignment were not established by this visual pass.",
+      "evidence": "A01",
+      "status": "not checked",
+      "reason": "No validated direct audio listening input.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q11",
+      "finding": "Voice delivery, music, effects and audiovisual alignment were not established by this visual pass.",
+      "evidence": "A01",
+      "status": "not checked",
+      "reason": "No validated direct audio listening input.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q12",
+      "finding": "Live-action laptop viewpoints and composited glass-like UI are visible; camera and compositing tools are unknown.",
+      "evidence": "V01–V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q13",
+      "finding": "Manifest duration 34.733s; indexed dimensions 1280×720. Source unchanged flag recorded; fresh encoding and audio clipping checks not run.",
+      "evidence": "Group manifest",
+      "status": "uncertain",
+      "reason": "Inherited technical metadata; no fresh media probe in this review.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q14",
+      "finding": "The visual pattern communicates asking from anywhere; the specific tasks are better supported by the ASR draft than by small on-screen text.",
+      "evidence": "V01–V04,A02",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q15",
+      "finding": "The large central composer keeps the task surface consistent, though faces and backgrounds sometimes compete with it.",
+      "evidence": "V01–V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q16",
+      "finding": "About 27 s of request examples lead to roughly 8 s of role and brand cards. No result state receives time.",
+      "evidence": "V01–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q17",
+      "finding": "Your agent acts promises a payoff that is not shown; settlement arrives as a line rather than a receipt.",
+      "evidence": "V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q18",
+      "finding": "Casual places, costumes and close faces suggest ease and personality. This is a creative interpretation.",
+      "evidence": "V01–V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q19",
+      "finding": "The repeated interface is continuous, but each scene introduces a new request instead of following one through completion.",
+      "evidence": "V01–V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q20",
+      "finding": "No booking, purchase receipt, permission step or subscription result is visible. The settlement mechanism is unexplained.",
+      "evidence": "V01–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q21",
+      "finding": "The repeatable laptop viewpoint and glass composer create a recognizable format; the settlement claim needs one concrete example.",
+      "evidence": "V01–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q22",
+      "finding": "Replace one request scene with its approval and paid receipt, carrying the same request wording into the result.",
+      "evidence": "V01–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q23",
+      "finding": "Tin can reuse a stable input across different work settings, then follow one request into a finished deliverable.",
+      "evidence": "V01–V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q24",
+      "finding": "Zerion presents a settlement layer for agents handling everyday requests.",
+      "evidence": "Model reading from inspected images",
+      "status": "uncertain",
+      "reason": "Model-only new-viewer interpretation; no human test.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q25",
+      "finding": "Contact sheets inspected at displayed size; a phone-size playback, caption audit, flash audit and formal accessibility check were not performed.",
+      "evidence": "Viewed sheets",
+      "status": "not checked",
+      "reason": "Full-size moving-image and device checks unavailable in this pass.",
+      "experiment": "none"
+    }
+  ],
+  "lessons": {
+    "keep": "Keep one input surface fixed while changing the user context.",
+    "avoid": "Avoid using a closing action claim as the only evidence of completion.",
+    "open": "Exact composer text, task completion, settlement mechanism, permissions and all audio remain unverified.",
+    "try": [
+      "Show a Tin request from a cafe, then its approved campaign result using the same title.",
+      "Compare a request-only cut with a request, permission and receipt cut to test whether viewers understand the agent role."
+    ]
+  },
+  "comparison": {
+    "story": "Introduce a personal request in daily life. → Extend the assistant across locations and tasks. → Add a playful party-supply use case. → Show another everyday task and revision. → Name the settlement promise.",
+    "motion": "Text changes inside a stable composer while the background location and person framing switch. Exact typing cadence is unverified. Sampling scope: 1 fps unless a closer window is recorded.",
+    "sound": "No validated listening; unknown.",
+    "texture": "Wide lens, trees, bright daylight and glass-like input overlay.; Low laptop viewpoint and persistent pale overlay.; Close face, saturated room lights and repeated UI.; Dark venue with colorful background fixtures.; Simple centered white text and blue gradient.",
+    "lesson": "Keep one input surface fixed while changing the user context."
+  },
+  "elements": [
+    {
+      "kind": "ui",
+      "name": "prompt composer",
+      "events": [
+        "V01",
+        "V02",
+        "V03",
+        "V04"
+      ]
+    },
+    {
+      "kind": "texture",
+      "name": "translucent panel",
+      "events": [
+        "V01",
+        "V02",
+        "V03",
+        "V04"
+      ]
+    },
+    {
+      "kind": "motion",
+      "name": "fixed interface across cuts",
+      "events": [
+        "V01",
+        "V02",
+        "V03",
+        "V04"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,354 @@
+{
+  "id": 144,
+  "viewed_evidence": [
+    "technical-review-2026-10-19/deep-review/motion/144/timeline-00.jpg",
+    "technical-review-2026-10-19/deep-review/motion/144/timeline-01.jpg",
+    "technical-review-2026-10-19/deep-review/motion/144/timeline-02.jpg",
+    "technical-review-2026-10-19/deep-review/audio/144-speech.json"
+  ],
+  "product_from_film": "Folk uses location and personal context to offer help during daily activities.",
+  "explains_well": "Coffee, lunch, gym and airport examples make location-based assistance concrete.",
+  "unclear": "The film does not verify automatic check-in or how the user controls location access.",
+  "product_type": "personal assistant",
+  "scenario": "A day of location-triggered suggestions and actions.",
+  "product_clear_time": 11,
+  "product_clear_basis": "Introducing Geo-Location for Folk appears over a map with contextual cards.",
+  "scenes": [
+    {
+      "start": 0,
+      "end": 10,
+      "action": "Outdoor presenter criticises AI assistants; a comic emoji and dark chat screen lead to a camera-facing gesture.",
+      "design": "Yellow captions, bright outdoor and dark bedroom footage.",
+      "purpose": "Establish missing personal context",
+      "id": "V01",
+      "evidence": "Visible 1 fps samples, source 0–10 s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 10,
+      "end": 16,
+      "action": "Map and Folk mark gain nearby-friends, meeting, traffic and arrival cards; coloured cards describe who/where/what.",
+      "design": "Map, white message cards and tilted coloured panels.",
+      "purpose": "Introduce location awareness",
+      "id": "V02",
+      "evidence": "Visible 1 fps samples, source 10–16 s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 16,
+      "end": 28,
+      "action": "Presenter walks to work; a message and coffee list appear beside him, then he enters a cafe and holds coffee.",
+      "design": "Persistent white UI overlays over street footage.",
+      "purpose": "Show route-based coffee help",
+      "id": "V03",
+      "evidence": "Visible 1 fps samples, source 16–28 s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 28,
+      "end": 35,
+      "action": "Presenter enters a food venue; messages reference repeated visits and healthier choices while he eats.",
+      "design": "Chat bubbles beside the meal, yellow captions.",
+      "purpose": "Show personal accountability",
+      "id": "V04",
+      "evidence": "Visible 1 fps samples, source 28–35 s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 35,
+      "end": 45,
+      "action": "Arrival at gym brings a workout card; presenter exercises and reacts afterwards.",
+      "design": "Entrance, gym equipment and overlay workout list.",
+      "purpose": "Show context-driven task retrieval",
+      "id": "V05",
+      "evidence": "Visible 1 fps samples, source 35–45 s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 45,
+      "end": 54,
+      "action": "Car pickup leads to airport arrival; flight card appears while presenter walks inside.",
+      "design": "Street/airport footage and SFO–ICN-style boarding card.",
+      "purpose": "Show travel assistance claim",
+      "id": "V06",
+      "evidence": "Visible 1 fps samples, source 45–54 s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 54,
+      "end": 62.035,
+      "action": "Bedroom presenter invites trial; white brand card is followed by seated presenter asking for a FOLK comment.",
+      "design": "Yellow captions, black mark and clean white card.",
+      "purpose": "Give a comment-based entry action",
+      "id": "V07",
+      "evidence": "Visible 1 fps samples, source 54–62.035 s; boundaries approximate, between-frame action unresolved."
+    }
+  ],
+  "sound": [
+    {
+      "id": "A01",
+      "start": 0,
+      "end": 62.035,
+      "layer": "unknown",
+      "detail": "No validated audio listening; speech, music, effects, mix and sync remain unverified.",
+      "visual_relation": "All visual scenes; alignment not checked",
+      "evidence": "No actual audio supplied to this review; existing technical-review-2026-10-19/deep-review/audio/144.json is not listening evidence."
+    },
+    {
+      "id": "A02",
+      "start": 0.0,
+      "end": 62.035,
+      "layer": "ASR draft",
+      "detail": "Draft supports location awareness, coffee, gym and airport examples. It wrongly renders the visible useful coffee reaction as useless and several other phrases are malformed; those words are rejected in favour of visible captions.",
+      "visual_relation": "Caption-supported script structure; no audio delivery judgement",
+      "evidence": "technical-review-2026-10-19/deep-review/audio/144-speech.json; existing faster-whisper text; VAD ranges [{'start': 0.0, 'end': 2.934}, {'start': 6.058, 'end': 31.058}, {'start': 31.058, 'end': 40.214}, {'start': 43.53, 'end': 45.014}, {'start': 47.466, 'end': 62.08}]"
+    }
+  ],
+  "categories": [
+    {
+      "finding": "A generic assistant complaint becomes a day of location-aware coffee, food, exercise and travel help.",
+      "evidence": "V01–V07",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q01"
+    },
+    {
+      "finding": "Presenter sits outdoors with Everyone is building AI assistants captions; critique is clear before the service appears.",
+      "evidence": "V01",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q02"
+    },
+    {
+      "finding": "Personal assistant category appears at the opening; geolocation benefit is named 11 s and shown through a coffee suggestion 19–24 s.",
+      "evidence": "V01–V03",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q03"
+    },
+    {
+      "finding": "Map cards accumulate and white suggestion panels persist over moving street shots; tilted coloured cards provide a short graphic bridge. Exact entry easing is unresolved.",
+      "evidence": "V02–V03",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q04"
+    },
+    {
+      "finding": "Quick location changes divide use cases; the coffee overlay carries across walking and cafe-entry shots to preserve cause and result.",
+      "evidence": "V03–V06",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q05"
+    },
+    {
+      "finding": "Handheld-looking street footage and yellow captions give a personal-demo feel, while clean white cards separate product information.",
+      "evidence": "V01–V07",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q06"
+    },
+    {
+      "finding": "Yellow subtitles explain context; white chat/list cards carry product outputs. Small card text is much denser than the captions.",
+      "evidence": "V03–V06",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q07"
+    },
+    {
+      "finding": "Voice presence and delivery remain unverified.",
+      "evidence": "No validated audio listening",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q08"
+    },
+    {
+      "finding": "Music character and arc remain unverified.",
+      "evidence": "No validated audio listening",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q09"
+    },
+    {
+      "finding": "Sound effects remain unverified.",
+      "evidence": "No validated audio listening",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q10"
+    },
+    {
+      "finding": "Sound-to-motion timing remain unverified.",
+      "evidence": "No validated audio listening",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q11"
+    },
+    {
+      "finding": "Presenter footage across streets, cafe, gym and airport is mixed with map/UI graphics; source authenticity and UI execution are not independently checked.",
+      "evidence": "V01–V07",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q12"
+    },
+    {
+      "finding": "Source duration supplied as 62.035 s; no independent compression, clipping or delivery check.",
+      "evidence": "Assigned metadata; source integrity checked by parent",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q13"
+    },
+    {
+      "finding": "Captions, locations and overlays show the intended uses; silent viewing still cannot prove automation.",
+      "evidence": "V03–V06",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q14"
+    },
+    {
+      "finding": "Presenter and left-side cards share focus; movement occasionally competes with small recommendation details.",
+      "evidence": "V03,V06",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q15"
+    },
+    {
+      "finding": "Four situations fit roughly 38 seconds; each gets a location cue and result, but the flight action has little process detail.",
+      "evidence": "V03–V06",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q16"
+    },
+    {
+      "finding": "The question do you know me is answered through personal route, habit and travel examples.",
+      "evidence": "V01,V03–V06",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q17"
+    },
+    {
+      "finding": "Complaint turns to useful assistance and comic gym frustration, aiming for a friendly rather than formal explanation.",
+      "evidence": "V01,V03,V05; interpretation",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q18"
+    },
+    {
+      "finding": "Same presenter, yellow captions and Folk message styling connect all locations.",
+      "evidence": "V01–V07",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q19"
+    },
+    {
+      "finding": "Suggestions and flight card are depicted; automatic check-in, habit accuracy and real integrations remain unverified.",
+      "evidence": "V03–V06",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q20"
+    },
+    {
+      "finding": "The friend-like comments and recurring lowercase f mark tie the day-in-life idea to Folk.",
+      "evidence": "V03–V07",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q21"
+    },
+    {
+      "finding": "Keep coffee as the complete scenario; add one visible confirmation/control step before the flight action.",
+      "evidence": "V03,V06",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q22"
+    },
+    {
+      "finding": "For a contextual assistant, film one route and place clear notification cards at the relevant location, ending with an observable useful action.",
+      "evidence": "V03",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q23"
+    },
+    {
+      "finding": "No human new-viewer test; product description above is model interpretation of sampled images.",
+      "evidence": "V01–V07",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q24"
+    },
+    {
+      "finding": "No phone-size, safe-area or flash assessment; small UI text needs separate preview.",
+      "evidence": "Contact sheets",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q25"
+    }
+  ],
+  "lessons": {
+    "keep": "Carry a recommendation overlay from the trigger location to the real-world outcome.",
+    "try": [
+      "For a meeting assistant, show arrival near an office, a meeting-prep card and the user opening the needed notes.",
+      "Compare the four-case montage with one coffee-route case that includes location consent, recommendation and choice."
+    ],
+    "avoid": "Avoid treating a displayed boarding card as proof of autonomous check-in.",
+    "open": "How are location permissions, user intent and action confirmation handled?"
+  },
+  "comparison": {
+    "story": "Establish missing personal context → Introduce location awareness → Show route-based coffee help → Show personal accountability → Show context-driven task retrieval → Show travel assistance claim → Give a comment-based entry action",
+    "motion": "Map cards accumulate and white suggestion panels persist over moving street shots; tilted coloured cards provide a short graphic bridge. Exact entry easing is unresolved.",
+    "sound": "No validated listening; no absence claims.",
+    "texture": "Handheld-looking street footage and yellow captions give a personal-demo feel, while clean white cards separate product information.",
+    "lesson": "Carry a recommendation overlay from the trigger location to the real-world outcome."
+  },
+  "elements": [
+    {
+      "kind": "ui",
+      "name": "map",
+      "events": [
+        "V02"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "chat",
+      "events": [
+        "V03",
+        "V04"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "list",
+      "events": [
+        "V03",
+        "V05"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "boarding pass",
+      "events": [
+        "V06"
+      ]
+    }
+  ],
+  "reviewer_model": "gpt-6-astra",
+  "scope": "sampled visual and story review; ASR and measured signal support; no validated audio listening",
+  "closer_windows": []
+}

@@ -1,0 +1,332 @@
+{
+  "id": 120,
+  "reviewer_model": "gpt-6-astra",
+  "scope": "sampled visual and story review; ASR and measured signal support; no validated audio listening",
+  "viewed_evidence": [
+    "technical-review-2026-10-19/deep-review/motion/120/timeline-00.jpg",
+    "technical-review-2026-10-19/deep-review/audio/120-speech.json"
+  ],
+  "closer_windows": [],
+  "product_from_film": "Vibiz claims to build an entire business from one sentence.",
+  "explains_well": "Hand-drawn interaction studies give the brand reveal a designed, tangible feel.",
+  "unclear": "Tiny floating output cards do not show a working business or a finished setup.",
+  "product_type": "business-building agent",
+  "scenario": "Enter a SaaS business request and receive business assets.",
+  "product_clear_time": 19,
+  "product_clear_basis": "A create-my-SaaS-business prompt sits among output-like cards.",
+  "scenes": [
+    {
+      "id": "V01",
+      "start": 0,
+      "end": 7,
+      "action": "Blueprint, microscopic-looking texture, notebook writing and ink accompany the idea premise. A people collage and Year text follow.",
+      "design": "Archival-like textures, black/white cuts and collage.",
+      "purpose": "Frame the effort behind an idea.",
+      "evidence": "Visible chronological 1 fps samples, source 0–7s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V02",
+      "start": 7,
+      "end": 12,
+      "action": "Currency closeups lead to a city and an endless office grid.",
+      "design": "Money textures and symmetrical gray desks.",
+      "purpose": "Visualize cost and labor.",
+      "evidence": "Visible chronological 1 fps samples, source 7–12s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V03",
+      "start": 12,
+      "end": 17,
+      "action": "Hand-drawn button states, force curves and paper-plane-like logo studies lead to Vibiz is the first and Vibe-business platform ever.",
+      "design": "White sketch sheets, black annotations and minimal logo.",
+      "purpose": "Reveal a designed alternative.",
+      "evidence": "Visible chronological 1 fps samples, source 12–17s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V04",
+      "start": 17,
+      "end": 22,
+      "action": "A prompt asks to create a SaaS business from scratch as small asset cards surround it. A grid of portraits and outlined faces follows.",
+      "design": "White composer, colorful tiny cards, then black portrait grid.",
+      "purpose": "Claim one input can replace many roles.",
+      "evidence": "Visible chronological 1 fps samples, source 17–22s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V05",
+      "start": 22,
+      "end": 26.375,
+      "action": "From one line holds on black, followed by logo and Comment Vibiz on white.",
+      "design": "Sparse type and social comment CTA.",
+      "purpose": "Invite a response.",
+      "evidence": "Visible chronological 1 fps samples, source 22–26.375s; boundary approximate; exact motion between samples unverified."
+    }
+  ],
+  "sound": [
+    {
+      "id": "A01",
+      "start": 0,
+      "end": 26.375,
+      "layer": "unknown",
+      "detail": "No validated direct audio listening was performed. Music, speech delivery, effects, mix and sync remain unknown, not absent.",
+      "visual_relation": "All visual scenes; audiovisual alignment unverified",
+      "evidence": "Visual samples only; no actual audio range supplied to this reviewer."
+    },
+    {
+      "id": "A02",
+      "start": 0.01,
+      "end": 25.41,
+      "layer": "ASR draft",
+      "detail": "ASR draft describes the old need for a team, a year and money, then claims an entire company can be built from a sentence and invites a comment. This supports the visible barrier-to-promise story. The brand/category pronunciation is imperfect in the draft; the ten-person replacement claim is promotional, not verified. Delivery and sync remain unheard.",
+      "visual_relation": "Story text support; exact audiovisual alignment and delivery unverified.",
+      "evidence": "technical-review-2026-10-19/deep-review/audio/120-speech.json; local faster-whisper base CPU int8 draft; VAD candidates only, recognition errors possible."
+    }
+  ],
+  "categories": [
+    {
+      "id": "Q01",
+      "finding": "Idea barriers of team, time and money lead to a one-sentence business-building promise.",
+      "evidence": "V01–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q02",
+      "finding": "Blueprint and notebook imagery make the starting idea feel like a process of making.",
+      "evidence": "V01",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q03",
+      "finding": "The category label at 16 s is vague; the SaaS prompt at 19 s gives a concrete intended use.",
+      "evidence": "V03,V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q04",
+      "finding": "Collages change scale, sketches give way to a logo, cards surround a typed prompt and portraits gain outlines; exact motion paths are unresolved.",
+      "evidence": "V01,V03,V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q05",
+      "finding": "The sketch-to-logo sequence ties making to the brand before the prompt demo.",
+      "evidence": "V03",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q06",
+      "finding": "Grainy money and notebook textures contrast with the clean composer and white brand plate.",
+      "evidence": "V01–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q07",
+      "finding": "Most key claims are short; the small output cards are not readable enough to establish their contents.",
+      "evidence": "V03,V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q08",
+      "finding": "ASR draft describes the old need for a team, a year and money, then claims an entire company can be built from a sentence and invites a comment. This supports the visible barrier-to-promise story. The brand/category pronunciation is imperfect in the draft; the ten-person replacement claim is promotional, not verified. Delivery and sync remain unheard.",
+      "evidence": "A02",
+      "status": "uncertain",
+      "reason": "ASR text only; no validated listening, delivery or voice origin.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q09",
+      "finding": "Voice delivery, music, effects and audiovisual alignment were not established by this visual pass.",
+      "evidence": "A01",
+      "status": "not checked",
+      "reason": "No validated direct audio listening input.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q10",
+      "finding": "Voice delivery, music, effects and audiovisual alignment were not established by this visual pass.",
+      "evidence": "A01",
+      "status": "not checked",
+      "reason": "No validated direct audio listening input.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q11",
+      "finding": "Voice delivery, music, effects and audiovisual alignment were not established by this visual pass.",
+      "evidence": "A01",
+      "status": "not checked",
+      "reason": "No validated direct audio listening input.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q12",
+      "finding": "Archival-like footage, design sketches, synthetic-looking office imagery and simplified UI are combined; origins are unknown.",
+      "evidence": "V01–V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q13",
+      "finding": "Manifest duration 26.375 s; indexed dimensions 1920×1080. Source unchanged flag recorded; fresh encoding and audio clipping checks not run.",
+      "evidence": "Group manifest",
+      "status": "uncertain",
+      "reason": "Inherited technical metadata; no fresh media probe in this review.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q14",
+      "finding": "Prompt and one-line CTA explain intent visually; ASR provides fuller team/time/money framing with recognition limits.",
+      "evidence": "V01,V04,V05,A02",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q15",
+      "finding": "The long horizontal composer becomes the focus after the visually busy sketch sheets.",
+      "evidence": "V03,V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q16",
+      "finding": "Only about 5 s cover the product-like prompt and outputs in a26 s film.",
+      "evidence": "V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q17",
+      "finding": "The labor barriers are answered by a one-line claim, but not by a demonstrated completed company.",
+      "evidence": "V02,V04,V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q18",
+      "finding": "The empty office grid and many faces make the one-line alternative appear freeing; this is interpretation.",
+      "evidence": "V02,V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q19",
+      "finding": "The angular paper-plane-like mark recurs in blueprint, studies and closing plate.",
+      "evidence": "V01,V03,V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q20",
+      "finding": "The prompt and surrounding cards support an asset-generation concept; no operating business, integrations or real result is shown.",
+      "evidence": "V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q21",
+      "finding": "Design-process imagery gives Vibiz a crafted identity, while the category promise remains broad.",
+      "evidence": "V03",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q22",
+      "finding": "A readable output and one completion state would improve the brief demo more than the portrait grid.",
+      "evidence": "V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q23",
+      "finding": "Tin can use one clear brief surrounded by a few readable campaign artifacts, each tied to an actual task.",
+      "evidence": "V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q24",
+      "finding": "Vibiz claims to build an entire business from one sentence.",
+      "evidence": "Model reading from inspected images",
+      "status": "uncertain",
+      "reason": "Model-only new-viewer interpretation; no human test.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q25",
+      "finding": "Contact sheets inspected at displayed size; a phone-size playback, caption audit, flash audit and formal accessibility check were not performed.",
+      "evidence": "Viewed sheets",
+      "status": "not checked",
+      "reason": "Full-size moving-image and device checks unavailable in this pass.",
+      "experiment": "none"
+    }
+  ],
+  "lessons": {
+    "keep": "Make the prompt and its resulting artifacts the center of the story.",
+    "avoid": "Avoid claiming an entire company is built when only small asset thumbnails are visible.",
+    "open": "Real business creation, output contents, exact motion, asset origins and audio delivery remain unverified.",
+    "try": [
+      "Show one Tin business brief and three large outputs: audience plan, creative and approved schedule.",
+      "Use a short sketch-to-interface reveal, then spend the saved time on a confirmed publication state."
+    ]
+  },
+  "comparison": {
+    "story": "Frame the effort behind an idea. → Visualize cost and labor. → Reveal a designed alternative. → Claim one input can replace many roles. → Invite a response.",
+    "motion": "Collages change scale, sketches give way to a logo, cards surround a typed prompt and portraits gain outlines; exact motion paths are unresolved. Sampling scope: 1 fps unless a closer window is recorded.",
+    "sound": "No validated listening; unknown.",
+    "texture": "Archival-like textures, black/white cuts and collage.; Money textures and symmetrical gray desks.; White sketch sheets, black annotations and minimal logo.; White composer, colorful tiny cards, then black portrait grid.; Sparse type and social comment CTA.",
+    "lesson": "Make the prompt and its resulting artifacts the center of the story."
+  },
+  "elements": [
+    {
+      "kind": "ui",
+      "name": "prompt composer",
+      "events": [
+        "V04"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "output cards",
+      "events": [
+        "V04"
+      ]
+    },
+    {
+      "kind": "texture",
+      "name": "design sketches",
+      "events": [
+        "V03"
+      ]
+    },
+    {
+      "kind": "texture",
+      "name": "portrait grid",
+      "events": [
+        "V04"
+      ]
+    }
+  ]
+}

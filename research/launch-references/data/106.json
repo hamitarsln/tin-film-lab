@@ -1,0 +1,340 @@
+{
+  "id": 106,
+  "viewed_evidence": [
+    "technical-review-2026-10-19/deep-review/motion/106/timeline-00.jpg",
+    "technical-review-2026-10-19/deep-review/motion/106/timeline-01.jpg"
+  ],
+  "product_from_film": "POV presents markets where people take Yes/No positions on opinions and discuss them.",
+  "explains_well": "Everyday opinion questions lead into market cards, comments and rankings.",
+  "unclear": "How opinion markets resolve and how displayed returns are earned is not shown.",
+  "product_type": "opinion market / finance",
+  "scenario": "Choose a side on a claim, discuss it and view rankings.",
+  "product_clear_time": 24,
+  "product_clear_basis": "The labeled opinion cards at 22–24 s have Yes/No actions and percentages; the opinion distinction is captioned at 20 s.",
+  "scenes": [
+    {
+      "start": 0,
+      "end": 10,
+      "action": "Empty white room and black chair carry question captions; a woman enters and sits, then crop moves to chair/person.",
+      "design": "High-key white geometry and black clothing.",
+      "purpose": "Introduce everyday disagreements.",
+      "id": "V01",
+      "evidence": "Visible 1 fps samples, source 0–10 s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 10,
+      "end": 18,
+      "action": "Face close-up returns to wide room; black purple/yellow opinion cards gather around the seated person.",
+      "design": "Sparse room becomes surrounded by floating cards.",
+      "purpose": "Make opinions into selectable objects.",
+      "id": "V02",
+      "evidence": "Visible 1 fps samples, source 10–18 s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 18,
+      "end": 22,
+      "action": "Closed eyes open; small bright logos appear over pupils while captions distinguish opinions from predictions.",
+      "design": "Extreme face close-up and white/black contrast.",
+      "purpose": "Bridge person into product identity.",
+      "id": "V03",
+      "evidence": "Visible 1 fps samples, source 18–22 s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 22,
+      "end": 30,
+      "action": "Grid of opinion cards leads to a Solana claim, Yes/No trade panel, comments and another moral-question card.",
+      "design": "Dark UI with purple/yellow actions and discussion text.",
+      "purpose": "Show markets and discussion.",
+      "id": "V04",
+      "evidence": "Visible 1 fps samples, source 22–30 s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 30,
+      "end": 36,
+      "action": "Large dollar amount changes over a curve; ranking podium becomes a leaderboard table.",
+      "design": "Purple starburst, avatar podiums and numeric rows.",
+      "purpose": "Represent incentives and status.",
+      "id": "V05",
+      "evidence": "Visible 1 fps samples, source 30–36 s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 36,
+      "end": 40.618,
+      "action": "Live Now sticker heading holds above changing question cards.",
+      "design": "Playful purple field, white stars and black cards.",
+      "purpose": "Invite use across topics.",
+      "id": "V06",
+      "evidence": "Visible 1 fps samples, source 36–40.618 s; boundaries approximate, between-frame action unresolved."
+    }
+  ],
+  "sound": [
+    {
+      "id": "A01",
+      "start": 0,
+      "end": 40.618,
+      "layer": "unknown",
+      "detail": "No validated audio listening; speech, music, effects, mix and sync remain unverified.",
+      "visual_relation": "All visual scenes; alignment not checked",
+      "evidence": "No actual audio supplied to this review; existing technical-review-2026-10-19/deep-review/audio/106.json is not listening evidence."
+    }
+  ],
+  "categories": [
+    {
+      "finding": "Ordinary questions → embodied opinion → market UI → discussion → rewards/rankings.",
+      "evidence": "V01–V06",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q01"
+    },
+    {
+      "finding": "An empty room and chair carry Ronaldo question; no market category yet.",
+      "evidence": "V01",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q02"
+    },
+    {
+      "finding": "Opinion cards and Yes/No actions explain the category by 24 s; settlement mechanics stay unclear.",
+      "evidence": "V03–V04",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q03"
+    },
+    {
+      "finding": "Cards accumulate around the person; close/wide view changes and eye-logo overlay lead to UI. Exact motion unresolved.",
+      "evidence": "V02–V04",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q04"
+    },
+    {
+      "finding": "White room contrasts strongly with purple UI; eye close-up bridges these visual worlds.",
+      "evidence": "V03–V04",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q05"
+    },
+    {
+      "finding": "Clinical white room shifts to playful purple stars and dark panels; production origin unknown.",
+      "evidence": "V01,V05–V06",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q06"
+    },
+    {
+      "finding": "Bottom captions carry questions; UI card headings and Yes/No labels are clear, comment text is dense.",
+      "evidence": "V01,V04",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q07"
+    },
+    {
+      "finding": "Voice presence and delivery remain unverified.",
+      "evidence": "No validated audio listening",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q08"
+    },
+    {
+      "finding": "Music character and arc remain unverified.",
+      "evidence": "No validated audio listening",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q09"
+    },
+    {
+      "finding": "Sound effects remain unverified.",
+      "evidence": "No validated audio listening",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q10"
+    },
+    {
+      "finding": "Sound-to-motion timing remain unverified.",
+      "evidence": "No validated audio listening",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q11"
+    },
+    {
+      "finding": "Presenter-like footage, composited cards, eye overlay and application screens are combined; provenance unverified.",
+      "evidence": "V01–V04",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q12"
+    },
+    {
+      "finding": "Source duration supplied as 40.618 s; no independent compression, clipping or delivery check.",
+      "evidence": "Assigned metadata; source integrity checked by parent",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q13"
+    },
+    {
+      "finding": "Questions and Yes/No cards convey opinion trading silently; resolution and reward logic are not visible.",
+      "evidence": "V04–V05",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q14"
+    },
+    {
+      "finding": "One person anchors opener; colored buttons anchor UI; reward numbers then dominate.",
+      "evidence": "V01,V04,V05",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q15"
+    },
+    {
+      "finding": "Many markets and benefits arrive in the second half; discussion gets little reading time.",
+      "evidence": "V04–V06",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q16"
+    },
+    {
+      "finding": "Opening questions become markets; rankings add a financial/status payoff beyond the initial curiosity.",
+      "evidence": "V01,V05",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q17"
+    },
+    {
+      "finding": "Interpretation: quiet questioning becomes colorful participation and reward.",
+      "evidence": "V01,V05",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q18"
+    },
+    {
+      "finding": "Question motif and purple/yellow choices connect floating cards to real-looking UI.",
+      "evidence": "V02,V04",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q19"
+    },
+    {
+      "finding": "Market, trade and rank states are represented; actual resolution, returns and permissions are not verified.",
+      "evidence": "V04–V05",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q20"
+    },
+    {
+      "finding": "Purple/yellow choice buttons and mascot-like eye mark recur; room alone is generic.",
+      "evidence": "V03–V06",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q21"
+    },
+    {
+      "finding": "The long chair arrival could be shortened to explain one market’s lifecycle.",
+      "evidence": "V01,V04",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q22"
+    },
+    {
+      "finding": "For Tin feedback choices, move one plain-language question into a visible vote and discussion result with the same wording.",
+      "evidence": "V01,V04",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q23"
+    },
+    {
+      "finding": "No human new-viewer test; product description above is model interpretation of sampled images.",
+      "evidence": "V01–V06",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q24"
+    },
+    {
+      "finding": "No phone-size, safe-area or flash assessment; small UI text needs separate preview.",
+      "evidence": "Contact sheets",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q25"
+    }
+  ],
+  "lessons": {
+    "keep": "Carry the same question format from the opener into actionable cards.",
+    "try": [
+      "For Tin feedback, start with one customer question, show two choices, then reveal responses and a resulting campaign decision.",
+      "Test a single opinion-market walkthrough with entry, current position and explicit resolution rule before showing rankings."
+    ],
+    "avoid": "Showing reward growth without explaining its cause.",
+    "open": "Market resolution, return claims, eye effect motion and all sound remain unverified."
+  },
+  "comparison": {
+    "story": "Introduce everyday disagreements. → Make opinions into selectable objects. → Bridge person into product identity. → Show markets and discussion. → Represent incentives and status. → Invite use across topics.",
+    "motion": "Cards accumulate around the person; close/wide view changes and eye-logo overlay lead to UI. Exact motion unresolved.",
+    "sound": "No validated listening; no absence claims.",
+    "texture": "Clinical white room shifts to playful purple stars and dark panels; production origin unknown.",
+    "lesson": "Carry the same question format from the opener into actionable cards."
+  },
+  "elements": [
+    {
+      "kind": "ui",
+      "name": "opinion cards",
+      "events": [
+        "V02",
+        "V04"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "trade panel",
+      "events": [
+        "V04"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "comments",
+      "events": [
+        "V04"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "leaderboard",
+      "events": [
+        "V05"
+      ]
+    },
+    {
+      "kind": "texture",
+      "name": "white room",
+      "events": [
+        "V01"
+      ]
+    }
+  ],
+  "reviewer_model": "gpt-6-astra",
+  "scope": "sampled visual and story review; ASR and measured signal support; no validated audio listening",
+  "closer_windows": []
+}

@@ -1,0 +1,345 @@
+{
+  "id": 195,
+  "product_from_film": "InLoop Robotics offers warehouse and manufacturing robots on a monthly price model, illustrated by box-packing work.",
+  "explains_well": "Manual packing, robot packing and a starting monthly price connect the labor problem to a concrete offer.",
+  "unclear": "The film does not explain installation, supervision or which packing tasks the starting price covers.",
+  "product_type": "robotics service for warehouse operations",
+  "scenario": "Manual box packing and labor/cost barriers lead to robot grippers handling packaging, learning claims and a monthly offer.",
+  "product_clear_time": 40,
+  "product_clear_basis": "Robot grippers handle the same kind of packaging shown in the opening by 40s; the monthly model is explicit at 48s.",
+  "scenes": [
+    {
+      "start": 0,
+      "end": 16,
+      "action": "InLoop Robotics overlays workers packing boxes; close-ups, warehouse views and labor-gap articles accompany retirement/automation captions and large year figures.",
+      "design": "Greenish industrial light, cardboard, gloves and news screenshots.",
+      "purpose": "Establish the work setting and staffing problem.",
+      "evidence": "1 fps source samples in 0–16s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V01"
+    },
+    {
+      "start": 16,
+      "end": 32,
+      "action": "A founder speaks on the warehouse floor with large cost figures and labels for 3PL, contract packer and fulfillment; copy says they cannot bet $1 million on a promise.",
+      "design": "Stable presenter framing with white numeric/type overlays.",
+      "purpose": "Define the target buyer and cost barrier.",
+      "evidence": "1 fps source samples in 16–32s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V02"
+    },
+    {
+      "start": 32,
+      "end": 41,
+      "action": "Close views reveal robot joints, cameras and grippers, then handling of packaging. ADAPT, LEARN and REASON check labels appear.",
+      "design": "Black grippers, metal links, green indicators and small pill labels.",
+      "purpose": "Introduce the robot and attach capability claims.",
+      "evidence": "1 fps source samples in 32–41s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V03"
+    },
+    {
+      "start": 41,
+      "end": 50,
+      "action": "Overhead packing views show ANALYZING and COMPLETE bars, followed by repeated robot icons, $1,000,000 and $2,000 with a monthly-price caption.",
+      "design": "Task footage with progress overlay and clear price comparison.",
+      "purpose": "Present fleet-learning and affordability propositions.",
+      "evidence": "1 fps source samples in 41–50s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V04"
+    },
+    {
+      "start": 50,
+      "end": 63,
+      "action": "Three team members stand in the workshop, state deployment ambitions and invite logistics/manufacturing/robotics viewers to work with them.",
+      "design": "Matching dark shirts, visible machinery and lower captions.",
+      "purpose": "Introduce the team and direct business invitation.",
+      "evidence": "1 fps source samples in 50–63s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V05"
+    },
+    {
+      "start": 63,
+      "end": 67.049,
+      "action": "InLoop Robotics appears over a collage of work images, then black.",
+      "design": "White logo with loop symbol over dark mosaic.",
+      "purpose": "Close the identity.",
+      "evidence": "1 fps source samples in 63–67.049s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V06"
+    }
+  ],
+  "sound": [
+    {
+      "id": "A01",
+      "start": 0,
+      "end": 67.049,
+      "layer": "ASR draft / unknown",
+      "detail": "The draft supports labor/capital barriers, target operators, robot learning and a starting $2,000 monthly offer. Several terms are misrecognized, including fulfillment, 3PL and robotic employees; visible captions take priority. No validated listening or inference of sound layers.",
+      "visual_relation": "V01–V05; script context only, delivery/sync unverified.",
+      "evidence": "technical-review-2026-10-19/deep-review/audio/195-speech.json; local faster-whisper draft inspected."
+    }
+  ],
+  "categories": [
+    {
+      "id": "Q01",
+      "finding": "Manual packing/labor gap → capital barrier and buyers → robot reveal → packing/learning/monthly price → team invitation.",
+      "evidence": "V01–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q02",
+      "finding": "The brand overlays a real-world-looking packing line immediately, giving a specific operational setting.",
+      "evidence": "V01",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q03",
+      "finding": "Packing footage makes the robot use concrete by 40s; the $2,000 monthly caption at 48s clarifies the commercial model.",
+      "evidence": "V03,V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q04",
+      "finding": "Gripper poses, package handling, progress-bar states and repeated robot icons are visible. Learning, cycle time and autonomous continuity are not established by sampled frames.",
+      "evidence": "V03,V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q05",
+      "finding": "Cardboard/package handling connects human work at the start to robot work later; the warehouse remains the setting for founder/team shots.",
+      "evidence": "V01–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q06",
+      "finding": "Industrial green light, metal mechanisms, black grippers and cardboard keep the visual language close to the buyer environment.",
+      "evidence": "V01–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q07",
+      "finding": "Large cost figures and buyer labels are clear; smaller article text and capability pills provide supporting context.",
+      "evidence": "V01–V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q08",
+      "finding": "ASR supports the business argument with several recognition errors. Voice delivery, music, effects and mix remain unverified.",
+      "evidence": "A01",
+      "status": "uncertain",
+      "reason": "Draft text only; no validated listening.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q09",
+      "finding": "Music character and structure are unverified.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "No validated listening.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q10",
+      "finding": "Effects and their sources are unverified.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "No validated listening; waveform peaks do not identify effects.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q11",
+      "finding": "Sound sync is unverified.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "No validated listening or paired audiovisual timing.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q12",
+      "finding": "Physical packing footage and presenter shots are combined with explanatory labels; overlay origin and task autonomy are not established.",
+      "evidence": "V01–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q13",
+      "finding": "Source duration 67.049 s; Watch metadata 1920 × 1080. Frame rate, audio clipping and export quality not checked here.",
+      "evidence": "Whole film",
+      "status": "supported",
+      "reason": "Parent source metadata supports duration and dimensions; visual review is sampled.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q14",
+      "finding": "Manual versus robot packing and the monthly price communicate the broad offer silently. Setup and supervision are not explained.",
+      "evidence": "V01,V03,V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q15",
+      "finding": "Close gripper views introduce hardware before overhead task views show its role in packing.",
+      "evidence": "V03,V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q16",
+      "finding": "About 32s establish the labor/cost case before robot footage, then a short price section and team invitation.",
+      "evidence": "V01–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q17",
+      "finding": "The opening manual task returns as robot packing, and the high-capital barrier is answered by a monthly price.",
+      "evidence": "V01,V02,V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q18",
+      "finding": "A founder on the working floor may create practical familiarity for operators; response is unmeasured.",
+      "evidence": "V02,V05",
+      "status": "uncertain",
+      "reason": "Interpretation of staging.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q19",
+      "finding": "The same factory environment and packaging task connect the problem, hardware and team.",
+      "evidence": "V01–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q20",
+      "finding": "Retirement statistics, capital comparisons, learning/fleet improvement and starting price are film claims. Throughput, reliability, included service and total costs were not independently checked.",
+      "evidence": "V01–V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q21",
+      "finding": "The monthly robot-employee framing and repeated packing task make InLoops offer more specific than a general robotics montage.",
+      "evidence": "V03,V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q22",
+      "finding": "Add a short setup/operating boundary to clarify what the buyer gets for the starting price.",
+      "evidence": "V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "Show the supported package/task, required human handoff and what the monthly plan includes beside the robot demo."
+    },
+    {
+      "id": "Q23",
+      "finding": "For Tin, connect the pricing proposition to one defined task and output.",
+      "evidence": "V02,V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "Place a clear included workflow beside its finished campaign asset and show the user handoff needed to run it."
+    },
+    {
+      "id": "Q24",
+      "finding": "No human new-viewer test was performed.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "The product summary is this model’s film-only reading.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q25",
+      "finding": "Mobile preview and accessibility checks were not performed.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "Contact sheets are evidence views, not a stated mobile preview or compliance test.",
+      "experiment": "none"
+    }
+  ],
+  "elements": [
+    {
+      "kind": "ui",
+      "name": "progress status overlay",
+      "events": [
+        "V04"
+      ]
+    },
+    {
+      "kind": "motion",
+      "name": "robot packing",
+      "events": [
+        "V03",
+        "V04"
+      ]
+    },
+    {
+      "kind": "motion",
+      "name": "price comparison text",
+      "events": [
+        "V02",
+        "V04"
+      ]
+    },
+    {
+      "kind": "texture",
+      "name": "warehouse and cardboard",
+      "events": [
+        "V01",
+        "V02",
+        "V04",
+        "V05"
+      ]
+    },
+    {
+      "kind": "texture",
+      "name": "metal robot hardware",
+      "events": [
+        "V03"
+      ]
+    }
+  ],
+  "lessons": {
+    "keep": "Use the same practical task before and after the product reveal to explain the offer.",
+    "try": [
+      "Show the supported package, human handoff and included monthly service beside the robot task.",
+      "For Tin, tie a defined included workflow to its finished asset and required user handoff."
+    ],
+    "avoid": "Letting a starting price and progress overlay imply the full operating scope or autonomous reliability.",
+    "open": "Setup, supervision, supported tasks, total service scope, learning/throughput claims and audio remain unverified."
+  },
+  "comparison": {
+    "story": "Labor and capital barriers → robot packing → monthly offer → team invitation.",
+    "motion": "Gripper/package states and progress overlays; cycle time and learning unverified.",
+    "sound": "ASR supports script with errors noted; no validated listening.",
+    "texture": "Factory floor, cardboard, metal and green hardware indicators.",
+    "lesson": "A commercial model is easier to understand when attached to the exact work shown at the start."
+  },
+  "reviewer_model": "gpt-6-astra",
+  "scope": "sampled visual and story review; ASR and measured signal support; no validated audio listening",
+  "viewed_evidence": [
+    "technical-review-2026-10-19/deep-review/motion/195/timeline-00.jpg",
+    "technical-review-2026-10-19/deep-review/motion/195/timeline-01.jpg",
+    "technical-review-2026-10-19/deep-review/motion/195/timeline-02.jpg"
+  ],
+  "closer_windows": []
+}

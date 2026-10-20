@@ -1,0 +1,415 @@
+{
+  "id": 287,
+  "viewed_evidence": [
+    "technical-review-2026-10-19/deep-review/motion/287/timeline-00.jpg",
+    "technical-review-2026-10-19/deep-review/motion/287/timeline-01.jpg",
+    "technical-review-2026-10-19/deep-review/motion/287/timeline-02.jpg",
+    "astra-review-2026-10-20/evidence/group-3/287/18.jpg",
+    "astra-review-2026-10-20/evidence/group-3/287/55.jpg",
+    "astra-review-2026-10-20/evidence/group-3/287/63.jpg",
+    "technical-review-2026-10-19/deep-review/audio/287-speech.json"
+  ],
+  "product_from_film": "Perplexity Personal Computer connects a Mac mini to an assistant that works across desktop apps and reports progress on a phone.",
+  "explains_well": "The board-deck example shows a source report, a task request, an audience question and a finished file.",
+  "unclear": "The finished deck and candidate results are too brief to judge what useful work was completed.",
+  "product_type": "desktop AI assistant",
+  "scenario": "Recruit engineers, draft an investor email and turn a revenue report into a board deck",
+  "product_clear_time": 14,
+  "product_clear_basis": "Connected Mac mini leads to an assistant dashboard and morning summary of completed work.",
+  "scenes": [
+    {
+      "start": 0,
+      "end": 8,
+      "action": "Mac mini on wood becomes isolated on black; discovered/syncing and connected notifications appear with morning briefing alert.",
+      "design": "Silver hardware and rounded teal status pills.",
+      "purpose": "Connect device and assistant",
+      "id": "V01",
+      "evidence": "Visible 1 fps samples, source 0–8s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 8,
+      "end": 15,
+      "action": "Desktop assistant dashboard opens; morning summary lists coding, research and competitor pricing work.",
+      "design": "Dark app, task cards and long text summary.",
+      "purpose": "Show background task output",
+      "id": "V02",
+      "evidence": "Visible 1 fps samples, source 8–15s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 15,
+      "end": 24,
+      "action": "Global prompt over app thumbnails requests five senior iOS engineers; recruitment, company research and expense statuses stack near menu bar; fn key cue appears.",
+      "design": "Desktop context cards and compact notifications.",
+      "purpose": "Start and monitor parallel work",
+      "id": "V03",
+      "evidence": "Visible 1 fps samples, source 15–24s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 24,
+      "end": 38,
+      "action": "Listening pill holds, then response text says candidates are reranked for SwiftUI and Mail will draft investor email.",
+      "design": "Orange listening state changes to teal response.",
+      "purpose": "Add voice follow-up",
+      "id": "V04",
+      "evidence": "Visible 1 fps samples, source 24–38s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 38,
+      "end": 42,
+      "action": "Mail compose window appears and fills with draft text.",
+      "design": "Dark email window.",
+      "purpose": "Show app action",
+      "id": "V05",
+      "evidence": "Visible 1 fps samples, source 38–42s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 42,
+      "end": 50,
+      "action": "Revenue PDF opens; prompt requests a 10-slide board deck with brand template while app-context thumbnails appear below.",
+      "design": "Report summary, financial figures and global task field.",
+      "purpose": "Set a document task",
+      "id": "V06",
+      "evidence": "Visible 1 fps samples, source 42–50s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 50,
+      "end": 63,
+      "action": "Create a board deck status moves from upload to thinking; asks primary audience with four options, then building/generating and ready-for-review states.",
+      "design": "Compact progress and choice notification beside PDF.",
+      "purpose": "Show clarification and progress",
+      "id": "V07",
+      "evidence": "Visible 1 fps samples, source 50–63s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 63,
+      "end": 65,
+      "action": "A Q4 2025 Board Update presentation opens over the source report.",
+      "design": "Slide thumbnails and dark green cover.",
+      "purpose": "Show finished artifact",
+      "id": "V08",
+      "evidence": "Visible 1 fps samples, source 63–65s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 65,
+      "end": 72,
+      "action": "Phone notification says three SwiftUI candidates ready for review; task list appears on phone.",
+      "design": "Phone shell on black and small status rows.",
+      "purpose": "Return background result away from desk",
+      "id": "V09",
+      "evidence": "Visible 1 fps samples, source 65–72s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 72,
+      "end": 87.583,
+      "action": "Personal Assistant, Researcher, Conductor and Computer titles replace one another; Perplexity logo fades to black through the end.",
+      "design": "White serif role titles and logo on black.",
+      "purpose": "Summarise assistant identity",
+      "id": "V10",
+      "evidence": "Visible 1 fps samples, source 72–87.583s; boundaries approximate, between-frame action unresolved."
+    }
+  ],
+  "sound": [
+    {
+      "id": "A01",
+      "start": 0,
+      "end": 87.583,
+      "layer": "unknown",
+      "detail": "No validated audio listening; speech, music, effects, mix and sync remain unverified.",
+      "visual_relation": "All visual scenes; alignment not checked",
+      "evidence": "No actual audio supplied to this review; existing technical-review-2026-10-19/deep-review/audio/287.json is not listening evidence."
+    },
+    {
+      "id": "A02",
+      "start": 25.32,
+      "end": 37.02,
+      "layer": "ASR draft",
+      "detail": "Candidate speech requests SwiftUI prioritisation and an investor email with briefing link, then acknowledges reranking and launching Mail. Initial Ties candidates and rewrinking are ASR errors; visible response supports reranking. Voice delivery and actual listening remain unverified.",
+      "visual_relation": "V04–V05; candidate text only",
+      "evidence": "technical-review-2026-10-19/deep-review/audio/287-speech.json; existing faster-whisper base CPU int8"
+    }
+  ],
+  "categories": [
+    {
+      "finding": "Device connection leads to morning work, recruiting and voice follow-up, then a complete report-to-deck sequence and phone notification. The deck example has the clearest input/action/result chain.",
+      "evidence": "V01–V10",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q01"
+    },
+    {
+      "finding": "Mac mini on a wooden desk becomes a cleaner isolated view; hardware is recognisable, but the assistant role is not yet stated.",
+      "evidence": "V01, 0–2 s",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q02"
+    },
+    {
+      "finding": "Dashboard and morning summary establish a multi-task desktop assistant by 14 s. The intended user is inferred from recruiting, investor email and board reporting.",
+      "evidence": "V02–V08",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q03"
+    },
+    {
+      "finding": "Hardware rotates in sampled views; status pills stack, app thumbnails appear under a global prompt and progress labels change. Exact transitions and easing remain unresolved.",
+      "evidence": "V01–V07",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q04"
+    },
+    {
+      "finding": "Screen sections are separated by light/blur washes. Returning from the board deck to phone recruiting result closes an earlier background task.",
+      "evidence": "V03–V09",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q05"
+    },
+    {
+      "finding": "Dark desktop, diagonal soft light wallpaper, teal status accents and translucent pills create a restrained system-like treatment.",
+      "evidence": "V01–V09",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q06"
+    },
+    {
+      "finding": "Full 18 s frame makes recruiting criteria readable; full 55 s frame clearly asks Board of Directors versus other audiences. Most summary and output text is small in the wider views.",
+      "evidence": "V03, V07; full frames 18 and 55 s",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q07"
+    },
+    {
+      "finding": "Voice presence and delivery remain unverified.",
+      "evidence": "No validated audio listening",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q08"
+    },
+    {
+      "finding": "Music character and arc remain unverified.",
+      "evidence": "No validated audio listening",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q09"
+    },
+    {
+      "finding": "Sound effects remain unverified.",
+      "evidence": "No validated audio listening",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q10"
+    },
+    {
+      "finding": "Sound-to-motion timing remain unverified.",
+      "evidence": "No validated audio listening",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q11"
+    },
+    {
+      "finding": "Hardware views, desktop apps, PDF, email and phone shell are combined. The capture/compositing method is not established.",
+      "evidence": "V01–V09",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q12"
+    },
+    {
+      "finding": "Source duration supplied as 87.583s; no independent compression, clipping or delivery check.",
+      "evidence": "Assigned metadata; source integrity checked by parent",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q13"
+    },
+    {
+      "finding": "Typed recruiting and deck requests are visible. Listening alone does not reveal the spoken command; subsequent response partially restores meaning.",
+      "evidence": "V03–V08",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q14"
+    },
+    {
+      "finding": "Compact top-right notifications guide task progress while the document stays visible. The global prompt and app thumbnails shift attention to context selection.",
+      "evidence": "V03, V06–V07",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q15"
+    },
+    {
+      "finding": "Multiple tasks make the assistant breadth clear, but the brief final deck view provides less reading time than intermediate progress states.",
+      "evidence": "V02–V09",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q16"
+    },
+    {
+      "finding": "Morning-briefing and connected-device opening promise ongoing assistance; the phone candidate notification later supports work continuing across devices.",
+      "evidence": "V01–V03, V09",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q17"
+    },
+    {
+      "finding": "Quiet desktop staging and orderly status changes appear intended to make autonomous work feel controlled and routine. Viewer response was not measured.",
+      "evidence": "V02–V09",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q18"
+    },
+    {
+      "finding": "Recruiting request returns as a SwiftUI result on phone, while the same Q4 report remains visible during deck creation. These callbacks support continuity.",
+      "evidence": "V03–V09",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q19"
+    },
+    {
+      "finding": "The film shows task states, a draft email, a presentation cover and candidate-ready notice. Content accuracy, actual background runtime and local/cloud processing are not established.",
+      "evidence": "V02–V09",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q20"
+    },
+    {
+      "finding": "Mac mini discovery and compact menu-bar task controls distinguish this from a generic chat demo. The closing Personal Computer title names the broader concept.",
+      "evidence": "V01, V03–V07, V10",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q21"
+    },
+    {
+      "finding": "Shorten repeated progress holds and use that time to inspect one generated slide against the source report and one candidate against the requested criteria.",
+      "evidence": "V07–V09",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q22"
+    },
+    {
+      "finding": "For an assistant demo, keep the source document visible during progress and ask one meaningful clarification before the output. Show a readable result, not only a ready notification.",
+      "evidence": "V06–V08",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q23"
+    },
+    {
+      "finding": "No human new-viewer test; product description above is model interpretation of sampled images.",
+      "evidence": "V01–V10",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q24"
+    },
+    {
+      "finding": "No phone-size, safe-area or flash assessment; small UI text needs separate preview.",
+      "evidence": "Contact sheets",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q25"
+    }
+  ],
+  "lessons": {
+    "keep": "Keep the audience clarification beside the source report before producing the deck.",
+    "try": [
+      "Hold a generated revenue slide next to the source PDF and highlight matching figures and the requested brand style.",
+      "Show one returned SwiftUI candidate with the exact requested experience fields, then close on the phone notification."
+    ],
+    "avoid": "Avoid using progress labels and artifact covers as the whole proof of completed work.",
+    "open": "Audio is unheard; draft quality, candidate matching, execution time and processing location remain unverified."
+  },
+  "comparison": {
+    "story": "Connect device and assistant → Show background task output → Start and monitor parallel work → Add voice follow-up → Show app action → Set a document task → Show clarification and progress → Show finished artifact → Return background result away from desk → Summarise assistant identity",
+    "motion": "Hardware rotates in sampled views; status pills stack, app thumbnails appear under a global prompt and progress labels change. Exact transitions and easing remain unresolved.",
+    "sound": "No validated listening; no absence claims.",
+    "texture": "Dark desktop, diagonal soft light wallpaper, teal status accents and translucent pills create a restrained system-like treatment.",
+    "lesson": "Keep the audience clarification beside the source report before producing the deck."
+  },
+  "elements": [
+    {
+      "kind": "ui",
+      "name": "notification",
+      "events": [
+        "V01",
+        "V03",
+        "V04",
+        "V07",
+        "V09"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "prompt field",
+      "events": [
+        "V03",
+        "V06"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "email composer",
+      "events": [
+        "V05"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "document",
+      "events": [
+        "V06",
+        "V07"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "slide editor",
+      "events": [
+        "V08"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "phone shell",
+      "events": [
+        "V09"
+      ]
+    },
+    {
+      "kind": "texture",
+      "name": "dark desktop",
+      "events": [
+        "V02",
+        "V03",
+        "V04",
+        "V05",
+        "V06",
+        "V07",
+        "V08"
+      ]
+    }
+  ],
+  "reviewer_model": "gpt-6-astra",
+  "scope": "sampled visual and story review; ASR and measured signal support; no validated audio listening",
+  "closer_windows": []
+}

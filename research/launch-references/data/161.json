@@ -1,0 +1,339 @@
+{
+  "id": 161,
+  "product_from_film": "BuilderShip invites builders to submit projects for a boat hackathon in San Francisco.",
+  "explains_well": "The boat venue, project submission, 30 finalists, June 14 date and prize imagery are shown.",
+  "unclear": "The quick montage gives little readable detail about selection, submission requirements or what happens during the event.",
+  "product_type": "hackathon event promotion",
+  "scenario": "Builders submit a project for a yacht-based final, with work, prizes and celebration presented through a boat-themed montage.",
+  "product_clear_time": 4,
+  "product_clear_basis": "First ever boat hackathon appears over the Golden Gate Bridge at 4s; Post your build and Tag our socials follow at 6–7s.",
+  "scenes": [
+    {
+      "start": 0,
+      "end": 10,
+      "action": "A boat-marked case, boat in a workshop, overhead yacht and water lead to First ever boat hackathon, then builders with laptops and Post your build / Tag our socials.",
+      "design": "Maritime imagery, San Francisco skyline and small white type.",
+      "purpose": "Introduce the event and entry action.",
+      "evidence": "1 fps source samples in 0–10s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V01"
+    },
+    {
+      "start": 10,
+      "end": 21,
+      "action": "Boat imagery alternates with a presenter, 30 finalists, typing, a group around laptops, an object leaving a boat, a lobster underwater and a patterned wake.",
+      "design": "Blue sea, overhead compositions, monochrome insert and playful surreal-looking boat views.",
+      "purpose": "Sell the working/social venue through a varied maritime montage.",
+      "evidence": "1 fps source samples in 10–21s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V02"
+    },
+    {
+      "start": 21,
+      "end": 24,
+      "action": "The opening case returns and opens to prize-like objects, with up to $50K in credits and NVIDIA DGX SPARK labels.",
+      "design": "Inset product framing on a light textured background.",
+      "purpose": "Show the reward proposition and pay off the case.",
+      "evidence": "1 fps source samples in 21–24s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V03"
+    },
+    {
+      "start": 24,
+      "end": 30,
+      "action": "A yacht at sunset leads to raised hands, a jump toward water, underwater light and a submerged person.",
+      "design": "Warm sunset gives way to deep blue water.",
+      "purpose": "Present a celebratory event mood.",
+      "evidence": "1 fps source samples in 24–30s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V04"
+    },
+    {
+      "start": 30,
+      "end": 34,
+      "action": "Apply Now and Submit your build appear, followed by June 14, Boat Hackathon Day and 30 Finalists over the yacht and bridge.",
+      "design": "Large white CTA and date with much smaller supporting text.",
+      "purpose": "Make the main action and event date explicit.",
+      "evidence": "1 fps source samples in 30–34s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V05"
+    },
+    {
+      "start": 34,
+      "end": 37.245,
+      "action": "Submit your build today and ship.builders appear above host marks over a foggy bay view.",
+      "design": "Wide scenic ending and centered text.",
+      "purpose": "Provide the destination and hosts.",
+      "evidence": "1 fps source samples in 34–37.245s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V06"
+    }
+  ],
+  "categories": [
+    {
+      "id": "Q01",
+      "finding": "Boat hook → event/submission → work and venue montage → prizes → celebration → date and application URL.",
+      "evidence": "V01–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q02",
+      "finding": "A closed case marked with a boat gives an immediate object hook, followed by several boat views before the event line at 4s.",
+      "evidence": "V01",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q03",
+      "finding": "The offer is a boat hackathon, clear at 4s. Laptop groups and submit-your-build wording target builders.",
+      "evidence": "V01,V02,V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q04",
+      "finding": "Overhead boat states, close typing, case opening, jumping and underwater movement are sampled. Exact fast transitions and effects paths are unverified.",
+      "evidence": "V01–V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q05",
+      "finding": "Boat, water and San Francisco views connect otherwise varied scenes; the case returns for the prize reveal.",
+      "evidence": "V01–V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q06",
+      "finding": "Deep blue water, warm deck wood, gold sunset and the hard black case create a consistent maritime identity.",
+      "evidence": "V01–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q07",
+      "finding": "The final date and Apply Now are large; early instructions, prize qualifications and entry details are much smaller.",
+      "evidence": "V01,V03,V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q08",
+      "finding": "Voice delivery is unverified.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "No validated listening.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q09",
+      "finding": "Music character and structure are unverified.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "No validated listening.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q10",
+      "finding": "Effects and their sources are unverified.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "No validated listening; waveform peaks do not identify effects.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q11",
+      "finding": "Sound sync is unverified.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "No validated listening or paired audiovisual timing.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q12",
+      "finding": "Event-like footage and surreal-looking boat/lobster images are mixed; actual capture, simulation and event documentation status are unverified.",
+      "evidence": "V01–V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q13",
+      "finding": "Source duration 37.245 s; Watch metadata 1280 × 720. Frame rate, audio clipping and export quality not checked here.",
+      "evidence": "Whole film",
+      "status": "supported",
+      "reason": "Parent source metadata supports duration and dimensions; visual review is sampled.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q14",
+      "finding": "Visible text communicates the event type, submission action and date silently. The montage does not explain the full entry process.",
+      "evidence": "V01,V05,V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q15",
+      "finding": "Top-down boat and team shots echo each other; the final CTA overlays the yacht to tie action to venue.",
+      "evidence": "V02,V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q16",
+      "finding": "Many distinct images fit into 30s before the final application/date block; this prioritizes energy and venue over rules.",
+      "evidence": "V01–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q17",
+      "finding": "The opening closed case is later opened for prizes, giving a small object-based payoff.",
+      "evidence": "V01,V03",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q18",
+      "finding": "Sunset, water and group celebration may make the hackathon feel like a social adventure; audience response is unmeasured.",
+      "evidence": "V02,V04",
+      "status": "uncertain",
+      "reason": "Interpretation of imagery.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q19",
+      "finding": "The boat motif connects venue, case mark, wake and CTA; project examples themselves are not followed through the film.",
+      "evidence": "V01–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q20",
+      "finding": "First-ever wording, prize value and finalist count are presented claims; eligibility, prize terms and actual event outcomes were not verified.",
+      "evidence": "V01,V02,V03,V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q21",
+      "finding": "The boat venue and San Francisco backdrop give this event an immediate identity; the build submission is less visually developed.",
+      "evidence": "V01,V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q22",
+      "finding": "One readable project-submission example could clarify the entry action without losing the venue hook.",
+      "evidence": "V01,V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "Replace a short underwater insert with a sample project card, submission destination and the key selection requirement."
+    },
+    {
+      "id": "Q23",
+      "finding": "For Tin, let a recurring prop introduce and later reveal the campaign reward or output.",
+      "evidence": "V01,V03",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "Open with a closed campaign package, then reveal its finished assets after a short creation sequence."
+    },
+    {
+      "id": "Q24",
+      "finding": "No human new-viewer test was performed.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "The product summary is this model’s film-only reading.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q25",
+      "finding": "Mobile preview and accessibility checks were not performed.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "Contact sheets are evidence views, not a stated mobile preview or compliance test.",
+      "experiment": "none"
+    }
+  ],
+  "elements": [
+    {
+      "kind": "texture",
+      "name": "ocean and boat",
+      "events": [
+        "V01",
+        "V02",
+        "V04",
+        "V05",
+        "V06"
+      ]
+    },
+    {
+      "kind": "texture",
+      "name": "hard case",
+      "events": [
+        "V01",
+        "V03"
+      ]
+    },
+    {
+      "kind": "motion",
+      "name": "case reveal",
+      "events": [
+        "V03"
+      ]
+    },
+    {
+      "kind": "motion",
+      "name": "rapid montage",
+      "events": [
+        "V01",
+        "V02",
+        "V04"
+      ]
+    }
+  ],
+  "lessons": {
+    "keep": "Use one venue motif across opening, working scenes, rewards and CTA.",
+    "try": [
+      "Replace a short underwater insert with a sample project card and readable entry requirement.",
+      "For Tin, introduce a closed campaign package and later reveal its finished assets after the creation steps."
+    ],
+    "avoid": "Making entry instructions compete with a dense scenic montage.",
+    "open": "Selection rules, prize terms, actual event footage status, effects methods and audio remain unverified."
+  },
+  "comparison": {
+    "story": "Venue hook → build invitation → event montage → prizes → celebration → dated CTA.",
+    "motion": "Boat and character movement, case reveal and rapid state changes; fine transitions unverified.",
+    "sound": "No validated listening; all sound layers unknown.",
+    "texture": "Blue water, deck wood, black case, sunset and fog.",
+    "lesson": "A repeated physical motif can hold a fast event montage together."
+  },
+  "reviewer_model": "gpt-6-astra",
+  "scope": "sampled visual and story review; ASR and measured signal support; no validated audio listening",
+  "viewed_evidence": [
+    "technical-review-2026-10-19/deep-review/motion/161/timeline-00.jpg",
+    "technical-review-2026-10-19/deep-review/motion/161/timeline-01.jpg"
+  ],
+  "closer_windows": [],
+  "sound": [
+    {
+      "id": "A01",
+      "start": 0,
+      "end": 37.245,
+      "layer": "unknown",
+      "detail": "No validated audio listening. Voice delivery, music, effects and mix are unknown.",
+      "visual_relation": "All scenes; sound alignment unverified",
+      "evidence": "No actual audio perception in this review; prepared audio files are not listening evidence."
+    }
+  ]
+}

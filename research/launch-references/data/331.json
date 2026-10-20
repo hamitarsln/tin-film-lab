@@ -1,0 +1,383 @@
+{
+  "id": 331,
+  "viewed_evidence": [
+    "technical-review-2026-10-19/deep-review/motion/331/timeline-00.jpg",
+    "technical-review-2026-10-19/deep-review/motion/331/timeline-01.jpg",
+    "technical-review-2026-10-19/deep-review/motion/331/timeline-02.jpg",
+    "astra-review-2026-10-20/evidence/group-3/331/dense.jpg"
+  ],
+  "product_from_film": "Notion Custom Agents handle recurring task routing, workspace questions and status updates.",
+  "explains_well": "Three coloured agent characters stay attached to three clear jobs, making the capability tour easy to follow.",
+  "unclear": "The film shows what agents do, but not how a person sets their instructions, sources or trigger.",
+  "product_type": "workspace automation agents",
+  "scenario": "Route incoming tasks, answer team questions and create a weekly status update",
+  "product_clear_time": 21,
+  "product_clear_basis": "Custom Agents label and repetitive-work statement precede three concrete examples.",
+  "scenes": [
+    {
+      "start": 0,
+      "end": 12.5,
+      "action": "Task cards travel along conveyor and pile up; To-do counter climbs into hundreds.",
+      "design": "Black line conveyor and white task labels.",
+      "purpose": "Make repetitive work feel endless",
+      "id": "V01",
+      "evidence": "Visible 1 fps samples, source 0–12.5s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 12.5,
+      "end": 19,
+      "action": "Pile clears for Bye bye busywork; Notion sidebar gains agents; illustrated hands introduce three coloured icons.",
+      "design": "Clean type, UI glimpse and hand-drawn accents.",
+      "purpose": "Introduce agents",
+      "id": "V02",
+      "evidence": "Visible 1 fps samples, source 12.5–19s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 19,
+      "end": 25,
+      "action": "Three icons move with speed lines; text says repetitive work 24/7 and automatic routing.",
+      "design": "Purple, orange and teal role colours.",
+      "purpose": "State capability",
+      "id": "V03",
+      "evidence": "Visible 1 fps samples, source 19–25s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 25,
+      "end": 33,
+      "action": "Slack, Notion and email requests feed task board; priority/category tags appear and cards reorder.",
+      "design": "Purple routing character traverses board.",
+      "purpose": "Show task organisation",
+      "id": "V04",
+      "evidence": "Visible 1 fps samples, source 25–33s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 33,
+      "end": 43,
+      "action": "Questions accumulate and reply badges appear as count falls to zero; launch-date answer opens.",
+      "design": "Orange question-answer character.",
+      "purpose": "Show team assistance",
+      "id": "V05",
+      "evidence": "Visible 1 fps samples, source 33–43s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 43,
+      "end": 52,
+      "action": "Launch status report database gains weekly update; page opens and fills with summary and status list, then collaborator avatars appear.",
+      "design": "Teal update character beside report.",
+      "purpose": "Show autonomous writing",
+      "id": "V06",
+      "evidence": "Visible 1 fps samples, source 43–52s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 52,
+      "end": 63,
+      "action": "Day message turns into dark-blue night; many glowing agent/task pairs cross screen.",
+      "design": "Day/night colour shift and moving trails.",
+      "purpose": "Reinforce ongoing work",
+      "id": "V07",
+      "evidence": "Visible 1 fps samples, source 52–63s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 63,
+      "end": 70.866,
+      "action": "New Agent button leads to Notion logo hold.",
+      "design": "White button and logo on dark blue.",
+      "purpose": "Invite creation",
+      "id": "V08",
+      "evidence": "Visible 1 fps samples, source 63–70.866s; boundaries approximate, between-frame action unresolved."
+    }
+  ],
+  "sound": [
+    {
+      "id": "A01",
+      "start": 0,
+      "end": 70.866,
+      "layer": "unknown",
+      "detail": "No validated audio listening; speech, music, effects, mix and sync remain unverified.",
+      "visual_relation": "All visual scenes; alignment not checked",
+      "evidence": "No actual audio supplied to this review; existing technical-review-2026-10-19/deep-review/audio/331.json is not listening evidence."
+    }
+  ],
+  "categories": [
+    {
+      "finding": "Conveyor overload turns into agents and three job examples, then night-time scale and New Agent call to action. Setup is the missing link between button and behaviour.",
+      "evidence": "V01–V08",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q01"
+    },
+    {
+      "finding": "Specific task labels on a conveyor make repetitive work recognisable immediately.",
+      "evidence": "V01",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q02"
+    },
+    {
+      "finding": "Custom Agents and repetitive-work claim clarify the concept around 17–21 s; task-routing example makes it concrete.",
+      "evidence": "V02–V04",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q03"
+    },
+    {
+      "finding": "Dense 10–13 s frames show the to-do count rising, pile shifting downward, then task cards scattering away from the central Bye bye busywork title. Later icons travel along task examples with motion trails.",
+      "evidence": "V01–V02, V04–V07; dense 10–13 s",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q04"
+    },
+    {
+      "finding": "The pile clearing creates a strong problem-to-solution break. Coloured icons then bridge headings and the matching UI example.",
+      "evidence": "V02–V06",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q05"
+    },
+    {
+      "finding": "Mostly black/white UI and hand-drawn details are punctuated by three role colours. Dark blue night scene provides a clear ending contrast.",
+      "evidence": "V01–V08",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q06"
+    },
+    {
+      "finding": "Large feature headings are clear. Individual board cards and report body are smaller, but the launch-date answer is held long enough to read.",
+      "evidence": "V04–V06",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q07"
+    },
+    {
+      "finding": "Voice presence and delivery remain unverified.",
+      "evidence": "No validated audio listening",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q08"
+    },
+    {
+      "finding": "Music character and arc remain unverified.",
+      "evidence": "No validated audio listening",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q09"
+    },
+    {
+      "finding": "Sound effects remain unverified.",
+      "evidence": "No validated audio listening",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q10"
+    },
+    {
+      "finding": "Sound-to-motion timing remain unverified.",
+      "evidence": "No validated audio listening",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q11"
+    },
+    {
+      "finding": "Illustrated conveyor, character icons, stylised app UI and typography form the film. Production tools are unknown.",
+      "evidence": "V01–V08",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q12"
+    },
+    {
+      "finding": "Source duration supplied as 70.866s; no independent compression, clipping or delivery check.",
+      "evidence": "Assigned metadata; source integrity checked by parent",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q13"
+    },
+    {
+      "finding": "Written headings, visible labels and a concrete launch-date reply explain the main functions without sound.",
+      "evidence": "V03–V06",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q14"
+    },
+    {
+      "finding": "Each coloured character marks the active job and guides the eye through dense UI. The report content would benefit from a closer view.",
+      "evidence": "V04–V06",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q15"
+    },
+    {
+      "finding": "Each capability receives roughly eight to ten seconds. The long scale/closing section could lend time to a brief configuration example.",
+      "evidence": "V04–V08",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q16"
+    },
+    {
+      "finding": "Task tags, replies and a newly created report show useful outputs. The agent instructions and data sources behind these changes are absent.",
+      "evidence": "V04–V06",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q17"
+    },
+    {
+      "finding": "Playful helpers clearing an oversized task pile appear intended to create relief from busywork. Audience response was not measured.",
+      "evidence": "V01–V03",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q18"
+    },
+    {
+      "finding": "Purple routing, orange answers and teal updates remain consistent across introduction and examples.",
+      "evidence": "V02–V06",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q19"
+    },
+    {
+      "finding": "24/7 operation, instant answers and autonomous correctness are claims. A falling badge count and created page do not independently verify reliability or source accuracy.",
+      "evidence": "V03–V07",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q20"
+    },
+    {
+      "finding": "The three role colours and hand-drawn helpers turn a broad automation feature into a memorable set of jobs.",
+      "evidence": "V02–V06",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q21"
+    },
+    {
+      "finding": "After New Agent, show one instruction, selected source and schedule, then match it to the weekly update already demonstrated.",
+      "evidence": "V06, V08",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q22"
+    },
+    {
+      "finding": "Assign a stable visual identity to each automation role and keep it beside the exact output it creates.",
+      "evidence": "V02–V06",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q23"
+    },
+    {
+      "finding": "No human new-viewer test; product description above is model interpretation of sampled images.",
+      "evidence": "V01–V08",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q24"
+    },
+    {
+      "finding": "No phone-size, safe-area or flash assessment; small UI text needs separate preview.",
+      "evidence": "Contact sheets",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q25"
+    }
+  ],
+  "lessons": {
+    "keep": "Keep the three distinct agent roles and their matching outputs.",
+    "try": [
+      "Replace part of the final agent swarm with one weekly-update setup: instructions, source and schedule.",
+      "Show the launch-date answer beside the source page line it uses, so the reply has visible context."
+    ],
+    "avoid": "Avoid jumping from New Agent to implied autonomy without showing the basic setup.",
+    "open": "Audio is unheard. Agent reliability, permissions, trigger behaviour and source accuracy remain unverified."
+  },
+  "comparison": {
+    "story": "Make repetitive work feel endless → Introduce agents → State capability → Show task organisation → Show team assistance → Show autonomous writing → Reinforce ongoing work → Invite creation",
+    "motion": "Dense 10–13 s frames show the to-do count rising, pile shifting downward, then task cards scattering away from the central Bye bye busywork title. Later icons travel along task examples with motion trails.",
+    "sound": "No validated listening; no absence claims.",
+    "texture": "Mostly black/white UI and hand-drawn details are punctuated by three role colours. Dark blue night scene provides a clear ending contrast.",
+    "lesson": "Keep the three distinct agent roles and their matching outputs."
+  },
+  "elements": [
+    {
+      "kind": "ui",
+      "name": "task board",
+      "events": [
+        "V04"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "message list",
+      "events": [
+        "V05"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "report database",
+      "events": [
+        "V06"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "document",
+      "events": [
+        "V06"
+      ]
+    },
+    {
+      "kind": "motion",
+      "name": "conveyor",
+      "events": [
+        "V01"
+      ]
+    },
+    {
+      "kind": "motion",
+      "name": "task scatter",
+      "events": [
+        "V02"
+      ]
+    },
+    {
+      "kind": "texture",
+      "name": "hand-drawn illustration",
+      "events": [
+        "V02"
+      ]
+    }
+  ],
+  "reviewer_model": "gpt-6-astra",
+  "scope": "sampled visual and story review; ASR and measured signal support; no validated audio listening",
+  "closer_windows": [
+    {
+      "start": 10,
+      "end": 13,
+      "rate_fps": 4,
+      "evidence": [
+        "astra-review-2026-10-20/evidence/group-3/331/dense.jpg"
+      ],
+      "resolved": "To-do counter rises; pile shifts and scatters away as Bye bye busywork appears centrally."
+    }
+  ]
+}

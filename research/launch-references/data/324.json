@@ -1,0 +1,399 @@
+{
+  "id": 324,
+  "viewed_evidence": [
+    "technical-review-2026-10-19/deep-review/motion/324/timeline-00.jpg",
+    "technical-review-2026-10-19/deep-review/motion/324/timeline-01.jpg",
+    "technical-review-2026-10-19/deep-review/motion/324/timeline-02.jpg",
+    "technical-review-2026-10-19/deep-review/motion/324/timeline-03.jpg",
+    "astra-review-2026-10-20/evidence/group-3/324/full17.jpg",
+    "astra-review-2026-10-20/evidence/group-3/324/full31.jpg",
+    "astra-review-2026-10-20/evidence/group-3/324/full62.jpg"
+  ],
+  "product_from_film": "Perplexity Computer runs multi-step research and creation tasks, returns files and apps, and sets up follow-up monitoring.",
+  "explains_well": "Three examples show explicit requests followed by distinct outputs: a model and web app, a captioned clip, and a property model with monitoring.",
+  "unclear": "The first example asks many things at once, while the outputs move too quickly to trace one source or change through the finished model.",
+  "product_type": "general task agent",
+  "scenario": "Research Nvidia, update a financial model, make a short video and monitor a property bid",
+  "product_clear_time": 10,
+  "product_clear_basis": "Detailed model-update and web-app request establishes multi-step execution.",
+  "scenes": [
+    {
+      "start": 0,
+      "end": 5,
+      "action": "Introducing Perplexity Computer leads to Ask/Computer switch selection.",
+      "design": "Cream background and restrained UI.",
+      "purpose": "Introduce execution mode",
+      "id": "V01",
+      "evidence": "Visible 1 fps samples, source 0–5s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 5,
+      "end": 12,
+      "action": "Prompt asks whether Nvidia is undervalued, attaches model and requests estimates, peer data, import data, web app and earnings reruns.",
+      "design": "Text builds inside prompt card.",
+      "purpose": "Define complex task",
+      "id": "V02",
+      "evidence": "Visible 1 fps samples, source 5–12s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 12,
+      "end": 19,
+      "action": "Running Subagents leads to retrieval, import, model update and visualisation task list.",
+      "design": "Growing status list with model labels and faded rows.",
+      "purpose": "Show delegated work",
+      "id": "V03",
+      "evidence": "Visible 1 fps samples, source 12–19s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 19,
+      "end": 27,
+      "action": "Valuation synthesis appears with peer comparison and risk bullets; updated workbook link follows.",
+      "design": "Serif response text and compact table.",
+      "purpose": "Present research result",
+      "id": "V04",
+      "evidence": "Visible 1 fps samples, source 19–27s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 27,
+      "end": 42,
+      "action": "Workbook opens with yellow changes; supplier/customer flow app appears; quarterly rerun schedule is added.",
+      "design": "Spreadsheet, dark node-style visualisation and schedule card.",
+      "purpose": "Show concrete artifacts and follow-up",
+      "id": "V05",
+      "evidence": "Visible 1 fps samples, source 27–42s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 42,
+      "end": 50,
+      "action": "New prompt requests podcast segment about model differentiation, vertical crop and captions; download/process/render steps follow.",
+      "design": "Short prompt and stacked progress cards.",
+      "purpose": "Define media task",
+      "id": "V06",
+      "evidence": "Visible 1 fps samples, source 42–50s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 50,
+      "end": 55,
+      "action": "Vertical interview clip shows captions and ready-for-review notice.",
+      "design": "Phone-shaped preview.",
+      "purpose": "Show media output",
+      "id": "V07",
+      "evidence": "Visible 1 fps samples, source 50–55s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 55,
+      "end": 65,
+      "action": "Prompt requests rental financial model for Walter White house; research table names property, map, market and city sources; model and property page appear.",
+      "design": "Source/result table then layered artifacts.",
+      "purpose": "Show property research",
+      "id": "V08",
+      "evidence": "Visible 1 fps samples, source 55–65s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 65,
+      "end": 74,
+      "action": "Follow-up asks to monitor bids; Slack connection changes to connected and outbid notification arrives.",
+      "design": "Connection consent card and review notice.",
+      "purpose": "Demonstrate ongoing monitoring",
+      "id": "V09",
+      "evidence": "Visible 1 fps samples, source 65–74s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 74,
+      "end": 85,
+      "action": "App logos surround connection claim; output gallery pairs with researches, builds, codes, schedules and creates.",
+      "design": "Moving artifact column and large verbs.",
+      "purpose": "Summarise breadth",
+      "id": "V10",
+      "evidence": "Visible 1 fps samples, source 74–85s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 85,
+      "end": 94.366,
+      "action": "Computer works, icon and Perplexity wordmark close, then black.",
+      "design": "Minimal typography.",
+      "purpose": "Close",
+      "id": "V11",
+      "evidence": "Visible 1 fps samples, source 85–94.366s; boundaries approximate, between-frame action unresolved."
+    }
+  ],
+  "sound": [
+    {
+      "id": "A01",
+      "start": 0,
+      "end": 94.366,
+      "layer": "unknown",
+      "detail": "No validated audio listening; speech, music, effects, mix and sync remain unverified.",
+      "visual_relation": "All visual scenes; alignment not checked",
+      "evidence": "No actual audio supplied to this review; existing technical-review-2026-10-19/deep-review/audio/324.json is not listening evidence."
+    }
+  ],
+  "categories": [
+    {
+      "finding": "Mode switch leads to three task-to-output stories, followed by a breadth montage. Financial example is richest but carries many sub-tasks before viewers see the result.",
+      "evidence": "V01–V11",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q01"
+    },
+    {
+      "finding": "The name and Ask/Computer switch quickly establish a new mode inside a familiar product.",
+      "evidence": "V01",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q02"
+    },
+    {
+      "finding": "By 10 s the request includes model editing and a web app, making the service broader than question answering.",
+      "evidence": "V02",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q03"
+    },
+    {
+      "finding": "Prompt text grows, status rows appear, response and spreadsheet views scroll, and output cards expand into focus. Sampled states establish these UI changes; exact easing is unresolved.",
+      "evidence": "V02–V10",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q04"
+    },
+    {
+      "finding": "Each new prompt resets the story clearly. Repeated request/progress/artifact structure makes very different tasks comparable.",
+      "evidence": "V02–V09",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q05"
+    },
+    {
+      "finding": "Cream space and restrained black type unify varied outputs. Yellow workbook highlights and teal status accents identify changes and readiness.",
+      "evidence": "V01–V11",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q06"
+    },
+    {
+      "finding": "Full 31 s shows highlighted forecast cells, but the crop excludes row names, so the viewer cannot tell which metric changed. Full 62 s source/result table is clearer.",
+      "evidence": "V05, V08; full 31 and 62 s",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q07"
+    },
+    {
+      "finding": "Voice presence and delivery remain unverified.",
+      "evidence": "No validated audio listening",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q08"
+    },
+    {
+      "finding": "Music character and arc remain unverified.",
+      "evidence": "No validated audio listening",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q09"
+    },
+    {
+      "finding": "Sound effects remain unverified.",
+      "evidence": "No validated audio listening",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q10"
+    },
+    {
+      "finding": "Sound-to-motion timing remain unverified.",
+      "evidence": "No validated audio listening",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q11"
+    },
+    {
+      "finding": "Stylised software UI, spreadsheet excerpts, web-app views and media preview form the demo. Production tools are unknown.",
+      "evidence": "V01–V10",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q12"
+    },
+    {
+      "finding": "Source duration supplied as 94.366s; no independent compression, clipping or delivery check.",
+      "evidence": "Assigned metadata; source integrity checked by parent",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q13"
+    },
+    {
+      "finding": "Written prompts and output labels carry the main story without sound. Captioned interview preview demonstrates the requested media treatment.",
+      "evidence": "V02–V09",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q14"
+    },
+    {
+      "finding": "Large whitespace isolates the active task, but selective fading and cropped spreadsheets can hide context needed to judge an output.",
+      "evidence": "V03–V05",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q15"
+    },
+    {
+      "finding": "The Nvidia example uses roughly 37 s; later examples are much shorter. Its many requested deliverables create a high reading load before the simpler clip example.",
+      "evidence": "V02–V08",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q16"
+    },
+    {
+      "finding": "Workbook, flow app, scheduled rerun and captioned clip give concrete outputs. The model changes are not traced to one displayed source and assumption.",
+      "evidence": "V04–V08",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q17"
+    },
+    {
+      "finding": "Parallel task lists and ready notices appear intended to make complex work feel managed. The outbid notification adds a light narrative payoff. Audience response was not measured.",
+      "evidence": "V03, V09",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q18"
+    },
+    {
+      "finding": "Input and updated workbook versions visibly differ, with highlighted changes. Podcast topic matches visible model-versus-cloud captions, and bid follow-up stays with the property example.",
+      "evidence": "V02, V05–V09",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q19"
+    },
+    {
+      "finding": "Output quality, financial data accuracy, research speed, integration count and monitoring reliability remain unverified. Task timers and status claims are part of the demo, not independent measurements.",
+      "evidence": "V03–V10",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q20"
+    },
+    {
+      "finding": "The combination of artifact creation and a scheduled or monitored follow-up gives the product a sustained-work story.",
+      "evidence": "V05, V09",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q21"
+    },
+    {
+      "finding": "Keep one workbook row label visible, identify its source and show old/new values before moving to the flow app.",
+      "evidence": "V04–V05",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q22"
+    },
+    {
+      "finding": "For a broad agent, repeat a clear request → progress → artifact pattern, then demonstrate what happens after the initial answer.",
+      "evidence": "V02–V09",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q23"
+    },
+    {
+      "finding": "No human new-viewer test; product description above is model interpretation of sampled images.",
+      "evidence": "V01–V11",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q24"
+    },
+    {
+      "finding": "No phone-size, safe-area or flash assessment; small UI text needs separate preview.",
+      "evidence": "Contact sheets",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q25"
+    }
+  ],
+  "lessons": {
+    "keep": "Keep explicit prompts, concrete artifacts and follow-up scheduling.",
+    "try": [
+      "Trace one analyst estimate into a labelled workbook row with old/new values and its source.",
+      "Shorten the final breadth montage and use that time to hold one complete output at readable scale."
+    ],
+    "avoid": "Avoid cropping away metric names while asking viewers to appreciate highlighted model changes.",
+    "open": "Audio is unheard. Financial conclusions, data quality, generation speed and monitoring outcomes remain unverified."
+  },
+  "comparison": {
+    "story": "Introduce execution mode → Define complex task → Show delegated work → Present research result → Show concrete artifacts and follow-up → Define media task → Show media output → Show property research → Demonstrate ongoing monitoring → Summarise breadth → Close",
+    "motion": "Prompt text grows, status rows appear, response and spreadsheet views scroll, and output cards expand into focus. Sampled states establish these UI changes; exact easing is unresolved.",
+    "sound": "No validated listening; no absence claims.",
+    "texture": "Cream space and restrained black type unify varied outputs. Yellow workbook highlights and teal status accents identify changes and readiness.",
+    "lesson": "Keep explicit prompts, concrete artifacts and follow-up scheduling."
+  },
+  "elements": [
+    {
+      "kind": "ui",
+      "name": "prompt box",
+      "events": [
+        "V02",
+        "V06",
+        "V08"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "progress list",
+      "events": [
+        "V03",
+        "V06"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "spreadsheet",
+      "events": [
+        "V05"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "vertical video preview",
+      "events": [
+        "V07"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "connection card",
+      "events": [
+        "V09"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "notification",
+      "events": [
+        "V09"
+      ]
+    }
+  ],
+  "reviewer_model": "gpt-6-astra",
+  "scope": "sampled visual and story review; ASR and measured signal support; no validated audio listening",
+  "closer_windows": []
+}

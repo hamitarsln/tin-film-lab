@@ -1,0 +1,330 @@
+{
+  "id": 149,
+  "viewed_evidence": [
+    "technical-review-2026-10-19/deep-review/motion/149/timeline-00.jpg",
+    "technical-review-2026-10-19/deep-review/motion/149/timeline-01.jpg",
+    "technical-review-2026-10-19/deep-review/audio/149-speech.json"
+  ],
+  "product_from_film": "Solana Summit Germany is an event featuring local companies, community activities and a party.",
+  "explains_well": "Berlin locations, company examples and event footage make the gathering tangible.",
+  "unclear": "The exact date, venue and registration route are not provided in the sampled end card.",
+  "product_type": "event promotion",
+  "scenario": "A presenter challenges a lack-of-innovation story and invites viewers to a Berlin summit.",
+  "product_clear_time": 5,
+  "product_clear_basis": "Solana Summit Germany title appears over a building.",
+  "scenes": [
+    {
+      "start": 0,
+      "end": 5,
+      "action": "Berlin bridge view leads to presenter by the water and cropped news headlines.",
+      "design": "Overcast city footage, white captions and article cut-ins.",
+      "purpose": "Introduce the local innovation challenge",
+      "id": "V01",
+      "evidence": "Visible 1 fps samples, source 0–5 s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 5,
+      "end": 13,
+      "action": "Summit title overlays a building; presenter introduces companies between purple Arcium imagery and validator-related graphics.",
+      "design": "Mint/purple branding, city landmarks and technology inserts.",
+      "purpose": "Name event and local examples",
+      "id": "V02",
+      "evidence": "Visible 1 fps samples, source 5–13 s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 13,
+      "end": 18,
+      "action": "Group photograph and startup event clips lead back to venue architecture.",
+      "design": "Crowd imagery, brief monochrome treatment and pink wash.",
+      "purpose": "Show a local builder community",
+      "id": "V03",
+      "evidence": "Visible 1 fps samples, source 13–18 s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 18,
+      "end": 25,
+      "action": "Presenter and large stage/crowd clips give way to computer competitors and orange-lit party footage.",
+      "design": "Jupiter stage graphics, monitors and concert-like lights.",
+      "purpose": "List event attractions",
+      "id": "V04",
+      "evidence": "Visible 1 fps samples, source 18–25 s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 25,
+      "end": 31.68,
+      "action": "Presenter invites viewers in Berlin in June; view rises or widens to the city and event logo, then black logo card.",
+      "design": "City panorama with mint/purple mark.",
+      "purpose": "Close with invitation",
+      "id": "V05",
+      "evidence": "Visible 1 fps samples, source 25–31.68 s; boundaries approximate, between-frame action unresolved."
+    }
+  ],
+  "sound": [
+    {
+      "id": "A01",
+      "start": 0,
+      "end": 31.68,
+      "layer": "unknown",
+      "detail": "No validated audio listening; speech, music, effects, mix and sync remain unverified.",
+      "visual_relation": "All visual scenes; alignment not checked",
+      "evidence": "No actual audio supplied to this review; existing technical-review-2026-10-19/deep-review/audio/149.json is not listening evidence."
+    },
+    {
+      "id": "A02",
+      "start": 1.098,
+      "end": 27.766,
+      "layer": "ASR draft",
+      "detail": "Draft supports a German-innovation premise and named summit attractions. Company names and closing location/date wording are malformed; visible captions provide the safer wording.",
+      "visual_relation": "Caption-supported script structure; no audio delivery judgement",
+      "evidence": "technical-review-2026-10-19/deep-review/audio/149-speech.json; existing faster-whisper text; VAD ranges [{'start': 1.098, 'end': 26.098}, {'start': 26.098, 'end': 27.766}]"
+    }
+  ],
+  "categories": [
+    {
+      "finding": "A complaint about German innovation is answered by local company examples and a summit invitation.",
+      "evidence": "V01–V05",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q01"
+    },
+    {
+      "finding": "Berlin bridge fills the frame then a presenter says I am German; place and personal stake are established.",
+      "evidence": "V01",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q02"
+    },
+    {
+      "finding": "Event identity appears 5 s; builders and ecosystem participants are implied by company/community examples 13–22 s.",
+      "evidence": "V02–V04",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q03"
+    },
+    {
+      "finding": "Company graphics and event footage replace presenter shots; the final view widens to a city panorama with centred logo. Exact camera path is unverified.",
+      "evidence": "V02,V05",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q04"
+    },
+    {
+      "finding": "Local landmarks alternate with proof-like company and crowd inserts; a pink wash 16 s bridges back to venue footage.",
+      "evidence": "V02–V04",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q05"
+    },
+    {
+      "finding": "Cool cloudy Berlin scenes contrast with purple technology images and warm orange party scenes.",
+      "evidence": "V01–V04",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q06"
+    },
+    {
+      "finding": "Short white captions explain the itinerary; logo identifies the event, but no exact date or registration URL is visible.",
+      "evidence": "V02,V05",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q07"
+    },
+    {
+      "finding": "Voice presence and delivery remain unverified.",
+      "evidence": "No validated audio listening",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q08"
+    },
+    {
+      "finding": "Music character and arc remain unverified.",
+      "evidence": "No validated audio listening",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q09"
+    },
+    {
+      "finding": "Sound effects remain unverified.",
+      "evidence": "No validated audio listening",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q10"
+    },
+    {
+      "finding": "Sound-to-motion timing remain unverified.",
+      "evidence": "No validated audio listening",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q11"
+    },
+    {
+      "finding": "Presenter/location footage, cropped articles, company graphics and event/party clips are mixed; their dates and origins are not verified.",
+      "evidence": "V01–V05",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q12"
+    },
+    {
+      "finding": "Source duration supplied as 31.68 s; no independent compression, clipping or delivery check.",
+      "evidence": "Assigned metadata; source integrity checked by parent",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q13"
+    },
+    {
+      "finding": "Captions preserve local pride, example companies and an invitation; exact attendance logistics remain missing.",
+      "evidence": "V01–V05",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q14"
+    },
+    {
+      "finding": "Presenter anchors attention; large company graphics and stage marks provide brief recognisable topic changes.",
+      "evidence": "V02–V04",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q15"
+    },
+    {
+      "finding": "Many attractions arrive 18–24 s; a final logistics hold would help convert the broad invitation into a next step.",
+      "evidence": "V04–V05",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q16"
+    },
+    {
+      "finding": "The opening innovation doubt is answered with named local projects; the conclusion invites direct attendance.",
+      "evidence": "V01,V02,V05",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q17"
+    },
+    {
+      "finding": "The intended arc moves from frustration to local pride and event excitement, based on captions and crowd imagery.",
+      "evidence": "V01–V05; interpretation",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q18"
+    },
+    {
+      "finding": "Berlin landmarks and the same presenter connect different companies and event scenes.",
+      "evidence": "V01–V05",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q19"
+    },
+    {
+      "finding": "Company names and event scenes illustrate the pitch; origin claims and future programme are not independently verified.",
+      "evidence": "V02–V04",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q20"
+    },
+    {
+      "finding": "Berlin architecture, German framing and mint/purple Summit mark make the geography and event distinct.",
+      "evidence": "V01,V02,V05",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q21"
+    },
+    {
+      "finding": "Replace one short party image with a clear date, venue and registration card.",
+      "evidence": "V04–V05",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q22"
+    },
+    {
+      "finding": "For a local builder event, combine recognisable city locations with named local teams, then show the concrete attendance details.",
+      "evidence": "V01–V05",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q23"
+    },
+    {
+      "finding": "No human new-viewer test; product description above is model interpretation of sampled images.",
+      "evidence": "V01–V05",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q24"
+    },
+    {
+      "finding": "No phone-size, safe-area or flash assessment; small UI text needs separate preview.",
+      "evidence": "Contact sheets",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q25"
+    }
+  ],
+  "lessons": {
+    "keep": "Use recognisable city locations to give a technology event a clear local identity.",
+    "try": [
+      "For a local Tin workshop, show three nearby teams and one actual workshop activity before the sign-up card.",
+      "Test a four-second final card with date, venue and short registration address against the logo-only close."
+    ],
+    "avoid": "Avoid ending an event invitation without complete attendance details.",
+    "open": "Which event clips are past footage, and what is the confirmed programme?"
+  },
+  "comparison": {
+    "story": "Introduce the local innovation challenge → Name event and local examples → Show a local builder community → List event attractions → Close with invitation",
+    "motion": "Company graphics and event footage replace presenter shots; the final view widens to a city panorama with centred logo. Exact camera path is unverified.",
+    "sound": "No validated listening; no absence claims.",
+    "texture": "Cool cloudy Berlin scenes contrast with purple technology images and warm orange party scenes.",
+    "lesson": "Use recognisable city locations to give a technology event a clear local identity."
+  },
+  "elements": [
+    {
+      "kind": "texture",
+      "name": "city footage",
+      "events": [
+        "V01",
+        "V02",
+        "V05"
+      ]
+    },
+    {
+      "kind": "texture",
+      "name": "event footage",
+      "events": [
+        "V03",
+        "V04"
+      ]
+    },
+    {
+      "kind": "motion",
+      "name": "logo overlay",
+      "events": [
+        "V02",
+        "V05"
+      ]
+    }
+  ],
+  "reviewer_model": "gpt-6-astra",
+  "scope": "sampled visual and story review; ASR and measured signal support; no validated audio listening",
+  "closer_windows": []
+}

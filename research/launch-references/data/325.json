@@ -1,0 +1,350 @@
+{
+  "id": 325,
+  "viewed_evidence": [
+    "technical-review-2026-10-19/deep-review/motion/325/timeline-00.jpg",
+    "astra-review-2026-10-20/evidence/group-3/325/dense.jpg"
+  ],
+  "product_from_film": "QuiverAI turns a logo idea into editable vector-style graphics, variations and a wordmark.",
+  "explains_well": "The vector-point close-up makes shape editing visible before the film shows variants and real-world mockups.",
+  "unclear": "The film shows editable-looking graphics, but not how the user exports the vector asset or moves it into a design workflow.",
+  "product_type": "vector graphic generator",
+  "scenario": "Convert a logo sketch, refine its shape and create variations and a wordmark",
+  "product_clear_time": 6,
+  "product_clear_basis": "Logo control points and filled shape establish editable vector-style output; variation prompt follows.",
+  "scenes": [
+    {
+      "start": 0,
+      "end": 4,
+      "action": "Sketch-like logo in an image view is overlaid with SVG code, then becomes a bright outlined mark.",
+      "design": "Paper source, code overlay and black/white logo treatments.",
+      "purpose": "Connect source idea and vector form",
+      "id": "V01",
+      "evidence": "Visible 1 fps samples, source 0–4s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 4,
+      "end": 10,
+      "action": "Close vector points round corners; full logo gets blue fill, stripes, gradient and white treatment on colour background.",
+      "design": "Visible anchors, cursor and colour strip.",
+      "purpose": "Show editable shape and style",
+      "id": "V02",
+      "evidence": "Visible 1 fps samples, source 4–10s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 10,
+      "end": 14,
+      "action": "Prompt asks to create variations of this logo and submit arrow is selected.",
+      "design": "Large text on white.",
+      "purpose": "Request alternatives",
+      "id": "V03",
+      "evidence": "Visible 1 fps samples, source 10–14s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 14,
+      "end": 19,
+      "action": "Different logo appears on gradient card, isolated black view, storefront and billboard.",
+      "design": "Brand mockups at several scales.",
+      "purpose": "Show use and variation",
+      "id": "V04",
+      "evidence": "Visible 1 fps samples, source 14–19s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 19,
+      "end": 23,
+      "action": "Prompt asks for wordmark; outlined lorem becomes bold angular LOREM.",
+      "design": "Text generation and black contrast.",
+      "purpose": "Add typography",
+      "id": "V05",
+      "evidence": "Visible 1 fps samples, source 19–23s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 23,
+      "end": 30,
+      "action": "QuiverAI wordmark is selected, reduced to icon and quiver.ai URL on black.",
+      "design": "Selection handles and minimal ending.",
+      "purpose": "Close",
+      "id": "V06",
+      "evidence": "Visible 1 fps samples, source 23–30s; boundaries approximate, between-frame action unresolved."
+    }
+  ],
+  "sound": [
+    {
+      "id": "A01",
+      "start": 0,
+      "end": 30.0,
+      "layer": "unknown",
+      "detail": "No validated audio listening; speech, music, effects, mix and sync remain unverified.",
+      "visual_relation": "All visual scenes; alignment not checked",
+      "evidence": "No actual audio supplied to this review; existing technical-review-2026-10-19/deep-review/audio/325.json is not listening evidence."
+    }
+  ],
+  "categories": [
+    {
+      "finding": "Sketch to vector, style edits, variation prompt, brand mockups and wordmark form a compact asset-creation story. Export or handoff is absent.",
+      "evidence": "V01–V06",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q01"
+    },
+    {
+      "finding": "A sketch logo immediately gives a concrete design object; the code overlay connects it to vector construction.",
+      "evidence": "V01",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q02"
+    },
+    {
+      "finding": "Anchor points and filled logo make editable graphic output clear by about 6 s, while the prompt clarifies AI variation generation at 11 s.",
+      "evidence": "V02–V03",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q03"
+    },
+    {
+      "finding": "Dense 4–7 s frames show sharp corners gaining paired control points and rounding, then a pullback to full logo, blue fill and diagonal stripes. This supports shape refinement rather than only image replacement.",
+      "evidence": "V02; dense 4–7 s",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q04"
+    },
+    {
+      "finding": "The same geometric logo carries sketch, point editing and colour changes. A prompt explicitly introduces the later alternative mark.",
+      "evidence": "V01–V04",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q05"
+    },
+    {
+      "finding": "High-contrast black/white scenes emphasise geometry; blue fill and bright gradients show style range without changing the basic demonstration.",
+      "evidence": "V01–V06",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q06"
+    },
+    {
+      "finding": "Short prompts are readable and vector anchors are enlarged enough to see. SVG code is a visual cue, not held long enough for inspection.",
+      "evidence": "V01–V03",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q07"
+    },
+    {
+      "finding": "Voice presence and delivery remain unverified.",
+      "evidence": "No validated audio listening",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q08"
+    },
+    {
+      "finding": "Music character and arc remain unverified.",
+      "evidence": "No validated audio listening",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q09"
+    },
+    {
+      "finding": "Sound effects remain unverified.",
+      "evidence": "No validated audio listening",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q10"
+    },
+    {
+      "finding": "Sound-to-motion timing remain unverified.",
+      "evidence": "No validated audio listening",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q11"
+    },
+    {
+      "finding": "Vector-like editing UI, code overlay, generated marks and storefront/billboard mockups carry the film. Production software is unknown.",
+      "evidence": "V01–V06",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q12"
+    },
+    {
+      "finding": "Source duration supplied as 30.0s; no independent compression, clipping or delivery check.",
+      "evidence": "Assigned metadata; source integrity checked by parent",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q13"
+    },
+    {
+      "finding": "Prompt text and visible before/after logo states explain the feature without sound. The output file format and export action are not explicitly demonstrated.",
+      "evidence": "V01–V05",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q14"
+    },
+    {
+      "finding": "The close point-edit view draws attention to controllable geometry; mockups then shift attention to practical brand use.",
+      "evidence": "V02, V04",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q15"
+    },
+    {
+      "finding": "The core sequence moves quickly but keeps one design object. The final logo/URL holds for several seconds that could partly show export.",
+      "evidence": "V01–V06",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q16"
+    },
+    {
+      "finding": "Geometry editing and variation prompts illustrate useful vector creation. Real-world mockups show possible use, not actual delivery of production files.",
+      "evidence": "V02–V04",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q17"
+    },
+    {
+      "finding": "Clean geometry and fast brand applications appear intended to make vector creation feel accessible and polished. Audience response was not measured.",
+      "evidence": "V02–V05",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q18"
+    },
+    {
+      "finding": "The initial logo remains consistent through refinements; the alternative is introduced by an explicit variations request. Wordmark then uses the same placeholder brand name as mockups.",
+      "evidence": "V01–V05",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q19"
+    },
+    {
+      "finding": "Visible anchors suggest vector editability, but exported SVG structure, file quality, generation time and repeatability are not checked. Funding and model claims from the source title are not demonstrated in the film.",
+      "evidence": "V01–V06",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q20"
+    },
+    {
+      "finding": "Showing corner geometry rather than only finished art gives this demo a specific vector-design identity.",
+      "evidence": "V02",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q21"
+    },
+    {
+      "finding": "Use two seconds of the final hold to export SVG and open the result with editable paths visible.",
+      "evidence": "V06",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q22"
+    },
+    {
+      "finding": "For a design generator, show one property the user can control, then show the resulting asset in context.",
+      "evidence": "V02–V04",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q23"
+    },
+    {
+      "finding": "No human new-viewer test; product description above is model interpretation of sampled images.",
+      "evidence": "V01–V06",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q24"
+    },
+    {
+      "finding": "No phone-size, safe-area or flash assessment; small UI text needs separate preview.",
+      "evidence": "Contact sheets",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q25"
+    }
+  ],
+  "lessons": {
+    "keep": "Keep the enlarged vector-point refinement before the mockups.",
+    "try": [
+      "Add an SVG export and reopen step with path selection visible.",
+      "Hold two labelled variations side by side before choosing the one used on the storefront and billboard."
+    ],
+    "avoid": "Avoid treating styled mockups as proof of an editable exported asset.",
+    "open": "Audio is unheard. SVG structure, generation speed and production-file quality remain unverified."
+  },
+  "comparison": {
+    "story": "Connect source idea and vector form → Show editable shape and style → Request alternatives → Show use and variation → Add typography → Close",
+    "motion": "Dense 4–7 s frames show sharp corners gaining paired control points and rounding, then a pullback to full logo, blue fill and diagonal stripes. This supports shape refinement rather than only image replacement.",
+    "sound": "No validated listening; no absence claims.",
+    "texture": "High-contrast black/white scenes emphasise geometry; blue fill and bright gradients show style range without changing the basic demonstration.",
+    "lesson": "Keep the enlarged vector-point refinement before the mockups."
+  },
+  "elements": [
+    {
+      "kind": "ui",
+      "name": "vector editor",
+      "events": [
+        "V02"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "prompt box",
+      "events": [
+        "V03",
+        "V05"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "colour control",
+      "events": [
+        "V02"
+      ]
+    },
+    {
+      "kind": "motion",
+      "name": "corner rounding",
+      "events": [
+        "V02"
+      ]
+    },
+    {
+      "kind": "motion",
+      "name": "zoom",
+      "events": [
+        "V02"
+      ]
+    }
+  ],
+  "reviewer_model": "gpt-6-astra",
+  "scope": "sampled visual and story review; ASR and measured signal support; no validated audio listening",
+  "closer_windows": [
+    {
+      "start": 4,
+      "end": 7,
+      "rate_fps": 4,
+      "evidence": [
+        "astra-review-2026-10-20/evidence/group-3/325/dense.jpg"
+      ],
+      "resolved": "Corners gain control points and round before full-logo pullback, blue fill and stripe treatment."
+    }
+  ]
+}

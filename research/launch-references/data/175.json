@@ -1,0 +1,364 @@
+{
+  "id": 175,
+  "viewed_evidence": [
+    "technical-review-2026-10-19/deep-review/motion/175/timeline-00.jpg",
+    "technical-review-2026-10-19/deep-review/motion/175/timeline-01.jpg",
+    "technical-review-2026-10-19/deep-review/motion/175/timeline-02.jpg",
+    "technical-review-2026-10-19/deep-review/audio/175-speech.json"
+  ],
+  "product_from_film": "Sixtyfour presents agents that find linked records and risk information about people.",
+  "explains_well": "Three staged situations show why hidden information could change a decision.",
+  "unclear": "The data sources, matching accuracy and actions behind each report are not demonstrated.",
+  "product_type": "people research tool",
+  "scenario": "A shoe buyer, office interviewer and game team receive information that changes their view.",
+  "product_clear_time": 10,
+  "product_clear_basis": "A warning message reports seller history; later panels show linked accounts and complaints as depicted claims.",
+  "scenes": [
+    {
+      "start": 0,
+      "end": 10,
+      "action": "Car-trunk viewpoint introduces seller with shoe box; Agents Tracing status changes to Tracing complete.",
+      "design": "Outdoor transaction scene, brand overlay and small status chip.",
+      "purpose": "Set a trust decision",
+      "id": "V01",
+      "evidence": "Visible 1 fps samples, source 0–10 s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 10,
+      "end": 19,
+      "action": "Phone warning and floating report panels describe alleged seller risk; counts show 3 active accounts,7 banned accounts and 21 complaints.",
+      "design": "Dark translucent panels over seller and phone.",
+      "purpose": "Reveal information behind the offer",
+      "id": "V02",
+      "evidence": "Visible 1 fps samples, source 10–19 s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 19,
+      "end": 29,
+      "action": "Buyer declines and walks away while seller reacts and calls after him.",
+      "design": "Alternating outdoor closeups and wider buyer shot.",
+      "purpose": "Show changed decision",
+      "id": "V03",
+      "evidence": "Visible 1 fps samples, source 19–29 s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 29,
+      "end": 48,
+      "action": "Office handshake leads to interview between suited man and visitor.",
+      "design": "Bright office, desk and shot/reverse-shot, no full captions.",
+      "purpose": "Set another verification task",
+      "id": "V04",
+      "evidence": "Visible 1 fps samples, source 29–48 s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 48,
+      "end": 57,
+      "action": "Floating report says multiple bankruptcy filings across linked companies; suited man reacts.",
+      "design": "Dark report card beside visitor, close crop on finding.",
+      "purpose": "Contrast stated history with a depicted report",
+      "id": "V05",
+      "evidence": "Visible 1 fps samples, source 48–57 s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 57,
+      "end": 70,
+      "action": "Game-office worker sees a social post with a game clip; colleagues approach the screen.",
+      "design": "Desk footage, social-post insert and game preview.",
+      "purpose": "Set a leak investigation",
+      "id": "V06",
+      "evidence": "Visible 1 fps samples, source 57–70 s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 70,
+      "end": 81,
+      "action": "More people gather; closeups isolate anonymous account and leaked-looking game clip, then team reacts.",
+      "design": "Post handle, game scene and group faces.",
+      "purpose": "Show information risk and response",
+      "id": "V07",
+      "evidence": "Visible 1 fps samples, source 70–81 s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 81,
+      "end": 90.166,
+      "action": "Office background softens beneath If it exists we can find it, then Sixtyfour mark.",
+      "design": "White slogan and brand on dimmed footage.",
+      "purpose": "State broad discovery promise",
+      "id": "V08",
+      "evidence": "Visible 1 fps samples, source 81–90.166 s; boundaries approximate, between-frame action unresolved."
+    }
+  ],
+  "sound": [
+    {
+      "id": "A01",
+      "start": 0,
+      "end": 90.166,
+      "layer": "unknown",
+      "detail": "No validated audio listening; speech, music, effects, mix and sync remain unverified.",
+      "visual_relation": "All visual scenes; alignment not checked",
+      "evidence": "No actual audio supplied to this review; existing technical-review-2026-10-19/deep-review/audio/175.json is not listening evidence."
+    },
+    {
+      "id": "A02",
+      "start": 2.89,
+      "end": 80.886,
+      "layer": "ASR draft",
+      "detail": "Four selected VAD ranges support a declined shoe purchase, company-history questions and concern about a game leak. Opening product words, names and final suggested action are malformed and not treated as reliable dialogue.",
+      "visual_relation": "V01–V07; draft structure only, no performance or sync finding",
+      "evidence": "technical-review-2026-10-19/deep-review/audio/175-speech.json; existing faster-whisper base CPU int8; text-only inspection."
+    }
+  ],
+  "categories": [
+    {
+      "finding": "Three separate trust/risk scenes show a warning, linked-record report and social-post alert changing decisions.",
+      "evidence": "V01–V08",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q01"
+    },
+    {
+      "finding": "View from inside a car trunk reveals seller and shoe box with Sixtyfour branding; the context is a transaction.",
+      "evidence": "V01",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q02"
+    },
+    {
+      "finding": "People-risk discovery is clear in the phone warning 10 s; business verification and monitoring broaden it 48–70 s.",
+      "evidence": "V02,V05,V06",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q03"
+    },
+    {
+      "finding": "Tracing chip changes to complete, report cards layer beside subjects and close crops enlarge findings. Exact card-entry paths are not resolved.",
+      "evidence": "V01,V02,V05",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q04"
+    },
+    {
+      "finding": "Cuts from actor faces to report details make information feel tied to the person; hard scene changes 29 s and 57 s introduce new cases.",
+      "evidence": "V02–V06",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q05"
+    },
+    {
+      "finding": "Natural outdoor and bright office footage contrasts with dark translucent information cards; final background dims for the slogan.",
+      "evidence": "V01–V08",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q06"
+    },
+    {
+      "finding": "Reports supply specific readable findings and counts, while dialogue lacks visible captions. The final absolute slogan is much broader than the shown examples.",
+      "evidence": "V02,V05,V08",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q07"
+    },
+    {
+      "finding": "Voice presence and delivery remain unverified.",
+      "evidence": "No validated audio listening",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q08"
+    },
+    {
+      "finding": "Music character and arc remain unverified.",
+      "evidence": "No validated audio listening",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q09"
+    },
+    {
+      "finding": "Sound effects remain unverified.",
+      "evidence": "No validated audio listening",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q10"
+    },
+    {
+      "finding": "Sound-to-motion timing remain unverified.",
+      "evidence": "No validated audio listening",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q11"
+    },
+    {
+      "finding": "Staged-looking transactions, office dialogue and a social/game post are mixed with report overlays; authenticity and real subjects are not established.",
+      "evidence": "V01–V07",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q12"
+    },
+    {
+      "finding": "Source duration supplied as 90.166 s; no independent compression, clipping or delivery check.",
+      "evidence": "Assigned metadata; source integrity checked by parent",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q13"
+    },
+    {
+      "finding": "Warning and report cards show risk discovery silently; the office dialogue and final team response are harder to understand.",
+      "evidence": "V02,V04–V07",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q14"
+    },
+    {
+      "finding": "Cards sit near the investigated person, then tight crops isolate key findings and counts.",
+      "evidence": "V02,V05",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q15"
+    },
+    {
+      "finding": "The office conversation runs about 19 s before its report; a short caption could preserve meaning with less setup.",
+      "evidence": "V04–V05",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q16"
+    },
+    {
+      "finding": "The first tracing status pays off in a warning and declined purchase; the final slogan broadens beyond the evidence.",
+      "evidence": "V01–V03,V08",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q17"
+    },
+    {
+      "finding": "Apparent normal interactions become suspicion and withdrawal; the film seems designed to make hidden-risk discovery feel urgent.",
+      "evidence": "V01–V07; interpretation",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q18"
+    },
+    {
+      "finding": "Consistent report styling connects different actors and situations; no single research case runs throughout.",
+      "evidence": "V02,V05,V06",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q19"
+    },
+    {
+      "finding": "The film depicts reports and decisions, but no source retrieval, identity match or accuracy check is shown. Allegations are scenario text, not verified facts.",
+      "evidence": "V02,V05,V06",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q20"
+    },
+    {
+      "finding": "People-focused report overlays define the tool better than the broad final slogan.",
+      "evidence": "V02,V05,V08",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q21"
+    },
+    {
+      "finding": "Show one source link and match explanation in the seller case; reduce a dialogue setup to make room.",
+      "evidence": "V02,V04",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q22"
+    },
+    {
+      "finding": "For a research assistant, show a question, linked public evidence and a user decision with uncertainty clearly stated.",
+      "evidence": "V01–V03",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q23"
+    },
+    {
+      "finding": "No human new-viewer test; product description above is model interpretation of sampled images.",
+      "evidence": "V01–V08",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q24"
+    },
+    {
+      "finding": "No phone-size, safe-area or flash assessment; small UI text needs separate preview.",
+      "evidence": "Contact sheets",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q25"
+    }
+  ],
+  "lessons": {
+    "keep": "Place the discovered information beside the decision it changes.",
+    "try": [
+      "For vendor research, show the supplier, one verified source record and a review decision in a single scenario.",
+      "Test a report card with a source link and match uncertainty against the claim-only overlay."
+    ],
+    "avoid": "Avoid presenting staged allegations or broad discovery slogans as verified capability.",
+    "open": "How are identities matched, sources checked and incorrect findings corrected?"
+  },
+  "comparison": {
+    "story": "Set a trust decision → Reveal information behind the offer → Show changed decision → Set another verification task → Contrast stated history with a depicted report → Set a leak investigation → Show information risk and response → State broad discovery promise",
+    "motion": "Tracing chip changes to complete, report cards layer beside subjects and close crops enlarge findings. Exact card-entry paths are not resolved.",
+    "sound": "No validated listening; no absence claims.",
+    "texture": "Natural outdoor and bright office footage contrasts with dark translucent information cards; final background dims for the slogan.",
+    "lesson": "Place the discovered information beside the decision it changes."
+  },
+  "elements": [
+    {
+      "kind": "ui",
+      "name": "notification",
+      "events": [
+        "V02"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "report card",
+      "events": [
+        "V02",
+        "V05"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "social post",
+      "events": [
+        "V06",
+        "V07"
+      ]
+    },
+    {
+      "kind": "texture",
+      "name": "office footage",
+      "events": [
+        "V04",
+        "V06"
+      ]
+    }
+  ],
+  "reviewer_model": "gpt-6-astra",
+  "scope": "sampled visual and story review; ASR and measured signal support; no validated audio listening",
+  "closer_windows": []
+}

@@ -1,0 +1,304 @@
+{
+  "id": 55,
+  "product_from_film": "Venice presents itself as private, unrestricted AI that protects a person’s ideas.",
+  "explains_well": "A visitor photographing another person’s chalkboard makes the idea-theft concern tangible.",
+  "unclear": "No AI interface, user task or technical privacy mechanism is shown.",
+  "product_type": "AI brand advertisement",
+  "scenario": "A researcher’s work is photographed and marked by another person, used as a metaphor for idea appropriation.",
+  "product_clear_time": 26,
+  "product_clear_basis": "The closing descriptor Private, Unrestricted AI first appears at 26s.",
+  "viewed_evidence": [
+    "technical-review-2026-10-19/deep-review/motion/055/timeline-00.jpg",
+    "technical-review-2026-10-19/deep-review/motion/055/timeline-01.jpg",
+    "reference-pass2-2026-10-18/055/timeline/00037.jpg"
+  ],
+  "scenes": [
+    {
+      "start": 0,
+      "end": 11,
+      "action": "Black opens to a wide lecture room and a person before a huge chalkboard. A closer view shows her removing glasses and touching her face, then looking toward someone off screen.",
+      "design": "Green chalkboard, warm overhead lamps, red cardigan and dark seats.",
+      "purpose": "Establish personal effort and ownership of the work.",
+      "evidence": "1 fps source samples in 0–11s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V01"
+    },
+    {
+      "start": 11,
+      "end": 21,
+      "action": "Over her shoulder, a suited person holds a phone toward the board. He approaches the board, makes a mark, then turns toward her.",
+      "design": "Shallow focus keeps the researcher foreground soft and the visitor/board visible.",
+      "purpose": "Make the intrusion and apparent appropriation visible.",
+      "evidence": "1 fps source samples in 11–21s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V02"
+    },
+    {
+      "start": 21,
+      "end": 30.749,
+      "action": "A wide view returns with They all steal your ideas, then Except Venice. The Venice name and Private, Unrestricted AI descriptor replace the sentence.",
+      "design": "White centered type on the green board; people remain below.",
+      "purpose": "Connect the staged scene to the privacy brand claim.",
+      "evidence": "1 fps source samples in 21–30.749s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V03"
+    }
+  ],
+  "categories": [
+    {
+      "id": "Q01",
+      "finding": "A person’s completed board work attracts an intruder who photographs and marks it; the ending frames Venice as the exception to idea theft.",
+      "evidence": "V01–V03",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q02",
+      "finding": "0s is black; 1–2s reveal a very wide chalkboard and small researcher. The unusual scale introduces effort but no product.",
+      "evidence": "V01",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q03",
+      "finding": "Privacy-conscious AI users are implied only at the 26s descriptor. Specific AI tasks are not established.",
+      "evidence": "V03",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q04",
+      "finding": "Human gestures and camera framing carry the action: glasses removed, phone raised, visitor closer to board, turn toward researcher. Exact camera travel is unresolved.",
+      "evidence": "V01,V02",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q05",
+      "finding": "Wide room, researcher close view, over-shoulder visitor and final wide view form the visible shot order. Exact cut instants are not checked.",
+      "evidence": "V01–V03",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q06",
+      "finding": "Muted green, warm light and dark wood give the room a serious academic feel; footage provenance is unknown.",
+      "evidence": "V01,V02",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q07",
+      "finding": "No explanatory text interrupts the scene; the final three text states carry the brand argument. The script wordmark differs from plain claim text.",
+      "evidence": "V03",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q08",
+      "finding": "Voice delivery is unverified.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "No validated listening.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q09",
+      "finding": "Music character and structure are unverified.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "No validated listening.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q10",
+      "finding": "Effects and their sources are unverified.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "No validated listening; waveform peaks do not identify effects.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q11",
+      "finding": "Sound sync is unverified.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "No validated listening or paired audiovisual timing.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q12",
+      "finding": "The entire film uses a staged-looking lecture-room scene and end titles. Whether captured or generated is unknown.",
+      "evidence": "V01–V03",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q13",
+      "finding": "Source duration 30.749 s; Watch metadata 1920 × 1080. Frame rate, audio clipping and export quality not checked here.",
+      "evidence": "Whole film",
+      "status": "supported",
+      "reason": "Parent source metadata supports duration and dimensions; visual review is sampled.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q14",
+      "finding": "The photographing action and final claim establish the metaphor silently. The actual AI service is only named in the final descriptor.",
+      "evidence": "V02,V03",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q15",
+      "finding": "The wide board establishes scale; closer facial and shoulder views shift attention to the visitor’s phone and writing hand.",
+      "evidence": "V01,V02",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q16",
+      "finding": "The film carries one metaphor with very little text. It leaves ample time for the action but almost none for practical product explanation.",
+      "evidence": "V01–V03",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q17",
+      "finding": "The opening establishes authored work; the intrusion and privacy claim pay off that concern. There is no demonstrated product solution.",
+      "evidence": "V01–V03",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q18",
+      "finding": "The glasses and face gesture suggest effort or fatigue; the intruder is framed to provoke unease. These are interpretations, not established feelings.",
+      "evidence": "V01,V02",
+      "status": "uncertain",
+      "reason": "Actor state and viewer response are not independently known.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q19",
+      "finding": "One board and two people stay in the same room throughout, making the metaphor easy to follow.",
+      "evidence": "V01–V03",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q20",
+      "finding": "Private, unrestricted AI is a claim. The staged action supplies a metaphor and no evidence of data handling.",
+      "evidence": "V03",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q21",
+      "finding": "The chalkboard metaphor is memorable, but without the final name and AI line it could advertise other privacy products.",
+      "evidence": "V01–V03",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q22",
+      "finding": "Every shot advances one intrusion story. A short real privacy control after the claim would add practical proof.",
+      "evidence": "V01–V03",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "Append one clearly labeled product control rather than adding more metaphor."
+    },
+    {
+      "id": "Q23",
+      "finding": "For Tin ownership messaging, use one campaign draft being copied as a short metaphor, then show an actual sharing/access control.",
+      "evidence": "V02,V03",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "Keep the metaphor under ten seconds and prove the setting in a real UI state."
+    },
+    {
+      "id": "Q24",
+      "finding": "No human new-viewer test was performed.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "The product summary is this model’s film-only reading.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q25",
+      "finding": "Mobile preview and accessibility checks were not performed.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "Contact sheets are evidence views, not a stated mobile preview or compliance test.",
+      "experiment": "none"
+    }
+  ],
+  "elements": [
+    {
+      "kind": "motion",
+      "name": "human action",
+      "events": [
+        "V01",
+        "V02"
+      ]
+    },
+    {
+      "kind": "motion",
+      "name": "shot scale change",
+      "events": [
+        "V01",
+        "V02",
+        "V03"
+      ]
+    },
+    {
+      "kind": "texture",
+      "name": "chalkboard",
+      "events": [
+        "V01",
+        "V02",
+        "V03"
+      ]
+    }
+  ],
+  "lessons": {
+    "keep": "Use one concrete physical action to explain an abstract data concern.",
+    "try": [
+      "For Tin access controls, show a campaign draft being copied, then cut to the exact permission setting that controls sharing.",
+      "Test an opening on the phone photographing the board, followed by the owner reaction and product claim, to shorten time to the central issue."
+    ],
+    "avoid": "Treating a privacy metaphor as evidence of actual privacy protection.",
+    "open": "Actual privacy behavior, scene production method, sound and audience interpretation remain unverified."
+  },
+  "comparison": {
+    "story": "Researcher and work → intrusive photographing/marking → privacy claim.",
+    "motion": "Human action and wide/close shot progression; no exact camera path claims.",
+    "sound": "No validated listening; silence, dialogue, music and effects unknown.",
+    "texture": "Warm academic room, green board and shallow focus; provenance unknown.",
+    "lesson": "A single physical metaphor can carry an abstract claim, but still needs product proof."
+  },
+  "reviewer_model": "gpt-6-astra",
+  "scope": "sampled visual and story review; ASR and measured signal support; no validated audio listening",
+  "closer_windows": [],
+  "sound": [
+    {
+      "id": "A01",
+      "start": 0,
+      "end": 30.749,
+      "layer": "unknown",
+      "detail": "No validated audio listening. Voice delivery, music, effects and mix are unknown.",
+      "visual_relation": "All scenes; sound alignment unverified",
+      "evidence": "No actual audio perception in this review; prepared audio files are not listening evidence."
+    }
+  ]
+}

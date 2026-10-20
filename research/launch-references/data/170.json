@@ -1,0 +1,340 @@
+{
+  "id": 170,
+  "product_from_film": "Clipping Hall of Fame presents training and access for people seeking a career making and distributing short clips.",
+  "explains_well": "The course screens, clipping terminology and final Join Now card identify a beginner-to-clipper offer.",
+  "unclear": "The film emphasizes reach and income but does not show one lesson producing a better clip or explain the joining requirements.",
+  "product_type": "clipping education and community offer",
+  "scenario": "A fast montage frames attention and distribution as valuable, lists earning/access problems, then introduces course content and a career promise.",
+  "product_clear_time": 29,
+  "product_clear_basis": "Course cards including How to Edit Videos That Actually Get Views appear at 29s and connect the brand to training.",
+  "scenes": [
+    {
+      "start": 0,
+      "end": 10,
+      "action": "Attention is the new currency leads to view-count imagery, money, a screen figure, clip thumbnails and a Clipping Hall of Fame social profile before All Curated.",
+      "design": "Dark montage, white/red type, money imagery and tilted screen panels.",
+      "purpose": "Establish attention and reach as valuable.",
+      "evidence": "1 fps source samples in 0–10s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V01"
+    },
+    {
+      "start": 10,
+      "end": 17,
+      "action": "A lone figure accompanies launching a brand or creator into the public eye; clip cards sit beside Great Content doesnt win and Distribution does.",
+      "design": "Pale figure scene gives way to black space and floating video cards.",
+      "purpose": "State distribution as the key problem.",
+      "evidence": "1 fps source samples in 10–17s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V02"
+    },
+    {
+      "start": 17,
+      "end": 23,
+      "action": "Cracked overlays charts, then earnings screens and a follower-minimum rejection appear with inconsistent-payout wording.",
+      "design": "Orange distorted type, small metrics and large rejection message.",
+      "purpose": "Name barriers for aspiring clippers.",
+      "evidence": "1 fps source samples in 17–23s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V03"
+    },
+    {
+      "start": 23,
+      "end": 32,
+      "action": "A dramatic screen between piles of money reveals a course-like card, then a dark channel/list view and red lesson panels including How to Edit Videos That Actually Get Views.",
+      "design": "Perspective screens, dark interface rows and red/white course cards.",
+      "purpose": "Introduce the training offer and beginner transformation.",
+      "evidence": "1 fps source samples in 23–32s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V04"
+    },
+    {
+      "start": 32,
+      "end": 42,
+      "action": "Creator clips and payment-message imagery lead to from Square One, building a career CLIPPING and within a month after joining over a calendar.",
+      "design": "Large white/red text, money and calendar dates.",
+      "purpose": "Present access, earnings and timeline promises.",
+      "evidence": "1 fps source samples in 32–42s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V05"
+    },
+    {
+      "start": 42,
+      "end": 45.674,
+      "action": "Become a Hall of Famer and a Join Now button hold beside a gold clapperboard.",
+      "design": "Red background, gold object and white button.",
+      "purpose": "End with an explicit enrollment action.",
+      "evidence": "1 fps source samples in 42–45.674s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V06"
+    }
+  ],
+  "sound": [
+    {
+      "id": "A01",
+      "start": 0,
+      "end": 45.674,
+      "layer": "ASR draft / unknown",
+      "detail": "The draft argues that distribution matters, lists low CPMs, inconsistent payouts and gated access, then describes training anyone into a clipper and a career within a month. Early phrases are garbled. These are script claims, not validated outcomes; no direct listening.",
+      "visual_relation": "V01–V06; broad argument aligns with visible text, audible timing/delivery unverified.",
+      "evidence": "technical-review-2026-10-19/deep-review/audio/170-speech.json; local faster-whisper draft inspected."
+    }
+  ],
+  "categories": [
+    {
+      "id": "Q01",
+      "finding": "Attention value → distribution argument → earning/access barriers → course reveal → career promise → join CTA.",
+      "evidence": "V01–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q02",
+      "finding": "ATTENTION fills the opening, followed immediately by currency wording, view counts and money imagery.",
+      "evidence": "V01",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q03",
+      "finding": "The course panels at 29s clarify the education offer for aspiring clippers; the earlier montage mainly sells attention and distribution.",
+      "evidence": "V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q04",
+      "finding": "Scaled/tilted screen states, changing view figures, distorted type and moving-looking card arrangements are sampled; exact trajectories/easing remain unverified.",
+      "evidence": "V01–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q05",
+      "finding": "Video cards connect attention claims to the course, while recurring money imagery connects the opening to the career promise.",
+      "evidence": "V01,V04,V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q06",
+      "finding": "Dark teal/black screens, red highlights and gold money/clapper imagery give a strong promotional look.",
+      "evidence": "V01–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q07",
+      "finding": "Large words state the thesis and CTA; earnings details, course rows and eligibility context are much smaller.",
+      "evidence": "V01,V03–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q08",
+      "finding": "The draft supports the distribution/training argument but has garbled opening phrases; delivery, music and effects remain unassessed.",
+      "evidence": "A01",
+      "status": "uncertain",
+      "reason": "ASR text only, no validated listening.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q09",
+      "finding": "Music character and structure are unverified.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "No validated listening.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q10",
+      "finding": "Effects and their sources are unverified.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "No validated listening; waveform peaks do not identify effects.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q11",
+      "finding": "Sound sync is unverified.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "No validated listening or paired audiovisual timing.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q12",
+      "finding": "Creator clips, social/payment screenshots and stylized perspective panels are mixed; asset origin and production method are unverified.",
+      "evidence": "V01–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q13",
+      "finding": "Source duration 45.674 s; Watch metadata 1280 × 720. Frame rate, audio clipping and export quality not checked here.",
+      "evidence": "Whole film",
+      "status": "supported",
+      "reason": "Parent source metadata supports duration and dimensions; visual review is sampled.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q14",
+      "finding": "The clipping-career offer and Join Now action are readable silently; the practical training process is not demonstrated.",
+      "evidence": "V04–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q15",
+      "finding": "Large red/white promises dominate while supporting screenshots sit behind or within moving-looking layouts.",
+      "evidence": "V01,V03,V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q16",
+      "finding": "The offer itself arrives after a long attention/distribution setup; the final 14s emphasize transformation and joining.",
+      "evidence": "V01–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q17",
+      "finding": "Attention-as-currency returns as a clipping-career promise, but no before/after clip shows the claimed skill gain.",
+      "evidence": "V01,V04,V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q18",
+      "finding": "View counts, cash and career language may create aspiration and urgency; viewer reaction is unmeasured.",
+      "evidence": "V01,V05",
+      "status": "uncertain",
+      "reason": "Interpretation of copy and imagery.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q19",
+      "finding": "Repeated clips, revenue imagery and bold type hold the montage together; no single learner or asset is tracked.",
+      "evidence": "V01–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q20",
+      "finding": "Income, access and within-a-month career statements are film claims. Screenshots do not establish typical results or attribution to the program.",
+      "evidence": "V03,V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q21",
+      "finding": "Hall of Fame language and gold clapperboard connect training with status; actual teaching content would distinguish the service more clearly.",
+      "evidence": "V04,V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q22",
+      "finding": "Use one short lesson and clip improvement to demonstrate the promised learning.",
+      "evidence": "V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "Show a raw clip, one taught edit and the revised version before returning to the Join Now card."
+    },
+    {
+      "id": "Q23",
+      "finding": "For Tin, show a visible improvement instead of relying on reach or revenue screenshots.",
+      "evidence": "V03–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "Compare the same campaign asset before and after one agent-guided change, with the brief requirement visible."
+    },
+    {
+      "id": "Q24",
+      "finding": "No human new-viewer test was performed.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "The product summary is this model’s film-only reading.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q25",
+      "finding": "Mobile preview and accessibility checks were not performed.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "Contact sheets are evidence views, not a stated mobile preview or compliance test.",
+      "experiment": "none"
+    }
+  ],
+  "elements": [
+    {
+      "kind": "ui",
+      "name": "social profile",
+      "events": [
+        "V01"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "earnings screen",
+      "events": [
+        "V03"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "course cards",
+      "events": [
+        "V04"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "calendar",
+      "events": [
+        "V05"
+      ]
+    },
+    {
+      "kind": "motion",
+      "name": "perspective card montage",
+      "events": [
+        "V01",
+        "V04"
+      ]
+    }
+  ],
+  "lessons": {
+    "keep": "Make the final enrollment action large and visually consistent with the course identity.",
+    "try": [
+      "Demonstrate a raw clip, one lesson step and the revised clip before the CTA.",
+      "For Tin, compare the same campaign asset before and after one guided change against its brief."
+    ],
+    "avoid": "Using aspirational earnings imagery as the only evidence of learning value.",
+    "open": "Lesson quality, joining requirements, typical outcomes, claim attribution, asset provenance and audio remain unverified."
+  },
+  "comparison": {
+    "story": "Attention thesis → distribution barriers → course → career aspiration → join.",
+    "motion": "Perspective cards and changing kinetic type states; exact easing unverified.",
+    "sound": "ASR supports script claims; no validated listening.",
+    "texture": "Dark screens, red/white type, money and gold clapperboard.",
+    "lesson": "A training launch needs one visible learning result to support its career promise."
+  },
+  "reviewer_model": "gpt-6-astra",
+  "scope": "sampled visual and story review; ASR and measured signal support; no validated audio listening",
+  "viewed_evidence": [
+    "technical-review-2026-10-19/deep-review/motion/170/timeline-00.jpg",
+    "technical-review-2026-10-19/deep-review/motion/170/timeline-01.jpg"
+  ],
+  "closer_windows": []
+}

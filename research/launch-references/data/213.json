@@ -1,0 +1,341 @@
+{
+  "id": 213,
+  "reviewer_model": "gpt-6-astra",
+  "scope": "sampled visual and story review; ASR and measured signal support; no validated audio listening",
+  "viewed_evidence": [
+    "technical-review-2026-10-19/deep-review/motion/213/timeline-00.jpg",
+    "technical-review-2026-10-19/deep-review/motion/213/timeline-01.jpg",
+    "technical-review-2026-10-19/deep-review/audio/213-speech.json"
+  ],
+  "closer_windows": [],
+  "product_from_film": "Transload presents freight measurement, location and damage detection from existing security-camera views.",
+  "explains_well": "The same warehouse view becomes a wireframe model, then a highlighted object receives dimensions.",
+  "unclear": "The film does not show how a measured shipment becomes a usable record or a staff decision.",
+  "product_type": "warehouse vision",
+  "scenario": "Measure freight from a security-camera view.",
+  "product_clear_time": 21,
+  "product_clear_basis": "The automatic-measurement statement is followed by a highlighted security-camera unit.",
+  "scenes": [
+    {
+      "id": "V01",
+      "start": 0,
+      "end": 11,
+      "action": "Three presenters in orange vests stand on a raised platform among freight. Large trucks/millions/carriers words and moving warehouse views lead to a grid of cargo types and a bright flash-like frame.",
+      "design": "Cool warehouse tones, orange vests and large white words.",
+      "purpose": "Establish freight scale and variety.",
+      "evidence": "Visible chronological 1 fps samples, source 0–11s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V02",
+      "start": 11,
+      "end": 24,
+      "action": "A presenter crouches by a pallet as another sits on handling equipment. A wider presenter shot states automatic measurement; a camera unit is highlighted red.",
+      "design": "Physical pallet context, large captions and camera close-up.",
+      "purpose": "Contrast manual measurement with camera-based capture.",
+      "evidence": "Visible chronological 1 fps samples, source 11–24s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V03",
+      "start": 24,
+      "end": 36,
+      "action": "The three presenters walk toward camera, then a high security-camera view appears. Cargo, people and equipment become outlined wireframes on a dark background.",
+      "design": "CAM 1 overlay, white wireframe geometry and point field.",
+      "purpose": "Explain 2D view becoming a spatial model.",
+      "evidence": "Visible chronological 1 fps samples, source 24–36s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V04",
+      "start": 36,
+      "end": 48,
+      "action": "A long freight item gains an orange bounding box with dimension labels. The model expands to many orange boxes, a location pin and a red warning region under camera cones.",
+      "design": "Orange measured volumes, white scene outlines and red alert.",
+      "purpose": "Show dimensions, position and damage-detection concepts.",
+      "evidence": "Visible chronological 1 fps samples, source 36–48s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V05",
+      "start": 48,
+      "end": 57.982,
+      "action": "The team emerges from loading bays, poses together and receives an orange Transload wordmark overlay. The logo holds on black and fades.",
+      "design": "Orange brand aligned with safety vests.",
+      "purpose": "Close with the team and product identity.",
+      "evidence": "Visible chronological 1 fps samples, source 48–57.982s; boundary approximate; exact motion between samples unverified."
+    }
+  ],
+  "sound": [
+    {
+      "id": "A01",
+      "start": 0,
+      "end": 57.982,
+      "layer": "unknown",
+      "detail": "No validated direct audio listening was performed. Music, speech delivery, effects, mix and sync remain unknown, not absent.",
+      "visual_relation": "All visual scenes; audiovisual alignment unverified",
+      "evidence": "Visual samples only; no actual audio range supplied to this reviewer."
+    },
+    {
+      "id": "A02",
+      "start": 0.49,
+      "end": 53.59,
+      "layer": "ASR draft",
+      "detail": "ASR draft supports freight-size pricing, insufficient time for manual measurement, existing-camera input and 3D measurement/location/damage outputs. Product and freight terms are misrecognized in places. It supports the script structure only; delivery, music and effects were not heard.",
+      "visual_relation": "Story text support; exact audiovisual alignment and delivery unverified.",
+      "evidence": "technical-review-2026-10-19/deep-review/audio/213-speech.json; local faster-whisper base CPU int8 draft; VAD candidates only, recognition errors possible."
+    }
+  ],
+  "categories": [
+    {
+      "id": "Q01",
+      "finding": "Freight pricing and measurement burden lead to existing-camera capture, a spatial model and measurement/location/alert outputs.",
+      "evidence": "V01–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q02",
+      "finding": "Presenters in a lift among cargo establish a real warehouse setting; large TRUCKS text starts the explanation.",
+      "evidence": "V01",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q03",
+      "finding": "Automatic freight measurement is stated by 18 s and the camera input appears at 21 s.",
+      "evidence": "V02",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q04",
+      "finding": "The camera view changes into white wireframes, selected volumes become orange and the view expands across multiple objects; exact morph continuity is unverified.",
+      "evidence": "V03,V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q05",
+      "finding": "The same high warehouse composition gives a strong visual bridge from camera image to model.",
+      "evidence": "V03",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q06",
+      "finding": "Cool warehouse imagery contrasts with orange clothing and analytic boxes, creating a consistent highlight color.",
+      "evidence": "V01–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q07",
+      "finding": "Large topic words are clear; dimension labels are smaller and not carried into a readable output record.",
+      "evidence": "V02,V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q08",
+      "finding": "ASR draft supports freight-size pricing, insufficient time for manual measurement, existing-camera input and 3D measurement/location/damage outputs. Product and freight terms are misrecognized in places. It supports the script structure only; delivery, music and effects were not heard.",
+      "evidence": "A02",
+      "status": "uncertain",
+      "reason": "ASR text only; no validated listening, delivery or voice origin.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q09",
+      "finding": "Voice delivery, music, effects and audiovisual alignment were not established by this visual pass.",
+      "evidence": "A01",
+      "status": "not checked",
+      "reason": "No validated direct audio listening input.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q10",
+      "finding": "Voice delivery, music, effects and audiovisual alignment were not established by this visual pass.",
+      "evidence": "A01",
+      "status": "not checked",
+      "reason": "No validated direct audio listening input.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q11",
+      "finding": "Voice delivery, music, effects and audiovisual alignment were not established by this visual pass.",
+      "evidence": "A01",
+      "status": "not checked",
+      "reason": "No validated direct audio listening input.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q12",
+      "finding": "Warehouse presenters and cargo footage are combined with camera overlays and spatial graphics; actual model-output provenance is unknown.",
+      "evidence": "V01–V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q13",
+      "finding": "Manifest duration 57.982s; indexed dimensions 1920×1080. Source unchanged flag recorded; fresh encoding and audio clipping checks not run.",
+      "evidence": "Group manifest",
+      "status": "uncertain",
+      "reason": "Inherited technical metadata; no fresh media probe in this review.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q14",
+      "finding": "Camera, wireframe and bounding-box progression explains the broad mechanism visually; pricing context relies on the ASR draft.",
+      "evidence": "V03,V04,A02",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q15",
+      "finding": "Orange boxes isolate relevant freight from the white wireframe environment; a pin and red alert add secondary tasks.",
+      "evidence": "V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q16",
+      "finding": "The middle demonstration gives roughly 19 s to spatial reconstruction and outputs; the final action after detection remains unstated.",
+      "evidence": "V03,V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q17",
+      "finding": "The opening measurement burden is answered with an automatic bounding-box illustration, though no operational record follows.",
+      "evidence": "V02,V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q18",
+      "finding": "Confident presenters and a clean spatial model frame a messy warehouse as understandable and manageable.",
+      "evidence": "V02–V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q19",
+      "finding": "Safety-vest orange becomes measurement orange, and recognizable warehouse objects persist into the model.",
+      "evidence": "V01–V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q20",
+      "finding": "The graphic demonstrates the intended outputs but does not establish measurement accuracy, coverage or damage-detection reliability.",
+      "evidence": "V03,V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q21",
+      "finding": "Freight shapes, camera geometry and pallet dimensions make the story specific to warehouse operations.",
+      "evidence": "V02–V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q22",
+      "finding": "Add a shipment record with dimensions and the staff action it enables after the bounding-box scene.",
+      "evidence": "V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q23",
+      "finding": "Tin can turn a familiar raw input into a structured view while preserving the same arrangement, then show the output record and next action.",
+      "evidence": "V03,V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q24",
+      "finding": "Transload presents freight measurement, location and damage detection from existing security-camera views.",
+      "evidence": "Model reading from inspected images",
+      "status": "uncertain",
+      "reason": "Model-only new-viewer interpretation; no human test.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q25",
+      "finding": "Contact sheets inspected at displayed size; a phone-size playback, caption audit, flash audit and formal accessibility check were not performed.",
+      "evidence": "Viewed sheets",
+      "status": "not checked",
+      "reason": "Full-size moving-image and device checks unavailable in this pass.",
+      "experiment": "none"
+    }
+  ],
+  "lessons": {
+    "keep": "Preserve the input scene layout when revealing its structured interpretation.",
+    "avoid": "Avoid ending at an attractive analytic overlay without showing how people use its output.",
+    "open": "Measurement accuracy, live model behavior, damage classification, output workflow, flash intensity and all audio delivery remain unverified.",
+    "try": [
+      "For Tin, turn one ad screenshot into labeled creative fields without changing its layout.",
+      "Follow a highlighted detected issue into the actual task or approval record it creates."
+    ]
+  },
+  "comparison": {
+    "story": "Establish freight scale and variety. → Contrast manual measurement with camera-based capture. → Explain 2D view becoming a spatial model. → Show dimensions, position and damage-detection concepts. → Close with the team and product identity.",
+    "motion": "The camera view changes into white wireframes, selected volumes become orange and the view expands across multiple objects; exact morph continuity is unverified. Sampling scope: 1 fps unless a closer window is recorded.",
+    "sound": "No validated listening; unknown.",
+    "texture": "Cool warehouse tones, orange vests and large white words.; Physical pallet context, large captions and camera close-up.; CAM 1 overlay, white wireframe geometry and point field.; Orange measured volumes, white scene outlines and red alert.; Orange brand aligned with safety vests.",
+    "lesson": "Preserve the input scene layout when revealing its structured interpretation."
+  },
+  "elements": [
+    {
+      "kind": "ui",
+      "name": "security camera view",
+      "events": [
+        "V03"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "dimension labels",
+      "events": [
+        "V04"
+      ]
+    },
+    {
+      "kind": "motion",
+      "name": "camera view becomes wireframe",
+      "events": [
+        "V03"
+      ]
+    },
+    {
+      "kind": "motion",
+      "name": "bounding box highlight",
+      "events": [
+        "V04"
+      ]
+    },
+    {
+      "kind": "texture",
+      "name": "warehouse footage",
+      "events": [
+        "V01",
+        "V02"
+      ]
+    }
+  ]
+}

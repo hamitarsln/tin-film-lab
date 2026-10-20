@@ -1,0 +1,357 @@
+{
+  "id": 322,
+  "product_from_film": "InviscidAI builds physics-based digital twins for airflow and thermal simulation in facilities.",
+  "explains_well": "A real room beside its colored simulation connects the digital-twin term to a visible space, followed by airflow and heat views.",
+  "unclear": "The film shows changing simulation fields but no specific facility change leading to an alert, recommended action and improved state.",
+  "product_type": "Real-time thermal and airflow simulation",
+  "scenario": "Founders explain slow simulation and changing conditions, show digital-twin screens, then claim faster prediction and broad industrial uses.",
+  "product_clear_time": 36,
+  "product_clear_basis": "A room/simulation pair and captions explicitly name a real-time physics-based digital twin at 36–39s.",
+  "scenes": [
+    {
+      "start": 0,
+      "end": 6,
+      "action": "A thermal-looking server-rack view changes color and develops a bright hot region. A founder appears beside a fireplace as captions compare 60-second failure with up to 60-hour simulation.",
+      "design": "False-color heat imagery followed by warm founder setting.",
+      "purpose": "Establish a speed mismatch claim.",
+      "evidence": "1 fps source samples in 0–6s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V01"
+    },
+    {
+      "start": 6,
+      "end": 23,
+      "action": "The founder explains cooling-dependent facilities, one-time design simulation and later rule-of-thumb decisions.",
+      "design": "Stable seated shot, name label and highlighted subtitle words.",
+      "purpose": "Explain the operational problem.",
+      "evidence": "1 fps source samples in 6–23s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V02"
+    },
+    {
+      "start": 23,
+      "end": 36,
+      "action": "People move through a server room; the founder explains shifting conditions and slow traditional simulation before naming InviscidAI.",
+      "design": "Facility footage alternates with the founder.",
+      "purpose": "Connect physical changes to the need for updates.",
+      "evidence": "1 fps source samples in 23–36s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V03"
+    },
+    {
+      "start": 36,
+      "end": 40,
+      "action": "A room image sits beside a colored 3D simulation under People movement simulated in real time.",
+      "design": "Side-by-side physical and digital views on black.",
+      "purpose": "Make the digital-twin concept visible.",
+      "evidence": "1 fps source samples in 36–40s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V04"
+    },
+    {
+      "start": 40,
+      "end": 58,
+      "action": "A second founder explains the solver. Airflow streamlines and colored heat regions appear in a dashboard, followed by an accuracy bar chart and a thousand-times-faster claim.",
+      "design": "Dark simulation UI, technical chart and separate founder shot.",
+      "purpose": "Explain approach and claimed performance.",
+      "evidence": "1 fps source samples in 40–58s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V05"
+    },
+    {
+      "start": 58,
+      "end": 65,
+      "action": "The first founder introduces failure prevention. A simulation screen changes patterned heat fields under Test thousands of designs at once.",
+      "design": "Colored field view and parameter panels.",
+      "purpose": "Present design exploration and prevention benefits.",
+      "evidence": "1 fps source samples in 58–65s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V06"
+    },
+    {
+      "start": 65,
+      "end": 79,
+      "action": "The founder and facility images name data centers, cold storage, factories and EV batteries, then invite viewers to inviscidai.com.",
+      "design": "Industrial clips and recurring seated founder.",
+      "purpose": "Broaden applications and provide destination.",
+      "evidence": "1 fps source samples in 65–79s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V07"
+    },
+    {
+      "start": 79,
+      "end": 82.466,
+      "action": "InviscidAI mark and URL hold on black.",
+      "design": "Minimal identity close.",
+      "purpose": "End on brand.",
+      "evidence": "1 fps source samples in 79–82.466s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V08"
+    }
+  ],
+  "sound": [
+    {
+      "id": "A01",
+      "start": 0,
+      "end": 82.466,
+      "layer": "script support only",
+      "detail": "ASR broadly supports the simulation-speed problem, digital twin, GPU/physics models and industrial applications. Several technical terms are garbled; captions resolve thermal, cold storage and Navier–Stokes wording. No voice delivery, music, effects or synchronization was heard or verified.",
+      "visual_relation": "V01–V08; captions and draft explain the technical screens.",
+      "evidence": "322-speech.json draft and chronological captioned frames."
+    }
+  ],
+  "categories": [
+    {
+      "id": "Q01",
+      "finding": "Failure/simulation speed mismatch → changing facilities → digital twin → solver/performance → uses/CTA.",
+      "evidence": "V01–V08",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q02",
+      "finding": "A thermal-looking rack and large time contrast make the problem concrete before the founder explanation.",
+      "evidence": "V01",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q03",
+      "finding": "Operators and engineers of cooling-dependent facilities are the stated audience.",
+      "evidence": "V02,V07",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q04",
+      "finding": "Heat colors, airflow lines and simulation field states change; exact update timing and real-time correspondence are unverified.",
+      "evidence": "V01,V04–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q05",
+      "finding": "Founder footage alternates with problem footage and technical demonstrations; the physical/digital pair is the clearest conceptual bridge.",
+      "evidence": "V03–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q06",
+      "finding": "Warm founder settings contrast with cool blue/purple simulation views and bright heat colors.",
+      "evidence": "V01–V07",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q07",
+      "finding": "Highlighted subtitle words and screen headings guide the explanation; small simulation metrics and benchmark labels are harder to read.",
+      "evidence": "V01–V07",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q08",
+      "finding": "ASR supports the main explanation with technical transcription errors; captions are preferred. Delivery is unknown.",
+      "evidence": "A01",
+      "status": "uncertain",
+      "reason": "Text support only.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q09",
+      "finding": "Music character and structure are unverified.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "No validated listening.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q10",
+      "finding": "Effects and their sources are unverified.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "No validated listening; waveform peaks do not identify effects.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q11",
+      "finding": "Sound sync is unverified.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "No validated listening or paired audiovisual timing.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q12",
+      "finding": "Founder footage, facility clips, false-color views and simulation dashboards are mixed. Production methods and source data are unverified.",
+      "evidence": "V01–V07",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q13",
+      "finding": "Source duration 82.466 s; Watch metadata 1920 × 1080. Frame rate, audio clipping and export quality not checked here.",
+      "evidence": "Whole film",
+      "status": "supported",
+      "reason": "Parent source metadata supports duration and dimensions; visual review is sampled.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q14",
+      "finding": "The room-to-model comparison explains digital twin visually; the precise solver and performance story depend on captions.",
+      "evidence": "V04,V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q15",
+      "finding": "Bright thermal regions and the side-by-side room/model direct attention to the relevant physical behavior.",
+      "evidence": "V01,V04,V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q16",
+      "finding": "The explanation takes about 36s to reach the product pair, then about 29s covers demonstrations and claims.",
+      "evidence": "V01–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q17",
+      "finding": "Simulation screens answer what the product looks like, but the opening failure risk is not resolved in a demonstrated operational action.",
+      "evidence": "V01,V04–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q18",
+      "finding": "The heat imagery suggests urgency and the founders offer reassurance; audience response is not measured.",
+      "evidence": "V01–V07",
+      "status": "uncertain",
+      "reason": "Visual and script interpretation only.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q19",
+      "finding": "Cooling and changing airflow remain the common thread across facilities and model views.",
+      "evidence": "V02–V07",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q20",
+      "finding": "Failure timing, simulation speed, accuracy, prevention and design-throughput statements are film claims. No solver validation or operational outcome was checked.",
+      "evidence": "V01,V05,V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q21",
+      "finding": "Putting a physical room beside its simulation is more explanatory than a standalone technical dashboard.",
+      "evidence": "V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q22",
+      "finding": "Show one changed condition and the decision it enables.",
+      "evidence": "V04–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "Move an obstruction or change a cooling setting, highlight the resulting hot spot, then show the selected correction."
+    },
+    {
+      "id": "Q23",
+      "finding": "For Tin, pair the real input with its system representation.",
+      "evidence": "V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "Place a live campaign preview beside the exact analysis finding and show the resulting edit."
+    },
+    {
+      "id": "Q24",
+      "finding": "No human new-viewer test was performed.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "The product summary is this model’s film-only reading.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q25",
+      "finding": "Mobile preview and accessibility checks were not performed.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "Contact sheets are evidence views, not a stated mobile preview or compliance test.",
+      "experiment": "none"
+    }
+  ],
+  "elements": [
+    {
+      "kind": "ui",
+      "name": "thermal simulation dashboard",
+      "events": [
+        "V04",
+        "V05",
+        "V06"
+      ]
+    },
+    {
+      "kind": "motion",
+      "name": "changing heat map",
+      "events": [
+        "V01",
+        "V04",
+        "V05",
+        "V06"
+      ]
+    },
+    {
+      "kind": "motion",
+      "name": "airflow streamlines",
+      "events": [
+        "V05"
+      ]
+    },
+    {
+      "kind": "texture",
+      "name": "industrial facility footage",
+      "events": [
+        "V03",
+        "V07"
+      ]
+    }
+  ],
+  "lessons": {
+    "keep": "Pair the physical space with its digital representation.",
+    "try": [
+      "Show one condition change, hot spot and selected correction.",
+      "For Tin, pair a campaign preview with the exact finding and resulting edit."
+    ],
+    "avoid": "Leaving the operational decision outside a prevention story.",
+    "open": "Real-time correspondence, solver accuracy, claimed speed and prevention outcomes, and audio qualities remain unverified."
+  },
+  "comparison": {
+    "story": "Slow simulation problem → live digital twin → performance and applications.",
+    "motion": "Changing thermal fields and airflow views amid founder footage.",
+    "sound": "ASR/caption support with technical errors; no validated listening.",
+    "texture": "Warm founder shots and bright false-color technical views.",
+    "lesson": "Physical/digital pairing explains the model; an action and improved state would explain its practical value."
+  },
+  "reviewer_model": "gpt-6-astra",
+  "scope": "sampled visual and story review; ASR and measured signal support; no validated audio listening",
+  "viewed_evidence": [
+    "technical-review-2026-10-19/deep-review/motion/322/timeline-00.jpg",
+    "technical-review-2026-10-19/deep-review/motion/322/timeline-01.jpg",
+    "technical-review-2026-10-19/deep-review/motion/322/timeline-02.jpg"
+  ],
+  "closer_windows": []
+}

@@ -1,0 +1,331 @@
+{
+  "id": 136,
+  "reviewer_model": "gpt-6-astra",
+  "scope": "sampled visual and story review; ASR and measured signal support; no validated audio listening",
+  "viewed_evidence": [
+    "technical-review-2026-10-19/deep-review/motion/136/timeline-00.jpg"
+  ],
+  "closer_windows": [],
+  "product_from_film": "Factory presents a software-factory view across planning, coding, validation, release and observation.",
+  "explains_well": "The lifecycle diagram is followed by a concrete dashboard with matching stages.",
+  "unclear": "Building or configuring the factory is promised but not demonstrated.",
+  "product_type": "software development automation",
+  "scenario": "Monitor an automated software development process across stages.",
+  "product_clear_time": 12,
+  "product_clear_basis": "Visualize your software factory across the entire SDLC precedes a matching dashboard.",
+  "scenes": [
+    {
+      "id": "V01",
+      "start": 0,
+      "end": 7,
+      "action": "A connected diagram links signal, triage, plan, code, test, review, ship and monitoring around archival-style machinery. Build your software factory appears with changing glyphs.",
+      "design": "Black/white with orange connectors, mechanical imagery and dot patterns.",
+      "purpose": "Introduce the factory metaphor.",
+      "evidence": "Visible chronological 1 fps samples, source 0–7s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V02",
+      "start": 7,
+      "end": 13,
+      "action": "PLAN, REVIEW and AUTOMATE lead to Visualize your software factory across the entire SDLC.",
+      "design": "Large type, dark dotted shapes and outlined radial logo.",
+      "purpose": "State workflow scope.",
+      "evidence": "Visible chronological 1 fps samples, source 7–13s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V03",
+      "start": 13,
+      "end": 21,
+      "action": "A dark dashboard expands into close views of signal, triage, code generation, validate, release, document, observe and deploy columns.",
+      "design": "Thin orange/green charts, small labels and large numeric summaries.",
+      "purpose": "Show the process overview.",
+      "evidence": "Visible chronological 1 fps samples, source 13–21s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V04",
+      "start": 21,
+      "end": 27,
+      "action": "Tickets triaged and PR validations panels fill the view; pointer tooltips appear on line charts before the whole dashboard returns.",
+      "design": "Paired line charts with precise tooltip boxes.",
+      "purpose": "Show inspectable operational detail.",
+      "evidence": "Visible chronological 1 fps samples, source 21–27s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V05",
+      "start": 27,
+      "end": 29.824,
+      "action": "Factory logo holds on black.",
+      "design": "White radial mark and uppercase wordmark.",
+      "purpose": "Close on brand.",
+      "evidence": "Visible chronological 1 fps samples, source 27–29.824s; boundary approximate; exact motion between samples unverified."
+    }
+  ],
+  "sound": [
+    {
+      "id": "A01",
+      "start": 0,
+      "end": 29.824,
+      "layer": "unknown",
+      "detail": "No validated direct audio listening was performed. Music, speech delivery, effects, mix and sync remain unknown, not absent.",
+      "visual_relation": "All visual scenes; audiovisual alignment unverified",
+      "evidence": "Visual samples only; no actual audio range supplied to this reviewer."
+    }
+  ],
+  "categories": [
+    {
+      "id": "Q01",
+      "finding": "A factory metaphor and lifecycle labels lead to a dashboard overview and chart inspection.",
+      "evidence": "V01–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q02",
+      "finding": "A connected process diagram over machinery makes the factory analogy explicit immediately.",
+      "evidence": "V01",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q03",
+      "finding": "The software lifecycle claim is clear by 12 s, and the following dashboard grounds it in monitoring.",
+      "evidence": "V02,V03",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q04",
+      "finding": "Typography alternates glyph states, dotted patterns change and the dashboard is enlarged and cropped; exact interpolation is unknown.",
+      "evidence": "V01–V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q05",
+      "finding": "The opening lifecycle labels return as dashboard columns, giving the abstraction a concrete destination.",
+      "evidence": "V01,V03",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q06",
+      "finding": "Orange accents and halftone-like patterns bridge mechanical imagery with a dark technical dashboard.",
+      "evidence": "V01–V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q07",
+      "finding": "Large verbs are easy to read; dense dashboard sublabels require slower viewing.",
+      "evidence": "V02–V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q08",
+      "finding": "Voice delivery, music, effects and audiovisual alignment were not established by this visual pass.",
+      "evidence": "A01",
+      "status": "not checked",
+      "reason": "No validated direct audio listening input.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q09",
+      "finding": "Voice delivery, music, effects and audiovisual alignment were not established by this visual pass.",
+      "evidence": "A01",
+      "status": "not checked",
+      "reason": "No validated direct audio listening input.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q10",
+      "finding": "Voice delivery, music, effects and audiovisual alignment were not established by this visual pass.",
+      "evidence": "A01",
+      "status": "not checked",
+      "reason": "No validated direct audio listening input.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q11",
+      "finding": "Voice delivery, music, effects and audiovisual alignment were not established by this visual pass.",
+      "evidence": "A01",
+      "status": "not checked",
+      "reason": "No validated direct audio listening input.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q12",
+      "finding": "Archival-style machinery, kinetic typography and interface capture/mockup are combined; production software is unknown.",
+      "evidence": "V01–V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q13",
+      "finding": "Manifest duration 29.824 s; indexed dimensions 1280×720. Source unchanged flag recorded; fresh encoding and audio clipping checks not run.",
+      "evidence": "Group manifest",
+      "status": "uncertain",
+      "reason": "Inherited technical metadata; no fresh media probe in this review.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q14",
+      "finding": "Lifecycle labels and dashboard metrics communicate the monitoring concept without sound.",
+      "evidence": "V01–V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q15",
+      "finding": "The view moves from whole dashboard to stage row, then two specific charts.",
+      "evidence": "V03,V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q16",
+      "finding": "Roughly half the 30 s film shows the dashboard; the opening brand-and-claim sequence takes about 13 s.",
+      "evidence": "V01–V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q17",
+      "finding": "The early process diagram pays off in a matching operational view, though factory setup is not shown.",
+      "evidence": "V01,V03",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q18",
+      "finding": "Visible stages and trend lines frame automation as observable and manageable; this is interpretation.",
+      "evidence": "V03,V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q19",
+      "finding": "Radial mark, orange accent and dark technical palette recur from graphic intro to dashboard and close.",
+      "evidence": "V01–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q20",
+      "finding": "Counts and tooltips are visible interface states; no data provenance or demonstrated automation run establishes their validity.",
+      "evidence": "V03,V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q21",
+      "finding": "Factory’s identity uses literal industrial imagery and lifecycle operations.",
+      "evidence": "V01–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q22",
+      "finding": "A single issue moving through stages could explain automation better than more aggregate metrics.",
+      "evidence": "V03,V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q23",
+      "finding": "Tin can map campaign stages to an operational dashboard, then inspect one real run behind a chart.",
+      "evidence": "V01,V03,V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q24",
+      "finding": "Factory presents a software-factory view across planning, coding, validation, release and observation.",
+      "evidence": "Model reading from inspected images",
+      "status": "uncertain",
+      "reason": "Model-only new-viewer interpretation; no human test.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q25",
+      "finding": "Black/white and glyph changes appear in sampled intro frames; full-rate flash behavior and small-screen dashboard readability remain unchecked.",
+      "evidence": "V01,V02",
+      "status": "uncertain",
+      "reason": "One-second samples cannot establish temporal accessibility.",
+      "experiment": "none"
+    }
+  ],
+  "lessons": {
+    "keep": "Let an opening process diagram reappear as real interface structure.",
+    "avoid": "Avoid equating impressive aggregate metrics with a proven automation workflow.",
+    "open": "Metric correctness, automation setup, real execution, full-rate effects and sound remain unverified.",
+    "try": [
+      "Map Tin research, draft, review, publish and report stages into one dashboard row.",
+      "Open one chart point to show a real campaign run, its approval and final output."
+    ]
+  },
+  "comparison": {
+    "story": "Introduce the factory metaphor. → State workflow scope. → Show the process overview. → Show inspectable operational detail. → Close on brand.",
+    "motion": "Typography alternates glyph states, dotted patterns change and the dashboard is enlarged and cropped; exact interpolation is unknown. Sampling scope: 1 fps unless a closer window is recorded.",
+    "sound": "No validated listening; unknown.",
+    "texture": "Black/white with orange connectors, mechanical imagery and dot patterns.; Large type, dark dotted shapes and outlined radial logo.; Thin orange/green charts, small labels and large numeric summaries.; Paired line charts with precise tooltip boxes.; White radial mark and uppercase wordmark.",
+    "lesson": "Let an opening process diagram reappear as real interface structure."
+  },
+  "elements": [
+    {
+      "kind": "ui",
+      "name": "dashboard",
+      "events": [
+        "V03"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "line chart",
+      "events": [
+        "V04"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "chart tooltip",
+      "events": [
+        "V04"
+      ]
+    },
+    {
+      "kind": "motion",
+      "name": "changing typography",
+      "events": [
+        "V01",
+        "V02"
+      ]
+    },
+    {
+      "kind": "texture",
+      "name": "dot pattern",
+      "events": [
+        "V01",
+        "V02"
+      ]
+    }
+  ]
+}

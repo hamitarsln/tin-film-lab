@@ -1,0 +1,336 @@
+{
+  "id": 410,
+  "product_from_film": "Telis is positioned as an answer to fragmented cross-chain capital movement, but the product mechanism is not shown.",
+  "explains_well": "Large words and repeated film scenes emphasize chains, rules, assets and bridging as the problem.",
+  "unclear": "No source asset, destination, user action or completed transfer explains what Telis actually does.",
+  "product_type": "Cross-chain finance teaser",
+  "scenario": "Present fragmented capital markets as a problem and reveal the Telis brand.",
+  "product_clear_time": null,
+  "product_clear_basis": "The film names the problem and brand but never establishes a concrete product action.",
+  "scenes": [
+    {
+      "start": 0,
+      "end": 10,
+      "action": "A podium speech view is followed by layered headlines about internet capital markets.",
+      "design": "Official-looking backdrop, flags and blurred text crops.",
+      "purpose": "Set a finance context.",
+      "evidence": "1 fps source samples in 0–10s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V01"
+    },
+    {
+      "start": 10,
+      "end": 17,
+      "action": "Office meeting clips carry chain, operability and solvers words.",
+      "design": "Large white words over suited characters.",
+      "purpose": "Dismiss existing approaches in the ASR draft.",
+      "evidence": "1 fps source samples in 10–17s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V02"
+    },
+    {
+      "start": 17,
+      "end": 29,
+      "action": "Dark social, office and auditorium scenes carry siloed, dozens, chains, rules, assets, points and bridging terms; one image breaks into a grid.",
+      "design": "High-contrast captions and cropped cinematic scenes.",
+      "purpose": "Describe fragmentation and dissatisfaction.",
+      "evidence": "1 fps source samples in 17–29s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V03"
+    },
+    {
+      "start": 29,
+      "end": 34,
+      "action": "Keyboard, laptop and equations lead to a group around a seated person; welcome appears.",
+      "design": "Dark computer-work montage.",
+      "purpose": "Prepare a new solution reveal.",
+      "evidence": "1 fps source samples in 29–34s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V04"
+    },
+    {
+      "start": 34,
+      "end": 40,
+      "action": "If you could teleport instantly and shorter phrase fragments appear over smiling group shots; the Telis mark follows.",
+      "design": "Small white text and celebratory-looking scene.",
+      "purpose": "Introduce the teleport metaphor and brand.",
+      "evidence": "1 fps source samples in 34–40s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V05"
+    },
+    {
+      "start": 40,
+      "end": 44.24,
+      "action": "Telis grows from small to large on black and holds.",
+      "design": "White wordmark.",
+      "purpose": "End on identity.",
+      "evidence": "1 fps source samples in 40–44.24s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V06"
+    }
+  ],
+  "sound": [
+    {
+      "id": "A01",
+      "start": 0,
+      "end": 44.24,
+      "layer": "ASR draft",
+      "detail": "Draft describes fragmented capital markets, dismisses bridges/interoperability/solvers with profanity, and introduces Telis. Some inserted dialogue is ambiguous. The draft does not establish the original speakers, authenticity, vocal delivery, music or SFX.",
+      "visual_relation": "V01–V05; picture/voice provenance and sync unverified.",
+      "evidence": "410-speech.json local draft; no validated audio listening."
+    }
+  ],
+  "categories": [
+    {
+      "id": "Q01",
+      "finding": "Fragmented-market problem → rejection of current approaches → computer-work montage → teleport metaphor → brand.",
+      "evidence": "V01–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q02",
+      "finding": "A suited person at an official-looking podium establishes financial authority imagery; the product is absent.",
+      "evidence": "V01",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q03",
+      "finding": "The vocabulary targets a crypto/cross-chain-aware audience; a new viewer gets no concrete transfer explanation.",
+      "evidence": "V01–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q04",
+      "finding": "Text scales and changes, headline crops blur, a scene divides into tiles and the logo enlarges. Exact transition paths unresolved.",
+      "evidence": "V01,V03,V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q05",
+      "finding": "Rapid changes between unrelated cinematic scenes are held together by large words rather than a continuous task.",
+      "evidence": "V02–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q06",
+      "finding": "Dark film imagery and white type dominate; the closing black field simplifies the picture.",
+      "evidence": "V01–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q07",
+      "finding": "Single words stress jargon but rarely form a complete silent explanation; the late teleport phrase is also abstract.",
+      "evidence": "V02–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q08",
+      "finding": "ASR supports a confrontational problem pitch and brand welcome; identity and delivery are unverified.",
+      "evidence": "A01",
+      "status": "uncertain",
+      "reason": "Transcript only; displayed person does not prove voice provenance.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q09",
+      "finding": "Music character and structure are unverified.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "No validated listening.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q10",
+      "finding": "Effects and their sources are unverified.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "No validated listening; waveform peaks do not identify effects.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q11",
+      "finding": "Sound sync is unverified.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "No validated listening or paired audiovisual timing.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q12",
+      "finding": "Podium, office and social-film-looking excerpts form a montage. Asset origins, editing context and rights are not established.",
+      "evidence": "V01–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q13",
+      "finding": "Source duration 44.24 s; Watch metadata 1440 × 1080. Frame rate, audio clipping and export quality not checked here.",
+      "evidence": "Whole film",
+      "status": "supported",
+      "reason": "Parent source metadata supports duration and dimensions; visual review is sampled.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q14",
+      "finding": "Silent viewing suggests finance, chains and a new brand, but does not explain the task or result.",
+      "evidence": "V01–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q15",
+      "finding": "Large center words dominate faces, while rapid scene changes continually reset attention.",
+      "evidence": "V02,V03",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q16",
+      "finding": "Many finance terms arrive without definitions or a transaction example.",
+      "evidence": "V02,V03",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q17",
+      "finding": "The fragmentation problem receives a metaphor and logo rather than a demonstrated solution.",
+      "evidence": "V01–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q18",
+      "finding": "Dismissive script and dramatic character scenes appear intended to create frustration followed by confidence; response unmeasured.",
+      "evidence": "V02–V05",
+      "status": "uncertain",
+      "reason": "Visual/script interpretation only.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q19",
+      "finding": "Typography links the montage; no asset or account remains traceable across the story.",
+      "evidence": "V01–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q20",
+      "finding": "No transfer, speed, interoperability or financial outcome is demonstrated. The film is positioning evidence only.",
+      "evidence": "V01–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q21",
+      "finding": "The teleport metaphor supports the name; most film imagery is not product-specific.",
+      "evidence": "V05,V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q22",
+      "finding": "Add a concrete transfer payoff.",
+      "evidence": "V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "Show one named source asset and chain, destination, confirmation and completed result with timing clearly labeled."
+    },
+    {
+      "id": "Q23",
+      "finding": "Use a short problem montage before a real workflow.",
+      "evidence": "V02,V03",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "For Tin, use three concrete campaign-friction words, then replace the montage with one completed campaign flow."
+    },
+    {
+      "id": "Q24",
+      "finding": "No human new-viewer test was performed.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "The product summary is this model’s film-only reading.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q25",
+      "finding": "Mobile preview and accessibility checks were not performed.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "Contact sheets are evidence views, not a stated mobile preview or compliance test.",
+      "experiment": "none"
+    }
+  ],
+  "elements": [
+    {
+      "kind": "motion",
+      "name": "large word changes",
+      "events": [
+        "V02",
+        "V03"
+      ]
+    },
+    {
+      "kind": "motion",
+      "name": "image tile grid",
+      "events": [
+        "V03"
+      ]
+    },
+    {
+      "kind": "motion",
+      "name": "logo enlargement",
+      "events": [
+        "V06"
+      ]
+    },
+    {
+      "kind": "texture",
+      "name": "dark cinematic montage",
+      "events": [
+        "V02",
+        "V03",
+        "V04",
+        "V05"
+      ]
+    }
+  ],
+  "lessons": {
+    "keep": "Use a simple black closing field to make the brand readable after a dense montage.",
+    "try": [
+      "Show a source-to-destination transfer example after the teleport phrase.",
+      "For Tin, limit the problem montage to three terms before a real workflow."
+    ],
+    "avoid": "Using jargon and dramatic imagery as the entire product explanation.",
+    "open": "Product mechanism, finance claims, source provenance and sound remain unverified."
+  },
+  "comparison": {
+    "story": "Problem montage → metaphor → brand.",
+    "motion": "Changing words, tiles, reframing and logo scale.",
+    "sound": "ASR problem pitch; no acoustic or voice-authenticity judgment.",
+    "texture": "Dark film-like scenes and bold white type.",
+    "lesson": "A metaphor needs one concrete action to explain a new product."
+  },
+  "reviewer_model": "gpt-6-astra",
+  "scope": "sampled visual and story review; ASR and measured signal support; no validated audio listening",
+  "viewed_evidence": [
+    "technical-review-2026-10-19/deep-review/motion/410/timeline-00.jpg",
+    "technical-review-2026-10-19/deep-review/motion/410/timeline-01.jpg"
+  ],
+  "closer_windows": []
+}

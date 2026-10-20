@@ -1,0 +1,350 @@
+{
+  "id": 459,
+  "reviewer_model": "gpt-6-astra",
+  "scope": "sampled visual and story review; ASR and measured signal support; no validated audio listening",
+  "viewed_evidence": [
+    "technical-review-2026-10-19/deep-review/motion/459/timeline-00.jpg",
+    "technical-review-2026-10-19/deep-review/motion/459/timeline-01.jpg",
+    "technical-review-2026-10-19/deep-review/audio/459-speech.json"
+  ],
+  "closer_windows": [],
+  "product_from_film": "Huxe offers personal audio content through a phone app.",
+  "explains_well": "The shift from mass-media crowds to individual listeners makes the personal-content promise easy to understand.",
+  "unclear": "The film never shows which interests or sources shape the personal feed, so personalization remains a promise rather than a visible process.",
+  "product_type": "personal audio app",
+  "scenario": "Receive an audio briefing and content matched to personal interests.",
+  "product_clear_time": 38,
+  "product_clear_basis": "The personal-audio subtitle accompanies a phone feed greeting Jackson.",
+  "scenes": [
+    {
+      "id": "V01",
+      "start": 0,
+      "end": 8,
+      "action": "A city view becomes an image inside an old television, then crowds and individual people appear beneath the statement that media is for you.",
+      "design": "Cinematic city footage, rounded television glass and small yellow subtitles.",
+      "purpose": "Introduce the change from mass audience to individual.",
+      "evidence": "Visible chronological 1 fps samples, source 0–8s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V02",
+      "start": 8,
+      "end": 27,
+      "action": "Homes, television control rooms, books and stadiums give way to photographers, phone users, an eye reflection and a subscribe graphic.",
+      "design": "Rapid media montage with warm footage and dark screen-lit faces.",
+      "purpose": "Frame mass content and attention capture as the problem.",
+      "evidence": "Visible chronological 1 fps samples, source 8–27s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V03",
+      "start": 27,
+      "end": 38,
+      "action": "A closed eye opens, a mechanical opening and an old computer drive appear, then a white circular symbol overlays a headphone wearer and a mountain walker.",
+      "design": "Circular shapes connect mechanical imagery and the logo.",
+      "purpose": "Mark entry into a personal-media era.",
+      "evidence": "Visible chronological 1 fps samples, source 27–38s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V04",
+      "start": 38,
+      "end": 50,
+      "action": "A phone greets Jackson and shows content cards. Photography, painting and headphone listeners accompany claims of audio crafted for individual interests.",
+      "design": "Green phone interface within lifestyle footage.",
+      "purpose": "Show the product surface and personal-use settings.",
+      "evidence": "Visible chronological 1 fps samples, source 38–50s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V05",
+      "start": 50,
+      "end": 54,
+      "action": "A phone changes from a sparse screen to Good Morning Ava with a content list and a player at the bottom.",
+      "design": "Close handheld phone view with a green background.",
+      "purpose": "Give a second personal greeting and briefing example.",
+      "evidence": "Visible chronological 1 fps samples, source 50–54s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V06",
+      "start": 54,
+      "end": 57.891,
+      "action": "The Huxe symbol and name hold over a mountain landscape with the line It is all you.",
+      "design": "White mark over a calm natural vista.",
+      "purpose": "Close on the personal brand promise.",
+      "evidence": "Visible chronological 1 fps samples, source 54–57.891s; boundary approximate; exact motion between samples unverified."
+    }
+  ],
+  "sound": [
+    {
+      "id": "A01",
+      "start": 0,
+      "end": 57.891,
+      "layer": "unknown",
+      "detail": "No validated direct audio listening was performed. Music, speech delivery, effects, mix and sync remain unknown, not absent.",
+      "visual_relation": "All visual scenes; audiovisual alignment unverified",
+      "evidence": "Visual samples only; no actual audio range supplied to this reviewer."
+    },
+    {
+      "id": "A02",
+      "start": 2.41,
+      "end": 55.75,
+      "layer": "ASR draft",
+      "detail": "The ASR draft contrasts mass media and attention capture with audio made for individual interests, then includes a Good morning Ava briefing line. Opening recognition is imperfect; visible subtitles clarify the mass-media statement. The text supports story structure, not audio quality or delivery.",
+      "visual_relation": "Story text support; exact audiovisual alignment and delivery unverified.",
+      "evidence": "technical-review-2026-10-19/deep-review/audio/459-speech.json; local faster-whisper base CPU int8 draft; VAD candidates only, recognition errors possible."
+    }
+  ],
+  "categories": [
+    {
+      "id": "Q01",
+      "finding": "Mass-media history and attention pressure lead to individual interests, personal phone feeds and Huxe branding.",
+      "evidence": "V01–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q02",
+      "finding": "The city image reframed inside an old television makes the media-history setup visual.",
+      "evidence": "V01",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q03",
+      "finding": "People seeking audio around their own interests are the audience; the app becomes concrete at 38s.",
+      "evidence": "V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q04",
+      "finding": "The opening city reframes into a television, media images cut rapidly, an eye opens before circular imagery, and a phone feed populates near the end.",
+      "evidence": "V01–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q05",
+      "finding": "The move from crowds to single listeners supports the argument, while a recurring white circular mark connects the new-era section to the end.",
+      "evidence": "V01–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q06",
+      "finding": "Television glass, film-like grain, screen light, natural landscapes and a green phone interface create a nostalgic-to-personal contrast.",
+      "evidence": "V01–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q07",
+      "finding": "Yellow subtitles carry the argument but are small against detailed footage; phone content titles are also small at montage scale.",
+      "evidence": "V01–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q08",
+      "finding": "The ASR draft contrasts mass media and attention capture with audio made for individual interests, then includes a Good morning Ava briefing line. Opening recognition is imperfect; visible subtitles clarify the mass-media statement. The text supports story structure, not audio quality or delivery.",
+      "evidence": "A02",
+      "status": "uncertain",
+      "reason": "ASR text only; no validated listening, delivery or voice origin.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q09",
+      "finding": "Voice delivery, music, effects and audiovisual alignment were not established by this visual pass.",
+      "evidence": "A01",
+      "status": "not checked",
+      "reason": "No validated direct audio listening input.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q10",
+      "finding": "Voice delivery, music, effects and audiovisual alignment were not established by this visual pass.",
+      "evidence": "A01",
+      "status": "not checked",
+      "reason": "No validated direct audio listening input.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q11",
+      "finding": "Voice delivery, music, effects and audiovisual alignment were not established by this visual pass.",
+      "evidence": "A01",
+      "status": "not checked",
+      "reason": "No validated direct audio listening input.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q12",
+      "finding": "Lifestyle and media footage, phone views, a subscribe graphic and a brand symbol form the visible assets. Provenance is unknown.",
+      "evidence": "V01–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q13",
+      "finding": "Manifest duration 57.891s; indexed dimensions 1920×1080. Source unchanged flag recorded; fresh encoding and audio clipping checks not run.",
+      "evidence": "Group manifest",
+      "status": "uncertain",
+      "reason": "Inherited technical metadata; no fresh media probe in this review.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q14",
+      "finding": "Subtitles explain the central personal-audio claim. The visible app greeting supports personalization but does not reveal its inputs.",
+      "evidence": "V04,V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q15",
+      "finding": "Human faces and landscapes dominate attention; the two phone appearances give the clearest product anchors.",
+      "evidence": "V04,V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q16",
+      "finding": "Most of the first half establishes the media problem. The app receives only brief views after 38s.",
+      "evidence": "V01–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q17",
+      "finding": "Jackson and Ava illustrate different users rather than one continuous session. No preference-to-feed chain is shown.",
+      "evidence": "V04,V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q18",
+      "finding": "Crowds and screen-lit faces suggest pressure, while individual creators and open landscapes suggest personal freedom. Actual sound mood is unverified.",
+      "evidence": "V02–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q19",
+      "finding": "Personal greetings and a player show the output surface; preference entry, source selection and playback interaction are omitted.",
+      "evidence": "V04,V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q20",
+      "finding": "The claim that content is uniquely crafted for each person is not demonstrated through settings or two comparable outputs. Audio quality cannot be assessed here.",
+      "evidence": "V04,V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q21",
+      "finding": "The symbol appears before the name, with Huxe identified clearly in the final landscape card.",
+      "evidence": "V03,V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q22",
+      "finding": "Show one selected interest becoming a named briefing item before the final greeting.",
+      "evidence": "V04,V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q23",
+      "finding": "Use crowd-to-individual image choices to support a personalization story without adding more explanatory text.",
+      "evidence": "V01–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q24",
+      "finding": "Huxe offers personal audio content through a phone app.",
+      "evidence": "Model reading from inspected images",
+      "status": "uncertain",
+      "reason": "Model-only new-viewer interpretation; no human test.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q25",
+      "finding": "Contact sheets inspected at displayed size; a phone-size playback, caption audit, flash audit and formal accessibility check were not performed.",
+      "evidence": "Viewed sheets",
+      "status": "not checked",
+      "reason": "Full-size moving-image and device checks unavailable in this pass.",
+      "experiment": "none"
+    }
+  ],
+  "lessons": {
+    "keep": "Make the audience change visible through group and individual scenes.",
+    "avoid": "Using a personal greeting as the only visible proof of deeper personalization.",
+    "open": "Personalization inputs, content sources, playback behavior and the actual audio remain unverified.",
+    "try": [
+      "For Tin, move from a broad audience view to one customer segment, then show how that segment changes the creative.",
+      "Add a preference choice and its matching audio item to the existing Ava phone sequence."
+    ]
+  },
+  "comparison": {
+    "story": "Introduce the change from mass audience to individual. → Frame mass content and attention capture as the problem. → Mark entry into a personal-media era. → Show the product surface and personal-use settings. → Give a second personal greeting and briefing example. → Close on the personal brand promise.",
+    "motion": "The opening city reframes into a television, media images cut rapidly, an eye opens before circular imagery, and a phone feed populates near the end. Sampling scope: 1 fps unless a closer window is recorded.",
+    "sound": "No validated listening; unknown.",
+    "texture": "Cinematic city footage, rounded television glass and small yellow subtitles.; Rapid media montage with warm footage and dark screen-lit faces.; Circular shapes connect mechanical imagery and the logo.; Green phone interface within lifestyle footage.; Close handheld phone view with a green background.; White mark over a calm natural vista.",
+    "lesson": "Make the audience change visible through group and individual scenes."
+  },
+  "elements": [
+    {
+      "kind": "ui",
+      "name": "content feed",
+      "events": [
+        "V04",
+        "V05"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "audio player",
+      "events": [
+        "V05"
+      ]
+    },
+    {
+      "kind": "motion",
+      "name": "television reframe",
+      "events": [
+        "V01"
+      ]
+    },
+    {
+      "kind": "motion",
+      "name": "media montage",
+      "events": [
+        "V02"
+      ]
+    },
+    {
+      "kind": "texture",
+      "name": "television glass",
+      "events": [
+        "V01"
+      ]
+    }
+  ]
+}

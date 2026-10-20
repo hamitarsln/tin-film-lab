@@ -1,0 +1,347 @@
+{
+  "id": 198,
+  "viewed_evidence": [
+    "technical-review-2026-10-19/deep-review/motion/198/timeline-00.jpg",
+    "technical-review-2026-10-19/deep-review/motion/198/timeline-01.jpg",
+    "technical-review-2026-10-19/deep-review/motion/198/timeline-02.jpg",
+    "technical-review-2026-10-19/deep-review/audio/198-speech.json"
+  ],
+  "product_from_film": "Memory Store collects company context from work tools for people and AI agents.",
+  "explains_well": "Office interruptions show how priorities, customer feedback and customer facts become trapped with teammates.",
+  "unclear": "The film never shows a repeated question being answered through Memory Store or how a user accesses that answer.",
+  "product_type": "company knowledge",
+  "scenario": "Recover a PR priority, customer feedback or customer tool preference without interrupting a colleague.",
+  "product_clear_time": 56,
+  "product_clear_basis": "Founder captions state one shared brain for company, people and agents; source tools follow at 58 s.",
+  "scenes": [
+    {
+      "start": 0,
+      "end": 4,
+      "action": "Office worker moves toward colleagues as FRICTION fills most of the image.",
+      "design": "Bright office, large condensed white word.",
+      "purpose": "Introduce workplace interruption",
+      "id": "V01",
+      "evidence": "Visible 1 fps samples, source 0–4s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 4,
+      "end": 18,
+      "action": "A colleague asks which PR to prioritise; another references Linear and Slack. Founder 1: the bottleneck label freezes the person in a white layout, then a do-not-disturb sign appears.",
+      "design": "Conversation captions, arrow portrait card and desk prop.",
+      "purpose": "Show priority knowledge trapped with a founder",
+      "id": "V02",
+      "evidence": "Visible 1 fps samples, source 4–18s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 18,
+      "end": 25,
+      "action": "Another teammate asks for customer feedback; answer points to Granola and no document.",
+      "design": "Same open office and close conversation shots.",
+      "purpose": "Show undocumented feedback",
+      "id": "V03",
+      "evidence": "Visible 1 fps samples, source 18–25s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 25,
+      "end": 35,
+      "action": "Email draft is checked; captions correct Claude Code to Codex. A Slack-style notification asks about customer onboarding.",
+      "design": "Workplace conversation and monitor close-up.",
+      "purpose": "Show stale or missing customer facts",
+      "id": "V04",
+      "evidence": "Visible 1 fps samples, source 25–35s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 35,
+      "end": 46,
+      "action": "Founder 2: the human CRM portrait card leads to Why do we keep asking the same things, then company-brain text cards.",
+      "design": "White framing, drawn arrow and simple black type.",
+      "purpose": "Name the repeated-memory problem",
+      "id": "V05",
+      "evidence": "Visible 1 fps samples, source 35–46s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 46,
+      "end": 65,
+      "action": "Two founders sit together and describe a shared brain collecting Slack, email and Granola insights into agent memories.",
+      "design": "Calm seated interview and clear captions.",
+      "purpose": "State the product proposition",
+      "id": "V06",
+      "evidence": "Visible 1 fps samples, source 46–65s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 65,
+      "end": 69.269,
+      "action": "cal.com/memory and memory.store hold on white.",
+      "design": "Minimal booking address and brand.",
+      "purpose": "Invite a conversation",
+      "id": "V07",
+      "evidence": "Visible 1 fps samples, source 65–69.269s; boundaries approximate, between-frame action unresolved."
+    }
+  ],
+  "sound": [
+    {
+      "id": "A01",
+      "start": 0,
+      "end": 69.269,
+      "layer": "unknown",
+      "detail": "No validated audio listening; speech, music, effects, mix and sync remain unverified.",
+      "visual_relation": "All visual scenes; alignment not checked",
+      "evidence": "No actual audio supplied to this review; existing technical-review-2026-10-19/deep-review/audio/198.json is not listening evidence."
+    },
+    {
+      "id": "A02",
+      "start": 3.978,
+      "end": 64.726,
+      "layer": "ASR draft",
+      "detail": "Five candidate windows contain office questions and the shared-memory proposition. PR question at 5.59–8.23 s and the 37.77–39.19 s sentence are nonsensical in the draft and rejected in favour of visible captions. Claude Code and the actual-brain phrase are also mistranscribed. No delivery or audio timing judgment is made.",
+      "visual_relation": "V02–V06; usable candidate script only",
+      "evidence": "technical-review-2026-10-19/deep-review/audio/198-speech.json; existing faster-whisper base CPU int8; five VAD windows"
+    }
+  ],
+  "categories": [
+    {
+      "finding": "Several office questions reveal fragmented context, then founders propose a shared memory layer. No solved office example follows.",
+      "evidence": "V01–V07",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q01"
+    },
+    {
+      "finding": "A worker crosses the office toward colleagues; the interruption theme becomes explicit with the large FRICTION word around 2 s.",
+      "evidence": "V01",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q02"
+    },
+    {
+      "finding": "Knowledge-sharing problem is clear by the PR question at 7 s; product function arrives at 51–62 s through founder captions.",
+      "evidence": "V02,V06",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q03"
+    },
+    {
+      "finding": "Large word overlays cover the office; founder portraits are isolated in white cards with curved arrows. Most motion is people moving between desks and camera reframing.",
+      "evidence": "V01,V02,V05",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q04"
+    },
+    {
+      "finding": "Repeated conversational cuts connect desks; portrait-label inserts pause the skit before returning to the office. Text cards bridge to the founder explanation.",
+      "evidence": "V02–V06",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q05"
+    },
+    {
+      "finding": "Daylight, plants and ordinary desks create a workplace setting; white title cards simplify the two founder roles.",
+      "evidence": "V01–V06",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q06"
+    },
+    {
+      "finding": "Captions make the questions specific. Founder labels reduce complex roles to bottleneck and human CRM; no product UI explains retrieval.",
+      "evidence": "V02–V06",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q07"
+    },
+    {
+      "finding": "Voice presence and delivery remain unverified.",
+      "evidence": "No validated audio listening",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q08"
+    },
+    {
+      "finding": "Music character and arc remain unverified.",
+      "evidence": "No validated audio listening",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q09"
+    },
+    {
+      "finding": "Sound effects remain unverified.",
+      "evidence": "No validated audio listening",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q10"
+    },
+    {
+      "finding": "Sound-to-motion timing remain unverified.",
+      "evidence": "No validated audio listening",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q11"
+    },
+    {
+      "finding": "Office skit, monitor notification, portrait cards and seated founder shot are used; provenance and capture tools are not inferred.",
+      "evidence": "V01–V07",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q12"
+    },
+    {
+      "finding": "Source duration supplied as 69.269s; no independent compression, clipping or delivery check.",
+      "evidence": "Assigned metadata; source integrity checked by parent",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q13"
+    },
+    {
+      "finding": "Captions preserve the office problems and product definition silently, but no answer-retrieval interaction is visible.",
+      "evidence": "V02–V06",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q14"
+    },
+    {
+      "finding": "Close conversation shots focus on each question; full-frame labels briefly direct attention to the responsible founder.",
+      "evidence": "V02,V05",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q15"
+    },
+    {
+      "finding": "About 46 s develop problems, leaving under 20 s for a spoken/captioned solution with no demonstration.",
+      "evidence": "V01–V06",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q16"
+    },
+    {
+      "finding": "Repeated questions create an expectation of fewer interruptions; the ending states the solution but does not show that change.",
+      "evidence": "V02–V06",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q17"
+    },
+    {
+      "finding": "The sign, repeated questions and corrective customer fact suggest familiar frustration; founders present the shared brain as relief.",
+      "evidence": "V02–V06; interpretation",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q18"
+    },
+    {
+      "finding": "Same office and recurring coworkers connect the examples. The seated explanation changes format while retaining two labelled founders.",
+      "evidence": "V02–V06",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q19"
+    },
+    {
+      "finding": "Workplace scenarios and product claims are shown. Tool ingestion, stored memory, retrieval accuracy and fewer interruptions are not independently demonstrated.",
+      "evidence": "V02–V06",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q20"
+    },
+    {
+      "finding": "Linear, Granola and the Claude Code/Codex correction make the knowledge problem specific; company brain metaphor alone is broad.",
+      "evidence": "V02–V04",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q21"
+    },
+    {
+      "finding": "Replace one repeated interruption with the same question answered from a cited stored memory.",
+      "evidence": "V04–V06",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q22"
+    },
+    {
+      "finding": "For a knowledge product, show one repeated question in a workplace skit, then the same question answered with its source and date.",
+      "evidence": "V02–V06",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q23"
+    },
+    {
+      "finding": "No human new-viewer test; product description above is model interpretation of sampled images.",
+      "evidence": "V01–V07",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q24"
+    },
+    {
+      "finding": "No phone-size, safe-area or flash assessment; small UI text needs separate preview.",
+      "evidence": "Contact sheets",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q25"
+    }
+  ],
+  "lessons": {
+    "keep": "Use a precise everyday question to reveal where company context gets lost.",
+    "try": [
+      "For shared memory, repeat the PR-priority question in the product and show a sourced answer without interrupting the founder.",
+      "For customer context, show the original Codex note, extracted memory and corrected email draft together."
+    ],
+    "avoid": "Avoid ending a clear problem skit with only a product metaphor.",
+    "open": "Where does a teammate ask a question, and how is the answer connected to its source?"
+  },
+  "comparison": {
+    "story": "Introduce workplace interruption → Show priority knowledge trapped with a founder → Show undocumented feedback → Show stale or missing customer facts → Name the repeated-memory problem → State the product proposition → Invite a conversation",
+    "motion": "Large word overlays cover the office; founder portraits are isolated in white cards with curved arrows. Most motion is people moving between desks and camera reframing.",
+    "sound": "No validated listening; no absence claims.",
+    "texture": "Daylight, plants and ordinary desks create a workplace setting; white title cards simplify the two founder roles.",
+    "lesson": "Use a precise everyday question to reveal where company context gets lost."
+  },
+  "elements": [
+    {
+      "kind": "ui",
+      "name": "notification",
+      "events": [
+        "V04"
+      ]
+    },
+    {
+      "kind": "texture",
+      "name": "office footage",
+      "events": [
+        "V01",
+        "V06"
+      ]
+    },
+    {
+      "kind": "motion",
+      "name": "portrait label insert",
+      "events": [
+        "V02",
+        "V05"
+      ]
+    }
+  ],
+  "reviewer_model": "gpt-6-astra",
+  "scope": "sampled visual and story review; ASR and measured signal support; no validated audio listening",
+  "closer_windows": []
+}

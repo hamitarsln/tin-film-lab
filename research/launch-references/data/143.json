@@ -1,0 +1,316 @@
+{
+  "id": 143,
+  "product_from_film": "Archer announces that $SPCX is live, using SpaceX-related news and launch imagery.",
+  "explains_well": "The opening news topic and repeated rocket imagery make the referenced company clear.",
+  "unclear": "The film does not explain what $SPCX represents, its rights or backing, or how to access it through Archer.",
+  "product_type": "financial asset availability teaser",
+  "scenario": "Connect a SpaceX news hook and launch montage to a final $SPCX availability announcement.",
+  "product_clear_time": null,
+  "product_clear_basis": "The symbol is announced at 21–24s and Archer appears at 25s, but the actual product mechanism is not explained.",
+  "scenes": [
+    {
+      "start": 0,
+      "end": 2,
+      "action": "A business-news presenter appears beside expected IPO figures and a SpaceX headline.",
+      "design": "Broadcast frame with dense figures.",
+      "purpose": "Use a news event as the premise; accuracy and date are not checked.",
+      "evidence": "1 fps source samples in 0–2s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V01"
+    },
+    {
+      "start": 2,
+      "end": 13,
+      "action": "Rocket ignition and launch imagery alternate with spectators, factory-like interiors and celebrating people.",
+      "design": "Large flame, industrial metal and crowd reactions.",
+      "purpose": "Build an achievement and anticipation montage.",
+      "evidence": "1 fps source samples in 2–13s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V02"
+    },
+    {
+      "start": 13,
+      "end": 21,
+      "action": "Rocket/spacecraft views, Earth, a suited mannequin-like figure in a vehicle, an observer and more crowd footage follow.",
+      "design": "Space imagery, bright flare states and human scale.",
+      "purpose": "Extend the aspirational space narrative.",
+      "evidence": "1 fps source samples in 13–21s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V03"
+    },
+    {
+      "start": 21,
+      "end": 25,
+      "action": "$SPCX builds into $SPCX is live over launch and spacecraft imagery.",
+      "design": "Centered white text over changing large-scale scenes.",
+      "purpose": "State asset availability without transaction details.",
+      "evidence": "1 fps source samples in 21–25s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V04"
+    },
+    {
+      "start": 25,
+      "end": 26.005,
+      "action": "Archer logo appears on black.",
+      "design": "White wordmark with orange square mark.",
+      "purpose": "Identify the platform.",
+      "evidence": "1 fps source samples in 25–26.005s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V05"
+    }
+  ],
+  "categories": [
+    {
+      "id": "Q01",
+      "finding": "News hook → launch and achievement montage → asset-live announcement → platform logo.",
+      "evidence": "V01–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q02",
+      "finding": "A news presenter and expected IPO details immediately name SpaceX; the financial product is not yet introduced.",
+      "evidence": "V01",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q03",
+      "finding": "$SPCX and Archer are named near the end, but the instrument, buyer task and backing remain unclear.",
+      "evidence": "V04,V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q04",
+      "finding": "Rocket ascent, flame and crowd gestures appear. Exact shot speed, camera paths and flashes are unresolved from 1 fps samples.",
+      "evidence": "V02,V03",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q05",
+      "finding": "Launch views and spectators alternate; subject matter links them rather than a single continuous event.",
+      "evidence": "V02,V03",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q06",
+      "finding": "Industrial metal, smoke, fire, space and Earth imagery dominate with little designed interface.",
+      "evidence": "V02,V03",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q07",
+      "finding": "Opening figures are dense; the final three-part live statement is simple and central.",
+      "evidence": "V01,V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q08",
+      "finding": "Voice delivery is unverified.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "No validated listening.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q09",
+      "finding": "Music character and structure are unverified.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "No validated listening.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q10",
+      "finding": "Effects and their sources are unverified.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "No validated listening; waveform peaks do not identify effects.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q11",
+      "finding": "Sound sync is unverified.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "No validated listening or paired audiovisual timing.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q12",
+      "finding": "Broadcast-style news, launch recordings and crowd/space footage are assembled. Source rights and chronology are not independently known.",
+      "evidence": "V01–V03",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q13",
+      "finding": "Source duration 26.005 s; Watch metadata 1280 × 720. Frame rate, audio clipping and export quality not checked here.",
+      "evidence": "Whole film",
+      "status": "supported",
+      "reason": "Parent source metadata supports duration and dimensions; visual review is sampled.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q14",
+      "finding": "Silent viewing identifies SpaceX and a newly live symbol, but not what owning or trading that symbol means.",
+      "evidence": "V01,V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q15",
+      "finding": "Flame and spacecraft fill the frame until the final text becomes the central focus.",
+      "evidence": "V02–V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q16",
+      "finding": "Most of the 26s is subject imagery; only the last five seconds supply the platform-related announcement.",
+      "evidence": "V02–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q17",
+      "finding": "SpaceX news is followed by a related symbol announcement, but no product access or purchase step completes the link.",
+      "evidence": "V01,V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q18",
+      "finding": "Launch and cheering imagery may suggest excitement and participation in a milestone; audience response is unmeasured.",
+      "evidence": "V02,V03",
+      "status": "uncertain",
+      "reason": "Interpretation of montage.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q19",
+      "finding": "SpaceX-related subject matter stays consistent across diverse footage; no financial interface appears.",
+      "evidence": "V01–V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q20",
+      "finding": "The film claims $SPCX is live. Availability, rights, backing, fees and relationship to the referenced company are not verified.",
+      "evidence": "V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q21",
+      "finding": "Archer appears only in the final logo; most footage promotes the referenced space story.",
+      "evidence": "V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q22",
+      "finding": "One plain explanation of the symbol and an access screen would add essential product meaning.",
+      "evidence": "V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "Replace one space shot with a labeled asset detail screen that states what the instrument represents."
+    },
+    {
+      "id": "Q23",
+      "finding": "For Tin, link a topical hook to the actual product action before closing on a logo.",
+      "evidence": "V01,V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "Follow a campaign trend with the exact draft-generation action and saved result."
+    },
+    {
+      "id": "Q24",
+      "finding": "No human new-viewer test was performed.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "The product summary is this model’s film-only reading.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q25",
+      "finding": "Mobile preview and accessibility checks were not performed.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "Contact sheets are evidence views, not a stated mobile preview or compliance test.",
+      "experiment": "none"
+    }
+  ],
+  "elements": [
+    {
+      "kind": "texture",
+      "name": "news footage",
+      "events": [
+        "V01"
+      ]
+    },
+    {
+      "kind": "texture",
+      "name": "rocket launch footage",
+      "events": [
+        "V02",
+        "V03"
+      ]
+    },
+    {
+      "kind": "motion",
+      "name": "text build",
+      "events": [
+        "V04"
+      ]
+    }
+  ],
+  "lessons": {
+    "keep": "Use a short central announcement after a clearly related visual subject.",
+    "try": [
+      "Replace one launch shot with a plain asset-detail screen explaining what the symbol represents and where it is accessed.",
+      "For Tin, follow a topical campaign hook with the exact product action and saved output before the logo."
+    ],
+    "avoid": "Letting a company-news montage imply unverified ownership rights, backing or official connection.",
+    "open": "Instrument structure, availability, backing, fees, footage chronology and audio remain unverified."
+  },
+  "comparison": {
+    "story": "SpaceX news → launch excitement → symbol live → Archer.",
+    "motion": "Launch and crowd action, then text build; precise timing unresolved.",
+    "sound": "No validated listening; news voice, score and effects unknown.",
+    "texture": "Broadcast graphics, fire, metal, space and crowds.",
+    "lesson": "A news-linked announcement still needs one sentence explaining the offered product."
+  },
+  "reviewer_model": "gpt-6-astra",
+  "scope": "sampled visual and story review; ASR and measured signal support; no validated audio listening",
+  "viewed_evidence": [
+    "technical-review-2026-10-19/deep-review/motion/143/timeline-00.jpg"
+  ],
+  "closer_windows": [],
+  "sound": [
+    {
+      "id": "A01",
+      "start": 0,
+      "end": 26.005,
+      "layer": "unknown",
+      "detail": "No validated audio listening. Voice delivery, music, effects and mix are unknown.",
+      "visual_relation": "All scenes; sound alignment unverified",
+      "evidence": "No actual audio perception in this review; prepared audio files are not listening evidence."
+    }
+  ]
+}

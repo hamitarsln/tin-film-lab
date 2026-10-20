@@ -1,0 +1,362 @@
+{
+  "id": 158,
+  "product_from_film": "Simi turns a written question into a drawn visual explanation.",
+  "explains_well": "A black-hole time question stays visible while a related time-dilation diagram appears as its output.",
+  "unclear": "The example output is brief, so the film gives little time to judge whether the explanation actually teaches the idea.",
+  "product_type": "visual explainer generation",
+  "scenario": "Enter a question about time near a black hole, choose layout and length, then receive illustrated explanation cards.",
+  "product_clear_time": 44,
+  "product_clear_basis": "The question entered at 34s is paired with a gravitational time dilation diagram at 44s, making the input/output relation visible.",
+  "scenes": [
+    {
+      "start": 0,
+      "end": 18,
+      "action": "Hands, anatomy drawings, blackboards, scientific figures and diagrams support captions about explaining ideas by drawing.",
+      "design": "Mostly monochrome historical-looking imagery, chalk and ink.",
+      "purpose": "Establish drawing as a familiar teaching method.",
+      "evidence": "1 fps source samples in 0–18s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V01"
+    },
+    {
+      "start": 18,
+      "end": 28,
+      "action": "Equations give way to office, presentation and meeting scenes with text about unread documents, unopened slides and forgotten meetings; a confused figure accompanies large red wording.",
+      "design": "Cultural/office montage and emphatic red text.",
+      "purpose": "Frame present communication as hard to understand.",
+      "evidence": "1 fps source samples in 18–28s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V02"
+    },
+    {
+      "start": 28,
+      "end": 33,
+      "action": "An iris-like circular design reveals We built Simi, followed by What should Simi make clear and the prompt interface.",
+      "design": "Metallic circular motif, white panel and dark blue background.",
+      "purpose": "Introduce the product after the problem.",
+      "evidence": "1 fps source samples in 28–33s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V03"
+    },
+    {
+      "start": 33,
+      "end": 43,
+      "action": "Why does time move slower near a black hole is entered. File-type chips, landscape/portrait/square options and a length control are shown.",
+      "design": "Enlarged prompt field, paper-plane-like cursor and white menus.",
+      "purpose": "Demonstrate input and format controls.",
+      "evidence": "1 fps source samples in 33–43s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V04"
+    },
+    {
+      "start": 43,
+      "end": 47,
+      "action": "The same question remains above cards labeled Gravitational Time Dilation and Spacetime Sheet, with simple drawings of Earth, black hole, watches and a grid.",
+      "design": "Hand-drawn-style diagrams inside white cards.",
+      "purpose": "Show output tied to the question.",
+      "evidence": "1 fps source samples in 43–47s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V05"
+    },
+    {
+      "start": 47,
+      "end": 59,
+      "action": "Audience labels name training teams, course creators and customer education. A grid of diagram examples surrounds and it works and watch it being drawn.",
+      "design": "Blue background, green pills, yellow underline strokes and card grid.",
+      "purpose": "Broaden use cases and repeat the drawing proposition.",
+      "evidence": "1 fps source samples in 47–59s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V06"
+    },
+    {
+      "start": 59,
+      "end": 66.666,
+      "action": "Text leads into the Simi emblem/name and Turn anything into a visual explanation with laminalabs.ai.",
+      "design": "Metallic iris mark, white text and green emphasis.",
+      "purpose": "Close with positioning and URL.",
+      "evidence": "1 fps source samples in 59–66.666s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V07"
+    }
+  ],
+  "categories": [
+    {
+      "id": "Q01",
+      "finding": "Drawing history → communication failure → Simi → prompt/options → related diagrams → audiences → positioning.",
+      "evidence": "V01–V07",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q02",
+      "finding": "The oldest technology is a hand pairs with human/hand imagery, creating a conceptual hook before the software appears.",
+      "evidence": "V01",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q03",
+      "finding": "The prompt/output pair explains the tool at 44s; training, course and customer-education audiences are named at 48–51s.",
+      "evidence": "V05,V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q04",
+      "finding": "Prompt text, menu states, diagram changes, audience pills and underline strokes are visible. Continuous drawing speed and exact easing are not established.",
+      "evidence": "V04–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q05",
+      "finding": "The historical drawing theme returns in the diagram outputs; the circular brand reveal marks the shift from problem montage to product.",
+      "evidence": "V01,V03,V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q06",
+      "finding": "Chalk/ink imagery gives way to clean white diagram cards and a metallic iris emblem on blue.",
+      "evidence": "V01,V03,V05,V07",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q07",
+      "finding": "Small subtitles explain the montage; product field close-ups improve readability, but output diagrams pass quickly.",
+      "evidence": "V01,V02,V04,V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q08",
+      "finding": "The inspected ASR draft provides partial script-role support; recognition limits are recorded in A02. Audible voice characteristics and delivery remain unchecked.",
+      "evidence": "A02",
+      "status": "uncertain",
+      "reason": "Local draft text was read; no direct listening.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q09",
+      "finding": "Music character and structure are unverified.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "No validated listening.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q10",
+      "finding": "Effects and their sources are unverified.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "No validated listening; waveform peaks do not identify effects.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q11",
+      "finding": "Sound sync is unverified.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "No validated listening or paired audiovisual timing.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q12",
+      "finding": "Historical-looking clips, cultural footage and stylized interface cards are mixed; origin and production tools are unverified.",
+      "evidence": "V01–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q13",
+      "finding": "Source duration 66.666 s; Watch metadata 1920 × 1080. Frame rate, audio clipping and export quality not checked here.",
+      "evidence": "Whole film",
+      "status": "supported",
+      "reason": "Parent source metadata supports duration and dimensions; visual review is sampled.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q14",
+      "finding": "Visible captions and the retained question make the input/output story readable silently. Full educational value is difficult to judge from the short output view.",
+      "evidence": "V01,V04,V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q15",
+      "finding": "The prompt and configuration menus are enlarged; the output is smaller beside the retained question before examples fill a grid.",
+      "evidence": "V04–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q16",
+      "finding": "Nearly half the film builds the historical/problem argument, while the main output example receives about 4s.",
+      "evidence": "V01–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q17",
+      "finding": "The drawing-history premise pays off in generated-looking diagram cards, though the teaching sequence is only briefly sampled.",
+      "evidence": "V01,V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q18",
+      "finding": "Familiar science imagery may lend authority and the office montage may create recognition; viewer response is unmeasured.",
+      "evidence": "V01,V02",
+      "status": "uncertain",
+      "reason": "Interpretation of selected imagery.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q19",
+      "finding": "The exact black-hole question stays above its related diagrams, making the causal connection stronger than an unrelated output montage.",
+      "evidence": "V04,V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q20",
+      "finding": "The film shows an illustrative output and broad claims; factual correctness, learning outcomes, language support and generation reliability were not independently checked.",
+      "evidence": "V05,V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q21",
+      "finding": "The iris-like Simi mark and drawing-based premise provide an identity; a longer single explanation could make the output quality more distinctive.",
+      "evidence": "V03,V05,V07",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q22",
+      "finding": "Give one diagram enough time to complete and teach one specific point.",
+      "evidence": "V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "Shorten the office montage and use the saved seconds to draw the Earth/black-hole clock comparison step by step."
+    },
+    {
+      "id": "Q23",
+      "finding": "For Tin, retain the source brief beside the output so viewers can see how the request shaped the result.",
+      "evidence": "V04,V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "Keep a one-sentence campaign brief above the generated asset, then highlight one matching requirement in both."
+    },
+    {
+      "id": "Q24",
+      "finding": "No human new-viewer test was performed.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "The product summary is this model’s film-only reading.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q25",
+      "finding": "Mobile preview and accessibility checks were not performed.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "Contact sheets are evidence views, not a stated mobile preview or compliance test.",
+      "experiment": "none"
+    }
+  ],
+  "elements": [
+    {
+      "kind": "ui",
+      "name": "prompt field",
+      "events": [
+        "V04"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "format menu",
+      "events": [
+        "V04"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "diagram cards",
+      "events": [
+        "V05",
+        "V06"
+      ]
+    },
+    {
+      "kind": "motion",
+      "name": "text build",
+      "events": [
+        "V03",
+        "V06",
+        "V07"
+      ]
+    },
+    {
+      "kind": "texture",
+      "name": "chalk and ink drawings",
+      "events": [
+        "V01",
+        "V05"
+      ]
+    }
+  ],
+  "lessons": {
+    "keep": "Keep the same specific question visible beside the matching diagram output.",
+    "try": [
+      "Replace some office montage with a step-by-step Earth/black-hole clock comparison that teaches one point.",
+      "For Tin, retain the campaign brief beside its asset and highlight one shared requirement."
+    ],
+    "avoid": "Spending more time saying explanations work than letting one explanation work for the viewer.",
+    "open": "Output teaching quality, scientific correctness, generation behavior, language range, asset origin and audio remain unverified."
+  },
+  "comparison": {
+    "story": "History of drawing → modern communication problem → prompt tool → diagram output → audience list.",
+    "motion": "Menu and diagram state changes, text builds and underline strokes; continuous drawing timing unverified.",
+    "sound": "No validated listening; all sound layers unknown.",
+    "texture": "Monochrome science imagery, chalk/ink, white cards, blue field and metallic emblem.",
+    "lesson": "A retained input beside a related output gives a short AI demo a clear causal link."
+  },
+  "reviewer_model": "gpt-6-astra",
+  "scope": "sampled visual and story review; ASR and measured signal support; no validated audio listening",
+  "viewed_evidence": [
+    "technical-review-2026-10-19/deep-review/motion/158/timeline-00.jpg",
+    "technical-review-2026-10-19/deep-review/motion/158/timeline-01.jpg",
+    "technical-review-2026-10-19/deep-review/motion/158/timeline-02.jpg"
+  ],
+  "closer_windows": [],
+  "sound": [
+    {
+      "id": "A01",
+      "start": 0,
+      "end": 66.666,
+      "layer": "unknown",
+      "detail": "No validated audio listening. Voice delivery, music, effects and mix are unknown.",
+      "visual_relation": "All scenes; sound alignment unverified",
+      "evidence": "No actual audio perception in this review; prepared audio files are not listening evidence."
+    },
+    {
+      "id": "A02",
+      "start": 0,
+      "end": 66.666,
+      "layer": "ASR draft",
+      "detail": "The coherent draft explains drawing as a teaching method, contrasts it with unread documents/slides, then describes entering an idea/document, choosing format/length and receiving a whiteboard explainer. Names have recognition errors; generation speed and teaching efficacy remain claims. No validated listening; delivery, music, effects, mix and synchronization remain unknown.",
+      "visual_relation": "Whole-film script role only; ASR timing and audible delivery not validated.",
+      "evidence": "technical-review-2026-10-19/deep-review/audio/158-speech.json; local faster-whisper draft inspected."
+    }
+  ]
+}

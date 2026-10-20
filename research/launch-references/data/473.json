@@ -1,0 +1,373 @@
+{
+  "id": 473,
+  "reviewer_model": "gpt-6-astra",
+  "scope": "sampled visual and story review; ASR and measured signal support; no validated audio listening",
+  "viewed_evidence": [
+    "technical-review-2026-10-19/deep-review/motion/473/timeline-00.jpg",
+    "technical-review-2026-10-19/deep-review/motion/473/timeline-01.jpg",
+    "technical-review-2026-10-19/deep-review/motion/473/timeline-02.jpg",
+    "technical-review-2026-10-19/deep-review/motion/473/timeline-03.jpg",
+    "technical-review-2026-10-19/deep-review/motion/473/timeline-04.jpg",
+    "astra-review-2026-10-20/evidence/group-2/473-62.png",
+    "astra-review-2026-10-20/evidence/group-2/473-90.png",
+    "astra-review-2026-10-20/evidence/group-2/473-93.png",
+    "technical-review-2026-10-19/deep-review/audio/473-speech.json"
+  ],
+  "closer_windows": [],
+  "product_from_film": "Endex is an Excel add-in that builds financial models and helps update existing workbooks with source-linked notes.",
+  "explains_well": "The film shows both a blank-sheet build and an existing model, then opens a source document from the analysis.",
+  "unclear": "The long full-window recording makes small changes hard to follow, and no single changed assumption is traced through its formula to a result.",
+  "product_type": "founder-led software demonstration",
+  "scenario": "Build a model in Excel or update an existing one using current information.",
+  "product_clear_time": 6,
+  "product_clear_basis": "The founders explicitly identify an AI agent that lives in Excel.",
+  "scenes": [
+    {
+      "id": "V01",
+      "start": 0,
+      "end": 12,
+      "action": "Endex appears on an old monitor, then two founders introduce an AI agent in Excel and announce a funding round.",
+      "design": "Simple desk interview, subtitles and restrained serif identity.",
+      "purpose": "Name the product and establish the team.",
+      "evidence": "Visible chronological 1 fps samples, source 0–12s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V02",
+      "start": 12,
+      "end": 29,
+      "action": "An Excel window with Endex sidebar opens over the interview. A prompt asks for a B2B SaaS profit-and-loss model; rows and formatting begin to populate.",
+      "design": "Large screen recording with white worksheet and right chat pane.",
+      "purpose": "Show creation from a blank workbook.",
+      "evidence": "Visible chronological 1 fps samples, source 12–29s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V03",
+      "start": 29,
+      "end": 61,
+      "action": "Tables fill across sheets, formatted section headers appear, and a separate assumptions sheet is shown while captions describe templates, data sources and repeatable deliverables.",
+      "design": "Mostly fixed whole-window view with rapidly changing sheet content.",
+      "purpose": "Demonstrate model structure and breadth.",
+      "evidence": "Visible chronological 1 fps samples, source 29–61s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V04",
+      "start": 61,
+      "end": 70,
+      "action": "The view zooms into a completed monthly P&L summary, then switches to assumptions and returns to the full workbook.",
+      "design": "Selective close crop followed by full application framing.",
+      "purpose": "Emphasize linked drivers and editability as claims.",
+      "evidence": "Visible chronological 1 fps samples, source 61–70s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V05",
+      "start": 70,
+      "end": 91,
+      "action": "An existing DexCom model appears with many tabs and rows. A prompt is followed by analysis in the sidebar; close-ups show cell notes and references to model locations.",
+      "design": "Dense financial worksheet and source-related chat text.",
+      "purpose": "Show work on an existing model.",
+      "evidence": "Visible chronological 1 fps samples, source 70–91s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V06",
+      "start": 91,
+      "end": 97,
+      "action": "An Endex source viewer opens over Excel with a Form 10-Q page, green-highlighted revenue and margin information, and a chart.",
+      "design": "Readable document overlay inside the spreadsheet context.",
+      "purpose": "Show a path from model analysis to source material.",
+      "evidence": "Visible chronological 1 fps samples, source 91–97s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V07",
+      "start": 97,
+      "end": 123,
+      "action": "The founders return, discuss availability and limitations, and ask viewers to comment for an early-access code.",
+      "design": "Paired interview and one closer single-speaker angle with subtitles.",
+      "purpose": "Set expectations and provide access action.",
+      "evidence": "Visible chronological 1 fps samples, source 97–123s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V08",
+      "start": 123,
+      "end": 128.84,
+      "action": "Microsoft Excel text changes through shortened letter states into Endex on black.",
+      "design": "Minimal white serif word transformation.",
+      "purpose": "Tie the product name to its host application.",
+      "evidence": "Visible chronological 1 fps samples, source 123–128.84s; boundary approximate; exact motion between samples unverified."
+    }
+  ],
+  "sound": [
+    {
+      "id": "A01",
+      "start": 0,
+      "end": 128.84,
+      "layer": "unknown",
+      "detail": "No validated direct audio listening was performed. Music, speech delivery, effects, mix and sync remain unknown, not absent.",
+      "visual_relation": "All visual scenes; audiovisual alignment unverified",
+      "evidence": "Visual samples only; no actual audio range supplied to this reviewer."
+    },
+    {
+      "id": "A02",
+      "start": 3.81,
+      "end": 122.33,
+      "layer": "ASR draft",
+      "detail": "The usable ASR draft explains an Excel-native agent, new and existing model examples, source citations and early access. Several technical names and phrases are mistranscribed; visible Endex branding, P&L labels and Form 10-Q take priority. The script supports intended workflow, not model correctness. Delivery, music and effects were not heard.",
+      "visual_relation": "Story text support; exact audiovisual alignment and delivery unverified.",
+      "evidence": "technical-review-2026-10-19/deep-review/audio/473-speech.json; local faster-whisper base CPU int8 draft; VAD candidates only, recognition errors possible."
+    }
+  ],
+  "categories": [
+    {
+      "id": "Q01",
+      "finding": "Founder introduction leads to a new model, an existing-model analysis, a source-document view and an early-access invitation.",
+      "evidence": "V01–V08",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q02",
+      "finding": "A vintage monitor with Endex creates a simple identity opening; the practical category follows in the founder introduction.",
+      "evidence": "V01",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q03",
+      "finding": "Financial analysts using Excel are clearly addressed through P&L, assumptions, DexCom and source-document examples.",
+      "evidence": "V01–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q04",
+      "finding": "Worksheet rows and formatted sections populate, sheet tabs change, the view zooms into model details, and a source viewer opens over Excel. The final Excel text contracts into Endex.",
+      "evidence": "V02–V08",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q05",
+      "finding": "The screen overlay brings the demonstration into the interview frame. A blurred transition separates the new-model example from the existing DexCom workbook.",
+      "evidence": "V02,V04–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q06",
+      "finding": "Plain interview footage and mostly native Excel UI prioritize work evidence over decorative graphics; dark blue sheet headers organize results.",
+      "evidence": "V01–V07",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q07",
+      "finding": "Subtitles explain the actions, but much of the full-window spreadsheet and sidebar text is too small for quick reading. Close-ups at the summary and citation help.",
+      "evidence": "V02–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q08",
+      "finding": "The usable ASR draft explains an Excel-native agent, new and existing model examples, source citations and early access. Several technical names and phrases are mistranscribed; visible Endex branding, P&L labels and Form 10-Q take priority. The script supports intended workflow, not model correctness. Delivery, music and effects were not heard.",
+      "evidence": "A02",
+      "status": "uncertain",
+      "reason": "ASR text only; no validated listening, delivery or voice origin.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q09",
+      "finding": "Voice delivery, music, effects and audiovisual alignment were not established by this visual pass.",
+      "evidence": "A01",
+      "status": "not checked",
+      "reason": "No validated direct audio listening input.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q10",
+      "finding": "Voice delivery, music, effects and audiovisual alignment were not established by this visual pass.",
+      "evidence": "A01",
+      "status": "not checked",
+      "reason": "No validated direct audio listening input.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q11",
+      "finding": "Voice delivery, music, effects and audiovisual alignment were not established by this visual pass.",
+      "evidence": "A01",
+      "status": "not checked",
+      "reason": "No validated direct audio listening input.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q12",
+      "finding": "Founder footage, native-looking Excel recordings, Endex sidebar, source viewer and a typographic ending are the core assets.",
+      "evidence": "V01–V08",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q13",
+      "finding": "Manifest duration 128.84s; indexed dimensions 1920×1080. Source unchanged flag recorded; fresh encoding and audio clipping checks not run.",
+      "evidence": "Group manifest",
+      "status": "uncertain",
+      "reason": "Inherited technical metadata; no fresh media probe in this review.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q14",
+      "finding": "Subtitles preserve the demonstration narrative silently. Viewers can see tables develop and a source open, though details require pausing.",
+      "evidence": "V02–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q15",
+      "finding": "The full-window view has competing worksheet and chat areas. Zooming to the note and source document gives the clearest guided proof.",
+      "evidence": "V05–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q16",
+      "finding": "The build section lasts long enough to show progress but includes many similar table states. A few named checkpoints would make the sequence easier to follow.",
+      "evidence": "V02–V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q17",
+      "finding": "The Excel-agent promise is supported by visible in-workbook generation and source access. Formula correctness and general model reliability are not established.",
+      "evidence": "V02–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q18",
+      "finding": "The restrained presentation suggests practical competence and familiarity. The founders’ admission of imperfection adds a measured note in the captions.",
+      "evidence": "V01,V07",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q19",
+      "finding": "The Excel context persists through both examples; the second model’s cell notes and 10-Q viewer make the source relationship visible.",
+      "evidence": "V05–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q20",
+      "finding": "Readable frames confirm a B2B SaaS P&L, a DexCom cost note and a Form 10-Q source page. The blanket no-hard-coding claim is not proven by the sampled views, and no full model audit is shown.",
+      "evidence": "V04–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q21",
+      "finding": "Endex is visible in the sidebar and source viewer; the closing name transformation reinforces its Excel relationship.",
+      "evidence": "V02,V06,V08",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q22",
+      "finding": "Label three checkpoints and trace one changed driver through its formula to an output; keep the source-opening sequence.",
+      "evidence": "V03–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q23",
+      "finding": "For analytical software, show an output and then let the viewer inspect the source behind one specific value.",
+      "evidence": "V05–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q24",
+      "finding": "Endex is an Excel add-in that builds financial models and helps update existing workbooks with source-linked notes.",
+      "evidence": "Model reading from inspected images",
+      "status": "uncertain",
+      "reason": "Model-only new-viewer interpretation; no human test.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q25",
+      "finding": "Contact sheets inspected at displayed size; a phone-size playback, caption audit, flash audit and formal accessibility check were not performed.",
+      "evidence": "Viewed sheets",
+      "status": "not checked",
+      "reason": "Full-size moving-image and device checks unavailable in this pass.",
+      "experiment": "none"
+    }
+  ],
+  "lessons": {
+    "keep": "Open the supporting source from the exact result being discussed.",
+    "avoid": "Treating a populated spreadsheet or visible citation as proof that every formula is correct.",
+    "open": "Model accuracy, complete formula linkage, data permissions, funding claims and actual audio remain unverified.",
+    "try": [
+      "For Tin, select one campaign recommendation and open the source evidence that supports it.",
+      "Compare the long model-building view with three labeled checkpoints plus one assumption-to-result trace."
+    ]
+  },
+  "comparison": {
+    "story": "Name the product and establish the team. → Show creation from a blank workbook. → Demonstrate model structure and breadth. → Emphasize linked drivers and editability as claims. → Show work on an existing model. → Show a path from model analysis to source material. → Set expectations and provide access action. → Tie the product name to its host application.",
+    "motion": "Worksheet rows and formatted sections populate, sheet tabs change, the view zooms into model details, and a source viewer opens over Excel. The final Excel text contracts into Endex. Sampling scope: 1 fps unless a closer window is recorded.",
+    "sound": "No validated listening; unknown.",
+    "texture": "Simple desk interview, subtitles and restrained serif identity.; Large screen recording with white worksheet and right chat pane.; Mostly fixed whole-window view with rapidly changing sheet content.; Selective close crop followed by full application framing.; Dense financial worksheet and source-related chat text.; Readable document overlay inside the spreadsheet context.; Paired interview and one closer single-speaker angle with subtitles.; Minimal white serif word transformation.",
+    "lesson": "Open the supporting source from the exact result being discussed."
+  },
+  "elements": [
+    {
+      "kind": "ui",
+      "name": "spreadsheet",
+      "events": [
+        "V02",
+        "V03",
+        "V04",
+        "V05",
+        "V06"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "chat sidebar",
+      "events": [
+        "V02",
+        "V03",
+        "V05"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "source document viewer",
+      "events": [
+        "V06"
+      ]
+    },
+    {
+      "kind": "motion",
+      "name": "populating spreadsheet",
+      "events": [
+        "V02",
+        "V03"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,359 @@
+{
+  "id": 43,
+  "product_from_film": "Voyager presents a prompt-based assistant for creative media work across files and editing tools.",
+  "explains_well": "A recurring forest project links footage, folders, editing timelines and altered scenery.",
+  "unclear": "The exact boundary between Voyager, the other displayed tools and generated examples is not clear without narration.",
+  "product_type": "creative AI assistant",
+  "scenario": "Organize redwood-forest footage and work on its video and scene variants.",
+  "product_clear_time": 22,
+  "product_clear_basis": "A Voyager prompt asks to organize Redwood Forest footage, followed by file windows.",
+  "scenes": [
+    {
+      "start": 0,
+      "end": 13,
+      "action": "A presenter in a forest gains a large Voyager title. Forest examples carry video, music and games labels; code and a small blue preview follow.",
+      "design": "Natural forest imagery, large white title, dark code screen.",
+      "purpose": "Introduce broad creative ambition and contrast it with technical work.",
+      "evidence": "1 fps source samples in 0–13s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V01"
+    },
+    {
+      "start": 13,
+      "end": 25,
+      "action": "A many-shot gallery gains S-tier Content text. A purple prompt interface replaces it; a request to organize forest footage appears and the send button is isolated.",
+      "design": "Dark purple field, white prompt, large translucent cursor.",
+      "purpose": "Move from outputs to a specific input task.",
+      "evidence": "1 fps source samples in 13–25s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V02"
+    },
+    {
+      "start": 25,
+      "end": 38,
+      "action": "Two file windows show forest clips and folders, followed by a scenic editor preview, grey forest model and multitrack video editor. The timeline becomes large before a plus icon.",
+      "design": "File thumbnails, many colored timeline strips and grey model geometry.",
+      "purpose": "Suggest action across the creative workspace.",
+      "evidence": "1 fps source samples in 25–38s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V03"
+    },
+    {
+      "start": 38,
+      "end": 50,
+      "action": "Fern and canopy imagery lead to a forest shot with an inline request. Similar tree compositions then gain brighter mist and snow.",
+      "design": "Full-frame foliage; small prompt overlay and recognizable trunks.",
+      "purpose": "Show variations on the same visual material.",
+      "evidence": "1 fps source samples in 38–50s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V04"
+    },
+    {
+      "start": 50,
+      "end": 61,
+      "action": "The forest presenter returns; a stack of work windows overlays her, then clears.",
+      "design": "Natural green background with dark panels and sketches.",
+      "purpose": "Reconnect broad tool coverage to the presenter.",
+      "evidence": "1 fps source samples in 50–61s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V05"
+    },
+    {
+      "start": 61,
+      "end": 73,
+      "action": "A closer presenter shot gains assistant text and a list of skill paths with small example images. A roda mark and large increasing numerals follow.",
+      "design": "Thin serif label, translucent skill rows, large white numbers.",
+      "purpose": "Explain reusable skills and add a scale claim; number meaning is unclear from samples.",
+      "evidence": "1 fps source samples in 61–73s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V06"
+    },
+    {
+      "start": 73,
+      "end": 84.918,
+      "action": "Forest floor and upward tree views replace the presenter. Voyager title appears over sky, then rests on purple with the website.",
+      "design": "Soft sky and dark purple final card.",
+      "purpose": "Close with the same forest world and a start link.",
+      "evidence": "1 fps source samples in 73–84.918s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V07"
+    }
+  ],
+  "categories": [
+    {
+      "id": "Q01",
+      "finding": "The forest links presenter, examples and a practical organize-footage request; later the story broadens to skills.",
+      "evidence": "V01–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q02",
+      "finding": "A presenter appears in a forest; a large Voyager title arrives by 1s. Product function is not yet visible.",
+      "evidence": "V01",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q03",
+      "finding": "Creative media users are implied by video/music/games labels at 5–7s. A concrete assistant task appears at 22s.",
+      "evidence": "V01,V02",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q04",
+      "finding": "The prompt, send button and editor timeline appear at progressively closer scales. Oversized cursor shapes mark actions; exact paths are unresolved.",
+      "evidence": "V02,V03",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q05",
+      "finding": "The gallery becomes a purple workspace near 18s; the scene changes to file windows near 25s. These are sampled state boundaries, not verified cut mechanisms.",
+      "evidence": "V02,V03",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q06",
+      "finding": "Natural greens ground the product in one project; purple glows mark the software layer.",
+      "evidence": "V01,V02,V07",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q07",
+      "finding": "A large readable request anchors meaning, but editor text and skills rows are much denser. The large 100000 figure lacks a visible unit.",
+      "evidence": "V02,V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q08",
+      "finding": "The inspected ASR draft provides partial script-role support; recognition limits are recorded in A02. Audible voice characteristics and delivery remain unchecked.",
+      "evidence": "A02",
+      "status": "uncertain",
+      "reason": "Local draft text was read; no direct listening.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q09",
+      "finding": "Music character and structure are unverified.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "No validated listening.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q10",
+      "finding": "Effects and their sources are unverified.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "No validated listening; waveform peaks do not identify effects.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q11",
+      "finding": "Sound sync is unverified.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "No validated listening or paired audiovisual timing.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q12",
+      "finding": "Presenter footage, foliage, rendered-looking forest variants, code, file windows and editing screens are mixed; asset origin is unknown.",
+      "evidence": "V01–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q13",
+      "finding": "Source duration 84.918 s; Watch metadata 1920 × 1080. Frame rate, audio clipping and export quality not checked here.",
+      "evidence": "Whole film",
+      "status": "supported",
+      "reason": "Parent source metadata supports duration and dimensions; visual review is sampled.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q14",
+      "finding": "Footage organization and forest variation are understandable silently. Claims about harness, integrations and the large number remain uncertain.",
+      "evidence": "V02,V03,V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q15",
+      "finding": "Large cursor and isolated send button guide attention. Overlaid windows compete with the presenter in the 54–57s range.",
+      "evidence": "V02,V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q16",
+      "finding": "Files, scenic editor, grey 3D scene and video timeline arrive within 13s; the integration story needs labels or a slower example.",
+      "evidence": "V03",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "Hold one file-to-timeline result and name what the assistant changed."
+    },
+    {
+      "id": "Q17",
+      "finding": "The opening promises broad creativity. The prompt and multi-tool examples support that direction, while the final forest returns to the original setting.",
+      "evidence": "V01,V02,V03,V07",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q18",
+      "finding": "The forest and presenter appear intended to make technical creative work feel approachable; no viewer emotion was measured.",
+      "evidence": "V01,V05",
+      "status": "uncertain",
+      "reason": "Intent inferred from visible presentation.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q19",
+      "finding": "Redwood footage and similar forest trees remain traceable across tools. The later robot sketch and brand/number inserts broaden away from that scenario.",
+      "evidence": "V03–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q20",
+      "finding": "A request and subsequent workspace states are shown, but continuous agent execution and genuine integrations are not independently checked.",
+      "evidence": "V02,V03",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q21",
+      "finding": "The real-world forest ties the presenter and product demo together. Purple UI and a large white name alone are less distinctive.",
+      "evidence": "V01–V07",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q22",
+      "finding": "The organize-footage request and folder result are useful. The later number claim needs a label; otherwise it adds little silent meaning.",
+      "evidence": "V02,V03,V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q23",
+      "finding": "For Tin, retain one campaign asset across folders, workflow and published preview, with a visible plain-language request.",
+      "evidence": "V02,V03",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "Use one campaign’s source files and final preview rather than unrelated output examples."
+    },
+    {
+      "id": "Q24",
+      "finding": "No human new-viewer test was performed.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "The product summary is this model’s film-only reading.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q25",
+      "finding": "Mobile preview and accessibility checks were not performed.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "Contact sheets are evidence views, not a stated mobile preview or compliance test.",
+      "experiment": "none"
+    }
+  ],
+  "elements": [
+    {
+      "kind": "ui",
+      "name": "prompt input",
+      "events": [
+        "V02"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "file browser",
+      "events": [
+        "V03"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "editing timeline",
+      "events": [
+        "V03"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "code editor",
+      "events": [
+        "V01"
+      ]
+    },
+    {
+      "kind": "motion",
+      "name": "UI scale change",
+      "events": [
+        "V02",
+        "V03"
+      ]
+    }
+  ],
+  "lessons": {
+    "keep": "Carry the same forest project from the real-world setting into the software states.",
+    "try": [
+      "For Tin, open beside a real product, ask for its campaign, then show that same product in the generated asset and workflow output.",
+      "Show one source folder and one completed campaign preview with a single large cursor and a label naming the changed state."
+    ],
+    "avoid": "Showing many creative tools without stating which action the assistant performed.",
+    "open": "Narration, audio design, actual integrations, number meaning and exact inter-frame motion remain unverified."
+  },
+  "comparison": {
+    "story": "Presenter and media promise → prompt → multi-tool forest work → variants → skills → brand.",
+    "motion": "UI scale changes and oversized cursor states; whole film at roughly 1 fps, easing unresolved.",
+    "sound": "No validated listening; voice delivery, music, effects and sync unknown.",
+    "texture": "Natural forest footage and purple software layer; production and asset sources unknown.",
+    "lesson": "Use one visual project as continuity across multiple tools."
+  },
+  "reviewer_model": "gpt-6-astra",
+  "scope": "sampled visual and story review; ASR and measured signal support; no validated audio listening",
+  "viewed_evidence": [
+    "technical-review-2026-10-19/deep-review/motion/043/timeline-00.jpg",
+    "technical-review-2026-10-19/deep-review/motion/043/timeline-01.jpg",
+    "technical-review-2026-10-19/deep-review/motion/043/timeline-02.jpg"
+  ],
+  "closer_windows": [],
+  "sound": [
+    {
+      "id": "A01",
+      "start": 0,
+      "end": 84.918,
+      "layer": "unknown",
+      "detail": "No validated audio listening. Voice delivery, music, effects and mix are unknown.",
+      "visual_relation": "All scenes; sound alignment unverified",
+      "evidence": "No actual audio perception in this review; prepared audio files are not listening evidence."
+    },
+    {
+      "id": "A02",
+      "start": 0,
+      "end": 84.918,
+      "layer": "ASR draft",
+      "detail": "The coherent draft introduces Voyager as a creative-work harness, then describes footage review, professional-tool use, generation, iteration, feedback and personalization. Tool/model names have recognition errors; these are spoken claims in a draft, not validated capabilities. No validated listening; delivery, music, effects, mix and synchronization remain unknown.",
+      "visual_relation": "Whole-film script role only; ASR timing and audible delivery not validated.",
+      "evidence": "technical-review-2026-10-19/deep-review/audio/043-speech.json; local faster-whisper draft inspected."
+    }
+  ]
+}

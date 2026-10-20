@@ -1,0 +1,346 @@
+{
+  "id": 334,
+  "viewed_evidence": [
+    "technical-review-2026-10-19/deep-review/motion/334/timeline-00.jpg",
+    "technical-review-2026-10-19/deep-review/motion/334/timeline-01.jpg",
+    "astra-review-2026-10-20/evidence/group-3/334/dense.jpg",
+    "astra-review-2026-10-20/evidence/group-3/334/full0.jpg"
+  ],
+  "product_from_film": "Sureform presents many first-person manual-task videos with hand-point overlays; the service behind them is not explained.",
+  "explains_well": "The growing grid shows a wide variety of physical tasks.",
+  "unclear": "How these recordings become useful data or a robotics result is missing.",
+  "product_type": "physical-task data brand film",
+  "scenario": "Hands perform manual work across a growing video mosaic.",
+  "product_clear_time": null,
+  "product_clear_basis": "The brand appears near 27s, but no service action or output is explained.",
+  "scenes": [
+    {
+      "start": 0,
+      "end": 4,
+      "action": "A grid shows hands sewing, handling small parts, packing bottles and doing kitchen tasks. Blue lines and yellow points follow hand positions in the dense samples.",
+      "design": "First-person footage; hand-point overlays.",
+      "purpose": "Establish physical expertise.",
+      "id": "V01",
+      "evidence": "Visible 1 fps samples, source 0–4s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 4,
+      "end": 14,
+      "action": "The mosaic pulls back and reveals more rows and columns of task clips.",
+      "design": "Many rectangular footage tiles fill the frame.",
+      "purpose": "Suggest breadth of examples.",
+      "id": "V02",
+      "evidence": "Visible 1 fps samples, source 4–14s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 14,
+      "end": 26,
+      "action": "The grid becomes progressively finer; individual tasks become hard to distinguish.",
+      "design": "Footage becomes a dense visual texture.",
+      "purpose": "Suggest scale.",
+      "id": "V03",
+      "evidence": "Visible 1 fps samples, source 14–26s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 26,
+      "end": 29,
+      "action": "The grid washes toward white as SUREFORM appears in the centre.",
+      "design": "Plain dark wordmark on white.",
+      "purpose": "Connect the collection to a brand.",
+      "id": "V04",
+      "evidence": "Visible 1 fps samples, source 26–29s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 29,
+      "end": 32,
+      "action": "The centred wordmark holds.",
+      "design": "Minimal white field.",
+      "purpose": "Give time to read the name.",
+      "id": "V05",
+      "evidence": "Visible 1 fps samples, source 29–32s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 32,
+      "end": 34.945,
+      "action": "The end field fades through grey toward black.",
+      "design": "Simple fade.",
+      "purpose": "Close.",
+      "id": "V06",
+      "evidence": "Visible 1 fps samples, source 32–34.945s; boundaries approximate, between-frame action unresolved."
+    }
+  ],
+  "sound": [
+    {
+      "id": "A01",
+      "start": 0,
+      "end": 34.945,
+      "layer": "unknown",
+      "detail": "No validated audio listening; speech, music, effects, mix and sync remain unverified.",
+      "visual_relation": "All visual scenes; alignment not checked",
+      "evidence": "No actual audio supplied to this review; existing technical-review-2026-10-19/deep-review/audio/334.json is not listening evidence."
+    }
+  ],
+  "categories": [
+    {
+      "finding": "A collection grows in scale and resolves to a brand; there is no demonstrated data-processing scenario.",
+      "evidence": "V01–V04, 0–29s",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q01"
+    },
+    {
+      "finding": "Several hands perform different tasks at once. The point overlays suggest structured observation, but their meaning is not labelled.",
+      "evidence": "V01, dense 0–3s and full0",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q02"
+    },
+    {
+      "finding": "Physical-task recording is visible; the buyer, capture process and final use remain unclear.",
+      "evidence": "V01–V05, 0–32s",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q03"
+    },
+    {
+      "finding": "Dense 0–3s samples show hands changing position inside stable tiles with point overlays. Later 1 fps samples show the whole grid shrinking as more tiles enter; exact easing remains unresolved.",
+      "evidence": "V01 dense 0–3s; V02–V03 4–26s",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q04"
+    },
+    {
+      "finding": "The grid provides a continuous transition from readable examples to texture, then washes out behind the wordmark.",
+      "evidence": "V02–V04, 4–29s",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q05"
+    },
+    {
+      "finding": "Varied workshop and domestic footage gives a practical, lived-in texture; a clean white end card is a strong visual reset.",
+      "evidence": "V01 and V04–V05",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q06"
+    },
+    {
+      "finding": "The wordmark is readable, but no labels explain the hand points, tasks or data output.",
+      "evidence": "V01–V05",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q07"
+    },
+    {
+      "finding": "Voice presence and delivery remain unverified.",
+      "evidence": "No validated audio listening",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q08"
+    },
+    {
+      "finding": "Music character and arc remain unverified.",
+      "evidence": "No validated audio listening",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q09"
+    },
+    {
+      "finding": "Sound effects remain unverified.",
+      "evidence": "No validated audio listening",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q10"
+    },
+    {
+      "finding": "Sound-to-motion timing remain unverified.",
+      "evidence": "No validated audio listening",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q11"
+    },
+    {
+      "finding": "Many first-person task clips are tiled and composited with blue lines and yellow points. Recording method and asset origins are unknown.",
+      "evidence": "V01, full0; V02–V03",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q12"
+    },
+    {
+      "finding": "Source duration supplied as 34.945s; no independent compression, clipping or delivery check.",
+      "evidence": "Assigned metadata; source integrity checked by parent",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q13"
+    },
+    {
+      "finding": "Without sound, manual work and collection size remain visible. The robotics-training role is not established by the images alone.",
+      "evidence": "V01–V05",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q14"
+    },
+    {
+      "finding": "Early large tiles allow task recognition. The expanding mosaic removes a single focal task before the centred wordmark restores focus.",
+      "evidence": "V01–V04",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q15"
+    },
+    {
+      "finding": "The later grid adds quantity but little new readable meaning. A shorter scale reveal could leave room for one labelled output.",
+      "evidence": "V03, 14–26s",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q16"
+    },
+    {
+      "finding": "The opening promises a look at physical expertise. The ending answers whose collection it is, but not what it enables.",
+      "evidence": "V01 and V04–V05",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q17"
+    },
+    {
+      "finding": "The growing field appears designed to create awe at the breadth of work; this is an interpretation, not measured response.",
+      "evidence": "V02–V03",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q18"
+    },
+    {
+      "finding": "The same rectangular grid carries the whole film until the brand reveal. Individual task continuity is lost as tiles become tiny.",
+      "evidence": "V01–V04",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q19"
+    },
+    {
+      "finding": "The mosaic shows examples and overlays. It does not establish unique clip count, data quality, robot training or robot performance.",
+      "evidence": "V01–V04",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q20"
+    },
+    {
+      "finding": "Hand-point overlays are more specific than a generic footage mosaic, but the unlabelled grid could represent many data businesses.",
+      "evidence": "V01–V03",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q21"
+    },
+    {
+      "finding": "The opening examples and brand reveal carry the core message. Part of the long scale expansion could be replaced with a concrete output.",
+      "evidence": "V02–V05",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q22"
+    },
+    {
+      "finding": "For a data product, use cleared task clips, consistent hand-point overlays and a grid scale animation; add one labelled conversion from recording to usable record.",
+      "evidence": "V01–V04",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q23"
+    },
+    {
+      "finding": "No human new-viewer test; product description above is model interpretation of sampled images.",
+      "evidence": "V01–V06",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q24"
+    },
+    {
+      "finding": "No phone-size, safe-area or flash assessment; small UI text needs separate preview.",
+      "evidence": "Contact sheets",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q25"
+    }
+  ],
+  "lessons": {
+    "keep": "Keep readable task examples before the mosaic becomes a scale image.",
+    "try": [
+      "For a robotics-data film, carry one sewing clip through capture, hand data and a labelled training output.",
+      "Shorten the fine-grid section and use the time to show who uses the resulting data."
+    ],
+    "avoid": "Avoid using more tiles as the only explanation of product value.",
+    "open": "Audio is unverified; recording origins, point accuracy and downstream training results are not checked."
+  },
+  "comparison": {
+    "story": "Establish physical expertise. → Suggest breadth of examples. → Suggest scale. → Connect the collection to a brand. → Give time to read the name. → Close.",
+    "motion": "Dense 0–3s samples show hands changing position inside stable tiles with point overlays. Later 1 fps samples show the whole grid shrinking as more tiles enter; exact easing remains unresolved.",
+    "sound": "No validated listening; no absence claims.",
+    "texture": "Varied workshop and domestic footage gives a practical, lived-in texture; a clean white end card is a strong visual reset.",
+    "lesson": "Keep readable task examples before the mosaic becomes a scale image."
+  },
+  "elements": [
+    {
+      "kind": "motion",
+      "name": "grid zoom out",
+      "events": [
+        "V02",
+        "V03"
+      ]
+    },
+    {
+      "kind": "texture",
+      "name": "first-person task footage",
+      "events": [
+        "V01"
+      ]
+    },
+    {
+      "kind": "texture",
+      "name": "hand-point overlays",
+      "events": [
+        "V01"
+      ]
+    },
+    {
+      "kind": "motion",
+      "name": "fade",
+      "events": [
+        "V04",
+        "V06"
+      ]
+    }
+  ],
+  "reviewer_model": "gpt-6-astra",
+  "scope": "sampled visual and story review; ASR and measured signal support; no validated audio listening",
+  "closer_windows": [
+    {
+      "start": 0,
+      "end": 3,
+      "rate_fps": 4,
+      "evidence": [
+        "astra-review-2026-10-20/evidence/group-3/334/dense.jpg"
+      ],
+      "resolved": "Hands change position inside the tiles; blue lines and yellow points overlay hands. No robot execution is shown in this window."
+    }
+  ]
+}

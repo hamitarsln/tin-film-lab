@@ -1,0 +1,371 @@
+{
+  "id": 436,
+  "viewed_evidence": [
+    "technical-review-2026-10-19/deep-review/motion/436/timeline-00.jpg",
+    "technical-review-2026-10-19/deep-review/motion/436/timeline-01.jpg",
+    "astra-review-2026-10-20/evidence/group-3/436/dense17-21.jpg",
+    "astra-review-2026-10-20/evidence/group-3/436/full33.jpg",
+    "astra-review-2026-10-20/evidence/group-3/436/full33.7.jpg"
+  ],
+  "product_from_film": "Orb presents Solana history, transaction views and AI explanations.",
+  "explains_well": "Date selection, transaction list and Explain with AI states show concrete explorer features.",
+  "unclear": "The long abstract opening delays the tool, and the explanation result is too brief and technical to read easily.",
+  "product_type": "blockchain explorer",
+  "scenario": "Look back at transactions and ask AI to explain one.",
+  "product_clear_time": 28,
+  "product_clear_basis": "Date selector leads to transaction rows; Explain with AI at 31s confirms explanatory tool.",
+  "scenes": [
+    {
+      "start": 0,
+      "end": 8,
+      "action": "Camera travels through red city toward huge orange sphere while Solana, time-machine and AI copy changes.",
+      "design": "Glowing skyline, monospaced type and distortion.",
+      "purpose": "Promise new exploration",
+      "id": "V01",
+      "evidence": "Visible 1 fps samples, source 0–8s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 8,
+      "end": 17,
+      "action": "Dark towers surround central light; view rushes toward glowing sphere on tiled ground.",
+      "design": "Orange bloom and radial blur.",
+      "purpose": "Build reveal",
+      "id": "V02",
+      "evidence": "Visible 1 fps samples, source 8–17s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 17,
+      "end": 23,
+      "action": "Particle tunnel and rings frame Introducing and Orb; phones orbit giant sphere.",
+      "design": "Intense red streaks and luminous particles.",
+      "purpose": "Reveal brand",
+      "id": "V03",
+      "evidence": "Visible 1 fps samples, source 17–23s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 23,
+      "end": 30,
+      "action": "Orb interface, balance, date picker and transaction rows appear on angled phone surfaces.",
+      "design": "Go back in time and Any date overlays.",
+      "purpose": "Show history browsing",
+      "id": "V04",
+      "evidence": "Visible 1 fps samples, source 23–30s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 30,
+      "end": 35,
+      "action": "Explain with AI button leads to analyzing state and text about Validator Tower Sync.",
+      "design": "Light transaction panel with summary tabs.",
+      "purpose": "Show explanation",
+      "id": "V05",
+      "evidence": "Visible 1 fps samples, source 30–35s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 35,
+      "end": 41,
+      "action": "Heatmap calendar expands, then dashboards show charts, blocks and staking panels.",
+      "design": "Dark red interface cards.",
+      "purpose": "List additional views",
+      "id": "V06",
+      "evidence": "Visible 1 fps samples, source 35–41s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 41,
+      "end": 45,
+      "action": "Glitch-like panel leads to red sphere composition and Solana at the speed of thought.",
+      "design": "Reflective geometric panels and glowing towers.",
+      "purpose": "Restate promise",
+      "id": "V07",
+      "evidence": "Visible 1 fps samples, source 41–45s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 45,
+      "end": 48,
+      "action": "orb.helius.dev holds on black.",
+      "design": "Small red URL.",
+      "purpose": "Invite visit",
+      "id": "V08",
+      "evidence": "Visible 1 fps samples, source 45–48s; boundaries approximate, between-frame action unresolved."
+    }
+  ],
+  "sound": [
+    {
+      "id": "A01",
+      "start": 0,
+      "end": 48.0,
+      "layer": "unknown",
+      "detail": "No validated audio listening; speech, music, effects, mix and sync remain unverified.",
+      "visual_relation": "All visual scenes; alignment not checked",
+      "evidence": "No actual audio supplied to this review; existing technical-review-2026-10-19/deep-review/audio/436.json is not listening evidence."
+    }
+  ],
+  "categories": [
+    {
+      "finding": "Atmospheric promise precedes a feature montage of historical lookup, AI explanation, heatmap and dashboard; no single user question carries through.",
+      "evidence": "V01–V08",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q01"
+    },
+    {
+      "finding": "Fragmented SOLANA lettering overlays rapid red city travel; blockchain context is named but use is not clear.",
+      "evidence": "V01 0–2s",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q02"
+    },
+    {
+      "finding": "Solana users can infer a history explorer by 28s; AI button and result at 31–34s clarify the explanation function.",
+      "evidence": "V04/V05",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q03"
+    },
+    {
+      "finding": "Dense 17–21s shows radial streaks around a particle sphere, concentric rings rotating/tilting with Introducing, then Orb text and expanding fiery surface. Exact easing unresolved.",
+      "evidence": "V03; dense17-21.jpg",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q04"
+    },
+    {
+      "finding": "Rapid forward rushes and distortion connect abstract scenes; UI appears on rotating planes, interrupted by scanline/glitch-like frames.",
+      "evidence": "V02–V07",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q05"
+    },
+    {
+      "finding": "Red-orange glow, glossy dark city, particles and scanlines form a consistent science-fiction treatment, sometimes competing with copy.",
+      "evidence": "V01–V07",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q06"
+    },
+    {
+      "finding": "Date and feature headlines are clear at large scale; AI summary contains long validator addresses and technical terms, held briefly. Full 33.7s shows result still building.",
+      "evidence": "V04/V05",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q07"
+    },
+    {
+      "finding": "Voice presence and delivery remain unverified.",
+      "evidence": "No validated audio listening",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q08"
+    },
+    {
+      "finding": "Music character and arc remain unverified.",
+      "evidence": "No validated audio listening",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q09"
+    },
+    {
+      "finding": "Sound effects remain unverified.",
+      "evidence": "No validated audio listening",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q10"
+    },
+    {
+      "finding": "Sound-to-motion timing remain unverified.",
+      "evidence": "No validated audio listening",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q11"
+    },
+    {
+      "finding": "Rendered-looking architecture and spheres frame phone shells and interface captures; production tools and origins unknown.",
+      "evidence": "V01/V03/V04",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q12"
+    },
+    {
+      "finding": "Source duration supplied as 48.0s; no independent compression, clipping or delivery check.",
+      "evidence": "Assigned metadata; source integrity checked by parent",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q13"
+    },
+    {
+      "finding": "Silent viewer can identify dates, transactions, AI summary and heatmap, but may miss the practical benefit behind the spectacle.",
+      "evidence": "V04–V06",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q14"
+    },
+    {
+      "finding": "Central sphere anchors abstract sections; angled UI and streaking backgrounds compete with small financial rows.",
+      "evidence": "V03/V04",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q15"
+    },
+    {
+      "finding": "Roughly half the film precedes concrete UI; the dense AI explanation gets about two seconds and needs a stable hold.",
+      "evidence": "V01–V05",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q16"
+    },
+    {
+      "finding": "Time-machine promise maps to date selection, and explained-with-AI maps to one result; speed-of-thought remains promotional.",
+      "evidence": "V01/V04/V05/V07",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q17"
+    },
+    {
+      "finding": "Large sun and rushing tunnel appear intended to create scale and excitement rather than calm research.",
+      "evidence": "V01–V03",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q18"
+    },
+    {
+      "finding": "Orange sphere and red palette persist, but date history, AI explanation and heatmap are separate feature samples.",
+      "evidence": "V03–V06",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q19"
+    },
+    {
+      "finding": "Visible AI summary describes validator tower sync, transaction fee and confirmations. Accuracy and speed are unverified; no benchmark is shown.",
+      "evidence": "V05 full33.7.jpg",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q20"
+    },
+    {
+      "finding": "Orb name connects naturally to repeated sphere; palette carries through the interface, making the motif product-specific.",
+      "evidence": "V03/V04/V07",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q21"
+    },
+    {
+      "finding": "Shorten city and tunnel introduction; use saved time for one question, selected transaction and plain-language answer.",
+      "evidence": "V01–V05",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q22"
+    },
+    {
+      "finding": "For Tin, use one recurring shape as a transition into actual workflow UI, then stop motion for the result. Need stable UI captures and a short abstract scene.",
+      "evidence": "V03–V05",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q23"
+    },
+    {
+      "finding": "No human new-viewer test; product description above is model interpretation of sampled images.",
+      "evidence": "V01–V08",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q24"
+    },
+    {
+      "finding": "No phone-size, safe-area or flash assessment; small UI text needs separate preview.",
+      "evidence": "Contact sheets",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q25"
+    }
+  ],
+  "lessons": {
+    "keep": "Link a repeated visual motif to the product name and interface palette.",
+    "try": [
+      "Try a Tin opening that moves through one branded shape into the relevant workflow within five seconds.",
+      "Try an AI explanation demo with one source event and a three-second plain-language result hold."
+    ],
+    "avoid": "Avoid making dense result text compete with a moving glowing background.",
+    "open": "Audio, sub-frame transition detail, AI accuracy and flash accessibility remain unchecked."
+  },
+  "comparison": {
+    "story": "Promise new exploration → Build reveal → Reveal brand → Show history browsing → Show explanation → List additional views → Restate promise → Invite visit",
+    "motion": "Dense 17–21s shows radial streaks around a particle sphere, concentric rings rotating/tilting with Introducing, then Orb text and expanding fiery surface. Exact easing unresolved.",
+    "sound": "No validated listening; no absence claims.",
+    "texture": "Red-orange glow, glossy dark city, particles and scanlines form a consistent science-fiction treatment, sometimes competing with copy.",
+    "lesson": "Link a repeated visual motif to the product name and interface palette."
+  },
+  "elements": [
+    {
+      "kind": "ui",
+      "name": "calendar",
+      "events": [
+        "V04",
+        "V06"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "transaction list",
+      "events": [
+        "V04"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "chart",
+      "events": [
+        "V06"
+      ]
+    },
+    {
+      "kind": "motion",
+      "name": "radial zoom",
+      "events": [
+        "V03"
+      ]
+    },
+    {
+      "kind": "texture",
+      "name": "glowing particles",
+      "events": [
+        "V03"
+      ]
+    }
+  ],
+  "reviewer_model": "gpt-6-astra",
+  "scope": "sampled visual and story review; ASR and measured signal support; no validated audio listening",
+  "closer_windows": [
+    {
+      "start": 17,
+      "end": 21,
+      "rate_fps": 4,
+      "evidence": [
+        "astra-review-2026-10-20/evidence/group-3/436/dense17-21.jpg"
+      ],
+      "resolved": "Radial streak field, tilting concentric rings and Introducing text lead to Orb logo and fiery sphere surface. Exact easing and flash behavior unassessed."
+    }
+  ]
+}

@@ -1,0 +1,369 @@
+{
+  "id": 401,
+  "product_from_film": "Lovable builds an app from a request, asks planning questions, tests it, adds integrations and publishes it.",
+  "explains_well": "One Swedish-learning app connects the new capabilities to a personal need.",
+  "unclear": "After the flashcard error is marked restored, the film does not clearly repeat the repaired card interaction.",
+  "product_type": "App building tool",
+  "scenario": "Build and publish a Swedish vocabulary app for Caroline.",
+  "product_clear_time": 13.43,
+  "product_clear_basis": "ASR introduces Caroline building an app; the visible request and output establish the task at 31–45s.",
+  "scenes": [
+    {
+      "start": 0,
+      "end": 12,
+      "action": "Two presenters sit on a sofa with a laptop, then Lovable and five capability labels appear on a blue/pink field.",
+      "design": "Warm office and luminous gradient.",
+      "purpose": "Introduce the update and people.",
+      "evidence": "1 fps source samples in 0–12s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V01"
+    },
+    {
+      "start": 12,
+      "end": 28,
+      "action": "Wide and closer presenter views establish Caroline’s wish to learn Swedish in the draft script.",
+      "design": "Uncaptioned conversation and laptop.",
+      "purpose": "Give the demo a personal reason.",
+      "evidence": "1 fps source samples in 12–28s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V02"
+    },
+    {
+      "start": 28,
+      "end": 35,
+      "action": "Split framing places Caroline beside a prompt that becomes Create an app to help me learn Swedish; Plan is selected.",
+      "design": "White prompt box over blurred room.",
+      "purpose": "Start a concrete app request.",
+      "evidence": "1 fps source samples in 28–35s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V03"
+    },
+    {
+      "start": 35,
+      "end": 45,
+      "action": "Question cards ask learning method and level; a Swedish Vocabulary Learning App plan appears.",
+      "design": "Enlarged chat/questions and written plan.",
+      "purpose": "Show clarification before building.",
+      "evidence": "1 fps source samples in 35–45s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V04"
+    },
+    {
+      "start": 45,
+      "end": 60,
+      "action": "The app greets Caroline. Study Mode shows a Hej flashcard; a test report lists card-flip failure, then Flashcard interaction restored.",
+      "design": "Colorful geometric app, large cursor and white test report.",
+      "purpose": "Show browser testing and claimed repair.",
+      "evidence": "1 fps source samples in 45–60s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V05"
+    },
+    {
+      "start": 60,
+      "end": 78,
+      "action": "A queue accumulates Google login, AI voice chat and background video tasks, then shows work states beside the presenters.",
+      "design": "Floating white task queue.",
+      "purpose": "Explain queued changes and integrations.",
+      "evidence": "1 fps source samples in 60–78s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V06"
+    },
+    {
+      "start": 78,
+      "end": 84,
+      "action": "The revised app appears; a large Publish button changes to Published.",
+      "design": "App preview and enlarged button.",
+      "purpose": "Provide a publication payoff.",
+      "evidence": "1 fps source samples in 78–84s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V07"
+    },
+    {
+      "start": 84,
+      "end": 93.76,
+      "action": "Presenters exchange a short line subtitled Now I can speak Swedish; Build more. Manage less. and Lovable close the film.",
+      "design": "Sofa scene then gradient wordmark.",
+      "purpose": "Return to the personal goal and brand.",
+      "evidence": "1 fps source samples in 84–93.76s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V08"
+    }
+  ],
+  "sound": [
+    {
+      "id": "A01",
+      "start": 0,
+      "end": 93.76,
+      "layer": "ASR draft",
+      "detail": "Draft explains Caroline’s language-learning need, plan questions, browser testing/repair, queued integrations and publishing. Product names, OAuth and the final Swedish sentence are garbled; visible UI supports the broad workflow. No delivery, music or effects were heard.",
+      "visual_relation": "V01–V08; precise audio timing unverified.",
+      "evidence": "401-speech.json local draft plus visible UI; transcript only."
+    }
+  ],
+  "categories": [
+    {
+      "id": "Q01",
+      "finding": "Personal language need → plan → app → test/repair → queued changes → publish.",
+      "evidence": "V02–V08",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q02",
+      "finding": "The presenters enter and sit with a laptop, creating an informal start without immediate product explanation.",
+      "evidence": "V01",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q03",
+      "finding": "App creation is named at 13s in ASR and concretely shown from the prompt at 31s.",
+      "evidence": "V02,V03,A01",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q04",
+      "finding": "Prompt and UI panels expand/reframe beside presenters; large cursor and enlarged Publish button focus actions. Exact easing remains unknown.",
+      "evidence": "V03–V07",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q05",
+      "finding": "Gradient overlays bridge product views; split layouts keep the presenter beside the relevant UI.",
+      "evidence": "V03–V07",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q06",
+      "finding": "Warm office footage contrasts with bright white UI and saturated blue/pink gradients.",
+      "evidence": "V01–V08",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q07",
+      "finding": "Questions, the Swedish app greeting and Publish are legible focal text; the detailed plan is too dense to absorb in its short hold.",
+      "evidence": "V04,V05,V07",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q08",
+      "finding": "ASR gives a conversational demonstration structure; names and the final foreign-language line are unreliable.",
+      "evidence": "A01",
+      "status": "uncertain",
+      "reason": "No validated listening.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q09",
+      "finding": "Music character and structure are unverified.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "No validated listening.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q10",
+      "finding": "Effects and their sources are unverified.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "No validated listening; waveform peaks do not identify effects.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q11",
+      "finding": "Sound sync is unverified.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "No validated listening or paired audiovisual timing.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q12",
+      "finding": "Presenter footage, prompt overlays, app previews, test reports and task queue are composited; production tools unknown.",
+      "evidence": "V01–V08",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q13",
+      "finding": "Source duration 93.76 s; Watch metadata 1280 × 720. Frame rate, audio clipping and export quality not checked here.",
+      "evidence": "Whole film",
+      "status": "supported",
+      "reason": "Parent source metadata supports duration and dimensions; visual review is sampled.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q14",
+      "finding": "The prompt, questions, app, error/restored text and Published state convey the workflow silently; the personal motivation relies on speech.",
+      "evidence": "V02–V07",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q15",
+      "finding": "Blurred surroundings, panel enlargement and a large pointer isolate each step.",
+      "evidence": "V03–V07",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q16",
+      "finding": "The early discussion takes about 28s; the core plan and repair are compressed into small UI states.",
+      "evidence": "V02–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q17",
+      "finding": "Caroline’s app is built and marked published; the final language joke returns to the original need.",
+      "evidence": "V02,V07,V08",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q18",
+      "finding": "Personal need and friendly exchange appear designed to make app building approachable; response unmeasured.",
+      "evidence": "V02,V08",
+      "status": "uncertain",
+      "reason": "Visual/script interpretation.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q19",
+      "finding": "Swedish, Caroline and the same geometric app persist through plan, browser test and final preview.",
+      "evidence": "V03–V07",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q20",
+      "finding": "The edit shows a test error and restored status plus publication state. It does not independently prove repair, integrations, deployment or the title’s 71% improvement.",
+      "evidence": "V05–V07",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q21",
+      "finding": "The heart mark and gradient recur; the personal Swedish example makes the demonstration more specific than a feature list.",
+      "evidence": "V01–V08",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q22",
+      "finding": "Repeat the repaired action.",
+      "evidence": "V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "After the restored message, flip the same Hej card successfully before moving to the task queue."
+    },
+    {
+      "id": "Q23",
+      "finding": "Carry one user goal through distinct capabilities.",
+      "evidence": "V02–V07",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "For Tin, show one campaign request, planning answer, failed check, repair and final published result with the same campaign title."
+    },
+    {
+      "id": "Q24",
+      "finding": "No human new-viewer test was performed.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "The product summary is this model’s film-only reading.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q25",
+      "finding": "Mobile preview and accessibility checks were not performed.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "Contact sheets are evidence views, not a stated mobile preview or compliance test.",
+      "experiment": "none"
+    }
+  ],
+  "elements": [
+    {
+      "kind": "ui",
+      "name": "prompt box",
+      "events": [
+        "V03"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "question form",
+      "events": [
+        "V04"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "task queue",
+      "events": [
+        "V06"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "test report",
+      "events": [
+        "V05"
+      ]
+    },
+    {
+      "kind": "motion",
+      "name": "UI enlargement",
+      "events": [
+        "V03",
+        "V04",
+        "V07"
+      ]
+    },
+    {
+      "kind": "texture",
+      "name": "colored gradient",
+      "events": [
+        "V01",
+        "V08"
+      ]
+    }
+  ],
+  "lessons": {
+    "keep": "Use one personal app idea to connect planning, testing and publishing.",
+    "try": [
+      "Repeat the same flashcard interaction after the repair message.",
+      "For Tin, carry one named campaign through request, check, repair and publication."
+    ],
+    "avoid": "Using a success message as the only visible repair payoff.",
+    "open": "Audio, repair behavior, integrations, publication and performance claims remain unverified."
+  },
+  "comparison": {
+    "story": "Personal need → guided build → testing → additions → publish.",
+    "motion": "Split panels, enlarged UI and pointer-led focus.",
+    "sound": "ASR explanation only; acoustic qualities unknown.",
+    "texture": "Warm office, white UI and blue/pink gradients.",
+    "lesson": "A recurring example gives a feature update a causal story."
+  },
+  "reviewer_model": "gpt-6-astra",
+  "scope": "sampled visual and story review; ASR and measured signal support; no validated audio listening",
+  "viewed_evidence": [
+    "technical-review-2026-10-19/deep-review/motion/401/timeline-00.jpg",
+    "technical-review-2026-10-19/deep-review/motion/401/timeline-01.jpg",
+    "technical-review-2026-10-19/deep-review/motion/401/timeline-02.jpg",
+    "technical-review-2026-10-19/deep-review/motion/401/timeline-03.jpg"
+  ],
+  "closer_windows": []
+}

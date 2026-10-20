@@ -1,0 +1,374 @@
+{
+  "id": 6,
+  "viewed_evidence": [
+    "technical-review-2026-10-19/deep-review/motion/006/timeline-00.jpg",
+    "technical-review-2026-10-19/deep-review/motion/006/timeline-01.jpg",
+    "technical-review-2026-10-19/deep-review/motion/006/timeline-02.jpg",
+    "technical-review-2026-10-19/deep-review/motion/006/frames/00037.jpg",
+    "technical-review-2026-10-19/deep-review/motion/006/frames/00058.jpg",
+    "technical-review-2026-10-19/deep-review/audio/006-speech.json"
+  ],
+  "product_from_film": "AgentMail helps connect a custom email domain through a provider authorization.",
+  "explains_well": "A domain list leads to provider setup and visible valid DNS records.",
+  "unclear": "The long opening delays the actual click sequence, and small record text is hard to read.",
+  "product_type": "developer tool / email infrastructure",
+  "scenario": "Connect a domain through Cloudflare or Vercel.",
+  "product_clear_time": 12,
+  "product_clear_basis": "Captions at 10–12 s identify configuring a custom domain on AgentMail.",
+  "scenes": [
+    {
+      "start": 0,
+      "end": 10,
+      "action": "Presenter gestures at a bar counter; front and side views alternate, with old/new DNS graphics beside him.",
+      "design": "Warm interior, bottles and white shirt; small bottom captions.",
+      "purpose": "Introduce the DNS problem.",
+      "id": "V01",
+      "evidence": "Visible 1 fps samples, source 0–10 s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 10,
+      "end": 20,
+      "action": "Front-facing presenter continues; tedious, easy to mess up and blocker lines build beside him.",
+      "design": "Small explanatory lines over a busy dark shelf.",
+      "purpose": "Name setup friction.",
+      "id": "V02",
+      "evidence": "Visible 1 fps samples, source 10–20 s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 20,
+      "end": 28,
+      "action": "Cloudflare and Vercel marks flank the presenter; a configure chip appears, then the screen changes to a domain page.",
+      "design": "Orange accents, blurred background behind the configure chip.",
+      "purpose": "Offer provider-based setup.",
+      "id": "V03",
+      "evidence": "Visible 1 fps samples, source 20–28 s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 28,
+      "end": 40,
+      "action": "Domain table enlarges; selecting a row leads to an AgentMail/Cloudflare modal with Set up with Cloudflare.",
+      "design": "Dark UI with presenter in lower-right inset and pink/purple outside edge.",
+      "purpose": "Show provider detection.",
+      "id": "V04",
+      "evidence": "Visible 1 fps samples, source 28–40 s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 40,
+      "end": 51,
+      "action": "A second row produces a Vercel modal; provider DNS page and Connect AgentMail authorization follow.",
+      "design": "Dark records table and centered permission dialog.",
+      "purpose": "Show the authorization step.",
+      "id": "V05",
+      "evidence": "Visible 1 fps samples, source 40–51 s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 51,
+      "end": 59,
+      "action": "Back in AgentMail, DNS record rows display valid badges; cropping brings rows nearer.",
+      "design": "Long record strings, status badges, bottom captions.",
+      "purpose": "Show the setup result.",
+      "id": "V06",
+      "evidence": "Visible 1 fps samples, source 51–59 s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 59,
+      "end": 70,
+      "action": "Presenter returns; a diagram joins Domain, DNS records and Hosting to API; configuration-link label appears.",
+      "design": "Orange connectors and API block over the side-view shot.",
+      "purpose": "Explain the connection model.",
+      "id": "V07",
+      "evidence": "Visible 1 fps samples, source 59–70 s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 70,
+      "end": 84.37,
+      "action": "Presenter and benefit lines alternate; No copying records, Domain connect and Live Today appear before final address.",
+      "design": "Large orange emphasis words; small bottom captions.",
+      "purpose": "Summarize and invite use.",
+      "id": "V08",
+      "evidence": "Visible 1 fps samples, source 70–84.37 s; boundaries approximate, between-frame action unresolved."
+    }
+  ],
+  "sound": [
+    {
+      "id": "A01",
+      "start": 0,
+      "end": 84.37,
+      "layer": "unknown",
+      "detail": "No validated audio listening; speech, music, effects, mix and sync remain unverified.",
+      "visual_relation": "All visual scenes; alignment not checked",
+      "evidence": "No actual audio supplied to this review; existing technical-review-2026-10-19/deep-review/audio/006.json is not listening evidence."
+    },
+    {
+      "id": "A02",
+      "start": 0.01,
+      "end": 83.82,
+      "layer": "ASR draft",
+      "detail": "Coherent candidate script explains manual DNS copying, provider detection, authorisation, valid records and API access. Provider and domain names are repeatedly mistranscribed; the repeated Shibum phrase is rejected. Exact names follow visible UI.",
+      "visual_relation": "Candidate script support for the existing visual story; no hearing or delivery judgment.",
+      "evidence": "technical-review-2026-10-19/deep-review/audio/006-speech.json; existing faster-whisper base CPU int8; reviewed text segments"
+    }
+  ],
+  "categories": [
+    {
+      "finding": "Problem explanation leads to provider selection, authorization and valid records.",
+      "evidence": "V01–V06",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q01"
+    },
+    {
+      "finding": "0–2 s presents a person greeting the viewer; the feature is not visible yet.",
+      "evidence": "V01",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q02"
+    },
+    {
+      "finding": "Custom-domain setup is clear by 12 s; developer-provider logos arrive at 20–21 s.",
+      "evidence": "V02–V03",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q03"
+    },
+    {
+      "finding": "Presenter gestures dominate; UI cropping enlarges the domain list and record statuses. Exact zoom easing is not established.",
+      "evidence": "V04–V06",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q04"
+    },
+    {
+      "finding": "Front/side cuts vary the talk; 28 s switches to UI and 59 s returns to presenter.",
+      "evidence": "V03–V07",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q05"
+    },
+    {
+      "finding": "Warm bar footage surrounds black UI and orange diagram accents; source provenance is unknown.",
+      "evidence": "V01,V04,V07",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q06"
+    },
+    {
+      "finding": "Bottom captions carry sentences, floating labels summarize friction, and real-looking UI supplies provider buttons/status.",
+      "evidence": "V02,V04,V06",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q07"
+    },
+    {
+      "finding": "Voice presence and delivery remain unverified.",
+      "evidence": "No validated audio listening",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q08"
+    },
+    {
+      "finding": "Music character and arc remain unverified.",
+      "evidence": "No validated audio listening",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q09"
+    },
+    {
+      "finding": "Sound effects remain unverified.",
+      "evidence": "No validated audio listening",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q10"
+    },
+    {
+      "finding": "Sound-to-motion timing remain unverified.",
+      "evidence": "No validated audio listening",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q11"
+    },
+    {
+      "finding": "Presenter footage, screen captures and diagram overlays are combined; origin and software are not established.",
+      "evidence": "V01,V04,V07",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q12"
+    },
+    {
+      "finding": "Source duration supplied as 84.37 s; no independent compression, clipping or delivery check.",
+      "evidence": "Assigned metadata; source integrity checked by parent",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q13"
+    },
+    {
+      "finding": "Captions and provider names explain the setup task without hearing; valid badges show a result.",
+      "evidence": "V04–V06",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q14"
+    },
+    {
+      "finding": "The pointer and crops direct attention to rows; the presenter inset and captions add competing focus.",
+      "evidence": "V04–V06",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q15"
+    },
+    {
+      "finding": "About 28 s precede the demonstration; the useful domain-to-valid-record path then takes about 31 s.",
+      "evidence": "V01–V06",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q16"
+    },
+    {
+      "finding": "The stated setup-friction problem gets a visible valid-record result at 57 s.",
+      "evidence": "V02,V06",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q17"
+    },
+    {
+      "finding": "Interpretation: problem labels create mild frustration; valid statuses and large magic/Live Today words suggest relief.",
+      "evidence": "V02,V06–V08",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q18"
+    },
+    {
+      "finding": "The domain list, provider modal and record panel stay connected by the same dark UI and presenter inset.",
+      "evidence": "V04–V06",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q19"
+    },
+    {
+      "finding": "Provider authorization and valid statuses are shown; real-world domain propagation and reliability were not independently tested.",
+      "evidence": "V05–V06",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q20"
+    },
+    {
+      "finding": "AgentMail/provider relationship is specific; the bar setting gives a distinctive presentation context but does not explain the feature.",
+      "evidence": "V01,V04",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q21"
+    },
+    {
+      "finding": "The long problem preamble could be shortened while keeping the full authorization/result sequence.",
+      "evidence": "V01–V06",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q22"
+    },
+    {
+      "finding": "For Tin connection onboarding, capture account list, provider consent and a verified connected state; retain a small presenter inset only when useful.",
+      "evidence": "V04–V06",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q23"
+    },
+    {
+      "finding": "No human new-viewer test; product description above is model interpretation of sampled images.",
+      "evidence": "V01–V08",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q24"
+    },
+    {
+      "finding": "No phone-size, safe-area or flash assessment; small UI text needs separate preview.",
+      "evidence": "Contact sheets",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q25"
+    }
+  ],
+  "lessons": {
+    "keep": "Show permission approval followed by a visible valid state.",
+    "try": [
+      "For Tin email setup, capture one provider authorization and a clear Connected badge in a 15-second sequence.",
+      "Test a 5-second problem opening before the same demo, using one presenter shot and one concise friction label."
+    ],
+    "avoid": "Letting the presenter opening delay the first actionable screen.",
+    "open": "Whether the tiny records remain readable on mobile; all sound choices remain open."
+  },
+  "comparison": {
+    "story": "Introduce the DNS problem. → Name setup friction. → Offer provider-based setup. → Show provider detection. → Show the authorization step. → Show the setup result. → Explain the connection model. → Summarize and invite use.",
+    "motion": "Presenter gestures dominate; UI cropping enlarges the domain list and record statuses. Exact zoom easing is not established.",
+    "sound": "No validated listening; no absence claims.",
+    "texture": "Warm bar footage surrounds black UI and orange diagram accents; source provenance is unknown.",
+    "lesson": "Show permission approval followed by a visible valid state."
+  },
+  "elements": [
+    {
+      "kind": "ui",
+      "name": "table",
+      "events": [
+        "V04",
+        "V06"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "authorization modal",
+      "events": [
+        "V05"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "presenter inset",
+      "events": [
+        "V04",
+        "V05",
+        "V06"
+      ]
+    },
+    {
+      "kind": "motion",
+      "name": "UI zoom",
+      "events": [
+        "V04",
+        "V06"
+      ]
+    },
+    {
+      "kind": "texture",
+      "name": "presenter footage",
+      "events": [
+        "V01"
+      ]
+    }
+  ],
+  "reviewer_model": "gpt-6-astra",
+  "scope": "sampled visual and story review; ASR and measured signal support; no validated audio listening",
+  "closer_windows": []
+}

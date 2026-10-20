@@ -1,0 +1,397 @@
+{
+  "id": 397,
+  "reviewer_model": "gpt-6-astra",
+  "scope": "sampled visual and story review; ASR and measured signal support; no validated audio listening",
+  "viewed_evidence": [
+    "technical-review-2026-10-19/deep-review/motion/397/timeline-00.jpg",
+    "technical-review-2026-10-19/deep-review/motion/397/timeline-01.jpg",
+    "technical-review-2026-10-19/deep-review/motion/397/timeline-02.jpg",
+    "technical-review-2026-10-19/deep-review/motion/397/timeline-03.jpg",
+    "technical-review-2026-10-19/deep-review/motion/397/timeline-04.jpg"
+  ],
+  "closer_windows": [],
+  "product_from_film": "Project Genie is presented as a research prototype for creating, remixing and exploring playable worlds from text and images.",
+  "explains_well": "The alpine meadow example shows separate environment and character prompts, a sketch, a create-world action and movement through the resulting scene.",
+  "unclear": "The edit skips generation waits and gives no clear limits on session length, control reliability or persistent world behavior.",
+  "product_type": "generative playable worlds",
+  "scenario": "Create an alpine world with a dog, remix the character, then turn personal images into explorable scenes.",
+  "product_clear_time": 28,
+  "product_clear_basis": "Environment and character prompt fields begin the full creation example after the research-prototype introduction.",
+  "scenes": [
+    {
+      "id": "V01",
+      "start": 0,
+      "end": 26,
+      "action": "Small world clips surround text introducing Genie 3. A circular image becomes a paper-plane world, then joins a field of circular worlds under Project Genie and research-prototype text.",
+      "design": "Black background, white titles and circular scene windows.",
+      "purpose": "Introduce the model history and the playable-world concept.",
+      "evidence": "Visible chronological 1 fps samples, source 0–26s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V02",
+      "start": 26,
+      "end": 39,
+      "action": "A curved grid workspace shows environment and character fields. Text requests an alpine meadow with a cabin and a Shiba Inu. Create sketch produces a matching still, then Create world leads through a blurred transition.",
+      "design": "Dark prompt interface and a bright alpine preview.",
+      "purpose": "Explain the two-stage creation flow.",
+      "evidence": "Visible chronological 1 fps samples, source 26–39s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V03",
+      "start": 39,
+      "end": 50,
+      "action": "The dog moves through the meadow toward the cabin and later across grass near a fence. A person at the monitor and keyboard is intercut with the world view.",
+      "design": "Third-person view with small input indicators and physical keyboard footage.",
+      "purpose": "Show exploration of the created scene.",
+      "evidence": "Visible chronological 1 fps samples, source 39–50s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V04",
+      "start": 50,
+      "end": 61,
+      "action": "Remix your world introduces a request to change the character to a pink balloon rabbit. The rabbit appears in the meadow, then in a bouncy-house setting, treehouse and watercolor-style landscape.",
+      "design": "Prompt close-up followed by varied worlds retaining the pink character.",
+      "purpose": "Show character and environment remixing.",
+      "evidence": "Visible chronological 1 fps samples, source 50–61s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V05",
+      "start": 61,
+      "end": 85,
+      "action": "A climber, ant, flying bird and small character on a pool table illustrate different perspectives. A blue-ball prompt is followed by a ball leaving a blue trail across white terrain. A wingsuit scene and flashlight-lit animal follow.",
+      "design": "Varied generated environments and recurring control indicators.",
+      "purpose": "Broaden the range of characters and interactions.",
+      "evidence": "Visible chronological 1 fps samples, source 61–85s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V06",
+      "start": 85,
+      "end": 98,
+      "action": "Hands build a small cardboard figure and photograph it on a workbench. The image enters a world-creation interface; the figure then walks across a matching workshop tabletop among objects.",
+      "design": "Physical making and phone capture lead to a generated third-person scene.",
+      "purpose": "Show an image becoming a playable starting point.",
+      "evidence": "Visible chronological 1 fps samples, source 85–98s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V07",
+      "start": 98,
+      "end": 110,
+      "action": "A person photographs a cat in a living room. A still preview gives way to a cat moving across the sofa toward the window and cat tree.",
+      "design": "Phone capture followed by a recognizable room and cat view.",
+      "purpose": "Repeat the image-to-world idea with a familiar personal subject.",
+      "evidence": "Visible chronological 1 fps samples, source 98–110s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V08",
+      "start": 110,
+      "end": 124,
+      "action": "A portrait is attached to an image prompt requesting an early-2000s low-poly character. The result becomes a moving figure in a glowing forest, then joins a grid of different people and visual styles.",
+      "design": "Image-generation prompt, low-poly scene and multiplying character tiles.",
+      "purpose": "Show a stylized personal character and extend the range of examples.",
+      "evidence": "Visible chronological 1 fps samples, source 110–124s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V09",
+      "start": 124,
+      "end": 138.888,
+      "action": "Motorcycle, playground and space-car examples carry Imagine worlds, Create worlds and Play worlds. Circular scenes return, then the film ends with labs.google/ProjectGenie.",
+      "design": "World montage, circular gallery and a long readable URL card.",
+      "purpose": "Summarize the invitation and provide a destination.",
+      "evidence": "Visible chronological 1 fps samples, source 124–138.888s; boundary approximate; exact motion between samples unverified."
+    }
+  ],
+  "sound": [
+    {
+      "id": "A01",
+      "start": 0,
+      "end": 138.888,
+      "layer": "unknown",
+      "detail": "No validated direct audio listening was performed. Music, speech delivery, effects, mix and sync remain unknown, not absent.",
+      "visual_relation": "All visual scenes; audiovisual alignment unverified",
+      "evidence": "Visual samples only; no actual audio range supplied to this reviewer."
+    }
+  ],
+  "categories": [
+    {
+      "id": "Q01",
+      "finding": "The film introduces the prototype, shows text-to-sketch-to-world, remixes it, then demonstrates interactions and image-based worlds.",
+      "evidence": "V01–V09",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q02",
+      "finding": "A surrounding collection of small worlds makes variety visible while the opening text names Genie 3.",
+      "evidence": "V01",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q03",
+      "finding": "The separate environment and character prompts make the creation task concrete at 28 s; research-prototype wording appears earlier.",
+      "evidence": "V01,V02",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q04",
+      "finding": "Circular world windows gather around titles, prompt text fills fields, still previews blur into moving scenes, characters travel through environments, a blue ball leaves a trail and portrait examples multiply into a grid.",
+      "evidence": "V01–V09",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q05",
+      "finding": "The dog/cabin scene, pink-rabbit remix, cardboard figure and cat each preserve recognizable input-to-output continuity.",
+      "evidence": "V02–V04,V06,V07",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q06",
+      "finding": "Black UI and white text frame a broad range of naturalistic, colorful, watercolor and low-poly worlds.",
+      "evidence": "V01–V09",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q07",
+      "finding": "Prompt close-ups make the requested environment and character readable. Small control indicators show play framing but do not explain all controls.",
+      "evidence": "V02–V08",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q08",
+      "finding": "Voice delivery, music, effects and audiovisual alignment were not established by this visual pass.",
+      "evidence": "A01",
+      "status": "not checked",
+      "reason": "No validated direct audio listening input.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q09",
+      "finding": "Voice delivery, music, effects and audiovisual alignment were not established by this visual pass.",
+      "evidence": "A01",
+      "status": "not checked",
+      "reason": "No validated direct audio listening input.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q10",
+      "finding": "Voice delivery, music, effects and audiovisual alignment were not established by this visual pass.",
+      "evidence": "A01",
+      "status": "not checked",
+      "reason": "No validated direct audio listening input.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q11",
+      "finding": "Voice delivery, music, effects and audiovisual alignment were not established by this visual pass.",
+      "evidence": "A01",
+      "status": "not checked",
+      "reason": "No validated direct audio listening input.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q12",
+      "finding": "Prompt interfaces, generated-looking world footage, image capture and people at a keyboard are visible. The model implementation and editing tools are not established.",
+      "evidence": "V02–V08",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q13",
+      "finding": "Manifest duration 138.888s; indexed dimensions 1920×1080. Source unchanged flag recorded; fresh encoding and audio clipping checks not run.",
+      "evidence": "Group manifest",
+      "status": "uncertain",
+      "reason": "Inherited technical metadata; no fresh media probe in this review.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q14",
+      "finding": "Written prompts, Create sketch/Create world labels and result continuity carry the explanation without a speech draft.",
+      "evidence": "V02,V04,V06–V08",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q15",
+      "finding": "The film gives the first full creation example room to develop before switching to faster range demonstrations.",
+      "evidence": "V02–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q16",
+      "finding": "The first creation and exploration take about 24 s, while later examples become a faster montage. The final URL remains visible for several seconds.",
+      "evidence": "V02,V03,V05,V09",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q17",
+      "finding": "Characters visibly move and the blue ball leaves a trail. The keyboard insert supports an interaction framing but does not measure response latency or long-term world consistency.",
+      "evidence": "V03,V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q18",
+      "finding": "The physical cardboard figure and familiar cat make the technology feel personal and playful; this is a creative reading.",
+      "evidence": "V06,V07",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q19",
+      "finding": "Create sketch and Create world are distinct steps. The later portrait example also includes an image-generation prompt, so it should not be reduced to a single untouched-photo-to-world operation.",
+      "evidence": "V02,V08",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q20",
+      "finding": "The film does not establish generation time, session limits, control precision, physics accuracy or persistent changes beyond the shown segments. Access terms are not supplied by the visible film ending.",
+      "evidence": "V02–V09",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q21",
+      "finding": "A handmade figure photographed on a table becomes a recognizable explorable tabletop scene, giving the capability a concrete physical starting point.",
+      "evidence": "V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q22",
+      "finding": "Add a small generation-time label and show a longer uncut input-to-movement segment with a clear session limit note.",
+      "evidence": "V02,V03",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q23",
+      "finding": "Tin can start with one complete creation flow, then use recognizable personal assets to demonstrate broader possibilities.",
+      "evidence": "V02,V06,V07",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q24",
+      "finding": "Project Genie is presented as a research prototype for creating, remixing and exploring playable worlds from text and images.",
+      "evidence": "Model reading from inspected images",
+      "status": "uncertain",
+      "reason": "Model-only new-viewer interpretation; no human test.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q25",
+      "finding": "Contact sheets inspected at displayed size; a phone-size playback, caption audit, flash audit and formal accessibility check were not performed.",
+      "evidence": "Viewed sheets",
+      "status": "not checked",
+      "reason": "Full-size moving-image and device checks unavailable in this pass.",
+      "experiment": "none"
+    }
+  ],
+  "lessons": {
+    "keep": "Show a recognizable physical input becoming an explorable result.",
+    "avoid": "Avoid letting short varied examples imply unlimited persistence or precise control.",
+    "open": "Generation time, control latency, session limits, long-term continuity, physics behavior and all audio properties remain unverified.",
+    "try": [
+      "For Tin, carry one handmade or user-supplied asset from capture through creation to output.",
+      "Keep one interaction uncut with the input and response visible together."
+    ]
+  },
+  "comparison": {
+    "story": "Introduce the model history and the playable-world concept. → Explain the two-stage creation flow. → Show exploration of the created scene. → Show character and environment remixing. → Broaden the range of characters and interactions. → Show an image becoming a playable starting point. → Repeat the image-to-world idea with a familiar personal subject. → Show a stylized personal character and extend the range of examples. → Summarize the invitation and provide a destination.",
+    "motion": "Circular world windows gather around titles, prompt text fills fields, still previews blur into moving scenes, characters travel through environments, a blue ball leaves a trail and portrait examples multiply into a grid. Sampling scope: 1 fps unless a closer window is recorded.",
+    "sound": "No validated listening; unknown.",
+    "texture": "Black background, white titles and circular scene windows.; Dark prompt interface and a bright alpine preview.; Third-person view with small input indicators and physical keyboard footage.; Prompt close-up followed by varied worlds retaining the pink character.; Varied generated environments and recurring control indicators.; Physical making and phone capture lead to a generated third-person scene.; Phone capture followed by a recognizable room and cat view.; Image-generation prompt, low-poly scene and multiplying character tiles.; World montage, circular gallery and a long readable URL card.",
+    "lesson": "Show a recognizable physical input becoming an explorable result."
+  },
+  "elements": [
+    {
+      "kind": "ui",
+      "name": "prompt composer",
+      "events": [
+        "V02",
+        "V04",
+        "V05",
+        "V08"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "world viewport",
+      "events": [
+        "V03",
+        "V04",
+        "V05",
+        "V06",
+        "V07",
+        "V08"
+      ]
+    },
+    {
+      "kind": "motion",
+      "name": "circles form gallery",
+      "events": [
+        "V01",
+        "V09"
+      ]
+    },
+    {
+      "kind": "motion",
+      "name": "character moves through world",
+      "events": [
+        "V03",
+        "V04",
+        "V05",
+        "V06",
+        "V07",
+        "V08"
+      ]
+    },
+    {
+      "kind": "motion",
+      "name": "ball leaves color trail",
+      "events": [
+        "V05"
+      ]
+    },
+    {
+      "kind": "texture",
+      "name": "cardboard figure",
+      "events": [
+        "V06"
+      ]
+    },
+    {
+      "kind": "texture",
+      "name": "low-poly character",
+      "events": [
+        "V08"
+      ]
+    }
+  ]
+}

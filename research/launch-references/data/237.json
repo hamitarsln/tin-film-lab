@@ -1,0 +1,381 @@
+{
+  "id": 237,
+  "product_from_film": "Interact AI puts a conversational agent on a website to answer questions, show product information, guide a visitor and support demo booking, with visitor analytics.",
+  "explains_well": "The example progresses from a website greeting to product views, integrations, a booking form and the business-side visitor table.",
+  "unclear": "The car analogy takes nearly half the film, and the visitor question is not displayed consistently enough to pair every generated view with its exact request.",
+  "product_type": "conversational website agent",
+  "scenario": "Web interfaces evolve from terminal text to rich car configuration to a human-style guide, then a business website demonstrates an agent-led visitor journey.",
+  "product_clear_time": 55,
+  "product_clear_basis": "Talk to our agent Maya appears on the website at 55s; the agent then remains beside product screens.",
+  "scenes": [
+    {
+      "start": 0,
+      "end": 9,
+      "action": "A retro computer shows green text, tables and car wireframes.",
+      "design": "Green phosphor-like screen in a dark room.",
+      "purpose": "Represent an earlier information-dense web.",
+      "evidence": "1 fps source samples in 0–9s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V01"
+    },
+    {
+      "start": 9,
+      "end": 20,
+      "action": "A modern display shows a rich car configurator with wheel choices, driving modes, color, specifications and build summary.",
+      "design": "Glossy dark UI with red/cyan accents and close angled crops.",
+      "purpose": "Represent a more visual, interactive web.",
+      "evidence": "1 fps source samples in 9–20s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V02"
+    },
+    {
+      "start": 20,
+      "end": 41,
+      "action": "A red sports car appears in a garage; a man steps out and addresses the viewer. Road-driving views, a tachometer and a bright vortex-like shot interrupt the conversation.",
+      "design": "Cinematic car and presenter imagery.",
+      "purpose": "Use a personal guide as the analogy for high-value decisions.",
+      "evidence": "1 fps source samples in 20–41s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V03"
+    },
+    {
+      "start": 41,
+      "end": 53,
+      "action": "The presenter is surrounded by many other person panels, then Introducing Interact AI appears with conversation-is-the-next-interface wording.",
+      "design": "Expanding portrait collage and dark title card.",
+      "purpose": "Scale the guide idea to many website visitors.",
+      "evidence": "1 fps source samples in 41–53s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V04"
+    },
+    {
+      "start": 53,
+      "end": 67,
+      "action": "An Acme AI website shows Talk to our agent Maya. A woman appears in a floating video panel beside the page, then a product-information page.",
+      "design": "Dark website with cream conversation control and a persistent guide tile.",
+      "purpose": "Introduce the visitor-facing agent.",
+      "evidence": "1 fps source samples in 53–67s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V05"
+    },
+    {
+      "start": 67,
+      "end": 84,
+      "action": "The guide remains beside an orders/reporting dashboard. A generating-page state leads to an integrations page with Salesforce, HubSpot, Slack and Microsoft Teams cards.",
+      "design": "Angled floating UI views and readable top-level page headings.",
+      "purpose": "Show the agent surfacing product information for questions.",
+      "evidence": "1 fps source samples in 67–84s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V06"
+    },
+    {
+      "start": 84,
+      "end": 94,
+      "action": "A Book a Demo dialog shows selected date and time and Confirm Booking. The film then shows a visitor dashboard with intent, company, demo-booked and session fields.",
+      "design": "Booking form followed by dense business-side table and metric cards.",
+      "purpose": "Connect a visitor journey to a lead action and business visibility.",
+      "evidence": "1 fps source samples in 84–94s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V07"
+    },
+    {
+      "start": 94,
+      "end": 97.291,
+      "action": "Interact AI logo holds on black.",
+      "design": "Simple white brand mark.",
+      "purpose": "Close the product introduction.",
+      "evidence": "1 fps source samples in 94–97.291s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V08"
+    }
+  ],
+  "sound": [
+    {
+      "id": "A01",
+      "start": 0,
+      "end": 97.291,
+      "layer": "ASR draft / unknown",
+      "detail": "The coherent draft explains web evolution, conversation, a page agent, product navigation, integrations, booking and visitor analytics. The car-speed phrase and some product-answer clauses are malformed/truncated, so no precise value is retained. No validated listening; voice realism, response latency, delivery, music and effects remain unknown.",
+      "visual_relation": "V01–V08; script-role support only.",
+      "evidence": "technical-review-2026-10-19/deep-review/audio/237-speech.json"
+    }
+  ],
+  "categories": [
+    {
+      "id": "Q01",
+      "finding": "Web evolution → personal-guide analogy → scaled agents → visitor journey → booking and analytics.",
+      "evidence": "V01–V08",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q02",
+      "finding": "The green computer provides a clear visual starting point for interface evolution, though the product is delayed.",
+      "evidence": "V01",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q03",
+      "finding": "The business website example clarifies the audience and function around 53–67s.",
+      "evidence": "V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q04",
+      "finding": "Angled interface crops, changing car configurations, portrait collage and page states are visible. Exact motion and response timing are unchecked.",
+      "evidence": "V02–V07",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q05",
+      "finding": "The human car guide is echoed by Maya beside the business website, giving the analogy a direct visual link.",
+      "evidence": "V03,V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q06",
+      "finding": "Green retro screens shift to glossy cyan/red imagery, then a consistent dark teal product UI.",
+      "evidence": "V01–V07",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q07",
+      "finding": "Talk to our agent Maya, page headings and Book a Demo identify key stages. Visitor questions are not persistently shown as text.",
+      "evidence": "V05–V07",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q08",
+      "finding": "The ASR supports the questions and page-agent explanation, with malformed car and answer fragments excluded. Audible qualities are unknown.",
+      "evidence": "A01",
+      "status": "uncertain",
+      "reason": "ASR draft only.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q09",
+      "finding": "Music character and structure are unverified.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "No validated listening.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q10",
+      "finding": "Effects and their sources are unverified.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "No validated listening; waveform peaks do not identify effects.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q11",
+      "finding": "Sound sync is unverified.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "No validated listening or paired audiovisual timing.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q12",
+      "finding": "Cinematic car imagery, presenter/avatar-like panels and UI compositions are mixed. Human versus synthetic speaker origin and production software are not established.",
+      "evidence": "V01–V07",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q13",
+      "finding": "Source duration 97.291 s; Watch metadata 1920 × 1080. Frame rate, audio clipping and export quality not checked here.",
+      "evidence": "Whole film",
+      "status": "supported",
+      "reason": "Parent source metadata supports duration and dimensions; visual review is sampled.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q14",
+      "finding": "Silent viewing shows agent-to-page navigation and booking, but the reason for each page change is less clear without visible question captions.",
+      "evidence": "V05–V07",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q15",
+      "finding": "The guide tile remains a stable anchor beside changing pages. Close crops make some headings clear while detailed tables remain small.",
+      "evidence": "V05–V07",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q16",
+      "finding": "The first 53s builds the analogy and introduces the name; the product journey occupies most of the remaining 41s before the logo.",
+      "evidence": "V01–V08",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q17",
+      "finding": "Conversation evolves from one car guide to a website agent, then ends in a business-side lead record view.",
+      "evidence": "V03–V07",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q18",
+      "finding": "A visible guide may suggest personal support and trust; the film does not measure whether users prefer this interface.",
+      "evidence": "V03,V05",
+      "status": "uncertain",
+      "reason": "Interpretation of visual analogy.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q19",
+      "finding": "The website-to-product-to-booking sequence is coherent, but no single visitor is clearly traced into the final analytics row.",
+      "evidence": "V05–V07",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q20",
+      "finding": "Always-available answers, real-time guidance and visitor-intent classification are film claims. Accuracy, latency, booking completion and analytics validity were not tested.",
+      "evidence": "A01,V05–V07",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q21",
+      "finding": "The car-guide analogy and persistent face beside the changing website provide a distinct way to explain conversational navigation.",
+      "evidence": "V03,V05,V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q22",
+      "finding": "Shorten the analogy and keep each visitor request visible while its result appears.",
+      "evidence": "V03,V05–V07",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "Use one captioned question per page change, then show that same visitor as a booked lead in the final dashboard."
+    },
+    {
+      "id": "Q23",
+      "finding": "For Tin, connect a user request, generated artifact and recorded outcome in one traceable sequence.",
+      "evidence": "V05–V07",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "Keep the campaign request visible, reveal its asset, then show the matching approved or scheduled record."
+    },
+    {
+      "id": "Q24",
+      "finding": "No human new-viewer test was performed.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "The product summary is this model’s film-only reading.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q25",
+      "finding": "Mobile preview and accessibility checks were not performed.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "Contact sheets are evidence views, not a stated mobile preview or compliance test.",
+      "experiment": "none"
+    }
+  ],
+  "elements": [
+    {
+      "kind": "ui",
+      "name": "car configurator",
+      "events": [
+        "V02"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "website agent widget",
+      "events": [
+        "V05"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "dashboard",
+      "events": [
+        "V06",
+        "V07"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "integration cards",
+      "events": [
+        "V06"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "booking form",
+      "events": [
+        "V07"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "visitor table",
+      "events": [
+        "V07"
+      ]
+    },
+    {
+      "kind": "motion",
+      "name": "portrait panel collage",
+      "events": [
+        "V04"
+      ]
+    },
+    {
+      "kind": "texture",
+      "name": "green retro computer",
+      "events": [
+        "V01"
+      ]
+    }
+  ],
+  "lessons": {
+    "keep": "Keep the guide visually stable while relevant product views change.",
+    "try": [
+      "Caption requests and link one visitor journey to the final booked-lead row.",
+      "For Tin, trace one request through its asset and approved or scheduled record."
+    ],
+    "avoid": "Spending half the runtime on an analogy before demonstrating the actual product.",
+    "open": "Speaker origin, response accuracy, latency, booking completion, intent inference and audio remain unverified."
+  },
+  "comparison": {
+    "story": "Interface evolution → guide analogy → website agent → booking/analytics.",
+    "motion": "UI crops, portrait expansion and page states; exact timing unchecked.",
+    "sound": "Coherent ASR product dialogue with malformed fragments; no listening.",
+    "texture": "Green retro terminal, glossy car imagery and dark teal UI.",
+    "lesson": "A stable guide helps navigation, but each request and outcome should remain traceable."
+  },
+  "reviewer_model": "gpt-6-astra",
+  "scope": "sampled visual and story review; ASR and measured signal support; no validated audio listening",
+  "viewed_evidence": [
+    "technical-review-2026-10-19/deep-review/motion/237/timeline-00.jpg",
+    "technical-review-2026-10-19/deep-review/motion/237/timeline-01.jpg",
+    "technical-review-2026-10-19/deep-review/motion/237/timeline-02.jpg",
+    "technical-review-2026-10-19/deep-review/motion/237/timeline-03.jpg"
+  ],
+  "closer_windows": []
+}

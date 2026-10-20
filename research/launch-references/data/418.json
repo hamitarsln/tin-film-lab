@@ -1,0 +1,419 @@
+{
+  "id": 418,
+  "reviewer_model": "gpt-6-astra",
+  "scope": "sampled visual and story review; ASR and measured signal support; no validated audio listening",
+  "viewed_evidence": [
+    "technical-review-2026-10-19/deep-review/motion/418/timeline-00.jpg",
+    "technical-review-2026-10-19/deep-review/motion/418/timeline-01.jpg",
+    "technical-review-2026-10-19/deep-review/motion/418/timeline-02.jpg",
+    "technical-review-2026-10-19/deep-review/motion/418/timeline-03.jpg",
+    "technical-review-2026-10-19/deep-review/motion/418/timeline-04.jpg",
+    "technical-review-2026-10-19/deep-review/motion/418/timeline-05.jpg",
+    "technical-review-2026-10-19/deep-review/motion/418/timeline-06.jpg",
+    "technical-review-2026-10-19/deep-review/motion/418/timeline-07.jpg",
+    "astra-review-2026-10-20/evidence/group-2/418-159.png",
+    "astra-review-2026-10-20/evidence/group-2/418-153-157-4fps.jpg",
+    "technical-review-2026-10-19/deep-review/audio/418-speech.json"
+  ],
+  "closer_windows": [
+    {
+      "start": 153,
+      "end": 157,
+      "rate_fps": 4,
+      "evidence": [
+        "astra-review-2026-10-20/evidence/group-2/418-153-157-4fps.jpg"
+      ],
+      "resolved": "Race cars round the bend; body parts separate and fold as the leading orange vehicle changes into a rounded tailed racer. Exact mechanical paths and easing remain partly obscured by motion blur."
+    }
+  ],
+  "product_from_film": "Sperm Racing presents microscopic cell races as a spectator sport using tracking and rendered visuals.",
+  "explains_well": "The film explicitly separates microscope data from the more entertaining rendered view.",
+  "unclear": "The long futuristic race sequence can overshadow the small disclaimer that it is a visual target rather than the current race appearance.",
+  "product_type": "spectator entertainment",
+  "scenario": "Explain sample preparation, microscopic tracking and a proposed race broadcast.",
+  "product_clear_time": 65,
+  "product_clear_basis": "Pipetting into a custom track is named in captions; the racing topic is named at the opening.",
+  "scenes": [
+    {
+      "id": "V01",
+      "start": 0,
+      "end": 17,
+      "action": "News and podcast clips lead to a growing field of skeptical comments. One comment asking how it works enlarges and remains centered.",
+      "design": "Archive-like media clips, dark comment collage and white question card.",
+      "purpose": "Turn public doubt into the explanation prompt.",
+      "evidence": "Visible chronological 1 fps samples, source 0–17s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V02",
+      "start": 17,
+      "end": 44,
+      "action": "A designer gestures through translucent track diagrams; hand sketches and a wall of plans lead to machinery carving a track-shaped part.",
+      "design": "Teal workshop light, hologram-like overlays and reflective industrial metal.",
+      "purpose": "Explain design and fabrication.",
+      "evidence": "Visible chronological 1 fps samples, source 17–44s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V03",
+      "start": 44,
+      "end": 68,
+      "action": "Science process title introduces a sample container, incubator view, pipette, centrifuge and microscope. A clear track block receives liquid.",
+      "design": "Blue gloves, lab equipment and small bottom captions.",
+      "purpose": "Show biological preparation.",
+      "evidence": "Visible chronological 1 fps samples, source 44–68s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V04",
+      "start": 68,
+      "end": 92,
+      "action": "Dark channel visualization leads to CV to 3D Process title, tracked cell markers and coordinates. Microscope-like track imagery gains highlighted paths and a progress indicator toward 3D rendering.",
+      "design": "Dark technical overlays, contour highlights and processing labels.",
+      "purpose": "Explain the conversion for viewers.",
+      "evidence": "Visible chronological 1 fps samples, source 68–92s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V05",
+      "start": 92,
+      "end": 108,
+      "action": "Branded overhead race tracks and ranking panels lead to a fast tunnel view and finish wording; a second comment asks why the sport exists.",
+      "design": "Circular microscope-style framing, broadcast UI and white question card.",
+      "purpose": "Preview the viewing format and raise purpose.",
+      "evidence": "Visible chronological 1 fps samples, source 92–108s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V06",
+      "start": 108,
+      "end": 131,
+      "action": "Presenter walks through an office with floating words, trophy, a 60% decline graphic and search-like labels before moving into a dark room.",
+      "design": "Office walk-through, transparent graphics and subtitles.",
+      "purpose": "State the health-awareness motivation as a film claim.",
+      "evidence": "Visible chronological 1 fps samples, source 108–131s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V07",
+      "start": 131,
+      "end": 154,
+      "action": "Presenter stands behind a table with a miniature track; view pushes into a stadium circuit with race cars under Sperm Racing signage.",
+      "design": "Red studio wall, tabletop model and glossy rendered stadium.",
+      "purpose": "Translate the concept through a motorsport analogy.",
+      "evidence": "Visible chronological 1 fps samples, source 131–154s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V08",
+      "start": 154,
+      "end": 194,
+      "action": "Cars race around a bend and parts fold away as orange and other vehicles become rounded tailed racers. Tracking, overhead and low views follow overtakes and a collision; ranking UI stays left. A small disclaimer appears during the stylized race.",
+      "design": "Metallic racers, bright stadium lighting, motion blur and broadcast graphics.",
+      "purpose": "Demonstrate a future spectacle.",
+      "evidence": "Visible chronological 1 fps samples, source 154–194s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V09",
+      "start": 194,
+      "end": 215,
+      "action": "View pulls back from the stadium to the table and presenter. Imagined celebrity matchups, a watch-now stream card and event crowd clips follow.",
+      "design": "Tabletop return, split portraits and live-event-looking footage.",
+      "purpose": "Pitch the entertainment format.",
+      "evidence": "Visible chronological 1 fps samples, source 194–215s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V10",
+      "start": 215,
+      "end": 220.885,
+      "action": "Dark Sperm Racing mark appears with a faint metallic highlight and fades.",
+      "design": "Near-black logo ending.",
+      "purpose": "Close the brand.",
+      "evidence": "Visible chronological 1 fps samples, source 215–220.885s; boundary approximate; exact motion between samples unverified."
+    }
+  ],
+  "sound": [
+    {
+      "id": "A01",
+      "start": 0,
+      "end": 220.885,
+      "layer": "unknown",
+      "detail": "No validated direct audio listening was performed. Music, speech delivery, effects, mix and sync remain unknown, not absent.",
+      "visual_relation": "All visual scenes; audiovisual alignment unverified",
+      "evidence": "Visual samples only; no actual audio range supplied to this reviewer."
+    },
+    {
+      "id": "A02",
+      "start": 0,
+      "end": 213.03,
+      "layer": "ASR draft",
+      "detail": "The ASR draft follows the visible question structure: design, sample preparation, tracking-to-render conversion, motivation and race commentary. It reports a fertility decline and proposed spectacle; these remain the film’s claims. Some technical words are misrecognized. Commentary words do not establish heard delivery, effects or sync.",
+      "visual_relation": "Story text support; exact audiovisual alignment and delivery unverified.",
+      "evidence": "technical-review-2026-10-19/deep-review/audio/418-speech.json; local faster-whisper base CPU int8 draft; VAD candidates only, recognition errors possible."
+    }
+  ],
+  "categories": [
+    {
+      "id": "Q01",
+      "finding": "How does it work? leads through design, lab preparation and rendering; Why does it exist? leads to a motivation and a long spectator preview.",
+      "evidence": "V01–V10",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q02",
+      "finding": "A news headline immediately names sperm racing, followed by broadcast presenters. The unusual subject is clear before its mechanism.",
+      "evidence": "V01",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q03",
+      "finding": "The film addresses spectators and curious skeptics. Cell preparation and tracking clarify the concept by 65–92s; it is not presented as a clinical service.",
+      "evidence": "V03–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q04",
+      "finding": "Comments spread into a field, holographic track panels follow gestures, paths gain tracking outlines, the camera enters a miniature stadium and cars fold into tailed racers. The car transformation was checked at 4 fps from 153–157s.",
+      "evidence": "V01,V02,V04,V07,V08",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q05",
+      "finding": "Question cards divide explanation and purpose. The tabletop-to-stadium move gives scale continuity; later return to the table closes that visual excursion.",
+      "evidence": "V01,V05,V07,V09",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q06",
+      "finding": "Teal lab imagery and dark metal contrast with red presenter studio and bright stadium surfaces. The rendering is deliberately more spectacular than the microscope view.",
+      "evidence": "V02–V09",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q07",
+      "finding": "Bottom captions carry much of the technical explanation. The race disclaimer is small compared with the vivid vehicles and rankings; full-resolution 159s confirms it labels a visual representation and target look.",
+      "evidence": "V03,V08",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q08",
+      "finding": "The ASR draft follows the visible question structure: design, sample preparation, tracking-to-render conversion, motivation and race commentary. It reports a fertility decline and proposed spectacle; these remain the film’s claims. Some technical words are misrecognized. Commentary words do not establish heard delivery, effects or sync.",
+      "evidence": "A02",
+      "status": "uncertain",
+      "reason": "ASR text only; no validated listening, delivery or voice origin.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q09",
+      "finding": "Voice delivery, music, effects and audiovisual alignment were not established by this visual pass.",
+      "evidence": "A01",
+      "status": "not checked",
+      "reason": "No validated direct audio listening input.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q10",
+      "finding": "Voice delivery, music, effects and audiovisual alignment were not established by this visual pass.",
+      "evidence": "A01",
+      "status": "not checked",
+      "reason": "No validated direct audio listening input.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q11",
+      "finding": "Voice delivery, music, effects and audiovisual alignment were not established by this visual pass.",
+      "evidence": "A01",
+      "status": "not checked",
+      "reason": "No validated direct audio listening input.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q12",
+      "finding": "News/podcast clips, lab-looking scenes, presenter footage, technical overlays and rendered racing mix. The film does not establish the provenance or realness of every preparation shot.",
+      "evidence": "V01–V09",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q13",
+      "finding": "Manifest duration 220.885s; indexed dimensions 1920×1080. Source unchanged flag recorded; fresh encoding and audio clipping checks not run.",
+      "evidence": "Group manifest",
+      "status": "uncertain",
+      "reason": "Inherited technical metadata; no fresh media probe in this review.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q14",
+      "finding": "Captions preserve much of the process and motivation without sound. The tiny disclaimer can be missed while watching the race action.",
+      "evidence": "V02–V08",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q15",
+      "finding": "The isolated question card focuses doubt; lab close-ups focus each tool. During the race, moving vehicles, ranking panel and disclaimer compete.",
+      "evidence": "V01,V03,V08",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q16",
+      "finding": "The process takes about 75s, followed by another explanation and roughly 40s of stylized racing. That spectacle may dominate recall over the measurement pipeline.",
+      "evidence": "V02–V08",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q17",
+      "finding": "The opening skepticism is answered with a process and spectator concept. A precise demonstration of one tracked cell mapped to one rendered racer remains missing.",
+      "evidence": "V01,V04,V08",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q18",
+      "finding": "Public disbelief turns into technical curiosity, then competitive excitement through motorsport imagery. This is intended effect inferred from visuals and ASR, not measured audience response.",
+      "evidence": "V01–V09",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q19",
+      "finding": "Track shapes and the tabletop model link scales. The microscopy segment and the later multi-racer stadium do not preserve a readable single-cell identity across the conversion.",
+      "evidence": "V04,V07–V09",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q20",
+      "finding": "The film shows a tracking/rendering explanation and explicitly labels the futuristic race as a visual representation and target look. Its fertility statistic, tracking accuracy and health-benefit implication are not independently verified.",
+      "evidence": "V04,V06,V08",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q21",
+      "finding": "Cell-shaped racers, motorsport broadcast styling and the scientific preparation sequence make the concept specific.",
+      "evidence": "V03,V08",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q22",
+      "finding": "Keep the question-led structure. Add a paired raw-cell/rendered-racer view and a more prominent concept label before the long race preview.",
+      "evidence": "V01,V04,V08",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q23",
+      "finding": "For an abstract data product, show raw input beside a readable visualization before entering a stylized world. Maintain an identifier across both views and label conceptual footage clearly.",
+      "evidence": "V04,V07,V08",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q24",
+      "finding": "Sperm Racing presents microscopic cell races as a spectator sport using tracking and rendered visuals.",
+      "evidence": "Model reading from inspected images",
+      "status": "uncertain",
+      "reason": "Model-only new-viewer interpretation; no human test.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q25",
+      "finding": "Contact sheets inspected at displayed size; a phone-size playback, caption audit, flash audit and formal accessibility check were not performed.",
+      "evidence": "Viewed sheets",
+      "status": "not checked",
+      "reason": "Full-size moving-image and device checks unavailable in this pass.",
+      "experiment": "none"
+    }
+  ],
+  "lessons": {
+    "keep": "Use a real viewer question to introduce the process, then show why visualization is needed.",
+    "avoid": "Letting a cinematic future state outweigh its small qualification.",
+    "open": "Actual sound, source provenance, tracking fidelity and the film’s health claims remain unverified.",
+    "try": [
+      "For Tin analytics, pair one raw campaign event with its dashboard representation using a shared identifier.",
+      "Test a large Concept preview label before a stylized future feature sequence, keeping current capability visible in a separate paired frame."
+    ]
+  },
+  "comparison": {
+    "story": "Turn public doubt into the explanation prompt. → Explain design and fabrication. → Show biological preparation. → Explain the conversion for viewers. → Preview the viewing format and raise purpose. → State the health-awareness motivation as a film claim. → Translate the concept through a motorsport analogy. → Demonstrate a future spectacle. → Pitch the entertainment format. → Close the brand.",
+    "motion": "Comments spread into a field, holographic track panels follow gestures, paths gain tracking outlines, the camera enters a miniature stadium and cars fold into tailed racers. The car transformation was checked at 4 fps from 153–157s. Sampling scope: 1 fps unless a closer window is recorded.",
+    "sound": "No validated listening; unknown.",
+    "texture": "Archive-like media clips, dark comment collage and white question card.; Teal workshop light, hologram-like overlays and reflective industrial metal.; Blue gloves, lab equipment and small bottom captions.; Dark technical overlays, contour highlights and processing labels.; Circular microscope-style framing, broadcast UI and white question card.; Office walk-through, transparent graphics and subtitles.; Red studio wall, tabletop model and glossy rendered stadium.; Metallic racers, bright stadium lighting, motion blur and broadcast graphics.; Tabletop return, split portraits and live-event-looking footage.; Near-black logo ending.",
+    "lesson": "Use a real viewer question to introduce the process, then show why visualization is needed."
+  },
+  "elements": [
+    {
+      "kind": "ui",
+      "name": "comment cards",
+      "events": [
+        "V01",
+        "V05"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "tracking overlay",
+      "events": [
+        "V04"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "leaderboard",
+      "events": [
+        "V08"
+      ]
+    },
+    {
+      "kind": "motion",
+      "name": "vehicle transformation",
+      "events": [
+        "V08"
+      ]
+    },
+    {
+      "kind": "motion",
+      "name": "camera scale change",
+      "events": [
+        "V07",
+        "V09"
+      ]
+    },
+    {
+      "kind": "texture",
+      "name": "laboratory footage",
+      "events": [
+        "V03"
+      ]
+    },
+    {
+      "kind": "texture",
+      "name": "metallic rendered vehicles",
+      "events": [
+        "V08"
+      ]
+    }
+  ]
+}

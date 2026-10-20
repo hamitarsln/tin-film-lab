@@ -1,0 +1,315 @@
+{
+  "id": 485,
+  "reviewer_model": "gpt-6-astra",
+  "scope": "sampled visual and story review; ASR and measured signal support; no validated audio listening",
+  "viewed_evidence": [
+    "technical-review-2026-10-19/deep-review/motion/485/timeline-00.jpg",
+    "technical-review-2026-10-19/deep-review/audio/485-speech.json"
+  ],
+  "closer_windows": [],
+  "product_from_film": "Cluely is presented as meeting intelligence through a joke about one person facing many calls.",
+  "explains_well": "The camera pullback turns an ordinary call view into an exaggerated wall of simultaneous meetings.",
+  "unclear": "The actual assistance is unreadable and no question-to-answer exchange is clear; the name joke also needs outside context.",
+  "product_type": "meeting assistant brand joke",
+  "scenario": "Face many video calls with assistance panels.",
+  "product_clear_time": 14,
+  "product_clear_basis": "The end card calls Cluely meeting intelligence; its specific workflow remains unclear.",
+  "scenes": [
+    {
+      "id": "V01",
+      "start": 0,
+      "end": 5,
+      "action": "A close view of a video call and dark text panel pulls back to reveal a large curved display filled with many call windows.",
+      "design": "Screen glow, repeated faces and small black assistance panels.",
+      "purpose": "Reveal an exaggerated scale of meetings.",
+      "evidence": "Visible chronological 1 fps samples, source 0–5s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V02",
+      "start": 5,
+      "end": 12,
+      "action": "A hooded seated figure faces the call wall. A handwritten Soham Parekh sign becomes fully visible on the chair as people in the windows continue changing expressions.",
+      "design": "Dark room, plants and a rough handwritten label.",
+      "purpose": "Deliver a topical identity joke.",
+      "evidence": "Visible chronological 1 fps samples, source 5–12s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V03",
+      "start": 12,
+      "end": 17.6,
+      "action": "The Cluely symbol appears over the scene, then a black card reads Meeting intelligence so good, you just need to show up.",
+      "design": "White logo and small centered tagline.",
+      "purpose": "State the product category and promise.",
+      "evidence": "Visible chronological 1 fps samples, source 12–17.6s; boundary approximate; exact motion between samples unverified."
+    }
+  ],
+  "sound": [
+    {
+      "id": "A01",
+      "start": 0,
+      "end": 17.6,
+      "layer": "unknown",
+      "detail": "No validated direct audio listening was performed. Music, speech delivery, effects, mix and sync remain unknown, not absent.",
+      "visual_relation": "All visual scenes; audiovisual alignment unverified",
+      "evidence": "Visual samples only; no actual audio range supplied to this reviewer."
+    },
+    {
+      "id": "A02",
+      "start": 0,
+      "end": 14.64,
+      "layer": "ASR draft",
+      "detail": "The ASR draft contains disconnected conversational fragments and repeated phrases. It does not reliably identify a coherent exchange, so it is rejected as evidence of a product script or answer quality.",
+      "visual_relation": "Story text support; exact audiovisual alignment and delivery unverified.",
+      "evidence": "technical-review-2026-10-19/deep-review/audio/485-speech.json; local faster-whisper base CPU int8 draft; VAD candidates only, recognition errors possible."
+    }
+  ],
+  "categories": [
+    {
+      "id": "Q01",
+      "finding": "A call close-up expands into many calls, reveals a named chair sign and ends with the meeting-intelligence promise.",
+      "evidence": "V01–V03",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q02",
+      "finding": "The pullback reveals more calls than expected, giving a simple visual escalation.",
+      "evidence": "V01",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q03",
+      "finding": "People familiar with online work and the named reference are the likely audience. The category is only explicit on the end card.",
+      "evidence": "V02,V03",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q04",
+      "finding": "The view pulls backward from one call to a wall of call windows, while faces continue moving and the logo appears over the seated figure.",
+      "evidence": "V01–V03",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q05",
+      "finding": "One continuous reveal carries most of the film, with the chair sign acting as its second discovery.",
+      "evidence": "V01,V02",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q06",
+      "finding": "Screen glow, dark surroundings and a handwritten paper sign make the scene feel like an improvised control room.",
+      "evidence": "V01,V02",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q07",
+      "finding": "The name sign and logo are clear; the assistance text inside each call is too small to explain its value.",
+      "evidence": "V01–V03",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q08",
+      "finding": "The ASR draft contains disconnected conversational fragments and repeated phrases. It does not reliably identify a coherent exchange, so it is rejected as evidence of a product script or answer quality.",
+      "evidence": "A02",
+      "status": "uncertain",
+      "reason": "ASR text only; no validated listening, delivery or voice origin.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q09",
+      "finding": "Voice delivery, music, effects and audiovisual alignment were not established by this visual pass.",
+      "evidence": "A01",
+      "status": "not checked",
+      "reason": "No validated direct audio listening input.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q10",
+      "finding": "Voice delivery, music, effects and audiovisual alignment were not established by this visual pass.",
+      "evidence": "A01",
+      "status": "not checked",
+      "reason": "No validated direct audio listening input.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q11",
+      "finding": "Voice delivery, music, effects and audiovisual alignment were not established by this visual pass.",
+      "evidence": "A01",
+      "status": "not checked",
+      "reason": "No validated direct audio listening input.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q12",
+      "finding": "A staged workstation, composited or displayed call windows, text panels and logo cards are visible. Exact production method is unknown.",
+      "evidence": "V01–V03",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q13",
+      "finding": "Manifest duration 17.6s; indexed dimensions 1920×1080. Source unchanged flag recorded; fresh encoding and audio clipping checks not run.",
+      "evidence": "Group manifest",
+      "status": "uncertain",
+      "reason": "Inherited technical metadata; no fresh media probe in this review.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q14",
+      "finding": "The category is readable in the final tagline, but the call content does not establish a specific useful task.",
+      "evidence": "V01,V03",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q15",
+      "finding": "The wall of faces and chair sign dominate attention, leaving the actual assistance panels secondary.",
+      "evidence": "V01,V02",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q16",
+      "finding": "The short runtime supports a single reveal and punchline, with several seconds reserved for the brand card.",
+      "evidence": "V01–V03",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q17",
+      "finding": "The same desk and seated figure anchor the reveal; individual calls do not form a continuous demonstrated task.",
+      "evidence": "V01,V02",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q18",
+      "finding": "The exaggerated meeting wall and named sign aim for topical humor. The reference may be opaque without prior knowledge.",
+      "evidence": "V01,V02",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q19",
+      "finding": "No readable input, assistant response and applied result are shown.",
+      "evidence": "V01,V02",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q20",
+      "finding": "The sign is a staged reference, not evidence about the named person. Simultaneous-call capability and response quality are not demonstrated.",
+      "evidence": "V01–V03",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q21",
+      "finding": "Cluely appears late, with the final tagline supplying the product category.",
+      "evidence": "V03",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q22",
+      "finding": "Keep the pullback but begin with one readable meeting question and useful answer before revealing the wider wall.",
+      "evidence": "V01",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q23",
+      "finding": "Use a camera pullback to expand the scale of an initially ordinary situation.",
+      "evidence": "V01",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q24",
+      "finding": "Cluely is presented as meeting intelligence through a joke about one person facing many calls.",
+      "evidence": "Model reading from inspected images",
+      "status": "uncertain",
+      "reason": "Model-only new-viewer interpretation; no human test.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q25",
+      "finding": "Contact sheets inspected at displayed size; a phone-size playback, caption audit, flash audit and formal accessibility check were not performed.",
+      "evidence": "Viewed sheets",
+      "status": "not checked",
+      "reason": "Full-size moving-image and device checks unavailable in this pass.",
+      "experiment": "none"
+    }
+  ],
+  "lessons": {
+    "keep": "Reveal unexpected scale through a single backward camera move.",
+    "avoid": "Depending on a topical name joke to explain a product benefit.",
+    "open": "Actual call assistance, simultaneous operation, identity-reference context and audio remain unverified.",
+    "try": [
+      "For Tin, begin on one campaign card and pull back to a full workspace while keeping the first card readable.",
+      "Replace one opaque assistance panel with a clear meeting question and answer before the pullback."
+    ]
+  },
+  "comparison": {
+    "story": "Reveal an exaggerated scale of meetings. → Deliver a topical identity joke. → State the product category and promise.",
+    "motion": "The view pulls backward from one call to a wall of call windows, while faces continue moving and the logo appears over the seated figure. Sampling scope: 1 fps unless a closer window is recorded.",
+    "sound": "No validated listening; unknown.",
+    "texture": "Screen glow, repeated faces and small black assistance panels.; Dark room, plants and a rough handwritten label.; White logo and small centered tagline.",
+    "lesson": "Reveal unexpected scale through a single backward camera move."
+  },
+  "elements": [
+    {
+      "kind": "ui",
+      "name": "video call grid",
+      "events": [
+        "V01",
+        "V02"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "assistance panel",
+      "events": [
+        "V01"
+      ]
+    },
+    {
+      "kind": "motion",
+      "name": "camera pullback",
+      "events": [
+        "V01"
+      ]
+    },
+    {
+      "kind": "texture",
+      "name": "handwritten sign",
+      "events": [
+        "V02"
+      ]
+    }
+  ]
+}

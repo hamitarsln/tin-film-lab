@@ -1,0 +1,352 @@
+{
+  "id": 395,
+  "viewed_evidence": [
+    "technical-review-2026-10-19/deep-review/motion/395/timeline-00.jpg",
+    "astra-review-2026-10-20/evidence/group-3/395/dense24-29.jpg",
+    "astra-review-2026-10-20/evidence/group-3/395/full23.jpg"
+  ],
+  "product_from_film": "Claude is linked to an AI-planned rover drive on another planet.",
+  "explains_well": "The launch-to-planet-to-rover sequence makes the scale and setting easy to follow.",
+  "unclear": "The film does not show what Claude received, planned or passed to the rover team.",
+  "product_type": "AI case study",
+  "scenario": "Planetary rover route planning.",
+  "product_clear_time": 27,
+  "product_clear_basis": "Final text states the first AI-planned drive on another planet; brand appeared earlier.",
+  "scenes": [
+    {
+      "start": 0,
+      "end": 3,
+      "action": "Pixel grid with star mark changes to Claude Keep thinking over grey terrain, then the image is seen on an angled monitor.",
+      "design": "White serif brand, screen pixels.",
+      "purpose": "Brand and setting",
+      "id": "V01",
+      "evidence": "Visible 1 fps samples, source 0–3s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 3,
+      "end": 8,
+      "action": "Control room shots lead to rocket launch and rocket receding into blue sky.",
+      "design": "Photographic operational footage.",
+      "purpose": "Journey outward",
+      "id": "V02",
+      "evidence": "Visible 1 fps samples, source 3–8s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 8,
+      "end": 14,
+      "action": "Orange planet enlarges, then rocky terrain fills frame.",
+      "design": "Black space to dusty orange rocks.",
+      "purpose": "Arrive at planet",
+      "id": "V03",
+      "evidence": "Visible 1 fps samples, source 8–14s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 14,
+      "end": 22,
+      "action": "Terrain backdrop gains inset rover images; full rover and mast views follow.",
+      "design": "Inset frames then full-frame hardware.",
+      "purpose": "Name the working machine visually",
+      "id": "V04",
+      "evidence": "Visible 1 fps samples, source 14–22s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 22,
+      "end": 25.5,
+      "action": "Rover simulation with numeric telemetry leads to overhead terrain, green rotated rectangles and cyan route.",
+      "design": "Technical viewport and route overlays.",
+      "purpose": "Show planning context",
+      "id": "V05",
+      "evidence": "Visible 1 fps samples, source 22–25.5s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 25.5,
+      "end": 29.32,
+      "action": "Grey terrain gains The first AI-planned drive on another planet line by line; pixel grid enlarges over it toward the end.",
+      "design": "White serif claim over monochrome surface.",
+      "purpose": "State achievement",
+      "id": "V06",
+      "evidence": "Visible 1 fps samples, source 25.5–29.32s; boundaries approximate, between-frame action unresolved."
+    }
+  ],
+  "sound": [
+    {
+      "id": "A01",
+      "start": 0,
+      "end": 29.32,
+      "layer": "unknown",
+      "detail": "No validated audio listening; speech, music, effects, mix and sync remain unverified.",
+      "visual_relation": "All visual scenes; alignment not checked",
+      "evidence": "No actual audio supplied to this review; existing technical-review-2026-10-19/deep-review/audio/395.json is not listening evidence."
+    }
+  ],
+  "categories": [
+    {
+      "finding": "Brand, control room, launch, planet, rover and route build a case-study montage; the causal AI step is only named at the end.",
+      "evidence": "V01–V06",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q01"
+    },
+    {
+      "finding": "Star mark on pixel texture changes to Claude Keep thinking over grey terrain; space mission is not yet clear.",
+      "evidence": "V01 0–2s",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q02"
+    },
+    {
+      "finding": "The film positions Claude for difficult planning, but gives no ordinary user task; the rover case becomes explicit in the final claim.",
+      "evidence": "V05/V06",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q03"
+    },
+    {
+      "finding": "Planet enlarges; rover insets shift to full frame. Dense 24–29s shows green rotated boxes accumulating along cyan route, then line-by-line claim and enlarged pixel texture.",
+      "evidence": "V03–V06; dense24-29",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q04"
+    },
+    {
+      "finding": "Cuts move from control room to launch to planet; technical route changes to grey terrain near 25.5s. Exact earlier transition mechanics remain sampled.",
+      "evidence": "V02/V03/V05/V06",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q05"
+    },
+    {
+      "finding": "Orange rocky surfaces contrast with grey ending and dark teal simulation; visible pixel grid bookends the sequence.",
+      "evidence": "V01/V03/V05/V06",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q06"
+    },
+    {
+      "finding": "Brand and final claim dominate readable text; telemetry is incidental technical texture rather than explained data.",
+      "evidence": "V01/V05/V06; full23",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q07"
+    },
+    {
+      "finding": "Voice presence and delivery remain unverified.",
+      "evidence": "No validated audio listening",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q08"
+    },
+    {
+      "finding": "Music character and arc remain unverified.",
+      "evidence": "No validated audio listening",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q09"
+    },
+    {
+      "finding": "Sound effects remain unverified.",
+      "evidence": "No validated audio listening",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q10"
+    },
+    {
+      "finding": "Sound-to-motion timing remain unverified.",
+      "evidence": "No validated audio listening",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q11"
+    },
+    {
+      "finding": "Control-room and rocket footage mix with planet/rover imagery, inset pictures and simulation viewport; provenance is unknown.",
+      "evidence": "V02–V05",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q12"
+    },
+    {
+      "finding": "Source duration supplied as 29.32s; no independent compression, clipping or delivery check.",
+      "evidence": "Assigned metadata; source integrity checked by parent",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q13"
+    },
+    {
+      "finding": "Silent viewing establishes space exploration and final AI planning claim, but not the actual planning operation.",
+      "evidence": "V02–V06",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q14"
+    },
+    {
+      "finding": "Large central planet and rover organize the montage; final centered text replaces the busy technical view.",
+      "evidence": "V03/V04/V06",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q15"
+    },
+    {
+      "finding": "Most of 29s sets context; the actual AI role arrives in a brief final sentence with no worked example.",
+      "evidence": "V02–V06",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q16"
+    },
+    {
+      "finding": "Keep thinking is a broad brand promise; the final planetary achievement gives it a specific ambition.",
+      "evidence": "V01/V06",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q17"
+    },
+    {
+      "finding": "Launch and enlarging planet appear designed for awe; route graphics offer a technical turn before the achievement claim.",
+      "evidence": "V02/V03/V05",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q18"
+    },
+    {
+      "finding": "Terrain and rover connect the mission shots; Claude itself is not visible in the planning UI.",
+      "evidence": "V04/V05",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q19"
+    },
+    {
+      "finding": "Rover, telemetry and route are visible; first AI-planned drive is an on-screen claim, not independently established by this review.",
+      "evidence": "V05/V06",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q20"
+    },
+    {
+      "finding": "Keep thinking and the star mark identify Claude; space imagery alone could fit a broader technology case study.",
+      "evidence": "V01/V06",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q21"
+    },
+    {
+      "finding": "One less rocky-terrain shot could make room for a labeled input, route proposal and human approval.",
+      "evidence": "V03/V05",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q22"
+    },
+    {
+      "finding": "For Tin, show a complex campaign context, then the exact decision it helped make, using a labeled before/after plan.",
+      "evidence": "V02–V06",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q23"
+    },
+    {
+      "finding": "No human new-viewer test; product description above is model interpretation of sampled images.",
+      "evidence": "V01–V06",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q24"
+    },
+    {
+      "finding": "No phone-size, safe-area or flash assessment; small UI text needs separate preview.",
+      "evidence": "Contact sheets",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q25"
+    }
+  ],
+  "lessons": {
+    "keep": "Use a scale journey from environment to the specific machine and its plan.",
+    "try": [
+      "Try a Tin case film that moves from business context to one campaign plan and its accepted result.",
+      "Try a route-style overlay on a workflow, but label the input, proposed path and approved step."
+    ],
+    "avoid": "Avoid leaving the central AI contribution only in the ending claim.",
+    "open": "Audio, source provenance, achievement details and actual Claude planning process remain unverified."
+  },
+  "comparison": {
+    "story": "Brand and setting → Journey outward → Arrive at planet → Name the working machine visually → Show planning context → State achievement",
+    "motion": "Planet enlarges; rover insets shift to full frame. Dense 24–29s shows green rotated boxes accumulating along cyan route, then line-by-line claim and enlarged pixel texture.",
+    "sound": "No validated listening; no absence claims.",
+    "texture": "Orange rocky surfaces contrast with grey ending and dark teal simulation; visible pixel grid bookends the sequence.",
+    "lesson": "Use a scale journey from environment to the specific machine and its plan."
+  },
+  "elements": [
+    {
+      "kind": "ui",
+      "name": "technical viewport",
+      "events": [
+        "V05"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "map",
+      "events": [
+        "V05"
+      ]
+    },
+    {
+      "kind": "motion",
+      "name": "route drawing",
+      "events": [
+        "V05"
+      ]
+    },
+    {
+      "kind": "texture",
+      "name": "pixel grid",
+      "events": [
+        "V01",
+        "V06"
+      ]
+    },
+    {
+      "kind": "texture",
+      "name": "rocky terrain",
+      "events": [
+        "V03",
+        "V04"
+      ]
+    }
+  ],
+  "reviewer_model": "gpt-6-astra",
+  "scope": "sampled visual and story review; ASR and measured signal support; no validated audio listening",
+  "closer_windows": [
+    {
+      "start": 24,
+      "end": 29,
+      "rate_fps": 4,
+      "evidence": [
+        "astra-review-2026-10-20/evidence/group-3/395/dense24-29.jpg"
+      ],
+      "resolved": "Overhead rover shrinks, route boxes accumulate, then cut near 25.5s to terrain; claim builds line by line and pixel grid grows. Exact easing unresolved."
+    }
+  ]
+}

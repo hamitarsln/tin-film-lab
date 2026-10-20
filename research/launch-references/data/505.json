@@ -1,0 +1,321 @@
+{
+  "id": 505,
+  "reviewer_model": "gpt-6-astra",
+  "scope": "sampled visual and story review; ASR and measured signal support; no validated audio listening",
+  "viewed_evidence": [
+    "technical-review-2026-10-19/deep-review/motion/505/timeline-00.jpg"
+  ],
+  "closer_windows": [],
+  "product_from_film": "A minimal writing app presents a blank entry, text and type controls.",
+  "explains_well": "The nearly empty writing surface and changing fonts make simplicity and personal style visible.",
+  "unclear": "The jump from short entries to a long story does not explain whether the app or writer created that text.",
+  "product_type": "writing app",
+  "scenario": "Open a laptop, type entries and change the appearance of a longer story.",
+  "product_clear_time": 7,
+  "product_clear_basis": "Text is entered on a minimal writing surface.",
+  "scenes": [
+    {
+      "id": "V01",
+      "start": 0,
+      "end": 6,
+      "action": "A person opens a laptop; the pale app shows What’s on your mind and small bottom controls.",
+      "design": "Warm desk footage and close screen crops.",
+      "purpose": "Introduce an uncluttered writing space.",
+      "evidence": "Visible chronological 1 fps samples, source 0–6s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V02",
+      "start": 6,
+      "end": 13,
+      "action": "Hands type; short phrases appear and change. Crops show Chat, minimal controls and New Entry beside a circular icon.",
+      "design": "Shallow-focus keyboard and screen detail.",
+      "purpose": "Suggest a quick writing routine.",
+      "evidence": "Visible chronological 1 fps samples, source 6–13s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V03",
+      "start": 13,
+      "end": 19,
+      "action": "A longer story fills the screen with an entry list at right. Bottom type controls and Random are shown; the same opening changes typeface across close crops.",
+      "design": "Pale document and small font menu.",
+      "purpose": "Show text styling and longer writing.",
+      "evidence": "Visible chronological 1 fps samples, source 13–19s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V04",
+      "start": 19,
+      "end": 22.439,
+      "action": "The writer looks up, closes the laptop and moves away.",
+      "design": "Warm frontal portrait.",
+      "purpose": "End on a finished writing session.",
+      "evidence": "Visible chronological 1 fps samples, source 19–22.439s; boundary approximate; exact motion between samples unverified."
+    }
+  ],
+  "sound": [
+    {
+      "id": "A01",
+      "start": 0,
+      "end": 22.439,
+      "layer": "unknown",
+      "detail": "No validated direct audio listening was performed. Music, speech delivery, effects, mix and sync remain unknown, not absent.",
+      "visual_relation": "All visual scenes; audiovisual alignment unverified",
+      "evidence": "Visual samples only; no actual audio range supplied to this reviewer."
+    }
+  ],
+  "categories": [
+    {
+      "id": "Q01",
+      "finding": "Open laptop, write short text, show a longer story, change fonts, then close the session.",
+      "evidence": "V01–V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q02",
+      "finding": "The physical laptop opening puts the viewer into a writing routine immediately.",
+      "evidence": "V01",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q03",
+      "finding": "Minimal controls and personal entries suggest individual writers or journal users.",
+      "evidence": "V01–V03",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q04",
+      "finding": "Typed phrases grow, close crops move attention between text and bottom controls, and the story’s typeface changes after Random is shown.",
+      "evidence": "V02,V03",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q05",
+      "finding": "Screen details alternate with hands and the writer, making a small app feel physical.",
+      "evidence": "V01–V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q06",
+      "finding": "Warm room tones and screen grain surround a pale, spare document.",
+      "evidence": "V01–V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q07",
+      "finding": "The large text is clear, but several bottom labels are faint, angled or cropped.",
+      "evidence": "V01–V03",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q08",
+      "finding": "Voice delivery, music, effects and audiovisual alignment were not established by this visual pass.",
+      "evidence": "A01",
+      "status": "not checked",
+      "reason": "No validated direct audio listening input.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q09",
+      "finding": "Voice delivery, music, effects and audiovisual alignment were not established by this visual pass.",
+      "evidence": "A01",
+      "status": "not checked",
+      "reason": "No validated direct audio listening input.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q10",
+      "finding": "Voice delivery, music, effects and audiovisual alignment were not established by this visual pass.",
+      "evidence": "A01",
+      "status": "not checked",
+      "reason": "No validated direct audio listening input.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q11",
+      "finding": "Voice delivery, music, effects and audiovisual alignment were not established by this visual pass.",
+      "evidence": "A01",
+      "status": "not checked",
+      "reason": "No validated direct audio listening input.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q12",
+      "finding": "Filmed laptop, keyboard, writer and application screen are visible; camera and editing tools are unknown.",
+      "evidence": "V01–V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q13",
+      "finding": "Manifest duration 22.439s; indexed dimensions 1280×720. Source unchanged flag recorded; fresh encoding and audio clipping checks not run.",
+      "evidence": "Group manifest",
+      "status": "uncertain",
+      "reason": "Inherited technical metadata; no fresh media probe in this review.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q14",
+      "finding": "No usable speech draft is available; the visible routine carries the story without an explanatory text sequence.",
+      "evidence": "V01–V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q15",
+      "finding": "Close crops prioritize the cursor, New Entry and Random font control.",
+      "evidence": "V02,V03",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q16",
+      "finding": "The 22-second film gives similar weight to starting, writing, styling and leaving.",
+      "evidence": "V01–V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q17",
+      "finding": "The story opening stays recognizable through font changes, but its connection to earlier short entries is unclear.",
+      "evidence": "V02,V03",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q18",
+      "finding": "The warm desk setting and relaxed ending suggest a calm personal ritual. Heard mood is unverified.",
+      "evidence": "V01,V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q19",
+      "finding": "Typing and font changes are legible actions; Chat and the circular control are not explained by a complete interaction.",
+      "evidence": "V02,V03",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q20",
+      "finding": "The jump to the long story cannot establish AI generation, autosave or persistence.",
+      "evidence": "V02,V03",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q21",
+      "finding": "The sampled ending closes on the writer without a readable product name or download destination.",
+      "evidence": "V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q22",
+      "finding": "Label the long-text step and add a brief final name and download card.",
+      "evidence": "V03,V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q23",
+      "finding": "Film small interface controls as part of a physical daily routine.",
+      "evidence": "V01–V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q24",
+      "finding": "A minimal writing app presents a blank entry, text and type controls.",
+      "evidence": "Model reading from inspected images",
+      "status": "uncertain",
+      "reason": "Model-only new-viewer interpretation; no human test.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q25",
+      "finding": "Contact sheets inspected at displayed size; a phone-size playback, caption audit, flash audit and formal accessibility check were not performed.",
+      "evidence": "Viewed sheets",
+      "status": "not checked",
+      "reason": "Full-size moving-image and device checks unavailable in this pass.",
+      "experiment": "none"
+    }
+  ],
+  "lessons": {
+    "keep": "Keep a recognizable sentence while changing its visual style.",
+    "avoid": "Implying an unexplained text-generation feature through a jump cut.",
+    "open": "Text origin, Chat behavior, save behavior, exact transitions and audio are unverified.",
+    "try": [
+      "For Tin, keep one headline fixed while cycling fonts so the design change is easy to compare.",
+      "Show one clear saved-entry state before the writer closes the laptop."
+    ]
+  },
+  "comparison": {
+    "story": "Introduce an uncluttered writing space. → Suggest a quick writing routine. → Show text styling and longer writing. → End on a finished writing session.",
+    "motion": "Typed phrases grow, close crops move attention between text and bottom controls, and the story’s typeface changes after Random is shown. Sampling scope: 1 fps unless a closer window is recorded.",
+    "sound": "No validated listening; unknown.",
+    "texture": "Warm desk footage and close screen crops.; Shallow-focus keyboard and screen detail.; Pale document and small font menu.; Warm frontal portrait.",
+    "lesson": "Keep a recognizable sentence while changing its visual style."
+  },
+  "elements": [
+    {
+      "kind": "ui",
+      "name": "document",
+      "events": [
+        "V03"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "font control",
+      "events": [
+        "V03"
+      ]
+    },
+    {
+      "kind": "motion",
+      "name": "typed text",
+      "events": [
+        "V02"
+      ]
+    },
+    {
+      "kind": "motion",
+      "name": "font change",
+      "events": [
+        "V03"
+      ]
+    },
+    {
+      "kind": "texture",
+      "name": "live action",
+      "events": [
+        "V01",
+        "V04"
+      ]
+    }
+  ]
+}

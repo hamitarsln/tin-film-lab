@@ -1,0 +1,377 @@
+{
+  "id": 388,
+  "product_from_film": "TrueShort presents a slate of series through a phone viewing app.",
+  "explains_well": "Stable series labels help separate seven very different fictional worlds.",
+  "unclear": "The phrase “a new type of movie, series, drama” is not explained in terms of format or viewing experience.",
+  "product_type": "Consumer streaming entertainment",
+  "scenario": "Preview a series catalog and show it inside a phone app.",
+  "product_clear_time": 66,
+  "product_clear_basis": "The phone catalog and Heirs of War title establish a viewing app around 66s.",
+  "scenes": [
+    {
+      "start": 0,
+      "end": 8,
+      "action": "TRUESHORT fills a snowy arch landscape, followed by campfire, spacecraft, coastal group and banquet shots.",
+      "design": "Large white brand over cinematic landscapes.",
+      "purpose": "Introduce a varied entertainment world.",
+      "evidence": "1 fps source samples in 0–8s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V01"
+    },
+    {
+      "start": 8,
+      "end": 16,
+      "action": "Orbital labels mountains, a descending-looking ship, an astronaut and a planet.",
+      "design": "NEW SERIES label and dark space imagery.",
+      "purpose": "Introduce science fiction.",
+      "evidence": "1 fps source samples in 8–16s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V02"
+    },
+    {
+      "start": 16,
+      "end": 24,
+      "action": "Red’s Journey labels furry animal characters, a backpack and a train scene.",
+      "design": "Soft furry surfaces and bright outdoor scenes.",
+      "purpose": "Introduce a family adventure.",
+      "evidence": "1 fps source samples in 16–24s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V03"
+    },
+    {
+      "start": 24,
+      "end": 32,
+      "action": "Obsessed labels young people in streets, on a motorbike, kissing and among crowds.",
+      "design": "Night streets and warm portraits.",
+      "purpose": "Introduce contemporary drama.",
+      "evidence": "1 fps source samples in 24–32s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V04"
+    },
+    {
+      "start": 32,
+      "end": 38,
+      "action": "Redford Files labels an isolated house, eye close-up, hand and woman with a flashlight.",
+      "design": "Dark interiors and tight crops.",
+      "purpose": "Introduce mystery.",
+      "evidence": "1 fps source samples in 32–38s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V05"
+    },
+    {
+      "start": 38,
+      "end": 44,
+      "action": "Winter’s Promise labels a fireplace, lamplit embrace and period-dress coastal scenes.",
+      "design": "Warm interiors and muted coast.",
+      "purpose": "Introduce period romance.",
+      "evidence": "1 fps source samples in 38–44s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V06"
+    },
+    {
+      "start": 44,
+      "end": 50,
+      "action": "Heirs of War labels a snowy warrior, sword, banquet and armored rider.",
+      "design": "Snow, metal and torchlit-looking interiors.",
+      "purpose": "Introduce fantasy conflict.",
+      "evidence": "1 fps source samples in 44–50s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V07"
+    },
+    {
+      "start": 50,
+      "end": 56,
+      "action": "Trust labels a wealthy-looking group, private jet, dinner and rainy airfield.",
+      "design": "Polished interiors and night rain.",
+      "purpose": "Introduce power drama.",
+      "evidence": "1 fps source samples in 50–56s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V08"
+    },
+    {
+      "start": 56,
+      "end": 63,
+      "action": "IN 2026, A NEW TYPE OF MOVIE, SERIES, DRAMA and ARRIVES appear over mixed scenes.",
+      "design": "Large centered white text.",
+      "purpose": "Unify the slate under a launch promise.",
+      "evidence": "1 fps source samples in 56–63s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V09"
+    },
+    {
+      "start": 63,
+      "end": 70,
+      "action": "Clips appear within a phone shell; a Heirs of War catalog/play view is visible before footage again fills the image.",
+      "design": "Phone frame, catalog and video imagery.",
+      "purpose": "Reveal the viewing format.",
+      "evidence": "1 fps source samples in 63–70s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V10"
+    },
+    {
+      "start": 70,
+      "end": 74.5,
+      "action": "TRUESHORT holds on black.",
+      "design": "White wordmark.",
+      "purpose": "Close with identity.",
+      "evidence": "1 fps source samples in 70–74.5s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V11"
+    }
+  ],
+  "sound": [
+    {
+      "id": "A01",
+      "start": 0,
+      "end": 74.5,
+      "layer": "ASR draft",
+      "detail": "Draft contains short character-style lines about new worlds, friendship, disappearing, secrets, waiting, land and power. These support genre mood rather than explain the app. The closing draft is partly garbled. No voice delivery, music or effects were heard.",
+      "visual_relation": "V01–V09; precise dialogue and edit alignment unverified.",
+      "evidence": "388-speech.json local draft; transcript only."
+    }
+  ],
+  "categories": [
+    {
+      "id": "Q01",
+      "finding": "Series montage → launch promise → phone catalog → brand.",
+      "evidence": "V01–V11",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q02",
+      "finding": "Huge TRUESHORT letters cover a snowy arch landscape with tiny figures; the opening offers scale and mystery.",
+      "evidence": "V01",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q03",
+      "finding": "The viewer sees an entertainment slate early, but the app becomes clear only near 66s.",
+      "evidence": "V02–V10",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q04",
+      "finding": "Characters and vehicles change pose and position; phone framing changes the scale of footage near the end. Exact paths/easing are unresolved.",
+      "evidence": "V02–V10",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q05",
+      "finding": "Repeated title placement connects otherwise unrelated genres; the phone reveal links the montage to a product.",
+      "evidence": "V02–V10",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q06",
+      "finding": "Snow, metal, fur, rain, warm rooms and dark space distinguish the worlds.",
+      "evidence": "V02–V08",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q07",
+      "finding": "Series names and NEW SERIES labels classify scenes; the later large launch words explain no concrete format difference.",
+      "evidence": "V02–V09",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q08",
+      "finding": "Draft dialogue gives each genre a short story cue; delivery and all acoustic qualities remain unknown.",
+      "evidence": "A01",
+      "status": "uncertain",
+      "reason": "Transcript support only.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q09",
+      "finding": "Music character and structure are unverified.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "No validated listening.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q10",
+      "finding": "Effects and their sources are unverified.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "No validated listening; waveform peaks do not identify effects.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q11",
+      "finding": "Sound sync is unverified.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "No validated listening or paired audiovisual timing.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q12",
+      "finding": "Cinematic-looking scenes, creature characters and a phone UI are combined. Production origin is unknown.",
+      "evidence": "V01–V10",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q13",
+      "finding": "Source duration 74.5 s; Watch metadata 1930 × 1080. Frame rate, audio clipping and export quality not checked here.",
+      "evidence": "Whole film",
+      "status": "supported",
+      "reason": "Parent source metadata supports duration and dimensions; visual review is sampled.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q14",
+      "finding": "Silent viewing conveys genres and a catalog; the new-format promise remains vague.",
+      "evidence": "V02–V10",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q15",
+      "finding": "Stable series names anchor changing imagery, then the phone becomes the central object.",
+      "evidence": "V02–V10",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q16",
+      "finding": "Each title gets roughly 6–8s and several shots; the catalog receives much less time than the fiction.",
+      "evidence": "V02–V10",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q17",
+      "finding": "The opening brand/world montage pays off as a slate; the claim of a new type of entertainment lacks a concrete example.",
+      "evidence": "V01,V09,V10",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q18",
+      "finding": "The succession of friendship, romance, danger and power appears designed to offer genre choice; audience response is unmeasured.",
+      "evidence": "V02–V08",
+      "status": "uncertain",
+      "reason": "Interpretation from pictures and draft words.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q19",
+      "finding": "Title labels preserve local continuity; the phone catalog finally gives the worlds a shared home.",
+      "evidence": "V02–V10",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q20",
+      "finding": "The film shows preview material and an app view. AI production, revenue, availability and catalog functionality are not established by these images.",
+      "evidence": "V01–V11",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q21",
+      "finding": "Named series and the recurring wordmark make the slate specific, while the large launch wording is generic.",
+      "evidence": "V02–V11",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q22",
+      "finding": "Add one viewing interaction to explain the new format.",
+      "evidence": "V09,V10",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "Select Heirs of War, show episode length and begin an episode in the same phone."
+    },
+    {
+      "id": "Q23",
+      "finding": "Use consistent labels for varied examples.",
+      "evidence": "V02–V08",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "For Tin, present three campaign styles with fixed client/task labels, then show where the user selects one."
+    },
+    {
+      "id": "Q24",
+      "finding": "No human new-viewer test was performed.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "The product summary is this model’s film-only reading.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q25",
+      "finding": "Mobile preview and accessibility checks were not performed.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "Contact sheets are evidence views, not a stated mobile preview or compliance test.",
+      "experiment": "none"
+    }
+  ],
+  "elements": [
+    {
+      "kind": "ui",
+      "name": "phone shell",
+      "events": [
+        "V10"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "video catalog",
+      "events": [
+        "V10"
+      ]
+    },
+    {
+      "kind": "texture",
+      "name": "cinematic genre montage",
+      "events": [
+        "V02",
+        "V03",
+        "V04",
+        "V05",
+        "V06",
+        "V07",
+        "V08"
+      ]
+    }
+  ],
+  "lessons": {
+    "keep": "Keep the same label position while changing visual worlds.",
+    "try": [
+      "Show title selection, episode length and playback in one phone sequence.",
+      "For Tin, label three campaign styles consistently before showing selection."
+    ],
+    "avoid": "Leaving “new type” as a slogan without a visible format difference.",
+    "open": "Audio, content origin, app behavior and commercial claims remain unverified."
+  },
+  "comparison": {
+    "story": "Genre slate → launch promise → phone catalog.",
+    "motion": "Character/action montage and late phone reframing; exact motion unresolved.",
+    "sound": "ASR dialogue only; acoustic design unknown.",
+    "texture": "Fur, snow, metal, rain and cinematic interiors.",
+    "lesson": "Consistent titles organize variety, but a product interaction explains the format."
+  },
+  "reviewer_model": "gpt-6-astra",
+  "scope": "sampled visual and story review; ASR and measured signal support; no validated audio listening",
+  "viewed_evidence": [
+    "technical-review-2026-10-19/deep-review/motion/388/timeline-00.jpg",
+    "technical-review-2026-10-19/deep-review/motion/388/timeline-01.jpg",
+    "technical-review-2026-10-19/deep-review/motion/388/timeline-02.jpg"
+  ],
+  "closer_windows": []
+}

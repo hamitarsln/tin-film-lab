@@ -1,0 +1,376 @@
+{
+  "id": 194,
+  "viewed_evidence": [
+    "technical-review-2026-10-19/deep-review/motion/194/timeline-00.jpg",
+    "technical-review-2026-10-19/deep-review/motion/194/timeline-01.jpg",
+    "technical-review-2026-10-19/deep-review/motion/194/timeline-02.jpg",
+    "technical-review-2026-10-19/deep-review/audio/194-speech.json",
+    "astra-review-2026-10-20/evidence/group-3/194/dense.jpg"
+  ],
+  "product_from_film": "Pops is a feed where people can create, play and share small games or playful software.",
+  "explains_well": "Game examples and the create/play/share sequence make its playful social format clear.",
+  "unclear": "The film does not connect one written prompt to the game it produces or show how friends join.",
+  "product_type": "consumer creation and games",
+  "scenario": "Describe a small game, play examples in a vertical feed and discover others.",
+  "product_clear_time": 44,
+  "product_clear_basis": "Short Form Software title is followed by vertical games; creation prompt appears at 49 s.",
+  "scenes": [
+    {
+      "start": 0,
+      "end": 10,
+      "action": "Old operating-system menus, desktop, browser, phone trick, early video clips, media player and block game appear in succession.",
+      "design": "Mixed resolutions and aspect ratios, black surround and yellow captions.",
+      "purpose": "Recall a playful earlier internet",
+      "id": "V01",
+      "evidence": "Visible 1 fps samples, source 0–10s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 10,
+      "end": 22,
+      "action": "Personal page and text editor lead to writer claim, then phone-camera/filter examples and photographer claim.",
+      "design": "Archive-like images, old interfaces and bold white category statements.",
+      "purpose": "Describe successive creation tools",
+      "id": "V02",
+      "evidence": "Visible 1 fps samples, source 10–22s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 22,
+      "end": 31,
+      "action": "Video and short-form social clips lead to storyteller claim and a superhero image.",
+      "design": "Vertical clips, film-like footage and mixed image texture.",
+      "purpose": "Frame creativity as a new power",
+      "id": "V03",
+      "evidence": "Visible 1 fps samples, source 22–31s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 31,
+      "end": 40,
+      "action": "Clock with 2026 leads to app-building screens and repeated AI text over presentation footage.",
+      "design": "Dark software views and keynote-like shots.",
+      "purpose": "Set up sameness in current software",
+      "id": "V04",
+      "evidence": "Visible 1 fps samples, source 31–40s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 40,
+      "end": 49,
+      "action": "Short Form Software title leads to vertical darts, face effects, arcade and simple shape games on green gradient.",
+      "design": "Bold white title and vivid lime/green background.",
+      "purpose": "Reveal playful software feed",
+      "id": "V05",
+      "evidence": "Visible 1 fps samples, source 40–49s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 49,
+      "end": 53,
+      "action": "Tilted creation prompt gives way to PLAY over one game, then adjacent games appear.",
+      "design": "Large verbs, dark composer and vertical game cards.",
+      "purpose": "Explain creation and play",
+      "id": "V06",
+      "evidence": "Visible 1 fps samples, source 49–53s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 53,
+      "end": 57,
+      "action": "SHARE overlays a widening multi-row game grid; cards change game states as the word fades.",
+      "design": "Neon gutters and dense moving game examples.",
+      "purpose": "Show discovery and variety",
+      "id": "V07",
+      "evidence": "Visible 1 fps samples, source 53–57s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 57,
+      "end": 61.541,
+      "action": "Grid blurs behind pops.fyi, then black background holds the address.",
+      "design": "Simple white URL.",
+      "purpose": "Invite a visit",
+      "id": "V08",
+      "evidence": "Visible 1 fps samples, source 57–61.541s; boundaries approximate, between-frame action unresolved."
+    }
+  ],
+  "sound": [
+    {
+      "id": "A01",
+      "start": 0,
+      "end": 61.541,
+      "layer": "unknown",
+      "detail": "No validated audio listening; speech, music, effects, mix and sync remain unverified.",
+      "visual_relation": "All visual scenes; alignment not checked",
+      "evidence": "No actual audio supplied to this review; existing technical-review-2026-10-19/deep-review/audio/194.json is not listening evidence."
+    },
+    {
+      "id": "A02",
+      "start": 0.298,
+      "end": 58.134,
+      "layer": "ASR draft",
+      "detail": "Three candidate windows describe internet play, writing, photography and video before software creation, playing with friends and discovery. One short-form-content phrase is mistranscribed. The draft supports story structure, not historical accuracy, delivery or sound timing.",
+      "visual_relation": "V01–V08; text-only support",
+      "evidence": "technical-review-2026-10-19/deep-review/audio/194-speech.json; existing faster-whisper base CPU int8; three windows 0.298–58.134 s"
+    }
+  ],
+  "categories": [
+    {
+      "finding": "Internet-history montage frames Pops as the next creative medium, then shows a playful game feed and create/play/share loop.",
+      "evidence": "V01–V08",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q01"
+    },
+    {
+      "finding": "Windows Pinball menu changes to an older desktop; recognition and nostalgia precede product meaning.",
+      "evidence": "V01, 0–2 s",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q02"
+    },
+    {
+      "finding": "Playful short-form software becomes clear around 42–44 s; creation by description is shown at 49–51 s.",
+      "evidence": "V05,V06",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q03"
+    },
+    {
+      "finding": "Dense 51–55 s samples show one vertical game at 51.25 s, two at 51.5 s, three at 51.75 s and more rows/columns by 52.75 s. PLAY becomes SHARE and fades as the grid keeps changing.",
+      "evidence": "V06,V07; dense 51–55 s",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q04"
+    },
+    {
+      "finding": "Rapid historical cuts give way to consistent green product framing; the prompt-to-game change does not preserve a named output.",
+      "evidence": "V01–V06",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q05"
+    },
+    {
+      "finding": "Older low-resolution interface footage and mixed crops contrast with saturated green gradients and crisp dark game cards.",
+      "evidence": "V01–V07",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q06"
+    },
+    {
+      "finding": "Writer, photographer and storyteller headings support the history argument; CREATE, PLAY and SHARE explain product categories but not the steps between them.",
+      "evidence": "V02,V03,V06,V07",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q07"
+    },
+    {
+      "finding": "Voice presence and delivery remain unverified.",
+      "evidence": "No validated audio listening",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q08"
+    },
+    {
+      "finding": "Music character and arc remain unverified.",
+      "evidence": "No validated audio listening",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q09"
+    },
+    {
+      "finding": "Sound effects remain unverified.",
+      "evidence": "No validated audio listening",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q10"
+    },
+    {
+      "finding": "Sound-to-motion timing remain unverified.",
+      "evidence": "No validated audio listening",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q11"
+    },
+    {
+      "finding": "Recognisable software, social clips, presentation footage and game screens form a collage. Sources and licences are not established.",
+      "evidence": "V01–V07",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q12"
+    },
+    {
+      "finding": "Source duration supplied as 61.541s; no independent compression, clipping or delivery check.",
+      "evidence": "Assigned metadata; source integrity checked by parent",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q13"
+    },
+    {
+      "finding": "Captions and large verbs convey the story silently; friend joining and prompt-to-result behaviour remain unclear.",
+      "evidence": "V05–V07",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q14"
+    },
+    {
+      "finding": "Central large verbs anchor attention while vertical games multiply around them; near the end many simultaneous games compete.",
+      "evidence": "V06,V07",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q15"
+    },
+    {
+      "finding": "Roughly 40 s of history precede about 17 s of product examples; the core creation step gets only a brief composer shot.",
+      "evidence": "V01–V07",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q16"
+    },
+    {
+      "finding": "The promise to make the internet playful returns in small games, face effects and a bright social feed.",
+      "evidence": "V01,V05–V07",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q17"
+    },
+    {
+      "finding": "Nostalgia shifts to a playful new-possibility pitch; audience reaction is not measured.",
+      "evidence": "V01–V07; interpretation",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q18"
+    },
+    {
+      "finding": "Repeated vertical feed format links examples, but the generic creation prompt is not tied to a specific subsequent game.",
+      "evidence": "V05–V07",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q19"
+    },
+    {
+      "finding": "Game states, composer and feed are depicted. Prompt generation quality, multiplayer and actual sharing are not independently demonstrated.",
+      "evidence": "V05–V07",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q20"
+    },
+    {
+      "finding": "The neon game feed and camera-face games give Pops more identity than the historical AI-comparison montage.",
+      "evidence": "V04–V07",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q21"
+    },
+    {
+      "finding": "Shorten the creator-history sequence and show one prompt becoming one playable game with a friend invite.",
+      "evidence": "V02–V06",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q22"
+    },
+    {
+      "finding": "For a creation app, use one-to-many card expansion to show variety after teaching one complete creation example.",
+      "evidence": "V06,V07",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q23"
+    },
+    {
+      "finding": "No human new-viewer test; product description above is model interpretation of sampled images.",
+      "evidence": "V01–V08",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q24"
+    },
+    {
+      "finding": "No phone-size, safe-area or flash assessment; small UI text needs separate preview.",
+      "evidence": "Contact sheets",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q25"
+    }
+  ],
+  "lessons": {
+    "keep": "Expand one playable card into a grid to communicate variety and discovery.",
+    "try": [
+      "For a mini-game builder, keep one named prompt and show its generated game followed by a friend joining.",
+      "Start a short cut with the dart game, then expand to the grid and end on a readable creation prompt."
+    ],
+    "avoid": "Avoid letting a long cultural montage replace the central creation demonstration.",
+    "open": "What changes between entering a prompt and playing the finished game?"
+  },
+  "comparison": {
+    "story": "Recall a playful earlier internet → Describe successive creation tools → Frame creativity as a new power → Set up sameness in current software → Reveal playful software feed → Explain creation and play → Show discovery and variety → Invite a visit",
+    "motion": "Dense 51–55 s samples show one vertical game at 51.25 s, two at 51.5 s, three at 51.75 s and more rows/columns by 52.75 s. PLAY becomes SHARE and fades as the grid keeps changing.",
+    "sound": "No validated listening; no absence claims.",
+    "texture": "Older low-resolution interface footage and mixed crops contrast with saturated green gradients and crisp dark game cards.",
+    "lesson": "Expand one playable card into a grid to communicate variety and discovery."
+  },
+  "elements": [
+    {
+      "kind": "ui",
+      "name": "game feed",
+      "events": [
+        "V05",
+        "V07"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "prompt composer",
+      "events": [
+        "V06"
+      ]
+    },
+    {
+      "kind": "motion",
+      "name": "cards multiply into grid",
+      "events": [
+        "V06",
+        "V07"
+      ]
+    },
+    {
+      "kind": "texture",
+      "name": "archive-like footage",
+      "events": [
+        "V01",
+        "V02",
+        "V03"
+      ]
+    }
+  ],
+  "reviewer_model": "gpt-6-astra",
+  "scope": "sampled visual and story review; ASR and measured signal support; no validated audio listening",
+  "closer_windows": [
+    {
+      "start": 51,
+      "end": 55,
+      "rate_fps": 4,
+      "evidence": [
+        "astra-review-2026-10-20/evidence/group-3/194/dense.jpg"
+      ],
+      "resolved": "Dense 51–55 s samples show one vertical game at 51.25 s, two at 51.5 s, three at 51.75 s and more rows/columns by 52.75 s. PLAY becomes SHARE and fades as the grid keeps changing."
+    }
+  ]
+}

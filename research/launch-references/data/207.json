@@ -1,0 +1,373 @@
+{
+  "id": 207,
+  "reviewer_model": "gpt-6-astra",
+  "scope": "sampled visual and story review; ASR and measured signal support; no validated audio listening",
+  "viewed_evidence": [
+    "technical-review-2026-10-19/deep-review/motion/207/timeline-00.jpg",
+    "technical-review-2026-10-19/deep-review/motion/207/timeline-01.jpg",
+    "technical-review-2026-10-19/deep-review/motion/207/timeline-02.jpg",
+    "technical-review-2026-10-19/deep-review/motion/207/timeline-03.jpg",
+    "technical-review-2026-10-19/deep-review/audio/207-speech.json"
+  ],
+  "closer_windows": [],
+  "product_from_film": "The film presents a prototype headband that measures brain signals and times sound stimulation during sleep.",
+  "explains_well": "The presenters show the wearable, exposed components and the proposed detect-and-stimulate sequence.",
+  "unclear": "No recorded sleep session links a detected wave, a delivered pulse and a measured outcome; later cognitive claims extend beyond the shown prototype.",
+  "product_type": "sleep hardware prototype",
+  "scenario": "Wear a headband that detects a rising sleep wave and triggers a timed sound pulse.",
+  "product_clear_time": 18,
+  "product_clear_basis": "The headband is named as the active intervention after the sleep-tracking comparison.",
+  "scenes": [
+    {
+      "id": "V01",
+      "start": 0,
+      "end": 10,
+      "action": "A man wears the headband with eyes closed. Wrist tracker and sleep-score images lead to presenters and large stop tracking/start fixing copy.",
+      "design": "Workshop footage, white-framed product inserts and large typography.",
+      "purpose": "Contrast measurement with intervention.",
+      "evidence": "Visible chronological 1 fps samples, source 0–10s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V02",
+      "start": 10,
+      "end": 23,
+      "action": "Brain scan images and changing score graphics lead back to presenters; one builds electronics at a bench under a Build Log Episode 6 title.",
+      "design": "Medical-style imagery and hands-on workbench.",
+      "purpose": "Introduce the prototype project.",
+      "evidence": "Visible chronological 1 fps samples, source 10–23s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V03",
+      "start": 23,
+      "end": 36,
+      "action": "Highlighted research-paper titles appear, followed by brain illustration and a noise-frequency chart beside the presenter.",
+      "design": "White document backgrounds, magenta highlights and colored spectrum chart.",
+      "purpose": "Explain the research premise and sound category.",
+      "evidence": "Visible chronological 1 fps samples, source 23–36s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V04",
+      "start": 36,
+      "end": 48,
+      "action": "A stage-three sleep diagram shows a wave beside a head. Neuron and brain animations follow; the male presenter returns with additional brain imagery.",
+      "design": "Blue wave trace and purple/blue neural graphics.",
+      "purpose": "Illustrate the proposed stimulation timing.",
+      "evidence": "Visible chronological 1 fps samples, source 36–48s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V05",
+      "start": 48,
+      "end": 65,
+      "action": "The woman puts on the finished-looking band. Close-ups show three contact points, exposed wiring and boards, and the prototype mounted on the man. He points to components.",
+      "design": "Fabric band, visible electronics, colored wires and yellow mounting parts.",
+      "purpose": "Make the hardware architecture concrete.",
+      "evidence": "Visible chronological 1 fps samples, source 48–65s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V06",
+      "start": 65,
+      "end": 81,
+      "action": "A sleep-cycle chart highlights deep-sleep portions. More component close-ups and small rotating mechanical-model views accompany the explanation.",
+      "design": "Hand-drawn chart, physical device and white model on black.",
+      "purpose": "Explain sensing, timing and output components.",
+      "evidence": "Visible chronological 1 fps samples, source 65–81s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V07",
+      "start": 81,
+      "end": 99,
+      "action": "The woman holds the band and describes further benefits, intercut with brain illustrations and a highlighted brain in a transparent head.",
+      "design": "Simple presenter shots and medical-style graphics.",
+      "purpose": "Broaden the claimed use beyond a single night.",
+      "evidence": "Visible chronological 1 fps samples, source 81–99s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V08",
+      "start": 99,
+      "end": 104.187,
+      "action": "The man wearing the exposed prototype joins her, then leaves; a small mark and f.inc/hello end card follow.",
+      "design": "Casual workshop ending and minimal white card.",
+      "purpose": "Close with a playful sleep sign-off and destination.",
+      "evidence": "Visible chronological 1 fps samples, source 99–104.187s; boundary approximate; exact motion between samples unverified."
+    }
+  ],
+  "sound": [
+    {
+      "id": "A01",
+      "start": 0,
+      "end": 104.187,
+      "layer": "unknown",
+      "detail": "No validated direct audio listening was performed. Music, speech delivery, effects, mix and sync remain unknown, not absent.",
+      "visual_relation": "All visual scenes; audiovisual alignment unverified",
+      "evidence": "Visual samples only; no actual audio range supplied to this reviewer."
+    },
+    {
+      "id": "A02",
+      "start": 0,
+      "end": 101.58,
+      "layer": "ASR draft",
+      "detail": "ASR draft supports the tracking-versus-intervention pitch, timed pink-noise concept, three electrodes, ESP32 board, sleep-stage calculation and bone-conduction output. Later cognitive-performance and warning claims are script claims only. A few phrases are incomplete; no sound pulse, voice delivery or soundtrack was directly heard.",
+      "visual_relation": "Story text support; exact audiovisual alignment and delivery unverified.",
+      "evidence": "technical-review-2026-10-19/deep-review/audio/207-speech.json; local faster-whisper base CPU int8 draft; VAD candidates only, recognition errors possible."
+    }
+  ],
+  "categories": [
+    {
+      "id": "Q01",
+      "finding": "Sleep-score criticism leads to a stimulation premise, prototype explanation and broader future benefits.",
+      "evidence": "V01–V08",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q02",
+      "finding": "The wearable is visible immediately on a person with closed eyes, with a claim about time spent asleep.",
+      "evidence": "V01",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q03",
+      "finding": "The headband as an intervention is explicit around 18 s; timing and components are explained later.",
+      "evidence": "V02,V04–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q04",
+      "finding": "Research titles receive highlights, diagrams reveal waves and brain regions, and small mechanical views change orientation. Exact easing and signal timing are unverified.",
+      "evidence": "V03,V04,V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q05",
+      "finding": "The physical headband anchors transitions between science diagrams, bench work and presenters.",
+      "evidence": "V02–V07",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q06",
+      "finding": "Exposed wires and workbench clutter show prototype texture; polished brain graphics offer a different explanatory layer.",
+      "evidence": "V04–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q07",
+      "finding": "Paper titles and major claims are highlighted, but citations and chart details are too small to inspect fully from sheets.",
+      "evidence": "V03,V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q08",
+      "finding": "ASR draft supports the tracking-versus-intervention pitch, timed pink-noise concept, three electrodes, ESP32 board, sleep-stage calculation and bone-conduction output. Later cognitive-performance and warning claims are script claims only. A few phrases are incomplete; no sound pulse, voice delivery or soundtrack was directly heard.",
+      "evidence": "A02",
+      "status": "uncertain",
+      "reason": "ASR text only; no validated listening, delivery or voice origin.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q09",
+      "finding": "Voice delivery, music, effects and audiovisual alignment were not established by this visual pass.",
+      "evidence": "A01",
+      "status": "not checked",
+      "reason": "No validated direct audio listening input.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q10",
+      "finding": "Voice delivery, music, effects and audiovisual alignment were not established by this visual pass.",
+      "evidence": "A01",
+      "status": "not checked",
+      "reason": "No validated direct audio listening input.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q11",
+      "finding": "Voice delivery, music, effects and audiovisual alignment were not established by this visual pass.",
+      "evidence": "A01",
+      "status": "not checked",
+      "reason": "No validated direct audio listening input.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q12",
+      "finding": "Presenter footage, actual-looking prototype close-ups, paper images and brain animations are mixed; cited research applicability is not checked.",
+      "evidence": "V02–V07",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q13",
+      "finding": "Manifest duration 104.187s; indexed dimensions 1920×1080. Source unchanged flag recorded; fresh encoding and audio clipping checks not run.",
+      "evidence": "Group manifest",
+      "status": "uncertain",
+      "reason": "Inherited technical metadata; no fresh media probe in this review.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q14",
+      "finding": "The wearable and components are clear visually; pulse timing and physiological claims rely heavily on spoken-script text.",
+      "evidence": "V04–V07,A02",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q15",
+      "finding": "Hands pointing at contacts and boards guide attention more directly than the broad brain animations.",
+      "evidence": "V05,V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q16",
+      "finding": "The long component section gives the device substance; the final cognitive and warning claims add new ideas without corresponding demonstration.",
+      "evidence": "V05–V07",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q17",
+      "finding": "The opening fix-sleep promise receives a plausible-looking mechanism explanation, but no observed night or outcome.",
+      "evidence": "V01,V04–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q18",
+      "finding": "Informal workshop presenters and exposed construction suggest curiosity and transparency; the sleep sign-off lightens the technical ending.",
+      "evidence": "V05,V08",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q19",
+      "finding": "Finished-looking fabric band and exposed prototype share placement on the forehead, but their functional equivalence is not shown.",
+      "evidence": "V05,V07,V08",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q20",
+      "finding": "Research titles and diagrams do not validate this prototype, the 50% tracker criticism, deeper-sleep claim or later cognitive-warning claims.",
+      "evidence": "V01,V03,V07",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q21",
+      "finding": "Three contacts, visible boards and timing explanation distinguish the build from a generic sleep-wellness ad.",
+      "evidence": "V05,V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q22",
+      "finding": "A recorded signal with detected phase, pulse marker and measured next state would complete the mechanism story.",
+      "evidence": "V04,V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q23",
+      "finding": "Tin can borrow the transparent build explanation: show the actual inputs, decision point and output instead of only a polished result.",
+      "evidence": "V05,V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q24",
+      "finding": "The film presents a prototype headband that measures brain signals and times sound stimulation during sleep.",
+      "evidence": "Model reading from inspected images",
+      "status": "uncertain",
+      "reason": "Model-only new-viewer interpretation; no human test.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q25",
+      "finding": "Contact sheets inspected at displayed size; a phone-size playback, caption audit, flash audit and formal accessibility check were not performed.",
+      "evidence": "Viewed sheets",
+      "status": "not checked",
+      "reason": "Full-size moving-image and device checks unavailable in this pass.",
+      "experiment": "none"
+    }
+  ],
+  "lessons": {
+    "keep": "Show the physical parts that correspond to each step in the mechanism.",
+    "avoid": "Avoid expanding from a prototype explanation into broad health benefits without a shown evidence path.",
+    "open": "Device performance, research applicability, physiological benefits, safety, exact stimulus timing, cognitive claims and all audio delivery remain unverified.",
+    "try": [
+      "For a Tin automation, show input data, decision rule and output side by side with one real run.",
+      "For the headband story, replace one brain animation with a recorded signal and clearly labeled stimulation marker."
+    ]
+  },
+  "comparison": {
+    "story": "Contrast measurement with intervention. → Introduce the prototype project. → Explain the research premise and sound category. → Illustrate the proposed stimulation timing. → Make the hardware architecture concrete. → Explain sensing, timing and output components. → Broaden the claimed use beyond a single night. → Close with a playful sleep sign-off and destination.",
+    "motion": "Research titles receive highlights, diagrams reveal waves and brain regions, and small mechanical views change orientation. Exact easing and signal timing are unverified. Sampling scope: 1 fps unless a closer window is recorded.",
+    "sound": "No validated listening; unknown.",
+    "texture": "Workshop footage, white-framed product inserts and large typography.; Medical-style imagery and hands-on workbench.; White document backgrounds, magenta highlights and colored spectrum chart.; Blue wave trace and purple/blue neural graphics.; Fabric band, visible electronics, colored wires and yellow mounting parts.; Hand-drawn chart, physical device and white model on black.; Simple presenter shots and medical-style graphics.; Casual workshop ending and minimal white card.",
+    "lesson": "Show the physical parts that correspond to each step in the mechanism."
+  },
+  "elements": [
+    {
+      "kind": "ui",
+      "name": "sleep score",
+      "events": [
+        "V01",
+        "V02"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "signal chart",
+      "events": [
+        "V04",
+        "V06"
+      ]
+    },
+    {
+      "kind": "texture",
+      "name": "exposed electronics",
+      "events": [
+        "V05",
+        "V06"
+      ]
+    },
+    {
+      "kind": "motion",
+      "name": "highlighted research text",
+      "events": [
+        "V03"
+      ]
+    },
+    {
+      "kind": "texture",
+      "name": "brain illustration",
+      "events": [
+        "V04",
+        "V07"
+      ]
+    }
+  ]
+}

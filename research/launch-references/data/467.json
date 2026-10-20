@@ -1,0 +1,343 @@
+{
+  "id": 467,
+  "reviewer_model": "gpt-6-astra",
+  "scope": "sampled visual and story review; ASR and measured signal support; no validated audio listening",
+  "viewed_evidence": [
+    "technical-review-2026-10-19/deep-review/motion/467/timeline-00.jpg",
+    "technical-review-2026-10-19/deep-review/motion/467/timeline-01.jpg",
+    "technical-review-2026-10-19/deep-review/audio/467-speech.json"
+  ],
+  "closer_windows": [],
+  "product_from_film": "Supersonik presents an AI sales agent that gives immediate, tailored product demos on a video call.",
+  "explains_well": "The delayed booking flow contrasts clearly with an instant demo and an AI participant sharing a screen.",
+  "unclear": "The specific invoice question receives an affirmative reply, but the film never shows the requested invoice steps.",
+  "product_type": "animated feature explainer",
+  "scenario": "Let a buyer start an AI-led product demo immediately.",
+  "product_clear_time": 19,
+  "product_clear_basis": "The live-demo layout is explicitly labeled AI Account Executive.",
+  "scenes": [
+    {
+      "id": "V01",
+      "start": 0,
+      "end": 11,
+      "action": "Text says buyers want to see the product, then a Book a demo button leads to a calendar and a waiting confirmation. The confirmation gains a cracked texture.",
+      "design": "White cards, dark green text and a frustrated cursor motif.",
+      "purpose": "Establish delay in the usual booking process.",
+      "evidence": "Visible chronological 1 fps samples, source 0–11s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V02",
+      "start": 11,
+      "end": 22,
+      "action": "Supersonik appears with Live product demos and Get a demo Now. A video-call dashboard shows a buyer and agent tile as a circular percentage increases.",
+      "design": "Lime accents, tilted dashboard panel and large claims.",
+      "purpose": "Introduce immediate AI-led demos.",
+      "evidence": "Visible chronological 1 fps samples, source 11–22s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V03",
+      "start": 22,
+      "end": 30,
+      "action": "A language menu cycles through choices; the demo panel enlarges, checklist ticks appear and a label says Shows the right solution.",
+      "design": "Close UI crops and simplified dashboard placeholders.",
+      "purpose": "Show multilingual and screen-sharing claims.",
+      "evidence": "Visible chronological 1 fps samples, source 22–30s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V04",
+      "start": 30,
+      "end": 35,
+      "action": "A buyer asks how to send an invoice now; the agent replies Of course, glad you asked, followed by Tailored to each lead.",
+      "design": "Small portrait and agent icon with text and waveform-like bars.",
+      "purpose": "Suggest responsive conversation.",
+      "evidence": "Visible chronological 1 fps samples, source 30–35s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V05",
+      "start": 35,
+      "end": 44,
+      "action": "Four agent tiles become demo panels and multiply into a grid. Text names persona, question and behavior, then Show your product and Close more deals.",
+      "design": "Expanding panel grid and alternating dark/light cards.",
+      "purpose": "Explain scalable personalization and business goal.",
+      "evidence": "Visible chronological 1 fps samples, source 35–44s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V06",
+      "start": 44,
+      "end": 50.541,
+      "action": "A buyer asks next steps and the agent offers an email. Anytime, To anyone and Supersonik.ai close the film.",
+      "design": "Dialogue graphics and simple final URL.",
+      "purpose": "Offer follow-up and a destination.",
+      "evidence": "Visible chronological 1 fps samples, source 44–50.541s; boundary approximate; exact motion between samples unverified."
+    }
+  ],
+  "sound": [
+    {
+      "id": "A01",
+      "start": 0,
+      "end": 50.541,
+      "layer": "unknown",
+      "detail": "No validated direct audio listening was performed. Music, speech delivery, effects, mix and sync remain unknown, not absent.",
+      "visual_relation": "All visual scenes; audiovisual alignment unverified",
+      "evidence": "Visual samples only; no actual audio range supplied to this reviewer."
+    },
+    {
+      "id": "A02",
+      "start": 21.8,
+      "end": 45.72,
+      "layer": "ASR draft",
+      "detail": "Most of the ASR draft repeats a Spanish fragment unnaturally and is rejected as usable dialogue evidence. A short next-steps phrase aligns with visible text, but is too limited to validate the conversation or languages. No heard speech, music or effects are claimed.",
+      "visual_relation": "Story text support; exact audiovisual alignment and delivery unverified.",
+      "evidence": "technical-review-2026-10-19/deep-review/audio/467-speech.json; local faster-whisper base CPU int8 draft; VAD candidates only, recognition errors possible."
+    }
+  ],
+  "categories": [
+    {
+      "id": "Q01",
+      "finding": "Booking delay is replaced by immediate demo access, language and personalization claims, then follow-up and URL.",
+      "evidence": "V01–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q02",
+      "finding": "The plain statement that buyers want to see the product establishes the sales problem immediately.",
+      "evidence": "V01",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q03",
+      "finding": "Software sellers are the audience; the buyer-facing AI demo role is explicit by 19s.",
+      "evidence": "V01–V02",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q04",
+      "finding": "A booking button scales down into a calendar flow, the waiting card gains cracks, the demo percentage counts upward, and agent tiles multiply into a screen grid.",
+      "evidence": "V01,V02,V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q05",
+      "finding": "Dark green brand cards punctuate light UI examples. Enlarging crops move attention from whole call to language menu and dashboard detail.",
+      "evidence": "V02–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q06",
+      "finding": "Lime glow, dark green panels, white cards and soft shadows create a consistent modern software look.",
+      "evidence": "V01–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q07",
+      "finding": "Short claims and dialogue are readable, but most dashboard content is generic lines rather than meaningful product labels.",
+      "evidence": "V02–V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q08",
+      "finding": "Most of the ASR draft repeats a Spanish fragment unnaturally and is rejected as usable dialogue evidence. A short next-steps phrase aligns with visible text, but is too limited to validate the conversation or languages. No heard speech, music or effects are claimed.",
+      "evidence": "A02",
+      "status": "uncertain",
+      "reason": "ASR text only; no validated listening, delivery or voice origin.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q09",
+      "finding": "Voice delivery, music, effects and audiovisual alignment were not established by this visual pass.",
+      "evidence": "A01",
+      "status": "not checked",
+      "reason": "No validated direct audio listening input.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q10",
+      "finding": "Voice delivery, music, effects and audiovisual alignment were not established by this visual pass.",
+      "evidence": "A01",
+      "status": "not checked",
+      "reason": "No validated direct audio listening input.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q11",
+      "finding": "Voice delivery, music, effects and audiovisual alignment were not established by this visual pass.",
+      "evidence": "A01",
+      "status": "not checked",
+      "reason": "No validated direct audio listening input.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q12",
+      "finding": "Designed call layouts, participant footage crops, cursor, calendar, language menu and text cards carry the explanation.",
+      "evidence": "V01–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q13",
+      "finding": "Manifest duration 50.541s; indexed dimensions 1920×1080. Source unchanged flag recorded; fresh encoding and audio clipping checks not run.",
+      "evidence": "Group manifest",
+      "status": "uncertain",
+      "reason": "Inherited technical metadata; no fresh media probe in this review.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q14",
+      "finding": "Text covers the core promise and dialogue examples without sound. Multilingual speech quality is not demonstrated through visuals.",
+      "evidence": "V02–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q15",
+      "finding": "Close crops and lime agent tiles guide attention; the growing grid communicates scale more than individual demo content.",
+      "evidence": "V03,V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q16",
+      "finding": "Several capabilities are named within fifty seconds, but the one concrete buyer question is not completed as a demo.",
+      "evidence": "V03–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q17",
+      "finding": "The booking-delay opening is answered by a Now button and immediate call layout; actual response time is not measured.",
+      "evidence": "V01–V02",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q18",
+      "finding": "The cracked waiting card suggests frustration, followed by bright instant-access graphics suggesting relief. Sound was not checked.",
+      "evidence": "V01–V02",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q19",
+      "finding": "The agent icon and call frame connect sections. The invoice request is followed by a general tailoring claim rather than the invoice workflow.",
+      "evidence": "V02–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q20",
+      "finding": "The film illustrates an intended call experience. It does not verify language coverage, live screen control, personalization or improved close rates.",
+      "evidence": "V03–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q21",
+      "finding": "Lime agent tiles, dark green field and the repeated Supersonik name make ownership clear.",
+      "evidence": "V02–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q22",
+      "finding": "Replace one grid or claim card with the actual steps used to send the requested invoice.",
+      "evidence": "V04–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q23",
+      "finding": "Start with the old waiting flow, then show immediate access and answer one specific buyer question all the way through.",
+      "evidence": "V01–V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q24",
+      "finding": "Supersonik presents an AI sales agent that gives immediate, tailored product demos on a video call.",
+      "evidence": "Model reading from inspected images",
+      "status": "uncertain",
+      "reason": "Model-only new-viewer interpretation; no human test.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q25",
+      "finding": "Contact sheets inspected at displayed size; a phone-size playback, caption audit, flash audit and formal accessibility check were not performed.",
+      "evidence": "Viewed sheets",
+      "status": "not checked",
+      "reason": "Full-size moving-image and device checks unavailable in this pass.",
+      "experiment": "none"
+    }
+  ],
+  "lessons": {
+    "keep": "Use the buyer’s own specific question to organize the demo.",
+    "avoid": "Answering a concrete workflow question with a general promise.",
+    "open": "Live behavior, language coverage, sales impact and actual audio remain unverified.",
+    "try": [
+      "For Tin, ask how to approve a campaign and show the exact approval action before listing broader capabilities.",
+      "Compare the capability grid with one complete invoice walkthrough while retaining the instant-access opening."
+    ]
+  },
+  "comparison": {
+    "story": "Establish delay in the usual booking process. → Introduce immediate AI-led demos. → Show multilingual and screen-sharing claims. → Suggest responsive conversation. → Explain scalable personalization and business goal. → Offer follow-up and a destination.",
+    "motion": "A booking button scales down into a calendar flow, the waiting card gains cracks, the demo percentage counts upward, and agent tiles multiply into a screen grid. Sampling scope: 1 fps unless a closer window is recorded.",
+    "sound": "No validated listening; unknown.",
+    "texture": "White cards, dark green text and a frustrated cursor motif.; Lime accents, tilted dashboard panel and large claims.; Close UI crops and simplified dashboard placeholders.; Small portrait and agent icon with text and waveform-like bars.; Expanding panel grid and alternating dark/light cards.; Dialogue graphics and simple final URL.",
+    "lesson": "Use the buyer’s own specific question to organize the demo."
+  },
+  "elements": [
+    {
+      "kind": "ui",
+      "name": "calendar",
+      "events": [
+        "V01"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "video call",
+      "events": [
+        "V02",
+        "V03"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "language menu",
+      "events": [
+        "V03"
+      ]
+    },
+    {
+      "kind": "motion",
+      "name": "multiplying demo panels",
+      "events": [
+        "V05"
+      ]
+    }
+  ]
+}

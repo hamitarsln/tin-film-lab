@@ -1,0 +1,353 @@
+{
+  "id": 360,
+  "viewed_evidence": [
+    "technical-review-2026-10-19/deep-review/motion/360/timeline-00.jpg",
+    "astra-review-2026-10-20/evidence/group-3/360/dense11-15.jpg",
+    "astra-review-2026-10-20/evidence/group-3/360/full14.jpg"
+  ],
+  "product_from_film": "Skillsync turns a GitHub profile into a developer skills profile to share as a resume.",
+  "explains_well": "A request for a resume motivates the profile conversion and sent-message payoff.",
+  "unclear": "The conversion and result pass too quickly to explain how the listed skills relate to the original GitHub work.",
+  "product_type": "developer career tool",
+  "scenario": "Respond to a resume request using a GitHub-based profile",
+  "product_clear_time": 13,
+  "product_clear_basis": "GitHub address changes to skillsgithub.com before interests and expertise appear.",
+  "scenes": [
+    {
+      "start": 0,
+      "end": 3,
+      "action": "Night building view gains centered Skillsync title.",
+      "design": "Blue windows and dark city.",
+      "purpose": "Introduce brand",
+      "id": "V01",
+      "evidence": "Visible 1 fps samples, source 0–3s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 3,
+      "end": 9,
+      "action": "Face at screen and wide room alternate with a code prompt and green Keep control.",
+      "design": "Blue-lit person; dark code UI.",
+      "purpose": "Establish developer at work",
+      "id": "V02",
+      "evidence": "Visible 1 fps samples, source 3–9s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 9,
+      "end": 11.25,
+      "action": "Resume request notification overlays the face; eyes widen in the samples.",
+      "design": "Rachel Young: Please send me your resume.",
+      "purpose": "Create immediate need",
+      "id": "V03",
+      "evidence": "Visible 1 fps samples, source 9–11.25s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 11.25,
+      "end": 15,
+      "action": "GitHub profile cuts to address bar; dense samples show skills inserted before github.com around 12–12.25 s, then interests, expertise and activity counts.",
+      "design": "DeckardK00 profile; orange skill tag; evidence links.",
+      "purpose": "Convert work into profile",
+      "id": "V04",
+      "evidence": "Visible 1 fps samples, source 11.25–15s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 15,
+      "end": 19,
+      "action": "A dark profile card appears, then a finger near Enter and Message sent state.",
+      "design": "Deckard K card and email-like confirmation.",
+      "purpose": "Show sharing payoff",
+      "id": "V05",
+      "evidence": "Visible 1 fps samples, source 15–19s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 19,
+      "end": 21.589,
+      "action": "Return to building with lit windows shaped like an S; Show your work appears, then black.",
+      "design": "Blue city and white slogan.",
+      "purpose": "Close visual loop",
+      "id": "V06",
+      "evidence": "Visible 1 fps samples, source 19–21.589s; boundaries approximate, between-frame action unresolved."
+    }
+  ],
+  "sound": [
+    {
+      "id": "A01",
+      "start": 0,
+      "end": 21.589,
+      "layer": "unknown",
+      "detail": "No validated audio listening; speech, music, effects, mix and sync remain unverified.",
+      "visual_relation": "All visual scenes; alignment not checked",
+      "evidence": "No actual audio supplied to this review; existing technical-review-2026-10-19/deep-review/audio/360.json is not listening evidence."
+    }
+  ],
+  "categories": [
+    {
+      "finding": "Coding is interrupted by a resume request; the developer changes a GitHub URL, sees a skills profile and sends a message. The action has a clear reason.",
+      "evidence": "V02–V05 3–19 s",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q01"
+    },
+    {
+      "finding": "A dark tower gains Skillsync title; the product task is not yet visible.",
+      "evidence": "V01 0–2 s",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q02"
+    },
+    {
+      "finding": "Developer audience is clear through code. GitHub-to-skills conversion becomes inferable at about 13 s; live updating is not explained in the film.",
+      "evidence": "V02, V04",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q03"
+    },
+    {
+      "finding": "Dense 11–15 s samples resolve URL text insertion followed by cuts through interests, expertise and activity counts. The building S is shown as a final state; its lighting path is unresolved.",
+      "evidence": "V04; dense11-15.jpg; V06",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q04"
+    },
+    {
+      "finding": "Quick cuts move from face to profile to URL and output. The return to the same building closes the setting loop.",
+      "evidence": "V03–V06",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q05"
+    },
+    {
+      "finding": "Blue-lit face and room contrast with black and orange profile UI. Narrow central imagery has black side areas in the source.",
+      "evidence": "V02–V06",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q06"
+    },
+    {
+      "finding": "The resume request is readable. Technical expertise has cut-off sentences even in full14.jpg and lasts briefly; evidence links use NishantJoshi00 while the profile is DeckardK00.",
+      "evidence": "V03–V04; full14.jpg",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q07"
+    },
+    {
+      "finding": "Voice presence and delivery remain unverified.",
+      "evidence": "No validated audio listening",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q08"
+    },
+    {
+      "finding": "Music character and arc remain unverified.",
+      "evidence": "No validated audio listening",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q09"
+    },
+    {
+      "finding": "Sound effects remain unverified.",
+      "evidence": "No validated audio listening",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q10"
+    },
+    {
+      "finding": "Sound-to-motion timing remain unverified.",
+      "evidence": "No validated audio listening",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q11"
+    },
+    {
+      "finding": "Cinematic-looking person, building and keyboard shots combine with code and profile screens. Actor, footage and production origins are unknown.",
+      "evidence": "V01–V06",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q12"
+    },
+    {
+      "finding": "Source duration supplied as 21.589s; no independent compression, clipping or delivery check.",
+      "evidence": "Assigned metadata; source integrity checked by parent",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q13"
+    },
+    {
+      "finding": "The notification, URL change and Message sent state convey the basic task without speech. How skills are derived is less clear.",
+      "evidence": "V03–V05",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q14"
+    },
+    {
+      "finding": "Face reaction makes the notification central; orange Rust tag then directs attention to the generated profile. Rapid changing crops make evidence details harder to follow.",
+      "evidence": "V03–V04",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q15"
+    },
+    {
+      "finding": "GitHub identity, URL trick, interests, expertise and annual activity arrive within roughly four seconds. Hold one skill with one linked repository longer.",
+      "evidence": "V04 11.25–15 s",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q16"
+    },
+    {
+      "finding": "The resume request receives a message-sent payoff, but the sent content is not shown.",
+      "evidence": "V03, V05",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q17"
+    },
+    {
+      "finding": "The wide-eyed response suggests surprise or pressure, followed by quick action and completion. This is interpretation of images, not heard performance.",
+      "evidence": "V03–V05",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q18"
+    },
+    {
+      "finding": "Deckard profile and card connect input/output; different repository owner names weaken the apparent same-person evidence chain. The building returns at the end.",
+      "evidence": "V04–V06; full14.jpg",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q19"
+    },
+    {
+      "finding": "The film shows a URL edit, skills pages and sent status. Automatic skill accuracy, update behavior and the actual shared message are not independently established.",
+      "evidence": "V04–V05",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q20"
+    },
+    {
+      "finding": "The GitHub URL trick and orange developer skills are specific to the offer; the blue cinematic coding motif is broad. Lit S windows support the brand ending.",
+      "evidence": "V04, V06",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q21"
+    },
+    {
+      "finding": "The request and URL action are essential. A shorter room setup could make space for a source repository-to-skill explanation.",
+      "evidence": "V02–V04",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q22"
+    },
+    {
+      "finding": "For a developer portfolio tool, stage a concrete recruiter request, capture a real profile conversion and preserve the same account across output and sent link. Requires notification, repository and finished profile states.",
+      "evidence": "V03–V05",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q23"
+    },
+    {
+      "finding": "No human new-viewer test; product description above is model interpretation of sampled images.",
+      "evidence": "V01–V06",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q24"
+    },
+    {
+      "finding": "No phone-size, safe-area or flash assessment; small UI text needs separate preview.",
+      "evidence": "Contact sheets",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q25"
+    }
+  ],
+  "lessons": {
+    "keep": "Give a product action a clear trigger through an incoming request.",
+    "try": [
+      "For a portfolio launch, hold one repository beside its extracted skill for two seconds before showing the final profile.",
+      "Try a matched return to the opening building or desk after the message sends, using one restrained brand detail in that same environment."
+    ],
+    "avoid": "Avoid changing account evidence or cropping away the source behind a skill claim.",
+    "open": "Footage origin, skills accuracy, live updates, sent content and all audio remain unverified."
+  },
+  "comparison": {
+    "story": "Introduce brand → Establish developer at work → Create immediate need → Convert work into profile → Show sharing payoff → Close visual loop",
+    "motion": "Dense 11–15 s samples resolve URL text insertion followed by cuts through interests, expertise and activity counts. The building S is shown as a final state; its lighting path is unresolved.",
+    "sound": "No validated listening; no absence claims.",
+    "texture": "Blue-lit face and room contrast with black and orange profile UI. Narrow central imagery has black side areas in the source.",
+    "lesson": "Give a product action a clear trigger through an incoming request."
+  },
+  "elements": [
+    {
+      "kind": "ui",
+      "name": "code editor",
+      "events": [
+        "V02"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "notification",
+      "events": [
+        "V03"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "browser address bar",
+      "events": [
+        "V04"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "profile",
+      "events": [
+        "V04",
+        "V05"
+      ]
+    },
+    {
+      "kind": "texture",
+      "name": "blue lighting",
+      "events": [
+        "V01",
+        "V02",
+        "V06"
+      ]
+    }
+  ],
+  "reviewer_model": "gpt-6-astra",
+  "scope": "sampled visual and story review; ASR and measured signal support; no validated audio listening",
+  "closer_windows": [
+    {
+      "start": 11,
+      "end": 15,
+      "rate_fps": 4,
+      "evidence": [
+        "astra-review-2026-10-20/evidence/group-3/360/dense11-15.jpg"
+      ],
+      "resolved": "URL changes from github.com to skillsgithub.com around 12–12.25 s, followed by cuts to interests, expertise and activity counts. No loading or derivation step is shown in this window."
+    }
+  ]
+}

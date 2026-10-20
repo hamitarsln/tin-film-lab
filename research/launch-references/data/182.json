@@ -1,0 +1,360 @@
+{
+  "id": 182,
+  "viewed_evidence": [
+    "technical-review-2026-10-19/deep-review/motion/182/timeline-00.jpg",
+    "technical-review-2026-10-19/deep-review/motion/182/timeline-01.jpg",
+    "technical-review-2026-10-19/deep-review/motion/182/timeline-02.jpg",
+    "technical-review-2026-10-19/deep-review/audio/182-speech.json",
+    "astra-review-2026-10-20/evidence/group-3/182/frame-16.jpg",
+    "astra-review-2026-10-20/evidence/group-3/182/frame-42.jpg",
+    "astra-review-2026-10-20/evidence/group-3/182/frame-51.jpg",
+    "astra-review-2026-10-20/evidence/group-3/182/frame-81.jpg"
+  ],
+  "product_from_film": "OpenWork shows a voice mode that can create sessions and navigate application settings.",
+  "explains_well": "Visible action logs and page changes connect conversational requests to application actions.",
+  "unclear": "A reminder is started but not shown as scheduled; provider connection also remains incomplete.",
+  "product_type": "desktop agent",
+  "scenario": "Create a reminder session, visit settings and providers, then return to read the session response.",
+  "product_clear_time": 13,
+  "product_clear_basis": "Voice Mode panel with start control and action transcript; clear navigation result appears later.",
+  "scenes": [
+    {
+      "start": 0,
+      "end": 10,
+      "action": "Desktop app sits above browser windows with face inset; view enlarges toward voice panel, briefly showing mostly wallpaper.",
+      "design": "White app, city wallpaper, layered desktop windows and large cursor.",
+      "purpose": "Introduce an informal desktop demonstration",
+      "id": "V01",
+      "evidence": "Visible 1 fps samples, source 0–10s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 10,
+      "end": 21,
+      "action": "Voice panel opens beside existing session; start/listening states and transcript appear, then a new session begins.",
+      "design": "Green orb, white/blue chat bubbles and action log.",
+      "purpose": "Start voice interaction",
+      "id": "V02",
+      "evidence": "Visible 1 fps samples, source 10–21s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 21,
+      "end": 38,
+      "action": "A new session view replaces the previous content while right-side requests and action entries accumulate.",
+      "design": "Mostly empty centre with sidebar and growing transcript.",
+      "purpose": "Submit a reminder task",
+      "id": "V03",
+      "evidence": "Visible 1 fps samples, source 21–38s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 38,
+      "end": 44,
+      "action": "Reminder to message Omar appears as session title and prompt; centre shows Thinking while voice log says Sent.",
+      "design": "Task title and progress state beside conversation.",
+      "purpose": "Show the task being processed",
+      "id": "V04",
+      "evidence": "Visible 1 fps samples, source 38–44s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 44,
+      "end": 50,
+      "action": "General settings replaces the session view.",
+      "design": "Settings grid and left navigation.",
+      "purpose": "Demonstrate page navigation",
+      "id": "V05",
+      "evidence": "Visible 1 fps samples, source 44–50s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 50,
+      "end": 71,
+      "action": "AI Providers page opens and holds with five connected providers and a Connect provider control partly covered by face inset.",
+      "design": "Provider rows, disconnect labels and persistent presenter overlay.",
+      "purpose": "Inspect provider controls and expose a limit",
+      "id": "V06",
+      "evidence": "Visible 1 fps samples, source 50–71s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 71,
+      "end": 82.837,
+      "action": "Main session returns with reminder timing choices; right transcript describes reading the session. View briefly enlarges before ending.",
+      "design": "Choice cards, lengthy chat response and Stop control.",
+      "purpose": "Return to the unfinished reminder",
+      "id": "V07",
+      "evidence": "Visible 1 fps samples, source 71–82.837s; boundaries approximate, between-frame action unresolved."
+    }
+  ],
+  "sound": [
+    {
+      "id": "A01",
+      "start": 0,
+      "end": 82.837,
+      "layer": "unknown",
+      "detail": "No validated audio listening; speech, music, effects, mix and sync remain unverified.",
+      "visual_relation": "All visual scenes; alignment not checked",
+      "evidence": "No actual audio supplied to this review; existing technical-review-2026-10-19/deep-review/audio/182.json is not listening evidence."
+    },
+    {
+      "id": "A02",
+      "start": 1.002,
+      "end": 82.837,
+      "layer": "ASR draft",
+      "detail": "Four windows give candidate requests to create a session and reminder for Omar, open settings/providers, try Connect provider, and read the session response. Draft includes an admission that the control was not mapped. Last segment extends beyond the supplied film duration, so its timing is not adopted. No hearing is established.",
+      "visual_relation": "V02–V07; visible states support navigation but not voice latency or delivery",
+      "evidence": "technical-review-2026-10-19/deep-review/audio/182-speech.json; existing faster-whisper base CPU int8; windows 1.002–9.718, 16.65–35.702, 38.73–63.73, 63.73–82.88 s"
+    }
+  ],
+  "categories": [
+    {
+      "finding": "An informal voice demo creates a reminder task, navigates settings and returns to the task response.",
+      "evidence": "V01–V07",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q01"
+    },
+    {
+      "finding": "An existing app session and voice panel sit over a crowded desktop with a face inset; no fresh task is introduced visually.",
+      "evidence": "V01, 0–2 s",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q02"
+    },
+    {
+      "finding": "Voice-based application control is visible through the panel and action log at 13–21 s; actual settings navigation is shown at 44–50 s.",
+      "evidence": "V02,V05,V06",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q03"
+    },
+    {
+      "finding": "View enlarges toward voice controls and cursor, chat scrolls, and full application pages change. These are sampled screen states; exact cursor paths are not established.",
+      "evidence": "V01–V07",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q04"
+    },
+    {
+      "finding": "The same desktop remains behind the app; page replacement carries settings navigation without a separate title card.",
+      "evidence": "V04–V07",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q05"
+    },
+    {
+      "finding": "Plain white interface and blue message fills sit on city wallpaper and overlapping browser windows; the face inset has warm room lighting.",
+      "evidence": "V01–V07",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q06"
+    },
+    {
+      "finding": "Action logs and transcripts expose the mechanism, but small text and a face overlay obscure useful controls. Enlarged frames reveal the task and provider labels.",
+      "evidence": "V02,V04,V06; frames 16,42,51 s",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q07"
+    },
+    {
+      "finding": "Voice presence and delivery remain unverified.",
+      "evidence": "No validated audio listening",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q08"
+    },
+    {
+      "finding": "Music character and arc remain unverified.",
+      "evidence": "No validated audio listening",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q09"
+    },
+    {
+      "finding": "Sound effects remain unverified.",
+      "evidence": "No validated audio listening",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q10"
+    },
+    {
+      "finding": "Sound-to-motion timing remain unverified.",
+      "evidence": "No validated audio listening",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q11"
+    },
+    {
+      "finding": "Screen capture and face inset dominate; no assumed editing or capture software is needed to describe the result.",
+      "evidence": "V01–V07",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q12"
+    },
+    {
+      "finding": "Source duration supplied as 82.837s; no independent compression, clipping or delivery check.",
+      "evidence": "Assigned metadata; source integrity checked by parent",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q13"
+    },
+    {
+      "finding": "Voice panel, transcript and page changes show broad functionality silently. Reading full requests at feed size would be difficult and was not tested.",
+      "evidence": "V02–V07",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q14"
+    },
+    {
+      "finding": "Large cursor and occasional zoom guide focus, but face inset covers the upper-right interface, including part of Connect provider.",
+      "evidence": "V06; frame 51 s",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q15"
+    },
+    {
+      "finding": "Provider page stays on screen for about 21 s with little visible change; the transcript explains the unresolved action better than the view itself.",
+      "evidence": "V06; ASR draft",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q16"
+    },
+    {
+      "finding": "The expectation of voice control is answered by new session and settings states, while provider connection and reminder completion remain open.",
+      "evidence": "V02–V07",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q17"
+    },
+    {
+      "finding": "Casual presenter and visible working states suggest an exploratory demonstration, including a limitation rather than only a polished success.",
+      "evidence": "V04–V07; interpretation",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q18"
+    },
+    {
+      "finding": "Same desktop, sidebar, session name and voice panel preserve continuity across task and settings pages.",
+      "evidence": "V02–V07",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q19"
+    },
+    {
+      "finding": "Task prompt and page changes are visible; Sent in the voice log means task submission here, not proof that Omar received a message or a reminder was scheduled.",
+      "evidence": "V04,V07; frame 42 s",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q20"
+    },
+    {
+      "finding": "Voice action logs attached to the app controls are specific; desktop wallpaper and face inset are generic demo framing.",
+      "evidence": "V02–V07",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q21"
+    },
+    {
+      "finding": "Crop unused desktop margins, move the face away from controls and finish one reminder before exploring provider setup.",
+      "evidence": "V01,V06,V07",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q22"
+    },
+    {
+      "finding": "For a voice-operated app, show request transcript, action label and resulting screen together; capture one completed task with readable text.",
+      "evidence": "V02–V07",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q23"
+    },
+    {
+      "finding": "No human new-viewer test; product description above is model interpretation of sampled images.",
+      "evidence": "V01–V07",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q24"
+    },
+    {
+      "finding": "No phone-size, safe-area or flash assessment; small UI text needs separate preview.",
+      "evidence": "Contact sheets",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q25"
+    }
+  ],
+  "lessons": {
+    "keep": "Show action logs next to the interface state that they change.",
+    "try": [
+      "For a voice scheduling tool, keep the spoken-request transcript beside a confirmed reminder with a date and time.",
+      "Record the same settings navigation with the face inset below the controls and a tighter application crop."
+    ],
+    "avoid": "Avoid using a Sent transcript entry as proof of a completed external task.",
+    "open": "Was a reminder ultimately scheduled, and which provider controls can voice mode operate?"
+  },
+  "comparison": {
+    "story": "Introduce an informal desktop demonstration → Start voice interaction → Submit a reminder task → Show the task being processed → Demonstrate page navigation → Inspect provider controls and expose a limit → Return to the unfinished reminder",
+    "motion": "View enlarges toward voice controls and cursor, chat scrolls, and full application pages change. These are sampled screen states; exact cursor paths are not established.",
+    "sound": "No validated listening; no absence claims.",
+    "texture": "Plain white interface and blue message fills sit on city wallpaper and overlapping browser windows; the face inset has warm room lighting.",
+    "lesson": "Show action logs next to the interface state that they change."
+  },
+  "elements": [
+    {
+      "kind": "ui",
+      "name": "chat",
+      "events": [
+        "V02",
+        "V07"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "settings",
+      "events": [
+        "V05",
+        "V06"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "activity log",
+      "events": [
+        "V02",
+        "V04"
+      ]
+    },
+    {
+      "kind": "texture",
+      "name": "screen recording",
+      "events": [
+        "V01",
+        "V07"
+      ]
+    }
+  ],
+  "reviewer_model": "gpt-6-astra",
+  "scope": "sampled visual and story review; ASR and measured signal support; no validated audio listening",
+  "closer_windows": []
+}

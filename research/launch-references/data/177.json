@@ -1,0 +1,353 @@
+{
+  "id": 177,
+  "viewed_evidence": [
+    "technical-review-2026-10-19/deep-review/motion/177/timeline-00.jpg",
+    "technical-review-2026-10-19/deep-review/motion/177/timeline-01.jpg",
+    "technical-review-2026-10-19/deep-review/audio/177-speech.json"
+  ],
+  "product_from_film": "Totalis combines predictions across news, crypto and technology into parlays.",
+  "explains_well": "Two repeated news-to-selection examples show how separate predictions are grouped.",
+  "unclear": "The film does not prove the depicted news, returns or settlement results.",
+  "product_type": "prediction market",
+  "scenario": "Use a news event to select several linked predictions and submit a parlay.",
+  "product_clear_time": 17,
+  "product_clear_basis": "Your Parlay collects multiple market choices in one panel.",
+  "scenes": [
+    {
+      "start": 0,
+      "end": 14,
+      "action": "Fast city clips lead to news anchor, political footage and streamer; text changes from news to signal.",
+      "design": "Square frames, dark cards, white/purple type and LIVE labels.",
+      "purpose": "Frame news as opportunity",
+      "id": "V01",
+      "evidence": "Visible 1 fps samples, source 0–14 s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 14,
+      "end": 19,
+      "action": "A political-word question, Bitcoin direction and gold target collect into Your Parlay; submit control shows estimated return.",
+      "design": "Dark market cards, green choices and purple button.",
+      "purpose": "Show first combined prediction",
+      "id": "V02",
+      "evidence": "Visible 1 fps samples, source 14–19 s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 19,
+      "end": 26,
+      "action": "Political speech, Bitcoin-jumps headline and price charts imply an event/market sequence.",
+      "design": "News-like footage and rising charts.",
+      "purpose": "Suggest a market outcome",
+      "id": "V03",
+      "evidence": "Visible 1 fps samples, source 19–26 s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 26,
+      "end": 39,
+      "action": "Parlay on Trump/tech/AI cards lead to a compute-partnership post and streamer commentary.",
+      "design": "Black topic cards, small social-post text and creator footage.",
+      "purpose": "Introduce another domain",
+      "id": "V04",
+      "evidence": "Visible 1 fps samples, source 26–39 s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 39,
+      "end": 45,
+      "action": "SpaceX, model-ranking and stock-price questions collect into a second parlay with another estimated amount.",
+      "design": "Repeated green/purple market UI.",
+      "purpose": "Repeat the mechanism",
+      "id": "V05",
+      "evidence": "Visible 1 fps samples, source 39–45 s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 45,
+      "end": 54,
+      "action": "News-like presenter, stock-price increase and crowd footage around a technology executive appear.",
+      "design": "Broadcast-like frames and large price table.",
+      "purpose": "Suggest another outcome",
+      "id": "V06",
+      "evidence": "Visible 1 fps samples, source 45–54 s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 54,
+      "end": 59.8,
+      "action": "Dashboard and large cumulative P&L figure lead to Parlay on Anything and Totalis mark.",
+      "design": "Dark chart dashboard and minimal end card.",
+      "purpose": "Generalise the offer",
+      "id": "V07",
+      "evidence": "Visible 1 fps samples, source 54–59.8 s; boundaries approximate, between-frame action unresolved."
+    }
+  ],
+  "sound": [
+    {
+      "id": "A01",
+      "start": 0,
+      "end": 59.8,
+      "layer": "unknown",
+      "detail": "No validated audio listening; speech, music, effects, mix and sync remain unverified.",
+      "visual_relation": "All visual scenes; alignment not checked",
+      "evidence": "No actual audio supplied to this review; existing technical-review-2026-10-19/deep-review/audio/177.json is not listening evidence."
+    },
+    {
+      "id": "A02",
+      "start": 3.466,
+      "end": 55.638,
+      "layer": "ASR draft",
+      "detail": "Four VAD windows contain news/streamer statements about political speech, crypto and technology companies. These are unverified source claims; several words and names are malformed and no current-event facts are adopted.",
+      "visual_relation": "Candidate script structure only; sound delivery and sync unknown",
+      "evidence": "technical-review-2026-10-19/deep-review/audio/177-speech.json; existing faster-whisper; ranges [{'start': 3.466, 'end': 12.022}, {'start': 20.106, 'end': 26.422}, {'start': 32.362, 'end': 39.702}, {'start': 45.322, 'end': 55.638}]"
+    }
+  ],
+  "categories": [
+    {
+      "finding": "Two news stories lead to bundled predictions, implied market movement and a profit-oriented ending.",
+      "evidence": "V01–V07",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q01"
+    },
+    {
+      "finding": "Skyscraper view switches to blurred red vehicle with a star mark; only speed and brand motif are clear.",
+      "evidence": "V01",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q02"
+    },
+    {
+      "finding": "Prediction category is clear 14 s and combined-parlay mechanism 17 s; viewers need prior knowledge of parlay risk.",
+      "evidence": "V02",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q03"
+    },
+    {
+      "finding": "Cards accumulate into a parlay, charts change and topic words enlarge; exact motion between samples remains unresolved.",
+      "evidence": "V02–V05",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q04"
+    },
+    {
+      "finding": "Black claim cards separate news setup from market UI; the same sequence repeats for technology news.",
+      "evidence": "V01–V05",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q05"
+    },
+    {
+      "finding": "Dark UI, purple call-to-action and green figures contrast with broadcast and streamer imagery.",
+      "evidence": "V01–V07",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q06"
+    },
+    {
+      "finding": "Question cards and estimated totals are useful, but several values and conditions are small; the P&L figure gets much stronger emphasis.",
+      "evidence": "V02,V05,V07",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q07"
+    },
+    {
+      "finding": "Voice presence and delivery remain unverified.",
+      "evidence": "No validated audio listening",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q08"
+    },
+    {
+      "finding": "Music character and arc remain unverified.",
+      "evidence": "No validated audio listening",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q09"
+    },
+    {
+      "finding": "Sound effects remain unverified.",
+      "evidence": "No validated audio listening",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q10"
+    },
+    {
+      "finding": "Sound-to-motion timing remain unverified.",
+      "evidence": "No validated audio listening",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q11"
+    },
+    {
+      "finding": "Political/news-like clips, creators, social posts and UI are assembled; authenticity and current-event accuracy are not verified.",
+      "evidence": "V01–V07",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q12"
+    },
+    {
+      "finding": "Source duration supplied as 59.8 s; no independent compression, clipping or delivery check.",
+      "evidence": "Assigned metadata; source integrity checked by parent",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q13"
+    },
+    {
+      "finding": "The combine-and-submit mechanism is visible silently; the truth or causality of the news sequence is not established.",
+      "evidence": "V02–V06",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q14"
+    },
+    {
+      "finding": "Green selections guide attention down stacked questions toward a purple submit button.",
+      "evidence": "V02,V05",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q15"
+    },
+    {
+      "finding": "Two examples reinforce the flow but introduce many external entities and claims in under a minute.",
+      "evidence": "V01–V06",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q16"
+    },
+    {
+      "finding": "News as signal is answered by prediction choices and a claimed profit view, without a traceable settled parlay.",
+      "evidence": "V01,V02,V07",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q17"
+    },
+    {
+      "finding": "Fast news and rising figures seem designed to evoke opportunity and urgency; no audience effect is measured.",
+      "evidence": "V01–V07; interpretation",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q18"
+    },
+    {
+      "finding": "The repeated market-card layout connects different subject areas; exact bet continuity into the profit screen is unclear.",
+      "evidence": "V02,V05,V07",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q19"
+    },
+    {
+      "finding": "Selection and submit controls are shown; estimated returns, P&L and news are depicted claims, not verified earnings or facts.",
+      "evidence": "V02–V07",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q20"
+    },
+    {
+      "finding": "Star mark and purple/green market UI provide identity; news montage is generic to financial promotion.",
+      "evidence": "V01,V02,V07",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q21"
+    },
+    {
+      "finding": "Use one example with clear settlement status and conditions instead of a second implied winning-news arc.",
+      "evidence": "V05–V07",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q22"
+    },
+    {
+      "finding": "For a multi-choice product, repeat the same selection-to-summary layout across two domains, then show one confirmed outcome.",
+      "evidence": "V02,V05",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q23"
+    },
+    {
+      "finding": "No human new-viewer test; product description above is model interpretation of sampled images.",
+      "evidence": "V01–V07",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q24"
+    },
+    {
+      "finding": "No phone-size, safe-area or flash assessment; small UI text needs separate preview.",
+      "evidence": "Contact sheets",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q25"
+    }
+  ],
+  "lessons": {
+    "keep": "Repeat one interface pattern across different subjects to teach the grouping mechanism.",
+    "try": [
+      "For a planning tool, group three scenario choices into one review card before confirmation.",
+      "For a prediction explainer, show one completed example including the result and whether all legs were required."
+    ],
+    "avoid": "Avoid making news montage and large P&L imply verified or typical returns.",
+    "open": "Are the source clips authentic, and how does settlement connect to the selected parlay?"
+  },
+  "comparison": {
+    "story": "Frame news as opportunity → Show first combined prediction → Suggest a market outcome → Introduce another domain → Repeat the mechanism → Suggest another outcome → Generalise the offer",
+    "motion": "Cards accumulate into a parlay, charts change and topic words enlarge; exact motion between samples remains unresolved.",
+    "sound": "No validated listening; no absence claims.",
+    "texture": "Dark UI, purple call-to-action and green figures contrast with broadcast and streamer imagery.",
+    "lesson": "Repeat one interface pattern across different subjects to teach the grouping mechanism."
+  },
+  "elements": [
+    {
+      "kind": "ui",
+      "name": "prediction card",
+      "events": [
+        "V02",
+        "V05"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "chart",
+      "events": [
+        "V03",
+        "V07"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "social post",
+      "events": [
+        "V04"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "dashboard",
+      "events": [
+        "V07"
+      ]
+    }
+  ],
+  "reviewer_model": "gpt-6-astra",
+  "scope": "sampled visual and story review; ASR and measured signal support; no validated audio listening",
+  "closer_windows": []
+}

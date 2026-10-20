@@ -1,0 +1,358 @@
+{
+  "id": 504,
+  "reviewer_model": "gpt-6-astra",
+  "scope": "sampled visual and story review; ASR and measured signal support; no validated audio listening",
+  "viewed_evidence": [
+    "technical-review-2026-10-19/deep-review/motion/504/timeline-00.jpg",
+    "technical-review-2026-10-19/deep-review/motion/504/timeline-01.jpg",
+    "technical-review-2026-10-19/deep-review/audio/504-speech.json"
+  ],
+  "closer_windows": [],
+  "product_from_film": "A video search tool finds footage through a written visual description.",
+  "explains_well": "The founder’s archive problem leads to a specific bridge search and a matching clip.",
+  "unclear": "The film gives little visible brand or registration detail and omits archive import.",
+  "product_type": "creator search tool",
+  "scenario": "Find a San Francisco bridge drone clip in a large video archive.",
+  "product_clear_time": 37,
+  "product_clear_basis": "A written bridge search leads to a matching bridge video player.",
+  "scenes": [
+    {
+      "id": "V01",
+      "start": 0,
+      "end": 9,
+      "action": "Will stands on grass as large white words introduce an average YouTuber and his startup idea; white cards mention recording since 2013.",
+      "design": "Outdoor portrait and sparse title cards.",
+      "purpose": "Establish the creator.",
+      "evidence": "Visible chronological 1 fps samples, source 0–9s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V02",
+      "start": 9,
+      "end": 16,
+      "action": "Personal clips move through meals, rooms, a park, an office and the Golden Gate Bridge, ending with a problem label.",
+      "design": "Mixed vlog footage.",
+      "purpose": "Make the archive tangible.",
+      "evidence": "Visible chronological 1 fps samples, source 9–16s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V03",
+      "start": 16,
+      "end": 23,
+      "action": "One hard drive becomes a stack, a clock carries a 50% time-lost claim, and Will faces a dense thumbnail grid.",
+      "design": "Physical drives, clock macro and filmed monitor.",
+      "purpose": "Show the search burden.",
+      "evidence": "Visible chronological 1 fps samples, source 16–23s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V04",
+      "start": 23,
+      "end": 33,
+      "action": "Cursor app icon, coding views and a shared office show the build process.",
+      "design": "Handheld-looking workplace footage and code screens.",
+      "purpose": "Frame the founder building his own solution.",
+      "evidence": "Visible chronological 1 fps samples, source 23–33s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V05",
+      "start": 33,
+      "end": 39,
+      "action": "A search grows to San Francisco, bridge, drone; a thumbnail grid leads to a bridge video player with related frames.",
+      "design": "Dark search UI and player modal.",
+      "purpose": "Demonstrate the solution.",
+      "evidence": "Visible chronological 1 fps samples, source 33–39s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V06",
+      "start": 39,
+      "end": 45.462,
+      "action": "Bridge aerial footage carries public MVP text, then Will smiles at the desk.",
+      "design": "Full-screen recovered-looking footage and founder close-up.",
+      "purpose": "Turn the result into a launch invitation.",
+      "evidence": "Visible chronological 1 fps samples, source 39–45.462s; boundary approximate; exact motion between samples unverified."
+    }
+  ],
+  "sound": [
+    {
+      "id": "A01",
+      "start": 0,
+      "end": 45.462,
+      "layer": "unknown",
+      "detail": "No validated direct audio listening was performed. Music, speech delivery, effects, mix and sync remain unknown, not absent.",
+      "visual_relation": "All visual scenes; audiovisual alignment unverified",
+      "evidence": "Visual samples only; no actual audio range supplied to this reviewer."
+    },
+    {
+      "id": "A02",
+      "start": 0.1,
+      "end": 45.09,
+      "layer": "ASR draft",
+      "detail": "The coherent draft describes Will’s recording history, hard-drive overload, time lost finding footage, cofounder build, prompt-based clip search and public MVP registration. Script role only; heard delivery and sound design are unverified.",
+      "visual_relation": "Story text support; exact audiovisual alignment and delivery unverified.",
+      "evidence": "technical-review-2026-10-19/deep-review/audio/504-speech.json; local faster-whisper base CPU int8 draft; VAD candidates only, recognition errors possible."
+    }
+  ],
+  "categories": [
+    {
+      "id": "Q01",
+      "finding": "Creator history becomes archive overload, building work, a search demonstration and a public launch.",
+      "evidence": "V01–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q02",
+      "finding": "The average-YouTuber introduction provides a person before a feature pitch.",
+      "evidence": "V01",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q03",
+      "finding": "Hard drives and dense footage grids address creators with large personal archives.",
+      "evidence": "V02,V03",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q04",
+      "finding": "Intro words accumulate around Will, drives change from one to a stack, search text grows, and the result opens from a grid into a player.",
+      "evidence": "V01,V03,V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q05",
+      "finding": "Physical evidence of the problem precedes a short screen demonstration.",
+      "evidence": "V03,V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q06",
+      "finding": "Bright grass and personal footage contrast with dark search and coding screens.",
+      "evidence": "V01–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q07",
+      "finding": "Large story captions are clear; small filmed interface text and the brief result grid are harder to scan.",
+      "evidence": "V03–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q08",
+      "finding": "The coherent draft describes Will’s recording history, hard-drive overload, time lost finding footage, cofounder build, prompt-based clip search and public MVP registration. Script role only; heard delivery and sound design are unverified.",
+      "evidence": "A02",
+      "status": "uncertain",
+      "reason": "ASR text only; no validated listening, delivery or voice origin.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q09",
+      "finding": "Voice delivery, music, effects and audiovisual alignment were not established by this visual pass.",
+      "evidence": "A01",
+      "status": "not checked",
+      "reason": "No validated direct audio listening input.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q10",
+      "finding": "Voice delivery, music, effects and audiovisual alignment were not established by this visual pass.",
+      "evidence": "A01",
+      "status": "not checked",
+      "reason": "No validated direct audio listening input.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q11",
+      "finding": "Voice delivery, music, effects and audiovisual alignment were not established by this visual pass.",
+      "evidence": "A01",
+      "status": "not checked",
+      "reason": "No validated direct audio listening input.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q12",
+      "finding": "Personal footage, hard-drive and clock inserts, office footage and filmed software screens form the visible material.",
+      "evidence": "V01–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q13",
+      "finding": "Manifest duration 45.462s; indexed dimensions 1920×1080. Source unchanged flag recorded; fresh encoding and audio clipping checks not run.",
+      "evidence": "Group manifest",
+      "status": "uncertain",
+      "reason": "Inherited technical metadata; no fresh media probe in this review.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q14",
+      "finding": "The coherent draft explains years of recording, time lost finding clips, an MVP build and a registration invitation.",
+      "evidence": "V01–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q15",
+      "finding": "The typed bridge description and recognizable bridge result offer a simple visual match.",
+      "evidence": "V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q16",
+      "finding": "The actual search occupies about six seconds after a 33-second origin story.",
+      "evidence": "V01–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q17",
+      "finding": "The earlier bridge archive shot sets up the later bridge query and final aerial, though exact file identity is not proved.",
+      "evidence": "V02,V05,V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q18",
+      "finding": "A personal problem and candid MVP wording create an informal founder story.",
+      "evidence": "V01,V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q19",
+      "finding": "Search and playback are visible; import, indexing and finding a precise edit point are omitted.",
+      "evidence": "V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q20",
+      "finding": "The 50% time-loss and terabyte-scale draft claims are not independently measured here.",
+      "evidence": "V03,V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q21",
+      "finding": "The public launch invitation is clear in the draft, but the sampled ending lacks a prominent name or registration destination.",
+      "evidence": "V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q22",
+      "finding": "End with the tool name and registration URL over the retrieved clip; add a brief archive-import step.",
+      "evidence": "V05,V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q23",
+      "finding": "Seed a memorable archive image early, then retrieve its subject later.",
+      "evidence": "V02,V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q24",
+      "finding": "A video search tool finds footage through a written visual description.",
+      "evidence": "Model reading from inspected images",
+      "status": "uncertain",
+      "reason": "Model-only new-viewer interpretation; no human test.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q25",
+      "finding": "Contact sheets inspected at displayed size; a phone-size playback, caption audit, flash audit and formal accessibility check were not performed.",
+      "evidence": "Viewed sheets",
+      "status": "not checked",
+      "reason": "Full-size moving-image and device checks unavailable in this pass.",
+      "experiment": "none"
+    }
+  ],
+  "lessons": {
+    "keep": "Connect the founder’s real-looking archive to one recognizable search result.",
+    "avoid": "Letting the origin story leave too little time for the product and destination.",
+    "open": "Import, indexing speed, exact clip identity, scale and audio remain unverified.",
+    "try": [
+      "For Tin, show a messy asset folder before searching for a particular campaign image.",
+      "Use the retrieved bridge clip as the background for a readable product name and signup link."
+    ]
+  },
+  "comparison": {
+    "story": "Establish the creator. → Make the archive tangible. → Show the search burden. → Frame the founder building his own solution. → Demonstrate the solution. → Turn the result into a launch invitation.",
+    "motion": "Intro words accumulate around Will, drives change from one to a stack, search text grows, and the result opens from a grid into a player. Sampling scope: 1 fps unless a closer window is recorded.",
+    "sound": "No validated listening; unknown.",
+    "texture": "Outdoor portrait and sparse title cards.; Mixed vlog footage.; Physical drives, clock macro and filmed monitor.; Handheld-looking workplace footage and code screens.; Dark search UI and player modal.; Full-screen recovered-looking footage and founder close-up.",
+    "lesson": "Connect the founder’s real-looking archive to one recognizable search result."
+  },
+  "elements": [
+    {
+      "kind": "ui",
+      "name": "search",
+      "events": [
+        "V05"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "thumbnail grid",
+      "events": [
+        "V03",
+        "V05"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "video player",
+      "events": [
+        "V05"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "code editor",
+      "events": [
+        "V04"
+      ]
+    },
+    {
+      "kind": "motion",
+      "name": "typed text",
+      "events": [
+        "V05"
+      ]
+    },
+    {
+      "kind": "texture",
+      "name": "live action",
+      "events": [
+        "V01",
+        "V02"
+      ]
+    }
+  ]
+}

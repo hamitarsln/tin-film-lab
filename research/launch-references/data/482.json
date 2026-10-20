@@ -1,0 +1,341 @@
+{
+  "id": 482,
+  "reviewer_model": "gpt-6-astra",
+  "scope": "sampled visual and story review; ASR and measured signal support; no validated audio listening",
+  "viewed_evidence": [
+    "technical-review-2026-10-19/deep-review/motion/482/timeline-00.jpg",
+    "technical-review-2026-10-19/deep-review/motion/482/timeline-01.jpg"
+  ],
+  "closer_windows": [],
+  "product_from_film": "SendAI Raycast brings Solana token actions and questions into a desktop command bar.",
+  "explains_well": "A social post supplies a token address, which moves into a buy command and a visible success state.",
+  "unclear": "Wallet setup, purchase amount and approval details are too brief to understand, while the later token table is dense.",
+  "product_type": "crypto desktop command tool",
+  "scenario": "Buy a token from a social post and ask about Solana token options.",
+  "product_clear_time": 15,
+  "product_clear_basis": "The Buy Token command reaches a Token purchase executed status.",
+  "scenes": [
+    {
+      "id": "V01",
+      "start": 0,
+      "end": 11,
+      "action": "A person sits with a laptop in a bath beside snacks and cans. Watch and face close-ups lead to a social post announcing a token and its address.",
+      "design": "Dim stone bathroom, screen reflections and close lifestyle details.",
+      "purpose": "Set up quick access to a token opportunity.",
+      "evidence": "Visible chronological 1 fps samples, source 0–11s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V02",
+      "start": 11,
+      "end": 17,
+      "action": "Hands type into a command bar. Buy Token includes a token address and an amount field, then a green Token purchase executed message appears.",
+      "design": "Dark command interface and green status strip.",
+      "purpose": "Show a short command-to-result chain.",
+      "evidence": "Visible chronological 1 fps samples, source 11–17s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V03",
+      "start": 17,
+      "end": 25,
+      "action": "Introducing SendAI Raycast appears over blue diagonal forms. Feature labels surround the user, a token list appears, and Agentic Mode is introduced.",
+      "design": "Black title cards, blue streak-like shapes and floating labels.",
+      "purpose": "Name the product and broaden its functions.",
+      "evidence": "Visible chronological 1 fps samples, source 17–25s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V04",
+      "start": 25,
+      "end": 35,
+      "action": "The user opens Ask SendAI and types a question about high-yield tokens on Solana. A Get Top LST step leads to a table with token names and addresses.",
+      "design": "Close command-bar views and a dense dark results table.",
+      "purpose": "Show question-based research alongside commands.",
+      "evidence": "Visible chronological 1 fps samples, source 25–35s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V05",
+      "start": 35,
+      "end": 44,
+      "action": "All Solana actions at your command bar and never miss an alpha lead to raycast.sendai.fun and Download for Mac.",
+      "design": "Blue graphic motif, keyboard symbol and bright download pill.",
+      "purpose": "Summarize the promise and provide installation action.",
+      "evidence": "Visible chronological 1 fps samples, source 35–44s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V06",
+      "start": 44,
+      "end": 52.8,
+      "action": "The person lounges outdoors with a laptop. A dark command window overlays a page of image tiles before the SendAI logo closes.",
+      "design": "Bright greenery contrasts with the opening bathroom.",
+      "purpose": "Reinforce access from varied contexts and end on brand.",
+      "evidence": "Visible chronological 1 fps samples, source 44–52.8s; boundary approximate; exact motion between samples unverified."
+    }
+  ],
+  "sound": [
+    {
+      "id": "A01",
+      "start": 0,
+      "end": 52.8,
+      "layer": "unknown",
+      "detail": "No validated direct audio listening was performed. Music, speech delivery, effects, mix and sync remain unknown, not absent.",
+      "visual_relation": "All visual scenes; audiovisual alignment unverified",
+      "evidence": "Visual samples only; no actual audio range supplied to this reviewer."
+    }
+  ],
+  "categories": [
+    {
+      "id": "Q01",
+      "finding": "A lifestyle setup leads to a token purchase, feature expansion, a research question and a Mac download invitation.",
+      "evidence": "V01–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q02",
+      "finding": "The unusual laptop-in-bath setting attracts attention before the actual token task.",
+      "evidence": "V01",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q03",
+      "finding": "Solana users seeking quick desktop actions are the audience; the purchase status establishes the practical action at 15s.",
+      "evidence": "V02",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q04",
+      "finding": "Close-ups cut between hands and screens, command text fills fields, a green success strip appears, and feature labels surround the user before the result table scrolls through view.",
+      "evidence": "V01–V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q05",
+      "finding": "Dark command windows remain the main product anchor across two different usage settings.",
+      "evidence": "V02,V04,V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q06",
+      "finding": "Stone, metal watch details, screen reflections and blue graphic streaks give the film a polished, dark technology look.",
+      "evidence": "V01–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q07",
+      "finding": "Buy Token and the success message are readable; the research table and rapid feature labels are much denser.",
+      "evidence": "V02–V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q08",
+      "finding": "Voice delivery, music, effects and audiovisual alignment were not established by this visual pass.",
+      "evidence": "A01",
+      "status": "not checked",
+      "reason": "No validated direct audio listening input.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q09",
+      "finding": "Voice delivery, music, effects and audiovisual alignment were not established by this visual pass.",
+      "evidence": "A01",
+      "status": "not checked",
+      "reason": "No validated direct audio listening input.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q10",
+      "finding": "Voice delivery, music, effects and audiovisual alignment were not established by this visual pass.",
+      "evidence": "A01",
+      "status": "not checked",
+      "reason": "No validated direct audio listening input.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q11",
+      "finding": "Voice delivery, music, effects and audiovisual alignment were not established by this visual pass.",
+      "evidence": "A01",
+      "status": "not checked",
+      "reason": "No validated direct audio listening input.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q12",
+      "finding": "Lifestyle footage, command-bar screens, floating labels and blue title graphics are visible. Provenance is unverified.",
+      "evidence": "V01–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q13",
+      "finding": "Manifest duration 52.8s; indexed dimensions 1920×1080. Source unchanged flag recorded; fresh encoding and audio clipping checks not run.",
+      "evidence": "Group manifest",
+      "status": "uncertain",
+      "reason": "Inherited technical metadata; no fresh media probe in this review.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q14",
+      "finding": "Visible commands and titles explain the basic feature without an available ASR draft.",
+      "evidence": "V02–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q15",
+      "finding": "The bright status and large titles provide clear focal points; the table asks viewers to parse many columns at once.",
+      "evidence": "V02–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q16",
+      "finding": "The purchase is brief after an eleven-second setup; the research example receives a longer visible query and response sequence.",
+      "evidence": "V01–V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q17",
+      "finding": "The token address from the social-post context is carried into the buy command, though exact character matching is not established from the sampled sheet.",
+      "evidence": "V01,V02",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q18",
+      "finding": "Relaxed settings suggest convenience and speed. Heard music and delivery are unknown.",
+      "evidence": "V01,V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q19",
+      "finding": "A command reaches a success state and a question reaches a table. Wallet connection, transaction approval and later use of the research result are omitted.",
+      "evidence": "V02,V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q20",
+      "finding": "The success label does not independently verify a transaction. Yield quality, live data accuracy and the breadth of all Solana actions are not established.",
+      "evidence": "V02,V04,V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q21",
+      "finding": "SendAI Raycast is named after the first result, with a clear Mac download destination later.",
+      "evidence": "V03,V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q22",
+      "finding": "Hold the amount and confirmation state longer, then highlight one useful field in the research result.",
+      "evidence": "V02,V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q23",
+      "finding": "Introduce a command tool through one source-to-action chain before listing additional commands.",
+      "evidence": "V01–V03",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q24",
+      "finding": "SendAI Raycast brings Solana token actions and questions into a desktop command bar.",
+      "evidence": "Model reading from inspected images",
+      "status": "uncertain",
+      "reason": "Model-only new-viewer interpretation; no human test.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q25",
+      "finding": "Contact sheets inspected at displayed size; a phone-size playback, caption audit, flash audit and formal accessibility check were not performed.",
+      "evidence": "Viewed sheets",
+      "status": "not checked",
+      "reason": "Full-size moving-image and device checks unavailable in this pass.",
+      "experiment": "none"
+    }
+  ],
+  "lessons": {
+    "keep": "Show a real-looking source item flowing into one command and visible result.",
+    "avoid": "Showing a success state without enough of the preceding user decision to understand the action.",
+    "open": "Transaction reality, wallet setup, result accuracy, final outdoor task and audio remain unverified.",
+    "try": [
+      "For Tin, move one customer insight from a source card into a campaign command and output.",
+      "Add a readable amount and approval frame before the purchase status, then highlight one table row."
+    ]
+  },
+  "comparison": {
+    "story": "Set up quick access to a token opportunity. → Show a short command-to-result chain. → Name the product and broaden its functions. → Show question-based research alongside commands. → Summarize the promise and provide installation action. → Reinforce access from varied contexts and end on brand.",
+    "motion": "Close-ups cut between hands and screens, command text fills fields, a green success strip appears, and feature labels surround the user before the result table scrolls through view. Sampling scope: 1 fps unless a closer window is recorded.",
+    "sound": "No validated listening; unknown.",
+    "texture": "Dim stone bathroom, screen reflections and close lifestyle details.; Dark command interface and green status strip.; Black title cards, blue streak-like shapes and floating labels.; Close command-bar views and a dense dark results table.; Blue graphic motif, keyboard symbol and bright download pill.; Bright greenery contrasts with the opening bathroom.",
+    "lesson": "Show a real-looking source item flowing into one command and visible result."
+  },
+  "elements": [
+    {
+      "kind": "ui",
+      "name": "command bar",
+      "events": [
+        "V02",
+        "V04",
+        "V06"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "table",
+      "events": [
+        "V04"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "success notification",
+      "events": [
+        "V02"
+      ]
+    },
+    {
+      "kind": "motion",
+      "name": "floating feature labels",
+      "events": [
+        "V03"
+      ]
+    },
+    {
+      "kind": "texture",
+      "name": "stone bathroom",
+      "events": [
+        "V01"
+      ]
+    }
+  ]
+}

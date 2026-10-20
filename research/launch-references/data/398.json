@@ -1,0 +1,365 @@
+{
+  "id": 398,
+  "viewed_evidence": [
+    "technical-review-2026-10-19/deep-review/motion/398/timeline-00.jpg",
+    "technical-review-2026-10-19/deep-review/motion/398/timeline-01.jpg",
+    "technical-review-2026-10-19/deep-review/motion/398/timeline-02.jpg",
+    "astra-review-2026-10-20/evidence/group-3/398/dense34-38.jpg"
+  ],
+  "product_from_film": "Grok Imagine API is presented for creating and changing videos across styles and formats.",
+  "explains_well": "Labeled before/after edits make adding, removing and replacing objects concrete.",
+  "unclear": "No API request or input settings connect these results to a developer workflow.",
+  "product_type": "video API",
+  "scenario": "Change subjects, scenes, objects and styles in example videos.",
+  "product_clear_time": 9,
+  "product_clear_basis": "Grok Imagine API title follows skiing subject variations.",
+  "scenes": [
+    {
+      "start": 0,
+      "end": 8,
+      "action": "A skier on a snowy slope changes across panda, top-hatted man, pink dress, armored animal and penguin examples.",
+      "design": "Rounded wide video frame; repeated snowy setting.",
+      "purpose": "Show subject variation",
+      "id": "V01",
+      "evidence": "Visible 1 fps samples, source 0–8s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 8,
+      "end": 14,
+      "action": "Grok Imagine API title, motorbike and bus passenger clips, then THE FUTURE OF VIDEO.",
+      "design": "White branding on black.",
+      "purpose": "Name offering",
+      "id": "V02",
+      "evidence": "Visible 1 fps samples, source 8–14s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 14,
+      "end": 22,
+      "action": "Action, fantasy and cookie-character clips lead to snowy walker; apparent pullback exposes camera and lights around the scene.",
+      "design": "Cinematic Motion Understanding label.",
+      "purpose": "Show visual range",
+      "id": "V03",
+      "evidence": "Visible 1 fps samples, source 14–22s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 22,
+      "end": 34,
+      "action": "Period couple is reframed into vertical card; creator driving, educator shapes, influencer clothing and designer camera examples follow.",
+      "design": "Role selector labels and flexible styles/formats.",
+      "purpose": "Name audiences",
+      "id": "V04",
+      "evidence": "Visible 1 fps samples, source 22–34s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 34,
+      "end": 41,
+      "action": "Wolf clip gains more wolves; insect is wiped away from flower; bird perch changes from hand to branch.",
+      "design": "ADD, REMOVE, REPLACE OBJECT labels and vertical comparison divider.",
+      "purpose": "Explain edit controls",
+      "id": "V05",
+      "evidence": "Visible 1 fps samples, source 34–41s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 41,
+      "end": 51,
+      "action": "Eiffel Tower changes weather/time; young model changes clothing against blue.",
+      "design": "SCENE CONTROL and OBJECT CONTROL.",
+      "purpose": "Extend controls",
+      "id": "V06",
+      "evidence": "Visible 1 fps samples, source 41–51s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 51,
+      "end": 58,
+      "action": "Vehicle scene changes visual style; landscape, neighborhood and four-panel montage show camera-motion examples.",
+      "design": "RESTYLE and CAMERA MOTION.",
+      "purpose": "Show style and view changes",
+      "id": "V07",
+      "evidence": "Visible 1 fps samples, source 51–58s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 58,
+      "end": 63,
+      "action": "Blurred move resolves to robots at a bar, then cat lands in a pool of small balls.",
+      "design": "Surreal example clips.",
+      "purpose": "End with playful range",
+      "id": "V08",
+      "evidence": "Visible 1 fps samples, source 58–63s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 63,
+      "end": 68.138,
+      "action": "Unlock your creativity gives way to Grok Imagine branding.",
+      "design": "White type on black.",
+      "purpose": "Brand close",
+      "id": "V09",
+      "evidence": "Visible 1 fps samples, source 63–68.138s; boundaries approximate, between-frame action unresolved."
+    }
+  ],
+  "sound": [
+    {
+      "id": "A01",
+      "start": 0,
+      "end": 68.138,
+      "layer": "unknown",
+      "detail": "No validated audio listening; speech, music, effects, mix and sync remain unverified.",
+      "visual_relation": "All visual scenes; alignment not checked",
+      "evidence": "No actual audio supplied to this review; existing technical-review-2026-10-19/deep-review/audio/398.json is not listening evidence."
+    }
+  ],
+  "categories": [
+    {
+      "finding": "Subject variation hooks first, then audience examples and labeled editing operations; there is no single continuous task.",
+      "evidence": "V01–V09",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q01"
+    },
+    {
+      "finding": "Human skier becomes panda in the same snowy setting, suggesting controllable subject changes before the product is named.",
+      "evidence": "V01 0–2s",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q02"
+    },
+    {
+      "finding": "API name at 9s signals developers, but subsequent roles address creators, educators, influencers and designers.",
+      "evidence": "V02/V04",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q03"
+    },
+    {
+      "finding": "Dense 34–38s shows divider moving left to reveal extra wolves, then moving right to remove insect; the shared background makes the change easy to compare.",
+      "evidence": "V05; dense34-38",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q04"
+    },
+    {
+      "finding": "Rapid example cuts are punctuated by black title cards; vertical comparison wipes provide a clearer causal before/after grammar.",
+      "evidence": "V02/V05/V09",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q05"
+    },
+    {
+      "finding": "Snow, dark forest, glossy macro insect, warm period footage and bright cartoons create broad variety; asset origins unknown.",
+      "evidence": "V01/V03–V06",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q06"
+    },
+    {
+      "finding": "Operation labels are large and concrete. Audience selector is smaller and secondary; no code or API parameters appear.",
+      "evidence": "V04/V05",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q07"
+    },
+    {
+      "finding": "Voice presence and delivery remain unverified.",
+      "evidence": "No validated audio listening",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q08"
+    },
+    {
+      "finding": "Music character and arc remain unverified.",
+      "evidence": "No validated audio listening",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q09"
+    },
+    {
+      "finding": "Sound effects remain unverified.",
+      "evidence": "No validated audio listening",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q10"
+    },
+    {
+      "finding": "Sound-to-motion timing remain unverified.",
+      "evidence": "No validated audio listening",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q11"
+    },
+    {
+      "finding": "Full clips, rounded cards, split comparisons and four-panel montage demonstrate multiple presentation formats.",
+      "evidence": "V01/V04/V05/V07",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q12"
+    },
+    {
+      "finding": "Source duration supplied as 68.138s; no independent compression, clipping or delivery check.",
+      "evidence": "Assigned metadata; source integrity checked by parent",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q13"
+    },
+    {
+      "finding": "Labeled ADD/REMOVE and visible replacements explain editing silently; the access method remains unspecified.",
+      "evidence": "V05/V06",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q14"
+    },
+    {
+      "finding": "Comparison divider points directly at changed pixels; broad action montage offers many competing focal points.",
+      "evidence": "V03/V05",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q15"
+    },
+    {
+      "finding": "The middle adds new controls every few seconds; one longer input/result example would help retain a usable workflow.",
+      "evidence": "V05–V07 34–58s",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q16"
+    },
+    {
+      "finding": "Opening subject swaps are expanded into object and scene controls later; the close offers a broad creative promise.",
+      "evidence": "V01/V05/V06/V09",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q17"
+    },
+    {
+      "finding": "Surprising skier substitutions and playful final cat/robots appear intended to create delight around a practical editing list.",
+      "evidence": "V01/V08",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q18"
+    },
+    {
+      "finding": "Each comparison retains a setting or subject, but continuity resets between capabilities.",
+      "evidence": "V05/V06",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q19"
+    },
+    {
+      "finding": "The film shows edited examples and labeled differences; actual API calls, generation time and control reliability are untested.",
+      "evidence": "V05–V07",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q20"
+    },
+    {
+      "finding": "Capability labels provide more identity than generic cinematic montage; brand specificity mainly comes from Grok title.",
+      "evidence": "V02/V05",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q21"
+    },
+    {
+      "finding": "Trade one late playful example for a short request-and-result view aimed at API users.",
+      "evidence": "V08",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q22"
+    },
+    {
+      "finding": "For Tin, show a campaign asset with a single changed element under a moving before/after divider and name the requested edit.",
+      "evidence": "V05",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q23"
+    },
+    {
+      "finding": "No human new-viewer test; product description above is model interpretation of sampled images.",
+      "evidence": "V01–V09",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q24"
+    },
+    {
+      "finding": "No phone-size, safe-area or flash assessment; small UI text needs separate preview.",
+      "evidence": "Contact sheets",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q25"
+    }
+  ],
+  "lessons": {
+    "keep": "Pair a plain edit verb with a visible before/after divider.",
+    "try": [
+      "Try a Tin ad revision: remove one background object, retaining product and framing across a divider.",
+      "Try a developer version that shows a short request beside the same generated result before the API CTA."
+    ],
+    "avoid": "Avoid promising API control through examples alone.",
+    "open": "Actual request format, control reliability, sound and generated-asset origins are unverified."
+  },
+  "comparison": {
+    "story": "Show subject variation → Name offering → Show visual range → Name audiences → Explain edit controls → Extend controls → Show style and view changes → End with playful range → Brand close",
+    "motion": "Dense 34–38s shows divider moving left to reveal extra wolves, then moving right to remove insect; the shared background makes the change easy to compare.",
+    "sound": "No validated listening; no absence claims.",
+    "texture": "Snow, dark forest, glossy macro insect, warm period footage and bright cartoons create broad variety; asset origins unknown.",
+    "lesson": "Pair a plain edit verb with a visible before/after divider."
+  },
+  "elements": [
+    {
+      "kind": "motion",
+      "name": "comparison wipe",
+      "events": [
+        "V05"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "media gallery",
+      "events": [
+        "V07"
+      ]
+    },
+    {
+      "kind": "texture",
+      "name": "mixed visual styles",
+      "events": [
+        "V03",
+        "V07"
+      ]
+    }
+  ],
+  "reviewer_model": "gpt-6-astra",
+  "scope": "sampled visual and story review; ASR and measured signal support; no validated audio listening",
+  "closer_windows": [
+    {
+      "start": 34,
+      "end": 38,
+      "rate_fps": 4,
+      "evidence": [
+        "astra-review-2026-10-20/evidence/group-3/398/dense34-38.jpg"
+      ],
+      "resolved": "Divider travels left to reveal multiple wolves; next comparison travels right to reveal flower without insect. A warm bright frame bridges examples near 36s; no sound or flash assessment."
+    }
+  ]
+}

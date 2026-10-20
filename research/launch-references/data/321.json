@@ -1,0 +1,366 @@
+{
+  "id": 321,
+  "product_from_film": "Synthetic Sciences presents SynSci as a workspace for AI research agents that plan experiments, run model training, write reports and help deploy a model feedback loop.",
+  "explains_well": "The protein-model request stays visible through planning, training logs, a results table and a written report, giving the research promise several concrete artifacts.",
+  "unclear": "The deployment section shows API documentation and a feedback diagram, but no actual request, returned prediction and new feedback-triggered training run.",
+  "product_type": "AI research and model-training workspace",
+  "scenario": "Two founders demonstrate a protein-mutation model project, then expand it into deployment and ongoing retraining.",
+  "product_clear_time": 16,
+  "product_clear_basis": "After the general co-scientist description, the visible research prompt at 16s asks to fine-tune ESM-2 for protein-mutation effects.",
+  "viewed_evidence": [
+    "technical-review-2026-10-19/deep-review/motion/321/timeline-00.jpg",
+    "technical-review-2026-10-19/deep-review/motion/321/timeline-01.jpg",
+    "technical-review-2026-10-19/deep-review/motion/321/timeline-02.jpg",
+    "technical-review-2026-10-19/deep-review/motion/321/timeline-03.jpg",
+    "technical-review-2026-10-19/deep-review/motion/321/timeline-04.jpg",
+    "astra-review-2026-10-20/evidence/group-1/321/39s.jpg",
+    "astra-review-2026-10-20/evidence/group-1/321/50s.jpg",
+    "astra-review-2026-10-20/evidence/group-1/321/93s.jpg"
+  ],
+  "scenes": [
+    {
+      "start": 0,
+      "end": 16,
+      "action": "Synthetic Sciences branding leads to two founders on a sofa introducing SynSci and AI co-scientists.",
+      "design": "Warm office seating and captions.",
+      "purpose": "Name the team and general category.",
+      "evidence": "1 fps source samples in 0–16s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V01"
+    },
+    {
+      "start": 16,
+      "end": 34,
+      "action": "A prompt asks to fine-tune ESM-2 for protein-mutation effects. The dark workspace shows a plan, literature-review tasks and successive agent responses.",
+      "design": "Chat/task interface within a red/cream border.",
+      "purpose": "Show the research request and planning stages.",
+      "evidence": "1 fps source samples in 16–34s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V02"
+    },
+    {
+      "start": 34,
+      "end": 46,
+      "action": "The script describes experiment design, compute costs and approval. Visible states progress into deployment commands and a training log dashboard with an orange activity chart.",
+      "design": "Dark task panes, file list and live-looking logs.",
+      "purpose": "Connect the plan to execution; approval wording is clearer than the sampled approval action.",
+      "evidence": "1 fps source samples in 34–46s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V03"
+    },
+    {
+      "start": 46,
+      "end": 65,
+      "action": "A PDF report and results table appear. The table claims mean Spearman 0.431 to 0.531 on 41 held-out assays. Methods, architecture diagram, tables and citations are shown.",
+      "design": "White scientific document beside dark result/chat pane.",
+      "purpose": "Give the research run a report and quantified output.",
+      "evidence": "1 fps source samples in 46–65s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V04"
+    },
+    {
+      "start": 65,
+      "end": 81,
+      "action": "The founders return to explain post-training opportunity and infrastructure difficulty.",
+      "design": "Same sofa shot and captions.",
+      "purpose": "Introduce the second use case.",
+      "evidence": "1 fps source samples in 65–81s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V05"
+    },
+    {
+      "start": 81,
+      "end": 99,
+      "action": "A mode menu selects Flywheel. Agent steps lead to API documentation with health, predict, feedback and retrain endpoints, then a feedback-loop diagram and report cover.",
+      "design": "Dark workspace and white technical documents.",
+      "purpose": "Describe deployment and retraining around the trained model.",
+      "evidence": "1 fps source samples in 81–99s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V06"
+    },
+    {
+      "start": 99,
+      "end": 113,
+      "action": "A five-step diagram links production workflow, signals, dataset, training and private-model deployment with a large orange return arrow. A light integration/list page follows.",
+      "design": "Simple boxed loop, then web-like list.",
+      "purpose": "Summarize the proposed ongoing loop.",
+      "evidence": "1 fps source samples in 99–113s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V07"
+    },
+    {
+      "start": 113,
+      "end": 129.802,
+      "action": "The founders discuss expansion and a BixBench comparison chart appears. They invite viewers to syntheticsciences.ai, followed by the logo.",
+      "design": "Founder footage, bar chart and black identity close.",
+      "purpose": "Present benchmark claim and destination.",
+      "evidence": "1 fps source samples in 113–129.802s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V08"
+    }
+  ],
+  "sound": [
+    {
+      "id": "A01",
+      "start": 0,
+      "end": 129.802,
+      "layer": "script support only",
+      "detail": "ASR broadly supports research planning, literature, training, report generation, Flywheel mode, API deployment and retraining. Names and several technical phrases are garbled; captions and inspected frames resolve ESM-2, Spearman and the endpoint table. No delivery, music, effects or synchronization was heard or verified.",
+      "visual_relation": "V01–V08; narration draft supplies workflow labels for dense UI.",
+      "evidence": "321-speech.json draft, captions and inspected 39s/50s/93s source frames."
+    }
+  ],
+  "categories": [
+    {
+      "id": "Q01",
+      "finding": "Founder introduction → protein-model research run → report → infrastructure problem → deployment loop → benchmark/CTA.",
+      "evidence": "V01–V08",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q02",
+      "finding": "A logo and two founders open with a general co-scientist promise before a specific task.",
+      "evidence": "V01",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q03",
+      "finding": "Research and small ML teams are named through the protein-model example and full-loop claim.",
+      "evidence": "V02,V07",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q04",
+      "finding": "Task rows, logs, document scrolling and mode changes show successive work states. Exact animation mechanics and run timing are unverified.",
+      "evidence": "V02–V07",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q05",
+      "finding": "The same model topic connects prompt, report and API documentation; founder returns separate the two halves.",
+      "evidence": "V02–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q06",
+      "finding": "Warm founder footage contrasts with dark UI and white papers; red/cream borders unify screen sections.",
+      "evidence": "V01–V08",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q07",
+      "finding": "Captions make the stage labels readable. Dense plans and reports need close frames; the 50s table and 93s endpoint table were inspected separately.",
+      "evidence": "V02–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q08",
+      "finding": "ASR and captions support the workflow explanation; technical transcription errors are not treated as exact script. Voice delivery is unknown.",
+      "evidence": "A01",
+      "status": "uncertain",
+      "reason": "Draft and visual text only.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q09",
+      "finding": "Music character and structure are unverified.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "No validated listening.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q10",
+      "finding": "Effects and their sources are unverified.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "No validated listening; waveform peaks do not identify effects.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q11",
+      "finding": "Sound sync is unverified.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "No validated listening or paired audiovisual timing.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q12",
+      "finding": "Founder footage, workspace captures, log dashboard, PDF reports and a summary diagram dominate. Underlying execution is not independently inspected.",
+      "evidence": "V01–V08",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q13",
+      "finding": "Source duration 129.802 s; Watch metadata 1920 × 1080. Frame rate, audio clipping and export quality not checked here.",
+      "evidence": "Whole film",
+      "status": "supported",
+      "reason": "Parent source metadata supports duration and dimensions; visual review is sampled.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q14",
+      "finding": "Visible artifacts show a meaningful progression, while captions are needed to explain many dense steps.",
+      "evidence": "V02–V07",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q15",
+      "finding": "Report close-ups and the large orange feedback arrow help focus attention after dense task lists.",
+      "evidence": "V04,V07",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q16",
+      "finding": "About 49s demonstrate the research workflow; a founder explanation separates roughly 32s of deployment/loop material.",
+      "evidence": "V02–V07",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q17",
+      "finding": "A results table and paper pay off the initial research request. The deployment loop ends in documentation rather than a live request/result cycle.",
+      "evidence": "V04,V06,V07",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q18",
+      "finding": "The technical artifacts suggest practical capability; confidence and user response are not measured.",
+      "evidence": "V02–V08",
+      "status": "uncertain",
+      "reason": "Visual interpretation only.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q19",
+      "finding": "Keeping ESM-2 across research and deployment gives continuity to a broad platform pitch.",
+      "evidence": "V02–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q20",
+      "finding": "Training improvement, larger-model comparisons, verification, deployment and BixBench claims are unverified. The shown table reports 41 held-out assays and +0.100 mean Spearman; no independent replication was done.",
+      "evidence": "V04,V06,V08",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q21",
+      "finding": "The paper, architecture diagram and endpoint reference make the outputs more concrete than an agent chat alone.",
+      "evidence": "V04,V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q22",
+      "finding": "Complete the deployment loop with one visible request and feedback update.",
+      "evidence": "V06,V07",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "Show a prediction request, its response, submitted validation feedback and the changed retraining state."
+    },
+    {
+      "id": "Q23",
+      "finding": "For Tin, preserve one campaign identity through each stage.",
+      "evidence": "V02–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "Follow one brief into an asset, review result, published post and measured feedback update."
+    },
+    {
+      "id": "Q24",
+      "finding": "No human new-viewer test was performed.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "The product summary is this model’s film-only reading.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q25",
+      "finding": "Mobile preview and accessibility checks were not performed.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "Contact sheets are evidence views, not a stated mobile preview or compliance test.",
+      "experiment": "none"
+    }
+  ],
+  "elements": [
+    {
+      "kind": "ui",
+      "name": "agent task list",
+      "events": [
+        "V02",
+        "V03",
+        "V06"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "training logs",
+      "events": [
+        "V03"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "PDF report viewer",
+      "events": [
+        "V04",
+        "V06"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "results table",
+      "events": [
+        "V04"
+      ]
+    },
+    {
+      "kind": "motion",
+      "name": "feedback loop diagram",
+      "events": [
+        "V07"
+      ]
+    }
+  ],
+  "lessons": {
+    "keep": "Keep the same project visible from request through report.",
+    "try": [
+      "Show a prediction request and response followed by feedback changing the training state.",
+      "For Tin, follow one brief through asset, review, publication and feedback."
+    ],
+    "avoid": "Using endpoint documentation as the final proof of a live feedback loop.",
+    "open": "Actual deployment cycle, approval interaction, experimental validity, benchmark claims and audio qualities remain unverified."
+  },
+  "comparison": {
+    "story": "Research request → training/report → deployment and learning loop.",
+    "motion": "Task/log/document states, mode switch and summary loop.",
+    "sound": "Technical ASR with errors; captions support the main stages.",
+    "texture": "Warm founders against dense dark UI and white research papers.",
+    "lesson": "Concrete artifacts explain an agent workflow; the last claimed loop still needs a visible action/result."
+  },
+  "reviewer_model": "gpt-6-astra",
+  "scope": "sampled visual and story review; ASR and measured signal support; no validated audio listening",
+  "closer_windows": []
+}

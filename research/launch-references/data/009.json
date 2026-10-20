@@ -1,0 +1,353 @@
+{
+  "id": 9,
+  "viewed_evidence": [
+    "technical-review-2026-10-19/deep-review/motion/009/timeline-00.jpg",
+    "technical-review-2026-10-19/deep-review/motion/009/timeline-01.jpg",
+    "astra-review-2026-10-20/evidence/group-3/009/dense.jpg"
+  ],
+  "product_from_film": "Archer is a token trading interface with an order book and a buy action.",
+  "explains_well": "A buy amount changes and a Transaction Completed state follows.",
+  "unclear": "The medieval battle takes roughly half the film before the product appears.",
+  "product_type": "finance / trading interface",
+  "scenario": "Buy SOL from a token market screen.",
+  "product_clear_time": 20,
+  "product_clear_basis": "At 18 s token prices appear; at 20 s the buy form and order book establish trading.",
+  "scenes": [
+    {
+      "start": 0,
+      "end": 7,
+      "action": "Black opening becomes a mountainous battle line; red and green armored figures, weapon close-up and a white horse alternate.",
+      "design": "Stylized dimensional characters, storm sky and bright cloth.",
+      "purpose": "Create opposing sides.",
+      "id": "V01",
+      "evidence": "Visible 1 fps samples, source 0–7 s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 7,
+      "end": 15.25,
+      "action": "Archers, shields, raised weapons and charging riders lead to red/green horsemen facing each other from above.",
+      "design": "Red and green remain stable across changing wide and close views.",
+      "purpose": "Build a confrontation.",
+      "id": "V02",
+      "evidence": "Visible 1 fps samples, source 7–16 s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 15.25,
+      "end": 20,
+      "action": "By 15.25 s a red/green candlestick chart replaces the overhead battle; it scales down toward the lower left, darkens around 16.75 s, then a token list appears at 17.25 s and SOL row enlarges.",
+      "design": "Black interface, colored price figures and dark cards.",
+      "purpose": "Translate opposition into a market.",
+      "id": "V03",
+      "evidence": "Visible 1 fps samples, source 16–20 s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 20,
+      "end": 24,
+      "action": "Trading screen crops toward the buy form; slider/amount increases and a Transaction Completed toast appears.",
+      "design": "Green Buy SOL button, amount field, dark order book.",
+      "purpose": "Demonstrate a purchase result.",
+      "id": "V04",
+      "evidence": "Visible 1 fps samples, source 20–24 s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 24,
+      "end": 28,
+      "action": "Order book and chart crop widen back toward a fuller interface.",
+      "design": "Red/green columns and candlestick chart.",
+      "purpose": "Show the wider trading workspace.",
+      "id": "V05",
+      "evidence": "Visible 1 fps samples, source 24–28 s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 28,
+      "end": 33.166,
+      "action": "Return to the orderbook text changes to Archer V2 launch line and logo.",
+      "design": "White text and orange mark on black.",
+      "purpose": "Close with release identity.",
+      "id": "V06",
+      "evidence": "Visible 1 fps samples, source 28–33.166 s; boundaries approximate, between-frame action unresolved."
+    }
+  ],
+  "sound": [
+    {
+      "id": "A01",
+      "start": 0,
+      "end": 33.166,
+      "layer": "unknown",
+      "detail": "No validated audio listening; speech, music, effects, mix and sync remain unverified.",
+      "visual_relation": "All visual scenes; alignment not checked",
+      "evidence": "No actual audio supplied to this review; existing technical-review-2026-10-19/deep-review/audio/009.json is not listening evidence."
+    }
+  ],
+  "categories": [
+    {
+      "finding": "Red/green battle metaphor leads into market colors and one purchase.",
+      "evidence": "V01–V04",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q01"
+    },
+    {
+      "finding": "Black at 0 s becomes a knight facing a distant army at 1 s; no product category is clear.",
+      "evidence": "V01",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q02"
+    },
+    {
+      "finding": "The market and buy form identify trading around 18–20 s; prior battle imagery could suggest a game.",
+      "evidence": "V03–V04",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q03"
+    },
+    {
+      "finding": "Changing battle viewpoints show charging and aiming states; later UI crops move attention from whole screen to amount and result. Exact paths are unresolved.",
+      "evidence": "V02,V04",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q04"
+    },
+    {
+      "finding": "Dense 14–18 s samples locate battle-to-chart between 15 and 15.25 s; chart scales down before a dark bridge and token list.",
+      "evidence": "V02–V03; dense 14–18 s",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q05"
+    },
+    {
+      "finding": "Glossy armor, cloth, dust and dramatic clouds contrast with a restrained black trading UI; creation method unknown.",
+      "evidence": "V01–V04",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q06"
+    },
+    {
+      "finding": "Few opening words; later UI labels carry the task and the closing orderbook line names the category.",
+      "evidence": "V04,V06",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q07"
+    },
+    {
+      "finding": "Voice presence and delivery remain unverified.",
+      "evidence": "No validated audio listening",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q08"
+    },
+    {
+      "finding": "Music character and arc remain unverified.",
+      "evidence": "No validated audio listening",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q09"
+    },
+    {
+      "finding": "Sound effects remain unverified.",
+      "evidence": "No validated audio listening",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q10"
+    },
+    {
+      "finding": "Sound-to-motion timing remain unverified.",
+      "evidence": "No validated audio listening",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q11"
+    },
+    {
+      "finding": "Stylized battle assets and trading screens are visible; no basis to assign rendering software or AI provenance.",
+      "evidence": "V01–V05",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q12"
+    },
+    {
+      "finding": "Source duration supplied as 33.166 s; no independent compression, clipping or delivery check.",
+      "evidence": "Assigned metadata; source integrity checked by parent",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q13"
+    },
+    {
+      "finding": "Silent purchase is understandable once amount and completed toast appear; opening metaphor alone is ambiguous.",
+      "evidence": "V01,V04",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q14"
+    },
+    {
+      "finding": "Character close-ups lead the first half; green buy button and result toast lead the demo.",
+      "evidence": "V01,V04",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q15"
+    },
+    {
+      "finding": "The battle has many new shots for one opposition idea; the trading example is compact by comparison.",
+      "evidence": "V01–V04",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q16"
+    },
+    {
+      "finding": "The battle promises competition; the product payoff is an order book, a conceptual rather than literal resolution.",
+      "evidence": "V02–V06",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q17"
+    },
+    {
+      "finding": "Interpretation: armies and storm light seek tension; the completed trade provides closure.",
+      "evidence": "V01–V04",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q18"
+    },
+    {
+      "finding": "Red and green connect the battle sides to market direction; the same SOL purchase connects demo states.",
+      "evidence": "V02–V04",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q19"
+    },
+    {
+      "finding": "A changed amount and completion toast are represented; actual execution, liquidity and service quality are untested.",
+      "evidence": "V04",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q20"
+    },
+    {
+      "finding": "Archer name fits the archer motif; battle imagery without the later UI could fit a game.",
+      "evidence": "V02,V06",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q21"
+    },
+    {
+      "finding": "Several weapon/rider inserts repeat conflict; trimming them would expose the product earlier.",
+      "evidence": "V01–V02",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q22"
+    },
+    {
+      "finding": "For a Tin two-option comparison, use a short contrasting-color metaphor then carry colors into real result columns; avoid unrelated long fantasy scenes.",
+      "evidence": "V02–V04",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q23"
+    },
+    {
+      "finding": "No human new-viewer test; product description above is model interpretation of sampled images.",
+      "evidence": "V01–V06",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q24"
+    },
+    {
+      "finding": "No phone-size, safe-area or flash assessment; small UI text needs separate preview.",
+      "evidence": "Contact sheets",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q25"
+    }
+  ],
+  "lessons": {
+    "keep": "Carry a simple color distinction from metaphor into product UI.",
+    "try": [
+      "For Tin campaign comparison, introduce two colored cards, then reuse those colors in real A/B results.",
+      "For a trading launch, test a 3-second battle opening followed immediately by the actual buy slider and completion state."
+    ],
+    "avoid": "Allowing a game-like opening to hide the software category for half the runtime.",
+    "open": "Exact sub-quarter-second battle-to-chart edit, all sound and mobile reading remain unverified."
+  },
+  "comparison": {
+    "story": "Create opposing sides. → Build a confrontation. → Translate opposition into a market. → Demonstrate a purchase result. → Show the wider trading workspace. → Close with release identity.",
+    "motion": "Changing battle viewpoints show charging and aiming states; later UI crops move attention from whole screen to amount and result. Exact paths are unresolved.",
+    "sound": "No validated listening; no absence claims.",
+    "texture": "Glossy armor, cloth, dust and dramatic clouds contrast with a restrained black trading UI; creation method unknown.",
+    "lesson": "Carry a simple color distinction from metaphor into product UI."
+  },
+  "elements": [
+    {
+      "kind": "ui",
+      "name": "candlestick chart",
+      "events": [
+        "V03",
+        "V05"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "order book",
+      "events": [
+        "V04",
+        "V05"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "slider",
+      "events": [
+        "V04"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "completion toast",
+      "events": [
+        "V04"
+      ]
+    },
+    {
+      "kind": "texture",
+      "name": "stylized battle",
+      "events": [
+        "V01",
+        "V02"
+      ]
+    }
+  ],
+  "reviewer_model": "gpt-6-astra",
+  "scope": "sampled visual and story review; ASR and measured signal support; no validated audio listening",
+  "closer_windows": [
+    {
+      "start": 14,
+      "end": 18,
+      "rate_fps": 4,
+      "evidence": [
+        "astra-review-2026-10-20/evidence/group-3/009/dense.jpg"
+      ],
+      "resolved": "14.25–14.75 s shows sword contact; 15 s is an overhead ring of dust. By 15.25 s this has switched to a candlestick chart, which scales down toward the lower left before darkening at 16.75 s. Token list appears at 17.25 s. Exact battle-to-chart mechanism lies inside the 0.25 s sample gap."
+    }
+  ]
+}

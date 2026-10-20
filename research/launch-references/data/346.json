@@ -1,0 +1,327 @@
+{
+  "id": 346,
+  "reviewer_model": "gpt-6-astra",
+  "scope": "sampled visual and story review; ASR and measured signal support; no validated audio listening",
+  "viewed_evidence": [
+    "technical-review-2026-10-19/deep-review/motion/346/timeline-00.jpg",
+    "technical-review-2026-10-19/deep-review/motion/346/timeline-01.jpg",
+    "technical-review-2026-10-19/deep-review/audio/346-speech.json"
+  ],
+  "closer_windows": [],
+  "product_from_film": "A bird-flock simulation is presented as a Gemini 3.1 Pro coding example, with a hand-control demonstration and settings.",
+  "explains_well": "The same flock stays visible while the presenter introduces hand input and an adjustable control panel.",
+  "unclear": "The prompts and code are not shown, and the sampled hand movements do not reveal a clear hand-to-flock control rule.",
+  "product_type": "AI coding demonstration",
+  "scenario": "Create and adjust an interactive flock simulation.",
+  "product_clear_time": 16,
+  "product_clear_basis": "The webcam inset introduces a person moving their hands beside the running simulation; model authorship comes from the ASR draft.",
+  "scenes": [
+    {
+      "id": "V01",
+      "start": 0,
+      "end": 16,
+      "action": "A cloud of dark bird-like silhouettes expands, curls and gathers into tall clusters above a pastel horizon.",
+      "design": "Pink and blue sunset, small sun and black flock; tiny top text is not reliably readable.",
+      "purpose": "Introduce the generated visual artifact.",
+      "evidence": "Visible chronological 1 fps samples, source 0–16s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V02",
+      "start": 16,
+      "end": 26,
+      "action": "A lower-left webcam inset shows a person raising and moving their hands while the flock changes shape and position. The inset then disappears.",
+      "design": "Small human inset over the full-screen simulation.",
+      "purpose": "Suggest interactive hand input; the mapping and latency are not resolved by these samples.",
+      "evidence": "Visible chronological 1 fps samples, source 16–26s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V03",
+      "start": 26,
+      "end": 41,
+      "action": "A dark right-side settings panel appears. The flock spreads across the sky, sweeps into the foreground with larger silhouettes and gathers into a narrow cluster. More controls become visible as the panel length changes.",
+      "design": "Sliders over the same pastel environment; labels are too small to read confidently.",
+      "purpose": "Show adjustable parameters while keeping the result visible.",
+      "evidence": "Visible chronological 1 fps samples, source 26–41s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V04",
+      "start": 41,
+      "end": 47.16,
+      "action": "The panel fades out and the clean flock view fills the final samples. No call to action or model interface appears.",
+      "design": "Unobstructed sunset simulation.",
+      "purpose": "Close on the visual result.",
+      "evidence": "Visible chronological 1 fps samples, source 41–47.16s; boundary approximate; exact motion between samples unverified."
+    }
+  ],
+  "sound": [
+    {
+      "id": "A01",
+      "start": 0,
+      "end": 47.16,
+      "layer": "unknown",
+      "detail": "No validated direct audio listening was performed. Music, speech delivery, effects, mix and sync remain unknown, not absent.",
+      "visual_relation": "All visual scenes; audiovisual alignment unverified",
+      "evidence": "Visual samples only; no actual audio range supplied to this reviewer."
+    },
+    {
+      "id": "A02",
+      "start": 0.55,
+      "end": 40.97,
+      "layer": "ASR draft",
+      "detail": "The coherent ASR draft says Gemini 3.1 Pro was asked to code a starling-inspired simulation, then add hand control, movement-related music and controls for birds and environment. This explains the requested additions. The music response is only a script claim; no listening or input-response timing is validated.",
+      "visual_relation": "Story text support; exact audiovisual alignment and delivery unverified.",
+      "evidence": "technical-review-2026-10-19/deep-review/audio/346-speech.json; local faster-whisper base CPU int8 draft; VAD candidates only, recognition errors possible."
+    }
+  ],
+  "categories": [
+    {
+      "id": "Q01",
+      "finding": "The film moves from a finished simulation to a hand-input inset, settings controls and a clean closing view.",
+      "evidence": "V01–V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q02",
+      "finding": "A changing flock against a sunset provides the opening visual hook without a title card.",
+      "evidence": "V01",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q03",
+      "finding": "The output and controls are visible; Gemini authorship is a claim in the draft script rather than a visible coding workflow.",
+      "evidence": "V01–V03",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q04",
+      "finding": "Flock silhouettes spread, curl and gather into vertical clusters; the webcam inset and settings panel enter and leave while the simulation continues. Exact movement and hand-response timing remain unresolved.",
+      "evidence": "V01–V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q05",
+      "finding": "The same sunset and flock connect all demonstrations, so interface changes do not require a new example.",
+      "evidence": "V01–V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q06",
+      "finding": "Dark silhouettes stand out against pink-blue sky; the dark settings panel creates a practical control surface at the right.",
+      "evidence": "V01,V03",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q07",
+      "finding": "The simulation is prominent, but the top text and slider labels are small in the sampled view.",
+      "evidence": "V01,V03",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q08",
+      "finding": "The coherent ASR draft says Gemini 3.1 Pro was asked to code a starling-inspired simulation, then add hand control, movement-related music and controls for birds and environment. This explains the requested additions. The music response is only a script claim; no listening or input-response timing is validated.",
+      "evidence": "A02",
+      "status": "uncertain",
+      "reason": "ASR text only; no validated listening, delivery or voice origin.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q09",
+      "finding": "Voice delivery, music, effects and audiovisual alignment were not established by this visual pass.",
+      "evidence": "A01",
+      "status": "not checked",
+      "reason": "No validated direct audio listening input.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q10",
+      "finding": "Voice delivery, music, effects and audiovisual alignment were not established by this visual pass.",
+      "evidence": "A01",
+      "status": "not checked",
+      "reason": "No validated direct audio listening input.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q11",
+      "finding": "Voice delivery, music, effects and audiovisual alignment were not established by this visual pass.",
+      "evidence": "A01",
+      "status": "not checked",
+      "reason": "No validated direct audio listening input.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q12",
+      "finding": "A rendered flock simulation, webcam inset and settings panel are visible; the code and rendering implementation are not.",
+      "evidence": "V01–V03",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q13",
+      "finding": "Manifest duration 47.16s; indexed dimensions 1920×1080. Source unchanged flag recorded; fresh encoding and audio clipping checks not run.",
+      "evidence": "Group manifest",
+      "status": "uncertain",
+      "reason": "Inherited technical metadata; no fresh media probe in this review.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q14",
+      "finding": "Without the draft narration, the film communicates an interactive visual experiment but does not identify the coding model or original request.",
+      "evidence": "V01–V03",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q15",
+      "finding": "Most space is reserved for the artifact. The person and controls appear as smaller overlays.",
+      "evidence": "V02,V03",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q16",
+      "finding": "The first 16 s establish the visual effect, followed by about 10 s of hand input and 15 s of controls.",
+      "evidence": "V01–V03",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q17",
+      "finding": "The film shows a running, changing artifact and a control interface. It does not show the model producing the code or a checked response to a specific input.",
+      "evidence": "V01–V03",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q18",
+      "finding": "The sunset and flock suggest an expressive creative experiment; this is a visual reading.",
+      "evidence": "V01",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q19",
+      "finding": "The hand inset and changing flock coexist, but a repeatable gesture-to-result relationship is not clear at 1 fps.",
+      "evidence": "V02",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q20",
+      "finding": "Model authorship, code completeness, gesture mapping and the claimed music response are not independently established by these images.",
+      "evidence": "V01–V03",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q21",
+      "finding": "A flock simulation provides a concrete creative coding result rather than a generic model claim.",
+      "evidence": "V01",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q22",
+      "finding": "Show the original prompt, then label one hand gesture and its corresponding visible parameter change.",
+      "evidence": "V02,V03",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q23",
+      "finding": "Tin could keep one generated artifact visible while introducing a small control and its direct effect.",
+      "evidence": "V01–V03",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q24",
+      "finding": "A bird-flock simulation is presented as a Gemini 3.1 Pro coding example, with a hand-control demonstration and settings.",
+      "evidence": "Model reading from inspected images",
+      "status": "uncertain",
+      "reason": "Model-only new-viewer interpretation; no human test.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q25",
+      "finding": "Contact sheets inspected at displayed size; a phone-size playback, caption audit, flash audit and formal accessibility check were not performed.",
+      "evidence": "Viewed sheets",
+      "status": "not checked",
+      "reason": "Full-size moving-image and device checks unavailable in this pass.",
+      "experiment": "none"
+    }
+  ],
+  "lessons": {
+    "keep": "Keep the same artifact on screen as controls are introduced.",
+    "avoid": "Avoid relying on simultaneous input and animation as proof of a clear causal relationship.",
+    "open": "Prompt, code, model authorship, gesture mapping, music response and all heard audio properties remain unverified.",
+    "try": [
+      "For Tin, show one prompt and its generated result before adding controls.",
+      "Label one input gesture or slider change and hold the corresponding output state long enough to compare."
+    ]
+  },
+  "comparison": {
+    "story": "Introduce the generated visual artifact. → Suggest interactive hand input; the mapping and latency are not resolved by these samples. → Show adjustable parameters while keeping the result visible. → Close on the visual result.",
+    "motion": "Flock silhouettes spread, curl and gather into vertical clusters; the webcam inset and settings panel enter and leave while the simulation continues. Exact movement and hand-response timing remain unresolved. Sampling scope: 1 fps unless a closer window is recorded.",
+    "sound": "No validated listening; unknown.",
+    "texture": "Pink and blue sunset, small sun and black flock; tiny top text is not reliably readable.; Small human inset over the full-screen simulation.; Sliders over the same pastel environment; labels are too small to read confidently.; Unobstructed sunset simulation.",
+    "lesson": "Keep the same artifact on screen as controls are introduced."
+  },
+  "elements": [
+    {
+      "kind": "ui",
+      "name": "settings panel",
+      "events": [
+        "V03"
+      ]
+    },
+    {
+      "kind": "motion",
+      "name": "flock changes shape",
+      "events": [
+        "V01",
+        "V02",
+        "V03",
+        "V04"
+      ]
+    },
+    {
+      "kind": "texture",
+      "name": "pastel sky",
+      "events": [
+        "V01"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "webcam inset",
+      "events": [
+        "V02"
+      ]
+    }
+  ]
+}

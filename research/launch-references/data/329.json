@@ -1,0 +1,362 @@
+{
+  "id": 329,
+  "reviewer_model": "gpt-6-astra",
+  "scope": "sampled visual and story review; ASR and measured signal support; no validated audio listening",
+  "viewed_evidence": [
+    "technical-review-2026-10-19/deep-review/motion/329/timeline-00.jpg",
+    "technical-review-2026-10-19/deep-review/motion/329/timeline-01.jpg",
+    "technical-review-2026-10-19/deep-review/motion/329/timeline-02.jpg",
+    "technical-review-2026-10-19/deep-review/audio/329-speech.json"
+  ],
+  "closer_windows": [],
+  "product_from_film": "Aurorin CAD presents mechanical design software with natural-language generation alongside standard CAD controls.",
+  "explains_well": "The side-by-side part example gives the speed claim a concrete shape and visible timers.",
+  "unclear": "The comparison does not show that both resulting parts meet the same dimensions, constraints and quality checks.",
+  "product_type": "mechanical CAD",
+  "scenario": "Generate a mechanical part from a prompt, edit constrained geometry and create an engineering drawing.",
+  "product_clear_time": 16,
+  "product_clear_basis": "Aurorin CAD is named and the dark mechanical-model interface appears.",
+  "scenes": [
+    {
+      "id": "V01",
+      "start": 0,
+      "end": 14,
+      "action": "Engineers build text leads to satellite, rocket and factory imagery. A waterfront presenter explains CAD; a light CAD interface shows early sketch lines before the presenter calls the process slow.",
+      "design": "Engineering montage, daylight presenter and white software screen.",
+      "purpose": "Frame mechanical design as important but time-consuming.",
+      "evidence": "Visible chronological 1 fps samples, source 0–14s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V02",
+      "start": 14,
+      "end": 25,
+      "action": "Aurorin CAD branding appears. A dark interface shows a wheeled assembly, frame components and a right-side prompt area.",
+      "design": "Gray mechanical parts on dark canvas with feature tree and chat panel.",
+      "purpose": "Introduce the software and its agent interface.",
+      "evidence": "Visible chronological 1 fps samples, source 14–25s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V03",
+      "start": 25,
+      "end": 32,
+      "action": "A split screen compares a light CAD workflow with Aurorin. The left timer reaches 17:25; the right prompt appears and a similarly shaped flat part with holes is visible at 00:41.",
+      "design": "Side-by-side windows, large timers and short explanatory captions.",
+      "purpose": "Illustrate a speed comparison, with edited time and result equivalence not independently checked.",
+      "evidence": "Visible chronological 1 fps samples, source 25–32s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V04",
+      "start": 32,
+      "end": 45,
+      "action": "The dark canvas shows a frame, a dimensioned sketch and separated parts being brought into an assembly. A strip-like part changes shape beside a chat, then a face is selected blue using standard controls.",
+      "design": "Feature tree, purple sketch dimensions, blue selections and right-side chat.",
+      "purpose": "Show that generation sits within a broader editable CAD workflow.",
+      "evidence": "Visible chronological 1 fps samples, source 32–45s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V05",
+      "start": 45,
+      "end": 57,
+      "action": "An image/prompt panel leads to generated parts, a dimensioned sketch, constraint entries and a multi-view engineering drawing beside chat text.",
+      "design": "Dark sketch workspace changes to a pale drawing sheet.",
+      "purpose": "Extend the promise from geometry to constraints and documentation.",
+      "evidence": "Visible chronological 1 fps samples, source 45–57s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V06",
+      "start": 57,
+      "end": 69.775,
+      "action": "The presenter says teams use the software as a replacement or alongside existing tools and invites viewers to reach out. Aurorin CAD closes on black.",
+      "design": "Daylight waterfront footage and gradient-colored wordmark.",
+      "purpose": "Position adoption options and request contact.",
+      "evidence": "Visible chronological 1 fps samples, source 57–69.775s; boundary approximate; exact motion between samples unverified."
+    }
+  ],
+  "sound": [
+    {
+      "id": "A01",
+      "start": 0,
+      "end": 69.775,
+      "layer": "unknown",
+      "detail": "No validated direct audio listening was performed. Music, speech delivery, effects, mix and sync remain unknown, not absent.",
+      "visual_relation": "All visual scenes; audiovisual alignment unverified",
+      "evidence": "Visual samples only; no actual audio range supplied to this reviewer."
+    },
+    {
+      "id": "A02",
+      "start": 0.17,
+      "end": 67.75,
+      "layer": "ASR draft",
+      "detail": "The ASR draft supports the CAD-speed pitch, natural-language versus standard controls, constrained geometry and drawing generation. It repeatedly misrecognizes Aurorin; visible branding confirms the name. Claims about speed and engineering capabilities remain unverified.",
+      "visual_relation": "Story text support; exact audiovisual alignment and delivery unverified.",
+      "evidence": "technical-review-2026-10-19/deep-review/audio/329-speech.json; local faster-whisper base CPU int8 draft; VAD candidates only, recognition errors possible."
+    }
+  ],
+  "categories": [
+    {
+      "id": "Q01",
+      "finding": "Engineering importance and slow CAD lead to a new tool, timed comparison, feature breadth, drawings and contact invitation.",
+      "evidence": "V01–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q02",
+      "finding": "Satellite, rocket and factory images establish the audience’s broader purpose before the software problem.",
+      "evidence": "V01",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q03",
+      "finding": "The named CAD product and model interface establish the offer around 16 s.",
+      "evidence": "V02",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q04",
+      "finding": "Models rotate or change view, parts move into assembly and selected faces turn blue. Timers advance through an edited comparison, not real-time viewing.",
+      "evidence": "V02–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q05",
+      "finding": "The split-screen example keeps a similar flat part on both sides, then the tour shifts to other geometry for feature coverage.",
+      "evidence": "V03–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q06",
+      "finding": "Dark CAD views distinguish Aurorin from the light comparison interface; purple dimensions and blue selections highlight editing state.",
+      "evidence": "V03–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q07",
+      "finding": "The timers are large, while the full prompt, dimensions and tolerance details are too small to compare thoroughly.",
+      "evidence": "V03,V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q08",
+      "finding": "The ASR draft supports the CAD-speed pitch, natural-language versus standard controls, constrained geometry and drawing generation. It repeatedly misrecognizes Aurorin; visible branding confirms the name. Claims about speed and engineering capabilities remain unverified.",
+      "evidence": "A02",
+      "status": "uncertain",
+      "reason": "ASR text only; no validated listening, delivery or voice origin.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q09",
+      "finding": "Voice delivery, music, effects and audiovisual alignment were not established by this visual pass.",
+      "evidence": "A01",
+      "status": "not checked",
+      "reason": "No validated direct audio listening input.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q10",
+      "finding": "Voice delivery, music, effects and audiovisual alignment were not established by this visual pass.",
+      "evidence": "A01",
+      "status": "not checked",
+      "reason": "No validated direct audio listening input.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q11",
+      "finding": "Voice delivery, music, effects and audiovisual alignment were not established by this visual pass.",
+      "evidence": "A01",
+      "status": "not checked",
+      "reason": "No validated direct audio listening input.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q12",
+      "finding": "Presenter footage, engineering inserts and software recordings are visible. Insert provenance and editing tools are unknown.",
+      "evidence": "V01–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q13",
+      "finding": "Manifest duration 69.775s; indexed dimensions 1920×1080. Source unchanged flag recorded; fresh encoding and audio clipping checks not run.",
+      "evidence": "Group manifest",
+      "status": "uncertain",
+      "reason": "Inherited technical metadata; no fresh media probe in this review.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q14",
+      "finding": "Captions explain the pitch and timers carry the comparison. Detailed engineering correctness cannot be judged from the overview alone.",
+      "evidence": "V03–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q15",
+      "finding": "The side-by-side layout makes time the dominant measure, while later close canvas views emphasize feature breadth.",
+      "evidence": "V03–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q16",
+      "finding": "The product arrives within 16 s, the comparison occupies about 7 s and the feature tour takes roughly 25 s before the close.",
+      "evidence": "V02–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q17",
+      "finding": "A generated part and a drawing are visible outputs. The film does not show dimensional or manufacturing validation.",
+      "evidence": "V03,V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q18",
+      "finding": "The opening places software speed in the context of useful physical engineering; this is a creative reading.",
+      "evidence": "V01",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q19",
+      "finding": "The spoken roughly-20-minute comparison aligns broadly with a visible 17:25 timer, but the two output models are not checked side by side for identical requirements.",
+      "evidence": "V03",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q20",
+      "finding": "Speed, new-kernel, feature-completeness and adoption statements are claims. The film does not establish equal task inputs, valid constraints or drawing correctness.",
+      "evidence": "V02–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q21",
+      "finding": "Sketch dimensions, assemblies, selected faces and engineering drawings show more than an isolated generated 3D shape.",
+      "evidence": "V04,V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q22",
+      "finding": "Hold the comparison on matching dimensions and a completed constraint checklist before emphasizing the time difference.",
+      "evidence": "V03",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q23",
+      "finding": "Tin can compare one identical task with clear start and finish states, then show that the output meets the same requirements.",
+      "evidence": "V03",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q24",
+      "finding": "Aurorin CAD presents mechanical design software with natural-language generation alongside standard CAD controls.",
+      "evidence": "Model reading from inspected images",
+      "status": "uncertain",
+      "reason": "Model-only new-viewer interpretation; no human test.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q25",
+      "finding": "Contact sheets inspected at displayed size; a phone-size playback, caption audit, flash audit and formal accessibility check were not performed.",
+      "evidence": "Viewed sheets",
+      "status": "not checked",
+      "reason": "Full-size moving-image and device checks unavailable in this pass.",
+      "experiment": "none"
+    }
+  ],
+  "lessons": {
+    "keep": "Use a side-by-side task with visible timing to make a speed claim concrete.",
+    "avoid": "Avoid letting speed alone imply equivalent output quality.",
+    "open": "Timing setup, geometry equivalence, constraints, tolerances, drawing correctness, adoption and all heard audio remain unverified.",
+    "try": [
+      "For Tin, compare the same campaign task with identical inputs and clear completion criteria.",
+      "Add a short output-quality check next to the faster result before moving to other features."
+    ]
+  },
+  "comparison": {
+    "story": "Frame mechanical design as important but time-consuming. → Introduce the software and its agent interface. → Illustrate a speed comparison, with edited time and result equivalence not independently checked. → Show that generation sits within a broader editable CAD workflow. → Extend the promise from geometry to constraints and documentation. → Position adoption options and request contact.",
+    "motion": "Models rotate or change view, parts move into assembly and selected faces turn blue. Timers advance through an edited comparison, not real-time viewing. Sampling scope: 1 fps unless a closer window is recorded.",
+    "sound": "No validated listening; unknown.",
+    "texture": "Engineering montage, daylight presenter and white software screen.; Gray mechanical parts on dark canvas with feature tree and chat panel.; Side-by-side windows, large timers and short explanatory captions.; Feature tree, purple sketch dimensions, blue selections and right-side chat.; Dark sketch workspace changes to a pale drawing sheet.; Daylight waterfront footage and gradient-colored wordmark.",
+    "lesson": "Use a side-by-side task with visible timing to make a speed claim concrete."
+  },
+  "elements": [
+    {
+      "kind": "ui",
+      "name": "CAD canvas",
+      "events": [
+        "V02",
+        "V03",
+        "V04",
+        "V05"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "chat",
+      "events": [
+        "V02",
+        "V04",
+        "V05"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "feature tree",
+      "events": [
+        "V04"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "engineering drawing",
+      "events": [
+        "V05"
+      ]
+    },
+    {
+      "kind": "motion",
+      "name": "split screen comparison",
+      "events": [
+        "V03"
+      ]
+    },
+    {
+      "kind": "motion",
+      "name": "model rotation",
+      "events": [
+        "V04"
+      ]
+    }
+  ]
+}

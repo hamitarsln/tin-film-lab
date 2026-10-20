@@ -1,0 +1,358 @@
+{
+  "id": 292,
+  "viewed_evidence": [
+    "technical-review-2026-10-19/deep-review/motion/292/timeline-00.jpg",
+    "technical-review-2026-10-19/deep-review/motion/292/timeline-01.jpg",
+    "technical-review-2026-10-19/deep-review/motion/292/timeline-02.jpg",
+    "technical-review-2026-10-19/deep-review/motion/292/timeline-03.jpg",
+    "astra-review-2026-10-20/evidence/group-1/292/51s.jpg",
+    "astra-review-2026-10-20/evidence/group-1/292/80s.jpg",
+    "astra-review-2026-10-20/evidence/group-1/292/84s.jpg"
+  ],
+  "product_from_film": "Kled pays people for recordings of ordinary activities used as AI training data, with Whop handling the shown payments.",
+  "explains_well": "The ending links two ordinary recorded activities to named completed tasks and matching payment notices.",
+  "unclear": "The story delays the task-and-payment connection until near the end and skips the upload, acceptance and payout process.",
+  "product_type": "human data marketplace and payments partnership",
+  "scenario": "A student records shelf activity and keyboard typing while a lecture explains AI training data, then receives payment notices.",
+  "product_clear_time": 79,
+  "product_clear_basis": "Payment notices at 79–81s explicitly say Kled paid for training data; the completed-task overlay at 83–86s names the recorded actions.",
+  "scenes": [
+    {
+      "start": 0,
+      "end": 24,
+      "action": "A student enters a lecture room, sits and unpacks. The lecturer speaks to the class; no explanatory captions or product overlay appear.",
+      "design": "Wide letterboxed classroom shots and cool subdued light.",
+      "purpose": "Set an everyday environment for the data discussion.",
+      "evidence": "1 fps source samples in 0–24s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V01"
+    },
+    {
+      "start": 24,
+      "end": 43,
+      "action": "The student arrives at a library desk and then moves through shelves, handling books.",
+      "design": "Library counters, aisles and steady wide views.",
+      "purpose": "Introduce an ordinary activity that later becomes a data task.",
+      "evidence": "1 fps source samples in 24–43s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V02"
+    },
+    {
+      "start": 43,
+      "end": 61,
+      "action": "A phone on a stand records the student handling books. She checks a Special Tasks screen with featured data-upload missions, then leaves the aisle.",
+      "design": "Phone camera view, task cards and close facial reactions.",
+      "purpose": "Connect ordinary action to recorded task content.",
+      "evidence": "1 fps source samples in 43–61s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V03"
+    },
+    {
+      "start": 61,
+      "end": 71,
+      "action": "Back in class, a phone on a stand points toward her hands typing on a laptop. Close views show her listening.",
+      "design": "Laptop, tripod-mounted phone and desk arrangement.",
+      "purpose": "Show a second recorded activity.",
+      "evidence": "1 fps source samples in 61–71s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V04"
+    },
+    {
+      "start": 71,
+      "end": 83,
+      "action": "The lecturer continues. Two payment overlays state that Kled paid $18 and $13 for training data; the student checks her phone.",
+      "design": "Classroom view with large Whop payment notifications.",
+      "purpose": "Reveal the economic connection.",
+      "evidence": "1 fps source samples in 71–83s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V05"
+    },
+    {
+      "start": 83,
+      "end": 87,
+      "action": "A translucent Kled phone overlay says two special tasks are complete: typing on a keyboard and organizing a shelf. Text says rewards were added to the wallet.",
+      "design": "Completed task cards and reward status.",
+      "purpose": "Explain the preceding actions and their payoff.",
+      "evidence": "1 fps source samples in 83–87s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V06"
+    },
+    {
+      "start": 87,
+      "end": 92.97,
+      "action": "Kled and Whop logos appear on black, followed by a statement about powering payments for a human data marketplace.",
+      "design": "Minimal partnership end card.",
+      "purpose": "Identify the brands and payment role.",
+      "evidence": "1 fps source samples in 87–92.97s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V07"
+    }
+  ],
+  "sound": [
+    {
+      "id": "A01",
+      "start": 0,
+      "end": 92.97,
+      "layer": "ASR draft / unknown",
+      "detail": "The draft is a lecture about AI depending on ordinary human data, such as recordings of objects and activities, ending with who produces it and who gets paid. Several examples and sentences are garbled, so exact quotations are not used. The payment/task overlays supply the concrete product meaning. No validated listening, delivery, music, effects or sync assessment.",
+      "visual_relation": "V01–V05; the lecture topic builds toward the payment reveal, with acoustic timing unverified.",
+      "evidence": "technical-review-2026-10-19/deep-review/audio/292-speech.json"
+    }
+  ],
+  "categories": [
+    {
+      "id": "Q01",
+      "finding": "Classroom data lecture → ordinary library recording → keyboard recording → payments → completed tasks → partnership.",
+      "evidence": "V01–V07",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q02",
+      "finding": "A wide classroom shot shows students and an entering person; there is no visible product clue in the first two seconds.",
+      "evidence": "V01",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q03",
+      "finding": "People supplying everyday recordings are the eventual audience. The paid-training-data proposition becomes explicit near 79s, and Whop’s role is named at the close.",
+      "evidence": "V05–V07",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q04",
+      "finding": "Mostly live-action framing and person movement, with late floating payment and phone overlays. The task states are readable in individually inspected 80s and 84s frames.",
+      "evidence": "V01–V07",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q05",
+      "finding": "The return to the classroom links the library activity to a second task. The final task overlay retrospectively explains both recordings.",
+      "evidence": "V02–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q06",
+      "finding": "Muted blue-green rooms, warm wood, shallow-focus close-ups and translucent overlays give a consistent cinematic treatment.",
+      "evidence": "V01–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q07",
+      "finding": "There are no explanatory captions in most sampled scenes. Small angled task UI needs closer inspection; late payment notices and completed-task cards are larger.",
+      "evidence": "V01–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q08",
+      "finding": "ASR supports the broad training-data lecture but has errors in examples. The final product explanation comes from visible text, not a reliable full spoken sales script.",
+      "evidence": "A01",
+      "status": "uncertain",
+      "reason": "Draft text and images only.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q09",
+      "finding": "Music character and structure are unverified.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "No validated listening.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q10",
+      "finding": "Effects and their sources are unverified.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "No validated listening; waveform peaks do not identify effects.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q11",
+      "finding": "Sound sync is unverified.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "No validated listening or paired audiovisual timing.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q12",
+      "finding": "A recurring student, classroom and library are combined with phone screens and composited-looking overlays; actual production method is unknown.",
+      "evidence": "V01–V07",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q13",
+      "finding": "Source duration 92.97 s; Watch metadata 2344 × 1080. Frame rate, audio clipping and export quality not checked here.",
+      "evidence": "Whole film",
+      "status": "supported",
+      "reason": "Parent source metadata supports duration and dimensions; visual review is sampled.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q14",
+      "finding": "A silent viewer can follow recordings and late payments, but the first minute does not clearly explain why the activities matter.",
+      "evidence": "V01–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q15",
+      "finding": "The student and phone guide attention; the large late payment notices redirect it to the payoff.",
+      "evidence": "V03–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q16",
+      "finding": "The reveal arrives after a long ordinary-life setup. The completed-task overlay efficiently explains two earlier actions in one view.",
+      "evidence": "V01–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q17",
+      "finding": "The lecture’s question about who gets paid is answered by notifications to the student, then the named completed tasks.",
+      "evidence": "V05,V06,A01",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q18",
+      "finding": "Routine study and work become a small earning opportunity, suggesting discovery and satisfaction; response is unmeasured.",
+      "evidence": "V01–V06",
+      "status": "uncertain",
+      "reason": "Interpretation of actions and payoff.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q19",
+      "finding": "The same student, shelves, laptop and recording phone link the tasks to the final list, despite the delayed explanation.",
+      "evidence": "V02–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q20",
+      "finding": "The film shows recording setups, task screens and payment states, but not upload review or actual payment execution. Earnings, task eligibility and the first-marketplace claim are unverified.",
+      "evidence": "V03–V07",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q21",
+      "finding": "The payment reveal during a lecture about data makes the partnership story specific; task names directly match the student’s actions.",
+      "evidence": "V05,V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q22",
+      "finding": "Show one task requirement before the activity and complete its submission.",
+      "evidence": "V02,V03",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "Open the shelf task, show its recording requirement, submit the clip and show acceptance before payment."
+    },
+    {
+      "id": "Q23",
+      "finding": "For Tin, make an ordinary work action legible through a matching result card.",
+      "evidence": "V03–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "Show a creator completing a brief requirement and receiving a review card that names the exact submitted asset."
+    },
+    {
+      "id": "Q24",
+      "finding": "No human new-viewer test was performed.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "The product summary is this model’s film-only reading.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q25",
+      "finding": "Mobile preview and accessibility checks were not performed.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "Contact sheets are evidence views, not a stated mobile preview or compliance test.",
+      "experiment": "none"
+    }
+  ],
+  "elements": [
+    {
+      "kind": "ui",
+      "name": "phone task cards",
+      "events": [
+        "V03",
+        "V06"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "phone camera view",
+      "events": [
+        "V03"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "payment notification",
+      "events": [
+        "V05"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "completed task list",
+      "events": [
+        "V06"
+      ]
+    },
+    {
+      "kind": "texture",
+      "name": "letterboxed classroom and library scenes",
+      "events": [
+        "V01",
+        "V02",
+        "V03",
+        "V04",
+        "V05"
+      ]
+    }
+  ],
+  "lessons": {
+    "keep": "Make the final task list name the exact activities already shown.",
+    "try": [
+      "Show one task requirement, recording submission, acceptance and payment in order.",
+      "For Tin, connect a submitted asset to a review card naming that same asset."
+    ],
+    "avoid": "Waiting most of the runtime to explain why the ordinary actions matter.",
+    "open": "Upload review, eligibility, payment execution, earnings, data use terms and audio remain unverified."
+  },
+  "comparison": {
+    "story": "Everyday activities under a data lecture → paid-task reveal.",
+    "motion": "Live-action continuity and late translucent UI overlays.",
+    "sound": "Broad lecture ASR with errors; no listening.",
+    "texture": "Muted cinematic classroom/library and floating notifications.",
+    "lesson": "A delayed reveal works best when its result names the exact earlier actions."
+  },
+  "reviewer_model": "gpt-6-astra",
+  "scope": "sampled visual and story review; ASR and measured signal support; no validated audio listening",
+  "closer_windows": []
+}

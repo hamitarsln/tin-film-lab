@@ -1,0 +1,381 @@
+{
+  "id": 217,
+  "viewed_evidence": [
+    "technical-review-2026-10-19/deep-review/motion/217/timeline-00.jpg",
+    "technical-review-2026-10-19/deep-review/motion/217/timeline-01.jpg",
+    "technical-review-2026-10-19/deep-review/motion/217/timeline-02.jpg",
+    "astra-review-2026-10-20/evidence/group-3/217/dense.jpg",
+    "technical-review-2026-10-19/deep-review/audio/217-speech.json"
+  ],
+  "product_from_film": "Raise Zero presents a sealed-bid token auction associated with Crafts, with encrypted bids and a shared clearing price.",
+  "explains_well": "The film contrasts a declared token valuation with a price discovered from private bids.",
+  "unclear": "Changing numbers never resolve into a worked clearing-price example, and the link between Crafts and the final Raise Zero name is not explained.",
+  "product_type": "token auction",
+  "scenario": "Submit a private bid in a token launch and pay the auction clearing price.",
+  "product_clear_time": 48,
+  "product_clear_basis": "On-chain auction UI is followed by explicit encrypted-bid text; the shared-price promise follows at 59–61 s.",
+  "scenes": [
+    {
+      "start": 0,
+      "end": 12,
+      "action": "Token images and changing valuations lead to a declared stamp and market charts.",
+      "design": "Pixel-like white type, scanlines and orange highlights.",
+      "purpose": "Challenge declared valuations",
+      "id": "V01",
+      "evidence": "Visible 1 fps samples, source 0–12s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 12,
+      "end": 30,
+      "action": "Google date search, image collage, news clip and article excerpts present a historical auction example.",
+      "design": "Archive-style footage and highlighted article text.",
+      "purpose": "Use a historical analogy",
+      "id": "V02",
+      "evidence": "Visible 1 fps samples, source 12–30s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 30,
+      "end": 40,
+      "action": "Mechanism text leads to branching orange lines and a map, followed by a conference video insert.",
+      "design": "Dark field, orange network and large words.",
+      "purpose": "State price discovery principle",
+      "id": "V03",
+      "evidence": "Visible 1 fps samples, source 30–40s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 40,
+      "end": 47,
+      "action": "Crafts name and laptop auction UI appear, followed by a social post about sealed bids on Solana.",
+      "design": "Tilted laptop and white social post against black.",
+      "purpose": "Introduce the auction platform",
+      "id": "V04",
+      "evidence": "Visible 1 fps samples, source 40–47s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 47,
+      "end": 56,
+      "action": "Orange encryption text and a window say even the team cannot see bids; an illustrated monitor fills with changing prices.",
+      "design": "Orange panels, coded-text decoration and number labels.",
+      "purpose": "Describe private demand",
+      "id": "V05",
+      "evidence": "Visible 1 fps samples, source 47–56s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 56,
+      "end": 62,
+      "action": "Computer and trading-floor footage carry no signalling, no manipulation and one-price text.",
+      "design": "Archive-like footage with white/orange emphasis.",
+      "purpose": "State claimed auction benefits",
+      "id": "V06",
+      "evidence": "Visible 1 fps samples, source 56–62s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 62,
+      "end": 67,
+      "action": "Laptop auction screen returns with price-discovery language.",
+      "design": "Floating device and large type.",
+      "purpose": "Restate the offer",
+      "id": "V07",
+      "evidence": "Visible 1 fps samples, source 62–67s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 67,
+      "end": 75.813,
+      "action": "An orange opening widens within a dark wall to reveal Raise Zero.",
+      "design": "Dim textured space and orange light on the floor.",
+      "purpose": "Reveal the final brand",
+      "id": "V08",
+      "evidence": "Visible 1 fps samples, source 67–75.813s; boundaries approximate, between-frame action unresolved."
+    }
+  ],
+  "sound": [
+    {
+      "id": "A01",
+      "start": 0,
+      "end": 75.813,
+      "layer": "unknown",
+      "detail": "No validated audio listening; speech, music, effects, mix and sync remain unverified.",
+      "visual_relation": "All visual scenes; alignment not checked",
+      "evidence": "No actual audio supplied to this review; existing technical-review-2026-10-19/deep-review/audio/217.json is not listening evidence."
+    },
+    {
+      "id": "A02",
+      "start": 0.2,
+      "end": 67.04,
+      "layer": "ASR draft",
+      "detail": "Candidate script supports declared valuations, the historical auction analogy, private bids and one clearing price. The draft drops the negative from the team-cannot-see-bids sentence; visible text takes precedence. Historical, security and market claims remain film statements, and no voice or soundtrack judgment is inferred.",
+      "visual_relation": "V01–V07; candidate script only",
+      "evidence": "technical-review-2026-10-19/deep-review/audio/217-speech.json; existing faster-whisper base CPU int8"
+    }
+  ],
+  "categories": [
+    {
+      "finding": "Declared valuations are challenged through a Google auction analogy, then private on-chain bidding and one shared price are proposed. The final name differs from the platform name shown earlier.",
+      "evidence": "V01–V08",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q01"
+    },
+    {
+      "finding": "Token discs and a large launch statement quickly establish the domain; changing valuations create the initial problem.",
+      "evidence": "V01",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q02"
+    },
+    {
+      "finding": "The auction platform appears around 41–46 s; encrypted bids and shared price clarify the proposition over the next 15 s.",
+      "evidence": "V04–V06",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q03"
+    },
+    {
+      "finding": "Dense 52–56 s samples show an orange text window peeling from the upper-left corner around 52.5 s, followed by a monitor filling with labels whose values rise. They do not converge to one labelled clearing price in that window.",
+      "evidence": "V05; dense 52–56 s",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q04"
+    },
+    {
+      "finding": "Search, archive clip and article inserts build the analogy; orange motion graphics connect it to the modern product screen.",
+      "evidence": "V02–V05",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q05"
+    },
+    {
+      "finding": "Scanlines, slight colour separation, pixel-like type and orange highlights give modern UI and archive imagery a common texture.",
+      "evidence": "V01–V08",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q06"
+    },
+    {
+      "finding": "Large statements are easy to follow; FDV is not expanded, and small auction controls do not explain bid amount, allocation or payment.",
+      "evidence": "V01,V04,V07",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q07"
+    },
+    {
+      "finding": "Voice presence and delivery remain unverified.",
+      "evidence": "No validated audio listening",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q08"
+    },
+    {
+      "finding": "Music character and arc remain unverified.",
+      "evidence": "No validated audio listening",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q09"
+    },
+    {
+      "finding": "Sound effects remain unverified.",
+      "evidence": "No validated audio listening",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q10"
+    },
+    {
+      "finding": "Sound-to-motion timing remain unverified.",
+      "evidence": "No validated audio listening",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q11"
+    },
+    {
+      "finding": "Market footage, historical media, article screenshots, social post, laptop mockups and motion graphics are visible. Provenance and production tools are not verified.",
+      "evidence": "V01–V08",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q12"
+    },
+    {
+      "finding": "Source duration supplied as 75.813s; no independent compression, clipping or delivery check.",
+      "evidence": "Assigned metadata; source integrity checked by parent",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q13"
+    },
+    {
+      "finding": "Text explains the declared-versus-discovered contrast and encrypted bids silently. The archive news and conference inserts carry little readable mechanism detail.",
+      "evidence": "V01–V06",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q14"
+    },
+    {
+      "finding": "Orange highlights isolate key terms; moving prices and tilted laptops prioritise energy over reading a worked auction example.",
+      "evidence": "V01,V04,V05,V07",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q15"
+    },
+    {
+      "finding": "The first 40 s establish an analogy and principle; the actual platform has a shorter explanation before an extended final reveal.",
+      "evidence": "V01–V08",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q16"
+    },
+    {
+      "finding": "One price is the promised payoff, but the numeric animation never shows how distinct bids lead to it.",
+      "evidence": "V05,V06",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q17"
+    },
+    {
+      "finding": "Archive references and forceful typography suggest legitimacy and confidence; the dark orange doorway suggests a new beginning.",
+      "evidence": "V02,V08; interpretation",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q18"
+    },
+    {
+      "finding": "Orange connects declared stamps, highlights, encryption and the final doorway. Crafts and Raise Zero naming need a clearer relationship.",
+      "evidence": "V01–V08",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q19"
+    },
+    {
+      "finding": "Historical success, first-on-chain, encryption, fairness and no-manipulation statements are film claims. The review does not establish financial, historical or security correctness.",
+      "evidence": "V02,V04–V06",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q20"
+    },
+    {
+      "finding": "The declared-versus-discovered wording provides a clear conceptual contrast, while the historical analogy supplies context rather than an actual bid demonstration.",
+      "evidence": "V01–V03",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q21"
+    },
+    {
+      "finding": "Show three bids, available supply, the resulting clearing price and each allocation using one simple example.",
+      "evidence": "V05,V06",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q22"
+    },
+    {
+      "finding": "For a mechanism-based product, replace decorative changing numbers with a short worked example tied to the real controls.",
+      "evidence": "V04–V07",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q23"
+    },
+    {
+      "finding": "No human new-viewer test; product description above is model interpretation of sampled images.",
+      "evidence": "V01–V08",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q24"
+    },
+    {
+      "finding": "No phone-size, safe-area or flash assessment; small UI text needs separate preview.",
+      "evidence": "Contact sheets",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q25"
+    }
+  ],
+  "lessons": {
+    "keep": "Use a simple conceptual contrast before introducing a complex mechanism.",
+    "try": [
+      "Animate three private bids and show exactly how supply produces one clearing price and allocations.",
+      "Label the relationship between Crafts and Raise Zero when the auction screen first appears, then show the first user action."
+    ],
+    "avoid": "Avoid letting historical prestige and moving numbers substitute for a mechanism explanation.",
+    "open": "How do bids and supply produce the price, and what is the relationship between the two displayed names?"
+  },
+  "comparison": {
+    "story": "Challenge declared valuations → Use a historical analogy → State price discovery principle → Introduce the auction platform → Describe private demand → State claimed auction benefits → Restate the offer → Reveal the final brand",
+    "motion": "Dense 52–56 s samples show an orange text window peeling from the upper-left corner around 52.5 s, followed by a monitor filling with labels whose values rise. They do not converge to one labelled clearing price in that window.",
+    "sound": "No validated listening; no absence claims.",
+    "texture": "Scanlines, slight colour separation, pixel-like type and orange highlights give modern UI and archive imagery a common texture.",
+    "lesson": "Use a simple conceptual contrast before introducing a complex mechanism."
+  },
+  "elements": [
+    {
+      "kind": "ui",
+      "name": "auction page",
+      "events": [
+        "V04",
+        "V07"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "social post",
+      "events": [
+        "V04"
+      ]
+    },
+    {
+      "kind": "motion",
+      "name": "changing number labels",
+      "events": [
+        "V05"
+      ]
+    },
+    {
+      "kind": "motion",
+      "name": "doorway brand reveal",
+      "events": [
+        "V08"
+      ]
+    },
+    {
+      "kind": "texture",
+      "name": "scanlines",
+      "events": [
+        "V01",
+        "V02"
+      ]
+    }
+  ],
+  "reviewer_model": "gpt-6-astra",
+  "scope": "sampled visual and story review; ASR and measured signal support; no validated audio listening",
+  "closer_windows": [
+    {
+      "start": 52,
+      "end": 56,
+      "rate_fps": 4,
+      "evidence": [
+        "astra-review-2026-10-20/evidence/group-3/217/dense.jpg"
+      ],
+      "resolved": "The text window peels away, then number labels populate a monitor and increment. The window does not show bids resolving into a clearing price; this remains an explanatory gap."
+    }
+  ]
+}

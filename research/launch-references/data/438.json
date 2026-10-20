@@ -1,0 +1,362 @@
+{
+  "id": 438,
+  "reviewer_model": "gpt-6-astra",
+  "scope": "sampled visual and story review; ASR and measured signal support; no validated audio listening",
+  "viewed_evidence": [
+    "technical-review-2026-10-19/deep-review/motion/438/timeline-00.jpg",
+    "technical-review-2026-10-19/deep-review/motion/438/timeline-01.jpg",
+    "technical-review-2026-10-19/deep-review/motion/438/timeline-02.jpg",
+    "technical-review-2026-10-19/deep-review/motion/438/timeline-03.jpg",
+    "technical-review-2026-10-19/deep-review/audio/438-speech.json"
+  ],
+  "closer_windows": [],
+  "product_from_film": "SideShift pitches hiring many creators instead of one expensive influencer through a competitive boardroom comedy.",
+  "explains_well": "The single influencer versus creator team contrast gives the dialogue a clear business point.",
+  "unclear": "The phone shows the brand, but the film never shows how a company selects, briefs or manages the creator team.",
+  "product_type": "comedy positioning film",
+  "scenario": "Find and hire a team of creators for brand content.",
+  "product_clear_time": 48,
+  "product_clear_basis": "SideShift is named as the place where the team found creators.",
+  "scenes": [
+    {
+      "id": "V01",
+      "start": 0,
+      "end": 5,
+      "action": "A suited group sits around a boardroom table under the title Patrick Lateman Hires an Influencer. A hand prepares a phone.",
+      "design": "Letterboxed warm cinematic footage and large white title.",
+      "purpose": "Set up status competition.",
+      "evidence": "Visible chronological 1 fps samples, source 0–5s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V02",
+      "start": 5,
+      "end": 24,
+      "action": "A phone displays one influencer post; the suited speaker describes negotiation, audience and a $150,000 post and story. Others react.",
+      "design": "Phone insert and alternating medium and close reaction shots, with subtitles.",
+      "purpose": "Establish the expensive single-creator approach.",
+      "evidence": "Visible chronological 1 fps samples, source 5–24s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V03",
+      "start": 24,
+      "end": 41,
+      "action": "Another phone shows several creator videos. A colleague describes 300 creators, millions of reach and thousands of posts.",
+      "design": "Repeated phone framing and cyan emphasis words.",
+      "purpose": "Present the contrasting creator-team approach.",
+      "evidence": "Visible chronological 1 fps samples, source 24–41s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V04",
+      "start": 41,
+      "end": 59,
+      "action": "The first speaker reacts; a colleague holds up a cyan SideShift phone and describes a pool of 500,000 creators.",
+      "design": "Low-angle phone reveal and close reactions.",
+      "purpose": "Name the service and its scale claim.",
+      "evidence": "Visible chronological 1 fps samples, source 41–59s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V05",
+      "start": 59,
+      "end": 66,
+      "action": "A single drawn person becomes a group around the speaker while text emphasizes army.",
+      "design": "White doodle figures over live action and cyan lettering.",
+      "purpose": "Visualize one versus many.",
+      "evidence": "Visible chronological 1 fps samples, source 59–66s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V06",
+      "start": 66,
+      "end": 83,
+      "action": "An extended close-up shows the first speaker increasingly sweaty while subtitles discuss data and viral videos, followed by a colleague noticing his state.",
+      "design": "Tight face framing and held reaction.",
+      "purpose": "Turn the business contrast into comic defeat.",
+      "evidence": "Visible chronological 1 fps samples, source 66–83s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V07",
+      "start": 83,
+      "end": 92,
+      "action": "The speaker looks again at his original influencer post; closing text begins Don’t hire an influencer.",
+      "design": "Return to the same phone example and boardroom view.",
+      "purpose": "Resolve the comparison.",
+      "evidence": "Visible chronological 1 fps samples, source 83–92s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V08",
+      "start": 92,
+      "end": 99.349,
+      "action": "Hire an army of influencers appears, followed by SIDESHIFT.APP.",
+      "design": "Bold white lettering over dark blue gradient.",
+      "purpose": "State the positioning and destination.",
+      "evidence": "Visible chronological 1 fps samples, source 92–99.349s; boundary approximate; exact motion between samples unverified."
+    }
+  ],
+  "sound": [
+    {
+      "id": "A01",
+      "start": 0,
+      "end": 99.349,
+      "layer": "unknown",
+      "detail": "No validated direct audio listening was performed. Music, speech delivery, effects, mix and sync remain unknown, not absent.",
+      "visual_relation": "All visual scenes; audiovisual alignment unverified",
+      "evidence": "Visual samples only; no actual audio range supplied to this reviewer."
+    },
+    {
+      "id": "A02",
+      "start": 4.71,
+      "end": 93.82,
+      "layer": "ASR draft",
+      "detail": "The ASR draft coherently supports the boardroom comparison: an expensive single influencer is contrasted with a team found through SideShift. It also contains reach, cost and data-scale claims. A few short phrases are garbled and are not used as exact dialogue. Delivery, music and effects were not heard.",
+      "visual_relation": "Story text support; exact audiovisual alignment and delivery unverified.",
+      "evidence": "technical-review-2026-10-19/deep-review/audio/438-speech.json; local faster-whisper base CPU int8 draft; VAD candidates only, recognition errors possible."
+    }
+  ],
+  "categories": [
+    {
+      "id": "Q01",
+      "finding": "A prestige purchase is outdone by a creator team, leading to a brand reveal and a direct hiring slogan.",
+      "evidence": "V01–V08",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q02",
+      "finding": "A title over a boardroom immediately names influencer hiring and a comic character.",
+      "evidence": "V01",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q03",
+      "finding": "Brand marketers and creator buyers are addressed through the two hiring approaches; SideShift is named at about 48s.",
+      "evidence": "V02–V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q04",
+      "finding": "Phone inserts switch between creator posts, drawn figures multiply from one to a group, and emphasis text appears over otherwise restrained live action.",
+      "evidence": "V02–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q05",
+      "finding": "Alternating speaker and reaction cuts sustain the comparison. Reusing the original influencer post near the end closes the loop.",
+      "evidence": "V02–V07",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q06",
+      "finding": "Warm low-key boardroom lighting, suits, letterboxing and close faces give the comedy a formal cinematic look; cyan graphics mark the product claims.",
+      "evidence": "V01–V07",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q07",
+      "finding": "Subtitles carry nearly all dialogue. Cyan words highlight creator team and army; the final URL is large and held.",
+      "evidence": "V02–V08",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q08",
+      "finding": "The ASR draft coherently supports the boardroom comparison: an expensive single influencer is contrasted with a team found through SideShift. It also contains reach, cost and data-scale claims. A few short phrases are garbled and are not used as exact dialogue. Delivery, music and effects were not heard.",
+      "evidence": "A02",
+      "status": "uncertain",
+      "reason": "ASR text only; no validated listening, delivery or voice origin.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q09",
+      "finding": "Voice delivery, music, effects and audiovisual alignment were not established by this visual pass.",
+      "evidence": "A01",
+      "status": "not checked",
+      "reason": "No validated direct audio listening input.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q10",
+      "finding": "Voice delivery, music, effects and audiovisual alignment were not established by this visual pass.",
+      "evidence": "A01",
+      "status": "not checked",
+      "reason": "No validated direct audio listening input.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q11",
+      "finding": "Voice delivery, music, effects and audiovisual alignment were not established by this visual pass.",
+      "evidence": "A01",
+      "status": "not checked",
+      "reason": "No validated direct audio listening input.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q12",
+      "finding": "Boardroom cast, phone post inserts, simple doodles, subtitles and closing cards do most of the work.",
+      "evidence": "V01–V08",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q13",
+      "finding": "Manifest duration 99.349s; indexed dimensions 1920×1080. Source unchanged flag recorded; fresh encoding and audio clipping checks not run.",
+      "evidence": "Group manifest",
+      "status": "uncertain",
+      "reason": "Inherited technical metadata; no fresh media probe in this review.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q14",
+      "finding": "Subtitles make the business contrast understandable silently, though the characters’ delivery and soundtrack are unverified.",
+      "evidence": "V02–V08",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q15",
+      "finding": "Faces dominate the frame until phone inserts briefly supply examples; the cyan phone reveal makes the brand moment easy to locate.",
+      "evidence": "V02–V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q16",
+      "finding": "The long close-up from roughly 66–79s gives the reaction room, but adds little information about hiring or managing creators.",
+      "evidence": "V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q17",
+      "finding": "The opening influencer-hiring setup is answered with a team-hiring alternative, but the actual service interaction remains missing.",
+      "evidence": "V01,V08",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q18",
+      "finding": "Pride turns into visible discomfort and social defeat. This intended comic arc is supported by facial reactions and subtitles, not heard performance.",
+      "evidence": "V02–V07",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q19",
+      "finding": "One room, repeated participants and the returning original post make the comparison easy to follow.",
+      "evidence": "V02,V07",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q20",
+      "finding": "Creator counts, reach, cost advantage and data scale are dialogue claims. The film offers no campaign dashboard or matching cost-and-result comparison.",
+      "evidence": "V02–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q21",
+      "finding": "Cyan phone and text identify SideShift inside an otherwise cinematic parody; the final domain supplies a clear next step.",
+      "evidence": "V04,V08",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q22",
+      "finding": "Use some reaction time for one clear creator selection, brief and team-output screen.",
+      "evidence": "V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q23",
+      "finding": "Make two competing approaches concrete with the same physical prop, then return to the losing example at the end. Support claims with matched evidence.",
+      "evidence": "V02,V03,V07",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q24",
+      "finding": "SideShift pitches hiring many creators instead of one expensive influencer through a competitive boardroom comedy.",
+      "evidence": "Model reading from inspected images",
+      "status": "uncertain",
+      "reason": "Model-only new-viewer interpretation; no human test.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q25",
+      "finding": "Contact sheets inspected at displayed size; a phone-size playback, caption audit, flash audit and formal accessibility check were not performed.",
+      "evidence": "Viewed sheets",
+      "status": "not checked",
+      "reason": "Full-size moving-image and device checks unavailable in this pass.",
+      "experiment": "none"
+    }
+  ],
+  "lessons": {
+    "keep": "Use a repeated prop and reaction structure to make a business comparison memorable.",
+    "avoid": "Claiming that a bigger creator pool alone proves better campaign results.",
+    "open": "Creator counts, cost and reach claims, service workflow and sound remain unverified.",
+    "try": [
+      "For Tin, contrast one manually managed campaign with a clearly shown set of approved campaign outputs using the same brief.",
+      "Test a shorter reaction hold with a creator selection and brief screen inserted before the final slogan."
+    ]
+  },
+  "comparison": {
+    "story": "Set up status competition. → Establish the expensive single-creator approach. → Present the contrasting creator-team approach. → Name the service and its scale claim. → Visualize one versus many. → Turn the business contrast into comic defeat. → Resolve the comparison. → State the positioning and destination.",
+    "motion": "Phone inserts switch between creator posts, drawn figures multiply from one to a group, and emphasis text appears over otherwise restrained live action. Sampling scope: 1 fps unless a closer window is recorded.",
+    "sound": "No validated listening; unknown.",
+    "texture": "Letterboxed warm cinematic footage and large white title.; Phone insert and alternating medium and close reaction shots, with subtitles.; Repeated phone framing and cyan emphasis words.; Low-angle phone reveal and close reactions.; White doodle figures over live action and cyan lettering.; Tight face framing and held reaction.; Return to the same phone example and boardroom view.; Bold white lettering over dark blue gradient.",
+    "lesson": "Use a repeated prop and reaction structure to make a business comparison memorable."
+  },
+  "elements": [
+    {
+      "kind": "ui",
+      "name": "social post",
+      "events": [
+        "V02",
+        "V03",
+        "V07"
+      ]
+    },
+    {
+      "kind": "motion",
+      "name": "multiplying drawn figures",
+      "events": [
+        "V05"
+      ]
+    },
+    {
+      "kind": "texture",
+      "name": "cinematic boardroom footage",
+      "events": [
+        "V01",
+        "V02",
+        "V03",
+        "V04",
+        "V06",
+        "V07"
+      ]
+    }
+  ]
+}

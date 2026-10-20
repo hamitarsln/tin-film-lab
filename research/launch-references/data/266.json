@@ -1,0 +1,336 @@
+{
+  "id": 266,
+  "product_from_film": "Agentic Summer is presented as an Indian AI community event series with conferences, bootcamps, buildathons and a showcase.",
+  "explains_well": "Community footage and named event formats turn the broad national AI message into a recognizable gathering for builders.",
+  "unclear": "The film invites viewers to attend but gives no clear dates, city list, registration route or example of what participants will build.",
+  "product_type": "AI community event series",
+  "scenario": "National technology achievements and an AI question lead to a call for founders, developers and students to gather and build.",
+  "product_clear_time": 27,
+  "product_clear_basis": "Builder conferences, AI bootcamps and buildathons become explicit at 27–29s, supported by the script.",
+  "scenes": [
+    {
+      "start": 0,
+      "end": 11,
+      "action": "Rocket and Mars imagery, technology offices, payment QR codes and news interviews establish Indian technological achievements.",
+      "design": "Monochrome and color footage with tall serif captions.",
+      "purpose": "Set a national context.",
+      "evidence": "1 fps source samples in 0–11s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V01"
+    },
+    {
+      "start": 11,
+      "end": 21,
+      "action": "Dark code imagery introduces AI and a question about keeping up. Community gatherings follow, with founders and developers named and small founder images on white.",
+      "design": "Dark screen, meeting footage and image collage.",
+      "purpose": "Move from uncertainty to collective action.",
+      "evidence": "1 fps source samples in 11–21s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V02"
+    },
+    {
+      "start": 21,
+      "end": 30,
+      "action": "Summer text accompanies a running figure, stacked participant videos and a night-city view. City images precede conferences, AI bootcamps and buildathons.",
+      "design": "Large serif labels over gatherings and layered images.",
+      "purpose": "Name the event formats and geographic ambition.",
+      "evidence": "1 fps source samples in 21–30s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V03"
+    },
+    {
+      "start": 30,
+      "end": 37,
+      "action": "Cricket imagery precedes summit speakers and audiences. Text says India’s AI moment is here, leading it and see you there.",
+      "design": "Sports and public-event montage with captions.",
+      "purpose": "Build a shared invitation.",
+      "evidence": "1 fps source samples in 30–37s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V04"
+    },
+    {
+      "start": 37,
+      "end": 43,
+      "action": "Rocket launches, an aircraft and film-like character shots form a closing montage, ending on a bright frame.",
+      "design": "Mixed footage and bright transition state.",
+      "purpose": "Extend the national-energy finish.",
+      "evidence": "1 fps source samples in 37–43s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V05"
+    },
+    {
+      "start": 43,
+      "end": 47.113,
+      "action": "AGENTIC summer appears on dark red then black, followed by presented-by logos including Inner Circle.",
+      "design": "Serif title and organizer end card.",
+      "purpose": "Name the program and organizers.",
+      "evidence": "1 fps source samples in 43–47.113s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V06"
+    }
+  ],
+  "sound": [
+    {
+      "id": "A01",
+      "start": 0,
+      "end": 47.113,
+      "layer": "ASR draft / unknown",
+      "detail": "The draft coherently describes national achievements, the AI question, founders/developers/students and a summer program across major cities. Event names are garbled in ASR but readable in the images. Repetitive late lines after 36s do not explain the event and are not used to infer musical style or delivery. No validated listening, effects or sync assessment.",
+      "visual_relation": "V01–V04; late draft has limited information value.",
+      "evidence": "technical-review-2026-10-19/deep-review/audio/266-speech.json"
+    }
+  ],
+  "categories": [
+    {
+      "id": "Q01",
+      "finding": "National achievement → AI challenge → community → event formats → invitation → title.",
+      "evidence": "V01–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q02",
+      "finding": "A rocket and Mars view with large serif text frame national achievement; there is no event information yet.",
+      "evidence": "V01",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q03",
+      "finding": "Founders and developers are visible by 17–18s, with students in the draft. The event format becomes clear at 27–29s.",
+      "evidence": "V02,V03,A01",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q04",
+      "finding": "Caption states, stacked video rectangles and image collages carry the sequence; fast footage changes are visible but exact transition paths are unresolved.",
+      "evidence": "V01–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q05",
+      "finding": "The dark AI question gives way to bright community scenes; the film later uses sports and launches as associative bridges to the invitation.",
+      "evidence": "V02,V04,V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q06",
+      "finding": "Monochrome news, warm gatherings, white collage fields and a dark title mix documentary-looking and promotional imagery.",
+      "evidence": "V01–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q07",
+      "finding": "Tall serif text names the argument and event types, but some phrases span several brief shots. Practical attendance details are missing.",
+      "evidence": "V01–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q08",
+      "finding": "ASR provides a coherent program pitch through about 36s, with event-name errors resolved only from visible text. Delivery is unchecked.",
+      "evidence": "A01",
+      "status": "uncertain",
+      "reason": "Draft text only.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q09",
+      "finding": "Music character and structure are unverified.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "No validated listening.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q10",
+      "finding": "Effects and their sources are unverified.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "No validated listening; waveform peaks do not identify effects.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q11",
+      "finding": "Sound sync is unverified.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "No validated listening or paired audiovisual timing.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q12",
+      "finding": "News, technology, community, sports and film-like footage create a broad montage. Origins and licensing are not established.",
+      "evidence": "V01–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q13",
+      "finding": "Source duration 47.113 s; Watch metadata 1920 × 1080. Frame rate, audio clipping and export quality not checked here.",
+      "evidence": "Whole film",
+      "status": "supported",
+      "reason": "Parent source metadata supports duration and dimensions; visual review is sampled.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q14",
+      "finding": "Visual captions preserve the national challenge, audience and event formats; no silent route to registration is given.",
+      "evidence": "V01–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q15",
+      "finding": "Large serif labels direct attention, but people and busy footage sometimes compete with the changing words.",
+      "evidence": "V01–V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q16",
+      "finding": "The 47s film introduces history, AI, community and four formats; the final montage takes space that could hold attendance information.",
+      "evidence": "V01–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q17",
+      "finding": "The question about keeping up is answered by collective building and named events, though no completed participant project is shown.",
+      "evidence": "V02,V03",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q18",
+      "finding": "National pride and uncertainty turn into belonging and confidence; this is interpreted intent, not a measured response.",
+      "evidence": "V01–V06",
+      "status": "uncertain",
+      "reason": "Interpretation of montage and text.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q19",
+      "finding": "India and building recur across otherwise varied footage; there is no single participant journey.",
+      "evidence": "V01–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q20",
+      "finding": "Biggest-movement, every-major-city and leadership claims are promotional statements. Attendance, coverage and learning outcomes are not verified.",
+      "evidence": "V03,V04,A01",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q21",
+      "finding": "Indian technology, payments, cricket and local gatherings give the event a specific cultural context.",
+      "evidence": "V01–V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q22",
+      "finding": "Use part of the closing montage for concrete attendance information.",
+      "evidence": "V05,V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "Hold a card with cities, dates, registration address and one expected project outcome."
+    },
+    {
+      "id": "Q23",
+      "finding": "For Tin, pair a community invitation with a tangible participant artifact.",
+      "evidence": "V02,V03",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "Show a team arriving with a brief, building a campaign draft and leaving with a reviewed output."
+    },
+    {
+      "id": "Q24",
+      "finding": "No human new-viewer test was performed.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "The product summary is this model’s film-only reading.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q25",
+      "finding": "Mobile preview and accessibility checks were not performed.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "Contact sheets are evidence views, not a stated mobile preview or compliance test.",
+      "experiment": "none"
+    }
+  ],
+  "elements": [
+    {
+      "kind": "motion",
+      "name": "layered video collage",
+      "events": [
+        "V03"
+      ]
+    },
+    {
+      "kind": "motion",
+      "name": "large serif captions",
+      "events": [
+        "V01",
+        "V02",
+        "V03",
+        "V04"
+      ]
+    },
+    {
+      "kind": "texture",
+      "name": "monochrome news footage",
+      "events": [
+        "V01"
+      ]
+    },
+    {
+      "kind": "texture",
+      "name": "community gathering footage",
+      "events": [
+        "V02",
+        "V03"
+      ]
+    }
+  ],
+  "lessons": {
+    "keep": "Name the event formats over actual gathering imagery.",
+    "try": [
+      "Hold cities, dates, a registration address and one project outcome.",
+      "For Tin, show a participant moving from a brief to a reviewed campaign draft."
+    ],
+    "avoid": "Ending an attendance invitation without a clear next step.",
+    "open": "Event scale, dates, city coverage, participant outcomes, footage sources and audio remain unverified."
+  },
+  "comparison": {
+    "story": "National context → AI question → collective building invitation.",
+    "motion": "Serif captions and layered footage collage.",
+    "sound": "Coherent broad ASR pitch with errors and unrelated late fragments; no listening.",
+    "texture": "News, gatherings, sports and launch footage.",
+    "lesson": "An event montage needs practical attendance details after it creates belonging."
+  },
+  "reviewer_model": "gpt-6-astra",
+  "scope": "sampled visual and story review; ASR and measured signal support; no validated audio listening",
+  "viewed_evidence": [
+    "technical-review-2026-10-19/deep-review/motion/266/timeline-00.jpg",
+    "technical-review-2026-10-19/deep-review/motion/266/timeline-01.jpg"
+  ],
+  "closer_windows": []
+}

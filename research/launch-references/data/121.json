@@ -1,0 +1,361 @@
+{
+  "id": 121,
+  "product_from_film": "Odyssey presents world models as AI that learns from and simulates the physical world.",
+  "explains_well": "Books and text interfaces are contrasted with nature, physical experience and screens labeled as real-time simulation.",
+  "unclear": "No user workflow, interaction control or measured simulation accuracy is demonstrated.",
+  "product_type": "AI world-model research",
+  "scenario": "Explain learning from experience, then show varied world scenes inside simulation displays.",
+  "product_clear_time": 52,
+  "product_clear_basis": "Screens labeled Simulating in real-time appear around 52s; ASR draft explicitly names world models at 52–57s.",
+  "scenes": [
+    {
+      "start": 0,
+      "end": 10,
+      "action": "Hands open books on a desk, then map, computer and chatbot views appear under yellow writing-history captions.",
+      "design": "Paper, green cutting mat, old keyboard and soft warm light.",
+      "purpose": "Introduce recorded knowledge and text-based learning.",
+      "evidence": "1 fps source samples in 0–10s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V01"
+    },
+    {
+      "start": 10,
+      "end": 18,
+      "action": "Calculator and writing close-ups lead to a person at a computer, then a tree stump and large EXPERIENCE title.",
+      "design": "Yellow type changes from small sentences to a large blocky serif word.",
+      "purpose": "Contrast text with direct experience.",
+      "evidence": "1 fps source samples in 10–18s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V02"
+    },
+    {
+      "start": 18,
+      "end": 36,
+      "action": "Nature and human outdoor scenes show tree growth, a surfer, flowers, water and a child; SEEING, LISTENING, BUMPING and EXPERIENCING captions follow.",
+      "design": "Natural light, shallow-focus vegetation, ocean and bright yellow labels.",
+      "purpose": "Illustrate different kinds of experience; origin of clips unknown.",
+      "evidence": "1 fps source samples in 18–36s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V03"
+    },
+    {
+      "start": 36,
+      "end": 48,
+      "action": "A presenter sits on a stump in a forest. Brief matter, physics, sound and feeling images interrupt and return to him.",
+      "design": "Forest greens with yellow category titles.",
+      "purpose": "Explain the world-model premise in ASR draft while preserving the outdoor setting.",
+      "evidence": "1 fps source samples in 36–48s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V04"
+    },
+    {
+      "start": 48,
+      "end": 58,
+      "action": "A grid of world scenes carries THE WORLD text, then several old television-like screens show people, jellyfish, fire and beach scenes labeled Simulating in real-time.",
+      "design": "Rounded dark display housings and varied generated-looking imagery; method unverified.",
+      "purpose": "Present simulated-world examples and name world models in the draft speech.",
+      "evidence": "1 fps source samples in 48–58s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V05"
+    },
+    {
+      "start": 58,
+      "end": 65,
+      "action": "Presenter returns with a list including Robotics, Science, Gaming and Education.",
+      "design": "Small yellow list beside seated presenter.",
+      "purpose": "Suggest application areas rather than show working applications.",
+      "evidence": "1 fps source samples in 58–65s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V06"
+    },
+    {
+      "start": 65,
+      "end": 73,
+      "action": "Jellyfish and Newton-cradle-like desk imagery lead to REALITY text and a science-fiction doorway clip.",
+      "design": "Natural/physical imagery contrasted with a fictional environment.",
+      "purpose": "Connect physical understanding to imagined future applications.",
+      "evidence": "1 fps source samples in 65–73s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V07"
+    },
+    {
+      "start": 73,
+      "end": 83.54,
+      "action": "Presenter closes in the forest, then Odyssey mark remains centered on a dark grain-like field.",
+      "design": "Stable human framing and restrained white branding.",
+      "purpose": "End with exploration invitation in ASR and identify the company.",
+      "evidence": "1 fps source samples in 73–83.54s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V08"
+    }
+  ],
+  "sound": [
+    {
+      "id": "A01",
+      "start": 0,
+      "end": 83.54,
+      "layer": "ASR draft",
+      "detail": "Draft contrasts text learning with experience, names world models at 52–57s, and lists potential application fields. No validated listening; voice delivery, music, effects and sync unknown.",
+      "visual_relation": "V01–V08; topic timing support only.",
+      "evidence": "technical-review-2026-10-19/deep-review/audio/121-speech.json; all timestamped segment text inspected, no audio perception."
+    }
+  ],
+  "categories": [
+    {
+      "id": "Q01",
+      "finding": "Recorded knowledge → experience → world-model premise → simulation examples → potential fields → exploration close.",
+      "evidence": "V01–V08",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q02",
+      "finding": "An overhead book-and-workbench view opens with hands reaching to the book; product category is not yet clear.",
+      "evidence": "V01",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q03",
+      "finding": "World-model purpose becomes explicit around 52s through labeled simulation images and draft speech; target applications appear later.",
+      "evidence": "V05,V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q04",
+      "finding": "Book states, natural movement and changing simulated scenes are visible. Exact motion and simulation response are unresolved from 1 fps samples.",
+      "evidence": "V01,V03,V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q05",
+      "finding": "Yellow captions carry continuity across desk, nature, presenter and simulated-display scenes.",
+      "evidence": "V01–V07",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q06",
+      "finding": "Paper, wood, foliage and water give a physical material base; dark display housings frame simulation examples.",
+      "evidence": "V01,V03,V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q07",
+      "finding": "Large yellow EXPERIENCE and WORLD titles stand out. Small supporting sentences and application labels carry more specific meaning.",
+      "evidence": "V02,V05,V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q08",
+      "finding": "ASR draft names world models and potential uses; delivery, speaker identity and vocal character are unverified.",
+      "evidence": "A01",
+      "status": "uncertain",
+      "reason": "Transcript-only support.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q09",
+      "finding": "Music character and structure are unverified.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "No validated listening.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q10",
+      "finding": "Effects and their sources are unverified.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "No validated listening; waveform peaks do not identify effects.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q11",
+      "finding": "Sound sync is unverified.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "No validated listening or paired audiovisual timing.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q12",
+      "finding": "Natural-looking footage, presenter, a scene grid, display-framed examples and a science-fiction clip are mixed. Capture, generation and asset rights are unknown.",
+      "evidence": "V03–V07",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q13",
+      "finding": "Source duration 83.54 s; Watch metadata 1920 × 1080. Frame rate, audio clipping and export quality not checked here.",
+      "evidence": "Whole film",
+      "status": "supported",
+      "reason": "Parent source metadata supports duration and dimensions; visual review is sampled.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q14",
+      "finding": "Silent pictures communicate experience and simulation, but the exact world-model definition depends strongly on speech.",
+      "evidence": "V03,V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q15",
+      "finding": "Large yellow words create focal points over broad natural scenes; the simulation displays then isolate individual examples.",
+      "evidence": "V02,V03,V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q16",
+      "finding": "A long conceptual setup precedes about six seconds of labeled simulation examples. A longer concrete example could clarify capability.",
+      "evidence": "V01–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q17",
+      "finding": "The experience premise leads to simulated-world examples, but no learning process or interaction is shown directly.",
+      "evidence": "V02,V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q18",
+      "finding": "Nature and exploration imagery may invite curiosity and wonder; audience response and music contribution are unknown.",
+      "evidence": "V03,V07,V08",
+      "status": "uncertain",
+      "reason": "Visual interpretation, no viewer data.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q19",
+      "finding": "Forest presenter, physical materials and yellow typography connect the broad montage.",
+      "evidence": "V01–V08",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q20",
+      "finding": "Real-time simulation labels and varied examples are shown claims. Physical accuracy, interactivity and application performance are not independently checked.",
+      "evidence": "V05,V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q21",
+      "finding": "Yellow blocky serif words and the forest setting give a consistent identity before the Odyssey logo.",
+      "evidence": "V02–V08",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q22",
+      "finding": "One simulation with a visible control and changed state would add product meaning beyond the list of possible fields.",
+      "evidence": "V05,V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "Replace one application title with a single input, simulated response and clear label of what is live."
+    },
+    {
+      "id": "Q23",
+      "finding": "For Tin, let a concrete output carry the abstract idea, and show its input before widening to applications.",
+      "evidence": "V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "Show one campaign brief changing one generated scene, then identify the supported use."
+    },
+    {
+      "id": "Q24",
+      "finding": "No human new-viewer test was performed.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "The product summary is this model’s film-only reading.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q25",
+      "finding": "Mobile preview and accessibility checks were not performed.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "Contact sheets are evidence views, not a stated mobile preview or compliance test.",
+      "experiment": "none"
+    }
+  ],
+  "elements": [
+    {
+      "kind": "ui",
+      "name": "chatbot screen",
+      "events": [
+        "V01"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "simulation display",
+      "events": [
+        "V05"
+      ]
+    },
+    {
+      "kind": "texture",
+      "name": "nature footage",
+      "events": [
+        "V03",
+        "V07"
+      ]
+    },
+    {
+      "kind": "texture",
+      "name": "paper and books",
+      "events": [
+        "V01"
+      ]
+    },
+    {
+      "kind": "motion",
+      "name": "large text overlays",
+      "events": [
+        "V02",
+        "V03",
+        "V05"
+      ]
+    }
+  ],
+  "lessons": {
+    "keep": "Use concrete physical imagery to explain an abstract learning premise.",
+    "try": [
+      "Hold one simulation example longer and show a visible input followed by its response, clearly labeling what is live.",
+      "For Tin, use one brief and one changed visual output to explain generation before listing other applications."
+    ],
+    "avoid": "Treating a broad nature montage or real-time label as proof of accurate interactive world simulation.",
+    "open": "Simulation input, latency, physical consistency, availability, footage origins and audio remain unverified."
+  },
+  "comparison": {
+    "story": "Text history → experience → world-model explanation → simulation examples → future uses → exploration.",
+    "motion": "Natural action and changing display examples; no verified interaction timing.",
+    "sound": "ASR topic support only; no validated listening.",
+    "texture": "Paper, forest, water, retro display housings and yellow typography.",
+    "lesson": "Physical examples make an abstract premise approachable, but a controlled demo is still needed."
+  },
+  "reviewer_model": "gpt-6-astra",
+  "scope": "sampled visual and story review; ASR and measured signal support; no validated audio listening",
+  "viewed_evidence": [
+    "technical-review-2026-10-19/deep-review/motion/121/timeline-00.jpg",
+    "technical-review-2026-10-19/deep-review/motion/121/timeline-01.jpg",
+    "technical-review-2026-10-19/deep-review/motion/121/timeline-02.jpg"
+  ],
+  "closer_windows": []
+}

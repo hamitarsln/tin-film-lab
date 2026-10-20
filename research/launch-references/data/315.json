@@ -1,0 +1,342 @@
+{
+  "id": 315,
+  "product_from_film": "Lexius adds incident detection, phone alerts, footage search and case tracking to existing security cameras.",
+  "explains_well": "The same shop scene appears first without and then with tracking overlays, followed by a phone alert and review clip.",
+  "unclear": "The film jumps from detection to broader case and return-person claims without showing how a person reviews or corrects an alert.",
+  "product_type": "Security-camera analysis and alert software",
+  "scenario": "A shoplifting-themed example introduces detection, then footage search, case building, fall alerts and multi-store return tracking.",
+  "product_clear_time": 11,
+  "product_clear_basis": "Tracking overlays lead to a phone notification and review clip at 11s; existing-camera use is named at 14s.",
+  "scenes": [
+    {
+      "start": 0,
+      "end": 11,
+      "action": "Store-camera footage shows a person near shelves. Shoplifting goes unseen appears; the scene returns with a box and body-tracking lines, expands into a camera grid and leads to Shoplifting is over.",
+      "design": "Surveillance footage, green/red overlays and white title cards.",
+      "purpose": "Present a missed-event problem and detection claim.",
+      "evidence": "1 fps source samples in 0–11s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V01"
+    },
+    {
+      "start": 11,
+      "end": 18,
+      "action": "Phone mockups show an alert and review clip. Introducing Lexius leads to an installed camera and Using your existing cameras, then a person facing many feeds.",
+      "design": "Phone UI, physical camera and monitor wall.",
+      "purpose": "Connect detection to notification and existing hardware.",
+      "evidence": "1 fps source samples in 11–18s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V02"
+    },
+    {
+      "start": 18,
+      "end": 30,
+      "action": "Search footage for actions/anything appears. Many small camera clips spread across white, one grows larger, and Traceback any incident leads to a mall view.",
+      "design": "Floating clip tiles and gradient emphasis words.",
+      "purpose": "Present retrieval across camera footage.",
+      "evidence": "1 fps source samples in 18–30s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V03"
+    },
+    {
+      "start": 30,
+      "end": 36,
+      "action": "Build cases on autopilot accompanies a person card and incident list. A store clip shows a person falling; a later frame highlights the person with Fall Detected.",
+      "design": "Case timeline and red detection box.",
+      "purpose": "Extend from theft-themed alerts to case history and falls.",
+      "evidence": "1 fps source samples in 30–36s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V04"
+    },
+    {
+      "start": 36,
+      "end": 45,
+      "action": "An alert prompt and labels lead to Setup alerts for anything. A city view marks several stores with dated person cards under See when offenders return, then a tracked store feed appears.",
+      "design": "White prompt field, colored map outlines and person cards.",
+      "purpose": "Illustrate configurable alerts and cross-location history.",
+      "evidence": "1 fps source samples in 36–45s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V05"
+    },
+    {
+      "start": 45,
+      "end": 52.755,
+      "action": "Save time, Save money and Protect your people lead to Lexius and Your cameras, now intelligent.",
+      "design": "Purple/pink text and logo on white.",
+      "purpose": "Summarize benefits and identity.",
+      "evidence": "1 fps source samples in 45–52.755s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V06"
+    }
+  ],
+  "sound": [
+    {
+      "id": "A01",
+      "start": 0,
+      "end": 52.755,
+      "layer": "limited script support",
+      "detail": "The draft contains only the opening question about shoplifting being acceptable. It supports that opening theme, not narration for later features. No music, effects, voice delivery or synchronization was heard or verified.",
+      "visual_relation": "V01 only; the later explanation comes from visible text and UI.",
+      "evidence": "315-speech.json single draft segment at 3.3s; chronological visual samples."
+    }
+  ],
+  "categories": [
+    {
+      "id": "Q01",
+      "finding": "Missed event → detection and phone alert → existing-camera use → search/cases/other alerts → benefits.",
+      "evidence": "V01–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q02",
+      "finding": "The opening uses a concrete store-camera scene before the problem title.",
+      "evidence": "V01",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q03",
+      "finding": "Retail operators with existing cameras are clearly targeted by store scenes and explicit compatibility wording.",
+      "evidence": "V01,V02",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q04",
+      "finding": "Tracking boxes and pose lines change with the person; clip tiles and case/map cards accumulate across sampled states. Exact animation mechanics are unverified.",
+      "evidence": "V01,V03–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q05",
+      "finding": "The same store scene bridges untreated footage, detection overlay and phone review, giving the initial sequence continuity.",
+      "evidence": "V01,V02",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q06",
+      "finding": "Low-resolution camera footage contrasts with white UI and purple/pink brand text; detection uses green/red.",
+      "evidence": "V01–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q07",
+      "finding": "Large feature labels are clear. Small alert labels and case details receive less reading time.",
+      "evidence": "V02–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q08",
+      "finding": "One ASR question supports the opening theme; later script and all delivery are unknown.",
+      "evidence": "A01",
+      "status": "uncertain",
+      "reason": "Single draft segment, no validated listening.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q09",
+      "finding": "Music character and structure are unverified.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "No validated listening.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q10",
+      "finding": "Effects and their sources are unverified.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "No validated listening; waveform peaks do not identify effects.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q11",
+      "finding": "Sound sync is unverified.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "No validated listening or paired audiovisual timing.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q12",
+      "finding": "Surveillance-style clips, phone mockups, camera footage, map graphics and title cards are used. Their production sources are unverified.",
+      "evidence": "V01–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q13",
+      "finding": "Source duration 52.755 s; Watch metadata 1920 × 1080. Frame rate, audio clipping and export quality not checked here.",
+      "evidence": "Whole film",
+      "status": "supported",
+      "reason": "Parent source metadata supports duration and dimensions; visual review is sampled.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q14",
+      "finding": "Most features are named on screen and the initial alert chain can be understood visually.",
+      "evidence": "V01–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q15",
+      "finding": "Detection boxes direct attention to an event; the phone review and enlarged clip focus the next step.",
+      "evidence": "V01–V03",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q16",
+      "finding": "The first 18s establish detection and compatibility, then several features arrive in about 27s.",
+      "evidence": "V01–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q17",
+      "finding": "A phone review clip answers how an event reaches someone, but human review and resolution do not appear.",
+      "evidence": "V02",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q18",
+      "finding": "Problem/solution titles suggest urgency and reassurance. The absolute Shoplifting is over claim exceeds what the shown alert alone establishes.",
+      "evidence": "V01",
+      "status": "uncertain",
+      "reason": "Film wording and visual evidence, not measured audience response.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q19",
+      "finding": "Existing store cameras remain the recurring source across alerts, search and cases.",
+      "evidence": "V01–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q20",
+      "finding": "Detection accuracy, identity matching, compatibility and prevention are unverified claims. People shown are not independently established as offenders; that is the film’s labeling.",
+      "evidence": "V01,V04,V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q21",
+      "finding": "The camera-to-phone review sequence is a concrete mechanism within a broad security promise.",
+      "evidence": "V01,V02",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q22",
+      "finding": "Add the reviewer decision after the alert.",
+      "evidence": "V02",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "Show a person confirming or dismissing the event and the case updating accordingly."
+    },
+    {
+      "id": "Q23",
+      "finding": "For Tin, connect a detected issue to a reviewed action.",
+      "evidence": "V01,V02",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "Show a campaign warning, the exact preview evidence, an approved correction and the updated post."
+    },
+    {
+      "id": "Q24",
+      "finding": "No human new-viewer test was performed.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "The product summary is this model’s film-only reading.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q25",
+      "finding": "Mobile preview and accessibility checks were not performed.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "Contact sheets are evidence views, not a stated mobile preview or compliance test.",
+      "experiment": "none"
+    }
+  ],
+  "elements": [
+    {
+      "kind": "ui",
+      "name": "camera detection overlay",
+      "events": [
+        "V01",
+        "V04",
+        "V05"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "phone notification",
+      "events": [
+        "V02"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "video review",
+      "events": [
+        "V02",
+        "V03"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "case timeline",
+      "events": [
+        "V04"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "location map",
+      "events": [
+        "V05"
+      ]
+    }
+  ],
+  "lessons": {
+    "keep": "Reuse the same source scene through detection and notification.",
+    "try": [
+      "Show a reviewer confirming or dismissing an alert and its case update.",
+      "For Tin, take one warning through preview evidence, correction and updated post."
+    ],
+    "avoid": "Equating a detection alert with prevention or confirmed wrongdoing.",
+    "open": "Reviewer workflow, matching accuracy, compatibility, prevention outcomes and audio qualities remain unverified."
+  },
+  "comparison": {
+    "story": "Store event → detection → phone review → wider security features.",
+    "motion": "Tracking overlays, clip tiles and accumulated case/map cards.",
+    "sound": "One opening ASR question; no validated listening.",
+    "texture": "Surveillance imagery against clean white and gradient UI.",
+    "lesson": "A repeated incident makes the alert mechanism concrete; review and resolution would complete it."
+  },
+  "reviewer_model": "gpt-6-astra",
+  "scope": "sampled visual and story review; ASR and measured signal support; no validated audio listening",
+  "viewed_evidence": [
+    "technical-review-2026-10-19/deep-review/motion/315/timeline-00.jpg",
+    "technical-review-2026-10-19/deep-review/motion/315/timeline-01.jpg"
+  ],
+  "closer_windows": []
+}

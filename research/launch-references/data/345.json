@@ -1,0 +1,353 @@
+{
+  "id": 345,
+  "product_from_film": "Forum presents a market where users take long or short positions on the online attention around topics and cultural trends.",
+  "explains_well": "A consistent points/price/chart card overlays several recognizable topics, making attention into a recurring tradable object.",
+  "unclear": "The film does not explain how attention points are measured or how they relate to the displayed market price and a position’s outcome.",
+  "product_type": "Attention-trend trading market",
+  "scenario": "News and culture examples gain market cards, then the Forum page, a portfolio and a beta invitation explain the proposed trading opportunity.",
+  "product_clear_time": 44,
+  "product_clear_basis": "Earlier cards imply trading, but Forum is named and the attention-market proposition becomes explicit around 44–49s.",
+  "scenes": [
+    {
+      "start": 0,
+      "end": 15,
+      "action": "A search-bar phrase introduces 2026 events. News and social-feed imagery lead to an attention card with points, price, chart and long/short controls.",
+      "design": "News/social collage with white floating market card.",
+      "purpose": "Frame attention spikes as something visible before headlines.",
+      "evidence": "1 fps source samples in 0–15s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V01"
+    },
+    {
+      "start": 15,
+      "end": 26,
+      "action": "Toy and film-promotion clips receive matching topic cards; an interest-over-time chart appears.",
+      "design": "Celebrity/media footage and repeated card design.",
+      "purpose": "Extend the pattern across cultural subjects.",
+      "evidence": "1 fps source samples in 15–26s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V02"
+    },
+    {
+      "start": 26,
+      "end": 41,
+      "action": "Matcha clips show increasing card values, followed by awards footage and a Bad Bunny card with rising values.",
+      "design": "Rapid social/media images, green charts and white cards.",
+      "purpose": "Reinforce the attention-growth motif.",
+      "evidence": "1 fps source samples in 26–41s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V03"
+    },
+    {
+      "start": 41,
+      "end": 50,
+      "action": "Black title fragments ask about investing in it. A Forum page shows a featured market, chart and other topics; another card appears over a blue background.",
+      "design": "Simple question cards, light website and vivid blue/red backdrop.",
+      "purpose": "Name the platform and category.",
+      "evidence": "1 fps source samples in 41–50s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V04"
+    },
+    {
+      "start": 50,
+      "end": 58,
+      "action": "OpenClaw headlines and posts lead to a matching market card with increasing displayed values. A portfolio heading follows.",
+      "design": "Highlighted topic text and repeated long/short card.",
+      "purpose": "Connect early topic awareness to a position.",
+      "evidence": "1 fps source samples in 50–58s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V05"
+    },
+    {
+      "start": 58,
+      "end": 63,
+      "action": "A portfolio lists long and short positions with green gains. Sell all appears large while captions frame the market ambition.",
+      "design": "White portfolio rows and green action text.",
+      "purpose": "Suggest portfolio management and an exit action.",
+      "evidence": "1 fps source samples in 58–63s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V06"
+    },
+    {
+      "start": 63,
+      "end": 70.89,
+      "action": "A white orbit-like mark resolves to Forum on blue, with Try the Beta today and Invest in your Taste.",
+      "design": "Blue textured background and white identity.",
+      "purpose": "Close with beta invitation.",
+      "evidence": "1 fps source samples in 63–70.89s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V07"
+    }
+  ],
+  "sound": [
+    {
+      "id": "A01",
+      "start": 0,
+      "end": 70.89,
+      "layer": "script support only",
+      "detail": "ASR supports the trend montage, early-attention premise, investing question, trading proposition and beta CTA. Some topic names and a central phrase are missing/garbled; visible text supplies the category. News and event statements remain film claims. No narration delivery, music, effects or sync was heard or verified.",
+      "visual_relation": "V01–V07; draft connects examples to attention trading.",
+      "evidence": "345-speech.json draft and visible cards/captions."
+    }
+  ],
+  "categories": [
+    {
+      "id": "Q01",
+      "finding": "Attention examples → investment question → Forum → topic card → portfolio/exit → beta.",
+      "evidence": "V01–V07",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q02",
+      "finding": "A search phrase and topical news montage open with recognition rather than the product.",
+      "evidence": "V01",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q03",
+      "finding": "People who follow cultural and online trends are the implied audience; long/short controls presume trading interest.",
+      "evidence": "V01–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q04",
+      "finding": "Card values and charts change over different clips; portfolio and logo states follow. Exact chart timing and transition mechanics are unverified.",
+      "evidence": "V01–V07",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q05",
+      "finding": "The same white card bridges unrelated topics, providing visual consistency across the montage.",
+      "evidence": "V01–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q06",
+      "finding": "Varied media footage is unified by white cards, green positive charts and a blue identity field.",
+      "evidence": "V01–V07",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q07",
+      "finding": "Topic names and points dominate cards; price and percentage values are secondary. The relationship among those measures is not explained.",
+      "evidence": "V01–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q08",
+      "finding": "ASR supports the attention-to-trading argument with some missing words. Voice delivery and sound design are unknown.",
+      "evidence": "A01",
+      "status": "uncertain",
+      "reason": "Draft/caption support only.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q09",
+      "finding": "Music character and structure are unverified.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "No validated listening.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q10",
+      "finding": "Effects and their sources are unverified.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "No validated listening; waveform peaks do not identify effects.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q11",
+      "finding": "Sound sync is unverified.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "No validated listening or paired audiovisual timing.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q12",
+      "finding": "News, social and promotional-looking clips combine with composited market cards, website and portfolio views. Sources and live-product status are unverified.",
+      "evidence": "V01–V07",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q13",
+      "finding": "Source duration 70.89 s; Watch metadata 1920 × 1080. Frame rate, audio clipping and export quality not checked here.",
+      "evidence": "Whole film",
+      "status": "supported",
+      "reason": "Parent source metadata supports duration and dimensions; visual review is sampled.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q14",
+      "finding": "The repeated card and long/short buttons make the general proposition visible, but measurement and settlement remain unclear.",
+      "evidence": "V01–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q15",
+      "finding": "Floating white cards and green rising lines pull focus from the busy source clips.",
+      "evidence": "V01–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q16",
+      "finding": "The first 41s establish trends before Forum is named; the final 30s cover proposition, portfolio and CTA.",
+      "evidence": "V01–V07",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q17",
+      "finding": "The portfolio gives the trend cards an apparent outcome, but no entry trade or completed sale connects to it.",
+      "evidence": "V05,V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q18",
+      "finding": "Rising values and familiar topics suggest recognition and opportunity; viewer response is unmeasured.",
+      "evidence": "V01–V06",
+      "status": "uncertain",
+      "reason": "Visual and script interpretation only.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q19",
+      "finding": "The card format carries the same attention idea across toys, films, drinks, artists and technology.",
+      "evidence": "V01–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q20",
+      "finding": "News/event, return and market-positioning statements are unverified film claims. The title’s regulated status is not established by the visible film. Green gains are illustrative, not evidence of attainable returns.",
+      "evidence": "V01–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q21",
+      "finding": "Making each cultural topic a consistent market card explains the new category more directly than a slogan alone.",
+      "evidence": "V01–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q22",
+      "finding": "Explain one point-to-position example.",
+      "evidence": "V04–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "Show the attention measure, a chosen entry price and how one later change affects that same position."
+    },
+    {
+      "id": "Q23",
+      "finding": "For Tin, show how a trend signal changes an actual decision.",
+      "evidence": "V01–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "Take one topic signal into a campaign choice and a matching published artifact, with the metric defined."
+    },
+    {
+      "id": "Q24",
+      "finding": "No human new-viewer test was performed.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "The product summary is this model’s film-only reading.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q25",
+      "finding": "Mobile preview and accessibility checks were not performed.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "Contact sheets are evidence views, not a stated mobile preview or compliance test.",
+      "experiment": "none"
+    }
+  ],
+  "elements": [
+    {
+      "kind": "ui",
+      "name": "market card",
+      "events": [
+        "V01",
+        "V02",
+        "V03",
+        "V04",
+        "V05"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "line chart",
+      "events": [
+        "V01",
+        "V02",
+        "V03",
+        "V04",
+        "V05"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "portfolio table",
+      "events": [
+        "V06"
+      ]
+    },
+    {
+      "kind": "texture",
+      "name": "news and social collage",
+      "events": [
+        "V01",
+        "V02",
+        "V03",
+        "V05"
+      ]
+    }
+  ],
+  "lessons": {
+    "keep": "Use one repeated card to make an unfamiliar category concrete.",
+    "try": [
+      "Explain one attention measure, entry price and resulting position change.",
+      "For Tin, connect a defined trend signal to a campaign decision and published artifact."
+    ],
+    "avoid": "Letting rising charts stand in for an explained measurement and outcome.",
+    "open": "Attention calculation, pricing relationship, trade completion, legal status, returns and audio qualities remain unverified."
+  },
+  "comparison": {
+    "story": "Recognized trends → invest in attention → portfolio → beta.",
+    "motion": "Repeated cards with changing values across a media collage.",
+    "sound": "ASR supports the broad proposition; no validated listening.",
+    "texture": "Busy cultural clips, white market cards and blue brand field.",
+    "lesson": "A repeated object clarifies a new category, but its metric still needs a plain definition."
+  },
+  "reviewer_model": "gpt-6-astra",
+  "scope": "sampled visual and story review; ASR and measured signal support; no validated audio listening",
+  "viewed_evidence": [
+    "technical-review-2026-10-19/deep-review/motion/345/timeline-00.jpg",
+    "technical-review-2026-10-19/deep-review/motion/345/timeline-01.jpg",
+    "technical-review-2026-10-19/deep-review/motion/345/timeline-02.jpg"
+  ],
+  "closer_windows": []
+}

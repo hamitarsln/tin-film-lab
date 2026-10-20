@@ -1,0 +1,346 @@
+{
+  "id": 471,
+  "reviewer_model": "gpt-6-astra",
+  "scope": "sampled visual and story review; ASR and measured signal support; no validated audio listening",
+  "viewed_evidence": [
+    "technical-review-2026-10-19/deep-review/motion/471/timeline-00.jpg",
+    "astra-review-2026-10-20/evidence/group-2/471-21-25-4fps.jpg",
+    "technical-review-2026-10-19/deep-review/audio/471-speech.json"
+  ],
+  "closer_windows": [
+    {
+      "start": 21,
+      "end": 25,
+      "rate_fps": 4,
+      "evidence": [
+        "astra-review-2026-10-20/evidence/group-2/471-21-25-4fps.jpg"
+      ],
+      "resolved": "The right page lifts and turns, and a paper airplane appears during that motion before moving over the spread. A full step-by-step fold from the page into the plane is not visible."
+    }
+  ],
+  "product_from_film": "Perplexity presents video creation from a story prompt through a yellow bird and illustrated-book visualization.",
+  "explains_well": "The visible prompt and yellow-bird scene share a specific subject, giving the imaginative visuals a clear starting point.",
+  "unclear": "The film moves from a loading surface into a cinematic book scene without showing the finished video player or a real share action.",
+  "product_type": "creative feature film",
+  "scenario": "Ask for a children’s story video and share the result.",
+  "product_clear_time": 10,
+  "product_clear_basis": "A visible prompt asks to create a video about a yellow bird’s first flight.",
+  "scenes": [
+    {
+      "id": "V01",
+      "start": 0,
+      "end": 8,
+      "action": "People sit on small flower-covered islands in black space; layered dissolves move between them.",
+      "design": "Dark surroundings, isolated soft light and dreamlike overlapping figures.",
+      "purpose": "Introduce imagination and curiosity.",
+      "evidence": "Visible chronological 1 fps samples, source 0–8s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V02",
+      "start": 8,
+      "end": 15,
+      "action": "A seated user types into Perplexity on a laptop. A prompt asks for a children’s story video about a yellow bird’s first flight, followed by a dotted loading-like surface.",
+      "design": "Real laptop view becomes a dark UI close-up.",
+      "purpose": "Show the creative input.",
+      "evidence": "Visible chronological 1 fps samples, source 8–15s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V03",
+      "start": 15,
+      "end": 22,
+      "action": "A closed book opens on a flower-covered rock. Its illustrated bird rises from the page and leaves the spread.",
+      "design": "Softly lit three-dimensional book and watercolor-like illustration.",
+      "purpose": "Visualize the requested story.",
+      "evidence": "Visible chronological 1 fps samples, source 15–22s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V04",
+      "start": 22,
+      "end": 26,
+      "action": "A page lifts; a paper airplane appears during the turn and moves over the open illustrated pages.",
+      "design": "White paper forms against the dark floral setting.",
+      "purpose": "Represent sending the story.",
+      "evidence": "Visible chronological 1 fps samples, source 22–26s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V05",
+      "start": 26,
+      "end": 30.058,
+      "action": "Several flower islands and seated people appear together with the Perplexity wordmark, then fade.",
+      "design": "Small bright islands in black space and centered white identity.",
+      "purpose": "Return to shared curiosity and brand.",
+      "evidence": "Visible chronological 1 fps samples, source 26–30.058s; boundary approximate; exact motion between samples unverified."
+    }
+  ],
+  "sound": [
+    {
+      "id": "A01",
+      "start": 0,
+      "end": 30.058,
+      "layer": "unknown",
+      "detail": "No validated direct audio listening was performed. Music, speech delivery, effects, mix and sync remain unknown, not absent.",
+      "visual_relation": "All visual scenes; audiovisual alignment unverified",
+      "evidence": "Visual samples only; no actual audio range supplied to this reviewer."
+    },
+    {
+      "id": "A02",
+      "start": 0.66,
+      "end": 28.15,
+      "layer": "ASR draft",
+      "detail": "The coherent ASR draft asks for the yellow-bird story video, suggests sending it to a friend and closes on visualizing curiosity. It supports the input-to-story-to-sharing structure. The last brand transcription is incorrect; visible Perplexity branding controls. Music, delivery and effects were not heard.",
+      "visual_relation": "Story text support; exact audiovisual alignment and delivery unverified.",
+      "evidence": "technical-review-2026-10-19/deep-review/audio/471-speech.json; local faster-whisper base CPU int8 draft; VAD candidates only, recognition errors possible."
+    }
+  ],
+  "categories": [
+    {
+      "id": "Q01",
+      "finding": "Imaginative people lead to a specific prompt, a story visualization and a paper-plane sharing metaphor.",
+      "evidence": "V01–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q02",
+      "finding": "A softly lit seated person among flowers creates a visual curiosity hook before the software appears.",
+      "evidence": "V01",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q03",
+      "finding": "The prompt makes video generation clear for people who want to visualize stories. Access conditions are not stated in the film.",
+      "evidence": "V02",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q04",
+      "finding": "People and flower islands overlap through dissolves, a book opens and its bird rises, then a lifted page is followed by a paper airplane moving across the spread. The page-to-plane interval was checked at 4 fps; a complete folding mechanism is not visible.",
+      "evidence": "V01,V03–V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q05",
+      "finding": "The laptop grounds the fantasy section; a dark loading surface leads into the book, while the ending returns to the opening island motif.",
+      "evidence": "V01–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q06",
+      "finding": "Black negative space, glowing flowers, paper texture and watercolor-like illustrations create a quiet storybook world.",
+      "evidence": "V01,V03–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q07",
+      "finding": "The prompt is the key functional text. Most other meaning relies on imagery or the ASR-supported narration rather than visible instructions.",
+      "evidence": "V02–V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q08",
+      "finding": "The coherent ASR draft asks for the yellow-bird story video, suggests sending it to a friend and closes on visualizing curiosity. It supports the input-to-story-to-sharing structure. The last brand transcription is incorrect; visible Perplexity branding controls. Music, delivery and effects were not heard.",
+      "evidence": "A02",
+      "status": "uncertain",
+      "reason": "ASR text only; no validated listening, delivery or voice origin.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q09",
+      "finding": "Voice delivery, music, effects and audiovisual alignment were not established by this visual pass.",
+      "evidence": "A01",
+      "status": "not checked",
+      "reason": "No validated direct audio listening input.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q10",
+      "finding": "Voice delivery, music, effects and audiovisual alignment were not established by this visual pass.",
+      "evidence": "A01",
+      "status": "not checked",
+      "reason": "No validated direct audio listening input.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q11",
+      "finding": "Voice delivery, music, effects and audiovisual alignment were not established by this visual pass.",
+      "evidence": "A01",
+      "status": "not checked",
+      "reason": "No validated direct audio listening input.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q12",
+      "finding": "People, floral miniature-like settings, a laptop interface, animated book and paper airplane form the visible asset set. Their production pipeline is not verified.",
+      "evidence": "V01–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q13",
+      "finding": "Manifest duration 30.058s; indexed dimensions 1280×720. Source unchanged flag recorded; fresh encoding and audio clipping checks not run.",
+      "evidence": "Group manifest",
+      "status": "uncertain",
+      "reason": "Inherited technical metadata; no fresh media probe in this review.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q14",
+      "finding": "Silent viewers can connect the prompt to the yellow bird, but may read the paper plane only as decoration without the sending line.",
+      "evidence": "V02–V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q15",
+      "finding": "Isolated light keeps each person and then the book easy to locate; the prompt is much smaller than the later cinematic output.",
+      "evidence": "V01–V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q16",
+      "finding": "The film balances a short input view with a longer imaginative result, but omits the actual output and share controls.",
+      "evidence": "V02–V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q17",
+      "finding": "The requested bird story is answered visually. The claim of sending it to a friend is represented only through a paper plane.",
+      "evidence": "V02–V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q18",
+      "finding": "Soft flowers, paper and a first-flight story suggest gentle wonder. Sound and actual emotional response are unverified.",
+      "evidence": "V01–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q19",
+      "finding": "The yellow bird and floral world connect prompt and visualization. The transition into a book scene does not establish whether all shown imagery is the product output.",
+      "evidence": "V02–V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q20",
+      "finding": "A prompt and matching thematic result are visible, but generation time, exact output provenance, clip limits and successful sharing are not demonstrated.",
+      "evidence": "V02–V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q21",
+      "finding": "The Perplexity interface and final wordmark identify the brand; the island motif gives the feature film a consistent visual language.",
+      "evidence": "V01,V02,V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q22",
+      "finding": "Insert a short finished-video player and share confirmation between the book scene and final islands.",
+      "evidence": "V04–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q23",
+      "finding": "Choose one distinctive subject in the prompt and keep it recognizable in the result; distinguish the product output from surrounding brand animation.",
+      "evidence": "V02–V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q24",
+      "finding": "Perplexity presents video creation from a story prompt through a yellow bird and illustrated-book visualization.",
+      "evidence": "Model reading from inspected images",
+      "status": "uncertain",
+      "reason": "Model-only new-viewer interpretation; no human test.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q25",
+      "finding": "Contact sheets inspected at displayed size; a phone-size playback, caption audit, flash audit and formal accessibility check were not performed.",
+      "evidence": "Viewed sheets",
+      "status": "not checked",
+      "reason": "Full-size moving-image and device checks unavailable in this pass.",
+      "experiment": "none"
+    }
+  ],
+  "lessons": {
+    "keep": "Carry a specific prompt detail into the output so the result feels connected.",
+    "avoid": "Blurring the generated result with the launch film’s own visual effects.",
+    "open": "Output provenance, share completion, generation limits and actual sound remain unverified.",
+    "try": [
+      "For Tin, keep one requested product and campaign idea visible from prompt to finished creative.",
+      "Compare the paper-plane metaphor with a real share control followed by the same visual flourish."
+    ]
+  },
+  "comparison": {
+    "story": "Introduce imagination and curiosity. → Show the creative input. → Visualize the requested story. → Represent sending the story. → Return to shared curiosity and brand.",
+    "motion": "People and flower islands overlap through dissolves, a book opens and its bird rises, then a lifted page is followed by a paper airplane moving across the spread. The page-to-plane interval was checked at 4 fps; a complete folding mechanism is not visible. Sampling scope: 1 fps unless a closer window is recorded.",
+    "sound": "No validated listening; unknown.",
+    "texture": "Dark surroundings, isolated soft light and dreamlike overlapping figures.; Real laptop view becomes a dark UI close-up.; Softly lit three-dimensional book and watercolor-like illustration.; White paper forms against the dark floral setting.; Small bright islands in black space and centered white identity.",
+    "lesson": "Carry a specific prompt detail into the output so the result feels connected."
+  },
+  "elements": [
+    {
+      "kind": "ui",
+      "name": "prompt composer",
+      "events": [
+        "V02"
+      ]
+    },
+    {
+      "kind": "motion",
+      "name": "opening book",
+      "events": [
+        "V03"
+      ]
+    },
+    {
+      "kind": "motion",
+      "name": "paper airplane",
+      "events": [
+        "V04"
+      ]
+    },
+    {
+      "kind": "texture",
+      "name": "floral islands",
+      "events": [
+        "V01",
+        "V03",
+        "V04",
+        "V05"
+      ]
+    }
+  ]
+}

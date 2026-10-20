@@ -1,0 +1,350 @@
+{
+  "id": 247,
+  "product_from_film": "Salesgraph gathers sales context and prepares deal insights and collateral, delivered through a Slack interface to help representatives manage strategic deals.",
+  "explains_well": "The script identifies context retrieval and collateral building, while the later message example shows discovery gaps and action items.",
+  "unclear": "The film spends most of its time explaining the sales-support model but does not trace one source conversation into a recommendation, collateral asset or completed deal action.",
+  "product_type": "sales context and assistance platform",
+  "scenario": "A founder describes sales difficulties, a diagram explains traditional support roles, and Salesgraph is introduced as a connected layer delivering deal guidance in Slack.",
+  "product_clear_time": 20,
+  "product_clear_basis": "The inspected ASR explicitly says context retrieval and collateral building at 20s; the first concrete message output is much later at 79–81s.",
+  "scenes": [
+    {
+      "start": 0,
+      "end": 20,
+      "action": "A founder sits facing the camera in a home-like room. A lower third names Ruhan Ponnada, cofounder and CEO of Salesgraph; the shot remains largely fixed.",
+      "design": "Warm neutral room, framed artwork and simple presenter framing.",
+      "purpose": "Introduce the founder and sales problem through speech.",
+      "evidence": "1 fps source samples in 0–20s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V01"
+    },
+    {
+      "start": 20,
+      "end": 42,
+      "action": "The same presenter continues without a product insert or persistent explanatory captions.",
+      "design": "Steady medium close shot.",
+      "purpose": "State the product and connected-context argument in the script.",
+      "evidence": "1 fps source samples in 20–42s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V02"
+    },
+    {
+      "start": 42,
+      "end": 59,
+      "action": "Traditional sales is divided into Marketing, Outbound, and Strategy and Ops. Portrait circles are paired with slides, documents, call/email icons, lead lists, contracts and tool logos.",
+      "design": "Dark background, pale green cards and typed text.",
+      "purpose": "Map the existing support roles.",
+      "evidence": "1 fps source samples in 42–59s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V03"
+    },
+    {
+      "start": 59,
+      "end": 71,
+      "action": "The portraits give way to vertical/deal-size icons and a Deal Stage bar. Text says all three help build pipeline and none help it close.",
+      "design": "Simple progressive bar and sparse labels.",
+      "purpose": "Define the gap the product claims to address.",
+      "evidence": "1 fps source samples in 59–71s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V04"
+    },
+    {
+      "start": 71,
+      "end": 84,
+      "action": "Salesgraph logo leads to a ring of tool icons. A Salesgraph message lists discovery gaps and action items, including budget questions and next contacts. Calendar-like pricing-discussion cards follow.",
+      "design": "Integration icons, message output and small event cards.",
+      "purpose": "Show connected inputs and the form of deal assistance.",
+      "evidence": "1 fps source samples in 71–84s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V05"
+    },
+    {
+      "start": 84,
+      "end": 111,
+      "action": "The founder stands in another warm room with shelves and circular lights, continuing the pitch.",
+      "design": "Stable presenter view with little on-screen explanatory text.",
+      "purpose": "Summarize the unified-layer and rep-support promise.",
+      "evidence": "1 fps source samples in 84–111s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V06"
+    },
+    {
+      "start": 111,
+      "end": 116.099,
+      "action": "Salesgraph and salesgraph.com appear on black with a soft green glow.",
+      "design": "Minimal brand end card.",
+      "purpose": "Give the trial destination.",
+      "evidence": "1 fps source samples in 111–116.099s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V07"
+    }
+  ],
+  "sound": [
+    {
+      "id": "A01",
+      "start": 0,
+      "end": 116.099,
+      "layer": "ASR draft / unknown",
+      "detail": "The draft coherently describes strategic sales, context retrieval, collateral, data/tool connections and Slack delivery. Several names and source terms are garbled, and part of the marketing/outbound explanation is missing; visible diagrams support the broad categories. No validated listening, delivery, music, effects or sync assessment.",
+      "visual_relation": "V01–V07; the script carries much of V01,V02,V06.",
+      "evidence": "technical-review-2026-10-19/deep-review/audio/247-speech.json"
+    }
+  ],
+  "categories": [
+    {
+      "id": "Q01",
+      "finding": "Founder sales problem → product thesis → traditional roles/gap → integrations and message → support promise → URL.",
+      "evidence": "V01–V07",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q02",
+      "finding": "The founder opens directly with the problem in the ASR, but the image supplies only identity and room context.",
+      "evidence": "V01,A01",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q03",
+      "finding": "Sales representatives and strategic opportunities are clear in the script; context retrieval/collateral is named around 20s.",
+      "evidence": "V02,A01",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q04",
+      "finding": "Portraits, artifact icons, typed labels, a deal-stage bar and integration-ring states change; presenter sections remain visually stable.",
+      "evidence": "V03–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q05",
+      "finding": "The role diagram moves from people and artifacts to a gap, then the integration ring and Slack-like message propose a combined layer.",
+      "evidence": "V03–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q06",
+      "finding": "Warm live-action rooms contrast with dark diagrams and pale green accents.",
+      "evidence": "V01–V07",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q07",
+      "finding": "The diagrams contain explanatory copy, while the first 42s and 84–111s have little visible support for the spoken argument. Message details are small.",
+      "evidence": "V01–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q08",
+      "finding": "The draft provides the main product explanation, with rejected garbled names/phrases and a partial gap. Audible delivery remains unchecked.",
+      "evidence": "A01",
+      "status": "uncertain",
+      "reason": "ASR text only.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q09",
+      "finding": "Music character and structure are unverified.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "No validated listening.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q10",
+      "finding": "Effects and their sources are unverified.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "No validated listening; waveform peaks do not identify effects.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q11",
+      "finding": "Sound sync is unverified.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "No validated listening or paired audiovisual timing.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q12",
+      "finding": "Presenter footage is combined with abstract role diagrams and a message example; no production software is established.",
+      "evidence": "V01–V07",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q13",
+      "finding": "Source duration 116.099 s; Watch metadata 1280 × 720. Frame rate, audio clipping and export quality not checked here.",
+      "evidence": "Whole film",
+      "status": "supported",
+      "reason": "Parent source metadata supports duration and dimensions; visual review is sampled.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q14",
+      "finding": "Silent viewing can identify sales roles and a message output but loses much of the actual proposition during the long presenter sections.",
+      "evidence": "V01,V02,V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q15",
+      "finding": "The centered presenter and sparse diagrams are easy to locate visually; the message is the key concrete artifact and receives relatively little time.",
+      "evidence": "V01–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q16",
+      "finding": "About 42s passes before explanatory graphics; the concrete message arrives around 79s and is followed by another long presenter close.",
+      "evidence": "V01–V07",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q17",
+      "finding": "The sales problem is answered by a discovery/action list, but no source-to-recommendation or recommendation-to-result loop is completed.",
+      "evidence": "V01,V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q18",
+      "finding": "Founder presence and the team-behind-each-rep idea may communicate support; response is unmeasured.",
+      "evidence": "V01,V06",
+      "status": "uncertain",
+      "reason": "Interpretation of script and framing.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q19",
+      "finding": "The roles/gap explanation is coherent, but the product output is not tied to a specific deal input or changed action.",
+      "evidence": "V03–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q20",
+      "finding": "Broad tool coverage, agent scale, unified support and closing-deal benefits are film claims. Recommendation quality, integrations and sales results were not tested.",
+      "evidence": "V02,V05,V06,A01",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q21",
+      "finding": "The three-role map gives a specific organizational framing for the unified sales layer.",
+      "evidence": "V03,V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q22",
+      "finding": "Replace part of the presenter explanation with one deal example.",
+      "evidence": "V02,V05,V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "Show a call excerpt, the resulting discovery gap, a generated asset and the rep choosing the next action."
+    },
+    {
+      "id": "Q23",
+      "finding": "For Tin, let the input and output carry the product explanation early.",
+      "evidence": "V02,V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "Show the campaign context and one resulting brief or asset before describing the wider team of agents."
+    },
+    {
+      "id": "Q24",
+      "finding": "No human new-viewer test was performed.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "The product summary is this model’s film-only reading.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q25",
+      "finding": "Mobile preview and accessibility checks were not performed.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "Contact sheets are evidence views, not a stated mobile preview or compliance test.",
+      "experiment": "none"
+    }
+  ],
+  "elements": [
+    {
+      "kind": "ui",
+      "name": "message with action items",
+      "events": [
+        "V05"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "calendar event card",
+      "events": [
+        "V05"
+      ]
+    },
+    {
+      "kind": "motion",
+      "name": "sales role diagram",
+      "events": [
+        "V03"
+      ]
+    },
+    {
+      "kind": "motion",
+      "name": "deal stage bar",
+      "events": [
+        "V04"
+      ]
+    },
+    {
+      "kind": "motion",
+      "name": "integration icon ring",
+      "events": [
+        "V05"
+      ]
+    }
+  ],
+  "lessons": {
+    "keep": "Map the roles and artifacts a product brings together.",
+    "try": [
+      "Trace one call excerpt through a finding, asset and chosen action.",
+      "For Tin, show context and a resulting artifact before the wider agent-team explanation."
+    ],
+    "avoid": "Delaying the first concrete product output until late in a long founder pitch.",
+    "open": "Source linkage, output quality, integration coverage, deal results and audio remain unverified."
+  },
+  "comparison": {
+    "story": "Founder problem → sales-role map → unified context/message layer.",
+    "motion": "Role icons, bar and integration ring amid stable presenter shots.",
+    "sound": "Coherent broad ASR pitch with errors/gap; no listening.",
+    "texture": "Warm rooms, dark diagrams and pale green accents.",
+    "lesson": "A role map explains scope; one traceable deal example explains value."
+  },
+  "reviewer_model": "gpt-6-astra",
+  "scope": "sampled visual and story review; ASR and measured signal support; no validated audio listening",
+  "viewed_evidence": [
+    "technical-review-2026-10-19/deep-review/motion/247/timeline-00.jpg",
+    "technical-review-2026-10-19/deep-review/motion/247/timeline-01.jpg",
+    "technical-review-2026-10-19/deep-review/motion/247/timeline-02.jpg",
+    "technical-review-2026-10-19/deep-review/motion/247/timeline-03.jpg"
+  ],
+  "closer_windows": []
+}

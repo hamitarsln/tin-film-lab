@@ -1,0 +1,332 @@
+{
+  "id": 352,
+  "product_from_film": "Sponge gives agents financial accounts and lets service owners charge agents for API use.",
+  "explains_well": "The same four requests fail before the account appears and gain payment marks afterwards.",
+  "unclear": "The film does not follow one paid request through to a delivered result and matching receipt.",
+  "product_type": "Agent payment infrastructure",
+  "scenario": "An agent fails to purchase, trade, transfer and call a paid API, then gains an account; a service owner prices an endpoint and sees revenue.",
+  "product_clear_time": 16,
+  "product_clear_basis": "Give your agents financial accounts appears beside an account card at 16s.",
+  "scenes": [
+    {
+      "start": 0,
+      "end": 13,
+      "action": "A blue orb greets the viewer. Four request bubbles accumulate around it: headphones, a trade, agent payment and an API call. Refusal messages appear and the orb becomes red.",
+      "design": "White field, small chat bubbles and glossy colored orb.",
+      "purpose": "Make financial inability concrete through repeated tasks.",
+      "evidence": "1 fps source samples in 0–13s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V01"
+    },
+    {
+      "start": 13,
+      "end": 22,
+      "action": "Sponge is named. A dark financial card appears, then the orb returns blue. The same request bubbles gain blue payment marks while the card balance falls.",
+      "design": "Black account card, blue orb and repeated task labels.",
+      "purpose": "Present the account as the missing capability.",
+      "evidence": "1 fps source samples in 13–22s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V02"
+    },
+    {
+      "start": 22,
+      "end": 26,
+      "action": "A gateway panel accepts an endpoint, shows a $0.05 price and a Monetize control, then a setup state.",
+      "design": "Small form with explanatory heading.",
+      "purpose": "Introduce the service-owner side.",
+      "evidence": "1 fps source samples in 22–26s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V03"
+    },
+    {
+      "start": 26,
+      "end": 33,
+      "action": "A dashboard chart rises to $50 with agent rows. Captions say any endpoint can become a paid service and agents pay without human interaction.",
+      "design": "Green area chart and transaction-like rows.",
+      "purpose": "Show an illustrative revenue result.",
+      "evidence": "1 fps source samples in 26–33s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V04"
+    },
+    {
+      "start": 33,
+      "end": 41.141,
+      "action": "Financial infrastructure for the agent economy, Sponge and paysponge.com hold on white; the final samples are black from 39s.",
+      "design": "Simple centered brand and URL.",
+      "purpose": "Close the two-sided proposition.",
+      "evidence": "1 fps source samples in 33–41.141s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V05"
+    }
+  ],
+  "sound": [
+    {
+      "id": "A01",
+      "start": 0,
+      "end": 41.141,
+      "layer": "unknown",
+      "detail": "No speech draft is supplied. Voice, music, effects and sync remain unverified; this does not establish silence.",
+      "visual_relation": "V01–V05; no heard alignment.",
+      "evidence": "Manifest has no speech_draft; sampled visual review only."
+    }
+  ],
+  "categories": [
+    {
+      "id": "Q01",
+      "finding": "Failed requests → funded agent → priced endpoint → revenue → identity.",
+      "evidence": "V01–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q02",
+      "finding": "A small blue orb and greeting appear on a mostly empty white field. The financial problem arrives with later requests.",
+      "evidence": "V01",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q03",
+      "finding": "Agent builders and API/service owners are the two implied audiences. The account role is clear at 16s and gateway role at 23s.",
+      "evidence": "V02,V03",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q04",
+      "finding": "Orb color changes, task bubbles accumulate, the balance falls and the chart grows across sampled states. Exact paths/easing are unverified.",
+      "evidence": "V01–V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q05",
+      "finding": "The repeated request layout connects before and after; the shift to the gateway changes audience and task.",
+      "evidence": "V01–V03",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q06",
+      "finding": "Glossy blue/red orb contrasts with sparse white layouts and dark financial card.",
+      "evidence": "V01–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q07",
+      "finding": "Task bubbles explain failures and success marks; gateway captions explain the second feature. Small row text is less prominent than totals.",
+      "evidence": "V01–V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q08",
+      "finding": "Voice delivery is unverified.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "No validated listening.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q09",
+      "finding": "Music character and structure are unverified.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "No validated listening.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q10",
+      "finding": "Effects and their sources are unverified.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "No validated listening; waveform peaks do not identify effects.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q11",
+      "finding": "Sound sync is unverified.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "No validated listening or paired audiovisual timing.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q12",
+      "finding": "Illustrated agent, financial card, form and dashboard are presented without real-world footage. Product/live-data status is unverified.",
+      "evidence": "V01–V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q13",
+      "finding": "Source duration 41.141 s; Watch metadata 1920 × 1080. Frame rate, audio clipping and export quality not checked here.",
+      "evidence": "Whole film",
+      "status": "supported",
+      "reason": "Parent source metadata supports duration and dimensions; visual review is sampled.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q14",
+      "finding": "Visible requests, refusals, account caption and gateway form carry the broad proposition without verified audio.",
+      "evidence": "V01–V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q15",
+      "finding": "The orb stays central while requests surround it; later the account and green chart become focal objects.",
+      "evidence": "V01–V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q16",
+      "finding": "Four failures occupy 13s, followed by two product roles in about 20s. One complete transaction would clarify the connection.",
+      "evidence": "V01–V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q17",
+      "finding": "The opening inability is answered with the same requests and decreasing balance, but the requested outputs are not shown.",
+      "evidence": "V01,V02",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q18",
+      "finding": "Red refusals give way to blue activity and green revenue, suggesting relief and progress; audience response is unmeasured.",
+      "evidence": "V01–V04",
+      "status": "uncertain",
+      "reason": "Visual interpretation only.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q19",
+      "finding": "The repeated orb and request labels make the before/after easy to trace. The seller dashboard lacks a matching request identifier.",
+      "evidence": "V01–V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q20",
+      "finding": "Balances, payment marks and revenue are illustrative film evidence, not verified transactions or proof of autonomous operation.",
+      "evidence": "V02–V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q21",
+      "finding": "Four concrete financial failures and the two-sided gateway story provide more specificity than the broad infrastructure slogan.",
+      "evidence": "V01–V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q22",
+      "finding": "Connect one purchase to its result.",
+      "evidence": "V02–V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "Carry the scrape request through a priced call, returned data and a matching seller receipt."
+    },
+    {
+      "id": "Q23",
+      "finding": "For Tin, repeat one blocked action after a missing capability is added.",
+      "evidence": "V01,V02",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "Show a campaign blocked by a missing account connection, add that connection, then show the same campaign published with its result."
+    },
+    {
+      "id": "Q24",
+      "finding": "No human new-viewer test was performed.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "The product summary is this model’s film-only reading.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q25",
+      "finding": "Mobile preview and accessibility checks were not performed.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "Contact sheets are evidence views, not a stated mobile preview or compliance test.",
+      "experiment": "none"
+    }
+  ],
+  "elements": [
+    {
+      "kind": "ui",
+      "name": "chat",
+      "events": [
+        "V01",
+        "V02"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "financial account card",
+      "events": [
+        "V02"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "form",
+      "events": [
+        "V03"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "area chart",
+      "events": [
+        "V04"
+      ]
+    },
+    {
+      "kind": "texture",
+      "name": "glossy orb",
+      "events": [
+        "V01",
+        "V02"
+      ]
+    }
+  ],
+  "lessons": {
+    "keep": "Repeat the exact failed requests after introducing the enabling feature.",
+    "try": [
+      "Follow one paid API call to returned data and matching receipt.",
+      "For Tin, repeat a blocked campaign after account connection and show publication."
+    ],
+    "avoid": "Using balance and revenue changes as the only visible completion of a task.",
+    "open": "Transaction completion, account setup, gateway behavior and all audio qualities remain unverified."
+  },
+  "comparison": {
+    "story": "Financial refusals → account → service pricing → revenue.",
+    "motion": "Accumulating bubbles, orb color changes and changing numerical/chart states.",
+    "sound": "No speech draft; no validated listening.",
+    "texture": "White field, glossy orb, dark card and green chart.",
+    "lesson": "A repeated request makes a before/after concrete; its output should remain traceable."
+  },
+  "reviewer_model": "gpt-6-astra",
+  "scope": "sampled visual and story review; ASR and measured signal support; no validated audio listening",
+  "viewed_evidence": [
+    "technical-review-2026-10-19/deep-review/motion/352/timeline-00.jpg",
+    "technical-review-2026-10-19/deep-review/motion/352/timeline-01.jpg"
+  ],
+  "closer_windows": []
+}

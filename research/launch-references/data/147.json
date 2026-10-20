@@ -1,0 +1,314 @@
+{
+  "id": 147,
+  "reviewer_model": "gpt-6-astra",
+  "scope": "sampled visual and story review; ASR and measured signal support; no validated audio listening",
+  "viewed_evidence": [
+    "technical-review-2026-10-19/deep-review/motion/147/timeline-00.jpg"
+  ],
+  "closer_windows": [],
+  "product_from_film": "3Jane announces that JANE liquidity mining is live and gives a farm URL.",
+  "explains_well": "A consistent blue-and-white system connects financial history, crypto symbols and the launch card.",
+  "unclear": "The film does not explain depositing, rewards or the product’s mechanism.",
+  "product_type": "crypto liquidity announcement",
+  "scenario": "Visit the farm page for liquidity mining; action details are absent.",
+  "product_clear_time": 15,
+  "product_clear_basis": "JANE LIQUIDITY MINING IS LIVE appears in full.",
+  "scenes": [
+    {
+      "id": "V01",
+      "start": 0,
+      "end": 5,
+      "action": "A blue halftone portrait leads to magnified text/code-like symbols and a distorted metallic form.",
+      "design": "Cobalt blue, white, tiny technical margins and digital distortion.",
+      "purpose": "Establish a distinctive cyber-finance identity.",
+      "evidence": "Visible chronological 1 fps samples, source 0–5s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V02",
+      "start": 5,
+      "end": 11,
+      "action": "Wealth of Nations title page leads to an Ethereum paper, Ethereum symbol and a growing network of token-like nodes.",
+      "design": "Blue historical print, clean white background and blue graph forms.",
+      "purpose": "Associate the project with economic and crypto systems.",
+      "evidence": "Visible chronological 1 fps samples, source 5–11s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V03",
+      "start": 11,
+      "end": 20,
+      "action": "A pixelated face icon resolves above3Jane and JANE LIQUIDITY MINING IS LIVE. Letter states change as the announcement clears.",
+      "design": "Monospaced blue type and small peripheral annotations.",
+      "purpose": "State launch availability.",
+      "evidence": "Visible chronological 1 fps samples, source 11–20s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V04",
+      "start": 20,
+      "end": 27.6,
+      "action": "app.3jane.xyz/farm types in and holds under the face logo and 3Jane name.",
+      "design": "Sparse blue-on-white URL plate.",
+      "purpose": "Provide a direct destination.",
+      "evidence": "Visible chronological 1 fps samples, source 20–27.6s; boundary approximate; exact motion between samples unverified."
+    }
+  ],
+  "sound": [
+    {
+      "id": "A01",
+      "start": 0,
+      "end": 27.6,
+      "layer": "unknown",
+      "detail": "No validated direct audio listening was performed. Music, speech delivery, effects, mix and sync remain unknown, not absent.",
+      "visual_relation": "All visual scenes; audiovisual alignment unverified",
+      "evidence": "Visual samples only; no actual audio range supplied to this reviewer."
+    }
+  ],
+  "categories": [
+    {
+      "id": "Q01",
+      "finding": "Cyber identity and financial lineage lead to a live-liquidity announcement and URL.",
+      "evidence": "V01–V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q02",
+      "finding": "A large blue portrait and dense small annotations create immediate visual character without explaining the product.",
+      "evidence": "V01",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q03",
+      "finding": "The launch category becomes explicit at 15 s; mechanics remain absent.",
+      "evidence": "V03",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q04",
+      "finding": "The portrait gives way to magnified glyphs, a form distorts, the token graph expands and letters change. Exact transformations are unverified.",
+      "evidence": "V01–V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q05",
+      "finding": "Historical economic print transitions to Ethereum documentation and then a token network.",
+      "evidence": "V02",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q06",
+      "finding": "Cobalt/white, halftone portrait and monospaced labels give the whole film a coherent technical-print texture.",
+      "evidence": "V01–V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q07",
+      "finding": "The large announcement and URL are clear; peripheral code-like notes are too small to carry core meaning.",
+      "evidence": "V03,V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q08",
+      "finding": "Voice delivery, music, effects and audiovisual alignment were not established by this visual pass.",
+      "evidence": "A01",
+      "status": "not checked",
+      "reason": "No validated direct audio listening input.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q09",
+      "finding": "Voice delivery, music, effects and audiovisual alignment were not established by this visual pass.",
+      "evidence": "A01",
+      "status": "not checked",
+      "reason": "No validated direct audio listening input.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q10",
+      "finding": "Voice delivery, music, effects and audiovisual alignment were not established by this visual pass.",
+      "evidence": "A01",
+      "status": "not checked",
+      "reason": "No validated direct audio listening input.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q11",
+      "finding": "Voice delivery, music, effects and audiovisual alignment were not established by this visual pass.",
+      "evidence": "A01",
+      "status": "not checked",
+      "reason": "No validated direct audio listening input.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q12",
+      "finding": "Portrait, historical pages, crypto symbols and abstract 3D-like forms are combined; origins and production tools are unknown.",
+      "evidence": "V01,V02",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q13",
+      "finding": "Manifest duration 27.6 s; indexed dimensions 1280×720. Source unchanged flag recorded; fresh encoding and audio clipping checks not run.",
+      "evidence": "Group manifest",
+      "status": "uncertain",
+      "reason": "Inherited technical metadata; no fresh media probe in this review.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q14",
+      "finding": "The launch statement and URL communicate the main announcement without audio, but not how the service works.",
+      "evidence": "V03,V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q15",
+      "finding": "The center shifts from large portrait to graph, then settles on one announcement and one URL.",
+      "evidence": "V01–V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q16",
+      "finding": "About 11 s establish mood/history and the remaining 17 s emphasize launch and destination.",
+      "evidence": "V01–V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q17",
+      "finding": "The financial/crypto montage resolves into a specific liquidity-mining announcement.",
+      "evidence": "V02,V03",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q18",
+      "finding": "Economic and Ethereum references imply intellectual and ecosystem legitimacy; they do not establish endorsement.",
+      "evidence": "V02",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q19",
+      "finding": "Blue type, white space and the face mark unify the opening and closing identity.",
+      "evidence": "V01,V03,V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q20",
+      "finding": "Only availability is announced; no transaction, yield, audit or reward evidence is shown.",
+      "evidence": "V03,V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q21",
+      "finding": "The face icon and cobalt technical aesthetic make 3Jane recognizable.",
+      "evidence": "V01,V03",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q22",
+      "finding": "One deposit-to-reward diagram could replace part of the introductory montage to improve clarity.",
+      "evidence": "V01,V02",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q23",
+      "finding": "Tin can use one consistent color and a strong final destination while showing the actual campaign action before it.",
+      "evidence": "V03,V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q24",
+      "finding": "3Jane announces that JANE liquidity mining is live and gives a farm URL.",
+      "evidence": "Model reading from inspected images",
+      "status": "uncertain",
+      "reason": "Model-only new-viewer interpretation; no human test.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q25",
+      "finding": "Contact sheets inspected at displayed size; a phone-size playback, caption audit, flash audit and formal accessibility check were not performed.",
+      "evidence": "Viewed sheets",
+      "status": "not checked",
+      "reason": "Full-size moving-image and device checks unavailable in this pass.",
+      "experiment": "none"
+    }
+  ],
+  "lessons": {
+    "keep": "Keep launch copy and the destination visually simple after a complex intro.",
+    "avoid": "Avoid treating historical papers or ecosystem logos as product validation.",
+    "open": "Liquidity mechanism, current availability, financial outcomes, asset origins and audio remain unverified.",
+    "try": [
+      "Use a short Tin brand motif, then a clear campaign action and persistent signup URL.",
+      "Replace abstract network growth with a small input-to-output diagram tied to a real use case."
+    ]
+  },
+  "comparison": {
+    "story": "Establish a distinctive cyber-finance identity. → Associate the project with economic and crypto systems. → State launch availability. → Provide a direct destination.",
+    "motion": "The portrait gives way to magnified glyphs, a form distorts, the token graph expands and letters change. Exact transformations are unverified. Sampling scope: 1 fps unless a closer window is recorded.",
+    "sound": "No validated listening; unknown.",
+    "texture": "Cobalt blue, white, tiny technical margins and digital distortion.; Blue historical print, clean white background and blue graph forms.; Monospaced blue type and small peripheral annotations.; Sparse blue-on-white URL plate.",
+    "lesson": "Keep launch copy and the destination visually simple after a complex intro."
+  },
+  "elements": [
+    {
+      "kind": "texture",
+      "name": "halftone portrait",
+      "events": [
+        "V01"
+      ]
+    },
+    {
+      "kind": "texture",
+      "name": "historical print",
+      "events": [
+        "V02"
+      ]
+    },
+    {
+      "kind": "motion",
+      "name": "network graph",
+      "events": [
+        "V02"
+      ]
+    },
+    {
+      "kind": "motion",
+      "name": "changing typography",
+      "events": [
+        "V03",
+        "V04"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,378 @@
+{
+  "id": 15,
+  "viewed_evidence": [
+    "technical-review-2026-10-19/deep-review/motion/015/timeline-00.jpg",
+    "technical-review-2026-10-19/deep-review/motion/015/timeline-01.jpg",
+    "technical-review-2026-10-19/deep-review/motion/015/timeline-02.jpg",
+    "technical-review-2026-10-19/deep-review/audio/015-speech.json"
+  ],
+  "product_from_film": "GodHands says it learns team work by observing desktop tasks and turns experience into reusable playbooks.",
+  "explains_well": "The leaving-worker box makes lost knowledge concrete, and a shared playbook diagram shows the intended benefit.",
+  "unclear": "Chess dominates the explanation before a brief real business example; the capture-to-playbook operation is not demonstrated.",
+  "product_type": "business automation / knowledge capture",
+  "scenario": "Retain team know-how and reuse a privacy-ticket workflow.",
+  "product_clear_time": 29.1,
+  "product_clear_basis": "By 27–29.1 s captions state it learns how a team works by observing; 30–31.2 s adds desktop tasks.",
+  "scenes": [
+    {
+      "start": 0,
+      "end": 9.9,
+      "action": "A departing-person box and office view give way to recorder controls, work tabs, typing hands and a message asking where exceptions are logged.",
+      "design": "Warm physical objects and browser UI with large overlaid words.",
+      "purpose": "Establish missing work knowledge.",
+      "id": "V01",
+      "evidence": "Visible 1 fps samples, source 0–9.9 s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 9.9,
+      "end": 19.2,
+      "action": "Desk items collect in a box, which closes; handover and SOP papers lead to a calendar filled with crossed dates.",
+      "design": "Top-down paper, cardboard, lanyard, pen and calendar textures.",
+      "purpose": "Show knowledge leaving and reconstruction effort.",
+      "id": "V02",
+      "evidence": "Visible 1 fps samples, source 9.9–19.2 s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 19.2,
+      "end": 27,
+      "action": "Process papers and web references lead to employee badges, then glowing people at desks on black.",
+      "design": "Purple and white figure silhouettes, sparse bold captions.",
+      "purpose": "Introduce GodHands as a response.",
+      "id": "V03",
+      "evidence": "Visible 1 fps samples, source 19.2–27 s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 27,
+      "end": 39,
+      "action": "Split columns show piano, puzzle, chess and desktop work; a chessboard gains Context, Decisions and Edge cases labels with connecting lines.",
+      "design": "Photographic-looking inserts give way to dark diagram graphics.",
+      "purpose": "Explain learning by observing choices.",
+      "id": "V04",
+      "evidence": "Visible 1 fps samples, source 27–39 s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 39,
+      "end": 51,
+      "action": "The branching lines become a playbook diagram beside chess; a timeline and live-experience list grow below.",
+      "design": "Thin gold/purple traces and small labels on black.",
+      "purpose": "Represent reusable experience.",
+      "id": "V05",
+      "evidence": "Visible 1 fps samples, source 39–51 s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 51,
+      "end": 58.2,
+      "action": "No integrations card and calendar switch to glowing people and a racing-track analogy labeled old employee/new hire.",
+      "design": "Mixed text card, figure graphics and footage-like racing scene.",
+      "purpose": "State easier handover and faster learning.",
+      "id": "V06",
+      "evidence": "Visible 1 fps samples, source 51–58.2 s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 58.2,
+      "end": 62.9,
+      "action": "Export my data request connects through an agent to a privacy ticket form; the button state becomes Ticket created.",
+      "design": "Dark node diagram, cyan action button and green completion state.",
+      "purpose": "Give a business task example.",
+      "id": "V07",
+      "evidence": "Visible 1 fps samples, source 58.2–62.9 s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 62.9,
+      "end": 68.1,
+      "action": "Three separate request paths join one shared playbook; pending endpoints become Done.",
+      "design": "Three aligned rows collapse into a central reusable node.",
+      "purpose": "Show reuse across requests.",
+      "id": "V08",
+      "evidence": "Visible 1 fps samples, source 62.9–68.1 s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 68.1,
+      "end": 74.04,
+      "action": "GodHands lockup appears on cream and holds with small founder lines below.",
+      "design": "Blue mark, serif name and tiny attribution text.",
+      "purpose": "Close with identity.",
+      "id": "V09",
+      "evidence": "Visible 1 fps samples, source 68.1–74.04 s; boundaries approximate, between-frame action unresolved."
+    }
+  ],
+  "sound": [
+    {
+      "id": "A01",
+      "start": 0,
+      "end": 74.04,
+      "layer": "unknown",
+      "detail": "No validated audio listening; speech, music, effects, mix and sync remain unverified.",
+      "visual_relation": "All visual scenes; alignment not checked",
+      "evidence": "No actual audio supplied to this review; existing technical-review-2026-10-19/deep-review/audio/015.json is not listening evidence."
+    },
+    {
+      "id": "A02",
+      "start": 0,
+      "end": 71.15,
+      "layer": "ASR draft",
+      "detail": "Coherent candidate structure moves from lost workplace knowledge to observing tasks, a living knowledge base, playbooks and agent execution. College and desk-com are recognition errors; the brand rendering is not reliable.",
+      "visual_relation": "Candidate script support for the existing visual story; no hearing or delivery judgment.",
+      "evidence": "technical-review-2026-10-19/deep-review/audio/015-speech.json; existing faster-whisper base CPU int8; reviewed text segments"
+    }
+  ],
+  "categories": [
+    {
+      "finding": "Lost knowledge leads to observing work, reusable experience and repeatable requests.",
+      "evidence": "V01–V08",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q01"
+    },
+    {
+      "finding": "A box of desk belongings and Then someone leaves text appear immediately; office view follows.",
+      "evidence": "V01",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q02"
+    },
+    {
+      "finding": "Team knowledge capture is stated by 29.1 s; the exact working product interface is less clear than the conceptual diagrams.",
+      "evidence": "V04",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q03"
+    },
+    {
+      "finding": "Objects change into a packed box; diagrams add paths and labels; request branches converge on a shared node. Exact interpolation is unresolved.",
+      "evidence": "V02,V04,V08",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q04"
+    },
+    {
+      "finding": "Paper scenes switch to dark figures and chess diagrams, then return to a cream logo card. These are sampled scene changes, not verified transition mechanisms.",
+      "evidence": "V02–V04,V09",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q05"
+    },
+    {
+      "finding": "Cardboard, paper and photographed hands give tactile warmth; thin glowing lines on black make the explanation abstract.",
+      "evidence": "V02,V04,V05",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q06"
+    },
+    {
+      "finding": "Large captions explain claims; tiny chess labels and experience rows demand closer reading.",
+      "evidence": "V04–V05",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q07"
+    },
+    {
+      "finding": "Voice presence and delivery remain unverified.",
+      "evidence": "No validated audio listening",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q08"
+    },
+    {
+      "finding": "Music character and arc remain unverified.",
+      "evidence": "No validated audio listening",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q09"
+    },
+    {
+      "finding": "Sound effects remain unverified.",
+      "evidence": "No validated audio listening",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q10"
+    },
+    {
+      "finding": "Sound-to-motion timing remain unverified.",
+      "evidence": "No validated audio listening",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q11"
+    },
+    {
+      "finding": "Physical-looking props, desktop UI, stylized figures, chess graphics and racing footage are mixed; provenance unknown.",
+      "evidence": "V01–V06",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q12"
+    },
+    {
+      "finding": "Source duration supplied as 74.04 s; no independent compression, clipping or delivery check.",
+      "evidence": "Assigned metadata; source integrity checked by parent",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q13"
+    },
+    {
+      "finding": "Large captions preserve knowledge-loss and reuse claims silently; detailed chess logic remains harder to parse.",
+      "evidence": "V02,V05,V08",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q14"
+    },
+    {
+      "finding": "Box and large words focus the problem; chessboard and right-side diagram split attention in the middle.",
+      "evidence": "V02,V05",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q15"
+    },
+    {
+      "finding": "The middle changes metaphor from skills to chess to racing; each adds a new mental model before the privacy-ticket example.",
+      "evidence": "V04–V07",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q16"
+    },
+    {
+      "finding": "Knowledge leaving is answered with shared playbooks and Done statuses, but actual learning from a departed worker is not shown.",
+      "evidence": "V02,V08",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q17"
+    },
+    {
+      "finding": "Interpretation: closed box and crossed weeks suggest loss; shared knowledge and completed requests suggest recovery.",
+      "evidence": "V02,V08",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q18"
+    },
+    {
+      "finding": "Purple/gold lines link chess choices to playbooks; the same business request only appears near the end.",
+      "evidence": "V04–V08",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q19"
+    },
+    {
+      "finding": "Ticket-created and Done states demonstrate the claim visually; actual observation, capture accuracy and autonomous execution are untested.",
+      "evidence": "V07–V08",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q20"
+    },
+    {
+      "finding": "Glowing retained figures and the blue mark supply a motif; common paperwork imagery carries the broader problem.",
+      "evidence": "V03,V09",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q21"
+    },
+    {
+      "finding": "The racing analogy could be removed to give the privacy-ticket flow more time and a visible observed-work source.",
+      "evidence": "V06–V07",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q22"
+    },
+    {
+      "finding": "For Tin, record one team member handling a support request, then show the saved steps reused for a second request.",
+      "evidence": "V07–V08",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q23"
+    },
+    {
+      "finding": "No human new-viewer test; product description above is model interpretation of sampled images.",
+      "evidence": "V01–V09",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q24"
+    },
+    {
+      "finding": "No phone-size, safe-area or flash assessment; small UI text needs separate preview.",
+      "evidence": "Contact sheets",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q25"
+    }
+  ],
+  "lessons": {
+    "keep": "Use a physical box to make lost knowledge visible.",
+    "try": [
+      "For Tin team handover, show a departing owner’s brief, then the exact saved campaign steps retained in the product.",
+      "Replace the chess section with one privacy-request screen recording, a saved three-step playbook and a second completed request."
+    ],
+    "avoid": "Stacking several metaphors before one real business task.",
+    "open": "How observed actions become verified playbooks, and all music/voice/effect choices."
+  },
+  "comparison": {
+    "story": "Establish missing work knowledge. → Show knowledge leaving and reconstruction effort. → Introduce GodHands as a response. → Explain learning by observing choices. → Represent reusable experience. → State easier handover and faster learning. → Give a business task example. → Show reuse across requests. → Close with identity.",
+    "motion": "Objects change into a packed box; diagrams add paths and labels; request branches converge on a shared node. Exact interpolation is unresolved.",
+    "sound": "No validated listening; no absence claims.",
+    "texture": "Cardboard, paper and photographed hands give tactile warmth; thin glowing lines on black make the explanation abstract.",
+    "lesson": "Use a physical box to make lost knowledge visible."
+  },
+  "elements": [
+    {
+      "kind": "ui",
+      "name": "workflow diagram",
+      "events": [
+        "V07",
+        "V08"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "form",
+      "events": [
+        "V07"
+      ]
+    },
+    {
+      "kind": "motion",
+      "name": "branch convergence",
+      "events": [
+        "V08"
+      ]
+    },
+    {
+      "kind": "texture",
+      "name": "paper props",
+      "events": [
+        "V02"
+      ]
+    },
+    {
+      "kind": "texture",
+      "name": "glowing figures",
+      "events": [
+        "V03"
+      ]
+    }
+  ],
+  "reviewer_model": "gpt-6-astra",
+  "scope": "sampled visual and story review; ASR and measured signal support; no validated audio listening",
+  "closer_windows": []
+}

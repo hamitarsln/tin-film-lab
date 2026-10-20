@@ -1,0 +1,367 @@
+{
+  "id": 236,
+  "reviewer_model": "gpt-6-astra",
+  "scope": "sampled visual and story review; ASR and measured signal support; no validated audio listening",
+  "viewed_evidence": [
+    "technical-review-2026-10-19/deep-review/motion/236/timeline-00.jpg",
+    "technical-review-2026-10-19/deep-review/motion/236/timeline-01.jpg",
+    "technical-review-2026-10-19/deep-review/motion/236/timeline-02.jpg",
+    "technical-review-2026-10-19/deep-review/motion/236/timeline-03.jpg",
+    "technical-review-2026-10-19/deep-review/audio/236-speech.json"
+  ],
+  "closer_windows": [],
+  "product_from_film": "Astrocade is presented as a platform for playing, creating and sharing games.",
+  "explains_well": "The founders turn their creation claim into a small story where one makes a game and the other becomes distracted playing it.",
+  "unclear": "The game-making input and settings are too small to follow, so the film shows a creation claim and playable result without explaining the build step.",
+  "product_type": "game creation and discovery",
+  "scenario": "Browse games and make a game on a phone to share with another person.",
+  "product_clear_time": 17,
+  "product_clear_basis": "A phone gallery shows many game cards; later creator and founder scenes add the creation role.",
+  "scenes": [
+    {
+      "id": "V01",
+      "start": 0,
+      "end": 10,
+      "action": "A young man scrolls a phone on a train. A restaurant scene shows two people with phones; he then lies on a bed looking at his device.",
+      "design": "Cinematic everyday scenes with an Astrocade sign in the train background.",
+      "purpose": "Frame entertainment through familiar phone habits.",
+      "evidence": "Visible chronological 1 fps samples, source 0–10s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V02",
+      "start": 10,
+      "end": 18,
+      "action": "A search label becomes Astrocade. Purple light surrounds the man; the next wide bed view is empty except for a phone. A close-up reveals a colorful game gallery.",
+      "design": "Purple glow and a low camera move toward the phone.",
+      "purpose": "Present discovery as entering a new world; exact disappearance transition unverified.",
+      "evidence": "Visible chronological 1 fps samples, source 10–18s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V03",
+      "start": 18,
+      "end": 35,
+      "action": "A presenter stands beside the logo and laptop gallery. A 20,000,000 players in 6 months claim appears, then floating game panels, a creator counter, dense game cards and code.",
+      "design": "Hologram-like panels, large numeric claims and bright thumbnail montage.",
+      "purpose": "Establish scale and variety.",
+      "evidence": "Visible chronological 1 fps samples, source 18–35s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V04",
+      "start": 35,
+      "end": 46,
+      "action": "Code-like fragments give way to the presenter surrounded by money, then painting and martial-arts scenes paired with game previews. A game gallery and white figure lead back to the presenter.",
+      "design": "Money collage, physical creative actions and floating game cards.",
+      "purpose": "Invite creators with varied interests.",
+      "evidence": "Visible chronological 1 fps samples, source 35–46s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V05",
+      "start": 46,
+      "end": 64,
+      "action": "Two seated founders appear with name labels. Create and Share labels connect to a rising chart; a $56 MILLION card and Sequoia label follow.",
+      "design": "Stable interview scene with compact translucent graphics.",
+      "purpose": "Explain the platform and announce funding.",
+      "evidence": "Visible chronological 1 fps samples, source 46–64s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V06",
+      "start": 64,
+      "end": 83,
+      "action": "The founders continue talking while one uses a phone. A floating phone gallery changes to a dark creation-like screen. They exchange attention and a phone; a game appears behind them.",
+      "design": "Human interaction anchors a large vertical phone overlay.",
+      "purpose": "Turn the creation promise into a demonstration story.",
+      "evidence": "Visible chronological 1 fps samples, source 64–83s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V07",
+      "start": 83,
+      "end": 97.237,
+      "action": "One founder looks down at the phone while a road-style game changes behind them. They return attention to the camera and the star logo closes.",
+      "design": "Visible game progression behind a seated conversation.",
+      "purpose": "Show the created game as engaging entertainment.",
+      "evidence": "Visible chronological 1 fps samples, source 83–97.237s; boundary approximate; exact motion between samples unverified."
+    }
+  ],
+  "sound": [
+    {
+      "id": "A01",
+      "start": 0,
+      "end": 97.237,
+      "layer": "unknown",
+      "detail": "No validated direct audio listening was performed. Music, speech delivery, effects, mix and sync remain unknown, not absent.",
+      "visual_relation": "All visual scenes; audiovisual alignment unverified",
+      "evidence": "Visual samples only; no actual audio range supplied to this reviewer."
+    },
+    {
+      "id": "A02",
+      "start": 0.29,
+      "end": 95.23,
+      "layer": "ASR draft",
+      "detail": "The ASR draft moves from swiping entertainment to playing games, a creator reward invitation, founder introductions, a funding announcement and a scene where one founder makes a game during the interview. This supports the creation-to-distraction story. Names and several phrases are misrecognized; delivery, timing and financial claims are not verified.",
+      "visual_relation": "Story text support; exact audiovisual alignment and delivery unverified.",
+      "evidence": "technical-review-2026-10-19/deep-review/audio/236-speech.json; local faster-whisper base CPU int8 draft; VAD candidates only, recognition errors possible."
+    }
+  ],
+  "categories": [
+    {
+      "id": "Q01",
+      "finding": "Phone entertainment leads to a game portal, scale claims, creator invitation, founder announcement and a create-to-play gag.",
+      "evidence": "V01–V07",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q02",
+      "finding": "A train phone user and brand sign introduce a familiar habit before the platform is explained.",
+      "evidence": "V01",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q03",
+      "finding": "The game gallery identifies the entertainment offer around 17 s; creation becomes clearer in the founder section.",
+      "evidence": "V02,V05,V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q04",
+      "finding": "Purple glow, floating panels, numeric counters and changing game states give the film movement. Precise portal and fragment transitions are not established by 1 fps samples.",
+      "evidence": "V02–V04,V07",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q05",
+      "finding": "The first half changes worlds rapidly; the seated founders provide a stable setting for the final task story.",
+      "evidence": "V02–V07",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q06",
+      "finding": "Purple neon and glass-like game panels connect cinematic scenes with the app gallery.",
+      "evidence": "V02–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q07",
+      "finding": "Player and funding claims are large, while creation controls in the phone overlay are too small for exact reading.",
+      "evidence": "V03,V05,V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q08",
+      "finding": "The ASR draft moves from swiping entertainment to playing games, a creator reward invitation, founder introductions, a funding announcement and a scene where one founder makes a game during the interview. This supports the creation-to-distraction story. Names and several phrases are misrecognized; delivery, timing and financial claims are not verified.",
+      "evidence": "A02",
+      "status": "uncertain",
+      "reason": "ASR text only; no validated listening, delivery or voice origin.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q09",
+      "finding": "Voice delivery, music, effects and audiovisual alignment were not established by this visual pass.",
+      "evidence": "A01",
+      "status": "not checked",
+      "reason": "No validated direct audio listening input.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q10",
+      "finding": "Voice delivery, music, effects and audiovisual alignment were not established by this visual pass.",
+      "evidence": "A01",
+      "status": "not checked",
+      "reason": "No validated direct audio listening input.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q11",
+      "finding": "Voice delivery, music, effects and audiovisual alignment were not established by this visual pass.",
+      "evidence": "A01",
+      "status": "not checked",
+      "reason": "No validated direct audio listening input.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q12",
+      "finding": "Live-action scenes, money imagery, code fragments and floating game interfaces are mixed; source and software provenance are unknown.",
+      "evidence": "V01–V07",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q13",
+      "finding": "Manifest duration 97.237s; indexed dimensions 1920×1080. Source unchanged flag recorded; fresh encoding and audio clipping checks not run.",
+      "evidence": "Group manifest",
+      "status": "uncertain",
+      "reason": "Inherited technical metadata; no fresh media probe in this review.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q14",
+      "finding": "Game browsing and playing are visible. The claim of easy creation depends partly on the script because the actual input is unreadable.",
+      "evidence": "V02,V06,V07,A02",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q15",
+      "finding": "Bright game panels stand out from darker interview rooms, but multiple moving panels compete during the scale montage.",
+      "evidence": "V03,V05–V07",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q16",
+      "finding": "The first 46 s are visually dense; the last half stays with the founders and gives the creation anecdote more time.",
+      "evidence": "V01–V07",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q17",
+      "finding": "One founder making a game and the other playing it provides a human payoff to the platform claim.",
+      "evidence": "V06,V07",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q18",
+      "finding": "The interruption and shared play suggest delight and friendly rivalry; this is interpretation, not a claim about heard delivery.",
+      "evidence": "V06,V07",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q19",
+      "finding": "The same two people and phone setting connect creation to play, but the exact requested game and generated game cannot be matched from readable text.",
+      "evidence": "V06,V07",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q20",
+      "finding": "Player, creator, funding and reward amounts are claims shown or supported by draft text. The film does not expose generation input, edit steps or independent evidence for these numbers.",
+      "evidence": "V03–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q21",
+      "finding": "The creator invitation and founder game interruption are more specific than the general entertainment montage.",
+      "evidence": "V04,V06,V07",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q22",
+      "finding": "Enlarge one game prompt and its generated preview before the phone handoff so viewers can match intent and result.",
+      "evidence": "V06,V07",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q23",
+      "finding": "Tin can show a colleague interrupted by a useful generated result, while retaining a readable input and approval step.",
+      "evidence": "V06,V07",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q24",
+      "finding": "Astrocade is presented as a platform for playing, creating and sharing games.",
+      "evidence": "Model reading from inspected images",
+      "status": "uncertain",
+      "reason": "Model-only new-viewer interpretation; no human test.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q25",
+      "finding": "Contact sheets inspected at displayed size; a phone-size playback, caption audit, flash audit and formal accessibility check were not performed.",
+      "evidence": "Viewed sheets",
+      "status": "not checked",
+      "reason": "Full-size moving-image and device checks unavailable in this pass.",
+      "experiment": "none"
+    }
+  ],
+  "lessons": {
+    "keep": "Use a human handoff to make a generated result feel worth trying.",
+    "avoid": "Avoid making easy creation depend on unreadable controls and a spoken claim.",
+    "open": "Exact creation input, time-to-result, counters, funding/reward claims, effects production and all audio remain unverified.",
+    "try": [
+      "Show one person creating a Tin campaign and another opening its finished preview during a conversation.",
+      "Keep the creation prompt visible beside the result before returning to character reactions."
+    ]
+  },
+  "comparison": {
+    "story": "Frame entertainment through familiar phone habits. → Present discovery as entering a new world; exact disappearance transition unverified. → Establish scale and variety. → Invite creators with varied interests. → Explain the platform and announce funding. → Turn the creation promise into a demonstration story. → Show the created game as engaging entertainment.",
+    "motion": "Purple glow, floating panels, numeric counters and changing game states give the film movement. Precise portal and fragment transitions are not established by 1 fps samples. Sampling scope: 1 fps unless a closer window is recorded.",
+    "sound": "No validated listening; unknown.",
+    "texture": "Cinematic everyday scenes with an Astrocade sign in the train background.; Purple glow and a low camera move toward the phone.; Hologram-like panels, large numeric claims and bright thumbnail montage.; Money collage, physical creative actions and floating game cards.; Stable interview scene with compact translucent graphics.; Human interaction anchors a large vertical phone overlay.; Visible game progression behind a seated conversation.",
+    "lesson": "Use a human handoff to make a generated result feel worth trying."
+  },
+  "elements": [
+    {
+      "kind": "ui",
+      "name": "game gallery",
+      "events": [
+        "V02",
+        "V03",
+        "V04",
+        "V06"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "phone shell",
+      "events": [
+        "V06",
+        "V07"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "chart",
+      "events": [
+        "V05"
+      ]
+    },
+    {
+      "kind": "motion",
+      "name": "floating interface panels",
+      "events": [
+        "V03",
+        "V04",
+        "V06"
+      ]
+    },
+    {
+      "kind": "texture",
+      "name": "purple glow",
+      "events": [
+        "V02",
+        "V03"
+      ]
+    }
+  ]
+}

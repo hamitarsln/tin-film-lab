@@ -1,0 +1,354 @@
+{
+  "id": 169,
+  "viewed_evidence": [
+    "technical-review-2026-10-19/deep-review/motion/169/timeline-00.jpg",
+    "technical-review-2026-10-19/deep-review/motion/169/timeline-01.jpg",
+    "technical-review-2026-10-19/deep-review/motion/169/timeline-02.jpg",
+    "technical-review-2026-10-19/deep-review/audio/169-speech.json"
+  ],
+  "product_from_film": "Shift offers cleaning while recording work; the draft speech says the footage trains helpful robots.",
+  "explains_well": "The cap camera and first-person cleaning view make the data collection method visible.",
+  "unclear": "Free-service terms, recording permissions and actual robot learning are not demonstrated.",
+  "product_type": "robotics data service",
+  "scenario": "A cleaner arrives, cleans with a small wearable camera and the film invites booking.",
+  "product_clear_time": 33,
+  "product_clear_basis": "Cap-camera portrait is paired with a first-person sink-work view; robotics purpose comes from draft narration.",
+  "scenes": [
+    {
+      "start": 0,
+      "end": 8,
+      "action": "Uniformed cleaner knocks and waves; Shift logo appears, followed by New York skyline and three cleaning panels.",
+      "design": "White uniform/cap, orange brand accents and warm city light.",
+      "purpose": "Introduce home cleaning",
+      "id": "V01",
+      "evidence": "Visible 1 fps samples, source 0–8 s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 8,
+      "end": 15,
+      "action": "Presenter appears beside How is this possible, then in a framed talking-head view with name label.",
+      "design": "White margins and large orange slanted type.",
+      "purpose": "Raise and introduce explanation",
+      "id": "V02",
+      "evidence": "Visible 1 fps samples, source 8–15 s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 15,
+      "end": 25,
+      "action": "Older city/work imagery alternates with cleaning footage and presenter;10,000+ people appears.",
+      "design": "Archival-looking monochrome inserts, bright home and large metric.",
+      "purpose": "Claim scale and future relevance",
+      "id": "V03",
+      "evidence": "Visible 1 fps samples, source 15–25 s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 25,
+      "end": 40,
+      "action": "Logo treatments give way to cap-wearing workers; a forehead camera and sink-work view appear side by side, then a cap-camera closeup.",
+      "design": "Stacked photo cards and dual-view work footage.",
+      "purpose": "Show collection method",
+      "id": "V04",
+      "evidence": "Visible 1 fps samples, source 25–40 s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 40,
+      "end": 49,
+      "action": "Vacuuming and task clips appear under Plumbing, Building and Fixing; search bar leads to a booking-information page.",
+      "design": "Orange task words, rounded frames and small webpage.",
+      "purpose": "Broaden work types and show access",
+      "id": "V05",
+      "evidence": "Visible 1 fps samples, source 40–49 s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 49,
+      "end": 57,
+      "action": "Presenter and Hands the benefits back typography lead to Welcome to the shift.",
+      "design": "Orange emphasis and clean presenter composition.",
+      "purpose": "Restate participation benefit",
+      "id": "V06",
+      "evidence": "Visible 1 fps samples, source 49–57 s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 57,
+      "end": 62.954,
+      "action": "Join the shift holds, then shiftapp.nyc appears; final sample is darker.",
+      "design": "Small black/orange text on white.",
+      "purpose": "Give entry address",
+      "id": "V07",
+      "evidence": "Visible 1 fps samples, source 57–62.954 s; boundaries approximate, between-frame action unresolved."
+    }
+  ],
+  "sound": [
+    {
+      "id": "A01",
+      "start": 0,
+      "end": 62.954,
+      "layer": "unknown",
+      "detail": "No validated audio listening; speech, music, effects, mix and sync remain unverified.",
+      "visual_relation": "All visual scenes; alignment not checked",
+      "evidence": "No actual audio supplied to this review; existing technical-review-2026-10-19/deep-review/audio/169.json is not listening evidence."
+    },
+    {
+      "id": "A02",
+      "start": 2.698,
+      "end": 56.694,
+      "layer": "ASR draft",
+      "detail": "Three VAD windows supply a candidate explanation: free NYC cleaning, workers paid to record tasks with small cameras, and footage teaching robots. Some linking phrases are malformed; these remain film claims and not heard or verified facts.",
+      "visual_relation": "V01–V06; broad script support only",
+      "evidence": "technical-review-2026-10-19/deep-review/audio/169-speech.json; existing faster-whisper base CPU int8; text-only inspection."
+    }
+  ],
+  "categories": [
+    {
+      "finding": "Cleaning arrival leads to a how-is-this-possible question, recording method, other work categories and invitation.",
+      "evidence": "V01–V07",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q01"
+    },
+    {
+      "finding": "Uniformed worker knocks at a plain door; the immediate setting is an at-home service.",
+      "evidence": "V01",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q02"
+    },
+    {
+      "finding": "Cleaning is visible 7 s; paid recorded work is stated in small text 25 s and camera method shown 33 s. Robot-training purpose is supplied by draft speech 29–35 s.",
+      "evidence": "V01,V03,V04; ASR",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q03"
+    },
+    {
+      "finding": "Photo cards stack and shift, three cleaning panels share a frame and orange words build beside the presenter. Exact animation curves are not resolved.",
+      "evidence": "V01,V02,V04,V06",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q04"
+    },
+    {
+      "finding": "The split camera/wearer view connects equipment to recorded action; archival inserts provide a broader historical bridge.",
+      "evidence": "V03–V04",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q05"
+    },
+    {
+      "finding": "Warm clean-home footage, white card layouts and orange accents create a friendly service presentation; older monochrome inserts add history.",
+      "evidence": "V01–V06",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q06"
+    },
+    {
+      "finding": "Orange question and task words guide structure; no continuous narration captions appear, so some key mechanism depends on speech.",
+      "evidence": "V02,V04,V05",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q07"
+    },
+    {
+      "finding": "Voice presence and delivery remain unverified.",
+      "evidence": "No validated audio listening",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q08"
+    },
+    {
+      "finding": "Music character and arc remain unverified.",
+      "evidence": "No validated audio listening",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q09"
+    },
+    {
+      "finding": "Sound effects remain unverified.",
+      "evidence": "No validated audio listening",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q10"
+    },
+    {
+      "finding": "Sound-to-motion timing remain unverified.",
+      "evidence": "No validated audio listening",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q11"
+    },
+    {
+      "finding": "Cleaner/presenter footage, older city images, wearable-camera views and website screen are combined; source origins remain unverified.",
+      "evidence": "V01–V05",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q12"
+    },
+    {
+      "finding": "Source duration supplied as 62.954 s; no independent compression, clipping or delivery check.",
+      "evidence": "Assigned metadata; source integrity checked by parent",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q13"
+    },
+    {
+      "finding": "Cleaning and recording are visible silently, but free service and robot-training explanation are not fully captured by large text.",
+      "evidence": "V01,V04,V05",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q14"
+    },
+    {
+      "finding": "Side-by-side wearer and task footage guides attention from camera hardware to what it records.",
+      "evidence": "V04",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q15"
+    },
+    {
+      "finding": "Several logo treatments 25–28 s occupy time that could hold the recording/consent explanation.",
+      "evidence": "V04",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q16"
+    },
+    {
+      "finding": "The cleaning-arrival opening is answered by a service/recording mechanism, with a booking page and URL at the end.",
+      "evidence": "V01,V04,V05,V07",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q17"
+    },
+    {
+      "finding": "Friendly cleaner, aspirational city history and clean-home imagery suggest optimism about participation.",
+      "evidence": "V01,V03,V04; interpretation",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q18"
+    },
+    {
+      "finding": "White cap, uniform and orange Shift mark connect worker, hardware and logo scenes.",
+      "evidence": "V01,V04",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q19"
+    },
+    {
+      "finding": "Wearable camera and first-person work footage are shown; scale, free-service terms and robot improvement are film claims, not independently verified.",
+      "evidence": "V03–V05",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q20"
+    },
+    {
+      "finding": "Camera-equipped cleaning staff and paired recording views make the specific service distinct.",
+      "evidence": "V04",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q21"
+    },
+    {
+      "finding": "Shorten repeated brand treatments and add one clear recording-permission and booking confirmation state.",
+      "evidence": "V04–V05",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q22"
+    },
+    {
+      "finding": "For a data-collection service, pair the worker/equipment view with the captured output so the exchange is visible.",
+      "evidence": "V04",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q23"
+    },
+    {
+      "finding": "No human new-viewer test; product description above is model interpretation of sampled images.",
+      "evidence": "V01–V07",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q24"
+    },
+    {
+      "finding": "No phone-size, safe-area or flash assessment; small UI text needs separate preview.",
+      "evidence": "Contact sheets",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q25"
+    }
+  ],
+  "lessons": {
+    "keep": "Pair the data collector with the exact view being collected.",
+    "try": [
+      "For a field-research service, show the wearable device beside its recorded task view and a clear consent label.",
+      "Replace two logo variations with a booking step that names what is recorded and the participant benefit."
+    ],
+    "avoid": "Avoid making the recording trade-off depend only on narration.",
+    "open": "What is recorded, how is it controlled, and what evidence supports the training benefit?"
+  },
+  "comparison": {
+    "story": "Introduce home cleaning → Raise and introduce explanation → Claim scale and future relevance → Show collection method → Broaden work types and show access → Restate participation benefit → Give entry address",
+    "motion": "Photo cards stack and shift, three cleaning panels share a frame and orange words build beside the presenter. Exact animation curves are not resolved.",
+    "sound": "No validated listening; no absence claims.",
+    "texture": "Warm clean-home footage, white card layouts and orange accents create a friendly service presentation; older monochrome inserts add history.",
+    "lesson": "Pair the data collector with the exact view being collected."
+  },
+  "elements": [
+    {
+      "kind": "ui",
+      "name": "search",
+      "events": [
+        "V05"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "webpage",
+      "events": [
+        "V05"
+      ]
+    },
+    {
+      "kind": "motion",
+      "name": "split screen",
+      "events": [
+        "V04"
+      ]
+    },
+    {
+      "kind": "texture",
+      "name": "cleaning footage",
+      "events": [
+        "V01",
+        "V03",
+        "V04"
+      ]
+    }
+  ],
+  "reviewer_model": "gpt-6-astra",
+  "scope": "sampled visual and story review; ASR and measured signal support; no validated audio listening",
+  "closer_windows": []
+}

@@ -1,0 +1,362 @@
+{
+  "id": 386,
+  "product_from_film": "ElevenLabs presents audio creation tools and conversational agents alongside a funding announcement and research roadmap.",
+  "explains_well": "Separate Creative, Agents and API color panels organize a broad product portfolio.",
+  "unclear": "The airline conversation stops at an offer to help, so the agent’s action and customer outcome are not shown.",
+  "product_type": "Audio AI and conversational-agent platform",
+  "scenario": "Announce funding, demonstrate the start of an airline-support conversation and outline creator/enterprise products.",
+  "product_clear_time": 27,
+  "product_clear_basis": "Captions and product panels at 27–29s explicitly list text-to-speech, speech-to-text, sound effects and music.",
+  "scenes": [
+    {
+      "start": 0,
+      "end": 22,
+      "action": "$11B and a $500M funding statement appear, followed by two presenters and investor logos.",
+      "design": "White title cards, soft colored field and bright interview setting.",
+      "purpose": "Lead with company financing and partners.",
+      "evidence": "1 fps source samples in 0–22s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V01"
+    },
+    {
+      "start": 22,
+      "end": 35,
+      "action": "Presenters describe voice research. A collage shows V3, waveforms and media interfaces; Eleven Agents is named.",
+      "design": "Product collage and white brand card.",
+      "purpose": "Introduce audio capabilities and a conversational model.",
+      "evidence": "1 fps source samples in 22–35s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V02"
+    },
+    {
+      "start": 35,
+      "end": 48,
+      "action": "Airport-tower imagery sits behind Agent/User transcript lines: greeting, missed-flight concern and an offer to help.",
+      "design": "Dark teal/orange airport view and small white dialogue text.",
+      "purpose": "Provide a conversational example; sound expressiveness is unassessed here.",
+      "evidence": "1 fps source samples in 35–48s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V03"
+    },
+    {
+      "start": 48,
+      "end": 59,
+      "action": "Creative, Agents and API appear as colored vertical panels. Creative expands into a studio and media timeline with image/video preview.",
+      "design": "Red/orange gradient, white studio UI and timeline tracks.",
+      "purpose": "Explain the creator workspace.",
+      "evidence": "1 fps source samples in 48–59s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V04"
+    },
+    {
+      "start": 59,
+      "end": 68,
+      "action": "Agents dashboard and configuration cards appear on a green/blue field, followed by Talk, Type and Take action.",
+      "design": "White dashboard, configuration form and nested contour shapes.",
+      "purpose": "Explain the enterprise agent platform.",
+      "evidence": "1 fps source samples in 59–68s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V05"
+    },
+    {
+      "start": 68,
+      "end": 78,
+      "action": "A capability list leads to dialogue, a dotted world map with flags and an abstract particle form. Captions discuss future speech/dubbing/audio research.",
+      "design": "White feature list, monochrome gradients and dotted globe.",
+      "purpose": "Present research ambitions.",
+      "evidence": "1 fps source samples in 68–78s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V06"
+    },
+    {
+      "start": 78,
+      "end": 98,
+      "action": "Event stages, a robot, devices and summit imagery lead to partner/customer logos and a return to the presenters.",
+      "design": "Live-event-looking montage and white logo cards.",
+      "purpose": "Show ecosystem activity and thank users.",
+      "evidence": "1 fps source samples in 78–98s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V07"
+    },
+    {
+      "start": 98,
+      "end": 105.513,
+      "action": "Transforming human-technology interaction appears, then ElevenLabs identity holds.",
+      "design": "Minimal white closing card.",
+      "purpose": "Close the company narrative.",
+      "evidence": "1 fps source samples in 98–105.513s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V08"
+    }
+  ],
+  "sound": [
+    {
+      "id": "A01",
+      "start": 0,
+      "end": 105.513,
+      "layer": "ASR draft",
+      "detail": "Draft supports funding, audio-tool categories, the airline dialogue, creator/agent platforms and research ambitions. Several brand/model terms and roadmap phrases are garbled; captions clarify broad meaning. The airline exchange is text support only: expressiveness, human-likeness, turn latency, voices, music and SFX were not heard or verified.",
+      "visual_relation": "V01–V08; V03 is an audio-product example whose acoustic quality remains outside this pass.",
+      "evidence": "386-speech.json draft and visible captions/transcript; no validated listening."
+    }
+  ],
+  "categories": [
+    {
+      "id": "Q01",
+      "finding": "Funding → research/products → dialogue example → portfolio → roadmap → ecosystem thanks.",
+      "evidence": "V01–V08",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q02",
+      "finding": "$11B dominates a blurred colored field before a small funding sentence on white. The hook is company scale.",
+      "evidence": "V01",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q03",
+      "finding": "Creators and enterprises are addressed through separate product panels. Audio categories become explicit at 27s.",
+      "evidence": "V02,V04,V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q04",
+      "finding": "Collage panels resize/rearrange, UI cards shift, timeline layers separate and globe/particle states change. Exact paths/easing are unverified.",
+      "evidence": "V02,V04–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q05",
+      "finding": "Color panels separate product families and link their interfaces; the airport dialogue forms a distinct example between overview sections.",
+      "evidence": "V03–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q06",
+      "finding": "Soft colored gradients, white UI and bright presenter footage contrast with a dark airport demo and monochrome research imagery.",
+      "evidence": "V01–V08",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q07",
+      "finding": "Captions explain the pitch; portfolio labels structure it. Airline dialogue is small, while dashboard details are secondary to category labels.",
+      "evidence": "V02–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q08",
+      "finding": "ASR/captions support both presenter explanation and a short support dialogue. Expressiveness and voice quality cannot be assessed from text.",
+      "evidence": "A01",
+      "status": "uncertain",
+      "reason": "No validated listening of the audio-product demo.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q09",
+      "finding": "Music character and structure are unverified.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "No validated listening.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q10",
+      "finding": "Effects and their sources are unverified.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "No validated listening; waveform peaks do not identify effects.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q11",
+      "finding": "Sound sync is unverified.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "No validated listening or paired audiovisual timing.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q12",
+      "finding": "Presenter footage, product UI, airport imagery, event scenes and abstract graphics are combined. Asset origin and live-product status are unverified.",
+      "evidence": "V01–V08",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q13",
+      "finding": "Source duration 105.513 s; Watch metadata 1920 × 1080. Frame rate, audio clipping and export quality not checked here.",
+      "evidence": "Whole film",
+      "status": "supported",
+      "reason": "Parent source metadata supports duration and dimensions; visual review is sampled.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q14",
+      "finding": "Captions and UI explain the portfolio, but the claimed voice-quality improvement requires actual listening and the agent action is not shown.",
+      "evidence": "V02–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q15",
+      "finding": "Three colored product columns establish the portfolio, then one expands to focus on its interface.",
+      "evidence": "V04,V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q16",
+      "finding": "The 13s airline example introduces a need but stops before resolution; many product and research categories share the remaining overview.",
+      "evidence": "V03–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q17",
+      "finding": "Funding is tied to a research/product roadmap; the conversational-agent example does not complete its customer task.",
+      "evidence": "V01,V03,V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q18",
+      "finding": "Scale claims, investors and event montage suggest momentum; response is unmeasured.",
+      "evidence": "V01,V07",
+      "status": "uncertain",
+      "reason": "Visual/script interpretation only.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q19",
+      "finding": "Product colors and white UI distinguish Creative and Agents consistently, while the airport example is not revisited in the action section.",
+      "evidence": "V03–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q20",
+      "finding": "Funding, valuation, research leadership, expressiveness, adoption and roadmap statements are unverified film claims. Waveforms and transcripts do not establish acoustic quality or successful agent action.",
+      "evidence": "V01–V07",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q21",
+      "finding": "The audio-focused product family and color-coded portfolio are specific; a resolved voice-agent task would provide stronger differentiation.",
+      "evidence": "V02–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q22",
+      "finding": "Complete the support example.",
+      "evidence": "V03,V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "Carry the missed-flight exchange into a visible rebooking option and confirmed customer action, while keeping any timing claims measured."
+    },
+    {
+      "id": "Q23",
+      "finding": "For Tin, separate product roles with stable visual regions.",
+      "evidence": "V04,V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "Use distinct panels for planning, creation and execution, then carry one campaign through them to a final result."
+    },
+    {
+      "id": "Q24",
+      "finding": "No human new-viewer test was performed.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "The product summary is this model’s film-only reading.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q25",
+      "finding": "Mobile preview and accessibility checks were not performed.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "Contact sheets are evidence views, not a stated mobile preview or compliance test.",
+      "experiment": "none"
+    }
+  ],
+  "elements": [
+    {
+      "kind": "ui",
+      "name": "conversation transcript",
+      "events": [
+        "V03",
+        "V06"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "media timeline",
+      "events": [
+        "V04"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "dashboard",
+      "events": [
+        "V05"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "configuration form",
+      "events": [
+        "V05"
+      ]
+    },
+    {
+      "kind": "texture",
+      "name": "soft colored gradient",
+      "events": [
+        "V01",
+        "V04",
+        "V05"
+      ]
+    }
+  ],
+  "lessons": {
+    "keep": "Use stable colored panels to organize a broad portfolio.",
+    "try": [
+      "Finish the missed-flight conversation with a visible customer action/result.",
+      "For Tin, carry one campaign through distinct planning, creation and execution panels."
+    ],
+    "avoid": "Treating a transcript or waveform as evidence of improved audio quality.",
+    "open": "Audio quality, voice timing, agent task completion, company claims and exact motion remain unverified."
+  },
+  "comparison": {
+    "story": "Funding and research → products → future direction and ecosystem.",
+    "motion": "Portfolio panels, UI reframing, separated timeline layers and globe/particles.",
+    "sound": "ASR/transcript only; core audio-quality claims unassessed.",
+    "texture": "Soft gradients, white UI, airport atmosphere and event montage.",
+    "lesson": "Portfolio structure helps breadth, while a completed example supplies depth."
+  },
+  "reviewer_model": "gpt-6-astra",
+  "scope": "sampled visual and story review; ASR and measured signal support; no validated audio listening",
+  "viewed_evidence": [
+    "technical-review-2026-10-19/deep-review/motion/386/timeline-00.jpg",
+    "technical-review-2026-10-19/deep-review/motion/386/timeline-01.jpg",
+    "technical-review-2026-10-19/deep-review/motion/386/timeline-02.jpg",
+    "technical-review-2026-10-19/deep-review/motion/386/timeline-03.jpg"
+  ],
+  "closer_windows": []
+}

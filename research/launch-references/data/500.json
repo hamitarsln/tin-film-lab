@@ -1,0 +1,358 @@
+{
+  "id": 500,
+  "reviewer_model": "gpt-6-astra",
+  "scope": "sampled visual and story review; ASR and measured signal support; no validated audio listening",
+  "viewed_evidence": [
+    "technical-review-2026-10-19/deep-review/motion/500/timeline-00.jpg",
+    "technical-review-2026-10-19/deep-review/motion/500/timeline-01.jpg",
+    "astra-review-2026-10-20/evidence/group-2/500-animation-4fps.jpg"
+  ],
+  "closer_windows": [
+    {
+      "start": 32,
+      "end": 35,
+      "rate_fps": 4,
+      "evidence": [
+        "astra-review-2026-10-20/evidence/group-2/500-animation-4fps.jpg"
+      ],
+      "resolved": "Processing changes to a result thumbnail; the slide image briefly clears and returns. The image is also reframed, so this small sampled view does not support precise claims about animation smoothness or local movement."
+    }
+  ],
+  "product_from_film": "Gamma adds conversational image editing, quick image actions and animation within presentation pages.",
+  "explains_well": "The balloon image stays in the same page while requests change afternoon lighting and add balloons, making each edit easy to see.",
+  "unclear": "Animation is introduced through a button and brief results, but duration, motion control and export behavior are not explained.",
+  "product_type": "presentation image editing",
+  "scenario": "Edit a slide image through chat, remove a background and animate images.",
+  "product_clear_time": 13,
+  "product_clear_basis": "The selected balloon image changes to daytime after the visible request.",
+  "scenes": [
+    {
+      "id": "V01",
+      "start": 0,
+      "end": 4,
+      "action": "A glowing forest title introduces AI Image Editing with animation, followed by Chat directly with your AI.",
+      "design": "Purple-blue fantasy imagery and blue gradient title cards.",
+      "purpose": "Name the feature and interaction style.",
+      "evidence": "Visible chronological 1 fps samples, source 0–4s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V02",
+      "start": 4,
+      "end": 18,
+      "action": "A balloon-tour page selects its image and opens Chat with AI. Make this in the afternoon changes sunset scenery to bright day; And add more balloons produces several balloons in the same setting.",
+      "design": "Presentation canvas, quick-action menu and right-side image chat.",
+      "purpose": "Demonstrate two connected edits on one asset.",
+      "evidence": "Visible chronological 1 fps samples, source 4–18s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V03",
+      "start": 18,
+      "end": 28,
+      "action": "Use our quick actions leads to a historical-looking image receiving dramatic lighting, then a portrait uses Remove background and becomes a cutout.",
+      "design": "Repeated chat sidebar with clear before/after images.",
+      "purpose": "Show fast image transformations.",
+      "evidence": "Visible chronological 1 fps samples, source 18–28s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V04",
+      "start": 28,
+      "end": 39,
+      "action": "Animate is chosen for divers working with coral. A processing state and result thumbnail appear, the image briefly clears and returns, then lion and ocean examples follow.",
+      "design": "Slide images beside the image-chat process and output.",
+      "purpose": "Introduce animation within existing presentation content.",
+      "evidence": "Visible chronological 1 fps samples, source 28–39s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V05",
+      "start": 39,
+      "end": 48,
+      "action": "Create, Edit, Animate leads to company-name editing, an animal-animation prompt, branded stationery, a rocket image and animal results, ending with Surprise me.",
+      "design": "Fast interface and result montage with varied visual subjects.",
+      "purpose": "Broaden the creative possibilities.",
+      "evidence": "Visible chronological 1 fps samples, source 39–48s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V06",
+      "start": 48,
+      "end": 51.516,
+      "action": "Get your ideas out there appears over a pastel ocean and sky, then Gamma closes.",
+      "design": "Pink clouds, blue sky and stylized water.",
+      "purpose": "End on the creative invitation.",
+      "evidence": "Visible chronological 1 fps samples, source 48–51.516s; boundary approximate; exact motion between samples unverified."
+    }
+  ],
+  "sound": [
+    {
+      "id": "A01",
+      "start": 0,
+      "end": 51.516,
+      "layer": "unknown",
+      "detail": "No validated direct audio listening was performed. Music, speech delivery, effects, mix and sync remain unknown, not absent.",
+      "visual_relation": "All visual scenes; audiovisual alignment unverified",
+      "evidence": "Visual samples only; no actual audio range supplied to this reviewer."
+    }
+  ],
+  "categories": [
+    {
+      "id": "Q01",
+      "finding": "A feature title leads to conversational edits, quick actions, animation and a broader result montage.",
+      "evidence": "V01–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q02",
+      "finding": "A colorful forest and explicit feature title establish image editing and animation immediately.",
+      "evidence": "V01",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q03",
+      "finding": "People making presentations are the audience; the balloon result at 13s shows the actual editing value.",
+      "evidence": "V02",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q04",
+      "finding": "The view zooms between the slide and chat, prompts build, the balloon scene changes lighting and count, a portrait background disappears, and animation results return into their slide frames.",
+      "evidence": "V02–V05; 32–35s closer window",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q05",
+      "finding": "Keeping the image inside its original slide provides a stable comparison point through edits.",
+      "evidence": "V02–V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q06",
+      "finding": "Soft gradients, bright illustrative scenes and clean white editing panels give the film an approachable creative style.",
+      "evidence": "V01–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q07",
+      "finding": "Short prompts and quick-action labels are readable in close views. The later result montage is too fast to inspect each edit fully.",
+      "evidence": "V02–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q08",
+      "finding": "Voice delivery, music, effects and audiovisual alignment were not established by this visual pass.",
+      "evidence": "A01",
+      "status": "not checked",
+      "reason": "No validated direct audio listening input.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q09",
+      "finding": "Voice delivery, music, effects and audiovisual alignment were not established by this visual pass.",
+      "evidence": "A01",
+      "status": "not checked",
+      "reason": "No validated direct audio listening input.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q10",
+      "finding": "Voice delivery, music, effects and audiovisual alignment were not established by this visual pass.",
+      "evidence": "A01",
+      "status": "not checked",
+      "reason": "No validated direct audio listening input.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q11",
+      "finding": "Voice delivery, music, effects and audiovisual alignment were not established by this visual pass.",
+      "evidence": "A01",
+      "status": "not checked",
+      "reason": "No validated direct audio listening input.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q12",
+      "finding": "Presentation screens, image-chat panels, generated-looking imagery and gradient title cards are visible. Asset provenance is unverified.",
+      "evidence": "V01–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q13",
+      "finding": "Manifest duration 51.516s; indexed dimensions 1920×1080. Source unchanged flag recorded; fresh encoding and audio clipping checks not run.",
+      "evidence": "Group manifest",
+      "status": "uncertain",
+      "reason": "Inherited technical metadata; no fresh media probe in this review.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q14",
+      "finding": "Visible prompts and changed images explain the main editing chain without an available ASR draft.",
+      "evidence": "V02,V03",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q15",
+      "finding": "Close reframing directs attention from the chosen command to the affected image, with the slide context retained.",
+      "evidence": "V02–V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q16",
+      "finding": "The first two balloon edits receive the clearest pacing. Later edits and animation examples become progressively faster.",
+      "evidence": "V02–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q17",
+      "finding": "The balloon scene remains recognizable across both requests, and the portrait stays recognizable after background removal.",
+      "evidence": "V02,V03",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q18",
+      "finding": "Colorful scenes and the closing invitation suggest playful exploration. Actual audio mood is unknown.",
+      "evidence": "V01–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q19",
+      "finding": "The film shows selecting an image, issuing an edit and receiving a replacement. Animation controls beyond the basic command are not shown.",
+      "evidence": "V02–V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q20",
+      "finding": "The 4 fps underwater window confirms processing, a brief blank state and the returned image/result thumbnail. Fine animation quality and exact local movement are not reliably separable from reframing at this scale.",
+      "evidence": "V04; closer window 32–35s",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q21",
+      "finding": "The product context is visible throughout and Gamma is named clearly at the end.",
+      "evidence": "V02–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q22",
+      "finding": "Hold the animated image in a fixed close view and add one control for duration or movement before returning to the slide.",
+      "evidence": "V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q23",
+      "finding": "Keep an edited image in its final layout so users can compare both the change and its design context.",
+      "evidence": "V02,V03",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q24",
+      "finding": "Gamma adds conversational image editing, quick image actions and animation within presentation pages.",
+      "evidence": "Model reading from inspected images",
+      "status": "uncertain",
+      "reason": "Model-only new-viewer interpretation; no human test.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q25",
+      "finding": "Contact sheets inspected at displayed size; a phone-size playback, caption audit, flash audit and formal accessibility check were not performed.",
+      "evidence": "Viewed sheets",
+      "status": "not checked",
+      "reason": "Full-size moving-image and device checks unavailable in this pass.",
+      "experiment": "none"
+    }
+  ],
+  "lessons": {
+    "keep": "Demonstrate sequential edits on the same image within its final layout.",
+    "avoid": "Replacing a clear edit chain with a rapid result gallery before animation behavior is understood.",
+    "open": "Animation quality, duration controls, export behavior, generation time and audio remain unverified.",
+    "try": [
+      "For Tin, change time of day and product placement on one ad image while keeping the ad frame fixed.",
+      "Add a fixed before/after animation preview with a duration control to the underwater example."
+    ]
+  },
+  "comparison": {
+    "story": "Name the feature and interaction style. → Demonstrate two connected edits on one asset. → Show fast image transformations. → Introduce animation within existing presentation content. → Broaden the creative possibilities. → End on the creative invitation.",
+    "motion": "The view zooms between the slide and chat, prompts build, the balloon scene changes lighting and count, a portrait background disappears, and animation results return into their slide frames. Sampling scope: 1 fps unless a closer window is recorded.",
+    "sound": "No validated listening; unknown.",
+    "texture": "Purple-blue fantasy imagery and blue gradient title cards.; Presentation canvas, quick-action menu and right-side image chat.; Repeated chat sidebar with clear before/after images.; Slide images beside the image-chat process and output.; Fast interface and result montage with varied visual subjects.; Pink clouds, blue sky and stylized water.",
+    "lesson": "Demonstrate sequential edits on the same image within its final layout."
+  },
+  "elements": [
+    {
+      "kind": "ui",
+      "name": "image chat",
+      "events": [
+        "V02",
+        "V03",
+        "V04"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "quick-action menu",
+      "events": [
+        "V02",
+        "V03",
+        "V04"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "presentation canvas",
+      "events": [
+        "V02",
+        "V03",
+        "V04"
+      ]
+    },
+    {
+      "kind": "motion",
+      "name": "image replacement",
+      "events": [
+        "V02",
+        "V03"
+      ]
+    },
+    {
+      "kind": "texture",
+      "name": "pastel gradient",
+      "events": [
+        "V01",
+        "V06"
+      ]
+    }
+  ]
+}

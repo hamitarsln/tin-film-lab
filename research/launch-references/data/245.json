@@ -1,0 +1,344 @@
+{
+  "id": 245,
+  "product_from_film": "Saffron assesses engineering candidates using real repositories and AI tools, recording code changes and prompts for an evaluation report.",
+  "explains_well": "The film clearly contrasts conventional interview exercises with work on a real codebase using AI, then outlines repository selection, work and analysis.",
+  "unclear": "No specific candidate action is connected to a report finding, so the meaning of the scores and AI-reliance percentage remains vague.",
+  "product_type": "engineering hiring assessment",
+  "scenario": "AI coding and interview clips establish a hiring mismatch; founders explain real-codebase assessments and show illustrative tracking/report overlays.",
+  "product_clear_time": 31,
+  "product_clear_basis": "Real Codebase Real Tools appears at 31s after the hiring comparison; the draft already states candidate AI-use assessment at 13s.",
+  "scenes": [
+    {
+      "start": 0,
+      "end": 12,
+      "action": "Earth and code-statistic excerpts alternate with AI interview-tool footage, then a whiteboard graph-traversal interview appears under why hiring still looks like this wording.",
+      "design": "News/screen collage, serif captions and fast image changes.",
+      "purpose": "Establish a mismatch between AI-assisted work and old assessments.",
+      "evidence": "1 fps source samples in 0–12s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V01"
+    },
+    {
+      "start": 12,
+      "end": 24,
+      "action": "Saffron logo leads to two founders at a table, with names and roles, alternating close and wide views.",
+      "design": "Bright office, plants and purple/white branding.",
+      "purpose": "Introduce the team and motivation.",
+      "evidence": "1 fps source samples in 12–24s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V02"
+    },
+    {
+      "start": 24,
+      "end": 36,
+      "action": "A founder walks through an office. Other assessments Leetcode Grind appears on one side and Saffron Real Codebase Real Tools on the other.",
+      "design": "Large serif comparison text beside the presenter.",
+      "purpose": "State the practical differentiation.",
+      "evidence": "1 fps source samples in 24–36s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V03"
+    },
+    {
+      "start": 36,
+      "end": 44,
+      "action": "A GitHub repo field and work-trial selection overlay appear beside the founder. Another presenter is shown with code-like activity overlays.",
+      "design": "Light translucent interface elements over live action.",
+      "purpose": "Outline assessment setup and candidate-work tracking.",
+      "evidence": "1 fps source samples in 36–44s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V04"
+    },
+    {
+      "start": 44,
+      "end": 51,
+      "action": "A presenter appears beside categories such as REST API design and error handling, followed by metric cards including total prompts, session duration and AI reliance.",
+      "design": "Score/category text and translucent summary cards.",
+      "purpose": "Represent the assessment output.",
+      "evidence": "1 fps source samples in 44–51s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V05"
+    },
+    {
+      "start": 51,
+      "end": 63.266,
+      "action": "Three team members appear together under Hire 10x Engineers. We are making it easy and Saffron with trysaffron.ai follow, then black.",
+      "design": "Team shot and simple white/purple closing cards.",
+      "purpose": "State the hiring promise and next destination.",
+      "evidence": "1 fps source samples in 51–63.266s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V06"
+    }
+  ],
+  "sound": [
+    {
+      "id": "A01",
+      "start": 0,
+      "end": 63.266,
+      "layer": "ASR draft / unknown",
+      "detail": "The draft supports real-codebase assessments, repository selection, work trials, tracking edits/prompts and analyzing AI use. Several names and phrases are malformed, so visible Saffron labels supply the name and no exact opening percentage is treated as established fact. No validated listening, music, effects or delivery assessment.",
+      "visual_relation": "V01–V06; script-role support only.",
+      "evidence": "technical-review-2026-10-19/deep-review/audio/245-speech.json"
+    }
+  ],
+  "categories": [
+    {
+      "id": "Q01",
+      "finding": "AI-work shift → hiring mismatch → real-codebase assessment → tracked work → report → hire promise.",
+      "evidence": "V01–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q02",
+      "finding": "Code/news and interview-tool clips give the opening a topical problem, but several claims pass before their context can be read.",
+      "evidence": "V01",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q03",
+      "finding": "Hiring teams and engineering candidates are clearly implied; real-codebase/AI-tool assessment is explicit by 31s.",
+      "evidence": "V03,V04,A01",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q04",
+      "finding": "Rapid opening montage gives way to presenter shots and appearing comparison/metric overlays; exact transitions are unchecked.",
+      "evidence": "V01–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q05",
+      "finding": "The whiteboard interview is answered by Real Codebase Real Tools, a direct problem/solution contrast.",
+      "evidence": "V01,V03",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q06",
+      "finding": "Bright office footage, purple serif branding and pale overlays create a restrained presentation after the busy opening.",
+      "evidence": "V02–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q07",
+      "finding": "The large comparison is readable. Fine code overlays and assessment cards are less explanatory without an example attached.",
+      "evidence": "V03–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q08",
+      "finding": "The coherent ASR explains the workflow, with garbled names and some incomplete clauses. Audio qualities are unknown.",
+      "evidence": "A01",
+      "status": "uncertain",
+      "reason": "ASR draft only.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q09",
+      "finding": "Music character and structure are unverified.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "No validated listening.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q10",
+      "finding": "Effects and their sources are unverified.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "No validated listening; waveform peaks do not identify effects.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q11",
+      "finding": "Sound sync is unverified.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "No validated listening or paired audiovisual timing.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q12",
+      "finding": "Screen/news clips, founder footage and graphic UI overlays are mixed. Actual product-screen versus illustrative-overlay status is not fully established.",
+      "evidence": "V01–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q13",
+      "finding": "Source duration 63.266 s; Watch metadata 1930 × 1080. Frame rate, audio clipping and export quality not checked here.",
+      "evidence": "Whole film",
+      "status": "supported",
+      "reason": "Parent source metadata supports duration and dimensions; visual review is sampled.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q14",
+      "finding": "Silent viewing communicates real-codebase hiring and report metrics, but the meaning of individual scores is unresolved.",
+      "evidence": "V03–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q15",
+      "finding": "Large comparison text makes the central difference clear; translucent report elements compete with the presenter.",
+      "evidence": "V03,V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q16",
+      "finding": "A 12s problem opening is followed by roughly 24s of team/positioning, then about 15s of setup and report before closing.",
+      "evidence": "V01–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q17",
+      "finding": "The old hiring exercise resolves into a proposed real-work assessment, but no candidate decision or hiring outcome is demonstrated.",
+      "evidence": "V01,V03–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q18",
+      "finding": "Founders and real-work wording may suggest practical familiarity; actual employer trust is unmeasured.",
+      "evidence": "V02,V03",
+      "status": "uncertain",
+      "reason": "Interpretation of presentation.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q19",
+      "finding": "The repository→work→analysis sequence is clear at a high level, but the link between captured behavior and evaluation is missing.",
+      "evidence": "V04,V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q20",
+      "finding": "Hiring 10x engineers, assessment validity and AI-use interpretation are film claims. No prediction quality or candidate outcomes were verified.",
+      "evidence": "V05,V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q21",
+      "finding": "Explicit support for candidates using AI on a real codebase gives the assessment proposition a clear identity.",
+      "evidence": "V03",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q22",
+      "finding": "Connect one recorded action to one report finding.",
+      "evidence": "V04,V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "Show a candidate prompt and resulting code change, then highlight the report explanation that uses that evidence."
+    },
+    {
+      "id": "Q23",
+      "finding": "For Tin, make summary scores traceable to the source event.",
+      "evidence": "V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "Show a campaign-quality finding beside the exact asset detail or audience signal that supports it."
+    },
+    {
+      "id": "Q24",
+      "finding": "No human new-viewer test was performed.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "The product summary is this model’s film-only reading.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q25",
+      "finding": "Mobile preview and accessibility checks were not performed.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "Contact sheets are evidence views, not a stated mobile preview or compliance test.",
+      "experiment": "none"
+    }
+  ],
+  "elements": [
+    {
+      "kind": "ui",
+      "name": "repository field",
+      "events": [
+        "V04"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "assessment report",
+      "events": [
+        "V05"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "metric cards",
+      "events": [
+        "V05"
+      ]
+    },
+    {
+      "kind": "motion",
+      "name": "comparison text overlays",
+      "events": [
+        "V03"
+      ]
+    },
+    {
+      "kind": "texture",
+      "name": "bright office",
+      "events": [
+        "V02",
+        "V03",
+        "V04",
+        "V05",
+        "V06"
+      ]
+    }
+  ],
+  "lessons": {
+    "keep": "State the real-work difference in simple, large comparison text.",
+    "try": [
+      "Link one candidate action to its report finding.",
+      "For Tin, show the source detail behind each important quality finding."
+    ],
+    "avoid": "Presenting summary percentages as self-explanatory evidence of ability.",
+    "open": "Assessment meaning, validity, real workflow details, hiring outcomes, source claims and audio remain unverified."
+  },
+  "comparison": {
+    "story": "Hiring mismatch → real-codebase assessment → tracked work/report.",
+    "motion": "Opening montage and presenter overlays; exact transitions unchecked.",
+    "sound": "Coherent broad ASR workflow with errors; no listening.",
+    "texture": "Bright office, purple serif text and pale report cards.",
+    "lesson": "An assessment report needs a visible link from behavior to conclusion."
+  },
+  "reviewer_model": "gpt-6-astra",
+  "scope": "sampled visual and story review; ASR and measured signal support; no validated audio listening",
+  "viewed_evidence": [
+    "technical-review-2026-10-19/deep-review/motion/245/timeline-00.jpg",
+    "technical-review-2026-10-19/deep-review/motion/245/timeline-01.jpg",
+    "technical-review-2026-10-19/deep-review/motion/245/timeline-02.jpg"
+  ],
+  "closer_windows": []
+}

@@ -1,0 +1,374 @@
+{
+  "id": 288,
+  "reviewer_model": "gpt-6-astra",
+  "scope": "sampled visual and story review; ASR and measured signal support; no validated audio listening",
+  "viewed_evidence": [
+    "technical-review-2026-10-19/deep-review/motion/288/timeline-00.jpg",
+    "technical-review-2026-10-19/deep-review/motion/288/timeline-01.jpg",
+    "technical-review-2026-10-19/deep-review/motion/288/timeline-02.jpg",
+    "technical-review-2026-10-19/deep-review/motion/288/timeline-03.jpg",
+    "technical-review-2026-10-19/deep-review/audio/288-speech.json"
+  ],
+  "closer_windows": [],
+  "product_from_film": "Bustem presents an AI and human team that finds suspected brand copying and seeks enforcement against stores, payments and ads.",
+  "explains_well": "A clothing example explains indexing brand images, searching for copies and comparing a suspected stolen photograph.",
+  "unclear": "The film jumps from a photo match to dramatic shutdown claims without showing the review, report or platform decision for that case.",
+  "product_type": "brand protection",
+  "scenario": "Find suspected copies of a clothing brand’s images and pursue enforcement.",
+  "product_clear_time": 25,
+  "product_clear_basis": "The presenter names an AI enforcement team and the counterfeit-removal promise.",
+  "scenes": [
+    {
+      "id": "V01",
+      "start": 0,
+      "end": 19,
+      "action": "A dark staged intimidation scene shows a wet distressed man and a demand never to clone an American brand. A presenter then steps into the same setting and captions explicitly say the scene was not real.",
+      "design": "Red-green light, letterboxed dramatic footage and subtitle text.",
+      "purpose": "Use an extreme enforcement metaphor before revealing the pitch.",
+      "evidence": "Visible chronological 1 fps samples, source 0–19s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V02",
+      "start": 19,
+      "end": 37,
+      "action": "Bustem branding leads to a desk presenter. Variant brand-name labels become TERMINATED. A SKIMS example expands into clothing images, a dot pattern, model-image indexing cards and a product gallery.",
+      "design": "White diagrams, pink selection boxes and a blue neon office sign.",
+      "purpose": "Introduce the promise and show what the system learns about a brand.",
+      "evidence": "Visible chronological 1 fps samples, source 19–37s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V03",
+      "start": 37,
+      "end": 55,
+      "action": "An automated-search diagram branches into impersonation, lookalike domain, stolen images and other categories. A browser image grid and floating text/image/video cards illustrate search combinations.",
+      "design": "Thin connector lines, search-result grids and layered image cards.",
+      "purpose": "Explain broad search coverage using a concrete clothing example.",
+      "evidence": "Visible chronological 1 fps samples, source 37–55s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V04",
+      "start": 55,
+      "end": 66,
+      "action": "A dashboard reaches 30 potential infringements. A model’s face enlarges to an iris, followed by Match Found! Stolen Image and a side-by-side original/suspected-copy comparison.",
+      "design": "Large facial close-up and paired product photographs.",
+      "purpose": "Make image matching tangible; the label asserts the conclusion.",
+      "evidence": "Visible chronological 1 fps samples, source 55–66s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V05",
+      "start": 66,
+      "end": 79,
+      "action": "AI and human portrait tiles lead to phone notifications. Presenter overlays claim a Shopify store is nuked, a payment processor frozen and ad accounts terminated, with explosion, ice and robotic imagery.",
+      "design": "Rapid graphic effects over presenter and interface panels.",
+      "purpose": "Turn enforcement into a forceful payoff without showing the case’s actual decision trail.",
+      "evidence": "Visible chronological 1 fps samples, source 66–79s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V06",
+      "start": 79,
+      "end": 90,
+      "action": "150+ Brands appears with a logo field and featured Comfrt, plunge and oats overnight marks. The presenter introduces a free threat scan.",
+      "design": "White customer-logo cards and office presenter.",
+      "purpose": "Add adoption claims and lower the next-step barrier.",
+      "evidence": "Visible chronological 1 fps samples, source 79–90s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V07",
+      "start": 90,
+      "end": 101.504,
+      "action": "A domain is entered into a scan field, clothing results appear, and a social reply interface types SCAN with repost instructions. Bustem closes on black.",
+      "design": "Simple domain input, result cards and social post shell.",
+      "purpose": "Demonstrate the lead-in action and request a comment for the link.",
+      "evidence": "Visible chronological 1 fps samples, source 90–101.504s; boundary approximate; exact motion between samples unverified."
+    }
+  ],
+  "sound": [
+    {
+      "id": "A01",
+      "start": 0,
+      "end": 101.504,
+      "layer": "unknown",
+      "detail": "No validated direct audio listening was performed. Music, speech delivery, effects, mix and sync remain unknown, not absent.",
+      "visual_relation": "All visual scenes; audiovisual alignment unverified",
+      "evidence": "Visual samples only; no actual audio range supplied to this reviewer."
+    },
+    {
+      "id": "A02",
+      "start": 11.43,
+      "end": 99.17,
+      "layer": "ASR draft",
+      "detail": "The ASR draft supports the staged-scene reveal, brand-image indexing, searches, suspected matches, AI/human enforcement and free-scan offer. It repeatedly mistranscribes Bustem and some names; visible captions support the brand and SCAN call to action. Its opening fragments are not used as reliable dialogue.",
+      "visual_relation": "Story text support; exact audiovisual alignment and delivery unverified.",
+      "evidence": "technical-review-2026-10-19/deep-review/audio/288-speech.json; local faster-whisper base CPU int8 draft; VAD candidates only, recognition errors possible."
+    }
+  ],
+  "categories": [
+    {
+      "id": "Q01",
+      "finding": "Staged confrontation leads to brand indexing, automated search, image match, enforcement claims, customer logos and a free scan.",
+      "evidence": "V01–V07",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q02",
+      "finding": "The opening threat scene is explicitly revealed as staged after about 11 s. Its aggression may dominate the first impression.",
+      "evidence": "V01",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q03",
+      "finding": "The product is explained at 21–25 s, followed by a detailed clothing example.",
+      "evidence": "V02",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q04",
+      "finding": "Labels switch to terminated, image cards spread into diagrams and the face enlarges to an eye. Explosion and freezing effects illustrate claims rather than showing interface outcomes.",
+      "evidence": "V02–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q05",
+      "finding": "The clothing imagery links indexing, search and image comparison. The enforcement montage does not retain a readable case identifier.",
+      "evidence": "V02–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q06",
+      "finding": "Bright white explanatory graphics contrast with the dark opening and blue-lit office. Pink boxes call out suspected matches.",
+      "evidence": "V01–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q07",
+      "finding": "The iris close-up makes the matching idea clear; dashboard values and enforcement panels are harder to inspect during the fast montage.",
+      "evidence": "V04,V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q08",
+      "finding": "The ASR draft supports the staged-scene reveal, brand-image indexing, searches, suspected matches, AI/human enforcement and free-scan offer. It repeatedly mistranscribes Bustem and some names; visible captions support the brand and SCAN call to action. Its opening fragments are not used as reliable dialogue.",
+      "evidence": "A02",
+      "status": "uncertain",
+      "reason": "ASR text only; no validated listening, delivery or voice origin.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q09",
+      "finding": "Voice delivery, music, effects and audiovisual alignment were not established by this visual pass.",
+      "evidence": "A01",
+      "status": "not checked",
+      "reason": "No validated direct audio listening input.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q10",
+      "finding": "Voice delivery, music, effects and audiovisual alignment were not established by this visual pass.",
+      "evidence": "A01",
+      "status": "not checked",
+      "reason": "No validated direct audio listening input.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q11",
+      "finding": "Voice delivery, music, effects and audiovisual alignment were not established by this visual pass.",
+      "evidence": "A01",
+      "status": "not checked",
+      "reason": "No validated direct audio listening input.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q12",
+      "finding": "Staged footage, presenter video, interface graphics and dramatic effects are visible. Exact production tools are unknown.",
+      "evidence": "V01–V07",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q13",
+      "finding": "Manifest duration 101.504s; indexed dimensions 1280×720. Source unchanged flag recorded; fresh encoding and audio clipping checks not run.",
+      "evidence": "Group manifest",
+      "status": "uncertain",
+      "reason": "Inherited technical metadata; no fresh media probe in this review.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q14",
+      "finding": "Captions and diagrams explain the process visually. No sound or synchronization can be inferred from the visual effects.",
+      "evidence": "V01–V07",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q15",
+      "finding": "The iris receives a full close-up, giving one small matching feature more attention than the later enforcement decision.",
+      "evidence": "V04,V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q16",
+      "finding": "The opening takes 19 s; roughly 47 s explain detection before a short enforcement montage and a 22 s adoption/scan close.",
+      "evidence": "V01–V07",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q17",
+      "finding": "The visible match comparison supports the detection story. Shutdown outcomes are asserted through overlays and effects rather than a complete case record.",
+      "evidence": "V04,V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q18",
+      "finding": "The film uses force, urgency and comic exaggeration to position the brand as an aggressive defender; this is a creative reading.",
+      "evidence": "V01,V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q19",
+      "finding": "The dashboard calls results potential infringements, while subsequent text treats a photo match as stolen content. The review between those states is not shown.",
+      "evidence": "V04,V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q20",
+      "finding": "The 100% removal promise, search volume, loss estimates, customer count and enforcement outcomes are claims. Image similarity alone does not establish the authorization status of every listing.",
+      "evidence": "V02–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q21",
+      "finding": "Model-image indexing and an iris comparison make the detection method more concrete than a generic monitoring promise.",
+      "evidence": "V02,V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q22",
+      "finding": "Keep one suspected listing visible through human review, report submission and the platform’s final response.",
+      "evidence": "V04,V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q23",
+      "finding": "Tin can enlarge the exact evidence behind a flagged issue, then show the decision and confirmed result for that same item.",
+      "evidence": "V04,V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q24",
+      "finding": "Bustem presents an AI and human team that finds suspected brand copying and seeks enforcement against stores, payments and ads.",
+      "evidence": "Model reading from inspected images",
+      "status": "uncertain",
+      "reason": "Model-only new-viewer interpretation; no human test.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q25",
+      "finding": "Contact sheets inspected at displayed size; a phone-size playback, caption audit, flash audit and formal accessibility check were not performed.",
+      "evidence": "Viewed sheets",
+      "status": "not checked",
+      "reason": "Full-size moving-image and device checks unavailable in this pass.",
+      "experiment": "none"
+    }
+  ],
+  "lessons": {
+    "keep": "Use one enlarged visual detail to explain why an item was flagged.",
+    "avoid": "Avoid presenting a suspected match and a final enforcement decision as the same step.",
+    "open": "Case review, authorization status, actual takedowns, absolute performance claims and all heard audio remain unverified.",
+    "try": [
+      "For Tin, show the precise mismatch behind a campaign warning, then the user’s review.",
+      "Carry one item ID through proposed action, approval and confirmed result instead of switching to abstract success effects."
+    ]
+  },
+  "comparison": {
+    "story": "Use an extreme enforcement metaphor before revealing the pitch. → Introduce the promise and show what the system learns about a brand. → Explain broad search coverage using a concrete clothing example. → Make image matching tangible; the label asserts the conclusion. → Turn enforcement into a forceful payoff without showing the case’s actual decision trail. → Add adoption claims and lower the next-step barrier. → Demonstrate the lead-in action and request a comment for the link.",
+    "motion": "Labels switch to terminated, image cards spread into diagrams and the face enlarges to an eye. Explosion and freezing effects illustrate claims rather than showing interface outcomes. Sampling scope: 1 fps unless a closer window is recorded.",
+    "sound": "No validated listening; unknown.",
+    "texture": "Red-green light, letterboxed dramatic footage and subtitle text.; White diagrams, pink selection boxes and a blue neon office sign.; Thin connector lines, search-result grids and layered image cards.; Large facial close-up and paired product photographs.; Rapid graphic effects over presenter and interface panels.; White customer-logo cards and office presenter.; Simple domain input, result cards and social post shell.",
+    "lesson": "Use one enlarged visual detail to explain why an item was flagged."
+  },
+  "elements": [
+    {
+      "kind": "ui",
+      "name": "product gallery",
+      "events": [
+        "V02"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "search results",
+      "events": [
+        "V03"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "comparison cards",
+      "events": [
+        "V04"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "domain input",
+      "events": [
+        "V07"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "social reply",
+      "events": [
+        "V07"
+      ]
+    },
+    {
+      "kind": "motion",
+      "name": "image close up",
+      "events": [
+        "V04"
+      ]
+    },
+    {
+      "kind": "texture",
+      "name": "colored dramatic lighting",
+      "events": [
+        "V01"
+      ]
+    }
+  ]
+}

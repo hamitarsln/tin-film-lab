@@ -1,0 +1,363 @@
+{
+  "id": 312,
+  "viewed_evidence": [
+    "technical-review-2026-10-19/deep-review/motion/312/timeline-00.jpg",
+    "technical-review-2026-10-19/deep-review/motion/312/timeline-01.jpg",
+    "technical-review-2026-10-19/deep-review/motion/312/timeline-02.jpg",
+    "astra-review-2026-10-20/evidence/group-3/312/dense.jpg",
+    "technical-review-2026-10-19/deep-review/audio/312-speech.json"
+  ],
+  "product_from_film": "Webild is presented as a way to create better-designed websites by combining design, structure, images and performance.",
+  "explains_well": "Labelled laboratory ingredients make the broad design-quality story visually consistent.",
+  "unclear": "The film never shows a user input, an editable website or a publishing step, so the actual product workflow stays unclear.",
+  "product_type": "website builder brand film",
+  "scenario": "A fictional lab combines website ingredients and launches a gallery of designs",
+  "product_clear_time": 47,
+  "product_clear_basis": "Luxuria website and premium design board connect the lab metaphor to websites; no clear interface workflow appears.",
+  "scenes": [
+    {
+      "start": 0,
+      "end": 12,
+      "action": "Man watches news-style screens about purple AI slop, generic purple website and dissatisfied interviewee.",
+      "design": "Purple-lit control room, scanline news graphics and small subtitles.",
+      "purpose": "Establish generic-design problem",
+      "id": "V01",
+      "evidence": "Visible 1 fps samples, source 0–12s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 12,
+      "end": 22,
+      "action": "Man enters dark lab, examines glassware and appears frustrated at bench.",
+      "design": "Top light, white coat and cinematic close-ups.",
+      "purpose": "Set up search for solution",
+      "id": "V02",
+      "evidence": "Visible 1 fps samples, source 12–22s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 22,
+      "end": 34,
+      "action": "Containers labelled design and structure are examined and poured into flask.",
+      "design": "Ingredient close-ups and deliberate lab gestures.",
+      "purpose": "Explain design ingredients",
+      "id": "V03",
+      "evidence": "Visible 1 fps samples, source 22–34s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 34,
+      "end": 48,
+      "action": "Award-style website claim, chalkboards, image-generation container, flow, speed and analytics lead to premium design and Luxuria site.",
+      "design": "Alternating lab, diagrams and curved website screens.",
+      "purpose": "Expand ingredient promise",
+      "id": "V04",
+      "evidence": "Visible 1 fps samples, source 34–48s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 48,
+      "end": 57,
+      "action": "Webild-labelled flask is inspected; glowing purple orb floats above glassware, then flask returns.",
+      "design": "Smoke, glow and slow changing orb shape.",
+      "purpose": "Reveal combined product metaphor",
+      "id": "V05",
+      "evidence": "Visible 1 fps samples, source 48–57s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 57,
+      "end": 64,
+      "action": "Man presses glowing console button; wall of varied websites expands into view.",
+      "design": "Physical launch button and website mosaic.",
+      "purpose": "Show release and variety",
+      "id": "V06",
+      "evidence": "Visible 1 fps samples, source 57–64s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 64,
+      "end": 66.958,
+      "action": "The future of web is here, Webild and webild.io appear on white.",
+      "design": "Small centred type.",
+      "purpose": "Close",
+      "id": "V07",
+      "evidence": "Visible 1 fps samples, source 64–66.958s; boundaries approximate, between-frame action unresolved."
+    }
+  ],
+  "sound": [
+    {
+      "id": "A01",
+      "start": 0,
+      "end": 66.958,
+      "layer": "unknown",
+      "detail": "No validated audio listening; speech, music, effects, mix and sync remain unverified.",
+      "visual_relation": "All visual scenes; alignment not checked",
+      "evidence": "No actual audio supplied to this review; existing technical-review-2026-10-19/deep-review/audio/312.json is not listening evidence."
+    },
+    {
+      "id": "A02",
+      "start": 0.26,
+      "end": 55.47,
+      "layer": "ASR draft",
+      "detail": "Short coherent candidate lines frame AI-slop dissatisfaction, search for a fix and a claim that release will change the internet. This supports the problem/discovery script structure only; no heard delivery or mix judgment.",
+      "visual_relation": "V01–V02, V05; candidate script only",
+      "evidence": "technical-review-2026-10-19/deep-review/audio/312-speech.json; existing faster-whisper base CPU int8"
+    }
+  ],
+  "categories": [
+    {
+      "finding": "Generic-design dissatisfaction leads to a lab experiment, ingredient list and launch montage. It communicates design ambition but omits a usable product demonstration.",
+      "evidence": "V01–V07",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q01"
+    },
+    {
+      "finding": "News-style purple-slop headline quickly names a familiar design complaint. It is a constructed film device, not independent reporting evidence.",
+      "evidence": "V01",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q02"
+    },
+    {
+      "finding": "Website visuals imply a builder, but the concrete user action remains unclear even by the Luxuria example around 47 s.",
+      "evidence": "V04",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q03"
+    },
+    {
+      "finding": "Dense 51–54 s frames show the purple orb changing internal shape and orientation while hovering above a stable lab bench. Other sequences show pouring, board work and a console press; exact effects pipeline is unknown.",
+      "evidence": "V03–V06; dense 51–54 s",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q04"
+    },
+    {
+      "finding": "Cuts between labelled ingredients and website examples connect abstract qualities to the lab story. The final button-to-gallery transition supplies a release payoff.",
+      "evidence": "V03–V06",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q05"
+    },
+    {
+      "finding": "Dark blue lab lighting, white coat, glass and smoke create a scientific mood. Purple is used both for the criticised websites and the glowing product metaphor.",
+      "evidence": "V01–V06",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q06"
+    },
+    {
+      "finding": "Large ingredient labels and premium-design board are clearer than the small subtitles and curved website screens. Result sites get limited readable space.",
+      "evidence": "V03–V04",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q07"
+    },
+    {
+      "finding": "Voice presence and delivery remain unverified.",
+      "evidence": "No validated audio listening",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q08"
+    },
+    {
+      "finding": "Music character and arc remain unverified.",
+      "evidence": "No validated audio listening",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q09"
+    },
+    {
+      "finding": "Sound effects remain unverified.",
+      "evidence": "No validated audio listening",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q10"
+    },
+    {
+      "finding": "Sound-to-motion timing remain unverified.",
+      "evidence": "No validated audio listening",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q11"
+    },
+    {
+      "finding": "Cinematic human scenes, composited screens, lab props and a glowing orb create the visual story. Source production tools and any generated footage are not established.",
+      "evidence": "V01–V06",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q12"
+    },
+    {
+      "finding": "Source duration supplied as 66.958s; no independent compression, clipping or delivery check.",
+      "evidence": "Assigned metadata; source integrity checked by parent",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q13"
+    },
+    {
+      "finding": "Ingredient labels and website screens suggest design creation without sound, but the exact product action is missing.",
+      "evidence": "V03–V06",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q14"
+    },
+    {
+      "finding": "Faces, vessels and dramatic lighting receive more attention than website details. This serves the story but makes output quality hard to compare.",
+      "evidence": "V02–V06",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q15"
+    },
+    {
+      "finding": "About 45 s are spent on the lab sequence before the console launch; the final gallery is brief. One slower website example would make the promise easier to understand.",
+      "evidence": "V02–V06",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q16"
+    },
+    {
+      "finding": "Design, structure and performance are named as ingredients. No source brief or before/after site demonstrates how Webild improves them.",
+      "evidence": "V03–V06",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q17"
+    },
+    {
+      "finding": "Frustration followed by discovery appears intended to make Webild feel like a breakthrough. Audience response was not measured.",
+      "evidence": "V02–V05",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q18"
+    },
+    {
+      "finding": "Glassware and labels maintain the central metaphor. The purple orb visually resembles the colour treatment criticised at the start, which may weaken the stated distinction.",
+      "evidence": "V01, V05",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q19"
+    },
+    {
+      "finding": "News styling, award-style claims and premium-design language are film claims. Training quality, website value and performance are not independently checked.",
+      "evidence": "V01, V04",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q20"
+    },
+    {
+      "finding": "The lab-ingredient narrative is a distinctive way to group several website qualities into a single brand story.",
+      "evidence": "V02–V05",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q21"
+    },
+    {
+      "finding": "Replace part of the ingredient montage with a real brief, generated website and one visible design refinement.",
+      "evidence": "V03–V06",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q22"
+    },
+    {
+      "finding": "Use a metaphor to group capabilities, then give viewers one direct product example that makes the metaphor concrete.",
+      "evidence": "V03–V06",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q23"
+    },
+    {
+      "finding": "No human new-viewer test; product description above is model interpretation of sampled images.",
+      "evidence": "V01–V07",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q24"
+    },
+    {
+      "finding": "No phone-size, safe-area or flash assessment; small UI text needs separate preview.",
+      "evidence": "Contact sheets",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q25"
+    }
+  ],
+  "lessons": {
+    "keep": "Keep clearly labelled ingredients as the story structure.",
+    "try": [
+      "Replace ten seconds of laboratory handling with a brief-to-website sequence and one editable design choice.",
+      "Hold one final site beside the generic opening example and point to two concrete improvements in hierarchy and content."
+    ],
+    "avoid": "Avoid letting a cinematic metaphor carry the whole explanation of an unfamiliar tool.",
+    "open": "Audio is unheard. Product workflow, training claims, output value and performance remain unverified."
+  },
+  "comparison": {
+    "story": "Establish generic-design problem → Set up search for solution → Explain design ingredients → Expand ingredient promise → Reveal combined product metaphor → Show release and variety → Close",
+    "motion": "Dense 51–54 s frames show the purple orb changing internal shape and orientation while hovering above a stable lab bench. Other sequences show pouring, board work and a console press; exact effects pipeline is unknown.",
+    "sound": "No validated listening; no absence claims.",
+    "texture": "Dark blue lab lighting, white coat, glass and smoke create a scientific mood. Purple is used both for the criticised websites and the glowing product metaphor.",
+    "lesson": "Keep clearly labelled ingredients as the story structure."
+  },
+  "elements": [
+    {
+      "kind": "ui",
+      "name": "website gallery",
+      "events": [
+        "V06"
+      ]
+    },
+    {
+      "kind": "texture",
+      "name": "scanlines",
+      "events": [
+        "V01"
+      ]
+    },
+    {
+      "kind": "texture",
+      "name": "smoke",
+      "events": [
+        "V05"
+      ]
+    },
+    {
+      "kind": "motion",
+      "name": "orb rotation",
+      "events": [
+        "V05"
+      ]
+    }
+  ],
+  "reviewer_model": "gpt-6-astra",
+  "scope": "sampled visual and story review; ASR and measured signal support; no validated audio listening",
+  "closer_windows": [
+    {
+      "start": 51,
+      "end": 54,
+      "rate_fps": 4,
+      "evidence": [
+        "astra-review-2026-10-20/evidence/group-3/312/dense.jpg"
+      ],
+      "resolved": "Purple orb hovers with changing internal shape and orientation above glassware; glow and smoke remain around it."
+    }
+  ]
+}

@@ -1,0 +1,398 @@
+{
+  "id": 478,
+  "product_from_film": "Supermemory presents a shared memory layer for multiple AI apps, with an installation command, content-source connections and a memory-informed coding request.",
+  "explains_well": "The central memory diagram connects several named AI apps, making the cross-app idea easy to grasp.",
+  "unclear": "The beach rescue joke never connects to a specific memory failure or repaired task, and the demo does not trace one remembered fact between two apps.",
+  "product_type": "Shared AI memory",
+  "scenario": "Connect memory across AI tools and bring in stored content to inform a project request.",
+  "product_clear_time": 63.6,
+  "product_clear_basis": "The ASR introduces universal memory at 63.6s; the shared-memory diagram appears around 66s. Earlier talk concerns a prior MCP release.",
+  "scenes": [
+    {
+      "start": 0,
+      "end": 15,
+      "action": "A distressed-looking person sits in a rocky shelter with a phone; ChatGPT alone couldn’t save him appears before black.",
+      "design": "Handheld-looking beach footage and bold white statement.",
+      "purpose": "Create a comic failure premise.",
+      "evidence": "1 fps source samples in 0–15s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V01"
+    },
+    {
+      "start": 15,
+      "end": 33,
+      "action": "The person lies on sand, gets up and runs; large Supermemory branding bridges the beach to a living-room sofa.",
+      "design": "Wide beach views followed by a warm interior.",
+      "purpose": "Reset from skit to product presenter.",
+      "evidence": "1 fps source samples in 15–33s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V02"
+    },
+    {
+      "start": 33,
+      "end": 46,
+      "action": "Dhravya Shah is identified as founder and CEO; AI app icons surround him, then a ChatGPT icon gains a Locked label.",
+      "design": "Presenter with floating app graphics.",
+      "purpose": "Frame memory lock-in as the problem.",
+      "evidence": "1 fps source samples in 33–46s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V03"
+    },
+    {
+      "start": 46,
+      "end": 63,
+      "action": "A small demo recording and launch/social cards appear, with view, ranking and star claims.",
+      "design": "Evidence-like cards over the presenter.",
+      "purpose": "Describe a previous release and reception.",
+      "evidence": "1 fps source samples in 46–63s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V04"
+    },
+    {
+      "start": 63,
+      "end": 78,
+      "action": "Supermemory title leads to a Your memory box connected to ChatGPT, Claude, Cursor and Windsurf; individual app boxes highlight.",
+      "design": "Dark diagram with blue glow and dotted connections.",
+      "purpose": "Explain shared memory across tools.",
+      "evidence": "1 fps source samples in 63–78s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V05"
+    },
+    {
+      "start": 78,
+      "end": 81,
+      "action": "An npx install-mcp command changes its client argument.",
+      "design": "Centered monospace command on dark background.",
+      "purpose": "Offer an installation path.",
+      "evidence": "1 fps source samples in 78–81s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V06"
+    },
+    {
+      "start": 81,
+      "end": 93,
+      "action": "A task-management schema request appears over the presenter; Searching your memories lists a NextJS project and progress, then a recommendation and code appear.",
+      "design": "Prompt, memory status and answer cards.",
+      "purpose": "Illustrate context informing an answer.",
+      "evidence": "1 fps source samples in 81–93s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V07"
+    },
+    {
+      "start": 93,
+      "end": 99,
+      "action": "Google Drive, Notion and OneDrive connection cards surround the presenter.",
+      "design": "Labeled source cards and pointer graphics.",
+      "purpose": "Show content-source breadth.",
+      "evidence": "1 fps source samples in 93–99s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V08"
+    },
+    {
+      "start": 99,
+      "end": 113,
+      "action": "Presenter closes with app.supermemory.ai and BE UNFORGETTABLE text, then leaves the sofa.",
+      "design": "Large white destination and slogan.",
+      "purpose": "Invite use and end the presenter segment.",
+      "evidence": "1 fps source samples in 99–113s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V09"
+    },
+    {
+      "start": 113,
+      "end": 122.163,
+      "action": "The website address holds alone on black.",
+      "design": "Minimal closing card.",
+      "purpose": "Keep the destination readable.",
+      "evidence": "1 fps source samples in 113–122.163s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V10"
+    }
+  ],
+  "sound": [
+    {
+      "id": "A01",
+      "start": 0,
+      "end": 32.68,
+      "layer": "ASR draft limited",
+      "detail": "The opening draft contains short distressed exclamations and garbled references to ChatGPT. It is insufficient to establish the precise skit dialogue. No voice, music, effects or sync were heard.",
+      "visual_relation": "V01,V02 are assessed visually.",
+      "evidence": "Local 478-speech.json opening fragments."
+    },
+    {
+      "id": "A02",
+      "start": 32.68,
+      "end": 122.163,
+      "layer": "ASR script support",
+      "detail": "The usable draft discusses memory lock-in, a previous MCP release, universal memory, one-command installation, preferences and connected sources. Some app names, numerical claims and the URL are mistranscribed; visible labels take priority. All sound and the final hold remain unassessed.",
+      "visual_relation": "V03–V10 match the broad explanation.",
+      "evidence": "Local 478-speech.json plus visible cards and URL."
+    }
+  ],
+  "categories": [
+    {
+      "id": "Q01",
+      "finding": "Beach skit → founder and prior traction → shared-memory diagram → command and example → sources and invitation.",
+      "evidence": "V01–V10",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q02",
+      "finding": "A distressed beach scene and ChatGPT statement create a question, but its relation to memory remains indirect.",
+      "evidence": "V01,V02",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q03",
+      "finding": "Universal memory is explicit around 64s and visually clear in the connected-app diagram.",
+      "evidence": "V05,A02",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q04",
+      "finding": "App icons, cards and diagram highlights change around the presenter; exact motion paths unverified.",
+      "evidence": "V03–V08",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q05",
+      "finding": "The large wordmark bridges locations; a dark graphic section separates the core model from the presenter.",
+      "evidence": "V02,V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q06",
+      "finding": "Natural beach/interior colors contrast with dark blue-glowing software graphics.",
+      "evidence": "V01–V08",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q07",
+      "finding": "The shared-memory label, command and prompt are prominent; small code and prior-demo text are less readable.",
+      "evidence": "V04–V07",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q08",
+      "finding": "Usable ASR explains the memory concept; opening fragments and some names/numbers are unreliable. Vocal performance unknown.",
+      "evidence": "A01,A02",
+      "status": "uncertain",
+      "reason": "No validated listening.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q09",
+      "finding": "Music character and structure are unverified.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "No validated listening.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q10",
+      "finding": "Effects and their sources are unverified.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "No validated listening; waveform peaks do not identify effects.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q11",
+      "finding": "Sound sync is unverified.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "No validated listening or paired audiovisual timing.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q12",
+      "finding": "Acted footage, presenter, app icons, diagram, command and illustrative request cards are visible; live behavior unverified.",
+      "evidence": "V01–V09",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q13",
+      "finding": "Source duration 122.163 s; Watch metadata 1920 × 1080. Frame rate, audio clipping and export quality not checked here.",
+      "evidence": "Whole film",
+      "status": "supported",
+      "reason": "Parent source metadata supports duration and dimensions; visual review is sampled.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q14",
+      "finding": "The diagram and example explain the general concept without sound; the opening skit’s intended logic is less clear.",
+      "evidence": "V01,V02,V05,V07",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q15",
+      "finding": "The presenter anchors the overlays, while the standalone diagram makes app relationships easier to scan.",
+      "evidence": "V03–V08",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q16",
+      "finding": "The new universal-memory pitch arrives after roughly a minute of skit, problem and prior traction; the final URL holds for about nine seconds.",
+      "evidence": "V01–V05,V10",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q17",
+      "finding": "The memory promise gets an example of project context retrieval, but no visible transfer of the same fact across apps.",
+      "evidence": "V05,V07",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q18",
+      "finding": "The skit may attract attention and the founder framing may build familiarity; response unmeasured.",
+      "evidence": "V01–V04",
+      "status": "uncertain",
+      "reason": "Visual interpretation.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q19",
+      "finding": "The central memory box connects the app icons; the example connects remembered project context to a schema answer.",
+      "evidence": "V05,V07",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q20",
+      "finding": "Memory scope, cross-app behavior, privacy, installation success, usage metrics and answer correctness are unverified. Visible and ASR star counts differ, so no reconciled count is asserted.",
+      "evidence": "V04–V08,A02",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q21",
+      "finding": "The shared-memory diagram distinguishes the product from one assistant’s internal memory.",
+      "evidence": "V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q22",
+      "finding": "Trace one memory between two apps.",
+      "evidence": "V05,V07",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "Save one project preference in app A, retrieve it in app B and show how it changes the answer."
+    },
+    {
+      "id": "Q23",
+      "finding": "Connect the hook to the exact missing context.",
+      "evidence": "V01,V07",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "For Tin, begin with a lost campaign preference and show the same preference restored in a later workflow."
+    },
+    {
+      "id": "Q24",
+      "finding": "No human new-viewer test was performed.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "The product summary is this model’s film-only reading.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q25",
+      "finding": "Mobile preview and accessibility checks were not performed.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "Contact sheets are evidence views, not a stated mobile preview or compliance test.",
+      "experiment": "none"
+    }
+  ],
+  "elements": [
+    {
+      "kind": "texture",
+      "name": "presenter footage",
+      "events": [
+        "V03",
+        "V04",
+        "V07",
+        "V08",
+        "V09"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "installation command",
+      "events": [
+        "V06"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "memory search status",
+      "events": [
+        "V07"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "source connection cards",
+      "events": [
+        "V08"
+      ]
+    },
+    {
+      "kind": "texture",
+      "name": "connected app diagram",
+      "events": [
+        "V05"
+      ]
+    },
+    {
+      "kind": "motion",
+      "name": "floating app icons",
+      "events": [
+        "V03"
+      ]
+    }
+  ],
+  "lessons": {
+    "keep": "Use a simple shared-memory diagram to explain relationships between tools.",
+    "try": [
+      "Trace one saved fact from one app into an answer in another.",
+      "For Tin, connect a lost campaign preference in the hook to its later recovery."
+    ],
+    "avoid": "Letting an unrelated skit delay the concrete product promise.",
+    "open": "Cross-app continuity, privacy, memory scope, numerical claims and sound remain unverified."
+  },
+  "comparison": {
+    "story": "Beach skit, founder explanation and shared-memory proposition.",
+    "motion": "Floating cards, app highlights and prompt/status changes.",
+    "sound": "Partial ASR support with garbled opening and names; no listening.",
+    "texture": "Natural footage with dark blue software graphics.",
+    "lesson": "A shared-memory claim is clearest when one fact visibly crosses app boundaries."
+  },
+  "reviewer_model": "gpt-6-astra",
+  "scope": "sampled visual and story review; ASR and measured signal support; no validated audio listening",
+  "viewed_evidence": [
+    "technical-review-2026-10-19/deep-review/motion/478/timeline-00.jpg",
+    "technical-review-2026-10-19/deep-review/motion/478/timeline-01.jpg",
+    "technical-review-2026-10-19/deep-review/motion/478/timeline-02.jpg",
+    "technical-review-2026-10-19/deep-review/motion/478/timeline-03.jpg",
+    "technical-review-2026-10-19/deep-review/motion/478/timeline-04.jpg"
+  ],
+  "closer_windows": []
+}

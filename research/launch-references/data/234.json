@@ -1,0 +1,395 @@
+{
+  "id": 234,
+  "product_from_film": "Vori combines grocery records, automated store actions and payments, presented as an operating system for a self-driving supermarket.",
+  "explains_well": "The miniature store makes inventory gaps, wrong prices and paperwork visible, then revisits them with three clearly numbered systems.",
+  "unclear": "The model explains the idea well but does not show the actual software controls, exceptions or staff role behind automatic ordering and price updates.",
+  "product_type": "grocery operations platform",
+  "scenario": "A founder uses a miniature supermarket to explain broken store systems, three integrated solutions, a family connection and company progress.",
+  "product_clear_time": 65,
+  "product_clear_basis": "The self-driving supermarket is named at 11–13s; system of record at 59s and system of action at 65s make the operating role concrete.",
+  "scenes": [
+    {
+      "start": 0,
+      "end": 14,
+      "action": "A founder holds a small produce display beside miniature store sets. Close views show food and toy-like checkout figures. The Self-Driving Supermarket title appears in purple, green and yellow.",
+      "design": "Physical-looking miniatures, green checkerboard floor and purple studio background.",
+      "purpose": "Introduce the supermarket vision through a small model.",
+      "evidence": "1 fps source samples in 0–14s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V01"
+    },
+    {
+      "start": 14,
+      "end": 26,
+      "action": "A miniature aisle contains market-size and restaurant/hotel comparison signs placed by a hand. A loading dock shows changing stacks of boxes.",
+      "design": "Scale contrast between human hand and store model.",
+      "purpose": "Establish market scope and daily incoming inventory.",
+      "evidence": "1 fps source samples in 14–26s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V02"
+    },
+    {
+      "start": 26,
+      "end": 40,
+      "action": "Shelf quantities change, produce disappears, price labels and checkout items are shown, receipts pile up and shelves become sparse.",
+      "design": "Detailed miniature goods, till and paper receipts.",
+      "purpose": "Show disconnected inventory, prices and sales as visible consequences.",
+      "evidence": "1 fps source samples in 26–40s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V03"
+    },
+    {
+      "start": 40,
+      "end": 52,
+      "action": "An overhead cart accompanies $82 billion a year wording. A back-office figure becomes surrounded by paper stacks, with a checkout view between office shots.",
+      "design": "Purple statistics and exaggerated physical paperwork.",
+      "purpose": "Give the operational problem a cost and human burden.",
+      "evidence": "1 fps source samples in 40–52s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V04"
+    },
+    {
+      "start": 52,
+      "end": 64,
+      "action": "The founder returns. System of Record appears as chapter one; the miniature office becomes clearer and a purple dashboard-like screen appears.",
+      "design": "Numbered purple card followed by less-cluttered office states.",
+      "purpose": "Present unified records as the first solution.",
+      "evidence": "1 fps source samples in 52–64s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V05"
+    },
+    {
+      "start": 64,
+      "end": 76,
+      "action": "System of Action is chapter two. Empty produce and loading-dock states lead to stocked shelves. An invoice shows $2.89 while a shelf label changes from $2.71 to $2.89.",
+      "design": "Concrete before/after stock and price states.",
+      "purpose": "Explain ordering and price synchronization.",
+      "evidence": "1 fps source samples in 64–76s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V06"
+    },
+    {
+      "start": 76,
+      "end": 94,
+      "action": "System of Transaction is chapter three. Goods pass checkout; a purple ribbon runs from the office through store aisles and checkout to stocked produce.",
+      "design": "Recurring purple line/ribbon across the model.",
+      "purpose": "Unify payments and operations into one connected store.",
+      "evidence": "1 fps source samples in 76–94s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V07"
+    },
+    {
+      "start": 94,
+      "end": 109,
+      "action": "The model is revealed on the studio table. The founder holds a family photograph; a photo of two people in a supermarket fills the frame, then the founder continues.",
+      "design": "Personal photograph and studio framing.",
+      "purpose": "Explain the founders connection to grocery.",
+      "evidence": "1 fps source samples in 94–109s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V08"
+    },
+    {
+      "start": 109,
+      "end": 124,
+      "action": "Large overlays state 1M+ shoppers and $500M processed while the founder describes the vision.",
+      "design": "Clean white numbers beside the presenter.",
+      "purpose": "Present company scale and ambition.",
+      "evidence": "1 fps source samples in 109–124s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V09"
+    },
+    {
+      "start": 124,
+      "end": 137.854,
+      "action": "A wider studio view reveals crew and a conversation. Text states Vori raised an additional $22M to build its self-driving supermarket vision, then the Vori logo closes.",
+      "design": "Behind-the-scenes ending and simple black brand card.",
+      "purpose": "Deliver the funding announcement and brand.",
+      "evidence": "1 fps source samples in 124–137.854s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V10"
+    }
+  ],
+  "sound": [
+    {
+      "id": "A01",
+      "start": 0,
+      "end": 137.854,
+      "layer": "ASR draft / unknown",
+      "detail": "The coherent draft explains inventory/price mismatches, owner paperwork, the three systems, family history and scale claims. Some phrases are malformed, including jingo tower and median growth rate; these are not accepted as precise wording. Visible cards and examples support the main argument. No validated listening, delivery, music or effects assessment.",
+      "visual_relation": "V01–V10; script support only, sync unknown.",
+      "evidence": "technical-review-2026-10-19/deep-review/audio/234-speech.json"
+    }
+  ],
+  "categories": [
+    {
+      "id": "Q01",
+      "finding": "Miniature introduction → disconnected store problems → three systems → family connection → scale and funding.",
+      "evidence": "V01–V10",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q02",
+      "finding": "The founder introduces a large grocery opportunity by holding a small model, giving the film a clear visual device.",
+      "evidence": "V01",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q03",
+      "finding": "Grocery owners are the clear users. The early self-driving phrase becomes concrete through records, action and transaction chapters.",
+      "evidence": "V01,V05–V07",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q04",
+      "finding": "Miniature stock, paperwork and price states change; a human hand places props and a purple ribbon connects store areas. Exact animation method and timing are unchecked.",
+      "evidence": "V02–V07",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q05",
+      "finding": "The same shelves, checkout and office recur in problem and solution states, making the comparison easy to follow.",
+      "evidence": "V03–V07",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q06",
+      "finding": "Toy-like figures, detailed food packages, paper invoices and green checkerboard flooring create a tactile visual system.",
+      "evidence": "V01–V08",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q07",
+      "finding": "Large numbered purple cards organize the three-system explanation. The invoice/shelf-price numbers make the automatic update specific.",
+      "evidence": "V05–V07",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q08",
+      "finding": "The draft supports the complete explanatory structure with a few rejected malformed phrases. Audible qualities remain unchecked.",
+      "evidence": "A01",
+      "status": "uncertain",
+      "reason": "ASR text only.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q09",
+      "finding": "Music character and structure are unverified.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "No validated listening.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q10",
+      "finding": "Effects and their sources are unverified.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "No validated listening; waveform peaks do not identify effects.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q11",
+      "finding": "Sound sync is unverified.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "No validated listening or paired audiovisual timing.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q12",
+      "finding": "Live presenter footage, miniature scenes, graphic cards and a photograph are mixed. Stop-motion versus other animation methods are not established.",
+      "evidence": "V01–V10",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q13",
+      "finding": "Source duration 137.854 s; Watch metadata 1620 × 1080. Frame rate, audio clipping and export quality not checked here.",
+      "evidence": "Whole film",
+      "status": "supported",
+      "reason": "Parent source metadata supports duration and dimensions; visual review is sampled.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q14",
+      "finding": "The shortage, paperwork and price-change examples remain understandable silently; the exact software mechanism depends on explanation.",
+      "evidence": "V03–V07",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q15",
+      "finding": "Small sets isolate one operational problem at a time. Large chapter numbers give viewers clear resets.",
+      "evidence": "V03–V07",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q16",
+      "finding": "About 38s establishes failures after the opening; the three-system explanation takes about 42s, followed by personal/company context.",
+      "evidence": "V01–V10",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q17",
+      "finding": "The disorderly office and depleted shelves return in improved states, providing a visible conceptual payoff.",
+      "evidence": "V03–V07",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q18",
+      "finding": "The playful model and family photograph may make operational software feel approachable and personally motivated; response is unmeasured.",
+      "evidence": "V01,V08",
+      "status": "uncertain",
+      "reason": "Interpretation of presentation.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q19",
+      "finding": "The model gives a strong cause/consequence chain, but remains a representation rather than a live control demonstration.",
+      "evidence": "V03–V07",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q20",
+      "finding": "Market size, loss figures, automation, shoppers, payment volume and funding are film claims. Actual operations, exceptions and metrics were not independently verified.",
+      "evidence": "V02,V04,V06,V09,V10",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q21",
+      "finding": "The model store provides a distinctive way to explain back-office software without a dense dashboard tour.",
+      "evidence": "V01–V08",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q22",
+      "finding": "Add one actual software moment linked to the miniature price example.",
+      "evidence": "V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "Show the cost change arriving, the proposed price update and the staff approval or automation setting before returning to the new shelf label."
+    },
+    {
+      "id": "Q23",
+      "finding": "For Tin, reuse the same objects in the problem and solution so the improvement is visible.",
+      "evidence": "V03–V07",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "Show a campaign brief, asset and approval queue before and after one automated action with matching labels."
+    },
+    {
+      "id": "Q24",
+      "finding": "No human new-viewer test was performed.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "The product summary is this model’s film-only reading.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q25",
+      "finding": "Mobile preview and accessibility checks were not performed.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "Contact sheets are evidence views, not a stated mobile preview or compliance test.",
+      "experiment": "none"
+    }
+  ],
+  "elements": [
+    {
+      "kind": "ui",
+      "name": "checkout display",
+      "events": [
+        "V03",
+        "V07"
+      ]
+    },
+    {
+      "kind": "motion",
+      "name": "inventory state changes",
+      "events": [
+        "V03",
+        "V06"
+      ]
+    },
+    {
+      "kind": "motion",
+      "name": "price label change",
+      "events": [
+        "V06"
+      ]
+    },
+    {
+      "kind": "motion",
+      "name": "connecting ribbon",
+      "events": [
+        "V07"
+      ]
+    },
+    {
+      "kind": "texture",
+      "name": "miniature supermarket",
+      "events": [
+        "V01",
+        "V02",
+        "V03",
+        "V04",
+        "V05",
+        "V06",
+        "V07",
+        "V08"
+      ]
+    },
+    {
+      "kind": "texture",
+      "name": "paper stacks",
+      "events": [
+        "V04",
+        "V05"
+      ]
+    }
+  ],
+  "lessons": {
+    "keep": "Revisit the same physical examples in the problem and solution sections.",
+    "try": [
+      "Link the miniature price update to one actual software control and staff role.",
+      "For Tin, show the same brief, asset and queue before and after an automated action."
+    ],
+    "avoid": "Leaving a clear conceptual model disconnected from the actual user controls.",
+    "open": "Automation boundaries, staff exceptions, real interface, metric accuracy, miniature production method and audio remain unverified."
+  },
+  "comparison": {
+    "story": "Store problems → three connected systems → founder history → traction/funding.",
+    "motion": "Miniature stock/paper changes, price update and connecting ribbon; method unchecked.",
+    "sound": "Coherent ASR explanation with malformed fragments; no listening.",
+    "texture": "Miniature grocery goods, paper and green/purple color system.",
+    "lesson": "A tactile model can clarify operations when the same objects carry both problem and solution."
+  },
+  "reviewer_model": "gpt-6-astra",
+  "scope": "sampled visual and story review; ASR and measured signal support; no validated audio listening",
+  "viewed_evidence": [
+    "technical-review-2026-10-19/deep-review/motion/234/timeline-00.jpg",
+    "technical-review-2026-10-19/deep-review/motion/234/timeline-01.jpg",
+    "technical-review-2026-10-19/deep-review/motion/234/timeline-02.jpg",
+    "technical-review-2026-10-19/deep-review/motion/234/timeline-03.jpg",
+    "technical-review-2026-10-19/deep-review/motion/234/timeline-04.jpg"
+  ],
+  "closer_windows": []
+}

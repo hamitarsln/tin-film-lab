@@ -1,0 +1,331 @@
+{
+  "id": 134,
+  "product_from_film": "Ordrtrade presents an on-chain trading service with speed, spread and private-mainnet claims.",
+  "explains_well": "Short labels connect speed imagery to execution and trading-screen imagery to spreads.",
+  "unclear": "No order placement, fill result, fees, measured latency or actual spread comparison is shown.",
+  "product_type": "on-chain trading platform teaser",
+  "scenario": "Promote fast execution and better spreads through racing and market imagery.",
+  "product_clear_time": 12,
+  "product_clear_basis": "Trading screens and better spreads text at 11–12s establish the category; fully onchain appears at 16s.",
+  "scenes": [
+    {
+      "start": 0,
+      "end": 5,
+      "action": "Old communications equipment and a person with a handset lead to aircraft and animated racing-car imagery under SPEED.",
+      "design": "Warm dark equipment, then bold white text and motion-blurred race scenes.",
+      "purpose": "Introduce speed as the main association.",
+      "evidence": "1 fps source samples in 0–5s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V01"
+    },
+    {
+      "start": 5,
+      "end": 11,
+      "action": "Motorcycle racing carries seamless execution text, then race cars and lightning follow.",
+      "design": "Fast-action sports and storm imagery.",
+      "purpose": "Extend the speed and power metaphor.",
+      "evidence": "1 fps source samples in 5–11s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V02"
+    },
+    {
+      "start": 11,
+      "end": 19,
+      "action": "Trading screens and quote numbers carry better spreads; a collage of market/cinema-like scenes follows, then fully onchain over charts and a bell-event image.",
+      "design": "Dark screens, green-red market numbers and overlapping rectangular footage.",
+      "purpose": "Name trading benefits and on-chain positioning without a transaction demo.",
+      "evidence": "1 fps source samples in 11–19s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V03"
+    },
+    {
+      "start": 19,
+      "end": 27,
+      "action": "Black intervals separate a metallic masked figure with private mainnet live text and a cloaked figure carrying a Solana-like mark.",
+      "design": "Silver mask, monochrome landscape and emblem overlay.",
+      "purpose": "Announce release status through dramatic borrowed-looking imagery.",
+      "evidence": "1 fps source samples in 19–27s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V04"
+    },
+    {
+      "start": 27,
+      "end": 31.124,
+      "action": "Ordrtrade.com appears over a red landscape, followed by black and a small metallic mark.",
+      "design": "White URL, red field and dark ending.",
+      "purpose": "Identify the destination and brand.",
+      "evidence": "1 fps source samples in 27–31.124s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V05"
+    }
+  ],
+  "categories": [
+    {
+      "id": "Q01",
+      "finding": "Speed imagery → execution claim → spread claim → on-chain claim → private-mainnet announcement → URL.",
+      "evidence": "V01–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q02",
+      "finding": "Old communications equipment and a person with a handset open without product context; speed is named at 2s.",
+      "evidence": "V01",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q03",
+      "finding": "Trading category is clear around 12s through quote screens and spreads text; no specific user action is demonstrated.",
+      "evidence": "V03",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q04",
+      "finding": "Racing objects, motion blur and collage states create apparent speed. Exact movement and transition timing are unresolved from sparse samples.",
+      "evidence": "V01–V03",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q05",
+      "finding": "Many unrelated footage sources alternate with black intervals. Short labels provide the main semantic link.",
+      "evidence": "V01–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q06",
+      "finding": "Warm old equipment, bright racing footage, dark charts, metallic mask and red landscape create a varied montage.",
+      "evidence": "V01–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q07",
+      "finding": "Speed is large, while italic-plus-sans benefit labels are smaller. The URL is the clearest action text.",
+      "evidence": "V01,V03,V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q08",
+      "finding": "Voice delivery is unverified.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "No validated listening.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q09",
+      "finding": "Music character and structure are unverified.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "No validated listening.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q10",
+      "finding": "Effects and their sources are unverified.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "No validated listening; waveform peaks do not identify effects.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q11",
+      "finding": "Sound sync is unverified.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "No validated listening or paired audiovisual timing.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q12",
+      "finding": "Animated racing, motorsport, storm, trading and cinema-like imagery are mixed. Source rights, original captures and licenses are unknown.",
+      "evidence": "V01–V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q13",
+      "finding": "Source duration 31.124 s; Watch metadata 1920 × 1080. Frame rate, audio clipping and export quality not checked here.",
+      "evidence": "Whole film",
+      "status": "supported",
+      "reason": "Parent source metadata supports duration and dimensions; visual review is sampled.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q14",
+      "finding": "Silent labels communicate a trading platform promising speed and on-chain execution; no practical workflow is visible.",
+      "evidence": "V02–V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q15",
+      "finding": "Large speed text and central benefit labels guide attention through otherwise changing visuals.",
+      "evidence": "V01–V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q16",
+      "finding": "Many visual references fit into 31s while only a few product claims are stated. The imagery adds energy more than explanation.",
+      "evidence": "V01–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q17",
+      "finding": "The speed premise receives more speed metaphors, not measured execution evidence.",
+      "evidence": "V01,V02",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q18",
+      "finding": "Racing, lightning and masked figures may suggest power and exclusivity; audience effect is not measured.",
+      "evidence": "V01,V02,V04",
+      "status": "uncertain",
+      "reason": "Interpretation of imagery.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q19",
+      "finding": "Continuity is thematic through labels; no single asset or transaction is carried across the film.",
+      "evidence": "V01–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q20",
+      "finding": "Speed, better spreads, fully onchain and private mainnet live are film claims. Actual availability and trading performance are not checked.",
+      "evidence": "V02–V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q21",
+      "finding": "The final URL and mark identify the service; racing and market imagery could fit many trading launches.",
+      "evidence": "V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q22",
+      "finding": "A short actual order-to-fill view would clarify execution better than another racing insert.",
+      "evidence": "V02,V03",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "Replace one race scene with an order, timestamped fill and clearly defined comparison."
+    },
+    {
+      "id": "Q23",
+      "finding": "For Tin, use a metaphor briefly, then show the actual corresponding product action.",
+      "evidence": "V02,V03",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "Follow one speed image with a campaign request and measured time to saved draft."
+    },
+    {
+      "id": "Q24",
+      "finding": "No human new-viewer test was performed.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "The product summary is this model’s film-only reading.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q25",
+      "finding": "Mobile preview and accessibility checks were not performed.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "Contact sheets are evidence views, not a stated mobile preview or compliance test.",
+      "experiment": "none"
+    }
+  ],
+  "elements": [
+    {
+      "kind": "ui",
+      "name": "trading chart",
+      "events": [
+        "V03"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "market quotes",
+      "events": [
+        "V03"
+      ]
+    },
+    {
+      "kind": "motion",
+      "name": "racing montage",
+      "events": [
+        "V01",
+        "V02"
+      ]
+    },
+    {
+      "kind": "texture",
+      "name": "metallic mask",
+      "events": [
+        "V04"
+      ]
+    },
+    {
+      "kind": "texture",
+      "name": "footage collage",
+      "events": [
+        "V03"
+      ]
+    }
+  ],
+  "lessons": {
+    "keep": "Place concise benefit labels directly over the imagery intended to illustrate them.",
+    "try": [
+      "Replace a racing insert with a real order-to-fill sequence and a clearly defined timing comparison.",
+      "For Tin, follow one speed metaphor with the actual request and measured time to a saved draft."
+    ],
+    "avoid": "Using borrowed-looking speed imagery as evidence of platform latency or trading quality.",
+    "open": "Execution performance, spreads, fees, mainnet availability, asset rights and audio remain unverified."
+  },
+  "comparison": {
+    "story": "Speed metaphor → trading claims → mainnet announcement → URL.",
+    "motion": "Racing, blur and changing collage states; precise edits unverified.",
+    "sound": "No validated listening; score, speech and effects unknown.",
+    "texture": "Mixed racing/cinema-like imagery, dark charts and metallic surfaces.",
+    "lesson": "A metaphor needs a product demonstration to substantiate its meaning."
+  },
+  "reviewer_model": "gpt-6-astra",
+  "scope": "sampled visual and story review; ASR and measured signal support; no validated audio listening",
+  "viewed_evidence": [
+    "technical-review-2026-10-19/deep-review/motion/134/timeline-00.jpg",
+    "technical-review-2026-10-19/deep-review/motion/134/timeline-01.jpg"
+  ],
+  "closer_windows": [],
+  "sound": [
+    {
+      "id": "A01",
+      "start": 0,
+      "end": 31.124,
+      "layer": "unknown",
+      "detail": "No validated audio listening. Voice delivery, music, effects and mix are unknown.",
+      "visual_relation": "All scenes; sound alignment unverified",
+      "evidence": "No actual audio perception in this review; prepared audio files are not listening evidence."
+    }
+  ]
+}

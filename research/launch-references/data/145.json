@@ -1,0 +1,340 @@
+{
+  "id": 145,
+  "reviewer_model": "gpt-6-astra",
+  "scope": "sampled visual and story review; ASR and measured signal support; no validated audio listening",
+  "viewed_evidence": [
+    "technical-review-2026-10-19/deep-review/motion/145/timeline-00.jpg",
+    "technical-review-2026-10-19/deep-review/motion/145/timeline-01.jpg",
+    "technical-review-2026-10-19/deep-review/audio/145-speech.json"
+  ],
+  "closer_windows": [],
+  "product_from_film": "Stitch turns captured everyday clips and short notes into a personal mini-vlog diary.",
+  "explains_well": "The creator shows capture, annotation, a clip collection and a finished memory in a simple order.",
+  "unclear": "The automatic assembly rules and privacy/sharing settings are not shown.",
+  "product_type": "personal video diary",
+  "scenario": "Capture daily moments, add notes and stitch a memory.",
+  "product_clear_time": 8,
+  "product_clear_basis": "Phone capture examples and mini-vlog wording establish the task.",
+  "scenes": [
+    {
+      "id": "V01",
+      "start": 0,
+      "end": 12,
+      "action": "A creator holds a phone to camera, then records a photo wall, office and window. Just capture and more use cutout lettering above the phone.",
+      "design": "Casual handheld footage, everyday workplace and scrapbook text.",
+      "purpose": "Introduce low-pressure capture.",
+      "evidence": "Visible chronological 1 fps samples, source 0–12s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V02",
+      "start": 12,
+      "end": 20,
+      "action": "An isolated phone shows a clip, note-entry panel and keyboard, then a small caption over the clip.",
+      "design": "White background and centered phone recording.",
+      "purpose": "Demonstrate annotation.",
+      "evidence": "Visible chronological 1 fps samples, source 12–20s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V03",
+      "start": 20,
+      "end": 30,
+      "action": "Like a diary text precedes rounded clips of food, desk, shopping, selfies and drinks with short personal notes.",
+      "design": "White space, rounded portrait tiles and informal captions.",
+      "purpose": "Show the kinds of memories collected.",
+      "evidence": "Visible chronological 1 fps samples, source 20–30s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V04",
+      "start": 30,
+      "end": 36,
+      "action": "A moments grid leads to a done state with a cat and confetti, then a memories view with stacked clips.",
+      "design": "Phone UI, simple completion feedback and thumbnail collections.",
+      "purpose": "Show assembly and storage.",
+      "evidence": "Visible chronological 1 fps samples, source 30–36s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V05",
+      "start": 36,
+      "end": 47.28,
+      "action": "The creator returns in selfie footage, then a small Stitch logo holds on white with word-by-word captions.",
+      "design": "Friendly direct-to-camera footage and minimal end card.",
+      "purpose": "Invite following and commenting for a link.",
+      "evidence": "Visible chronological 1 fps samples, source 36–47.28s; boundary approximate; exact motion between samples unverified."
+    }
+  ],
+  "sound": [
+    {
+      "id": "A01",
+      "start": 0,
+      "end": 47.28,
+      "layer": "unknown",
+      "detail": "No validated direct audio listening was performed. Music, speech delivery, effects, mix and sync remain unknown, not absent.",
+      "visual_relation": "All visual scenes; audiovisual alignment unverified",
+      "evidence": "Visual samples only; no actual audio range supplied to this reviewer."
+    },
+    {
+      "id": "A02",
+      "start": 0.81,
+      "end": 46.85,
+      "layer": "ASR draft",
+      "detail": "ASR draft describes daily capture, no editing, short notes, a personal diary, stitched memories and commenting for a download link. It confuses vlog/blog and the target-audience phrase, so those exact words are not relied on. Broad structure matches the phone demo; voice and sync remain unheard.",
+      "visual_relation": "Story text support; exact audiovisual alignment and delivery unverified.",
+      "evidence": "technical-review-2026-10-19/deep-review/audio/145-speech.json; local faster-whisper base CPU int8 draft; VAD candidates only, recognition errors possible."
+    }
+  ],
+  "categories": [
+    {
+      "id": "Q01",
+      "finding": "Creator introduction leads to capture, notes, everyday examples, stitched memory and invitation.",
+      "evidence": "V01–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q02",
+      "finding": "Showing the phone directly beside the creator makes the app feel personally made and immediately tangible.",
+      "evidence": "V01",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q03",
+      "finding": "The capture examples and mini-vlog wording establish the task around 8 s; annotation makes it concrete.",
+      "evidence": "V01,V02",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q04",
+      "finding": "UI moves from clip to note keyboard, then finished caption; a grid becomes a completion view. Exact taps and assembly timing are unverified.",
+      "evidence": "V02,V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q05",
+      "finding": "Real handheld capture becomes clean isolated phone footage for the instructional part.",
+      "evidence": "V01,V02",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q06",
+      "finding": "Scrapbook letters and ordinary food/desk clips support a personal diary feel.",
+      "evidence": "V01,V03",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q07",
+      "finding": "Short notes are useful examples; word-by-word narration captions lose sentence context in still samples.",
+      "evidence": "V02,V03,V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q08",
+      "finding": "ASR draft describes daily capture, no editing, short notes, a personal diary, stitched memories and commenting for a download link. It confuses vlog/blog and the target-audience phrase, so those exact words are not relied on. Broad structure matches the phone demo; voice and sync remain unheard.",
+      "evidence": "A02",
+      "status": "uncertain",
+      "reason": "ASR text only; no validated listening, delivery or voice origin.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q09",
+      "finding": "Voice delivery, music, effects and audiovisual alignment were not established by this visual pass.",
+      "evidence": "A01",
+      "status": "not checked",
+      "reason": "No validated direct audio listening input.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q10",
+      "finding": "Voice delivery, music, effects and audiovisual alignment were not established by this visual pass.",
+      "evidence": "A01",
+      "status": "not checked",
+      "reason": "No validated direct audio listening input.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q11",
+      "finding": "Voice delivery, music, effects and audiovisual alignment were not established by this visual pass.",
+      "evidence": "A01",
+      "status": "not checked",
+      "reason": "No validated direct audio listening input.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q12",
+      "finding": "Selfie footage, actual-looking phone use and isolated screen captures dominate; editing method is unverified.",
+      "evidence": "V01–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q13",
+      "finding": "Manifest duration 47.28 s; indexed dimensions 1280×720. Source unchanged flag recorded; fresh encoding and audio clipping checks not run.",
+      "evidence": "Group manifest",
+      "status": "uncertain",
+      "reason": "Inherited technical metadata; no fresh media probe in this review.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q14",
+      "finding": "Capture, note entry and memories UI explain the basic task visually; ASR adds the no-editing promise.",
+      "evidence": "V01–V04,A02",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q15",
+      "finding": "A single centered phone keeps each instructional step easy to locate.",
+      "evidence": "V02,V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q16",
+      "finding": "The 47 s film spends its middle on concrete examples rather than long feature lists.",
+      "evidence": "V02–V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q17",
+      "finding": "The initial everyday capture pays off in a done state and memories collection.",
+      "evidence": "V01,V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q18",
+      "finding": "Casual clips and personal notes frame participation as low pressure; actual comfort is unmeasured.",
+      "evidence": "V01,V03",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q19",
+      "finding": "Rounded portrait clips and minimal white UI connect examples to the final phone views.",
+      "evidence": "V02–V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q20",
+      "finding": "Note entry and a completion state are visible, but editing automation and privacy behavior are not established.",
+      "evidence": "V02,V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q21",
+      "finding": "The personal creator presence and scrapbook lettering distinguish a small diary app.",
+      "evidence": "V01,V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q22",
+      "finding": "The final comment-based access instruction would be clearer as a complete persistent sentence.",
+      "evidence": "V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q23",
+      "finding": "Tin can show a founder capturing real business moments, then turning them into a reviewable campaign draft.",
+      "evidence": "V01–V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q24",
+      "finding": "Stitch turns captured everyday clips and short notes into a personal mini-vlog diary.",
+      "evidence": "Model reading from inspected images",
+      "status": "uncertain",
+      "reason": "Model-only new-viewer interpretation; no human test.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q25",
+      "finding": "Contact sheets inspected at displayed size; a phone-size playback, caption audit, flash audit and formal accessibility check were not performed.",
+      "evidence": "Viewed sheets",
+      "status": "not checked",
+      "reason": "Full-size moving-image and device checks unavailable in this pass.",
+      "experiment": "none"
+    }
+  ],
+  "lessons": {
+    "keep": "Use ordinary real examples to make a simple workflow feel achievable.",
+    "avoid": "Avoid promising zero editing without showing what the user can correct.",
+    "open": "Assembly rules, privacy, output quality, availability and audio delivery remain unverified.",
+    "try": [
+      "Show a Tin user capturing three shop moments and receiving a draft post with editable notes.",
+      "Keep the final access instruction as a full sentence beside a clear URL."
+    ]
+  },
+  "comparison": {
+    "story": "Introduce low-pressure capture. → Demonstrate annotation. → Show the kinds of memories collected. → Show assembly and storage. → Invite following and commenting for a link.",
+    "motion": "UI moves from clip to note keyboard, then finished caption; a grid becomes a completion view. Exact taps and assembly timing are unverified. Sampling scope: 1 fps unless a closer window is recorded.",
+    "sound": "No validated listening; unknown.",
+    "texture": "Casual handheld footage, everyday workplace and scrapbook text.; White background and centered phone recording.; White space, rounded portrait tiles and informal captions.; Phone UI, simple completion feedback and thumbnail collections.; Friendly direct-to-camera footage and minimal end card.",
+    "lesson": "Use ordinary real examples to make a simple workflow feel achievable."
+  },
+  "elements": [
+    {
+      "kind": "ui",
+      "name": "phone camera",
+      "events": [
+        "V01"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "note editor",
+      "events": [
+        "V02"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "thumbnail grid",
+      "events": [
+        "V04"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "completion state",
+      "events": [
+        "V04"
+      ]
+    },
+    {
+      "kind": "texture",
+      "name": "cutout lettering",
+      "events": [
+        "V01"
+      ]
+    }
+  ]
+}

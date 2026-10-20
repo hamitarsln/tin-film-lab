@@ -1,0 +1,314 @@
+{
+  "id": 57,
+  "reviewer_model": "gpt-6-astra",
+  "scope": "sampled visual and story review; ASR and measured signal support; no validated audio listening",
+  "viewed_evidence": [
+    "technical-review-2026-10-19/deep-review/motion/057/timeline-00.jpg"
+  ],
+  "closer_windows": [],
+  "product_from_film": "Exa presents access to historical web snapshots for AI use.",
+  "explains_well": "A dated field of webpages makes the idea of travelling through web history visible.",
+  "unclear": "The query interface, coverage limits and verification behind the 400-billion figure are not shown.",
+  "product_type": "developer data tool",
+  "scenario": "Retrieve a webpage from an earlier point in time.",
+  "product_clear_time": 10,
+  "product_clear_basis": "Year labels and snapshot captions appear amid layers of webpages after the Exa introduction.",
+  "scenes": [
+    {
+      "id": "V01",
+      "start": 0,
+      "end": 8,
+      "action": "A presenter walks forward in an active office while Introducing and Exa appear. A side view of a tossed-looking yellow object interrupts, then webpages float around the presenter.",
+      "design": "Warm office footage and white serif title overlays.",
+      "purpose": "Introduce the team and a web-history idea.",
+      "evidence": "Visible chronological 1 fps samples, source 0–8s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V02",
+      "start": 8,
+      "end": 15,
+      "action": "A webpage text close-up gives way to dense planes of website screenshots with year labels. A blue counter-like box resolves to 400 Billion.",
+      "design": "Layered white browser pages, large year labels and blue number card.",
+      "purpose": "Represent archive scale and time.",
+      "evidence": "Visible chronological 1 fps samples, source 8–15s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V03",
+      "start": 15,
+      "end": 22,
+      "action": "A recognizable encyclopedia-style page comes forward and changes to older-looking versions; the presenter returns with an old messaging-style graphic.",
+      "design": "Historical-looking page chrome and floating app image.",
+      "purpose": "Make past web states concrete.",
+      "evidence": "Visible chronological 1 fps samples, source 15–22s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V04",
+      "start": 22,
+      "end": 23.806,
+      "action": "White Exa logo holds on black.",
+      "design": "Minimal brand card.",
+      "purpose": "Close the announcement.",
+      "evidence": "Visible chronological 1 fps samples, source 22–23.806s; boundary approximate; exact motion between samples unverified."
+    }
+  ],
+  "sound": [
+    {
+      "id": "A01",
+      "start": 0,
+      "end": 23.806,
+      "layer": "unknown",
+      "detail": "No validated direct audio listening was performed. Music, speech delivery, effects, mix and sync remain unknown, not absent.",
+      "visual_relation": "All visual scenes; audiovisual alignment unverified",
+      "evidence": "Visual samples only; no actual audio range supplied to this reviewer."
+    }
+  ],
+  "categories": [
+    {
+      "id": "Q01",
+      "finding": "Presenter introduction leads to archive scale, dated pages and an example of earlier web designs.",
+      "evidence": "V01–V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q02",
+      "finding": "The office presenter and Introducing text appear immediately; a specific task is not yet visible.",
+      "evidence": "V01",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q03",
+      "finding": "Snapshot and year captions establish historical web access around 9–10 s; the AI audience is stated later in captions.",
+      "evidence": "V02,V03",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q04",
+      "finding": "Page images form layers at different sizes and selected pages come forward; exact camera path and easing are unresolved.",
+      "evidence": "V02,V03",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q05",
+      "finding": "The film moves from office to webpage close-up to a field of pages, then back to the presenter; the page motif connects the shifts.",
+      "evidence": "V01–V03",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q06",
+      "finding": "Warm office footage contrasts with a bright, dense field of browser screenshots and a flat blue counter.",
+      "evidence": "V01,V02",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q07",
+      "finding": "Year and scale labels are large; most page text is decorative context except the foreground historical page.",
+      "evidence": "V02,V03",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q08",
+      "finding": "Voice delivery, music, effects and audiovisual alignment were not established by this visual pass.",
+      "evidence": "A01",
+      "status": "not checked",
+      "reason": "No validated direct audio listening input.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q09",
+      "finding": "Voice delivery, music, effects and audiovisual alignment were not established by this visual pass.",
+      "evidence": "A01",
+      "status": "not checked",
+      "reason": "No validated direct audio listening input.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q10",
+      "finding": "Voice delivery, music, effects and audiovisual alignment were not established by this visual pass.",
+      "evidence": "A01",
+      "status": "not checked",
+      "reason": "No validated direct audio listening input.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q11",
+      "finding": "Voice delivery, music, effects and audiovisual alignment were not established by this visual pass.",
+      "evidence": "A01",
+      "status": "not checked",
+      "reason": "No validated direct audio listening input.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q12",
+      "finding": "Presenter footage and historical-looking webpage screenshots are composited; source dates and archive authenticity are not independently verified.",
+      "evidence": "V01–V03",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q13",
+      "finding": "Manifest duration 23.806 s; indexed dimensions 3840×2160. Source unchanged flag recorded; fresh encoding and audio clipping checks not run.",
+      "evidence": "Group manifest",
+      "status": "uncertain",
+      "reason": "Inherited technical metadata; no fresh media probe in this review.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q14",
+      "finding": "Dated pages and changing browser designs communicate history without sound; the precise API use is not visible.",
+      "evidence": "V02,V03",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q15",
+      "finding": "Large years and the blue 400 Billion card focus attention within the busy page field.",
+      "evidence": "V02",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q16",
+      "finding": "Many screenshots create density, but one foreground page gives a simple example after the scale claim.",
+      "evidence": "V02,V03",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q17",
+      "finding": "The introduction is answered by a time-spanning archive example; the ending provides a brand, not an onboarding step.",
+      "evidence": "V01–V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q18",
+      "finding": "Old page designs and office playfulness suggest discovery and nostalgia; this is interpretation.",
+      "evidence": "V01,V03",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q19",
+      "finding": "Webpage rectangles link the presenter overlays, archive field and foreground example.",
+      "evidence": "V01–V03",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q20",
+      "finding": "Historical-looking versions and a quantity claim are visible; retrieval correctness and completeness are not tested.",
+      "evidence": "V02,V03",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q21",
+      "finding": "The blue scale card and restrained Exa title create consistent emphasis; webpage history is tied to the product concept.",
+      "evidence": "V01,V02,V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q22",
+      "finding": "The dated-page example is necessary; a brief actual date query could replace the office side insert and make usage clearer.",
+      "evidence": "V01,V03",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q23",
+      "finding": "Tin can show campaign versions as a dated field, then bring forward one prior version and its recorded result.",
+      "evidence": "V02,V03",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q24",
+      "finding": "Exa presents access to historical web snapshots for AI use.",
+      "evidence": "Model reading from inspected images",
+      "status": "uncertain",
+      "reason": "Model-only new-viewer interpretation; no human test.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q25",
+      "finding": "Contact sheets inspected at displayed size; a phone-size playback, caption audit, flash audit and formal accessibility check were not performed.",
+      "evidence": "Viewed sheets",
+      "status": "not checked",
+      "reason": "Full-size moving-image and device checks unavailable in this pass.",
+      "experiment": "none"
+    }
+  ],
+  "lessons": {
+    "keep": "Use dated versions of one familiar page to make historical access concrete.",
+    "avoid": "Avoid using a large archive count as a substitute for showing retrieval.",
+    "open": "Exact motion, historical authenticity, archive completeness and sound remain unverified.",
+    "try": [
+      "For Tin, show three dated campaign versions and select one to reveal its original creative and result.",
+      "Pair an archive-scale montage with one real query field and retrieved date so the visual metaphor leads to a usable action."
+    ]
+  },
+  "comparison": {
+    "story": "Introduce the team and a web-history idea. → Represent archive scale and time. → Make past web states concrete. → Close the announcement.",
+    "motion": "Page images form layers at different sizes and selected pages come forward; exact camera path and easing are unresolved. Sampling scope: 1 fps unless a closer window is recorded.",
+    "sound": "No validated listening; unknown.",
+    "texture": "Warm office footage and white serif title overlays.; Layered white browser pages, large year labels and blue number card.; Historical-looking page chrome and floating app image.; Minimal brand card.",
+    "lesson": "Use dated versions of one familiar page to make historical access concrete."
+  },
+  "elements": [
+    {
+      "kind": "ui",
+      "name": "historical webpage screenshots",
+      "events": [
+        "V02",
+        "V03"
+      ]
+    },
+    {
+      "kind": "motion",
+      "name": "layered page field",
+      "events": [
+        "V02"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "large number counter",
+      "events": [
+        "V02"
+      ]
+    },
+    {
+      "kind": "texture",
+      "name": "office footage",
+      "events": [
+        "V01"
+      ]
+    }
+  ]
+}

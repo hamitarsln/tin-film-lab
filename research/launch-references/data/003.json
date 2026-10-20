@@ -1,0 +1,337 @@
+{
+  "id": 3,
+  "viewed_evidence": [
+    "technical-review-2026-10-19/deep-review/motion/003/timeline-00.jpg",
+    "astra-review-2026-10-20/evidence/group-3/003/dense.jpg"
+  ],
+  "product_from_film": "Monid offers many tools through one API key with a stated zero markup.",
+  "explains_well": "Lead generation, social media and SEO repeat the same layout to explain breadth and pricing.",
+  "unclear": "No request, integration or resulting tool output is shown.",
+  "product_type": "developer tool / API catalogue",
+  "scenario": "A pricing announcement groups tool logos and per-use prices by category.",
+  "product_clear_time": 6,
+  "product_clear_basis": "The visible line says 2,500+ tools. One API key. at 6 s.",
+  "scenes": [
+    {
+      "start": 0,
+      "end": 5,
+      "action": "White frame becomes a small wordmark, an oversized blurred blue star, then a clear 0% markup line.",
+      "design": "Blue mark and bold blue type on white.",
+      "purpose": "Makes price the opening claim.",
+      "id": "V01",
+      "evidence": "Visible 1 fps samples, source 0–5 s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 5,
+      "end": 9,
+      "action": "Many tool icons form a background grid around the star; the line changes from tool count and API key to markup and subscriptions. Dense 7–10 s frames show the star expanding over the grid, then shrinking to the new heading position on white.",
+      "design": "Faint multicolor icon grid behind a solid central mark.",
+      "purpose": "Defines the aggregation offer.",
+      "id": "V02",
+      "evidence": "Visible 1 fps samples, source 5–9 s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 9,
+      "end": 12,
+      "action": "Lead gen heading appears; a short logo row gains prices and a markup badge.",
+      "design": "Plain white tiles, blue price figures, black pointer.",
+      "purpose": "Gives the first category example.",
+      "id": "V03",
+      "evidence": "Visible 1 fps samples, source 9–12 s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 12,
+      "end": 15,
+      "action": "Social media replaces the category; icons and prices accumulate in the same positions.",
+      "design": "Same five-column row and badge.",
+      "purpose": "Shows a second use area with little layout relearning.",
+      "id": "V04",
+      "evidence": "Visible 1 fps samples, source 12–15 s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 15,
+      "end": 18,
+      "action": "SEO uses the same row; partial items become a fuller priced row.",
+      "design": "Blue figures above tool tiles.",
+      "purpose": "Extends catalogue breadth.",
+      "id": "V05",
+      "evidence": "Visible 1 fps samples, source 15–18 s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 18,
+      "end": 21.0,
+      "action": "Large markup text overlays the fading row; a blurred blue star fills the frame; final compact Monid lockup appears.",
+      "design": "White background, brand star, single-line tool/API/pricing summary.",
+      "purpose": "Restates the core offer.",
+      "id": "V06",
+      "evidence": "Visible 1 fps samples, source 18–21.0 s; boundaries approximate, between-frame action unresolved."
+    }
+  ],
+  "sound": [
+    {
+      "id": "A01",
+      "start": 0,
+      "end": 21,
+      "layer": "unknown",
+      "detail": "No validated listening. Empty ASR candidates do not prove absence of speech. Music, effects and sync remain unknown.",
+      "visual_relation": "V01–V06; no timing claim",
+      "evidence": "technical-review-2026-10-19/deep-review/audio/003.json; inspected local signal file, not audio perception."
+    }
+  ],
+  "categories": [
+    {
+      "finding": "Price claim → API aggregation → three categories → same price claim; no end-to-end user task.",
+      "status": "supported",
+      "reason": "Inspected visual samples; interpretation is identified in the finding.",
+      "evidence": "V02",
+      "experiment": "none",
+      "id": "Q01"
+    },
+    {
+      "finding": "0 s is blank white; 1 s wordmark and 2 s large blurred star introduce identity before utility.",
+      "status": "supported",
+      "reason": "Inspected visual samples; interpretation is identified in the finding.",
+      "evidence": "V01",
+      "experiment": "none",
+      "id": "Q02"
+    },
+    {
+      "finding": "API-key text at 6 s suggests developer integration; category rows broaden use cases.",
+      "status": "supported",
+      "reason": "Inspected visual samples; interpretation is identified in the finding.",
+      "evidence": "V02",
+      "experiment": "none",
+      "id": "Q03"
+    },
+    {
+      "finding": "Dense 7–10 s frames show the star expanding over the grid then shrinking toward the Lead gen heading; tool tiles appear and sharpen from left to right.",
+      "status": "supported",
+      "reason": "Inspected visual samples; interpretation is identified in the finding.",
+      "evidence": "V02–V03; dense 7–10 s window",
+      "experiment": "none",
+      "id": "Q04"
+    },
+    {
+      "finding": "At roughly 8.125–8.25 s the enlarged star bridges grid to white; mask versus overlay cannot be established from rendered frames.",
+      "status": "supported",
+      "reason": "Inspected visual samples; interpretation is identified in the finding.",
+      "evidence": "V02–V03; dense 7–10 s window",
+      "experiment": "none",
+      "id": "Q05"
+    },
+    {
+      "finding": "Flat white and cobalt blue dominate; muted logo grid creates density behind the central mark.",
+      "status": "supported",
+      "reason": "Inspected visual samples; interpretation is identified in the finding.",
+      "evidence": "V02",
+      "experiment": "none",
+      "id": "Q06"
+    },
+    {
+      "finding": "Price claim is large; tool names and per-use units are small. These are catalogue graphics, not proof of a working API.",
+      "status": "supported",
+      "reason": "Inspected visual samples; interpretation is identified in the finding.",
+      "evidence": "V03",
+      "experiment": "none",
+      "id": "Q07"
+    },
+    {
+      "finding": "Speech presence and delivery remain unverified.",
+      "evidence": "No validated audio listening",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q08"
+    },
+    {
+      "finding": "Music and its structure remain unverified.",
+      "evidence": "No validated audio listening",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q09"
+    },
+    {
+      "finding": "No added effects can be identified from signal candidates.",
+      "evidence": "No validated audio listening",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q10"
+    },
+    {
+      "finding": "No beat or sound-to-motion sync is established.",
+      "evidence": "No validated audio listening",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q11"
+    },
+    {
+      "finding": "Tool logos, a pointer and catalogue tiles are visible; asset provenance is unknown.",
+      "status": "supported",
+      "reason": "Inspected visual samples; interpretation is identified in the finding.",
+      "evidence": "V03",
+      "experiment": "none",
+      "id": "Q12"
+    },
+    {
+      "finding": "Supplied duration is 21 s; frame rate, compression and audio clipping were not checked independently.",
+      "evidence": "Source metadata and sheets",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q13"
+    },
+    {
+      "finding": "The offer is understandable silently through the API-key and markup lines; integration steps are absent from this sampled story.",
+      "status": "supported",
+      "reason": "Inspected visual samples; interpretation is identified in the finding.",
+      "evidence": "V02",
+      "experiment": "none",
+      "id": "Q14"
+    },
+    {
+      "finding": "The central star and large price line lead; category headings then guide attention to the logo row.",
+      "status": "supported",
+      "reason": "Inspected visual samples; interpretation is identified in the finding.",
+      "evidence": "V03",
+      "experiment": "none",
+      "id": "Q15"
+    },
+    {
+      "finding": "Three categories change in roughly three-second blocks; small prices require more time than the headline.",
+      "status": "supported",
+      "reason": "Inspected visual samples; interpretation is identified in the finding.",
+      "evidence": "V04",
+      "experiment": "none",
+      "id": "Q16"
+    },
+    {
+      "finding": "The initial zero-markup promise returns at 18 s and the closing card; pricing is asserted, not tested.",
+      "status": "supported",
+      "reason": "Inspected visual samples; interpretation is identified in the finding.",
+      "evidence": "V06",
+      "experiment": "none",
+      "id": "Q17"
+    },
+    {
+      "finding": "Interpretation: repeated compact rows aim for confidence and abundance; no audience response is measured.",
+      "status": "supported",
+      "reason": "Inspected visual samples; interpretation is identified in the finding.",
+      "evidence": "V03",
+      "experiment": "none",
+      "id": "Q18"
+    },
+    {
+      "finding": "The same blue star and row geometry connect every category.",
+      "status": "supported",
+      "reason": "Inspected visual samples; interpretation is identified in the finding.",
+      "evidence": "V04",
+      "experiment": "none",
+      "id": "Q19"
+    },
+    {
+      "finding": "Tool availability and prices are represented in graphics; no API call or actual charge is demonstrated.",
+      "status": "supported",
+      "reason": "Inspected visual samples; interpretation is identified in the finding.",
+      "evidence": "V03",
+      "experiment": "none",
+      "id": "Q20"
+    },
+    {
+      "finding": "The blue star is the recurring brand device; icon grids and white catalogue cards are broadly reusable.",
+      "status": "supported",
+      "reason": "Inspected visual samples; interpretation is identified in the finding.",
+      "evidence": "V02",
+      "experiment": "none",
+      "id": "Q21"
+    },
+    {
+      "finding": "Three categories establish range; one could be exchanged for a request-and-result example.",
+      "status": "supported",
+      "reason": "Inspected visual samples; interpretation is identified in the finding.",
+      "evidence": "V05",
+      "experiment": "none",
+      "id": "Q22"
+    },
+    {
+      "finding": "A Tin integration announcement could reuse one category grid with approved app icons, a real payload and one result.",
+      "status": "supported",
+      "reason": "Inspected visual samples; interpretation is identified in the finding.",
+      "evidence": "V03",
+      "experiment": "none",
+      "id": "Q23"
+    },
+    {
+      "finding": "No human new-viewer check; this model identifies an API tool catalogue from the visible line.",
+      "evidence": "Model sampled-image interpretation",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q24"
+    },
+    {
+      "finding": "No mobile-size check; tiny tool names and price units need a separate preview.",
+      "evidence": "Contact sheets only",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q25"
+    }
+  ],
+  "lessons": {
+    "keep": "Keep category heading, logo row and price positions constant while changing examples.",
+    "try": [
+      "For a Tin integrations film, use the same three-column layout for email, CRM and analytics with approved icons and one useful task per row.",
+      "For an API pricing film, retain the blue brand transition but replace the third category with a readable request and returned lead record."
+    ],
+    "avoid": "Presenting small price figures too briefly to understand their units.",
+    "open": "Exact star transition mechanism and all audible sound choices remain unverified."
+  },
+  "comparison": {
+    "story": "Pricing claim, catalogue breadth, category examples, repeated claim.",
+    "motion": "Logo scale bridge checked at 8 fps from 7–10 s; catalogue rows appear left to right.",
+    "sound": "Not listened; empty ASR does not establish silence.",
+    "texture": "White/blue flat graphics and faint tool logos; provenance unknown.",
+    "lesson": "A repeated row can explain breadth without changing the reading pattern."
+  },
+  "reviewer_model": "gpt-6-astra",
+  "scope": "sampled visual and story review; ASR and measured signal support; no validated audio listening",
+  "closer_windows": [
+    {
+      "start": 7,
+      "end": 10,
+      "rate_fps": 8,
+      "evidence": [
+        "astra-review-2026-10-20/evidence/group-3/003/dense.jpg"
+      ],
+      "resolved": "At about 7.875–8.125 s the blue star scales up over the grid; by 8.25 s the background is plain white and the star is smaller and left of center; by 8.375 s it sits beside Lead gen. Logo tiles sharpen and appear left to right from 8.5 s. Exact easing and compositing method remain unknown. Watch returned only t=8 s before local extraction."
+    }
+  ],
+  "elements": [
+    {
+      "kind": "ui",
+      "name": "icon grid",
+      "events": [
+        "V02"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "price cards",
+      "events": [
+        "V03",
+        "V04",
+        "V05"
+      ]
+    },
+    {
+      "kind": "motion",
+      "name": "logo scale transition",
+      "events": [
+        "V02"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,368 @@
+{
+  "id": 131,
+  "product_from_film": "Blueberry presents a commerce agent that turns social interest into personalized product conversations and collected emails.",
+  "explains_well": "A sale request leads to product and customer cards, one expanded reply thread, then many conversations and an email-collected state.",
+  "unclear": "The film does not independently establish sales attribution, return on investment, opt-in rates or the degree of automation.",
+  "product_type": "commerce and social sales agent",
+  "scenario": "Ask to sell out a holiday sale, identify interested shoppers, reply with a relevant product or offer and collect contact information.",
+  "product_clear_time": 35,
+  "product_clear_basis": "At about 34–37s, an expanded customer reply and product-offer response make the sales-conversation mechanism visible; the broad sale request appears at 20s.",
+  "scenes": [
+    {
+      "start": 0,
+      "end": 7,
+      "action": "A presenter in a blue novelty hat gestures beside 3X text, then another presenter appears with rising sales-value overlays and large Millions lettering.",
+      "design": "Warm room, playful hat and large blue figures.",
+      "purpose": "Hook with return and sales claims; numbers are not verified.",
+      "evidence": "1 fps source samples in 0–7s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V01"
+    },
+    {
+      "start": 7,
+      "end": 18,
+      "action": "Two seated founders appear with Blueberry name and lower-third identities.",
+      "design": "Stable two-person framing in a bright plant-filled room.",
+      "purpose": "Introduce the people and product.",
+      "evidence": "1 fps source samples in 7–18s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V02"
+    },
+    {
+      "start": 18,
+      "end": 31,
+      "action": "A prompt requests selling out a Fourth of July sale. Product cards spread around it, followed by social profiles, posts and story replies; a blue mark appears among them.",
+      "design": "Pale blue space, white floating cards and blue brand symbol.",
+      "purpose": "Visualize connecting a commerce goal with products and interested people.",
+      "evidence": "1 fps source samples in 18–31s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V03"
+    },
+    {
+      "start": 31,
+      "end": 41,
+      "action": "One profile and story-reply thread are enlarged; a blue product response and customer reply appear, then the scene expands into many conversations.",
+      "design": "Focused chat card followed by a wide field of blue bubbles.",
+      "purpose": "Show one interaction before implying scale.",
+      "evidence": "1 fps source samples in 31–41s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V04"
+    },
+    {
+      "start": 41,
+      "end": 50,
+      "action": "Founders return with a reply thread, an email-collected badge, integration icons and a branching connection diagram.",
+      "design": "UI overlays over live-action-style presenters.",
+      "purpose": "Connect conversations to contact capture and other systems.",
+      "evidence": "1 fps source samples in 41–50s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V05"
+    },
+    {
+      "start": 50,
+      "end": 66,
+      "action": "Large text claims millions in sales, names customer categories, and displays ROI and email opt-in figures beside the founders.",
+      "design": "Oversized blue numbers and white labels.",
+      "purpose": "State commercial outcomes and audience; basis is not shown.",
+      "evidence": "1 fps source samples in 50–66s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V06"
+    },
+    {
+      "start": 66,
+      "end": 70.111,
+      "action": "Blueberry name and blueberry.ai appear on a blue field.",
+      "design": "White wordmark and pill-shaped URL.",
+      "purpose": "Provide a clear destination.",
+      "evidence": "1 fps source samples in 66–70.111s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V07"
+    }
+  ],
+  "categories": [
+    {
+      "id": "Q01",
+      "finding": "Return claim → founders → sale goal → shopper conversation → email and integrations → outcome claims → URL.",
+      "evidence": "V01–V07",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q02",
+      "finding": "The novelty blue hat and speaking presenter are the first clear subjects; 3X claim appears at about 2s. Product mechanism is not yet clear.",
+      "evidence": "V01",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q03",
+      "finding": "Commerce intent is visible in the sale prompt around 20s, and personalized social replies clarify the task at 35s.",
+      "evidence": "V03,V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q04",
+      "finding": "Cards change positions and scale, the blue mark travels among them in sampled states, and one chat expands into many. Exact paths and easing are unverified.",
+      "evidence": "V03,V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q05",
+      "finding": "Founder footage gives way to a pale-blue interface space and returns with overlays. Blue branding bridges both.",
+      "evidence": "V02–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q06",
+      "finding": "Warm natural-looking room contrasts with soft-shadow white cards on pale blue.",
+      "evidence": "V02–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q07",
+      "finding": "The goal and large outcomes are easy to spot; many profile and message details are dense until one conversation is enlarged.",
+      "evidence": "V03,V04,V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q08",
+      "finding": "The inspected ASR draft provides partial script-role support; recognition limits are recorded in A02. Audible voice characteristics and delivery remain unchecked.",
+      "evidence": "A02",
+      "status": "uncertain",
+      "reason": "Local draft text was read; no direct listening.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q09",
+      "finding": "Music character and structure are unverified.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "No validated listening.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q10",
+      "finding": "Effects and their sources are unverified.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "No validated listening; waveform peaks do not identify effects.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q11",
+      "finding": "Sound sync is unverified.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "No validated listening or paired audiovisual timing.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q12",
+      "finding": "Presenter footage, designed product/profile cards, chat examples and integration symbols are mixed. Real versus illustrative customer data is unknown.",
+      "evidence": "V01–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q13",
+      "finding": "Source duration 70.111 s; Watch metadata 1920 × 1080. Frame rate, audio clipping and export quality not checked here.",
+      "evidence": "Whole film",
+      "status": "supported",
+      "reason": "Parent source metadata supports duration and dimensions; visual review is sampled.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q14",
+      "finding": "Silent viewing shows goal → shopper reply → product response → email capture. Claimed commercial results still lack supporting context.",
+      "evidence": "V03–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q15",
+      "finding": "One expanded profile and conversation create a focal point within the larger card field.",
+      "evidence": "V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q16",
+      "finding": "The single conversation makes the scale montage more interpretable; the final outcome figures arrive quickly and without definitions.",
+      "evidence": "V04,V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q17",
+      "finding": "The opening return claim is repeated through sales and ROI claims, but the visible workflow proves only illustrated conversation states.",
+      "evidence": "V01,V04,V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q18",
+      "finding": "Playful hats and bright blue cards may reduce formality, while large metrics suggest ambition; viewer reaction is unmeasured.",
+      "evidence": "V01,V03,V06",
+      "status": "uncertain",
+      "reason": "Interpretation of styling.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q19",
+      "finding": "Blue brand symbol, blue replies and blue outcome text connect the founders with the abstract workflow.",
+      "evidence": "V01–V07",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q20",
+      "finding": "A goal, replies and email-collected state are shown. Actual autonomy, consent handling, sales attribution and metric accuracy remain unverified.",
+      "evidence": "V03–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q21",
+      "finding": "The blue ring-like mark acts as a recurring agent cue across cards and the final wordmark.",
+      "evidence": "V03,V04,V07",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q22",
+      "finding": "A measured before/after for the shown sale would be more informative than several broad outcome claims.",
+      "evidence": "V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "Show one campaign period, conversation count, attributed orders and the attribution rule."
+    },
+    {
+      "id": "Q23",
+      "finding": "For Tin, expand one useful interaction before showing many, and make the final saved state visible.",
+      "evidence": "V04,V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "Show one campaign response becoming an approved lead record, then zoom out to the queue."
+    },
+    {
+      "id": "Q24",
+      "finding": "No human new-viewer test was performed.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "The product summary is this model’s film-only reading.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q25",
+      "finding": "Mobile preview and accessibility checks were not performed.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "Contact sheets are evidence views, not a stated mobile preview or compliance test.",
+      "experiment": "none"
+    }
+  ],
+  "elements": [
+    {
+      "kind": "ui",
+      "name": "prompt input",
+      "events": [
+        "V03"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "product card",
+      "events": [
+        "V03"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "profile card",
+      "events": [
+        "V03",
+        "V04"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "chat",
+      "events": [
+        "V04",
+        "V05"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "integration diagram",
+      "events": [
+        "V05"
+      ]
+    },
+    {
+      "kind": "motion",
+      "name": "floating cards",
+      "events": [
+        "V03",
+        "V04"
+      ]
+    }
+  ],
+  "lessons": {
+    "keep": "Enlarge one shopper conversation before expanding to many similar interactions.",
+    "try": [
+      "Replace one broad ROI claim with a single campaign period and clearly defined attributed-order result.",
+      "For Tin, show one response becoming an approved lead record, then reveal the larger queue."
+    ],
+    "avoid": "Using animated growth figures as proof of measured commercial impact or autonomous execution.",
+    "open": "Metric basis, actual customer data, automation limits, consent flow, attribution and audio remain unverified."
+  },
+  "comparison": {
+    "story": "Sales hook → founders → sale goal → personalized replies → capture/integrations → metrics → CTA.",
+    "motion": "Floating card states and one-to-many conversation expansion; precise paths unverified.",
+    "sound": "No validated listening; narration, music, effects and sync unknown.",
+    "texture": "Warm founder footage and pale-blue soft-shadow UI cards.",
+    "lesson": "One legible conversation gives a scale montage a concrete unit of meaning."
+  },
+  "reviewer_model": "gpt-6-astra",
+  "scope": "sampled visual and story review; ASR and measured signal support; no validated audio listening",
+  "viewed_evidence": [
+    "technical-review-2026-10-19/deep-review/motion/131/timeline-00.jpg",
+    "technical-review-2026-10-19/deep-review/motion/131/timeline-01.jpg",
+    "technical-review-2026-10-19/deep-review/motion/131/timeline-02.jpg"
+  ],
+  "closer_windows": [],
+  "sound": [
+    {
+      "id": "A01",
+      "start": 0,
+      "end": 70.111,
+      "layer": "unknown",
+      "detail": "No validated audio listening. Voice delivery, music, effects and mix are unknown.",
+      "visual_relation": "All scenes; sound alignment unverified",
+      "evidence": "No actual audio perception in this review; prepared audio files are not listening evidence."
+    },
+    {
+      "id": "A02",
+      "start": 0,
+      "end": 70.111,
+      "layer": "ASR draft",
+      "detail": "The draft supports a goal-driven sales story: sell out a holiday sale, review inventory/social engagement, send personalized offers, answer questions, close sales and sync customer details. It ends mid-thought around 50s; ROI and performance statements are claims, not validated results. No validated listening; delivery, music, effects, mix and synchronization remain unknown.",
+      "visual_relation": "Whole-film script role only; ASR timing and audible delivery not validated.",
+      "evidence": "technical-review-2026-10-19/deep-review/audio/131-speech.json; local faster-whisper draft inspected."
+    }
+  ]
+}

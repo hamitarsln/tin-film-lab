@@ -1,0 +1,380 @@
+{
+  "id": 244,
+  "viewed_evidence": [
+    "technical-review-2026-10-19/deep-review/motion/244/timeline-00.jpg",
+    "technical-review-2026-10-19/deep-review/motion/244/timeline-01.jpg",
+    "technical-review-2026-10-19/deep-review/motion/244/timeline-02.jpg",
+    "astra-review-2026-10-20/evidence/group-3/244/frame-61.jpg",
+    "astra-review-2026-10-20/evidence/group-3/244/frame-64.jpg",
+    "technical-review-2026-10-19/deep-review/audio/244-speech.json"
+  ],
+  "product_from_film": "Saudara combines human brokers and AI software to source physical products from overseas factories, starting with Indonesia.",
+  "explains_well": "Household objects connect the sourcing problem to familiar products, and a running-shirt request shows specifications and supplier checks.",
+  "unclear": "The film does not show the supplier comparison, supporting verification documents or the human broker decision after the checks.",
+  "product_type": "physical-product sourcing",
+  "scenario": "Prepare specifications for 3,000 running shirts and find suitable overseas suppliers before committing funds.",
+  "product_clear_time": 35,
+  "product_clear_basis": "Founder captions describe a sourcing agency for physical products; a real broker and AI agents are explained immediately after.",
+  "scenes": [
+    {
+      "start": 0,
+      "end": 13,
+      "action": "Founder points to ordinary objects; guitar, chairs, candle and clothing lead to factory and city footage and the word Trust.",
+      "design": "Daylit interiors, product close-ups and large white word.",
+      "purpose": "Make sourcing trust familiar",
+      "id": "V01",
+      "evidence": "Visible 1 fps samples, source 0–13s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 13,
+      "end": 28,
+      "action": "Payment and spreadsheet imagery with large monetary figures lead to manufacturing, packages and airport footage.",
+      "design": "Numeric overlays and logistics montage.",
+      "purpose": "Explain the risk of paying distant suppliers",
+      "id": "V02",
+      "evidence": "Visible 1 fps samples, source 13–28s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 28,
+      "end": 41,
+      "action": "Second founder names Saudara and describes human brokers plus agents for requirements, communication and production tracking.",
+      "design": "Seated interview with small agent-role labels.",
+      "purpose": "Define the sourcing service",
+      "id": "V03",
+      "evidence": "Visible 1 fps samples, source 28–41s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 41,
+      "end": 52,
+      "action": "Family photographs and factory memories support the founder account of manufacturing experience.",
+      "design": "Personal images on black and interview return.",
+      "purpose": "Establish founder experience",
+      "id": "V04",
+      "evidence": "Visible 1 fps samples, source 41–52s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 52,
+      "end": 58,
+      "action": "Founder says the challenge is compliant factories that deliver.",
+      "design": "Steady seated explanation with captions.",
+      "purpose": "Define the selection problem",
+      "id": "V05",
+      "evidence": "Visible 1 fps samples, source 52–58s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 58,
+      "end": 65,
+      "action": "Laptop shows product choices, a running-shirt specification, RFQ draft and supplier-check screen.",
+      "design": "Angled filmed laptop with white interface.",
+      "purpose": "Demonstrate sourcing preparation",
+      "id": "V06",
+      "evidence": "Visible 1 fps samples, source 58–65s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 65,
+      "end": 70,
+      "action": "Founder states factories are verified before funds are committed.",
+      "design": "Direct interview.",
+      "purpose": "Restate the trust promise",
+      "id": "V07",
+      "evidence": "Visible 1 fps samples, source 65–70s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 70,
+      "end": 84,
+      "action": "Two founders walk by water and industrial buildings while describing Indonesia as the starting market.",
+      "design": "Wide waterfront shots, reflections and close profiles.",
+      "purpose": "State the geographic starting point",
+      "id": "V08",
+      "evidence": "Visible 1 fps samples, source 70–84s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 84,
+      "end": 89.577,
+      "action": "Founders and logo lead to a demo invitation for physical-product sourcing.",
+      "design": "Orange mark, pale text over shoreline and final black.",
+      "purpose": "Invite a demo",
+      "id": "V09",
+      "evidence": "Visible 1 fps samples, source 84–89.577s; boundaries approximate, between-frame action unresolved."
+    }
+  ],
+  "sound": [
+    {
+      "id": "A01",
+      "start": 0,
+      "end": 89.577,
+      "layer": "unknown",
+      "detail": "No validated audio listening; speech, music, effects, mix and sync remain unverified.",
+      "visual_relation": "All visual scenes; alignment not checked",
+      "evidence": "No actual audio supplied to this review; existing technical-review-2026-10-19/deep-review/audio/244.json is not listening evidence."
+    },
+    {
+      "id": "A02",
+      "start": 0.81,
+      "end": 86.49,
+      "layer": "ASR draft",
+      "detail": "Coherent candidate script supports trust, overseas sourcing, a real broker with agents, family manufacturing experience, specifications and certification checks. Brand spellings, AIH and leap-of-faith wording are mistranscribed. Visible captions guide the intended terms; monetary and verification claims remain source claims. No listening or delivery judgment is inferred.",
+      "visual_relation": "V01–V09; candidate script support only",
+      "evidence": "technical-review-2026-10-19/deep-review/audio/244-speech.json; existing faster-whisper base CPU int8"
+    }
+  ],
+  "categories": [
+    {
+      "finding": "Everyday objects establish dependence on unseen factories; payment risk leads to a broker-plus-software service, family experience and a short sourcing demo.",
+      "evidence": "V01–V09",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q01"
+    },
+    {
+      "finding": "The familiar room objects make an abstract supply chain personal before the trust statement.",
+      "evidence": "V01",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q02"
+    },
+    {
+      "finding": "The sourcing-agency definition is explicit at 30–35 s; the concrete software task arrives at 58–64 s.",
+      "evidence": "V03,V06",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q03"
+    },
+    {
+      "finding": "Large numbers change over a spreadsheet, role labels appear around the founder and the laptop changes from request to RFQ to check statuses. Exact processing motion between the 1 fps samples is not established.",
+      "evidence": "V02,V03,V06",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q04"
+    },
+    {
+      "finding": "Interview segments alternate with objects, factories, family photos and a laptop demo. Waterfront footage gives the closing mission a distinct setting.",
+      "evidence": "V01–V09",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q05"
+    },
+    {
+      "finding": "Natural light, green plants, wood and restrained orange branding create a calm service tone; factory and family images add physical context.",
+      "evidence": "V01–V09",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q06"
+    },
+    {
+      "finding": "Captions explain the proposition. Full-size 61 s frame shows 3,000 running shirts, budget and timing; 64 s shows certification, delivery and audit checks plus three suppliers identified. These details pass quickly in the film.",
+      "evidence": "V06; full frames 61,64 s",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q07"
+    },
+    {
+      "finding": "Voice presence and delivery remain unverified.",
+      "evidence": "No validated audio listening",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q08"
+    },
+    {
+      "finding": "Music character and arc remain unverified.",
+      "evidence": "No validated audio listening",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q09"
+    },
+    {
+      "finding": "Sound effects remain unverified.",
+      "evidence": "No validated audio listening",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q10"
+    },
+    {
+      "finding": "Sound-to-motion timing remain unverified.",
+      "evidence": "No validated audio listening",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q11"
+    },
+    {
+      "finding": "Founder interviews, product and logistics footage, family photographs and filmed software are visible. Asset provenance and implementation are not established.",
+      "evidence": "V01–V09",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q12"
+    },
+    {
+      "finding": "Source duration supplied as 89.577s; no independent compression, clipping or delivery check.",
+      "evidence": "Assigned metadata; source integrity checked by parent",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q13"
+    },
+    {
+      "finding": "Captions preserve the sourcing proposition silently; the small software detail needs closer viewing to understand the exact example.",
+      "evidence": "V03–V07",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q14"
+    },
+    {
+      "finding": "Objects and founder faces get sustained space; the detailed request and check screens receive only a short angled laptop sequence.",
+      "evidence": "V01,V03,V06",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q15"
+    },
+    {
+      "finding": "The first 58 s build problem, service and credibility before a roughly seven-second software example. More time on the supplier decision would strengthen comprehension.",
+      "evidence": "V01–V07",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q16"
+    },
+    {
+      "finding": "The verification screen provides an intermediate result, but the viewer does not see quotes compared or a supplier selected.",
+      "evidence": "V06,V07",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q17"
+    },
+    {
+      "finding": "Family photographs and measured interview framing suggest personal responsibility and familiarity with manufacturing; this is a presentation reading.",
+      "evidence": "V03,V04",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q18"
+    },
+    {
+      "finding": "The two founders, plants and room recur across the explanation; the waterfront ending links their origin story to industrial sourcing.",
+      "evidence": "V01–V09",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q19"
+    },
+    {
+      "finding": "Payment totals, family experience, verification, time savings and delivery confidence are film claims. Green check labels do not independently establish valid certifications, audits or supplier performance.",
+      "evidence": "V02,V04,V06,V07",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q20"
+    },
+    {
+      "finding": "A human broker in each deal, manufacturing family story and Indonesia starting point make the service more specific than a generic sourcing assistant.",
+      "evidence": "V03,V04,V08",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q21"
+    },
+    {
+      "finding": "Show one supplier quote beside its certificate or audit evidence and explain why the broker recommends it.",
+      "evidence": "V06,V07",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q22"
+    },
+    {
+      "finding": "For a trust-based service, connect a concrete request to evidence and a human decision, rather than stopping at verification labels.",
+      "evidence": "V06,V07",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q23"
+    },
+    {
+      "finding": "No human new-viewer test; product description above is model interpretation of sampled images.",
+      "evidence": "V01–V09",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q24"
+    },
+    {
+      "finding": "No phone-size, safe-area or flash assessment; small UI text needs separate preview.",
+      "evidence": "Contact sheets",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q25"
+    }
+  ],
+  "lessons": {
+    "keep": "Use familiar objects to explain why an unseen business process matters.",
+    "try": [
+      "Continue the running-shirt example into a supplier comparison with price, delivery date and evidence for one compliance check.",
+      "Show the broker reviewing a software flag and asking a factory for the missing document before recommendation."
+    ],
+    "avoid": "Avoid making green checks the entire explanation of supplier trust.",
+    "open": "What evidence supports the checks, and how does the broker choose among the identified suppliers?"
+  },
+  "comparison": {
+    "story": "Make sourcing trust familiar → Explain the risk of paying distant suppliers → Define the sourcing service → Establish founder experience → Define the selection problem → Demonstrate sourcing preparation → Restate the trust promise → State the geographic starting point → Invite a demo",
+    "motion": "Large numbers change over a spreadsheet, role labels appear around the founder and the laptop changes from request to RFQ to check statuses. Exact processing motion between the 1 fps samples is not established.",
+    "sound": "No validated listening; no absence claims.",
+    "texture": "Natural light, green plants, wood and restrained orange branding create a calm service tone; factory and family images add physical context.",
+    "lesson": "Use familiar objects to explain why an unseen business process matters."
+  },
+  "elements": [
+    {
+      "kind": "ui",
+      "name": "sourcing chat",
+      "events": [
+        "V06"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "specification document",
+      "events": [
+        "V06"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "verification checklist",
+      "events": [
+        "V06"
+      ]
+    },
+    {
+      "kind": "texture",
+      "name": "factory footage",
+      "events": [
+        "V01",
+        "V02"
+      ]
+    },
+    {
+      "kind": "texture",
+      "name": "family photographs",
+      "events": [
+        "V04"
+      ]
+    }
+  ],
+  "reviewer_model": "gpt-6-astra",
+  "scope": "sampled visual and story review; ASR and measured signal support; no validated audio listening",
+  "closer_windows": []
+}

@@ -1,0 +1,334 @@
+{
+  "id": 4,
+  "reviewer_model": "gpt-6-astra",
+  "scope": "sampled visual and story review; ASR and measured signal support; no validated audio listening",
+  "viewed_evidence": [
+    "technical-review-2026-10-19/deep-review/motion/004/timeline-00.jpg",
+    "technical-review-2026-10-19/deep-review/motion/004/timeline-01.jpg"
+  ],
+  "closer_windows": [],
+  "product_from_film": "Devin Oncall helps developers respond to night incidents without moving to their desk.",
+  "explains_well": "Repeating the same bedroom problem makes the changed outcome easy to follow.",
+  "unclear": "The exact repair and its safety checks are too small to establish from the floating messages.",
+  "product_type": "developer tool",
+  "scenario": "An overnight alert wakes a developer; a responder setup changes the next night.",
+  "product_clear_time": 30,
+  "product_clear_basis": "A named on-call responder form follows the Devin Oncall introduction.",
+  "scenes": [
+    {
+      "id": "V01",
+      "start": 0,
+      "end": 11,
+      "action": "Overhead bed view carries a large 3:12 then 3:13 clock; the person sits up, reaches and looks toward the desk. Close body and room angles replace the overhead view.",
+      "design": "Cool blue bedroom, large white digital clock.",
+      "purpose": "Establish an interrupted night.",
+      "evidence": "Visible chronological 1 fps samples, source 0–11s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V02",
+      "start": 11,
+      "end": 23,
+      "action": "Phone view gains a growing vertical stack of red urgency cards on the left. The person moves to the desk; keyboard close-ups alternate with a frontal view.",
+      "design": "PagerDuty cards; subtitle Being on call is rough.",
+      "purpose": "Connect alerts with unwanted work.",
+      "evidence": "Visible chronological 1 fps samples, source 11–23s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V03",
+      "start": 23,
+      "end": 30,
+      "action": "Bed views return; a layered overlapping room image at 27 s precedes a warm daylight desk view and product title.",
+      "design": "Blue night changes to warm day; Introducing Devin Oncall.",
+      "purpose": "Introduce the alternative.",
+      "evidence": "Visible chronological 1 fps samples, source 23–30s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V04",
+      "start": 30,
+      "end": 38,
+      "action": "Floating form on the right shows name, trigger choices, create responder, then a green Created state. The person reaches forward and leaves the chair.",
+      "design": "Dark form with compact white labels and green success.",
+      "purpose": "Show setup before the next incident.",
+      "evidence": "Visible chronological 1 fps samples, source 30–38s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V05",
+      "start": 38,
+      "end": 51,
+      "action": "The bedroom repeats. The person checks the phone; dark message cards grow to the left, an approval label appears, then the phone is set aside and the person lies down.",
+      "design": "Blue light, restrained dark message overlay.",
+      "purpose": "Show the same interruption ending with rest.",
+      "evidence": "Visible chronological 1 fps samples, source 38–51s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V06",
+      "start": 51,
+      "end": 55.18,
+      "action": "Wide desk view holds with Let Devin take the night shift.",
+      "design": "White closing sentence over dark room.",
+      "purpose": "Name the promised benefit.",
+      "evidence": "Visible chronological 1 fps samples, source 51–55.18s; boundary approximate; exact motion between samples unverified."
+    }
+  ],
+  "sound": [
+    {
+      "id": "A01",
+      "start": 0,
+      "end": 55.18,
+      "layer": "unknown",
+      "detail": "No validated direct audio listening was performed. Music, speech delivery, effects, mix and sync remain unknown, not absent.",
+      "visual_relation": "All visual scenes; audiovisual alignment unverified",
+      "evidence": "Visual samples only; no actual audio range supplied to this reviewer."
+    }
+  ],
+  "categories": [
+    {
+      "id": "Q01",
+      "finding": "The film carries one repeated night-alert situation through problem, setup and changed response.",
+      "evidence": "V01–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q02",
+      "finding": "A sleeping person and a 3:12-to-3:13 clock change establish the late hour before the task is named.",
+      "evidence": "V01",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q03",
+      "finding": "Developer audience becomes clear through PagerDuty at 11 s and the on-call setup at 30 s.",
+      "evidence": "V02,V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q04",
+      "finding": "Alert cards accumulate vertically; form states change beside a seated person. Easing is unresolved.",
+      "evidence": "V02,V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q05",
+      "finding": "Camera-angle replacements drive the night sequence; visible overlap at 27 s bridges night and day, but the exact dissolve timing is unresolved.",
+      "evidence": "V01,V03",
+      "status": "uncertain",
+      "reason": "One-second samples show overlapping images, not the complete transition.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q06",
+      "finding": "Cool night and warm setup scenes make the return to night easy to recognize.",
+      "evidence": "V01,V03,V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q07",
+      "finding": "Short central subtitles state the benefit; detailed floating repair text is much smaller than the human scene.",
+      "evidence": "V02,V05,V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q08",
+      "finding": "Voice delivery, music, effects and audiovisual alignment were not established by this visual pass.",
+      "evidence": "A01",
+      "status": "not checked",
+      "reason": "No validated direct audio listening input.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q09",
+      "finding": "Voice delivery, music, effects and audiovisual alignment were not established by this visual pass.",
+      "evidence": "A01",
+      "status": "not checked",
+      "reason": "No validated direct audio listening input.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q10",
+      "finding": "Voice delivery, music, effects and audiovisual alignment were not established by this visual pass.",
+      "evidence": "A01",
+      "status": "not checked",
+      "reason": "No validated direct audio listening input.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q11",
+      "finding": "Voice delivery, music, effects and audiovisual alignment were not established by this visual pass.",
+      "evidence": "A01",
+      "status": "not checked",
+      "reason": "No validated direct audio listening input.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q12",
+      "finding": "Room and actor imagery is combined with floating software cards; asset origin and production method are unknown.",
+      "evidence": "V01–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q13",
+      "finding": "Manifest duration 55.18 s; indexed dimensions 1920×1080. Source unchanged flag recorded; fresh encoding and audio clipping checks not run.",
+      "evidence": "Group manifest",
+      "status": "uncertain",
+      "reason": "Inherited technical metadata; no fresh media probe in this review.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q14",
+      "finding": "The alert-to-desk versus alert-to-sleep contrast survives without sound; the technical fix is not fully readable.",
+      "evidence": "V02,V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q15",
+      "finding": "Bright red cards pull attention beside the phone, while the daylight form stays to the right of the face.",
+      "evidence": "V02,V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q16",
+      "finding": "The setup sequence introduces name, trigger and creation within about eight seconds; it is concise but small.",
+      "evidence": "V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q17",
+      "finding": "The disrupted sleep shown first is answered by returning to bed at 49–50 s and the night-shift line.",
+      "evidence": "V01,V05,V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q18",
+      "finding": "Repeated waking is framed as strain and the second return to sleep as relief; this is a story interpretation.",
+      "evidence": "V01,V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q19",
+      "finding": "Same room, actor, phone and night palette hold the before-and-after connection.",
+      "evidence": "V01,V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q20",
+      "finding": "The film shows a created responder and approval message, but does not independently prove incident repair.",
+      "evidence": "V04,V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q21",
+      "finding": "PagerDuty and Devin labels identify the product; the bedroom story could otherwise serve other automation tools.",
+      "evidence": "V02,V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q22",
+      "finding": "The repeated night scene is essential; some early reaching and keyboard inserts could be shortened to introduce the tool earlier.",
+      "evidence": "V01,V02",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q23",
+      "finding": "Tin could repeat one late campaign alert before and after automation, using the same room framing and two genuine response states.",
+      "evidence": "V01,V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q24",
+      "finding": "Devin Oncall helps developers respond to night incidents without moving to their desk.",
+      "evidence": "Model reading from inspected images",
+      "status": "uncertain",
+      "reason": "Model-only new-viewer interpretation; no human test.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q25",
+      "finding": "Contact sheets inspected at displayed size; a phone-size playback, caption audit, flash audit and formal accessibility check were not performed.",
+      "evidence": "Viewed sheets",
+      "status": "not checked",
+      "reason": "Full-size moving-image and device checks unavailable in this pass.",
+      "experiment": "none"
+    }
+  ],
+  "lessons": {
+    "keep": "Repeat the same situation and change only the action needed to finish it.",
+    "avoid": "Do not let the human relief scene replace readable evidence of the completed action.",
+    "open": "Exact message content, continuous transitions and all sound layers remain open.",
+    "try": [
+      "For Tin, film an evening campaign issue twice: first laptop repair, then phone approval and return to rest; use identical room angles.",
+      "Show one Tin trigger form beside the person, then enlarge the resulting approval card enough to read on a phone."
+    ]
+  },
+  "comparison": {
+    "story": "Establish an interrupted night. → Connect alerts with unwanted work. → Introduce the alternative. → Show setup before the next incident. → Show the same interruption ending with rest. → Name the promised benefit.",
+    "motion": "Alert cards accumulate vertically; form states change beside a seated person. Easing is unresolved. Sampling scope: 1 fps unless a closer window is recorded.",
+    "sound": "No validated listening; unknown.",
+    "texture": "Cool blue bedroom, large white digital clock.; PagerDuty cards; subtitle Being on call is rough.; Blue night changes to warm day; Introducing Devin Oncall.; Dark form with compact white labels and green success.; Blue light, restrained dark message overlay.; White closing sentence over dark room.",
+    "lesson": "Repeat the same situation and change only the action needed to finish it."
+  },
+  "elements": [
+    {
+      "kind": "ui",
+      "name": "alert cards",
+      "events": [
+        "V02"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "trigger setup form",
+      "events": [
+        "V04"
+      ]
+    },
+    {
+      "kind": "motion",
+      "name": "stacking cards",
+      "events": [
+        "V02"
+      ]
+    },
+    {
+      "kind": "texture",
+      "name": "cool night and warm daylight",
+      "events": [
+        "V01",
+        "V03",
+        "V05"
+      ]
+    }
+  ]
+}

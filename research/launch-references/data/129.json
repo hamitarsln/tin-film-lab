@@ -1,0 +1,356 @@
+{
+  "id": 129,
+  "viewed_evidence": [
+    "technical-review-2026-10-19/deep-review/motion/129/timeline-00.jpg",
+    "technical-review-2026-10-19/deep-review/motion/129/timeline-01.jpg",
+    "technical-review-2026-10-19/deep-review/audio/129-speech.json",
+    "astra-review-2026-10-20/evidence/group-3/129/dense.jpg"
+  ],
+  "product_from_film": "Rekt presents a simpler, game-like trading experience and announces a public beta.",
+  "explains_well": "Repeated spreadsheet criticism and Trading Fun make its intended positioning clear.",
+  "unclear": "The actual trading interface and beta entry path are not demonstrated.",
+  "product_type": "trading app",
+  "scenario": "Trading jargon and terminal imagery are contrasted with a promise of a more playful exchange.",
+  "product_clear_time": 19,
+  "product_clear_basis": "Trading Fun follows the visible complaint that trading apps feel like spreadsheets.",
+  "scenes": [
+    {
+      "start": 0,
+      "end": 4,
+      "action": "Trading screens and creator faces layer above flames under What are perps?",
+      "design": "Dark charts, red type, fire along lower edge.",
+      "purpose": "Frame complexity",
+      "id": "V01",
+      "evidence": "Visible 1 fps samples, source 0–4 s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 4,
+      "end": 17,
+      "action": "A rounded television cycles through a presenter card, tables, phone chart and conference clips.",
+      "design": "CRT curvature, red room and scanline-like treatment.",
+      "purpose": "Repeat the trading problem",
+      "id": "V02",
+      "evidence": "Visible 1 fps samples, source 4–17 s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 17,
+      "end": 20,
+      "action": "AND then Trading Fun fill the television and then the frame. Closer view: TV image clears 17.25 s; white words build 17.5–17.75 s, Trading Fun appears 18 s, horizontal duplication occurs 18.5 s and the title fills the image 18.75 s. The exact between-frame enlargement mechanism remains open.",
+      "design": "Narrow red letters, horizontal broken bands.",
+      "purpose": "State the desired change",
+      "id": "V03",
+      "evidence": "Visible 1 fps samples, source 17–20 s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 20,
+      "end": 35,
+      "action": "Conference speakers appear under 100 x, Gamified Trading and Not possible on iOS.",
+      "design": "Purple stage footage, white monospaced overlays.",
+      "purpose": "Support a category argument",
+      "id": "V04",
+      "evidence": "Visible 1 fps samples, source 20–35 s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 35,
+      "end": 43,
+      "action": "Red market tables return, then the TV presenter card says the next exchange is an experience.",
+      "design": "Fire, CRT frame, text beside presenter.",
+      "purpose": "Restate the offer",
+      "id": "V05",
+      "evidence": "Visible 1 fps samples, source 35–43 s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 43,
+      "end": 48.081,
+      "action": "Rekt mark and Public beta is live hold above changing flames.",
+      "design": "Black background, red/yellow mark and white label.",
+      "purpose": "Announce availability",
+      "id": "V06",
+      "evidence": "Visible 1 fps samples, source 43–48.081 s; boundaries approximate, between-frame action unresolved."
+    }
+  ],
+  "sound": [
+    {
+      "id": "A01",
+      "start": 0,
+      "end": 48.081,
+      "layer": "unknown",
+      "detail": "No validated audio listening; speech, music, effects, mix and sync remain unverified.",
+      "visual_relation": "All visual scenes; alignment not checked",
+      "evidence": "No actual audio supplied to this review; existing technical-review-2026-10-19/deep-review/audio/129.json is not listening evidence."
+    },
+    {
+      "id": "A02",
+      "start": 0.042,
+      "end": 42.39,
+      "layer": "ASR draft",
+      "detail": "Draft speech discusses trading jargon, simplifying trading, gamified/social trading and an exchange as an experience. Several names and words are malformed; exact quotes and endorsements are unverified.",
+      "visual_relation": "Broad correspondence with scene sequence; exact audio alignment not checked",
+      "evidence": "technical-review-2026-10-19/deep-review/audio/129-speech.json; existing faster-whisper text, VAD ranges [{'start': 0.042, 'end': 25.042}, {'start': 25.042, 'end': 42.39}]; no actual listening."
+    }
+  ],
+  "categories": [
+    {
+      "finding": "Complex terminals lead to trading-fun positioning, speaker clips and a beta announcement.",
+      "evidence": "V01–V06",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q01"
+    },
+    {
+      "finding": "Dark trading panels, flames and What are perps? frame confusion, though the text competes with charts.",
+      "evidence": "V01",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q02"
+    },
+    {
+      "finding": "Trading audience is clear immediately; the simplified/gamified offer is explicit 19–29 s; no working task follows.",
+      "evidence": "V01,V03,V04",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q03"
+    },
+    {
+      "finding": "TV image clears 17.25 s; white words build 17.5–17.75 s, Trading Fun appears 18 s, horizontal duplication occurs 18.5 s and the title fills the image 18.75 s. The exact between-frame enlargement mechanism remains open.",
+      "evidence": "V03; dense 17–20 s",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q04"
+    },
+    {
+      "finding": "The rounded TV unifies many source clips; full-width conference scenes interrupt it 20–34 s before the TV returns.",
+      "evidence": "V02,V04,V05",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q05"
+    },
+    {
+      "finding": "CRT softness, dark red lighting and fire wrap modern trading/conference imagery in a retro treatment.",
+      "evidence": "V01–V06",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q06"
+    },
+    {
+      "finding": "Large overlays isolate 100 x and Gamified Trading; smaller presenter-card copy is harder to read in the curved screen.",
+      "evidence": "V02,V04",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q07"
+    },
+    {
+      "finding": "Voice presence and delivery remain unverified.",
+      "evidence": "No validated audio listening",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q08"
+    },
+    {
+      "finding": "Music character and arc remain unverified.",
+      "evidence": "No validated audio listening",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q09"
+    },
+    {
+      "finding": "Sound effects remain unverified.",
+      "evidence": "No validated audio listening",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q10"
+    },
+    {
+      "finding": "Sound-to-motion timing remain unverified.",
+      "evidence": "No validated audio listening",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q11"
+    },
+    {
+      "finding": "Trading screens, phone footage and stage/interview clips are reframed in a television; sources and speaker endorsements are not verified.",
+      "evidence": "V02,V04",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q12"
+    },
+    {
+      "finding": "Source duration supplied as 48.081 s; no independent compression, clipping or delivery check.",
+      "evidence": "Assigned metadata; source integrity checked by parent",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q13"
+    },
+    {
+      "finding": "The trading-fun and beta messages survive silently; speaker context and how it works do not.",
+      "evidence": "V03,V04,V06",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q14"
+    },
+    {
+      "finding": "The bright curved TV guides focus; flames and chart backgrounds add competing detail.",
+      "evidence": "V01–V03",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q15"
+    },
+    {
+      "finding": "Fifteen seconds of conference clips build positioning without showing a user interaction.",
+      "evidence": "V04",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q16"
+    },
+    {
+      "finding": "What are perps? raises an educational question that the visible film does not answer directly.",
+      "evidence": "V01–V06",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q17"
+    },
+    {
+      "finding": "Fire and playful positioning seem aimed at energetic trading culture; viewer effect is unknown.",
+      "evidence": "V01,V03,V06; interpretation",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q18"
+    },
+    {
+      "finding": "The TV and fire recur, linking different source footage and the final brand card.",
+      "evidence": "V01,V02,V05,V06",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q19"
+    },
+    {
+      "finding": "Simpler trading and beta availability are claims; no order entry or completed trade is shown.",
+      "evidence": "V03,V05,V06",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q20"
+    },
+    {
+      "finding": "Flame-shaped brand treatment fits the Rekt name; retro TV gives the collected clips a consistent wrapper.",
+      "evidence": "V02,V06",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q21"
+    },
+    {
+      "finding": "Use some conference time to demonstrate one simplified trade and explain the beta entry step.",
+      "evidence": "V04,V06",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q22"
+    },
+    {
+      "finding": "For a financial interface explainer, compare a crowded terminal with one real simplified action inside a consistent screen frame.",
+      "evidence": "V01–V03",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q23"
+    },
+    {
+      "finding": "No human new-viewer test; product description above is model interpretation of sampled images.",
+      "evidence": "V01–V06",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q24"
+    },
+    {
+      "finding": "No phone-size, safe-area or flash assessment; small UI text needs separate preview.",
+      "evidence": "Contact sheets",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q25"
+    }
+  ],
+  "lessons": {
+    "keep": "Use a repeated screen frame to unify visually different source clips.",
+    "try": [
+      "For a trading demo, show a crowded terminal then the same task in three clearly labelled controls.",
+      "Keep the CRT opener for three seconds, then switch to a clean full-size UI until the result is readable."
+    ],
+    "avoid": "Do not make speaker montage stand in for actual product proof.",
+    "open": "What functionality is live, and do the source clips support the implied positioning?"
+  },
+  "comparison": {
+    "story": "Frame complexity → Repeat the trading problem → State the desired change → Support a category argument → Restate the offer → Announce availability",
+    "motion": "TV image clears 17.25 s; white words build 17.5–17.75 s, Trading Fun appears 18 s, horizontal duplication occurs 18.5 s and the title fills the image 18.75 s. The exact between-frame enlargement mechanism remains open.",
+    "sound": "No validated listening; no absence claims.",
+    "texture": "CRT softness, dark red lighting and fire wrap modern trading/conference imagery in a retro treatment.",
+    "lesson": "Use a repeated screen frame to unify visually different source clips."
+  },
+  "elements": [
+    {
+      "kind": "ui",
+      "name": "chart",
+      "events": [
+        "V01",
+        "V02"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "table",
+      "events": [
+        "V02"
+      ]
+    },
+    {
+      "kind": "texture",
+      "name": "CRT screen",
+      "events": [
+        "V02",
+        "V05"
+      ]
+    },
+    {
+      "kind": "motion",
+      "name": "flames",
+      "events": [
+        "V01",
+        "V06"
+      ]
+    }
+  ],
+  "reviewer_model": "gpt-6-astra",
+  "scope": "sampled visual and story review; ASR and measured signal support; no validated audio listening",
+  "closer_windows": [
+    {
+      "start": 17,
+      "end": 20,
+      "rate_fps": 4,
+      "evidence": [
+        "astra-review-2026-10-20/evidence/group-3/129/dense.jpg"
+      ],
+      "resolved": "TV image clears 17.25 s; white words build 17.5–17.75 s, Trading Fun appears 18 s, horizontal duplication occurs 18.5 s and the title fills the image 18.75 s. The exact between-frame enlargement mechanism remains open."
+    }
+  ]
+}

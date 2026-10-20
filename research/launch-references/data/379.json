@@ -1,0 +1,344 @@
+{
+  "id": 379,
+  "viewed_evidence": [
+    "technical-review-2026-10-19/deep-review/motion/379/timeline-00.jpg",
+    "astra-review-2026-10-20/evidence/group-3/379/dense7-11.jpg"
+  ],
+  "product_from_film": "The film asks viewers to get an ai.com handle; the service behind that handle is not explained.",
+  "explains_well": "The domain and handle-reservation call to action are simple and memorable in the shown layout.",
+  "unclear": "It does not say what the handle lets a user do or show the assistant mentioned in the source title.",
+  "product_type": "AI service teaser",
+  "scenario": "Reserve a personal ai.com handle",
+  "product_clear_time": 19,
+  "product_clear_basis": "Get your @handle now makes the requested action clear; underlying product remains unspecified.",
+  "scenes": [
+    {
+      "start": 0,
+      "end": 7.75,
+      "action": "One then two luminous spheres move across dark space with long particle-like trails.",
+      "design": "White glow, rainbow fringes and black field.",
+      "purpose": "Build anticipation",
+      "id": "V01",
+      "evidence": "Visible 1 fps samples, source 0–7.75s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 7.75,
+      "end": 11,
+      "action": "Dense samples show two thin trails curve from the left toward a bright meeting point near 8.5 s; a broad flare follows, then lines cross over the emerging ai.com mark and leave to the right.",
+      "design": "Bright flare and metallic pale logo.",
+      "purpose": "Reveal brand",
+      "id": "V02",
+      "evidence": "Visible 1 fps samples, source 7.75–11s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 11,
+      "end": 19,
+      "action": "Logo holds, then AGI is coming replaces it.",
+      "design": "Dark blue-black gradient and pale blue text emphasis.",
+      "purpose": "State future-facing promise",
+      "id": "V03",
+      "evidence": "Visible 1 fps samples, source 11–19s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 19,
+      "end": 22,
+      "action": "Get your @handle now appears.",
+      "design": "Centered white and blue text.",
+      "purpose": "Request reservation",
+      "id": "V04",
+      "evidence": "Visible 1 fps samples, source 19–22s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 22,
+      "end": 28,
+      "action": "Rounded address field shows ai.com / mark, then sam, then elon.",
+      "design": "Large example handles and blinking-like caret states.",
+      "purpose": "Illustrate handle format",
+      "id": "V05",
+      "evidence": "Visible 1 fps samples, source 22–28s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 28,
+      "end": 30.122,
+      "action": "ai.com logo returns and holds.",
+      "design": "Pale mark on dark background.",
+      "purpose": "Close brand recall",
+      "id": "V06",
+      "evidence": "Visible 1 fps samples, source 28–30.122s; boundaries approximate, between-frame action unresolved."
+    }
+  ],
+  "sound": [
+    {
+      "id": "A01",
+      "start": 0,
+      "end": 30.122,
+      "layer": "unknown",
+      "detail": "No validated audio listening; speech, music, effects, mix and sync remain unverified.",
+      "visual_relation": "All visual scenes; alignment not checked",
+      "evidence": "No actual audio supplied to this review; existing technical-review-2026-10-19/deep-review/audio/379.json is not listening evidence."
+    }
+  ],
+  "categories": [
+    {
+      "finding": "Light-trail reveal leads to AGI promise, handle CTA, three example names and logo. No user task beyond reservation is shown.",
+      "evidence": "V01–V06",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q01"
+    },
+    {
+      "finding": "A bright sphere and expanding trails dominate dark space; the product is not yet identifiable.",
+      "evidence": "V01 0–2 s",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q02"
+    },
+    {
+      "finding": "The domain appears near 10 s and handle action near 19 s. What ai.com does and who needs it remain unspecified in the film.",
+      "evidence": "V02–V05",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q03"
+    },
+    {
+      "finding": "Dense 7–11 s samples resolve a cut from two large spheres to thin trails, their curved approach to a flare, and crossing lines revealing the mark. Exact easing and particle paths are unresolved.",
+      "evidence": "V02; dense7-11.jpg",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q04"
+    },
+    {
+      "finding": "The bright meeting-point flare bridges abstract motion and logo. After that, simple title replacement and handle changes carry the message.",
+      "evidence": "V02–V05",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q05"
+    },
+    {
+      "finding": "High glow, colored fringes and metallic pale surfaces against black create a futuristic treatment. They do not identify a production method.",
+      "evidence": "V01–V03",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q06"
+    },
+    {
+      "finding": "AGI is coming and Get your @handle now are short and large. AGI is unexplained, and example personal names do not explain the account benefit.",
+      "evidence": "V03–V05",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q07"
+    },
+    {
+      "finding": "Voice presence and delivery remain unverified.",
+      "evidence": "No validated audio listening",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q08"
+    },
+    {
+      "finding": "Music character and arc remain unverified.",
+      "evidence": "No validated audio listening",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q09"
+    },
+    {
+      "finding": "Sound effects remain unverified.",
+      "evidence": "No validated audio listening",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q10"
+    },
+    {
+      "finding": "Sound-to-motion timing remain unverified.",
+      "evidence": "No validated audio listening",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q11"
+    },
+    {
+      "finding": "The film uses abstract spheres, trails, logo and a stylized address field, with no shown software workflow or real-world footage.",
+      "evidence": "V01–V06",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q12"
+    },
+    {
+      "finding": "Source duration supplied as 30.122s; no independent compression, clipping or delivery check.",
+      "evidence": "Assigned metadata; source integrity checked by parent",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q13"
+    },
+    {
+      "finding": "Silent viewing preserves the domain and reservation action. The underlying assistant function cannot be inferred reliably from these images.",
+      "evidence": "V03–V06",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q14"
+    },
+    {
+      "finding": "Bright moving spheres lead to one centered logo; large centered copy then keeps the eye on the CTA.",
+      "evidence": "V01–V05",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q15"
+    },
+    {
+      "finding": "Roughly half the film is reveal and logo hold before the short AGI/handle message. One benefit line could fit without adding visual density.",
+      "evidence": "V01–V04",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q16"
+    },
+    {
+      "finding": "The elaborate opening promises a major reveal, answered by a domain and reservation request rather than a capability demonstration.",
+      "evidence": "V01–V05",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q17"
+    },
+    {
+      "finding": "Fast trails and a large flare appear designed to create anticipation, followed by a future-oriented statement. Sound impact and audience reaction are unknown.",
+      "evidence": "V01–V03",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q18"
+    },
+    {
+      "finding": "Light-trail curves echo the logo divisions, and the same ai.com text persists in example addresses.",
+      "evidence": "V02, V05–V06",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q19"
+    },
+    {
+      "finding": "The film claims AGI is coming and invites handle reservation. It shows address examples only, with no registration completion or assistant behavior.",
+      "evidence": "V03–V05",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q20"
+    },
+    {
+      "finding": "The short ai.com domain and custom mark are the strongest identity cues; luminous-sphere imagery is broadly reusable.",
+      "evidence": "V01–V06",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q21"
+    },
+    {
+      "finding": "Keep the reveal and clear handle format, but shorten a logo hold to explain one useful reason to reserve.",
+      "evidence": "V03–V05",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q22"
+    },
+    {
+      "finding": "For a reserved-name launch, use a brief abstract reveal followed by a large real example address and one concrete benefit. Requires brand curves, address state and an actual reservation result if claiming completion.",
+      "evidence": "V02–V05",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q23"
+    },
+    {
+      "finding": "No human new-viewer test; product description above is model interpretation of sampled images.",
+      "evidence": "V01–V06",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q24"
+    },
+    {
+      "finding": "No phone-size, safe-area or flash assessment; small UI text needs separate preview.",
+      "evidence": "Contact sheets",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q25"
+    }
+  ],
+  "lessons": {
+    "keep": "Show the exact format of the action requested after a short brand reveal.",
+    "try": [
+      "For a workspace-name launch, pair the example URL with one concrete use and a visible reservation confirmation.",
+      "Try a shorter two-trail logo reveal, saving the time for a one-line explanation of who the account helps."
+    ],
+    "avoid": "Avoid asking for a reservation without explaining what the reserved identity enables.",
+    "open": "Underlying product, reservation availability, AGI claim, sound and flash safety remain unverified."
+  },
+  "comparison": {
+    "story": "Build anticipation → Reveal brand → State future-facing promise → Request reservation → Illustrate handle format → Close brand recall",
+    "motion": "Dense 7–11 s samples resolve a cut from two large spheres to thin trails, their curved approach to a flare, and crossing lines revealing the mark. Exact easing and particle paths are unresolved.",
+    "sound": "No validated listening; no absence claims.",
+    "texture": "High glow, colored fringes and metallic pale surfaces against black create a futuristic treatment. They do not identify a production method.",
+    "lesson": "Show the exact format of the action requested after a short brand reveal."
+  },
+  "elements": [
+    {
+      "kind": "ui",
+      "name": "address field",
+      "events": [
+        "V05"
+      ]
+    },
+    {
+      "kind": "motion",
+      "name": "light trails",
+      "events": [
+        "V01",
+        "V02"
+      ]
+    },
+    {
+      "kind": "motion",
+      "name": "logo reveal",
+      "events": [
+        "V02"
+      ]
+    },
+    {
+      "kind": "texture",
+      "name": "glow",
+      "events": [
+        "V01",
+        "V02"
+      ]
+    }
+  ],
+  "reviewer_model": "gpt-6-astra",
+  "scope": "sampled visual and story review; ASR and measured signal support; no validated audio listening",
+  "closer_windows": [
+    {
+      "start": 7,
+      "end": 11,
+      "rate_fps": 4,
+      "evidence": [
+        "astra-review-2026-10-20/evidence/group-3/379/dense7-11.jpg"
+      ],
+      "resolved": "Large spheres switch to thin trails, which curve toward a flare near 8.5 s; crossing lines reveal the logo. Exact easing and flash safety were not assessed."
+    }
+  ]
+}

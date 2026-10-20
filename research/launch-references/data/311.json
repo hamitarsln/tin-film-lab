@@ -1,0 +1,354 @@
+{
+  "id": 311,
+  "viewed_evidence": [
+    "technical-review-2026-10-19/deep-review/motion/311/timeline-00.jpg",
+    "technical-review-2026-10-19/deep-review/motion/311/timeline-01.jpg",
+    "astra-review-2026-10-20/evidence/group-3/311/full10.jpg",
+    "astra-review-2026-10-20/evidence/group-3/311/full28.jpg",
+    "astra-review-2026-10-20/evidence/group-3/311/full47.jpg",
+    "technical-review-2026-10-19/deep-review/audio/311-speech.json"
+  ],
+  "product_from_film": "A chat-driven workflow turns a YouTube interview into scheduled short clips with captions.",
+  "explains_well": "The source interview, chat request, scheduling messages and final vertical clip give the workflow a visible end-to-end chain.",
+  "unclear": "The film does not clearly explain which part is Clippers, which part is the chat agent and which part is the scheduling service.",
+  "product_type": "video clipping automation",
+  "scenario": "Send a YouTube link, request five clips and inspect a scheduled vertical post",
+  "product_clear_time": 10,
+  "product_clear_basis": "Full 10 s frame shows the request to clip the video and schedule the top five.",
+  "scenes": [
+    {
+      "start": 0,
+      "end": 5,
+      "action": "YouTube interview plays in browser with presenter webcam at top right.",
+      "design": "Desktop recording includes video and analytics sidebar.",
+      "purpose": "Establish source",
+      "id": "V01",
+      "evidence": "Visible 1 fps samples, source 0–5s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 5,
+      "end": 15,
+      "action": "Telegram overlays browser; message contains YouTube link and request for top five clips at 3:30 pm.",
+      "design": "Nested dark windows and small chat text.",
+      "purpose": "Submit clipping request",
+      "id": "V02",
+      "evidence": "Visible 1 fps samples, source 5–15s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 15,
+      "end": 25,
+      "action": "Chat response adds a schedule table and status messages while presenter briefly leaves webcam view.",
+      "design": "Largely held desktop layout with scrolling.",
+      "purpose": "Show processing progress",
+      "id": "V03",
+      "evidence": "Visible 1 fps samples, source 15–25s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 25,
+      "end": 31,
+      "action": "Chat shows 22 clips found and named scheduled clip messages with check marks.",
+      "design": "Dense status list above original interview.",
+      "purpose": "Confirm generated selection",
+      "id": "V04",
+      "evidence": "Visible 1 fps samples, source 25–31s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 31,
+      "end": 44,
+      "action": "Postiz calendar opens, reloads and fills with purple scheduled entries; one is selected.",
+      "design": "Dark calendar and channel sidebar.",
+      "purpose": "Show scheduled outputs",
+      "id": "V05",
+      "evidence": "Visible 1 fps samples, source 31–44s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 44,
+      "end": 50.473,
+      "action": "Post editor opens vertical captioned clip with matching interview guest and a 7:30 pm schedule.",
+      "design": "Preview beside post text and update controls.",
+      "purpose": "Inspect final clip",
+      "id": "V06",
+      "evidence": "Visible 1 fps samples, source 44–50.473s; boundaries approximate, between-frame action unresolved."
+    }
+  ],
+  "sound": [
+    {
+      "id": "A01",
+      "start": 0,
+      "end": 50.473,
+      "layer": "unknown",
+      "detail": "No validated audio listening; speech, music, effects, mix and sync remain unverified.",
+      "visual_relation": "All visual scenes; alignment not checked",
+      "evidence": "No actual audio supplied to this review; existing technical-review-2026-10-19/deep-review/audio/311.json is not listening evidence."
+    },
+    {
+      "id": "A02",
+      "start": 0.26,
+      "end": 15.3,
+      "layer": "ASR draft",
+      "detail": "Candidate ASR contains interview discussion of revenue and acquisition, matching the background YouTube subject. It is not used as a product explanation or Clippers revenue claim. No heard narration, music, effects or mix finding.",
+      "visual_relation": "V01–V03; likely source-interview script, not verified speaker identification",
+      "evidence": "technical-review-2026-10-19/deep-review/audio/311-speech.json; existing faster-whisper base CPU int8"
+    }
+  ],
+  "categories": [
+    {
+      "finding": "The workflow has source, request, processing, calendar and final preview. Multiple app identities and long small-text holds make the automation harder to understand than necessary.",
+      "evidence": "V01–V06",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q01"
+    },
+    {
+      "finding": "An interview opens the film, with no visible headline explaining why the viewer is watching it.",
+      "evidence": "V01",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q02"
+    },
+    {
+      "finding": "The top-five clipping request is readable in full 10 s frame, but Clippers identity is not clearly named by the central UI.",
+      "evidence": "V02; full 10 s",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q03"
+    },
+    {
+      "finding": "Windows change position, chat scrolls, calendar refreshes and scheduled blocks appear. These are UI state changes; exact processing duration cannot be inferred from the edited sequence.",
+      "evidence": "V02–V06",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q04"
+    },
+    {
+      "finding": "Moving from chat status to calendar and final preview gives useful confirmation beyond a bot reply. Unlabelled app changes require viewers to infer the relationship.",
+      "evidence": "V04–V06",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q05"
+    },
+    {
+      "finding": "Dark apps sit against a blue desktop background, with purple scheduling accents. The many surrounding browser controls add visual clutter.",
+      "evidence": "V01–V06",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q06"
+    },
+    {
+      "finding": "Full frames reveal the five hourly slots from 3:30 to 7:30 pm and 22 clips found. At overview size, most of this essential text is too small.",
+      "evidence": "V02–V04; full 10 and 28 s",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q07"
+    },
+    {
+      "finding": "Voice presence and delivery remain unverified.",
+      "evidence": "No validated audio listening",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q08"
+    },
+    {
+      "finding": "Music character and arc remain unverified.",
+      "evidence": "No validated audio listening",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q09"
+    },
+    {
+      "finding": "Sound effects remain unverified.",
+      "evidence": "No validated audio listening",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q10"
+    },
+    {
+      "finding": "Sound-to-motion timing remain unverified.",
+      "evidence": "No validated audio listening",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q11"
+    },
+    {
+      "finding": "Desktop capture with webcam inset provides the visual evidence. YouTube, Telegram and Postiz are visible; the underlying automation setup is not shown.",
+      "evidence": "V01–V06",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q12"
+    },
+    {
+      "finding": "Source duration supplied as 50.473s; no independent compression, clipping or delivery check.",
+      "evidence": "Assigned metadata; source integrity checked by parent",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q13"
+    },
+    {
+      "finding": "Without sound, the request and status text can explain the workflow only at enlarged size. Existing ASR mainly captures the source interview, not a useful product explanation.",
+      "evidence": "V01–V04; A02",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q14"
+    },
+    {
+      "finding": "Background interview, analytics, chat and webcam compete for attention. A close crop of the active request would better establish the task.",
+      "evidence": "V02–V04",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q15"
+    },
+    {
+      "finding": "The chat occupies about 25 s and calendar about 13 s; the final captioned preview receives roughly six seconds. Progress waits could be shortened to make room for selection logic.",
+      "evidence": "V02–V06",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q16"
+    },
+    {
+      "finding": "Scheduled entries and a captioned vertical preview support a practical clipping workflow. The film does not explain why these clips were selected as the top five.",
+      "evidence": "V04–V06",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q17"
+    },
+    {
+      "finding": "A casual webcam and visible app transitions appear intended to make the demo feel direct. Leaving the webcam seat adds distraction without explaining the process.",
+      "evidence": "V03",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q18"
+    },
+    {
+      "finding": "The final post title matches the fifth named chat result, and 7:30 pm matches the last schedule slot. This is a useful output link.",
+      "evidence": "V04, V06; full 28 and 47 s",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q19"
+    },
+    {
+      "finding": "Calendar entries show scheduled states, not proof of public posting or viral performance. Preview engagement numbers should not be treated as measured results.",
+      "evidence": "V05–V06",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q20"
+    },
+    {
+      "finding": "The chat-to-calendar chain is the strongest distinction: it demonstrates distribution planning as well as clip creation.",
+      "evidence": "V02–V06",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q21"
+    },
+    {
+      "finding": "Label the three services and crop each active step; explain one clip choice with its source timestamp before opening its final preview.",
+      "evidence": "V02–V06",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q22"
+    },
+    {
+      "finding": "Confirm automation through a downstream artifact with a matching title and time, rather than stopping at a success message.",
+      "evidence": "V04–V06",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q23"
+    },
+    {
+      "finding": "No human new-viewer test; product description above is model interpretation of sampled images.",
+      "evidence": "V01–V06",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q24"
+    },
+    {
+      "finding": "No phone-size, safe-area or flash assessment; small UI text needs separate preview.",
+      "evidence": "Contact sheets",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q25"
+    }
+  ],
+  "lessons": {
+    "keep": "Keep the matching clip title and scheduled time across chat and final post.",
+    "try": [
+      "Add three short labels: request, clip selection and scheduled post, with tight crops on the active interface.",
+      "Replace part of the chat wait with the chosen source range and one sentence explaining why that clip was selected."
+    ],
+    "avoid": "Avoid making viewers decode several app names and tiny status messages to understand the product.",
+    "open": "Audio is unheard. Actual publishing, clip quality, processing time and engagement outcomes remain unverified."
+  },
+  "comparison": {
+    "story": "Establish source → Submit clipping request → Show processing progress → Confirm generated selection → Show scheduled outputs → Inspect final clip",
+    "motion": "Windows change position, chat scrolls, calendar refreshes and scheduled blocks appear. These are UI state changes; exact processing duration cannot be inferred from the edited sequence.",
+    "sound": "No validated listening; no absence claims.",
+    "texture": "Dark apps sit against a blue desktop background, with purple scheduling accents. The many surrounding browser controls add visual clutter.",
+    "lesson": "Keep the matching clip title and scheduled time across chat and final post."
+  },
+  "elements": [
+    {
+      "kind": "ui",
+      "name": "video player",
+      "events": [
+        "V01"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "chat",
+      "events": [
+        "V02",
+        "V03",
+        "V04"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "calendar",
+      "events": [
+        "V05"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "post editor",
+      "events": [
+        "V06"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "vertical video preview",
+      "events": [
+        "V06"
+      ]
+    }
+  ],
+  "reviewer_model": "gpt-6-astra",
+  "scope": "sampled visual and story review; ASR and measured signal support; no validated audio listening",
+  "closer_windows": []
+}

@@ -1,0 +1,382 @@
+{
+  "id": 318,
+  "reviewer_model": "gpt-6-astra",
+  "scope": "sampled visual and story review; ASR and measured signal support; no validated audio listening",
+  "viewed_evidence": [
+    "technical-review-2026-10-19/deep-review/motion/318/timeline-00.jpg",
+    "technical-review-2026-10-19/deep-review/motion/318/timeline-01.jpg",
+    "technical-review-2026-10-19/deep-review/motion/318/timeline-02.jpg",
+    "technical-review-2026-10-19/deep-review/motion/318/timeline-03.jpg",
+    "technical-review-2026-10-19/deep-review/motion/318/timeline-04.jpg",
+    "technical-review-2026-10-19/deep-review/audio/318-speech.json"
+  ],
+  "closer_windows": [],
+  "product_from_film": "Arzule presents software and a managed service for finding, managing and measuring B2B partnerships.",
+  "explains_well": "An ideal-partner query leads to named candidates, a partner profile and relationship-management screens.",
+  "unclear": "The film moves from a new partner search to existing revenue and activity without showing how that partner produced those results.",
+  "product_type": "partnership management",
+  "scenario": "Find distribution partners for a no-code-related business and inspect fit, relationship activity and attribution.",
+  "product_clear_time": 60,
+  "product_clear_basis": "The ideal-partner form and distribution-channel goal make the workflow explicit; the earlier ASR pitch names partnership intelligence.",
+  "scenes": [
+    {
+      "id": "V01",
+      "start": 0,
+      "end": 23,
+      "action": "Two founders sit in contrasting outfits, one in a blazer holding colorful fabric and the other in a blue hooded poncho. A wide shot exposes the outfit joke; a Y Combinator badge and founder name card follow.",
+      "design": "Direct-to-camera room footage with a vivid blue costume.",
+      "purpose": "Use a visual joke about guesswork before the business pitch.",
+      "evidence": "Visible chronological 1 fps samples, source 0–23s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V02",
+      "start": 23,
+      "end": 44,
+      "action": "The second founder explains the problem. A spreadsheet appears behind them; short labels ask who to reach out to and when to follow up. A central logo connects to other marks on a tiled grid.",
+      "design": "Spreadsheet overlay, compact question pills and a white network graphic.",
+      "purpose": "Move from manual partner lists to an ecosystem view.",
+      "evidence": "Visible chronological 1 fps samples, source 23–44s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V03",
+      "start": 44,
+      "end": 61,
+      "action": "Founder commentary leads to a radar-like logo graphic scanning document tiles. A form asks for the ideal partner, partnership goal and target company count. The query describes B2B SaaS firms and agencies serving nontechnical founders, with a distribution-channel goal and 50 targets.",
+      "design": "White form, blue accents and scanning diagram.",
+      "purpose": "Give the research agent a defined audience and goal.",
+      "evidence": "Visible chronological 1 fps samples, source 44–61s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V04",
+      "start": 61,
+      "end": 75,
+      "action": "A discovery spinner leads to named partner rows including WeAreNoCode. A results table opens to that company’s profile with colored fit-related bars, company details and an Add as Prospect action.",
+      "design": "Candidate table, profile card and red/yellow/green score bars.",
+      "purpose": "Show discovery and a closer fit inspection.",
+      "evidence": "Visible chronological 1 fps samples, source 61–75s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V05",
+      "start": 75,
+      "end": 90,
+      "action": "A relationship view shows activity including a check-in, referral and commission payment. Automate Outreach appears. ROI Analytics shows green bars, touchpoint data and recommendations.",
+      "design": "Timeline, attribution dashboard and recommendation cards.",
+      "purpose": "Broaden from finding partners to managing and measuring them; the events are not shown being created from the new prospect.",
+      "evidence": "Visible chronological 1 fps samples, source 75–90s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V06",
+      "start": 90,
+      "end": 101,
+      "action": "Partner Applications lists companies, applicants, fit scores and pending states. Perks Intelligence shows a grid of partner-related opportunity cards and summary metrics.",
+      "design": "Dense table and card grid.",
+      "purpose": "Add application review and opportunity-monitoring features.",
+      "evidence": "Visible chronological 1 fps samples, source 90–101s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V07",
+      "start": 101,
+      "end": 122.916,
+      "action": "The founders return for the close. The ASR draft describes software and a fully managed option. The logo ends with arzule.com and Built for partnership intelligence.",
+      "design": "Direct founder footage and white brand card.",
+      "purpose": "State delivery options and website.",
+      "evidence": "Visible chronological 1 fps samples, source 101–122.916s; boundary approximate; exact motion between samples unverified."
+    }
+  ],
+  "sound": [
+    {
+      "id": "A01",
+      "start": 0,
+      "end": 122.916,
+      "layer": "unknown",
+      "detail": "No validated direct audio listening was performed. Music, speech delivery, effects, mix and sync remain unknown, not absent.",
+      "visual_relation": "All visual scenes; audiovisual alignment unverified",
+      "evidence": "Visual samples only; no actual audio range supplied to this reviewer."
+    },
+    {
+      "id": "A02",
+      "start": 0.23,
+      "end": 117.19,
+      "layer": "ASR draft",
+      "detail": "The ASR draft supports the manual-partnership problem, always-on research, outreach, attribution and software/managed-service options. It garbles Arzule and several business terms; visible UI supports the partner workflow. Quantitative claims remain claims, and incomplete sentences are not treated as exact dialogue.",
+      "visual_relation": "Story text support; exact audiovisual alignment and delivery unverified.",
+      "evidence": "technical-review-2026-10-19/deep-review/audio/318-speech.json; local faster-whisper base CPU int8 draft; VAD candidates only, recognition errors possible."
+    }
+  ],
+  "categories": [
+    {
+      "id": "Q01",
+      "finding": "Outfit joke and manual-list problem lead to partner research, candidate inspection, management, measurement and delivery options.",
+      "evidence": "V01–V07",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q02",
+      "finding": "Contrasting outfits support the spoken joke about intuition; without speech their relation to partnerships is unclear.",
+      "evidence": "V01; ASR draft",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q03",
+      "finding": "The concrete workflow becomes visible in the query form around 60 s; earlier founder speech gives the category.",
+      "evidence": "V03",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q04",
+      "finding": "A central mark connects to logos, a scan graphic sweeps through documents and candidate rows lead into a profile. Bars change color as the profile is introduced.",
+      "evidence": "V02–V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q05",
+      "finding": "WeAreNoCode appears in the candidate list and profile, but the later attribution screens are not clearly tied to a newly completed action.",
+      "evidence": "V04,V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q06",
+      "finding": "Blue and pale white software graphics contrast with the blue poncho and warm room footage. Green bars mark positive metrics.",
+      "evidence": "V01–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q07",
+      "finding": "The query and partner name are legible. Dense attribution and perks screens introduce more information than can be easily read at normal pace.",
+      "evidence": "V03–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q08",
+      "finding": "The ASR draft supports the manual-partnership problem, always-on research, outreach, attribution and software/managed-service options. It garbles Arzule and several business terms; visible UI supports the partner workflow. Quantitative claims remain claims, and incomplete sentences are not treated as exact dialogue.",
+      "evidence": "A02",
+      "status": "uncertain",
+      "reason": "ASR text only; no validated listening, delivery or voice origin.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q09",
+      "finding": "Voice delivery, music, effects and audiovisual alignment were not established by this visual pass.",
+      "evidence": "A01",
+      "status": "not checked",
+      "reason": "No validated direct audio listening input.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q10",
+      "finding": "Voice delivery, music, effects and audiovisual alignment were not established by this visual pass.",
+      "evidence": "A01",
+      "status": "not checked",
+      "reason": "No validated direct audio listening input.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q11",
+      "finding": "Voice delivery, music, effects and audiovisual alignment were not established by this visual pass.",
+      "evidence": "A01",
+      "status": "not checked",
+      "reason": "No validated direct audio listening input.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q12",
+      "finding": "Founder footage, interface views and abstract research graphics are visible. Production tools and live-demo status are unknown.",
+      "evidence": "V01–V07",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q13",
+      "finding": "Manifest duration 122.916s; indexed dimensions 1920×1080. Source unchanged flag recorded; fresh encoding and audio clipping checks not run.",
+      "evidence": "Group manifest",
+      "status": "uncertain",
+      "reason": "Inherited technical metadata; no fresh media probe in this review.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q14",
+      "finding": "The middle UI sequence explains discovery visually. Long founder sections have no full visible captions, so their meaning depends on speech.",
+      "evidence": "V01,V03–V07",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q15",
+      "finding": "The form and company profile receive enlarged views; later feature tables are mostly shown as whole screens.",
+      "evidence": "V03–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q16",
+      "finding": "Nearly half the film is founder framing before the query appears. The central product tour covers many features in roughly 43 s.",
+      "evidence": "V01–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q17",
+      "finding": "The candidate list and profile are clear outputs. Revenue attribution is displayed as existing data rather than a demonstrated result of the shown search.",
+      "evidence": "V04,V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q18",
+      "finding": "The costume joke gives a friendly opening, while the later dashboards seek analytical credibility; this is a creative reading.",
+      "evidence": "V01,V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q19",
+      "finding": "A specific distribution-partner query anchors discovery. The path from candidate to agreement, outreach and attributed revenue is skipped.",
+      "evidence": "V03–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q20",
+      "finding": "Partnership revenue percentages, customer revenue scale, prediction quality and attribution accuracy are claims. The film does not explain score calculation or attribution rules.",
+      "evidence": "V01,V04,V05; ASR draft",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q21",
+      "finding": "The distribution goal, named candidate and relationship timeline make the partnership use case concrete.",
+      "evidence": "V03–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q22",
+      "finding": "Follow WeAreNoCode from selection to one outreach draft, reply and logged result; label historical revenue separately.",
+      "evidence": "V04,V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q23",
+      "finding": "Tin can connect a research recommendation to one action and its recorded result before showing broader analytics.",
+      "evidence": "V03–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q24",
+      "finding": "Arzule presents software and a managed service for finding, managing and measuring B2B partnerships.",
+      "evidence": "Model reading from inspected images",
+      "status": "uncertain",
+      "reason": "Model-only new-viewer interpretation; no human test.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q25",
+      "finding": "Contact sheets inspected at displayed size; a phone-size playback, caption audit, flash audit and formal accessibility check were not performed.",
+      "evidence": "Viewed sheets",
+      "status": "not checked",
+      "reason": "Full-size moving-image and device checks unavailable in this pass.",
+      "experiment": "none"
+    }
+  ],
+  "lessons": {
+    "keep": "Start a recommendation demo with a precise audience and business goal.",
+    "avoid": "Avoid letting existing dashboards look like immediate results of a newly generated recommendation.",
+    "open": "Fit-score basis, prediction and attribution accuracy, service scope, revenue claims and all heard audio remain unverified.",
+    "try": [
+      "For Tin, enter a specific partner profile and inspect one candidate’s supporting evidence.",
+      "Carry that candidate through an approved outreach and a logged response before showing aggregate revenue."
+    ]
+  },
+  "comparison": {
+    "story": "Use a visual joke about guesswork before the business pitch. → Move from manual partner lists to an ecosystem view. → Give the research agent a defined audience and goal. → Show discovery and a closer fit inspection. → Broaden from finding partners to managing and measuring them; the events are not shown being created from the new prospect. → Add application review and opportunity-monitoring features. → State delivery options and website.",
+    "motion": "A central mark connects to logos, a scan graphic sweeps through documents and candidate rows lead into a profile. Bars change color as the profile is introduced. Sampling scope: 1 fps unless a closer window is recorded.",
+    "sound": "No validated listening; unknown.",
+    "texture": "Direct-to-camera room footage with a vivid blue costume.; Spreadsheet overlay, compact question pills and a white network graphic.; White form, blue accents and scanning diagram.; Candidate table, profile card and red/yellow/green score bars.; Timeline, attribution dashboard and recommendation cards.; Dense table and card grid.; Direct founder footage and white brand card.",
+    "lesson": "Start a recommendation demo with a precise audience and business goal."
+  },
+  "elements": [
+    {
+      "kind": "ui",
+      "name": "spreadsheet",
+      "events": [
+        "V02"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "search form",
+      "events": [
+        "V03"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "candidate table",
+      "events": [
+        "V04"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "company profile",
+      "events": [
+        "V04"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "activity timeline",
+      "events": [
+        "V05"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "bar chart",
+      "events": [
+        "V05"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "card grid",
+      "events": [
+        "V06"
+      ]
+    },
+    {
+      "kind": "motion",
+      "name": "radar scan graphic",
+      "events": [
+        "V03"
+      ]
+    }
+  ]
+}

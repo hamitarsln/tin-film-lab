@@ -1,0 +1,350 @@
+{
+  "id": 93,
+  "viewed_evidence": [
+    "technical-review-2026-10-19/deep-review/motion/093/timeline-00.jpg",
+    "technical-review-2026-10-19/deep-review/motion/093/timeline-01.jpg"
+  ],
+  "product_from_film": "Kimi K3 is presented as an agent that builds interactive games and other visual outputs from prompts.",
+  "explains_well": "A horse sketch remains recognizable through asset generation, a game scene and revisions.",
+  "unclear": "The film does not establish real execution time, code quality or whether the whole showcased process was live.",
+  "product_type": "AI agent / coding and creation",
+  "scenario": "Turn a horse sketch into a playable scene, then change reflections, day/night and debugging.",
+  "product_clear_time": 10,
+  "product_clear_basis": "Prompt at 5–8 s asks for a character and fantasy world; generated horse asset at 10 s shows the requested direction.",
+  "scenes": [
+    {
+      "start": 0,
+      "end": 5,
+      "action": "Scientific-looking magnetic pattern gives way to paper on a light table; hand draws a rider on a horse.",
+      "design": "Cream paper, drawing tools and collage scraps.",
+      "purpose": "Start from a tangible idea.",
+      "id": "V01",
+      "evidence": "Visible 1 fps samples, source 0–5 s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 5,
+      "end": 14,
+      "action": "Prompt panel fills with a fantasy-world request; close submit button leads to sketch, rendered horse, asset diagram and forest game view.",
+      "design": "White prompt UI and labeled Generate Assets states.",
+      "purpose": "Connect request to generated world.",
+      "id": "V02",
+      "evidence": "Visible 1 fps samples, source 5–14 s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 14,
+      "end": 20,
+      "action": "Meet kimi k 3 title leads to reflection and day/night requests with changed game scenes.",
+      "design": "Paper collage title and rounded game previews.",
+      "purpose": "Show iterative control.",
+      "id": "V03",
+      "evidence": "Visible 1 fps samples, source 14–20 s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 20,
+      "end": 26,
+      "action": "Horse scene gains Kimi is debugging overlay, then Kimi debugged it and a clear scene.",
+      "design": "Split dark overlay, trace-like lines and unchanged rider anchor.",
+      "purpose": "Represent fixing the scene.",
+      "id": "V04",
+      "evidence": "Visible 1 fps samples, source 20–26 s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 26,
+      "end": 40,
+      "action": "Purple handheld emulator, swinging character, RPG, FPS, racing, voxel scene, watch and typewriter appear with labels.",
+      "design": "Varied interactive-looking scenes with consistent cream labels.",
+      "purpose": "Show capability range.",
+      "id": "V05",
+      "evidence": "Visible 1 fps samples, source 26–40 s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 40,
+      "end": 48,
+      "action": "Research page changes through diagrams/charts; scientific illustration examples lead to a tiled live dashboard.",
+      "design": "Editorial layouts, tiny data labels and clean panels.",
+      "purpose": "Extend beyond games.",
+      "id": "V06",
+      "evidence": "Visible 1 fps samples, source 40–48 s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 48,
+      "end": 56.689,
+      "action": "Kimi k 3 sits among example cards; multilingual paper cards change to K3 is the future and KIMI.",
+      "design": "Cream desk collage and serif/black branding.",
+      "purpose": "Close with broad creative identity.",
+      "id": "V07",
+      "evidence": "Visible 1 fps samples, source 48–56.689 s; boundaries approximate, between-frame action unresolved."
+    }
+  ],
+  "sound": [
+    {
+      "id": "A01",
+      "start": 0,
+      "end": 56.689,
+      "layer": "unknown",
+      "detail": "No validated audio listening; speech, music, effects, mix and sync remain unverified.",
+      "visual_relation": "All visual scenes; alignment not checked",
+      "evidence": "No actual audio supplied to this review; existing technical-review-2026-10-19/deep-review/audio/093.json is not listening evidence."
+    }
+  ],
+  "categories": [
+    {
+      "finding": "Sketch → requested assets/world → revisions/debugging → wider examples.",
+      "evidence": "V01–V06",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q01"
+    },
+    {
+      "finding": "Magnetic-looking pattern changes to a light table; no product is yet named.",
+      "evidence": "V01",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q02"
+    },
+    {
+      "finding": "Prompt and generated horse establish AI creation by 10 s; labels later broaden audience to builders/researchers.",
+      "evidence": "V02,V06",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q03"
+    },
+    {
+      "finding": "Sketch changes to dimensional asset and world; UI crops enlarge submit; showcase cards change scale and orientation. Exact paths are unresolved.",
+      "evidence": "V02,V05",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q04"
+    },
+    {
+      "finding": "Paper desk returns between demos, making it a recurring chapter surface.",
+      "evidence": "V01,V03,V07",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q05"
+    },
+    {
+      "finding": "Muted paper collage frames colorful game worlds and precise-looking charts; source-generation method not verified.",
+      "evidence": "V01,V05,V06",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q06"
+    },
+    {
+      "finding": "Long initial prompt is small; short example labels explain later breadth more quickly.",
+      "evidence": "V02,V05",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q07"
+    },
+    {
+      "finding": "Voice presence and delivery remain unverified.",
+      "evidence": "No validated audio listening",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q08"
+    },
+    {
+      "finding": "Music character and arc remain unverified.",
+      "evidence": "No validated audio listening",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q09"
+    },
+    {
+      "finding": "Sound effects remain unverified.",
+      "evidence": "No validated audio listening",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q10"
+    },
+    {
+      "finding": "Sound-to-motion timing remain unverified.",
+      "evidence": "No validated audio listening",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q11"
+    },
+    {
+      "finding": "Hand-drawing footage-like image, game scenes, dimensional objects and research pages appear; actual generation provenance unverified.",
+      "evidence": "V01–V06",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q12"
+    },
+    {
+      "finding": "Source duration supplied as 56.689 s; no independent compression, clipping or delivery check.",
+      "evidence": "Assigned metadata; source integrity checked by parent",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q13"
+    },
+    {
+      "finding": "Prompt/result relationship and revision labels are clear silently; technical quality remains unknown.",
+      "evidence": "V02–V04",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q14"
+    },
+    {
+      "finding": "The horse anchors the first half; later capability labels lead rapidly changing examples.",
+      "evidence": "V02,V05",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q15"
+    },
+    {
+      "finding": "One detailed example gives way to many short demos; research pages have too much fine detail for sheet-scale reading.",
+      "evidence": "V05–V06",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q16"
+    },
+    {
+      "finding": "A drawn horse becomes a world and survives revisions, paying off the tangible opening.",
+      "evidence": "V01–V04",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q17"
+    },
+    {
+      "finding": "Interpretation: modest drawing grows into expansive output, aiming for creative possibility.",
+      "evidence": "V01–V03",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q18"
+    },
+    {
+      "finding": "Horse/rider continuity supports the central demo; paper materials connect the wider showcase.",
+      "evidence": "V01–V07",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q19"
+    },
+    {
+      "finding": "Requested changes and debugged states are represented; performance and correctness were not independently tested.",
+      "evidence": "V03–V04",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q20"
+    },
+    {
+      "finding": "Paper desk, hand sketch and K3 number card distinguish the frame from generic chat demos.",
+      "evidence": "V01,V07",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q21"
+    },
+    {
+      "finding": "The long capability parade could be trimmed to allow inspection of one generated artifact.",
+      "evidence": "V05–V06",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q22"
+    },
+    {
+      "finding": "For Tin creative iteration, begin with one rough brand sketch and keep it identifiable through draft, revision and final campaign.",
+      "evidence": "V01–V04",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q23"
+    },
+    {
+      "finding": "No human new-viewer test; product description above is model interpretation of sampled images.",
+      "evidence": "V01–V07",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q24"
+    },
+    {
+      "finding": "No phone-size, safe-area or flash assessment; small UI text needs separate preview.",
+      "evidence": "Contact sheets",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q25"
+    }
+  ],
+  "lessons": {
+    "keep": "Keep the same source object recognizable through generated outputs and revisions.",
+    "try": [
+      "For Tin, use one rough product sketch, generated ad draft and a requested color change with the same composition.",
+      "For a coding-agent demo, show one error condition, the debug action and a tested corrected state before the broader gallery."
+    ],
+    "avoid": "Treating a rapid gallery as proof of reliable generation.",
+    "open": "Continuous sketch/world transition, actual build reliability and sound remain unverified."
+  },
+  "comparison": {
+    "story": "Start from a tangible idea. → Connect request to generated world. → Show iterative control. → Represent fixing the scene. → Show capability range. → Extend beyond games. → Close with broad creative identity.",
+    "motion": "Sketch changes to dimensional asset and world; UI crops enlarge submit; showcase cards change scale and orientation. Exact paths are unresolved.",
+    "sound": "No validated listening; no absence claims.",
+    "texture": "Muted paper collage frames colorful game worlds and precise-looking charts; source-generation method not verified.",
+    "lesson": "Keep the same source object recognizable through generated outputs and revisions."
+  },
+  "elements": [
+    {
+      "kind": "ui",
+      "name": "prompt box",
+      "events": [
+        "V02"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "game preview",
+      "events": [
+        "V03",
+        "V04"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "research page",
+      "events": [
+        "V06"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "dashboard",
+      "events": [
+        "V06"
+      ]
+    },
+    {
+      "kind": "texture",
+      "name": "paper collage",
+      "events": [
+        "V01",
+        "V07"
+      ]
+    }
+  ],
+  "reviewer_model": "gpt-6-astra",
+  "scope": "sampled visual and story review; ASR and measured signal support; no validated audio listening",
+  "closer_windows": []
+}

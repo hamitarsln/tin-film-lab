@@ -1,0 +1,317 @@
+{
+  "id": 94,
+  "product_from_film": "Reframe in Reve changes image framing, zoom and aspect ratio.",
+  "explains_well": "The same picnic poster and house scene visibly change from narrow to wide formats.",
+  "unclear": "The samples do not establish image quality at full resolution or how unseen image areas are created.",
+  "product_type": "image editing",
+  "scenario": "Reframe a city image and adapt a picnic poster from portrait to landscape.",
+  "product_clear_time": 16,
+  "product_clear_basis": "The change-aspect-ratios label at 10s leads through an editor to a visibly wider version of the same picnic poster at 16s.",
+  "scenes": [
+    {
+      "start": 0,
+      "end": 10,
+      "action": "Zoom in text sits beside Earth, then a regional image and city view. The city fills the frame, appears in an editor and changes to a closer bridge view.",
+      "design": "White/black fields, rounded image card and clean sans-serif text.",
+      "purpose": "Introduce zoom and connect it to image editing.",
+      "evidence": "1 fps source samples in 0–10s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V01"
+    },
+    {
+      "start": 10,
+      "end": 17,
+      "action": "Change Aspect Ratios introduces a portrait picnic poster in the editor. Side settings appear; the poster then fills a landscape composition with related text and decoration.",
+      "design": "Purple/gold illustrated poster, white editor and small toolbar.",
+      "purpose": "Show a concrete format transformation.",
+      "evidence": "1 fps source samples in 10–17s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V02"
+    },
+    {
+      "start": 17,
+      "end": 23,
+      "action": "From Vertical and To Horizontal accompany a house image and ratio icons. A wide house row carries Try Reframe, then a picnic scene appears in front.",
+      "design": "Translucent ratio selector and broad landscape image.",
+      "purpose": "Repeat the benefit with photographic-looking material.",
+      "evidence": "1 fps source samples in 17–23s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V03"
+    },
+    {
+      "start": 23,
+      "end": 30.53,
+      "action": "A top-down picnic becomes smaller in grass; city and regional views follow with Now on Reve, ending on Earth.",
+      "design": "Green field, aerial city and blue planet.",
+      "purpose": "Reverse the opening scale idea and close the loop.",
+      "evidence": "1 fps source samples in 23–30.53s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V04"
+    }
+  ],
+  "categories": [
+    {
+      "id": "Q01",
+      "finding": "Zoom introduction leads to editor proof, poster format change, photo format change and an outward scale ending.",
+      "evidence": "V01–V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q02",
+      "finding": "Zoom in text and Earth grow across 0–2s; the scale motif is explicit but the product context comes later.",
+      "evidence": "V01",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q03",
+      "finding": "Image creators adapting formats are implied by the editor and poster. The full task is clear at the 16s wide-poster result.",
+      "evidence": "V02",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q04",
+      "finding": "Successive Earth/region/city and picnic/field/city states imply inward and outward scaling. Exact continuous zoom path is unverified.",
+      "evidence": "V01,V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q05",
+      "finding": "The image-to-editor change gives a functional anchor between scale sequences. Portrait and landscape poster states are visible, but the transformation mechanism is unresolved.",
+      "evidence": "V01,V02",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q06",
+      "finding": "Plain white fields keep attention on detailed images and the purple/gold poster. The translucent ratio selector is a decorative UI layer.",
+      "evidence": "V02,V03",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q07",
+      "finding": "Large Zoom in, Change Aspect Ratios and Vertical/Horizontal text states make benefits explicit. Small editor settings are not needed for the broad explanation.",
+      "evidence": "V01–V03",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q08",
+      "finding": "Voice delivery is unverified.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "No validated listening.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q09",
+      "finding": "Music character and structure are unverified.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "No validated listening.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q10",
+      "finding": "Effects and their sources are unverified.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "No validated listening; waveform peaks do not identify effects.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q11",
+      "finding": "Sound sync is unverified.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "No validated listening or paired audiovisual timing.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q12",
+      "finding": "Earth/aerial imagery, city houses and an illustrated poster are used. Their sources and generation methods are not known.",
+      "evidence": "V01–V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q13",
+      "finding": "Source duration 30.53 s; Watch metadata 1920 × 1080. Frame rate, audio clipping and export quality not checked here.",
+      "evidence": "Whole film",
+      "status": "supported",
+      "reason": "Parent source metadata supports duration and dimensions; visual review is sampled.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q14",
+      "finding": "The aspect-ratio task is clear silently because the same poster and houses recur in new shapes.",
+      "evidence": "V02,V03",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q15",
+      "finding": "Central images and surrounding whitespace create a stable focus. Ratio outlines reinforce the requested shape.",
+      "evidence": "V02,V03",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q16",
+      "finding": "Two related functions fit into 30s; the poster example gives the strongest concrete result. The globe travel is less necessary for practical understanding.",
+      "evidence": "V01–V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q17",
+      "finding": "The opening zoom promise returns in reverse at the end, while middle examples give a usable framing benefit.",
+      "evidence": "V01,V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q18",
+      "finding": "The wide range of scale appears intended to create wonder and control; viewer response is not measured.",
+      "evidence": "V01,V04",
+      "status": "uncertain",
+      "reason": "Interpretation from scale contrast.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q19",
+      "finding": "The city setting, picnic theme and Earth start/end give unusually strong continuity across feature examples.",
+      "evidence": "V01–V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q20",
+      "finding": "Matching portrait/wide outputs and editor states are visible. Resolution, text fidelity and real generation behavior are not independently tested.",
+      "evidence": "V02,V03",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q21",
+      "finding": "The scale loop and city/picnic world unify the film. The clean UI style alone is not brand-specific.",
+      "evidence": "V01–V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q22",
+      "finding": "The poster transformation directly explains utility. One less scale montage would allow a closer comparison of preserved content.",
+      "evidence": "V02,V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q23",
+      "finding": "For Tin multi-channel campaigns, show one poster adapting to two channel sizes while retaining its headline and key information.",
+      "evidence": "V02,V03",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "Put before/after versions side by side and mark the unchanged headline."
+    },
+    {
+      "id": "Q24",
+      "finding": "No human new-viewer test was performed.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "The product summary is this model’s film-only reading.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q25",
+      "finding": "Mobile preview and accessibility checks were not performed.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "Contact sheets are evidence views, not a stated mobile preview or compliance test.",
+      "experiment": "none"
+    }
+  ],
+  "elements": [
+    {
+      "kind": "ui",
+      "name": "image editor",
+      "events": [
+        "V01",
+        "V02"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "aspect ratio selector",
+      "events": [
+        "V03"
+      ]
+    },
+    {
+      "kind": "motion",
+      "name": "image scale change",
+      "events": [
+        "V01",
+        "V04"
+      ]
+    },
+    {
+      "kind": "motion",
+      "name": "portrait to landscape states",
+      "events": [
+        "V02",
+        "V03"
+      ]
+    }
+  ],
+  "lessons": {
+    "keep": "Use the same detailed poster in both formats so the change is immediately inspectable.",
+    "try": [
+      "For Tin, adapt one campaign poster to portrait and landscape while keeping the same headline, date and product image visible.",
+      "Build a short scale-loop opening/ending around one campaign asset, with the actual editor action in the middle."
+    ],
+    "avoid": "Letting impressive scale changes replace a full-resolution check of the adapted output.",
+    "open": "Image fidelity, actual edit behavior, unseen-area generation, sound and precise zoom path remain unverified."
+  },
+  "comparison": {
+    "story": "Zoom promise → editor → poster ratio change → house ratio change → outward scale loop.",
+    "motion": "Scale and format state changes; continuous paths not resolved.",
+    "sound": "No validated listening or synchronization check.",
+    "texture": "Clean white layouts, detailed poster and photographic-looking city imagery.",
+    "lesson": "Matched before/after content is stronger proof than a generic feature claim."
+  },
+  "reviewer_model": "gpt-6-astra",
+  "scope": "sampled visual and story review; ASR and measured signal support; no validated audio listening",
+  "viewed_evidence": [
+    "technical-review-2026-10-19/deep-review/motion/094/timeline-00.jpg",
+    "technical-review-2026-10-19/deep-review/motion/094/timeline-01.jpg"
+  ],
+  "closer_windows": [],
+  "sound": [
+    {
+      "id": "A01",
+      "start": 0,
+      "end": 30.53,
+      "layer": "unknown",
+      "detail": "No validated audio listening. Voice delivery, music, effects and mix are unknown.",
+      "visual_relation": "All scenes; sound alignment unverified",
+      "evidence": "No actual audio perception in this review; prepared audio files are not listening evidence."
+    }
+  ]
+}

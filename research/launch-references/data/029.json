@@ -1,0 +1,371 @@
+{
+  "id": 29,
+  "reviewer_model": "gpt-6-astra",
+  "scope": "sampled visual and story review; ASR and measured signal support; no validated audio listening",
+  "viewed_evidence": [
+    "technical-review-2026-10-19/deep-review/motion/029/timeline-00.jpg",
+    "technical-review-2026-10-19/deep-review/motion/029/timeline-01.jpg",
+    "technical-review-2026-10-19/deep-review/motion/029/timeline-02.jpg",
+    "technical-review-2026-10-19/deep-review/audio/029-speech.json"
+  ],
+  "closer_windows": [],
+  "product_from_film": "Sazabi is presented as an AI observability platform for searching logs and investigating anomalies.",
+  "explains_well": "Charts, incident cards and a query flow connect the dramatic framing to a recognizable developer task.",
+  "unclear": "The actual speed, diagnostic accuracy and integration setup are not demonstrated independently.",
+  "product_type": "developer observability",
+  "scenario": "Search checkout errors and inspect an exception spike.",
+  "product_clear_time": 12,
+  "product_clear_basis": "AI-native observability platform title is followed by a software screen.",
+  "scenes": [
+    {
+      "id": "V01",
+      "start": 0,
+      "end": 13,
+      "action": "An illustrated figure with bright glasses leans over a red-lit desk. A top view introduces a symbol, then large AI-native observability text, repeated Fast-moving lettering and a dark app screen.",
+      "design": "Black-red illustrated city; bold condensed white type.",
+      "purpose": "Introduce a powerful monitoring persona and platform.",
+      "evidence": "Visible chronological 1 fps samples, source 0–13s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V02",
+      "start": 13,
+      "end": 27,
+      "action": "Upload/log wording accompanies hands above code. A bar chart highlights a tall yellow spike; incident cards multiply and resolve into one Unhandled Exception Spike detail view.",
+      "design": "Red-lit code, red/yellow bars and dark cards.",
+      "purpose": "Show anomaly discovery and investigation.",
+      "evidence": "Visible chronological 1 fps samples, source 13–27s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V03",
+      "start": 27,
+      "end": 40,
+      "action": "The character overlooks a city; a globe carries a fastest-log-search claim. The same checkout-error request appears in English, Spanish, Japanese and Mandarin.",
+      "design": "Globe, white uppercase labels, black grid.",
+      "purpose": "Claim broad and multilingual querying.",
+      "evidence": "Visible chronological 1 fps samples, source 27–40s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V04",
+      "start": 40,
+      "end": 49,
+      "action": "An eye reflects charts, then the dashboard appears with several plots. A large Quick Actions label gives way to a command menu.",
+      "design": "Teal glow replaces red beneath dark UI.",
+      "purpose": "Bring the story into the product controls.",
+      "evidence": "Visible chronological 1 fps samples, source 40–49s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V05",
+      "start": 49,
+      "end": 59,
+      "action": "A command menu gains a query, results and a conversation/detail flow with code and charts.",
+      "design": "Dark command palette, report cards, colored log histogram.",
+      "purpose": "Show a more concrete investigation sequence.",
+      "evidence": "Visible chronological 1 fps samples, source 49–59s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V06",
+      "start": 59,
+      "end": 70,
+      "action": "The seated figure is surrounded by code columns; one sampled image turns pale/inverted. Code forms the mark, surrounded by tool logos, then a wireframe robot appears.",
+      "design": "Red code, brief pale sampled state, orbit-like integration logos.",
+      "purpose": "Shift from investigation to ecosystem scale.",
+      "evidence": "Visible chronological 1 fps samples, source 59–70s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V07",
+      "start": 70,
+      "end": 83,
+      "action": "Customer names appear over wireframe robots, then a large robot hall surrounds the figure. The view changes from balcony to aisle.",
+      "design": "Wire outlines, reflective red floor, white spotlights.",
+      "purpose": "Use an army metaphor for scale and adoption.",
+      "evidence": "Visible chronological 1 fps samples, source 70–83s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V08",
+      "start": 83,
+      "end": 86.352,
+      "action": "Sazabi.com and Now generally available hold on a dark grid, followed by black.",
+      "design": "Red domain and small white availability line.",
+      "purpose": "Give a destination.",
+      "evidence": "Visible chronological 1 fps samples, source 83–86.352s; boundary approximate; exact motion between samples unverified."
+    }
+  ],
+  "sound": [
+    {
+      "id": "A01",
+      "start": 0,
+      "end": 86.352,
+      "layer": "unknown",
+      "detail": "No validated direct audio listening was performed. Music, speech delivery, effects, mix and sync remain unknown, not absent.",
+      "visual_relation": "All visual scenes; audiovisual alignment unverified",
+      "evidence": "Visual samples only; no actual audio range supplied to this reviewer."
+    },
+    {
+      "id": "A02",
+      "start": 0.26,
+      "end": 81.2,
+      "layer": "ASR draft",
+      "detail": "ASR draft uses a repeated exchange: give the platform logs, receive alerts, search, dashboards, root-cause assistance and collaborative debugging. It ends with easy setup and customer claims. Product names and some short phrases are misrecognized; speed, setup and superlative claims are unverified. Delivery and soundtrack were not heard.",
+      "visual_relation": "Story text support; exact audiovisual alignment and delivery unverified.",
+      "evidence": "technical-review-2026-10-19/deep-review/audio/029-speech.json; local faster-whisper base CPU int8 draft; VAD candidates only, recognition errors possible."
+    }
+  ],
+  "categories": [
+    {
+      "id": "Q01",
+      "finding": "A monitoring persona leads to anomaly charts, multilingual search, command actions, integrations and an availability close.",
+      "evidence": "V01–V08",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q02",
+      "finding": "A hand over code and glowing glasses establish a dramatic technical setting before explaining the product.",
+      "evidence": "V01",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q03",
+      "finding": "Observability is named around 10 s; log and exception screens make developer operations the likely task by 20–26 s.",
+      "evidence": "V01,V02",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q04",
+      "finding": "Type repeats in stacked rows, cards accumulate and a chart spike glows; exact transitions and easing are not resolved.",
+      "evidence": "V01,V02",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q05",
+      "finding": "Character and city inserts separate UI passages; eye-to-dashboard imagery links the monitoring metaphor with the software.",
+      "evidence": "V03,V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q06",
+      "finding": "Red-black cinematic illustration dominates; teal glow marks the later control sequence.",
+      "evidence": "V01–V07",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q07",
+      "finding": "Large claims are easy to spot; incident descriptions and command results are much smaller and need a closer reading for exact content.",
+      "evidence": "V02,V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q08",
+      "finding": "ASR draft uses a repeated exchange: give the platform logs, receive alerts, search, dashboards, root-cause assistance and collaborative debugging. It ends with easy setup and customer claims. Product names and some short phrases are misrecognized; speed, setup and superlative claims are unverified. Delivery and soundtrack were not heard.",
+      "evidence": "A02",
+      "status": "uncertain",
+      "reason": "ASR text only; no validated listening, delivery or voice origin.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q09",
+      "finding": "Voice delivery, music, effects and audiovisual alignment were not established by this visual pass.",
+      "evidence": "A01",
+      "status": "not checked",
+      "reason": "No validated direct audio listening input.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q10",
+      "finding": "Voice delivery, music, effects and audiovisual alignment were not established by this visual pass.",
+      "evidence": "A01",
+      "status": "not checked",
+      "reason": "No validated direct audio listening input.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q11",
+      "finding": "Voice delivery, music, effects and audiovisual alignment were not established by this visual pass.",
+      "evidence": "A01",
+      "status": "not checked",
+      "reason": "No validated direct audio listening input.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q12",
+      "finding": "Illustrated character scenes, globe, eye close-up, software captures and wireframe robots mix together; production source is unknown.",
+      "evidence": "V01–V07",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q13",
+      "finding": "Manifest duration 86.352 s; indexed dimensions 3840×2160. Source unchanged flag recorded; fresh encoding and audio clipping checks not run.",
+      "evidence": "Group manifest",
+      "status": "uncertain",
+      "reason": "Inherited technical metadata; no fresh media probe in this review.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q14",
+      "finding": "Charts and translated checkout-error prompts explain log investigation silently; the dramatic robot ending adds little task detail.",
+      "evidence": "V02,V03,V05,V07",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q15",
+      "finding": "A bright yellow bar directs attention to one anomaly before the incident card; this is clearer than the surrounding decorative code.",
+      "evidence": "V02",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q16",
+      "finding": "The film combines many claims and dramatic scenes; the 49–58 s query flow is the densest practical sequence.",
+      "evidence": "V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q17",
+      "finding": "The opening technical-power promise is partly answered by anomaly screens, while the ending emphasizes scale and availability.",
+      "evidence": "V01,V02,V07,V08",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q18",
+      "finding": "Glowing eyes, red lighting and robot ranks suggest control and power; this is interpretation, not measured user trust.",
+      "evidence": "V01,V07",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q19",
+      "finding": "The character, red highlight and small mark recur; the teal UI section still retains the dark grid and panels.",
+      "evidence": "V01–V08",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q20",
+      "finding": "The film shows chart and incident states but does not verify fastest search, multilingual quality or root-cause accuracy.",
+      "evidence": "V02,V03,V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q21",
+      "finding": "The recurring illustrated operator and red visual system make the film distinctive, even though the general robot-power metaphor is broad.",
+      "evidence": "V01,V07",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q22",
+      "finding": "The anomaly and query scenes explain the product; shortening the robot hall could provide a longer readable incident result.",
+      "evidence": "V02,V05,V07",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q23",
+      "finding": "Tin could highlight one campaign anomaly, then expand its evidence card and show the corrective action in the same interface.",
+      "evidence": "V02,V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q24",
+      "finding": "Sazabi is presented as an AI observability platform for searching logs and investigating anomalies.",
+      "evidence": "Model reading from inspected images",
+      "status": "uncertain",
+      "reason": "Model-only new-viewer interpretation; no human test.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q25",
+      "finding": "Small dark UI text needs a phone-size check; a pale/inverted sampled state around 62 s warrants a full-rate flash check before reuse.",
+      "evidence": "V05,V06",
+      "status": "not checked",
+      "reason": "No device preview or formal flash measurement was performed.",
+      "experiment": "none"
+    }
+  ],
+  "lessons": {
+    "keep": "Highlight one chart anomaly before expanding its explanation card.",
+    "avoid": "Avoid letting decorative robot scenes replace readable investigation results.",
+    "open": "Exact transitions, flash intensity, search performance and all audio remain unverified.",
+    "try": [
+      "For Tin, isolate one campaign spend spike, then enlarge its explanation and approval action on the same timeline.",
+      "Use a command-palette query to find one failed workflow; hold the resulting run and cause long enough to read."
+    ]
+  },
+  "comparison": {
+    "story": "Introduce a powerful monitoring persona and platform. → Show anomaly discovery and investigation. → Claim broad and multilingual querying. → Bring the story into the product controls. → Show a more concrete investigation sequence. → Shift from investigation to ecosystem scale. → Use an army metaphor for scale and adoption. → Give a destination.",
+    "motion": "Type repeats in stacked rows, cards accumulate and a chart spike glows; exact transitions and easing are not resolved. Sampling scope: 1 fps unless a closer window is recorded.",
+    "sound": "No validated listening; unknown.",
+    "texture": "Black-red illustrated city; bold condensed white type.; Red-lit code, red/yellow bars and dark cards.; Globe, white uppercase labels, black grid.; Teal glow replaces red beneath dark UI.; Dark command palette, report cards, colored log histogram.; Red code, brief pale sampled state, orbit-like integration logos.; Wire outlines, reflective red floor, white spotlights.; Red domain and small white availability line.",
+    "lesson": "Highlight one chart anomaly before expanding its explanation card."
+  },
+  "elements": [
+    {
+      "kind": "ui",
+      "name": "log histogram",
+      "events": [
+        "V02",
+        "V05"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "incident cards",
+      "events": [
+        "V02"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "command palette",
+      "events": [
+        "V04",
+        "V05"
+      ]
+    },
+    {
+      "kind": "motion",
+      "name": "stacked kinetic text",
+      "events": [
+        "V01"
+      ]
+    },
+    {
+      "kind": "texture",
+      "name": "red and black illustration",
+      "events": [
+        "V01",
+        "V07"
+      ]
+    }
+  ]
+}

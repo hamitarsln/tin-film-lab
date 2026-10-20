@@ -1,0 +1,370 @@
+{
+  "id": 46,
+  "product_from_film": "Tesseract presents open-source converters and agent prompts for moving editable projects between creative apps.",
+  "explains_well": "The same horse composition stays recognizable as file extensions and editor views change.",
+  "unclear": "The long style showcase does not establish which edits survive conversion or which commands really produced them.",
+  "product_type": "creative file conversion and agent tooling",
+  "scenario": "Convert and edit a galloping-horse project across Premiere Pro, Tesseract and After Effects.",
+  "product_clear_time": 6,
+  "product_clear_basis": "At 6s the three named tools appear under Open-source converters, after an unsupported-file error.",
+  "scenes": [
+    {
+      "start": 0,
+      "end": 7,
+      "action": "A desktop shows Tesseract, Premiere Pro and After Effects icons. A file is selected; an unsupported-file dialog stack appears, then an open-source-converters install card and cross-app title.",
+      "design": "Retro dark desktop, pixel-like white/green text and purple file icons.",
+      "purpose": "Set up incompatible files and the conversion answer.",
+      "evidence": "1 fps source samples in 0–7s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V01"
+    },
+    {
+      "start": 7,
+      "end": 17,
+      "action": "A Claude window receives a project file and Tesseract command. Horse previews and stacked timelines appear under changing .prproj, .tsrct and .aep names. The horse fills the frame before nested frames appear.",
+      "design": "Monochrome horse, edit timeline and curve graph; consistent file naming.",
+      "purpose": "Show one asset in several editable formats.",
+      "evidence": "1 fps source samples in 7–17s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V02"
+    },
+    {
+      "start": 17,
+      "end": 31,
+      "action": "A take-the-wheel command is surrounded by agent windows. The horse appears on a perspective grid with a circular sequence of frames, then curve diamonds, GALLOP typography and separated composition planes. At 30.375s the composition fills the frame, then pulls back to reveal it on an inside face of a glowing wireframe cube by 30.875s.",
+      "design": "Green wireframe floor, bright keyframe diamonds and layered poster planes.",
+      "purpose": "Expand from conversion into creative control and editable layers.",
+      "evidence": "1 fps samples in 17–31s plus inspected 8 fps sheet at 29.5–33.5s; pullback and nested composition are resolved, exact easing unverified.",
+      "id": "V03"
+    },
+    {
+      "start": 31,
+      "end": 45,
+      "action": "The glowing wireframe cube changes orientation through about 32s. The view pushes into its horse/GALLOP face at 32.25–32.375s, returning to the full horse scene. Offset horse copies, particle-like AEP letters and bounding boxes follow, then a patchwork of bright treatments.",
+      "design": "Thin construction lines and selection boxes; silver then multicolor horse.",
+      "purpose": "Keep one silhouette while displaying many manipulations.",
+      "evidence": "1 fps samples in 31–45s plus inspected 8 fps sheet at 29.5–33.5s; cube rotation and push-in are resolved, exact easing unverified.",
+      "id": "V04"
+    },
+    {
+      "start": 45,
+      "end": 58,
+      "action": "A small treatment grid becomes a large mosaic; an outlined horse with a bottom curve replaces it. The horse then becomes particles and many small repeated objects.",
+      "design": "Color variants, line-art contour, points and object clusters.",
+      "purpose": "Show range and structural versions of the same asset.",
+      "evidence": "1 fps source samples in 45–58s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V05"
+    },
+    {
+      "start": 58,
+      "end": 70,
+      "action": "Object clusters, dots, loops and pixel blocks return to a silver horse. Vertical strips combine several versions.",
+      "design": "Teal glow, fine line webs and flat square pixels.",
+      "purpose": "Reinforce interchange through a shared visual object.",
+      "evidence": "1 fps source samples in 58–70s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V06"
+    },
+    {
+      "start": 70,
+      "end": 77.909,
+      "action": "The strips sit inside a monitor frame; a converter disk dialog and round-trip file icons appear. The view becomes a beige monitor with Tesseract by Mirage on a gradient screen.",
+      "design": "Retro computer shell; green-orange screen glow and centered name.",
+      "purpose": "Return to the conversion theme and brand.",
+      "evidence": "1 fps source samples in 70–77.909s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V07"
+    }
+  ],
+  "categories": [
+    {
+      "id": "Q01",
+      "finding": "An unsupported file leads to converters, agent commands, one horse in multiple editors, a long treatment showcase and a round-trip closing.",
+      "evidence": "V01–V07",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q02",
+      "finding": "The first two seconds show named creative apps and a selected gallop file. Editors may recognize the setup; a new viewer lacks the problem until 3s.",
+      "evidence": "V01",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q03",
+      "finding": "Creative editors and agent users are implied by named apps, extensions and Claude command. Conversion purpose is visible at 6s.",
+      "evidence": "V01,V02",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q04",
+      "finding": "The 8 fps check resolves a pullback from the GALLOP composition into a rotating wireframe cube at about 30.5–32s, then a push back into the horse scene at 32.25–32.375s. Other treatment changes remain 1 fps observations; exact easing is open.",
+      "evidence": "V03,V04; inspected 29.5–33.5s at 8 fps",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q05",
+      "finding": "The same GALLOP/horse composition becomes an inside face of a wireframe cube, then fills the screen again. This nested-view transition preserves the asset while changing the spatial frame around it.",
+      "evidence": "V03,V04; inspected 29.5–33.5s at 8 fps",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q06",
+      "finding": "The film uses scan-line-like retro screens, teal glow, perspective grids and silver, particle and pixel treatments.",
+      "evidence": "V01–V07",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q07",
+      "finding": "File extensions carry essential meaning; short commands explain intent. The much larger GALLOP word is decorative relative to conversion.",
+      "evidence": "V02,V03",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q08",
+      "finding": "Voice delivery is unverified.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "No validated listening.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q09",
+      "finding": "Music character and structure are unverified.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "No validated listening.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q10",
+      "finding": "Effects and their sources are unverified.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "No validated listening; waveform peaks do not identify effects.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q11",
+      "finding": "Sound sync is unverified.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "No validated listening or paired audiovisual timing.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q12",
+      "finding": "Stylized desktop/editor screens and many versions of one horse dominate; the final computer is real-world-looking. Production method and source provenance are unknown.",
+      "evidence": "V01–V07",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q13",
+      "finding": "Source duration 77.909 s; Watch metadata 1920 × 1080. Frame rate, audio clipping and export quality not checked here.",
+      "evidence": "Whole film",
+      "status": "supported",
+      "reason": "Parent source metadata supports duration and dimensions; visual review is sampled.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q14",
+      "finding": "The error-to-converter sequence and changing extensions communicate file interoperability without speech; exact capability limits are absent.",
+      "evidence": "V01,V02",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q15",
+      "finding": "Purple extensions and large cursor mark files. The horse anchors the eye through the later dense variations.",
+      "evidence": "V01–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q16",
+      "finding": "The 21–69s range spends much more time on style range than the first conversion explanation. It may overwhelm a viewer seeking the practical workflow.",
+      "evidence": "V03–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "Cut a version ending after one round-trip conversion and one editable-layer proof."
+    },
+    {
+      "id": "Q17",
+      "finding": "The unsupported-file promise receives a visual answer in matching horse projects under new extensions. The final round-trip icons return to that promise.",
+      "evidence": "V01,V02,V07",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q18",
+      "finding": "Error windows suggest friction, then abundant variants suggest freedom. This is intended emotion inferred from imagery, not measured response.",
+      "evidence": "V01–V06",
+      "status": "uncertain",
+      "reason": "Visual interpretation only.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q19",
+      "finding": "The horse-and-rider silhouette is a strong continuous object across otherwise very different treatments.",
+      "evidence": "V02–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q20",
+      "finding": "The film shows corresponding file names and project structures. It does not independently demonstrate lossless round-trip behavior or prove every effect came from the prompt.",
+      "evidence": "V02–V07",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q21",
+      "finding": "The horse, file suffixes, green wireframes and old desktop language form a coherent identity tied to creative interchange.",
+      "evidence": "V01–V07",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q22",
+      "finding": "The unsupported-file error and matching editor views are essential. Multiple successive horse mosaics could be shortened while preserving the idea.",
+      "evidence": "V01,V02,V05,V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q23",
+      "finding": "For Tin, use one campaign card across brief, edit and export views; highlight the changed format and preserved content.",
+      "evidence": "V02,V03",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "Show one editable headline surviving a campaign export and reopen step."
+    },
+    {
+      "id": "Q24",
+      "finding": "No human new-viewer test was performed.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "The product summary is this model’s film-only reading.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q25",
+      "finding": "Mobile preview and accessibility checks were not performed.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "Contact sheets are evidence views, not a stated mobile preview or compliance test.",
+      "experiment": "none"
+    }
+  ],
+  "elements": [
+    {
+      "kind": "ui",
+      "name": "error dialog",
+      "events": [
+        "V01"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "editing timeline",
+      "events": [
+        "V02"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "prompt input",
+      "events": [
+        "V02",
+        "V03"
+      ]
+    },
+    {
+      "kind": "motion",
+      "name": "separated visual layers",
+      "events": [
+        "V03"
+      ]
+    },
+    {
+      "kind": "texture",
+      "name": "perspective grid",
+      "events": [
+        "V03",
+        "V04"
+      ]
+    },
+    {
+      "kind": "motion",
+      "name": "composition inside rotating cube",
+      "events": [
+        "V03",
+        "V04"
+      ]
+    }
+  ],
+  "lessons": {
+    "keep": "Keep the exact same recognizable asset across file-format changes.",
+    "try": [
+      "For Tin export, show one campaign card in source, editable export and reopened state; make file names and one editable headline large.",
+      "For a compact workflow film, turn a real format error into one corrected file and an obvious success state before adding any style montage."
+    ],
+    "avoid": "Using a large effect showcase as a substitute for showing preserved editable structure.",
+    "open": "Conversion fidelity, actual command execution, sound and precise motion remain unverified."
+  },
+  "comparison": {
+    "story": "File error → converters → agent/editing examples → horse treatment showcase → round-trip brand ending.",
+    "motion": "Layer and treatment changes plus an 8 fps checked composition-to-cube pullback, cube rotation and return push-in at 29.5–33.5s; exact easing and audio fit remain open.",
+    "sound": "No validated audio listening or sync check.",
+    "texture": "Retro scan-line screens, teal wireframes and varied horse materials; provenance unknown.",
+    "lesson": "A constant asset makes abstract interoperability easier to follow."
+  },
+  "reviewer_model": "gpt-6-astra",
+  "scope": "sampled visual and story review; ASR and measured signal support; no validated audio listening",
+  "viewed_evidence": [
+    "technical-review-2026-10-19/deep-review/motion/046/timeline-00.jpg",
+    "technical-review-2026-10-19/deep-review/motion/046/timeline-01.jpg",
+    "technical-review-2026-10-19/deep-review/motion/046/timeline-02.jpg",
+    "astra-review-2026-10-20/evidence/parent/046/cube-29.5-33.5-8fps.jpg"
+  ],
+  "closer_windows": [
+    {
+      "start": 29.5,
+      "end": 33.5,
+      "rate_fps": 8,
+      "evidence": [
+        "astra-review-2026-10-20/evidence/parent/046/cube-29.5-33.5-8fps.jpg"
+      ],
+      "resolved": "Separated planes enlarge into the GALLOP composition at 30.375s. The view pulls back through 30.625–30.875s to reveal that composition on an inside face of a glowing wireframe cube. The cube changes orientation through about 32s; the view pushes back into the horse composition at 32.25–32.375s. Exact easing and sound alignment remain unverified."
+    }
+  ],
+  "sound": [
+    {
+      "id": "A01",
+      "start": 0,
+      "end": 77.909,
+      "layer": "unknown",
+      "detail": "No validated audio listening. Voice delivery, music, effects and mix are unknown.",
+      "visual_relation": "All scenes; sound alignment unverified",
+      "evidence": "No actual audio perception in this review; prepared audio files are not listening evidence."
+    }
+  ]
+}

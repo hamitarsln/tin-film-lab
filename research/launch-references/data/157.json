@@ -1,0 +1,343 @@
+{
+  "id": 157,
+  "product_from_film": "Umbra offers private payment, transfer and swap screens for Solana users.",
+  "explains_well": "A privacy problem leads to a visible sequence of shielding funds, entering a receiver and swapping.",
+  "unclear": "Shielding is shown as a completed state, but the film does not explain what information it hides or from whom.",
+  "product_type": "crypto privacy interface",
+  "scenario": "A user shields SOL, fills a private transfer form and completes a swap.",
+  "product_clear_time": 10,
+  "product_clear_basis": "Invisible payments for Solana appears at 10s; the first task form arrives at 23s.",
+  "scenes": [
+    {
+      "start": 0,
+      "end": 10,
+      "action": "City streets, a restaurant table and subway passengers accompany text about someone knowing purchases, location and desires, then Thats why we built Umbra.",
+      "design": "Dense urban imagery and small centered white captions.",
+      "purpose": "Introduce the privacy problem.",
+      "evidence": "1 fps source samples in 0–10s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V01"
+    },
+    {
+      "start": 10,
+      "end": 21,
+      "action": "Paragliding, open fields, a falling figure, flowers, a camper and a bird accompany Invisible payments for Solana, Fast Secure, Privacy is a right and Spend freely Leave no trace.",
+      "design": "Bright sky, green landscapes and open space.",
+      "purpose": "Associate the service with freedom and state its promise.",
+      "evidence": "1 fps source samples in 10–21s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V02"
+    },
+    {
+      "start": 21,
+      "end": 27,
+      "action": "A retro computer in a field displays Incognito Mode for Your Money; a Shield form follows, an amount is typed and Shielding complete SOL appears.",
+      "design": "White UI, cyan fields and glossy colorful symbols around the panels.",
+      "purpose": "Bridge the metaphor into the first product action.",
+      "evidence": "1 fps source samples in 21–27s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V03"
+    },
+    {
+      "start": 27,
+      "end": 33,
+      "action": "Private Transfer shows an amount, a receiver-address field and a Transfer 13.86 SOL button.",
+      "design": "Close-ups of form fields and cyan action button.",
+      "purpose": "Show the transfer inputs and submission action.",
+      "evidence": "1 fps source samples in 27–33s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V04"
+    },
+    {
+      "start": 33,
+      "end": 38,
+      "action": "Private Swap shows 13.86 and a dollar-value estimate, followed by Swapping SOL and Swapped SOL.",
+      "design": "Same white/cyan panels and colorful surrounding symbols.",
+      "purpose": "Show another money action with progress and completion states.",
+      "evidence": "1 fps source samples in 33–38s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V05"
+    },
+    {
+      "start": 38,
+      "end": 42.366,
+      "action": "A blue overlay covers the UI and resolves to Incognito mode for your money and a white brand mark.",
+      "design": "Blue gradient and centered copy.",
+      "purpose": "Restate the positioning and close.",
+      "evidence": "1 fps source samples in 38–42.366s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V06"
+    }
+  ],
+  "categories": [
+    {
+      "id": "Q01",
+      "finding": "Surveillance problem → freedom imagery → shielding → transfer → swap → privacy line.",
+      "evidence": "V01–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q02",
+      "finding": "A fast-looking city view and Right now open a personal tracking claim; the first examples arrive within 3s.",
+      "evidence": "V01",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q03",
+      "finding": "Invisible payments for Solana identifies the category and ecosystem at 10s; task screens make it concrete at 23s.",
+      "evidence": "V02,V03",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q04",
+      "finding": "Changing camera views, typed amounts, form close-ups and progress/success states are visible. Actual transaction time and fine easing are not established.",
+      "evidence": "V01–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q05",
+      "finding": "The outdoor computer joins the landscape metaphor to the UI; consistent cyan panels connect three tasks.",
+      "evidence": "V02–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q06",
+      "finding": "Urban density gives way to open sky and fields, then glossy colorful symbols around clean white panels.",
+      "evidence": "V01–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q07",
+      "finding": "Centered captions carry the opening argument. The large amount, receiver field and transfer button are easier to inspect than small receipt rows.",
+      "evidence": "V01–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q08",
+      "finding": "Voice delivery is unverified.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "No validated listening.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q09",
+      "finding": "Music character and structure are unverified.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "No validated listening.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q10",
+      "finding": "Effects and their sources are unverified.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "No validated listening; waveform peaks do not identify effects.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q11",
+      "finding": "Sound sync is unverified.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "No validated listening or paired audiovisual timing.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q12",
+      "finding": "Location-style footage, a retro computer scene and stylized UI are combined; capture and effects methods are unknown.",
+      "evidence": "V01–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q13",
+      "finding": "Source duration 42.366 s; Watch metadata 1920 × 1080. Frame rate, audio clipping and export quality not checked here.",
+      "evidence": "Whole film",
+      "status": "supported",
+      "reason": "Parent source metadata supports duration and dimensions; visual review is sampled.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q14",
+      "finding": "Visible text and form states explain the broad offer silently; the privacy mechanism is not illustrated.",
+      "evidence": "V01–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q15",
+      "finding": "Field close-ups direct attention to amount, receiver and action, while decorative symbols stay around the UI edges.",
+      "evidence": "V03–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q16",
+      "finding": "About half the film sets up the privacy idea before roughly 15s of task demonstrations.",
+      "evidence": "V01–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q17",
+      "finding": "The payment promise is followed by transfer and swap controls; the no-trace promise lacks a visible public/private comparison.",
+      "evidence": "V02–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q18",
+      "finding": "Open landscapes may suggest relief after the crowded tracking premise; actual audience response is unmeasured.",
+      "evidence": "V01,V02",
+      "status": "uncertain",
+      "reason": "Interpretation of contrasting settings.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q19",
+      "finding": "The repeated 13.86 amount and shared UI styling connect the financial screens, though separate operations are shown.",
+      "evidence": "V04,V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q20",
+      "finding": "Privacy, speed and security are film claims. Screen success states do not independently establish protection, settlement or transaction performance.",
+      "evidence": "V02–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q21",
+      "finding": "Incognito mode for your money translates the offer into a familiar phrase, supported by a consistent blue identity.",
+      "evidence": "V03,V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q22",
+      "finding": "One public-view versus private-view example would clarify the exact privacy benefit.",
+      "evidence": "V02,V03",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "Show the same transaction information before and after shielding, labeling who can see each field."
+    },
+    {
+      "id": "Q23",
+      "finding": "For Tin, keep the input, action and completion close together in the demo section.",
+      "evidence": "V03–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "Show a campaign title entered, Publish selected and the same campaign appearing on its destination, with one readable result."
+    },
+    {
+      "id": "Q24",
+      "finding": "No human new-viewer test was performed.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "The product summary is this model’s film-only reading.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q25",
+      "finding": "Mobile preview and accessibility checks were not performed.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "Contact sheets are evidence views, not a stated mobile preview or compliance test.",
+      "experiment": "none"
+    }
+  ],
+  "elements": [
+    {
+      "kind": "ui",
+      "name": "transfer form",
+      "events": [
+        "V04"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "swap form",
+      "events": [
+        "V05"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "success confirmation",
+      "events": [
+        "V03",
+        "V05"
+      ]
+    },
+    {
+      "kind": "motion",
+      "name": "field close-up",
+      "events": [
+        "V03",
+        "V04"
+      ]
+    },
+    {
+      "kind": "texture",
+      "name": "glossy colorful symbols",
+      "events": [
+        "V03",
+        "V04",
+        "V05"
+      ]
+    }
+  ],
+  "lessons": {
+    "keep": "Move from a simple privacy metaphor into concrete amount, receiver and completion states.",
+    "try": [
+      "Compare the same transaction fields before and after shielding, with clear viewer labels.",
+      "For Tin, connect one campaign title, publish action and destination result in a short continuous demonstration."
+    ],
+    "avoid": "Letting a broad privacy slogan stand in for an explanation of the information being hidden.",
+    "open": "The privacy boundary, actual protections, performance, footage methods and audio remain unverified."
+  },
+  "comparison": {
+    "story": "Personal tracking concern → open-world freedom → three financial tasks → positioning.",
+    "motion": "Typed values, form close-ups and completion states; precise timing unverified.",
+    "sound": "No validated listening; all sound layers unknown.",
+    "texture": "City footage, bright landscapes, retro monitor and glossy symbols.",
+    "lesson": "A metaphor becomes more useful when it leads into a readable input/action/result sequence."
+  },
+  "reviewer_model": "gpt-6-astra",
+  "scope": "sampled visual and story review; ASR and measured signal support; no validated audio listening",
+  "viewed_evidence": [
+    "technical-review-2026-10-19/deep-review/motion/157/timeline-00.jpg",
+    "technical-review-2026-10-19/deep-review/motion/157/timeline-01.jpg"
+  ],
+  "closer_windows": [],
+  "sound": [
+    {
+      "id": "A01",
+      "start": 0,
+      "end": 42.366,
+      "layer": "unknown",
+      "detail": "No validated audio listening. Voice delivery, music, effects and mix are unknown.",
+      "visual_relation": "All scenes; sound alignment unverified",
+      "evidence": "No actual audio perception in this review; prepared audio files are not listening evidence."
+    }
+  ]
+}

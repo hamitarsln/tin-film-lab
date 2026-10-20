@@ -1,0 +1,330 @@
+{
+  "id": 428,
+  "reviewer_model": "gpt-6-astra",
+  "scope": "sampled visual and story review; ASR and measured signal support; no validated audio listening",
+  "viewed_evidence": [
+    "technical-review-2026-10-19/deep-review/motion/428/timeline-00.jpg",
+    "technical-review-2026-10-19/deep-review/motion/428/timeline-01.jpg",
+    "technical-review-2026-10-19/deep-review/audio/428-speech.json"
+  ],
+  "closer_windows": [],
+  "product_from_film": "A creator-ambition montage ends on a $2 billion milestone and a Whop symbol, without explaining the service.",
+  "explains_well": "The repeated solitary worker image connects ambition to the closing milestone.",
+  "unclear": "The number has no visible definition, period or user example, and the platform’s role is not shown.",
+  "product_type": "brand milestone",
+  "scenario": "Associate independent ambition with a large monetary milestone.",
+  "product_clear_time": null,
+  "product_clear_basis": "The closing symbol and dollar figure do not explain the product.",
+  "scenes": [
+    {
+      "id": "V01",
+      "start": 0,
+      "end": 10,
+      "action": "A long dark corridor frames a distant seated worker. Stage entrance, running, typing and fighter walkout clips follow.",
+      "design": "Black-and-white footage with small white captions.",
+      "purpose": "Introduce people pursuing their own path.",
+      "evidence": "Visible chronological 1 fps samples, source 0–10s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V02",
+      "start": 10,
+      "end": 20,
+      "action": "Early social-network interview, fictional-looking technology scenes, news interview, car imagery and a small music-player presentation alternate.",
+      "design": "Monochrome broadcast and cinematic material of varied quality.",
+      "purpose": "Collect examples of conviction and invention.",
+      "evidence": "Visible chronological 1 fps samples, source 10–20s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V03",
+      "start": 20,
+      "end": 32,
+      "action": "The corridor and seated worker return before astronaut, spacecraft, robot, digital imagery, brain scan and experimental-looking people.",
+      "design": "Dark high-contrast montage with brief technical images.",
+      "purpose": "Expand the ambition theme.",
+      "evidence": "Visible chronological 1 fps samples, source 20–32s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V04",
+      "start": 32,
+      "end": 40,
+      "action": "Faces, cockpit, aircraft, medal, rocket launch, watching crowd and office celebration pass in quick succession.",
+      "design": "Monochrome achievement and spectacle footage.",
+      "purpose": "Build toward success.",
+      "evidence": "Visible chronological 1 fps samples, source 32–40s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V05",
+      "start": 40,
+      "end": 45.837,
+      "action": "A dollar counter advances from just below two billion to $2,000,000,000, then a white abstract Whop mark appears on black.",
+      "design": "Large white counter and minimal logo.",
+      "purpose": "Reveal a monetary milestone.",
+      "evidence": "Visible chronological 1 fps samples, source 40–45.837s; boundary approximate; exact motion between samples unverified."
+    }
+  ],
+  "sound": [
+    {
+      "id": "A01",
+      "start": 0,
+      "end": 45.837,
+      "layer": "unknown",
+      "detail": "No validated direct audio listening was performed. Music, speech delivery, effects, mix and sync remain unknown, not absent.",
+      "visual_relation": "All visual scenes; audiovisual alignment unverified",
+      "evidence": "Visual samples only; no actual audio range supplied to this reviewer."
+    },
+    {
+      "id": "A02",
+      "start": 0.61,
+      "end": 43.45,
+      "layer": "ASR draft",
+      "detail": "The ASR draft describes following one’s own conviction, building, thinking bigger and taking risks. It supports the motivational theme; the final short phrases are incomplete. It does not define the two-billion figure. Voice delivery, music and effects remain unverified.",
+      "visual_relation": "Story text support; exact audiovisual alignment and delivery unverified.",
+      "evidence": "technical-review-2026-10-19/deep-review/audio/428-speech.json; local faster-whisper base CPU int8 draft; VAD candidates only, recognition errors possible."
+    }
+  ],
+  "categories": [
+    {
+      "id": "Q01",
+      "finding": "Independent conviction and achievement montage leads to a monetary milestone, without a product use case.",
+      "evidence": "V01–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q02",
+      "finding": "A distant person sits beyond a dark hallway while the caption says some people listen to themselves; the opening suggests solitary effort.",
+      "evidence": "V01",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q03",
+      "finding": "Builders and ambitious creators are implied by draft text and typing imagery. The platform’s function is not established by the film alone.",
+      "evidence": "V01–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q04",
+      "finding": "Mostly footage motion: running, typing, vehicles and launch ascent. The final digits roll upward to two billion and stop before the mark.",
+      "evidence": "V01–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q05",
+      "finding": "Rapid cuts connect people and technology thematically; returning to the hallway creates a visual refrain before the wider achievement montage.",
+      "evidence": "V01,V03,V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q06",
+      "finding": "A single black-and-white treatment unifies footage with very different grain, contrast and source quality.",
+      "evidence": "V01–V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q07",
+      "finding": "Small captions supply the argument, while the final dollar figure is large but unlabeled. No period or definition accompanies it.",
+      "evidence": "V01–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q08",
+      "finding": "The ASR draft describes following one’s own conviction, building, thinking bigger and taking risks. It supports the motivational theme; the final short phrases are incomplete. It does not define the two-billion figure. Voice delivery, music and effects remain unverified.",
+      "evidence": "A02",
+      "status": "uncertain",
+      "reason": "ASR text only; no validated listening, delivery or voice origin.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q09",
+      "finding": "Voice delivery, music, effects and audiovisual alignment were not established by this visual pass.",
+      "evidence": "A01",
+      "status": "not checked",
+      "reason": "No validated direct audio listening input.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q10",
+      "finding": "Voice delivery, music, effects and audiovisual alignment were not established by this visual pass.",
+      "evidence": "A01",
+      "status": "not checked",
+      "reason": "No validated direct audio listening input.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q11",
+      "finding": "Voice delivery, music, effects and audiovisual alignment were not established by this visual pass.",
+      "evidence": "A01",
+      "status": "not checked",
+      "reason": "No validated direct audio listening input.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q12",
+      "finding": "News, presentations, sport, cinematic-looking clips and workplace scenes are combined. Their provenance and brand relationship are not established.",
+      "evidence": "V01–V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q13",
+      "finding": "Manifest duration 45.837s; indexed dimensions 1920×1080. Source unchanged flag recorded; fresh encoding and audio clipping checks not run.",
+      "evidence": "Group manifest",
+      "status": "uncertain",
+      "reason": "Inherited technical metadata; no fresh media probe in this review.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q14",
+      "finding": "Silent viewing with captions conveys conviction and risk; the final number’s meaning and platform role remain unclear.",
+      "evidence": "V01–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q15",
+      "finding": "Centered faces and action keep each fast shot locatable; the final single counter provides a strong visual stop.",
+      "evidence": "V04–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q16",
+      "finding": "Many recognizable examples pass in seconds, creating an association rather than explaining any one achievement.",
+      "evidence": "V02–V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q17",
+      "finding": "The opening personal-conviction theme ends in collective-looking achievement and money, but the causal link to the platform is not shown.",
+      "evidence": "V01,V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q18",
+      "finding": "Isolation moves toward determination, risk and celebration. This intended arc is inferred from captions and visuals; sound and audience response are unverified.",
+      "evidence": "V01–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q19",
+      "finding": "The hallway returns at 20s and monochrome treatment binds the sequence; no single user or business connects to the final number.",
+      "evidence": "V01,V03,V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q20",
+      "finding": "The two-billion figure is visible, but whether it represents sales, earnings or another measure is not defined inside the film. No audit or platform workflow is shown.",
+      "evidence": "V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q21",
+      "finding": "The closing symbol supplies identity for existing viewers; the preceding ambition montage is broadly reusable.",
+      "evidence": "V01–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q22",
+      "finding": "Add a short metric label and one real creator example before the counter; reduce a few unrelated technology clips.",
+      "evidence": "V03–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q23",
+      "finding": "For a platform milestone, connect one creator’s workflow to a clearly defined aggregate number, then use a restrained count-up. Cleared footage and metric records are needed.",
+      "evidence": "V01,V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q24",
+      "finding": "A creator-ambition montage ends on a $2 billion milestone and a Whop symbol, without explaining the service.",
+      "evidence": "Model reading from inspected images",
+      "status": "uncertain",
+      "reason": "Model-only new-viewer interpretation; no human test.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q25",
+      "finding": "Contact sheets inspected at displayed size; a phone-size playback, caption audit, flash audit and formal accessibility check were not performed.",
+      "evidence": "Viewed sheets",
+      "status": "not checked",
+      "reason": "Full-size moving-image and device checks unavailable in this pass.",
+      "experiment": "none"
+    }
+  ],
+  "lessons": {
+    "keep": "Use a still, simple counter after a dense montage to focus the ending.",
+    "avoid": "A large unlabeled number that relies on outside post copy for meaning.",
+    "open": "Metric definition, brand contribution, source rights and actual sound remain unverified.",
+    "try": [
+      "For Tin, show one campaign result before a labeled total such as campaigns delivered, with the time period.",
+      "Compare the generic achievement montage with real user work and a shared closing metric."
+    ]
+  },
+  "comparison": {
+    "story": "Introduce people pursuing their own path. → Collect examples of conviction and invention. → Expand the ambition theme. → Build toward success. → Reveal a monetary milestone.",
+    "motion": "Mostly footage motion: running, typing, vehicles and launch ascent. The final digits roll upward to two billion and stop before the mark. Sampling scope: 1 fps unless a closer window is recorded.",
+    "sound": "No validated listening; unknown.",
+    "texture": "Black-and-white footage with small white captions.; Monochrome broadcast and cinematic material of varied quality.; Dark high-contrast montage with brief technical images.; Monochrome achievement and spectacle footage.; Large white counter and minimal logo.",
+    "lesson": "Use a still, simple counter after a dense montage to focus the ending."
+  },
+  "elements": [
+    {
+      "kind": "motion",
+      "name": "counting numbers",
+      "events": [
+        "V05"
+      ]
+    },
+    {
+      "kind": "texture",
+      "name": "black and white footage",
+      "events": [
+        "V01",
+        "V02",
+        "V03",
+        "V04"
+      ]
+    },
+    {
+      "kind": "texture",
+      "name": "mixed archive and cinematic imagery",
+      "events": [
+        "V02",
+        "V03"
+      ]
+    }
+  ]
+}

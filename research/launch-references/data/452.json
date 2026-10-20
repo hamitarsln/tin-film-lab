@@ -1,0 +1,363 @@
+{
+  "id": 452,
+  "reviewer_model": "gpt-6-astra",
+  "scope": "sampled visual and story review; ASR and measured signal support; no validated audio listening",
+  "viewed_evidence": [
+    "technical-review-2026-10-19/deep-review/motion/452/timeline-00.jpg",
+    "technical-review-2026-10-19/deep-review/motion/452/timeline-01.jpg",
+    "technical-review-2026-10-19/deep-review/motion/452/timeline-02.jpg",
+    "technical-review-2026-10-19/deep-review/audio/452-speech.json"
+  ],
+  "closer_windows": [],
+  "product_from_film": "The film promotes the courage to make and try through a cinematic montage, ending with The Shot identity.",
+  "explains_well": "Repeated runner and filmmaking images connect physical effort with creative practice.",
+  "unclear": "The ending does not explain what The Shot offers or what the viewer should do next.",
+  "product_type": "brand manifesto",
+  "scenario": "Associate creative work with effort, risk and persistence.",
+  "product_clear_time": null,
+  "product_clear_basis": "No concrete product or service function is shown.",
+  "scenes": [
+    {
+      "id": "V01",
+      "start": 0,
+      "end": 10,
+      "action": "Film reels, a small star mark, blurred light, an arena, an overhead stadium and a hand holding film introduce The Arena title.",
+      "design": "Cool dark film texture and tactile analog details.",
+      "purpose": "Frame making as entering an arena.",
+      "evidence": "Visible chronological 1 fps samples, source 0–10s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V02",
+      "start": 10,
+      "end": 24,
+      "action": "A lone figure, waterfront runner, workshop and gym alternate with faces, film handling, forest movement and an editing menu.",
+      "design": "Mixed cinematic and practical creative-work footage with small yellow subtitles.",
+      "purpose": "Contrast active effort with criticism.",
+      "evidence": "Visible chronological 1 fps samples, source 10–24s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V03",
+      "start": 24,
+      "end": 38,
+      "action": "A risky jump, sport, burning ball, boxing ring, television athletes, running and an edit-room scene lead to paper cutting and drawing.",
+      "design": "Rapid cuts across sport and craft, alternating color and monochrome.",
+      "purpose": "Show attempts, failure and repeated work.",
+      "evidence": "Visible chronological 1 fps samples, source 24–38s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V04",
+      "start": 38,
+      "end": 51,
+      "action": "A pensive creator, textured skin, light, a person opening curtains, paper, fire, hands, editing controls and runners continue the montage.",
+      "design": "Close tactile detail mixed with wide movement.",
+      "purpose": "Emphasize trial and effort.",
+      "evidence": "Visible chronological 1 fps samples, source 38–51s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V05",
+      "start": 51,
+      "end": 63,
+      "action": "A solitary figure by the sea, climbing, a running foot, cell-like imagery and the blue window silhouette accompany captions about succeeding, failing and daring.",
+      "design": "Quiet figures and varied metaphorical inserts.",
+      "purpose": "Separate trying from outcome.",
+      "evidence": "Visible chronological 1 fps samples, source 51–63s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V06",
+      "start": 63,
+      "end": 74,
+      "action": "An explosion, open hands, a famous painted creation scene, gym work, running, football and a figure facing a vast window lead to a mountain climb.",
+      "design": "Faster spectacle and action montage.",
+      "purpose": "Build a final sense of effort and possibility.",
+      "evidence": "Visible chronological 1 fps samples, source 63–74s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V07",
+      "start": 74,
+      "end": 79.88,
+      "action": "A figure stands on a peak above clouds as a white orbit-like star mark forms and The Shot appears, then holds on black.",
+      "design": "Centered logo and simple final wordmark.",
+      "purpose": "Attach the manifesto to an identity.",
+      "evidence": "Visible chronological 1 fps samples, source 74–79.88s; boundary approximate; exact motion between samples unverified."
+    }
+  ],
+  "sound": [
+    {
+      "id": "A01",
+      "start": 0,
+      "end": 79.88,
+      "layer": "unknown",
+      "detail": "No validated direct audio listening was performed. Music, speech delivery, effects, mix and sync remain unknown, not absent.",
+      "visual_relation": "All visual scenes; audiovisual alignment unverified",
+      "evidence": "Visual samples only; no actual audio range supplied to this reviewer."
+    },
+    {
+      "id": "A02",
+      "start": 5.89,
+      "end": 59.75,
+      "layer": "ASR draft",
+      "detail": "The usable ASR passages praise people who try, risk failure and continue rather than critics. They align with the visible effort montage and subtitles. The final short ASR phrase is weak and is not used as exact dialogue. Music, delivery and effects remain unverified.",
+      "visual_relation": "Story text support; exact audiovisual alignment and delivery unverified.",
+      "evidence": "technical-review-2026-10-19/deep-review/audio/452-speech.json; local faster-whisper base CPU int8 draft; VAD candidates only, recognition errors possible."
+    }
+  ],
+  "categories": [
+    {
+      "id": "Q01",
+      "finding": "Arena imagery introduces a montage of people trying, failing and continuing, ending with The Shot.",
+      "evidence": "V01–V07",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q02",
+      "finding": "A close film reel and small star mark establish a filmmaking tone before the broader effort theme appears.",
+      "evidence": "V01",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q03",
+      "finding": "Creators and people who attempt difficult work are the implied audience; no specific service is defined.",
+      "evidence": "V01–V07",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q04",
+      "finding": "Running, hand craft, ball movement and moving film provide physical motion; quick cuts alternate these with still faces. The final orbit-like lines collect into a star mark over the mountain figure. Exact logo construction is only sparsely sampled.",
+      "evidence": "V01–V07",
+      "status": "uncertain",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q05",
+      "finding": "Thematic cuts connect sport and making. Repeated runners, editing details and the blue window silhouette provide recurring anchors.",
+      "evidence": "V02–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q06",
+      "finding": "Cool shadows, film grain, warm fire, shallow focus and monochrome inserts make a tactile cinematic collage.",
+      "evidence": "V01–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q07",
+      "finding": "Small yellow subtitles carry much of the argument; The Arena and The Shot are larger but do not name a practical offer.",
+      "evidence": "V01–V07",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q08",
+      "finding": "The usable ASR passages praise people who try, risk failure and continue rather than critics. They align with the visible effort montage and subtitles. The final short ASR phrase is weak and is not used as exact dialogue. Music, delivery and effects remain unverified.",
+      "evidence": "A02",
+      "status": "uncertain",
+      "reason": "ASR text only; no validated listening, delivery or voice origin.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q09",
+      "finding": "Voice delivery, music, effects and audiovisual alignment were not established by this visual pass.",
+      "evidence": "A01",
+      "status": "not checked",
+      "reason": "No validated direct audio listening input.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q10",
+      "finding": "Voice delivery, music, effects and audiovisual alignment were not established by this visual pass.",
+      "evidence": "A01",
+      "status": "not checked",
+      "reason": "No validated direct audio listening input.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q11",
+      "finding": "Voice delivery, music, effects and audiovisual alignment were not established by this visual pass.",
+      "evidence": "A01",
+      "status": "not checked",
+      "reason": "No validated direct audio listening input.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q12",
+      "finding": "Film equipment, sports, landscapes, movie-like scenes, television footage and a painted artwork are mixed. Rights and production origins are not established.",
+      "evidence": "V01–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q13",
+      "finding": "Manifest duration 79.88s; indexed dimensions 1920×1080. Source unchanged flag recorded; fresh encoding and audio clipping checks not run.",
+      "evidence": "Group manifest",
+      "status": "uncertain",
+      "reason": "Inherited technical metadata; no fresh media probe in this review.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q14",
+      "finding": "Subtitles communicate praise for effort without sound. The brand’s practical role remains absent.",
+      "evidence": "V02–V07",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q15",
+      "finding": "Faces, hands and moving bodies create clear subjects shot by shot, though the fast changes favor mood over detailed observation.",
+      "evidence": "V02–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q16",
+      "finding": "The many examples repeat a consistent theme over roughly eighty seconds; fewer examples could make room for an actual offer.",
+      "evidence": "V02–V07",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q17",
+      "finding": "The arena opening resolves in a mountaintop achievement image, but no product action connects the two.",
+      "evidence": "V01,V07",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q18",
+      "finding": "Solitude, struggle and continued movement suggest determination. This is a visual and text interpretation; audio impact is unverified.",
+      "evidence": "V02–V07",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q19",
+      "finding": "Repeated running and making motifs give coherence across otherwise unrelated people and locations.",
+      "evidence": "V02–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q20",
+      "finding": "The montage supports a philosophy of effort, not evidence of a service outcome or customer benefit.",
+      "evidence": "V01–V07",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q21",
+      "finding": "The initial star mark and final The Shot identity frame the piece, but much of the motivational montage is broadly reusable.",
+      "evidence": "V01,V07",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q22",
+      "finding": "Add a plain final line naming the offer and next action, or one example of work made through the service.",
+      "evidence": "V07",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q23",
+      "finding": "Link physical and creative effort through repeated actions such as hands, steps and retries, then ground the message in one concrete output.",
+      "evidence": "V02–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q24",
+      "finding": "The film promotes the courage to make and try through a cinematic montage, ending with The Shot identity.",
+      "evidence": "Model reading from inspected images",
+      "status": "uncertain",
+      "reason": "Model-only new-viewer interpretation; no human test.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q25",
+      "finding": "Contact sheets inspected at displayed size; a phone-size playback, caption audit, flash audit and formal accessibility check were not performed.",
+      "evidence": "Viewed sheets",
+      "status": "not checked",
+      "reason": "Full-size moving-image and device checks unavailable in this pass.",
+      "experiment": "none"
+    }
+  ],
+  "lessons": {
+    "keep": "Repeat a few physical actions across different settings to give a montage continuity.",
+    "avoid": "Expecting a motivational montage to explain a product category.",
+    "open": "The offer, next action, footage provenance and actual soundtrack remain unverified.",
+    "try": [
+      "For Tin, connect drafting, revising and publishing through the same campaign instead of unrelated achievement footage.",
+      "Compare the manifesto ending with a final concrete example and a clear action line."
+    ]
+  },
+  "comparison": {
+    "story": "Frame making as entering an arena. → Contrast active effort with criticism. → Show attempts, failure and repeated work. → Emphasize trial and effort. → Separate trying from outcome. → Build a final sense of effort and possibility. → Attach the manifesto to an identity.",
+    "motion": "Running, hand craft, ball movement and moving film provide physical motion; quick cuts alternate these with still faces. The final orbit-like lines collect into a star mark over the mountain figure. Exact logo construction is only sparsely sampled. Sampling scope: 1 fps unless a closer window is recorded.",
+    "sound": "No validated listening; unknown.",
+    "texture": "Cool dark film texture and tactile analog details.; Mixed cinematic and practical creative-work footage with small yellow subtitles.; Rapid cuts across sport and craft, alternating color and monochrome.; Close tactile detail mixed with wide movement.; Quiet figures and varied metaphorical inserts.; Faster spectacle and action montage.; Centered logo and simple final wordmark.",
+    "lesson": "Repeat a few physical actions across different settings to give a montage continuity."
+  },
+  "elements": [
+    {
+      "kind": "ui",
+      "name": "editing controls",
+      "events": [
+        "V02",
+        "V04"
+      ]
+    },
+    {
+      "kind": "motion",
+      "name": "running footage",
+      "events": [
+        "V02",
+        "V03",
+        "V04",
+        "V05",
+        "V06"
+      ]
+    },
+    {
+      "kind": "texture",
+      "name": "mixed cinematic footage",
+      "events": [
+        "V01",
+        "V02",
+        "V03",
+        "V04",
+        "V05",
+        "V06"
+      ]
+    },
+    {
+      "kind": "texture",
+      "name": "analog film detail",
+      "events": [
+        "V01",
+        "V02"
+      ]
+    }
+  ]
+}

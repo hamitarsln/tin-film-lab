@@ -1,0 +1,390 @@
+{
+  "id": 115,
+  "reviewer_model": "gpt-6-astra",
+  "scope": "sampled visual and story review; ASR and measured signal support; no validated audio listening",
+  "viewed_evidence": [
+    "technical-review-2026-10-19/deep-review/motion/115/timeline-00.jpg",
+    "technical-review-2026-10-19/deep-review/motion/115/timeline-01.jpg",
+    "technical-review-2026-10-19/deep-review/motion/115/timeline-02.jpg",
+    "technical-review-2026-10-19/deep-review/motion/115/timeline-03.jpg"
+  ],
+  "closer_windows": [],
+  "product_from_film": "Riffle presents collaborative music creation from recorded everyday material through editing, sharing and remixing.",
+  "explains_well": "One kitchen-inspired project passes between people, with named cursors linking software and live action.",
+  "unclear": "Music quality and how the recorded kitchen material becomes the final track cannot be assessed without hearing it.",
+  "product_type": "collaborative music app",
+  "scenario": "Record kitchen material, build a song with collaborators and share it for remixing.",
+  "product_clear_time": 32,
+  "product_clear_basis": "A kitchen foley waveform and music workspace make the earlier phone recording useful in a concrete creation workflow.",
+  "scenes": [
+    {
+      "id": "V01",
+      "start": 0,
+      "end": 10,
+      "action": "A restaurant entrance leads to a waiting person, kitchen drawer, tapping hand and cooking tool closeups.",
+      "design": "Warm location footage and shallow focus.",
+      "purpose": "Find potential creative material in an ordinary setting.",
+      "evidence": "Visible chronological 1 fps samples, source 0–10s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V02",
+      "start": 10,
+      "end": 21,
+      "action": "Phone library and recording screen appear; kitchen activity alternates with world’s greatest music company (wip) copy. Colored pointers surround the phone.",
+      "design": "White phone UI, pink recording control and bright cursor shapes.",
+      "purpose": "Start capture and introduce collaboration.",
+      "evidence": "Visible chronological 1 fps samples, source 10–21s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V03",
+      "start": 21,
+      "end": 30,
+      "action": "Street blur leads into an office. A Riffle board invitation appears; a day/night control overlays the room, which becomes dark.",
+      "design": "Location bridge, notification and warm night lighting.",
+      "purpose": "Pass the project to another creator.",
+      "evidence": "Visible chronological 1 fps samples, source 21–30s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V04",
+      "start": 30,
+      "end": 43,
+      "action": "A music workspace shows kitchen foley, audio options and chat. A full-song request receives nope; a siren request returns a waveform, then repeat every4bars creates separated clips.",
+      "design": "Dark editor, lime chat bubbles, blue/yellow tracks and readable prompts.",
+      "purpose": "Demonstrate assisted construction with specific small actions.",
+      "evidence": "Visible chronological 1 fps samples, source 30–43s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V05",
+      "start": 43,
+      "end": 55,
+      "action": "Onscreen drum pads connect to a physical pad controller. Chat suggests synths or strings, then a comment asks Chris to contribute.",
+      "design": "Tactile hands, dark room and colored collaborator labels.",
+      "purpose": "Combine performance and social handoff.",
+      "evidence": "Visible chronological 1 fps samples, source 43–55s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V06",
+      "start": 55,
+      "end": 63,
+      "action": "Home musicians use keyboard, string and box-like instruments while a laptop shows colored music tracks and virtual keys.",
+      "design": "Bright lived-in room and warm instruments.",
+      "purpose": "Show another contributor building the arrangement.",
+      "evidence": "Visible chronological 1 fps samples, source 55–63s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V07",
+      "start": 63,
+      "end": 81,
+      "action": "A woman in a red-lit vehicle uses a rhyme tool; candidate words float around her. A singer wearing headphones performs near a microphone with EQ and effect overlays.",
+      "design": "Red environment, lyric chips and floating audio controls.",
+      "purpose": "Connect writing assistance with vocal performance.",
+      "evidence": "Visible chronological 1 fps samples, source 63–81s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V08",
+      "start": 81,
+      "end": 90,
+      "action": "Collaborate and Share screens lead to Create a drop. Named cursors collect around record artwork, then follow people at a party.",
+      "design": "Lime primary button, vinyl-like artwork and colorful identity labels.",
+      "purpose": "Turn a shared project into a social release.",
+      "evidence": "Visible chronological 1 fps samples, source 81–90s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V09",
+      "start": 90,
+      "end": 100,
+      "action": "Party participants appear with collaborator names. A laptop and player show Kitchen banger, participants and comments, ending on a Remix control.",
+      "design": "Celebration footage and dark player UI.",
+      "purpose": "Close the creation loop with listeners and reuse.",
+      "evidence": "Visible chronological 1 fps samples, source 90–100s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V10",
+      "start": 100,
+      "end": 110.652,
+      "action": "Go play and Riffle branding appear on white with a small development disclaimer; the final seconds are black.",
+      "design": "Lime CTA, black playful wordmark and tiny footer text.",
+      "purpose": "Invite use while qualifying availability.",
+      "evidence": "Visible chronological 1 fps samples, source 100–110.652s; boundary approximate; exact motion between samples unverified."
+    }
+  ],
+  "sound": [
+    {
+      "id": "A01",
+      "start": 0,
+      "end": 110.652,
+      "layer": "unknown",
+      "detail": "No validated direct audio listening was performed. Music, speech delivery, effects, mix and sync remain unknown, not absent.",
+      "visual_relation": "All visual scenes; audiovisual alignment unverified",
+      "evidence": "Visual samples only; no actual audio range supplied to this reviewer."
+    }
+  ],
+  "categories": [
+    {
+      "id": "Q01",
+      "finding": "Everyday capture passes through collaborative editing, instruments, lyrics, voice, release and remix.",
+      "evidence": "V01–V10",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q02",
+      "finding": "Restaurant waiting and closeups of small physical actions establish an everyday source of inspiration.",
+      "evidence": "V01",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q03",
+      "finding": "Phone recording suggests creation early; kitchen foley in a multitrack editor makes the product task concrete at 32 s.",
+      "evidence": "V02,V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q04",
+      "finding": "Colored cursors move between UI and people, room lighting changes under a theme control, and clip positions differ after a repeat request. Exact paths and sync are unknown.",
+      "evidence": "V02–V04,V08",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q05",
+      "finding": "A board invitation bridges restaurant and office; a collaborator comment bridges editor and home musicians.",
+      "evidence": "V03,V05,V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q06",
+      "finding": "Warm restaurants and homes contrast with dark software and red recording scenes; bright cursor colors unify them.",
+      "evidence": "V01–V09",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q07",
+      "finding": "Short chat requests are legible in closeups. The final feature-availability disclaimer is much smaller than the CTA.",
+      "evidence": "V04,V10",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q08",
+      "finding": "Voice delivery, music, effects and audiovisual alignment were not established by this visual pass.",
+      "evidence": "A01",
+      "status": "not checked",
+      "reason": "No validated direct audio listening input.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q09",
+      "finding": "Voice delivery, music, effects and audiovisual alignment were not established by this visual pass.",
+      "evidence": "A01",
+      "status": "not checked",
+      "reason": "No validated direct audio listening input.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q10",
+      "finding": "Voice delivery, music, effects and audiovisual alignment were not established by this visual pass.",
+      "evidence": "A01",
+      "status": "not checked",
+      "reason": "No validated direct audio listening input.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q11",
+      "finding": "Voice delivery, music, effects and audiovisual alignment were not established by this visual pass.",
+      "evidence": "A01",
+      "status": "not checked",
+      "reason": "No validated direct audio listening input.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q12",
+      "finding": "Location footage, instrument performance and interface composites are integrated; the creation pipeline and asset provenance are unverified.",
+      "evidence": "V01–V09",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q13",
+      "finding": "Manifest duration 110.652 s; indexed dimensions 1920×1080. Source unchanged flag recorded; fresh encoding and audio clipping checks not run.",
+      "evidence": "Group manifest",
+      "status": "uncertain",
+      "reason": "Inherited technical metadata; no fresh media probe in this review.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q14",
+      "finding": "UI labels explain the creation and sharing flow visually, but a music product’s central output quality remains unknown without listening.",
+      "evidence": "V04–V09",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q15",
+      "finding": "Each handoff receives a notification, named cursor or comment so attention moves to the next contributor.",
+      "evidence": "V03,V05,V08",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q16",
+      "finding": "The 110 s film allocates substantial time to human performance; the last roughly 7 s are black sampled frames.",
+      "evidence": "V06,V07,V10",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q17",
+      "finding": "Kitchen material returns in the Kitchen banger title, providing a clear origin-to-release payoff.",
+      "evidence": "V01,V04,V09",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q18",
+      "finding": "The party reframes software collaboration as shared creative pleasure; this is an interpretation of visible action.",
+      "evidence": "V08,V09",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q19",
+      "finding": "Lime actions and differently colored collaborator cursors recur inside software and live scenes.",
+      "evidence": "V04,V05,V08,V09",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q20",
+      "finding": "The sequence shows specific editor operations and a shared output; the end disclaimer says some features are in development, including remix, timestamped comments and the iOS app. Availability and actual audio results are unverified.",
+      "evidence": "V04,V09,V10",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q21",
+      "finding": "Playful cursors and warm creator scenes position Riffle around participation rather than isolated automation.",
+      "evidence": "V02–V10",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q22",
+      "finding": "The small-action chat is more informative than a generic generate-song promise. The availability footer deserves a clearer hold.",
+      "evidence": "V04,V10",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q23",
+      "finding": "Tin can carry a named collaborator through brief, review and publication, while keeping each person’s action visible.",
+      "evidence": "V03,V05,V08",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q24",
+      "finding": "Riffle presents collaborative music creation from recorded everyday material through editing, sharing and remixing.",
+      "evidence": "Model reading from inspected images",
+      "status": "uncertain",
+      "reason": "Model-only new-viewer interpretation; no human test.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q25",
+      "finding": "Contact sheets inspected at displayed size; a phone-size playback, caption audit, flash audit and formal accessibility check were not performed.",
+      "evidence": "Viewed sheets",
+      "status": "not checked",
+      "reason": "Full-size moving-image and device checks unavailable in this pass.",
+      "experiment": "none"
+    }
+  ],
+  "lessons": {
+    "keep": "Follow one artifact across real people and specific software actions.",
+    "avoid": "Avoid presenting a future feature montage as entirely available today.",
+    "open": "No speech draft is supplied. Audio, music transformation, performance sync and current feature availability remain unverified.",
+    "try": [
+      "Give a Tin brief a visible owner label that follows it through writer, reviewer and publisher views.",
+      "Show the agent handling one precise edit, then a person approving the change and the final published asset."
+    ]
+  },
+  "comparison": {
+    "story": "Find potential creative material in an ordinary setting. → Start capture and introduce collaboration. → Pass the project to another creator. → Demonstrate assisted construction with specific small actions. → Combine performance and social handoff. → Show another contributor building the arrangement. → Connect writing assistance with vocal performance. → Turn a shared project into a social release. → Close the creation loop with listeners and reuse. → Invite use while qualifying availability.",
+    "motion": "Colored cursors move between UI and people, room lighting changes under a theme control, and clip positions differ after a repeat request. Exact paths and sync are unknown. Sampling scope: 1 fps unless a closer window is recorded.",
+    "sound": "No validated listening; unknown.",
+    "texture": "Warm location footage and shallow focus.; White phone UI, pink recording control and bright cursor shapes.; Location bridge, notification and warm night lighting.; Dark editor, lime chat bubbles, blue/yellow tracks and readable prompts.; Tactile hands, dark room and colored collaborator labels.; Bright lived-in room and warm instruments.; Red environment, lyric chips and floating audio controls.; Lime primary button, vinyl-like artwork and colorful identity labels.; Celebration footage and dark player UI.; Lime CTA, black playful wordmark and tiny footer text.",
+    "lesson": "Follow one artifact across real people and specific software actions."
+  },
+  "elements": [
+    {
+      "kind": "ui",
+      "name": "multitrack editor",
+      "events": [
+        "V04",
+        "V06"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "chat",
+      "events": [
+        "V04",
+        "V05"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "collaborator cursor",
+      "events": [
+        "V02",
+        "V05",
+        "V08",
+        "V09"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "music player",
+      "events": [
+        "V09"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "rhyme tool",
+      "events": [
+        "V07"
+      ]
+    },
+    {
+      "kind": "motion",
+      "name": "interface over live action",
+      "events": [
+        "V03",
+        "V07"
+      ]
+    }
+  ]
+}

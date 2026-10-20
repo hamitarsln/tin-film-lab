@@ -1,0 +1,362 @@
+{
+  "id": 204,
+  "reviewer_model": "gpt-6-astra",
+  "scope": "sampled visual and story review; ASR and measured signal support; no validated audio listening",
+  "viewed_evidence": [
+    "technical-review-2026-10-19/deep-review/motion/204/timeline-00.jpg",
+    "technical-review-2026-10-19/deep-review/motion/204/timeline-01.jpg",
+    "technical-review-2026-10-19/deep-review/motion/204/timeline-02.jpg",
+    "technical-review-2026-10-19/deep-review/audio/204-speech.json"
+  ],
+  "closer_windows": [],
+  "product_from_film": "Kosmos is presented as a scientific AI system that feeds analysis results back into a shared model to support drug research.",
+  "explains_well": "The orbital diagram gives several research tasks a common center, and the interviews connect the work to patient need.",
+  "unclear": "No concrete research question is followed through input, analysis and a decision; the central learning loop stays abstract.",
+  "product_type": "scientific AI",
+  "scenario": "Reuse experimental and analytic results across drug-development research tasks.",
+  "product_clear_time": 31,
+  "product_clear_basis": "The Kosmos-centered diagram names target discovery, molecular design and other scientific tasks; ASR explains feedback into a world model.",
+  "scenes": [
+    {
+      "id": "V01",
+      "start": 0,
+      "end": 14,
+      "action": "Capsule close-ups lead to decade and billion-dollar text on black. A scientist in a lab introduces the cost of delay, with hospital imagery between interview shots.",
+      "design": "Dark macro medicine imagery, restrained yellow accents and cool laboratory footage.",
+      "purpose": "Frame drug-development delay as a human problem.",
+      "evidence": "Visible chronological 1 fps samples, source 0–14s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V02",
+      "start": 14,
+      "end": 30,
+      "action": "Lab work and interview angles alternate with a shimmering white/yellow point field. The scientist describes the value of data.",
+      "design": "Flowing dotted surfaces and subdued lab light.",
+      "purpose": "Represent a large underused data resource.",
+      "evidence": "Visible chronological 1 fps samples, source 14–30s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V03",
+      "start": 30,
+      "end": 43,
+      "action": "A glowing Kosmos center is surrounded by labeled research areas including target discovery, molecular design, clinical trial design, biomarker strategy, clinical data analysis and competitive intelligence. Views move closer to labels, then return to the interview.",
+      "design": "Yellow labels, orbit lines and particle groups on black.",
+      "purpose": "Explain a shared scientific model across tasks.",
+      "evidence": "Visible chronological 1 fps samples, source 30–43s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V04",
+      "start": 43,
+      "end": 55,
+      "action": "A second speaker, labeled Patrick Mayes, appears by a window. Lab inserts show bottles, storage, pipetting and glassware.",
+      "design": "Bright interview setting and practical laboratory details.",
+      "purpose": "Offer a research-workflow perspective.",
+      "evidence": "Visible chronological 1 fps samples, source 43–55s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V05",
+      "start": 55,
+      "end": 69,
+      "action": "Microscope work, original scientist interview and automated lab equipment alternate.",
+      "design": "Human expertise and instrument close-ups.",
+      "purpose": "Connect the AI proposition to scientific staff and facilities.",
+      "evidence": "Visible chronological 1 fps samples, source 55–69s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V06",
+      "start": 69,
+      "end": 78,
+      "action": "Dark clinical-overview and submission-status panels appear briefly, followed by particle imagery and the scientist closing the argument.",
+      "design": "Yellow/white report text, charts and a 24% assembly-progress panel.",
+      "purpose": "Suggest broader development work and challenge current timelines.",
+      "evidence": "Visible chronological 1 fps samples, source 69–78s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V07",
+      "start": 78,
+      "end": 81.854,
+      "action": "A small looped symbol resolves beside Edison on black.",
+      "design": "Minimal white brand mark.",
+      "purpose": "Name the organization behind the product.",
+      "evidence": "Visible chronological 1 fps samples, source 78–81.854s; boundary approximate; exact motion between samples unverified."
+    }
+  ],
+  "sound": [
+    {
+      "id": "A01",
+      "start": 0,
+      "end": 81.854,
+      "layer": "unknown",
+      "detail": "No validated direct audio listening was performed. Music, speech delivery, effects, mix and sync remain unknown, not absent.",
+      "visual_relation": "All visual scenes; audiovisual alignment unverified",
+      "evidence": "Visual samples only; no actual audio range supplied to this reviewer."
+    },
+    {
+      "id": "A02",
+      "start": 0.97,
+      "end": 77.55,
+      "layer": "ASR draft",
+      "detail": "ASR draft supports the drug-development stakes, underused data, structured world model and feedback from analysis into later ideas. A second speaker describes potential workflow benefits. Several terms and names are misrecognized; no direct audio delivery or music was heard.",
+      "visual_relation": "Story text support; exact audiovisual alignment and delivery unverified.",
+      "evidence": "technical-review-2026-10-19/deep-review/audio/204-speech.json; local faster-whisper base CPU int8 draft; VAD candidates only, recognition errors possible."
+    }
+  ],
+  "categories": [
+    {
+      "id": "Q01",
+      "finding": "Long drug timelines and patient need lead to valuable data, a shared research model, expert perspective and a faster-development aspiration.",
+      "evidence": "V01–V07",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q02",
+      "finding": "A capsule macro establishes medicine; the task and audience are not yet stated.",
+      "evidence": "V01",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q03",
+      "finding": "The named research tasks around Kosmos make scientific use clearer at 31 s; the learning-loop mechanism depends on the ASR draft.",
+      "evidence": "V03,A02",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q04",
+      "finding": "Point fields change surface shape; the orbital diagram alternates wide and close views of labels. Exact particle paths and easing are unresolved.",
+      "evidence": "V02,V03",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q05",
+      "finding": "Interviews anchor abstract graphics and practical lab inserts; yellow accents connect the diagram with later report panels.",
+      "evidence": "V02–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q06",
+      "finding": "Cool laboratory footage and black graphics create a serious research tone, with yellow as the main information accent.",
+      "evidence": "V01–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q07",
+      "finding": "Research labels are readable in close views; report panels arrive briefly and do not explain a complete result.",
+      "evidence": "V03,V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q08",
+      "finding": "ASR draft supports the drug-development stakes, underused data, structured world model and feedback from analysis into later ideas. A second speaker describes potential workflow benefits. Several terms and names are misrecognized; no direct audio delivery or music was heard.",
+      "evidence": "A02",
+      "status": "uncertain",
+      "reason": "ASR text only; no validated listening, delivery or voice origin.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q09",
+      "finding": "Voice delivery, music, effects and audiovisual alignment were not established by this visual pass.",
+      "evidence": "A01",
+      "status": "not checked",
+      "reason": "No validated direct audio listening input.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q10",
+      "finding": "Voice delivery, music, effects and audiovisual alignment were not established by this visual pass.",
+      "evidence": "A01",
+      "status": "not checked",
+      "reason": "No validated direct audio listening input.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q11",
+      "finding": "Voice delivery, music, effects and audiovisual alignment were not established by this visual pass.",
+      "evidence": "A01",
+      "status": "not checked",
+      "reason": "No validated direct audio listening input.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q12",
+      "finding": "Interviews, medicine macros, hospital and lab imagery, particle graphics and report panels are mixed; provenance is unverified.",
+      "evidence": "V01–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q13",
+      "finding": "Manifest duration 81.854s; indexed dimensions 1920×1080. Source unchanged flag recorded; fresh encoding and audio clipping checks not run.",
+      "evidence": "Group manifest",
+      "status": "uncertain",
+      "reason": "Inherited technical metadata; no fresh media probe in this review.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q14",
+      "finding": "Medicine and research are clear visually; the reason the feedback loop improves decisions is not fully conveyed without the script.",
+      "evidence": "V03,A02",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q15",
+      "finding": "The bright central Kosmos node and yellow labels focus attention; dense particles are mainly atmospheric.",
+      "evidence": "V02,V03",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q16",
+      "finding": "The film gives time to stakes and expert views but shows the central mechanism largely in one diagram over about 10 s.",
+      "evidence": "V01–V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q17",
+      "finding": "The opening long-development problem ends with an aspiration to change it, rather than one completed research milestone.",
+      "evidence": "V01,V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q18",
+      "finding": "Patient imagery creates urgency; laboratory expertise and calm interviews aim to establish confidence.",
+      "evidence": "V01,V04,V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q19",
+      "finding": "Yellow points and labels link data, model and reports, but one dataset or experiment is not traceable through them.",
+      "evidence": "V02,V03,V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q20",
+      "finding": "The diagram presents a proposed feedback process; no research result or measured time reduction is established by this edited sequence.",
+      "evidence": "V03,V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q21",
+      "finding": "The combination of drug-research task labels and lab expertise is specific; particle fields alone would fit many AI brands.",
+      "evidence": "V02–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q22",
+      "finding": "One experiment result entering the model and changing a next recommendation would make the central claim easier to understand.",
+      "evidence": "V03",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q23",
+      "finding": "Tin could show one campaign result updating a shared plan and changing the next experiment, using the same central-model diagram with concrete values.",
+      "evidence": "V03",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q24",
+      "finding": "Kosmos is presented as a scientific AI system that feeds analysis results back into a shared model to support drug research.",
+      "evidence": "Model reading from inspected images",
+      "status": "uncertain",
+      "reason": "Model-only new-viewer interpretation; no human test.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q25",
+      "finding": "Contact sheets inspected at displayed size; a phone-size playback, caption audit, flash audit and formal accessibility check were not performed.",
+      "evidence": "Viewed sheets",
+      "status": "not checked",
+      "reason": "Full-size moving-image and device checks unavailable in this pass.",
+      "experiment": "none"
+    }
+  ],
+  "lessons": {
+    "keep": "Use a common center to explain how related specialist tasks share information.",
+    "avoid": "Avoid letting a broad capability map replace a concrete example of learning.",
+    "open": "Scientific validity, research outcomes, time savings, diagram data, source rights and all audio delivery remain unverified.",
+    "try": [
+      "Show a Tin test result entering a campaign memory, then visibly changing the next creative brief.",
+      "Replace one abstract particle shot with a before/after recommendation tied to the same input data."
+    ]
+  },
+  "comparison": {
+    "story": "Frame drug-development delay as a human problem. → Represent a large underused data resource. → Explain a shared scientific model across tasks. → Offer a research-workflow perspective. → Connect the AI proposition to scientific staff and facilities. → Suggest broader development work and challenge current timelines. → Name the organization behind the product.",
+    "motion": "Point fields change surface shape; the orbital diagram alternates wide and close views of labels. Exact particle paths and easing are unresolved. Sampling scope: 1 fps unless a closer window is recorded.",
+    "sound": "No validated listening; unknown.",
+    "texture": "Dark macro medicine imagery, restrained yellow accents and cool laboratory footage.; Flowing dotted surfaces and subdued lab light.; Yellow labels, orbit lines and particle groups on black.; Bright interview setting and practical laboratory details.; Human expertise and instrument close-ups.; Yellow/white report text, charts and a 24% assembly-progress panel.; Minimal white brand mark.",
+    "lesson": "Use a common center to explain how related specialist tasks share information."
+  },
+  "elements": [
+    {
+      "kind": "ui",
+      "name": "research task diagram",
+      "events": [
+        "V03"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "report panels",
+      "events": [
+        "V06"
+      ]
+    },
+    {
+      "kind": "motion",
+      "name": "orbital layout",
+      "events": [
+        "V03"
+      ]
+    },
+    {
+      "kind": "texture",
+      "name": "particle field",
+      "events": [
+        "V02",
+        "V06"
+      ]
+    },
+    {
+      "kind": "texture",
+      "name": "laboratory footage",
+      "events": [
+        "V01",
+        "V04",
+        "V05"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,363 @@
+{
+  "id": 290,
+  "viewed_evidence": [
+    "technical-review-2026-10-19/deep-review/motion/290/timeline-00.jpg",
+    "technical-review-2026-10-19/deep-review/motion/290/timeline-01.jpg",
+    "astra-review-2026-10-20/evidence/group-3/290/36.jpg",
+    "astra-review-2026-10-20/evidence/group-3/290/37.jpg"
+  ],
+  "product_from_film": "Firecrawl CLI gives agents commands to scrape, search and browse the web.",
+  "explains_well": "Three named chapters pair terminal commands with website or structured-data examples.",
+  "unclear": "The final spreadsheet contains infrastructure metrics, but the output shows founder names and companies, breaking the extraction example.",
+  "product_type": "developer web-data tool",
+  "scenario": "Install CLI, scrape product pages, search benchmarks and browse a Drive spreadsheet",
+  "product_clear_time": 16,
+  "product_clear_basis": "Extract structured data label and website-to-data view establish the task.",
+  "scenes": [
+    {
+      "start": 0,
+      "end": 3,
+      "action": "Introducing resolves to Firecrawl CLI.",
+      "design": "Black and orange text on faint white grid.",
+      "purpose": "Name tool",
+      "id": "V01",
+      "evidence": "Visible 1 fps samples, source 0–3s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 3,
+      "end": 8,
+      "action": "Terminal opens; install/init command and installation/authentication steps appear with glowing orange cursor.",
+      "design": "Dark terminal and monospaced text.",
+      "purpose": "Show setup",
+      "id": "V02",
+      "evidence": "Visible 1 fps samples, source 3–8s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 8,
+      "end": 17,
+      "action": "Scrape pixel icon leads to extract-structured-data text; shoe storefront and scrape command appear, then product cards give way to structured output.",
+      "design": "White browser view, orange wash and dark data view.",
+      "purpose": "Explain scraping",
+      "id": "V03",
+      "evidence": "Visible 1 fps samples, source 8–17s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 17,
+      "end": 27,
+      "action": "Search icon and label lead to benchmark-search command; many webpage cards surround terminal, then results appear as structured text.",
+      "design": "Webpage fan and dark terminal.",
+      "purpose": "Explain search",
+      "id": "V04",
+      "evidence": "Visible 1 fps samples, source 17–27s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 27,
+      "end": 38,
+      "action": "Browse chapter introduces agent browser; Codex Agent cursor passes sign-in screens, opens Drive folder and infrastructure CSV, then founder-name data overlays it.",
+      "design": "Browser, account forms, file listing, spreadsheet and JSON-like output.",
+      "purpose": "Explain browser actions",
+      "id": "V05",
+      "evidence": "Visible 1 fps samples, source 27–38s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 38,
+      "end": 43.838,
+      "action": "Firecrawl CLI and complete web data toolkit for agents text lead to flame logo on orange.",
+      "design": "Simple type and brand colour.",
+      "purpose": "Summarise offer",
+      "id": "V06",
+      "evidence": "Visible 1 fps samples, source 38–43.838s; boundaries approximate, between-frame action unresolved."
+    }
+  ],
+  "sound": [
+    {
+      "id": "A01",
+      "start": 0,
+      "end": 43.838,
+      "layer": "unknown",
+      "detail": "No validated audio listening; speech, music, effects, mix and sync remain unverified.",
+      "visual_relation": "All visual scenes; alignment not checked",
+      "evidence": "No actual audio supplied to this review; existing technical-review-2026-10-19/deep-review/audio/290.json is not listening evidence."
+    }
+  ],
+  "categories": [
+    {
+      "finding": "Install leads to three capability chapters: scrape, search and browse. The first two connect command to result; the final data output does not match the shown source spreadsheet.",
+      "evidence": "V02–V06",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q01"
+    },
+    {
+      "finding": "Introducing and Firecrawl name build into CLI by 2 s, quickly signalling a developer tool.",
+      "evidence": "V01, 0–2 s",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q02"
+    },
+    {
+      "finding": "CLI and terminal setup target developers; extract structured data establishes the use by 16 s, with agents named in later copy.",
+      "evidence": "V01–V03, V05",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q03"
+    },
+    {
+      "finding": "Orange cursor and typed commands direct attention; page cards spread around search, and a diagonal light/data transition changes the browser view. Precise motion curves are unresolved.",
+      "evidence": "V02–V05",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q04"
+    },
+    {
+      "finding": "Scrape/Search/Browse icon cards make strong chapter boundaries. Each uses a similar command-to-result pattern, though final source/output continuity fails.",
+      "evidence": "V03–V05",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q05"
+    },
+    {
+      "finding": "White grid backgrounds alternate with dark terminals; orange cursor glow and washes connect technical scenes to brand.",
+      "evidence": "V01–V06",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q06"
+    },
+    {
+      "finding": "Short capability copy is clear. Full frames at 36–37 s reveal infrastructure metrics followed by founder records, which cannot be read as the same extraction task.",
+      "evidence": "V05; full frames 36 and 37 s",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q07"
+    },
+    {
+      "finding": "Voice presence and delivery remain unverified.",
+      "evidence": "No validated audio listening",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q08"
+    },
+    {
+      "finding": "Music character and arc remain unverified.",
+      "evidence": "No validated audio listening",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q09"
+    },
+    {
+      "finding": "Sound effects remain unverified.",
+      "evidence": "No validated audio listening",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q10"
+    },
+    {
+      "finding": "Sound-to-motion timing remain unverified.",
+      "evidence": "No validated audio listening",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q11"
+    },
+    {
+      "finding": "Terminal, storefront, webpage thumbnails, browser and spreadsheet views are composed together. The film does not establish live capture versus illustrative reconstruction.",
+      "evidence": "V02–V05",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q12"
+    },
+    {
+      "finding": "Source duration supplied as 43.838s; no independent compression, clipping or delivery check.",
+      "evidence": "Assigned metadata; source integrity checked by parent",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q13"
+    },
+    {
+      "finding": "Visible commands and chapter text explain the tool without sound. Small output detail requires a longer hold to check correctness.",
+      "evidence": "V02–V05",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q14"
+    },
+    {
+      "finding": "Large cursor, orange commands and isolated chapter icons guide the eye. The surrounding search-page fan shows breadth but is not meant for detailed reading.",
+      "evidence": "V02–V05",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q15"
+    },
+    {
+      "finding": "Three functions fit into about 44 s with clear segmentation. The browser example compresses login, navigation and data result into about 10 s.",
+      "evidence": "V03–V05",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q16"
+    },
+    {
+      "finding": "The CLI introduction pays off with installation and three examples; the toolkit close summarises that scope.",
+      "evidence": "V01–V06",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q17"
+    },
+    {
+      "finding": "Fast command/output changes appear intended to make web work feel direct and capable. No viewer or developer usability test was performed.",
+      "evidence": "V02–V05",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q18"
+    },
+    {
+      "finding": "Orange accents and chapter pattern provide continuity. Infrastructure spreadsheet to founder JSON is a specific content break.",
+      "evidence": "V03–V05",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q19"
+    },
+    {
+      "finding": "The film shows commands and result-like states. Actual extraction accuracy, search completeness and authenticated browser operation are untested; the final mismatch weakens the pictured proof.",
+      "evidence": "V02–V05",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q20"
+    },
+    {
+      "finding": "Pixel icons, flame orange and terminal-first demonstrations make the launch recognisable as a developer data tool.",
+      "evidence": "V01–V06",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q21"
+    },
+    {
+      "finding": "Replace the founder JSON with records from the displayed infrastructure sheet, or change the sheet to the founder table used in the output.",
+      "evidence": "V05",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q22"
+    },
+    {
+      "finding": "For a CLI launch, use a repeated capability label, exact command, source and matching output. Needs a real small dataset whose fields can be followed visually.",
+      "evidence": "V02–V05",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q23"
+    },
+    {
+      "finding": "No human new-viewer test; product description above is model interpretation of sampled images.",
+      "evidence": "V01–V06",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q24"
+    },
+    {
+      "finding": "No phone-size, safe-area or flash assessment; small UI text needs separate preview.",
+      "evidence": "Contact sheets",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q25"
+    }
+  ],
+  "lessons": {
+    "keep": "Keep the repeated Scrape, Search and Browse chapter structure.",
+    "try": [
+      "Make the Browse source a founder table and highlight one row becoming the same JSON record.",
+      "Hold the install command and one minimal scrape result long enough to read the URL and two returned fields."
+    ],
+    "avoid": "Avoid using unrelated sample data on opposite sides of an extraction transition.",
+    "open": "Audio is unheard; command behaviour, authentication and result accuracy remain unverified."
+  },
+  "comparison": {
+    "story": "Name tool → Show setup → Explain scraping → Explain search → Explain browser actions → Summarise offer",
+    "motion": "Orange cursor and typed commands direct attention; page cards spread around search, and a diagonal light/data transition changes the browser view. Precise motion curves are unresolved.",
+    "sound": "No validated listening; no absence claims.",
+    "texture": "White grid backgrounds alternate with dark terminals; orange cursor glow and washes connect technical scenes to brand.",
+    "lesson": "Keep the repeated Scrape, Search and Browse chapter structure."
+  },
+  "elements": [
+    {
+      "kind": "ui",
+      "name": "terminal",
+      "events": [
+        "V02",
+        "V03",
+        "V04"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "browser shell",
+      "events": [
+        "V03",
+        "V05"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "spreadsheet",
+      "events": [
+        "V05"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "structured data",
+      "events": [
+        "V03",
+        "V04",
+        "V05"
+      ]
+    },
+    {
+      "kind": "motion",
+      "name": "typing",
+      "events": [
+        "V02",
+        "V04"
+      ]
+    },
+    {
+      "kind": "motion",
+      "name": "page fan",
+      "events": [
+        "V04"
+      ]
+    },
+    {
+      "kind": "texture",
+      "name": "orange glow",
+      "events": [
+        "V02",
+        "V03",
+        "V04"
+      ]
+    }
+  ],
+  "reviewer_model": "gpt-6-astra",
+  "scope": "sampled visual and story review; ASR and measured signal support; no validated audio listening",
+  "closer_windows": []
+}

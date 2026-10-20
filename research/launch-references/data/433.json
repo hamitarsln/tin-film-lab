@@ -1,0 +1,391 @@
+{
+  "id": 433,
+  "viewed_evidence": [
+    "technical-review-2026-10-19/deep-review/motion/433/timeline-00.jpg",
+    "technical-review-2026-10-19/deep-review/motion/433/timeline-01.jpg",
+    "technical-review-2026-10-19/deep-review/motion/433/timeline-02.jpg",
+    "astra-review-2026-10-20/evidence/group-3/433/dense6-9.jpg",
+    "astra-review-2026-10-20/evidence/group-3/433/dense47-51.jpg"
+  ],
+  "product_from_film": "Tornyol presents a small drone that intercepts mosquitoes and returns to its dock.",
+  "explains_well": "Launch, navigation, target detection and return form a complete product journey.",
+  "unclear": "The film does not clearly label which outdoor capabilities are simulation versus tested behavior.",
+  "product_type": "robotics hardware",
+  "scenario": "Protect a defined outdoor area from mosquitoes.",
+  "product_clear_time": 5,
+  "product_clear_basis": "Tornyol drone mosquito-killing test title names purpose.",
+  "scenes": [
+    {
+      "start": 0,
+      "end": 5,
+      "action": "Red drone crosses a sunlit colonnade near flying insects.",
+      "design": "Polished rendered-looking architecture and warm light.",
+      "purpose": "Preview interception",
+      "id": "V01",
+      "evidence": "Visible 1 fps samples, source 0–5s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 5,
+      "end": 16,
+      "action": "Tethered-looking drone test shows boxed small object passing near rotor; 40 grams and chemical-free copy appears.",
+      "design": "Narrow footage band with Tornyol and 2440 FPS label.",
+      "purpose": "Introduce test evidence",
+      "id": "V02",
+      "evidence": "Visible 1 fps samples, source 5–16s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 16,
+      "end": 23,
+      "action": "Overhead property map gains perimeter points, then angled building view.",
+      "design": "Custom protection perimeter and Silently protects any surface.",
+      "purpose": "Define protected area",
+      "id": "V03",
+      "evidence": "Visible 1 fps samples, source 16–23s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 23,
+      "end": 30,
+      "action": "Roof dock opens and red drone rises away.",
+      "design": "Fully autonomous deployment label.",
+      "purpose": "Deploy",
+      "id": "V04",
+      "evidence": "Visible 1 fps samples, source 23–30s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 30,
+      "end": 40,
+      "action": "Drone travels around trees and columns; view follows corridor.",
+      "design": "Autonomous navigation label.",
+      "purpose": "Navigate",
+      "id": "V05",
+      "evidence": "Visible 1 fps samples, source 30–40s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 40,
+      "end": 47,
+      "action": "Insect close-up becomes tracked target with red box and sonar guidance label.",
+      "design": "Large insect then small detection overlay.",
+      "purpose": "Find target",
+      "id": "V06",
+      "evidence": "Visible 1 fps samples, source 40–47s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 47,
+      "end": 55,
+      "action": "Drone rushes forward out of frame; insect-like fragments scatter and fall, followed by Kinetic interception.",
+      "design": "Same sunlit columns as opening.",
+      "purpose": "Explain interception",
+      "id": "V07",
+      "evidence": "Visible 1 fps samples, source 47–55s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 55,
+      "end": 63,
+      "action": "Drone returns to roof dock, enclosure closes; logo overlays and background fades to white.",
+      "design": "Repeated dock view.",
+      "purpose": "Complete cycle",
+      "id": "V08",
+      "evidence": "Visible 1 fps samples, source 55–63s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 63,
+      "end": 69,
+      "action": "Product models in black, red and yellow stack and shift.",
+      "design": "Tornyol logo above.",
+      "purpose": "Show hardware options",
+      "id": "V09",
+      "evidence": "Visible 1 fps samples, source 63–69s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 69,
+      "end": 78.036,
+      "action": "Pre-order now, tornyol.com and $100 deposit hold with flanking drone models.",
+      "design": "White background, dark type.",
+      "purpose": "Invite reservation",
+      "id": "V10",
+      "evidence": "Visible 1 fps samples, source 69–78.036s; boundaries approximate, between-frame action unresolved."
+    }
+  ],
+  "sound": [
+    {
+      "id": "A01",
+      "start": 0,
+      "end": 78.036,
+      "layer": "unknown",
+      "detail": "No validated audio listening; speech, music, effects, mix and sync remain unverified.",
+      "visual_relation": "All visual scenes; alignment not checked",
+      "evidence": "No actual audio supplied to this review; existing technical-review-2026-10-19/deep-review/audio/433.json is not listening evidence."
+    }
+  ],
+  "categories": [
+    {
+      "finding": "Preview and labeled test lead to a complete illustrative protection cycle, then hardware and reservation.",
+      "evidence": "V01–V10",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q01"
+    },
+    {
+      "finding": "A red drone passes between bright columns near insects; the purpose is not named until test footage.",
+      "evidence": "V01 0–2s",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q02"
+    },
+    {
+      "finding": "Mosquito-killing drone is named at 5s; perimeter and docking suggest property protection use.",
+      "evidence": "V02–V04",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q03"
+    },
+    {
+      "finding": "Dense 47–51s shows drone enlarge toward camera then leave by about 47.75s; insect-like pieces spread and descend. Dense 6–9s tracks a boxed object past rotor to lower right; contact is not resolved.",
+      "evidence": "V02/V07; closer windows",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q04"
+    },
+    {
+      "finding": "Hard cut from polished outdoor scene to narrow test footage changes evidence style; map then returns to outdoor simulation. Dock return matches deployment view.",
+      "evidence": "V01–V04/V08",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q05"
+    },
+    {
+      "finding": "Golden light and smooth architectural surfaces differ strongly from cool, flat laboratory-looking test footage.",
+      "evidence": "V01/V02/V05",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q06"
+    },
+    {
+      "finding": "Short capability labels are readable; 2440 FPS is an embedded footage claim, not source playback rate. Small target confidence is not treated as verified detection accuracy.",
+      "evidence": "V02/V06",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q07"
+    },
+    {
+      "finding": "Voice presence and delivery remain unverified.",
+      "evidence": "No validated audio listening",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q08"
+    },
+    {
+      "finding": "Music character and arc remain unverified.",
+      "evidence": "No validated audio listening",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q09"
+    },
+    {
+      "finding": "Sound effects remain unverified.",
+      "evidence": "No validated audio listening",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q10"
+    },
+    {
+      "finding": "Sound-to-motion timing remain unverified.",
+      "evidence": "No validated audio listening",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q11"
+    },
+    {
+      "finding": "Test-looking footage, satellite-style map, rendered-looking environment and product models are mixed. Exact production and asset provenance unknown.",
+      "evidence": "V02/V03/V09",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q12"
+    },
+    {
+      "finding": "Source duration supplied as 78.036s; no independent compression, clipping or delivery check.",
+      "evidence": "Assigned metadata; source integrity checked by parent",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q13"
+    },
+    {
+      "finding": "Labels and complete drone route explain intended function without speech; soundless operation is only a written claim.",
+      "evidence": "V03–V08",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q14"
+    },
+    {
+      "finding": "Red drone contrasts with pale architecture; red tracking box directs focus to otherwise tiny insect.",
+      "evidence": "V05/V06",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q15"
+    },
+    {
+      "finding": "Deployment and return get clear stages; the long final reservation hold is readable, while small test action needs enlargement.",
+      "evidence": "V02/V04/V08/V10",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q16"
+    },
+    {
+      "finding": "Opening drone/insect action is explained by sonar and kinetic interception later, closing the initial question.",
+      "evidence": "V01/V06/V07",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q17"
+    },
+    {
+      "finding": "Pursuit and return appear designed to turn a nuisance into a controlled automated routine.",
+      "evidence": "V04–V08",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q18"
+    },
+    {
+      "finding": "Red drone, columns and roof dock recur, making the outward and return journey traceable.",
+      "evidence": "V01/V04–V08",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q19"
+    },
+    {
+      "finding": "A labeled mosquito-killing test and illustrative autonomous cycle are shown. Detection, silent operation, chemical-free claim and broad protection performance are not independently established.",
+      "evidence": "V02–V08",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q20"
+    },
+    {
+      "finding": "Small guarded-rotor drone and docking cycle are distinctive; landmark-like setting alone does not imply endorsement.",
+      "evidence": "V03/V04/V08/V09",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q21"
+    },
+    {
+      "finding": "Label simulation and physical test clearly; enlarge one test event with an explanatory arrow before returning to the deployment story.",
+      "evidence": "V02–V04",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q22"
+    },
+    {
+      "finding": "For Tin, use a full automation cycle from trigger to result to ready state, with consistent object and clearly labeled illustrative stages.",
+      "evidence": "V04–V08",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q23"
+    },
+    {
+      "finding": "No human new-viewer test; product description above is model interpretation of sampled images.",
+      "evidence": "V01–V10",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q24"
+    },
+    {
+      "finding": "No phone-size, safe-area or flash assessment; small UI text needs separate preview.",
+      "evidence": "Contact sheets",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q25"
+    }
+  ],
+  "lessons": {
+    "keep": "Return to the same starting location to make an automated cycle feel complete.",
+    "try": [
+      "Try a Tin workflow film that opens a task, produces an asset, then returns to a clear ready state.",
+      "Try a side-by-side labeled actual run and simplified diagram for one hard-to-see automation step."
+    ],
+    "avoid": "Avoid letting illustrative scenes look like measured field-test evidence.",
+    "open": "Audio, rotor-contact detail, actual detection accuracy and autonomous field performance remain unresolved."
+  },
+  "comparison": {
+    "story": "Preview interception → Introduce test evidence → Define protected area → Deploy → Navigate → Find target → Explain interception → Complete cycle → Show hardware options → Invite reservation",
+    "motion": "Dense 47–51s shows drone enlarge toward camera then leave by about 47.75s; insect-like pieces spread and descend. Dense 6–9s tracks a boxed object past rotor to lower right; contact is not resolved.",
+    "sound": "No validated listening; no absence claims.",
+    "texture": "Golden light and smooth architectural surfaces differ strongly from cool, flat laboratory-looking test footage.",
+    "lesson": "Return to the same starting location to make an automated cycle feel complete."
+  },
+  "elements": [
+    {
+      "kind": "ui",
+      "name": "map",
+      "events": [
+        "V03"
+      ]
+    },
+    {
+      "kind": "motion",
+      "name": "object tracking",
+      "events": [
+        "V06"
+      ]
+    },
+    {
+      "kind": "motion",
+      "name": "scale toward camera",
+      "events": [
+        "V07"
+      ]
+    },
+    {
+      "kind": "texture",
+      "name": "rendered environment",
+      "events": [
+        "V01",
+        "V05"
+      ]
+    }
+  ],
+  "reviewer_model": "gpt-6-astra",
+  "scope": "sampled visual and story review; ASR and measured signal support; no validated audio listening",
+  "closer_windows": [
+    {
+      "start": 6,
+      "end": 9,
+      "rate_fps": 4,
+      "evidence": [
+        "astra-review-2026-10-20/evidence/group-3/433/dense6-9.jpg"
+      ],
+      "resolved": "Boxed object passes upper-right rotor and travels lower right; exact rotor contact unresolved."
+    },
+    {
+      "start": 47,
+      "end": 51,
+      "rate_fps": 4,
+      "evidence": [
+        "astra-review-2026-10-20/evidence/group-3/433/dense47-51.jpg"
+      ],
+      "resolved": "Red drone enlarges and exits; insect-like fragments spread then descend. This is an illustrative-looking sequence, not proof of physical performance."
+    }
+  ]
+}

@@ -1,0 +1,391 @@
+{
+  "id": 254,
+  "viewed_evidence": [
+    "technical-review-2026-10-19/deep-review/motion/254/timeline-00.jpg",
+    "technical-review-2026-10-19/deep-review/motion/254/timeline-01.jpg",
+    "technical-review-2026-10-19/deep-review/motion/254/timeline-02.jpg",
+    "astra-review-2026-10-20/evidence/group-3/254/dense.jpg",
+    "technical-review-2026-10-19/deep-review/audio/254-speech.json"
+  ],
+  "product_from_film": "Star presents a weekly live show where founders raise funding.",
+  "explains_well": "Raise-cam footage and large funding figures make the live-event idea tangible.",
+  "unclear": "The film does not explain how a founder enters, how selection works or what a viewer funds.",
+  "product_type": "founder funding show",
+  "scenario": "A founder raises on a livestream",
+  "product_clear_time": 18,
+  "product_clear_basis": "Raise-cam scenes, 500K and 24 HOURS establish a funding stream; weekly format arrives later.",
+  "scenes": [
+    {
+      "start": 0,
+      "end": 3,
+      "action": "Dark rocks, a passing train and clouds appear with a small Star badge.",
+      "design": "Dark cinematic scenes and tiny centred logo.",
+      "purpose": "Set an ambitious mood",
+      "id": "V01",
+      "evidence": "Visible 1 fps samples, source 0–3s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 3,
+      "end": 10,
+      "action": "Portrait speaker gives way to office workers, desks and a monochrome orange collage.",
+      "design": "Small yellow word captions; clips inside black borders.",
+      "purpose": "Introduce origin",
+      "id": "V02",
+      "evidence": "Visible 1 fps samples, source 3–10s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 10,
+      "end": 19,
+      "action": "Noise frame cuts to Raise Cam desk footage with changing dollar figures; large 500K and 24 HOURS cover the scene.",
+      "design": "Stream overlays, meme drawing and bold white claim text.",
+      "purpose": "Show the first raise",
+      "id": "V03",
+      "evidence": "Visible 1 fps samples, source 10–19s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 19,
+      "end": 30,
+      "action": "Night silhouette, stage and basketball images lead to a Solana post, video-call show clips and the portrait speaker.",
+      "design": "Star motifs; post and meeting tiles.",
+      "purpose": "Turn origin into a show",
+      "id": "V04",
+      "evidence": "Visible 1 fps samples, source 19–30s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 30,
+      "end": 33,
+      "action": "Fragmented white type forms $1.100.000, then orange RAISED replaces it and holds over a close organic-looking image.",
+      "design": "Grain-like text breakup and bold orange lettering.",
+      "purpose": "Summarise funding claim",
+      "id": "V05",
+      "evidence": "Visible 1 fps samples, source 30–33s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 33,
+      "end": 44,
+      "action": "Lightning, landscape, trading floor, sun and industrial lights accompany short yellow words describing a weekly founder funded live.",
+      "design": "Fast-changing dark footage; centre word captions.",
+      "purpose": "Announce repeating format",
+      "id": "V06",
+      "evidence": "Visible 1 fps samples, source 33–44s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 44,
+      "end": 55,
+      "action": "Office silhouette, red cavern, builder close-up, butterfly and solitary figure accompany underestimated, undiscovered and no pedigree/intro/waiting copy.",
+      "design": "Mixed dark scenes and brief central captions.",
+      "purpose": "Address overlooked builders",
+      "id": "V07",
+      "evidence": "Visible 1 fps samples, source 44–55s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 55,
+      "end": 62,
+      "action": "Baseball, train, runner and craft footage build to a black pause.",
+      "design": "Rapid action montage.",
+      "purpose": "Urge action",
+      "id": "V08",
+      "evidence": "Visible 1 fps samples, source 55–62s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 62,
+      "end": 68.84,
+      "action": "DONT WAIT appears over a mountain; crowd and butterfly inserts lead to the small Star badge on black.",
+      "design": "Large white CTA followed by small logo.",
+      "purpose": "Close with urgency",
+      "id": "V09",
+      "evidence": "Visible 1 fps samples, source 62–68.84s; boundaries approximate, between-frame action unresolved."
+    }
+  ],
+  "sound": [
+    {
+      "id": "A01",
+      "start": 0,
+      "end": 68.84,
+      "layer": "unknown",
+      "detail": "No validated audio listening; speech, music, effects, mix and sync remain unverified.",
+      "visual_relation": "All visual scenes; alignment not checked",
+      "evidence": "No actual audio supplied to this review; existing technical-review-2026-10-19/deep-review/audio/254.json is not listening evidence."
+    },
+    {
+      "id": "A02",
+      "start": 2.95,
+      "end": 58.78,
+      "layer": "ASR draft",
+      "detail": "Candidate script supports origin story, own-platform raise, 500K in 24 hours, a show and one founder funded weekly. Reject unclear no motion/no backache, Salon and market wording; no heard delivery, music or timing claim.",
+      "visual_relation": "V02–V08; candidate script structure only",
+      "evidence": "technical-review-2026-10-19/deep-review/audio/254-speech.json; existing faster-whisper base CPU int8"
+    }
+  ],
+  "categories": [
+    {
+      "finding": "Origin raise becomes a live show, then a weekly funding promise aimed at overlooked founders. Application and funding mechanics are omitted.",
+      "evidence": "V02–V09",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q01"
+    },
+    {
+      "finding": "Rocks and a passing train with a tiny Star badge establish mood, but do not identify a funding show.",
+      "evidence": "V01, 0–2 s",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q02"
+    },
+    {
+      "finding": "Raise Cam plus 500K/24 HOURS makes live fundraising clear by 18 s. Weekly founder positioning comes in the later word-caption montage.",
+      "evidence": "V03 and V06",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q03"
+    },
+    {
+      "finding": "At 30–33 s, granular fragments resolve into a funding figure, change to orange RAISED and carry over a moving close image. Most other movement belongs to rapidly replaced footage.",
+      "evidence": "V05; 4 fps window 30–33 s",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q04"
+    },
+    {
+      "finding": "Portrait and stream cuts provide evidence, while landscape, sport and nature cuts supply momentum. Their metaphoric links need the small captions.",
+      "evidence": "V02–V08",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q05"
+    },
+    {
+      "finding": "Dark teal scenes, red-orange accents, black framing and grain-like type contrast with ordinary desk and video-call recordings.",
+      "evidence": "V01–V08",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q06"
+    },
+    {
+      "finding": "500K, 24 HOURS and RAISED are prominent. Many explanatory words are tiny yellow centre captions, making the main proposition less dominant than the numbers.",
+      "evidence": "V03, V05–V07",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q07"
+    },
+    {
+      "finding": "Voice presence and delivery remain unverified.",
+      "evidence": "No validated audio listening",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q08"
+    },
+    {
+      "finding": "Music character and arc remain unverified.",
+      "evidence": "No validated audio listening",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q09"
+    },
+    {
+      "finding": "Sound effects remain unverified.",
+      "evidence": "No validated audio listening",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q10"
+    },
+    {
+      "finding": "Sound-to-motion timing remain unverified.",
+      "evidence": "No validated audio listening",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q11"
+    },
+    {
+      "finding": "Portrait, office stream, social post, meeting tiles, sports and nature footage are mixed. Asset provenance and reuse rights are not known.",
+      "evidence": "V02–V08",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q12"
+    },
+    {
+      "finding": "Source duration supplied as 68.84s; no independent compression, clipping or delivery check.",
+      "evidence": "Assigned metadata; source integrity checked by parent",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q13"
+    },
+    {
+      "finding": "Large funding text and stream screens communicate fundraising silently. Weekly format and target audience rely on reading brief word captions.",
+      "evidence": "V03, V06–V07",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q14"
+    },
+    {
+      "finding": "Large numbers pull focus clearly, but small captions ask the eye to stay centred while very different shots fill the frame.",
+      "evidence": "V03 and V05–V08",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q15"
+    },
+    {
+      "finding": "The 33–61 s montage introduces many unrelated images while the viewer assembles a sentence word by word.",
+      "evidence": "V06–V08",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q16"
+    },
+    {
+      "finding": "The origin story pays off in the weekly show announcement. DONT WAIT creates urgency but supplies no visible entry step.",
+      "evidence": "V02, V06, V09",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q17"
+    },
+    {
+      "finding": "Small-team desk scenes followed by large raises and ambitious imagery appear intended to build hope for overlooked founders. No audience effect was measured.",
+      "evidence": "V03–V07",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q18"
+    },
+    {
+      "finding": "The Star badge and yellow caption position repeat, but the second-half footage no longer follows one founder or raise.",
+      "evidence": "V01, V06–V09",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q19"
+    },
+    {
+      "finding": "Stream footage shows people, overlays and figures; 500K in 24 hours and 1.1 million raised are film claims, not audited funding evidence.",
+      "evidence": "V03 and V05",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q20"
+    },
+    {
+      "finding": "Raise Cam and the live-show tiles are more specific to Star than the sports and landscape montage.",
+      "evidence": "V03–V04, V06–V08",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q21"
+    },
+    {
+      "finding": "Some late montage shots could give way to a clear apply, pitch live and funded sequence using the same founder.",
+      "evidence": "V06–V09",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q22"
+    },
+    {
+      "finding": "For a live community launch, pair actual event clips with one large outcome figure and a simple next-step card. Requires event recordings, permitted portraits and sourced numbers.",
+      "evidence": "V03–V05",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q23"
+    },
+    {
+      "finding": "No human new-viewer test; product description above is model interpretation of sampled images.",
+      "evidence": "V01–V09",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q24"
+    },
+    {
+      "finding": "No phone-size, safe-area or flash assessment; small UI text needs separate preview.",
+      "evidence": "Contact sheets",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q25"
+    }
+  ],
+  "lessons": {
+    "keep": "Keep the ordinary Raise Cam footage beside a large outcome and time period.",
+    "try": [
+      "Build a three-card sequence for one founder: application, live pitch, funding result, with the same name throughout.",
+      "Test a final card showing the next show time and application route against the current DONT WAIT and logo ending."
+    ],
+    "avoid": "Avoid letting a generic action montage replace the entry and funding steps.",
+    "open": "Audio is unheard; funding amounts, eligibility and the exact investment mechanism remain unverified."
+  },
+  "comparison": {
+    "story": "Set an ambitious mood → Introduce origin → Show the first raise → Turn origin into a show → Summarise funding claim → Announce repeating format → Address overlooked builders → Urge action → Close with urgency",
+    "motion": "At 30–33 s, granular fragments resolve into a funding figure, change to orange RAISED and carry over a moving close image. Most other movement belongs to rapidly replaced footage.",
+    "sound": "No validated listening; no absence claims.",
+    "texture": "Dark teal scenes, red-orange accents, black framing and grain-like type contrast with ordinary desk and video-call recordings.",
+    "lesson": "Keep the ordinary Raise Cam footage beside a large outcome and time period."
+  },
+  "elements": [
+    {
+      "kind": "ui",
+      "name": "video call",
+      "events": [
+        "V04"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "social post",
+      "events": [
+        "V04"
+      ]
+    },
+    {
+      "kind": "texture",
+      "name": "office footage",
+      "events": [
+        "V02",
+        "V03"
+      ]
+    },
+    {
+      "kind": "texture",
+      "name": "cinematic montage",
+      "events": [
+        "V06",
+        "V07",
+        "V08"
+      ]
+    },
+    {
+      "kind": "motion",
+      "name": "text fragmentation",
+      "events": [
+        "V05"
+      ]
+    }
+  ],
+  "reviewer_model": "gpt-6-astra",
+  "scope": "sampled visual and story review; ASR and measured signal support; no validated audio listening",
+  "closer_windows": [
+    {
+      "start": 30,
+      "end": 33,
+      "rate_fps": 4,
+      "evidence": [
+        "astra-review-2026-10-20/evidence/group-3/254/dense.jpg"
+      ],
+      "resolved": "White fragments become $1.100.000 by 31 s, orange RAISED replaces digits by 31.75 s, and an organic-looking close image appears behind it at 32 s. Exact sub-frame breakup remains unresolved."
+    }
+  ]
+}

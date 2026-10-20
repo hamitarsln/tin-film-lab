@@ -1,0 +1,364 @@
+{
+  "id": 498,
+  "reviewer_model": "gpt-6-astra",
+  "scope": "sampled visual and story review; ASR and measured signal support; no validated audio listening",
+  "viewed_evidence": [
+    "technical-review-2026-10-19/deep-review/motion/498/timeline-00.jpg",
+    "technical-review-2026-10-19/deep-review/motion/498/timeline-01.jpg",
+    "technical-review-2026-10-19/deep-review/motion/498/timeline-02.jpg"
+  ],
+  "closer_windows": [],
+  "product_from_film": "Figma Sites turns designs into responsive websites with interactions, generated components and publishing.",
+  "explains_well": "The same layouts are shown at several widths, and an analog clock moves from prompt to code preview to the page.",
+  "unclear": "Publishing is presented as a final button without a visible live URL, while the many interaction controls pass too quickly for their setup to be clear.",
+  "product_type": "website design and publishing tool",
+  "scenario": "Adapt layouts, add interactions and a clock component, collaborate and publish.",
+  "product_clear_time": 9,
+  "product_clear_basis": "The same page appears at desktop and narrower widths through a breakpoint selector.",
+  "scenes": [
+    {
+      "id": "V01",
+      "start": 0,
+      "end": 7,
+      "action": "A gallery website moves into an editor, followed by stacked site examples and Set your sites on something new.",
+      "design": "Dark editor framing and varied full-page designs.",
+      "purpose": "Introduce web design breadth.",
+      "evidence": "Visible chronological 1 fps samples, source 0–7s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V02",
+      "start": 7,
+      "end": 15,
+      "action": "A breakpoint menu selects desktop, tablet and mobile views. The same Browse everything page appears at several widths and is resized.",
+      "design": "Side-by-side responsive canvases and large cursor.",
+      "purpose": "Show adaptation across screen sizes.",
+      "evidence": "Visible chronological 1 fps samples, source 7–15s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V03",
+      "start": 15,
+      "end": 23,
+      "action": "A Sabi page appears at multiple widths. A collaborator cursor adds a block, changes its headline and switches its style while matching sections update.",
+      "design": "Block library, linked-looking page variants and named cursor.",
+      "purpose": "Show collaborative page assembly.",
+      "evidence": "Visible chronological 1 fps samples, source 15–23s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V04",
+      "start": 23,
+      "end": 35,
+      "action": "Image strips and cards appear beside Marquee, Reveal and Scroll parallax controls. A red portfolio page demonstrates the images in scrolling layouts.",
+      "design": "Photo cards on black, small effect panels and red page background.",
+      "purpose": "Connect interaction settings to a designed site.",
+      "evidence": "Visible chronological 1 fps samples, source 23–35s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V05",
+      "start": 35,
+      "end": 50,
+      "action": "A blank square is added beside geometric art. A prompt requests an analog clock with a one-pixel border and local time; a clock preview and code appear, then the clock is placed on the page.",
+      "design": "Prompt panel, code editor and circular clock component.",
+      "purpose": "Show custom component creation and placement.",
+      "evidence": "Visible chronological 1 fps samples, source 35–50s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V06",
+      "start": 50,
+      "end": 65,
+      "action": "Create code from design leads to rows of arrows and named collaborator cursors. A comment asks if they should rotate; arrows change direction around the cursor and then appear over a Move Today page.",
+      "design": "Purple collaboration canvas, comment bubbles and interactive arrow field.",
+      "purpose": "Show collaborative behavior design carried into a page.",
+      "evidence": "Visible chronological 1 fps samples, source 50–65s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V07",
+      "start": 65,
+      "end": 75.36,
+      "action": "Several sites stack into view around a Publish site control. Push publish with Figma Sites leads to the assembled Figma mark.",
+      "design": "Nested page previews, large closing type and colored logo parts.",
+      "purpose": "Close with the publishing promise.",
+      "evidence": "Visible chronological 1 fps samples, source 65–75.36s; boundary approximate; exact motion between samples unverified."
+    }
+  ],
+  "sound": [
+    {
+      "id": "A01",
+      "start": 0,
+      "end": 75.36,
+      "layer": "unknown",
+      "detail": "No validated direct audio listening was performed. Music, speech delivery, effects, mix and sync remain unknown, not absent.",
+      "visual_relation": "All visual scenes; audiovisual alignment unverified",
+      "evidence": "Visual samples only; no actual audio range supplied to this reviewer."
+    }
+  ],
+  "categories": [
+    {
+      "id": "Q01",
+      "finding": "The film moves from responsive layout and blocks to interaction controls, generated components, collaboration and publishing.",
+      "evidence": "V01–V07",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q02",
+      "finding": "A finished gallery page moving into the editor links the tool to a real-looking site immediately.",
+      "evidence": "V01",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q03",
+      "finding": "Designers building websites are the audience; the repeated page at different widths makes the responsive task clear by 9s.",
+      "evidence": "V02",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q04",
+      "finding": "Pages resize and reflow, blocks change across variants, image strips move through interaction examples, a clock appears from a prompt, arrows rotate around the cursor, and site previews stack before publishing.",
+      "evidence": "V02–V07",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q05",
+      "finding": "Each feature is paired with a designed page, preventing the controls from becoming a disconnected settings tour.",
+      "evidence": "V02–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q06",
+      "finding": "Flat UI is mixed with large photography, bold type, geometric art and colored site backgrounds; the content varies while editor controls stay consistent.",
+      "evidence": "V01–V07",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q07",
+      "finding": "Large page designs and cursor cues are clear. Small interaction settings and code are brief and difficult to read fully.",
+      "evidence": "V03–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q08",
+      "finding": "Voice delivery, music, effects and audiovisual alignment were not established by this visual pass.",
+      "evidence": "A01",
+      "status": "not checked",
+      "reason": "No validated direct audio listening input.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q09",
+      "finding": "Voice delivery, music, effects and audiovisual alignment were not established by this visual pass.",
+      "evidence": "A01",
+      "status": "not checked",
+      "reason": "No validated direct audio listening input.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q10",
+      "finding": "Voice delivery, music, effects and audiovisual alignment were not established by this visual pass.",
+      "evidence": "A01",
+      "status": "not checked",
+      "reason": "No validated direct audio listening input.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q11",
+      "finding": "Voice delivery, music, effects and audiovisual alignment were not established by this visual pass.",
+      "evidence": "A01",
+      "status": "not checked",
+      "reason": "No validated direct audio listening input.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q12",
+      "finding": "Design canvases, responsive previews, block libraries, interaction panels, generated code and site examples are visible. Full implementation provenance is unverified.",
+      "evidence": "V01–V07",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q13",
+      "finding": "Manifest duration 75.36s; indexed dimensions 1920×1080. Source unchanged flag recorded; fresh encoding and audio clipping checks not run.",
+      "evidence": "Group manifest",
+      "status": "uncertain",
+      "reason": "Inherited technical metadata; no fresh media probe in this review.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q14",
+      "finding": "Visible labels and the clock prompt explain key tasks without an available speech draft.",
+      "evidence": "V02–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q15",
+      "finding": "Oversized cursors and named collaborators point to changes; the clock and arrow examples keep their result visually distinct.",
+      "evidence": "V03,V05,V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q16",
+      "finding": "The clock receives a relatively complete prompt-to-placement sequence, while the earlier interaction controls are a faster montage.",
+      "evidence": "V04,V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q17",
+      "finding": "The clock remains recognizable from request to preview to page, and the arrow field carries into the Move Today layout.",
+      "evidence": "V05,V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q18",
+      "finding": "Varied polished sites and collaborative cursors suggest creative possibility and shared work. Audio mood is unknown.",
+      "evidence": "V01–V07",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q19",
+      "finding": "Responsive editing and component placement are concrete. The publish action is shown without a resulting browser URL or deployed-page confirmation.",
+      "evidence": "V02,V05,V07",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q20",
+      "finding": "The film does not establish live hosting, browser compatibility, generated-code quality or every interaction parameter. The clock’s actual time accuracy is unverified.",
+      "evidence": "V04–V07",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q21",
+      "finding": "Figma Sites is named in the final publish line and the familiar multicolor mark closes.",
+      "evidence": "V07",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q22",
+      "finding": "End with the published page and URL, and briefly label one interaction’s input and visible response.",
+      "evidence": "V04,V07",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q23",
+      "finding": "Carry a generated component from its prompt through preview into the finished design.",
+      "evidence": "V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q24",
+      "finding": "Figma Sites turns designs into responsive websites with interactions, generated components and publishing.",
+      "evidence": "Model reading from inspected images",
+      "status": "uncertain",
+      "reason": "Model-only new-viewer interpretation; no human test.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q25",
+      "finding": "Contact sheets inspected at displayed size; a phone-size playback, caption audit, flash audit and formal accessibility check were not performed.",
+      "evidence": "Viewed sheets",
+      "status": "not checked",
+      "reason": "Full-size moving-image and device checks unavailable in this pass.",
+      "experiment": "none"
+    }
+  ],
+  "lessons": {
+    "keep": "Show a custom component in the final page after generating it.",
+    "avoid": "Stopping a publishing story at the button without showing the published result.",
+    "open": "Live publishing, browser behavior, component correctness, exact animation timing and audio remain unverified.",
+    "try": [
+      "For Tin, carry a requested interactive campaign element from prompt to preview to the published landing page.",
+      "Add a live-page confirmation after Publish site and compare whether the workflow feels complete."
+    ]
+  },
+  "comparison": {
+    "story": "Introduce web design breadth. → Show adaptation across screen sizes. → Show collaborative page assembly. → Connect interaction settings to a designed site. → Show custom component creation and placement. → Show collaborative behavior design carried into a page. → Close with the publishing promise.",
+    "motion": "Pages resize and reflow, blocks change across variants, image strips move through interaction examples, a clock appears from a prompt, arrows rotate around the cursor, and site previews stack before publishing. Sampling scope: 1 fps unless a closer window is recorded.",
+    "sound": "No validated listening; unknown.",
+    "texture": "Dark editor framing and varied full-page designs.; Side-by-side responsive canvases and large cursor.; Block library, linked-looking page variants and named cursor.; Photo cards on black, small effect panels and red page background.; Prompt panel, code editor and circular clock component.; Purple collaboration canvas, comment bubbles and interactive arrow field.; Nested page previews, large closing type and colored logo parts.",
+    "lesson": "Show a custom component in the final page after generating it."
+  },
+  "elements": [
+    {
+      "kind": "ui",
+      "name": "responsive preview",
+      "events": [
+        "V02"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "block library",
+      "events": [
+        "V03"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "interaction panel",
+      "events": [
+        "V04"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "code editor",
+      "events": [
+        "V05"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "collaborator cursor",
+      "events": [
+        "V03",
+        "V06"
+      ]
+    },
+    {
+      "kind": "motion",
+      "name": "arrow rotation",
+      "events": [
+        "V06"
+      ]
+    },
+    {
+      "kind": "motion",
+      "name": "stacked page previews",
+      "events": [
+        "V07"
+      ]
+    }
+  ]
+}

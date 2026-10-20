@@ -1,0 +1,388 @@
+{
+  "id": 326,
+  "viewed_evidence": [
+    "technical-review-2026-10-19/deep-review/motion/326/timeline-00.jpg",
+    "technical-review-2026-10-19/deep-review/motion/326/timeline-01.jpg",
+    "astra-review-2026-10-20/evidence/group-3/326/dense.jpg",
+    "technical-review-2026-10-19/deep-review/audio/326-speech.json"
+  ],
+  "product_from_film": "The film presents Whop and Tether as supporters of independent internet creators; their specific service is not explained.",
+  "explains_well": "The text-led sequence connects fear about jobs to a broad range of creative internet projects.",
+  "unclear": "The connection between these creator stories and what Whop or Tether enables is missing until two unexplained logos close the film.",
+  "product_type": "creator-economy brand film",
+  "scenario": "Reframe job anxiety as an opportunity to create independently",
+  "product_clear_time": 54,
+  "product_clear_basis": "Only partner logos identify the sponsors at the end; no concrete product function becomes clear.",
+  "scenes": [
+    {
+      "start": 0,
+      "end": 4,
+      "action": "Headline fragments about AI and jobs lead to television market/unemployment clip.",
+      "design": "Enlarged article text and broadcast footage.",
+      "purpose": "Introduce economic anxiety",
+      "id": "V01",
+      "evidence": "Visible 1 fps samples, source 0–4s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 4,
+      "end": 10,
+      "action": "Every generation gets told the sky is falling becomes finds a way to fly; internet connection line follows.",
+      "design": "Small serif text on black then white.",
+      "purpose": "Reframe anxiety",
+      "id": "V02",
+      "evidence": "Visible 1 fps samples, source 4–10s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 10,
+      "end": 17,
+      "action": "Historical-looking technology photo, Paint drawing and creator portraits accompany creation and progress language.",
+      "design": "Mixed archival-style images and layered portrait cards.",
+      "purpose": "Establish internet creativity",
+      "id": "V03",
+      "evidence": "Visible 1 fps samples, source 10–17s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 17,
+      "end": 26,
+      "action": "Video-game clip bursts into pixels, followed by makeup brand, news-channel search, interview and social-network page.",
+      "design": "Short varied media examples around serif text.",
+      "purpose": "List independent projects",
+      "id": "V04",
+      "evidence": "Visible 1 fps samples, source 17–26s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 26,
+      "end": 35,
+      "action": "Music-creation footage leads to What if no more jobs is a good thing, then older search/video interfaces and AI prompt screen.",
+      "design": "Alternating media and spare text.",
+      "purpose": "Connect new tools and work",
+      "id": "V05",
+      "evidence": "Visible 1 fps samples, source 26–35s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 35,
+      "end": 44,
+      "action": "Creator images and adventurous scenes accompany creativity and identity statements.",
+      "design": "Small image collages and occasional full-frame footage.",
+      "purpose": "Celebrate personal agency",
+      "id": "V06",
+      "evidence": "Visible 1 fps samples, source 35–44s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 44,
+      "end": 50,
+      "action": "Celebration, laptop scene and fun-doing-it text continue with short clips.",
+      "design": "Energetic human imagery.",
+      "purpose": "Encourage participation",
+      "id": "V07",
+      "evidence": "Visible 1 fps samples, source 44–50s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 50,
+      "end": 54,
+      "action": "Many creator images gather around Here is to the humans.",
+      "design": "Expanding collage on white.",
+      "purpose": "Build collective tribute",
+      "id": "V08",
+      "evidence": "Visible 1 fps samples, source 50–54s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 54,
+      "end": 56.322,
+      "action": "Whop and Tether logos remain on white.",
+      "design": "Two small black marks.",
+      "purpose": "Identify sponsors",
+      "id": "V09",
+      "evidence": "Visible 1 fps samples, source 54–56.322s; boundaries approximate, between-frame action unresolved."
+    }
+  ],
+  "sound": [
+    {
+      "id": "A01",
+      "start": 0,
+      "end": 56.322,
+      "layer": "unknown",
+      "detail": "No validated audio listening; speech, music, effects, mix and sync remain unverified.",
+      "visual_relation": "All visual scenes; alignment not checked",
+      "evidence": "No actual audio supplied to this review; existing technical-review-2026-10-19/deep-review/audio/326.json is not listening evidence."
+    },
+    {
+      "id": "A02",
+      "start": 0,
+      "end": 3.32,
+      "layer": "ASR draft",
+      "detail": "Only a short candidate opening line about nearly 100 million US jobs is available. The draft starts I could, while visuals concern AI; reject the pronoun as exact wording. It supports the opening anxiety theme only and cannot establish later narration or music.",
+      "visual_relation": "V01 only; candidate speech text",
+      "evidence": "technical-review-2026-10-19/deep-review/audio/326-speech.json; existing faster-whisper base CPU int8"
+    }
+  ],
+  "categories": [
+    {
+      "finding": "Job anxiety becomes an optimistic internet-creation manifesto through examples and creator imagery. The sponsoring services are not tied to a practical step.",
+      "evidence": "V01–V09",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q01"
+    },
+    {
+      "finding": "Large AI/job headline fragments and broadcast imagery establish urgency quickly, though the article context is cropped.",
+      "evidence": "V01",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q02"
+    },
+    {
+      "finding": "Creators and independent projects define the audience, but no product function becomes clear; only closing logos identify the brands.",
+      "evidence": "V03–V09",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q03"
+    },
+    {
+      "finding": "Dense 17–20 s shows the game clip appear, then pixel particles expand across the frame and fade as the next example arrives. Other samples show collage layering and text changes; exact easing is unresolved.",
+      "evidence": "V04; dense 17–20 s",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q04"
+    },
+    {
+      "finding": "The game explosion becomes the transition to the makeup example, making the edit use the source material. Text cards hold the wider argument together across unrelated clips.",
+      "evidence": "V04–V06",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q05"
+    },
+    {
+      "finding": "Small serif text and white space contrast with noisy news, old interfaces and colourful creator footage. Black opening cards give the initial argument weight.",
+      "evidence": "V01–V08",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q06"
+    },
+    {
+      "finding": "Short statements are easy to follow at full size, but often small and spread across the screen. Rapid image examples carry recognition more than readable detail.",
+      "evidence": "V02–V07",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q07"
+    },
+    {
+      "finding": "Voice presence and delivery remain unverified.",
+      "evidence": "No validated audio listening",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q08"
+    },
+    {
+      "finding": "Music character and arc remain unverified.",
+      "evidence": "No validated audio listening",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q09"
+    },
+    {
+      "finding": "Sound effects remain unverified.",
+      "evidence": "No validated audio listening",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q10"
+    },
+    {
+      "finding": "Sound-to-motion timing remain unverified.",
+      "evidence": "No validated audio listening",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q11"
+    },
+    {
+      "finding": "Mixed media clips, screenshots, typography and collage animation form the film. Their production origins and usage rights are not assessed.",
+      "evidence": "V01–V09",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q12"
+    },
+    {
+      "finding": "Source duration supplied as 56.322s; no independent compression, clipping or delivery check.",
+      "evidence": "Assigned metadata; source integrity checked by parent",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q13"
+    },
+    {
+      "finding": "Written text carries the manifesto without sound. The functional role of the two brands remains unclear visually.",
+      "evidence": "V02–V09",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q14"
+    },
+    {
+      "finding": "Sparse text gives each idea room; image bursts and collages direct attention toward people and their projects. The brands receive little attention until the end.",
+      "evidence": "V03–V09",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q15"
+    },
+    {
+      "finding": "The examples change rapidly while text provides pauses. The two-second sponsor close is too short to explain how the platform supports the preceding story.",
+      "evidence": "V04–V09",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q16"
+    },
+    {
+      "finding": "The film shows many forms of internet creativity, but no transaction, storefront or tool action links those activities to Whop or Tether.",
+      "evidence": "V03–V09",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q17"
+    },
+    {
+      "finding": "The move from job fear to possibility appears designed to create optimism and belonging. The no-jobs question is provocative and may land differently across viewers; no response was measured.",
+      "evidence": "V01–V08",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q18"
+    },
+    {
+      "finding": "The repeated generation/internet/creator argument is coherent. Individual media examples do not establish that the featured people use the sponsoring services.",
+      "evidence": "V02–V09",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q19"
+    },
+    {
+      "finding": "Job-loss figures and economic implications are presented source/film claims, not verified here. Creator imagery does not establish endorsement, platform adoption or investment details.",
+      "evidence": "V01, V03–V09",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q20"
+    },
+    {
+      "finding": "The broad human-creator tribute gives the film a clear brand attitude, while the material-driven pixel transition adds craft.",
+      "evidence": "V04, V08",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q21"
+    },
+    {
+      "finding": "Add one concrete creator-to-customer transaction or tool example that connects the manifesto to the sponsoring brands.",
+      "evidence": "V08–V09",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q22"
+    },
+    {
+      "finding": "Use a strong text argument to organise diverse source clips, but show why the sponsor belongs in that argument.",
+      "evidence": "V02–V09",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q23"
+    },
+    {
+      "finding": "No human new-viewer test; product description above is model interpretation of sampled images.",
+      "evidence": "V01–V09",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q24"
+    },
+    {
+      "finding": "No phone-size, safe-area or flash assessment; small UI text needs separate preview.",
+      "evidence": "Contact sheets",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q25"
+    }
+  ],
+  "lessons": {
+    "keep": "Keep the text-led optimism arc and game-pixel transition.",
+    "try": [
+      "Replace one collage beat with a creator publishing an offer and a customer buying it through the platform.",
+      "Expand the final card with one plain sentence explaining the partnership and a clear next action."
+    ],
+    "avoid": "Avoid treating famous creator imagery as self-explanatory evidence of a platform role.",
+    "open": "Audio is unheard. Economic claims, creator relationships and investment details remain unverified."
+  },
+  "comparison": {
+    "story": "Introduce economic anxiety → Reframe anxiety → Establish internet creativity → List independent projects → Connect new tools and work → Celebrate personal agency → Encourage participation → Build collective tribute → Identify sponsors",
+    "motion": "Dense 17–20 s shows the game clip appear, then pixel particles expand across the frame and fade as the next example arrives. Other samples show collage layering and text changes; exact easing is unresolved.",
+    "sound": "No validated listening; no absence claims.",
+    "texture": "Small serif text and white space contrast with noisy news, old interfaces and colourful creator footage. Black opening cards give the initial argument weight.",
+    "lesson": "Keep the text-led optimism arc and game-pixel transition."
+  },
+  "elements": [
+    {
+      "kind": "ui",
+      "name": "search box",
+      "events": [
+        "V04",
+        "V05"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "drawing app",
+      "events": [
+        "V03"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "social profile",
+      "events": [
+        "V04"
+      ]
+    },
+    {
+      "kind": "motion",
+      "name": "pixel burst",
+      "events": [
+        "V04"
+      ]
+    },
+    {
+      "kind": "motion",
+      "name": "collage assembly",
+      "events": [
+        "V08"
+      ]
+    }
+  ],
+  "reviewer_model": "gpt-6-astra",
+  "scope": "sampled visual and story review; ASR and measured signal support; no validated audio listening",
+  "closer_windows": [
+    {
+      "start": 17,
+      "end": 20,
+      "rate_fps": 4,
+      "evidence": [
+        "astra-review-2026-10-20/evidence/group-3/326/dense.jpg"
+      ],
+      "resolved": "Game clip appears, pixels burst beyond its boundary across the frame and fade into the next creator example."
+    }
+  ]
+}

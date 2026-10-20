@@ -1,0 +1,376 @@
+{
+  "id": 413,
+  "viewed_evidence": [
+    "technical-review-2026-10-19/deep-review/motion/413/timeline-00.jpg",
+    "technical-review-2026-10-19/deep-review/motion/413/timeline-01.jpg",
+    "technical-review-2026-10-19/deep-review/motion/413/timeline-02.jpg",
+    "astra-review-2026-10-20/evidence/group-3/413/dense76-81.jpg",
+    "technical-review-2026-10-19/deep-review/audio/413-speech.json"
+  ],
+  "product_from_film": "Lovable is presented as a way for people with varied backgrounds to build apps and businesses.",
+  "explains_well": "The repeated personal roles, ideas and claimed outcomes create a clear community story.",
+  "unclear": "Individual speakers are rarely tied to a named app and visible outcome, so the build-time and business claims lack useful context.",
+  "product_type": "app builder",
+  "scenario": "People describe moving from an idea or problem to building a product.",
+  "product_clear_time": 39,
+  "product_clear_basis": "Building an app is explicit in large captions, followed by created on Lovable at 45s.",
+  "scenes": [
+    {
+      "start": 0,
+      "end": 3,
+      "action": "Small cluster of portrait cards and heart-like logo expands and rotates, then centers one speaker.",
+      "design": "Black background, rounded self-recorded clips.",
+      "purpose": "Introduce community",
+      "id": "V01",
+      "evidence": "Visible 1 fps samples, source 0–3s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 3,
+      "end": 15,
+      "action": "Speakers identify as mom, student, data scientist, software engineer, business owner and school operator; cards briefly cluster.",
+      "design": "Large white partial-sentence captions beside faces.",
+      "purpose": "Show varied backgrounds",
+      "id": "V02",
+      "evidence": "Visible 1 fps samples, source 3–15s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 15,
+      "end": 29,
+      "action": "Idea, personal problem, backlog and not-a-developer statements lead to enlarged wondering how text.",
+      "design": "Faces resize while phrases occupy black space.",
+      "purpose": "Establish need",
+      "id": "V03",
+      "evidence": "Visible 1 fps samples, source 15–29s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 29,
+      "end": 38,
+      "action": "Discovery statement, product screenshots and rapidly changing time claims arrive as background brightens blue/pink.",
+      "design": "Three weeks/48 hours/one month/two hours examples, not one shared timeline.",
+      "purpose": "Introduce possibility",
+      "id": "V04",
+      "evidence": "Visible 1 fps samples, source 29–38s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 38,
+      "end": 50,
+      "action": "Helicopter app-building example, phone views, created on Lovable and over 2 million claim.",
+      "design": "Overlapping portrait and screen cards.",
+      "purpose": "Offer vivid examples",
+      "id": "V05",
+      "evidence": "Visible 1 fps samples, source 38–50s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 50,
+      "end": 75,
+      "action": "Organization prototyping, accumulated skills, nontechnical product builder, startup and investor claims end with anyone can build.",
+      "design": "Bold captions grow around recurring speakers.",
+      "purpose": "Broaden impact",
+      "id": "V06",
+      "evidence": "Visible 1 fps samples, source 50–75s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 75,
+      "end": 80,
+      "action": "Heart-hand portraits stack, shrink into cluster, rotate edge-on, then heart logo replaces cards.",
+      "design": "Pink/blue glow changes to darker field.",
+      "purpose": "Human-to-brand close",
+      "id": "V07",
+      "evidence": "Visible 1 fps samples, source 75–80s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 80,
+      "end": 82.56,
+      "action": "Lovable wordmark holds above blue/pink edge glow.",
+      "design": "Small centered logo.",
+      "purpose": "Brand",
+      "id": "V08",
+      "evidence": "Visible 1 fps samples, source 80–82.56s; boundaries approximate, between-frame action unresolved."
+    }
+  ],
+  "sound": [
+    {
+      "id": "A01",
+      "start": 0,
+      "end": 82.56,
+      "layer": "unknown",
+      "detail": "No validated audio listening; speech, music, effects, mix and sync remain unverified.",
+      "visual_relation": "All visual scenes; alignment not checked",
+      "evidence": "No actual audio supplied to this review; existing technical-review-2026-10-19/deep-review/audio/413.json is not listening evidence."
+    },
+    {
+      "id": "A02",
+      "start": 2.89,
+      "end": 79.07,
+      "layer": "ASR draft",
+      "detail": "Candidate testimony montage moves from personal roles to ideas, discovery, completion times and outcomes. Visible language school and 2 hours captions disagree with laboratory school and less than a day transcript fragments; use visible copy, not those ASR words. No heard delivery.",
+      "visual_relation": "V02–V07; broad script structure only.",
+      "evidence": "technical-review-2026-10-19/deep-review/audio/413-speech.json; existing faster-whisper base CPU int8"
+    }
+  ],
+  "categories": [
+    {
+      "finding": "Roles lead to needs, discovery, speed/outcome claims and community ambition; clips are woven by topic rather than one case.",
+      "evidence": "V02–V06",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q01"
+    },
+    {
+      "finding": "Small face cluster surrounds brand mark and turns in depth; community is visible but product task is not yet clear.",
+      "evidence": "V01 0–2s",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q02"
+    },
+    {
+      "finding": "Varied nontechnical and technical makers are explicit; app building is named around 39s. No funding claim is taken from the filename.",
+      "evidence": "V02/V05",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q03"
+    },
+    {
+      "finding": "Portraits change size while captions build. Dense 76–81s shows stacked portraits shrinking into a cluster, edge-on turn near 79s and heart mark by 79.5s.",
+      "evidence": "V07; dense76-81",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q04"
+    },
+    {
+      "finding": "Topic-matched speaker cuts join sentences; the black-to-pink/blue shift around discovery marks a clear story turn.",
+      "evidence": "V03/V04",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q05"
+    },
+    {
+      "finding": "Uneven home-recorded portrait lighting is unified by rounded cards, black negative space and saturated blue/pink glow.",
+      "evidence": "V02/V04/V06",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q06"
+    },
+    {
+      "finding": "Large partial-sentence captions carry speech content; big time and revenue phrases are memorable but often lack named project context.",
+      "evidence": "V04/V05",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q07"
+    },
+    {
+      "finding": "Voice presence and delivery remain unverified.",
+      "evidence": "No validated audio listening",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q08"
+    },
+    {
+      "finding": "Music character and arc remain unverified.",
+      "evidence": "No validated audio listening",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q09"
+    },
+    {
+      "finding": "Sound effects remain unverified.",
+      "evidence": "No validated audio listening",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q10"
+    },
+    {
+      "finding": "Sound-to-motion timing remain unverified.",
+      "evidence": "No validated audio listening",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q11"
+    },
+    {
+      "finding": "Self-recorded-looking clips mix with brief app/web screenshots and helicopter phone views; origins and customer status unverified.",
+      "evidence": "V02/V04/V05",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q12"
+    },
+    {
+      "finding": "Source duration supplied as 82.56s; no independent compression, clipping or delivery check.",
+      "evidence": "Assigned metadata; source integrity checked by parent",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q13"
+    },
+    {
+      "finding": "Captions make broad nontechnical-building promise clear silently; actual creation steps are not shown long enough.",
+      "evidence": "V03–V06",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q14"
+    },
+    {
+      "finding": "Caption scale pulls attention between face and claim; overlapping phone views in helicopter section compete for limited time.",
+      "evidence": "V05 38–42s",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q15"
+    },
+    {
+      "finding": "Many people and outcomes arrive quickly, supporting breadth at the cost of case-specific understanding.",
+      "evidence": "V04–V06",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q16"
+    },
+    {
+      "finding": "Opening community resolves into the same people making heart shapes and becoming the brand mark.",
+      "evidence": "V01/V07/V08",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q17"
+    },
+    {
+      "finding": "Uncertainty about how to build shifts to surprise, pride and ambition in captions and smiles; audience response is unmeasured.",
+      "evidence": "V03–V07",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q18"
+    },
+    {
+      "finding": "Recurring faces and heart motif unify clips; product names and individual results are less traceable.",
+      "evidence": "V02/V05/V07",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q19"
+    },
+    {
+      "finding": "Screens and testimonials are visible. Build times, revenue and business progress are quoted claims, not verified outcomes or comparable benchmarks.",
+      "evidence": "V04–V06",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q20"
+    },
+    {
+      "finding": "Heart gestures, heart-like mark and gradient colors connect community to Lovable specifically.",
+      "evidence": "V07/V08",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q21"
+    },
+    {
+      "finding": "Use fewer time claims and show one person, their named app, input and useful result.",
+      "evidence": "V04/V05",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q22"
+    },
+    {
+      "finding": "For Tin, group customer clips by problem/action/result and keep the same customer name and asset visible across each mini-case.",
+      "evidence": "V03–V06",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q23"
+    },
+    {
+      "finding": "No human new-viewer test; product description above is model interpretation of sampled images.",
+      "evidence": "V01–V08",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q24"
+    },
+    {
+      "finding": "No phone-size, safe-area or flash assessment; small UI text needs separate preview.",
+      "evidence": "Contact sheets",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q25"
+    }
+  ],
+  "lessons": {
+    "keep": "Give testimonial clips a shared visual grammar while retaining human faces.",
+    "try": [
+      "Try a Tin customer reel with three named mini-cases, each paired with its actual campaign output.",
+      "Try a community close where a repeated gesture becomes a brand motif, using a slower final cluster hold."
+    ],
+    "avoid": "Avoid mixing unrelated completion times as if they describe the same task.",
+    "open": "Audio delivery, testimonial provenance, time claims and business outcomes remain unverified."
+  },
+  "comparison": {
+    "story": "Introduce community → Show varied backgrounds → Establish need → Introduce possibility → Offer vivid examples → Broaden impact → Human-to-brand close → Brand",
+    "motion": "Portraits change size while captions build. Dense 76–81s shows stacked portraits shrinking into a cluster, edge-on turn near 79s and heart mark by 79.5s.",
+    "sound": "No validated listening; no absence claims.",
+    "texture": "Uneven home-recorded portrait lighting is unified by rounded cards, black negative space and saturated blue/pink glow.",
+    "lesson": "Give testimonial clips a shared visual grammar while retaining human faces."
+  },
+  "elements": [
+    {
+      "kind": "ui",
+      "name": "testimonial cards",
+      "events": [
+        "V02",
+        "V06"
+      ]
+    },
+    {
+      "kind": "motion",
+      "name": "portrait cluster rotation",
+      "events": [
+        "V01",
+        "V07"
+      ]
+    },
+    {
+      "kind": "motion",
+      "name": "large caption changes",
+      "events": [
+        "V03",
+        "V06"
+      ]
+    },
+    {
+      "kind": "texture",
+      "name": "blue pink gradient",
+      "events": [
+        "V04",
+        "V06"
+      ]
+    }
+  ],
+  "reviewer_model": "gpt-6-astra",
+  "scope": "sampled visual and story review; ASR and measured signal support; no validated audio listening",
+  "closer_windows": [
+    {
+      "start": 76,
+      "end": 81,
+      "rate_fps": 4,
+      "evidence": [
+        "astra-review-2026-10-20/evidence/group-3/413/dense76-81.jpg"
+      ],
+      "resolved": "Portrait stack shrinks to cluster, turns edge-on and returns before logo replacement; no exact easing or audio sync finding."
+    }
+  ]
+}

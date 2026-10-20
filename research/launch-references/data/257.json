@@ -1,0 +1,356 @@
+{
+  "id": 257,
+  "reviewer_model": "gpt-6-astra",
+  "scope": "sampled visual and story review; ASR and measured signal support; no validated audio listening",
+  "viewed_evidence": [
+    "technical-review-2026-10-19/deep-review/motion/257/timeline-00.jpg",
+    "technical-review-2026-10-19/deep-review/motion/257/timeline-01.jpg",
+    "technical-review-2026-10-19/deep-review/motion/257/timeline-02.jpg"
+  ],
+  "closer_windows": [],
+  "product_from_film": "Content Rewards presents a way to fund creator-posted content campaigns and track their reach.",
+  "explains_well": "The film turns a marketing claim into a visible comparison with spend, counting tools, campaign setup and result totals.",
+  "unclear": "It treats counted passers-by and content views as comparable reach, without explaining attention, unique people, audience quality or business outcomes.",
+  "product_type": "creator marketing",
+  "scenario": "Compare a billboard campaign with a funded creator-content campaign.",
+  "product_clear_time": 49,
+  "product_clear_basis": "A campaign form shows a $5,000 budget and Fund & Activate.",
+  "scenes": [
+    {
+      "id": "V01",
+      "start": 0,
+      "end": 10,
+      "action": "Monochrome Toronto streets and transit lead to a claim of spending $5,000 on a prominent billboard. Phone, typing, invoice and confirmation-message close-ups show preparation.",
+      "design": "Black-and-white city footage shifts to warm orange device shots.",
+      "purpose": "Set up a real-world spend experiment.",
+      "evidence": "Visible chronological 1 fps samples, source 0–10s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V02",
+      "start": 10,
+      "end": 27,
+      "action": "Text says cameras recorded people walking by and AI counted them. Billboard footage alternates with a terminal-like tracking view, orange person boxes and charts.",
+      "design": "Documentary street views and dark technical monitoring screens.",
+      "purpose": "Show the counting method.",
+      "evidence": "Visible chronological 1 fps samples, source 10–27s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V03",
+      "start": 27,
+      "end": 42,
+      "action": "Day-to-night billboard views carry increasing people counts and times. A card states 24,311 people saw the billboard, followed by 62 scanned the QR code.",
+      "design": "Large white metrics over location footage, then black result cards.",
+      "purpose": "Report the billboard side of the comparison.",
+      "evidence": "Visible chronological 1 fps samples, source 27–42s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V04",
+      "start": 42,
+      "end": 50,
+      "action": "A search for Content Rewards leads to a result and campaign form. The name is typed, budget is $5,000 and Fund & Activate appears.",
+      "design": "Close crops of search and form fields.",
+      "purpose": "Set up the alternative with a stated equal budget.",
+      "evidence": "Visible chronological 1 fps samples, source 42–50s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V05",
+      "start": 50,
+      "end": 64,
+      "action": "Video-submission cards show growing view totals. A map fills with points, social engagement figures appear and text counts to about 64 million logo views in 24 hours, then 11k link clicks. A content collage follows.",
+      "design": "Dark dashboard, map and large numeric cards.",
+      "purpose": "Show distributed content reach and response.",
+      "evidence": "Visible chronological 1 fps samples, source 50–64s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V06",
+      "start": 64,
+      "end": 73.073,
+      "action": "A white sample leads to 2,500 times better wording. A tiny billboard circle is compared with a huge orange Content Rewards circle labeled 64,562,883. We’ve made our point leads to the Content Rewards mark and black ending.",
+      "design": "Strong size contrast and minimal conclusion cards.",
+      "purpose": "Make the comparison memorable and close the argument.",
+      "evidence": "Visible chronological 1 fps samples, source 64–73.073s; boundary approximate; exact motion between samples unverified."
+    }
+  ],
+  "sound": [
+    {
+      "id": "A01",
+      "start": 0,
+      "end": 73.073,
+      "layer": "unknown",
+      "detail": "No validated direct audio listening was performed. Music, speech delivery, effects, mix and sync remain unknown, not absent.",
+      "visual_relation": "All visual scenes; audiovisual alignment unverified",
+      "evidence": "Visual samples only; no actual audio range supplied to this reviewer."
+    }
+  ],
+  "categories": [
+    {
+      "id": "Q01",
+      "finding": "A billboard spend and counting method lead to its totals, an equal-budget content campaign and a much larger reported result.",
+      "evidence": "V01–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q02",
+      "finding": "Toronto street footage gives the experiment a concrete place before its spend claim.",
+      "evidence": "V01",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q03",
+      "finding": "The brand appears earlier on the billboard, but the campaign-funding product is concrete only at the form around 49 s.",
+      "evidence": "V02,V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q04",
+      "finding": "Tracking boxes move, counters rise, map points accumulate and the final circles dramatize scale. Counter values before settling are intermediate.",
+      "evidence": "V02,V03,V05,V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q05",
+      "finding": "The same orange billboard anchors the first measurement; the campaign budget links the second half to the comparison.",
+      "evidence": "V01–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q06",
+      "finding": "Monochrome streets and black cards contrast with orange branding, tracking boxes and the final result circle.",
+      "evidence": "V01–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q07",
+      "finding": "Spend and final metrics are clear. Invoice terms, tracking code and submission details are brief and much smaller.",
+      "evidence": "V01,V02,V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q08",
+      "finding": "Voice delivery, music, effects and audiovisual alignment were not established by this visual pass.",
+      "evidence": "A01",
+      "status": "not checked",
+      "reason": "No validated direct audio listening input.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q09",
+      "finding": "Voice delivery, music, effects and audiovisual alignment were not established by this visual pass.",
+      "evidence": "A01",
+      "status": "not checked",
+      "reason": "No validated direct audio listening input.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q10",
+      "finding": "Voice delivery, music, effects and audiovisual alignment were not established by this visual pass.",
+      "evidence": "A01",
+      "status": "not checked",
+      "reason": "No validated direct audio listening input.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q11",
+      "finding": "Voice delivery, music, effects and audiovisual alignment were not established by this visual pass.",
+      "evidence": "A01",
+      "status": "not checked",
+      "reason": "No validated direct audio listening input.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q12",
+      "finding": "Street capture, invoice/device footage, tracking screens and campaign UI are visible; their full provenance is unknown.",
+      "evidence": "V01–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q13",
+      "finding": "Manifest duration 73.073s; indexed dimensions 1920×1080. Source unchanged flag recorded; fresh encoding and audio clipping checks not run.",
+      "evidence": "Group manifest",
+      "status": "uncertain",
+      "reason": "Inherited technical metadata; no fresh media probe in this review.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q14",
+      "finding": "The complete comparison argument is on screen, so its broad story is understandable without audio.",
+      "evidence": "V01–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q15",
+      "finding": "The final large circle makes the claimed scale gap immediate, but can overshadow the different definitions of the metrics.",
+      "evidence": "V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q16",
+      "finding": "More than half the film builds the billboard baseline; the content campaign and conclusion move much faster.",
+      "evidence": "V01–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q17",
+      "finding": "The two stated budgets and final totals create a clear numerical payoff, though the metric equivalence remains unsupported.",
+      "evidence": "V03–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q18",
+      "finding": "The measured-experiment framing suggests confidence; the final size contrast adds a provocative verdict. This is interpretation.",
+      "evidence": "V02,V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q19",
+      "finding": "The billboard is consistently visible across day and night. The content side aggregates many submissions rather than following one piece and its full attribution.",
+      "evidence": "V02,V03,V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q20",
+      "finding": "Counting people who pass a billboard does not establish that they looked at it. Views are not necessarily unique people; scans and clicks have different contexts. The film does not show normalized attention, conversions or audience quality.",
+      "evidence": "V02–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q21",
+      "finding": "Showing the counting tooling and actual budget form makes this more concrete than a generic creator-marketing claim.",
+      "evidence": "V02,V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q22",
+      "finding": "Label each denominator and add comparable conversion or qualified-response data before declaring one channel better.",
+      "evidence": "V03,V05,V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q23",
+      "finding": "Tin can show a real comparison with visible setup and final totals, while naming exactly what each metric measures.",
+      "evidence": "V01–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q24",
+      "finding": "Content Rewards presents a way to fund creator-posted content campaigns and track their reach.",
+      "evidence": "Model reading from inspected images",
+      "status": "uncertain",
+      "reason": "Model-only new-viewer interpretation; no human test.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q25",
+      "finding": "Contact sheets inspected at displayed size; a phone-size playback, caption audit, flash audit and formal accessibility check were not performed.",
+      "evidence": "Viewed sheets",
+      "status": "not checked",
+      "reason": "Full-size moving-image and device checks unavailable in this pass.",
+      "experiment": "none"
+    }
+  ],
+  "lessons": {
+    "keep": "Expose the comparison setup and measurement artifacts before showing the conclusion.",
+    "avoid": "Avoid converting visibility counters into claims about unique people or equivalent attention.",
+    "open": "Spend currency and full costs, counting accuracy, unique reach, attribution, comparable outcomes and all audio remain unverified.",
+    "try": [
+      "Compare two Tin campaign approaches with the same defined goal, budget and attribution window.",
+      "Show a compact table separating views, unique viewers, clicks and qualified outcomes beside the result graphic."
+    ]
+  },
+  "comparison": {
+    "story": "Set up a real-world spend experiment. → Show the counting method. → Report the billboard side of the comparison. → Set up the alternative with a stated equal budget. → Show distributed content reach and response. → Make the comparison memorable and close the argument.",
+    "motion": "Tracking boxes move, counters rise, map points accumulate and the final circles dramatize scale. Counter values before settling are intermediate. Sampling scope: 1 fps unless a closer window is recorded.",
+    "sound": "No validated listening; unknown.",
+    "texture": "Black-and-white city footage shifts to warm orange device shots.; Documentary street views and dark technical monitoring screens.; Large white metrics over location footage, then black result cards.; Close crops of search and form fields.; Dark dashboard, map and large numeric cards.; Strong size contrast and minimal conclusion cards.",
+    "lesson": "Expose the comparison setup and measurement artifacts before showing the conclusion."
+  },
+  "elements": [
+    {
+      "kind": "ui",
+      "name": "terminal",
+      "events": [
+        "V02"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "tracking boxes",
+      "events": [
+        "V02"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "chart",
+      "events": [
+        "V02",
+        "V06"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "campaign form",
+      "events": [
+        "V04"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "submission list",
+      "events": [
+        "V05"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "map",
+      "events": [
+        "V05"
+      ]
+    },
+    {
+      "kind": "motion",
+      "name": "numeric counters",
+      "events": [
+        "V03",
+        "V05"
+      ]
+    }
+  ]
+}

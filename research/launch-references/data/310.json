@@ -1,0 +1,345 @@
+{
+  "id": 310,
+  "product_from_film": "Kairos presents a unified interface for prediction-market trading, with news, charts, order books and order confirmation.",
+  "explains_well": "Event questions lead to a trading workspace, showing the connection between news and prediction markets.",
+  "unclear": "The rapid montage does not follow one event from market selection through order confirmation to a resulting position.",
+  "product_type": "Prediction-market trading interface",
+  "scenario": "World events, sports and financial history build toward a multi-panel trading workstation and private-beta announcement.",
+  "product_clear_time": 2,
+  "product_clear_basis": "The early globe card states a unified interface for prediction markets trading; later screens show its trading form.",
+  "scenes": [
+    {
+      "start": 0,
+      "end": 5,
+      "action": "Fireworks and boxing footage lead to a globe card describing a unified prediction-market trading interface.",
+      "design": "Mixed footage, dark Earth and small technical-style labels.",
+      "purpose": "Name the category quickly.",
+      "evidence": "1 fps source samples in 0–5s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V01"
+    },
+    {
+      "start": 5,
+      "end": 14,
+      "action": "A person approaches a night-city window. Backed by and a16zcrypto overlays lead to the Kairos mark.",
+      "design": "Dark teal city and face close-up, white identity.",
+      "purpose": "Establish scale and backing claim.",
+      "evidence": "1 fps source samples in 5–14s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V02"
+    },
+    {
+      "start": 14,
+      "end": 26,
+      "action": "News, rocket and sports clips carry event-market questions about geopolitical outcomes, space and the Super Bowl.",
+      "design": "Full-frame footage with small market labels along the bottom.",
+      "purpose": "Connect real-world events to tradable questions.",
+      "evidence": "1 fps source samples in 14–26s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V03"
+    },
+    {
+      "start": 26,
+      "end": 36,
+      "action": "Trade goods, historical exchange imagery, stock displays, news broadcasts and currency form a financial-history montage.",
+      "design": "Archive-like footage and contemporary news textures.",
+      "purpose": "Frame a wider trading narrative.",
+      "evidence": "1 fps source samples in 26–36s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V04"
+    },
+    {
+      "start": 36,
+      "end": 45,
+      "action": "Three monitors show charts and order books. A globe, news-integrated workspace, exchange footage and racing clip lead to a first-person desk view and Confirm Order dialog naming Polymarket.",
+      "design": "Dark dense trading panels, physical monitor renders and a blue confirmation button.",
+      "purpose": "Reveal the interface and an order step.",
+      "evidence": "1 fps source samples in 36–45s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V05"
+    },
+    {
+      "start": 45,
+      "end": 53,
+      "action": "News clips alternate with monitor views and a fighter aircraft. An eye close-up follows the last trading display.",
+      "design": "Fast contrast between screens, news and cinematic imagery.",
+      "purpose": "Reinforce speed and market attention.",
+      "evidence": "1 fps source samples in 45–53s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V06"
+    },
+    {
+      "start": 53,
+      "end": 56.389,
+      "action": "Kairos and backing logos appear; Private beta live closes the film.",
+      "design": "White marks and text on black.",
+      "purpose": "Announce availability.",
+      "evidence": "1 fps source samples in 53–56.389s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V07"
+    }
+  ],
+  "sound": [
+    {
+      "id": "A01",
+      "start": 0,
+      "end": 56.389,
+      "layer": "partial script support",
+      "detail": "ASR contains coherent framing about collective prediction, trading access and speed. Several geopolitical/news phrases and the middle financial-history wording are garbled and are not used as factual claims. Music, voice performance, effects and synchronization were not heard or verified.",
+      "visual_relation": "V01–V07; broad trading narrative only, not reliable event transcription.",
+      "evidence": "310-speech.json draft and visible category/market labels."
+    }
+  ],
+  "categories": [
+    {
+      "id": "Q01",
+      "finding": "Category statement → backing → event markets → financial history → trading workspace → beta.",
+      "evidence": "V01–V07",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q02",
+      "finding": "Fireworks and boxing immediately lead to a globe and the prediction-market category.",
+      "evidence": "V01",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q03",
+      "finding": "Prediction-market traders are the clearest audience; dense order books suggest experienced users.",
+      "evidence": "V01,V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q04",
+      "finding": "Rapid footage changes and successive workstation views create movement; exact transitions and interface animations are unverified.",
+      "evidence": "V01–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q05",
+      "finding": "Event labels bridge footage to markets, while recurring monitors bring the montage back to the product.",
+      "evidence": "V03,V05,V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q06",
+      "finding": "Dark teal/black product imagery contrasts with varied news, sports and historical footage.",
+      "evidence": "V01–V07",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q07",
+      "finding": "Market questions and Private beta live are clear anchors. The opening category text and dense trading data are small.",
+      "evidence": "V01,V03,V05,V07",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q08",
+      "finding": "Partial ASR supports a trading-access narrative; garbled news phrases are rejected. Voice delivery is unknown.",
+      "evidence": "A01",
+      "status": "uncertain",
+      "reason": "Draft only, no validated listening.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q09",
+      "finding": "Music character and structure are unverified.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "No validated listening.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q10",
+      "finding": "Effects and their sources are unverified.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "No validated listening; waveform peaks do not identify effects.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q11",
+      "finding": "Sound sync is unverified.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "No validated listening or paired audiovisual timing.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q12",
+      "finding": "News/sports-like clips, archive-like images, monitor renderings and filmed-looking people are mixed. Sources and production methods are unverified.",
+      "evidence": "V01–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q13",
+      "finding": "Source duration 56.389 s; Watch metadata 1920 × 1080. Frame rate, audio clipping and export quality not checked here.",
+      "evidence": "Whole film",
+      "status": "supported",
+      "reason": "Parent source metadata supports duration and dimensions; visual review is sampled.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q14",
+      "finding": "The market-question captions explain the theme visually. The full selection-to-position workflow is not shown.",
+      "evidence": "V03,V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q15",
+      "finding": "Bright order confirmation and repeated charts anchor an otherwise broad collage.",
+      "evidence": "V05,V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q16",
+      "finding": "About half the film is event/history imagery before the sustained workstation reveal around 36s.",
+      "evidence": "V03–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q17",
+      "finding": "A concrete confirmation dialog partially pays off the trading promise, but no final position is shown.",
+      "evidence": "V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q18",
+      "finding": "Night-city scale, racing and news imagery suggest urgency and power; viewer response and heard intensity are unverified.",
+      "evidence": "V02–V06",
+      "status": "uncertain",
+      "reason": "Visual interpretation only.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q19",
+      "finding": "Event questions and adjacent news/chart panels give the product a coherent information-to-trade theme.",
+      "evidence": "V03,V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q20",
+      "finding": "Backing, speed, access and accuracy are film claims. News clips are analyzed as film material, not verified current events; no trading performance is established.",
+      "evidence": "V02–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q21",
+      "finding": "News alongside charts and order books makes the unified-interface claim more tangible.",
+      "evidence": "V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q22",
+      "finding": "Complete one market trade instead of adding another unrelated clip.",
+      "evidence": "V03,V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "Keep one event label visible through market selection, order confirmation and the resulting position."
+    },
+    {
+      "id": "Q23",
+      "finding": "For Tin, connect information to a visible action and final state.",
+      "evidence": "V03,V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "Take one campaign signal into a specific edit, approval and published post."
+    },
+    {
+      "id": "Q24",
+      "finding": "No human new-viewer test was performed.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "The product summary is this model’s film-only reading.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q25",
+      "finding": "Mobile preview and accessibility checks were not performed.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "Contact sheets are evidence views, not a stated mobile preview or compliance test.",
+      "experiment": "none"
+    }
+  ],
+  "elements": [
+    {
+      "kind": "ui",
+      "name": "trading chart",
+      "events": [
+        "V05",
+        "V06"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "order book",
+      "events": [
+        "V05",
+        "V06"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "order confirmation",
+      "events": [
+        "V05"
+      ]
+    },
+    {
+      "kind": "texture",
+      "name": "news and archive collage",
+      "events": [
+        "V03",
+        "V04",
+        "V06"
+      ]
+    }
+  ],
+  "lessons": {
+    "keep": "Use labeled real-world questions to explain a market interface.",
+    "try": [
+      "Follow one event through a confirmed order to its position.",
+      "For Tin, turn one campaign signal into an edit, approval and published result."
+    ],
+    "avoid": "Using speed imagery as a substitute for a complete action.",
+    "open": "Trading workflow completion, platform access, performance claims and all audio qualities remain unverified."
+  },
+  "comparison": {
+    "story": "Events and financial history → unified trading station → beta.",
+    "motion": "Rapid footage changes and recurring monitor views.",
+    "sound": "Partial broad ASR framing; garbled event passages rejected.",
+    "texture": "Dark workstations, news and archival trading imagery.",
+    "lesson": "A concrete order step helps, but the resulting position would complete the proof."
+  },
+  "reviewer_model": "gpt-6-astra",
+  "scope": "sampled visual and story review; ASR and measured signal support; no validated audio listening",
+  "viewed_evidence": [
+    "technical-review-2026-10-19/deep-review/motion/310/timeline-00.jpg",
+    "technical-review-2026-10-19/deep-review/motion/310/timeline-01.jpg"
+  ],
+  "closer_windows": []
+}

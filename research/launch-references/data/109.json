@@ -1,0 +1,373 @@
+{
+  "id": 109,
+  "product_from_film": "ChatGPT Voice is presented as a phone conversation partner for everyday questions, fact checking and translation.",
+  "explains_well": "People ask questions while repeated phone close-ups link their reactions to the same simple voice screen.",
+  "unclear": "The sampled images and error-prone transcript cannot verify natural turn taking, latency, answer accuracy or translation quality.",
+  "product_type": "consumer voice assistant",
+  "scenario": "Older women use a phone while knitting, discussing a lecture and acting out a book-price conversation.",
+  "product_clear_time": 21,
+  "product_clear_basis": "The large ChatGPT Voice title identifies the phone interaction seen earlier; task details rely on ASR draft.",
+  "scenes": [
+    {
+      "start": 0,
+      "end": 15,
+      "action": "Close hands knit red yarn, then the woman and a phone with a blue-purple orb are shown.",
+      "design": "Warm room, plants, books and real yarn establish an everyday setting.",
+      "purpose": "Introduce use alongside a physical activity; knitting advice is in ASR draft.",
+      "evidence": "1 fps source samples in 0–15s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V01"
+    },
+    {
+      "start": 15,
+      "end": 34,
+      "action": "The woman picks up her phone; a clapperboard appears before the large yellow ChatGPT Voice title. A simplify-that caption follows.",
+      "design": "Large italic yellow lettering over the seated speaker.",
+      "purpose": "Name the product and move from technical announcement to plain explanation.",
+      "evidence": "1 fps source samples in 15–34s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V02"
+    },
+    {
+      "start": 34,
+      "end": 60,
+      "action": "Phone orb close-ups alternate with the woman speaking and reacting.",
+      "design": "Uncluttered white phone UI contrasts with the detailed room.",
+      "purpose": "Connect spoken explanation to the device; draft mentions interruptions and corrections.",
+      "evidence": "1 fps source samples in 34–60s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V03"
+    },
+    {
+      "start": 60,
+      "end": 88,
+      "action": "A second woman in a floral top enters and speaks to an orange phone. Camera equipment briefly appears.",
+      "design": "Same table and background, new clothing and phone case.",
+      "purpose": "Change presenter while keeping location familiar; draft introduces travel and reasoning.",
+      "evidence": "1 fps source samples in 60–88s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V04"
+    },
+    {
+      "start": 88,
+      "end": 145,
+      "action": "The second woman alternates between the phone, camera and gestures. Orb close-ups punctuate the extended exchange.",
+      "design": "Wide and close human views, with little task text visible.",
+      "purpose": "ASR draft describes fact checking dates plus transport and weather questions; pictures alone do not show answers.",
+      "evidence": "1 fps source samples in 88–145s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V05"
+    },
+    {
+      "start": 145,
+      "end": 163,
+      "action": "A woman in mustard clothing sits down, then another joins her across the table.",
+      "design": "Same room and a book prop support a two-person setup.",
+      "purpose": "Set up the translation role-play described in ASR.",
+      "evidence": "1 fps source samples in 145–163s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V06"
+    },
+    {
+      "start": 163,
+      "end": 190,
+      "action": "One woman holds the phone near her mouth and toward her partner. Both react and smile; phone orb views recur.",
+      "design": "Book on table, close reaction shots, green phone case.",
+      "purpose": "Show a shared conversation; draft describes bargaining over a marked book.",
+      "evidence": "1 fps source samples in 163–190s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V07"
+    },
+    {
+      "start": 190,
+      "end": 206,
+      "action": "Three women face the camera together; yellow ChatGPT Voice title returns over their reactions.",
+      "design": "Group composition and repeated large title.",
+      "purpose": "Summarize the social use and repeat the product name.",
+      "evidence": "1 fps source samples in 190–206s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V08"
+    },
+    {
+      "start": 206,
+      "end": 214.047,
+      "action": "The group continues with the phone, then white ChatGPT and logo cards end the film.",
+      "design": "Simple black branding on white.",
+      "purpose": "Close after a final conversation beat; restaurant request appears in ASR draft.",
+      "evidence": "1 fps source samples in 206–214.047s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V09"
+    }
+  ],
+  "sound": [
+    {
+      "id": "A01",
+      "start": 0,
+      "end": 214.047,
+      "layer": "ASR draft",
+      "detail": "Draft describes knitting advice, full-duplex conversation, fact checking and weather requests, and French translation in a book-price role-play. Many names and translated phrases are garbled. No validated listening; voice identity, delivery, latency, music and effects are unknown.",
+      "visual_relation": "V01–V09; source-time text support only, exact audiovisual alignment unverified.",
+      "evidence": "technical-review-2026-10-19/deep-review/audio/109-speech.json; inspected all segment text with timestamps, not word-level audio."
+    }
+  ],
+  "categories": [
+    {
+      "id": "Q01",
+      "finding": "Everyday knitting opens the film, followed by a named launch, three conversation examples and a group close.",
+      "evidence": "V01–V09",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q02",
+      "finding": "Knitting hands create a concrete daily activity before the product title.",
+      "evidence": "V01,V02",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q03",
+      "finding": "ChatGPT Voice is named at about 21s; the phone orb alone is less explanatory.",
+      "evidence": "V02",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q04",
+      "finding": "The phone orb changes shape across samples, but responsiveness and animation timing cannot be assessed at 1 fps.",
+      "evidence": "V03,V05,V07",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q05",
+      "finding": "Wide table views alternate with faces and phone inserts; presenter changes mark larger sections.",
+      "evidence": "V03–V08",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q06",
+      "finding": "Yarn, clothing, plants and books give the film a domestic material setting.",
+      "evidence": "V01,V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q07",
+      "finding": "Large yellow title is easy to notice; most conversation content has no visible continuous captions in sampled coverage.",
+      "evidence": "V02,V05,V08",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q08",
+      "finding": "ASR draft supports conversation topics, but has errors in proper names, transport and French phrases. Voice performance is unverified.",
+      "evidence": "A01",
+      "status": "uncertain",
+      "reason": "Transcript is text support, not direct listening.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q09",
+      "finding": "Music character and structure are unverified.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "No validated listening.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q10",
+      "finding": "Effects and their sources are unverified.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "No validated listening; waveform peaks do not identify effects.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q11",
+      "finding": "Sound sync is unverified.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "No validated listening or paired audiovisual timing.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q12",
+      "finding": "People, room and phone are shown in live-action-style footage; capture and post-production method are not independently known.",
+      "evidence": "V01–V08",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q13",
+      "finding": "Source duration 214.047 s; Watch metadata 1920 × 1080. Frame rate, audio clipping and export quality not checked here.",
+      "evidence": "Whole film",
+      "status": "supported",
+      "reason": "Parent source metadata supports duration and dimensions; visual review is sampled.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q14",
+      "finding": "Silent pictures show phone conversation and reactions, but reasoning and translation benefits need speech or captions.",
+      "evidence": "V05,V07",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q15",
+      "finding": "Phone close-ups isolate one orb and a few controls, while faces carry the surrounding scene.",
+      "evidence": "V03,V05,V07",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q16",
+      "finding": "The fact-check section lasts roughly 57s with similar framing; its information depends heavily on the spoken exchange.",
+      "evidence": "V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q17",
+      "finding": "Opening everyday use is followed by more everyday requests and a shared social example.",
+      "evidence": "V01,V05,V07",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q18",
+      "finding": "Smiles, reaction close-ups and a shared table may make the tool feel approachable; audience response was not measured.",
+      "evidence": "V07,V08",
+      "status": "uncertain",
+      "reason": "Interpretation of visual choices.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q19",
+      "finding": "One room, repeated orb UI and repeated yellow title tie all presenters together.",
+      "evidence": "V01–V08",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q20",
+      "finding": "The film presents examples and claims through conversation. Stills and ASR cannot verify full-duplex behavior, factual answers or live translation.",
+      "evidence": "V03,V05,V07",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q21",
+      "finding": "Yellow script title and recurring domestic set distinguish the presentation from a dashboard demo.",
+      "evidence": "V02,V08",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q22",
+      "finding": "A short visible question-and-answer caption in the long fact-check section could clarify its purpose when muted.",
+      "evidence": "V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "Add concise task and outcome labels beside the phone, preserving face visibility."
+    },
+    {
+      "id": "Q23",
+      "finding": "For Tin, pair one ordinary user situation with the actual product state and a readable result.",
+      "evidence": "V01,V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "Show a user preparing a post, then the generated draft and one visible correction."
+    },
+    {
+      "id": "Q24",
+      "finding": "No human new-viewer test was performed.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "The product summary is this model’s film-only reading.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q25",
+      "finding": "Mobile preview and accessibility checks were not performed.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "Contact sheets are evidence views, not a stated mobile preview or compliance test.",
+      "experiment": "none"
+    }
+  ],
+  "elements": [
+    {
+      "kind": "ui",
+      "name": "voice orb",
+      "events": [
+        "V01",
+        "V03",
+        "V05",
+        "V07"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "phone shell",
+      "events": [
+        "V03",
+        "V05",
+        "V07"
+      ]
+    },
+    {
+      "kind": "texture",
+      "name": "live action people",
+      "events": [
+        "V01",
+        "V05",
+        "V07"
+      ]
+    },
+    {
+      "kind": "texture",
+      "name": "domestic room",
+      "events": [
+        "V01",
+        "V06"
+      ]
+    }
+  ],
+  "lessons": {
+    "keep": "Return to the same clear phone screen between human reactions so the device remains connected to the story.",
+    "try": [
+      "Add two short question-and-answer captions to the fact-check exchange and compare muted comprehension.",
+      "For Tin, film one user making a visible correction to a generated post, then show the saved result in the same setting."
+    ],
+    "avoid": "Using smiling reactions as evidence of factual accuracy or low latency.",
+    "open": "Voice quality, overlap handling, transcript accuracy, translation accuracy and edited versus real response timing remain unknown."
+  },
+  "comparison": {
+    "story": "Knitting use → named launch → explanation → reasoning example → translation role-play → group recap.",
+    "motion": "Human gestures, phone orb states and alternating shot sizes; exact response timing unverified.",
+    "sound": "ASR topic support only; no validated listening or voice-quality assessment.",
+    "texture": "Warm room, yarn, patterned clothing, books and minimal phone interface.",
+    "lesson": "Human examples need readable task outcomes if the film must work silently."
+  },
+  "reviewer_model": "gpt-6-astra",
+  "scope": "sampled visual and story review; ASR and measured signal support; no validated audio listening",
+  "viewed_evidence": [
+    "technical-review-2026-10-19/deep-review/motion/109/timeline-00.jpg",
+    "technical-review-2026-10-19/deep-review/motion/109/timeline-01.jpg",
+    "technical-review-2026-10-19/deep-review/motion/109/timeline-02.jpg",
+    "technical-review-2026-10-19/deep-review/motion/109/timeline-03.jpg",
+    "technical-review-2026-10-19/deep-review/motion/109/timeline-04.jpg",
+    "technical-review-2026-10-19/deep-review/motion/109/timeline-05.jpg",
+    "technical-review-2026-10-19/deep-review/motion/109/timeline-06.jpg",
+    "technical-review-2026-10-19/deep-review/motion/109/timeline-07.jpg"
+  ],
+  "closer_windows": []
+}

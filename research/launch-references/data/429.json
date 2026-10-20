@@ -1,0 +1,360 @@
+{
+  "id": 429,
+  "reviewer_model": "gpt-6-astra",
+  "scope": "sampled visual and story review; ASR and measured signal support; no validated audio listening",
+  "viewed_evidence": [
+    "technical-review-2026-10-19/deep-review/motion/429/timeline-00.jpg",
+    "technical-review-2026-10-19/deep-review/motion/429/timeline-01.jpg",
+    "technical-review-2026-10-19/deep-review/motion/429/timeline-02.jpg",
+    "technical-review-2026-10-19/deep-review/audio/429-speech.json"
+  ],
+  "closer_windows": [],
+  "product_from_film": "YapStick is pitched as a handheld way to turn spoken thoughts into X posts.",
+  "explains_well": "Two typed post cards connect the physical object to a recognizable output.",
+  "unclear": "The film does not show whether the text is a draft or a published post, or how the user approves it.",
+  "product_type": "comedy product pitch",
+  "scenario": "Speak into a small device and turn a thought into a social post.",
+  "product_clear_time": 3,
+  "product_clear_basis": "The first typed post card appears beside the speaker.",
+  "scenes": [
+    {
+      "id": "V01",
+      "start": 0,
+      "end": 3,
+      "action": "A hand presents a small white and black device, followed by the YapStick wordmark.",
+      "design": "Close product framing and a simple script wordmark.",
+      "purpose": "Introduce the object.",
+      "evidence": "Visible chronological 1 fps samples, source 0–3s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V02",
+      "start": 3,
+      "end": 9,
+      "action": "The presenter speaks toward the device while an X-style post card fills with a provocative statement about customers.",
+      "design": "Black turtleneck, circular spotlight and floating white card.",
+      "purpose": "Connect speech with a social post.",
+      "evidence": "Visible chronological 1 fps samples, source 3–9s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V03",
+      "start": 9,
+      "end": 20,
+      "action": "Seated direct address alternates between close and wider framing, ending with the device held toward the camera.",
+      "design": "Plain wall and isolated spotlight.",
+      "purpose": "Develop the comic pitch.",
+      "evidence": "Visible chronological 1 fps samples, source 9–20s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V04",
+      "start": 20,
+      "end": 44,
+      "action": "The presenter continues gesturing and occasionally speaks directly into the device.",
+      "design": "Repeated close and wide seated compositions.",
+      "purpose": "Sustain the satirical argument.",
+      "evidence": "Visible chronological 1 fps samples, source 20–44s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V05",
+      "start": 44,
+      "end": 49,
+      "action": "A bathroom cutaway shows the same person with the device while another post card fills with a toilet-related idea.",
+      "design": "New location but the same floating post treatment.",
+      "purpose": "Repeat the speech-to-post example in a comic setting.",
+      "evidence": "Visible chronological 1 fps samples, source 44–49s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V06",
+      "start": 49,
+      "end": 68,
+      "action": "The spotlight presentation resumes; the presenter speaks, gestures and holds up the device.",
+      "design": "Consistent minimal set and handheld product.",
+      "purpose": "Return to the sales pitch.",
+      "evidence": "Visible chronological 1 fps samples, source 49–68s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V07",
+      "start": 68,
+      "end": 71,
+      "action": "A white product card shows YapStick, the device and a $59 price.",
+      "design": "Clean packshot with changing device angle.",
+      "purpose": "State the purchase price.",
+      "evidence": "Visible chronological 1 fps samples, source 68–71s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V08",
+      "start": 71,
+      "end": 74.837,
+      "action": "The presenter returns and holds the device near his face.",
+      "design": "Spotlight set and product close framing.",
+      "purpose": "Close on the person and object.",
+      "evidence": "Visible chronological 1 fps samples, source 71–74.837s; boundary approximate; exact motion between samples unverified."
+    }
+  ],
+  "sound": [
+    {
+      "id": "A01",
+      "start": 0,
+      "end": 74.837,
+      "layer": "unknown",
+      "detail": "No validated direct audio listening was performed. Music, speech delivery, effects, mix and sync remain unknown, not absent.",
+      "visual_relation": "All visual scenes; audiovisual alignment unverified",
+      "evidence": "Visual samples only; no actual audio range supplied to this reviewer."
+    },
+    {
+      "id": "A02",
+      "start": 3.72,
+      "end": 72.76,
+      "layer": "ASR draft",
+      "detail": "The coherent ASR draft is a satirical sales monologue about posting thoughts, followed by a purchase pitch. It supports the comic role of the two post examples. Its accessibility jokes are not evidence of product accessibility, and its spoken price differs slightly from the visible card. Delivery, music and effects were not heard.",
+      "visual_relation": "Story text support; exact audiovisual alignment and delivery unverified.",
+      "evidence": "technical-review-2026-10-19/deep-review/audio/429-speech.json; local faster-whisper base CPU int8 draft; VAD candidates only, recognition errors possible."
+    }
+  ],
+  "categories": [
+    {
+      "id": "Q01",
+      "finding": "Object reveal, speech-to-post example, extended comic pitch, second example and price card form the story.",
+      "evidence": "V01–V08",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q02",
+      "finding": "A close hand-held object gives an immediate physical hook before the wordmark. Its function arrives with the post card.",
+      "evidence": "V01–V02",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q03",
+      "finding": "The device is aimed at people who post thoughts on X; the two post mockups make that use clearer than the long monologue.",
+      "evidence": "V02,V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q04",
+      "finding": "Post text builds beside the speaker, framing cuts between close and wide views, and the late packshot changes the device angle.",
+      "evidence": "V02–V07",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q05",
+      "finding": "Direct cuts preserve the speaker across framing changes; the bathroom jump supplies the main location change before returning to the spotlight.",
+      "evidence": "V03–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q06",
+      "finding": "A black turtleneck and circular light give the simple room a staged presentation feel. White post cards echo the white product shell.",
+      "evidence": "V02–V07",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q07",
+      "finding": "Post text and the price are the main readable graphics. Most of the monologue has no visible captions.",
+      "evidence": "V02–V07",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q08",
+      "finding": "The coherent ASR draft is a satirical sales monologue about posting thoughts, followed by a purchase pitch. It supports the comic role of the two post examples. Its accessibility jokes are not evidence of product accessibility, and its spoken price differs slightly from the visible card. Delivery, music and effects were not heard.",
+      "evidence": "A02",
+      "status": "uncertain",
+      "reason": "ASR text only; no validated listening, delivery or voice origin.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q09",
+      "finding": "Voice delivery, music, effects and audiovisual alignment were not established by this visual pass.",
+      "evidence": "A01",
+      "status": "not checked",
+      "reason": "No validated direct audio listening input.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q10",
+      "finding": "Voice delivery, music, effects and audiovisual alignment were not established by this visual pass.",
+      "evidence": "A01",
+      "status": "not checked",
+      "reason": "No validated direct audio listening input.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q11",
+      "finding": "Voice delivery, music, effects and audiovisual alignment were not established by this visual pass.",
+      "evidence": "A01",
+      "status": "not checked",
+      "reason": "No validated direct audio listening input.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q12",
+      "finding": "A physical device, presenter footage, bathroom cutaway, post mockups and product packshot carry the film.",
+      "evidence": "V01–V08",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q13",
+      "finding": "Manifest duration 74.837s; indexed dimensions 1920×1080. Source unchanged flag recorded; fresh encoding and audio clipping checks not run.",
+      "evidence": "Group manifest",
+      "status": "uncertain",
+      "reason": "Inherited technical metadata; no fresh media probe in this review.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q14",
+      "finding": "Silent viewing shows speech associated with post text and a price, but loses most of the long satirical argument.",
+      "evidence": "V02–V07",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q15",
+      "finding": "The spotlight isolates the presenter; the post card briefly competes with his face but carries the necessary output.",
+      "evidence": "V02,V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q16",
+      "finding": "The middle spends many seconds on direct address after the first use case is clear; a second product step could use some of that time.",
+      "evidence": "V03–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q17",
+      "finding": "The opening object gains a speech-to-post use case, then a price. Publication and approval remain outside the demonstration.",
+      "evidence": "V01,V02,V07",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q18",
+      "finding": "Provocative post text and the bathroom setting suggest deliberate absurd humor. Heard timing and delivery were not checked.",
+      "evidence": "V02,V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q19",
+      "finding": "The same person and device connect both examples. The visible price is $59 while the ASR draft says $59.99; the film does not explain that difference.",
+      "evidence": "V02,V05,V07",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q20",
+      "finding": "The cards demonstrate an intended output, not a verified live post. No account connection, button action or publishing receipt is shown.",
+      "evidence": "V02,V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q21",
+      "finding": "The device silhouette, X mark, wordmark and restrained spotlight set create a recognizable recurring identity.",
+      "evidence": "V01–V08",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q22",
+      "finding": "Shorten one monologue section and show the approval action and resulting post state.",
+      "evidence": "V04–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q23",
+      "finding": "Use a comic spoken input followed by a readable output card, then show the real approval step. A physical prop and simple set can support the joke.",
+      "evidence": "V02,V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q24",
+      "finding": "YapStick is pitched as a handheld way to turn spoken thoughts into X posts.",
+      "evidence": "Model reading from inspected images",
+      "status": "uncertain",
+      "reason": "Model-only new-viewer interpretation; no human test.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q25",
+      "finding": "Contact sheets inspected at displayed size; a phone-size playback, caption audit, flash audit and formal accessibility check were not performed.",
+      "evidence": "Viewed sheets",
+      "status": "not checked",
+      "reason": "Full-size moving-image and device checks unavailable in this pass.",
+      "experiment": "none"
+    }
+  ],
+  "lessons": {
+    "keep": "Pair a physical action with a readable output beside the person.",
+    "avoid": "Treating a floating post mockup as proof that content was published.",
+    "open": "Publication flow, price precision and actual audio delivery remain unverified.",
+    "try": [
+      "For Tin, let a user say a deliberately rough campaign idea, then show the resulting draft and approval control.",
+      "Compare a shorter two-example comedy pitch with the longer monologue while keeping the same price ending."
+    ]
+  },
+  "comparison": {
+    "story": "Introduce the object. → Connect speech with a social post. → Develop the comic pitch. → Sustain the satirical argument. → Repeat the speech-to-post example in a comic setting. → Return to the sales pitch. → State the purchase price. → Close on the person and object.",
+    "motion": "Post text builds beside the speaker, framing cuts between close and wide views, and the late packshot changes the device angle. Sampling scope: 1 fps unless a closer window is recorded.",
+    "sound": "No validated listening; unknown.",
+    "texture": "Close product framing and a simple script wordmark.; Black turtleneck, circular spotlight and floating white card.; Plain wall and isolated spotlight.; Repeated close and wide seated compositions.; New location but the same floating post treatment.; Consistent minimal set and handheld product.; Clean packshot with changing device angle.; Spotlight set and product close framing.",
+    "lesson": "Pair a physical action with a readable output beside the person."
+  },
+  "elements": [
+    {
+      "kind": "ui",
+      "name": "social post card",
+      "events": [
+        "V02",
+        "V05"
+      ]
+    },
+    {
+      "kind": "motion",
+      "name": "typing text",
+      "events": [
+        "V02",
+        "V05"
+      ]
+    },
+    {
+      "kind": "texture",
+      "name": "circular spotlight",
+      "events": [
+        "V02",
+        "V03",
+        "V04",
+        "V06",
+        "V08"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,354 @@
+{
+  "id": 192,
+  "reviewer_model": "gpt-6-astra",
+  "scope": "sampled visual and story review; ASR and measured signal support; no validated audio listening",
+  "viewed_evidence": [
+    "technical-review-2026-10-19/deep-review/motion/192/timeline-00.jpg",
+    "technical-review-2026-10-19/deep-review/motion/192/timeline-01.jpg",
+    "technical-review-2026-10-19/deep-review/motion/192/timeline-02.jpg",
+    "technical-review-2026-10-19/deep-review/audio/192-speech.json"
+  ],
+  "closer_windows": [],
+  "product_from_film": "Incandor uses interaction patterns to group account sessions and reveal possible fraud networks.",
+  "explains_well": "The explanation builds from a device session to one point, then a cluster and a larger network.",
+  "unclear": "The viewer does not see an investigator select a suspicious cluster or decide what action to take.",
+  "product_type": "fraud intelligence",
+  "scenario": "Identify shared operators and account changes from behavioral sessions.",
+  "product_clear_time": 34,
+  "product_clear_basis": "A session becomes a point, then matching sessions form a person-level cluster with explanatory captions.",
+  "scenes": [
+    {
+      "id": "V01",
+      "start": 0,
+      "end": 19,
+      "action": "A founder seated at a kitchen table introduces account fraud; large words surround him. Keyboard, login and dark computer-user clips illustrate the threat.",
+      "design": "Warm brick kitchen, bold white words and cool-toned computer inserts.",
+      "purpose": "Explain stolen accounts and coordinated operators.",
+      "evidence": "Visible chronological 1 fps samples, source 0–19s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V02",
+      "start": 19,
+      "end": 26,
+      "action": "The founder remains in the same view while captions promise real-time operator identity and name a behavioral map.",
+      "design": "Stable talking-head framing with bottom captions.",
+      "purpose": "Introduce the product concept.",
+      "evidence": "Visible chronological 1 fps samples, source 19–26s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V03",
+      "start": 26,
+      "end": 38,
+      "action": "A second speaker sits on a sofa. A simple browser-like panel shows interaction traces, then fades into one glowing point beside him.",
+      "design": "White panel and pale violet point overlay.",
+      "purpose": "Define the basic unit: a session signature.",
+      "evidence": "Visible chronological 1 fps samples, source 26–38s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V04",
+      "start": 38,
+      "end": 50,
+      "action": "Many glowing points form a cluster. Groups separate and reconnect; colored points and red emphasis accompany account-change and returning-criminal examples.",
+      "design": "Violet particle clusters, thin links and red highlighting.",
+      "purpose": "Explain shared identity and suspicious relationships.",
+      "evidence": "Visible chronological 1 fps samples, source 38–50s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V05",
+      "start": 50,
+      "end": 56,
+      "action": "The first founder returns with transaction and linkage icons. Captions introduce integration with existing data.",
+      "design": "Simple white line icons beside speaker.",
+      "purpose": "Connect behavior with other evidence.",
+      "evidence": "Visible chronological 1 fps samples, source 50–56s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V06",
+      "start": 56,
+      "end": 70,
+      "action": "A full-screen field of colored clusters fills the dark background. Captions define each dot and cluster, contrast honest users with others, then dissolve back to the founder.",
+      "design": "Dense multicolored point map on black.",
+      "purpose": "Expand the model to a whole user population.",
+      "evidence": "Visible chronological 1 fps samples, source 56–70s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V07",
+      "start": 70,
+      "end": 75.669,
+      "action": "Incandor name and triangular mark hold on white, then darken to black.",
+      "design": "Minimal monochrome branding.",
+      "purpose": "Close the explanation.",
+      "evidence": "Visible chronological 1 fps samples, source 70–75.669s; boundary approximate; exact motion between samples unverified."
+    }
+  ],
+  "sound": [
+    {
+      "id": "A01",
+      "start": 0,
+      "end": 75.669,
+      "layer": "unknown",
+      "detail": "No validated direct audio listening was performed. Music, speech delivery, effects, mix and sync remain unknown, not absent.",
+      "visual_relation": "All visual scenes; audiovisual alignment unverified",
+      "evidence": "Visual samples only; no actual audio range supplied to this reviewer."
+    },
+    {
+      "id": "A02",
+      "start": 0.13,
+      "end": 69.63,
+      "layer": "ASR draft",
+      "detail": "ASR draft supports the account-fraud problem, interaction signals, session signatures, matching clusters and integration with transaction/linkage data. The product name and several phrases are misrecognized. It supports script structure only; delivery and soundtrack were not heard.",
+      "visual_relation": "Story text support; exact audiovisual alignment and delivery unverified.",
+      "evidence": "technical-review-2026-10-19/deep-review/audio/192-speech.json; local faster-whisper base CPU int8 draft; VAD candidates only, recognition errors possible."
+    }
+  ],
+  "categories": [
+    {
+      "id": "Q01",
+      "finding": "Fraud-ring problem leads to behavior capture, session signatures, person clusters and a whole-population map.",
+      "evidence": "V01–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q02",
+      "finding": "A seated founder, oversized We started text and brief brand card begin with company purpose rather than a specific case.",
+      "evidence": "V01",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q03",
+      "finding": "The fraud audience is established early; the session-to-point explanation makes the mechanism concrete around 34 s.",
+      "evidence": "V01,V03",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q04",
+      "finding": "The browser panel fades to a point, points multiply into clusters and the map expands to fill the frame. Exact particle paths are unresolved.",
+      "evidence": "V03,V04,V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q05",
+      "finding": "The repeated dot/cluster language bridges the small explanation beside the speaker and the large map.",
+      "evidence": "V03,V04,V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q06",
+      "finding": "Warm domestic talking-head settings contrast with cool threat imagery and glowing violet analytic graphics.",
+      "evidence": "V01,V03,V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q07",
+      "finding": "Captions define dot and cluster clearly; the final dense map lacks readable account labels or a selected investigation.",
+      "evidence": "V03,V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q08",
+      "finding": "ASR draft supports the account-fraud problem, interaction signals, session signatures, matching clusters and integration with transaction/linkage data. The product name and several phrases are misrecognized. It supports script structure only; delivery and soundtrack were not heard.",
+      "evidence": "A02",
+      "status": "uncertain",
+      "reason": "ASR text only; no validated listening, delivery or voice origin.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q09",
+      "finding": "Voice delivery, music, effects and audiovisual alignment were not established by this visual pass.",
+      "evidence": "A01",
+      "status": "not checked",
+      "reason": "No validated direct audio listening input.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q10",
+      "finding": "Voice delivery, music, effects and audiovisual alignment were not established by this visual pass.",
+      "evidence": "A01",
+      "status": "not checked",
+      "reason": "No validated direct audio listening input.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q11",
+      "finding": "Voice delivery, music, effects and audiovisual alignment were not established by this visual pass.",
+      "evidence": "A01",
+      "status": "not checked",
+      "reason": "No validated direct audio listening input.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q12",
+      "finding": "Speakers, computer-use inserts, simplified browser graphics and particle diagrams are combined; diagram data provenance is unknown.",
+      "evidence": "V01–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q13",
+      "finding": "Manifest duration 75.669s; indexed dimensions 1920×1080. Source unchanged flag recorded; fresh encoding and audio clipping checks not run.",
+      "evidence": "Group manifest",
+      "status": "uncertain",
+      "reason": "Inherited technical metadata; no fresh media probe in this review.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q14",
+      "finding": "Captions preserve the mechanism without heard speech, but unlabeled clusters alone do not explain which case deserves action.",
+      "evidence": "V03,V04,V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q15",
+      "finding": "The graphic occupies the empty sofa side while the speaker stays on the other side, then takes over the full frame.",
+      "evidence": "V03,V04,V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q16",
+      "finding": "The film spends about 19 s on threat framing and more than 20 s defining points and clusters, giving the mechanism room to develop.",
+      "evidence": "V01,V03,V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q17",
+      "finding": "The opening hidden fraud rings are answered with a visible network model, but no completed investigation.",
+      "evidence": "V01,V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q18",
+      "finding": "Threat language creates concern; orderly grouping suggests that hidden relationships can become understandable.",
+      "evidence": "V01,V03,V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q19",
+      "finding": "Violet points remain consistent from one session to many users, reinforcing the same visual vocabulary.",
+      "evidence": "V03,V04,V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q20",
+      "finding": "Animated grouping explains the proposed model but does not establish exact operator identity, fraud accuracy or false-positive rates.",
+      "evidence": "V03–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q21",
+      "finding": "Session-to-person clustering is specific to the behavioral identity proposition; generic hacker inserts add less specificity.",
+      "evidence": "V01,V03,V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q22",
+      "finding": "A selected cluster with evidence and an investigator decision would complete the story more usefully than additional threat footage.",
+      "evidence": "V01,V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q23",
+      "finding": "Tin can explain one event, its campaign group and a wider pattern with a stable visual unit, then show the decision it supports.",
+      "evidence": "V03,V04,V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q24",
+      "finding": "Incandor uses interaction patterns to group account sessions and reveal possible fraud networks.",
+      "evidence": "Model reading from inspected images",
+      "status": "uncertain",
+      "reason": "Model-only new-viewer interpretation; no human test.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q25",
+      "finding": "Contact sheets inspected at displayed size; a phone-size playback, caption audit, flash audit and formal accessibility check were not performed.",
+      "evidence": "Viewed sheets",
+      "status": "not checked",
+      "reason": "Full-size moving-image and device checks unavailable in this pass.",
+      "experiment": "none"
+    }
+  ],
+  "lessons": {
+    "keep": "Define one visual unit before expanding it into a complex system.",
+    "avoid": "Avoid leaving the final analytic map as an attractive but unactionable cloud.",
+    "open": "Identity accuracy, false positives, data provenance, investigator workflow, exact particle motion and all audio delivery remain unverified.",
+    "try": [
+      "Show one Tin conversion event becoming a campaign group, then compare groups using a visible legend.",
+      "End a network explanation by selecting one flagged group and showing the evidence and next action."
+    ]
+  },
+  "comparison": {
+    "story": "Explain stolen accounts and coordinated operators. → Introduce the product concept. → Define the basic unit: a session signature. → Explain shared identity and suspicious relationships. → Connect behavior with other evidence. → Expand the model to a whole user population. → Close the explanation.",
+    "motion": "The browser panel fades to a point, points multiply into clusters and the map expands to fill the frame. Exact particle paths are unresolved. Sampling scope: 1 fps unless a closer window is recorded.",
+    "sound": "No validated listening; unknown.",
+    "texture": "Warm brick kitchen, bold white words and cool-toned computer inserts.; Stable talking-head framing with bottom captions.; White panel and pale violet point overlay.; Violet particle clusters, thin links and red highlighting.; Simple white line icons beside speaker.; Dense multicolored point map on black.; Minimal monochrome branding.",
+    "lesson": "Define one visual unit before expanding it into a complex system."
+  },
+  "elements": [
+    {
+      "kind": "ui",
+      "name": "browser panel",
+      "events": [
+        "V03"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "network map",
+      "events": [
+        "V06"
+      ]
+    },
+    {
+      "kind": "motion",
+      "name": "points form clusters",
+      "events": [
+        "V03",
+        "V04"
+      ]
+    },
+    {
+      "kind": "texture",
+      "name": "glowing particles",
+      "events": [
+        "V04",
+        "V06"
+      ]
+    }
+  ]
+}

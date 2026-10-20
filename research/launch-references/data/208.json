@@ -1,0 +1,325 @@
+{
+  "id": 208,
+  "product_from_film": "SOAR invites viewers to trade startups through trysoar.com.",
+  "explains_well": "The film clearly frames a gap between valuable startups and ordinary people being able to invest in them.",
+  "unclear": "Trade startups does not explain the instrument, access conditions or any step inside the product.",
+  "product_type": "startup trading invitation",
+  "scenario": "A generational wealth comparison leads to startup-access frustration, a phone in space and a website/QR call to action.",
+  "product_clear_time": 12,
+  "product_clear_basis": "Trade startups and trysoar.com appear beside the phone at 12s.",
+  "scenes": [
+    {
+      "start": 0,
+      "end": 4,
+      "action": "House footage, a rising graph and mortgage news sit under wording about past generations buying houses for $30K that are now worth millions.",
+      "design": "Large white text over news and housing imagery.",
+      "purpose": "Frame a wealth opportunity through a familiar comparison.",
+      "evidence": "1 fps source samples in 0–4s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V01"
+    },
+    {
+      "start": 4,
+      "end": 8,
+      "action": "Wearable-company coverage and founder interviews sit beneath Our generation is building companies worth BILLIONS.",
+      "design": "Oversized type and repeated/reflected letter shapes.",
+      "purpose": "Move the opportunity from property to startups.",
+      "evidence": "1 fps source samples in 4–8s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V02"
+    },
+    {
+      "start": 8,
+      "end": 12,
+      "action": "Startup valuation coverage and speaker footage carry and cannot invest a dollar wording; large dollar text gives way to a sticker-covered phone back.",
+      "design": "Tight text crops, distorted/reflected image areas and grainy phone reveal.",
+      "purpose": "Establish exclusion and turn toward the proposed solution.",
+      "evidence": "1 fps source samples in 8–12s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V03"
+    },
+    {
+      "start": 12,
+      "end": 15,
+      "action": "A phone changes orientation above Earth, first near a spacecraft window and then against the planet. Trade startups and trysoar.com flank it.",
+      "design": "Space imagery and a sticker-covered device, with no app screen shown.",
+      "purpose": "State the offer and give a destination.",
+      "evidence": "1 fps source samples in 12–15s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V04"
+    },
+    {
+      "start": 15,
+      "end": 17.125,
+      "action": "A colored QR code is centered on black.",
+      "design": "Minimal high-contrast closing card.",
+      "purpose": "Offer a scan action.",
+      "evidence": "1 fps source samples in 15–17.125s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V05"
+    }
+  ],
+  "sound": [
+    {
+      "id": "A01",
+      "start": 0,
+      "end": 17.125,
+      "layer": "ASR draft / unknown",
+      "detail": "The draft supports the houses-to-startups comparison, lack of access and until now turn. Its 30 man phrase is malformed; visible $30K supplies the on-screen wording. No validated listening; delivery, music, SFX and sync unknown.",
+      "visual_relation": "V01–V03; script-role support only.",
+      "evidence": "technical-review-2026-10-19/deep-review/audio/208-speech.json"
+    }
+  ],
+  "categories": [
+    {
+      "id": "Q01",
+      "finding": "Past property gains → present startup value → access gap → trade-startups invitation.",
+      "evidence": "V01–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q02",
+      "finding": "The first frame states a generational comparison over a house, giving the opening a clear subject.",
+      "evidence": "V01",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q03",
+      "finding": "Our generation suggests a broad younger audience; Trade startups names the category at 12s but leaves the transaction undefined.",
+      "evidence": "V02,V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q04",
+      "finding": "Large type sizes, reflected/distorted image states and changing phone orientation are visible. Exact transition timing and easing are unchecked.",
+      "evidence": "V02–V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q05",
+      "finding": "The repeated dollar/value wording connects the two generations; the phone in space gives the solution a new visual setting.",
+      "evidence": "V01–V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q06",
+      "finding": "News imagery and grainy large type shift to glossy space/device imagery and a black QR end card.",
+      "evidence": "V01–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q07",
+      "finding": "Large value words are highly prominent; the offer and website are much smaller but visible.",
+      "evidence": "V01–V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q08",
+      "finding": "The short draft coherently follows the comparison/access argument, with one malformed amount rejected.",
+      "evidence": "A01",
+      "status": "uncertain",
+      "reason": "ASR text only.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q09",
+      "finding": "Music character and structure are unverified.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "No validated listening.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q10",
+      "finding": "Effects and their sources are unverified.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "No validated listening; waveform peaks do not identify effects.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q11",
+      "finding": "Sound sync is unverified.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "No validated listening or paired audiovisual timing.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q12",
+      "finding": "News/interview clips, graphic typography and a space/device composition are mixed; production methods and source rights are unknown.",
+      "evidence": "V01–V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q13",
+      "finding": "Source duration 17.125 s; Watch metadata 1920 × 1080. Frame rate, audio clipping and export quality not checked here.",
+      "evidence": "Whole film",
+      "status": "supported",
+      "reason": "Parent source metadata supports duration and dimensions; visual review is sampled.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q14",
+      "finding": "Visible copy communicates startup access and the web destination without sound. It does not explain the product process.",
+      "evidence": "V01–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q15",
+      "finding": "Huge value words dominate the argument, while the phone becomes the centered solution object. Its back hides the product interface.",
+      "evidence": "V02,V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q16",
+      "finding": "The problem takes about 11s; the offer has about 3s and the QR about 2s.",
+      "evidence": "V01–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q17",
+      "finding": "The access barrier resolves into Trade startups, but no action/result is demonstrated.",
+      "evidence": "V03,V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q18",
+      "finding": "The comparison may evoke exclusion and aspiration; this is an interpretation, not measured viewer response.",
+      "evidence": "V01–V03",
+      "status": "uncertain",
+      "reason": "Interpretation of copy.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q19",
+      "finding": "The argument is easy to follow, but a phone exterior provides no causal proof of access.",
+      "evidence": "V01–V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q20",
+      "finding": "The value comparison and startup-access promise are film claims. Investment instrument, eligibility and actual availability were not checked.",
+      "evidence": "V01–V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q21",
+      "finding": "The sticker-covered phone in space gives the short ending a distinct image, while the website supplies the brand link.",
+      "evidence": "V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q22",
+      "finding": "Use part of the device sequence to show the actual access mechanism.",
+      "evidence": "V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "Turn to the screen and show a named startup, instrument label and one order/result state."
+    },
+    {
+      "id": "Q23",
+      "finding": "For Tin, keep a short problem statement but let the reveal contain a real output.",
+      "evidence": "V03,V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "Reveal the campaign asset on the screen rather than only showing a branded device exterior."
+    },
+    {
+      "id": "Q24",
+      "finding": "No human new-viewer test was performed.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "The product summary is this model’s film-only reading.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q25",
+      "finding": "Mobile preview and accessibility checks were not performed.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "Contact sheets are evidence views, not a stated mobile preview or compliance test.",
+      "experiment": "none"
+    }
+  ],
+  "elements": [
+    {
+      "kind": "motion",
+      "name": "oversized changing typography",
+      "events": [
+        "V01",
+        "V02",
+        "V03"
+      ]
+    },
+    {
+      "kind": "motion",
+      "name": "phone orientation changes",
+      "events": [
+        "V04"
+      ]
+    },
+    {
+      "kind": "texture",
+      "name": "space and Earth backdrop",
+      "events": [
+        "V04"
+      ]
+    },
+    {
+      "kind": "texture",
+      "name": "device stickers",
+      "events": [
+        "V03",
+        "V04"
+      ]
+    }
+  ],
+  "lessons": {
+    "keep": "State the access problem in a short, readable comparison.",
+    "try": [
+      "Turn the device to show a named instrument and order/result state.",
+      "For Tin, put the actual campaign output inside the reveal."
+    ],
+    "avoid": "Using an attractive device exterior as the only product demonstration.",
+    "open": "Instrument, eligibility, access method, QR destination, claim context and audio remain unresolved."
+  },
+  "comparison": {
+    "story": "Generational wealth comparison → startup access gap → trade invitation.",
+    "motion": "Large changing type and phone orientation states; exact transitions unchecked.",
+    "sound": "Short coherent ASR argument with malformed amount; no listening.",
+    "texture": "News, grain, stickers and space imagery.",
+    "lesson": "A brief argument still needs one concrete view of the promised action."
+  },
+  "reviewer_model": "gpt-6-astra",
+  "scope": "sampled visual and story review; ASR and measured signal support; no validated audio listening",
+  "viewed_evidence": [
+    "technical-review-2026-10-19/deep-review/motion/208/timeline-00.jpg"
+  ],
+  "closer_windows": []
+}

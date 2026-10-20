@@ -1,0 +1,318 @@
+{
+  "id": 64,
+  "product_from_film": "Lightreel presents natural-language search and analysis of advertising examples and creators.",
+  "explains_well": "Each query is paired with a visible set of matching-looking ad or creator cards.",
+  "unclear": "The film does not show an analysis answer or evidence that a suggested change improves results.",
+  "product_type": "advertising research tool",
+  "scenario": "Find creators, formats and ad examples with a typed question, then ask how to improve ad return.",
+  "product_clear_time": 8,
+  "product_clear_basis": "A creator-search query at 7s is followed by creator video cards at 8s.",
+  "scenes": [
+    {
+      "start": 0,
+      "end": 6,
+      "action": "A collage of advertisements shrinks into a much denser field under largest labelled ads collection text. A textured blue-and-yellow crescent scene replaces it.",
+      "design": "Tall serif white lettering; ad collage and painterly blue material.",
+      "purpose": "Announce collection scale and visual identity.",
+      "evidence": "1 fps source samples in 0–6s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V01"
+    },
+    {
+      "start": 6,
+      "end": 13,
+      "action": "A query asks for creators partnered with Granola; five portrait cards appear. A cream flower field replaces the blue scene, with a format-search query and result cards.",
+      "design": "Prompt box retains its shape while colors and background change.",
+      "purpose": "Show two research tasks using the same input/result pattern.",
+      "evidence": "1 fps source samples in 6–13s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V02"
+    },
+    {
+      "start": 13,
+      "end": 20,
+      "action": "Find any ad, format, creator and analyze any ad headings accompany changing prompts and surrounding ad cards. A software before-and-after search appears last.",
+      "design": "Flower and foliage textures in dark blue, orange, cream and green; large serif headings.",
+      "purpose": "Expand the range of searchable categories.",
+      "evidence": "1 fps source samples in 13–20s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V03"
+    },
+    {
+      "start": 20,
+      "end": 24.613,
+      "action": "A plain white prompt types How can I increase my ROAS? A black free-trial URL card follows without an answer.",
+      "design": "Minimal white input, then centered white serif URL on black.",
+      "purpose": "Move from retrieval toward improvement and invite a trial.",
+      "evidence": "1 fps source samples in 20–24.613s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V04"
+    }
+  ],
+  "categories": [
+    {
+      "id": "Q01",
+      "finding": "Collection announcement leads to repeated query/result examples, then an unanswered improvement question and trial link.",
+      "evidence": "V01–V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q02",
+      "finding": "Dense ad cards and introducing the largest text appear immediately; by 2s the collection label is visible. Product scale is asserted before use.",
+      "evidence": "V01",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q03",
+      "finding": "Advertisers looking for references are implied by creator, format and ad prompts. Retrieval is clear at 8s.",
+      "evidence": "V02,V03",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q04",
+      "finding": "The opening collage changes scale; prompt text fills and result cards appear around it. Continuous paths and easing are unresolved.",
+      "evidence": "V01–V03",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q05",
+      "finding": "The query box stays recognizable across major color/background changes, providing continuity. Exact transitions are unverified.",
+      "evidence": "V02,V03",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q06",
+      "finding": "Painterly moon, flowers and foliage contrast with clean prompt cards; decorative texture can compete with small results.",
+      "evidence": "V01–V03",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q07",
+      "finding": "Large find/analyze headings summarize each state. Detailed queries and result labels need more space than the rapid sequence provides.",
+      "evidence": "V02,V03",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q08",
+      "finding": "Voice delivery is unverified.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "No validated listening.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q09",
+      "finding": "Music character and structure are unverified.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "No validated listening.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q10",
+      "finding": "Effects and their sources are unverified.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "No validated listening; waveform peaks do not identify effects.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q11",
+      "finding": "Sound sync is unverified.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "No validated listening or paired audiovisual timing.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q12",
+      "finding": "Ad images and creator cards are placed over painterly scenes. Their original sources and the background production method are unknown.",
+      "evidence": "V01–V03",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q13",
+      "finding": "Source duration 24.613 s; Watch metadata 3840 × 2160. Frame rate, audio clipping and export quality not checked here.",
+      "evidence": "Whole film",
+      "status": "supported",
+      "reason": "Parent source metadata supports duration and dimensions; visual review is sampled.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q14",
+      "finding": "Queries plus results communicate research without sound. The final performance-improvement claim has no visible answer.",
+      "evidence": "V02–V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q15",
+      "finding": "The large heading and central prompt guide the eye, while surrounding cards demonstrate variety at the cost of reading time.",
+      "evidence": "V03",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q16",
+      "finding": "Four capabilities arrive within about seven seconds at 13–20s. Each is an example category rather than a complete readable demonstration.",
+      "evidence": "V03",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "Keep one prompt and three result cards on screen for a complete short demo."
+    },
+    {
+      "id": "Q17",
+      "finding": "The largest-collection claim is illustrated by many cards, not verified by a count. The final ROAS question broadens the promise without payoff.",
+      "evidence": "V01,V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q18",
+      "finding": "Rapid variety and rich backgrounds appear designed to make research feel abundant and playful; actual response is unknown.",
+      "evidence": "V01–V03",
+      "status": "uncertain",
+      "reason": "Interpretation from visual density and treatment.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q19",
+      "finding": "The same prompt-box form links all scenes, but the requested product/category changes repeatedly.",
+      "evidence": "V02–V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q20",
+      "finding": "Retrieval-like result states are shown. Dataset size, matching quality and improved performance are not independently checked.",
+      "evidence": "V01–V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q21",
+      "finding": "The painterly botanical backgrounds and tall serif headings distinguish this from a plain SaaS demo; the prompt input itself is generic.",
+      "evidence": "V01–V03",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q22",
+      "finding": "The first query/result pair explains the core action. More similar category cards add breadth; one real analysis response would add stronger proof.",
+      "evidence": "V02–V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q23",
+      "finding": "For Tin ad research, prepare one real query, three retrieved references and a short visible analysis response.",
+      "evidence": "V02,V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "End with a specific recommended change linked to a shown reference."
+    },
+    {
+      "id": "Q24",
+      "finding": "No human new-viewer test was performed.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "The product summary is this model’s film-only reading.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q25",
+      "finding": "Mobile preview and accessibility checks were not performed.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "Contact sheets are evidence views, not a stated mobile preview or compliance test.",
+      "experiment": "none"
+    }
+  ],
+  "elements": [
+    {
+      "kind": "ui",
+      "name": "prompt input",
+      "events": [
+        "V02",
+        "V03",
+        "V04"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "ad card grid",
+      "events": [
+        "V01",
+        "V02",
+        "V03"
+      ]
+    },
+    {
+      "kind": "motion",
+      "name": "collage scale change",
+      "events": [
+        "V01"
+      ]
+    },
+    {
+      "kind": "texture",
+      "name": "painterly botanical background",
+      "events": [
+        "V02",
+        "V03"
+      ]
+    }
+  ],
+  "lessons": {
+    "keep": "Keep the prompt-box shape stable while the reference category changes.",
+    "try": [
+      "For Tin research, show one query, three actual reference cards and a single analysis finding using the same screen layout.",
+      "Test one restrained textured background behind large headings, with a plain area reserved for small product text."
+    ],
+    "avoid": "Ending on a performance question with no answer after many quick capability claims.",
+    "open": "Retrieval accuracy, dataset scale, analysis quality, sound and precise transitions remain unverified."
+  },
+  "comparison": {
+    "story": "Collection scale → creator/format/ad retrieval → improvement question → trial.",
+    "motion": "Collage scaling, typed query states and result appearances; sampled only.",
+    "sound": "No validated listening; all sound layers unknown.",
+    "texture": "Blue moon and botanical painterly fields behind clean UI; source unknown.",
+    "lesson": "A repeated query/result layout explains breadth with little new UI."
+  },
+  "reviewer_model": "gpt-6-astra",
+  "scope": "sampled visual and story review; ASR and measured signal support; no validated audio listening",
+  "viewed_evidence": [
+    "technical-review-2026-10-19/deep-review/motion/064/timeline-00.jpg"
+  ],
+  "closer_windows": [],
+  "sound": [
+    {
+      "id": "A01",
+      "start": 0,
+      "end": 24.613,
+      "layer": "unknown",
+      "detail": "No validated audio listening. Voice delivery, music, effects and mix are unknown.",
+      "visual_relation": "All scenes; sound alignment unverified",
+      "evidence": "No actual audio perception in this review; prepared audio files are not listening evidence."
+    }
+  ]
+}

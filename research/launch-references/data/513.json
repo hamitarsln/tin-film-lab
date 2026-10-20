@@ -1,0 +1,370 @@
+{
+  "id": 513,
+  "product_from_film": "Bland AI automates phone conversations using a configurable branching conversation flow, with claimed connections to scheduling, CRM and payments.",
+  "explains_well": "The call is paired with a conversation map that moves through introduction, explanation, integrations and ending.",
+  "unclear": "The call explains possible integrations but never shows an appointment, CRM update or payment result.",
+  "product_type": "AI phone agent",
+  "scenario": "Call the agent to ask how it works while viewing the conversation pathway behind its replies.",
+  "product_clear_time": 8.28,
+  "product_clear_basis": "The ASR and visible captions describe people speaking to its AI by phone; the named phone call appears by 20s.",
+  "scenes": [
+    {
+      "start": 0,
+      "end": 15,
+      "action": "Isaiah introduces the company at a dark desk; close and medium views alternate, and a phone appears beside him.",
+      "design": "Muted brick background and small captions.",
+      "purpose": "Establish the company and AI-call premise.",
+      "evidence": "1 fps source samples in 0–15s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V01"
+    },
+    {
+      "start": 15,
+      "end": 24,
+      "action": "Introducing Bland AI title gives way to a phone call labeled Bland AI and a wide branching flow.",
+      "design": "Black title card, phone close-up and dark workflow canvas.",
+      "purpose": "Start a demonstration and expose its structure.",
+      "evidence": "1 fps source samples in 15–24s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V02"
+    },
+    {
+      "start": 24,
+      "end": 37,
+      "action": "The flow enlarges around Start, customer branches and Talk about Yourself; the selected path is marked with purple points while captions label user and Bland replies.",
+      "design": "Node cards, dotted links and branch labels.",
+      "purpose": "Connect a caller question to an instruction node.",
+      "evidence": "1 fps source samples in 24–37s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V03"
+    },
+    {
+      "start": 37,
+      "end": 56,
+      "action": "The presenter holds a phone beside an enlarged phone view; captions describe capabilities, then he asks what makes the agent special.",
+      "design": "Phone and caller share the frame.",
+      "purpose": "Continue the product explanation through conversation.",
+      "evidence": "1 fps source samples in 37–56s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V04"
+    },
+    {
+      "start": 56,
+      "end": 75,
+      "action": "The full map returns, then zooms to Explain Conversational Pathways and Talk About Integrated Features; a phone inset stays visible.",
+      "design": "Focused node sequence with labeled transitions.",
+      "purpose": "Show the route from explanation to integrations.",
+      "evidence": "1 fps source samples in 56–75s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V05"
+    },
+    {
+      "start": 75,
+      "end": 85,
+      "action": "The caller ends the conversation; the map advances through Customer wants to end the call to End The Call, then the phone is put down.",
+      "design": "Flow detail and physical phone action.",
+      "purpose": "Give the demonstration a clear endpoint.",
+      "evidence": "1 fps source samples in 75–85s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V06"
+    },
+    {
+      "start": 85,
+      "end": 114,
+      "action": "Presenter discusses phone-call automation and invites a website conversation or enterprise form; close-ups return to the phone as its call screen changes.",
+      "design": "Alternating presenter and phone views.",
+      "purpose": "State broader claims and an invitation.",
+      "evidence": "1 fps source samples in 85–114s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V07"
+    },
+    {
+      "start": 114,
+      "end": 124.415,
+      "action": "Still hiring humans? wording leads to Bland.ai held on black.",
+      "design": "Sparse white type.",
+      "purpose": "Close with provocative positioning and destination.",
+      "evidence": "1 fps source samples in 114–124.415s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V08"
+    }
+  ],
+  "sound": [
+    {
+      "id": "A01",
+      "start": 0,
+      "end": 124.415,
+      "layer": "ASR script support with gaps",
+      "detail": "The draft supports the introduction, caller questions, broad integrations answer and website invitation. Several agent-answer sections are missing or garbled, including nonsense around 35s, so visible captions and node instructions support those scene summaries. No voice naturalness, interruption behavior, latency, music, effects or sync were heard.",
+      "visual_relation": "V01–V08 follow the call’s visible question and pathway structure.",
+      "evidence": "Local 513-speech.json with rejected garbled fragment; readable captions and workflow cards."
+    }
+  ],
+  "categories": [
+    {
+      "id": "Q01",
+      "finding": "Founder introduction → agent call with pathway → ending → broader pitch and website.",
+      "evidence": "V01–V08",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q02",
+      "finding": "The opening claim that viewers may already have spoken to the AI creates curiosity.",
+      "evidence": "V01,A01",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q03",
+      "finding": "Phone-AI purpose is stated early; the phone and map make the form concrete by 22s.",
+      "evidence": "V01,V02",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q04",
+      "finding": "The map reframes from whole tree to selected branch; purple node states change as captions progress. Exact transition timing and call latency unverified.",
+      "evidence": "V03,V05,V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q05",
+      "finding": "The phone persists as a close-up or inset when the workflow takes over the screen.",
+      "evidence": "V02–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q06",
+      "finding": "Dark restrained surfaces keep attention on the face, phone and pale node labels.",
+      "evidence": "V01–V08",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q07",
+      "finding": "Enlarged node names explain the path; full-map text is too small for detailed reading at this scale.",
+      "evidence": "V02,V03,V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q08",
+      "finding": "Partial ASR and captions support the conversation structure, but the core voice quality cannot be assessed without listening.",
+      "evidence": "A01",
+      "status": "uncertain",
+      "reason": "No validated listening; incomplete agent-answer transcript.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q09",
+      "finding": "Music character and structure are unverified.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "No validated listening.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q10",
+      "finding": "Effects and their sources are unverified.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "No validated listening; waveform peaks do not identify effects.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q11",
+      "finding": "Sound sync is unverified.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "No validated listening or paired audiovisual timing.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q12",
+      "finding": "Presenter, phone call interface and workflow canvas are visible; live synchronization and execution unverified.",
+      "evidence": "V01–V07",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q13",
+      "finding": "Source duration 124.415 s; Watch metadata 1280 × 720. Frame rate, audio clipping and export quality not checked here.",
+      "evidence": "Whole film",
+      "status": "supported",
+      "reason": "Parent source metadata supports duration and dimensions; visual review is sampled.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q14",
+      "finding": "The map and captions show conversational stages without sound; naturalness and response timing remain inaccessible.",
+      "evidence": "V03–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q15",
+      "finding": "Whole-map views establish breadth and close crops make the current instruction legible.",
+      "evidence": "V03,V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q16",
+      "finding": "The central call lasts about a minute, allowing several conversational stages; the final pitch occupies roughly thirty seconds.",
+      "evidence": "V02–V07",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q17",
+      "finding": "The agent completes its self-explanation and follows an ending branch; business integrations remain described rather than demonstrated.",
+      "evidence": "V05,V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q18",
+      "finding": "The restrained founder presentation may suggest confidence, while the hiring tagline adds provocation; response unmeasured.",
+      "evidence": "V01,V08",
+      "status": "uncertain",
+      "reason": "Visual and script interpretation.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q19",
+      "finding": "Caller requests correspond to visible introduction, pathway, integration and end nodes.",
+      "evidence": "V03,V05,V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q20",
+      "finding": "Call volume, future AI adoption, savings, integrations and live voice quality are unverified film claims; no funding figure is established by the inspected film itself.",
+      "evidence": "V01–V08",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q21",
+      "finding": "Showing the branching instructions behind the call explains control of a phone agent.",
+      "evidence": "V03,V05,V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q22",
+      "finding": "Complete one integrated action.",
+      "evidence": "V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "Let the call book one slot, then show the matching calendar event and final confirmation."
+    },
+    {
+      "id": "Q23",
+      "finding": "Expose the meaningful branch behind an agent action.",
+      "evidence": "V03,V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "For Tin, show one campaign request choose a clear workflow branch and produce its final output."
+    },
+    {
+      "id": "Q24",
+      "finding": "No human new-viewer test was performed.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "The product summary is this model’s film-only reading.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q25",
+      "finding": "Mobile preview and accessibility checks were not performed.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "Contact sheets are evidence views, not a stated mobile preview or compliance test.",
+      "experiment": "none"
+    }
+  ],
+  "elements": [
+    {
+      "kind": "ui",
+      "name": "phone call interface",
+      "events": [
+        "V02",
+        "V04",
+        "V05",
+        "V07"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "workflow canvas",
+      "events": [
+        "V02",
+        "V03",
+        "V05",
+        "V06"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "branch labels",
+      "events": [
+        "V03",
+        "V05",
+        "V06"
+      ]
+    },
+    {
+      "kind": "motion",
+      "name": "workflow reframing",
+      "events": [
+        "V03",
+        "V05"
+      ]
+    },
+    {
+      "kind": "texture",
+      "name": "founder interview",
+      "events": [
+        "V01",
+        "V07"
+      ]
+    }
+  ],
+  "lessons": {
+    "keep": "Pair the call with the current instruction and branch.",
+    "try": [
+      "Show one integration through a final calendar or record result.",
+      "For Tin, connect one agent request to a visible branch and final output."
+    ],
+    "avoid": "Treating the agent’s description of integrations as evidence they executed.",
+    "open": "Voice quality, latency, live pathway sync, integrations and broad business claims remain unverified."
+  },
+  "comparison": {
+    "story": "An agent explains itself while its conversation pathway is shown.",
+    "motion": "Whole-map and branch close-ups with active-node states.",
+    "sound": "Partial ASR and captions; central voice performance unassessed.",
+    "texture": "Dark interview, phone and workflow UI.",
+    "lesson": "A visible branch explains control, while a real action result would establish the practical workflow."
+  },
+  "reviewer_model": "gpt-6-astra",
+  "scope": "sampled visual and story review; ASR and measured signal support; no validated audio listening",
+  "viewed_evidence": [
+    "technical-review-2026-10-19/deep-review/motion/513/timeline-00.jpg",
+    "technical-review-2026-10-19/deep-review/motion/513/timeline-01.jpg",
+    "technical-review-2026-10-19/deep-review/motion/513/timeline-02.jpg",
+    "technical-review-2026-10-19/deep-review/motion/513/timeline-03.jpg",
+    "technical-review-2026-10-19/deep-review/motion/513/timeline-04.jpg"
+  ],
+  "closer_windows": []
+}

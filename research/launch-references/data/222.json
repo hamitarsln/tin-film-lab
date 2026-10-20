@@ -1,0 +1,340 @@
+{
+  "id": 222,
+  "reviewer_model": "gpt-6-astra",
+  "scope": "sampled visual and story review; ASR and measured signal support; no validated audio listening",
+  "viewed_evidence": [
+    "technical-review-2026-10-19/deep-review/motion/222/timeline-00.jpg",
+    "technical-review-2026-10-19/deep-review/motion/222/timeline-01.jpg",
+    "technical-review-2026-10-19/deep-review/audio/222-speech.json"
+  ],
+  "closer_windows": [],
+  "product_from_film": "Giggles presents a feed where people can trade viral content, with Apple Pay and Solana named in the film.",
+  "explains_well": "The story links familiar likes and attention to a proposed way for users to earn from the feed.",
+  "unclear": "It never explains what a content position represents, how it is priced or how the user exits it.",
+  "product_type": "social-content trading",
+  "scenario": "Trade content discovered in a scrolling feed.",
+  "product_clear_time": 27,
+  "product_clear_basis": "The invest-in-viral-videos caption and following phone/trading views specify the offer.",
+  "scenes": [
+    {
+      "id": "V01",
+      "start": 0,
+      "end": 11,
+      "action": "Old-looking interview footage, a Like button, video scrubber, offline game and device-use shots lead to a wall of like symbols.",
+      "design": "Archive-like black-and-white treatment, screen texture and familiar interface fragments.",
+      "purpose": "Establish likes as internet language.",
+      "evidence": "Visible chronological 1 fps samples, source 0–11s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V02",
+      "start": 11,
+      "end": 21,
+      "action": "Social clips, crowds, platform icons and You might like this text shift the story toward addiction and monetized attention. Now you can too appears on black.",
+      "design": "Rapid mixed footage and simple white captions.",
+      "purpose": "Turn platform monetization into a user opportunity.",
+      "evidence": "Visible chronological 1 fps samples, source 11–21s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V03",
+      "start": 21,
+      "end": 29,
+      "action": "Giggles app listing and a phone launch lead to content thumbnails beside green gain figures. One feed/Infinite trading cards precede streamer clips and a phone balance view.",
+      "design": "Bright app icon, black grid and financial overlays.",
+      "purpose": "Introduce trading viral content.",
+      "evidence": "Visible chronological 1 fps samples, source 21–29s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V04",
+      "start": 29,
+      "end": 35,
+      "action": "Trading screens carry Trade the feed. Apple Pay appears with a payment view, followed by Solana over a line chart and graphic.",
+      "design": "Dark trading UI, payment interface and platform branding.",
+      "purpose": "Name payment and infrastructure support.",
+      "evidence": "Visible chronological 1 fps samples, source 29–35s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V05",
+      "start": 35,
+      "end": 38.333,
+      "action": "The Giggles icon becomes an early-access card with App Store badge; a small basketball clip appears at the side before the clean card holds.",
+      "design": "Minimal black end card and colorful smile-like icon.",
+      "purpose": "Invite download.",
+      "evidence": "Visible chronological 1 fps samples, source 35–38.333s; boundary approximate; exact motion between samples unverified."
+    }
+  ],
+  "sound": [
+    {
+      "id": "A01",
+      "start": 0,
+      "end": 38.333,
+      "layer": "unknown",
+      "detail": "No validated direct audio listening was performed. Music, speech delivery, effects, mix and sync remain unknown, not absent.",
+      "visual_relation": "All visual scenes; audiovisual alignment unverified",
+      "evidence": "Visual samples only; no actual audio range supplied to this reviewer."
+    },
+    {
+      "id": "A02",
+      "start": 0.36,
+      "end": 28.56,
+      "layer": "ASR draft",
+      "detail": "ASR draft contains candidate interview fragments about internet connection, platform control and being liked, followed by a viral-video investment phrase. Several fragments are weakly recognized; visible captions supply the main story. Delivery, music and source identities were not heard or verified.",
+      "visual_relation": "Story text support; exact audiovisual alignment and delivery unverified.",
+      "evidence": "technical-review-2026-10-19/deep-review/audio/222-speech.json; local faster-whisper base CPU int8 draft; VAD candidates only, recognition errors possible."
+    }
+  ],
+  "categories": [
+    {
+      "id": "Q01",
+      "finding": "Internet likes become addictive and monetized; Giggles proposes that users trade the feed too.",
+      "evidence": "V01–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q02",
+      "finding": "Archive-like interview footage and a 17-years-ago line begin a history premise rather than a product task.",
+      "evidence": "V01",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q03",
+      "finding": "The app is named around 21 s; invest in viral videos makes the offer more concrete around 27 s.",
+      "evidence": "V03",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q04",
+      "finding": "Screen fragments enlarge, thumbnails share space with gain figures and platform cards replace one another; exact transition paths are unresolved.",
+      "evidence": "V01–V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q05",
+      "finding": "Like symbols and social clips provide thematic links; the later financial overlays abruptly change the meaning of attention.",
+      "evidence": "V01–V03",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q06",
+      "finding": "Archive texture and familiar social UI contrast with clean black product cards and bright gains.",
+      "evidence": "V01–V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q07",
+      "finding": "Short chapter-like statements are clear; detailed trading screens are brief and do not explain position rules.",
+      "evidence": "V03,V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q08",
+      "finding": "ASR draft contains candidate interview fragments about internet connection, platform control and being liked, followed by a viral-video investment phrase. Several fragments are weakly recognized; visible captions supply the main story. Delivery, music and source identities were not heard or verified.",
+      "evidence": "A02",
+      "status": "uncertain",
+      "reason": "ASR text only; no validated listening, delivery or voice origin.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q09",
+      "finding": "Voice delivery, music, effects and audiovisual alignment were not established by this visual pass.",
+      "evidence": "A01",
+      "status": "not checked",
+      "reason": "No validated direct audio listening input.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q10",
+      "finding": "Voice delivery, music, effects and audiovisual alignment were not established by this visual pass.",
+      "evidence": "A01",
+      "status": "not checked",
+      "reason": "No validated direct audio listening input.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q11",
+      "finding": "Voice delivery, music, effects and audiovisual alignment were not established by this visual pass.",
+      "evidence": "A01",
+      "status": "not checked",
+      "reason": "No validated direct audio listening input.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q12",
+      "finding": "Interviews, social footage, platform icons, streamer clips and app/payment screens are mixed; source rights are unverified.",
+      "evidence": "V01–V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q13",
+      "finding": "Manifest duration 38.333s; indexed dimensions 1280×720. Source unchanged flag recorded; fresh encoding and audio clipping checks not run.",
+      "evidence": "Group manifest",
+      "status": "uncertain",
+      "reason": "Inherited technical metadata; no fresh media probe in this review.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q14",
+      "finding": "The captions communicate trading the feed, but a viewer cannot reconstruct a complete transaction from the shown screens.",
+      "evidence": "V03,V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q15",
+      "finding": "Green gain amounts dominate content thumbnails; later Apple Pay and Solana labels become the main focus.",
+      "evidence": "V03,V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q16",
+      "finding": "Over half the short film builds the social-media premise, leaving little time for the unfamiliar trading mechanism.",
+      "evidence": "V01–V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q17",
+      "finding": "The attention-monetization premise ends with user-trading access, but no example shows how attention becomes a return.",
+      "evidence": "V02–V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q18",
+      "finding": "The story shifts from nostalgia to concern about attention and then opportunity, using gains and easy-payment imagery.",
+      "evidence": "V01–V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q19",
+      "finding": "Feed content remains the theme, but no single post is carried from discovery to purchase and outcome.",
+      "evidence": "V01–V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q20",
+      "finding": "Gain figures, balance screens and payment logos do not verify returns, payment execution or trading mechanics.",
+      "evidence": "V03,V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q21",
+      "finding": "Trading viral content and the colorful Giggles icon are specific; broad social-media critique could introduce many products.",
+      "evidence": "V02,V03,V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q22",
+      "finding": "Show one post, what is purchased, its price change and an exit before listing payment support.",
+      "evidence": "V03,V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q23",
+      "finding": "Tin can link a familiar behavior to a new capability, but should complete one concrete example before naming infrastructure.",
+      "evidence": "V02–V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q24",
+      "finding": "Giggles presents a feed where people can trade viral content, with Apple Pay and Solana named in the film.",
+      "evidence": "Model reading from inspected images",
+      "status": "uncertain",
+      "reason": "Model-only new-viewer interpretation; no human test.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q25",
+      "finding": "Contact sheets inspected at displayed size; a phone-size playback, caption audit, flash audit and formal accessibility check were not performed.",
+      "evidence": "Viewed sheets",
+      "status": "not checked",
+      "reason": "Full-size moving-image and device checks unavailable in this pass.",
+      "experiment": "none"
+    }
+  ],
+  "lessons": {
+    "keep": "Use short chapter statements to guide a fast montage.",
+    "avoid": "Avoid presenting green gains without explaining the underlying action.",
+    "open": "Content-position mechanics, returns, payment support, source rights, exact motion and all audio delivery remain unverified.",
+    "try": [
+      "Show a Tin post moving from discovery to a documented creative decision, keeping the same thumbnail visible.",
+      "Replace one abstract growth figure with a readable input, action and result card from a single case."
+    ]
+  },
+  "comparison": {
+    "story": "Establish likes as internet language. → Turn platform monetization into a user opportunity. → Introduce trading viral content. → Name payment and infrastructure support. → Invite download.",
+    "motion": "Screen fragments enlarge, thumbnails share space with gain figures and platform cards replace one another; exact transition paths are unresolved. Sampling scope: 1 fps unless a closer window is recorded.",
+    "sound": "No validated listening; unknown.",
+    "texture": "Archive-like black-and-white treatment, screen texture and familiar interface fragments.; Rapid mixed footage and simple white captions.; Bright app icon, black grid and financial overlays.; Dark trading UI, payment interface and platform branding.; Minimal black end card and colorful smile-like icon.",
+    "lesson": "Use short chapter statements to guide a fast montage."
+  },
+  "elements": [
+    {
+      "kind": "ui",
+      "name": "social reactions",
+      "events": [
+        "V01"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "app listing",
+      "events": [
+        "V03"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "payment screen",
+      "events": [
+        "V04"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "line chart",
+      "events": [
+        "V04"
+      ]
+    },
+    {
+      "kind": "texture",
+      "name": "archive-like footage",
+      "events": [
+        "V01"
+      ]
+    }
+  ]
+}

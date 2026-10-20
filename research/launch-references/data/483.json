@@ -1,0 +1,372 @@
+{
+  "id": 483,
+  "reviewer_model": "gpt-6-astra",
+  "scope": "sampled visual and story review; ASR and measured signal support; no validated audio listening",
+  "viewed_evidence": [
+    "technical-review-2026-10-19/deep-review/motion/483/timeline-00.jpg",
+    "technical-review-2026-10-19/deep-review/motion/483/timeline-01.jpg",
+    "technical-review-2026-10-19/deep-review/motion/483/timeline-02.jpg",
+    "technical-review-2026-10-19/deep-review/motion/483/timeline-03.jpg",
+    "technical-review-2026-10-19/deep-review/motion/483/timeline-04.jpg",
+    "astra-review-2026-10-20/evidence/group-2/483-32.png",
+    "astra-review-2026-10-20/evidence/group-2/483-81.png",
+    "astra-review-2026-10-20/evidence/group-2/483-124.png",
+    "technical-review-2026-10-19/deep-review/audio/483-speech.json"
+  ],
+  "closer_windows": [],
+  "product_from_film": "Cluely presents live assistance for customer-support agents through an exaggerated headset troubleshooting call.",
+  "explains_well": "Suggestion and AI Response panels connect the agent’s conversation to visible assistance.",
+  "unclear": "The comedy leaves unclear which diagnostic actions the agent performs and which actions the assistant can actually take.",
+  "product_type": "customer support comedy",
+  "scenario": "Help an agent resolve a caller’s frozen headset.",
+  "product_clear_time": 16,
+  "product_clear_basis": "The support agent’s desktop shows suggestion and diagnosis panels alongside the call.",
+  "scenes": [
+    {
+      "id": "V01",
+      "start": 0,
+      "end": 15,
+      "action": "A robe-wearing caller sits beside a pool with a headset and phone. The Cluely title appears, then the film cuts to a support agent at a desktop.",
+      "design": "Bright pool setting contrasts with a dim office and older desktop styling.",
+      "purpose": "Establish caller and support roles.",
+      "evidence": "Visible chronological 1 fps samples, source 0–15s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V02",
+      "start": 15,
+      "end": 40,
+      "action": "Caller and agent alternate. The desktop shows suggestion and diagnosis panels; the caller handles the headset while a wider office view reveals other headset-wearing agents.",
+      "design": "Monitor inserts, reaction shots and translucent rounded panels.",
+      "purpose": "Show live assistance during troubleshooting.",
+      "evidence": "Visible chronological 1 fps samples, source 15–40s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V03",
+      "start": 40,
+      "end": 75,
+      "action": "A Source Found panel contains an adult-content-looking thumbnail. The caller reacts, gestures and tries to explain while the agent continues.",
+      "design": "Screen evidence alternates with increasingly strained facial reactions.",
+      "purpose": "Turn diagnosis into an embarrassment joke.",
+      "evidence": "Visible chronological 1 fps samples, source 40–75s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V04",
+      "start": 75,
+      "end": 94,
+      "action": "The diagnostic panel scans biometrics and displays reference faces, then a checkmark. An AI Response panel suggests verifying biometrics. The caller gestures more strongly.",
+      "design": "Green progress bar and checkmark over a Windows XP-style background.",
+      "purpose": "Escalate the disputed identity gag.",
+      "evidence": "Visible chronological 1 fps samples, source 75–94s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V05",
+      "start": 94,
+      "end": 121,
+      "action": "A corrupted-file panel and another thumbnail appear. Reactions alternate between the caller and the calm agent, with warning and completion states on the monitor.",
+      "design": "Red warning accents, small thumbnails and tight reaction cuts.",
+      "purpose": "Extend the caller’s loss of control.",
+      "evidence": "Visible chronological 1 fps samples, source 94–121s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V06",
+      "start": 121,
+      "end": 134,
+      "action": "The monitor shows a green checkmark and Wifi reconnected, Issue Resolved. The AI Response says the device disconnected from Wi-Fi. The caller becomes quiet.",
+      "design": "Clear green success state followed by held reaction.",
+      "purpose": "Reveal the simple technical cause after the long comic detour.",
+      "evidence": "Visible chronological 1 fps samples, source 121–134s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V07",
+      "start": 134,
+      "end": 137.846,
+      "action": "Cluely and Customer support so easy, it feels like cheating appear on the closing card.",
+      "design": "Simple brand typography.",
+      "purpose": "State the customer-support positioning.",
+      "evidence": "Visible chronological 1 fps samples, source 134–137.846s; boundary approximate; exact motion between samples unverified."
+    }
+  ],
+  "sound": [
+    {
+      "id": "A01",
+      "start": 0,
+      "end": 137.846,
+      "layer": "unknown",
+      "detail": "No validated direct audio listening was performed. Music, speech delivery, effects, mix and sync remain unknown, not absent.",
+      "visual_relation": "All visual scenes; audiovisual alignment unverified",
+      "evidence": "Visual samples only; no actual audio range supplied to this reviewer."
+    },
+    {
+      "id": "A02",
+      "start": 3.88,
+      "end": 130,
+      "layer": "ASR draft",
+      "detail": "The coherent ASR draft outlines a broken-headset complaint, remote diagnostic instructions, embarrassing browsing discoveries, a disputed identity and a final Wi-Fi explanation. This supports the joke’s script structure and the final visible resolution. It does not verify the spoken performance or real diagnostic capabilities.",
+      "visual_relation": "Story text support; exact audiovisual alignment and delivery unverified.",
+      "evidence": "technical-review-2026-10-19/deep-review/audio/483-speech.json; local faster-whisper base CPU int8 draft; VAD candidates only, recognition errors possible."
+    }
+  ],
+  "categories": [
+    {
+      "id": "Q01",
+      "finding": "A broken-device call becomes a series of embarrassing discoveries before a simple Wi-Fi fix and brand promise.",
+      "evidence": "V01–V07",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q02",
+      "finding": "A poolside caller and immediate brand title set up a character scene before the assistance interface appears.",
+      "evidence": "V01",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q03",
+      "finding": "Support teams are the implied buyers; the agent sees suggestions and response text during a customer call.",
+      "evidence": "V02,V07",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q04",
+      "finding": "The edit alternates caller reactions with monitor inserts; diagnostic progress fills, warning states change to checkmarks, and the final green success panel resolves the sequence.",
+      "evidence": "V02–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q05",
+      "finding": "Screen inserts explain each new reaction. The repeated caller-to-agent cuts keep a long conversation spatially clear.",
+      "evidence": "V01–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q06",
+      "finding": "The bright pool, dark crowded office, desk fan and old desktop background create a comic contrast between customer comfort and support work.",
+      "evidence": "V01–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q07",
+      "finding": "Suggestion, AI Response and the final Wi-Fi resolution explain the interface roles. Most conversation has no visible subtitles.",
+      "evidence": "V02,V04,V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q08",
+      "finding": "The coherent ASR draft outlines a broken-headset complaint, remote diagnostic instructions, embarrassing browsing discoveries, a disputed identity and a final Wi-Fi explanation. This supports the joke’s script structure and the final visible resolution. It does not verify the spoken performance or real diagnostic capabilities.",
+      "evidence": "A02",
+      "status": "uncertain",
+      "reason": "ASR text only; no validated listening, delivery or voice origin.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q09",
+      "finding": "Voice delivery, music, effects and audiovisual alignment were not established by this visual pass.",
+      "evidence": "A01",
+      "status": "not checked",
+      "reason": "No validated direct audio listening input.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q10",
+      "finding": "Voice delivery, music, effects and audiovisual alignment were not established by this visual pass.",
+      "evidence": "A01",
+      "status": "not checked",
+      "reason": "No validated direct audio listening input.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q11",
+      "finding": "Voice delivery, music, effects and audiovisual alignment were not established by this visual pass.",
+      "evidence": "A01",
+      "status": "not checked",
+      "reason": "No validated direct audio listening input.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q12",
+      "finding": "Two locations, performers, a headset prop, monitor graphics and a closing brand card support the sketch.",
+      "evidence": "V01–V07",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q13",
+      "finding": "Manifest duration 137.846s; indexed dimensions 1920×1080. Source unchanged flag recorded; fresh encoding and audio clipping checks not run.",
+      "evidence": "Group manifest",
+      "status": "uncertain",
+      "reason": "Inherited technical metadata; no fresh media probe in this review.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q14",
+      "finding": "The visible panels show an assisted call and eventual success, but the embarrassment plot depends strongly on dialogue; the ASR draft helps recover that structure.",
+      "evidence": "V02–V06,A02",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q15",
+      "finding": "Monitor inserts direct attention to diagnosis, then faces supply the reaction. Small text requires closer inspection.",
+      "evidence": "V02–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q16",
+      "finding": "The roughly two-minute call devotes much of its time to escalating embarrassment, while the actual Wi-Fi cause arrives after 121s.",
+      "evidence": "V03–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q17",
+      "finding": "One headset problem remains the thread through diagnosis, identity checks and resolution, though intermediate checks are comic detours.",
+      "evidence": "V01–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q18",
+      "finding": "The caller’s increasing agitation and the agent’s steady posture suggest an escalating embarrassment comedy; vocal performance is unverified.",
+      "evidence": "V03–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q19",
+      "finding": "Repeated monitor panels link assistance to the conversation, but no clear agent click or approval explains the diagnostic operations.",
+      "evidence": "V02–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q20",
+      "finding": "This staged sketch does not establish real remote headset access, biometric checks or automatic repair. The full-resolution 124s frame confirms the displayed Wi-Fi resolution only.",
+      "evidence": "V04,V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q21",
+      "finding": "The Cluely desktop icon, assistance panel mark and closing slogan maintain brand connection through the sketch.",
+      "evidence": "V01,V02,V07",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q22",
+      "finding": "Show one agent action that accepts a suggestion, then the customer outcome; shorten a repeated embarrassment exchange.",
+      "evidence": "V03–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q23",
+      "finding": "Use a visible assistance panel followed by a human reaction to connect software output with its practical effect.",
+      "evidence": "V02–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q24",
+      "finding": "Cluely presents live assistance for customer-support agents through an exaggerated headset troubleshooting call.",
+      "evidence": "Model reading from inspected images",
+      "status": "uncertain",
+      "reason": "Model-only new-viewer interpretation; no human test.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q25",
+      "finding": "Contact sheets inspected at displayed size; a phone-size playback, caption audit, flash audit and formal accessibility check were not performed.",
+      "evidence": "Viewed sheets",
+      "status": "not checked",
+      "reason": "Full-size moving-image and device checks unavailable in this pass.",
+      "experiment": "none"
+    }
+  ],
+  "lessons": {
+    "keep": "Alternate a readable suggestion with its effect on a real conversation.",
+    "avoid": "Letting an extended joke obscure the user action and actual product boundary.",
+    "open": "Real diagnostic permissions, agent controls, exact spoken delivery and music remain unverified.",
+    "try": [
+      "For Tin, show a customer question, the suggested response and the marketer approving it before the customer result.",
+      "Compare this long sketch with a short version that keeps one diagnostic reveal and the final Wi-Fi fix."
+    ]
+  },
+  "comparison": {
+    "story": "Establish caller and support roles. → Show live assistance during troubleshooting. → Turn diagnosis into an embarrassment joke. → Escalate the disputed identity gag. → Extend the caller’s loss of control. → Reveal the simple technical cause after the long comic detour. → State the customer-support positioning.",
+    "motion": "The edit alternates caller reactions with monitor inserts; diagnostic progress fills, warning states change to checkmarks, and the final green success panel resolves the sequence. Sampling scope: 1 fps unless a closer window is recorded.",
+    "sound": "No validated listening; unknown.",
+    "texture": "Bright pool setting contrasts with a dim office and older desktop styling.; Monitor inserts, reaction shots and translucent rounded panels.; Screen evidence alternates with increasingly strained facial reactions.; Green progress bar and checkmark over a Windows XP-style background.; Red warning accents, small thumbnails and tight reaction cuts.; Clear green success state followed by held reaction.; Simple brand typography.",
+    "lesson": "Alternate a readable suggestion with its effect on a real conversation."
+  },
+  "elements": [
+    {
+      "kind": "ui",
+      "name": "AI suggestion panel",
+      "events": [
+        "V02",
+        "V04",
+        "V06"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "progress bar",
+      "events": [
+        "V04"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "success notification",
+      "events": [
+        "V06"
+      ]
+    },
+    {
+      "kind": "motion",
+      "name": "reaction cuts",
+      "events": [
+        "V02",
+        "V03",
+        "V04",
+        "V05",
+        "V06"
+      ]
+    },
+    {
+      "kind": "texture",
+      "name": "older desktop styling",
+      "events": [
+        "V02",
+        "V04",
+        "V06"
+      ]
+    }
+  ]
+}

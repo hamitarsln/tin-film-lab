@@ -1,0 +1,328 @@
+{
+  "id": 156,
+  "viewed_evidence": [
+    "technical-review-2026-10-19/deep-review/motion/156/timeline-00.jpg",
+    "technical-review-2026-10-19/deep-review/motion/156/timeline-01.jpg",
+    "technical-review-2026-10-19/deep-review/audio/156-speech.json"
+  ],
+  "product_from_film": "Backpack Securities promises movement of securities between traditional brokers and Solana.",
+  "explains_well": "A rejected physical token metaphor sets up the difference between a price-tracking asset and the promised real security.",
+  "unclear": "No actual transfer, account setup or supported security is demonstrated.",
+  "product_type": "financial infrastructure",
+  "scenario": "A customer brings a tin of paper assets to a broker and receives a negative response.",
+  "product_clear_time": 33,
+  "product_clear_basis": "The end card explicitly says on and off ramp securities between traditional brokers and Solana.",
+  "scenes": [
+    {
+      "start": 0,
+      "end": 8,
+      "action": "View moves toward a financial-office entrance; a man enters and sits at a desk.",
+      "design": "Manhattan Financial Services sign, glass building and bright office.",
+      "purpose": "Establish conventional brokerage",
+      "id": "V01",
+      "evidence": "Visible 1 fps samples, source 0–8 s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 8,
+      "end": 14,
+      "action": "Man takes a round metal tin from his backpack and opens it to reveal miniature paper certificates.",
+      "design": "Closeups of metal lid and printed papers.",
+      "purpose": "Make digital assets into a physical prop",
+      "id": "V02",
+      "evidence": "Visible 1 fps samples, source 8–14 s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 14,
+      "end": 26,
+      "action": "Woman receives and inspects the tin; alternating face shots show the exchange.",
+      "design": "Desk-level two-person scene and closeups, no dialogue captions.",
+      "purpose": "Stage rejection",
+      "id": "V03",
+      "evidence": "Visible 1 fps samples, source 14–26 s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 26,
+      "end": 30,
+      "action": "The man smiles then looks puzzled or concerned.",
+      "design": "Close face against office windows.",
+      "purpose": "Show the consequence",
+      "id": "V04",
+      "evidence": "Visible 1 fps samples, source 26–30 s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 30,
+      "end": 36.958,
+      "action": "White cards say tokenized stocks should give the real thing, then describe broker/Solana transfer and name Backpack Securities.",
+      "design": "Black text with red emphasis, plain brand mark.",
+      "purpose": "State the alternative",
+      "id": "V05",
+      "evidence": "Visible 1 fps samples, source 30–36.958 s; boundaries approximate, between-frame action unresolved."
+    }
+  ],
+  "sound": [
+    {
+      "id": "A01",
+      "start": 0,
+      "end": 36.958,
+      "layer": "unknown",
+      "detail": "No validated audio listening; speech, music, effects, mix and sync remain unverified.",
+      "visual_relation": "All visual scenes; alignment not checked",
+      "evidence": "No actual audio supplied to this review; existing technical-review-2026-10-19/deep-review/audio/156.json is not listening evidence."
+    },
+    {
+      "id": "A02",
+      "start": 6.474,
+      "end": 27.062,
+      "layer": "ASR draft",
+      "detail": "Draft dialogue describes a stock transfer request and rejection because the items track prices but are not actual stocks. This explains the prop scene; exact wording and performance remain unverified.",
+      "visual_relation": "Candidate script only; no music, effects or delivery finding",
+      "evidence": "technical-review-2026-10-19/deep-review/audio/156-speech.json; existing faster-whisper; ranges [{'start': 6.474, 'end': 7.862}, {'start': 10.09, 'end': 12.534}, {'start': 17.514, 'end': 27.062}]"
+    }
+  ],
+  "categories": [
+    {
+      "finding": "A brokerage visit and odd certificate tin lead to rejection and a securities-transfer promise. Draft dialogue clarifies the distinction.",
+      "evidence": "V01–V05; ASR10–26 s",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q01"
+    },
+    {
+      "finding": "A finance-office exterior and location label set a conventional investment-service scene.",
+      "evidence": "V01",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q02"
+    },
+    {
+      "finding": "Financial context is immediate, but the concrete broker-to-Solana service is only stated 33 s.",
+      "evidence": "V01,V05",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q03"
+    },
+    {
+      "finding": "The tin is opened and handed over; face reactions carry the story. End-card text changes and red emphasis directs the conclusion; no complex motion needs inference.",
+      "evidence": "V02–V05",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q04"
+    },
+    {
+      "finding": "Establishing street shots lead to desk scene, prop insert and reaction closeups; the white card abruptly separates story from explanation.",
+      "evidence": "V01–V05",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q05"
+    },
+    {
+      "finding": "Polished glass office, cool skyline and warm wooden desk contrast with the plain white explanation cards.",
+      "evidence": "V01–V05",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q06"
+    },
+    {
+      "finding": "Dialogue lacks visible captions; only the end cards supply a complete readable product statement.",
+      "evidence": "V03,V05",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q07"
+    },
+    {
+      "finding": "Voice presence and delivery remain unverified.",
+      "evidence": "No validated audio listening",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q08"
+    },
+    {
+      "finding": "Music character and arc remain unverified.",
+      "evidence": "No validated audio listening",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q09"
+    },
+    {
+      "finding": "Sound effects remain unverified.",
+      "evidence": "No validated audio listening",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q10"
+    },
+    {
+      "finding": "Sound-to-motion timing remain unverified.",
+      "evidence": "No validated audio listening",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q11"
+    },
+    {
+      "finding": "People and office appear photographic, with a tangible tin/certificate prop; production method and asset origin are unknown.",
+      "evidence": "V01–V04",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q12"
+    },
+    {
+      "finding": "Source duration supplied as 36.958 s; no independent compression, clipping or delivery check.",
+      "evidence": "Assigned metadata; source integrity checked by parent",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q13"
+    },
+    {
+      "finding": "Silent viewing shows an unusual financial exchange and confused customer; the exact rejection logic needs draft dialogue or captions.",
+      "evidence": "V02–V05",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q14"
+    },
+    {
+      "finding": "The shiny tin and tiny papers focus attention before the faces react; the end-card red words isolate the claimed difference.",
+      "evidence": "V02,V05",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q15"
+    },
+    {
+      "finding": "The story takes 30 s before six seconds of explanation, leaving little time for the actual transfer offer.",
+      "evidence": "V01–V05",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q16"
+    },
+    {
+      "finding": "A failed transfer request sets up a claim of a better bridge, but no successful transfer pays it off.",
+      "evidence": "V03,V05",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q17"
+    },
+    {
+      "finding": "The small tin in a formal office suggests comic mismatch, followed by disappointment and a corrective promise.",
+      "evidence": "V02–V05; interpretation",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q18"
+    },
+    {
+      "finding": "Backpack, tin and certificates stay traceable through the desk exchange.",
+      "evidence": "V01–V03",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q19"
+    },
+    {
+      "finding": "The film claims securities can move between broker and chain; it depicts a metaphorical failure, not a working transfer.",
+      "evidence": "V05",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q20"
+    },
+    {
+      "finding": "The backpack prop links lightly to the brand name; the formal office could belong to many financial ads.",
+      "evidence": "V01–V02,V05",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q21"
+    },
+    {
+      "finding": "Shorten the exterior approach and use the time for one clear transfer diagram or real completion state.",
+      "evidence": "V01,V05",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q22"
+    },
+    {
+      "finding": "For interoperability, use one rejected physical object to represent a format mismatch, then show the actual compatible transfer.",
+      "evidence": "V02–V05",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q23"
+    },
+    {
+      "finding": "No human new-viewer test; product description above is model interpretation of sampled images.",
+      "evidence": "V01–V05",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q24"
+    },
+    {
+      "finding": "No phone-size, safe-area or flash assessment; small UI text needs separate preview.",
+      "evidence": "Contact sheets",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q25"
+    }
+  ],
+  "lessons": {
+    "keep": "Make an abstract compatibility problem concrete with a simple physical prop.",
+    "try": [
+      "For data migration, show an incompatible file as a wrong-shaped folder, then the real imported records.",
+      "Test a version with captioned rejection plus a five-second broker-to-wallet transfer flow."
+    ],
+    "avoid": "Avoid showing only the failed alternative when the product promise is a successful transfer.",
+    "open": "What securities and brokers are supported, and how does the real transfer work?"
+  },
+  "comparison": {
+    "story": "Establish conventional brokerage → Make digital assets into a physical prop → Stage rejection → Show the consequence → State the alternative",
+    "motion": "The tin is opened and handed over; face reactions carry the story. End-card text changes and red emphasis directs the conclusion; no complex motion needs inference.",
+    "sound": "No validated listening; no absence claims.",
+    "texture": "Polished glass office, cool skyline and warm wooden desk contrast with the plain white explanation cards.",
+    "lesson": "Make an abstract compatibility problem concrete with a simple physical prop."
+  },
+  "elements": [
+    {
+      "kind": "texture",
+      "name": "metal container",
+      "events": [
+        "V02"
+      ]
+    },
+    {
+      "kind": "texture",
+      "name": "paper certificates",
+      "events": [
+        "V02",
+        "V03"
+      ]
+    },
+    {
+      "kind": "texture",
+      "name": "office footage",
+      "events": [
+        "V01",
+        "V03"
+      ]
+    }
+  ],
+  "reviewer_model": "gpt-6-astra",
+  "scope": "sampled visual and story review; ASR and measured signal support; no validated audio listening",
+  "closer_windows": []
+}

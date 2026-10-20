@@ -1,0 +1,335 @@
+{
+  "id": 80,
+  "product_from_film": "Eureka is presented as a cargo aircraft that can take off and land on water.",
+  "explains_well": "Cargo loading, underwater foils and airborne views link the aircraft to a transport purpose.",
+  "unclear": "The film does not establish which views show a built aircraft or validate the performance figures.",
+  "product_type": "cargo aircraft",
+  "scenario": "Load cargo into a water-capable aircraft, take off and operate it as a fleet.",
+  "product_clear_time": 31,
+  "product_clear_basis": "Cargo enters the body at 26–27s; the 30–31s underwater view explicitly labels water takeoff and landing.",
+  "scenes": [
+    {
+      "start": 0,
+      "end": 14,
+      "action": "Ships at sea, historical-looking ship images and a technical drawing accompany short progress statements. Container ships remain the recurring object.",
+      "design": "Monochrome and muted footage, small central white text, some rounded frames.",
+      "purpose": "Establish established shipping as the baseline.",
+      "evidence": "1 fps source samples in 0–14s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V01"
+    },
+    {
+      "start": 14,
+      "end": 26,
+      "action": "Cloud and tail details introduce a dark aircraft. A top-down ocean view and drawing precede full rear views skimming above water at sunset.",
+      "design": "Sleek dark surfaces, ocean reflections and warm sky.",
+      "purpose": "Reveal an alternative transport form.",
+      "evidence": "1 fps source samples in 14–26s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V02"
+    },
+    {
+      "start": 26,
+      "end": 35,
+      "action": "A suspended cargo box sits over and then inside a top opening; body views follow. Underwater foils and blue flow-like visualization appear.",
+      "design": "Woven-looking shell, metallic cargo box, teal water and blue streamlines.",
+      "purpose": "Explain cargo capacity and water operation visually.",
+      "evidence": "1 fps source samples in 26–35s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V03"
+    },
+    {
+      "start": 35,
+      "end": 44,
+      "action": "Side views show the aircraft near water, then an underside view and cloud flight. Text describes retracting foils and design performance; airflow views return.",
+      "design": "Clean side silhouette and blue flow diagram; small performance text.",
+      "purpose": "Connect parts to flight function.",
+      "evidence": "1 fps source samples in 35–44s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V04"
+    },
+    {
+      "start": 44,
+      "end": 55,
+      "action": "Multiple aircraft sit on water, then appear above clouds beside cost claims. A blue-lit hangar shows side and front aircraft views.",
+      "design": "Sunset fleet, cloud backdrop and dark blue hangar.",
+      "purpose": "Present fleet operation and material identity.",
+      "evidence": "1 fps source samples in 44–55s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V05"
+    },
+    {
+      "start": 55,
+      "end": 60,
+      "action": "The front silhouette sits under a bright overhead rectangle; Eureka appears, then Break the surface and the Aspera Industries mark.",
+      "design": "Black ending with restrained white text.",
+      "purpose": "Name the aircraft and close the water/flight theme.",
+      "evidence": "1 fps source samples in 55–60s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V06"
+    }
+  ],
+  "categories": [
+    {
+      "id": "Q01",
+      "finding": "Shipping baseline leads to aircraft reveal, cargo/foil details, flight claims and fleet/brand ending.",
+      "evidence": "V01–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q02",
+      "finding": "Black at 0s becomes a monochrome ship at 1–2s; the first visible subject is shipping, not the aircraft.",
+      "evidence": "V01",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q03",
+      "finding": "Cargo logistics is clear once the box and water-operation label appear at 26–31s. Buyers or operators are not explicitly named.",
+      "evidence": "V03",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q04",
+      "finding": "Aircraft positions, view angles and cargo-box height change across samples. Exact takeoff motion, camera paths and easing remain unresolved.",
+      "evidence": "V02–V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q05",
+      "finding": "Technical drawings and airflow-like images interrupt scenic views to imply engineering explanation. The transitions themselves are not resolved.",
+      "evidence": "V01–V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q06",
+      "finding": "Ocean light, dark woven-looking material and blue streamlines make the design feel physical and technical. Material composition is a claim, not verified by appearance.",
+      "evidence": "V03–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q07",
+      "finding": "Most specifications are small lower text while the aircraft fills the frame. The product name is delayed until 56s.",
+      "evidence": "V04–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q08",
+      "finding": "Voice delivery is unverified.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "No validated listening.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q09",
+      "finding": "Music character and structure are unverified.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "No validated listening.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q10",
+      "finding": "Effects and their sources are unverified.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "No validated listening; waveform peaks do not identify effects.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q11",
+      "finding": "Sound sync is unverified.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "No validated listening or paired audiovisual timing.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q12",
+      "finding": "Ships, aircraft, technical drawings and flow-like graphics appear. Actual filming, render provenance and prototype status are unknown.",
+      "evidence": "V01–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q13",
+      "finding": "Source duration 60.0 s; Watch metadata 1920 × 1080. Frame rate, audio clipping and export quality not checked here.",
+      "evidence": "Whole film",
+      "status": "supported",
+      "reason": "Parent source metadata supports duration and dimensions; visual review is sampled.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q14",
+      "finding": "Cargo loading and foils support silent understanding of purpose. Economics and operating claims depend on small text.",
+      "evidence": "V03–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q15",
+      "finding": "The cargo opening is a clear central focus. Scenic aircraft views dominate over their small specification labels.",
+      "evidence": "V03,V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q16",
+      "finding": "The opening spends 14s on ships. Several engineering and cost claims arrive in the second half with limited readable proof.",
+      "evidence": "V01,V04,V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "Start with cargo loading and give each key specification one clean diagram."
+    },
+    {
+      "id": "Q17",
+      "finding": "The shipping-progress setup is answered by a water-capable aircraft. Break the surface neatly returns to the physical setting.",
+      "evidence": "V01,V03,V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q18",
+      "finding": "Sunset flight and fleet imagery suggest scale and possibility; this is intended emotion inferred from visuals.",
+      "evidence": "V02,V05",
+      "status": "uncertain",
+      "reason": "No audience or sound evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q19",
+      "finding": "The dark aircraft silhouette and ocean remain consistent from reveal through fleet. The cargo box adds a traceable functional object.",
+      "evidence": "V02–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q20",
+      "finding": "Cargo loading and foil positions are shown as presentation imagery. Flight readiness, capacity, range, cost and autonomy are not independently checked.",
+      "evidence": "V03–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q21",
+      "finding": "The water/foil/cargo combination and dark aircraft geometry are specific. Generic progress montage is less tied to this product.",
+      "evidence": "V01,V03",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q22",
+      "finding": "Loading and foil views explain useful functions. More ship history could be removed to show one complete cargo journey.",
+      "evidence": "V01,V03",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q23",
+      "finding": "For Tin feature explanation, pair each attractive overview with a close view of the specific mechanism and one plain label.",
+      "evidence": "V03,V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "Show a campaign workflow overview, then the exact input-to-output step that makes it useful."
+    },
+    {
+      "id": "Q24",
+      "finding": "No human new-viewer test was performed.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "The product summary is this model’s film-only reading.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q25",
+      "finding": "Mobile preview and accessibility checks were not performed.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "Contact sheets are evidence views, not a stated mobile preview or compliance test.",
+      "experiment": "none"
+    }
+  ],
+  "elements": [
+    {
+      "kind": "motion",
+      "name": "cargo loading states",
+      "events": [
+        "V03"
+      ]
+    },
+    {
+      "kind": "motion",
+      "name": "changing aircraft view angle",
+      "events": [
+        "V02",
+        "V04",
+        "V05"
+      ]
+    },
+    {
+      "kind": "texture",
+      "name": "woven surface",
+      "events": [
+        "V03"
+      ]
+    },
+    {
+      "kind": "texture",
+      "name": "blue flow visualization",
+      "events": [
+        "V03",
+        "V04"
+      ]
+    }
+  ],
+  "lessons": {
+    "keep": "Follow a product beauty view with a close functional detail such as cargo loading or underwater foils.",
+    "try": [
+      "For Tin workflow films, pair an overview screen with one enlarged input-to-output mechanism and a short label.",
+      "For a physical product launch, follow the same cargo box from loading to destination and reserve separate frames for verified specifications."
+    ],
+    "avoid": "Letting attractive presentation imagery imply validated engineering or commercial performance.",
+    "open": "Prototype status, technical performance, asset provenance, sound and exact motion remain unverified."
+  },
+  "comparison": {
+    "story": "Shipping baseline → aircraft → loading/foils → flight/fleet claims → name.",
+    "motion": "Aircraft/cargo state and viewpoint changes; exact movement unverified.",
+    "sound": "No validated listening; sound layers and sync unknown.",
+    "texture": "Ocean sunset, dark woven-looking body and blue technical flow imagery.",
+    "lesson": "A functional close-up gives an attractive reveal concrete meaning."
+  },
+  "reviewer_model": "gpt-6-astra",
+  "scope": "sampled visual and story review; ASR and measured signal support; no validated audio listening",
+  "viewed_evidence": [
+    "technical-review-2026-10-19/deep-review/motion/080/timeline-00.jpg",
+    "technical-review-2026-10-19/deep-review/motion/080/timeline-01.jpg"
+  ],
+  "closer_windows": [],
+  "sound": [
+    {
+      "id": "A01",
+      "start": 0,
+      "end": 60.0,
+      "layer": "unknown",
+      "detail": "No validated audio listening. Voice delivery, music, effects and mix are unknown.",
+      "visual_relation": "All scenes; sound alignment unverified",
+      "evidence": "No actual audio perception in this review; prepared audio files are not listening evidence."
+    }
+  ]
+}

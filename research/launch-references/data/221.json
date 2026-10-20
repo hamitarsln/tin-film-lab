@@ -1,0 +1,392 @@
+{
+  "id": 221,
+  "viewed_evidence": [
+    "technical-review-2026-10-19/deep-review/motion/221/timeline-00.jpg",
+    "technical-review-2026-10-19/deep-review/motion/221/timeline-01.jpg",
+    "technical-review-2026-10-19/deep-review/motion/221/timeline-02.jpg",
+    "technical-review-2026-10-19/deep-review/motion/221/timeline-03.jpg",
+    "astra-review-2026-10-20/evidence/group-3/221/dense.jpg",
+    "technical-review-2026-10-19/deep-review/audio/221-speech.json"
+  ],
+  "product_from_film": "Libra AI connects work apps to prepare meetings, create material, take notes and perform follow-up tasks from requests.",
+  "explains_well": "One hiring meeting connects context gathering, a deck, meeting notes, messages and an applicant-tracking workflow.",
+  "unclear": "Most results remain small floating panels, so the viewer cannot inspect the exact deck, message content or hiring-system change before the film says everything is done.",
+  "product_type": "work assistant",
+  "scenario": "Prepare for a hiring meeting and complete its follow-up across work apps.",
+  "product_clear_time": 24,
+  "product_clear_basis": "The request for prior emails, last-call context and a deck is paired with task panels and a slide preview.",
+  "scenes": [
+    {
+      "start": 0,
+      "end": 10,
+      "action": "Crowd, multi-screen worker and an explosion on a television lead to the founder introducing Libra.",
+      "design": "Fast montage, office walk and orange name label.",
+      "purpose": "Set work overload",
+      "id": "V01",
+      "evidence": "Visible 1 fps samples, source 0–10s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 10,
+      "end": 14,
+      "action": "App icons gather on a table under a lock and security badges; founder pulls a laptop toward camera.",
+      "design": "Orange interface graphics in a wide office shot.",
+      "purpose": "Introduce connected work apps",
+      "id": "V02",
+      "evidence": "Visible 1 fps samples, source 10–14s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 14,
+      "end": 26,
+      "action": "Founder requests meeting preparation; person card, prior context, action tasks and a deck preview appear.",
+      "design": "Orange camera border, microphone bar and translucent task panels.",
+      "purpose": "Prepare for a hiring meeting",
+      "id": "V03",
+      "evidence": "Visible 1 fps samples, source 14–26s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 26,
+      "end": 38,
+      "action": "Deck status becomes finalised; founder makes a drink, then joins a meeting with notes alongside.",
+      "design": "Office kitchenette, meeting tiles and notes panel.",
+      "purpose": "Show preparation and meeting support",
+      "id": "V04",
+      "evidence": "Visible 1 fps samples, source 26–38s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 38,
+      "end": 51,
+      "action": "Founder asks for a summary email, colleague update and an interview workflow feeding an ATS while handling a puzzle cube.",
+      "design": "Task cards, app notifications and workflow panel.",
+      "purpose": "Show follow-up tasks",
+      "id": "V05",
+      "evidence": "Visible 1 fps samples, source 38–51s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 51,
+      "end": 62,
+      "action": "Founder lists meetings, inbox, calendar and pipeline while app icons surround the Libra symbol.",
+      "design": "Direct office presentation and orange icon cluster.",
+      "purpose": "Broaden supported work",
+      "id": "V06",
+      "evidence": "Visible 1 fps samples, source 51–62s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 62,
+      "end": 75,
+      "action": "Website, dashboard and deck previews surround presenter; GAIA benchmark bars appear above a red couch.",
+      "design": "Floating panels, charts and large comparison words.",
+      "purpose": "Claim breadth and performance",
+      "id": "V07",
+      "evidence": "Visible 1 fps samples, source 62–75s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 75,
+      "end": 86,
+      "action": "Presenter walks away, returns for an early-access invitation and points toward link-below text.",
+      "design": "Playful exit and return within the same office.",
+      "purpose": "Invite early users",
+      "id": "V08",
+      "evidence": "Visible 1 fps samples, source 75–86s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 86,
+      "end": 93.333,
+      "action": "Orange slogan card leads to Libra AI and trylibra.ai on black.",
+      "design": "Simple brand close.",
+      "purpose": "Give the website",
+      "id": "V09",
+      "evidence": "Visible 1 fps samples, source 86–93.333s; boundaries approximate, between-frame action unresolved."
+    }
+  ],
+  "sound": [
+    {
+      "id": "A01",
+      "start": 0,
+      "end": 93.333,
+      "layer": "unknown",
+      "detail": "No validated audio listening; speech, music, effects, mix and sync remain unverified.",
+      "visual_relation": "All visual scenes; alignment not checked",
+      "evidence": "No actual audio supplied to this review; existing technical-review-2026-10-19/deep-review/audio/221.json is not listening evidence."
+    },
+    {
+      "id": "A02",
+      "start": 2.81,
+      "end": 82.85,
+      "layer": "ASR draft",
+      "detail": "The repeated I am sorry sequence at 2.81–4.13 s contains many zero-length segments and is rejected. Later candidate text supports meeting preparation, follow-up messages, an ATS workflow, broad app support and early access. Meeting with you in 2020, put together a date, filament, ADS and several benchmark phrases are mistranscribed; visible captions guide the interpretation. No listening or delivery claim is made.",
+      "visual_relation": "V01–V08; partly usable candidate script with explicit rejected opening",
+      "evidence": "technical-review-2026-10-19/deep-review/audio/221-speech.json; existing faster-whisper base CPU int8"
+    }
+  ],
+  "categories": [
+    {
+      "finding": "The hiring-meeting example joins preparation, meeting support and follow-up before a broader app list and benchmark claim.",
+      "evidence": "V01–V09",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q01"
+    },
+    {
+      "finding": "Crowd and multi-screen cuts suggest overload, followed by an exaggerated television explosion before the founder introduces the product.",
+      "evidence": "V01",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q02"
+    },
+    {
+      "finding": "The connected-app promise arrives around 10 s; the deck request and visible output make the job concrete by 24 s.",
+      "evidence": "V02,V03",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q03"
+    },
+    {
+      "finding": "Dense 10–14 s samples show app pills gathering near the table centre, a glowing lock and badges appearing, then the row reducing to a single orange control as the founder brings the laptop forward.",
+      "evidence": "V02; dense 10–14 s",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q04"
+    },
+    {
+      "finding": "Camera movement and location changes carry the founder through one workday. Floating panels persist across cuts to connect the tasks.",
+      "evidence": "V02–V06",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q05"
+    },
+    {
+      "finding": "Warm shared-office footage, orange borders and translucent dark panels create a consistent demonstration style; the red couch changes the setting for benchmark claims.",
+      "evidence": "V01–V08",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q06"
+    },
+    {
+      "finding": "Short captions explain commands, but long context, task and result text is too small to inspect throughout the moving shots.",
+      "evidence": "V03–V05",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q07"
+    },
+    {
+      "finding": "Voice presence and delivery remain unverified.",
+      "evidence": "No validated audio listening",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q08"
+    },
+    {
+      "finding": "Music character and arc remain unverified.",
+      "evidence": "No validated audio listening",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q09"
+    },
+    {
+      "finding": "Sound effects remain unverified.",
+      "evidence": "No validated audio listening",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q10"
+    },
+    {
+      "finding": "Sound-to-motion timing remain unverified.",
+      "evidence": "No validated audio listening",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q11"
+    },
+    {
+      "finding": "Office performance, composited interface panels, meeting tiles, app icons and benchmark graphics are visible. Actual backend execution and production tooling are not established.",
+      "evidence": "V01–V09",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q12"
+    },
+    {
+      "finding": "Source duration supplied as 93.333s; no independent compression, clipping or delivery check.",
+      "evidence": "Assigned metadata; source integrity checked by parent",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q13"
+    },
+    {
+      "finding": "Captions and panels show the broad meeting workflow silently, though a viewer cannot read all action details from the brief overlays.",
+      "evidence": "V03–V05",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q14"
+    },
+    {
+      "finding": "The founder remains central while panels occupy the edges; this preserves the presenter but reduces the space available for readable results.",
+      "evidence": "V03–V07",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q15"
+    },
+    {
+      "finding": "The middle 35 s carries a coherent meeting sequence; the last third broadens claims and repeats an invitation instead of inspecting a result.",
+      "evidence": "V03–V08",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q16"
+    },
+    {
+      "finding": "Finalised deck and completed task panels provide a visual payoff, but the content and external changes are not shown in enough detail to assess.",
+      "evidence": "V04,V05",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q17"
+    },
+    {
+      "finding": "Making a drink and playing with a cube while panels progress suggest reduced effort; the return for early access adds a playful close.",
+      "evidence": "V04,V05,V08; interpretation",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q18"
+    },
+    {
+      "finding": "Same presenter and office connect the story; orange outlines identify assistant-related material across scenes.",
+      "evidence": "V01–V09",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q19"
+    },
+    {
+      "finding": "Security badges, benchmark superiority, speed and completed work are film claims. The review does not verify certification, benchmark methods, message delivery or ATS writes.",
+      "evidence": "V02,V05,V07",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q20"
+    },
+    {
+      "finding": "A single hiring meeting gives the broad assistant a clearer use case than the later super-agent description.",
+      "evidence": "V03–V05",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q21"
+    },
+    {
+      "finding": "Pause on one summary email and its approval, then show the exact saved ATS fields after the workflow.",
+      "evidence": "V05",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q22"
+    },
+    {
+      "finding": "For a multi-app assistant, use one connected task story and make the final changed records readable.",
+      "evidence": "V03–V05",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q23"
+    },
+    {
+      "finding": "No human new-viewer test; product description above is model interpretation of sampled images.",
+      "evidence": "V01–V09",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q24"
+    },
+    {
+      "finding": "No phone-size, safe-area or flash assessment; small UI text needs separate preview.",
+      "evidence": "Contact sheets",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q25"
+    }
+  ],
+  "lessons": {
+    "keep": "Connect several app actions through one meeting with a clear before-and-after sequence.",
+    "try": [
+      "Show the meeting notes beside the generated summary email, including a visible review and send step.",
+      "Show the ATS record before and after the interview workflow, with only the changed fields highlighted."
+    ],
+    "avoid": "Avoid making completion badges carry all the proof of a finished workflow.",
+    "open": "What exact records changed, and where can the user review them before actions are taken?"
+  },
+  "comparison": {
+    "story": "Set work overload → Introduce connected work apps → Prepare for a hiring meeting → Show preparation and meeting support → Show follow-up tasks → Broaden supported work → Claim breadth and performance → Invite early users → Give the website",
+    "motion": "Dense 10–14 s samples show app pills gathering near the table centre, a glowing lock and badges appearing, then the row reducing to a single orange control as the founder brings the laptop forward.",
+    "sound": "No validated listening; no absence claims.",
+    "texture": "Warm shared-office footage, orange borders and translucent dark panels create a consistent demonstration style; the red couch changes the setting for benchmark claims.",
+    "lesson": "Connect several app actions through one meeting with a clear before-and-after sequence."
+  },
+  "elements": [
+    {
+      "kind": "ui",
+      "name": "meeting call",
+      "events": [
+        "V04"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "task list",
+      "events": [
+        "V03",
+        "V05"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "slide preview",
+      "events": [
+        "V03",
+        "V04"
+      ]
+    },
+    {
+      "kind": "motion",
+      "name": "app icon grouping",
+      "events": [
+        "V02",
+        "V06"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "benchmark chart",
+      "events": [
+        "V07"
+      ]
+    }
+  ],
+  "reviewer_model": "gpt-6-astra",
+  "scope": "sampled visual and story review; ASR and measured signal support; no validated audio listening",
+  "closer_windows": [
+    {
+      "start": 10,
+      "end": 14,
+      "rate_fps": 4,
+      "evidence": [
+        "astra-review-2026-10-20/evidence/group-3/221/dense.jpg"
+      ],
+      "resolved": "App pills gather, a lock and badges appear, and the pills reduce to one control before the laptop is lifted toward camera. These are visual overlays, not evidence of security certification."
+    }
+  ]
+}

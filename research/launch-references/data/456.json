@@ -1,0 +1,358 @@
+{
+  "id": 456,
+  "reviewer_model": "gpt-6-astra",
+  "scope": "sampled visual and story review; ASR and measured signal support; no validated audio listening",
+  "viewed_evidence": [
+    "technical-review-2026-10-19/deep-review/motion/456/timeline-00.jpg",
+    "technical-review-2026-10-19/deep-review/motion/456/timeline-01.jpg",
+    "technical-review-2026-10-19/deep-review/motion/456/timeline-02.jpg",
+    "technical-review-2026-10-19/deep-review/motion/456/timeline-03.jpg",
+    "technical-review-2026-10-19/deep-review/audio/456-speech.json"
+  ],
+  "closer_windows": [],
+  "product_from_film": "Taya is a necklace that saves spoken moments and offers later reminders.",
+  "explains_well": "A thought saved at the beach returns in the closing stage speech, giving the memory promise a clear story payoff.",
+  "unclear": "The film does not explain how birthday, location and event details enter the system or which reminders need manual setup.",
+  "product_type": "wearable memory assistant",
+  "scenario": "Save a thought, remember a shop and receive personal reminders.",
+  "product_clear_time": 16,
+  "product_clear_basis": "A Saved to Moments notification repeats the thought after the wearer touches the necklace.",
+  "scenes": [
+    {
+      "id": "V01",
+      "start": 0,
+      "end": 18,
+      "action": "Large Taya text crosses city and beach views. A woman touches a gold ring pendant; a transcribing status appears and a Saved to Moments notification repeats her thought about today and tomorrow.",
+      "design": "Warm beach footage, gold jewelry and floating status cards.",
+      "purpose": "Show a thought becoming a saved memory.",
+      "evidence": "Visible chronological 1 fps samples, source 0–18s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V02",
+      "start": 18,
+      "end": 32,
+      "action": "The woman notices a city shop and touches her pendant to remember it. A phone view displays a list of saved notes with playback controls.",
+      "design": "Blue clothing, storefront footage and a light phone interface.",
+      "purpose": "Extend memory capture to an everyday errand.",
+      "evidence": "Visible chronological 1 fps samples, source 18–32s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V03",
+      "start": 32,
+      "end": 54,
+      "action": "Cafe conversation, reading and note-taking lead to a walk. A birthday notification says Ashley loves flowers and points to the florist saved earlier; flowers and a greeting follow.",
+      "design": "Everyday lifestyle montage and a large readable notification.",
+      "purpose": "Connect a saved place to a useful later reminder.",
+      "evidence": "Visible chronological 1 fps samples, source 32–54s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V04",
+      "start": 54,
+      "end": 69,
+      "action": "Friends share a candlelit dinner. The necklace appears on another guest and the woman touches hers before leaving.",
+      "design": "Warm candles and close jewelry details.",
+      "purpose": "Place the wearable naturally in social life.",
+      "evidence": "Visible chronological 1 fps samples, source 54–69s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V05",
+      "start": 69,
+      "end": 85,
+      "action": "A night cab ride leads to a notification saying the venue is ten minutes away and talking points were sent to the app. The woman checks the pendant and leaves the car.",
+      "design": "Night reflections and a floating preparation card.",
+      "purpose": "Introduce support before a public event.",
+      "evidence": "Visible chronological 1 fps samples, source 69–85s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V06",
+      "start": 85,
+      "end": 101,
+      "action": "On stage the woman repeats the beach thought about worrying about tomorrow and forgetting today.",
+      "design": "Spotlights and short centered subtitles.",
+      "purpose": "Pay off the saved opening thought.",
+      "evidence": "Visible chronological 1 fps samples, source 85–101s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V07",
+      "start": 101,
+      "end": 112.255,
+      "action": "A gold pendant fills the frame against dark and then light backgrounds. Own your moments, Privacy always and a preorder URL close the film.",
+      "design": "Metal jewelry macro and minimal brand typography.",
+      "purpose": "Turn the personal story into a product invitation.",
+      "evidence": "Visible chronological 1 fps samples, source 101–112.255s; boundary approximate; exact motion between samples unverified."
+    }
+  ],
+  "sound": [
+    {
+      "id": "A01",
+      "start": 0,
+      "end": 112.255,
+      "layer": "unknown",
+      "detail": "No validated direct audio listening was performed. Music, speech delivery, effects, mix and sync remain unknown, not absent.",
+      "visual_relation": "All visual scenes; audiovisual alignment unverified",
+      "evidence": "Visual samples only; no actual audio range supplied to this reviewer."
+    },
+    {
+      "id": "A02",
+      "start": 9.67,
+      "end": 96.81,
+      "layer": "ASR draft",
+      "detail": "The partial ASR draft repeats the today/tomorrow thought near the beginning and stage ending. It also suggests the shop-saving line and a necklace compliment. This supports the callback structure; recognition is imperfect and does not establish delivery.",
+      "visual_relation": "Story text support; exact audiovisual alignment and delivery unverified.",
+      "evidence": "technical-review-2026-10-19/deep-review/audio/456-speech.json; local faster-whisper base CPU int8 draft; VAD candidates only, recognition errors possible."
+    }
+  ],
+  "categories": [
+    {
+      "id": "Q01",
+      "finding": "A captured thought, remembered shop, birthday reminder and event preparation lead back to the opening thought on stage.",
+      "evidence": "V01–V07",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q02",
+      "finding": "The beach thought gives the necklace a human purpose before a list of features.",
+      "evidence": "V01",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q03",
+      "finding": "People who want to remember ideas and personal details are the audience; the saved notification establishes the tool at 16s.",
+      "evidence": "V01",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q04",
+      "finding": "Lifestyle scenes cut between places, notification cards appear over footage, and the closing pendant rotates or reframes in macro views.",
+      "evidence": "V01–V07",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q05",
+      "finding": "Pendant touches recur as a visual action cue, while floating cards make invisible saving and reminders legible.",
+      "evidence": "V01–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q06",
+      "finding": "Gold metal, beach light, candlelight and night reflections make the wearable feel like jewelry within daily life.",
+      "evidence": "V01,V04,V05,V07",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q07",
+      "finding": "Large reminder cards are readable in the sampled views; the smaller phone list is harder to inspect.",
+      "evidence": "V02,V03,V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q08",
+      "finding": "The partial ASR draft repeats the today/tomorrow thought near the beginning and stage ending. It also suggests the shop-saving line and a necklace compliment. This supports the callback structure; recognition is imperfect and does not establish delivery.",
+      "evidence": "A02",
+      "status": "uncertain",
+      "reason": "ASR text only; no validated listening, delivery or voice origin.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q09",
+      "finding": "Voice delivery, music, effects and audiovisual alignment were not established by this visual pass.",
+      "evidence": "A01",
+      "status": "not checked",
+      "reason": "No validated direct audio listening input.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q10",
+      "finding": "Voice delivery, music, effects and audiovisual alignment were not established by this visual pass.",
+      "evidence": "A01",
+      "status": "not checked",
+      "reason": "No validated direct audio listening input.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q11",
+      "finding": "Voice delivery, music, effects and audiovisual alignment were not established by this visual pass.",
+      "evidence": "A01",
+      "status": "not checked",
+      "reason": "No validated direct audio listening input.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q12",
+      "finding": "Lifestyle footage, jewelry close-ups, a phone interface and composited notifications carry the film. Production provenance is unknown.",
+      "evidence": "V01–V07",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q13",
+      "finding": "Manifest duration 112.255s; indexed dimensions 1920×1080. Source unchanged flag recorded; fresh encoding and audio clipping checks not run.",
+      "evidence": "Group manifest",
+      "status": "uncertain",
+      "reason": "Inherited technical metadata; no fresh media probe in this review.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q14",
+      "finding": "Visible text explains capture and reminders, while the repeated subtitled thought supports the final callback.",
+      "evidence": "V01,V03,V05,V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q15",
+      "finding": "Each large notification briefly becomes the focus, then returns attention to the person and her next action.",
+      "evidence": "V01,V03,V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q16",
+      "finding": "Several daily situations establish the broad promise before the final stage payoff; the event-preparation feature arrives late.",
+      "evidence": "V01–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q17",
+      "finding": "The opening thought is repeated on stage, and the saved store connects to the later flower reminder.",
+      "evidence": "V01–V03,V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q18",
+      "finding": "Beach, friendship and a confident stage appearance frame memory as personal care and readiness. Audio mood remains unverified.",
+      "evidence": "V01–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q19",
+      "finding": "Touch, transcription and saved text form a visible capture chain. Birthday and event reminders omit their setup inputs.",
+      "evidence": "V01,V03,V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q20",
+      "finding": "Privacy is a closing claim. Data sources, reminder rules, talking-point quality and actual storage behavior are not demonstrated.",
+      "evidence": "V05,V07",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q21",
+      "finding": "The pendant remains recognizable through the story and the ending supplies Taya and its preorder destination.",
+      "evidence": "V01–V07",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q22",
+      "finding": "Add a brief birthday or event setup view so the later reminder has an understandable source.",
+      "evidence": "V03,V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q23",
+      "finding": "Plant one specific sentence early and reuse it at the final human payoff.",
+      "evidence": "V01,V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q24",
+      "finding": "Taya is a necklace that saves spoken moments and offers later reminders.",
+      "evidence": "Model reading from inspected images",
+      "status": "uncertain",
+      "reason": "Model-only new-viewer interpretation; no human test.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q25",
+      "finding": "Contact sheets inspected at displayed size; a phone-size playback, caption audit, flash audit and formal accessibility check were not performed.",
+      "evidence": "Viewed sheets",
+      "status": "not checked",
+      "reason": "Full-size moving-image and device checks unavailable in this pass.",
+      "experiment": "none"
+    }
+  ],
+  "lessons": {
+    "keep": "Use a saved detail again in a later scene so memory has a visible payoff.",
+    "avoid": "Introducing contextual reminders without showing how their inputs were supplied.",
+    "open": "Reminder setup, privacy behavior, talking-point contents and sound remain unverified.",
+    "try": [
+      "For Tin, save one customer insight and bring that exact detail back in a later campaign draft.",
+      "Add one short setup screen before the birthday reminder and compare whether its source becomes clearer."
+    ]
+  },
+  "comparison": {
+    "story": "Show a thought becoming a saved memory. → Extend memory capture to an everyday errand. → Connect a saved place to a useful later reminder. → Place the wearable naturally in social life. → Introduce support before a public event. → Pay off the saved opening thought. → Turn the personal story into a product invitation.",
+    "motion": "Lifestyle scenes cut between places, notification cards appear over footage, and the closing pendant rotates or reframes in macro views. Sampling scope: 1 fps unless a closer window is recorded.",
+    "sound": "No validated listening; unknown.",
+    "texture": "Warm beach footage, gold jewelry and floating status cards.; Blue clothing, storefront footage and a light phone interface.; Everyday lifestyle montage and a large readable notification.; Warm candles and close jewelry details.; Night reflections and a floating preparation card.; Spotlights and short centered subtitles.; Metal jewelry macro and minimal brand typography.",
+    "lesson": "Use a saved detail again in a later scene so memory has a visible payoff."
+  },
+  "elements": [
+    {
+      "kind": "ui",
+      "name": "notification",
+      "events": [
+        "V01",
+        "V03",
+        "V05"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "saved notes list",
+      "events": [
+        "V02"
+      ]
+    },
+    {
+      "kind": "motion",
+      "name": "pendant touch",
+      "events": [
+        "V01",
+        "V02",
+        "V04"
+      ]
+    },
+    {
+      "kind": "texture",
+      "name": "gold jewelry",
+      "events": [
+        "V01",
+        "V07"
+      ]
+    }
+  ]
+}

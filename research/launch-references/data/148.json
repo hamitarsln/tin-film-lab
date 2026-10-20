@@ -1,0 +1,319 @@
+{
+  "id": 148,
+  "reviewer_model": "gpt-6-astra",
+  "scope": "sampled visual and story review; ASR and measured signal support; no validated audio listening",
+  "viewed_evidence": [
+    "technical-review-2026-10-19/deep-review/motion/148/timeline-00.jpg",
+    "technical-review-2026-10-19/deep-review/motion/148/timeline-01.jpg",
+    "technical-review-2026-10-19/deep-review/audio/148-speech.json"
+  ],
+  "closer_windows": [],
+  "product_from_film": "The Collective invites people to meet and build together through a community.",
+  "explains_well": "The late event-photo collage gives the abstract relationship message a human destination.",
+  "unclear": "Membership, audience eligibility and how to join are not explained.",
+  "product_type": "builder community",
+  "scenario": "Meet people who may help change a project or personal direction.",
+  "product_clear_time": 32,
+  "product_clear_basis": "Event photos lead to meeting-the-right-people text and a join invitation.",
+  "scenes": [
+    {
+      "id": "V01",
+      "start": 0,
+      "end": 10,
+      "action": "Space-station, brain, abstract object, surfer and rocket images lead to a wall of televisions showing eyes. Sparse words mention the ones who do.",
+      "design": "Archival collage, bright brain overlays, dark negative space and CRT texture.",
+      "purpose": "Frame ambition and unusual thinking.",
+      "evidence": "Visible chronological 1 fps samples, source 0–10s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V02",
+      "start": 10,
+      "end": 23,
+      "action": "A timer, painting, interview, DNA-like form, early computer user, spacecraft, surfer, astronauts, keyboard and athletes accompany one-relationship/meeting/conversation phrasing.",
+      "design": "Serif words over varied documentary and abstract images.",
+      "purpose": "Suggest many small encounters can change a life.",
+      "evidence": "Visible chronological 1 fps samples, source 10–23s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V03",
+      "start": 23,
+      "end": 30,
+      "action": "Code work, an inverted-color figure, spacewalk and interview screens with eye strips lead to black sampled frames.",
+      "design": "Technical imagery, negative effect and screen distortion.",
+      "purpose": "Build a final montage peak.",
+      "evidence": "Visible chronological 1 fps samples, source 23–30s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V04",
+      "start": 30,
+      "end": 37.791,
+      "action": "A collage of group/event photos is followed by meeting the right people can change your life, let’s build together and join the collective.",
+      "design": "Instant-photo borders, then centered serif text on black.",
+      "purpose": "Reveal community and invitation.",
+      "evidence": "Visible chronological 1 fps samples, source 30–37.791s; boundary approximate; exact motion between samples unverified."
+    }
+  ],
+  "sound": [
+    {
+      "id": "A01",
+      "start": 0,
+      "end": 37.791,
+      "layer": "unknown",
+      "detail": "No validated direct audio listening was performed. Music, speech delivery, effects, mix and sync remain unknown, not absent.",
+      "visual_relation": "All visual scenes; audiovisual alignment unverified",
+      "evidence": "Visual samples only; no actual audio range supplied to this reviewer."
+    },
+    {
+      "id": "A02",
+      "start": 0.74,
+      "end": 25.94,
+      "layer": "ASR draft",
+      "detail": "ASR draft gives a change-the-world opening and repeated one-relationship/meeting/conversation-away idea. It repeatedly writes won for one, but the visible typography supports the intended structure. Voice identity, quotation provenance, delivery and sync are not verified.",
+      "visual_relation": "Story text support; exact audiovisual alignment and delivery unverified.",
+      "evidence": "technical-review-2026-10-19/deep-review/audio/148-speech.json; local faster-whisper base CPU int8 draft; VAD candidates only, recognition errors possible."
+    }
+  ],
+  "categories": [
+    {
+      "id": "Q01",
+      "finding": "Ambition montage leads to the power of one connection, then community photos and an invitation.",
+      "evidence": "V01–V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q02",
+      "finding": "Space and brain imagery establish an ambitious mood without identifying the service.",
+      "evidence": "V01",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q03",
+      "finding": "The community purpose becomes clear only with event photos and meeting language at 30–32 s.",
+      "evidence": "V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q04",
+      "finding": "Image layers and negative-color states change rapidly; the photo collage changes framing. Exact transitions are unresolved.",
+      "evidence": "V01–V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q05",
+      "finding": "Repeated one-relationship phrasing links diverse images before actual event photos ground the concept.",
+      "evidence": "V02,V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q06",
+      "finding": "CRT grain, archival images, scientific collage and instant-photo borders create a cultural scrapbook.",
+      "evidence": "V01–V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q07",
+      "finding": "Small serif phrases provide continuity but can be hard to read over busy footage. The black end cards are clearer.",
+      "evidence": "V02,V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q08",
+      "finding": "ASR draft gives a change-the-world opening and repeated one-relationship/meeting/conversation-away idea. It repeatedly writes won for one, but the visible typography supports the intended structure. Voice identity, quotation provenance, delivery and sync are not verified.",
+      "evidence": "A02",
+      "status": "uncertain",
+      "reason": "ASR text only; no validated listening, delivery or voice origin.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q09",
+      "finding": "Voice delivery, music, effects and audiovisual alignment were not established by this visual pass.",
+      "evidence": "A01",
+      "status": "not checked",
+      "reason": "No validated direct audio listening input.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q10",
+      "finding": "Voice delivery, music, effects and audiovisual alignment were not established by this visual pass.",
+      "evidence": "A01",
+      "status": "not checked",
+      "reason": "No validated direct audio listening input.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q11",
+      "finding": "Voice delivery, music, effects and audiovisual alignment were not established by this visual pass.",
+      "evidence": "A01",
+      "status": "not checked",
+      "reason": "No validated direct audio listening input.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q12",
+      "finding": "Historical, sports, space and event materials are assembled; rights and event identity are not established.",
+      "evidence": "V01–V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q13",
+      "finding": "Manifest duration 37.791 s; indexed dimensions 1920×1080. Source unchanged flag recorded; fresh encoding and audio clipping checks not run.",
+      "evidence": "Group manifest",
+      "status": "uncertain",
+      "reason": "Inherited technical metadata; no fresh media probe in this review.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q14",
+      "finding": "The final text explains community visually; much of the earlier argument needs the ASR-supported candidate script.",
+      "evidence": "V02,V04,A02",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q15",
+      "finding": "The late move to empty black text cards gives the invitation relief after visual density.",
+      "evidence": "V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q16",
+      "finding": "About 30 of 38 s build mood before the community offer appears.",
+      "evidence": "V01–V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q17",
+      "finding": "One-connection claims pay off in group photos, but no specific member outcome is shown.",
+      "evidence": "V02,V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q18",
+      "finding": "Ambition and belonging are the main emotional appeals; actual member experience is unknown.",
+      "evidence": "V01,V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q19",
+      "finding": "White serif text and archival screen treatment carry continuity across unrelated subjects.",
+      "evidence": "V01–V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q20",
+      "finding": "Event photos suggest gatherings, but do not verify membership benefits or life-changing outcomes.",
+      "evidence": "V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q21",
+      "finding": "The Collective is framed as a meeting place for ambitious people; no detailed platform identity appears.",
+      "evidence": "V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q22",
+      "finding": "A real member interaction and clear joining route would improve the vague invitation.",
+      "evidence": "V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q23",
+      "finding": "Tin can use a short community montage followed by one documented collaboration and concrete next step.",
+      "evidence": "V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q24",
+      "finding": "The Collective invites people to meet and build together through a community.",
+      "evidence": "Model reading from inspected images",
+      "status": "uncertain",
+      "reason": "Model-only new-viewer interpretation; no human test.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q25",
+      "finding": "Contact sheets inspected at displayed size; a phone-size playback, caption audit, flash audit and formal accessibility check were not performed.",
+      "evidence": "Viewed sheets",
+      "status": "not checked",
+      "reason": "Full-size moving-image and device checks unavailable in this pass.",
+      "experiment": "none"
+    }
+  ],
+  "lessons": {
+    "keep": "Ground an abstract community promise in real people together.",
+    "avoid": "Avoid implying famous archival figures endorse a new community.",
+    "open": "Community identity, member outcomes, asset origins, exact motion and sound remain unverified.",
+    "try": [
+      "Show two Tin users meeting around a campaign problem and the artifact they build together.",
+      "Put eligibility and a direct joining link beside the final invitation."
+    ]
+  },
+  "comparison": {
+    "story": "Frame ambition and unusual thinking. → Suggest many small encounters can change a life. → Build a final montage peak. → Reveal community and invitation.",
+    "motion": "Image layers and negative-color states change rapidly; the photo collage changes framing. Exact transitions are unresolved. Sampling scope: 1 fps unless a closer window is recorded.",
+    "sound": "No validated listening; unknown.",
+    "texture": "Archival collage, bright brain overlays, dark negative space and CRT texture.; Serif words over varied documentary and abstract images.; Technical imagery, negative effect and screen distortion.; Instant-photo borders, then centered serif text on black.",
+    "lesson": "Ground an abstract community promise in real people together."
+  },
+  "elements": [
+    {
+      "kind": "texture",
+      "name": "archival collage",
+      "events": [
+        "V01",
+        "V02"
+      ]
+    },
+    {
+      "kind": "texture",
+      "name": "CRT television",
+      "events": [
+        "V01",
+        "V03"
+      ]
+    },
+    {
+      "kind": "texture",
+      "name": "instant photo collage",
+      "events": [
+        "V04"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,375 @@
+{
+  "id": 154,
+  "product_from_film": "Streamer University invites viewers to apply through a fantasy school adventure.",
+  "explains_well": "The final application paper and Enroll Now card turn the adventure into an enrollment invitation.",
+  "unclear": "The film gives little visible detail about what applicants learn, who can apply or when the program happens.",
+  "product_type": "creator education enrollment campaign",
+  "scenario": "A student explores an empty castle, meets another character, escapes with him and sends application scrolls out into the world.",
+  "product_clear_time": 147,
+  "product_clear_basis": "Streamer University 2026 Application is readable on the paper at 147s; earlier school banners establish the setting but not the offer.",
+  "scenes": [
+    {
+      "start": 0,
+      "end": 18,
+      "action": "A uniformed man carries a suitcase toward a large castle and reaches a door beside a class-of-2026 banner.",
+      "design": "Green grounds, stone towers, burgundy jacket and brown suitcase.",
+      "purpose": "Introduce a returning student and an apparently empty school.",
+      "evidence": "1 fps source samples in 0–18s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V01"
+    },
+    {
+      "start": 18,
+      "end": 38,
+      "action": "He enters a dark interior, looks around, encounters an owl and raises a flashlight.",
+      "design": "Shadowed stone, stairs and narrow beams of light.",
+      "purpose": "Build a mystery through limited visibility.",
+      "evidence": "1 fps source samples in 18–38s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V02"
+    },
+    {
+      "start": 38,
+      "end": 65,
+      "action": "The flashlight reveals web-covered clothing and props, then another man in layered ragged clothing. The two interact while the owl appears nearby.",
+      "design": "Dusty fabric, cobwebs, costumes and close reaction shots.",
+      "purpose": "Reveal a companion and shift the solitary exploration into a shared story.",
+      "evidence": "1 fps source samples in 38–65s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V03"
+    },
+    {
+      "start": 65,
+      "end": 75,
+      "action": "The beam reveals a Streamer University class banner; the owl spreads its wings and leaves its perch as the student reacts.",
+      "design": "School banner above frames, flashlight and owl close-ups.",
+      "purpose": "Reconnect the mystery with the school and trigger the next action.",
+      "evidence": "1 fps source samples in 65–75s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V04"
+    },
+    {
+      "start": 75,
+      "end": 102,
+      "action": "The two run through bright corridors, past windows and outside, then up stairs into another room.",
+      "design": "Long stone hallways, daylight and changing wide/close viewpoints.",
+      "purpose": "Escalate into an escape or chase sequence; exact cause is not fully clear silently.",
+      "evidence": "1 fps source samples in 75–102s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V05"
+    },
+    {
+      "start": 102,
+      "end": 125,
+      "action": "A room contains a cannon and many rolled papers. The student handles the papers and cannon area while the companion reacts.",
+      "design": "Stone chamber, dark metal cannon and red-sealed scrolls.",
+      "purpose": "Set up a physical delivery device for the campaign message.",
+      "evidence": "1 fps source samples in 102–125s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V06"
+    },
+    {
+      "start": 125,
+      "end": 142,
+      "action": "A large cloud bursts from the castle opening; it clears to reveal both men at the window beside the cannon.",
+      "design": "Wide exterior, smoke cloud and gradual closer framing.",
+      "purpose": "Pay off the preparation with a large-scale release.",
+      "evidence": "1 fps source samples in 125–142s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V07"
+    },
+    {
+      "start": 142,
+      "end": 152,
+      "action": "Papers descend over a city street; a person catches and opens one showing Streamer University 2026 Application and an alumni stamp.",
+      "design": "Brick buildings, falling paper and close-up printed form.",
+      "purpose": "Turn the fantasy action into a real invitation.",
+      "evidence": "1 fps source samples in 142–152s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V08"
+    },
+    {
+      "start": 152,
+      "end": 157.198,
+      "action": "Enroll Now and streameruniversity.com appear on black, followed by black.",
+      "design": "Red and gold blackletter-style headline.",
+      "purpose": "Give the final action and destination.",
+      "evidence": "1 fps source samples in 152–157.198s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V09"
+    }
+  ],
+  "sound": [
+    {
+      "id": "A01",
+      "start": 0,
+      "end": 157.198,
+      "layer": "ASR draft / unknown",
+      "detail": "The partial local draft includes application-day wording near 14s and 31s, but the school name is misrecognized and much of the film has no accepted text. No direct listening; music, effects, delivery and mix remain unknown.",
+      "visual_relation": "V01,V02; draft alignment is not validated by listening.",
+      "evidence": "technical-review-2026-10-19/deep-review/audio/154-speech.json; faster-whisper base draft, only cached VAD candidate ranges."
+    }
+  ],
+  "categories": [
+    {
+      "id": "Q01",
+      "finding": "Arrival → empty-school mystery → companion → corridor escape → scroll/cannon preparation → applications delivered → enrollment CTA.",
+      "evidence": "V01–V09",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q02",
+      "finding": "The castle wide shot and suitcase-bearing student create a clear arrival scene in the first few seconds.",
+      "evidence": "V01",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q03",
+      "finding": "School branding appears within the story, but the application offer becomes visually explicit near 147s. Streaming education content is not demonstrated.",
+      "evidence": "V04,V08,V09",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q04",
+      "finding": "Walking, owl flight states, running, paper handling, a smoke burst and falling papers are visible. Exact fast action paths and effects timing remain unverified.",
+      "evidence": "V01–V08",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q05",
+      "finding": "The same student, uniform and castle connect the scenes; scrolls bridge the castle climax to the city recipient.",
+      "evidence": "V01–V08",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q06",
+      "finding": "Stone, worn fabric, cobwebs, metal and paper give the fantasy a consistent tactile setting.",
+      "evidence": "V02,V03,V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q07",
+      "finding": "Most of the film uses physical signs and props instead of explanatory captions. The application and final headline carry the offer.",
+      "evidence": "V04,V08,V09",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q08",
+      "finding": "A partial ASR draft suggests application-day dialogue early, but recognition errors and missing ranges prevent a complete speech account.",
+      "evidence": "A01",
+      "status": "uncertain",
+      "reason": "Draft text only; no validated listening.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q09",
+      "finding": "Music character and structure are unverified.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "No validated listening.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q10",
+      "finding": "Effects and their sources are unverified.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "No validated listening; waveform peaks do not identify effects.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q11",
+      "finding": "Sound sync is unverified.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "No validated listening or paired audiovisual timing.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q12",
+      "finding": "A staged fantasy-school adventure uses actors, props and a smoke/paper spectacle; practical versus digital effects are not established.",
+      "evidence": "V01–V08",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q13",
+      "finding": "Source duration 157.198 s; Watch metadata 1574 × 1080. Frame rate, audio clipping and export quality not checked here.",
+      "evidence": "Whole film",
+      "status": "supported",
+      "reason": "Parent source metadata supports duration and dimensions; visual review is sampled.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q14",
+      "finding": "The exploration, escape and paper delivery are readable silently; the reason for the chase and the early application-day premise are less clear.",
+      "evidence": "V02–V08",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q15",
+      "finding": "The flashlight directs attention inside dark rooms; later close-ups isolate the scrolls and application title.",
+      "evidence": "V02–V04,V06,V08",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q16",
+      "finding": "The film spends over two minutes on the adventure before showing the application clearly; this favors entertainment and anticipation over early offer detail.",
+      "evidence": "V01–V08",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q17",
+      "finding": "Rolled papers in the cannon room pay off as an opened application in the city.",
+      "evidence": "V06,V08",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q18",
+      "finding": "An empty castle, owl and dark corridors suggest mystery, followed by broad physical action and a playful invitation; actual reaction is unmeasured.",
+      "evidence": "V02–V08",
+      "status": "uncertain",
+      "reason": "Interpretation of staging.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q19",
+      "finding": "One protagonist and physical props maintain continuity across a long campaign film. The school branding is embedded in that world.",
+      "evidence": "V01–V08",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q20",
+      "finding": "The film establishes an enrollment invitation, not curriculum quality, admissions rules or program outcomes.",
+      "evidence": "V08,V09",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q21",
+      "finding": "Burgundy/gold school identity and blackletter enrollment copy tie the offer to the fantasy-school setting.",
+      "evidence": "V01,V04,V09",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q22",
+      "finding": "An early application prop could clarify the purpose while preserving the later delivery reveal.",
+      "evidence": "V01,V08",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "Show a readable application-day note on the suitcase or door during arrival, then repeat its design on the final paper."
+    },
+    {
+      "id": "Q23",
+      "finding": "For Tin, a physical or visual object can carry the campaign goal through a story before resolving into the product action.",
+      "evidence": "V06,V08",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "Follow one marked brief through a playful team handoff, then reveal the same campaign title in the final publish screen."
+    },
+    {
+      "id": "Q24",
+      "finding": "No human new-viewer test was performed.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "The product summary is this model’s film-only reading.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q25",
+      "finding": "Mobile preview and accessibility checks were not performed.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "Contact sheets are evidence views, not a stated mobile preview or compliance test.",
+      "experiment": "none"
+    }
+  ],
+  "elements": [
+    {
+      "kind": "texture",
+      "name": "stone castle",
+      "events": [
+        "V01",
+        "V02",
+        "V05",
+        "V06"
+      ]
+    },
+    {
+      "kind": "texture",
+      "name": "cobwebs and worn fabric",
+      "events": [
+        "V03"
+      ]
+    },
+    {
+      "kind": "motion",
+      "name": "flashlight reveal",
+      "events": [
+        "V02",
+        "V03",
+        "V04"
+      ]
+    },
+    {
+      "kind": "motion",
+      "name": "running sequence",
+      "events": [
+        "V05"
+      ]
+    },
+    {
+      "kind": "motion",
+      "name": "falling papers",
+      "events": [
+        "V08"
+      ]
+    }
+  ],
+  "lessons": {
+    "keep": "Make the story object become the final invitation: scrolls turn into a readable application.",
+    "try": [
+      "Place an application-day note on the opening suitcase or door and repeat its design on the final paper.",
+      "For Tin, carry one marked brief through a playful team handoff and resolve it into the same campaign title on a publish screen."
+    ],
+    "avoid": "Leaving all offer detail until the end when the viewer needs to understand the invitation sooner.",
+    "open": "The program content, audience requirements, chase motivation, effects methods and all sound layers remain open."
+  },
+  "comparison": {
+    "story": "Fantasy arrival and mystery become a chase, then a physical application-delivery payoff.",
+    "motion": "Character movement, flashlight reveals, smoke burst and falling papers; detailed effects timing unverified.",
+    "sound": "Partial ASR includes application-day wording; no validated listening.",
+    "texture": "Stone architecture, dusty costumes, webbed props, metal cannon and sealed paper.",
+    "lesson": "A recurring physical object can make a late CTA feel like a story payoff."
+  },
+  "reviewer_model": "gpt-6-astra",
+  "scope": "sampled visual and story review; ASR and measured signal support; no validated audio listening",
+  "viewed_evidence": [
+    "technical-review-2026-10-19/deep-review/motion/154/timeline-00.jpg",
+    "technical-review-2026-10-19/deep-review/motion/154/timeline-01.jpg",
+    "technical-review-2026-10-19/deep-review/motion/154/timeline-02.jpg",
+    "technical-review-2026-10-19/deep-review/motion/154/timeline-03.jpg",
+    "technical-review-2026-10-19/deep-review/motion/154/timeline-04.jpg",
+    "technical-review-2026-10-19/deep-review/motion/154/timeline-05.jpg"
+  ],
+  "closer_windows": []
+}

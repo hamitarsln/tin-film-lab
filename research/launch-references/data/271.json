@@ -1,0 +1,389 @@
+{
+  "id": 271,
+  "reviewer_model": "gpt-6-astra",
+  "scope": "sampled visual and story review; ASR and measured signal support; no validated audio listening",
+  "viewed_evidence": [
+    "technical-review-2026-10-19/deep-review/motion/271/timeline-00.jpg",
+    "technical-review-2026-10-19/deep-review/motion/271/timeline-01.jpg",
+    "technical-review-2026-10-19/deep-review/motion/271/timeline-02.jpg",
+    "technical-review-2026-10-19/deep-review/motion/271/timeline-03.jpg",
+    "technical-review-2026-10-19/deep-review/motion/271/timeline-04.jpg",
+    "technical-review-2026-10-19/deep-review/motion/271/timeline-05.jpg",
+    "technical-review-2026-10-19/deep-review/audio/271-speech.json"
+  ],
+  "closer_windows": [],
+  "product_from_film": "PlayerZero presents an engineering world model that connects engineering signals to find bugs, propose fixes and simulate tests.",
+  "explains_well": "The same voice-feature failure connects the problem, connected data and approval example.",
+  "unclear": "The viewer sees a proposed fix and a phone approval, but cannot read the actual code change or its test result.",
+  "product_type": "developer tool",
+  "scenario": "Investigate a Japanese voice-command failure and route a proposed fix for approval.",
+  "product_clear_time": 29,
+  "product_clear_basis": "The engineering world model introduction follows the writing-versus-testing problem.",
+  "scenes": [
+    {
+      "id": "V01",
+      "start": 0,
+      "end": 26,
+      "action": "A presenter introduces a table-tennis table labelled WRITE and TEST. One ball becomes many; the test side accumulates cost cards. A large orange 70% diagram follows.",
+      "design": "White studio, orange balls, black labels and oversized statistics.",
+      "purpose": "Make increased code output and testing pressure concrete.",
+      "evidence": "Visible chronological 1 fps samples, source 0–26s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V02",
+      "start": 26,
+      "end": 52,
+      "action": "PlayerZero and engineering world model text introduce the product. Engineers work in an orange room. A design screen and voice-feature code lead to complaint bubbles about a Japanese command deleting rather than editing.",
+      "design": "Presenter, staged office, code overlay and user-message cards.",
+      "purpose": "Give the debugging promise a specific example.",
+      "evidence": "Visible chronological 1 fps samples, source 26–52s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V03",
+      "start": 52,
+      "end": 70,
+      "action": "Code, Observability and Support columns show commit cards, signal traces and messages. These lead into a connected globe of nodes with several colored node types.",
+      "design": "Thin black links and colored square, circle and triangle nodes.",
+      "purpose": "Explain the model as combined sources of context.",
+      "evidence": "Visible chronological 1 fps samples, source 52–70s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V04",
+      "start": 70,
+      "end": 84,
+      "action": "A desk monitor shows successive investigation cards, then a next-step message sent on Slack. A hand holds a phone and selects a prominent action.",
+      "design": "Clean desk scene and close phone insert.",
+      "purpose": "Show the proposed handoff from investigation to engineer approval; the code and verification result remain unreadable.",
+      "evidence": "Visible chronological 1 fps samples, source 70–84s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V05",
+      "start": 84,
+      "end": 119,
+      "action": "Presenter commentary alternates with a small team in shifting colored light. Huge 90% text and a minutes-versus-weeks bar lead to a 100-person QA comparison. An ideal-testing-conditions list adds machine, OS, microphone, browser, network and locale.",
+      "design": "Oversized typography, small figures and a checklist.",
+      "purpose": "Explain why reproducing an edge case is expensive, then make time-saving claims.",
+      "evidence": "Visible chronological 1 fps samples, source 84–119s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V06",
+      "start": 119,
+      "end": 141,
+      "action": "The node globe returns beside a simulation list with pass and fail marks. Accuracy, Recall and Precision bar charts compare OpenAI Codex, Claude Code and Sim-1. The presenter returns with the claim that tests become obsolete.",
+      "design": "Colored node globe and orange-versus-gray comparison bars.",
+      "purpose": "Present simulations and benchmark claims as proof.",
+      "evidence": "Visible chronological 1 fps samples, source 119–141s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V07",
+      "start": 141,
+      "end": 161,
+      "action": "Zuora, Georgia-Pacific and nylas marks appear with 95%, 5x and 8x figures. The presenter stands before $30M saved in engineering expenses. Captions offer a demo and a donation if resolution speed does not improve enough, with a small qualifying-customer note.",
+      "design": "Customer logo row, large numbers and fine print.",
+      "purpose": "Add customer claims and a demo incentive.",
+      "evidence": "Visible chronological 1 fps samples, source 141–161s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V08",
+      "start": 161,
+      "end": 172.672,
+      "action": "A list of skill files fills the background. A social reply view shows 100x and repost/comment instructions, then the PlayerZero logo closes.",
+      "design": "File list, social post shell and white end card.",
+      "purpose": "Add a second call to action for a skills giveaway.",
+      "evidence": "Visible chronological 1 fps samples, source 161–172.672s; boundary approximate; exact motion between samples unverified."
+    }
+  ],
+  "sound": [
+    {
+      "id": "A01",
+      "start": 0,
+      "end": 172.672,
+      "layer": "unknown",
+      "detail": "No validated direct audio listening was performed. Music, speech delivery, effects, mix and sync remain unknown, not absent.",
+      "visual_relation": "All visual scenes; audiovisual alignment unverified",
+      "evidence": "Visual samples only; no actual audio range supplied to this reviewer."
+    },
+    {
+      "id": "A02",
+      "start": 0,
+      "end": 171,
+      "layer": "ASR draft",
+      "detail": "The ASR draft follows increased code output, the Japanese voice-command example, connected engineering signals, a proposed fix and engineer approval, simulations, benchmark claims and demo/skills offers. It supports the script structure, not the truth of performance claims or heard delivery.",
+      "visual_relation": "Story text support; exact audiovisual alignment and delivery unverified.",
+      "evidence": "technical-review-2026-10-19/deep-review/audio/271-speech.json; local faster-whisper base CPU int8 draft; VAD candidates only, recognition errors possible."
+    }
+  ],
+  "categories": [
+    {
+      "id": "Q01",
+      "finding": "Writing-versus-testing metaphor leads to one bug story, combined context, approval, simulation benchmarks and two calls to action.",
+      "evidence": "V01–V08",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q02",
+      "finding": "The table-tennis exchange gives writing and testing separate sides before many balls overwhelm the metaphor.",
+      "evidence": "V01",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q03",
+      "finding": "The offer is named around 29 s; its practical investigation-and-approval shape arrives at 70–84 s.",
+      "evidence": "V02,V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q04",
+      "finding": "Balls multiply, source columns become a node globe, and large statistics change scale around the presenter. Exact interpolation is not established by 1 fps samples.",
+      "evidence": "V01,V03,V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q05",
+      "finding": "The Japanese voice-command failure provides continuity between the orange office problem and the desk investigation. Later charts broaden into general claims.",
+      "evidence": "V02–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q06",
+      "finding": "Orange marks the problem room, brand and favored benchmark bars; white space separates presenter explanations.",
+      "evidence": "V01–V07",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q07",
+      "finding": "Large labels and percentages are easy to scan. Investigation text, code changes and offer fine print are much smaller.",
+      "evidence": "V04,V06,V07",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q08",
+      "finding": "The ASR draft follows increased code output, the Japanese voice-command example, connected engineering signals, a proposed fix and engineer approval, simulations, benchmark claims and demo/skills offers. It supports the script structure, not the truth of performance claims or heard delivery.",
+      "evidence": "A02",
+      "status": "uncertain",
+      "reason": "ASR text only; no validated listening, delivery or voice origin.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q09",
+      "finding": "Voice delivery, music, effects and audiovisual alignment were not established by this visual pass.",
+      "evidence": "A01",
+      "status": "not checked",
+      "reason": "No validated direct audio listening input.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q10",
+      "finding": "Voice delivery, music, effects and audiovisual alignment were not established by this visual pass.",
+      "evidence": "A01",
+      "status": "not checked",
+      "reason": "No validated direct audio listening input.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q11",
+      "finding": "Voice delivery, music, effects and audiovisual alignment were not established by this visual pass.",
+      "evidence": "A01",
+      "status": "not checked",
+      "reason": "No validated direct audio listening input.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q12",
+      "finding": "Presenter footage, staged desk scenes, diagrams and interface cards are visible. Production software and compositing methods are unknown.",
+      "evidence": "V01–V08",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q13",
+      "finding": "Manifest duration 172.672s; indexed dimensions 1280×720. Source unchanged flag recorded; fresh encoding and audio clipping checks not run.",
+      "evidence": "Group manifest",
+      "status": "uncertain",
+      "reason": "Inherited technical metadata; no fresh media probe in this review.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q14",
+      "finding": "Visible captions and labeled diagrams carry the broad story. The exact repair is not legible enough to follow as a silent workflow.",
+      "evidence": "V02–V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q15",
+      "finding": "Wide shots shrink the presenter beside large claims; close desk and phone views mark the human approval step.",
+      "evidence": "V04–V07",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q16",
+      "finding": "The first 26 s establish the problem. The approval example ends around 84 s; the remaining half expands comparisons, claims and offers.",
+      "evidence": "V01–V08",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q17",
+      "finding": "The phone action gives the investigation a human endpoint, but a passing rerun or repaired voice command is not clearly shown.",
+      "evidence": "V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q18",
+      "finding": "The flooded table and small figures beside giant numbers suggest overload followed by relief; this is a creative reading.",
+      "evidence": "V01,V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q19",
+      "finding": "The graph explains connection between sources, while the visible handoff does not expose which source caused the diagnosis.",
+      "evidence": "V03,V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q20",
+      "finding": "The 70%, 90%, QA comparison, benchmark, customer and savings figures are film claims. Benchmark setup and the actual patch outcome are not established here.",
+      "evidence": "V01,V05–V07",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q21",
+      "finding": "The voice-command edge case and machine/locale checklist make the testing problem unusually specific.",
+      "evidence": "V02,V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q22",
+      "finding": "After approval, replay the same Japanese command and show the corrected result plus the relevant passing check.",
+      "evidence": "V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q23",
+      "finding": "Tin can carry one customer problem through inputs, diagnosis, approval and a visible successful rerun. Keep supporting statistics after that result.",
+      "evidence": "V02–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q24",
+      "finding": "PlayerZero presents an engineering world model that connects engineering signals to find bugs, propose fixes and simulate tests.",
+      "evidence": "Model reading from inspected images",
+      "status": "uncertain",
+      "reason": "Model-only new-viewer interpretation; no human test.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q25",
+      "finding": "Contact sheets inspected at displayed size; a phone-size playback, caption audit, flash audit and formal accessibility check were not performed.",
+      "evidence": "Viewed sheets",
+      "status": "not checked",
+      "reason": "Full-size moving-image and device checks unavailable in this pass.",
+      "experiment": "none"
+    }
+  ],
+  "lessons": {
+    "keep": "Reuse one specific failure across the problem, data explanation and approval.",
+    "avoid": "Avoid replacing a readable task outcome with a long sequence of large performance claims.",
+    "open": "Actual repair, benchmark methods, customer-claim conditions and audio performance remain unverified.",
+    "try": [
+      "For Tin, show one failed workflow, the exact evidence that explains it and an approved correction.",
+      "End the correction with the same task succeeding before showing broader customer statistics."
+    ]
+  },
+  "comparison": {
+    "story": "Make increased code output and testing pressure concrete. → Give the debugging promise a specific example. → Explain the model as combined sources of context. → Show the proposed handoff from investigation to engineer approval; the code and verification result remain unreadable. → Explain why reproducing an edge case is expensive, then make time-saving claims. → Present simulations and benchmark claims as proof. → Add customer claims and a demo incentive. → Add a second call to action for a skills giveaway.",
+    "motion": "Balls multiply, source columns become a node globe, and large statistics change scale around the presenter. Exact interpolation is not established by 1 fps samples. Sampling scope: 1 fps unless a closer window is recorded.",
+    "sound": "No validated listening; unknown.",
+    "texture": "White studio, orange balls, black labels and oversized statistics.; Presenter, staged office, code overlay and user-message cards.; Thin black links and colored square, circle and triangle nodes.; Clean desk scene and close phone insert.; Oversized typography, small figures and a checklist.; Colored node globe and orange-versus-gray comparison bars.; Customer logo row, large numbers and fine print.; File list, social post shell and white end card.",
+    "lesson": "Reuse one specific failure across the problem, data explanation and approval."
+  },
+  "elements": [
+    {
+      "kind": "ui",
+      "name": "code editor",
+      "events": [
+        "V02"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "node graph",
+      "events": [
+        "V03",
+        "V06"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "chat",
+      "events": [
+        "V04"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "bar chart",
+      "events": [
+        "V06"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "checklist",
+      "events": [
+        "V05"
+      ]
+    },
+    {
+      "kind": "motion",
+      "name": "oversized statistics",
+      "events": [
+        "V01",
+        "V05",
+        "V07"
+      ]
+    },
+    {
+      "kind": "texture",
+      "name": "white studio",
+      "events": [
+        "V01",
+        "V05"
+      ]
+    }
+  ]
+}

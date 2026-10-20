@@ -1,0 +1,377 @@
+{
+  "id": 389,
+  "reviewer_model": "gpt-6-astra",
+  "scope": "sampled visual and story review; ASR and measured signal support; no validated audio listening",
+  "viewed_evidence": [
+    "technical-review-2026-10-19/deep-review/motion/389/timeline-00.jpg",
+    "technical-review-2026-10-19/deep-review/motion/389/timeline-01.jpg",
+    "technical-review-2026-10-19/deep-review/motion/389/timeline-02.jpg",
+    "technical-review-2026-10-19/deep-review/motion/389/timeline-03.jpg",
+    "technical-review-2026-10-19/deep-review/audio/389-speech.json"
+  ],
+  "closer_windows": [],
+  "product_from_film": "REV1 turns a three-dimensional CAD part and design intent into an annotated engineering drawing for review and export.",
+  "explains_well": "The same part carries through highlighted features, drawing views, annotation explanations and export.",
+  "unclear": "The film spends its first minute on the problem, then moves quickly through the exact design-intent and annotation-review choices.",
+  "product_type": "engineering drawing software",
+  "scenario": "Generate and review a manufacturing drawing from a CAD part.",
+  "product_clear_time": 64,
+  "product_clear_basis": "The REV1 introduction gives way to a CAD part with selectable features and a settings panel.",
+  "scenes": [
+    {
+      "id": "V01",
+      "start": 0,
+      "end": 24,
+      "action": "Words introduce how people imagine engineers build things, followed by cinematic hologram clips. A presenter shows a car, vacuum and robot with large unique-part counts, then outlined mechanical parts fill a white field.",
+      "design": "Mixed-size typography, cinematic inserts, everyday objects and part illustrations.",
+      "purpose": "Replace a glamorous engineering image with the scale of real part documentation.",
+      "evidence": "Visible chronological 1 fps samples, source 0–24s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V02",
+      "start": 24,
+      "end": 41,
+      "action": "The presenter speaks beside large machinery and is named Alex Rivero, CEO. 3D CAD and 25% appear; a small photo collage interrupts before the word brutal fills much of the frame.",
+      "design": "Industrial setting, moving camera angles and oversized text.",
+      "purpose": "Establish the drafting-time problem and founder experience.",
+      "evidence": "Visible chronological 1 fps samples, source 24–41s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V03",
+      "start": 41,
+      "end": 61,
+      "action": "Drawing requirements appear over the presenter. A second founder brings a Dimensioning and Tolerancing book into frame, then speaks about wrong symbols, fit and delayed launches.",
+      "design": "Physical reference book, two-person interaction and short word captions.",
+      "purpose": "Make the rules and consequences tangible.",
+      "evidence": "Visible chronological 1 fps samples, source 41–61s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V04",
+      "start": 61,
+      "end": 70,
+      "action": "REV1 branding introduces a desk scene, then the CAD interface shows a gray part. Selected holes become yellow and a right panel shows feature/design-intent settings before Continue.",
+      "design": "Light CAD canvas and compact right-side controls.",
+      "purpose": "Show the input geometry and design-intent step.",
+      "evidence": "Visible chronological 1 fps samples, source 61–70s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V05",
+      "start": 70,
+      "end": 81,
+      "action": "A drawing sheet gains multiple views and yellow dimensions. Close views show annotations, then a Why this annotation explanation and an Accept All control. A face and hand close-up return to the physical reviewer.",
+      "design": "Technical drawing lines, yellow proposed annotations and explanation panel.",
+      "purpose": "Show generated output and human review.",
+      "evidence": "Visible chronological 1 fps samples, source 70–81s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V06",
+      "start": 81,
+      "end": 85,
+      "action": "The CAD part and drawing share the interface. A small export/save dialog appears.",
+      "design": "Side-by-side geometry and drawing, then a save dialog.",
+      "purpose": "Complete the proposed output workflow.",
+      "evidence": "Visible chronological 1 fps samples, source 81–85s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V07",
+      "start": 85,
+      "end": 100.567,
+      "action": "Both founders sit together and describe spending less time drafting. REV1 overlays them, then remains alone on black before fading.",
+      "design": "Two-person closing shot and minimal logo card.",
+      "purpose": "Restate the benefit and brand.",
+      "evidence": "Visible chronological 1 fps samples, source 85–100.567s; boundary approximate; exact motion between samples unverified."
+    }
+  ],
+  "sound": [
+    {
+      "id": "A01",
+      "start": 0,
+      "end": 100.567,
+      "layer": "unknown",
+      "detail": "No validated direct audio listening was performed. Music, speech delivery, effects, mix and sync remain unknown, not absent.",
+      "visual_relation": "All visual scenes; audiovisual alignment unverified",
+      "evidence": "Visual samples only; no actual audio range supplied to this reviewer."
+    },
+    {
+      "id": "A02",
+      "start": 0,
+      "end": 94.2,
+      "layer": "ASR draft",
+      "detail": "The mostly coherent ASR draft explains that production needs detailed drawings, describes rules and failure consequences, then says REV1 accepts design intent in 3D, generates views/dimensions/GD&T, offers AI explanations and review, and exports to PDF or CAD/PLM. Some technical words are mistranscribed. This supports the script structure, not engineering correctness or heard delivery.",
+      "visual_relation": "Story text support; exact audiovisual alignment and delivery unverified.",
+      "evidence": "technical-review-2026-10-19/deep-review/audio/389-speech.json; local faster-whisper base CPU int8 draft; VAD candidates only, recognition errors possible."
+    }
+  ],
+  "categories": [
+    {
+      "id": "Q01",
+      "finding": "An engineering stereotype leads to part counts, drafting burden, rules, REV1 input, generated drawing, review and export.",
+      "evidence": "V01–V07",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q02",
+      "finding": "Cinematic hologram clips give a familiar glamorous image that the next everyday-product examples challenge.",
+      "evidence": "V01",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q03",
+      "finding": "The product workflow becomes clear around 64 s when the CAD part and intent controls appear.",
+      "evidence": "V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q04",
+      "finding": "Words change scale across the presenter, part illustrations fill the screen, CAD features turn yellow, drawing views and dimensions populate, and the view moves closer to annotation explanations before export.",
+      "evidence": "V01–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q05",
+      "finding": "The same mechanical part remains recognizable from the CAD input through the drawing and export view.",
+      "evidence": "V04–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q06",
+      "finding": "White graphic cards and technical linework contrast with warm industrial footage; yellow highlights identify selected features and proposed dimensions.",
+      "evidence": "V01–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q07",
+      "finding": "Large part counts and short captions are readable. The settings and many drawing annotations are too dense to inspect fully at the shown pace.",
+      "evidence": "V01,V04,V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q08",
+      "finding": "The mostly coherent ASR draft explains that production needs detailed drawings, describes rules and failure consequences, then says REV1 accepts design intent in 3D, generates views/dimensions/GD&T, offers AI explanations and review, and exports to PDF or CAD/PLM. Some technical words are mistranscribed. This supports the script structure, not engineering correctness or heard delivery.",
+      "evidence": "A02",
+      "status": "uncertain",
+      "reason": "ASR text only; no validated listening, delivery or voice origin.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q09",
+      "finding": "Voice delivery, music, effects and audiovisual alignment were not established by this visual pass.",
+      "evidence": "A01",
+      "status": "not checked",
+      "reason": "No validated direct audio listening input.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q10",
+      "finding": "Voice delivery, music, effects and audiovisual alignment were not established by this visual pass.",
+      "evidence": "A01",
+      "status": "not checked",
+      "reason": "No validated direct audio listening input.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q11",
+      "finding": "Voice delivery, music, effects and audiovisual alignment were not established by this visual pass.",
+      "evidence": "A01",
+      "status": "not checked",
+      "reason": "No validated direct audio listening input.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q12",
+      "finding": "Presenter footage, cinematic inserts, illustrated parts, CAD interface and drawing close-ups are visible. Production tools and the inserts’ provenance are not established.",
+      "evidence": "V01–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q13",
+      "finding": "Manifest duration 100.567s; indexed dimensions 1920×1080. Source unchanged flag recorded; fresh encoding and audio clipping checks not run.",
+      "evidence": "Group manifest",
+      "status": "uncertain",
+      "reason": "Inherited technical metadata; no fresh media probe in this review.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q14",
+      "finding": "The visible geometry-to-drawing sequence is understandable without audio, while the drafting burden and rule explanation depend more on captions and script.",
+      "evidence": "V02–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q15",
+      "finding": "Close-ups of the rules book and annotation explanation make abstract technical effort visible; the CAD part provides continuity.",
+      "evidence": "V03–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q16",
+      "finding": "About 61 s establish the problem before roughly 24 s show the product flow. The review and export steps receive limited reading time.",
+      "evidence": "V01–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q17",
+      "finding": "A populated drawing and explanation panel are shown, but manufacturing readiness, standards compliance and time savings are not demonstrated by an independent check.",
+      "evidence": "V05,V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q18",
+      "finding": "The machinery setting and physical standards book lend a practical engineering tone; this is a creative reading.",
+      "evidence": "V02,V03",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q19",
+      "finding": "Highlighted holes lead into a dimensioned drawing, but the film does not hold one intent value beside its resulting annotation long enough to explain that decision.",
+      "evidence": "V04,V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q20",
+      "finding": "Part counts, the 25% time claim, minutes-versus-hours savings and production-ready output remain film claims. The drawing is not technically validated in this review.",
+      "evidence": "V01,V02,V04–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q21",
+      "finding": "The Why this annotation panel makes review part of the value proposition instead of treating generation as the finish.",
+      "evidence": "V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q22",
+      "finding": "Shorten the opening and use the time to follow one selected hole, one intent value, its generated annotation and the reviewer’s approval.",
+      "evidence": "V01–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q23",
+      "finding": "Tin can pair a generated decision with a short reason and a visible approval step before export.",
+      "evidence": "V05,V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q24",
+      "finding": "REV1 turns a three-dimensional CAD part and design intent into an annotated engineering drawing for review and export.",
+      "evidence": "Model reading from inspected images",
+      "status": "uncertain",
+      "reason": "Model-only new-viewer interpretation; no human test.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q25",
+      "finding": "Contact sheets inspected at displayed size; a phone-size playback, caption audit, flash audit and formal accessibility check were not performed.",
+      "evidence": "Viewed sheets",
+      "status": "not checked",
+      "reason": "Full-size moving-image and device checks unavailable in this pass.",
+      "experiment": "none"
+    }
+  ],
+  "lessons": {
+    "keep": "Make the explanation and approval of a generated decision visible.",
+    "avoid": "Avoid spending most of the film on the problem while rushing the distinctive review mechanism.",
+    "open": "Engineering correctness, standards compliance, timing claims, asset provenance and all heard audio properties remain unverified.",
+    "try": [
+      "For Tin, follow one input constraint into one generated output and its reason.",
+      "Move a short product preview earlier, then spend the saved time on a readable review decision."
+    ]
+  },
+  "comparison": {
+    "story": "Replace a glamorous engineering image with the scale of real part documentation. → Establish the drafting-time problem and founder experience. → Make the rules and consequences tangible. → Show the input geometry and design-intent step. → Show generated output and human review. → Complete the proposed output workflow. → Restate the benefit and brand.",
+    "motion": "Words change scale across the presenter, part illustrations fill the screen, CAD features turn yellow, drawing views and dimensions populate, and the view moves closer to annotation explanations before export. Sampling scope: 1 fps unless a closer window is recorded.",
+    "sound": "No validated listening; unknown.",
+    "texture": "Mixed-size typography, cinematic inserts, everyday objects and part illustrations.; Industrial setting, moving camera angles and oversized text.; Physical reference book, two-person interaction and short word captions.; Light CAD canvas and compact right-side controls.; Technical drawing lines, yellow proposed annotations and explanation panel.; Side-by-side geometry and drawing, then a save dialog.; Two-person closing shot and minimal logo card.",
+    "lesson": "Make the explanation and approval of a generated decision visible."
+  },
+  "elements": [
+    {
+      "kind": "ui",
+      "name": "CAD canvas",
+      "events": [
+        "V04",
+        "V06"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "technical drawing",
+      "events": [
+        "V05",
+        "V06"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "explanation panel",
+      "events": [
+        "V05"
+      ]
+    },
+    {
+      "kind": "motion",
+      "name": "annotations appear",
+      "events": [
+        "V05"
+      ]
+    },
+    {
+      "kind": "motion",
+      "name": "features highlighted",
+      "events": [
+        "V04"
+      ]
+    },
+    {
+      "kind": "texture",
+      "name": "industrial footage",
+      "events": [
+        "V02",
+        "V03"
+      ]
+    },
+    {
+      "kind": "texture",
+      "name": "paper reference book",
+      "events": [
+        "V03"
+      ]
+    }
+  ]
+}

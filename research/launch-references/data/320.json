@@ -1,0 +1,377 @@
+{
+  "id": 320,
+  "product_from_film": "Okara presents itself as private AI chat that lets a person use AI without exposing their work to an imagined data auction.",
+  "explains_well": "The glass-room auction turns personal data exposure into a visible scene; opening Okara removes the writer and his desk from the auction display.",
+  "unclear": "The film explains the privacy promise through a metaphor but gives no concrete view of which chat data is protected or what the privacy boundary includes.",
+  "product_type": "Privacy-focused AI chat",
+  "scenario": "Private conversations, interests and work appear as auction lots until a writer opens Okara and leaves the visible auction space.",
+  "product_clear_time": 85,
+  "product_clear_basis": "The browser reaches okara.ai with a Private AI Chat tab title at 85s; the ending explicitly says AI that respects your privacy.",
+  "viewed_evidence": [
+    "technical-review-2026-10-19/deep-review/motion/320/timeline-00.jpg",
+    "technical-review-2026-10-19/deep-review/motion/320/timeline-01.jpg",
+    "technical-review-2026-10-19/deep-review/motion/320/timeline-02.jpg",
+    "technical-review-2026-10-19/deep-review/motion/320/timeline-03.jpg",
+    "astra-review-2026-10-20/evidence/group-1/320/84-91-4fps.jpg"
+  ],
+  "closer_windows": [
+    {
+      "start": 84,
+      "end": 91,
+      "evidence": [
+        "astra-review-2026-10-20/evidence/group-1/320/84-91-4fps.jpg"
+      ],
+      "rate_fps": 4,
+      "resolved": "After the Okara browser view at 85–85.25s, the writer and desk remain in the glass room through about 86s, then the room is empty by 86.25s. The audience stays; a bright home typing view follows at about 89.75s. Exact compositing and easing are unverified."
+    }
+  ],
+  "scenes": [
+    {
+      "start": 0,
+      "end": 13,
+      "action": "A woman lies on a sofa with a phone on her chest. Hand and face close-ups accompany the draft’s private relationship conversation.",
+      "design": "Soft knit, teal/orange cushions and intimate framing.",
+      "purpose": "Establish a personal exchange.",
+      "evidence": "1 fps source samples in 0–13s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V01"
+    },
+    {
+      "start": 13,
+      "end": 31,
+      "action": "The sofa is revealed inside a glass room facing seated people with bidding paddles. A scanned-looking room and a profile monitor appear; bids rise and the space turns red.",
+      "design": "Dark auction hall, transparent room, profile screen and red lighting.",
+      "purpose": "Make private data exposure into an auction metaphor.",
+      "evidence": "1 fps source samples in 13–31s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V02"
+    },
+    {
+      "start": 31,
+      "end": 44,
+      "action": "A mother and child in a planted glass room look at birds and a phone. Profile/bird imagery and a shoe advertisement view appear before another red auction state.",
+      "design": "Natural plants inside the same dark display structure.",
+      "purpose": "Extend the metaphor to interests and advertising.",
+      "evidence": "1 fps source samples in 31–44s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V03"
+    },
+    {
+      "start": 44,
+      "end": 54,
+      "action": "A wireframe-like office view leads to a meeting inside the glass room. Bidders watch; a monitor displays BID ENDED.",
+      "design": "Office table, data monitor and repeated audience.",
+      "purpose": "Extend the auction to business plans.",
+      "evidence": "1 fps source samples in 44–54s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V04"
+    },
+    {
+      "start": 54,
+      "end": 64,
+      "action": "A researcher works at a lab table in the glass room. Vessel and microscopic-looking imagery alternate with bidders.",
+      "design": "Lab objects and scientific imagery within the auction space.",
+      "purpose": "Extend the stakes to unpublished research.",
+      "evidence": "1 fps source samples in 54–64s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V05"
+    },
+    {
+      "start": 64,
+      "end": 85.5,
+      "action": "A writer works at a desk with an orange lamp. Bidders raise paddles; he types okara.ai and the browser shows Okara with a Private AI Chat tab title.",
+      "design": "Desk close-ups, browser address bar and watching audience.",
+      "purpose": "Introduce the product as the turning point.",
+      "evidence": "1 fps source samples in 64–85.5s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V06"
+    },
+    {
+      "start": 85.5,
+      "end": 90,
+      "action": "The writer and desk are visible in the glass room, then disappear by about 86.25s while the room and audience remain. After a hold, the view changes to hands typing in a bright home.",
+      "design": "Same auction framing followed by warm daylight.",
+      "purpose": "Remove the user from the auction metaphor.",
+      "evidence": "1 fps source samples in 85.5–90s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V07"
+    },
+    {
+      "start": 90,
+      "end": 105.958,
+      "action": "The writer continues at his home desk. A fish tank fills the foreground; AI that respects your privacy and Okara appear.",
+      "design": "Warm room, orange lamp, plants and fish-tank reflections.",
+      "purpose": "Resolve the story into a private everyday setting.",
+      "evidence": "1 fps source samples in 90–105.958s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V08"
+    }
+  ],
+  "sound": [
+    {
+      "id": "A01",
+      "start": 0,
+      "end": 105.958,
+      "layer": "script support only",
+      "detail": "The ASR draft supports a private relationship exchange followed by auction descriptions of personal data, advertising candidates, investment plans, research and an unpublished novel. Some names, lot numbers and sold words are garbled and not relied on. The later resolution is visual; voice performance, music, auction effects and sync were not heard or verified.",
+      "visual_relation": "V01–V06; draft makes the data-auction metaphor explicit.",
+      "evidence": "320-speech.json draft and visual auction/profile scenes; no validated listening."
+    }
+  ],
+  "categories": [
+    {
+      "id": "Q01",
+      "finding": "Private exchange → data auction across several contexts → writer opens Okara → empty display → private home.",
+      "evidence": "V01–V08",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q02",
+      "finding": "An intimate hand/sofa/phone scene begins before the surveillance context is revealed.",
+      "evidence": "V01",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q03",
+      "finding": "People using AI for private personal or work material are implied; private AI chat becomes explicit near 85s.",
+      "evidence": "V01–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q04",
+      "finding": "Repeated bids, scanned-looking scene representations and the writer’s disappearance carry the mechanism visually. A 4fps check places the empty-room change around 86–86.25s.",
+      "evidence": "V02–V07",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q05",
+      "finding": "The glass room and seated audience persist across personal, nature, business, lab and writing contexts. The unchanged room after the writer vanishes makes the ending legible.",
+      "evidence": "V02–V07",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q06",
+      "finding": "Cold dark auction scenes and occasional red states contrast with the final warm daylight room. The orange lamp links the writer’s two settings.",
+      "evidence": "V06–V08",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q07",
+      "finding": "Little explanatory text appears during the metaphor; browser title, URL, BID ENDED and the final privacy line are key anchors.",
+      "evidence": "V04,V06,V08",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q08",
+      "finding": "ASR supports private conversation and auction descriptions. Heard voices, delivery and sound design are unknown.",
+      "evidence": "A01",
+      "status": "uncertain",
+      "reason": "Draft text only.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q09",
+      "finding": "Music character and structure are unverified.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "No validated listening.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q10",
+      "finding": "Effects and their sources are unverified.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "No validated listening; waveform peaks do not identify effects.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q11",
+      "finding": "Sound sync is unverified.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "No validated listening or paired audiovisual timing.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q12",
+      "finding": "Staged-looking rooms, bidders, data monitors, scanned scene graphics and a filmed browser form a cinematic metaphor. Production methods are unverified.",
+      "evidence": "V01–V08",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q13",
+      "finding": "Source duration 105.958 s; Watch metadata 1920 × 1080. Frame rate, audio clipping and export quality not checked here.",
+      "evidence": "Whole film",
+      "status": "supported",
+      "reason": "Parent source metadata supports duration and dimensions; visual review is sampled.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q14",
+      "finding": "Bidding paddles and data screens make exposure visible, but the precise data meaning depends partly on the draft. Product category arrives late.",
+      "evidence": "V02–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q15",
+      "finding": "The glass structure frames each subject as an object of attention; bidders and profile screens reinforce that focus.",
+      "evidence": "V02–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q16",
+      "finding": "The film spends about 85s building the auction threat before the product page and roughly 20s resolving it.",
+      "evidence": "V01–V08",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q17",
+      "finding": "Opening Okara is followed by the writer disappearing from the display and continuing at home, a clear metaphorical payoff.",
+      "evidence": "V06–V08",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q18",
+      "finding": "Intimate scenes exposed to bidders suggest discomfort; warm home imagery suggests relief. Audience response and audio performance are unmeasured.",
+      "evidence": "V01–V08",
+      "status": "uncertain",
+      "reason": "Visual and script interpretation only.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q19",
+      "finding": "The same glass-room auction rule applies to each context, then breaks for the writer using Okara.",
+      "evidence": "V02–V08",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q20",
+      "finding": "The auction is a metaphor, not evidence of actual data sales by any provider. Okara’s privacy properties and chat behavior are not independently established.",
+      "evidence": "V02–V08",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q21",
+      "finding": "Removing the entire writer/desk from an otherwise unchanged auction room makes privacy visible without a technical diagram.",
+      "evidence": "V07",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q22",
+      "finding": "Add a concise statement of the actual protection boundary.",
+      "evidence": "V06–V08",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "Show one chat example beside a plain statement of what is stored, shared or excluded, using verified product facts."
+    },
+    {
+      "id": "Q23",
+      "finding": "For Tin, let the closing action visibly resolve the opening visual rule.",
+      "evidence": "V02–V08",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "Show a campaign trapped in repeated manual reviews, then one approved workflow moving it to a clearly published state."
+    },
+    {
+      "id": "Q24",
+      "finding": "No human new-viewer test was performed.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "The product summary is this model’s film-only reading.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q25",
+      "finding": "Mobile preview and accessibility checks were not performed.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "Contact sheets are evidence views, not a stated mobile preview or compliance test.",
+      "experiment": "none"
+    }
+  ],
+  "elements": [
+    {
+      "kind": "ui",
+      "name": "data profile monitor",
+      "events": [
+        "V02",
+        "V03",
+        "V04"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "browser address bar",
+      "events": [
+        "V06"
+      ]
+    },
+    {
+      "kind": "motion",
+      "name": "subject disappears from room",
+      "events": [
+        "V07"
+      ]
+    },
+    {
+      "kind": "texture",
+      "name": "dark glass-room auction",
+      "events": [
+        "V02",
+        "V03",
+        "V04",
+        "V05",
+        "V06",
+        "V07"
+      ]
+    },
+    {
+      "kind": "texture",
+      "name": "warm home daylight",
+      "events": [
+        "V08"
+      ]
+    }
+  ],
+  "lessons": {
+    "keep": "Build a repeated visual rule and let the product action break it.",
+    "try": [
+      "Add a plain, verified statement of the chat privacy boundary.",
+      "For Tin, resolve a repeated manual-review image with one visible published outcome."
+    ],
+    "avoid": "Treating the auction metaphor as factual evidence of data sales or privacy implementation.",
+    "open": "Exact privacy scope, chat behavior, visual production methods and audio qualities remain unverified."
+  },
+  "comparison": {
+    "story": "Personal/work data auction → private chat choice → escape into home.",
+    "motion": "Repeated room substitutions and a checked disappearance around 86s.",
+    "sound": "ASR supports auction roles; no validated listening.",
+    "texture": "Dark glass enclosures against warm domestic daylight.",
+    "lesson": "A visual metaphor can make an abstract promise memorable, but the actual boundary still needs words."
+  },
+  "reviewer_model": "gpt-6-astra",
+  "scope": "sampled visual and story review; ASR and measured signal support; no validated audio listening"
+}

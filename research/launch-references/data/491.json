@@ -1,0 +1,366 @@
+{
+  "id": 491,
+  "reviewer_model": "gpt-6-astra",
+  "scope": "sampled visual and story review; ASR and measured signal support; no validated audio listening",
+  "viewed_evidence": [
+    "technical-review-2026-10-19/deep-review/motion/491/timeline-00.jpg",
+    "technical-review-2026-10-19/deep-review/motion/491/timeline-01.jpg",
+    "technical-review-2026-10-19/deep-review/motion/491/timeline-02.jpg",
+    "technical-review-2026-10-19/deep-review/motion/491/timeline-03.jpg"
+  ],
+  "closer_windows": [],
+  "product_from_film": "Perplexity Labs turns detailed requests into dashboards, research documents, storyboards and teaching materials.",
+  "explains_well": "Each section keeps a specific prompt close to a recognizably matching output, showing breadth through concrete tasks.",
+  "unclear": "The film shows many finished artifacts but little revision, export or source checking, leaving the next usable step unclear.",
+  "product_type": "research and artifact creation assistant",
+  "scenario": "Build a trading dashboard, sales research, a film storyboard, teaching slides and a travel plan.",
+  "product_clear_time": 9,
+  "product_clear_basis": "The first detailed trading request becomes a dashboard with charts and tabs.",
+  "scenes": [
+    {
+      "id": "V01",
+      "start": 0,
+      "end": 20,
+      "action": "Labs is selected in the composer. A request for an Apple WWDC trading analysis leads to process and file chips, then a dashboard with bars, tables, a heatmap, scatterplot and strategy cards. A tiled code-and-chart montage follows.",
+      "design": "Dark interface, teal controls and bright analytical charts.",
+      "purpose": "Introduce multi-step work as a finished interactive artifact.",
+      "evidence": "Visible chronological 1 fps samples, source 0–20s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V02",
+      "start": 20,
+      "end": 39,
+      "action": "Bring your sales project to life introduces a request for potential B2B customers. A company dashboard opens details; a follow-up asks for CEO intro emails and produces several written drafts.",
+      "design": "Company cards, charts, a detail modal and long email text.",
+      "purpose": "Show research feeding a practical follow-up output.",
+      "evidence": "Visible chronological 1 fps samples, source 20–39s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V03",
+      "start": 39,
+      "end": 57,
+      "action": "The creative section asks for a noir science-fiction film about a woman scientist on Mars. Process entries lead to a story image, a nine-panel storyboard-like grid and screenplay text.",
+      "design": "Black-and-white imagery with a small red accent and dark text panels.",
+      "purpose": "Extend the tool to creative planning.",
+      "evidence": "Visible chronological 1 fps samples, source 39–57s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V04",
+      "start": 57,
+      "end": 71,
+      "action": "The classroom section requests a sixth-grade biomes presentation with generated images and key facts. Rainforest, desert and tundra slides appear with repeated information blocks.",
+      "design": "Bright turquoise and coral panels beside landscape images.",
+      "purpose": "Show a structured teaching artifact.",
+      "evidence": "Visible chronological 1 fps samples, source 57–71s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V05",
+      "start": 71,
+      "end": 84,
+      "action": "The travel section requests a four-day Barcelona Grand Prix trip with hotel, food, sightseeing and cost guidance. Search and source entries appear before the report.",
+      "design": "Long prompt, research log and dark document surface.",
+      "purpose": "Set up a personal planning task.",
+      "evidence": "Visible chronological 1 fps samples, source 71–84s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V06",
+      "start": 84,
+      "end": 91,
+      "action": "The report shows accommodation cards, a day-one itinerary with image tiles and an estimated-cost table.",
+      "design": "Photo cards, explanatory paragraphs and a budget table.",
+      "purpose": "Show the travel plan as an organized result.",
+      "evidence": "Visible chronological 1 fps samples, source 84–91s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V07",
+      "start": 91,
+      "end": 101.351,
+      "action": "Bring every project to life leads to Try Perplexity Labs today and the small symbol on black.",
+      "design": "Quiet centered white text.",
+      "purpose": "Unify the examples and invite use.",
+      "evidence": "Visible chronological 1 fps samples, source 91–101.351s; boundary approximate; exact motion between samples unverified."
+    }
+  ],
+  "sound": [
+    {
+      "id": "A01",
+      "start": 0,
+      "end": 101.351,
+      "layer": "unknown",
+      "detail": "No validated direct audio listening was performed. Music, speech delivery, effects, mix and sync remain unknown, not absent.",
+      "visual_relation": "All visual scenes; audiovisual alignment unverified",
+      "evidence": "Visual samples only; no actual audio range supplied to this reviewer."
+    }
+  ],
+  "categories": [
+    {
+      "id": "Q01",
+      "finding": "Five task examples move from finance to sales, creative work, teaching and travel, each using a prompt-to-artifact pattern.",
+      "evidence": "V01–V07",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q02",
+      "finding": "The film opens inside the product and immediately selects Labs, making the feature location clear.",
+      "evidence": "V01",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q03",
+      "finding": "Knowledge workers and personal planners are addressed through several examples; the first dashboard establishes the creation promise at 9s.",
+      "evidence": "V01–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q04",
+      "finding": "Prompt text builds, pages scroll and reframe, dashboard tabs switch, a detail modal opens, and a tiled code-and-chart montage briefly expands the first result.",
+      "evidence": "V01–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q05",
+      "finding": "Repeated Bring your project to life intertitles separate tasks and make a long feature reel easy to segment.",
+      "evidence": "V02–V05,V07",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q06",
+      "finding": "Dark flat interfaces and teal accents dominate; noir storyboard imagery and bright classroom panels give the outputs distinct looks.",
+      "evidence": "V01–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q07",
+      "finding": "Section titles and output types are clear, but long prompts, code, email drafts and research logs exceed comfortable reading at montage speed.",
+      "evidence": "V01–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q08",
+      "finding": "Voice delivery, music, effects and audiovisual alignment were not established by this visual pass.",
+      "evidence": "A01",
+      "status": "not checked",
+      "reason": "No validated direct audio listening input.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q09",
+      "finding": "Voice delivery, music, effects and audiovisual alignment were not established by this visual pass.",
+      "evidence": "A01",
+      "status": "not checked",
+      "reason": "No validated direct audio listening input.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q10",
+      "finding": "Voice delivery, music, effects and audiovisual alignment were not established by this visual pass.",
+      "evidence": "A01",
+      "status": "not checked",
+      "reason": "No validated direct audio listening input.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q11",
+      "finding": "Voice delivery, music, effects and audiovisual alignment were not established by this visual pass.",
+      "evidence": "A01",
+      "status": "not checked",
+      "reason": "No validated direct audio listening input.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q12",
+      "finding": "Product screens, dashboards, charts, written drafts, storyboard images, slide-like pages and travel cards are visible. Their complete generation history is unverified.",
+      "evidence": "V01–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q13",
+      "finding": "Manifest duration 101.351s; indexed dimensions 1280×720. Source unchanged flag recorded; fresh encoding and audio clipping checks not run.",
+      "evidence": "Group manifest",
+      "status": "uncertain",
+      "reason": "Inherited technical metadata; no fresh media probe in this review.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q14",
+      "finding": "Visible requests and matching artifact types explain the broad capability without an available speech draft.",
+      "evidence": "V01–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q15",
+      "finding": "Bright charts and image grids provide focal points within dense dark screens. The long text outputs are less easy to scan.",
+      "evidence": "V01–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q16",
+      "finding": "Finance, sales and creative examples receive extended demonstrations; classroom is shorter, and travel closes with several output views.",
+      "evidence": "V01–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q17",
+      "finding": "Apple trading, B2B leads, Mars noir, biomes and Barcelona remain recognizable within their own sections. The sales email follow-up gives the clearest continuation of an earlier result.",
+      "evidence": "V01–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q18",
+      "finding": "The range of polished artifacts suggests possibility and productivity. Actual music or sound energy is unknown.",
+      "evidence": "V01–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q19",
+      "finding": "Requests connect to outputs, and the sales section includes a follow-up. Export, revision and downstream use are largely absent.",
+      "evidence": "V01–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q20",
+      "finding": "Visible charts, contacts, generated scenes, teaching facts and travel costs are not independently checked. The montage does not establish generation time or reliability across attempts.",
+      "evidence": "V01–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q21",
+      "finding": "Perplexity Pro and Labs recur in the interface, with a direct Labs invitation at the end.",
+      "evidence": "V01–V07",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q22",
+      "finding": "Choose one artifact and show a correction or export after generation, then shorten one of the other examples.",
+      "evidence": "V01–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q23",
+      "finding": "Use a repeated prompt-to-output structure while varying the task and artifact type.",
+      "evidence": "V01–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q24",
+      "finding": "Perplexity Labs turns detailed requests into dashboards, research documents, storyboards and teaching materials.",
+      "evidence": "Model reading from inspected images",
+      "status": "uncertain",
+      "reason": "Model-only new-viewer interpretation; no human test.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q25",
+      "finding": "Contact sheets inspected at displayed size; a phone-size playback, caption audit, flash audit and formal accessibility check were not performed.",
+      "evidence": "Viewed sheets",
+      "status": "not checked",
+      "reason": "Full-size moving-image and device checks unavailable in this pass.",
+      "experiment": "none"
+    }
+  ],
+  "lessons": {
+    "keep": "Keep each request visibly matched to a distinct output type.",
+    "avoid": "Treating a gallery of polished outputs as a complete account of how users finish their work.",
+    "open": "Artifact accuracy, sources, export behavior, revision controls, generation time and audio remain unverified.",
+    "try": [
+      "For Tin, show one campaign brief becoming a plan, creative draft and approval card with the same campaign name.",
+      "Add one user revision and export to the storyboard example, replacing part of the process-log scroll."
+    ]
+  },
+  "comparison": {
+    "story": "Introduce multi-step work as a finished interactive artifact. → Show research feeding a practical follow-up output. → Extend the tool to creative planning. → Show a structured teaching artifact. → Set up a personal planning task. → Show the travel plan as an organized result. → Unify the examples and invite use.",
+    "motion": "Prompt text builds, pages scroll and reframe, dashboard tabs switch, a detail modal opens, and a tiled code-and-chart montage briefly expands the first result. Sampling scope: 1 fps unless a closer window is recorded.",
+    "sound": "No validated listening; unknown.",
+    "texture": "Dark interface, teal controls and bright analytical charts.; Company cards, charts, a detail modal and long email text.; Black-and-white imagery with a small red accent and dark text panels.; Bright turquoise and coral panels beside landscape images.; Long prompt, research log and dark document surface.; Photo cards, explanatory paragraphs and a budget table.; Quiet centered white text.",
+    "lesson": "Keep each request visibly matched to a distinct output type."
+  },
+  "elements": [
+    {
+      "kind": "ui",
+      "name": "dashboard",
+      "events": [
+        "V01",
+        "V02"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "chart",
+      "events": [
+        "V01",
+        "V02"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "email draft",
+      "events": [
+        "V02"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "storyboard",
+      "events": [
+        "V03"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "presentation",
+      "events": [
+        "V04"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "travel itinerary",
+      "events": [
+        "V06"
+      ]
+    },
+    {
+      "kind": "motion",
+      "name": "tiled screen montage",
+      "events": [
+        "V01"
+      ]
+    }
+  ]
+}

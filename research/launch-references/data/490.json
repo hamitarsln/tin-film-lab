@@ -1,0 +1,340 @@
+{
+  "id": 490,
+  "reviewer_model": "gpt-6-astra",
+  "scope": "sampled visual and story review; ASR and measured signal support; no validated audio listening",
+  "viewed_evidence": [
+    "technical-review-2026-10-19/deep-review/motion/490/timeline-00.jpg",
+    "technical-review-2026-10-19/deep-review/motion/490/timeline-01.jpg"
+  ],
+  "closer_windows": [],
+  "product_from_film": "Perplexity searches SEC filings and turns financial questions into analysis, charts and tables.",
+  "explains_well": "The demo shows the Finance source toggle before a retailer-correlation request and its visual results.",
+  "unclear": "The dense result moves too quickly to show how a specific filing supports the final analysis, and the distinction between Labs and Spaces is brief.",
+  "product_type": "financial research assistant",
+  "scenario": "Compare retailer same-store sales and inspect changes in company filings.",
+  "product_clear_time": 12,
+  "product_clear_basis": "The Finance source option explicitly says Search SEC filings.",
+  "scenes": [
+    {
+      "id": "V01",
+      "start": 0,
+      "end": 8,
+      "action": "Layered dollar notes bend into wave-like forms while titles change from a dedicated analyst to searching SEC filings with Perplexity Labs.",
+      "design": "Glowing blue edges, money textures and black space.",
+      "purpose": "Introduce the finance theme.",
+      "evidence": "Visible chronological 1 fps samples, source 0–8s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V02",
+      "start": 8,
+      "end": 19,
+      "action": "The Perplexity composer opens its source menu and enables Finance. A prompt asks for same-store sales comparisons among Walmart, Costco, Target and Dollar General, with charts and a correlation heatmap.",
+      "design": "Dark interface with teal controls and a long typed request.",
+      "purpose": "Specify the data source and analytical task.",
+      "evidence": "Visible chronological 1 fps samples, source 8–19s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V03",
+      "start": 19,
+      "end": 28,
+      "action": "A process response with file chips leads to a line chart, a correlation heatmap, written results and a list of filing sources.",
+      "design": "Dense dark report with bright chart panels.",
+      "purpose": "Show an analytical output and source access.",
+      "evidence": "Visible chronological 1 fps samples, source 19–28s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V04",
+      "start": 28,
+      "end": 35,
+      "action": "A money-wave title introduces Perplexity Spaces. Change Analysis in Filings accepts a TSLA changes query and shows a written summary with a key-changes table.",
+      "design": "Repeated money motif, saved-space header and compact table.",
+      "purpose": "Show a reusable research space for filing changes.",
+      "evidence": "Visible chronological 1 fps samples, source 28–35s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V05",
+      "start": 35,
+      "end": 43.96,
+      "action": "Perplexity Finance, for curious investors overlays another money form, then the small brand symbol holds on black and fades.",
+      "design": "Blue-edged dollar imagery and minimal ending.",
+      "purpose": "Close on the finance identity.",
+      "evidence": "Visible chronological 1 fps samples, source 35–43.96s; boundary approximate; exact motion between samples unverified."
+    }
+  ],
+  "sound": [
+    {
+      "id": "A01",
+      "start": 0,
+      "end": 43.96,
+      "layer": "unknown",
+      "detail": "No validated direct audio listening was performed. Music, speech delivery, effects, mix and sync remain unknown, not absent.",
+      "visual_relation": "All visual scenes; audiovisual alignment unverified",
+      "evidence": "Visual samples only; no actual audio range supplied to this reviewer."
+    }
+  ],
+  "categories": [
+    {
+      "id": "Q01",
+      "finding": "A finance promise leads to source selection, retailer analysis, a reusable filing-change space and a brand close.",
+      "evidence": "V01–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q02",
+      "finding": "Bending dollar-note forms give the finance subject an immediate visual hook.",
+      "evidence": "V01",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q03",
+      "finding": "Investors and financial researchers are the audience; the SEC source toggle at 12s makes the feature explicit.",
+      "evidence": "V02",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q04",
+      "finding": "Dollar-note layers undulate between title cards, prompt text builds, report pages scroll and the view reframes toward the heatmap and sources.",
+      "evidence": "V01–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q05",
+      "finding": "The money-wave motif separates product sections while teal interface accents connect the actual research views.",
+      "evidence": "V01–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q06",
+      "finding": "Paper-money imagery has luminous blue edges against black; flat dark UI contrasts with the dimensional title art.",
+      "evidence": "V01,V02,V04,V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q07",
+      "finding": "The source toggle and chart shapes are clear, but the long prompt and report text are dense at this pace.",
+      "evidence": "V02–V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q08",
+      "finding": "Voice delivery, music, effects and audiovisual alignment were not established by this visual pass.",
+      "evidence": "A01",
+      "status": "not checked",
+      "reason": "No validated direct audio listening input.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q09",
+      "finding": "Voice delivery, music, effects and audiovisual alignment were not established by this visual pass.",
+      "evidence": "A01",
+      "status": "not checked",
+      "reason": "No validated direct audio listening input.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q10",
+      "finding": "Voice delivery, music, effects and audiovisual alignment were not established by this visual pass.",
+      "evidence": "A01",
+      "status": "not checked",
+      "reason": "No validated direct audio listening input.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q11",
+      "finding": "Voice delivery, music, effects and audiovisual alignment were not established by this visual pass.",
+      "evidence": "A01",
+      "status": "not checked",
+      "reason": "No validated direct audio listening input.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q12",
+      "finding": "Money-form graphics, product interface views, charts, tables and source lists are visible. Production method is unverified.",
+      "evidence": "V01–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q13",
+      "finding": "Manifest duration 43.96s; indexed dimensions 1280×720. Source unchanged flag recorded; fresh encoding and audio clipping checks not run.",
+      "evidence": "Group manifest",
+      "status": "uncertain",
+      "reason": "Inherited technical metadata; no fresh media probe in this review.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q14",
+      "finding": "Visible text names SEC filings, the retailer task and the output type; no available ASR is needed for the broad feature story.",
+      "evidence": "V02–V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q15",
+      "finding": "White chart panels stand out from the dark report, making results easier to notice than the source details.",
+      "evidence": "V03",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q16",
+      "finding": "The retailer task gets most of the demo time; the Spaces example is a short second proof point near the end.",
+      "evidence": "V02–V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q17",
+      "finding": "The retailer prompt asks for a heatmap and the later result contains one. The TSLA query starts a separate task.",
+      "evidence": "V02–V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q18",
+      "finding": "Financial imagery and clean dark reports suggest analytical confidence. Actual audio mood is unknown.",
+      "evidence": "V01–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q19",
+      "finding": "Source selection, request and output form a clear chain, but the film does not open one filing passage to explain an individual value.",
+      "evidence": "V02,V03",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q20",
+      "finding": "The charts and summary are selected outputs, not proof of numerical accuracy or complete filing coverage. Availability claims from the source title are not established by the visible Pro interface.",
+      "evidence": "V02–V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q21",
+      "finding": "Perplexity branding is repeated in the composer, with Labs, Spaces and Finance labels naming related product surfaces.",
+      "evidence": "V01–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q22",
+      "finding": "Highlight one retailer value and its linked filing passage, then briefly label why the second task uses a Space.",
+      "evidence": "V03,V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q23",
+      "finding": "Show the data-source choice before the analytical request so viewers understand where the answer should come from.",
+      "evidence": "V02",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q24",
+      "finding": "Perplexity searches SEC filings and turns financial questions into analysis, charts and tables.",
+      "evidence": "Model reading from inspected images",
+      "status": "uncertain",
+      "reason": "Model-only new-viewer interpretation; no human test.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q25",
+      "finding": "Contact sheets inspected at displayed size; a phone-size playback, caption audit, flash audit and formal accessibility check were not performed.",
+      "evidence": "Viewed sheets",
+      "status": "not checked",
+      "reason": "Full-size moving-image and device checks unavailable in this pass.",
+      "experiment": "none"
+    }
+  ],
+  "lessons": {
+    "keep": "Make the selected source visible before showing the research output.",
+    "avoid": "Using dense charts and source lists as visual proof without connecting a specific claim to its source.",
+    "open": "Numerical accuracy, source coverage, plan availability, Spaces setup and audio remain unverified.",
+    "try": [
+      "For Tin, select customer feedback as a source, then show one resulting campaign insight with its source line.",
+      "Replace part of the report scroll with one chart value traced back to a filing passage."
+    ]
+  },
+  "comparison": {
+    "story": "Introduce the finance theme. → Specify the data source and analytical task. → Show an analytical output and source access. → Show a reusable research space for filing changes. → Close on the finance identity.",
+    "motion": "Dollar-note layers undulate between title cards, prompt text builds, report pages scroll and the view reframes toward the heatmap and sources. Sampling scope: 1 fps unless a closer window is recorded.",
+    "sound": "No validated listening; unknown.",
+    "texture": "Glowing blue edges, money textures and black space.; Dark interface with teal controls and a long typed request.; Dense dark report with bright chart panels.; Repeated money motif, saved-space header and compact table.; Blue-edged dollar imagery and minimal ending.",
+    "lesson": "Make the selected source visible before showing the research output."
+  },
+  "elements": [
+    {
+      "kind": "ui",
+      "name": "source selector",
+      "events": [
+        "V02"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "prompt composer",
+      "events": [
+        "V02",
+        "V04"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "heatmap",
+      "events": [
+        "V03"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "table",
+      "events": [
+        "V04"
+      ]
+    },
+    {
+      "kind": "motion",
+      "name": "undulating money form",
+      "events": [
+        "V01",
+        "V04",
+        "V05"
+      ]
+    },
+    {
+      "kind": "texture",
+      "name": "dollar notes",
+      "events": [
+        "V01"
+      ]
+    }
+  ]
+}

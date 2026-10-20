@@ -1,0 +1,346 @@
+{
+  "id": 380,
+  "reviewer_model": "gpt-6-astra",
+  "scope": "sampled visual and story review; ASR and measured signal support; no validated audio listening",
+  "viewed_evidence": [
+    "technical-review-2026-10-19/deep-review/motion/380/timeline-00.jpg",
+    "technical-review-2026-10-19/deep-review/motion/380/timeline-01.jpg",
+    "astra-review-2026-10-20/evidence/group-2/380-12.png",
+    "astra-review-2026-10-20/evidence/group-2/380-55.png"
+  ],
+  "closer_windows": [],
+  "product_from_film": "Bits shows setting up Klaus, a team assistant powered by OpenClaw, and connecting it to Slack.",
+  "explains_well": "The final Slack question receives a specific Hacker News answer after an earlier access-not-configured message.",
+  "unclear": "The fast desktop recording has no step labels, so the difference between instance creation, device pairing, Slack installation and user approval is hard to follow.",
+  "product_type": "team assistant setup",
+  "scenario": "Create an assistant instance, approve connections and ask a question in Slack.",
+  "product_clear_time": 12,
+  "product_clear_basis": "The readable setup page names Klaus as an AI assistant for a team powered by OpenClaw.",
+  "scenes": [
+    {
+      "id": "V01",
+      "start": 0,
+      "end": 11,
+      "action": "A Bits Klaus page starts an instance setup. Status changes while a large stopwatch advances beside the browser; the view briefly switches to a dark OpenClaw chat and back.",
+      "design": "Uncropped desktop, forest wallpaper, browser and separate stopwatch.",
+      "purpose": "Present a timed setup with waiting compressed.",
+      "evidence": "Visible chronological 1 fps samples, source 0–11s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V02",
+      "start": 11,
+      "end": 20,
+      "action": "A pending pairing request appears with approval controls and a paired-device list. The recording switches to the OpenClaw chat, where a message is entered, then returns to the setup page.",
+      "design": "Light setup page contrasted with dark chat.",
+      "purpose": "Show device pairing and the first chat interaction.",
+      "evidence": "Visible chronological 1 fps samples, source 11–20s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V03",
+      "start": 20,
+      "end": 31,
+      "action": "A Slack App Installation page opens, followed by Slack permission approval. The view returns to Klaus integration and device information, then the Slack app opens.",
+      "design": "Browser permission page and integration panels.",
+      "purpose": "Connect the assistant to a workspace.",
+      "evidence": "Visible chronological 1 fps samples, source 20–31s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V04",
+      "start": 31,
+      "end": 46,
+      "action": "A Slack direct message is sent and a reply appears. The view switches back to the web chat, where more text is entered and responses appear.",
+      "design": "Overlapping Slack and browser windows with a continuing stopwatch.",
+      "purpose": "Resolve setup and access steps; the fast switching obscures their exact relationship.",
+      "evidence": "Visible chronological 1 fps samples, source 31–46s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V05",
+      "start": 46,
+      "end": 55.766,
+      "action": "Slack returns. An earlier OpenClaw access-not-configured response includes pairing instructions. A later question asks for the top Hacker News story and Klaus replies with a title, points, comments and link. The stopwatch is stopped around 3 min 21 s.",
+      "design": "Slack conversation foreground, web chat behind and large timer at right.",
+      "purpose": "Demonstrate a working final exchange and the displayed setup time.",
+      "evidence": "Visible chronological 1 fps samples, source 46–55.766s; boundary approximate; exact motion between samples unverified."
+    }
+  ],
+  "sound": [
+    {
+      "id": "A01",
+      "start": 0,
+      "end": 55.766,
+      "layer": "unknown",
+      "detail": "No validated direct audio listening was performed. Music, speech delivery, effects, mix and sync remain unknown, not absent.",
+      "visual_relation": "All visual scenes; audiovisual alignment unverified",
+      "evidence": "Visual samples only; no actual audio range supplied to this reviewer."
+    }
+  ],
+  "categories": [
+    {
+      "id": "Q01",
+      "finding": "Instance setup leads through pairing, Slack permissions, more configuration and a successful Slack question/answer.",
+      "evidence": "V01–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q02",
+      "finding": "The film starts directly in the setup page with a stopwatch; there is no separate problem or audience introduction.",
+      "evidence": "V01",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q03",
+      "finding": "Klaus is identified in the page as a team AI assistant powered by OpenClaw. Slack becomes the final use surface.",
+      "evidence": "V02,V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q04",
+      "finding": "The stopwatch advances faster than source time, setup states change, the cursor moves between approval controls, and Slack/browser windows alternate while messages accumulate.",
+      "evidence": "V01–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q05",
+      "finding": "The timer and desktop remain visible across setup stages, but the rapid window switches make the intermediate access correction difficult to trace.",
+      "evidence": "V01–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q06",
+      "finding": "The film retains ordinary desktop chrome, forest wallpaper and mixed light/dark app themes, giving it the appearance of a direct screen recording.",
+      "evidence": "V01–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q07",
+      "finding": "The timer is readable; setup text and chat are much smaller. Full-resolution 12 s and 55 s frames clarify the product and final exchange.",
+      "evidence": "V02,V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q08",
+      "finding": "Voice delivery, music, effects and audiovisual alignment were not established by this visual pass.",
+      "evidence": "A01",
+      "status": "not checked",
+      "reason": "No validated direct audio listening input.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q09",
+      "finding": "Voice delivery, music, effects and audiovisual alignment were not established by this visual pass.",
+      "evidence": "A01",
+      "status": "not checked",
+      "reason": "No validated direct audio listening input.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q10",
+      "finding": "Voice delivery, music, effects and audiovisual alignment were not established by this visual pass.",
+      "evidence": "A01",
+      "status": "not checked",
+      "reason": "No validated direct audio listening input.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q11",
+      "finding": "Voice delivery, music, effects and audiovisual alignment were not established by this visual pass.",
+      "evidence": "A01",
+      "status": "not checked",
+      "reason": "No validated direct audio listening input.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q12",
+      "finding": "A desktop recording shows Bits, OpenClaw Control, Slack and a stopwatch. Capture and editing tools are not established.",
+      "evidence": "V01–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q13",
+      "finding": "Manifest duration 55.766s; indexed dimensions 1920×1080. Source unchanged flag recorded; fresh encoding and audio clipping checks not run.",
+      "evidence": "Group manifest",
+      "status": "uncertain",
+      "reason": "Inherited technical metadata; no fresh media probe in this review.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q14",
+      "finding": "The visible sequence suggests setup and a working Slack reply, but without narration text or numbered steps a new viewer may miss why each approval is needed. No ASR draft is available.",
+      "evidence": "V01–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q15",
+      "finding": "The separate timer occupies a large area while the actual setup and chat share the left side, prioritizing the speed claim over legibility.",
+      "evidence": "V01–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q16",
+      "finding": "Roughly 56 s of source compresses a displayed stopwatch interval of about 3 min 21 s. The speed varies across the recording.",
+      "evidence": "V01–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q17",
+      "finding": "The final Slack reply is specific and includes a link. It establishes a shown exchange, not the answer’s accuracy or all assistant capabilities.",
+      "evidence": "V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q18",
+      "finding": "The visible stopwatch and unpolished desktop framing emphasize practical setup speed; this is a creative reading.",
+      "evidence": "V01–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q19",
+      "finding": "The final view preserves both an earlier access-not-configured response and a later successful answer. The exact fix is difficult to isolate in the accelerated middle section.",
+      "evidence": "V04,V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q20",
+      "finding": "Displayed elapsed time is not an independent benchmark. Secure setup, isolation, permissions quality and answer accuracy are not established by the recording alone.",
+      "evidence": "V01–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q21",
+      "finding": "Ending with a real question and visible reply gives the setup a concrete success state.",
+      "evidence": "V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q22",
+      "finding": "Add four short labels for instance, device pairing, Slack installation and user approval; enlarge the final answer and state the displayed elapsed time.",
+      "evidence": "V01–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q23",
+      "finding": "Tin can end a setup walkthrough with one useful task, while labelling each access or connection stage.",
+      "evidence": "V01–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q24",
+      "finding": "Bits shows setting up Klaus, a team assistant powered by OpenClaw, and connecting it to Slack.",
+      "evidence": "Model reading from inspected images",
+      "status": "uncertain",
+      "reason": "Model-only new-viewer interpretation; no human test.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q25",
+      "finding": "Contact sheets inspected at displayed size; a phone-size playback, caption audit, flash audit and formal accessibility check were not performed.",
+      "evidence": "Viewed sheets",
+      "status": "not checked",
+      "reason": "Full-size moving-image and device checks unavailable in this pass.",
+      "experiment": "none"
+    }
+  ],
+  "lessons": {
+    "keep": "End setup with a concrete question and a visible response in the destination app.",
+    "avoid": "Avoid using a large stopwatch at the cost of readable setup steps.",
+    "open": "Setup prerequisites, omitted time, security properties, exact access correction, answer accuracy and all audio remain unverified.",
+    "try": [
+      "For Tin, label each setup stage and slow the exact approval action.",
+      "Show a larger final task result beside a compact elapsed-time label."
+    ]
+  },
+  "comparison": {
+    "story": "Present a timed setup with waiting compressed. → Show device pairing and the first chat interaction. → Connect the assistant to a workspace. → Resolve setup and access steps; the fast switching obscures their exact relationship. → Demonstrate a working final exchange and the displayed setup time.",
+    "motion": "The stopwatch advances faster than source time, setup states change, the cursor moves between approval controls, and Slack/browser windows alternate while messages accumulate. Sampling scope: 1 fps unless a closer window is recorded.",
+    "sound": "No validated listening; unknown.",
+    "texture": "Uncropped desktop, forest wallpaper, browser and separate stopwatch.; Light setup page contrasted with dark chat.; Browser permission page and integration panels.; Overlapping Slack and browser windows with a continuing stopwatch.; Slack conversation foreground, web chat behind and large timer at right.",
+    "lesson": "End setup with a concrete question and a visible response in the destination app."
+  },
+  "elements": [
+    {
+      "kind": "ui",
+      "name": "chat",
+      "events": [
+        "V02",
+        "V04",
+        "V05"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "permissions screen",
+      "events": [
+        "V03"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "stopwatch",
+      "events": [
+        "V01",
+        "V02",
+        "V03",
+        "V04",
+        "V05"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "browser shell",
+      "events": [
+        "V01",
+        "V02",
+        "V03",
+        "V04",
+        "V05"
+      ]
+    },
+    {
+      "kind": "motion",
+      "name": "windows switch",
+      "events": [
+        "V01",
+        "V02",
+        "V03",
+        "V04",
+        "V05"
+      ]
+    }
+  ]
+}

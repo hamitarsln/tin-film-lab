@@ -1,0 +1,338 @@
+{
+  "id": 488,
+  "reviewer_model": "gpt-6-astra",
+  "scope": "sampled visual and story review; ASR and measured signal support; no validated audio listening",
+  "viewed_evidence": [
+    "technical-review-2026-10-19/deep-review/motion/488/timeline-00.jpg",
+    "astra-review-2026-10-20/evidence/group-2/488-10.5-14.5.jpg"
+  ],
+  "closer_windows": [
+    {
+      "start": 10.5,
+      "end": 14.5,
+      "rate_fps": 4,
+      "evidence": [
+        "astra-review-2026-10-20/evidence/group-2/488-10.5-14.5.jpg"
+      ],
+      "resolved": "The gym sequence rotates the view through an upside-down angle, cuts through blurred reframing and introduces large yellow titles with social-video panels. Exact easing and production method remain unknown."
+    }
+  ],
+  "product_from_film": "Cluely introduces its team through personal social-media reach, gaming achievements and staged office portraits.",
+  "explains_well": "Large names and follower counts turn each person into a quick character introduction.",
+  "unclear": "The film does not explain what the product does or how these personal achievements connect to customer value.",
+  "product_type": "team brand montage",
+  "scenario": "Introduce the people behind Cluely.",
+  "product_clear_time": null,
+  "product_clear_basis": "Team identities and reach are visible, but no product task or result is shown.",
+  "scenes": [
+    {
+      "id": "V01",
+      "start": 0,
+      "end": 8,
+      "action": "A suited man approaches the lens, then appears on a sofa beneath Meet the minds at Cluely. ROY and CEO OF CLUELY appear, followed by a social post containing the same scene.",
+      "design": "Cyan neon sign, giant yellow name and nested social-post frame.",
+      "purpose": "Introduce the first team member through a portrait and public profile.",
+      "evidence": "Visible chronological 1 fps samples, source 0–8s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V02",
+      "start": 8,
+      "end": 14,
+      "action": "Kitchen and gym scenes introduce more suited team members with names, follower figures and gaming credentials. The view rotates through a bench-press shot and large yellow titles enter across the room.",
+      "design": "Tilted camera framing, motion blur and social-video panels.",
+      "purpose": "Give the team fast, playful individual identities.",
+      "evidence": "Visible chronological 1 fps samples, source 8–14s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V03",
+      "start": 14,
+      "end": 20,
+      "action": "A woman points at a presentation board, followed by a sofa scene, a gaming monitor, a Twitch profile and a watch close-up. Follower and rank labels fill the frame.",
+      "design": "Oversized yellow credentials, angled panels and quick reframing.",
+      "purpose": "Build a collage of audience reach and interests.",
+      "evidence": "Visible chronological 1 fps samples, source 14–20s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V04",
+      "start": 20,
+      "end": 27,
+      "action": "A camera operator, two crouching people, a garage and a driver appear with names and social-profile imagery. A 550K+ FOLLOWERS claim overlays a profile grid.",
+      "design": "Floating media panels, large names and rapid location changes.",
+      "purpose": "Complete the personal-profile montage.",
+      "evidence": "Visible chronological 1 fps samples, source 20–27s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V05",
+      "start": 27,
+      "end": 30.197,
+      "action": "The team gathers around the sofa beneath the cyan Cluely sign. The view pulls back to a full group portrait.",
+      "design": "Matching dark suits and centered group arrangement.",
+      "purpose": "Resolve individual profiles into one team.",
+      "evidence": "Visible chronological 1 fps samples, source 27–30.197s; boundary approximate; exact motion between samples unverified."
+    }
+  ],
+  "sound": [
+    {
+      "id": "A01",
+      "start": 0,
+      "end": 30.197,
+      "layer": "unknown",
+      "detail": "No validated direct audio listening was performed. Music, speech delivery, effects, mix and sync remain unknown, not absent.",
+      "visual_relation": "All visual scenes; audiovisual alignment unverified",
+      "evidence": "Visual samples only; no actual audio range supplied to this reviewer."
+    }
+  ],
+  "categories": [
+    {
+      "id": "Q01",
+      "finding": "Individual portraits and online credentials accumulate before a final group portrait.",
+      "evidence": "V01–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q02",
+      "finding": "A face close to the lens quickly gives way to a large brand title and team introduction.",
+      "evidence": "V01",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q03",
+      "finding": "This is a team-awareness piece for viewers interested in the company; the software’s use remains unspecified.",
+      "evidence": "V01–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q04",
+      "finding": "Names and social panels sweep into tilted live-action views; a closer 4 fps check shows rotation through the gym sequence, blurred reframing and large yellow title entries, ending in a group pullback.",
+      "evidence": "V02,V05; closer 10.5–14.5s",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q05",
+      "finding": "Repeated portrait-to-social-profile changes form the montage pattern. Fast blurred turns connect unrelated rooms and activities.",
+      "evidence": "V01–V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q06",
+      "finding": "Dark suits, warm rooms, cyan neon and saturated yellow lettering give the team a consistent bold look.",
+      "evidence": "V01–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q07",
+      "finding": "Large names read quickly, but follower counts, roles, jokes and profile panels compete within short shots.",
+      "evidence": "V01–V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q08",
+      "finding": "Voice delivery, music, effects and audiovisual alignment were not established by this visual pass.",
+      "evidence": "A01",
+      "status": "not checked",
+      "reason": "No validated direct audio listening input.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q09",
+      "finding": "Voice delivery, music, effects and audiovisual alignment were not established by this visual pass.",
+      "evidence": "A01",
+      "status": "not checked",
+      "reason": "No validated direct audio listening input.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q10",
+      "finding": "Voice delivery, music, effects and audiovisual alignment were not established by this visual pass.",
+      "evidence": "A01",
+      "status": "not checked",
+      "reason": "No validated direct audio listening input.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q11",
+      "finding": "Voice delivery, music, effects and audiovisual alignment were not established by this visual pass.",
+      "evidence": "A01",
+      "status": "not checked",
+      "reason": "No validated direct audio listening input.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q12",
+      "finding": "Office, kitchen, gym, gaming and garage footage combine with social profiles, titles and a final staged group image.",
+      "evidence": "V01–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q13",
+      "finding": "Manifest duration 30.197s; indexed dimensions 1920×1080. Source unchanged flag recorded; fresh encoding and audio clipping checks not run.",
+      "evidence": "Group manifest",
+      "status": "uncertain",
+      "reason": "Inherited technical metadata; no fresh media probe in this review.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q14",
+      "finding": "Names, roles and follower numbers are visible without sound. Why these credentials matter to the product is not explained visually.",
+      "evidence": "V01–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q15",
+      "finding": "Yellow text dominates the portraits; layered profile panels sometimes divide attention from the person being introduced.",
+      "evidence": "V02–V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q16",
+      "finding": "Many identities and credentials pass in thirty seconds. A viewer may remember the energy more easily than every name.",
+      "evidence": "V01–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q17",
+      "finding": "The shared suits and final sofa scene connect otherwise unrelated personal activities. There is no customer problem-to-result arc.",
+      "evidence": "V01–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q18",
+      "finding": "Exaggerated poses, gym activity in suits and gaming labels suggest a playful, self-promotional team identity.",
+      "evidence": "V02–V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q19",
+      "finding": "The opening portrait reappears within a social post, giving a clear nested-image connection. Later panels support personal reach rather than workflow continuity.",
+      "evidence": "V01–V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q20",
+      "finding": "Follower numbers and ranks are on-screen claims, not independently verified. No product operation or customer outcome is demonstrated.",
+      "evidence": "V02–V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q21",
+      "finding": "The cyan Cluely sign brackets the montage and matching suits tie individual profiles to the final group.",
+      "evidence": "V01,V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q22",
+      "finding": "Reduce the number of credentials per person and add a short role-to-customer-value line if the goal is product trust.",
+      "evidence": "V02–V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q23",
+      "finding": "Use a repeated portrait, name and evidence pattern, then finish with the whole team to create a coherent introduction.",
+      "evidence": "V01–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q24",
+      "finding": "Cluely introduces its team through personal social-media reach, gaming achievements and staged office portraits.",
+      "evidence": "Model reading from inspected images",
+      "status": "uncertain",
+      "reason": "Model-only new-viewer interpretation; no human test.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q25",
+      "finding": "Contact sheets inspected at displayed size; a phone-size playback, caption audit, flash audit and formal accessibility check were not performed.",
+      "evidence": "Viewed sheets",
+      "status": "not checked",
+      "reason": "Full-size moving-image and device checks unavailable in this pass.",
+      "experiment": "none"
+    }
+  ],
+  "lessons": {
+    "keep": "Repeat a simple identity pattern and finish with a group image.",
+    "avoid": "Packing several credentials into a shot too short to read.",
+    "open": "Product purpose, audience fit, credential accuracy and audio remain unverified.",
+    "try": [
+      "For Tin, pair each team role with one concrete workflow responsibility instead of several personal metrics.",
+      "Compare this montage with a slower cut that gives each person one name, one role and one supporting image."
+    ]
+  },
+  "comparison": {
+    "story": "Introduce the first team member through a portrait and public profile. → Give the team fast, playful individual identities. → Build a collage of audience reach and interests. → Complete the personal-profile montage. → Resolve individual profiles into one team.",
+    "motion": "Names and social panels sweep into tilted live-action views; a closer 4 fps check shows rotation through the gym sequence, blurred reframing and large yellow title entries, ending in a group pullback. Sampling scope: 1 fps unless a closer window is recorded.",
+    "sound": "No validated listening; unknown.",
+    "texture": "Cyan neon sign, giant yellow name and nested social-post frame.; Tilted camera framing, motion blur and social-video panels.; Oversized yellow credentials, angled panels and quick reframing.; Floating media panels, large names and rapid location changes.; Matching dark suits and centered group arrangement.",
+    "lesson": "Repeat a simple identity pattern and finish with a group image."
+  },
+  "elements": [
+    {
+      "kind": "ui",
+      "name": "social profile",
+      "events": [
+        "V01",
+        "V03",
+        "V04"
+      ]
+    },
+    {
+      "kind": "motion",
+      "name": "rotating camera view",
+      "events": [
+        "V02"
+      ]
+    },
+    {
+      "kind": "motion",
+      "name": "large title entry",
+      "events": [
+        "V02",
+        "V03",
+        "V04"
+      ]
+    },
+    {
+      "kind": "texture",
+      "name": "neon lighting",
+      "events": [
+        "V01",
+        "V05"
+      ]
+    }
+  ]
+}

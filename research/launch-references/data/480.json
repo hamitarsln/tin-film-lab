@@ -1,0 +1,332 @@
+{
+  "id": 480,
+  "reviewer_model": "gpt-6-astra",
+  "scope": "sampled visual and story review; ASR and measured signal support; no validated audio listening",
+  "viewed_evidence": [
+    "technical-review-2026-10-19/deep-review/motion/480/timeline-00.jpg",
+    "technical-review-2026-10-19/deep-review/motion/480/timeline-01.jpg",
+    "astra-review-2026-10-20/evidence/group-2/480-28.png",
+    "astra-review-2026-10-20/evidence/group-2/480-31.png"
+  ],
+  "closer_windows": [],
+  "product_from_film": "Claude uses a Canva connector to turn an attached reading-nook guide into an infographic that opens in Canva.",
+  "explains_well": "The attached document, specific request and resulting design keep one clear content thread through the demo.",
+  "unclear": "The request asks for a branded design, but no brand assets or brand rules are supplied or checked on screen.",
+  "product_type": "connector workflow demonstration",
+  "scenario": "Turn an existing written guide into an editable infographic.",
+  "product_clear_time": 15,
+  "product_clear_basis": "The request explicitly asks Claude to create a branded infographic in Canva from the attached post.",
+  "scenes": [
+    {
+      "id": "V01",
+      "start": 0,
+      "end": 7,
+      "action": "App icons appear on an orange background, then Claude opens and a tools menu shows Canva among search and connector options.",
+      "design": "Cream app window on a terracotta field with cursor close-up.",
+      "purpose": "Introduce connected tools.",
+      "evidence": "Visible chronological 1 fps samples, source 0–7s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V02",
+      "start": 7,
+      "end": 17,
+      "action": "The attachment menu is used to select a guide about five steps for a cozy reading nook. A prompt asks for a branded infographic in Canva.",
+      "design": "Zoomed composer and visible document chip.",
+      "purpose": "Establish source content and desired transformation.",
+      "evidence": "Visible chronological 1 fps samples, source 7–17s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V03",
+      "start": 17,
+      "end": 32,
+      "action": "Claude invokes generate-design, says it will try a more focused approach, invokes the tool again and returns three design options as links.",
+      "design": "Chat response, expanded tool details and a long visible URL.",
+      "purpose": "Show the generation process and options.",
+      "evidence": "Visible chronological 1 fps samples, source 17–32s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V04",
+      "start": 32,
+      "end": 43,
+      "action": "Claude and Canva appear side by side. A Cozy Reading Nook infographic is scrolled; the source document then appears beside the design for comparison.",
+      "design": "Split-screen source and editable design views, warm orange artwork.",
+      "purpose": "Show the created result in its editing tool.",
+      "evidence": "Visible chronological 1 fps samples, source 32–43s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V05",
+      "start": 43,
+      "end": 51.3,
+      "action": "The Connectors directory scrolls through services before the Claude mark holds on orange.",
+      "design": "Directory grid and simple brand ending.",
+      "purpose": "Broaden the connector message and close.",
+      "evidence": "Visible chronological 1 fps samples, source 43–51.3s; boundary approximate; exact motion between samples unverified."
+    }
+  ],
+  "sound": [
+    {
+      "id": "A01",
+      "start": 0,
+      "end": 51.3,
+      "layer": "unknown",
+      "detail": "No validated direct audio listening was performed. Music, speech delivery, effects, mix and sync remain unknown, not absent.",
+      "visual_relation": "All visual scenes; audiovisual alignment unverified",
+      "evidence": "Visual samples only; no actual audio range supplied to this reviewer."
+    }
+  ],
+  "categories": [
+    {
+      "id": "Q01",
+      "finding": "Enable a connector, attach a guide, request a design, generate options and inspect one in Canva beside its source.",
+      "evidence": "V01–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q02",
+      "finding": "A row of app icons suggests connected tools, but the exact Canva use case arrives in the composer.",
+      "evidence": "V01–V02",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q03",
+      "finding": "People repurposing written content into visual material are clearly addressed through the attached guide and infographic request.",
+      "evidence": "V02",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q04",
+      "finding": "Menus open, prompt text builds, tool responses expand and collapse, and the Canva design scrolls beside the source document.",
+      "evidence": "V01–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q05",
+      "finding": "Zoomed composer views clarify input; a full orange beat separates the chat response from the split-screen output reveal.",
+      "evidence": "V02–V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q06",
+      "finding": "Terracotta framing and cream app windows give the native UI a consistent presentation; the resulting infographic uses related warm colors.",
+      "evidence": "V01–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q07",
+      "finding": "The prompt and document chip are readable. Long tool details and raw links are dense; the split-screen result gives a clearer payoff.",
+      "evidence": "V02–V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q08",
+      "finding": "Voice delivery, music, effects and audiovisual alignment were not established by this visual pass.",
+      "evidence": "A01",
+      "status": "not checked",
+      "reason": "No validated direct audio listening input.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q09",
+      "finding": "Voice delivery, music, effects and audiovisual alignment were not established by this visual pass.",
+      "evidence": "A01",
+      "status": "not checked",
+      "reason": "No validated direct audio listening input.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q10",
+      "finding": "Voice delivery, music, effects and audiovisual alignment were not established by this visual pass.",
+      "evidence": "A01",
+      "status": "not checked",
+      "reason": "No validated direct audio listening input.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q11",
+      "finding": "Voice delivery, music, effects and audiovisual alignment were not established by this visual pass.",
+      "evidence": "A01",
+      "status": "not checked",
+      "reason": "No validated direct audio listening input.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q12",
+      "finding": "Claude screen recording, Canva editor, source document, connector directory and brand graphics form the asset set.",
+      "evidence": "V01–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q13",
+      "finding": "Manifest duration 51.3s; indexed dimensions 1280×720. Source unchanged flag recorded; fresh encoding and audio clipping checks not run.",
+      "evidence": "Group manifest",
+      "status": "uncertain",
+      "reason": "Inherited technical metadata; no fresh media probe in this review.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q14",
+      "finding": "The cursor, readable prompt and source/result comparison explain the workflow without speech.",
+      "evidence": "V01–V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q15",
+      "finding": "The composer zoom focuses the task, while the later split screen lets viewers compare source and design. Tool payloads temporarily distract from that simple story.",
+      "evidence": "V02–V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q16",
+      "finding": "The generation section spends roughly fifteen seconds on tool activity; a shorter checkpoint sequence could give more time to checking the finished design.",
+      "evidence": "V03–V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q17",
+      "finding": "The written-to-visual promise is supported by an editable-looking Canva result. The branded part of the request is not tied to visible brand inputs.",
+      "evidence": "V02,V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q18",
+      "finding": "The progression from plain document to warm illustrated layout suggests practical creative ease. Sound and viewer response were not checked.",
+      "evidence": "V02–V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q19",
+      "finding": "The reading-nook title and topic stay consistent from attachment through request to design. The second generation attempt is visible but its reason is not explained.",
+      "evidence": "V02–V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q20",
+      "finding": "A design opens in Canva and matches the source topic. Complete preservation of all five steps, brand compliance and generation reliability are not established by the shown comparison.",
+      "evidence": "V03–V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q21",
+      "finding": "Claude’s orange framing and closing mark identify the host; Canva’s editor provides recognizable proof of the integration destination.",
+      "evidence": "V01,V04,V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q22",
+      "finding": "Show one brand rule and one content check in the finished design; shorten the raw tool output and directory ending.",
+      "evidence": "V03–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q23",
+      "finding": "Keep the source document beside the generated asset so viewers can judge the transformation rather than only admire the result.",
+      "evidence": "V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q24",
+      "finding": "Claude uses a Canva connector to turn an attached reading-nook guide into an infographic that opens in Canva.",
+      "evidence": "Model reading from inspected images",
+      "status": "uncertain",
+      "reason": "Model-only new-viewer interpretation; no human test.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q25",
+      "finding": "Contact sheets inspected at displayed size; a phone-size playback, caption audit, flash audit and formal accessibility check were not performed.",
+      "evidence": "Viewed sheets",
+      "status": "not checked",
+      "reason": "Full-size moving-image and device checks unavailable in this pass.",
+      "experiment": "none"
+    }
+  ],
+  "lessons": {
+    "keep": "Reveal the generated asset beside the source material.",
+    "avoid": "Calling a result branded without showing the brand inputs or checking them.",
+    "open": "Brand compliance, complete content transfer, generation timing and sound remain unverified.",
+    "try": [
+      "For Tin, show an approved brief beside its generated campaign asset and check one required claim or brand rule.",
+      "Compare the raw tool-response section with three simple checkpoints: source, generation, editable result."
+    ]
+  },
+  "comparison": {
+    "story": "Introduce connected tools. → Establish source content and desired transformation. → Show the generation process and options. → Show the created result in its editing tool. → Broaden the connector message and close.",
+    "motion": "Menus open, prompt text builds, tool responses expand and collapse, and the Canva design scrolls beside the source document. Sampling scope: 1 fps unless a closer window is recorded.",
+    "sound": "No validated listening; unknown.",
+    "texture": "Cream app window on a terracotta field with cursor close-up.; Zoomed composer and visible document chip.; Chat response, expanded tool details and a long visible URL.; Split-screen source and editable design views, warm orange artwork.; Directory grid and simple brand ending.",
+    "lesson": "Reveal the generated asset beside the source material."
+  },
+  "elements": [
+    {
+      "kind": "ui",
+      "name": "prompt composer",
+      "events": [
+        "V02"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "tool call",
+      "events": [
+        "V03"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "design editor",
+      "events": [
+        "V04"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "connector directory",
+      "events": [
+        "V05"
+      ]
+    },
+    {
+      "kind": "motion",
+      "name": "split-screen comparison",
+      "events": [
+        "V04"
+      ]
+    }
+  ]
+}

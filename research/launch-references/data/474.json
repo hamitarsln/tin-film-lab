@@ -1,0 +1,398 @@
+{
+  "id": 474,
+  "product_from_film": "Nia adds documentation and code context to coding assistants through an MCP setup and connected sources.",
+  "explains_well": "The same Stripe task moves from outdated information and context errors to connected documentation and more specific code guidance.",
+  "unclear": "The story ends with advice and a Done and deployed message; it does not show the repaired checkout running.",
+  "product_type": "Coding-agent context tool",
+  "scenario": "Connect documentation and repositories so a coding assistant can help with a Stripe integration.",
+  "product_clear_time": 84,
+  "product_clear_basis": "The Nia Context MCP page, installation, API key and data-source sequence establish the named product’s role by 84s; earlier dialogue explains the general context problem.",
+  "scenes": [
+    {
+      "start": 0,
+      "end": 14,
+      "action": "A 3:00 clock, pizza, drink and blue-lit developer establish a late work session; code is projected across the face and phone notifications appear.",
+      "design": "Cold cyan lighting and close details.",
+      "purpose": "Set up exhausted coding work.",
+      "evidence": "1 fps source samples in 0–14s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V01"
+    },
+    {
+      "start": 14,
+      "end": 25,
+      "action": "A Stripe checkout request in a stylized editor leads to a red error claiming deprecated code; the developer reacts.",
+      "design": "Dark editor, large warning and reaction shots.",
+      "purpose": "Make unreliable context a concrete problem.",
+      "evidence": "1 fps source samples in 14–25s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V02"
+    },
+    {
+      "start": 25,
+      "end": 39,
+      "action": "Documentation tabs and copied code lead to red states and an I don’t have enough context warning.",
+      "design": "Browser/editor panels and large centered error.",
+      "purpose": "Show attempted manual context gathering failing.",
+      "evidence": "1 fps source samples in 25–39s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V03"
+    },
+    {
+      "start": 39,
+      "end": 59,
+      "action": "The developer closes the laptop; warm light replaces blue and a suited counterpart appears. The two exchange reactions.",
+      "design": "Same room, contrasting costume and lighting.",
+      "purpose": "Introduce a helper character and tonal change.",
+      "evidence": "1 fps source samples in 39–59s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V04"
+    },
+    {
+      "start": 59,
+      "end": 74,
+      "action": "The suited figure explains beside a diagram where labeled context cards fill a window and earlier cards leave view.",
+      "design": "Warm interview framing and a bounded row of cards.",
+      "purpose": "Visualize limited context capacity.",
+      "evidence": "1 fps source samples in 59–74s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V05"
+    },
+    {
+      "start": 74,
+      "end": 90,
+      "action": "The helper opens the laptop; pip install nia-mcp-server, Create Key, Nia Context MCP and a Data Sources list appear.",
+      "design": "Large gold-edged UI panels and green status dots.",
+      "purpose": "Show setup and connection steps.",
+      "evidence": "1 fps source samples in 74–90s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V06"
+    },
+    {
+      "start": 90,
+      "end": 108,
+      "action": "A network of labeled sources appears behind the helper; the developer returns, graph views expand and a green docs.stripe.com indexing-complete panel appears.",
+      "design": "Node-link graphics and completion status.",
+      "purpose": "Represent connected context and readiness.",
+      "evidence": "1 fps source samples in 90–108s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V07"
+    },
+    {
+      "start": 108,
+      "end": 120,
+      "action": "A current Stripe checkout request receives a current-approach panel; a follow-up about placement receives file-location guidance.",
+      "design": "Editor with prompt and answer cards.",
+      "purpose": "Return to the original integration task.",
+      "evidence": "1 fps source samples in 108–120s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V08"
+    },
+    {
+      "start": 120,
+      "end": 132,
+      "action": "The helper summarizes; the developer checks a phone and a Done and deployed message appears, followed by a reply.",
+      "design": "Warm room with message overlays.",
+      "purpose": "Give a narrative success payoff.",
+      "evidence": "1 fps source samples in 120–132s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V09"
+    },
+    {
+      "start": 132,
+      "end": 142,
+      "action": "The helper faces the camera; Nia mark and Escape context hell at trynia.ai appear.",
+      "design": "Clean pale brand card after presenter footage.",
+      "purpose": "Give the product and destination.",
+      "evidence": "1 fps source samples in 132–142s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V10"
+    },
+    {
+      "start": 142,
+      "end": 150.848,
+      "action": "The developer appears in glasses and the suited counterpart responds in a final exchange.",
+      "design": "Alternating character close-ups.",
+      "purpose": "End with a comic tag.",
+      "evidence": "1 fps source samples in 142–150.848s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V11"
+    }
+  ],
+  "sound": [
+    {
+      "id": "A01",
+      "start": 0,
+      "end": 150.848,
+      "layer": "ASR script support",
+      "detail": "The draft supports a profane late-night coding skit, a counterpart explaining missing context, setup, Stripe questions and a closing joke. Several names and technical phrases are garbled; visible UI supports the product details. Voice delivery, music, effects and sync were not heard.",
+      "visual_relation": "V01–V11; script provides the dialogue structure while UI provides exact task labels.",
+      "evidence": "Local 474-speech.json draft and inspected chronological sheets."
+    }
+  ],
+  "categories": [
+    {
+      "id": "Q01",
+      "finding": "Late-night error → failed manual context → helper → setup → same task with guidance → claimed success and comic tag.",
+      "evidence": "V01–V11",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q02",
+      "finding": "The 3:00 clock and exhausted developer make the pain immediate.",
+      "evidence": "V01",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q03",
+      "finding": "The named Nia setup is clear around 80–89s, after a long problem and helper sequence.",
+      "evidence": "V01–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q04",
+      "finding": "Context cards leave a bounded row; node graphs grow and status panels change. Exact animation timing and paths are unverified.",
+      "evidence": "V05–V07",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q05",
+      "finding": "Blue-to-warm lighting marks the helper’s arrival; repeated editor framing links problem and solution.",
+      "evidence": "V02,V04,V08",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q06",
+      "finding": "Cyan/red failure imagery shifts toward amber/gold/green solution imagery.",
+      "evidence": "V01–V08",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q07",
+      "finding": "Large errors and setup labels are readable; code and graph labels are more detailed than the sampled view can fully assess.",
+      "evidence": "V02,V03,V06,V07",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q08",
+      "finding": "ASR establishes the skit and explanation, with transcription errors. Vocal performance is unknown.",
+      "evidence": "A01",
+      "status": "uncertain",
+      "reason": "Draft text only; no listening.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q09",
+      "finding": "Music character and structure are unverified.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "No validated listening.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q10",
+      "finding": "Effects and their sources are unverified.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "No validated listening; waveform peaks do not identify effects.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q11",
+      "finding": "Sound sync is unverified.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "No validated listening or paired audiovisual timing.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q12",
+      "finding": "Acted footage, stylized editor panels, setup screens and explanatory graphs are visible; live product behavior unverified.",
+      "evidence": "V01–V11",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q13",
+      "finding": "Source duration 150.848 s; Watch metadata 1920 × 1080. Frame rate, audio clipping and export quality not checked here.",
+      "evidence": "Whole film",
+      "status": "supported",
+      "reason": "Parent source metadata supports duration and dimensions; visual review is sampled.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q14",
+      "finding": "Clock, errors, setup and green completion create a readable visual arc; the counterpart’s full explanation needs dialogue.",
+      "evidence": "V01–V09",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q15",
+      "finding": "Close reaction shots alternate with enlarged UI, making failure and setup stages prominent.",
+      "evidence": "V02–V08",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q16",
+      "finding": "Nearly eighty seconds precede the named setup; the original task returns around 108s.",
+      "evidence": "V01–V08",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q17",
+      "finding": "The Stripe task returns with more specific guidance, but the checkout itself is not shown working.",
+      "evidence": "V02,V08,V09",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q18",
+      "finding": "The two versions of one developer suggest a better future self; response unmeasured.",
+      "evidence": "V04,V09",
+      "status": "uncertain",
+      "reason": "Story interpretation.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q19",
+      "finding": "Stripe remains the example from outdated code to connected docs and placement guidance.",
+      "evidence": "V02,V03,V07,V08",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q20",
+      "finding": "Deprecation statements, indexing speed/counts, code correctness, deployment and speed claims are unverified. The error UI is a dramatized presentation.",
+      "evidence": "V02,V07–V09",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q21",
+      "finding": "A bounded context-card diagram plus MCP/source setup makes the context problem more concrete than a general AI promise.",
+      "evidence": "V05,V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q22",
+      "finding": "Finish with the repaired task running.",
+      "evidence": "V08,V09",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "Show the checkout action and its successful result after the placement guidance."
+    },
+    {
+      "id": "Q23",
+      "finding": "Keep the same failure case through the solution.",
+      "evidence": "V02,V08",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "For Tin, revisit the exact missing campaign context after connecting a source, then show the corrected output."
+    },
+    {
+      "id": "Q24",
+      "finding": "No human new-viewer test was performed.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "The product summary is this model’s film-only reading.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q25",
+      "finding": "Mobile preview and accessibility checks were not performed.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "Contact sheets are evidence views, not a stated mobile preview or compliance test.",
+      "experiment": "none"
+    }
+  ],
+  "elements": [
+    {
+      "kind": "ui",
+      "name": "code editor",
+      "events": [
+        "V02",
+        "V03",
+        "V08"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "error message",
+      "events": [
+        "V02",
+        "V03"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "API key panel",
+      "events": [
+        "V06"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "data source list",
+      "events": [
+        "V06"
+      ]
+    },
+    {
+      "kind": "motion",
+      "name": "context card sequence",
+      "events": [
+        "V05"
+      ]
+    },
+    {
+      "kind": "texture",
+      "name": "node-link diagram",
+      "events": [
+        "V07"
+      ]
+    }
+  ],
+  "lessons": {
+    "keep": "Carry one concrete integration failure through setup and the revised answer.",
+    "try": [
+      "Show the repaired checkout running after the code guidance.",
+      "For Tin, revisit the same missing-context error after source connection and show the corrected output."
+    ],
+    "avoid": "Using a success message as the only evidence of a completed repair.",
+    "open": "Live setup, indexing speed, code correctness, deployment and sound remain unverified."
+  },
+  "comparison": {
+    "story": "Two-version developer skit about missing coding context.",
+    "motion": "Context-card overflow, source graphs and enlarged status panels.",
+    "sound": "Dialogue structure from imperfect ASR; no listening.",
+    "texture": "Cold late-night failure shifts to warm helper and gold UI.",
+    "lesson": "A repeated failure case makes improvement legible, but the final action should still run on screen."
+  },
+  "reviewer_model": "gpt-6-astra",
+  "scope": "sampled visual and story review; ASR and measured signal support; no validated audio listening",
+  "viewed_evidence": [
+    "technical-review-2026-10-19/deep-review/motion/474/timeline-00.jpg",
+    "technical-review-2026-10-19/deep-review/motion/474/timeline-01.jpg",
+    "technical-review-2026-10-19/deep-review/motion/474/timeline-02.jpg",
+    "technical-review-2026-10-19/deep-review/motion/474/timeline-03.jpg",
+    "technical-review-2026-10-19/deep-review/motion/474/timeline-04.jpg",
+    "technical-review-2026-10-19/deep-review/motion/474/timeline-05.jpg"
+  ],
+  "closer_windows": []
+}

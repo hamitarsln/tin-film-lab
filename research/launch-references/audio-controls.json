@@ -1,0 +1,282 @@
+{
+  "date": "2026-10-20",
+  "scope": "Earlier small setup-specific sound tests. No new calls in the Astra review pass.",
+  "trials": [
+    {
+      "archive_path": "av-review-2026-10-20/gemini-pilot/CHECKS.json",
+      "setup": "gemini-pilot",
+      "checks": {
+        "controls": [
+          {
+            "name": "p61",
+            "visuals_correct": true,
+            "speech_correct": true,
+            "tones_correct": true,
+            "expected_tones": [
+              2,
+              4,
+              6
+            ],
+            "returned_tones": [
+              2.0,
+              4.0,
+              6.0
+            ],
+            "passed": true
+          },
+          {
+            "name": "q28",
+            "visuals_correct": true,
+            "speech_correct": true,
+            "tones_correct": false,
+            "expected_tones": [
+              3,
+              5,
+              7
+            ],
+            "returned_tones": [],
+            "passed": false
+          },
+          {
+            "name": "r94",
+            "visuals_correct": true,
+            "speech_correct": true,
+            "tones_correct": true,
+            "expected_tones": [],
+            "returned_tones": [],
+            "passed": true
+          }
+        ],
+        "control_count": 3,
+        "controls_passed": 2,
+        "reference_drafts": 1,
+        "reference_sections": 18,
+        "reference_time_bounds_passed": true,
+        "requested_fps": {
+          "controls": 4,
+          "reference": 8
+        },
+        "bulk_audio_gate": "not_passed",
+        "bulk_started": false,
+        "full_validated_reference_reviews": 0,
+        "json_format_repairs": 6,
+        "standard_price_usd": 0.083672775,
+        "uncached_price_ceiling_usd": 0.11185875,
+        "response_records_with_usage": 5,
+        "http_errors_without_usage": [
+          500
+        ],
+        "provider_file_uploads_deleted": 6,
+        "human_hours_added": 0,
+        "limits": [
+          "Controls do not cover mixed musical soundtracks.",
+          "Real-film sound claims are not independently heard.",
+          "A complete scene draft is not a completed verified audiovisual review."
+        ]
+      }
+    },
+    {
+      "archive_path": "av-review-2026-10-20/gemini-pro-pilot/CHECKS.json",
+      "setup": "gemini-pro-pilot",
+      "checks": {
+        "model": "gemini-3.1-pro-preview",
+        "controls": [
+          {
+            "name": "p61",
+            "visuals_correct": true,
+            "speech_correct": true,
+            "tones_correct": true,
+            "expected_tones": [
+              2,
+              4,
+              6
+            ],
+            "returned_tones": [
+              2.0,
+              4.0,
+              6.0
+            ],
+            "passed": true
+          },
+          {
+            "name": "q28",
+            "visuals_correct": true,
+            "speech_correct": true,
+            "tones_correct": false,
+            "expected_tones": [
+              3,
+              5,
+              7
+            ],
+            "returned_tones": [
+              2.0,
+              3.0,
+              4.0,
+              5.0,
+              6.0,
+              7.0
+            ],
+            "passed": false
+          },
+          {
+            "name": "r94",
+            "visuals_correct": true,
+            "speech_correct": true,
+            "tones_correct": false,
+            "expected_tones": [],
+            "returned_tones": [
+              0.0,
+              2.0,
+              4.0,
+              6.0
+            ],
+            "passed": false
+          }
+        ],
+        "controls_passed": 1,
+        "control_count": 3,
+        "timestamp_tolerance_seconds": 0.25,
+        "mirage_started": false,
+        "bulk_started": false,
+        "independent_review_pending": false,
+        "independent_review_complete": true,
+        "independent_review_passed": false,
+        "bulk_audio_gate": "not_passed",
+        "same_inputs": [
+          {
+            "name": "p61",
+            "video_sha256": "948fdcd70f8609f21d6a12b47aa8113f7e638237601ca1e5c6564fdc7d128646",
+            "audio_sha256": "0529a93cec96684470910e5accdfad4a8e5a397dbbffa1cf94a7517b65f285f1",
+            "same_media_prompt_and_fps_as_flash": true
+          },
+          {
+            "name": "q28",
+            "video_sha256": "948fdcd70f8609f21d6a12b47aa8113f7e638237601ca1e5c6564fdc7d128646",
+            "audio_sha256": "a4bd5717d1dbfeb6f1ff4b0fe09cc7b6f82aeda0a1052574ab3e7ec69fc0a17b",
+            "same_media_prompt_and_fps_as_flash": true
+          },
+          {
+            "name": "r94",
+            "video_sha256": "948fdcd70f8609f21d6a12b47aa8113f7e638237601ca1e5c6564fdc7d128646",
+            "audio_sha256": "636a56f23ec00f9e6923e29d2ada9f2e39e7696da33e6a03bfaa47b8ccb00f33",
+            "same_media_prompt_and_fps_as_flash": true
+          }
+        ],
+        "silent_pcm_every_sample_zero": true,
+        "reference_drafts": 0,
+        "network_inference_calls": 3,
+        "token_price_estimate_usd": 0.07675799999999999,
+        "human_hours_added": 0,
+        "format_note": "q28 returned a one-item JSON array. Scoring unwraps it without changing any words or sound times."
+      }
+    },
+    {
+      "archive_path": "av-review-2026-10-20/gemini-audio-only/CHECKS.json",
+      "setup": "gemini-audio-only",
+      "checks": {
+        "model": "gemini-3.1-pro-preview",
+        "controls": [
+          {
+            "name": "p61",
+            "visuals_correct": null,
+            "speech_correct": true,
+            "tones_correct": false,
+            "expected_tones": [
+              2,
+              4,
+              6
+            ],
+            "returned_tones": [
+              2.0,
+              3.5,
+              5.0,
+              6.5
+            ],
+            "passed": false
+          },
+          {
+            "name": "q28",
+            "visuals_correct": null,
+            "speech_correct": true,
+            "tones_correct": false,
+            "expected_tones": [
+              3,
+              5,
+              7
+            ],
+            "returned_tones": [
+              0.0,
+              2.1
+            ],
+            "passed": false
+          },
+          {
+            "name": "r94",
+            "visuals_correct": null,
+            "speech_correct": true,
+            "tones_correct": false,
+            "expected_tones": [],
+            "returned_tones": [
+              0.0,
+              5.0
+            ],
+            "passed": false
+          }
+        ],
+        "controls_passed": 0,
+        "control_count": 3,
+        "audio_only": true,
+        "timestamp_tolerance_seconds": 0.25,
+        "mirage_started": false,
+        "bulk_started": false,
+        "independent_review_pending": false,
+        "independent_review_complete": true,
+        "independent_review_passed": false,
+        "bulk_audio_gate": "not_passed",
+        "same_inputs": [
+          {
+            "name": "p61",
+            "audio_sha256": "0529a93cec96684470910e5accdfad4a8e5a397dbbffa1cf94a7517b65f285f1",
+            "same_original_wav": true,
+            "sent_media": [
+              "audio/wav"
+            ],
+            "usage_modalities": [
+              "AUDIO",
+              "TEXT"
+            ]
+          },
+          {
+            "name": "q28",
+            "audio_sha256": "a4bd5717d1dbfeb6f1ff4b0fe09cc7b6f82aeda0a1052574ab3e7ec69fc0a17b",
+            "same_original_wav": true,
+            "sent_media": [
+              "audio/wav"
+            ],
+            "usage_modalities": [
+              "AUDIO",
+              "TEXT"
+            ]
+          },
+          {
+            "name": "r94",
+            "audio_sha256": "636a56f23ec00f9e6923e29d2ada9f2e39e7696da33e6a03bfaa47b8ccb00f33",
+            "same_original_wav": true,
+            "sent_media": [
+              "audio/wav"
+            ],
+            "usage_modalities": [
+              "AUDIO",
+              "TEXT"
+            ]
+          }
+        ],
+        "silent_pcm_every_sample_zero": true,
+        "reference_drafts": 0,
+        "network_inference_calls": 3,
+        "token_price_estimate_usd": 0.022644,
+        "human_hours_added": 0
+      }
+    }
+  ]
+}

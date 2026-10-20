@@ -1,0 +1,374 @@
+{
+  "id": 238,
+  "viewed_evidence": [
+    "technical-review-2026-10-19/deep-review/motion/238/timeline-00.jpg",
+    "technical-review-2026-10-19/deep-review/motion/238/timeline-01.jpg",
+    "astra-review-2026-10-20/evidence/group-3/238/dense.jpg",
+    "technical-review-2026-10-19/deep-review/audio/238-speech.json"
+  ],
+  "product_from_film": "Saperly presents a phone carrier and phone identity for AI agents so they can reach services that require calls.",
+  "explains_well": "A table reservation and flower order show why an agent that can find information still needs a phone connection.",
+  "unclear": "The film ends at the service promise without showing an agent getting a number, placing a call or completing either blocked task.",
+  "product_type": "agent phone service",
+  "scenario": "Let an agent call a restaurant or flower shop to complete a request.",
+  "product_clear_time": 39,
+  "product_clear_basis": "End cards explicitly name Saperly as a phone carrier built for AI agents.",
+  "scenes": [
+    {
+      "start": 0,
+      "end": 3,
+      "action": "A cluttered desktop receives several call and SMS requests; the view pushes into the computer screen.",
+      "design": "Old desktop aesthetic, sticky notes and blue chat bubbles.",
+      "purpose": "Set unmet communication tasks",
+      "id": "V01",
+      "evidence": "Visible 1 fps samples, source 0–3s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 3,
+      "end": 14,
+      "action": "An orange block character introduces itself as Claude, claims broad abilities, then a chat request for a call receives a cannot-call response.",
+      "design": "Green hill, blue sky, 3D character and chat overlays.",
+      "purpose": "Expose the missing ability",
+      "id": "V02",
+      "evidence": "Visible 1 fps samples, source 3–14s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 14,
+      "end": 20,
+      "action": "A microphone control requests a table for two; cuisine words pass the character and captions say the restaurant takes phone reservations.",
+      "design": "White voice-input card and bright outdoor character scene.",
+      "purpose": "Give a reservation example",
+      "id": "V03",
+      "evidence": "Visible 1 fps samples, source 14–20s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 20,
+      "end": 26,
+      "action": "Flower request leads to a blue car full of flowers; a message says the order needs phone verification.",
+      "design": "Playful product-like scene and blue message.",
+      "purpose": "Give an ordering example",
+      "id": "V04",
+      "evidence": "Visible 1 fps samples, source 20–26s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 26,
+      "end": 35,
+      "action": "AI headlines lead to monochrome telephone scenes and a large phone-call phrase.",
+      "design": "White editorial layout and archival-looking clips.",
+      "purpose": "Contrast AI capability with a basic connection",
+      "id": "V05",
+      "evidence": "Visible 1 fps samples, source 26–35s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 35,
+      "end": 42,
+      "action": "Saperly name and phone-carrier positioning appear on white.",
+      "design": "Simple black text cards.",
+      "purpose": "Introduce the solution",
+      "id": "V06",
+      "evidence": "Visible 1 fps samples, source 35–42s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 42,
+      "end": 47.213,
+      "action": "A pale blue sculpted symbol holds on white.",
+      "design": "Soft metallic-looking brand object.",
+      "purpose": "Close the brand reveal",
+      "id": "V07",
+      "evidence": "Visible 1 fps samples, source 42–47.213s; boundaries approximate, between-frame action unresolved."
+    }
+  ],
+  "sound": [
+    {
+      "id": "A01",
+      "start": 0,
+      "end": 47.213,
+      "layer": "unknown",
+      "detail": "No validated audio listening; speech, music, effects, mix and sync remain unverified.",
+      "visual_relation": "All visual scenes; alignment not checked",
+      "evidence": "No actual audio supplied to this review; existing technical-review-2026-10-19/deep-review/audio/238.json is not listening evidence."
+    },
+    {
+      "id": "A02",
+      "start": 2.33,
+      "end": 44.69,
+      "layer": "ASR draft",
+      "detail": "Coherent candidate script supports the agent capability contrast, phone-only reservation, flower order and phone-identity proposition. So apparently is a likely brand recognition error and the archive phrase is incomplete. No actual voice, music, effects or sync is inferred.",
+      "visual_relation": "V02–V07; candidate script only",
+      "evidence": "technical-review-2026-10-19/deep-review/audio/238-speech.json; existing faster-whisper base CPU int8"
+    }
+  ],
+  "categories": [
+    {
+      "finding": "Broad agent capability is interrupted by two tasks requiring calls, followed by the phone-carrier proposition. No task is revisited after the solution reveal.",
+      "evidence": "V01–V07",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q01"
+    },
+    {
+      "finding": "Several call requests over a cluttered computer make the communications problem visible immediately.",
+      "evidence": "V01",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q02"
+    },
+    {
+      "finding": "The missing call ability is clear at 12–13 s; the named service appears only at 36–39 s.",
+      "evidence": "V02,V06",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q03"
+    },
+    {
+      "finding": "Dense 1–5 s samples show a push toward the desktop, red radial streaks around 2.25–2.75 s, then the hill fills the frame and the character grows closer. This moves the viewer into the agent world.",
+      "evidence": "V01,V02; dense 1–5 s",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q04"
+    },
+    {
+      "finding": "White microphone cards separate the two examples; editorial headlines and old telephone clips bridge the playful scenes to the plain solution text.",
+      "evidence": "V03–V06",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q05"
+    },
+    {
+      "finding": "Bright hill-and-sky nostalgia, a block character, blue chat bubbles and toy-like objects contrast with white editorial cards and monochrome telephone imagery.",
+      "evidence": "V01–V07",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q06"
+    },
+    {
+      "finding": "Requests and failure captions are readable and specific. The final carrier label gives no setup or call controls.",
+      "evidence": "V02–V06",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q07"
+    },
+    {
+      "finding": "Voice presence and delivery remain unverified.",
+      "evidence": "No validated audio listening",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q08"
+    },
+    {
+      "finding": "Music character and arc remain unverified.",
+      "evidence": "No validated audio listening",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q09"
+    },
+    {
+      "finding": "Sound effects remain unverified.",
+      "evidence": "No validated audio listening",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q10"
+    },
+    {
+      "finding": "Sound-to-motion timing remain unverified.",
+      "evidence": "No validated audio listening",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q11"
+    },
+    {
+      "finding": "Character animation, staged digital scenes, voice-input mockups, headlines and historical-looking telephone footage appear. Their exact origin is unknown.",
+      "evidence": "V01–V07",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q12"
+    },
+    {
+      "finding": "Source duration supplied as 47.213s; no independent compression, clipping or delivery check.",
+      "evidence": "Assigned metadata; source integrity checked by parent",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q13"
+    },
+    {
+      "finding": "Captions and chat messages carry the problem and service positioning silently; no actual call experience can be judged from this review.",
+      "evidence": "V02–V06",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q14"
+    },
+    {
+      "finding": "The same character anchors changing examples; large simple requests keep each task easy to understand.",
+      "evidence": "V02–V04",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q15"
+    },
+    {
+      "finding": "Most of the film explains the missing capability. About the last 11 s reveal the service and symbol without showing its use.",
+      "evidence": "V01–V07",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q16"
+    },
+    {
+      "finding": "The reservation and flower examples create expectations for completed tasks, but the film stops at the carrier promise.",
+      "evidence": "V03,V04,V06",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q17"
+    },
+    {
+      "finding": "The block character and overflowing flower car suggest playful frustration with a capable agent blocked by an ordinary phone call.",
+      "evidence": "V02–V04; interpretation",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q18"
+    },
+    {
+      "finding": "The character, blue sky and repeated request format connect the examples. The clean final cards clearly separate the solution reveal.",
+      "evidence": "V02–V07",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q19"
+    },
+    {
+      "finding": "First-carrier and phone-identity claims are film statements. The mock celebrity chat, funding figure, headline claims and agent limitations are not independently verified here.",
+      "evidence": "V02,V05,V06",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q20"
+    },
+    {
+      "finding": "Phone-only reservations and flower verification make the infrastructure need concrete for nontechnical viewers.",
+      "evidence": "V03,V04",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q21"
+    },
+    {
+      "finding": "Return to the restaurant request after the service reveal and show a call state plus the confirmed reservation.",
+      "evidence": "V03,V06",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q22"
+    },
+    {
+      "finding": "For agent infrastructure, use a familiar blocked task and then visibly complete the same task with the new capability.",
+      "evidence": "V03–V06",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q23"
+    },
+    {
+      "finding": "No human new-viewer test; product description above is model interpretation of sampled images.",
+      "evidence": "V01–V07",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q24"
+    },
+    {
+      "finding": "No phone-size, safe-area or flash assessment; small UI text needs separate preview.",
+      "evidence": "Contact sheets",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q25"
+    }
+  ],
+  "lessons": {
+    "keep": "Explain infrastructure through an everyday task that fails for one clear reason.",
+    "try": [
+      "Show the agent receiving a number, placing the restaurant call and returning a reservation confirmation.",
+      "Add one developer setup step that connects the agent to the phone service before replaying the flower order."
+    ],
+    "avoid": "Avoid ending after the capability label when the opening has promised a completed task.",
+    "open": "How does an agent connect to Saperly and return a useful result from the call?"
+  },
+  "comparison": {
+    "story": "Set unmet communication tasks → Expose the missing ability → Give a reservation example → Give an ordering example → Contrast AI capability with a basic connection → Introduce the solution → Close the brand reveal",
+    "motion": "Dense 1–5 s samples show a push toward the desktop, red radial streaks around 2.25–2.75 s, then the hill fills the frame and the character grows closer. This moves the viewer into the agent world.",
+    "sound": "No validated listening; no absence claims.",
+    "texture": "Bright hill-and-sky nostalgia, a block character, blue chat bubbles and toy-like objects contrast with white editorial cards and monochrome telephone imagery.",
+    "lesson": "Explain infrastructure through an everyday task that fails for one clear reason."
+  },
+  "elements": [
+    {
+      "kind": "ui",
+      "name": "chat bubbles",
+      "events": [
+        "V01",
+        "V02",
+        "V04"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "voice input",
+      "events": [
+        "V03",
+        "V04"
+      ]
+    },
+    {
+      "kind": "motion",
+      "name": "screen push-through",
+      "events": [
+        "V01",
+        "V02"
+      ]
+    },
+    {
+      "kind": "texture",
+      "name": "3D character",
+      "events": [
+        "V02",
+        "V04"
+      ]
+    },
+    {
+      "kind": "texture",
+      "name": "telephone archive footage",
+      "events": [
+        "V05"
+      ]
+    }
+  ],
+  "reviewer_model": "gpt-6-astra",
+  "scope": "sampled visual and story review; ASR and measured signal support; no validated audio listening",
+  "closer_windows": [
+    {
+      "start": 1,
+      "end": 5,
+      "rate_fps": 4,
+      "evidence": [
+        "astra-review-2026-10-20/evidence/group-3/238/dense.jpg"
+      ],
+      "resolved": "The camera-like push enters the desktop through radial streaks, revealing the full hill scene and approaching block character. Exact compositing and animation curves are unknown."
+    }
+  ]
+}

@@ -1,0 +1,346 @@
+{
+  "id": 376,
+  "product_from_film": "Servo7 offers robots intended to fit existing industrial workflows, illustrated by picking and packing products.",
+  "explains_well": "A simple conveyor-and-box diagram makes the repetitive task clear before robot handling footage appears.",
+  "unclear": "The film does not show installation or adaptation in the pictured existing conveyor workflow.",
+  "product_type": "Industrial robotics",
+  "scenario": "Replace manual conveyor pick-and-pack work without redesigning the facility.",
+  "product_clear_time": 26,
+  "product_clear_basis": "The adaptive-robot claim at 22s becomes a specific conveyor pick-and-pack task at 26s.",
+  "scenes": [
+    {
+      "start": 0,
+      "end": 10,
+      "action": "Two founders introduce cost and implementation-time problems, intercut with industrial machinery and large typography. Name bars identify them.",
+      "design": "Warm workshop interview and dark factory footage.",
+      "purpose": "Frame expensive custom integration.",
+      "evidence": "1 fps source samples in 0–10s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V01"
+    },
+    {
+      "start": 10,
+      "end": 26,
+      "action": "Factory views illustrate facility redesign; the founders call it inefficient, name Servo7 and show a bench with several robot arms.",
+      "design": "Machinery, oversized words and workshop hardware.",
+      "purpose": "Claim robots can adapt to the existing environment.",
+      "evidence": "1 fps source samples in 10–26s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V02"
+    },
+    {
+      "start": 26,
+      "end": 41,
+      "action": "A gray conveyor illustration carries several products. A person/cursor symbol accompanies moving a product toward an outlined box. Text names floor-plan and conveyor redesign.",
+      "design": "Isometric conveyor, simple object icons and white text strips.",
+      "purpose": "Explain the target task and conventional setup burden.",
+      "evidence": "1 fps source samples in 26–41s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V03"
+    },
+    {
+      "start": 41,
+      "end": 49,
+      "action": "Robot grippers appear beside a carton, then a standing founder is flanked by CPG Brands and E-Commerce Warehouse cards and fulfillment text.",
+      "design": "Close robot/carton footage and translucent audience cards.",
+      "purpose": "Link the proposed solution to packing customers.",
+      "evidence": "1 fps source samples in 41–49s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V04"
+    },
+    {
+      "start": 49,
+      "end": 55,
+      "action": "Another founder stands beside autonomous-defense and surgical-robot experience labels, followed by a person with a large drone outdoors.",
+      "design": "Workshop portrait and misty field footage.",
+      "purpose": "Present team background; not a demonstration of the packing deployment.",
+      "evidence": "1 fps source samples in 49–55s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V05"
+    },
+    {
+      "start": 55,
+      "end": 65,
+      "action": "Both founders discuss repetitive work. Logistics, assembly and manufacturing panels appear, then founders@servo7.com.",
+      "design": "Interview, three industrial panels and contact overlay.",
+      "purpose": "Invite target customers.",
+      "evidence": "1 fps source samples in 55–65s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V06"
+    },
+    {
+      "start": 65,
+      "end": 68.2,
+      "action": "A square/dash mark and Servo7 lettering appear on black.",
+      "design": "Monochrome brand animation states.",
+      "purpose": "Close identity.",
+      "evidence": "1 fps source samples in 65–68.2s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V07"
+    }
+  ],
+  "sound": [
+    {
+      "id": "A01",
+      "start": 0,
+      "end": 68.2,
+      "layer": "ASR draft",
+      "detail": "Draft supports costly setup, robots adapting to existing processes, conveyor packing and industrial customer invitation. Several names and role phrases are garbled; the draft’s 17 brands is not accepted as a count because visible text says CPG Brands. Delivery, music, effects and sync remain unverified.",
+      "visual_relation": "V01–V06; script explains the diagram and team background.",
+      "evidence": "376-speech.json draft and visible labels; no validated listening."
+    }
+  ],
+  "categories": [
+    {
+      "id": "Q01",
+      "finding": "Cost/setup problem → adaptive robots → packing example → customer/team context → invitation.",
+      "evidence": "V01–V07",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q02",
+      "finding": "Two founders appear beneath oversized cost text; the amount is changing in samples rather than a stable quoted price.",
+      "evidence": "V01",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q03",
+      "finding": "Industrial logistics, assembly and manufacturing teams are addressed; conveyor packing makes the task clear at 26s.",
+      "evidence": "V03,V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q04",
+      "finding": "Illustrated products change position along/away from the conveyor; text and audience cards appear over presenters. Exact motion paths and robot cycle are unresolved at 1fps.",
+      "evidence": "V03–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q05",
+      "finding": "The conveyor diagram bridges the abstract setup problem to close robot footage, but they are not visibly the same installed workstation.",
+      "evidence": "V03,V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q06",
+      "finding": "Warm workshop footage contrasts with dark factories and a restrained gray technical illustration.",
+      "evidence": "V01–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q07",
+      "finding": "Large words emphasize cost and inefficiency; the diagram explains packing. Team-experience labels should not be confused with demonstrated product use.",
+      "evidence": "V01–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q08",
+      "finding": "ASR supports the problem and packing explanation; several technical phrases are corrected only where visible text supports them. Audio delivery is unknown.",
+      "evidence": "A01",
+      "status": "uncertain",
+      "reason": "Draft support only.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q09",
+      "finding": "Music character and structure are unverified.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "No validated listening.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q10",
+      "finding": "Effects and their sources are unverified.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "No validated listening; waveform peaks do not identify effects.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q11",
+      "finding": "Sound sync is unverified.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "No validated listening or paired audiovisual timing.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q12",
+      "finding": "Founder interviews, industrial scenes, diagram and robot close-ups are combined. Sources and continuity of the equipment are unverified.",
+      "evidence": "V01–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q13",
+      "finding": "Source duration 68.2 s; Watch metadata 1920 × 1080. Frame rate, audio clipping and export quality not checked here.",
+      "evidence": "Whole film",
+      "status": "supported",
+      "reason": "Parent source metadata supports duration and dimensions; visual review is sampled.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q14",
+      "finding": "Text and conveyor/box diagram carry the broad proposition; exact adaptation mechanism is not visible.",
+      "evidence": "V02–V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q15",
+      "finding": "The diagram isolates three products and a box, while big text focuses the interview’s argument.",
+      "evidence": "V01–V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q16",
+      "finding": "About 15s explain the simple packing scenario; the final 19s add team background, industries and contact. Setup proof is missing.",
+      "evidence": "V03–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q17",
+      "finding": "The no-redesign promise receives a packing concept and hardware footage, but no before/after installation evidence.",
+      "evidence": "V02–V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q18",
+      "finding": "Cost/friction framing gives way to an apparently simple task and capable team; response is unmeasured.",
+      "evidence": "V01–V06",
+      "status": "uncertain",
+      "reason": "Visual/script interpretation only.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q19",
+      "finding": "Packing links diagram and gripper footage conceptually; facility identity and one product’s complete handling are not traced.",
+      "evidence": "V03,V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q20",
+      "finding": "Deployment ease, cost, customer use and adaptation are unverified claims. Robot close-ups do not establish a complete autonomous packing cycle or installation speed.",
+      "evidence": "V02–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q21",
+      "finding": "The conveyor-to-box example is more specific than the broad repetitive-work slogan.",
+      "evidence": "V03",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q22",
+      "finding": "Show adaptation in the same workstation.",
+      "evidence": "V03,V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "Start with a real existing conveyor, show placement/setup of the robot and follow one product into its box without changing scenes."
+    },
+    {
+      "id": "Q23",
+      "finding": "For Tin, demonstrate fitting an existing process.",
+      "evidence": "V02–V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "Keep the customer’s current campaign board visible while adding one automation and completing an existing task on that board."
+    },
+    {
+      "id": "Q24",
+      "finding": "No human new-viewer test was performed.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "The product summary is this model’s film-only reading.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q25",
+      "finding": "Mobile preview and accessibility checks were not performed.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "Contact sheets are evidence views, not a stated mobile preview or compliance test.",
+      "experiment": "none"
+    }
+  ],
+  "elements": [
+    {
+      "kind": "ui",
+      "name": "process diagram",
+      "events": [
+        "V03"
+      ]
+    },
+    {
+      "kind": "texture",
+      "name": "industrial footage",
+      "events": [
+        "V01",
+        "V02",
+        "V04",
+        "V06"
+      ]
+    },
+    {
+      "kind": "texture",
+      "name": "robot hardware",
+      "events": [
+        "V02",
+        "V04"
+      ]
+    },
+    {
+      "kind": "motion",
+      "name": "product movement on conveyor diagram",
+      "events": [
+        "V03"
+      ]
+    }
+  ],
+  "lessons": {
+    "keep": "Use a simple conveyor-and-box diagram to define the repetitive task.",
+    "try": [
+      "Show robot setup and one complete packing cycle at the same existing workstation.",
+      "For Tin, add automation to the customer’s visible existing board and complete one task there."
+    ],
+    "avoid": "Using unrelated industrial footage as evidence of a no-redesign deployment.",
+    "open": "Actual installation, adaptation, autonomous cycle, performance claims and audio qualities remain unverified."
+  },
+  "comparison": {
+    "story": "Integration burden → adaptive robot → packing → target customers.",
+    "motion": "Diagram object movement, hardware views and large text.",
+    "sound": "ASR supports the broad argument; no validated listening.",
+    "texture": "Workshop/factory footage and gray isometric diagram.",
+    "lesson": "A simple task diagram helps, but a deployment claim needs the same physical setting before and after."
+  },
+  "reviewer_model": "gpt-6-astra",
+  "scope": "sampled visual and story review; ASR and measured signal support; no validated audio listening",
+  "viewed_evidence": [
+    "technical-review-2026-10-19/deep-review/motion/376/timeline-00.jpg",
+    "technical-review-2026-10-19/deep-review/motion/376/timeline-01.jpg",
+    "technical-review-2026-10-19/deep-review/motion/376/timeline-02.jpg"
+  ],
+  "closer_windows": []
+}

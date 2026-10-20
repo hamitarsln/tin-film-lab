@@ -1,0 +1,299 @@
+{
+  "id": 405,
+  "reviewer_model": "gpt-6-astra",
+  "scope": "sampled visual and story review; ASR and measured signal support; no validated audio listening",
+  "viewed_evidence": [
+    "technical-review-2026-10-19/deep-review/motion/405/timeline-00.jpg"
+  ],
+  "closer_windows": [],
+  "product_from_film": "Remotion offers agent skills installed with a terminal command.",
+  "explains_well": "The exact install command is visible before the availability announcement.",
+  "unclear": "The film does not show an agent using the skill or a video it produces.",
+  "product_type": "developer tool",
+  "scenario": "Install Remotion agent skills.",
+  "product_clear_time": 2,
+  "product_clear_basis": "The complete remotion-dev/skills command is visible.",
+  "scenes": [
+    {
+      "id": "V01",
+      "start": 0,
+      "end": 4,
+      "action": "Text builds in a tilted terminal from a partial npx command to npx skills add remotion-dev/skills. Output then shows a large SKILLS heading and a found skill.",
+      "design": "White terminal with small window dots and dark monospace text.",
+      "purpose": "Show installation entry point.",
+      "evidence": "Visible chronological 1 fps samples, source 0–4s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V02",
+      "start": 4,
+      "end": 6,
+      "action": "Terminal gives way to centered Agent Skills now available text on white.",
+      "design": "Bold dark announcement type.",
+      "purpose": "Name the release.",
+      "evidence": "Visible chronological 1 fps samples, source 4–6s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V03",
+      "start": 6,
+      "end": 8.042,
+      "action": "A blue play-shaped mark, plus sign, orange assistant mark and opencode wordmark replace the announcement and hold.",
+      "design": "Spaced logos on white.",
+      "purpose": "Signal tool compatibility.",
+      "evidence": "Visible chronological 1 fps samples, source 6–8.042s; boundary approximate; exact motion between samples unverified."
+    }
+  ],
+  "sound": [
+    {
+      "id": "A01",
+      "start": 0,
+      "end": 8.042,
+      "layer": "unknown",
+      "detail": "No validated direct audio listening was performed. Music, speech delivery, effects, mix and sync remain unknown, not absent.",
+      "visual_relation": "All visual scenes; audiovisual alignment unverified",
+      "evidence": "Visual samples only; no actual audio range supplied to this reviewer."
+    }
+  ],
+  "categories": [
+    {
+      "id": "Q01",
+      "finding": "Install command leads to availability and compatibility, with no creation task or result.",
+      "evidence": "V01–V03",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q02",
+      "finding": "The command types across a tilted terminal; technical viewers can recognize an installation flow before the full package name appears.",
+      "evidence": "V01",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q03",
+      "finding": "Existing Remotion or agent-tool users can identify a skills release by 2–4s; new viewers are not told what they can make.",
+      "evidence": "V01–V02",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q04",
+      "finding": "Terminal text accumulates, command output replaces the empty area, then centered title and logo rows replace the terminal; exact transition paths are unresolved.",
+      "evidence": "V01–V03",
+      "status": "uncertain",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q05",
+      "finding": "Three brief visual states form a direct command-to-title-to-logos sequence; no continuous task links the final logos to an output.",
+      "evidence": "V01–V03",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q06",
+      "finding": "White space, soft terminal shadow and sparse colored logos keep the visual treatment light.",
+      "evidence": "V01–V03",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q07",
+      "finding": "The command is the key functional text. Output details have only a short hold; the bold announcement is much easier to read.",
+      "evidence": "V01–V02",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q08",
+      "finding": "Voice delivery, music, effects and audiovisual alignment were not established by this visual pass.",
+      "evidence": "A01",
+      "status": "not checked",
+      "reason": "No validated direct audio listening input.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q09",
+      "finding": "Voice delivery, music, effects and audiovisual alignment were not established by this visual pass.",
+      "evidence": "A01",
+      "status": "not checked",
+      "reason": "No validated direct audio listening input.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q10",
+      "finding": "Voice delivery, music, effects and audiovisual alignment were not established by this visual pass.",
+      "evidence": "A01",
+      "status": "not checked",
+      "reason": "No validated direct audio listening input.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q11",
+      "finding": "Voice delivery, music, effects and audiovisual alignment were not established by this visual pass.",
+      "evidence": "A01",
+      "status": "not checked",
+      "reason": "No validated direct audio listening input.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q12",
+      "finding": "A terminal panel and logo graphics carry the whole film; no footage or generated example is shown. Asset provenance is unknown.",
+      "evidence": "V01–V03",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q13",
+      "finding": "Manifest duration 8.042s; indexed dimensions 1080×700. Source unchanged flag recorded; fresh encoding and audio clipping checks not run.",
+      "evidence": "Group manifest",
+      "status": "uncertain",
+      "reason": "Inherited technical metadata; no fresh media probe in this review.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q14",
+      "finding": "Silent viewing explains an installable skill release but not the promised video-making workflow.",
+      "evidence": "V01–V03",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q15",
+      "finding": "The terminal line attracts attention first, followed by a centered large heading and the final compatibility row.",
+      "evidence": "V01–V03",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q16",
+      "finding": "Eight seconds fit one installation step and announcement; there is no space for a useful outcome example.",
+      "evidence": "V01–V03",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q17",
+      "finding": "The command resolves into successful-looking skill output; there is no broader opening promise inside the film beyond availability.",
+      "evidence": "V01–V02",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q18",
+      "finding": "The concise install-and-available structure appears designed for quick recognition by existing users; viewer response is untested.",
+      "evidence": "V01–V03",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q19",
+      "finding": "The package name anchors the terminal, but the final icon-only brand row expects prior recognition.",
+      "evidence": "V01,V03",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q20",
+      "finding": "Command and skill-found output are shown. An agent execution, rendered video and actual compatibility are not independently checked.",
+      "evidence": "V01–V03",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q21",
+      "finding": "The Remotion package path and tool marks are specific; the clean terminal announcement format is reusable.",
+      "evidence": "V01,V03",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q22",
+      "finding": "An extra prompt-to-video example would explain the benefit to new viewers better than extending the logo hold.",
+      "evidence": "V03",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q23",
+      "finding": "For a developer integration release, use an exact install command, one successful tool call and a small resulting artifact. Keep terminal text readable.",
+      "evidence": "V01–V03",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q24",
+      "finding": "Remotion offers agent skills installed with a terminal command.",
+      "evidence": "Model reading from inspected images",
+      "status": "uncertain",
+      "reason": "Model-only new-viewer interpretation; no human test.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q25",
+      "finding": "Contact sheets inspected at displayed size; a phone-size playback, caption audit, flash audit and formal accessibility check were not performed.",
+      "evidence": "Viewed sheets",
+      "status": "not checked",
+      "reason": "Full-size moving-image and device checks unavailable in this pass.",
+      "experiment": "none"
+    }
+  ],
+  "lessons": {
+    "keep": "Show the exact installation command before the announcement.",
+    "avoid": "Relying on compatibility logos to explain the use case.",
+    "open": "Actual audio, subsecond transition details and a working agent-to-video result remain unverified.",
+    "try": [
+      "For a Tin developer skill, follow installation with a campaign-creation prompt and resulting draft.",
+      "Make a second version with the command held beside the result, so viewers can connect setup to benefit."
+    ]
+  },
+  "comparison": {
+    "story": "Show installation entry point. → Name the release. → Signal tool compatibility.",
+    "motion": "Terminal text accumulates, command output replaces the empty area, then centered title and logo rows replace the terminal; exact transition paths are unresolved. Sampling scope: 1 fps unless a closer window is recorded.",
+    "sound": "No validated listening; unknown.",
+    "texture": "White terminal with small window dots and dark monospace text.; Bold dark announcement type.; Spaced logos on white.",
+    "lesson": "Show the exact installation command before the announcement."
+  },
+  "elements": [
+    {
+      "kind": "ui",
+      "name": "terminal",
+      "events": [
+        "V01"
+      ]
+    },
+    {
+      "kind": "motion",
+      "name": "typed text",
+      "events": [
+        "V01"
+      ]
+    },
+    {
+      "kind": "texture",
+      "name": "white background",
+      "events": [
+        "V01",
+        "V02",
+        "V03"
+      ]
+    }
+  ]
+}

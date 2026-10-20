@@ -1,0 +1,390 @@
+{
+  "id": 349,
+  "viewed_evidence": [
+    "technical-review-2026-10-19/deep-review/motion/349/timeline-00.jpg",
+    "technical-review-2026-10-19/deep-review/motion/349/timeline-01.jpg",
+    "technical-review-2026-10-19/deep-review/motion/349/timeline-02.jpg",
+    "astra-review-2026-10-20/evidence/group-3/349/full25.jpg",
+    "astra-review-2026-10-20/evidence/group-3/349/full37.jpg",
+    "astra-review-2026-10-20/evidence/group-3/349/full62.jpg",
+    "astra-review-2026-10-20/evidence/group-3/349/full69.jpg"
+  ],
+  "product_from_film": "FullSeam presents AI agents for invoice collection, cash reconciliation and accounts-payable processing.",
+  "explains_well": "Clear receivable and payable chapters make a broad accounting offer easy to scan.",
+  "unclear": "Several capability captions do not match the visible UI state, and no single invoice reaches a fully shown final posting.",
+  "product_type": "finance and accounting automation",
+  "scenario": "Review invoice communication, collection status, reconciliation, bill extraction and ledger coding.",
+  "product_clear_time": 10,
+  "product_clear_basis": "Text explicitly identifies an AI accounting teammate for receivable and payable teams.",
+  "scenes": [
+    {
+      "start": 0,
+      "end": 9,
+      "action": "Finance-team pain text is surrounded by unpaid-invoice, resend-request and portal-rejection cards. The FullSeam logo follows.",
+      "design": "Purple gradient and floating white cards.",
+      "purpose": "Introduce payment friction and brand.",
+      "id": "V01",
+      "evidence": "Visible 1 fps samples, source 0–9s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 9,
+      "end": 19,
+      "action": "An invoice workspace appears beneath the AI accounting teammate description. Purple agent pointers mark fields and conversation areas.",
+      "design": "Document preview, navigation and side panel.",
+      "purpose": "Introduce the product category.",
+      "id": "V02",
+      "evidence": "Visible 1 fps samples, source 9–19s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 19,
+      "end": 27,
+      "action": "An Acme communication thread is highlighted while text says the agent logs in and operates. The last message supplies a requested purchase-order number.",
+      "design": "Email timeline with highlighted row.",
+      "purpose": "Illustrate invoice follow-up context.",
+      "id": "V03",
+      "evidence": "Visible 1 fps samples, source 19–27s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 27,
+      "end": 38,
+      "action": "Accounts Receivable shows a collection-agent checklist, then an active-agent card accumulates processed, matched and sent states while the caption refers to customer portals.",
+      "design": "White status cards and green checks.",
+      "purpose": "Present collection and system actions.",
+      "id": "V04",
+      "evidence": "Visible 1 fps samples, source 27–38s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 38,
+      "end": 50,
+      "action": "An AI Analysis panel scrolls through companies, invoices and amounts; text claims automatic cash reconciliation. Less chasing, Faster cash follows.",
+      "design": "Dense reconciliation list and benefit card.",
+      "purpose": "Summarise receivable outcomes.",
+      "id": "V05",
+      "evidence": "Visible 1 fps samples, source 38–50s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 50,
+      "end": 55,
+      "action": "Accounts Payable shows invoice #4021 fields filling for Acme Corp, Net 30, amount and PO reference.",
+      "design": "Extracted-field card with matched/identified labels.",
+      "purpose": "Introduce invoice ingestion.",
+      "id": "V06",
+      "evidence": "Visible 1 fps samples, source 50–55s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 55,
+      "end": 65,
+      "action": "A bill-processing panel fills vendor, amount, date, terms and coding rows while captions refer to matching and discrepancies.",
+      "design": "Apex Facilities bill; green confidence values and ready-to-post state.",
+      "purpose": "Present bill processing.",
+      "id": "V07",
+      "evidence": "Visible 1 fps samples, source 55–65s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 65,
+      "end": 72,
+      "action": "GL Account Coding lists three HVAC-related lines with account selectors. A Post to ERP control remains visible.",
+      "design": "OK labels, vendor-default notes and posting button.",
+      "purpose": "Show prepared ledger entries.",
+      "id": "V08",
+      "evidence": "Visible 1 fps samples, source 65–72s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 72,
+      "end": 78,
+      "action": "Fewer exceptions and Manual work eliminated appear, then the logo enters.",
+      "design": "Centred white benefit text on purple.",
+      "purpose": "State the benefit.",
+      "id": "V09",
+      "evidence": "Visible 1 fps samples, source 72–78s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 78,
+      "end": 90,
+      "action": "FullSeam and AI Agents for Finance and Accounting hold to the end.",
+      "design": "Long static brand card.",
+      "purpose": "Close.",
+      "id": "V10",
+      "evidence": "Visible 1 fps samples, source 78–90s; boundaries approximate, between-frame action unresolved."
+    }
+  ],
+  "sound": [
+    {
+      "id": "A01",
+      "start": 0,
+      "end": 90.0,
+      "layer": "unknown",
+      "detail": "No validated audio listening; speech, music, effects, mix and sync remain unverified.",
+      "visual_relation": "All visual scenes; alignment not checked",
+      "evidence": "No actual audio supplied to this review; existing technical-review-2026-10-19/deep-review/audio/349.json is not listening evidence."
+    }
+  ],
+  "categories": [
+    {
+      "finding": "Payment friction leads to a receivable tour and a payable tour, then benefits. It covers many stages but switches examples rather than completing one case.",
+      "evidence": "V01–V10",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q01"
+    },
+    {
+      "finding": "Large finance-team pain text becomes readable over purple as issue cards begin appearing around it. The audience and problem are explicit.",
+      "evidence": "V01, 0–2s",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q02"
+    },
+    {
+      "finding": "The accounting-agent role and receivable/payable audience are named around 10s. Later chapter headings make the scope concrete.",
+      "evidence": "V02, V04 and V06",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q03"
+    },
+    {
+      "finding": "Sampled views show panels moving into and out of the right-hand position, status rows accumulating and an analysis list scrolling. Exact transitions and easing are unresolved.",
+      "evidence": "V03–V08",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q04"
+    },
+    {
+      "finding": "Repeated text-left, UI-right layouts connect the workflow chapters. Benefit cards pause the dense UI tour before the next chapter.",
+      "evidence": "V03–V09",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q05"
+    },
+    {
+      "finding": "Purple-black gradients and strong violet glows frame white UI panels. The treatment is consistent, though bright edges can compete with small panel text.",
+      "evidence": "V01–V10",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q06"
+    },
+    {
+      "finding": "Chapter headings and benefit text are clear. Full62 shows no visible discrepancy under the discrepancy caption; full69 shows prepared coding and a posting control.",
+      "evidence": "V07 full62; V08 full69",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q07"
+    },
+    {
+      "finding": "Voice presence and delivery remain unverified.",
+      "evidence": "No validated audio listening",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q08"
+    },
+    {
+      "finding": "Music character and arc remain unverified.",
+      "evidence": "No validated audio listening",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q09"
+    },
+    {
+      "finding": "Sound effects remain unverified.",
+      "evidence": "No validated audio listening",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q10"
+    },
+    {
+      "finding": "Sound-to-motion timing remain unverified.",
+      "evidence": "No validated audio listening",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q11"
+    },
+    {
+      "finding": "Interface panels, invoice documents and communication records are placed on a graphic background. Whether the states are live capture or composed examples is not established.",
+      "evidence": "V02–V08",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q12"
+    },
+    {
+      "finding": "Source duration supplied as 90.0s; no independent compression, clipping or delivery check.",
+      "evidence": "Assigned metadata; source integrity checked by parent",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q13"
+    },
+    {
+      "finding": "Text explains the product category and functions without sound. Understanding the exact action still requires reading the smaller UI and noticing claim-state gaps.",
+      "evidence": "V01–V09",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q14"
+    },
+    {
+      "finding": "Left copy establishes the action, then the glowing right panel attracts attention. The opening full workspace has more competing regions than later close panels.",
+      "evidence": "V02–V08",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q15"
+    },
+    {
+      "finding": "The tour provides reasonable holds for many panels, but the final logo holds for about 12s while important action completions are missing.",
+      "evidence": "V03–V10",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q16"
+    },
+    {
+      "finding": "The opening promises fewer payment obstacles. Follow-up and prepared entries address the idea, but the final eliminated-work claim exceeds what the visible sequence resolves.",
+      "evidence": "V01, V03–V09",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q17"
+    },
+    {
+      "finding": "Issue cards create intended administrative pressure, then green checks and clean panels suggest relief. This is interpretation, not measured viewer response.",
+      "evidence": "V01–V08",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q18"
+    },
+    {
+      "finding": "Purple framing and chapter layout are consistent. Acme invoice examples change to Apex Facilities and later vendor-default notes for another vendor, weakening case continuity.",
+      "evidence": "V03, V06–V08; full25/full62/full69",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q19"
+    },
+    {
+      "finding": "Full25 ends with a supplied PO number, not a resent invoice. Full37 reports status events but shows no customer portal. Full62 is ready to post with no clear discrepancy; full69 has a posting control without a completed ledger result.",
+      "evidence": "V03 full25; V04 full37; V07 full62; V08 full69",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q20"
+    },
+    {
+      "finding": "Invoices, PO requests, cash matching and GL coding make the accounting context specific. Purple glows and generic completion checks are less distinctive.",
+      "evidence": "V03–V08",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q21"
+    },
+    {
+      "finding": "Retain the two chapter headings, but use one consistent invoice in each. Shorten the long closing hold and show the missing action and result.",
+      "evidence": "V04–V10",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q22"
+    },
+    {
+      "finding": "For a finance-automation film, capture one PO correction and one bill-to-ledger case with stable IDs, visible approvals and final system states. Match each caption to the state on screen.",
+      "evidence": "V03–V08",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q23"
+    },
+    {
+      "finding": "No human new-viewer test; product description above is model interpretation of sampled images.",
+      "evidence": "V01–V10",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q24"
+    },
+    {
+      "finding": "No phone-size, safe-area or flash assessment; small UI text needs separate preview.",
+      "evidence": "Contact sheets",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q25"
+    }
+  ],
+  "lessons": {
+    "keep": "Keep explicit receivable/payable chapters and readable one-action panel layouts.",
+    "try": [
+      "Trace the Acme PO request through the corrected invoice and confirmed portal submission.",
+      "Show one real discrepancy, its resolution and the final ledger entry, using time from the long end card."
+    ],
+    "avoid": "Avoid using generic green states as visual support for a different named action.",
+    "open": "Audio and financial execution are unverified; captions claim more than the visible final states establish."
+  },
+  "comparison": {
+    "story": "Introduce payment friction and brand. → Introduce the product category. → Illustrate invoice follow-up context. → Present collection and system actions. → Summarise receivable outcomes. → Introduce invoice ingestion. → Present bill processing. → Show prepared ledger entries. → State the benefit. → Close.",
+    "motion": "Sampled views show panels moving into and out of the right-hand position, status rows accumulating and an analysis list scrolling. Exact transitions and easing are unresolved.",
+    "sound": "No validated listening; no absence claims.",
+    "texture": "Purple-black gradients and strong violet glows frame white UI panels. The treatment is consistent, though bright edges can compete with small panel text.",
+    "lesson": "Keep explicit receivable/payable chapters and readable one-action panel layouts."
+  },
+  "elements": [
+    {
+      "kind": "ui",
+      "name": "invoice",
+      "events": [
+        "V02",
+        "V06"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "email timeline",
+      "events": [
+        "V03"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "status cards",
+      "events": [
+        "V04"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "table",
+      "events": [
+        "V05",
+        "V08"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "form",
+      "events": [
+        "V07"
+      ]
+    },
+    {
+      "kind": "texture",
+      "name": "purple gradient",
+      "events": [
+        "V01",
+        "V10"
+      ]
+    }
+  ],
+  "reviewer_model": "gpt-6-astra",
+  "scope": "sampled visual and story review; ASR and measured signal support; no validated audio listening",
+  "closer_windows": []
+}

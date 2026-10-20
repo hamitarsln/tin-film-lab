@@ -1,0 +1,351 @@
+{
+  "id": 141,
+  "reviewer_model": "gpt-6-astra",
+  "scope": "sampled visual and story review; ASR and measured signal support; no validated audio listening",
+  "viewed_evidence": [
+    "technical-review-2026-10-19/deep-review/motion/141/timeline-00.jpg",
+    "technical-review-2026-10-19/deep-review/motion/141/timeline-01.jpg",
+    "technical-review-2026-10-19/deep-review/motion/141/timeline-02.jpg",
+    "technical-review-2026-10-19/deep-review/audio/141-speech.json"
+  ],
+  "closer_windows": [],
+  "product_from_film": "Greptile TREX runs a pull-request branch in a sandbox and reports execution-based bugs.",
+  "explains_well": "A clear chain connects inputs, servers, browser checks and a comment on the offending code.",
+  "unclear": "The 20% improvement claim lacks benchmark details and an inspectable failing run.",
+  "product_type": "code review and testing agent",
+  "scenario": "Run a proposed code change and attach a verified bug comment.",
+  "product_clear_time": 9,
+  "product_clear_basis": "Captions explicitly describe running a PR branch in a sandbox to catch hidden bugs.",
+  "scenes": [
+    {
+      "id": "V01",
+      "start": 0,
+      "end": 6,
+      "action": "An engineer introduces TREX; a dinosaur/skull collage reveals Test-Run-Execute.",
+      "design": "Natural window-lit room, lime/pink/green title collage and technical guides.",
+      "purpose": "Name the feature and expand its acronym.",
+      "evidence": "Visible chronological 1 fps samples, source 0–6s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V02",
+      "start": 6,
+      "end": 20,
+      "action": "A sandbox cube with running-test cards appears beside the presenter. Large text states code-review scale; customer logos follow.",
+      "design": "Wireframe cube, bright status cards and bold text over live action.",
+      "purpose": "State function and claimed adoption.",
+      "evidence": "Visible chronological 1 fps samples, source 6–20s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V03",
+      "start": 20,
+      "end": 32,
+      "action": "Run-it messaging leads to curved line fields with native coding environment, test suite and tech stack labels, then the presenter returns.",
+      "design": "Purple graph field, lime labels and animated-looking glyph states.",
+      "purpose": "Explain prerequisites for executing code.",
+      "evidence": "Visible chronological 1 fps samples, source 20–32s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V04",
+      "start": 32,
+      "end": 45,
+      "action": "A schematic shows mock inputs and test states, development servers, browser windows with agent markers, then a highlighted code line and race-condition comment marked ran code and verified through TREX.",
+      "design": "White background, pastel panels, connector path and green verification label.",
+      "purpose": "Trace execution to actionable review feedback.",
+      "evidence": "Visible chronological 1 fps samples, source 32–45s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V05",
+      "start": 45,
+      "end": 56,
+      "action": "The presenter appears with20% text and captions claiming more bugs than base Greptile based on internal evaluations.",
+      "design": "Large lime percentage and pixel-pattern border.",
+      "purpose": "Present claimed improvement and rationale.",
+      "evidence": "Visible chronological 1 fps samples, source 45–56s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V06",
+      "start": 56,
+      "end": 67.275,
+      "action": "Public beta availability and greptile.com/trex appear; presenter briefly returns before green Greptile end plate.",
+      "design": "Bright green background, black wordmark and simple URL.",
+      "purpose": "Invite trial and feedback.",
+      "evidence": "Visible chronological 1 fps samples, source 56–67.275s; boundary approximate; exact motion between samples unverified."
+    }
+  ],
+  "sound": [
+    {
+      "id": "A01",
+      "start": 0,
+      "end": 67.275,
+      "layer": "unknown",
+      "detail": "No validated direct audio listening was performed. Music, speech delivery, effects, mix and sync remain unknown, not absent.",
+      "visual_relation": "All visual scenes; audiovisual alignment unverified",
+      "evidence": "Visual samples only; no actual audio range supplied to this reviewer."
+    },
+    {
+      "id": "A02",
+      "start": 0.17,
+      "end": 62.9,
+      "layer": "ASR draft",
+      "detail": "ASR draft supports the PR-sandbox mechanism, environment/test-suite context, mock inputs, servers, browser agents, code-linked comments and 20% internal-evaluation claim. It misrecognizes Greptile, the speaker name and some customer names; visible labels are preferred. No voice, music, effects or sync judgment is made.",
+      "visual_relation": "Story text support; exact audiovisual alignment and delivery unverified.",
+      "evidence": "technical-review-2026-10-19/deep-review/audio/141-speech.json; local faster-whisper base CPU int8 draft; VAD candidates only, recognition errors possible."
+    }
+  ],
+  "categories": [
+    {
+      "id": "Q01",
+      "finding": "Feature introduction leads to sandbox mechanism, execution pipeline, improvement claim and beta CTA.",
+      "evidence": "V01–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q02",
+      "finding": "The engineer introduction quickly moves into a dinosaur collage and expanded TREX acronym.",
+      "evidence": "V01",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q03",
+      "finding": "The PR-branch sandbox sentence makes the use clear by 9 s.",
+      "evidence": "V02",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q04",
+      "finding": "Test cards change state, labels move through line fields and browser-agent markers lead to code feedback; exact motion timing is unverified.",
+      "evidence": "V02–V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q05",
+      "finding": "The sandbox concept becomes a stepwise schematic ending in a review comment, giving continuity to the explanation.",
+      "evidence": "V02,V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q06",
+      "finding": "Neon lime, mint and pink technical graphics contrast with the natural room and soft foliage.",
+      "evidence": "V01–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q07",
+      "finding": "Captions and large mechanism labels explain terminology; small code content is schematic rather than fully inspectable.",
+      "evidence": "V02–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q08",
+      "finding": "ASR draft supports the PR-sandbox mechanism, environment/test-suite context, mock inputs, servers, browser agents, code-linked comments and 20% internal-evaluation claim. It misrecognizes Greptile, the speaker name and some customer names; visible labels are preferred. No voice, music, effects or sync judgment is made.",
+      "evidence": "A02",
+      "status": "uncertain",
+      "reason": "ASR text only; no validated listening, delivery or voice origin.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q09",
+      "finding": "Voice delivery, music, effects and audiovisual alignment were not established by this visual pass.",
+      "evidence": "A01",
+      "status": "not checked",
+      "reason": "No validated direct audio listening input.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q10",
+      "finding": "Voice delivery, music, effects and audiovisual alignment were not established by this visual pass.",
+      "evidence": "A01",
+      "status": "not checked",
+      "reason": "No validated direct audio listening input.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q11",
+      "finding": "Voice delivery, music, effects and audiovisual alignment were not established by this visual pass.",
+      "evidence": "A01",
+      "status": "not checked",
+      "reason": "No validated direct audio listening input.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q12",
+      "finding": "Presenter footage is combined with illustrated browser/code panels and dinosaur imagery; no real test session is established.",
+      "evidence": "V01–V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q13",
+      "finding": "Manifest duration 67.275 s; indexed dimensions 1280×720. Source unchanged flag recorded; fresh encoding and audio clipping checks not run.",
+      "evidence": "Group manifest",
+      "status": "uncertain",
+      "reason": "Inherited technical metadata; no fresh media probe in this review.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q14",
+      "finding": "Captions and pipeline labels communicate the feature without sound; the ASR draft supports the same structure.",
+      "evidence": "V02–V06,A02",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q15",
+      "finding": "The demo narrows from environment to browser to exact code-comment area, creating an actionable focal point.",
+      "evidence": "V03,V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q16",
+      "finding": "The 67 s film gives about 13 s to the mechanism diagram and 11 s to the improvement rationale.",
+      "evidence": "V04,V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q17",
+      "finding": "The promise to catch hidden bugs pays off as a code-linked race-condition comment.",
+      "evidence": "V02,V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q18",
+      "finding": "Execution and verification labels frame the agent as more reliable than reading alone; this is persuasion, not measured confidence.",
+      "evidence": "V04,V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q19",
+      "finding": "Technical guide lines, lime labels and mint branding link feature collage to the closing plate.",
+      "evidence": "V01–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q20",
+      "finding": "A20% internal-evaluation claim is visibly qualified as based on our evals, but dataset, sample size and actual run evidence are absent.",
+      "evidence": "V04,V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q21",
+      "finding": "TREX naming, dinosaur visuals and Test-Run-Execute make a technical feature memorable.",
+      "evidence": "V01",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q22",
+      "finding": "A real failed test and linked code comment would support the schematic more strongly than extra scale claims.",
+      "evidence": "V02,V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q23",
+      "finding": "Tin can show a pre-publication check that detects a concrete issue and points to the exact asset requiring correction.",
+      "evidence": "V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q24",
+      "finding": "Greptile TREX runs a pull-request branch in a sandbox and reports execution-based bugs.",
+      "evidence": "Model reading from inspected images",
+      "status": "uncertain",
+      "reason": "Model-only new-viewer interpretation; no human test.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q25",
+      "finding": "Contact sheets inspected at displayed size; a phone-size playback, caption audit, flash audit and formal accessibility check were not performed.",
+      "evidence": "Viewed sheets",
+      "status": "not checked",
+      "reason": "Full-size moving-image and device checks unavailable in this pass.",
+      "experiment": "none"
+    }
+  ],
+  "lessons": {
+    "keep": "Trace an automated check all the way to a precise, actionable finding.",
+    "avoid": "Avoid treating a verified label or internal percentage as independent proof.",
+    "open": "Actual bug reproduction, evaluation method, customer claims, beta availability and audio delivery remain unverified.",
+    "try": [
+      "Show Tin checking a campaign URL, catching a broken destination and marking the exact affected ad.",
+      "Pair a quality-improvement number with its sample size, comparison period and one inspectable example."
+    ]
+  },
+  "comparison": {
+    "story": "Name the feature and expand its acronym. → State function and claimed adoption. → Explain prerequisites for executing code. → Trace execution to actionable review feedback. → Present claimed improvement and rationale. → Invite trial and feedback.",
+    "motion": "Test cards change state, labels move through line fields and browser-agent markers lead to code feedback; exact motion timing is unverified. Sampling scope: 1 fps unless a closer window is recorded.",
+    "sound": "No validated listening; unknown.",
+    "texture": "Natural window-lit room, lime/pink/green title collage and technical guides.; Wireframe cube, bright status cards and bold text over live action.; Purple graph field, lime labels and animated-looking glyph states.; White background, pastel panels, connector path and green verification label.; Large lime percentage and pixel-pattern border.; Bright green background, black wordmark and simple URL.",
+    "lesson": "Trace an automated check all the way to a precise, actionable finding."
+  },
+  "elements": [
+    {
+      "kind": "ui",
+      "name": "test status cards",
+      "events": [
+        "V02",
+        "V04"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "browser window",
+      "events": [
+        "V04"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "code review comment",
+      "events": [
+        "V04"
+      ]
+    },
+    {
+      "kind": "motion",
+      "name": "connected process diagram",
+      "events": [
+        "V04"
+      ]
+    },
+    {
+      "kind": "texture",
+      "name": "technical line field",
+      "events": [
+        "V03"
+      ]
+    }
+  ]
+}

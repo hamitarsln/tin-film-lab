@@ -1,0 +1,351 @@
+{
+  "id": 277,
+  "viewed_evidence": [
+    "technical-review-2026-10-19/deep-review/motion/277/timeline-00.jpg",
+    "astra-review-2026-10-20/evidence/group-3/277/dense.jpg"
+  ],
+  "product_from_film": "Doodles AI turns images into playful illustrated art and presents a wider creative image tool.",
+  "explains_well": "The group selfie becomes a recognisable three-person cartoon, giving a quick before-and-after.",
+  "unclear": "The film does not show the input controls or how a user chooses and changes a result.",
+  "product_type": "creative image tool",
+  "scenario": "Reimagine a group selfie as a colourful cartoon",
+  "product_clear_time": 4,
+  "product_clear_basis": "The same three-person composition becomes an illustrated result after reimagine label.",
+  "scenes": [
+    {
+      "start": 0,
+      "end": 2,
+      "action": "Glowing introducing text gives way to Doodles AI logo.",
+      "design": "Rainbow glow on black and yellow AI badge.",
+      "purpose": "Introduce brand",
+      "id": "V01",
+      "evidence": "Visible 1 fps samples, source 0–2s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 2,
+      "end": 5,
+      "action": "Three-person selfie shrinks into phone on pink, enlarges on yellow with reimagine label, blurs into cartoon and shrinks to rounded card on black with green ribbon.",
+      "design": "Matching three-person composition and saturated illustration.",
+      "purpose": "Show image transformation",
+      "id": "V02",
+      "evidence": "Visible 1 fps samples, source 2–5s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 5,
+      "end": 9,
+      "action": "Artistic intelligence text leads to character card, blurred colourful transition and a grid of illustrated people with instant copy.",
+      "design": "Rainbow glow, glass-like card and bright character grid.",
+      "purpose": "Show style range",
+      "id": "V03",
+      "evidence": "Visible 1 fps samples, source 5–9s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 9,
+      "end": 13,
+      "action": "Everyone is an text precedes illustrated fantasy worlds and a floating globe-like cluster of image tiles.",
+      "design": "Pastel landscapes, rainbows and many small art cards.",
+      "purpose": "Expand creative scope",
+      "id": "V04",
+      "evidence": "Visible 1 fps samples, source 9–13s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 13,
+      "end": 19,
+      "action": "Create text and changing Doodles lettering lead to logo surrounded by small toy-like creative objects, then black.",
+      "design": "Pencil, lightbulb, cursor hand and colourful rounded objects.",
+      "purpose": "Close with creative brand",
+      "id": "V05",
+      "evidence": "Visible 1 fps samples, source 13–19s; boundaries approximate, between-frame action unresolved."
+    }
+  ],
+  "sound": [
+    {
+      "id": "A01",
+      "start": 0,
+      "end": 19.0,
+      "layer": "unknown",
+      "detail": "No validated audio listening; speech, music, effects, mix and sync remain unverified.",
+      "visual_relation": "All visual scenes; alignment not checked",
+      "evidence": "No actual audio supplied to this review; existing technical-review-2026-10-19/deep-review/audio/277.json is not listening evidence."
+    }
+  ],
+  "categories": [
+    {
+      "finding": "A selfie-to-cartoon example quickly establishes a use, then character and world galleries expand the promise before a brand close.",
+      "evidence": "V01–V05",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q01"
+    },
+    {
+      "finding": "Glowing introducing and Doodles AI logo create a bright brand opening; the practical transformation follows immediately.",
+      "evidence": "V01, 0–2 s",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q02"
+    },
+    {
+      "finding": "The reimagine example makes image transformation clear by 4 s. Broader creation is suggested, but no specific editing workflow is shown.",
+      "evidence": "V02–V04",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q03"
+    },
+    {
+      "finding": "Dense 2–5 s frames show selfie-to-phone scale change, a closer phone view, colourful blur/crossfade to cartoon at 3.25–3.75 s, then a rounded card reducing on black.",
+      "evidence": "V02; 4 fps window 2–5 s",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q04"
+    },
+    {
+      "finding": "Sparse black text cards separate colourful examples. The before/after transition preserves the three-person layout, making the result easy to recognise.",
+      "evidence": "V02–V05",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q05"
+    },
+    {
+      "finding": "Saturated pink, yellow and cyan, soft rainbow glow, rounded cards and toy-like objects create a playful art identity.",
+      "evidence": "V01–V05",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q06"
+    },
+    {
+      "finding": "Reimagine gives the only direct action cue; artistic intelligence and universe without limits are broad claims. No app controls or prompt are readable.",
+      "evidence": "V02–V04",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q07"
+    },
+    {
+      "finding": "Voice presence and delivery remain unverified.",
+      "evidence": "No validated audio listening",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q08"
+    },
+    {
+      "finding": "Music character and arc remain unverified.",
+      "evidence": "No validated audio listening",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q09"
+    },
+    {
+      "finding": "Sound effects remain unverified.",
+      "evidence": "No validated audio listening",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q10"
+    },
+    {
+      "finding": "Sound-to-motion timing remain unverified.",
+      "evidence": "No validated audio listening",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q11"
+    },
+    {
+      "finding": "One photo-like selfie, character illustrations, fantasy landscapes and dimensional objects are combined; their generation or production source is unknown.",
+      "evidence": "V02–V05",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q12"
+    },
+    {
+      "finding": "Source duration supplied as 19.0s; no independent compression, clipping or delivery check.",
+      "evidence": "Assigned metadata; source integrity checked by parent",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q13"
+    },
+    {
+      "finding": "The matching selfie and cartoon communicate the core use silently. The gallery does not show how to make or edit another result.",
+      "evidence": "V02–V04",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q14"
+    },
+    {
+      "finding": "Single centred objects focus the transformation; the later image globe distributes attention across a range of outputs.",
+      "evidence": "V02 and V04",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q15"
+    },
+    {
+      "finding": "The 19-second film gives one clear example before a fast range montage. It has little room for creation controls or a destination.",
+      "evidence": "V02–V05",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q16"
+    },
+    {
+      "finding": "Artistic intelligence is supported by visible transformations and galleries; unlimited scope is not demonstrated.",
+      "evidence": "V02–V04",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q17"
+    },
+    {
+      "finding": "Bright characters and toy-like creative objects appear intended to make creation feel playful and accessible. Viewer response was not measured.",
+      "evidence": "V02–V05",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q18"
+    },
+    {
+      "finding": "Three faces and clothing colours remain recognisable through the selfie/cartoon change; the later gallery shifts to unrelated outputs.",
+      "evidence": "V02–V04",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q19"
+    },
+    {
+      "finding": "A before/after pair is visible, but actual upload, generation, controls and timing are not shown or tested.",
+      "evidence": "V02–V04",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q20"
+    },
+    {
+      "finding": "The consistent rounded character style and playful logo/object family give this film a specific art identity.",
+      "evidence": "V02–V05",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q21"
+    },
+    {
+      "finding": "One gallery shot could become a brief input/control/result view and a clear place to try it.",
+      "evidence": "V03–V05",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q22"
+    },
+    {
+      "finding": "For an image tool, preserve the source composition through a bold transformation, then hold both states together briefly. Requires a matched photo/result pair and permitted assets.",
+      "evidence": "V02",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q23"
+    },
+    {
+      "finding": "No human new-viewer test; product description above is model interpretation of sampled images.",
+      "evidence": "V01–V05",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q24"
+    },
+    {
+      "finding": "No phone-size, safe-area or flash assessment; small UI text needs separate preview.",
+      "evidence": "Contact sheets",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q25"
+    }
+  ],
+  "lessons": {
+    "keep": "Keep the matching three-person composition across photo and cartoon.",
+    "try": [
+      "Show the selfie upload and Reimagine control before the transition, then hold the result with one visible edit option.",
+      "Replace the image-globe shot with a split before/after and a short try-it destination while preserving the colourful ending."
+    ],
+    "avoid": "Avoid letting the style gallery replace the first user action.",
+    "open": "Audio is unheard; generation method, speed and editing controls remain unverified."
+  },
+  "comparison": {
+    "story": "Introduce brand → Show image transformation → Show style range → Expand creative scope → Close with creative brand",
+    "motion": "Dense 2–5 s frames show selfie-to-phone scale change, a closer phone view, colourful blur/crossfade to cartoon at 3.25–3.75 s, then a rounded card reducing on black.",
+    "sound": "No validated listening; no absence claims.",
+    "texture": "Saturated pink, yellow and cyan, soft rainbow glow, rounded cards and toy-like objects create a playful art identity.",
+    "lesson": "Keep the matching three-person composition across photo and cartoon."
+  },
+  "elements": [
+    {
+      "kind": "ui",
+      "name": "phone shell",
+      "events": [
+        "V02"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "image grid",
+      "events": [
+        "V03"
+      ]
+    },
+    {
+      "kind": "motion",
+      "name": "image transformation",
+      "events": [
+        "V02"
+      ]
+    },
+    {
+      "kind": "motion",
+      "name": "card scale change",
+      "events": [
+        "V02"
+      ]
+    },
+    {
+      "kind": "texture",
+      "name": "illustration",
+      "events": [
+        "V02",
+        "V03",
+        "V04"
+      ]
+    },
+    {
+      "kind": "texture",
+      "name": "rainbow glow",
+      "events": [
+        "V01",
+        "V03",
+        "V05"
+      ]
+    }
+  ],
+  "reviewer_model": "gpt-6-astra",
+  "scope": "sampled visual and story review; ASR and measured signal support; no validated audio listening",
+  "closer_windows": [
+    {
+      "start": 2,
+      "end": 5,
+      "rate_fps": 4,
+      "evidence": [
+        "astra-review-2026-10-20/evidence/group-3/277/dense.jpg"
+      ],
+      "resolved": "Photo occupies phone by 2.25 s; closer phone shows reimagine by 3 s. Colour blur covers the image at 3.25–3.5 s and cartoon resolves at 3.75 s. Result shrinks into rounded card at 4.25 s; green ribbon appears by 4.75 s. This is an edited before/after, not proof of live generation."
+    }
+  ]
+}

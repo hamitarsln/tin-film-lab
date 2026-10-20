@@ -1,0 +1,358 @@
+{
+  "id": 190,
+  "reviewer_model": "gpt-6-astra",
+  "scope": "sampled visual and story review; ASR and measured signal support; no validated audio listening",
+  "viewed_evidence": [
+    "technical-review-2026-10-19/deep-review/motion/190/timeline-00.jpg",
+    "technical-review-2026-10-19/deep-review/motion/190/timeline-01.jpg",
+    "technical-review-2026-10-19/deep-review/motion/190/timeline-02.jpg",
+    "astra-review-2026-10-20/evidence/group-2/190-5-9-4fps.jpg",
+    "technical-review-2026-10-19/deep-review/audio/190-speech.json"
+  ],
+  "closer_windows": [
+    {
+      "start": 5,
+      "end": 9,
+      "rate_fps": 4,
+      "evidence": [
+        "astra-review-2026-10-20/evidence/group-2/190-5-9-4fps.jpg"
+      ],
+      "resolved": "The bathroom breaks apart around the seated phone user; a torn wall opens onto the arena before colored smoke fills the view. Sixteen sampled frames inspected; exact easing and sub-frame details remain unknown."
+    }
+  ],
+  "product_from_film": "PartyBet presents social sports betting through shared picks, chat-like cards and winning tickets.",
+  "explains_well": "Ordinary phone users are transported into the sports they follow, with message overlays linking the scenes.",
+  "unclear": "No complete betting, funding or settlement workflow is shown; the winning-ticket montage only shows favorable outcomes.",
+  "product_type": "social sports betting",
+  "scenario": "Follow shared sports picks while moving through everyday settings.",
+  "product_clear_time": 5,
+  "product_clear_basis": "The shared basketball bet card includes Tail and Fade choices.",
+  "scenes": [
+    {
+      "id": "V01",
+      "start": 0,
+      "end": 5,
+      "action": "A branded tower leads to a seated office worker looking at a phone, with a purple message above him.",
+      "design": "Vertical cinematic city and office scenes with purple chat cards.",
+      "purpose": "Bring the brand into an ordinary workday.",
+      "evidence": "Visible chronological 1 fps samples, source 0–5s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V02",
+      "start": 5,
+      "end": 13,
+      "action": "A seated bathroom phone user receives a shared basketball bet with Tail and Fade options. The room breaks apart and opens onto a basketball arena; a player and celebrating spectator follow.",
+      "design": "Debris, colored smoke, branded court and persistent purple card.",
+      "purpose": "Turn a shared pick into imagined live participation.",
+      "evidence": "Visible chronological 1 fps samples, source 5–13s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V03",
+      "start": 13,
+      "end": 23,
+      "action": "A bar patron becomes a rider on a racecourse. A market worker moves into a fighting cage while still holding his phone; chat cards continue above the action.",
+      "design": "Ordinary clothes against high-energy sports settings.",
+      "purpose": "Repeat the participation fantasy across sports.",
+      "evidence": "Visible chronological 1 fps samples, source 13–23s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V04",
+      "start": 23,
+      "end": 36,
+      "action": "A woman viewing the fight on a phone moves through a party and bright floating symbols, then passes a bus-stop user. He runs into a football field and falls into an end zone.",
+      "design": "Neon symbols, phone close-up and location changes linked by people.",
+      "purpose": "Pass the social chain to another participant.",
+      "evidence": "Visible chronological 1 fps samples, source 23–36s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V05",
+      "start": 36,
+      "end": 45,
+      "action": "An airplane passenger uses his phone, exits into clouds and arrives at a soccer match. He kicks toward goal while a chat card celebrates.",
+      "design": "Aircraft, cloud fall and stadium imagery.",
+      "purpose": "Extend the fantasy beyond everyday limits.",
+      "evidence": "Visible chronological 1 fps samples, source 36–45s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V06",
+      "start": 45,
+      "end": 55,
+      "action": "Stadium fireworks lead to several sports participants holding large blue winning-ticket panels, followed by an aerial stadium view.",
+      "design": "Bright winnings cards, cheering poses and fireworks.",
+      "purpose": "Present celebratory outcomes.",
+      "evidence": "Visible chronological 1 fps samples, source 45–55s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V07",
+      "start": 55,
+      "end": 64.128,
+      "action": "A small icon becomes PARTYBET on black and holds, followed by black samples near the end.",
+      "design": "Minimal white/blue brand mark.",
+      "purpose": "Close with brand recall.",
+      "evidence": "Visible chronological 1 fps samples, source 55–64.128s; boundary approximate; exact motion between samples unverified."
+    }
+  ],
+  "sound": [
+    {
+      "id": "A01",
+      "start": 0,
+      "end": 64.128,
+      "layer": "unknown",
+      "detail": "No validated direct audio listening was performed. Music, speech delivery, effects, mix and sync remain unknown, not absent.",
+      "visual_relation": "All visual scenes; audiovisual alignment unverified",
+      "evidence": "Visual samples only; no actual audio range supplied to this reviewer."
+    }
+  ],
+  "categories": [
+    {
+      "id": "Q01",
+      "finding": "Phone messages connect ordinary people to imagined sports participation, then winning-ticket celebrations.",
+      "evidence": "V01–V07",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q02",
+      "finding": "A glowing PartyBet tower fills the vertical frame; it establishes brand atmosphere before a task.",
+      "evidence": "V01",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q03",
+      "finding": "The shared basketball pick and Tail/Fade options identify social betting at 5 s. A specific messaging platform is not established from these samples.",
+      "evidence": "V02",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q04",
+      "finding": "The checked 5–9 s window shows the bathroom breaking open, the seated person displaced and a basketball arena revealed beyond the wall. Exact easing remains unresolved.",
+      "evidence": "V02; closer window",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q05",
+      "finding": "Phone users and purple chat overlays link jumps between daily settings and sports; later handoffs use one person passing another.",
+      "evidence": "V02–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q06",
+      "finding": "Muted daily environments contrast with neon purple cards, colored arena smoke and bright winning panels.",
+      "evidence": "V01–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q07",
+      "finding": "The dense check resolves Tail/Fade and a shared bet; other message bodies remain small. Winning amounts are prominent in later cards.",
+      "evidence": "V02,V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q08",
+      "finding": "The existing ASR draft contains highly repetitive, weakly recognized fragments and was not used as reliable dialogue. Voice delivery remains unknown.",
+      "evidence": "technical-review-2026-10-19/deep-review/audio/190-speech.json",
+      "status": "not checked",
+      "reason": "No validated direct audio listening input.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q09",
+      "finding": "Voice delivery, music, effects and audiovisual alignment were not established by this visual pass.",
+      "evidence": "A01",
+      "status": "not checked",
+      "reason": "No validated direct audio listening input.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q10",
+      "finding": "Voice delivery, music, effects and audiovisual alignment were not established by this visual pass.",
+      "evidence": "A01",
+      "status": "not checked",
+      "reason": "No validated direct audio listening input.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q11",
+      "finding": "Voice delivery, music, effects and audiovisual alignment were not established by this visual pass.",
+      "evidence": "A01",
+      "status": "not checked",
+      "reason": "No validated direct audio listening input.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q12",
+      "finding": "Photographic-looking people and environments are combined with impossible space changes and floating UI; generation or compositing methods are unverified.",
+      "evidence": "V02–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q13",
+      "finding": "Manifest duration 64.128s; indexed dimensions 480×852. Source unchanged flag recorded; fresh encoding and audio clipping checks not run.",
+      "evidence": "Group manifest",
+      "status": "uncertain",
+      "reason": "Inherited technical metadata; no fresh media probe in this review.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q14",
+      "finding": "Shared picks, sports and winnings explain the broad betting offer visually; placing a wager is not demonstrated.",
+      "evidence": "V02,V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q15",
+      "finding": "Purple cards remain above protagonists while sports action competes below; blue tickets dominate the ending.",
+      "evidence": "V02–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q16",
+      "finding": "Many characters and sports appear across 55 s before the logo; repetition reinforces participation but adds little operational detail.",
+      "evidence": "V01–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q17",
+      "finding": "Shared betting messages end with winning tickets, giving a celebratory payoff without showing losing or pending states.",
+      "evidence": "V02,V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q18",
+      "finding": "Surreal transport and triumphant poses appear designed to make watching and betting feel exciting and social.",
+      "evidence": "V02–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q19",
+      "finding": "Purple message cards and phones are the main anchors across changing users, sports and locations.",
+      "evidence": "V01–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q20",
+      "finding": "Displayed picks and winning cards do not verify a real wager, odds, settlement or typical outcome.",
+      "evidence": "V02,V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q21",
+      "finding": "Branded tower, basketball court and repeated chat motif build PartyBet identity, while the sports fantasy remains broad.",
+      "evidence": "V01,V02,V07",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q22",
+      "finding": "One complete shared-pick-to-settlement example would clarify the service more than another transport sequence.",
+      "evidence": "V03–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q23",
+      "finding": "Tin can turn a campaign message into its real-world placement while keeping the same creative visible; use one transition and a verifiable result.",
+      "evidence": "V02",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q24",
+      "finding": "PartyBet presents social sports betting through shared picks, chat-like cards and winning tickets.",
+      "evidence": "Model reading from inspected images",
+      "status": "uncertain",
+      "reason": "Model-only new-viewer interpretation; no human test.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q25",
+      "finding": "Contact sheets inspected at displayed size; a phone-size playback, caption audit, flash audit and formal accessibility check were not performed.",
+      "evidence": "Viewed sheets",
+      "status": "not checked",
+      "reason": "Full-size moving-image and device checks unavailable in this pass.",
+      "experiment": "none"
+    }
+  ],
+  "lessons": {
+    "keep": "Keep one recognizable UI overlay as scenes change around it.",
+    "avoid": "Avoid treating a montage of wins as evidence of normal user outcomes.",
+    "open": "Wager execution, settlement, platform identity, typical outcomes, asset provenance and all sound remain unverified.",
+    "try": [
+      "Carry one approved Tin ad card through a transition into its actual feed placement.",
+      "Show a shared decision card followed by its pending and completed states, preserving the same campaign ID."
+    ]
+  },
+  "comparison": {
+    "story": "Bring the brand into an ordinary workday. → Turn a shared pick into imagined live participation. → Repeat the participation fantasy across sports. → Pass the social chain to another participant. → Extend the fantasy beyond everyday limits. → Present celebratory outcomes. → Close with brand recall.",
+    "motion": "The checked 5–9 s window shows the bathroom breaking open, the seated person displaced and a basketball arena revealed beyond the wall. Exact easing remains unresolved. Sampling scope: 1 fps unless a closer window is recorded.",
+    "sound": "No validated listening; unknown.",
+    "texture": "Vertical cinematic city and office scenes with purple chat cards.; Debris, colored smoke, branded court and persistent purple card.; Ordinary clothes against high-energy sports settings.; Neon symbols, phone close-up and location changes linked by people.; Aircraft, cloud fall and stadium imagery.; Bright winnings cards, cheering poses and fireworks.; Minimal white/blue brand mark.",
+    "lesson": "Keep one recognizable UI overlay as scenes change around it."
+  },
+  "elements": [
+    {
+      "kind": "ui",
+      "name": "chat cards",
+      "events": [
+        "V01",
+        "V02",
+        "V03",
+        "V04",
+        "V05"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "winning ticket cards",
+      "events": [
+        "V06"
+      ]
+    },
+    {
+      "kind": "motion",
+      "name": "room opens into arena",
+      "events": [
+        "V02"
+      ]
+    },
+    {
+      "kind": "texture",
+      "name": "colored smoke",
+      "events": [
+        "V02"
+      ]
+    }
+  ]
+}

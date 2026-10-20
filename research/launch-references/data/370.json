@@ -1,0 +1,381 @@
+{
+  "id": 370,
+  "reviewer_model": "gpt-6-astra",
+  "scope": "sampled visual and story review; ASR and measured signal support; no validated audio listening",
+  "viewed_evidence": [
+    "technical-review-2026-10-19/deep-review/motion/370/timeline-00.jpg",
+    "technical-review-2026-10-19/deep-review/motion/370/timeline-01.jpg",
+    "technical-review-2026-10-19/deep-review/motion/370/timeline-02.jpg",
+    "technical-review-2026-10-19/deep-review/motion/370/timeline-03.jpg",
+    "technical-review-2026-10-19/deep-review/audio/370-speech.json"
+  ],
+  "closer_windows": [],
+  "product_from_film": "Q2Q presents a deal-sourcing workflow that turns an acquisition thesis into company research, outreach and a tracked prospect pipeline.",
+  "explains_well": "The HVAC acquisition theme continues through the thesis, company list, outreach preview and CRM.",
+  "unclear": "The final calendar suggests booked meetings but skips the prospect reply and scheduling action that would connect outreach to that result.",
+  "product_type": "private-equity deal sourcing",
+  "scenario": "Find residential and commercial HVAC acquisition prospects and prepare outreach.",
+  "product_clear_time": 24,
+  "product_clear_basis": "An Investment Thesis form begins the concrete acquisition search example; the ASR establishes the audience earlier.",
+  "scenes": [
+    {
+      "id": "V01",
+      "start": 0,
+      "end": 24,
+      "action": "Two founders introduce themselves. Customer-name cards, company tables, charts and contact-profile cards float beside them before the view returns to the first founder.",
+      "design": "Green name strips and translucent UI overlays over indoor founder footage.",
+      "purpose": "Introduce the team, audience and manual sourcing problem.",
+      "evidence": "Visible chronological 1 fps samples, source 0–24s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V02",
+      "start": 24,
+      "end": 40,
+      "action": "An Investment Thesis form fills with a founder-owned HVAC acquisition request. A supporting CSV appears, then company cards stack and one expands into a profile with contacts and a score.",
+      "design": "White form and company cards on a green gradient, with glowing outlines.",
+      "purpose": "Turn acquisition criteria into a researched shortlist.",
+      "evidence": "Visible chronological 1 fps samples, source 24–40s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V03",
+      "start": 40,
+      "end": 53,
+      "action": "A full search interface shows selected company cards. A folder graphic replaces it, followed by the Q icon and spreading arcs with social, email and phone icons.",
+      "design": "Search UI shifts into a symbolic research diagram.",
+      "purpose": "Explain moving the shortlist into outreach and researching across channels.",
+      "evidence": "Visible chronological 1 fps samples, source 40–53s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V04",
+      "start": 53,
+      "end": 67,
+      "action": "Email drafts appear and change, then a vertical campaign sequence builds from Start through contact and message steps. A recipient preview is shown and folds into an envelope-like form.",
+      "design": "White message cards, translucent workflow nodes and green background.",
+      "purpose": "Show message preparation, multistep outreach and a review stage before sending.",
+      "evidence": "Visible chronological 1 fps samples, source 53–67s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V05",
+      "start": 67,
+      "end": 78,
+      "action": "An outreach campaign view gains a company table, then a CRM board fills with cards and a selected prospect detail appears.",
+      "design": "Campaign table and pipeline columns.",
+      "purpose": "Show tracking after outreach.",
+      "evidence": "Visible chronological 1 fps samples, source 67–78s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V06",
+      "start": 78,
+      "end": 84,
+      "action": "A Residential and Commercial HVAC search bar gives way to a weekly calendar populated with green events.",
+      "design": "Simple query bar and white calendar.",
+      "purpose": "Present the desired meeting outcome without showing the reply-to-booking steps.",
+      "evidence": "Visible chronological 1 fps samples, source 78–84s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V07",
+      "start": 84,
+      "end": 92.578,
+      "action": "The founders return and the final speaker gestures under tryQ2Q.com before the image cuts to black.",
+      "design": "Founder footage and a floating green website pill.",
+      "purpose": "Invite the intended buyers to try the service.",
+      "evidence": "Visible chronological 1 fps samples, source 84–92.578s; boundary approximate; exact motion between samples unverified."
+    }
+  ],
+  "sound": [
+    {
+      "id": "A01",
+      "start": 0,
+      "end": 92.578,
+      "layer": "unknown",
+      "detail": "No validated direct audio listening was performed. Music, speech delivery, effects, mix and sync remain unknown, not absent.",
+      "visual_relation": "All visual scenes; audiovisual alignment unverified",
+      "evidence": "Visual samples only; no actual audio range supplied to this reviewer."
+    },
+    {
+      "id": "A02",
+      "start": 0.07,
+      "end": 91.65,
+      "layer": "ASR draft",
+      "detail": "The coherent ASR draft names private equity and search funds, explains thesis-based company discovery, enrichment, email/phone outreach, human message review and CRM tracking, then promises first meetings. It supports the workflow order but does not verify the commercial claims. Brand and website recognition have errors.",
+      "visual_relation": "Story text support; exact audiovisual alignment and delivery unverified.",
+      "evidence": "technical-review-2026-10-19/deep-review/audio/370-speech.json; local faster-whisper base CPU int8 draft; VAD candidates only, recognition errors possible."
+    }
+  ],
+  "categories": [
+    {
+      "id": "Q01",
+      "finding": "Founder framing leads to thesis, research, outreach preparation, CRM tracking and a calendar outcome.",
+      "evidence": "V01–V07",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q02",
+      "finding": "The opening uses the founders and backing/customer claims; the problem is illustrated by scattered tables and contact cards.",
+      "evidence": "V01",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q03",
+      "finding": "The investment-thesis form and HVAC companies make deal sourcing concrete at 24–33 s.",
+      "evidence": "V02",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q04",
+      "finding": "Text fills the thesis form, company cards stack and expand, research arcs spread around the Q icon, campaign nodes build downward, a message folds into an envelope and CRM/calendar entries populate.",
+      "evidence": "V02–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q05",
+      "finding": "HVAC criteria and company names recur across the workflow, but the final meeting calendar lacks a visible reply or invitation connecting it to the outreach.",
+      "evidence": "V02–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q06",
+      "finding": "A green gradient and glowing outlines provide a consistent setting for white product cards and translucent explanatory graphics.",
+      "evidence": "V02–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q07",
+      "finding": "The staged cards isolate each concept, though email copy, scores and CRM detail remain dense and small.",
+      "evidence": "V02,V04,V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q08",
+      "finding": "The coherent ASR draft names private equity and search funds, explains thesis-based company discovery, enrichment, email/phone outreach, human message review and CRM tracking, then promises first meetings. It supports the workflow order but does not verify the commercial claims. Brand and website recognition have errors.",
+      "evidence": "A02",
+      "status": "uncertain",
+      "reason": "ASR text only; no validated listening, delivery or voice origin.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q09",
+      "finding": "Voice delivery, music, effects and audiovisual alignment were not established by this visual pass.",
+      "evidence": "A01",
+      "status": "not checked",
+      "reason": "No validated direct audio listening input.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q10",
+      "finding": "Voice delivery, music, effects and audiovisual alignment were not established by this visual pass.",
+      "evidence": "A01",
+      "status": "not checked",
+      "reason": "No validated direct audio listening input.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q11",
+      "finding": "Voice delivery, music, effects and audiovisual alignment were not established by this visual pass.",
+      "evidence": "A01",
+      "status": "not checked",
+      "reason": "No validated direct audio listening input.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q12",
+      "finding": "Founder footage, product-interface views and abstract channel/workflow graphics are combined. The editing and product implementation tools are unknown.",
+      "evidence": "V01–V07",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q13",
+      "finding": "Manifest duration 92.578s; indexed dimensions 1920×1080. Source unchanged flag recorded; fresh encoding and audio clipping checks not run.",
+      "evidence": "Group manifest",
+      "status": "uncertain",
+      "reason": "Inherited technical metadata; no fresh media probe in this review.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q14",
+      "finding": "The visual order communicates a sourcing pipeline; the draft script supplies audience, automation scope and the human-review claim.",
+      "evidence": "V01–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q15",
+      "finding": "Cards expand for research detail and then contract into the wider workflow; the calendar is reserved for the outcome.",
+      "evidence": "V02,V05,V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q16",
+      "finding": "The first 24 s are founder-led. The central minute carries the workflow, while the meeting outcome receives about six seconds.",
+      "evidence": "V01–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q17",
+      "finding": "Forms, profiles, message previews and tracking surfaces are shown. A real prospect reply or accepted meeting is not demonstrated.",
+      "evidence": "V02–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q18",
+      "finding": "The green polished surfaces and continuous pipeline suggest an organized acquisition process; this is a visual reading.",
+      "evidence": "V02–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q19",
+      "finding": "The recipient preview makes review visible before the envelope transition. The precise approval action and subsequent reply-to-booking sequence are omitted.",
+      "evidence": "V04–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q20",
+      "finding": "Company data, willingness-to-sell scores, personalization quality, customer claims and booked-meeting outcomes are not independently verified.",
+      "evidence": "V01,V02,V04,V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q21",
+      "finding": "Keeping one sector-specific thesis across research and outreach makes an abstract sales workflow easier to follow.",
+      "evidence": "V02–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q22",
+      "finding": "Show one prospect reply, the approved meeting time and the matching calendar event instead of jumping directly to a filled calendar.",
+      "evidence": "V05,V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q23",
+      "finding": "Tin can use one named campaign and recipient throughout input, draft review, response and final tracked result.",
+      "evidence": "V02–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q24",
+      "finding": "Q2Q presents a deal-sourcing workflow that turns an acquisition thesis into company research, outreach and a tracked prospect pipeline.",
+      "evidence": "Model reading from inspected images",
+      "status": "uncertain",
+      "reason": "Model-only new-viewer interpretation; no human test.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q25",
+      "finding": "Contact sheets inspected at displayed size; a phone-size playback, caption audit, flash audit and formal accessibility check were not performed.",
+      "evidence": "Viewed sheets",
+      "status": "not checked",
+      "reason": "Full-size moving-image and device checks unavailable in this pass.",
+      "experiment": "none"
+    }
+  ],
+  "lessons": {
+    "keep": "Keep one sector-specific example through research and outreach.",
+    "avoid": "Avoid presenting a populated calendar as a complete explanation of how meetings were obtained.",
+    "open": "Data accuracy, sell-likelihood scoring, actual sends, replies, booked meetings and audio properties remain unverified.",
+    "try": [
+      "For Tin, follow one recipient from research through an approved message to a response.",
+      "Connect the final calendar event to the exact reply that created it."
+    ]
+  },
+  "comparison": {
+    "story": "Introduce the team, audience and manual sourcing problem. → Turn acquisition criteria into a researched shortlist. → Explain moving the shortlist into outreach and researching across channels. → Show message preparation, multistep outreach and a review stage before sending. → Show tracking after outreach. → Present the desired meeting outcome without showing the reply-to-booking steps. → Invite the intended buyers to try the service.",
+    "motion": "Text fills the thesis form, company cards stack and expand, research arcs spread around the Q icon, campaign nodes build downward, a message folds into an envelope and CRM/calendar entries populate. Sampling scope: 1 fps unless a closer window is recorded.",
+    "sound": "No validated listening; unknown.",
+    "texture": "Green name strips and translucent UI overlays over indoor founder footage.; White form and company cards on a green gradient, with glowing outlines.; Search UI shifts into a symbolic research diagram.; White message cards, translucent workflow nodes and green background.; Campaign table and pipeline columns.; Simple query bar and white calendar.; Founder footage and a floating green website pill.",
+    "lesson": "Keep one sector-specific example through research and outreach."
+  },
+  "elements": [
+    {
+      "kind": "ui",
+      "name": "form",
+      "events": [
+        "V02"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "company profile",
+      "events": [
+        "V02"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "email",
+      "events": [
+        "V04"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "node graph",
+      "events": [
+        "V04"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "board",
+      "events": [
+        "V05"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "calendar",
+      "events": [
+        "V06"
+      ]
+    },
+    {
+      "kind": "motion",
+      "name": "cards stack and expand",
+      "events": [
+        "V02"
+      ]
+    },
+    {
+      "kind": "motion",
+      "name": "workflow nodes appear",
+      "events": [
+        "V04"
+      ]
+    }
+  ]
+}

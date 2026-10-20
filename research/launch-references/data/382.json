@@ -1,0 +1,314 @@
+{
+  "id": 382,
+  "product_from_film": "The film shows an automated laboratory with robotic handling equipment; a specific AI product or experiment is not explained.",
+  "explains_well": "Alternating close and wide views establish physical robotic work inside a larger lab facility.",
+  "unclear": "No visible text or task/result sequence explains what the equipment is testing or how AI affects the experiment.",
+  "product_type": "Automated laboratory footage",
+  "scenario": "Show enclosed robot arms, instrument stations and a wider laboratory space.",
+  "product_clear_time": null,
+  "product_clear_basis": "The sampled film has no explanatory title, UI or identifiable experiment result; the source title is not evidence of conveyed meaning.",
+  "scenes": [
+    {
+      "start": 0,
+      "end": 5,
+      "action": "A robot arm changes position inside an enclosed station above small platforms and trays. Blue light and a large circular structure sit behind it.",
+      "design": "Metal enclosure, cables, arm and blue-lit background.",
+      "purpose": "Establish automated physical equipment.",
+      "evidence": "1 fps source samples in 0–5s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V01"
+    },
+    {
+      "start": 5,
+      "end": 10,
+      "action": "Wider enclosure and side views show additional equipment and instrument movement in a purple-lit space.",
+      "design": "Glass/metal frames, indicator lights and shallow-focus equipment.",
+      "purpose": "Expand the view beyond one arm.",
+      "evidence": "1 fps source samples in 5–10s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V02"
+    },
+    {
+      "start": 10,
+      "end": 18,
+      "action": "Close views show a gripper near rectangular trays, intercut with a corridor-like view between stations. Arm and tray positions change across samples.",
+      "design": "Blue-lit hardware close-ups and dark lab aisle.",
+      "purpose": "Suggest repeated handling; a complete transfer cycle is not resolved at 1fps.",
+      "evidence": "1 fps source samples in 10–18s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V03"
+    },
+    {
+      "start": 18,
+      "end": 21.146,
+      "action": "A high wide view shows several enclosed stations and overhead lights across the lab.",
+      "design": "Purple/green illumination and repeated machinery.",
+      "purpose": "End on facility scale without a textual payoff.",
+      "evidence": "1 fps source samples in 18–21.146s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V04"
+    }
+  ],
+  "sound": [
+    {
+      "id": "A01",
+      "start": 0,
+      "end": 21.146,
+      "layer": "unknown",
+      "detail": "No speech draft is supplied. Voice, machine sound, music, effects and sync remain unverified; silence is not established.",
+      "visual_relation": "V01–V04; no heard alignment.",
+      "evidence": "Manifest speech_draft is null; sampled visual review."
+    }
+  ],
+  "categories": [
+    {
+      "id": "Q01",
+      "finding": "Single robot station → other equipment views → handling details → whole lab.",
+      "evidence": "V01–V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q02",
+      "finding": "An enclosed arm and blue-lit station appear immediately, establishing machinery but no task.",
+      "evidence": "V01",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q03",
+      "finding": "Automated lab work is the visible subject; product, intended user and experiment goal are not established.",
+      "evidence": "V01–V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q04",
+      "finding": "Robot positions change around trays and stations; the sampled views do not resolve a full pick/place path or timing.",
+      "evidence": "V01–V03",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q05",
+      "finding": "Close hardware views alternate with enclosure and aisle views, ending wider. Exact cut times are not checked.",
+      "evidence": "V01–V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q06",
+      "finding": "Dark metallic equipment, glass reflections and blue/purple/green light dominate.",
+      "evidence": "V01–V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q07",
+      "finding": "No explanatory on-screen text or readable workflow UI appears in the inspected samples. Small instrument displays do not explain the story.",
+      "evidence": "V01–V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q08",
+      "finding": "Voice delivery is unverified.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "No validated listening.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q09",
+      "finding": "Music character and structure are unverified.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "No validated listening.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q10",
+      "finding": "Effects and their sources are unverified.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "No validated listening; waveform peaks do not identify effects.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q11",
+      "finding": "Sound sync is unverified.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "No validated listening or paired audiovisual timing.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q12",
+      "finding": "The film consists of laboratory-looking footage. Facility identity, footage origin and relation to the titled experiment are unverified.",
+      "evidence": "V01–V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q13",
+      "finding": "Source duration 21.146 s; Watch metadata 1280 × 960. Frame rate, audio clipping and export quality not checked here.",
+      "evidence": "Whole film",
+      "status": "supported",
+      "reason": "Parent source metadata supports duration and dimensions; visual review is sampled.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q14",
+      "finding": "Without verified audio, only automated laboratory activity and scale are clear.",
+      "evidence": "V01–V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q15",
+      "finding": "Bright blue and purple lights draw attention to moving hardware; the wide ending reveals the environment.",
+      "evidence": "V01–V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q16",
+      "finding": "Few explicit ideas are presented in 21s; the missing task label limits meaning more than visual density.",
+      "evidence": "V01–V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q17",
+      "finding": "The opening machinery receives more machinery and a wider facility view, without an experiment outcome.",
+      "evidence": "V01–V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q18",
+      "finding": "Robotic activity and colored lighting suggest technical sophistication; viewer response is unmeasured.",
+      "evidence": "V01–V04",
+      "status": "uncertain",
+      "reason": "Visual interpretation only.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q19",
+      "finding": "Repeated enclosures, trays and lighting unify the montage; no labeled sample is traceable across views.",
+      "evidence": "V01–V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q20",
+      "finding": "The source title’s GPT-5, closed-loop experiment and 40% cost-reduction claims are not explained or verified by this film-only visual evidence.",
+      "evidence": "V01–V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q21",
+      "finding": "Physical lab hardware is concrete, but no visible brand or unique experiment distinguishes the product story.",
+      "evidence": "V01–V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q22",
+      "finding": "Add a minimal task/result link.",
+      "evidence": "V01–V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "Label one experiment input, show its tray entering a named station and end on the measured result and next chosen experiment."
+    },
+    {
+      "id": "Q23",
+      "finding": "For Tin, use operational footage as supporting evidence.",
+      "evidence": "V01–V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "Pair each short process view with the campaign input or output it represents, then show the resulting artifact."
+    },
+    {
+      "id": "Q24",
+      "finding": "No human new-viewer test was performed.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "The product summary is this model’s film-only reading.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q25",
+      "finding": "Mobile preview and accessibility checks were not performed.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "Contact sheets are evidence views, not a stated mobile preview or compliance test.",
+      "experiment": "none"
+    }
+  ],
+  "elements": [
+    {
+      "kind": "texture",
+      "name": "robot hardware",
+      "events": [
+        "V01",
+        "V02",
+        "V03"
+      ]
+    },
+    {
+      "kind": "texture",
+      "name": "lab footage",
+      "events": [
+        "V01",
+        "V02",
+        "V03",
+        "V04"
+      ]
+    },
+    {
+      "kind": "texture",
+      "name": "colored equipment lighting",
+      "events": [
+        "V01",
+        "V02",
+        "V03",
+        "V04"
+      ]
+    }
+  ],
+  "lessons": {
+    "keep": "Alternate close mechanical detail with a final view of the whole operating space.",
+    "try": [
+      "Trace a labeled sample through a station to its result and next experiment.",
+      "For Tin, pair process views with named inputs/outputs and a final artifact."
+    ],
+    "avoid": "Expecting attractive hardware footage to explain an AI experiment or measured benefit.",
+    "open": "Experiment identity, AI role, closed-loop behavior, cost result, exact handling motion and all audio qualities remain unverified."
+  },
+  "comparison": {
+    "story": "Hardware montage ending on scale.",
+    "motion": "Changing robot positions; complete handling cycles unresolved.",
+    "sound": "No draft or validated listening.",
+    "texture": "Metal/glass lab with blue and purple light.",
+    "lesson": "Physical activity provides context, but a technical outcome needs labels and a traceable task."
+  },
+  "reviewer_model": "gpt-6-astra",
+  "scope": "sampled visual and story review; ASR and measured signal support; no validated audio listening",
+  "viewed_evidence": [
+    "technical-review-2026-10-19/deep-review/motion/382/timeline-00.jpg"
+  ],
+  "closer_windows": []
+}

@@ -1,0 +1,363 @@
+{
+  "id": 317,
+  "viewed_evidence": [
+    "technical-review-2026-10-19/deep-review/motion/317/timeline-00.jpg",
+    "technical-review-2026-10-19/deep-review/motion/317/timeline-01.jpg",
+    "astra-review-2026-10-20/evidence/group-3/317/dense.jpg",
+    "technical-review-2026-10-19/deep-review/audio/317-speech.json"
+  ],
+  "product_from_film": "Webild creates a personal portfolio website, illustrated through a fictional job-seeking scene.",
+  "explains_well": "The portfolio stays visible long enough to show its projects, services, biography and resources.",
+  "unclear": "The story shows a finished portfolio appearing, but never shows what information the user supplied or how the site was edited.",
+  "product_type": "portfolio website builder",
+  "scenario": "Create a personal portfolio to present work in a job application",
+  "product_clear_time": 18,
+  "product_clear_basis": "Hello I am Lorenzo portfolio appears after candidate script names personal-portfolio creation.",
+  "scenes": [
+    {
+      "start": 0,
+      "end": 7,
+      "action": "Man sits on park bench with laptop as giant job-application windows surround him.",
+      "design": "Old desktop-window styling with profile photos and application fields.",
+      "purpose": "Set hiring context",
+      "id": "V01",
+      "evidence": "Visible 1 fps samples, source 0–7s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 7,
+      "end": 14,
+      "action": "Another man approaches in sunglasses; subtitles identify Webild CEO and needing the job.",
+      "design": "Outdoor live-action close-ups.",
+      "purpose": "Set up applicant joke",
+      "id": "V02",
+      "evidence": "Visible 1 fps samples, source 7–14s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 14,
+      "end": 18.5,
+      "action": "Purple orb appears before applicant, then disappears; white portfolio panel materialises.",
+      "design": "Glowing orb replaced by floating website.",
+      "purpose": "Introduce creation",
+      "id": "V03",
+      "evidence": "Visible 1 fps samples, source 14–18.5s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 18.5,
+      "end": 31,
+      "action": "Portfolio scrolls through Hello I am Lorenzo, project cards, services, biography and resources.",
+      "design": "Large white page with dark type over blurred park.",
+      "purpose": "Show output",
+      "id": "V04",
+      "evidence": "Visible 1 fps samples, source 18.5–31s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 31,
+      "end": 36,
+      "action": "Portfolio replaces an application window near bench, then view returns toward applicant.",
+      "design": "Floating page among old application panels.",
+      "purpose": "Present portfolio",
+      "id": "V05",
+      "evidence": "Visible 1 fps samples, source 31–36s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 36,
+      "end": 44,
+      "action": "Applicant asks opinion; seated man replies that he is already the CPO and tells him to return to work.",
+      "design": "Alternating faces and subtitles.",
+      "purpose": "Deliver joke",
+      "id": "V06",
+      "evidence": "Visible 1 fps samples, source 36–44s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 44,
+      "end": 47.047,
+      "action": "Build your personal portfolio and Webild close on white.",
+      "design": "Simple centred text.",
+      "purpose": "Name use case",
+      "id": "V07",
+      "evidence": "Visible 1 fps samples, source 44–47.047s; boundaries approximate, between-frame action unresolved."
+    }
+  ],
+  "sound": [
+    {
+      "id": "A01",
+      "start": 0,
+      "end": 47.047,
+      "layer": "unknown",
+      "detail": "No validated audio listening; speech, music, effects, mix and sync remain unverified.",
+      "visual_relation": "All visual scenes; alignment not checked",
+      "evidence": "No actual audio supplied to this review; existing technical-review-2026-10-19/deep-review/audio/317.json is not listening evidence."
+    },
+    {
+      "id": "A02",
+      "start": 9.61,
+      "end": 43.56,
+      "layer": "ASR draft",
+      "detail": "Candidate dialogue supports job-seeking setup, personal-portfolio creation and already-my-CPO punchline. Reject garbled CEO we both and Are you done wording; visible subtitles are primary where they differ. No heard delivery or music judgment.",
+      "visual_relation": "V02–V03, V06; candidate script only",
+      "evidence": "technical-review-2026-10-19/deep-review/audio/317-speech.json; existing faster-whisper base CPU int8"
+    }
+  ],
+  "categories": [
+    {
+      "finding": "Job-application context leads to magical portfolio creation, output tour and colleague joke. The final line makes the use case clear, but the creation steps stay hidden.",
+      "evidence": "V01–V07",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q01"
+    },
+    {
+      "finding": "Giant application windows establish the hiring theme and make the park scene unusual.",
+      "evidence": "V01",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q02"
+    },
+    {
+      "finding": "The named portfolio at roughly 18 s gives a recognisable output; the final text explicitly states personal portfolios.",
+      "evidence": "V04, V07",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q03"
+    },
+    {
+      "finding": "Dense 17–20 s frames show orb disappearance, brief unobstructed park, then a white portfolio panel enlarging into view. The page starts scrolling after it settles. Exact easing is unresolved.",
+      "evidence": "V03–V04; dense 17–20 s",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q04"
+    },
+    {
+      "finding": "The new portfolio moves into the same visual space as old application forms, connecting the output to the opening problem.",
+      "evidence": "V01, V05",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q05"
+    },
+    {
+      "finding": "Natural park light and soft background blur frame floating white windows. The purple orb supplies the main fantasy accent.",
+      "evidence": "V01–V05",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q06"
+    },
+    {
+      "finding": "Portfolio section headings and dialogue subtitles are readable at larger size. Full project details and small application fields remain secondary.",
+      "evidence": "V01, V04, V06",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q07"
+    },
+    {
+      "finding": "Voice presence and delivery remain unverified.",
+      "evidence": "No validated audio listening",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q08"
+    },
+    {
+      "finding": "Music character and arc remain unverified.",
+      "evidence": "No validated audio listening",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q09"
+    },
+    {
+      "finding": "Sound effects remain unverified.",
+      "evidence": "No validated audio listening",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q10"
+    },
+    {
+      "finding": "Sound-to-motion timing remain unverified.",
+      "evidence": "No validated audio listening",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q11"
+    },
+    {
+      "finding": "Live-action park dialogue combines with composited application panels, glowing orb and a scrolling website. Production tools are unknown.",
+      "evidence": "V01–V06",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q12"
+    },
+    {
+      "finding": "Source duration supplied as 47.047s; no independent compression, clipping or delivery check.",
+      "evidence": "Assigned metadata; source integrity checked by parent",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q13"
+    },
+    {
+      "finding": "Subtitles support the hiring joke, and the final card names the use case. The reason the orb creates this exact content is not explained visually.",
+      "evidence": "V02–V07",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q14"
+    },
+    {
+      "finding": "The large white portfolio becomes the clear focal point over the blurred park; scrolling exposes several useful sections.",
+      "evidence": "V04",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q15"
+    },
+    {
+      "finding": "The output tour gets about 12 s, which is useful. A small part of the 14 s setup could show the missing brief or content input.",
+      "evidence": "V01–V04",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q16"
+    },
+    {
+      "finding": "The portfolio demonstrates a possible presentation of projects and biography. It does not demonstrate how a user supplies those assets or changes the design.",
+      "evidence": "V04",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q17"
+    },
+    {
+      "finding": "The mistaken job-seeker setup and CPO reveal appear intended as a founder-team joke. Its humour depends on understanding that relationship; response was not measured.",
+      "evidence": "V02, V06",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q18"
+    },
+    {
+      "finding": "Lorenzo identity persists from the applicant through the portfolio and dialogue. The final CPO reveal reframes the job need as a joke.",
+      "evidence": "V02, V04, V06",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q19"
+    },
+    {
+      "finding": "Finished website states are visible, but creation time, asset sourcing and employment results are not verified. The surrounding application profiles are story props, not hiring evidence.",
+      "evidence": "V01–V06",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q20"
+    },
+    {
+      "finding": "The portfolio replacing an old application window turns the product output into part of the story world.",
+      "evidence": "V05",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q21"
+    },
+    {
+      "finding": "Show a short input containing Lorenzo name, projects and role before the orb reveal, then one editable site choice.",
+      "evidence": "V03–V04",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q22"
+    },
+    {
+      "finding": "Let the generated artifact enter the story setting, but show enough input to explain why the output is relevant.",
+      "evidence": "V03–V05",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q23"
+    },
+    {
+      "finding": "No human new-viewer test; product description above is model interpretation of sampled images.",
+      "evidence": "V01–V07",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q24"
+    },
+    {
+      "finding": "No phone-size, safe-area or flash assessment; small UI text needs separate preview.",
+      "evidence": "Contact sheets",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q25"
+    }
+  ],
+  "lessons": {
+    "keep": "Keep the portfolio tour and its placement among application windows.",
+    "try": [
+      "Use three seconds of the opening to show Lorenzo supplying his projects and role before the portfolio appears.",
+      "Add one visible edit to the portfolio headline, then return to the reaction joke."
+    ],
+    "avoid": "Avoid presenting a finished portfolio as a magical result without its content source.",
+    "open": "Audio is unheard. Generation workflow, content accuracy and publishing behaviour remain unverified."
+  },
+  "comparison": {
+    "story": "Set hiring context → Set up applicant joke → Introduce creation → Show output → Present portfolio → Deliver joke → Name use case",
+    "motion": "Dense 17–20 s frames show orb disappearance, brief unobstructed park, then a white portfolio panel enlarging into view. The page starts scrolling after it settles. Exact easing is unresolved.",
+    "sound": "No validated listening; no absence claims.",
+    "texture": "Natural park light and soft background blur frame floating white windows. The purple orb supplies the main fantasy accent.",
+    "lesson": "Keep the portfolio tour and its placement among application windows."
+  },
+  "elements": [
+    {
+      "kind": "ui",
+      "name": "application form",
+      "events": [
+        "V01"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "portfolio website",
+      "events": [
+        "V04",
+        "V05"
+      ]
+    },
+    {
+      "kind": "motion",
+      "name": "panel reveal",
+      "events": [
+        "V03"
+      ]
+    },
+    {
+      "kind": "motion",
+      "name": "scroll",
+      "events": [
+        "V04"
+      ]
+    }
+  ],
+  "reviewer_model": "gpt-6-astra",
+  "scope": "sampled visual and story review; ASR and measured signal support; no validated audio listening",
+  "closer_windows": [
+    {
+      "start": 17,
+      "end": 20,
+      "rate_fps": 4,
+      "evidence": [
+        "astra-review-2026-10-20/evidence/group-3/317/dense.jpg"
+      ],
+      "resolved": "Orb disappears, park briefly clears, then portfolio panel appears and enlarges before scrolling."
+    }
+  ]
+}

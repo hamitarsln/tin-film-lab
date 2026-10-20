@@ -1,0 +1,345 @@
+{
+  "id": 402,
+  "product_from_film": "Shofo describes a searchable short-video index for building AI training datasets.",
+  "explains_well": "The example combines topic, language, likes and comment words into one precise dataset request.",
+  "unclear": "The query is illustrated with text and clips, but no actual search result or dataset export is shown.",
+  "product_type": "AI training data platform",
+  "scenario": "Find Spanish makeup videos with 500k likes and comments mentioning natural or glowing.",
+  "product_clear_time": 25,
+  "product_clear_basis": "Captions connect collected, cleaned and labeled social videos to datasets for AI models by 25s.",
+  "scenes": [
+    {
+      "start": 0,
+      "end": 14,
+      "action": "A narrow rounded video panel cycles through people, sport, baby and dance clips; 10¹³ posts on social media overlays it before black.",
+      "design": "Black field and vertical social-video crops.",
+      "purpose": "Introduce abundant source material.",
+      "evidence": "1 fps source samples in 0–14s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V01"
+    },
+    {
+      "start": 14,
+      "end": 29,
+      "action": "A presenter stands at a campus gate. Large WORLD’S LARGEST INDEX text appears behind him; captions explain collection and datasets.",
+      "design": "Outdoor light, large white headline and small subtitles.",
+      "purpose": "Introduce founder and product purpose.",
+      "evidence": "1 fps source samples in 14–29s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V02"
+    },
+    {
+      "start": 29,
+      "end": 39,
+      "action": "Purple arcs surround the 75% claim, a small video and data-room imagery with reaction icons.",
+      "design": "Glowing purple field and layered data graphics.",
+      "purpose": "Illustrate collection from platforms.",
+      "evidence": "1 fps source samples in 29–39s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V03"
+    },
+    {
+      "start": 39,
+      "end": 48,
+      "action": "A particle globe carries Creator Demographics, Audio Information, Transcripts and Engagement; the presenter returns indoors.",
+      "design": "Purple data globe then beige room.",
+      "purpose": "Describe attributes and semantic search.",
+      "evidence": "1 fps source samples in 39–48s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V04"
+    },
+    {
+      "start": 48,
+      "end": 60,
+      "action": "Makeup videos narrated in Spanish with 500k likes appears above the presenter; natural/glowing labels and makeup clips follow.",
+      "design": "Large query text and video collage.",
+      "purpose": "Give a specific dataset example.",
+      "evidence": "1 fps source samples in 48–60s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V05"
+    },
+    {
+      "start": 60,
+      "end": 68,
+      "action": "Presenter captions announce a Hugging Face dataset and shofo.ai destination.",
+      "design": "Simple seated presentation.",
+      "purpose": "Invite dataset use.",
+      "evidence": "1 fps source samples in 60–68s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V06"
+    },
+    {
+      "start": 68,
+      "end": 71.671,
+      "action": "Black leads to purple Shofo wordmark and glowing arcs.",
+      "design": "Purple-on-black identity.",
+      "purpose": "Close with brand.",
+      "evidence": "1 fps source samples in 68–71.671s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V07"
+    }
+  ],
+  "sound": [
+    {
+      "id": "A01",
+      "start": 0,
+      "end": 71.671,
+      "layer": "ASR draft",
+      "detail": "Founder draft supports collection, cleaning, labeling, semantic search, the makeup dataset example and a dataset release. Product name and some technical words are garbled; captions clarify broad meaning. Opening isolated phrases are not used as product evidence. Delivery, music and effects unknown.",
+      "visual_relation": "V02–V06; alignment not acoustically checked.",
+      "evidence": "402-speech.json and visible captions; no validated listening."
+    }
+  ],
+  "categories": [
+    {
+      "id": "Q01",
+      "finding": "Social-video abundance → founder/index → collection/attributes → targeted query → dataset invitation.",
+      "evidence": "V01–V07",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q02",
+      "finding": "One small vertical clip on black shows a person addressing camera; the AI-data use is not yet apparent.",
+      "evidence": "V01",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q03",
+      "finding": "AI model datasets are named by 25s; AI labs get a precise example at 48s.",
+      "evidence": "V02,V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q04",
+      "finding": "The video panel changes scale and content; large text layers behind the presenter, and data graphics change around a globe. Exact motion unresolved.",
+      "evidence": "V01–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q05",
+      "finding": "Recurring purple graphics connect abstract data scenes; the founder connects outdoor introduction to indoor explanation.",
+      "evidence": "V02–V07",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q06",
+      "finding": "Black, neon purple and dense data imagery contrast with natural outdoor and beige indoor footage.",
+      "evidence": "V01–V07",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q07",
+      "finding": "Subtitles retain the explanation. Query words are larger and more useful than the abstract data-room labels.",
+      "evidence": "V03–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q08",
+      "finding": "ASR and captions explain the pipeline and example; vocal qualities unassessed.",
+      "evidence": "A01",
+      "status": "uncertain",
+      "reason": "Transcript only.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q09",
+      "finding": "Music character and structure are unverified.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "No validated listening.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q10",
+      "finding": "Effects and their sources are unverified.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "No validated listening; waveform peaks do not identify effects.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q11",
+      "finding": "Sound sync is unverified.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "No validated listening or paired audiovisual timing.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q12",
+      "finding": "Social-looking clips, founder footage, data graphics and makeup collage appear; sources and licenses unknown.",
+      "evidence": "V01–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q13",
+      "finding": "Source duration 71.671 s; Watch metadata 1920 × 1080. Frame rate, audio clipping and export quality not checked here.",
+      "evidence": "Whole film",
+      "status": "supported",
+      "reason": "Parent source metadata supports duration and dimensions; visual review is sampled.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q14",
+      "finding": "Captions and query overlays convey the offer silently, though the real interface is absent.",
+      "evidence": "V02–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q15",
+      "finding": "Single centered clips lead to founder, then large query terms; dense data backgrounds compete with the smaller subtitles.",
+      "evidence": "V01–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q16",
+      "finding": "Four attribute categories move quickly at 40–43s; the longer query example gives them practical meaning.",
+      "evidence": "V04,V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q17",
+      "finding": "Opening abundance pays off as a narrow dataset request, but the resulting dataset stays illustrative.",
+      "evidence": "V01,V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q18",
+      "finding": "Scale claims and founder story suggest ambition; actual response unmeasured.",
+      "evidence": "V02,V03",
+      "status": "uncertain",
+      "reason": "Visual/script interpretation.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q19",
+      "finding": "The makeup example makes the attribute list concrete; no selected clip metadata traces all filters.",
+      "evidence": "V04,V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q20",
+      "finding": "Largest index, 75%, billions of hours, dataset scale and search accuracy are film claims, not verified. The query is a concept illustration.",
+      "evidence": "V02–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q21",
+      "finding": "The precise makeup query is more specific than generic data-globe imagery.",
+      "evidence": "V04,V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q22",
+      "finding": "Show one returned record.",
+      "evidence": "V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "Run the makeup query and open one clip’s language, likes and matching comment fields before export."
+    },
+    {
+      "id": "Q23",
+      "finding": "Explain complex filtering with one accumulating request.",
+      "evidence": "V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "For Tin, build a campaign-reference query from industry, format and visual style, then open a matching result."
+    },
+    {
+      "id": "Q24",
+      "finding": "No human new-viewer test was performed.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "The product summary is this model’s film-only reading.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q25",
+      "finding": "Mobile preview and accessibility checks were not performed.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "Contact sheets are evidence views, not a stated mobile preview or compliance test.",
+      "experiment": "none"
+    }
+  ],
+  "elements": [
+    {
+      "kind": "ui",
+      "name": "video panel",
+      "events": [
+        "V01",
+        "V03",
+        "V05"
+      ]
+    },
+    {
+      "kind": "motion",
+      "name": "text behind presenter",
+      "events": [
+        "V02"
+      ]
+    },
+    {
+      "kind": "texture",
+      "name": "glowing purple arcs",
+      "events": [
+        "V03",
+        "V07"
+      ]
+    },
+    {
+      "kind": "texture",
+      "name": "particle globe",
+      "events": [
+        "V04"
+      ]
+    }
+  ],
+  "lessons": {
+    "keep": "Combine several data attributes into one understandable example.",
+    "try": [
+      "Open one result and show how its fields match the query.",
+      "For Tin, build a reference query one filter at a time and inspect a result."
+    ],
+    "avoid": "Replacing the actual data output with generic data imagery.",
+    "open": "Scale, search behavior, dataset release, source rights and sound remain unverified."
+  },
+  "comparison": {
+    "story": "Abundance → index pipeline → precise dataset example.",
+    "motion": "Changing video panels, text layering and data graphics.",
+    "sound": "ASR/captions only; acoustic design unknown.",
+    "texture": "Purple glow, dark data fields and founder footage.",
+    "lesson": "A concrete multi-filter query explains an abstract data service."
+  },
+  "reviewer_model": "gpt-6-astra",
+  "scope": "sampled visual and story review; ASR and measured signal support; no validated audio listening",
+  "viewed_evidence": [
+    "technical-review-2026-10-19/deep-review/motion/402/timeline-00.jpg",
+    "technical-review-2026-10-19/deep-review/motion/402/timeline-01.jpg",
+    "technical-review-2026-10-19/deep-review/motion/402/timeline-02.jpg"
+  ],
+  "closer_windows": []
+}

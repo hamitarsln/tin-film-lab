@@ -1,0 +1,346 @@
+{
+  "id": 202,
+  "reviewer_model": "gpt-6-astra",
+  "scope": "sampled visual and story review; ASR and measured signal support; no validated audio listening",
+  "viewed_evidence": [
+    "technical-review-2026-10-19/deep-review/motion/202/timeline-00.jpg",
+    "technical-review-2026-10-19/deep-review/motion/202/timeline-01.jpg",
+    "technical-review-2026-10-19/deep-review/motion/202/timeline-02.jpg",
+    "technical-review-2026-10-19/deep-review/audio/202-speech.json"
+  ],
+  "closer_windows": [],
+  "product_from_film": "Andustry helps industrial buyers request parts and find sourcing quotes through a simple message.",
+  "explains_well": "Paperwork, travel and supplier meetings make the existing sourcing burden concrete.",
+  "unclear": "The request is shown, but the returned quote and choice between suppliers are too small or absent to follow.",
+  "product_type": "industrial sourcing",
+  "scenario": "Ask for industrial screws by message instead of manually finding and coordinating suppliers.",
+  "product_clear_time": 33,
+  "product_clear_basis": "A phone message requests a quantity and specification of screws from Andustry.",
+  "scenes": [
+    {
+      "id": "V01",
+      "start": 0,
+      "end": 9,
+      "action": "Andustry branding overlays a warehouse image and two founders in an industrial hall. Desk paperwork and a manufacturing insert introduce slow sourcing.",
+      "design": "White frames, bold wordmark and industrial machinery behind speakers.",
+      "purpose": "Establish the category and problem.",
+      "evidence": "Visible chronological 1 fps samples, source 0–9s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V02",
+      "start": 9,
+      "end": 21,
+      "action": "A hand writes on paper; a laptop shows parts while traveling; a suitcase, trade-show handshakes and order paperwork alternate with a founder.",
+      "design": "First-person work details and supplier-event footage.",
+      "purpose": "List manual sourcing steps.",
+      "evidence": "Visible chronological 1 fps samples, source 9–21s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V03",
+      "start": 21,
+      "end": 31,
+      "action": "Founders describe inconvenience while a hand waits at the desk. Warehouse phone and laptop inserts lead to the question of time spent on a quote.",
+      "design": "Repeated desk view and small inset footage on white.",
+      "purpose": "Emphasize delay and open the alternative.",
+      "evidence": "Visible chronological 1 fps samples, source 21–31s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V04",
+      "start": 31,
+      "end": 41,
+      "action": "A phone user types and sends a screw request. The phone image moves into a white layout beside 30% cost saving and sourcing time halved.",
+      "design": "Messaging interface and large black numeric claims.",
+      "purpose": "Present simple input and claimed benefit.",
+      "evidence": "Visible chronological 1 fps samples, source 31–41s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V05",
+      "start": 41,
+      "end": 50,
+      "action": "The same phone sits beside four smaller typing/phone views as captions explain finding quotes tailored to requirements. Founders return.",
+      "design": "Phone plus small image grid; plain captions.",
+      "purpose": "Describe the sourcing service.",
+      "evidence": "Visible chronological 1 fps samples, source 41–50s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V06",
+      "start": 50,
+      "end": 61.733,
+      "action": "Laptop and phone-user inserts lead to a founder invitation to place an order, then a long Andustry logo hold on black.",
+      "design": "White-framed inserts and monochrome brand ending.",
+      "purpose": "Invite the next order.",
+      "evidence": "Visible chronological 1 fps samples, source 50–61.733s; boundary approximate; exact motion between samples unverified."
+    }
+  ],
+  "sound": [
+    {
+      "id": "A01",
+      "start": 0,
+      "end": 61.733,
+      "layer": "unknown",
+      "detail": "No validated direct audio listening was performed. Music, speech delivery, effects, mix and sync remain unknown, not absent.",
+      "visual_relation": "All visual scenes; audiovisual alignment unverified",
+      "evidence": "Visual samples only; no actual audio range supplied to this reviewer."
+    },
+    {
+      "id": "A02",
+      "start": 3.39,
+      "end": 55.26,
+      "layer": "ASR draft",
+      "detail": "ASR draft supports manual sourcing, trade shows, order coordination and the savings pitch. Later product names and quote-related phrases are poorly recognized, so they are not quoted as dialogue. Visible captions support the broad request-to-quote idea. Delivery and soundtrack were not heard.",
+      "visual_relation": "Story text support; exact audiovisual alignment and delivery unverified.",
+      "evidence": "technical-review-2026-10-19/deep-review/audio/202-speech.json; local faster-whisper base CPU int8 draft; VAD candidates only, recognition errors possible."
+    }
+  ],
+  "categories": [
+    {
+      "id": "Q01",
+      "finding": "Manual sourcing, travel and waiting lead to a message-based request and claimed savings.",
+      "evidence": "V01–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q02",
+      "finding": "Warehouse image and large Andustry logo establish industrial context before explaining the offer.",
+      "evidence": "V01",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q03",
+      "finding": "Industrial sourcing is clear from the problem; the message request makes the alternative tangible around 33 s.",
+      "evidence": "V02,V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q04",
+      "finding": "Full-frame footage alternates with smaller white-framed layouts; the phone request becomes part of a split metrics composition. Exact transition paths are unresolved.",
+      "evidence": "V03–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q05",
+      "finding": "Repeated desk paperwork and phone views give continuity across founder explanations and travel inserts.",
+      "evidence": "V02–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q06",
+      "finding": "Metal machinery, paper stacks and practical work footage support a grounded industrial setting; white margins simplify the benefit section.",
+      "evidence": "V01–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q07",
+      "finding": "Large savings claims are easy to read; the detailed message and quote content need a closer, longer presentation.",
+      "evidence": "V04,V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q08",
+      "finding": "ASR draft supports manual sourcing, trade shows, order coordination and the savings pitch. Later product names and quote-related phrases are poorly recognized, so they are not quoted as dialogue. Visible captions support the broad request-to-quote idea. Delivery and soundtrack were not heard.",
+      "evidence": "A02",
+      "status": "uncertain",
+      "reason": "ASR text only; no validated listening, delivery or voice origin.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q09",
+      "finding": "Voice delivery, music, effects and audiovisual alignment were not established by this visual pass.",
+      "evidence": "A01",
+      "status": "not checked",
+      "reason": "No validated direct audio listening input.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q10",
+      "finding": "Voice delivery, music, effects and audiovisual alignment were not established by this visual pass.",
+      "evidence": "A01",
+      "status": "not checked",
+      "reason": "No validated direct audio listening input.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q11",
+      "finding": "Voice delivery, music, effects and audiovisual alignment were not established by this visual pass.",
+      "evidence": "A01",
+      "status": "not checked",
+      "reason": "No validated direct audio listening input.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q12",
+      "finding": "Founder interviews, first-person task footage, supplier meetings and phone captures are mixed; provenance and actual transaction continuity are unknown.",
+      "evidence": "V01–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q13",
+      "finding": "Manifest duration 61.733s; indexed dimensions 1920×1080. Source unchanged flag recorded; fresh encoding and audio clipping checks not run.",
+      "evidence": "Group manifest",
+      "status": "uncertain",
+      "reason": "Inherited technical metadata; no fresh media probe in this review.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q14",
+      "finding": "Captions and sourcing imagery explain the problem; the phone request suggests the solution, but the returned offer is not clear.",
+      "evidence": "V02,V04,V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q15",
+      "finding": "The phone is the main artifact, then large 30% and HALVED text take priority over interface details.",
+      "evidence": "V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q16",
+      "finding": "About half the film builds the problem, leaving a short request-and-benefit section without a full quote comparison.",
+      "evidence": "V01–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q17",
+      "finding": "The manual-work opening receives a simpler input promise; an actual sourced part or completed order is not shown.",
+      "evidence": "V02,V04–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q18",
+      "finding": "Repeated paperwork and waiting suggest frustration; simple messaging and large savings imply relief.",
+      "evidence": "V02–V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q19",
+      "finding": "The phone request stays visible through benefits, but no clear supplier response preserves the requested specification.",
+      "evidence": "V04,V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q20",
+      "finding": "A request is shown; 30% savings and halved sourcing time have no visible case dates, baseline or completed order evidence.",
+      "evidence": "V04,V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q21",
+      "finding": "Specific industrial parts, sourcing travel and machinery distinguish the offer from generic AI assistance.",
+      "evidence": "V01,V02,V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q22",
+      "finding": "Replace one waiting or travel insert with a readable returned quote and the buyer choosing it.",
+      "evidence": "V03,V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q23",
+      "finding": "Tin can show a tedious manual brief process followed by one simple request and a concrete deliverable; preserve the request details in the output.",
+      "evidence": "V02,V04,V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q24",
+      "finding": "Andustry helps industrial buyers request parts and find sourcing quotes through a simple message.",
+      "evidence": "Model reading from inspected images",
+      "status": "uncertain",
+      "reason": "Model-only new-viewer interpretation; no human test.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q25",
+      "finding": "Contact sheets inspected at displayed size; a phone-size playback, caption audit, flash audit and formal accessibility check were not performed.",
+      "evidence": "Viewed sheets",
+      "status": "not checked",
+      "reason": "Full-size moving-image and device checks unavailable in this pass.",
+      "experiment": "none"
+    }
+  ],
+  "lessons": {
+    "keep": "Make the old workflow tangible with specific physical tasks before simplifying the input.",
+    "avoid": "Avoid giving savings claims more screen space than the output that explains them.",
+    "open": "Quote quality, savings baseline, order completion, source provenance, exact transitions and audio delivery remain unverified.",
+    "try": [
+      "Show a Tin brief copied across tools, then one message producing a readable campaign plan with the same requirements.",
+      "Keep a part specification highlighted from request through two quotes and the selected order."
+    ]
+  },
+  "comparison": {
+    "story": "Establish the category and problem. → List manual sourcing steps. → Emphasize delay and open the alternative. → Present simple input and claimed benefit. → Describe the sourcing service. → Invite the next order.",
+    "motion": "Full-frame footage alternates with smaller white-framed layouts; the phone request becomes part of a split metrics composition. Exact transition paths are unresolved. Sampling scope: 1 fps unless a closer window is recorded.",
+    "sound": "No validated listening; unknown.",
+    "texture": "White frames, bold wordmark and industrial machinery behind speakers.; First-person work details and supplier-event footage.; Repeated desk view and small inset footage on white.; Messaging interface and large black numeric claims.; Phone plus small image grid; plain captions.; White-framed inserts and monochrome brand ending.",
+    "lesson": "Make the old workflow tangible with specific physical tasks before simplifying the input."
+  },
+  "elements": [
+    {
+      "kind": "ui",
+      "name": "phone messaging",
+      "events": [
+        "V04",
+        "V05"
+      ]
+    },
+    {
+      "kind": "texture",
+      "name": "paperwork",
+      "events": [
+        "V02",
+        "V03"
+      ]
+    },
+    {
+      "kind": "texture",
+      "name": "industrial machinery",
+      "events": [
+        "V01"
+      ]
+    },
+    {
+      "kind": "motion",
+      "name": "split layout",
+      "events": [
+        "V04",
+        "V05"
+      ]
+    }
+  ]
+}

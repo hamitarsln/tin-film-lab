@@ -1,0 +1,384 @@
+{
+  "id": 306,
+  "product_from_film": "Runable 2.0 is an AI workspace for planning and making slides, websites, media and agents from prompts.",
+  "explains_well": "One restaurant expansion brief leads to a site, partner deck, promo video and social carousel, making the range of outputs concrete.",
+  "unclear": "The booking example stops at a request to the voice interface; it does not show a confirmed reservation or the resulting booking record.",
+  "product_type": "AI creation workspace",
+  "scenario": "A founder introduces planning and editing controls, then uses a restaurant launch to connect several outputs.",
+  "product_clear_time": 13,
+  "product_clear_basis": "The ASR draft names slides and full-stack websites around 12–19s; later product screens demonstrate these output types.",
+  "scenes": [
+    {
+      "start": 0,
+      "end": 24,
+      "action": "Runable mark, founder introduction, a 500,000-user claim and tool icons lead to the Runable 2.0 title.",
+      "design": "White studio, black type and numeric overlays.",
+      "purpose": "Establish maker and release.",
+      "evidence": "1 fps source samples in 0–24s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V01"
+    },
+    {
+      "start": 24,
+      "end": 45,
+      "action": "A benchmark chart claims 92.1%; connected dots and Website, Slides, Videos and Research labels expand the scope before the founder returns.",
+      "design": "Simple chart, black network graphic and labeled pills.",
+      "purpose": "Frame breadth and claimed capability.",
+      "evidence": "1 fps source samples in 24–45s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V02"
+    },
+    {
+      "start": 45,
+      "end": 60,
+      "action": "The workspace asks questions, shows a plan and template choices, then an Approve Plan control and execution states lead to a car-detailing deck.",
+      "design": "White chat, plan and slide interfaces.",
+      "purpose": "Explain planning before generation.",
+      "evidence": "1 fps source samples in 45–60s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V03"
+    },
+    {
+      "start": 60,
+      "end": 81,
+      "action": "Car-detailing slides are edited. Rollback and fork dialogs lead to alternate chat and plan views.",
+      "design": "Deck preview beside conversation and dialogs.",
+      "purpose": "Show ways to revise and branch work.",
+      "evidence": "1 fps source samples in 60–81s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V04"
+    },
+    {
+      "start": 81,
+      "end": 94,
+      "action": "An image prompt leads to cats in a canvas; menus and alternate image states appear before the founder returns.",
+      "design": "Large image canvas with editing controls.",
+      "purpose": "Extend the workspace to visual assets.",
+      "evidence": "1 fps source samples in 81–94s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V05"
+    },
+    {
+      "start": 94,
+      "end": 111,
+      "action": "A restaurant expansion prompt produces an output list. A pizza landing page, menu and opening countdown are shown, followed by a partner deck.",
+      "design": "White task list, red restaurant site and slide previews.",
+      "purpose": "Connect one business brief to multiple deliverables.",
+      "evidence": "1 fps source samples in 94–111s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V06"
+    },
+    {
+      "start": 111,
+      "end": 123,
+      "action": "The same list opens a pizza promo video and a matching social carousel.",
+      "design": "Food imagery and red/yellow branded cards.",
+      "purpose": "Show campaign outputs with a shared subject.",
+      "evidence": "1 fps source samples in 111–123s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V07"
+    },
+    {
+      "start": 123,
+      "end": 141,
+      "action": "The founder introduces a booking voice agent. A filmed laptop shows the restaurant site, then a waveform interface. Captions include a welcome and a request for a table at 9 PM tomorrow.",
+      "design": "Physical laptop, red waveform and subtitles.",
+      "purpose": "Suggest a functional site extension; confirmation is not shown.",
+      "evidence": "1 fps source samples in 123–141s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V08"
+    },
+    {
+      "start": 141,
+      "end": 157,
+      "action": "A World War II slide deck is followed by a glossy fashion/car sequence with metallic ribbons and an eye close-up.",
+      "design": "Dark historical slides and pale cinematic imagery.",
+      "purpose": "Display further creative output examples.",
+      "evidence": "1 fps source samples in 141–157s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V09"
+    },
+    {
+      "start": 157,
+      "end": 160.333,
+      "action": "The founder returns for the closing statement.",
+      "design": "Same white studio and laptop.",
+      "purpose": "End with the maker.",
+      "evidence": "1 fps source samples in 157–160.333s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V10"
+    }
+  ],
+  "sound": [
+    {
+      "id": "A01",
+      "start": 0,
+      "end": 160.333,
+      "layer": "script support only",
+      "detail": "The ASR draft coherently introduces the release, planning, editing, rollback, forks, canvas and restaurant outputs. It also transcribes a booking greeting and request, but no confirmed reservation. Some opening timing and brief/model-name words are uncertain; no delivery, music, effects, latency or synchronization was heard or verified.",
+      "visual_relation": "V01–V10; script names features and connects output screens.",
+      "evidence": "306-speech.json draft plus visible captions; not validated listening."
+    }
+  ],
+  "categories": [
+    {
+      "id": "Q01",
+      "finding": "Release introduction → plan/edit controls → one restaurant brief with several outputs → booking interface → creative examples.",
+      "evidence": "V01–V10",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q02",
+      "finding": "A logo and named founder open the film, followed by an adoption claim.",
+      "evidence": "V01",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q03",
+      "finding": "Builders and creators needing sites, decks and media are named in the draft and illustrated in the UI.",
+      "evidence": "V01,V03–V09",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q04",
+      "finding": "Cursor and interface state changes show planning, approval, deck editing, rollback and branching. Exact animation mechanics are unverified.",
+      "evidence": "V03–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q05",
+      "finding": "The output list repeatedly returns between restaurant artifacts, giving the sequence a clear navigation anchor.",
+      "evidence": "V06,V07",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q06",
+      "finding": "White founder and workspace views are interrupted by red pizza branding, dark slides and pale glossy imagery.",
+      "evidence": "V01–V09",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q07",
+      "finding": "Feature pills and captions help orientation; dense plans, task lists and decks need closer reading than the wide view offers.",
+      "evidence": "V02–V09",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q08",
+      "finding": "ASR supports a founder-led explanation and booking exchange. Delivery and actual voice-agent timing are unknown.",
+      "evidence": "A01",
+      "status": "uncertain",
+      "reason": "Draft text only, no validated listening.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q09",
+      "finding": "Music character and structure are unverified.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "No validated listening.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q10",
+      "finding": "Effects and their sources are unverified.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "No validated listening; waveform peaks do not identify effects.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q11",
+      "finding": "Sound sync is unverified.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "No validated listening or paired audiovisual timing.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q12",
+      "finding": "Founder footage, UI captures, filmed laptop and generated-looking output examples are mixed. Production sources and methods are unverified.",
+      "evidence": "V01–V10",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q13",
+      "finding": "Source duration 160.333 s; Watch metadata 1920 × 1080. Frame rate, audio clipping and export quality not checked here.",
+      "evidence": "Whole film",
+      "status": "supported",
+      "reason": "Parent source metadata supports duration and dimensions; visual review is sampled.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q14",
+      "finding": "Planning and output types are visually legible, but some broad capability claims rely on the draft.",
+      "evidence": "V03–V08",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q15",
+      "finding": "The repeated output list and consistent pizza subject guide attention through otherwise different formats.",
+      "evidence": "V06,V07",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q16",
+      "finding": "About 45s introduce the release before controls are demonstrated; the restaurant example occupies roughly 47s.",
+      "evidence": "V01–V08",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q17",
+      "finding": "The restaurant brief pays off in several visible artifacts; the booking request has no final result.",
+      "evidence": "V06–V08",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q18",
+      "finding": "The maker presentation suggests confidence and the artifact range suggests possibility; viewer response is not measured.",
+      "evidence": "V01–V10",
+      "status": "uncertain",
+      "reason": "Visual interpretation and draft only.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q19",
+      "finding": "The second-location scenario gives site, deck, video and carousel a common purpose.",
+      "evidence": "V06,V07",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q20",
+      "finding": "Adoption, benchmark, speed and functional claims are not independently verified. A waveform and request do not prove booking completion.",
+      "evidence": "V01,V02,V08",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q21",
+      "finding": "Plan approval, rollback and chat forks make user control more specific than a simple one-prompt promise.",
+      "evidence": "V03,V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q22",
+      "finding": "Finish the reservation example with a visible result.",
+      "evidence": "V08",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "Show confirmation, party size and the new reservation row after the request."
+    },
+    {
+      "id": "Q23",
+      "finding": "For Tin, connect several assets to one brief and reuse a task list to orient the viewer.",
+      "evidence": "V06,V07",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "Open the image, copy and scheduled post from the same campaign list, then show the published result."
+    },
+    {
+      "id": "Q24",
+      "finding": "No human new-viewer test was performed.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "The product summary is this model’s film-only reading.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q25",
+      "finding": "Mobile preview and accessibility checks were not performed.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "Contact sheets are evidence views, not a stated mobile preview or compliance test.",
+      "experiment": "none"
+    }
+  ],
+  "elements": [
+    {
+      "kind": "ui",
+      "name": "chat and plan",
+      "events": [
+        "V03",
+        "V04",
+        "V06"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "slide editor",
+      "events": [
+        "V03",
+        "V04",
+        "V06"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "image canvas",
+      "events": [
+        "V05"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "task list",
+      "events": [
+        "V06",
+        "V07"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "voice waveform",
+      "events": [
+        "V08"
+      ]
+    }
+  ],
+  "lessons": {
+    "keep": "Use one business scenario to connect several output formats.",
+    "try": [
+      "Show the completed reservation after the voice request.",
+      "For Tin, open related campaign assets from one list and finish on the published result."
+    ],
+    "avoid": "Treating a voice interface and request as proof of a finished action.",
+    "open": "Reservation completion, benchmark conditions, generation speed and audio qualities remain unverified."
+  },
+  "comparison": {
+    "story": "Release → controls → restaurant launch kit → voice extension → creative range.",
+    "motion": "UI state changes, list-to-output navigation and founder returns.",
+    "sound": "Coherent ASR script support; no validated listening.",
+    "texture": "White workspace, red restaurant identity and varied output imagery.",
+    "lesson": "A shared brief makes a broad tool easier to understand; functional examples need a final state."
+  },
+  "reviewer_model": "gpt-6-astra",
+  "scope": "sampled visual and story review; ASR and measured signal support; no validated audio listening",
+  "viewed_evidence": [
+    "technical-review-2026-10-19/deep-review/motion/306/timeline-00.jpg",
+    "technical-review-2026-10-19/deep-review/motion/306/timeline-01.jpg",
+    "technical-review-2026-10-19/deep-review/motion/306/timeline-02.jpg",
+    "technical-review-2026-10-19/deep-review/motion/306/timeline-03.jpg",
+    "technical-review-2026-10-19/deep-review/motion/306/timeline-04.jpg",
+    "technical-review-2026-10-19/deep-review/motion/306/timeline-05.jpg"
+  ],
+  "closer_windows": []
+}

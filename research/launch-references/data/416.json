@@ -1,0 +1,333 @@
+{
+  "id": 416,
+  "viewed_evidence": [
+    "technical-review-2026-10-19/deep-review/motion/416/timeline-00.jpg",
+    "technical-review-2026-10-19/deep-review/motion/416/timeline-01.jpg",
+    "technical-review-2026-10-19/deep-review/motion/416/timeline-02.jpg",
+    "technical-review-2026-10-19/deep-review/audio/416-speech.json"
+  ],
+  "product_from_film": "OpenAI presents an interview about compute limits and the trade-off between present demand and future research.",
+  "explains_well": "The named topic card gives a clear frame for a focused interview.",
+  "unclear": "Without speech or captions, the specific launch bottleneck and resource trade-off are not visible.",
+  "product_type": "company explanation",
+  "scenario": "Explain why compute capacity constrains launches.",
+  "product_clear_time": 11,
+  "product_clear_basis": "On Compute Constraints title states topic; detailed meaning comes from candidate transcript, not pictures.",
+  "scenes": [
+    {
+      "start": 0,
+      "end": 10,
+      "action": "Seated speaker gestures in medium shot, then closer angle.",
+      "design": "Daylit room, horizontal wood blinds, grey sofa.",
+      "purpose": "Begin interview",
+      "id": "V01",
+      "evidence": "Visible 1 fps samples, source 0–10s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 10,
+      "end": 15,
+      "action": "Low-angle speaker shot carries Greg Brockman and On Compute Constraints.",
+      "design": "Large white name/topic text.",
+      "purpose": "Identify speaker and theme",
+      "id": "V02",
+      "evidence": "Visible 1 fps samples, source 10–15s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 15,
+      "end": 26,
+      "action": "Close-up returns, then medium shot with hands framing gestures.",
+      "design": "No subtitles visible in samples.",
+      "purpose": "Discuss capacity",
+      "id": "V03",
+      "evidence": "Visible 1 fps samples, source 15–26s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 26,
+      "end": 45,
+      "action": "Sustained close-up with hand gestures and small posture changes.",
+      "design": "Same background and lighting.",
+      "purpose": "Explain launch example",
+      "id": "V04",
+      "evidence": "Visible 1 fps samples, source 26–45s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 45,
+      "end": 60,
+      "action": "Medium and close views alternate.",
+      "design": "Uncaptioned interview.",
+      "purpose": "Discuss cost of trade-off",
+      "id": "V05",
+      "evidence": "Visible 1 fps samples, source 45–60s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 60,
+      "end": 69,
+      "action": "Medium shot continues to end of statement.",
+      "design": "Hands and face remain focal point.",
+      "purpose": "Look ahead",
+      "id": "V06",
+      "evidence": "Visible 1 fps samples, source 60–69s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 69,
+      "end": 73.656,
+      "action": "OpenAI wordmark on white changes to knot mark.",
+      "design": "Minimal black branding.",
+      "purpose": "Close",
+      "id": "V07",
+      "evidence": "Visible 1 fps samples, source 69–73.656s; boundaries approximate, between-frame action unresolved."
+    }
+  ],
+  "sound": [
+    {
+      "id": "A01",
+      "start": 0,
+      "end": 73.656,
+      "layer": "unknown",
+      "detail": "No validated audio listening; speech, music, effects, mix and sync remain unverified.",
+      "visual_relation": "All visual scenes; alignment not checked",
+      "evidence": "No actual audio supplied to this review; existing technical-review-2026-10-19/deep-review/audio/416.json is not listening evidence."
+    },
+    {
+      "id": "A02",
+      "start": 0.01,
+      "end": 69.02,
+      "layer": "ASR draft",
+      "detail": "Candidate speech argues that compute/scale worked, demand constrains launches, image-generation demand drew resources from research, and future demand may still exceed plans. This supplies the argument missing from silent frames. The phrase move it to our department may be faulty ASR and is not used as exact organizational detail. Voice delivery unheard.",
+      "visual_relation": "V01–V06; script ranges only, no actual sound sync.",
+      "evidence": "technical-review-2026-10-19/deep-review/audio/416-speech.json; existing faster-whisper base CPU int8"
+    }
+  ],
+  "categories": [
+    {
+      "finding": "Visual story is a single interview with topic card. Candidate ASR supplies a coherent argument from scale to launch demand, research trade-off and future capacity.",
+      "evidence": "V01–V06; ASR",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q01"
+    },
+    {
+      "finding": "A seated man gestures in an office lounge; no on-screen topic or product is yet given.",
+      "evidence": "V01 0–2s",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q02"
+    },
+    {
+      "finding": "At 11s the topic is compute constraints, intended for viewers interested in AI capacity; no product-use task is demonstrated.",
+      "evidence": "V02",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q03"
+    },
+    {
+      "finding": "Gestures and medium/close/low-angle changes carry movement; final wordmark-to-symbol states are visible but exact transformation is not assessed.",
+      "evidence": "V01–V07",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q04"
+    },
+    {
+      "finding": "Cuts vary interview distance while keeping the same speaker and room, with a topic insert and white brand close.",
+      "evidence": "V01/V02/V04/V07",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q05"
+    },
+    {
+      "finding": "Warm wood blinds, soft daylight and grey furniture create a consistent interview setting.",
+      "evidence": "V01–V06",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q06"
+    },
+    {
+      "finding": "Only name/topic and final branding provide substantial copy; no dialogue captions, figures or explanatory diagrams are visible in sampled frames.",
+      "evidence": "V02/V07",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q07"
+    },
+    {
+      "finding": "Voice presence and delivery remain unverified.",
+      "evidence": "No validated audio listening",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q08"
+    },
+    {
+      "finding": "Music character and arc remain unverified.",
+      "evidence": "No validated audio listening",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q09"
+    },
+    {
+      "finding": "Sound effects remain unverified.",
+      "evidence": "No validated audio listening",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q10"
+    },
+    {
+      "finding": "Sound-to-motion timing remain unverified.",
+      "evidence": "No validated audio listening",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q11"
+    },
+    {
+      "finding": "One-person interview footage in several framings carries the film; no compute facility or image-generation example is shown.",
+      "evidence": "V01–V06",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q12"
+    },
+    {
+      "finding": "Source duration supplied as 73.656s; no independent compression, clipping or delivery check.",
+      "evidence": "Assigned metadata; source integrity checked by parent",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q13"
+    },
+    {
+      "finding": "Silent viewer can identify an OpenAI compute-constraints interview, but loses the actual argument and example.",
+      "evidence": "V02/V07",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q14"
+    },
+    {
+      "finding": "Face and hands are the stable focus; background blind lines are visually busy but do not carry meaning.",
+      "evidence": "V03/V04",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q15"
+    },
+    {
+      "finding": "Visual density is low while semantic detail depends on speech; chapter keywords or a simple resource diagram could support it.",
+      "evidence": "V03–V06",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q16"
+    },
+    {
+      "finding": "Topic promises an explanation of constraints; candidate script addresses it, while pictures alone cannot show the payoff.",
+      "evidence": "V02–V06",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q17"
+    },
+    {
+      "finding": "Measured interview framing appears intended for a serious explanation; actual vocal emotion is unheard.",
+      "evidence": "V01–V06",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q18"
+    },
+    {
+      "finding": "Same speaker, wardrobe and room provide uninterrupted spatial continuity.",
+      "evidence": "V01–V06",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q19"
+    },
+    {
+      "finding": "The film provides an attributed interview claim, not visible capacity measurements. ASR describes moving compute from research to serve launch demand; figures in filename are not film evidence.",
+      "evidence": "V04/V05; ASR",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q20"
+    },
+    {
+      "finding": "Name card and final OpenAI logo carry specificity; setting and editing could suit many interviews.",
+      "evidence": "V02/V07",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q21"
+    },
+    {
+      "finding": "Add one diagram or concrete launch image during the research-versus-demand example and readable captions throughout.",
+      "evidence": "V04/V05",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q22"
+    },
+    {
+      "finding": "For Tin, use a brief interview to explain one operational constraint, supported by the actual run queue or resource state.",
+      "evidence": "V02–V05",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q23"
+    },
+    {
+      "finding": "No human new-viewer test; product description above is model interpretation of sampled images.",
+      "evidence": "V01–V07",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q24"
+    },
+    {
+      "finding": "No phone-size, safe-area or flash assessment; small UI text needs separate preview.",
+      "evidence": "Contact sheets",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q25"
+    }
+  ],
+  "lessons": {
+    "keep": "Name the topic clearly before a focused explanation.",
+    "try": [
+      "Try a Tin interview with a labeled queue diagram showing the bottleneck discussed.",
+      "Try a captioned version with three short chapter phrases: demand, trade-off, planning."
+    ],
+    "avoid": "Avoid relying on an uncaptioned face alone for a technical causal explanation.",
+    "open": "Audio delivery, actual compute allocation and underlying business claims remain unverified."
+  },
+  "comparison": {
+    "story": "Begin interview → Identify speaker and theme → Discuss capacity → Explain launch example → Discuss cost of trade-off → Look ahead → Close",
+    "motion": "Gestures and medium/close/low-angle changes carry movement; final wordmark-to-symbol states are visible but exact transformation is not assessed.",
+    "sound": "No validated listening; no absence claims.",
+    "texture": "Warm wood blinds, soft daylight and grey furniture create a consistent interview setting.",
+    "lesson": "Name the topic clearly before a focused explanation."
+  },
+  "elements": [
+    {
+      "kind": "texture",
+      "name": "interview footage",
+      "events": [
+        "V01",
+        "V03",
+        "V04"
+      ]
+    }
+  ],
+  "reviewer_model": "gpt-6-astra",
+  "scope": "sampled visual and story review; ASR and measured signal support; no validated audio listening",
+  "closer_windows": []
+}

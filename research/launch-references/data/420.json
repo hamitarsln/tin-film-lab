@@ -1,0 +1,320 @@
+{
+  "id": 420,
+  "reviewer_model": "gpt-6-astra",
+  "scope": "sampled visual and story review; ASR and measured signal support; no validated audio listening",
+  "viewed_evidence": [
+    "technical-review-2026-10-19/deep-review/motion/420/timeline-00.jpg",
+    "technical-review-2026-10-19/deep-review/motion/420/timeline-01.jpg",
+    "technical-review-2026-10-19/deep-review/audio/420-speech.json"
+  ],
+  "closer_windows": [],
+  "product_from_film": "Space and Kalshi present a joint sports-ambition brand film; their service is not explained.",
+  "explains_well": "Childhood sports images lead to elite competition and a child looking at sporting heroes.",
+  "unclear": "No product action shows how the brands relate to the ambition and risk message.",
+  "product_type": "brand campaign",
+  "scenario": "Connect childhood ambition with high-level sporting competition.",
+  "product_clear_time": null,
+  "product_clear_basis": "Brand names appear at the start and end, but no service or interface is shown.",
+  "scenes": [
+    {
+      "id": "V01",
+      "start": 0,
+      "end": 7,
+      "action": "Camera flashes and a smiling athlete carry Space and Kalshi marks; rows of cribs lead to one baby behind a Khabib nameplate.",
+      "design": "Mixed sports footage and cinematic nursery scene; small bottom captions.",
+      "purpose": "Introduce difference and ambition from childhood.",
+      "evidence": "Visible chronological 1 fps samples, source 0–7s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V02",
+      "start": 7,
+      "end": 19,
+      "action": "Low-resolution childhood wrestling, karting, football, tennis, golf and basketball images lead to college football views.",
+      "design": "Archive-like video quality, interviews and field footage.",
+      "purpose": "Show early commitment across sports.",
+      "evidence": "Visible chronological 1 fps samples, source 7–19s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V03",
+      "start": 19,
+      "end": 32,
+      "action": "Football action and celebration lead to racing cars, basketball arena, football celebration, boxing training and cage fighting.",
+      "design": "Rapid varied sports cuts, broadcast graphics and stadium lighting.",
+      "purpose": "Escalate to elite competition.",
+      "evidence": "Visible chronological 1 fps samples, source 19–32s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V04",
+      "start": 32,
+      "end": 38.104,
+      "action": "A child faces a wall of sports posters under a shaft of light; For people who want more appears, followed by white Space and Kalshi marks on black.",
+      "design": "Dim bedroom, poster collage and minimal end card.",
+      "purpose": "Return achievement to aspiration.",
+      "evidence": "Visible chronological 1 fps samples, source 32–38.104s; boundary approximate; exact motion between samples unverified."
+    }
+  ],
+  "sound": [
+    {
+      "id": "A01",
+      "start": 0,
+      "end": 38.104,
+      "layer": "unknown",
+      "detail": "No validated direct audio listening was performed. Music, speech delivery, effects, mix and sync remain unknown, not absent.",
+      "visual_relation": "All visual scenes; audiovisual alignment unverified",
+      "evidence": "Visual samples only; no actual audio range supplied to this reviewer."
+    },
+    {
+      "id": "A02",
+      "start": 2.28,
+      "end": 34.96,
+      "layer": "ASR draft",
+      "detail": "The ASR draft describes being different, taking risks, having no plan B, betting on oneself and wanting more. It supports the ambition theme, but some short phrases are incomplete. No delivery, music or effects are established.",
+      "visual_relation": "Story text support; exact audiovisual alignment and delivery unverified.",
+      "evidence": "technical-review-2026-10-19/deep-review/audio/420-speech.json; local faster-whisper base CPU int8 draft; VAD candidates only, recognition errors possible."
+    }
+  ],
+  "categories": [
+    {
+      "id": "Q01",
+      "finding": "Childhood difference becomes commitment, adult competition and a new child’s aspiration; brands frame the story without a product scenario.",
+      "evidence": "V01–V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q02",
+      "finding": "Flashes and a close athlete smile sit under joint branding, identifying a sports partnership before the argument begins.",
+      "evidence": "V01",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q03",
+      "finding": "Sports fans and ambitious viewers are addressed by the imagery and caption line. What either brand provides remains unclear.",
+      "evidence": "V01–V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q04",
+      "finding": "Athletes swing, run, drive and fight across quick cuts; camera viewpoint changes from close faces to fields and tracks, then settles behind a child at the poster wall.",
+      "evidence": "V02–V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q05",
+      "finding": "The film links early sports footage to later elite action by theme and some recognizable subjects. Exact matching of every child and adult is not established.",
+      "evidence": "V02–V03",
+      "status": "uncertain",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q06",
+      "finding": "Older low-resolution footage contrasts with sharp cinematic nursery and bedroom scenes; the mixed texture suggests a history of ambition.",
+      "evidence": "V01–V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q07",
+      "finding": "Small bottom captions carry the risk-and-commitment message. Brand marks are clear, while the nursery nameplate supplies a specific character cue.",
+      "evidence": "V01–V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q08",
+      "finding": "The ASR draft describes being different, taking risks, having no plan B, betting on oneself and wanting more. It supports the ambition theme, but some short phrases are incomplete. No delivery, music or effects are established.",
+      "evidence": "A02",
+      "status": "uncertain",
+      "reason": "ASR text only; no validated listening, delivery or voice origin.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q09",
+      "finding": "Voice delivery, music, effects and audiovisual alignment were not established by this visual pass.",
+      "evidence": "A01",
+      "status": "not checked",
+      "reason": "No validated direct audio listening input.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q10",
+      "finding": "Voice delivery, music, effects and audiovisual alignment were not established by this visual pass.",
+      "evidence": "A01",
+      "status": "not checked",
+      "reason": "No validated direct audio listening input.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q11",
+      "finding": "Voice delivery, music, effects and audiovisual alignment were not established by this visual pass.",
+      "evidence": "A01",
+      "status": "not checked",
+      "reason": "No validated direct audio listening input.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q12",
+      "finding": "Sports broadcasts, interview-like clips and cinematic child scenes are combined. Source rights and whether staged scenes are filmed or generated are unknown.",
+      "evidence": "V01–V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q13",
+      "finding": "Manifest duration 38.104s; indexed dimensions 1920×1080. Source unchanged flag recorded; fresh encoding and audio clipping checks not run.",
+      "evidence": "Group manifest",
+      "status": "uncertain",
+      "reason": "Inherited technical metadata; no fresh media probe in this review.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q14",
+      "finding": "Silent viewers can follow sports ambition through childhood and achievement; no visual product benefit survives because none is demonstrated.",
+      "evidence": "V01–V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q15",
+      "finding": "Faces and central sporting action guide attention; the final child’s gaze directs the viewer toward the poster wall.",
+      "evidence": "V02–V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q16",
+      "finding": "Many sports arrive in about 25s, favoring recognition and feeling over a detailed story about any athlete.",
+      "evidence": "V02–V03",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q17",
+      "finding": "The childhood setup returns in the final child, completing the aspiration theme. The branded ending offers no concrete action.",
+      "evidence": "V01,V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q18",
+      "finding": "The film appears designed to turn difference and doubt into determination and aspiration. This is a reading of images and draft text, not measured emotion.",
+      "evidence": "V01–V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q19",
+      "finding": "Childhood-to-adulthood sports imagery and the closing child create a thematic loop; product continuity is absent.",
+      "evidence": "V01–V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q20",
+      "finding": "No app, transaction or user outcome is shown. Athlete achievements do not establish a benefit from either brand.",
+      "evidence": "V01–V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q21",
+      "finding": "Joint marks identify the sponsors, but much of the ambition montage could serve another sports brand.",
+      "evidence": "V01,V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q22",
+      "finding": "A brief product use moment could connect the risk language to the service. Preserve the final child because it closes the childhood framing.",
+      "evidence": "V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q23",
+      "finding": "For a founder or creator brand film, connect early practice footage to a present achievement and end on a new beginner. Use cleared footage and add one actual product interaction.",
+      "evidence": "V02–V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q24",
+      "finding": "Space and Kalshi present a joint sports-ambition brand film; their service is not explained.",
+      "evidence": "Model reading from inspected images",
+      "status": "uncertain",
+      "reason": "Model-only new-viewer interpretation; no human test.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q25",
+      "finding": "Contact sheets inspected at displayed size; a phone-size playback, caption audit, flash audit and formal accessibility check were not performed.",
+      "evidence": "Viewed sheets",
+      "status": "not checked",
+      "reason": "Full-size moving-image and device checks unavailable in this pass.",
+      "experiment": "none"
+    }
+  ],
+  "lessons": {
+    "keep": "Return to the opening life stage at the end to complete the emotional idea.",
+    "avoid": "Using achievement imagery as a substitute for explaining the offer.",
+    "open": "Actual audio, footage provenance, athlete pairings and the joint service remain unverified.",
+    "try": [
+      "For a Tin creator story, show an early rough campaign, the current work and a new creator starting with the product.",
+      "Compare the sports-only close with a short real service interaction before the final marks."
+    ]
+  },
+  "comparison": {
+    "story": "Introduce difference and ambition from childhood. → Show early commitment across sports. → Escalate to elite competition. → Return achievement to aspiration.",
+    "motion": "Athletes swing, run, drive and fight across quick cuts; camera viewpoint changes from close faces to fields and tracks, then settles behind a child at the poster wall. Sampling scope: 1 fps unless a closer window is recorded.",
+    "sound": "No validated listening; unknown.",
+    "texture": "Mixed sports footage and cinematic nursery scene; small bottom captions.; Archive-like video quality, interviews and field footage.; Rapid varied sports cuts, broadcast graphics and stadium lighting.; Dim bedroom, poster collage and minimal end card.",
+    "lesson": "Return to the opening life stage at the end to complete the emotional idea."
+  },
+  "elements": [
+    {
+      "kind": "motion",
+      "name": "sports action montage",
+      "events": [
+        "V02",
+        "V03"
+      ]
+    },
+    {
+      "kind": "texture",
+      "name": "archive-like sports footage",
+      "events": [
+        "V02",
+        "V03"
+      ]
+    },
+    {
+      "kind": "texture",
+      "name": "cinematic child scenes",
+      "events": [
+        "V01",
+        "V04"
+      ]
+    }
+  ]
+}

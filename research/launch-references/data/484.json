@@ -1,0 +1,365 @@
+{
+  "id": 484,
+  "reviewer_model": "gpt-6-astra",
+  "scope": "sampled visual and story review; ASR and measured signal support; no validated audio listening",
+  "viewed_evidence": [
+    "technical-review-2026-10-19/deep-review/motion/484/timeline-00.jpg",
+    "technical-review-2026-10-19/deep-review/motion/484/timeline-01.jpg",
+    "technical-review-2026-10-19/deep-review/motion/484/timeline-02.jpg",
+    "technical-review-2026-10-19/deep-review/audio/484-speech.json"
+  ],
+  "closer_windows": [],
+  "product_from_film": "Comet is a browser assistant that acts on a map, explains a Slack thread and retrieves a requested video moment.",
+  "explains_well": "The map example shows a request followed by a route on the same page.",
+  "unclear": "The voice example hides the request in an almost empty screen, so its purpose is weak without sound or captions.",
+  "product_type": "AI browser demonstration",
+  "scenario": "Plan a London walking route, understand a technical thread and find a specific video clip.",
+  "product_clear_time": 24,
+  "product_clear_basis": "A walking-route request is followed by a visible route in the map beside the assistant.",
+  "scenes": [
+    {
+      "id": "V01",
+      "start": 0,
+      "end": 15,
+      "action": "A line symbol changes shape, then A browser built for you and Connecting the dots between appear. Colored glass-like spheres accompany a scrolling list of Tabs, Emails, Calendars, Socials and Life.",
+      "design": "Cream background, serif text and translucent colored spheres.",
+      "purpose": "Frame the browser as a connection across daily contexts.",
+      "evidence": "Visible chronological 1 fps samples, source 0–15s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V02",
+      "start": 15,
+      "end": 26,
+      "action": "A London map fills a browser. A side-panel request asks for a walking route from the Tower of London to major tourist locations. Place and route controls change, and a blue route appears.",
+      "design": "Browser shell with map and assistant side by side.",
+      "purpose": "Demonstrate acting on the current page.",
+      "evidence": "Visible chronological 1 fps samples, source 15–26s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V03",
+      "start": 26,
+      "end": 35,
+      "action": "Understand more introduces a Slack thread. A prompt asks for an explanation for a non-engineer responsible for social followers. A plain-language bullet response appears beside the thread.",
+      "design": "Purple thread interface beside a white assistant pane.",
+      "purpose": "Demonstrate explanation tailored to the user’s role.",
+      "evidence": "Visible chronological 1 fps samples, source 26–35s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V04",
+      "start": 35,
+      "end": 48,
+      "action": "And do more than ever leads into a new browser page and a pale circular voice interface with microphone controls.",
+      "design": "Sparse cream screen and faint dotted ring.",
+      "purpose": "Introduce a voice request; the exact request needs ASR support.",
+      "evidence": "Visible chronological 1 fps samples, source 35–48s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V05",
+      "start": 48,
+      "end": 59,
+      "action": "A YouTube video opens and shows a presenter on a dark stage, followed by a wider stage shot.",
+      "design": "Floating browser window and embedded video player.",
+      "purpose": "Show the retrieved media result.",
+      "evidence": "Visible chronological 1 fps samples, source 48–59s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V06",
+      "start": 59,
+      "end": 71.96,
+      "action": "Ask anything, anywhere and Browse at the speed of thought appear. The background becomes a dark star field with a white comet mark before black.",
+      "design": "Blurred text changes, dark particles and a small centered logo.",
+      "purpose": "Close with the broad promise and brand.",
+      "evidence": "Visible chronological 1 fps samples, source 59–71.96s; boundary approximate; exact motion between samples unverified."
+    }
+  ],
+  "sound": [
+    {
+      "id": "A01",
+      "start": 0,
+      "end": 71.96,
+      "layer": "unknown",
+      "detail": "No validated direct audio listening was performed. Music, speech delivery, effects, mix and sync remain unknown, not absent.",
+      "visual_relation": "All visual scenes; audiovisual alignment unverified",
+      "evidence": "Visual samples only; no actual audio range supplied to this reviewer."
+    },
+    {
+      "id": "A02",
+      "start": 41.06,
+      "end": 60.21,
+      "layer": "ASR draft",
+      "detail": "The ASR draft contains a request for a clip of Jensen demonstrating Perplexity Labs, followed by an assistant reply saying it found a YouTube moment from GTC Paris. A following stage-video fragment mentions building on Perplexity. This gives the sparse voice sequence a candidate input-result structure; exact retrieval accuracy and heard delivery are unverified.",
+      "visual_relation": "Story text support; exact audiovisual alignment and delivery unverified.",
+      "evidence": "technical-review-2026-10-19/deep-review/audio/484-speech.json; local faster-whisper base CPU int8 draft; VAD candidates only, recognition errors possible."
+    }
+  ],
+  "categories": [
+    {
+      "id": "Q01",
+      "finding": "Broad context promise leads to map action, thread explanation, voice-based retrieval and a space-themed close.",
+      "evidence": "V01–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q02",
+      "finding": "A restrained changing symbol and short browser statement provide a quiet introduction before specific demonstrations.",
+      "evidence": "V01",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q03",
+      "finding": "People who work across web tools are the implied audience. The map route establishes action on an existing page by 24s.",
+      "evidence": "V01–V03",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q04",
+      "finding": "Colored spheres change beside a vertically changing word list; browser windows enlarge and reframe; map route states and assistant text update before a pale voice ring and dark star-field ending.",
+      "evidence": "V01–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q05",
+      "finding": "Short text cards divide the three examples. The persistent side-by-side browser and assistant layout connects instruction with result.",
+      "evidence": "V02–V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q06",
+      "finding": "Cream backgrounds, serif headlines and glass-like colored spheres give the interface demos a soft editorial frame; dark stars create the final contrast.",
+      "evidence": "V01,V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q07",
+      "finding": "Large headline cards are easy to scan. The map and Slack prompts carry the useful detail, while the voice request has no matching visible caption.",
+      "evidence": "V01–V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q08",
+      "finding": "The ASR draft contains a request for a clip of Jensen demonstrating Perplexity Labs, followed by an assistant reply saying it found a YouTube moment from GTC Paris. A following stage-video fragment mentions building on Perplexity. This gives the sparse voice sequence a candidate input-result structure; exact retrieval accuracy and heard delivery are unverified.",
+      "evidence": "A02",
+      "status": "uncertain",
+      "reason": "ASR text only; no validated listening, delivery or voice origin.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q09",
+      "finding": "Voice delivery, music, effects and audiovisual alignment were not established by this visual pass.",
+      "evidence": "A01",
+      "status": "not checked",
+      "reason": "No validated direct audio listening input.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q10",
+      "finding": "Voice delivery, music, effects and audiovisual alignment were not established by this visual pass.",
+      "evidence": "A01",
+      "status": "not checked",
+      "reason": "No validated direct audio listening input.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q11",
+      "finding": "Voice delivery, music, effects and audiovisual alignment were not established by this visual pass.",
+      "evidence": "A01",
+      "status": "not checked",
+      "reason": "No validated direct audio listening input.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q12",
+      "finding": "Screen demonstrations, serif title cards, abstract sphere graphics, a voice interface and a retrieved stage-video segment make up the film.",
+      "evidence": "V01–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q13",
+      "finding": "Manifest duration 71.96s; indexed dimensions 1280×720. Source unchanged flag recorded; fresh encoding and audio clipping checks not run.",
+      "evidence": "Group manifest",
+      "status": "uncertain",
+      "reason": "Inherited technical metadata; no fresh media probe in this review.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q14",
+      "finding": "Map and Slack tasks can be understood visually. The long pale voice screen and following stage video need the ASR draft to establish the requested retrieval.",
+      "evidence": "V02–V05,A02",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q15",
+      "finding": "The assistant remains beside the source page, helping the viewer compare context and answer. The voice ring has much weaker visual information.",
+      "evidence": "V02–V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q16",
+      "finding": "The first two examples progress quickly, but roughly thirteen seconds of sparse voice UI and eleven seconds of retrieved video slow the visual explanation.",
+      "evidence": "V02–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q17",
+      "finding": "Each task starts with a different page. Within the map example, the same London context persists from request to route.",
+      "evidence": "V02–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q18",
+      "finding": "The clean layout and restrained abstract visuals suggest calm control across browser tasks; sound mood remains unverified.",
+      "evidence": "V01–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q19",
+      "finding": "The map and Slack examples retain visible source context. The voice example’s input-to-output link is mainly in the draft transcript.",
+      "evidence": "V02–V05,A02",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q20",
+      "finding": "The film shows selected task states, not independent confirmation of route quality, explanation accuracy or retrieval precision. Voice latency and delivery cannot be assessed here.",
+      "evidence": "V02–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q21",
+      "finding": "The changing opening symbol, colored spheres and final comet mark provide continuity, though the closing mark has no explicit download instruction.",
+      "evidence": "V01,V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q22",
+      "finding": "Add a short transcript of the voice request above the ring, then label the retrieved video and highlighted timestamp.",
+      "evidence": "V04–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q23",
+      "finding": "Pair a user request with a visible change in the same source page to make an assistant’s action easy to follow.",
+      "evidence": "V02–V03",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q24",
+      "finding": "Comet is a browser assistant that acts on a map, explains a Slack thread and retrieves a requested video moment.",
+      "evidence": "Model reading from inspected images",
+      "status": "uncertain",
+      "reason": "Model-only new-viewer interpretation; no human test.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q25",
+      "finding": "Contact sheets inspected at displayed size; a phone-size playback, caption audit, flash audit and formal accessibility check were not performed.",
+      "evidence": "Viewed sheets",
+      "status": "not checked",
+      "reason": "Full-size moving-image and device checks unavailable in this pass.",
+      "experiment": "none"
+    }
+  ],
+  "lessons": {
+    "keep": "Keep the source page visible beside the assistant request and result.",
+    "avoid": "Leaving an important request invisible while the screen holds a faint voice ring.",
+    "open": "Exact route quality, retrieval precision, voice timing and sound design remain unverified.",
+    "try": [
+      "For Tin, show the campaign page beside a request and then the specific changed campaign field.",
+      "Compare the voice example with a captioned request and a shorter retrieved clip marked with its timestamp."
+    ]
+  },
+  "comparison": {
+    "story": "Frame the browser as a connection across daily contexts. → Demonstrate acting on the current page. → Demonstrate explanation tailored to the user’s role. → Introduce a voice request; the exact request needs ASR support. → Show the retrieved media result. → Close with the broad promise and brand.",
+    "motion": "Colored spheres change beside a vertically changing word list; browser windows enlarge and reframe; map route states and assistant text update before a pale voice ring and dark star-field ending. Sampling scope: 1 fps unless a closer window is recorded.",
+    "sound": "No validated listening; unknown.",
+    "texture": "Cream background, serif text and translucent colored spheres.; Browser shell with map and assistant side by side.; Purple thread interface beside a white assistant pane.; Sparse cream screen and faint dotted ring.; Floating browser window and embedded video player.; Blurred text changes, dark particles and a small centered logo.",
+    "lesson": "Keep the source page visible beside the assistant request and result."
+  },
+  "elements": [
+    {
+      "kind": "ui",
+      "name": "map",
+      "events": [
+        "V02"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "assistant side panel",
+      "events": [
+        "V02",
+        "V03"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "chat thread",
+      "events": [
+        "V03"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "voice interface",
+      "events": [
+        "V04"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "video player",
+      "events": [
+        "V05"
+      ]
+    },
+    {
+      "kind": "motion",
+      "name": "scrolling word list",
+      "events": [
+        "V01"
+      ]
+    },
+    {
+      "kind": "texture",
+      "name": "glass-like spheres",
+      "events": [
+        "V01"
+      ]
+    }
+  ]
+}

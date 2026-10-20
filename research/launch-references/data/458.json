@@ -1,0 +1,341 @@
+{
+  "id": 458,
+  "reviewer_model": "gpt-6-astra",
+  "scope": "sampled visual and story review; ASR and measured signal support; no validated audio listening",
+  "viewed_evidence": [
+    "technical-review-2026-10-19/deep-review/motion/458/timeline-00.jpg",
+    "technical-review-2026-10-19/deep-review/motion/458/timeline-01.jpg",
+    "technical-review-2026-10-19/deep-review/motion/458/timeline-02.jpg",
+    "technical-review-2026-10-19/deep-review/audio/458-speech.json"
+  ],
+  "closer_windows": [],
+  "product_from_film": "Emergent announces funding while pitching an app builder that delivers a working product rather than a prototype.",
+  "explains_well": "A printed sandwich replaced by a real sandwich makes the prototype-versus-working-product claim easy to understand.",
+  "unclear": "The metaphor is clear, but the film never shows an idea being entered or a generated app completing a user task.",
+  "product_type": "funding and founder pitch",
+  "scenario": "Turn an idea into a working app.",
+  "product_clear_time": 26,
+  "product_clear_basis": "The working-product claim is followed by community-tool and SaaS-app examples.",
+  "scenes": [
+    {
+      "id": "V01",
+      "start": 0,
+      "end": 10,
+      "action": "A founder joins a shared office table and addresses the camera about raising $23 million from Lightspeed, then turns to a side angle.",
+      "design": "Bright office, orange wall art, black branded shirt and subtitles.",
+      "purpose": "Announce funding and redirect attention to users.",
+      "evidence": "Visible chronological 1 fps samples, source 0–10s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V02",
+      "start": 10,
+      "end": 17,
+      "action": "The founder stands while colleagues work behind him and says great ideas die too soon.",
+      "design": "Moving office presentation with background activity.",
+      "purpose": "Introduce the problem.",
+      "evidence": "Visible chronological 1 fps samples, source 10–17s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V03",
+      "start": 17,
+      "end": 32,
+      "action": "A printed sandwich image is handed to the founder, who holds it up and discards it; a real sandwich on a plate replaces it as he describes a working product and app types.",
+      "design": "Simple tabletop prop contrast and close food insert.",
+      "purpose": "Explain prototype versus usable product.",
+      "evidence": "Visible chronological 1 fps samples, source 17–32s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V04",
+      "start": 32,
+      "end": 41,
+      "action": "A laptop shows a small colorful car game, then the focus returns to the founder across the table as he describes the user’s idea and win.",
+      "design": "Foreground laptop and depth between coworkers and presenter.",
+      "purpose": "Suggest a built product and return to the mission.",
+      "evidence": "Visible chronological 1 fps samples, source 32–41s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V05",
+      "start": 41,
+      "end": 55,
+      "action": "The founder states a user count, a colleague corrects it to over a million, and they share a reaction before posing together.",
+      "design": "Hallway direct address and close reaction cuts.",
+      "purpose": "Present growth through a comic correction.",
+      "evidence": "Visible chronological 1 fps samples, source 41–55s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V06",
+      "start": 55,
+      "end": 68.2,
+      "action": "The founder repeats the funding-to-user-idea message, drinks from a mug, and the Emergent mark appears with build your app today.",
+      "design": "Office close-up followed by teal pixel-like brand card.",
+      "purpose": "Close with the app-building invitation.",
+      "evidence": "Visible chronological 1 fps samples, source 55–68.2s; boundary approximate; exact motion between samples unverified."
+    }
+  ],
+  "sound": [
+    {
+      "id": "A01",
+      "start": 0,
+      "end": 68.2,
+      "layer": "unknown",
+      "detail": "No validated direct audio listening was performed. Music, speech delivery, effects, mix and sync remain unknown, not absent.",
+      "visual_relation": "All visual scenes; audiovisual alignment unverified",
+      "evidence": "Visual samples only; no actual audio range supplied to this reviewer."
+    },
+    {
+      "id": "A02",
+      "start": 3.53,
+      "end": 60.4,
+      "layer": "ASR draft",
+      "detail": "The coherent ASR draft explains the funding announcement, prototype-versus-product metaphor and growth-count correction. It supports the founder-pitch structure; funding, adoption and functionality remain unverified claims. Voice delivery, music and effects were not heard.",
+      "visual_relation": "Story text support; exact audiovisual alignment and delivery unverified.",
+      "evidence": "technical-review-2026-10-19/deep-review/audio/458-speech.json; local faster-whisper base CPU int8 draft; VAD candidates only, recognition errors possible."
+    }
+  ],
+  "categories": [
+    {
+      "id": "Q01",
+      "finding": "Funding announcement becomes a user mission, a sandwich metaphor, a growth joke and an app-building CTA.",
+      "evidence": "V01–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q02",
+      "finding": "People work around a table before the founder joins; this establishes a real team setting before the announcement.",
+      "evidence": "V01",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q03",
+      "finding": "People with app ideas are the implied users. Community tools and SaaS examples clarify the category after the working-product claim.",
+      "evidence": "V03",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q04",
+      "finding": "The founder discards a printed sandwich image before a real plate appears, a game car changes position on a laptop, and reaction cuts punctuate the user-count correction.",
+      "evidence": "V03–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q05",
+      "finding": "Office angle and location changes divide the talking points. The sandwich replacement is a simple before/after cut rather than a shown transformation.",
+      "evidence": "V01–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q06",
+      "finding": "Warm office light, orange wall art, black shirts and a teal final card create an informal team presentation.",
+      "evidence": "V01–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q07",
+      "finding": "Subtitles make the spoken structure accessible visually. The laptop example is brief and too small to explain a build flow.",
+      "evidence": "V03–V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q08",
+      "finding": "The coherent ASR draft explains the funding announcement, prototype-versus-product metaphor and growth-count correction. It supports the founder-pitch structure; funding, adoption and functionality remain unverified claims. Voice delivery, music and effects were not heard.",
+      "evidence": "A02",
+      "status": "uncertain",
+      "reason": "ASR text only; no validated listening, delivery or voice origin.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q09",
+      "finding": "Voice delivery, music, effects and audiovisual alignment were not established by this visual pass.",
+      "evidence": "A01",
+      "status": "not checked",
+      "reason": "No validated direct audio listening input.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q10",
+      "finding": "Voice delivery, music, effects and audiovisual alignment were not established by this visual pass.",
+      "evidence": "A01",
+      "status": "not checked",
+      "reason": "No validated direct audio listening input.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q11",
+      "finding": "Voice delivery, music, effects and audiovisual alignment were not established by this visual pass.",
+      "evidence": "A01",
+      "status": "not checked",
+      "reason": "No validated direct audio listening input.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q12",
+      "finding": "Founder and team footage, printed food image, real sandwich, laptop game and brand card are the main assets.",
+      "evidence": "V01–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q13",
+      "finding": "Manifest duration 68.2s; indexed dimensions 1920×1080. Source unchanged flag recorded; fresh encoding and audio clipping checks not run.",
+      "evidence": "Group manifest",
+      "status": "uncertain",
+      "reason": "Inherited technical metadata; no fresh media probe in this review.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q14",
+      "finding": "Subtitles preserve the funding, prototype contrast and CTA without sound. The app-building operation remains absent.",
+      "evidence": "V01–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q15",
+      "finding": "The paper-versus-real sandwich is a clear focus, while office activity adds life without replacing the presenter.",
+      "evidence": "V02–V03",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q16",
+      "finding": "The film gives ample time to the metaphor and growth joke but only a short glimpse of a possible app output.",
+      "evidence": "V03–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q17",
+      "finding": "The claim of a working product is made concrete as a metaphor, but the visible game is not connected to an input or completion test.",
+      "evidence": "V03–V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q18",
+      "finding": "The casual prop and correction joke suggest friendly confidence. Actual delivery, music and audience response are unverified.",
+      "evidence": "V03,V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q19",
+      "finding": "One founder, office and branded shirt connect the sections. The game insert has no visible relation to a specific user idea.",
+      "evidence": "V01–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q20",
+      "finding": "Funding, adoption and day-one working-product statements are presented claims. No complete generated application or supporting metrics are demonstrated.",
+      "evidence": "V01,V03,V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q21",
+      "finding": "Emergent appears on shirts throughout and in the final teal card, making brand ownership clear.",
+      "evidence": "V01–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q22",
+      "finding": "Replace part of the growth reaction with one prompt, generated app and successful user action.",
+      "evidence": "V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q23",
+      "finding": "Use a familiar physical comparison to explain an abstract quality difference, then immediately show the equivalent real product evidence.",
+      "evidence": "V03–V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q24",
+      "finding": "Emergent announces funding while pitching an app builder that delivers a working product rather than a prototype.",
+      "evidence": "Model reading from inspected images",
+      "status": "uncertain",
+      "reason": "Model-only new-viewer interpretation; no human test.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q25",
+      "finding": "Contact sheets inspected at displayed size; a phone-size playback, caption audit, flash audit and formal accessibility check were not performed.",
+      "evidence": "Viewed sheets",
+      "status": "not checked",
+      "reason": "Full-size moving-image and device checks unavailable in this pass.",
+      "experiment": "none"
+    }
+  ],
+  "lessons": {
+    "keep": "Explain an abstract distinction with two simple physical props.",
+    "avoid": "Letting an effective metaphor stand in for proof of the product claim.",
+    "open": "Funding, adoption figures, app functionality and actual sound remain unverified.",
+    "try": [
+      "For Tin, compare a campaign plan card with the actual published asset, then show the publishing state.",
+      "Compare the sandwich metaphor alone with the metaphor followed by one complete generated-app action."
+    ]
+  },
+  "comparison": {
+    "story": "Announce funding and redirect attention to users. → Introduce the problem. → Explain prototype versus usable product. → Suggest a built product and return to the mission. → Present growth through a comic correction. → Close with the app-building invitation.",
+    "motion": "The founder discards a printed sandwich image before a real plate appears, a game car changes position on a laptop, and reaction cuts punctuate the user-count correction. Sampling scope: 1 fps unless a closer window is recorded.",
+    "sound": "No validated listening; unknown.",
+    "texture": "Bright office, orange wall art, black branded shirt and subtitles.; Moving office presentation with background activity.; Simple tabletop prop contrast and close food insert.; Foreground laptop and depth between coworkers and presenter.; Hallway direct address and close reaction cuts.; Office close-up followed by teal pixel-like brand card.",
+    "lesson": "Explain an abstract distinction with two simple physical props."
+  },
+  "elements": [
+    {
+      "kind": "ui",
+      "name": "game preview",
+      "events": [
+        "V04"
+      ]
+    },
+    {
+      "kind": "motion",
+      "name": "prop replacement",
+      "events": [
+        "V03"
+      ]
+    },
+    {
+      "kind": "texture",
+      "name": "bright office footage",
+      "events": [
+        "V01",
+        "V02",
+        "V03",
+        "V04",
+        "V05",
+        "V06"
+      ]
+    }
+  ]
+}

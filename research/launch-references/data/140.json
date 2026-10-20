@@ -1,0 +1,359 @@
+{
+  "id": 140,
+  "reviewer_model": "gpt-6-astra",
+  "scope": "sampled visual and story review; ASR and measured signal support; no validated audio listening",
+  "viewed_evidence": [
+    "technical-review-2026-10-19/deep-review/motion/140/timeline-00.jpg",
+    "technical-review-2026-10-19/deep-review/motion/140/timeline-01.jpg",
+    "technical-review-2026-10-19/deep-review/motion/140/timeline-02.jpg",
+    "technical-review-2026-10-19/deep-review/audio/140-speech.json"
+  ],
+  "closer_windows": [],
+  "product_from_film": "Locus Founder presents an AI agent that builds and manages an online business through messaging.",
+  "explains_well": "The retro television set connects the presenters, product overlays and final offer into one visual world.",
+  "unclear": "The film claims broad autonomous operation without showing a complete verified sale or campaign.",
+  "product_type": "business agent",
+  "scenario": "Text an agent to research, create and publish an online product business.",
+  "product_clear_time": 47,
+  "product_clear_basis": "A phone message requests a business launch and campaign, following product and integration overlays.",
+  "scenes": [
+    {
+      "id": "V01",
+      "start": 0,
+      "end": 19,
+      "action": "A wall of old televisions shows locusfounder.com, Locus branding and an infomercial-style presenter. Product images and daunting/expensive words appear inside the screen.",
+      "design": "CRT static, blue glow, serif title and vintage sales-show framing.",
+      "purpose": "Introduce the business-starting problem.",
+      "evidence": "Visible chronological 1 fps samples, source 0–19s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V02",
+      "start": 19,
+      "end": 35,
+      "action": "A presenter beside the televisions describes a short process. A second presenter appears with purple agent icon, agent balance panel and team photo; a pixel coin bridges sections.",
+      "design": "Warm clothing, purple accents and floating account cards.",
+      "purpose": "Connect agent payments with business creation.",
+      "evidence": "Visible chronological 1 fps samples, source 19–35s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V03",
+      "start": 35,
+      "end": 46,
+      "action": "Locus Founder title appears behind a presenter, then planning/product panels and platform icons surround the figure.",
+      "design": "Angled camera, floating white UI and repeated purple star mark.",
+      "purpose": "Present breadth of business management.",
+      "evidence": "Visible chronological 1 fps samples, source 35–46s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V04",
+      "start": 46,
+      "end": 54,
+      "action": "A close phone view shows a message asking for a business and campaign. The second presenter stands before a personal-insights loading panel.",
+      "design": "Messaging interface and illustrated progress state.",
+      "purpose": "Show the starting user action.",
+      "evidence": "Visible chronological 1 fps samples, source 46–54s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V05",
+      "start": 54,
+      "end": 62,
+      "action": "Search, website-like output and Publish button overlays appear; a clothing storefront fills part of the frame.",
+      "design": "Small process windows and large purple Publish control.",
+      "purpose": "Claim research-to-publication execution.",
+      "evidence": "Visible chronological 1 fps samples, source 54–62s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V06",
+      "start": 62,
+      "end": 77.353,
+      "action": "Zero to a real business and earn-from-passions copy accompanies the first presenter and chart overlays. The television offer screen shows50/month, a phone contact and locusfounder.com, then the URL alone.",
+      "design": "Large mixed-style text, purple charts and vintage offer plate.",
+      "purpose": "Summarize value and provide access details.",
+      "evidence": "Visible chronological 1 fps samples, source 62–77.353s; boundary approximate; exact motion between samples unverified."
+    }
+  ],
+  "sound": [
+    {
+      "id": "A01",
+      "start": 0,
+      "end": 77.353,
+      "layer": "unknown",
+      "detail": "No validated direct audio listening was performed. Music, speech delivery, effects, mix and sync remain unknown, not absent.",
+      "visual_relation": "All visual scenes; audiovisual alignment unverified",
+      "evidence": "Visual samples only; no actual audio range supplied to this reviewer."
+    },
+    {
+      "id": "A02",
+      "start": 7.01,
+      "end": 72.09,
+      "layer": "ASR draft",
+      "detail": "ASR draft describes a ten-minute messaging process, agent payments, Locus Founder building/managing businesses, personal research, websites, ad campaigns and deployment. It supports the broad visible sequence but mistranscribes Locus as Locust and has several awkward phrases. Execution and timing are claims, not measured results; voice and sync were not heard.",
+      "visual_relation": "Story text support; exact audiovisual alignment and delivery unverified.",
+      "evidence": "technical-review-2026-10-19/deep-review/audio/140-speech.json; local faster-whisper base CPU int8 draft; VAD candidates only, recognition errors possible."
+    }
+  ],
+  "categories": [
+    {
+      "id": "Q01",
+      "finding": "Retro sales premise leads to payment background, business agent scope, message request, claimed publication and offer.",
+      "evidence": "V01–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q02",
+      "finding": "A wall of CRT screens and vintage sales presenter establish a distinctive infomercial hook.",
+      "evidence": "V01",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q03",
+      "finding": "Founder and business panels suggest the category by 40 s; the phone request at 47 s makes the input concrete.",
+      "evidence": "V03,V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q04",
+      "finding": "Text grows around presenters, panels and icons appear, a coin changes display context and a storefront overlays the scene. Exact motion timing is unknown.",
+      "evidence": "V02–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q05",
+      "finding": "Blue CRT texture and recurring purple icon carry the transitions between presenters and software.",
+      "evidence": "V01–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q06",
+      "finding": "Retro scanline/static texture, warm live action and modern purple UI create a deliberate old/new mix.",
+      "evidence": "V01–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q07",
+      "finding": "Large benefit copy is readable; small process panels, pricing details and the phone contact need a device-size check.",
+      "evidence": "V03–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q08",
+      "finding": "ASR draft describes a ten-minute messaging process, agent payments, Locus Founder building/managing businesses, personal research, websites, ad campaigns and deployment. It supports the broad visible sequence but mistranscribes Locus as Locust and has several awkward phrases. Execution and timing are claims, not measured results; voice and sync were not heard.",
+      "evidence": "A02",
+      "status": "uncertain",
+      "reason": "ASR text only; no validated listening, delivery or voice origin.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q09",
+      "finding": "Voice delivery, music, effects and audiovisual alignment were not established by this visual pass.",
+      "evidence": "A01",
+      "status": "not checked",
+      "reason": "No validated direct audio listening input.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q10",
+      "finding": "Voice delivery, music, effects and audiovisual alignment were not established by this visual pass.",
+      "evidence": "A01",
+      "status": "not checked",
+      "reason": "No validated direct audio listening input.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q11",
+      "finding": "Voice delivery, music, effects and audiovisual alignment were not established by this visual pass.",
+      "evidence": "A01",
+      "status": "not checked",
+      "reason": "No validated direct audio listening input.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q12",
+      "finding": "Staged presenter footage combines with CRT treatments and product overlays; live capture and actual execution are unverified.",
+      "evidence": "V01–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q13",
+      "finding": "Manifest duration 77.353 s; indexed dimensions 1440×1080. Source unchanged flag recorded; fresh encoding and audio clipping checks not run.",
+      "evidence": "Group manifest",
+      "status": "uncertain",
+      "reason": "Inherited technical metadata; no fresh media probe in this review.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q14",
+      "finding": "The phone request, product panels, publish button and final offer give a partial visual explanation; ASR supplies candidate workflow detail.",
+      "evidence": "V03–V06,A02",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q15",
+      "finding": "Faces anchor the layout while UI cards appear beside them; the phone closeup briefly gives the action full attention.",
+      "evidence": "V03,V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q16",
+      "finding": "The 77 s film waits until 46 s for the concrete messaging action; the opening could be shortened for a demo-focused edit.",
+      "evidence": "V01–V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q17",
+      "finding": "The start-your-business premise returns as a storefront and zero-to-business statement, without a shown purchase.",
+      "evidence": "V01,V05,V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q18",
+      "finding": "The familiar sales-show framing and approachable presenters make a broad technical promise feel accessible; response is unmeasured.",
+      "evidence": "V01,V02",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q19",
+      "finding": "Television wall, blue static and purple star icon recur throughout.",
+      "evidence": "V01–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q20",
+      "finding": "Message and storefront states support the intended workflow, but ad execution, safe payments, real deployment and income are unverified.",
+      "evidence": "V02,V04–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q21",
+      "finding": "Locus Founder has a memorable retro-sales identity and explicit URL/contact offer.",
+      "evidence": "V01,V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q22",
+      "finding": "A real published URL and first transaction could replace generic rising charts to strengthen the conclusion.",
+      "evidence": "V05,V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q23",
+      "finding": "Tin can show one phone instruction leading to researched campaign assets, approval and a verified live placement.",
+      "evidence": "V04,V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q24",
+      "finding": "Locus Founder presents an AI agent that builds and manages an online business through messaging.",
+      "evidence": "Model reading from inspected images",
+      "status": "uncertain",
+      "reason": "Model-only new-viewer interpretation; no human test.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q25",
+      "finding": "Contact sheets inspected at displayed size; a phone-size playback, caption audit, flash audit and formal accessibility check were not performed.",
+      "evidence": "Viewed sheets",
+      "status": "not checked",
+      "reason": "Full-size moving-image and device checks unavailable in this pass.",
+      "experiment": "none"
+    }
+  ],
+  "lessons": {
+    "keep": "Keep a consistent set around presenters while briefly giving key actions full-screen focus.",
+    "avoid": "Avoid equating a Publish button or storefront mockup with a verified running business.",
+    "open": "Price and offer are recorded only as film content; actual deployment, revenue, integrations, exact motion and audio remain unverified.",
+    "try": [
+      "Use a phone request to begin a Tin campaign, then show three readable milestones and an actual live placement.",
+      "Replace growth-chart decoration with a dated campaign report and its underlying result."
+    ]
+  },
+  "comparison": {
+    "story": "Introduce the business-starting problem. → Connect agent payments with business creation. → Present breadth of business management. → Show the starting user action. → Claim research-to-publication execution. → Summarize value and provide access details.",
+    "motion": "Text grows around presenters, panels and icons appear, a coin changes display context and a storefront overlays the scene. Exact motion timing is unknown. Sampling scope: 1 fps unless a closer window is recorded.",
+    "sound": "No validated listening; unknown.",
+    "texture": "CRT static, blue glow, serif title and vintage sales-show framing.; Warm clothing, purple accents and floating account cards.; Angled camera, floating white UI and repeated purple star mark.; Messaging interface and illustrated progress state.; Small process windows and large purple Publish control.; Large mixed-style text, purple charts and vintage offer plate.",
+    "lesson": "Keep a consistent set around presenters while briefly giving key actions full-screen focus."
+  },
+  "elements": [
+    {
+      "kind": "ui",
+      "name": "messaging app",
+      "events": [
+        "V04"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "agent balance",
+      "events": [
+        "V02"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "storefront",
+      "events": [
+        "V05"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "publish button",
+      "events": [
+        "V05"
+      ]
+    },
+    {
+      "kind": "texture",
+      "name": "CRT television",
+      "events": [
+        "V01",
+        "V06"
+      ]
+    },
+    {
+      "kind": "motion",
+      "name": "floating interface panels",
+      "events": [
+        "V03",
+        "V05"
+      ]
+    }
+  ]
+}

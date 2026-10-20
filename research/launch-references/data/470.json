@@ -1,0 +1,358 @@
+{
+  "id": 470,
+  "reviewer_model": "gpt-6-astra",
+  "scope": "sampled visual and story review; ASR and measured signal support; no validated audio listening",
+  "viewed_evidence": [
+    "technical-review-2026-10-19/deep-review/motion/470/timeline-00.jpg",
+    "technical-review-2026-10-19/deep-review/motion/470/timeline-01.jpg",
+    "technical-review-2026-10-19/deep-review/motion/470/timeline-02.jpg",
+    "technical-review-2026-10-19/deep-review/motion/470/timeline-03.jpg",
+    "technical-review-2026-10-19/deep-review/audio/470-speech.json"
+  ],
+  "closer_windows": [],
+  "product_from_film": "Halo is presented as AI glasses through a fictional-looking story of building, social assistance and piano guidance.",
+  "explains_well": "The glasses remain the common object across three different human situations, ending with a warm family payoff.",
+  "unclear": "The film does not distinguish its dramatic visualizations from the actual glasses display or available capabilities.",
+  "product_type": "cinematic product concept",
+  "scenario": "Imagine glasses assisting with practical, social and musical tasks.",
+  "product_clear_time": 11,
+  "product_clear_basis": "The glasses are named Halo and described as a second brain while a wearer-view interface appears.",
+  "scenes": [
+    {
+      "id": "V01",
+      "start": 0,
+      "end": 15,
+      "action": "Three people test white glasses in a workshop. Putting them on is followed by a blue heads-up display with loading, profile and technical panels.",
+      "design": "Recording indicator, dim workshop and luminous cyan overlays.",
+      "purpose": "Introduce the device as a new assistant.",
+      "evidence": "Visible chronological 1 fps samples, source 0–15s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V02",
+      "start": 15,
+      "end": 25,
+      "action": "The wearer-view display cycles through floating object models including a drone and other tools; the woman points and selects a flamethrower-labeled model.",
+      "design": "Wireframe-like models and technical panels over the room.",
+      "purpose": "Suggest a build mode through spectacle.",
+      "evidence": "Visible chronological 1 fps samples, source 15–25s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V03",
+      "start": 25,
+      "end": 39,
+      "action": "In a cafeteria, a young man wears the glasses while talking with a friend. A profile panel appears near a woman, followed by an orange warning around a floor hazard.",
+      "design": "School setting, wearer-view overlays and alternating reactions.",
+      "purpose": "Set up social and situational assistance.",
+      "evidence": "Visible chronological 1 fps samples, source 25–39s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V04",
+      "start": 39,
+      "end": 49,
+      "action": "A tray and food move through the air, then the man holds the tray beside the woman as the friend reacts. A static-like transition ends the scene.",
+      "design": "Action inserts and comic reaction shots.",
+      "purpose": "Pay off the social-assistance scenario.",
+      "evidence": "Visible chronological 1 fps samples, source 39–49s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V05",
+      "start": 49,
+      "end": 67,
+      "action": "An older man sits at a piano with two younger people, is encouraged to try the glasses and puts them on.",
+      "design": "Bright domestic room, close faces and repeated white glasses.",
+      "purpose": "Introduce a more personal use case.",
+      "evidence": "Visible chronological 1 fps samples, source 49–67s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V06",
+      "start": 67,
+      "end": 95,
+      "action": "Hands play piano while cyan vertical note guides and lit keys overlay the keyboard. Family members watch and smile; the older man continues playing.",
+      "design": "Alternating wearer-view keyboard and warm family reactions.",
+      "purpose": "Give the device an emotional payoff.",
+      "evidence": "Visible chronological 1 fps samples, source 67–95s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V07",
+      "start": 95,
+      "end": 102.602,
+      "action": "HALO appears over the smiling pianist, then holds on black and fades.",
+      "design": "Large white uppercase wordmark.",
+      "purpose": "Close on the product identity.",
+      "evidence": "Visible chronological 1 fps samples, source 95–102.602s; boundary approximate; exact motion between samples unverified."
+    }
+  ],
+  "sound": [
+    {
+      "id": "A01",
+      "start": 0,
+      "end": 102.602,
+      "layer": "unknown",
+      "detail": "No validated direct audio listening was performed. Music, speech delivery, effects, mix and sync remain unknown, not absent.",
+      "visual_relation": "All visual scenes; audiovisual alignment unverified",
+      "evidence": "Visual samples only; no actual audio range supplied to this reviewer."
+    },
+    {
+      "id": "A02",
+      "start": 1.67,
+      "end": 65.25,
+      "layer": "ASR draft",
+      "detail": "The coherent ASR draft names Halo as a second brain, introduces build mode, sets up the wingman joke and then piano vision. It supports the three-part story. The draft does not validate the depicted capabilities, and the piano performance, voice delivery and effects were not heard.",
+      "visual_relation": "Story text support; exact audiovisual alignment and delivery unverified.",
+      "evidence": "technical-review-2026-10-19/deep-review/audio/470-speech.json; local faster-whisper base CPU int8 draft; VAD candidates only, recognition errors possible."
+    }
+  ],
+  "categories": [
+    {
+      "id": "Q01",
+      "finding": "Workshop discovery leads to an exaggerated social rescue and then a family piano moment, all linked by the glasses.",
+      "evidence": "V01–V07",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q02",
+      "finding": "A recording-style view of people testing glasses creates a discovery setup before any product explanation.",
+      "evidence": "V01",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q03",
+      "finding": "The film frames Halo as a general personal assistant. The exact user, hardware limits and available functions remain unclear.",
+      "evidence": "V01–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q04",
+      "finding": "Cyan interface panels populate the wearer view, floating object models change, an orange warning marks a floor hazard, and piano-note guides move over lit keys. These are visible effects, not verified device output.",
+      "evidence": "V01–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q05",
+      "finding": "Cuts alternate the wearer’s view with other people’s reactions. A static-like break separates the cafeteria scene from the family piano scene.",
+      "evidence": "V01–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q06",
+      "finding": "Dim workshop and cool school tones contrast with a warm family room; cyan overlays unify the imagined assistant views.",
+      "evidence": "V01–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q07",
+      "finding": "Most dialogue lacks captions. Technical panels are dense; a few labels and the final HALO name are clearer than the underlying function.",
+      "evidence": "V01–V07",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q08",
+      "finding": "The coherent ASR draft names Halo as a second brain, introduces build mode, sets up the wingman joke and then piano vision. It supports the three-part story. The draft does not validate the depicted capabilities, and the piano performance, voice delivery and effects were not heard.",
+      "evidence": "A02",
+      "status": "uncertain",
+      "reason": "ASR text only; no validated listening, delivery or voice origin.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q09",
+      "finding": "Voice delivery, music, effects and audiovisual alignment were not established by this visual pass.",
+      "evidence": "A01",
+      "status": "not checked",
+      "reason": "No validated direct audio listening input.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q10",
+      "finding": "Voice delivery, music, effects and audiovisual alignment were not established by this visual pass.",
+      "evidence": "A01",
+      "status": "not checked",
+      "reason": "No validated direct audio listening input.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q11",
+      "finding": "Voice delivery, music, effects and audiovisual alignment were not established by this visual pass.",
+      "evidence": "A01",
+      "status": "not checked",
+      "reason": "No validated direct audio listening input.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q12",
+      "finding": "Actors, practical glasses, workshop/school/home locations and composited interface graphics create a short narrative film.",
+      "evidence": "V01–V07",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q13",
+      "finding": "Manifest duration 102.602s; indexed dimensions 1920×1080. Source unchanged flag recorded; fresh encoding and audio clipping checks not run.",
+      "evidence": "Group manifest",
+      "status": "uncertain",
+      "reason": "Inherited technical metadata; no fresh media probe in this review.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q14",
+      "finding": "The glasses-to-assistance pattern is visually readable, but dialogue-dependent motivations and the device description are reduced without sound.",
+      "evidence": "V01–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q15",
+      "finding": "Bright overlays attract attention in the workshop; later the keyboard guides provide a simpler focus than the earlier dense panels.",
+      "evidence": "V01,V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q16",
+      "finding": "The piano sequence occupies a large final section, allowing emotional resolution but leaving no room for actual product specifications or access.",
+      "evidence": "V05–V07",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q17",
+      "finding": "The new-assistant setup is answered with several imagined benefits. The final family scene gives a human outcome without proving current capability.",
+      "evidence": "V01,V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q18",
+      "finding": "Discovery and comic confidence lead to family warmth and regained participation. This reading is based on expressions and ASR context, not heard piano or delivery.",
+      "evidence": "V01–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q19",
+      "finding": "The same distinctive white glasses and repeated wearer-view framing connect separate characters and locations.",
+      "evidence": "V01–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q20",
+      "finding": "The interfaces and outcomes are part of the presented story. Actual display technology, real-time guidance, recognition and physical capability are not established.",
+      "evidence": "V01–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q21",
+      "finding": "The white frames, cyan visual language and final Halo wordmark provide a coherent identity across the vignettes.",
+      "evidence": "V01–V07",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q22",
+      "finding": "Add a clear distinction between concept visualization and real device behavior, then show one actual supported task.",
+      "evidence": "V01,V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q23",
+      "finding": "Carry one physical object across several situations, ending with the most emotionally specific benefit; clearly label imagined interface footage.",
+      "evidence": "V01–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q24",
+      "finding": "Halo is presented as AI glasses through a fictional-looking story of building, social assistance and piano guidance.",
+      "evidence": "Model reading from inspected images",
+      "status": "uncertain",
+      "reason": "Model-only new-viewer interpretation; no human test.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q25",
+      "finding": "Contact sheets inspected at displayed size; a phone-size playback, caption audit, flash audit and formal accessibility check were not performed.",
+      "evidence": "Viewed sheets",
+      "status": "not checked",
+      "reason": "Full-size moving-image and device checks unavailable in this pass.",
+      "experiment": "none"
+    }
+  ],
+  "lessons": {
+    "keep": "Use a recurring physical object to connect separate use-case stories.",
+    "avoid": "Presenting dramatic interface effects without explaining their relationship to the real product.",
+    "open": "Actual hardware capabilities, available features, interface provenance and sound remain unverified.",
+    "try": [
+      "For Tin, follow one approved campaign brief across creation, review and publishing, ending on a real customer result.",
+      "Compare three imagined benefits with one clearly labeled real task plus a short future-concept section."
+    ]
+  },
+  "comparison": {
+    "story": "Introduce the device as a new assistant. → Suggest a build mode through spectacle. → Set up social and situational assistance. → Pay off the social-assistance scenario. → Introduce a more personal use case. → Give the device an emotional payoff. → Close on the product identity.",
+    "motion": "Cyan interface panels populate the wearer view, floating object models change, an orange warning marks a floor hazard, and piano-note guides move over lit keys. These are visible effects, not verified device output. Sampling scope: 1 fps unless a closer window is recorded.",
+    "sound": "No validated listening; unknown.",
+    "texture": "Recording indicator, dim workshop and luminous cyan overlays.; Wireframe-like models and technical panels over the room.; School setting, wearer-view overlays and alternating reactions.; Action inserts and comic reaction shots.; Bright domestic room, close faces and repeated white glasses.; Alternating wearer-view keyboard and warm family reactions.; Large white uppercase wordmark.",
+    "lesson": "Use a recurring physical object to connect separate use-case stories."
+  },
+  "elements": [
+    {
+      "kind": "ui",
+      "name": "heads-up display",
+      "events": [
+        "V01",
+        "V02",
+        "V03"
+      ]
+    },
+    {
+      "kind": "motion",
+      "name": "floating object models",
+      "events": [
+        "V02"
+      ]
+    },
+    {
+      "kind": "motion",
+      "name": "piano note guides",
+      "events": [
+        "V06"
+      ]
+    },
+    {
+      "kind": "texture",
+      "name": "cyan holographic overlays",
+      "events": [
+        "V01",
+        "V02",
+        "V03",
+        "V06"
+      ]
+    }
+  ]
+}

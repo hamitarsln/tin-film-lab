@@ -1,0 +1,333 @@
+{
+  "id": 152,
+  "product_from_film": "Toku presents payroll that reaches remote workers and can be used for everyday spending.",
+  "explains_well": "A payroll table is followed by a worker payment notification and a card-payment confirmation in different locations.",
+  "unclear": "The film does not show payroll setup, fees, currency conversion, eligibility or actual settlement time.",
+  "product_type": "global payroll and spending",
+  "scenario": "A sender uses a payroll table, remote workers receive or view funds, and a person pays at a waterfront shop.",
+  "product_clear_time": 7,
+  "product_clear_basis": "Toku You got paid notification at 7–8s links the opening payroll-like table to a recipient; This is payroll now names the category at 18s.",
+  "scenes": [
+    {
+      "start": 0,
+      "end": 3,
+      "action": "San Francisco label overlays a worker at a desk, followed by a laptop with a multi-row payment/payroll-like table.",
+      "design": "Bright office and white software table.",
+      "purpose": "Establish the sending side of a global payment story.",
+      "evidence": "1 fps source samples in 0–3s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V01"
+    },
+    {
+      "start": 3,
+      "end": 9,
+      "action": "Buenos Aires label introduces a woman at a warm wooden desk. She picks up her phone and a Toku You got paid notification appears.",
+      "design": "Sunlit room, mate-style cup and floating white notification.",
+      "purpose": "Show a recipient outcome rather than backend processing.",
+      "evidence": "1 fps source samples in 3–9s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V02"
+    },
+    {
+      "start": 9,
+      "end": 14,
+      "action": "Budapest label introduces a café worker, followed by a phone and changing positive USDG amounts.",
+      "design": "Brick café, coffee cup and dark green-accented balance/earning overlay.",
+      "purpose": "Present another location and money-value claim; exact mechanism unverified.",
+      "evidence": "1 fps source samples in 9–14s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V03"
+    },
+    {
+      "start": 14,
+      "end": 18,
+      "action": "A woman at a waterfront shop taps a phone at a terminal; $250.00 and a green success check appear.",
+      "design": "Warm outdoor light and payment terminal.",
+      "purpose": "Show funds being used in everyday life.",
+      "evidence": "1 fps source samples in 14–18s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V04"
+    },
+    {
+      "start": 18,
+      "end": 23.7,
+      "action": "This is payroll now and TOKU overlay the waterfront scene, with partner marks, then a dark ending.",
+      "design": "Large white text over real-world-looking location footage.",
+      "purpose": "Name the product category and brand.",
+      "evidence": "1 fps source samples in 18–23.7s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V05"
+    }
+  ],
+  "categories": [
+    {
+      "id": "Q01",
+      "finding": "Sender table → remote recipient notification → another account-value scene → everyday payment → payroll brand.",
+      "evidence": "V01–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q02",
+      "finding": "San Francisco and a desk worker give immediate geographic context; a payment-like table appears by 1s.",
+      "evidence": "V01",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q03",
+      "finding": "Payroll function becomes clear with paid notification at 7s and explicit payroll line at 18s. Remote workers are the shown audience.",
+      "evidence": "V02,V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q04",
+      "finding": "City labels build, notifications appear and USDG values change. Exact payment latency and motion easing are unverified.",
+      "evidence": "V01–V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q05",
+      "finding": "Location changes are bridged by work devices and money states; each new city receives a large label.",
+      "evidence": "V01–V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q06",
+      "finding": "Warm wood, café brick, sunlight and waterfront scenes make finance visible through daily settings.",
+      "evidence": "V02–V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q07",
+      "finding": "City names, paid notification and success amount carry the message. Detailed payroll rows and partner names are secondary.",
+      "evidence": "V01–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q08",
+      "finding": "Voice delivery is unverified.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "No validated listening.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q09",
+      "finding": "Music character and structure are unverified.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "No validated listening.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q10",
+      "finding": "Effects and their sources are unverified.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "No validated listening; waveform peaks do not identify effects.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q11",
+      "finding": "Sound sync is unverified.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "No validated listening or paired audiovisual timing.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q12",
+      "finding": "Real-world-looking location footage is combined with payment overlays. Actual locations, transactions and capture method are not independently verified.",
+      "evidence": "V01–V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q13",
+      "finding": "Source duration 23.7 s; Watch metadata 1920 × 998. Frame rate, audio clipping and export quality not checked here.",
+      "evidence": "Whole film",
+      "status": "supported",
+      "reason": "Parent source metadata supports duration and dimensions; visual review is sampled.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q14",
+      "finding": "Silent viewing shows money sent/received and spent across locations, though the precise account and growth mechanisms remain unclear.",
+      "evidence": "V01–V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q15",
+      "finding": "Large city text first locates each person, then device and notification close-ups show the financial action.",
+      "evidence": "V01–V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q16",
+      "finding": "Three money contexts fit into 18s before branding; this gives broad clarity but little operational detail.",
+      "evidence": "V01–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q17",
+      "finding": "The global-work opening is paid off by a recipient notification and an everyday purchase.",
+      "evidence": "V01,V02,V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q18",
+      "finding": "Comfortable work settings and green success cues may suggest ease and normality; viewer reaction is unmeasured.",
+      "evidence": "V02–V04",
+      "status": "uncertain",
+      "reason": "Interpretation of imagery.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q19",
+      "finding": "Laptops, phones and payment states connect different people; no single identified payment is tracked across all scenes.",
+      "evidence": "V01–V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q20",
+      "finding": "Paid and purchase confirmations are shown states. Actual settlement, yield, fees, jurisdictional access and stablecoin handling are unverified.",
+      "evidence": "V02–V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q21",
+      "finding": "Toku notification and final payroll line distinguish the offer; location footage alone could fit other global-money services.",
+      "evidence": "V02,V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q22",
+      "finding": "One clearly matching sender amount and recipient amount would strengthen the causal payment story.",
+      "evidence": "V01,V02",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "Show one payroll row and the same recipient amount in the notification, with actual elapsed time if measured."
+    },
+    {
+      "id": "Q23",
+      "finding": "For Tin, link separate user scenes with an identical asset or identifier so the handoff is explicit.",
+      "evidence": "V01,V02",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "Carry one campaign title from creator screen to reviewer notification and published output."
+    },
+    {
+      "id": "Q24",
+      "finding": "No human new-viewer test was performed.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "The product summary is this model’s film-only reading.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q25",
+      "finding": "Mobile preview and accessibility checks were not performed.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "Contact sheets are evidence views, not a stated mobile preview or compliance test.",
+      "experiment": "none"
+    }
+  ],
+  "elements": [
+    {
+      "kind": "ui",
+      "name": "payroll table",
+      "events": [
+        "V01"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "payment notification",
+      "events": [
+        "V02"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "payment confirmation",
+      "events": [
+        "V04"
+      ]
+    },
+    {
+      "kind": "texture",
+      "name": "remote work locations",
+      "events": [
+        "V01",
+        "V02",
+        "V03"
+      ]
+    },
+    {
+      "kind": "motion",
+      "name": "city label build",
+      "events": [
+        "V01",
+        "V02",
+        "V03"
+      ]
+    }
+  ],
+  "lessons": {
+    "keep": "Follow the financial interface with a person receiving and using the money in a familiar setting.",
+    "try": [
+      "Match one sender row and recipient notification by name and amount, adding elapsed time only if actually measured.",
+      "For Tin, carry one campaign title through creator screen, reviewer notification and final publication."
+    ],
+    "avoid": "Treating a success overlay or rising amount as verified settlement speed, yield or universal access.",
+    "open": "Fees, eligibility, conversion, settlement, amount-growth basis, location authenticity and audio remain unverified."
+  },
+  "comparison": {
+    "story": "Global sender → recipient → account value → spending → payroll line.",
+    "motion": "City-label and notification states, changing values; precise timing unverified.",
+    "sound": "No validated listening; all sound layers unknown.",
+    "texture": "Bright office, warm home, brick café and waterfront commerce.",
+    "lesson": "Everyday recipient outcomes make an infrastructure product easier to understand."
+  },
+  "reviewer_model": "gpt-6-astra",
+  "scope": "sampled visual and story review; ASR and measured signal support; no validated audio listening",
+  "viewed_evidence": [
+    "technical-review-2026-10-19/deep-review/motion/152/timeline-00.jpg"
+  ],
+  "closer_windows": [],
+  "sound": [
+    {
+      "id": "A01",
+      "start": 0,
+      "end": 23.7,
+      "layer": "unknown",
+      "detail": "No validated audio listening. Voice delivery, music, effects and mix are unknown.",
+      "visual_relation": "All scenes; sound alignment unverified",
+      "evidence": "No actual audio perception in this review; prepared audio files are not listening evidence."
+    }
+  ]
+}

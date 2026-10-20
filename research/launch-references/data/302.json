@@ -1,0 +1,372 @@
+{
+  "id": 302,
+  "viewed_evidence": [
+    "technical-review-2026-10-19/deep-review/motion/302/timeline-00.jpg",
+    "technical-review-2026-10-19/deep-review/motion/302/timeline-01.jpg",
+    "astra-review-2026-10-20/evidence/group-3/302/dense.jpg"
+  ],
+  "product_from_film": "Reve adds visual annotations and reference-based edits to images.",
+  "explains_well": "The beanie instruction and background reference each lead to a visible change in the same portrait.",
+  "unclear": "The fast forest montage hides the inputs for several changes, making the edit controls harder to understand than the finished images.",
+  "product_type": "image annotation feature",
+  "scenario": "Add a beanie and reference background, then draw and select image edits",
+  "product_clear_time": 15,
+  "product_clear_basis": "Add this beanie instruction ties an annotation to a visible portrait result.",
+  "scenes": [
+    {
+      "start": 0,
+      "end": 10,
+      "action": "Crayon, pen and marker tips lead to a blue digital pen, pink eraser and size/colour toolbar.",
+      "design": "Large isolated objects on white, then compact toolbar.",
+      "purpose": "Introduce drawing tools",
+      "id": "V01",
+      "evidence": "Visible 1 fps samples, source 0–10s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 10,
+      "end": 13,
+      "action": "Blue script becomes multicoloured annotations are here title.",
+      "design": "Dimensional rainbow lettering.",
+      "purpose": "Announce feature",
+      "id": "V02",
+      "evidence": "Visible 1 fps samples, source 10–13s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 13,
+      "end": 17,
+      "action": "Selection box highlights portrait eyes; Add this beanie reference produces pink hat on the woman.",
+      "design": "Cropped portrait and small instruction card.",
+      "purpose": "Show targeted image change",
+      "id": "V03",
+      "evidence": "Visible 1 fps samples, source 13–17s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 17,
+      "end": 20.25,
+      "action": "Snowy forest reference receives add this to the background instruction; portrait appears with snowy backdrop.",
+      "design": "Reference image and prompt card near subject.",
+      "purpose": "Show reference placement",
+      "id": "V04",
+      "evidence": "Visible 1 fps samples, source 17–20.25s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 20.25,
+      "end": 24,
+      "action": "Forest fills frame, drawn sun precedes sunny snow; green summer forest then dusk campsite, fire and moon appear with selection boxes.",
+      "design": "Quick seasonal and object edits.",
+      "purpose": "Show range of annotation changes",
+      "id": "V05",
+      "evidence": "Visible 1 fps samples, source 20.25–24s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 24,
+      "end": 29,
+      "action": "Annotate Directly text changes black/white after Invert this graphic instruction; Spotlight gets selection treatment.",
+      "design": "Typography doubles as an editing demonstration.",
+      "purpose": "Name annotation modes",
+      "id": "V06",
+      "evidence": "Visible 1 fps samples, source 24–29s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 29,
+      "end": 32,
+      "action": "or just draw appears with handwritten script.",
+      "design": "White drawing on black.",
+      "purpose": "Offer free drawing",
+      "id": "V07",
+      "evidence": "Visible 1 fps samples, source 29–32s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 32,
+      "end": 35.435,
+      "action": "Small patterned logo holds on black.",
+      "design": "Minimal brand close.",
+      "purpose": "Close",
+      "id": "V08",
+      "evidence": "Visible 1 fps samples, source 32–35.435s; boundaries approximate, between-frame action unresolved."
+    }
+  ],
+  "sound": [
+    {
+      "id": "A01",
+      "start": 0,
+      "end": 35.435,
+      "layer": "unknown",
+      "detail": "No validated audio listening; speech, music, effects, mix and sync remain unverified.",
+      "visual_relation": "All visual scenes; alignment not checked",
+      "evidence": "No actual audio supplied to this review; existing technical-review-2026-10-19/deep-review/audio/302.json is not listening evidence."
+    }
+  ],
+  "categories": [
+    {
+      "finding": "Drawing tools lead to named feature, portrait edits, a faster landscape montage and mode labels. Portrait examples explain cause and effect more clearly than the landscape sequence.",
+      "evidence": "V01–V08",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q01"
+    },
+    {
+      "finding": "Familiar physical pen tips are a quick visual entry into the drawing theme, but product purpose is delayed until the annotation title.",
+      "evidence": "V01–V02",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q02"
+    },
+    {
+      "finding": "The beanie instruction and matching hat make image editing clear around 15–16 s.",
+      "evidence": "V03",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q03"
+    },
+    {
+      "finding": "Dense 20–24 s samples reveal sun drawing, sunny snow, green forest, dusk tent, fire and moon in quick succession. These are distinct edited states; the inputs for the season and dusk changes are not shown clearly.",
+      "evidence": "V05; dense 20–24 s",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q04"
+    },
+    {
+      "finding": "The forest background becomes the next editing subject, connecting two demos through a shared image. Later typography is also edited to illustrate its label.",
+      "evidence": "V04–V06",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q05"
+    },
+    {
+      "finding": "White space and bright tool colours create a playful opening; natural image colour and stark black/white titles vary the rhythm.",
+      "evidence": "V01–V07",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q06"
+    },
+    {
+      "finding": "Add this beanie and background instruction are concise. Rapid landscape changes leave less time to see which selection or drawing caused each result.",
+      "evidence": "V03–V05",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q07"
+    },
+    {
+      "finding": "Voice presence and delivery remain unverified.",
+      "evidence": "No validated audio listening",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q08"
+    },
+    {
+      "finding": "Music character and arc remain unverified.",
+      "evidence": "No validated audio listening",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q09"
+    },
+    {
+      "finding": "Sound effects remain unverified.",
+      "evidence": "No validated audio listening",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q10"
+    },
+    {
+      "finding": "Sound-to-motion timing remain unverified.",
+      "evidence": "No validated audio listening",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q11"
+    },
+    {
+      "finding": "Product-like annotation cards, photographic image outputs, oversized tools and typography form the film. Production software is unknown.",
+      "evidence": "V01–V08",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q12"
+    },
+    {
+      "finding": "Source duration supplied as 35.435s; no independent compression, clipping or delivery check.",
+      "evidence": "Assigned metadata; source integrity checked by parent",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q13"
+    },
+    {
+      "finding": "The portrait instructions provide useful visual explanations without sound. Several later transformations have no readable instruction in the sampled frames.",
+      "evidence": "V03–V05",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q14"
+    },
+    {
+      "finding": "Selection boxes and nearby instruction cards point directly at editable objects. Large crops reduce surrounding interface context.",
+      "evidence": "V03–V06",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q15"
+    },
+    {
+      "finding": "The tool introduction takes about ten seconds, while several landscape edits fit inside four seconds. Rebalancing those holds would improve comprehension.",
+      "evidence": "V01, V05",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q16"
+    },
+    {
+      "finding": "Hat and reference-background examples demonstrate how a visual request can specify an edit. The forest montage demonstrates variety more than method.",
+      "evidence": "V03–V05",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q17"
+    },
+    {
+      "finding": "Playful tools, rainbow lettering and quick image transformations appear intended to make editing feel approachable. Audience response was not measured.",
+      "evidence": "V01–V05",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q18"
+    },
+    {
+      "finding": "The same portrait persists through hat and background edits. Forest is carried forward, but seasonal changes omit their corresponding inputs.",
+      "evidence": "V03–V05",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q19"
+    },
+    {
+      "finding": "Edited states are visible; exact generation time, subject consistency under other edits and production reliability are not independently checked.",
+      "evidence": "V03–V05",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q20"
+    },
+    {
+      "finding": "Using an invert command on the announcement typography makes the message itself a feature example.",
+      "evidence": "V06",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q21"
+    },
+    {
+      "finding": "Trim the tool introduction and hold each landscape input beside its output, especially the summer and dusk changes.",
+      "evidence": "V01, V05",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q22"
+    },
+    {
+      "finding": "Show a small visual instruction next to its exact changed region, then preserve the subject long enough for comparison.",
+      "evidence": "V03–V04",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q23"
+    },
+    {
+      "finding": "No human new-viewer test; product description above is model interpretation of sampled images.",
+      "evidence": "V01–V08",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q24"
+    },
+    {
+      "finding": "No phone-size, safe-area or flash assessment; small UI text needs separate preview.",
+      "evidence": "Contact sheets",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q25"
+    }
+  ],
+  "lessons": {
+    "keep": "Keep the same portrait through the beanie and reference-background changes.",
+    "try": [
+      "Cut four seconds from the pen introduction and use them to show the missing summer and dusk instructions.",
+      "Add a brief before/after hold with the selected region and instruction visible for each edit."
+    ],
+    "avoid": "Avoid showing several attractive outputs so fast that their input actions disappear.",
+    "open": "Audio is unheard. Generation latency, repeatability and editing fidelity remain unverified."
+  },
+  "comparison": {
+    "story": "Introduce drawing tools → Announce feature → Show targeted image change → Show reference placement → Show range of annotation changes → Name annotation modes → Offer free drawing → Close",
+    "motion": "Dense 20–24 s samples reveal sun drawing, sunny snow, green forest, dusk tent, fire and moon in quick succession. These are distinct edited states; the inputs for the season and dusk changes are not shown clearly.",
+    "sound": "No validated listening; no absence claims.",
+    "texture": "White space and bright tool colours create a playful opening; natural image colour and stark black/white titles vary the rhythm.",
+    "lesson": "Keep the same portrait through the beanie and reference-background changes."
+  },
+  "elements": [
+    {
+      "kind": "ui",
+      "name": "drawing toolbar",
+      "events": [
+        "V01"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "selection box",
+      "events": [
+        "V03",
+        "V05",
+        "V06"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "annotation card",
+      "events": [
+        "V03",
+        "V04"
+      ]
+    },
+    {
+      "kind": "motion",
+      "name": "image replacement",
+      "events": [
+        "V03",
+        "V05"
+      ]
+    },
+    {
+      "kind": "motion",
+      "name": "handwriting reveal",
+      "events": [
+        "V07"
+      ]
+    }
+  ],
+  "reviewer_model": "gpt-6-astra",
+  "scope": "sampled visual and story review; ASR and measured signal support; no validated audio listening",
+  "closer_windows": [
+    {
+      "start": 20,
+      "end": 24,
+      "rate_fps": 4,
+      "evidence": [
+        "astra-review-2026-10-20/evidence/group-3/302/dense.jpg"
+      ],
+      "resolved": "Sun drawing is followed by sunny snow, green forest, dusk tent, fire and moon. Intermediate states absent from 1 fps overview are visible; several edit instructions remain off-screen."
+    }
+  ]
+}

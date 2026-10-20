@@ -1,0 +1,365 @@
+{
+  "id": 396,
+  "reviewer_model": "gpt-6-astra",
+  "scope": "sampled visual and story review; ASR and measured signal support; no validated audio listening",
+  "viewed_evidence": [
+    "technical-review-2026-10-19/deep-review/motion/396/timeline-00.jpg",
+    "technical-review-2026-10-19/deep-review/motion/396/timeline-01.jpg",
+    "technical-review-2026-10-19/deep-review/motion/396/timeline-02.jpg",
+    "technical-review-2026-10-19/deep-review/audio/396-speech.json"
+  ],
+  "closer_windows": [],
+  "product_from_film": "Wondercraft introduces Wonda, a conversational video-creation tool, through a creator competition and community story.",
+  "explains_well": "The ten-creator, four-week, $25,000 challenge gives the launch a clear human project and a reason to show feedback and iteration.",
+  "unclear": "The film does not follow one prompt through edits to a finished video, and the winner reveal is cut off before a clear result.",
+  "product_type": "conversational video creation",
+  "scenario": "Invite creators to make a launch video with Wonda and present the challenge process.",
+  "product_clear_time": 10,
+  "product_clear_basis": "A filmed monitor shows a video-edit request, followed by the explicit video-creation comparison and later Create with Wonda composer.",
+  "scenes": [
+    {
+      "id": "V01",
+      "start": 0,
+      "end": 16,
+      "action": "Founder Dimi speaks on a street with hand-drawn introductory marks. Cinematic eye/planet inserts and dense editing timelines illustrate the claim, then a monitor shows a text edit request. Lovable website development and Wondercraft video creation are paired beside the founder.",
+      "design": "Street footage, scribbles, large text, timeline screenshots and logo comparison.",
+      "purpose": "Explain conversational video creation through a familiar analogy.",
+      "evidence": "Visible chronological 1 fps samples, source 0–16s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V02",
+      "start": 16,
+      "end": 34,
+      "action": "Office feedback footage leads to large launch-video text, a ten-creator portrait grid, a four-week card and $25,000.",
+      "design": "Behind-the-scenes clips, colorful typography and creator tiles.",
+      "purpose": "Introduce the competition structure and stakes.",
+      "evidence": "Visible chronological 1 fps samples, source 16–34s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V03",
+      "start": 34,
+      "end": 56,
+      "action": "Creators work at varied desks and laptops. A chalk-like wipe crosses one scene. A vertical phone clip thanks participants for patience and bug reporting while side captions appear.",
+      "design": "Home/office work footage and a narrow phone video on black.",
+      "purpose": "Show the early-access process and acknowledge iteration.",
+      "evidence": "Visible chronological 1 fps samples, source 34–56s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V04",
+      "start": 56,
+      "end": 69,
+      "action": "The founder returns in the office, then an audience event and presenter at a screen appear. The sequence builds toward the competition announcement.",
+      "design": "Team and community-event footage.",
+      "purpose": "Create a sense of shared launch activity; the winning result is not clearly revealed.",
+      "evidence": "Visible chronological 1 fps samples, source 56–69s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V05",
+      "start": 69,
+      "end": 78,
+      "action": "Wonda is live today appears over the street presenter. A Create with Wonda composer begins filling with a video request, then the presenter asks viewers to comment WONDA for 1,000 credits.",
+      "design": "Product composer close-up and large call-to-action captions.",
+      "purpose": "Move from community story to a trial invitation.",
+      "evidence": "Visible chronological 1 fps samples, source 69–78s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V06",
+      "start": 78,
+      "end": 83.2,
+      "action": "The Wondercraft logo appears on white and wondercraft.ai/studio is highlighted below.",
+      "design": "Clean logo card with green URL highlight.",
+      "purpose": "Provide a direct destination.",
+      "evidence": "Visible chronological 1 fps samples, source 78–83.2s; boundary approximate; exact motion between samples unverified."
+    }
+  ],
+  "sound": [
+    {
+      "id": "A01",
+      "start": 0,
+      "end": 83.2,
+      "layer": "unknown",
+      "detail": "No validated direct audio listening was performed. Music, speech delivery, effects, mix and sync remain unknown, not absent.",
+      "visual_relation": "All visual scenes; audiovisual alignment unverified",
+      "evidence": "Visual samples only; no actual audio range supplied to this reviewer."
+    },
+    {
+      "id": "A02",
+      "start": 0.1,
+      "end": 77.86,
+      "layer": "ASR draft",
+      "detail": "The coherent ASR draft introduces chat-based video creation, then says ten creators received four weeks of early access and competed for $25,000. It discusses feedback and bugs, starts a winner announcement without completing it, and offers 1,000 credits for a comment. Wonda and some phrases are mistranscribed; no heard delivery or sound design is inferred.",
+      "visual_relation": "Story text support; exact audiovisual alignment and delivery unverified.",
+      "evidence": "technical-review-2026-10-19/deep-review/audio/396-speech.json; local faster-whisper base CPU int8 draft; VAD candidates only, recognition errors possible."
+    }
+  ],
+  "categories": [
+    {
+      "id": "Q01",
+      "finding": "The founder introduces chat-based video, explains a creator contest, shows work and feedback, then invites viewers to try Wonda.",
+      "evidence": "V01–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q02",
+      "finding": "Hand-drawn marks identify the street presenter before bold claims and complex editing timelines establish the problem.",
+      "evidence": "V01",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q03",
+      "finding": "A brief monitor request and video-creation analogy explain the offer early, but a readable composer appears mainly near the end.",
+      "evidence": "V01,V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q04",
+      "finding": "Scribbles draw around the presenter, oversized words fill the office frame, creator tiles form a grid, the prize amount enlarges, a chalk-like wipe reveals work footage and prompt text types into the closing composer.",
+      "evidence": "V01–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q05",
+      "finding": "The competition connects the creator clips and bug-feedback footage, but no one creator’s input and final film are followed continuously.",
+      "evidence": "V02–V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q06",
+      "finding": "Mint green, pink and yellow text accents add energy to ordinary street and office footage; the ending returns to a plain white brand card.",
+      "evidence": "V01–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q07",
+      "finding": "The contest numbers and trial prompt are clear. Filmed monitors and fast timeline screenshots are not detailed product explanations.",
+      "evidence": "V01,V02,V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q08",
+      "finding": "The coherent ASR draft introduces chat-based video creation, then says ten creators received four weeks of early access and competed for $25,000. It discusses feedback and bugs, starts a winner announcement without completing it, and offers 1,000 credits for a comment. Wonda and some phrases are mistranscribed; no heard delivery or sound design is inferred.",
+      "evidence": "A02",
+      "status": "uncertain",
+      "reason": "ASR text only; no validated listening, delivery or voice origin.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q09",
+      "finding": "Voice delivery, music, effects and audiovisual alignment were not established by this visual pass.",
+      "evidence": "A01",
+      "status": "not checked",
+      "reason": "No validated direct audio listening input.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q10",
+      "finding": "Voice delivery, music, effects and audiovisual alignment were not established by this visual pass.",
+      "evidence": "A01",
+      "status": "not checked",
+      "reason": "No validated direct audio listening input.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q11",
+      "finding": "Voice delivery, music, effects and audiovisual alignment were not established by this visual pass.",
+      "evidence": "A01",
+      "status": "not checked",
+      "reason": "No validated direct audio listening input.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q12",
+      "finding": "Street/office footage, creator recordings, event footage, interface snippets and graphic overlays are visible. The claim that the launch used Wonda does not establish which individual edits it produced.",
+      "evidence": "V01–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q13",
+      "finding": "Manifest duration 83.2s; indexed dimensions 1920×1080. Source unchanged flag recorded; fresh encoding and audio clipping checks not run.",
+      "evidence": "Group manifest",
+      "status": "uncertain",
+      "reason": "Inherited technical metadata; no fresh media probe in this review.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q14",
+      "finding": "The competition structure and comment-to-try prompt are readable. The product process depends on the brief interface glimpses and draft narration.",
+      "evidence": "V01–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q15",
+      "finding": "Human creators dominate the frame, making the launch a community story more than a product walkthrough.",
+      "evidence": "V02–V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q16",
+      "finding": "The middle roughly 53 s focus on the challenge and people. The closing product-composer glimpse lasts only about two seconds.",
+      "evidence": "V02–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q17",
+      "finding": "People are shown using computers and discussing feedback, but the film does not show a complete prompt-to-export result or identify the winner.",
+      "evidence": "V02–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q18",
+      "finding": "The bug-reporting acknowledgment and varied creator environments suggest an open early-access process; this is a story reading.",
+      "evidence": "V03",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q19",
+      "finding": "The event segment builds toward a winner announcement, then cuts to Wonda is live today. The competition’s result is not made explicit in this film.",
+      "evidence": "V04,V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q20",
+      "finding": "Prize payment, creator results, credit availability and the share of production completed in Wonda are not independently verified.",
+      "evidence": "V02–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q21",
+      "finding": "Giving a launch to a creator challenge provides people, stakes and feedback scenes beyond a standard founder pitch.",
+      "evidence": "V02–V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q22",
+      "finding": "Show the winning creator and a short before/prompt/after example, then return to the trial invitation.",
+      "evidence": "V04,V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q23",
+      "finding": "Tin can use a real user challenge as a story, but should preserve one concrete input and finished output within it.",
+      "evidence": "V02–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q24",
+      "finding": "Wondercraft introduces Wonda, a conversational video-creation tool, through a creator competition and community story.",
+      "evidence": "Model reading from inspected images",
+      "status": "uncertain",
+      "reason": "Model-only new-viewer interpretation; no human test.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q25",
+      "finding": "Contact sheets inspected at displayed size; a phone-size playback, caption audit, flash audit and formal accessibility check were not performed.",
+      "evidence": "Viewed sheets",
+      "status": "not checked",
+      "reason": "Full-size moving-image and device checks unavailable in this pass.",
+      "experiment": "none"
+    }
+  ],
+  "lessons": {
+    "keep": "Give a creator challenge clear participants, a time window and stakes.",
+    "avoid": "Avoid building suspense around a challenge result that the film never clearly shows.",
+    "open": "Winner, final creator outputs, production attribution, offer conditions and all heard sound properties remain unverified.",
+    "try": [
+      "For Tin, follow one participant’s brief, revision and finished output within the community story.",
+      "Resolve the winner or result before moving to the sign-up prompt."
+    ]
+  },
+  "comparison": {
+    "story": "Explain conversational video creation through a familiar analogy. → Introduce the competition structure and stakes. → Show the early-access process and acknowledge iteration. → Create a sense of shared launch activity; the winning result is not clearly revealed. → Move from community story to a trial invitation. → Provide a direct destination.",
+    "motion": "Scribbles draw around the presenter, oversized words fill the office frame, creator tiles form a grid, the prize amount enlarges, a chalk-like wipe reveals work footage and prompt text types into the closing composer. Sampling scope: 1 fps unless a closer window is recorded.",
+    "sound": "No validated listening; unknown.",
+    "texture": "Street footage, scribbles, large text, timeline screenshots and logo comparison.; Behind-the-scenes clips, colorful typography and creator tiles.; Home/office work footage and a narrow phone video on black.; Team and community-event footage.; Product composer close-up and large call-to-action captions.; Clean logo card with green URL highlight.",
+    "lesson": "Give a creator challenge clear participants, a time window and stakes."
+  },
+  "elements": [
+    {
+      "kind": "ui",
+      "name": "timeline",
+      "events": [
+        "V01"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "prompt composer",
+      "events": [
+        "V05"
+      ]
+    },
+    {
+      "kind": "motion",
+      "name": "creator tiles form grid",
+      "events": [
+        "V02"
+      ]
+    },
+    {
+      "kind": "motion",
+      "name": "hand-drawn marks appear",
+      "events": [
+        "V01"
+      ]
+    },
+    {
+      "kind": "motion",
+      "name": "chalk-like wipe",
+      "events": [
+        "V03"
+      ]
+    },
+    {
+      "kind": "texture",
+      "name": "street footage",
+      "events": [
+        "V01",
+        "V05"
+      ]
+    },
+    {
+      "kind": "texture",
+      "name": "creator desk footage",
+      "events": [
+        "V03"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,323 @@
+{
+  "id": 110,
+  "product_from_film": "Heisted is presented through a stylized armed bank-heist sequence.",
+  "explains_well": "Masks, weapons, a bank-like building and cash collection make the heist theme immediate.",
+  "unclear": "The film does not establish gameplay rules, platform, player controls or the source title’s blockchain claim.",
+  "product_type": "game-like heist teaser",
+  "scenario": "A masked crew approaches a bank-like building, fires weapons and takes stacks of cash.",
+  "product_clear_time": 15,
+  "product_clear_basis": "Heisted title appears at 15s; theme is clear earlier but interactive product status is not demonstrated.",
+  "scenes": [
+    {
+      "start": 0,
+      "end": 3,
+      "action": "Blurred city passage gives way to three suited figures facing a large institutional building.",
+      "design": "Strong perspective lines and warm daylight.",
+      "purpose": "Move toward the heist location.",
+      "evidence": "1 fps source samples in 0–3s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V01"
+    },
+    {
+      "start": 3,
+      "end": 7,
+      "action": "Blue-gloved hands raise a flag-pattern mask; a dark mask-eye view follows, then a pistol is held toward the building.",
+      "design": "First-person framing and blue gloves.",
+      "purpose": "Place the viewer in the crew perspective.",
+      "evidence": "1 fps source samples in 3–7s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V02"
+    },
+    {
+      "start": 7,
+      "end": 11,
+      "action": "Masked suited figures hold weapons with visible bright muzzle flashes, followed by one masked figure indoors.",
+      "design": "Stylized rendered-looking people, large flash shapes and masks.",
+      "purpose": "Escalate into the robbery action; sound unverified.",
+      "evidence": "1 fps source samples in 7–11s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V03"
+    },
+    {
+      "start": 11,
+      "end": 13,
+      "action": "Masked figures reach over stacks of cash toward a bag.",
+      "design": "Cash and blue gloves against a dark interior.",
+      "purpose": "Show the heist objective.",
+      "evidence": "1 fps source samples in 11–13s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V04"
+    },
+    {
+      "start": 13,
+      "end": 16.6,
+      "action": "A surveillance-like corridor view changes to blue blocky distortion and then the white HEISTED name on black.",
+      "design": "Scan-line-like image, blue digital blocks, condensed white title.",
+      "purpose": "Close action with surveillance texture and brand.",
+      "evidence": "1 fps source samples in 13–16.6s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V05"
+    }
+  ],
+  "categories": [
+    {
+      "id": "Q01",
+      "finding": "Approach → mask and weapon → robbery → cash → title forms a compact heist story.",
+      "evidence": "V01–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q02",
+      "finding": "A blurred city approach gives speed and direction, but the exact camera move is unresolved in sparse samples.",
+      "evidence": "V01",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q03",
+      "finding": "The heist theme is clear by the mask and gun sequence; the product name arrives at 15s without controls or rules.",
+      "evidence": "V02,V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q04",
+      "finding": "First-person object states, visible muzzle flashes and blue distortion are clear. Their exact timing and transition paths need denser frames.",
+      "evidence": "V02,V03,V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q05",
+      "finding": "The viewpoint changes from approach to first person, crew, cash and surveillance.",
+      "evidence": "V01–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q06",
+      "finding": "Blue gloves and flag-pattern masks repeat across a rendered-looking city and interior.",
+      "evidence": "V02–V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q07",
+      "finding": "The final condensed white title is the main clear text. No instructional UI is visible in the inspected samples.",
+      "evidence": "V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q08",
+      "finding": "Voice delivery is unverified.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "No validated listening.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q09",
+      "finding": "Music character and structure are unverified.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "No validated listening.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q10",
+      "finding": "Effects and their sources are unverified.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "No validated listening; waveform peaks do not identify effects.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q11",
+      "finding": "Sound sync is unverified.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "No validated listening or paired audiovisual timing.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q12",
+      "finding": "The action looks like rendered game footage, but engine, generation method and actual gameplay status are unknown.",
+      "evidence": "V01–V05",
+      "status": "uncertain",
+      "reason": "Visual style cannot establish production method.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q13",
+      "finding": "Source duration 16.6 s; Watch metadata 1920 × 1080. Frame rate, audio clipping and export quality not checked here.",
+      "evidence": "Whole film",
+      "status": "supported",
+      "reason": "Parent source metadata supports duration and dimensions; visual review is sampled.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q14",
+      "finding": "The robbery story is understandable without audio; game mechanics and platform remain unclear.",
+      "evidence": "V01–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q15",
+      "finding": "Foreground hands, guns and cash focus attention on concrete objects rather than interface detail.",
+      "evidence": "V02,V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q16",
+      "finding": "Each short section adds a new heist step within 16.6s; no task instructions are given.",
+      "evidence": "V01–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q17",
+      "finding": "The approach is paid off by cash collection, then the brand closes the sequence.",
+      "evidence": "V01,V04,V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q18",
+      "finding": "First-person masking and visible gunfire may suggest urgency and role-play; viewer emotion is not measured.",
+      "evidence": "V02,V03",
+      "status": "uncertain",
+      "reason": "Interpretation of action framing.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q19",
+      "finding": "Masks, suits and blue gloves link the first-person and crew views.",
+      "evidence": "V02–V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q20",
+      "finding": "A robbery fantasy is shown, but playable systems, rewards and blockchain integration are not demonstrated.",
+      "evidence": "V01–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q21",
+      "finding": "Recurring flag masks and blue gloves are recognizable visual identifiers; logo alone does not explain a game.",
+      "evidence": "V02,V03,V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q22",
+      "finding": "One short objective or gameplay-state label would clarify how the viewer participates.",
+      "evidence": "V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "Pair cash collection with a visible in-game objective and result, if this is representative gameplay."
+    },
+    {
+      "id": "Q23",
+      "finding": "For Tin, keep an action sequence tied to a visible objective and completed output.",
+      "evidence": "V01,V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "Show brief → draft → approved post with one consistent asset through all three steps."
+    },
+    {
+      "id": "Q24",
+      "finding": "No human new-viewer test was performed.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "The product summary is this model’s film-only reading.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q25",
+      "finding": "Mobile preview and accessibility checks were not performed.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "Contact sheets are evidence views, not a stated mobile preview or compliance test.",
+      "experiment": "none"
+    }
+  ],
+  "elements": [
+    {
+      "kind": "motion",
+      "name": "first-person action",
+      "events": [
+        "V02"
+      ]
+    },
+    {
+      "kind": "motion",
+      "name": "digital distortion",
+      "events": [
+        "V05"
+      ]
+    },
+    {
+      "kind": "texture",
+      "name": "rendered characters",
+      "events": [
+        "V03",
+        "V04"
+      ]
+    },
+    {
+      "kind": "texture",
+      "name": "surveillance image",
+      "events": [
+        "V05"
+      ]
+    }
+  ],
+  "lessons": {
+    "keep": "Carry repeating gloves and masks across changing viewpoints to preserve scene identity.",
+    "try": [
+      "Add a single real gameplay objective and completion state to the cash scene, then check if viewers can name the player action.",
+      "For Tin, carry one post from brief through draft to approval in a short three-step sequence."
+    ],
+    "avoid": "Treating a cinematic action montage as proof of actual gameplay or platform features.",
+    "open": "Gameplay status, source engine, rules, availability, exact edits and all audio layers remain unknown."
+  },
+  "comparison": {
+    "story": "Approach → masking → armed action → cash → name.",
+    "motion": "First-person action, bright flash states and digital distortion; 1 fps limits precise motion claims.",
+    "sound": "No validated listening; gunfire sounds, score and sync are unknown.",
+    "texture": "Rendered-looking suits and masks, blue gloves, surveillance treatment.",
+    "lesson": "A short action story can explain the fantasy while leaving the product mechanics unclear."
+  },
+  "reviewer_model": "gpt-6-astra",
+  "scope": "sampled visual and story review; ASR and measured signal support; no validated audio listening",
+  "viewed_evidence": [
+    "technical-review-2026-10-19/deep-review/motion/110/timeline-00.jpg"
+  ],
+  "closer_windows": [],
+  "sound": [
+    {
+      "id": "A01",
+      "start": 0,
+      "end": 16.6,
+      "layer": "unknown",
+      "detail": "No validated audio listening. Voice delivery, music, effects and mix are unknown.",
+      "visual_relation": "All scenes; sound alignment unverified",
+      "evidence": "No actual audio perception in this review; prepared audio files are not listening evidence."
+    }
+  ]
+}

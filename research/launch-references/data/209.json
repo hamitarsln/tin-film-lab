@@ -1,0 +1,390 @@
+{
+  "id": 209,
+  "viewed_evidence": [
+    "technical-review-2026-10-19/deep-review/motion/209/timeline-00.jpg",
+    "technical-review-2026-10-19/deep-review/motion/209/timeline-01.jpg",
+    "technical-review-2026-10-19/deep-review/motion/209/timeline-02.jpg",
+    "astra-review-2026-10-20/evidence/group-3/209/dense.jpg",
+    "technical-review-2026-10-19/deep-review/audio/209-speech.json"
+  ],
+  "product_from_film": "Prism is an AI recruiting service that turns a role brief into selected candidates and interview conversations.",
+  "explains_well": "The same recruiter moves from paper overload and poor interviews to a short brief, refined candidates and productive meetings.",
+  "unclear": "The film does not show why one candidate meets the updated requirements or which outreach decisions the recruiter approves.",
+  "product_type": "recruiting",
+  "scenario": "Find a web developer quickly, refine the role requirements and meet a smaller candidate shortlist.",
+  "product_clear_time": 45,
+  "product_clear_basis": "Chat asks about language and other requirements, followed by sourcing, scoring and candidate cards.",
+  "scenes": [
+    {
+      "start": 0,
+      "end": 8,
+      "action": "Recruiter sits in an office; Slack-style messages ask for a web developer by Friday.",
+      "design": "Cool green office, italic white headline and stacked notifications.",
+      "purpose": "Set an urgent hiring task",
+      "id": "V01",
+      "evidence": "Visible 1 fps samples, source 0–8s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 8,
+      "end": 24,
+      "action": "Paper applications pile up; interviews show exaggerated experience, an AI-generated CV and alpha listed as a soft skill.",
+      "design": "Paper props, first-person document views and large italic jokes.",
+      "purpose": "Show screening overload",
+      "id": "V02",
+      "evidence": "Visible 1 fps samples, source 8–24s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 24,
+      "end": 35,
+      "action": "Recruiter looks exhausted, finds a Prism business card and types at a laptop.",
+      "design": "Close reaction shots, brand card and typing montage.",
+      "purpose": "Turn toward the service",
+      "id": "V03",
+      "evidence": "Visible 1 fps samples, source 24–35s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 35,
+      "end": 46,
+      "action": "Prism logo leads to a web-developer brief and chat questions about language and requirements.",
+      "design": "Dark chat interface with pale yellow replies.",
+      "purpose": "Define the role",
+      "id": "V04",
+      "evidence": "Visible 1 fps samples, source 35–46s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 46,
+      "end": 51,
+      "action": "Sourcing and scoring checklist leads to candidate cards; recruiter swipes through transparent overlays.",
+      "design": "Circular progress arcs, profile cards and foreground hand movement.",
+      "purpose": "Present a shortlist",
+      "id": "V05",
+      "evidence": "Visible 1 fps samples, source 46–51s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 51,
+      "end": 59,
+      "action": "Recruiter adds a narrower requirement; new cards appear, followed by a candidate-contact branching diagram.",
+      "design": "Text entry overlay and purple/yellow connection lines.",
+      "purpose": "Refine and contact candidates",
+      "id": "V06",
+      "evidence": "Visible 1 fps samples, source 51–59s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 59,
+      "end": 64,
+      "action": "Pipeline board appears, recruiter relaxes and greets an arriving candidate.",
+      "design": "Interface overlays bridge to a physical handshake.",
+      "purpose": "Move from sourcing to meetings",
+      "id": "V07",
+      "evidence": "Visible 1 fps samples, source 59–64s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 64,
+      "end": 77,
+      "action": "Several candidates speak across the desk with floating experience and skill tags, ending with a handshake.",
+      "design": "Warmer office light and labelled interview montage.",
+      "purpose": "Show better conversations",
+      "id": "V08",
+      "evidence": "Visible 1 fps samples, source 64–77s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 77,
+      "end": 85.566,
+      "action": "Recruiter leans back, a phone notification appears, and Prism logo with tryprism.com fills the office view.",
+      "design": "Relaxed posture and large white brand mark.",
+      "purpose": "Close with relief and website",
+      "id": "V09",
+      "evidence": "Visible 1 fps samples, source 77–85.566s; boundaries approximate, between-frame action unresolved."
+    }
+  ],
+  "sound": [
+    {
+      "id": "A01",
+      "start": 0,
+      "end": 85.566,
+      "layer": "unknown",
+      "detail": "No validated audio listening; speech, music, effects, mix and sync remain unverified.",
+      "visual_relation": "All visual scenes; alignment not checked",
+      "evidence": "No actual audio supplied to this review; existing technical-review-2026-10-19/deep-review/audio/209.json is not listening evidence."
+    },
+    {
+      "id": "A02",
+      "start": 2.794,
+      "end": 84.63,
+      "layer": "ASR draft",
+      "detail": "Eight candidate windows describe hiring urgency, poor applications, a recruiting service, refined requirements and fewer interviews. Recruiting Fund, the candidate phrase, student cheaper and the final slogan contain recognition errors; visible labels support the intended story but exact spoken wording is not asserted.",
+      "visual_relation": "V01–V09; candidate script only, no listening",
+      "evidence": "technical-review-2026-10-19/deep-review/audio/209-speech.json; existing faster-whisper base CPU int8"
+    }
+  ],
+  "categories": [
+    {
+      "finding": "An urgent role creates paper overload; Prism converts a brief into a shortlist, outreach and interviews with a relaxed recruiter at the end.",
+      "evidence": "V01–V09",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q01"
+    },
+    {
+      "finding": "The quiet desk becomes an urgent hiring task through stacked messages asking for a developer by Friday.",
+      "evidence": "V01",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q02"
+    },
+    {
+      "finding": "Recruiting is clear immediately; the service workflow becomes concrete at 38–47 s through the brief, chat and sourcing checklist.",
+      "evidence": "V01,V04,V05",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q03"
+    },
+    {
+      "finding": "Dense 48–52 s samples show a full-screen card cutting to a transparent card over the actor, a hand crossing right to left with a check near 49.5 s, then a new full-screen profile around 49.75 s. This is a visual metaphor, not evidence of a gesture interface.",
+      "evidence": "V05; dense 48–52 s",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q04"
+    },
+    {
+      "finding": "Document views and reaction shots build the bad-interview sequence. A physical business card bridges to software; overlays later bridge back to real interviews.",
+      "evidence": "V02–V08",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q05"
+    },
+    {
+      "finding": "Cool office light, paper stacks and italic editorial text shift toward dark UI with pale yellow accents and warmer interviews.",
+      "evidence": "V01–V09",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q06"
+    },
+    {
+      "finding": "The brief and requirement questions explain input. Candidate cards and a pipeline show output, but their detailed fit reasoning is too brief to follow.",
+      "evidence": "V04–V07",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q07"
+    },
+    {
+      "finding": "Voice presence and delivery remain unverified.",
+      "evidence": "No validated audio listening",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q08"
+    },
+    {
+      "finding": "Music character and arc remain unverified.",
+      "evidence": "No validated audio listening",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q09"
+    },
+    {
+      "finding": "Sound effects remain unverified.",
+      "evidence": "No validated audio listening",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q10"
+    },
+    {
+      "finding": "Sound-to-motion timing remain unverified.",
+      "evidence": "No validated audio listening",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q11"
+    },
+    {
+      "finding": "Office skit, document props, interface inserts and composited overlays are visible; capture or production tools are not established.",
+      "evidence": "V01–V09",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q12"
+    },
+    {
+      "finding": "Source duration supplied as 85.566s; no independent compression, clipping or delivery check.",
+      "evidence": "Assigned metadata; source integrity checked by parent",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q13"
+    },
+    {
+      "finding": "Messages, jokes and interface labels preserve much of the story silently. The precise service positioning is clearer with the candidate ASR script than with images alone.",
+      "evidence": "V01–V08; A02",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q14"
+    },
+    {
+      "finding": "First-person CV views place the viewer in the recruiter role; large skill tags direct attention during the final interview montage.",
+      "evidence": "V02,V08",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q15"
+    },
+    {
+      "finding": "About 30 s build frustration before the service card; the second half gives a compact workflow and a longer human payoff.",
+      "evidence": "V01–V09",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q16"
+    },
+    {
+      "finding": "The ending returns to the same desk and posture from the opening, now after useful interviews, making the claimed relief visible.",
+      "evidence": "V01,V08,V09",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q17"
+    },
+    {
+      "finding": "Exaggerated CV claims suggest comic frustration; relaxed posture and handshakes suggest relief. These are readings of the acting and images.",
+      "evidence": "V02,V08,V09",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q18"
+    },
+    {
+      "finding": "The same office, recruiter, desk and Newton cradle connect the before-and-after story. Interface colours and floating tags connect software with interviews.",
+      "evidence": "V01–V09",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q19"
+    },
+    {
+      "finding": "The film displays sourcing scale, scores, outreach and better matches. Candidate quality, contact delivery, lower cost and hiring outcomes are not independently verified.",
+      "evidence": "V05–V08; A02",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q20"
+    },
+    {
+      "finding": "Paper overload, absurd CV examples and the business-card handoff give the recruiting story a distinct physical setting.",
+      "evidence": "V02,V03",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q21"
+    },
+    {
+      "finding": "Hold one candidate card and visibly connect two profile facts to the revised role requirements before outreach.",
+      "evidence": "V05,V06",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q22"
+    },
+    {
+      "finding": "For a service film, keep one person and one task across the problem, software steps and human outcome.",
+      "evidence": "V01–V09",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q23"
+    },
+    {
+      "finding": "No human new-viewer test; product description above is model interpretation of sampled images.",
+      "evidence": "V01–V09",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q24"
+    },
+    {
+      "finding": "No phone-size, safe-area or flash assessment; small UI text needs separate preview.",
+      "evidence": "Contact sheets",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q25"
+    }
+  ],
+  "lessons": {
+    "keep": "Carry one urgent task through a physical problem, a brief software workflow and a human payoff.",
+    "try": [
+      "Show the updated B2B requirement beside one candidate fact that explains why the shortlist changed.",
+      "Insert a short outreach approval and response step before the first interview handshake."
+    ],
+    "avoid": "Avoid letting attractive candidate cards replace the explanation of fit.",
+    "open": "How are role requirements checked against evidence, and what does the recruiter approve before candidates are contacted?"
+  },
+  "comparison": {
+    "story": "Set an urgent hiring task → Show screening overload → Turn toward the service → Define the role → Present a shortlist → Refine and contact candidates → Move from sourcing to meetings → Show better conversations → Close with relief and website",
+    "motion": "Dense 48–52 s samples show a full-screen card cutting to a transparent card over the actor, a hand crossing right to left with a check near 49.5 s, then a new full-screen profile around 49.75 s. This is a visual metaphor, not evidence of a gesture interface.",
+    "sound": "No validated listening; no absence claims.",
+    "texture": "Cool office light, paper stacks and italic editorial text shift toward dark UI with pale yellow accents and warmer interviews.",
+    "lesson": "Carry one urgent task through a physical problem, a brief software workflow and a human payoff."
+  },
+  "elements": [
+    {
+      "kind": "ui",
+      "name": "chat",
+      "events": [
+        "V04"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "candidate profile",
+      "events": [
+        "V05",
+        "V06"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "pipeline board",
+      "events": [
+        "V07"
+      ]
+    },
+    {
+      "kind": "motion",
+      "name": "transparent card swipe",
+      "events": [
+        "V05"
+      ]
+    },
+    {
+      "kind": "texture",
+      "name": "office footage",
+      "events": [
+        "V01",
+        "V08"
+      ]
+    }
+  ],
+  "reviewer_model": "gpt-6-astra",
+  "scope": "sampled visual and story review; ASR and measured signal support; no validated audio listening",
+  "closer_windows": [
+    {
+      "start": 48,
+      "end": 52,
+      "rate_fps": 4,
+      "evidence": [
+        "astra-review-2026-10-20/evidence/group-3/209/dense.jpg"
+      ],
+      "resolved": "A full profile card cuts to the actor behind a transparent overlay; his hand crosses while the overlay shifts and a check appears, then another profile fills the screen. Exact interface functionality is not established by the stylised edit."
+    }
+  ]
+}

@@ -1,0 +1,362 @@
+{
+  "id": 323,
+  "product_from_film": "Webild generates websites from a text request, illustrated by an Italian restaurant site that the characters want to sell.",
+  "explains_well": "The opening restaurant request is answered by a scrolling site with dining, team, reviews and reservation sections.",
+  "unclear": "The film shows a polished site preview but no edit, publication or working reservation interaction before shifting into the sales parody.",
+  "product_type": "AI website builder",
+  "scenario": "Two aspiring sellers wait for an AI-generated restaurant site, admire it, then pitch website subscriptions in a film-style sales parody.",
+  "product_clear_time": 26,
+  "product_clear_basis": "The opening Italian-restaurant prompt resolves into the Amore Mio website preview at 26s.",
+  "scenes": [
+    {
+      "start": 0,
+      "end": 17,
+      "action": "Two men sit on a sofa beneath a prompt asking for an Italian restaurant website. Alternating similar sofa views and captions show them waiting and checking the elapsed time.",
+      "design": "Letterboxed cinematic-style footage, floating prompt and yellow captions.",
+      "purpose": "Set up a get-rich aspiration and a generation wait.",
+      "evidence": "1 fps source samples in 0–17s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V01"
+    },
+    {
+      "start": 17,
+      "end": 26,
+      "action": "The same pair keep waiting under captions doubting AI.",
+      "design": "Held sofa composition and reaction changes.",
+      "purpose": "Stretch the comic delay.",
+      "evidence": "1 fps source samples in 17–26s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V02"
+    },
+    {
+      "start": 26,
+      "end": 38,
+      "action": "An Amore Mio site appears as a large floating preview in the room. It scrolls through restaurant imagery, dining experiences, team, reviews and a reservation section.",
+      "design": "White elegant site over warm interior, with builder-like side panels.",
+      "purpose": "Pay off the prompt with a concrete website.",
+      "evidence": "1 fps source samples in 26–38s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V03"
+    },
+    {
+      "start": 38,
+      "end": 46,
+      "action": "The pair react and decide to sell it. A black-and-white phone-sales scene begins, then becomes color.",
+      "design": "Reaction close-ups and office phone footage.",
+      "purpose": "Turn creation into the sales premise.",
+      "evidence": "1 fps source samples in 38–46s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V04"
+    },
+    {
+      "start": 46,
+      "end": 67,
+      "action": "A caller pitches Webild International, 60-second websites, high perceived value and $50/$100 subscriptions. A small garage labeled Webild briefly interrupts the call.",
+      "design": "Warm office, rotary-style handset and comic building insert.",
+      "purpose": "Deliver product claims through a sales parody.",
+      "evidence": "1 fps source samples in 46–67s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V05"
+    },
+    {
+      "start": 67,
+      "end": 77,
+      "action": "Sales reactions and a large earnings boast lead to a black pause with a waiting-for-you caption.",
+      "design": "Office reactions, cinematic excerpts and yellow text.",
+      "purpose": "Escalate the joke and transition to the call to action.",
+      "evidence": "1 fps source samples in 67–77s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V06"
+    },
+    {
+      "start": 77,
+      "end": 84,
+      "action": "An old computer workstation shows a website-building page as captions say to pick up computers and start building.",
+      "design": "Cool blue retro equipment and screen close-up.",
+      "purpose": "Return the viewer to making websites.",
+      "evidence": "1 fps source samples in 77–84s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V07"
+    },
+    {
+      "start": 84,
+      "end": 88.922,
+      "action": "Webild and webild.io hold on white.",
+      "design": "Minimal black identity and URL.",
+      "purpose": "Provide destination.",
+      "evidence": "1 fps source samples in 84–88.922s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V08"
+    }
+  ],
+  "sound": [
+    {
+      "id": "A01",
+      "start": 0,
+      "end": 88.922,
+      "layer": "partial script support",
+      "detail": "ASR supports the get-rich setup, waiting joke, restaurant site, phone pitch and start-building close. Several words and the large earnings number are mistranscribed; visible captions take precedence. Sales dialogue is treated as film pitch/parody, not validated prices or earnings. No voice impersonation, delivery, music, effects or synchronization was heard or verified.",
+      "visual_relation": "V01–V08; draft and captions connect the parody scenes.",
+      "evidence": "323-speech.json draft plus visible captions and website states."
+    }
+  ],
+  "categories": [
+    {
+      "id": "Q01",
+      "finding": "Wait for restaurant site → admire output → sell it by phone → exaggerated sales success → start building.",
+      "evidence": "V01–V08",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q02",
+      "finding": "Two relaxed characters and a floating website prompt open with a money aspiration.",
+      "evidence": "V01",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q03",
+      "finding": "Website creators and would-be sellers are implied by the restaurant preview and sales calls.",
+      "evidence": "V03–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q04",
+      "finding": "The site scrolls through sections in the room; reaction and phone-call states carry the rest. Exact compositing and transitions are unverified.",
+      "evidence": "V03–V07",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q05",
+      "finding": "The waiting-room prompt resolves into a site in the same room before the film changes to sales scenes.",
+      "evidence": "V01–V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q06",
+      "finding": "Warm letterboxed scenes and yellow captions contrast with the white site and cool retro-computer close.",
+      "evidence": "V01–V08",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q07",
+      "finding": "The prompt, Amore Mio heading and yellow captions guide the story; the final URL is large and clear.",
+      "evidence": "V01,V03,V08",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q08",
+      "finding": "Partial ASR supports the sales parody; garbled phrases and numbers are not used as exact evidence. Voice performance is unknown.",
+      "evidence": "A01",
+      "status": "uncertain",
+      "reason": "Draft/caption support only.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q09",
+      "finding": "Music character and structure are unverified.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "No validated listening.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q10",
+      "finding": "Effects and their sources are unverified.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "No validated listening; waveform peaks do not identify effects.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q11",
+      "finding": "Sound sync is unverified.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "No validated listening or paired audiovisual timing.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q12",
+      "finding": "Film-like clips, recreated-looking character scenes, floating website UI and retro workstation imagery are mixed. Production method and asset sources are unverified.",
+      "evidence": "V01–V07",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q13",
+      "finding": "Source duration 88.922 s; Watch metadata 1920 × 1080. Frame rate, audio clipping and export quality not checked here.",
+      "evidence": "Whole film",
+      "status": "supported",
+      "reason": "Parent source metadata supports duration and dimensions; visual review is sampled.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q14",
+      "finding": "The prompt and site preview explain generation visually; the sales proposition relies on captions and draft.",
+      "evidence": "V01,V03,V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q15",
+      "finding": "The large website preview is the main product focal point, framed by character reactions.",
+      "evidence": "V03,V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q16",
+      "finding": "The waiting joke occupies about 26s; the site receives about 12s, while much of the remaining film is a sales pitch parody.",
+      "evidence": "V01–V07",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q17",
+      "finding": "The restaurant request has a visible matching site payoff; selling and earnings are dramatized rather than shown as a transaction.",
+      "evidence": "V03–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q18",
+      "finding": "Reactions, the garage insert and exaggerated sales language suggest comedy and ambition; viewer response and heard delivery are unmeasured.",
+      "evidence": "V04–V06",
+      "status": "uncertain",
+      "reason": "Visual and script interpretation only.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q19",
+      "finding": "The restaurant site bridges the initial request and the characters’ decision to sell websites.",
+      "evidence": "V01,V03,V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q20",
+      "finding": "Generation time, value, subscription amounts and earnings are unverified pitch content. Previewed reservation UI does not prove a working booking flow.",
+      "evidence": "V03,V05,V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q21",
+      "finding": "The product demo becomes the object of a familiar sales-parody structure instead of an isolated UI tour.",
+      "evidence": "V03–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q22",
+      "finding": "Give the website one functional action before the sales sequence.",
+      "evidence": "V03",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "Edit the restaurant name or submit a reservation request and show the resulting state."
+    },
+    {
+      "id": "Q23",
+      "finding": "For Tin, make the comic premise depend on the actual output.",
+      "evidence": "V01–V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "Let a character’s specific campaign request become the exact preview they then approve and publish."
+    },
+    {
+      "id": "Q24",
+      "finding": "No human new-viewer test was performed.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "The product summary is this model’s film-only reading.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q25",
+      "finding": "Mobile preview and accessibility checks were not performed.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "Contact sheets are evidence views, not a stated mobile preview or compliance test.",
+      "experiment": "none"
+    }
+  ],
+  "elements": [
+    {
+      "kind": "ui",
+      "name": "prompt field",
+      "events": [
+        "V01"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "website preview",
+      "events": [
+        "V03"
+      ]
+    },
+    {
+      "kind": "motion",
+      "name": "website scrolling",
+      "events": [
+        "V03"
+      ]
+    },
+    {
+      "kind": "texture",
+      "name": "letterboxed film parody",
+      "events": [
+        "V01",
+        "V02",
+        "V04",
+        "V05",
+        "V06"
+      ]
+    },
+    {
+      "kind": "texture",
+      "name": "retro computer workstation",
+      "events": [
+        "V07"
+      ]
+    }
+  ],
+  "lessons": {
+    "keep": "Make the initial request become the object of the story’s next action.",
+    "try": [
+      "Show an edit or reservation action in the generated site.",
+      "For Tin, turn a character’s campaign request into the exact preview they approve and publish."
+    ],
+    "avoid": "Allowing exaggerated sales dialogue to replace functional evidence.",
+    "open": "Generation timing, working site behavior, actual pricing/earnings and audio qualities remain unverified."
+  },
+  "comparison": {
+    "story": "AI wait joke → restaurant site → sales-film parody → build CTA.",
+    "motion": "Floating scrolling preview amid reaction and phone-call scenes.",
+    "sound": "Partial ASR plus captions; no validated listening.",
+    "texture": "Warm cinematic parody and cool retro computers.",
+    "lesson": "A concrete output can power a comic story; a single interaction would strengthen the product explanation."
+  },
+  "reviewer_model": "gpt-6-astra",
+  "scope": "sampled visual and story review; ASR and measured signal support; no validated audio listening",
+  "viewed_evidence": [
+    "technical-review-2026-10-19/deep-review/motion/323/timeline-00.jpg",
+    "technical-review-2026-10-19/deep-review/motion/323/timeline-01.jpg",
+    "technical-review-2026-10-19/deep-review/motion/323/timeline-02.jpg"
+  ],
+  "closer_windows": []
+}

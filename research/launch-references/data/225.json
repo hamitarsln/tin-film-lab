@@ -1,0 +1,389 @@
+{
+  "id": 225,
+  "reviewer_model": "gpt-6-astra",
+  "scope": "sampled visual and story review; ASR and measured signal support; no validated audio listening",
+  "viewed_evidence": [
+    "technical-review-2026-10-19/deep-review/motion/225/timeline-00.jpg",
+    "technical-review-2026-10-19/deep-review/motion/225/timeline-01.jpg",
+    "technical-review-2026-10-19/deep-review/motion/225/timeline-02.jpg",
+    "technical-review-2026-10-19/deep-review/motion/225/timeline-03.jpg",
+    "technical-review-2026-10-19/deep-review/motion/225/timeline-04.jpg",
+    "technical-review-2026-10-19/deep-review/audio/225-speech.json"
+  ],
+  "closer_windows": [],
+  "product_from_film": "The team presents a custom mechanical hearing-support device shaped from ear images and a hearing profile.",
+  "explains_well": "Ear anatomy is placed beside the proposed membrane-and-lever mechanism, then physical prototypes and fitting software make the build process tangible.",
+  "unclear": "The custom profile is not followed into a final fitted device or a measured hearing result; the final explanation also cuts off before that handoff is clear.",
+  "product_type": "hearing hardware prototype",
+  "scenario": "Use ear measurements and a hearing profile to make a custom mechanical device.",
+  "product_clear_time": 20,
+  "product_clear_basis": "A side-by-side human-ear and our-mechanism diagram connects the ear-worn object to the proposed function.",
+  "scenes": [
+    {
+      "id": "V01",
+      "start": 0,
+      "end": 14,
+      "action": "A person inserts a round device into his ear. A presenter introduces large access figures, followed by an old advertisement and a $4,700 price figure.",
+      "design": "Warm workshop footage, large numeric text and white-framed archival-style material.",
+      "purpose": "Show the object and frame an affordability problem.",
+      "evidence": "Visible chronological 1 fps samples, source 0–14s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V02",
+      "start": 14,
+      "end": 29,
+      "action": "Ear animations lead to a side-by-side human-ear and proposed-mechanism diagram. A presenter holds the device, then a Build Log Episode 5 title appears.",
+      "design": "Anatomical cutaways and small dark mechanical model.",
+      "purpose": "Introduce a mechanical alternative and build story.",
+      "evidence": "Visible chronological 1 fps samples, source 14–29s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V03",
+      "start": 29,
+      "end": 43,
+      "action": "A family photograph leads to a sustained presenter explanation in the workshop.",
+      "design": "Personal photo and direct interview framing.",
+      "purpose": "Give a personal reason for building the product.",
+      "evidence": "Visible chronological 1 fps samples, source 29–43s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V04",
+      "start": 43,
+      "end": 63,
+      "action": "A sequence of ear diagrams moves from outer ear through canal and eardrum to the small bones and inner-ear structures.",
+      "design": "White margins, labeled anatomical graphics and close-ups.",
+      "purpose": "Teach the mechanism the device aims to imitate.",
+      "evidence": "Visible chronological 1 fps samples, source 43–63s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V05",
+      "start": 63,
+      "end": 79,
+      "action": "Design and research workstation shots lead to both founders, an ear measurement drawing, a device close-up and many discarded or alternate round parts.",
+      "design": "Practical workbench, computer screens and prototype iterations.",
+      "purpose": "Show development and custom form.",
+      "evidence": "Visible chronological 1 fps samples, source 63–79s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V06",
+      "start": 79,
+      "end": 93,
+      "action": "A physical membrane-like component is paired with ear imagery; the ear-versus-device mechanism comparison returns and holds.",
+      "design": "Side-by-side anatomical and mechanical visuals.",
+      "purpose": "Map biological function to physical design.",
+      "evidence": "Visible chronological 1 fps samples, source 79–93s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V07",
+      "start": 93,
+      "end": 113,
+      "action": "Hands assemble circular parts; a laptop shows fabrication layout, then a hearing-support website and ear photographs with measurement points and code-like text.",
+      "design": "Close assembly work, fabrication software and photo analysis.",
+      "purpose": "Explain custom manufacture from ear geometry.",
+      "evidence": "Visible chronological 1 fps samples, source 93–113s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V08",
+      "start": 113,
+      "end": 124,
+      "action": "The founders sit at a laptop; a tone-detection interface and a device-profile result appear, with a teal summary card.",
+      "design": "Simple hearing-test form and generated profile.",
+      "purpose": "Add user hearing information to the fit process.",
+      "evidence": "Visible chronological 1 fps samples, source 113–124s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V09",
+      "start": 124,
+      "end": 130.63,
+      "action": "Fabrication machines and a small part on a build plate close the sequence, followed by a minimal mark and f.inc/hello.",
+      "design": "Physical production ending and white end card.",
+      "purpose": "Return the software process to a manufactured object.",
+      "evidence": "Visible chronological 1 fps samples, source 124–130.63s; boundary approximate; exact motion between samples unverified."
+    }
+  ],
+  "sound": [
+    {
+      "id": "A01",
+      "start": 0,
+      "end": 130.63,
+      "layer": "unknown",
+      "detail": "No validated direct audio listening was performed. Music, speech delivery, effects, mix and sync remain unknown, not absent.",
+      "visual_relation": "All visual scenes; audiovisual alignment unverified",
+      "evidence": "Visual samples only; no actual audio range supplied to this reviewer."
+    },
+    {
+      "id": "A02",
+      "start": 4.1,
+      "end": 124.26,
+      "layer": "ASR draft",
+      "detail": "ASR draft supports the access/cost problem, a grandfather’s experience, ear anatomy, mechanical imitation and customization from ear photos plus hearing tests. Anatomical terms are repeatedly misrecognized and the final sentence is incomplete. Cost and health claims remain unverified; delivery, device sound and soundtrack were not heard.",
+      "visual_relation": "Story text support; exact audiovisual alignment and delivery unverified.",
+      "evidence": "technical-review-2026-10-19/deep-review/audio/225-speech.json; local faster-whisper base CPU int8 draft; VAD candidates only, recognition errors possible."
+    }
+  ],
+  "categories": [
+    {
+      "id": "Q01",
+      "finding": "Access problem and personal story lead to anatomy, mechanical imitation, prototyping and custom fitting software.",
+      "evidence": "V01–V09",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q02",
+      "finding": "A close ear view shows a round wearable being inserted, immediately identifying a physical hearing-related object.",
+      "evidence": "V01",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q03",
+      "finding": "The human-ear versus mechanism comparison around 20 s explains the proposed device category; personalization appears much later.",
+      "evidence": "V02,V07,V08",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q04",
+      "finding": "Anatomical views move inward and enlarge; side-by-side comparisons hold corresponding mechanisms. Exact simulated vibration is unverified.",
+      "evidence": "V04,V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q05",
+      "finding": "Repeated ear/device comparisons connect abstract anatomy to workshop construction more strongly than the early statistics do.",
+      "evidence": "V02,V04,V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q06",
+      "finding": "Warm workbench footage and imperfect prototype parts give material detail, while white-framed diagrams keep explanations separate.",
+      "evidence": "V04–V07",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q07",
+      "finding": "Large cost/access figures are clear; anatomical labels and the software profile are small and need a closer hold for detailed reading.",
+      "evidence": "V01,V04,V08",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q08",
+      "finding": "ASR draft supports the access/cost problem, a grandfather’s experience, ear anatomy, mechanical imitation and customization from ear photos plus hearing tests. Anatomical terms are repeatedly misrecognized and the final sentence is incomplete. Cost and health claims remain unverified; delivery, device sound and soundtrack were not heard.",
+      "evidence": "A02",
+      "status": "uncertain",
+      "reason": "ASR text only; no validated listening, delivery or voice origin.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q09",
+      "finding": "Voice delivery, music, effects and audiovisual alignment were not established by this visual pass.",
+      "evidence": "A01",
+      "status": "not checked",
+      "reason": "No validated direct audio listening input.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q10",
+      "finding": "Voice delivery, music, effects and audiovisual alignment were not established by this visual pass.",
+      "evidence": "A01",
+      "status": "not checked",
+      "reason": "No validated direct audio listening input.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q11",
+      "finding": "Voice delivery, music, effects and audiovisual alignment were not established by this visual pass.",
+      "evidence": "A01",
+      "status": "not checked",
+      "reason": "No validated direct audio listening input.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q12",
+      "finding": "Interviews, personal photograph, anatomical animations, prototype footage and software views are mixed; diagram provenance and clinical relevance are unchecked.",
+      "evidence": "V01–V08",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q13",
+      "finding": "Manifest duration 130.63s; indexed dimensions 1920×1080. Source unchanged flag recorded; fresh encoding and audio clipping checks not run.",
+      "evidence": "Group manifest",
+      "status": "uncertain",
+      "reason": "Inherited technical metadata; no fresh media probe in this review.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q14",
+      "finding": "The physical object, ear analogy and customization are visible; personal motivation and detailed mechanical claims rely on the ASR draft.",
+      "evidence": "V02–V08,A02",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q15",
+      "finding": "Side-by-side diagrams direct comparison, and hands isolate small physical components; the software result is less visually focused.",
+      "evidence": "V06–V08",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q16",
+      "finding": "The 131 s format gives anatomy and construction substantial time, but the final custom-fit-to-result step remains compressed.",
+      "evidence": "V04–V09",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q17",
+      "finding": "The opening access problem receives a low-complexity build story, but no final cost breakdown or hearing outcome is shown.",
+      "evidence": "V01,V09",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q18",
+      "finding": "A family story and many iterations frame the team as personally motivated and persistent; these are narrative impressions.",
+      "evidence": "V03,V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q19",
+      "finding": "The round membrane/device and ear shape recur across wearing, diagrams, assembly and software measurement.",
+      "evidence": "V01,V02,V06,V07",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q20",
+      "finding": "Anatomical analogy and prototypes do not establish hearing benefit, clinical suitability, fitting accuracy or the stated access/cost claims.",
+      "evidence": "V01,V04,V06–V08",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q21",
+      "finding": "Mechanical membrane/lever comparison and ear-photo customization make the project specific beyond generic low-cost hardware.",
+      "evidence": "V06–V08",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q22",
+      "finding": "Follow one measured ear and hearing profile into the final fitted part, then show a clearly defined outcome comparison.",
+      "evidence": "V07–V09",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q23",
+      "finding": "Tin can explain a custom output by showing the source profile, how it changes design choices and the final artifact for that same person or campaign.",
+      "evidence": "V07,V08",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q24",
+      "finding": "The team presents a custom mechanical hearing-support device shaped from ear images and a hearing profile.",
+      "evidence": "Model reading from inspected images",
+      "status": "uncertain",
+      "reason": "Model-only new-viewer interpretation; no human test.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q25",
+      "finding": "Contact sheets inspected at displayed size; a phone-size playback, caption audit, flash audit and formal accessibility check were not performed.",
+      "evidence": "Viewed sheets",
+      "status": "not checked",
+      "reason": "Full-size moving-image and device checks unavailable in this pass.",
+      "experiment": "none"
+    }
+  ],
+  "lessons": {
+    "keep": "Place the proposed mechanism beside the familiar system it imitates.",
+    "avoid": "Avoid presenting an anatomical analogy as proof of clinical effectiveness.",
+    "open": "Hearing benefit, suitability, fitting precision, price comparison, production cost, research basis, source rights and all audio delivery remain unverified.",
+    "try": [
+      "Show a Tin brand profile beside the creative choices it controls, with matching labels.",
+      "Follow one input profile through generation, fabrication or publishing and a defined result instead of ending on process footage."
+    ]
+  },
+  "comparison": {
+    "story": "Show the object and frame an affordability problem. → Introduce a mechanical alternative and build story. → Give a personal reason for building the product. → Teach the mechanism the device aims to imitate. → Show development and custom form. → Map biological function to physical design. → Explain custom manufacture from ear geometry. → Add user hearing information to the fit process. → Return the software process to a manufactured object.",
+    "motion": "Anatomical views move inward and enlarge; side-by-side comparisons hold corresponding mechanisms. Exact simulated vibration is unverified. Sampling scope: 1 fps unless a closer window is recorded.",
+    "sound": "No validated listening; unknown.",
+    "texture": "Warm workshop footage, large numeric text and white-framed archival-style material.; Anatomical cutaways and small dark mechanical model.; Personal photo and direct interview framing.; White margins, labeled anatomical graphics and close-ups.; Practical workbench, computer screens and prototype iterations.; Side-by-side anatomical and mechanical visuals.; Close assembly work, fabrication software and photo analysis.; Simple hearing-test form and generated profile.; Physical production ending and white end card.",
+    "lesson": "Place the proposed mechanism beside the familiar system it imitates."
+  },
+  "elements": [
+    {
+      "kind": "ui",
+      "name": "ear photo measurements",
+      "events": [
+        "V07"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "hearing test form",
+      "events": [
+        "V08"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "device profile",
+      "events": [
+        "V08"
+      ]
+    },
+    {
+      "kind": "motion",
+      "name": "anatomical close-up",
+      "events": [
+        "V04"
+      ]
+    },
+    {
+      "kind": "texture",
+      "name": "prototype parts",
+      "events": [
+        "V05",
+        "V07"
+      ]
+    },
+    {
+      "kind": "texture",
+      "name": "anatomy diagram",
+      "events": [
+        "V02",
+        "V04",
+        "V06"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,366 @@
+{
+  "id": 19,
+  "reviewer_model": "gpt-6-astra",
+  "scope": "sampled visual and story review; ASR and measured signal support; no validated audio listening",
+  "viewed_evidence": [
+    "technical-review-2026-10-19/deep-review/motion/019/timeline-00.jpg",
+    "technical-review-2026-10-19/deep-review/motion/019/timeline-01.jpg",
+    "technical-review-2026-10-19/deep-review/motion/019/timeline-02.jpg",
+    "technical-review-2026-10-19/deep-review/audio/019-speech.json"
+  ],
+  "closer_windows": [],
+  "product_from_film": "Attio is positioned as architecture for agentic revenue, but the visible film does not explain a concrete software task.",
+  "explains_well": "Switchboards, networks and expanding node diagrams form a coherent scale metaphor.",
+  "unclear": "What users do in Attio and how the new architecture changes that task remain unclear.",
+  "product_type": "business software brand film",
+  "scenario": "Use telephone-network history to frame a new agent platform.",
+  "product_clear_time": null,
+  "product_clear_basis": "Only the closing architecture-for-agentic-revenue line and Attio mark identify the offer.",
+  "scenes": [
+    {
+      "id": "V01",
+      "start": 0,
+      "end": 14,
+      "action": "Switchboard plugs, rotary dialing, operators and people on telephones replace each other in short shots.",
+      "design": "Mostly monochrome or faded-color historical-looking imagery.",
+      "purpose": "Establish manual connections.",
+      "evidence": "Visible chronological 1 fps samples, source 0–14s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V02",
+      "start": 14,
+      "end": 26,
+      "action": "A network map, a tangle of wires and operator rows lead to a colored map with many connecting lines.",
+      "design": "Grainy map and cable imagery; red-brown land and pale lines.",
+      "purpose": "Build the scale and complexity metaphor.",
+      "evidence": "Visible chronological 1 fps samples, source 14–26s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V03",
+      "start": 26,
+      "end": 35,
+      "action": "A thin wire globe with points enlarges; a central point becomes a framed square on black.",
+      "design": "Minimal pale line geometry on dark field.",
+      "purpose": "Bridge networks to a new technical era.",
+      "evidence": "Visible chronological 1 fps samples, source 26–35s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V04",
+      "start": 35,
+      "end": 46,
+      "action": "Old computers and keyboards become a multi-image grid, then full-frame charts, office views and glowing network points.",
+      "design": "Archival-looking computer imagery, tiled montage, blue nodes.",
+      "purpose": "Extend the history into computing.",
+      "evidence": "Visible chronological 1 fps samples, source 35–46s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V05",
+      "start": 46,
+      "end": 54,
+      "action": "Rocket footage and green oscillating-looking traces give way to particles on a dark grid.",
+      "design": "Bright rocket exhaust, green line trace, black field.",
+      "purpose": "Suggest acceleration and pressure.",
+      "evidence": "Visible chronological 1 fps samples, source 46–54s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V06",
+      "start": 54,
+      "end": 62,
+      "action": "Dotted circles on white multiply into vertically stacked rings with nodes around the edges.",
+      "design": "Fine black dots and lines on clean white.",
+      "purpose": "Represent a new layered architecture.",
+      "evidence": "Visible chronological 1 fps samples, source 54–62s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V07",
+      "start": 62,
+      "end": 71,
+      "action": "Office, group and event images replace the diagram. A radial dotted tunnel returns and expands outward in sampled states.",
+      "design": "Modern-looking team and event imagery; pale geometric tunnel.",
+      "purpose": "Connect the abstract system to people.",
+      "evidence": "Visible chronological 1 fps samples, source 62–71s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V08",
+      "start": 71,
+      "end": 78.72,
+      "action": "Architecture for agentic revenue appears, then a centered Attio logo holds on white.",
+      "design": "Small black text and logo.",
+      "purpose": "Name the positioning and brand.",
+      "evidence": "Visible chronological 1 fps samples, source 71–78.72s; boundary approximate; exact motion between samples unverified."
+    }
+  ],
+  "sound": [
+    {
+      "id": "A01",
+      "start": 0,
+      "end": 78.72,
+      "layer": "unknown",
+      "detail": "No validated direct audio listening was performed. Music, speech delivery, effects, mix and sync remain unknown, not absent.",
+      "visual_relation": "All visual scenes; audiovisual alignment unverified",
+      "evidence": "Visual samples only; no actual audio range supplied to this reviewer."
+    },
+    {
+      "id": "A02",
+      "start": 0.04,
+      "end": 73.33,
+      "layer": "ASR draft",
+      "detail": "The ASR draft compares manual switchboards with agent-scale work and calls for a new architecture. Several closing phrases are malformed, so exact product terminology cannot be recovered confidently from this draft.",
+      "visual_relation": "Story text support; exact audiovisual alignment and delivery unverified.",
+      "evidence": "technical-review-2026-10-19/deep-review/audio/019-speech.json; local faster-whisper base CPU int8 draft; VAD candidates only, recognition errors possible."
+    }
+  ],
+  "categories": [
+    {
+      "id": "Q01",
+      "finding": "Manual connections become networks, computers, a new geometric system and a brand statement; the story is metaphorical.",
+      "evidence": "V01–V08",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q02",
+      "finding": "A cable in a switchboard fills the frame; it establishes historical infrastructure, not a software task.",
+      "evidence": "V01",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q03",
+      "finding": "The closing revenue-architecture line suggests business use, but the audience and exact action require more context.",
+      "evidence": "V08",
+      "status": "uncertain",
+      "reason": "No product workflow is visible.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q04",
+      "finding": "Globe and ring diagrams enlarge or multiply in sampled states; the final radial pattern expands toward the edges. Exact paths and easing remain unverified.",
+      "evidence": "V03,V06,V07",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q05",
+      "finding": "Fast replacements connect historical objects by topic; the pale-line globe provides a graphic bridge into computing.",
+      "evidence": "V01–V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q06",
+      "finding": "Grain, faded color and monochrome footage contrast with clean black-and-white geometry.",
+      "evidence": "V01–V07",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q07",
+      "finding": "Most sampled frames have no explanatory captions; the closing line carries the main visible product meaning.",
+      "evidence": "V01–V08",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q08",
+      "finding": "The ASR draft compares manual switchboards with agent-scale work and calls for a new architecture. Several closing phrases are malformed, so exact product terminology cannot be recovered confidently from this draft.",
+      "evidence": "A02",
+      "status": "uncertain",
+      "reason": "ASR text only; no validated listening, delivery or voice origin.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q09",
+      "finding": "Voice delivery, music, effects and audiovisual alignment were not established by this visual pass.",
+      "evidence": "A01",
+      "status": "not checked",
+      "reason": "No validated direct audio listening input.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q10",
+      "finding": "Voice delivery, music, effects and audiovisual alignment were not established by this visual pass.",
+      "evidence": "A01",
+      "status": "not checked",
+      "reason": "No validated direct audio listening input.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q11",
+      "finding": "Voice delivery, music, effects and audiovisual alignment were not established by this visual pass.",
+      "evidence": "A01",
+      "status": "not checked",
+      "reason": "No validated direct audio listening input.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q12",
+      "finding": "Historical-looking phone and computer imagery, rocket footage, diagrams and modern event photos are used; archive sources and licenses are unknown.",
+      "evidence": "V01–V07",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q13",
+      "finding": "Manifest duration 78.72 s; indexed dimensions 3840×2160. Source unchanged flag recorded; fresh encoding and audio clipping checks not run.",
+      "evidence": "Group manifest",
+      "status": "uncertain",
+      "reason": "Inherited technical metadata; no fresh media probe in this review.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q14",
+      "finding": "The evolution of networks is clear silently, but the reason for agentic revenue architecture depends on missing spoken explanation.",
+      "evidence": "V01–V08",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q15",
+      "finding": "Large central machinery and later centered geometry keep a simple eye path despite many shots.",
+      "evidence": "V01,V03,V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q16",
+      "finding": "The rapid historical montage adds many symbols but few visible product details; the end is much calmer.",
+      "evidence": "V01–V08",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q17",
+      "finding": "The opening connection problem is answered with a new architecture metaphor, not a shown user result.",
+      "evidence": "V01,V06,V08",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q18",
+      "finding": "The progression from tangled wires to clean rings suggests overcoming complexity; this is an interpretation of imagery.",
+      "evidence": "V02,V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q19",
+      "finding": "Lines, nodes and connection equipment recur across historical and abstract sections.",
+      "evidence": "V01–V07",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q20",
+      "finding": "The film supplies positioning and a metaphor; it shows no independently checkable agent task or revenue outcome.",
+      "evidence": "V06,V08",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q21",
+      "finding": "The understated geometry and Attio ending are consistent, but most technology-history images could serve other infrastructure brands.",
+      "evidence": "V01–V08",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q22",
+      "finding": "The switchboard-to-network comparison supplies the core idea; the rocket insert could be removed without losing that causal metaphor.",
+      "evidence": "V01,V02,V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q23",
+      "finding": "Tin could show a manual handoff map becoming a clear workflow graph, then prove one completed campaign action.",
+      "evidence": "V02,V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q24",
+      "finding": "Attio is positioned as architecture for agentic revenue, but the visible film does not explain a concrete software task.",
+      "evidence": "Model reading from inspected images",
+      "status": "uncertain",
+      "reason": "Model-only new-viewer interpretation; no human test.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q25",
+      "finding": "Contact sheets inspected at displayed size; a phone-size playback, caption audit, flash audit and formal accessibility check were not performed.",
+      "evidence": "Viewed sheets",
+      "status": "not checked",
+      "reason": "Full-size moving-image and device checks unavailable in this pass.",
+      "experiment": "none"
+    }
+  ],
+  "lessons": {
+    "keep": "Use one recurring connection motif to bridge historical footage and abstract diagrams.",
+    "avoid": "Avoid ending an infrastructure metaphor without a concrete product action.",
+    "open": "Spoken delivery, music, exact transitions and the architecture claims remain unverified.",
+    "try": [
+      "For Tin, begin with a real approval handoff map and simplify it into three workflow nodes, then show the sent result.",
+      "Test a brief archival-style montage followed by one clean diagram, with a visible sentence naming the specific user problem."
+    ]
+  },
+  "comparison": {
+    "story": "Establish manual connections. → Build the scale and complexity metaphor. → Bridge networks to a new technical era. → Extend the history into computing. → Suggest acceleration and pressure. → Represent a new layered architecture. → Connect the abstract system to people. → Name the positioning and brand.",
+    "motion": "Globe and ring diagrams enlarge or multiply in sampled states; the final radial pattern expands toward the edges. Exact paths and easing remain unverified. Sampling scope: 1 fps unless a closer window is recorded.",
+    "sound": "No validated listening; unknown.",
+    "texture": "Mostly monochrome or faded-color historical-looking imagery.; Grainy map and cable imagery; red-brown land and pale lines.; Minimal pale line geometry on dark field.; Archival-looking computer imagery, tiled montage, blue nodes.; Bright rocket exhaust, green line trace, black field.; Fine black dots and lines on clean white.; Modern-looking team and event imagery; pale geometric tunnel.; Small black text and logo.",
+    "lesson": "Use one recurring connection motif to bridge historical footage and abstract diagrams."
+  },
+  "elements": [
+    {
+      "kind": "texture",
+      "name": "archival-looking footage",
+      "events": [
+        "V01",
+        "V02",
+        "V04"
+      ]
+    },
+    {
+      "kind": "motion",
+      "name": "network diagram",
+      "events": [
+        "V03",
+        "V06"
+      ]
+    },
+    {
+      "kind": "motion",
+      "name": "tiled image montage",
+      "events": [
+        "V04"
+      ]
+    },
+    {
+      "kind": "texture",
+      "name": "fine-line geometry",
+      "events": [
+        "V03",
+        "V06",
+        "V07"
+      ]
+    }
+  ]
+}

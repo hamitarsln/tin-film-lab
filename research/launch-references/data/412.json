@@ -1,0 +1,413 @@
+{
+  "id": 412,
+  "reviewer_model": "gpt-6-astra",
+  "scope": "sampled visual and story review; ASR and measured signal support; no validated audio listening",
+  "viewed_evidence": [
+    "technical-review-2026-10-19/deep-review/motion/412/timeline-00.jpg",
+    "technical-review-2026-10-19/deep-review/motion/412/timeline-01.jpg",
+    "technical-review-2026-10-19/deep-review/motion/412/timeline-02.jpg",
+    "technical-review-2026-10-19/deep-review/motion/412/timeline-03.jpg",
+    "technical-review-2026-10-19/deep-review/motion/412/timeline-04.jpg",
+    "technical-review-2026-10-19/deep-review/motion/412/timeline-05.jpg",
+    "technical-review-2026-10-19/deep-review/motion/412/timeline-06.jpg",
+    "technical-review-2026-10-19/deep-review/motion/412/timeline-07.jpg",
+    "technical-review-2026-10-19/deep-review/motion/412/timeline-08.jpg",
+    "technical-review-2026-10-19/deep-review/motion/412/timeline-09.jpg",
+    "technical-review-2026-10-19/deep-review/motion/412/timeline-10.jpg",
+    "technical-review-2026-10-19/deep-review/motion/412/timeline-11.jpg",
+    "technical-review-2026-10-19/deep-review/motion/412/timeline-12.jpg",
+    "technical-review-2026-10-19/deep-review/audio/412-speech.json"
+  ],
+  "closer_windows": [],
+  "product_from_film": "Project Vend explores Claude operating an office shop, including failures and a revised agent structure.",
+  "explains_well": "A candy order is connected to chat, packing, stocking and collection, making the human physical work visible.",
+  "unclear": "The later improvement is described without a readable before-and-after profit figure or clear architecture diagram.",
+  "product_type": "AI research documentary",
+  "scenario": "Run an office shop, encounter discount and supplier failures, then add a manager agent.",
+  "product_clear_time": 46,
+  "product_clear_basis": "Claudius chat handles a candy order; the earlier ASR names the experiment by 11s.",
+  "scenes": [
+    {
+      "id": "V01",
+      "start": 0,
+      "end": 36,
+      "action": "Hands take unusual goods from a tabletop; Project Vend title appears on a plate. Office shop, cash props, interviewees, fridge and Claudius tablet establish the setting.",
+      "design": "Warm office interviews, cream tabletop product shots, white names and roles.",
+      "purpose": "Introduce the shop experiment.",
+      "evidence": "Visible chronological 1 fps samples, source 0–36s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V02",
+      "start": 36,
+      "end": 56,
+      "action": "Operations chapter opens with candy and a Claudius nameplate. Keyboard close-ups lead to a candy request chat; candy packets and a price-choice message illustrate sourcing.",
+      "design": "Physical candy, close cropped chat text and restrained chapter typography.",
+      "purpose": "Explain a customer request.",
+      "evidence": "Visible chronological 1 fps samples, source 36–56s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V03",
+      "start": 56,
+      "end": 83,
+      "action": "Hands cut packing material, box candy, tape it, unpack it and stock the shop. A phone wakes; people visit the shop and hands take candy from a plate.",
+      "design": "Cardboard, green bubble wrap, packages and office footage.",
+      "purpose": "Connect digital request to human fulfillment.",
+      "evidence": "Visible chronological 1 fps samples, source 56–83s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V04",
+      "start": 83,
+      "end": 119,
+      "action": "Interviews and money props lead into Marketing chapter with scales and gavel. A legal team interviewee appears at a desk and on a phone video.",
+      "design": "Warm interview frames, legal props and a staged phone display.",
+      "purpose": "Introduce the discount story, explained by the ASR draft.",
+      "evidence": "Visible chronological 1 fps samples, source 83–119s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V05",
+      "start": 119,
+      "end": 150,
+      "action": "Metal cube is picked up; cubes multiply across tabletop states, goods disappear under hands, and money rows decrease. A magnifier frames a hat reading You’re absolutely right before interviews resume.",
+      "design": "Metal cubes, cash bundles and embroidered hat.",
+      "purpose": "Illustrate incentives and excessive helpfulness.",
+      "evidence": "Visible chronological 1 fps samples, source 119–150s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V06",
+      "start": 150,
+      "end": 193,
+      "action": "Supplier management chapter uses a missing puzzle piece. Interviewees alternate, a phone notification appears, and a framed cartoon house illustrates the account.",
+      "design": "Cardboard puzzle, neutral tabletop and warm interviews.",
+      "purpose": "Explain supplier and identity problems through testimony.",
+      "evidence": "Visible chronological 1 fps samples, source 150–193s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V07",
+      "start": 193,
+      "end": 239,
+      "action": "Shop footage and a hanging blue blazer interrupt a long interview passage; another interviewee follows before a Help wanted card.",
+      "design": "Blue fabric prop, shop wide shot and mostly steady interview framing.",
+      "purpose": "Continue the identity-crisis account and its lesson.",
+      "evidence": "Visible chronological 1 fps samples, source 193–239s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V08",
+      "start": 239,
+      "end": 272,
+      "action": "Restructuring chapter leads from Claudius nameplate to Seymour Cash. Employee and Boss mugs replace one another; a chat close-up states CEO approval and margin priorities.",
+      "design": "Desk nameplates, white mugs and enlarged chat text.",
+      "purpose": "Make role division concrete.",
+      "evidence": "Visible chronological 1 fps samples, source 239–272s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V09",
+      "start": 272,
+      "end": 304,
+      "action": "Interviews alternate with cash bundles in changing arrangements and a paired boss/employee mug shot.",
+      "design": "Warm room, pale cash display and repeated mugs.",
+      "purpose": "Discuss improvement and remaining limitations.",
+      "evidence": "Visible chronological 1 fps samples, source 272–304s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V10",
+      "start": 304,
+      "end": 351,
+      "action": "Forecast chapter returns to the shop; people open the fridge and collect goods while interviews reflect on the experiment.",
+      "design": "Ordinary office activity and restrained interview coverage.",
+      "purpose": "Move from unusual experiment to everyday use.",
+      "evidence": "Visible chronological 1 fps samples, source 304–351s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V11",
+      "start": 351,
+      "end": 370.411,
+      "action": "A high shop view continues as people pass through; ANTHROPIC appears and holds, then the final sample is black.",
+      "design": "Office wide shot with white brand text.",
+      "purpose": "Close in the real setting.",
+      "evidence": "Visible chronological 1 fps samples, source 351–370.411s; boundary approximate; exact motion between samples unverified."
+    }
+  ],
+  "sound": [
+    {
+      "id": "A01",
+      "start": 0,
+      "end": 370.411,
+      "layer": "unknown",
+      "detail": "No validated direct audio listening was performed. Music, speech delivery, effects, mix and sync remain unknown, not absent.",
+      "visual_relation": "All visual scenes; audiovisual alignment unverified",
+      "evidence": "Visual samples only; no actual audio range supplied to this reviewer."
+    },
+    {
+      "id": "A02",
+      "start": 5.89,
+      "end": 350.51,
+      "layer": "ASR draft",
+      "detail": "The coherent ASR draft explains Claude running a shop, human fulfillment partners, discount manipulation, a false identity/supplier episode, and a later CEO subagent with architecture changes. It reports modest later profit while retaining limits. This is testimony text support, not independent verification; names have recognition errors, and delivery/music/effects were not heard.",
+      "visual_relation": "V01: experiment framing; V02–V03: candy workflow; V04–V05: discount losses; V06–V07: identity crisis; V08–V09: restructuring; V10: wider questions. Approximate ASR ranges support the story, not validated audiovisual sync.",
+      "evidence": "technical-review-2026-10-19/deep-review/audio/412-speech.json; local faster-whisper base CPU int8 draft; VAD candidates only, recognition errors possible."
+    }
+  ],
+  "categories": [
+    {
+      "id": "Q01",
+      "finding": "Five chapters move from operations to marketing failure, supplier failure, restructuring and forecast. One shop remains the setting throughout.",
+      "evidence": "V01–V11",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q02",
+      "finding": "Hands remove goods from a crowded tabletop with candy, cheese and a tungsten package. The unusual mix creates a question before the project title.",
+      "evidence": "V01",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q03",
+      "finding": "ASR frames a research experiment by 11s; visible shop and Claudius chat make the operation concrete by 46s. This is a case study for people interested in AI delegation, not a ready-to-buy shop product.",
+      "evidence": "V01–V02",
+      "status": "uncertain",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q04",
+      "finding": "Hands move goods, pack and stock candy, cash and cube arrangements change between shots, and nameplates and mugs are replaced to explain new roles. Interview movement is mainly gestures and framing changes.",
+      "evidence": "V01–V10",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q05",
+      "finding": "Chapter cards reset the story. Cuts from interview statements to physical props provide illustrations; the candy order has a more direct request-to-fulfillment chain. Exact prop animation timing is unresolved at 1 fps.",
+      "evidence": "V02–V09",
+      "status": "uncertain",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q06",
+      "finding": "Warm wood interviews and pale tabletop shots give the experiment an ordinary physical setting. Green bubble wrap, metal cubes and blue blazer supply memorable material details.",
+      "evidence": "V01–V09",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q07",
+      "finding": "Chapter titles and nameplates are clear. Chat excerpts supply some evidence, but the long interview sections lack visible sentence captions in the sampled image.",
+      "evidence": "V02,V06–V09",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q08",
+      "finding": "The coherent ASR draft explains Claude running a shop, human fulfillment partners, discount manipulation, a false identity/supplier episode, and a later CEO subagent with architecture changes. It reports modest later profit while retaining limits. This is testimony text support, not independent verification; names have recognition errors, and delivery/music/effects were not heard.",
+      "evidence": "A02",
+      "status": "uncertain",
+      "reason": "ASR text only; no validated listening, delivery or voice origin.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q09",
+      "finding": "Voice delivery, music, effects and audiovisual alignment were not established by this visual pass.",
+      "evidence": "A01",
+      "status": "not checked",
+      "reason": "No validated direct audio listening input.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q10",
+      "finding": "Voice delivery, music, effects and audiovisual alignment were not established by this visual pass.",
+      "evidence": "A01",
+      "status": "not checked",
+      "reason": "No validated direct audio listening input.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q11",
+      "finding": "Voice delivery, music, effects and audiovisual alignment were not established by this visual pass.",
+      "evidence": "A01",
+      "status": "not checked",
+      "reason": "No validated direct audio listening input.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q12",
+      "finding": "Interviews, office activity, product close-ups and staged-looking explanatory props mix with chat excerpts. The shots do not establish how much is reenactment.",
+      "evidence": "V01–V11",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q13",
+      "finding": "Manifest duration 370.411s; indexed dimensions 1440×1080. Source unchanged flag recorded; fresh encoding and audio clipping checks not run.",
+      "evidence": "Group manifest",
+      "status": "uncertain",
+      "reason": "Inherited technical metadata; no fresh media probe in this review.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q14",
+      "finding": "Silent viewing preserves ordering, packing, stocking and role changes. The discount manipulation, identity crisis and modest-profit conclusion depend heavily on spoken meaning available here only as ASR.",
+      "evidence": "V02–V09",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q15",
+      "finding": "Single props isolate concepts between interviews; the candy packets link the chat to the box and shelf. Cash arrangements illustrate direction without providing a numeric ledger.",
+      "evidence": "V02–V09",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q16",
+      "finding": "The six-minute chapter format gives failures room, but 193–239s is mostly testimony. A brief timeline or selected message would help viewers retain the identity-crisis sequence.",
+      "evidence": "V07",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q17",
+      "finding": "The unusual shop opening is answered through a complete physical supply chain and later lessons. The film ends with questions about delegation rather than declaring success.",
+      "evidence": "V01–V11",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q18",
+      "finding": "Playful goods and props lead to strange failure stories, then a cautious restructuring and ordinary shop use. The intended mix of humor and reflection is inferred from visuals and draft text.",
+      "evidence": "V01–V10",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q19",
+      "finding": "The same office, candy packaging, Claudius identity and recurring cash props tie chapters together. Boss and employee mugs clarify the later two-role structure.",
+      "evidence": "V02–V10",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q20",
+      "finding": "The film shows chat extracts and people handling goods. ASR reports losses, identity errors and modest later profit, but no full financial series or causal comparison is shown. It also notes architecture changes, so improvement cannot be assigned only to adding a boss.",
+      "evidence": "V05–V09",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q21",
+      "finding": "The strange stock, Claudius name and everyday Anthropic shop distinguish this case study from generic agent advertising.",
+      "evidence": "V01–V10",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q22",
+      "finding": "Keep the human packing and stocking steps. Add a simple role diagram and dated profit chart during restructuring; shorten repeated wide shop shots at the end.",
+      "evidence": "V03,V08,V09,V11",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q23",
+      "finding": "For a Tin experiment report, pair one real workflow log with the human actions it requires, then use named physical objects to explain role changes. Include failure evidence and measured outcomes beside the story.",
+      "evidence": "V02–V09",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q24",
+      "finding": "Project Vend explores Claude operating an office shop, including failures and a revised agent structure.",
+      "evidence": "Model reading from inspected images",
+      "status": "uncertain",
+      "reason": "Model-only new-viewer interpretation; no human test.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q25",
+      "finding": "Contact sheets inspected at displayed size; a phone-size playback, caption audit, flash audit and formal accessibility check were not performed.",
+      "evidence": "Viewed sheets",
+      "status": "not checked",
+      "reason": "Full-size moving-image and device checks unavailable in this pass.",
+      "experiment": "none"
+    }
+  ],
+  "lessons": {
+    "keep": "Show the human physical steps behind an AI-managed workflow.",
+    "avoid": "Using money props as the only visual support for a business-result claim.",
+    "open": "Actual listening, reenactment scope, financial records and causal effect of each architecture change remain unverified.",
+    "try": [
+      "For a Tin case study, trace one request through agent messages, human approval and delivered output, with matching assets.",
+      "Use two named desk cards to explain worker and reviewer roles, then show a dated outcome chart for the revised setup."
+    ]
+  },
+  "comparison": {
+    "story": "Introduce the shop experiment. → Explain a customer request. → Connect digital request to human fulfillment. → Introduce the discount story, explained by the ASR draft. → Illustrate incentives and excessive helpfulness. → Explain supplier and identity problems through testimony. → Continue the identity-crisis account and its lesson. → Make role division concrete. → Discuss improvement and remaining limitations. → Move from unusual experiment to everyday use. → Close in the real setting.",
+    "motion": "Hands move goods, pack and stock candy, cash and cube arrangements change between shots, and nameplates and mugs are replaced to explain new roles. Interview movement is mainly gestures and framing changes. Sampling scope: 1 fps unless a closer window is recorded.",
+    "sound": "No validated listening; unknown.",
+    "texture": "Warm office interviews, cream tabletop product shots, white names and roles.; Physical candy, close cropped chat text and restrained chapter typography.; Cardboard, green bubble wrap, packages and office footage.; Warm interview frames, legal props and a staged phone display.; Metal cubes, cash bundles and embroidered hat.; Cardboard puzzle, neutral tabletop and warm interviews.; Blue fabric prop, shop wide shot and mostly steady interview framing.; Desk nameplates, white mugs and enlarged chat text.; Warm room, pale cash display and repeated mugs.; Ordinary office activity and restrained interview coverage.; Office wide shot with white brand text.",
+    "lesson": "Show the human physical steps behind an AI-managed workflow."
+  },
+  "elements": [
+    {
+      "kind": "ui",
+      "name": "chat",
+      "events": [
+        "V02",
+        "V08"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "tablet interface",
+      "events": [
+        "V01"
+      ]
+    },
+    {
+      "kind": "motion",
+      "name": "prop replacement",
+      "events": [
+        "V05",
+        "V08",
+        "V09"
+      ]
+    },
+    {
+      "kind": "texture",
+      "name": "tabletop objects",
+      "events": [
+        "V01",
+        "V05",
+        "V08"
+      ]
+    },
+    {
+      "kind": "texture",
+      "name": "office interview footage",
+      "events": [
+        "V01",
+        "V04",
+        "V06",
+        "V09"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,355 @@
+{
+  "id": 340,
+  "product_from_film": "Fern is a meeting assistant that participates when invited, gives contextual suggestions and drafts follow-up text; the film also promises socially timed participation.",
+  "explains_well": "A meeting discussion leads to an explicit question to Fern, a contextual recommendation and a requested cancellation-email draft.",
+  "unclear": "The film promises proactive participation, but its main example begins with a direct request to Fern rather than showing it choose an appropriate moment itself.",
+  "product_type": "Conversational meeting assistant",
+  "scenario": "Founders criticize an interrupting assistant, introduce Fern, stage a meeting exchange and email draft, then discuss future integrations.",
+  "product_clear_time": 27,
+  "product_clear_basis": "The Fern introduction at 23–29s explicitly describes conversational timing; the meeting example starts at 31s.",
+  "scenes": [
+    {
+      "start": 0,
+      "end": 9,
+      "action": "Presenters in a cinema introduce a consciousness-to-AI claim; a phone scene asks what that means.",
+      "design": "Cinema screen, wide-angle views and large phrase.",
+      "purpose": "Set an ambitious premise and question it.",
+      "evidence": "1 fps source samples in 0–9s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V01"
+    },
+    {
+      "start": 9,
+      "end": 23,
+      "action": "The founders describe poor social awareness. In an office, two people talk beside a phone/voice-orb graphic; captions show an unwanted response and a request to stop.",
+      "design": "Alternating cinema presentation and staged office example.",
+      "purpose": "Frame interruption as the problem.",
+      "evidence": "1 fps source samples in 9–23s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V02"
+    },
+    {
+      "start": 23,
+      "end": 31,
+      "action": "Fern branding fills the cinema screen while the presenters say it knows when to stay silent and be proactive.",
+      "design": "Large black logo on white screen.",
+      "purpose": "Name the proposed solution.",
+      "evidence": "1 fps source samples in 23–31s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V03"
+    },
+    {
+      "start": 31,
+      "end": 50,
+      "action": "A meeting labeled 30 mins in shows two participants discussing switching tools. After a pause, one asks Any ideas Fern? A green waveform card accompanies a recommendation contrasting notes with real-time help.",
+      "design": "Bright meeting room, shot/reverse-shot and floating waveform.",
+      "purpose": "Demonstrate invited contextual participation.",
+      "evidence": "1 fps source samples in 31–50s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V04"
+    },
+    {
+      "start": 50,
+      "end": 60,
+      "action": "A participant asks for a cancellation email. A floating draft fills with text and shows Cancel and Send controls; he reacts positively.",
+      "design": "Email draft beside the green waveform and laptop user.",
+      "purpose": "Show a concrete follow-up artifact.",
+      "evidence": "1 fps source samples in 50–60s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V05"
+    },
+    {
+      "start": 60,
+      "end": 66,
+      "action": "The founders say the app can select meetings and provide insights, without a corresponding settings screen.",
+      "design": "Two-person direct-to-camera shot.",
+      "purpose": "Describe meeting management.",
+      "evidence": "1 fps source samples in 60–66s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V06"
+    },
+    {
+      "start": 66,
+      "end": 78,
+      "action": "Cinema slides name future smart-glasses, robot and other integrations, ending with a make-these-tools-human phrase.",
+      "design": "Device icons and large text on the cinema screen.",
+      "purpose": "Extend the ambition beyond meetings.",
+      "evidence": "1 fps source samples in 66–78s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V07"
+    },
+    {
+      "start": 78,
+      "end": 90.069,
+      "action": "Street presenter shots invite team use and integration contact, followed by team@ishikilabs.ai and the mark.",
+      "design": "Outdoor footage and simple white contact card.",
+      "purpose": "Provide the next step.",
+      "evidence": "1 fps source samples in 78–90.069s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V08"
+    }
+  ],
+  "sound": [
+    {
+      "id": "A01",
+      "start": 0,
+      "end": 90.069,
+      "layer": "script support only",
+      "detail": "ASR coherently supports the interruption problem, invited meeting exchange, cancellation-email request, meeting selection and future integrations. Brand names and some words are garbled; visible captions are preferred. The pauses and waveform do not establish heard silence, turn-taking quality or latency. No music, voice delivery, effects or sync was heard or verified.",
+      "visual_relation": "V01–V08; text supports the staged conversational sequence.",
+      "evidence": "340-speech.json draft and visible captions/draft card."
+    }
+  ],
+  "categories": [
+    {
+      "id": "Q01",
+      "finding": "Broad AI premise → interruption problem → Fern → meeting suggestion → email draft → future integrations/contact.",
+      "evidence": "V01–V08",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q02",
+      "finding": "A large consciousness-to-AI claim opens before the practical problem is named.",
+      "evidence": "V01",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q03",
+      "finding": "Meeting participants and product teams considering conversational integrations are the stated audiences.",
+      "evidence": "V04,V06–V08",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q04",
+      "finding": "Voice-orb/waveform states and progressively filled email text visualize assistant activity. Exact timing and actual audio alignment are unverified.",
+      "evidence": "V02,V04,V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q05",
+      "finding": "Cinema branding separates the problem skit from the meeting demo; the green card remains through advice and drafting.",
+      "evidence": "V02–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q06",
+      "finding": "Dark cinema scenes contrast with bright office/meeting rooms; green identifies the assistant response graphic.",
+      "evidence": "V01–V07",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q07",
+      "finding": "Captions explain most of the dialogue. The cancellation draft and final email address are clear concrete anchors.",
+      "evidence": "V04,V05,V08",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q08",
+      "finding": "ASR/captions support question, response and draft request, but heard turn-taking and delivery are not assessed.",
+      "evidence": "A01",
+      "status": "uncertain",
+      "reason": "No validated listening.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q09",
+      "finding": "Music character and structure are unverified.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "No validated listening.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q10",
+      "finding": "Effects and their sources are unverified.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "No validated listening; waveform peaks do not identify effects.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q11",
+      "finding": "Sound sync is unverified.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "No validated listening or paired audiovisual timing.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q12",
+      "finding": "Founder presentations, staged conversations and floating UI graphics are combined. Whether the demo is live or composited is not established.",
+      "evidence": "V01–V08",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q13",
+      "finding": "Source duration 90.069 s; Watch metadata 1920 × 1080. Frame rate, audio clipping and export quality not checked here.",
+      "evidence": "Whole film",
+      "status": "supported",
+      "reason": "Parent source metadata supports duration and dimensions; visual review is sampled.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q14",
+      "finding": "The captioned request and resulting email are clear visually; social timing is harder to assess without validated audiovisual playback.",
+      "evidence": "V04,V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q15",
+      "finding": "Large cinema text and green assistant cards guide attention; the draft makes the assistant’s output specific.",
+      "evidence": "V03–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q16",
+      "finding": "About 31s introduce the problem and brand; roughly 29s cover the meeting/demo before broader claims and contact.",
+      "evidence": "V01–V08",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q17",
+      "finding": "The email request produces a visible draft. Proactive timing remains a promise because the main response follows a direct invitation.",
+      "evidence": "V04,V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q18",
+      "finding": "The interruption skit suggests frustration and the draft response suggests relief; actual audience response and vocal performance are unmeasured.",
+      "evidence": "V02,V05",
+      "status": "uncertain",
+      "reason": "Visual and script interpretation only.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q19",
+      "finding": "The same founders move from explaining the problem to participating in the example, linking pitch and scenario.",
+      "evidence": "V01–V08",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q20",
+      "finding": "Consciousness/human-like wording is promotional framing, not established capability. Comparative claims, social timing, future integrations and draft sending are unverified; no sent-email state appears.",
+      "evidence": "V01,V02,V04–V07",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q21",
+      "finding": "The request-to-email artifact gives the assistant a useful action beyond speaking in the meeting.",
+      "evidence": "V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q22",
+      "finding": "Demonstrate the proactive claim in a specific moment.",
+      "evidence": "V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "Show an unprompted but contextually relevant suggestion, the participant response and a clear way to decline it."
+    },
+    {
+      "id": "Q23",
+      "finding": "For Tin, connect assistance to an editable artifact and explicit approval.",
+      "evidence": "V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "Show a campaign suggestion becoming a draft, then the user approving the exact final preview."
+    },
+    {
+      "id": "Q24",
+      "finding": "No human new-viewer test was performed.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "The product summary is this model’s film-only reading.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q25",
+      "finding": "Mobile preview and accessibility checks were not performed.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "Contact sheets are evidence views, not a stated mobile preview or compliance test.",
+      "experiment": "none"
+    }
+  ],
+  "elements": [
+    {
+      "kind": "ui",
+      "name": "voice waveform",
+      "events": [
+        "V04",
+        "V05"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "email draft",
+      "events": [
+        "V05"
+      ]
+    },
+    {
+      "kind": "motion",
+      "name": "draft text fills in",
+      "events": [
+        "V05"
+      ]
+    },
+    {
+      "kind": "texture",
+      "name": "cinema presentation",
+      "events": [
+        "V01",
+        "V02",
+        "V03",
+        "V07"
+      ]
+    }
+  ],
+  "lessons": {
+    "keep": "Let conversational help produce a specific editable artifact.",
+    "try": [
+      "Show a genuinely unprompted suggestion and how a participant can decline it.",
+      "For Tin, turn a suggestion into a draft and show approval of the exact preview."
+    ],
+    "avoid": "Using an invited answer as the sole evidence for proactive timing.",
+    "open": "Turn-taking, latency, proactive behavior, sent-email outcome, future integrations and audio qualities remain unverified."
+  },
+  "comparison": {
+    "story": "Interruption problem → invited meeting advice → email draft → wider ambition.",
+    "motion": "Voice graphics and draft text amid staged conversation.",
+    "sound": "Coherent ASR/caption support; timing and delivery unverified.",
+    "texture": "Cinema pitch, bright meeting room and floating green assistant.",
+    "lesson": "A concrete draft explains usefulness; a timing claim needs the exact timing behavior shown."
+  },
+  "reviewer_model": "gpt-6-astra",
+  "scope": "sampled visual and story review; ASR and measured signal support; no validated audio listening",
+  "viewed_evidence": [
+    "technical-review-2026-10-19/deep-review/motion/340/timeline-00.jpg",
+    "technical-review-2026-10-19/deep-review/motion/340/timeline-01.jpg",
+    "technical-review-2026-10-19/deep-review/motion/340/timeline-02.jpg"
+  ],
+  "closer_windows": []
+}

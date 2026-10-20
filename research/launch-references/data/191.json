@@ -1,0 +1,362 @@
+{
+  "id": 191,
+  "product_from_film": "Voquill presents an AI coworker that turns a pathologists spoken case observations into structured report sections.",
+  "explains_well": "The opening shows reporting friction, then a spoken-observation graphic connects through LIS to a structured specimen report.",
+  "unclear": "The report appears as an overlay, so the film does not show a complete case being reviewed and signed out in the actual lab system.",
+  "product_type": "pathology reporting assistant",
+  "scenario": "A pathologist reviews tissue and records, faces repetitive report fields, then an illustrated assistant routes observations into a report.",
+  "product_clear_time": 45,
+  "product_clear_basis": "By 45s, observation text and an LIS connection graphic lead to a specimen report overlay; the audience is explicitly named at 30s.",
+  "scenes": [
+    {
+      "start": 0,
+      "end": 12,
+      "action": "Patient/doctor scene leads through lab doors to a pathologist, microscope, tissue views and patient/history screens.",
+      "design": "Cool clinical scenes, circular microscope images and small yellow captions.",
+      "purpose": "Connect diagnostic work to the patient context.",
+      "evidence": "1 fps source samples in 0–12s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V01"
+    },
+    {
+      "start": 12,
+      "end": 25,
+      "action": "A blank cursor, typing hands, document formatting, tracking tables and required-field warnings lead to It shouldnt be this hard.",
+      "design": "Dense legacy-looking screens contrasted with a plain white statement.",
+      "purpose": "Make report administration the specific problem.",
+      "evidence": "1 fps source samples in 12–25s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V02"
+    },
+    {
+      "start": 25,
+      "end": 35,
+      "action": "Three team members introduce Voquill and an AI coworker for pathologists; the framing moves toward one speaker.",
+      "design": "Warm book-lined room, large introduction text and bottom captions.",
+      "purpose": "Introduce the team and proposed answer.",
+      "evidence": "1 fps source samples in 25–35s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V03"
+    },
+    {
+      "start": 35,
+      "end": 46,
+      "action": "A line-wave graphic sits beside the speaker; observation text appears, connects downward to LIS and then to a specimen report card.",
+      "design": "Fine gold/white lines and translucent data overlays.",
+      "purpose": "Explain observation-to-system-to-report flow schematically.",
+      "evidence": "1 fps source samples in 35–46s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V04"
+    },
+    {
+      "start": 46,
+      "end": 57,
+      "action": "Another speaker is accompanied by large phrases about routing words to the right section and learning reporting style as more cases are signed out.",
+      "design": "Left-aligned kinetic text beside a close interview view.",
+      "purpose": "Distinguish structured reporting from simple dictation.",
+      "evidence": "1 fps source samples in 46–57s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V05"
+    },
+    {
+      "start": 57,
+      "end": 65,
+      "action": "A percentage builds to 25% with Pathology Workforce Shortage by 2035, followed by the team and declining-reimbursement wording.",
+      "design": "Large black percentage on white, then warm team shot.",
+      "purpose": "Add an urgency argument through workforce/economic claims.",
+      "evidence": "1 fps source samples in 57–65s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V06"
+    },
+    {
+      "start": 65,
+      "end": 76,
+      "action": "The team says pathologists should focus on patient outcomes and diagnosis rather than templates.",
+      "design": "Stable three-person shot with bottom captions.",
+      "purpose": "Return to the professional value proposition.",
+      "evidence": "1 fps source samples in 65–76s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V07"
+    },
+    {
+      "start": 76,
+      "end": 86.211,
+      "action": "Line waves enter a circular pen-like mark and a curved stream of report text exits, with voquill.com at lower left.",
+      "design": "Minimal white field, fine gray curves and black mark.",
+      "purpose": "Repeat the voice-to-report concept as the brand ending.",
+      "evidence": "1 fps source samples in 76–86.211s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V08"
+    }
+  ],
+  "sound": [
+    {
+      "id": "A01",
+      "start": 0,
+      "end": 86.211,
+      "layer": "ASR draft / unknown",
+      "detail": "The coherent draft describes pathology review, reporting administration, listening during case work, LIS connection and routing words into report sections. It repeatedly misrecognizes the brand name. It provides script context only; no validated voice, music, effects or synchronization assessment.",
+      "visual_relation": "V01–V07; broad script aligns with visible captions/graphics, audible delivery unverified.",
+      "evidence": "technical-review-2026-10-19/deep-review/audio/191-speech.json; local faster-whisper draft inspected."
+    }
+  ],
+  "categories": [
+    {
+      "id": "Q01",
+      "finding": "Patient/lab context → reporting friction → team → schematic voice-to-report flow → routing/personalization → workforce argument → professional focus → brand diagram.",
+      "evidence": "V01–V08",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q02",
+      "finding": "The patient consultation and Behind every cancer patient caption connect a specialist workflow to a human outcome immediately.",
+      "evidence": "V01",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q03",
+      "finding": "Pathologists are explicitly named at 30s; the observation/LIS/report graphic makes the function concrete by 45s.",
+      "evidence": "V03,V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q04",
+      "finding": "Text builds, line-wave states, downward connection and report-card appearance are visible; the final curved text stream repeats the conversion metaphor. Exact timing and voice synchronization are unverified.",
+      "evidence": "V04,V05,V08",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q05",
+      "finding": "The white problem card separates clinical friction from the warm team introduction; line-to-text imagery connects the demo explanation and ending.",
+      "evidence": "V02,V03,V04,V08",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q06",
+      "finding": "Cool lab/legacy-screen imagery contrasts with warm interview furniture and clean white brand graphics.",
+      "evidence": "V01–V03,V08",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q07",
+      "finding": "Large phrases explain routing, but detailed old-system fields and the small report overlay are harder to read at this pace.",
+      "evidence": "V02,V04,V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q08",
+      "finding": "ASR supports the workflow explanation with brand-name errors; it cannot establish voice quality, mix or real-time response.",
+      "evidence": "A01",
+      "status": "uncertain",
+      "reason": "Draft text only; no validated listening.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q09",
+      "finding": "Music character and structure are unverified.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "No validated listening.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q10",
+      "finding": "Effects and their sources are unverified.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "No validated listening; waveform peaks do not identify effects.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q11",
+      "finding": "Sound sync is unverified.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "No validated listening or paired audiovisual timing.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q12",
+      "finding": "Clinical footage, team interviews and explanatory overlays are combined; the central flow is schematic rather than a full live-system capture.",
+      "evidence": "V01–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q13",
+      "finding": "Source duration 86.211 s; Watch metadata 1920 × 1080. Frame rate, audio clipping and export quality not checked here.",
+      "evidence": "Whole film",
+      "status": "supported",
+      "reason": "Parent source metadata supports duration and dimensions; visual review is sampled.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q14",
+      "finding": "Captions and diagrams make the reporting problem and assistant role readable silently. Actual case completion remains unseen.",
+      "evidence": "V01–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q15",
+      "finding": "The opening puts viewers behind the pathologist at screens; later overlays sit beside the speaker to isolate the proposed flow.",
+      "evidence": "V01,V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q16",
+      "finding": "About 25s establish the reporting problem before the team appears; the main flow explanation occupies about 11s, followed by positioning.",
+      "evidence": "V01–V07",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q17",
+      "finding": "The blank cursor and required fields are answered by an organized specimen report, but no final clinician review is shown.",
+      "evidence": "V02,V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q18",
+      "finding": "Patient context and administrative friction may create empathy with the specialist; team shots may suggest approachability. Response is unmeasured.",
+      "evidence": "V01–V03",
+      "status": "uncertain",
+      "reason": "Interpretation of framing.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q19",
+      "finding": "The repeated line-wave-to-text motif links explanation and closing identity; the same case is not tracked across all source screens.",
+      "evidence": "V04,V08",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q20",
+      "finding": "Accuracy, LIS compatibility, personalization and workforce percentage are presented claims. Clinical performance and the statistical source were not independently checked.",
+      "evidence": "V04–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q21",
+      "finding": "Pathology-specific terms and the voice-to-report motif give Voquill a clear domain identity.",
+      "evidence": "V02,V04,V08",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q22",
+      "finding": "Show one observation entering the correct report field and the pathologist reviewing it before sign-out.",
+      "evidence": "V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "Use a clearly labeled demo case with one spoken-text caption, matching report section and explicit review/approve step."
+    },
+    {
+      "id": "Q23",
+      "finding": "For Tin, show how the agent routes one input into the correct output section.",
+      "evidence": "V04,V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "Keep a campaign requirement highlighted as it moves from the brief into the matching asset/report section for user review."
+    },
+    {
+      "id": "Q24",
+      "finding": "No human new-viewer test was performed.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "The product summary is this model’s film-only reading.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q25",
+      "finding": "Mobile preview and accessibility checks were not performed.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "Contact sheets are evidence views, not a stated mobile preview or compliance test.",
+      "experiment": "none"
+    }
+  ],
+  "elements": [
+    {
+      "kind": "ui",
+      "name": "report document",
+      "events": [
+        "V02",
+        "V04"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "required-field warning",
+      "events": [
+        "V02"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "data table",
+      "events": [
+        "V01",
+        "V02"
+      ]
+    },
+    {
+      "kind": "motion",
+      "name": "line-to-text flow",
+      "events": [
+        "V04",
+        "V08"
+      ]
+    },
+    {
+      "kind": "texture",
+      "name": "clinical workspace",
+      "events": [
+        "V01",
+        "V02"
+      ]
+    }
+  ],
+  "lessons": {
+    "keep": "Show the specific administrative friction before explaining the automation flow.",
+    "try": [
+      "Track one observation into its report section and show explicit clinician review before sign-out.",
+      "For Tin, highlight one brief requirement as it enters the matching output section for review."
+    ],
+    "avoid": "Letting a schematic report stand in for a complete reviewed case workflow.",
+    "open": "Actual system interaction, review behavior, clinical accuracy, integration coverage, statistic source and audio remain unverified."
+  },
+  "comparison": {
+    "story": "Clinical context → reporting burden → team solution → structured routing → urgency → professional focus.",
+    "motion": "Line-wave/report overlays and text builds; real-time audio relationship unverified.",
+    "sound": "ASR supports script, brand errors noted; no validated listening.",
+    "texture": "Cool lab, dense legacy screens, warm interview and minimal white diagrams.",
+    "lesson": "A domain-specific input-to-section example can explain an assistant better than a broad automation slogan."
+  },
+  "reviewer_model": "gpt-6-astra",
+  "scope": "sampled visual and story review; ASR and measured signal support; no validated audio listening",
+  "viewed_evidence": [
+    "technical-review-2026-10-19/deep-review/motion/191/timeline-00.jpg",
+    "technical-review-2026-10-19/deep-review/motion/191/timeline-01.jpg",
+    "technical-review-2026-10-19/deep-review/motion/191/timeline-02.jpg"
+  ],
+  "closer_windows": []
+}

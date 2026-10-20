@@ -1,0 +1,380 @@
+{
+  "id": 27,
+  "viewed_evidence": [
+    "technical-review-2026-10-19/deep-review/motion/027/timeline-00.jpg",
+    "technical-review-2026-10-19/deep-review/motion/027/timeline-01.jpg",
+    "astra-review-2026-10-20/evidence/group-3/027/dense.jpg",
+    "technical-review-2026-10-19/deep-review/audio/027-speech.json"
+  ],
+  "product_from_film": "Scuba appears to collect work material into shared collections and briefings.",
+  "explains_well": "The film links scattered documents with shared captures and a morning briefing.",
+  "unclear": "The precise capture action and how an agent uses the context remain unclear from the pictures alone.",
+  "product_type": "team knowledge / collaboration",
+  "scenario": "Collect mixed work sources and produce a launch-readiness briefing.",
+  "product_clear_time": 32,
+  "product_clear_basis": "A morning briefing with source count and launch-readiness summary gives a concrete outcome at 32–33 s.",
+  "scenes": [
+    {
+      "start": 0,
+      "end": 8,
+      "action": "A monochrome office gives way to desktop windows and file icons scattered across a wood-like desktop.",
+      "design": "Mixed documents, folders, PDFs and browser pages; visible pointer.",
+      "purpose": "Introduce scattered information.",
+      "id": "V01",
+      "evidence": "Visible 1 fps samples, source 0–8 s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 8,
+      "end": 17,
+      "action": "Desk writing, handwriting, notes and group conversations alternate.",
+      "design": "Warm personal work images and black-and-white meeting photographs.",
+      "purpose": "Connect information with human thinking.",
+      "id": "V02",
+      "evidence": "Visible 1 fps samples, source 8–17 s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 17,
+      "end": 23,
+      "action": "Stacks of documents on white lead to a desk covered in plans; colored circles appear over the worker.",
+      "design": "Paper textures and colored brand dots.",
+      "purpose": "Bridge personal material toward the product.",
+      "id": "V03",
+      "evidence": "Visible 1 fps samples, source 17–23 s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 23,
+      "end": 32,
+      "action": "Logo and capture cards float across a blurred background; Capture what matters appears, followed by collection cards and recorder timer.",
+      "design": "Teal/yellow fields, rounded cards, diverse image snippets.",
+      "purpose": "Introduce capture and collections.",
+      "id": "V04",
+      "evidence": "Visible 1 fps samples, source 23–32 s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 32,
+      "end": 39,
+      "action": "Morning briefing and launch-readiness trends appear; a sources view gives way to individual people/material tiles on cream.",
+      "design": "Green summary card, source thumbnails and avatar labels.",
+      "purpose": "Show shared context becoming a briefing.",
+      "id": "V05",
+      "evidence": "Visible 1 fps samples, source 32–39 s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 39,
+      "end": 47,
+      "action": "White shapes become many clustered particles; stacked image cards interrupt, then a fine particle field forms a wide flock-like shape. White particles compress from a tall loose mass into a low wide flock shape by 45 s, then remain a flowing cluster. Between 46.25 and 46.5 s the indigo graphic changes to sky footage with dark birds in a similar shape. This supports a shape-match handoff, not proof of literal particle-to-bird morphing.",
+      "design": "Indigo field, white particles and cream card composition.",
+      "purpose": "Suggest many contributions acting together.",
+      "id": "V06",
+      "evidence": "Visible 1 fps samples, source 39–47 s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 47,
+      "end": 52,
+      "action": "Bird flock footage leads to orchestra and two collaborators at a board; the last image shrinks beside brand dots.",
+      "design": "Natural sky, warm stage and pale workspace footage-like scenes.",
+      "purpose": "Express coordination through familiar analogies.",
+      "id": "V07",
+      "evidence": "Visible 1 fps samples, source 47–52 s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 52,
+      "end": 56.4,
+      "action": "Small mark expands into Scuba name and scuba.app on dark background.",
+      "design": "Cream serif lettering and four colored shapes.",
+      "purpose": "Close with destination.",
+      "id": "V08",
+      "evidence": "Visible 1 fps samples, source 52–56.4 s; boundaries approximate, between-frame action unresolved."
+    }
+  ],
+  "sound": [
+    {
+      "id": "A01",
+      "start": 0,
+      "end": 56.4,
+      "layer": "unknown",
+      "detail": "No validated audio listening; speech, music, effects, mix and sync remain unverified.",
+      "visual_relation": "All visual scenes; alignment not checked",
+      "evidence": "No actual audio supplied to this review; existing technical-review-2026-10-19/deep-review/audio/027.json is not listening evidence."
+    },
+    {
+      "id": "A02",
+      "start": 1.83,
+      "end": 55.65,
+      "layer": "ASR draft",
+      "detail": "Candidate script repeats lost tabs, documents, notes and decisions, then presents shared capture and team context. Dock and because you were dead are unreliable recognitions; exact brand and wording are not inferred from ASR.",
+      "visual_relation": "Candidate script support for the existing visual story; no hearing or delivery judgment.",
+      "evidence": "technical-review-2026-10-19/deep-review/audio/027-speech.json; existing faster-whisper base CPU int8; reviewed text segments"
+    }
+  ],
+  "categories": [
+    {
+      "finding": "Scattered documents and human work lead to captures, shared briefing and collective-motion imagery.",
+      "evidence": "V01–V07",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q01"
+    },
+    {
+      "finding": "An old-looking office photo changes to horizontal blur and then desktop windows; the product is not yet identifiable.",
+      "evidence": "V01",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q02"
+    },
+    {
+      "finding": "Capture and briefing suggest team knowledge work by 32 s; explicit agent behavior is not visible.",
+      "evidence": "V04–V05",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q03"
+    },
+    {
+      "finding": "White particles compress from a tall loose mass into a low wide flock shape by 45 s, then remain a flowing cluster. Between 46.25 and 46.5 s the indigo graphic changes to sky footage with dark birds in a similar shape. This supports a shape-match handoff, not proof of literal particle-to-bird morphing.",
+      "evidence": "V04,V06; dense 44–48 s",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q04"
+    },
+    {
+      "finding": "Color-dot overlays bridge desk footage into product cards; particles connect conceptually to birds, but sampled images alone do not resolve the full handoff.",
+      "evidence": "V03–V04,V06–V07",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q05"
+    },
+    {
+      "finding": "Paper, handwriting and warm footage sit beside teal, mustard, green and indigo fields. Asset provenance remains unknown.",
+      "evidence": "V02–V06",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q06"
+    },
+    {
+      "finding": "Serif headings make briefings feel editorial; source and avatar labels are small and brief.",
+      "evidence": "V05",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q07"
+    },
+    {
+      "finding": "Voice presence and delivery remain unverified.",
+      "evidence": "No validated audio listening",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q08"
+    },
+    {
+      "finding": "Music character and arc remain unverified.",
+      "evidence": "No validated audio listening",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q09"
+    },
+    {
+      "finding": "Sound effects remain unverified.",
+      "evidence": "No validated audio listening",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q10"
+    },
+    {
+      "finding": "Sound-to-motion timing remain unverified.",
+      "evidence": "No validated audio listening",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q11"
+    },
+    {
+      "finding": "Historical-looking office/meeting images, contemporary work footage, paper cutouts and screen cards mix together. Origin is not established.",
+      "evidence": "V01–V07",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q12"
+    },
+    {
+      "finding": "Source duration supplied as 56.4 s; no independent compression, clipping or delivery check.",
+      "evidence": "Assigned metadata; source integrity checked by parent",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q13"
+    },
+    {
+      "finding": "Capture, collection and briefing words preserve the broad purpose; exact ingestion and agent use remain vague.",
+      "evidence": "V04–V05",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q14"
+    },
+    {
+      "finding": "Floating cards scatter focus until the large briefing headline centralizes it.",
+      "evidence": "V04–V05",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q15"
+    },
+    {
+      "finding": "Many analogies surround a short product section; 39–52 s adds coordination imagery after the useful briefing.",
+      "evidence": "V05–V07",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q16"
+    },
+    {
+      "finding": "Scattered sources receive an organized briefing, while the ending expands into a collaboration mood.",
+      "evidence": "V01,V05,V07",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q17"
+    },
+    {
+      "finding": "Interpretation: clutter moves toward collective order through cards and flock imagery; effectiveness is unmeasured.",
+      "evidence": "V01,V06–V07",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q18"
+    },
+    {
+      "finding": "Four colored dots tie real-world source material to the mark and end card.",
+      "evidence": "V03,V08",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q19"
+    },
+    {
+      "finding": "A briefing and source cards are shown; no capture-to-summary accuracy or agent action is verified.",
+      "evidence": "V04–V05",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q20"
+    },
+    {
+      "finding": "Rounded organic mark, cream serif type and muted palette form a recurring identity.",
+      "evidence": "V04–V08",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q21"
+    },
+    {
+      "finding": "The orchestra and bird analogies overlap; removing one could expose an actual capture action.",
+      "evidence": "V07",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q22"
+    },
+    {
+      "finding": "For Tin research briefs, show three source cards feeding one useful campaign decision, preserving the source thumbnails beside the answer.",
+      "evidence": "V05",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q23"
+    },
+    {
+      "finding": "No human new-viewer test; product description above is model interpretation of sampled images.",
+      "evidence": "V01–V08",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q24"
+    },
+    {
+      "finding": "No phone-size, safe-area or flash assessment; small UI text needs separate preview.",
+      "evidence": "Contact sheets",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q25"
+    }
+  ],
+  "lessons": {
+    "keep": "Keep source thumbnails visible beside the useful summary.",
+    "try": [
+      "For Tin launch research, place three captured customer notes beside one briefing with a visible source count.",
+      "Test a short dots-to-cards transition using approved research assets, then hold a readable summary instead of adding another metaphor."
+    ],
+    "avoid": "Letting collective-intelligence imagery replace the actual product action.",
+    "open": "Exact particle transition, capture interaction and unheard audio remain unresolved."
+  },
+  "comparison": {
+    "story": "Introduce scattered information. → Connect information with human thinking. → Bridge personal material toward the product. → Introduce capture and collections. → Show shared context becoming a briefing. → Suggest many contributions acting together. → Express coordination through familiar analogies. → Close with destination.",
+    "motion": "Cards change size and orientation; particles cluster and spread into a flock-like field. Exact paths need a closer window.",
+    "sound": "No validated listening; no absence claims.",
+    "texture": "Paper, handwriting and warm footage sit beside teal, mustard, green and indigo fields. Asset provenance remains unknown.",
+    "lesson": "Keep source thumbnails visible beside the useful summary."
+  },
+  "elements": [
+    {
+      "kind": "ui",
+      "name": "source cards",
+      "events": [
+        "V04",
+        "V05"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "briefing",
+      "events": [
+        "V05"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "recording timer",
+      "events": [
+        "V04"
+      ]
+    },
+    {
+      "kind": "motion",
+      "name": "particle flock",
+      "events": [
+        "V06"
+      ]
+    },
+    {
+      "kind": "texture",
+      "name": "paper and handwriting",
+      "events": [
+        "V02",
+        "V03"
+      ]
+    }
+  ],
+  "reviewer_model": "gpt-6-astra",
+  "scope": "sampled visual and story review; ASR and measured signal support; no validated audio listening",
+  "closer_windows": [
+    {
+      "start": 44,
+      "end": 48,
+      "rate_fps": 4,
+      "evidence": [
+        "astra-review-2026-10-20/evidence/group-3/027/dense.jpg"
+      ],
+      "resolved": "White particles compress from a tall loose mass into a low wide flock shape by 45 s, then remain a flowing cluster. Between 46.25 and 46.5 s the indigo graphic changes to sky footage with dark birds in a similar shape. This supports a shape-match handoff, not proof of literal particle-to-bird morphing."
+    }
+  ]
+}

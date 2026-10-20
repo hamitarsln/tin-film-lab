@@ -1,0 +1,377 @@
+{
+  "id": 297,
+  "product_from_film": "Zatanna turns demonstrated software workflows into programmatic actions for AI agents and manages the integration infrastructure.",
+  "explains_well": "The script and diagrams explain the legacy-system problem, the workflow-to-call sequence and the infrastructure responsibilities.",
+  "unclear": "No specific workflow is demonstrated from user action through generated calls to a changed record, so the core mechanism remains abstract.",
+  "product_type": "AI agent integration infrastructure",
+  "scenario": "Three founders explain connecting AI agents to legacy software, discovering requests from a workflow and running the resulting actions.",
+  "product_clear_time": 47,
+  "product_clear_basis": "The 40–49s workflow diagram and script explain discovering requests and generating the call sequence; the earlier introduction only states coordination with operational software.",
+  "scenes": [
+    {
+      "start": 0,
+      "end": 11,
+      "action": "A founder appears among coastal trees with Zatanna branding and identity labels. A pale panel with a central mark and surrounding icons appears beside him.",
+      "design": "Outdoor presenter, soft cream panels and muted green accents.",
+      "purpose": "Introduce the company and coordination idea.",
+      "evidence": "1 fps source samples in 0–11s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V01"
+    },
+    {
+      "start": 11,
+      "end": 27,
+      "action": "Two founders explain the access problem. A central agent diagram and cards for SAP, point-of-sale, EHR/EMS and insurance websites appear.",
+      "design": "Founder names, legacy-system cards and diagram.",
+      "purpose": "Name the systems and target problem.",
+      "evidence": "1 fps source samples in 11–27s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V02"
+    },
+    {
+      "start": 27,
+      "end": 40,
+      "action": "The first founder stands on a path beside a diagram connecting an agent to inputs and outputs, then the brand appears.",
+      "design": "Simple branching lines over outdoor footage.",
+      "purpose": "Describe the current custom-integration burden.",
+      "evidence": "1 fps source samples in 27–40s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V03"
+    },
+    {
+      "start": 40,
+      "end": 50,
+      "action": "A workflow card appears beside another founder, leading through the Zatanna mark to checked steps for understanding the system, discovering requests and generating an API sequence.",
+      "design": "Workflow card and progressive checklist.",
+      "purpose": "Explain the proposed transformation.",
+      "evidence": "1 fps source samples in 40–50s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V04"
+    },
+    {
+      "start": 50,
+      "end": 62,
+      "action": "A founder near the water is accompanied by cards for IP rotation, TLS, credential/session management and anti-bot protections, followed by a browser-automation icon.",
+      "design": "Small infrastructure cards and outdoor presenter.",
+      "purpose": "State what the service handles.",
+      "evidence": "1 fps source samples in 50–62s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V05"
+    },
+    {
+      "start": 62,
+      "end": 77,
+      "action": "A revenue graphic grows to $10M+ while the founder discusses customers. A request-log table shows methods, endpoints, status and latency columns.",
+      "design": "Revenue card and light request table.",
+      "purpose": "Present customer scale and operating activity.",
+      "evidence": "1 fps source samples in 62–77s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V06"
+    },
+    {
+      "start": 77,
+      "end": 93,
+      "action": "All three founders stand together and describe previous infrastructure experience.",
+      "design": "Group presenter shot without a concrete product action.",
+      "purpose": "Provide team background.",
+      "evidence": "1 fps source samples in 77–93s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V07"
+    },
+    {
+      "start": 93,
+      "end": 103,
+      "action": "A card lists websites, desktop apps and on-premises servers while the founders invite contact.",
+      "design": "Target-system list and group shot.",
+      "purpose": "Clarify fit and invite discussion.",
+      "evidence": "1 fps source samples in 93–103s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V08"
+    },
+    {
+      "start": 103,
+      "end": 111.466,
+      "action": "Black angled mark components change into the Zatanna logo on a pale field.",
+      "design": "Minimal logo finish.",
+      "purpose": "Close the announcement.",
+      "evidence": "1 fps source samples in 103–111.466s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V09"
+    }
+  ],
+  "sound": [
+    {
+      "id": "A01",
+      "start": 0,
+      "end": 111.466,
+      "layer": "ASR draft / unknown",
+      "detail": "The draft coherently explains the legacy-software problem, request discovery, call generation, managed infrastructure, scale claims and founder background. Names and several technical words are garbled; visible cards support the named categories. No validated listening, delivery, music, effects or sync assessment.",
+      "visual_relation": "V01–V08; script is the main explanation with visual diagrams as support.",
+      "evidence": "technical-review-2026-10-19/deep-review/audio/297-speech.json"
+    }
+  ],
+  "categories": [
+    {
+      "id": "Q01",
+      "finding": "Founder introduction → legacy-system problem → custom-integration burden → workflow transformation → infrastructure/scale → team → contact.",
+      "evidence": "V01–V09",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q02",
+      "finding": "Branding appears over trees before the founder enters the composition; the product task is not yet clear.",
+      "evidence": "V01",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q03",
+      "finding": "Developers and companies connecting agents to operational software are explicit. The workflow-to-call mechanism becomes clear around 47s.",
+      "evidence": "V02–V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q04",
+      "finding": "Cards, branching diagrams and checked steps appear beside presenters. Revenue values and log states change; exact motion paths and logo assembly are unresolved.",
+      "evidence": "V01–V09",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q05",
+      "finding": "Changes of founder and outdoor location separate explanation sections; consistent cream cards hold the visual system together.",
+      "evidence": "V01–V08",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q06",
+      "finding": "Green trees, coastal light and muted cream/olive overlays give the infrastructure pitch a softer outdoor treatment.",
+      "evidence": "V01–V09",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q07",
+      "finding": "Captions carry the explanation; system names are clear, while workflow cards and request rows contain small text.",
+      "evidence": "V02–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q08",
+      "finding": "The draft explains the architecture and responsibilities with some technical transcription errors; vocal delivery remains unchecked.",
+      "evidence": "A01",
+      "status": "uncertain",
+      "reason": "ASR and captions only.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q09",
+      "finding": "Music character and structure are unverified.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "No validated listening.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q10",
+      "finding": "Effects and their sources are unverified.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "No validated listening; waveform peaks do not identify effects.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q11",
+      "finding": "Sound sync is unverified.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "No validated listening or paired audiovisual timing.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q12",
+      "finding": "Founder footage is combined with illustrative cards, diagrams and a request table. No exact production stack or live-demo status is established.",
+      "evidence": "V01–V09",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q13",
+      "finding": "Source duration 111.466 s; Watch metadata 1920 × 1080. Frame rate, audio clipping and export quality not checked here.",
+      "evidence": "Whole film",
+      "status": "supported",
+      "reason": "Parent source metadata supports duration and dimensions; visual review is sampled.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q14",
+      "finding": "Captions and cards preserve the main proposition silently, but no actual legacy-system action supplies a concrete result.",
+      "evidence": "V01–V08",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q15",
+      "finding": "Panels are generally placed beside speakers, though trees and strong backlight compete with thin pale UI details in some views.",
+      "evidence": "V01,V04,V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q16",
+      "finding": "The film spends substantial time on infrastructure and team history; the core mechanism receives a brief abstract checklist.",
+      "evidence": "V04–V07",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q17",
+      "finding": "The access problem is answered by a proposed workflow conversion and managed execution layer, not a complete demonstrated business action.",
+      "evidence": "V02–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q18",
+      "finding": "Outdoor founder presence and simplified diagrams suggest approachability and confidence; response is unmeasured.",
+      "evidence": "V01–V08",
+      "status": "uncertain",
+      "reason": "Interpretation of presentation.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q19",
+      "finding": "The same brand mark, cream cards and legacy-system framing connect the sections, but no single record or task persists through the process.",
+      "evidence": "V01–V08",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q20",
+      "finding": "Reliability, request volume, customer revenue and broad system support are film claims. The table and diagrams do not establish measured performance or actual generated-call behavior.",
+      "evidence": "V04–V07",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q21",
+      "finding": "The explicit legacy-system categories and infrastructure responsibilities are more specific than the central-agent diagram alone.",
+      "evidence": "V02,V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q22",
+      "finding": "Replace some founder history with a complete small workflow.",
+      "evidence": "V04,V07",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "Show a user updating one permitted record, the generated call sequence and the matching saved record after execution."
+    },
+    {
+      "id": "Q23",
+      "finding": "For Tin, explain integrations through one visible state change.",
+      "evidence": "V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "Show an approved campaign asset moving into a connected system with its identifier and resulting status."
+    },
+    {
+      "id": "Q24",
+      "finding": "No human new-viewer test was performed.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "The product summary is this model’s film-only reading.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q25",
+      "finding": "Mobile preview and accessibility checks were not performed.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "Contact sheets are evidence views, not a stated mobile preview or compliance test.",
+      "experiment": "none"
+    }
+  ],
+  "elements": [
+    {
+      "kind": "ui",
+      "name": "request log table",
+      "events": [
+        "V06"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "workflow checklist",
+      "events": [
+        "V04"
+      ]
+    },
+    {
+      "kind": "motion",
+      "name": "agent integration diagram",
+      "events": [
+        "V01",
+        "V02",
+        "V03"
+      ]
+    },
+    {
+      "kind": "motion",
+      "name": "infrastructure feature cards",
+      "events": [
+        "V05"
+      ]
+    },
+    {
+      "kind": "texture",
+      "name": "outdoor founder footage",
+      "events": [
+        "V01",
+        "V02",
+        "V03",
+        "V04",
+        "V05",
+        "V06",
+        "V07",
+        "V08"
+      ]
+    }
+  ],
+  "lessons": {
+    "keep": "Name the legacy systems and infrastructure tasks explicitly.",
+    "try": [
+      "Demonstrate one permitted record update, generated calls and saved result.",
+      "For Tin, trace one approved asset into a connected system with its identifier and status."
+    ],
+    "avoid": "Explaining the central mechanism only through a generic checklist.",
+    "open": "Generated-call behavior, supported systems, reliability, scale, customer claims and audio remain unverified."
+  },
+  "comparison": {
+    "story": "Legacy access problem → workflow conversion → managed infrastructure → credibility.",
+    "motion": "Cards, diagrams, checklist and table beside founders.",
+    "sound": "Coherent technical ASR with errors; no listening.",
+    "texture": "Coastal trees and muted cream/olive graphics.",
+    "lesson": "Infrastructure responsibility is clear when named, but a record-level example explains the result."
+  },
+  "reviewer_model": "gpt-6-astra",
+  "scope": "sampled visual and story review; ASR and measured signal support; no validated audio listening",
+  "viewed_evidence": [
+    "technical-review-2026-10-19/deep-review/motion/297/timeline-00.jpg",
+    "technical-review-2026-10-19/deep-review/motion/297/timeline-01.jpg",
+    "technical-review-2026-10-19/deep-review/motion/297/timeline-02.jpg",
+    "technical-review-2026-10-19/deep-review/motion/297/timeline-03.jpg"
+  ],
+  "closer_windows": []
+}

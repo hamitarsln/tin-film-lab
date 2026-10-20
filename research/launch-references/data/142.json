@@ -1,0 +1,351 @@
+{
+  "id": 142,
+  "reviewer_model": "gpt-6-astra",
+  "scope": "sampled visual and story review; ASR and measured signal support; no validated audio listening",
+  "viewed_evidence": [
+    "technical-review-2026-10-19/deep-review/motion/142/timeline-00.jpg",
+    "technical-review-2026-10-19/deep-review/motion/142/timeline-01.jpg",
+    "technical-review-2026-10-19/deep-review/motion/142/timeline-02.jpg",
+    "technical-review-2026-10-19/deep-review/motion/142/timeline-03.jpg",
+    "technical-review-2026-10-19/deep-review/audio/142-speech.json"
+  ],
+  "closer_windows": [],
+  "product_from_film": "An archival tribute presents SpaceX through a founder’s persistence, failed launches and later achievement.",
+  "explains_well": "Failure footage, quiet reaction shots and celebrations give the perseverance story a clear visual arc.",
+  "unclear": "The edit provides no dated chronology or independent context for its selected interview claims.",
+  "product_type": "archival brand tribute",
+  "scenario": "Follow a rocket-company founder through setbacks and launches.",
+  "product_clear_time": null,
+  "product_clear_basis": "This is a tribute narrative, not a user-facing product demonstration.",
+  "scenes": [
+    {
+      "id": "V01",
+      "start": 0,
+      "end": 9,
+      "action": "An old television displays Elon Musk interview footage, with a small disclaimer beneath the screen, then the image fills more of the frame.",
+      "design": "CRT frame, grain, dark surround and soft color fringes.",
+      "purpose": "Introduce a retrospective voice and subject.",
+      "evidence": "Visible chronological 1 fps samples, source 0–9s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V02",
+      "start": 9,
+      "end": 28,
+      "action": "A dusk launch image leads to younger interview clips, factory conversations and serious closeups.",
+      "design": "Archival montage with varied ages and camera sources.",
+      "purpose": "Establish ambition and skepticism.",
+      "evidence": "Visible chronological 1 fps samples, source 9–28s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V03",
+      "start": 28,
+      "end": 40,
+      "action": "Rocket and ocean/explosion footage appears in changing small frames, separated by black sampled states.",
+      "design": "Floating footage windows, dark negative space and glow.",
+      "purpose": "Present setbacks and interruption.",
+      "evidence": "Visible chronological 1 fps samples, source 28–40s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V04",
+      "start": 40,
+      "end": 56,
+      "action": "A person at a desk holds his head; interviews and control-room attention follow, including a question-and-answer interview setup.",
+      "design": "Close human reactions and quieter compositions.",
+      "purpose": "Give the setbacks personal weight.",
+      "evidence": "Visible chronological 1 fps samples, source 40–56s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V05",
+      "start": 56,
+      "end": 69,
+      "action": "People look upward, a younger portrait appears, a rocket launches and crowds celebrate and embrace.",
+      "design": "Dark-to-bright archival launch footage and reaction shots.",
+      "purpose": "Show persistence reaching an achievement.",
+      "evidence": "Visible chronological 1 fps samples, source 56–69s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V06",
+      "start": 69,
+      "end": 84,
+      "action": "A business interview alternates with rocket, machinery and server footage, then a large launch and delighted reactions. A later Musk address follows.",
+      "design": "Fast technology montage and large-scale launch imagery.",
+      "purpose": "Broaden the story toward future ambition.",
+      "evidence": "Visible chronological 1 fps samples, source 69–84s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V07",
+      "start": 84,
+      "end": 93.973,
+      "action": "The dusk launch returns, then a television-framed interview exchange and black.",
+      "design": "Bookending launch and CRT motifs.",
+      "purpose": "Close with a human interview coda.",
+      "evidence": "Visible chronological 1 fps samples, source 84–93.973s; boundary approximate; exact motion between samples unverified."
+    }
+  ],
+  "sound": [
+    {
+      "id": "A01",
+      "start": 0,
+      "end": 93.973,
+      "layer": "unknown",
+      "detail": "No validated direct audio listening was performed. Music, speech delivery, effects, mix and sync remain unknown, not absent.",
+      "visual_relation": "All visual scenes; audiovisual alignment unverified",
+      "evidence": "Visual samples only; no actual audio range supplied to this reviewer."
+    },
+    {
+      "id": "A02",
+      "start": 0.17,
+      "end": 92.41,
+      "layer": "ASR draft",
+      "detail": "ASR draft supplies a perseverance arc: opposition to starting a rocket company, failed launches, financial strain, refusal to give up, later success and wider spaceflight ambitions. Several phrases are malformed or contradictory, so exact quotes and historical details are not relied on. The candidate script aligns broadly with failure and celebration imagery; voices, music and sync remain unheard.",
+      "visual_relation": "Story text support; exact audiovisual alignment and delivery unverified.",
+      "evidence": "technical-review-2026-10-19/deep-review/audio/142-speech.json; local faster-whisper base CPU int8 draft; VAD candidates only, recognition errors possible."
+    }
+  ],
+  "categories": [
+    {
+      "id": "Q01",
+      "finding": "Ambition and skepticism move through failure, strain, persistence, celebration and future-facing ambition.",
+      "evidence": "V01–V07",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q02",
+      "finding": "A television-framed founder interview gives the opening an archival, reflective tone.",
+      "evidence": "V01",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q03",
+      "finding": "Spaceflight is clear from rockets, but no user task or offering is introduced.",
+      "evidence": "V02,V03,V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q04",
+      "finding": "Footage windows change size and position among black states; launches and reactions provide the main motion. Exact edit timing is unverified.",
+      "evidence": "V03,V05,V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q05",
+      "finding": "The repeated dusk launch and CRT frame bookend the montage.",
+      "evidence": "V01,V02,V07",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q06",
+      "finding": "Grain, soft edges, color fringes and varied source quality unify the retrospective treatment.",
+      "evidence": "V01–V07",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q07",
+      "finding": "There is little large explanatory text; the opening disclaimer is too small for full reading at contact-sheet size.",
+      "evidence": "V01",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q08",
+      "finding": "ASR draft supplies a perseverance arc: opposition to starting a rocket company, failed launches, financial strain, refusal to give up, later success and wider spaceflight ambitions. Several phrases are malformed or contradictory, so exact quotes and historical details are not relied on. The candidate script aligns broadly with failure and celebration imagery; voices, music and sync remain unheard.",
+      "evidence": "A02",
+      "status": "uncertain",
+      "reason": "ASR text only; no validated listening, delivery or voice origin.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q09",
+      "finding": "Voice delivery, music, effects and audiovisual alignment were not established by this visual pass.",
+      "evidence": "A01",
+      "status": "not checked",
+      "reason": "No validated direct audio listening input.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q10",
+      "finding": "Voice delivery, music, effects and audiovisual alignment were not established by this visual pass.",
+      "evidence": "A01",
+      "status": "not checked",
+      "reason": "No validated direct audio listening input.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q11",
+      "finding": "Voice delivery, music, effects and audiovisual alignment were not established by this visual pass.",
+      "evidence": "A01",
+      "status": "not checked",
+      "reason": "No validated direct audio listening input.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q12",
+      "finding": "Interview, news, launch and control-room archival material is assembled; source dates and rights are not established.",
+      "evidence": "V01–V07",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q13",
+      "finding": "Manifest duration 93.973 s; indexed dimensions 1920×1080. Source unchanged flag recorded; fresh encoding and audio clipping checks not run.",
+      "evidence": "Group manifest",
+      "status": "uncertain",
+      "reason": "Inherited technical metadata; no fresh media probe in this review.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q14",
+      "finding": "Setbacks and celebration can be inferred visually, but exact argument depends strongly on unheard interviews; ASR is draft support.",
+      "evidence": "V02–V06,A02",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q15",
+      "finding": "Faces give scale and emotion between wide launches; isolated small footage windows heighten the setback section.",
+      "evidence": "V03–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q16",
+      "finding": "The 94 s edit has a distinct darker middle before an extended achievement-and-ambition section.",
+      "evidence": "V03–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q17",
+      "finding": "Early launch failure imagery pays off with later liftoff and human celebration.",
+      "evidence": "V03,V05,V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q18",
+      "finding": "The selection frames persistence as heroic and emotionally costly; this is editorial framing, not a full historical assessment.",
+      "evidence": "V03–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q19",
+      "finding": "Archival screen texture and repeated interviews maintain continuity across many years of footage.",
+      "evidence": "V01–V07",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q20",
+      "finding": "Launch and reaction clips show events within the edit, but dates, sequence and broader historical claims are not verified.",
+      "evidence": "V02–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q21",
+      "finding": "The identity centers on SpaceX and its founder’s story rather than a new feature or CTA.",
+      "evidence": "V01–V07",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q22",
+      "finding": "A few dated labels would make the progression more accountable and easier to follow without dialogue.",
+      "evidence": "V02–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q23",
+      "finding": "Tin can borrow the setback-to-recovery structure only with its own documented customer problem and real outcome.",
+      "evidence": "V03–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q24",
+      "finding": "An archival tribute presents SpaceX through a founder’s persistence, failed launches and later achievement.",
+      "evidence": "Model reading from inspected images",
+      "status": "uncertain",
+      "reason": "Model-only new-viewer interpretation; no human test.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q25",
+      "finding": "Contact sheets inspected at displayed size; a phone-size playback, caption audit, flash audit and formal accessibility check were not performed.",
+      "evidence": "Viewed sheets",
+      "status": "not checked",
+      "reason": "Full-size moving-image and device checks unavailable in this pass.",
+      "experiment": "none"
+    }
+  ],
+  "lessons": {
+    "keep": "Show the difficulty before the achievement, using real human reactions.",
+    "avoid": "Avoid presenting a selective archival montage as complete historical proof.",
+    "open": "Historical chronology, interview accuracy, source rights, disclaimer text and audio delivery remain unverified.",
+    "try": [
+      "Build a Tin customer story around one failed campaign, the specific correction and a dated outcome.",
+      "Use repeated framing to bookend a short company story, with clear dates on evidence clips."
+    ]
+  },
+  "comparison": {
+    "story": "Introduce a retrospective voice and subject. → Establish ambition and skepticism. → Present setbacks and interruption. → Give the setbacks personal weight. → Show persistence reaching an achievement. → Broaden the story toward future ambition. → Close with a human interview coda.",
+    "motion": "Footage windows change size and position among black states; launches and reactions provide the main motion. Exact edit timing is unverified. Sampling scope: 1 fps unless a closer window is recorded.",
+    "sound": "No validated listening; unknown.",
+    "texture": "CRT frame, grain, dark surround and soft color fringes.; Archival montage with varied ages and camera sources.; Floating footage windows, dark negative space and glow.; Close human reactions and quieter compositions.; Dark-to-bright archival launch footage and reaction shots.; Fast technology montage and large-scale launch imagery.; Bookending launch and CRT motifs.",
+    "lesson": "Show the difficulty before the achievement, using real human reactions."
+  },
+  "elements": [
+    {
+      "kind": "texture",
+      "name": "CRT television",
+      "events": [
+        "V01",
+        "V07"
+      ]
+    },
+    {
+      "kind": "texture",
+      "name": "archival footage",
+      "events": [
+        "V02",
+        "V03",
+        "V04",
+        "V05",
+        "V06"
+      ]
+    },
+    {
+      "kind": "motion",
+      "name": "floating footage windows",
+      "events": [
+        "V03"
+      ]
+    }
+  ]
+}

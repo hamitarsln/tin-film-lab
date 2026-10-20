@@ -1,0 +1,335 @@
+{
+  "id": 487,
+  "reviewer_model": "gpt-6-astra",
+  "scope": "sampled visual and story review; ASR and measured signal support; no validated audio listening",
+  "viewed_evidence": [
+    "technical-review-2026-10-19/deep-review/motion/487/timeline-00.jpg",
+    "technical-review-2026-10-19/deep-review/motion/487/timeline-01.jpg",
+    "technical-review-2026-10-19/deep-review/audio/487-speech.json"
+  ],
+  "closer_windows": [],
+  "product_from_film": "Cluely announces a $15 million round through a dramatized founder-origin story.",
+  "explains_well": "The move from an institutional hearing to a crowded working table gives the funding reveal a clear reversal.",
+  "unclear": "The film explains the founder’s provocative positioning but never shows what the current product does for a user.",
+  "product_type": "founder story and funding announcement",
+  "scenario": "Tell an origin story and reveal investment.",
+  "product_clear_time": null,
+  "product_clear_basis": "Text names an AI tool, but no specific current workflow is demonstrated.",
+  "scenes": [
+    {
+      "id": "V01",
+      "start": 0,
+      "end": 6,
+      "action": "Cluely overlays a person writing formulas on glass. Text says Roy Lee created Interview Coder in February 2025 and describes its interview use.",
+      "design": "Dim cinematic room, handwritten equations and white narrative text.",
+      "purpose": "Introduce the founder and disputed origin.",
+      "evidence": "Visible chronological 1 fps samples, source 0–6s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V02",
+      "start": 6,
+      "end": 18,
+      "action": "A table-level view reveals a formal hearing. Text claims expulsion from Columbia, and the central figure stands and speaks to the panel.",
+      "design": "Muted green light, formal seating and close reaction views.",
+      "purpose": "Create institutional conflict.",
+      "evidence": "Visible chronological 1 fps samples, source 6–18s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V03",
+      "start": 18,
+      "end": 34,
+      "action": "The setting changes to a crowded room with people around laptops. Text says he started Cluely a month later; greetings and handshakes follow.",
+      "design": "Warm low light, busy table and informal group energy.",
+      "purpose": "Show a new venture and social support.",
+      "evidence": "Visible chronological 1 fps samples, source 18–34s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V04",
+      "start": 34,
+      "end": 39,
+      "action": "Cluely x a16z and $15 Million appear large over the working table.",
+      "design": "Large white funding text over the group scene.",
+      "purpose": "Reveal the investment as the story payoff.",
+      "evidence": "Visible chronological 1 fps samples, source 34–39s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V05",
+      "start": 39,
+      "end": 42.709,
+      "action": "A black card builds from today it is cheating to tomorrow it is fair, then fades dark.",
+      "design": "Small white centered statement.",
+      "purpose": "End with the brand’s provocative position.",
+      "evidence": "Visible chronological 1 fps samples, source 39–42.709s; boundary approximate; exact motion between samples unverified."
+    }
+  ],
+  "sound": [
+    {
+      "id": "A01",
+      "start": 0,
+      "end": 42.709,
+      "layer": "unknown",
+      "detail": "No validated direct audio listening was performed. Music, speech delivery, effects, mix and sync remain unknown, not absent.",
+      "visual_relation": "All visual scenes; audiovisual alignment unverified",
+      "evidence": "Visual samples only; no actual audio range supplied to this reviewer."
+    },
+    {
+      "id": "A02",
+      "start": 4.77,
+      "end": 18.07,
+      "layer": "ASR draft",
+      "detail": "The coherent hearing portion of the ASR draft contains an academic-integrity accusation and a reply that the behavior will not be considered cheating in two years. Later fragments are weak and are not used as a reliable script. The exchange is treated as dramatized film content, not verified history.",
+      "visual_relation": "Story text support; exact audiovisual alignment and delivery unverified.",
+      "evidence": "technical-review-2026-10-19/deep-review/audio/487-speech.json; local faster-whisper base CPU int8 draft; VAD candidates only, recognition errors possible."
+    }
+  ],
+  "categories": [
+    {
+      "id": "Q01",
+      "finding": "A founder creates a tool, faces a hearing, starts a venture and gains investment before a provocative closing line.",
+      "evidence": "V01–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q02",
+      "finding": "Formula writing and the large brand name introduce a clever-founder image before the conflict.",
+      "evidence": "V01",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q03",
+      "finding": "Startup and AI-culture viewers are the implied audience. The actual present-day user task remains unspecified.",
+      "evidence": "V01–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q04",
+      "finding": "A low table view reveals the hearing, reaction close-ups cut to a crowded laptop room, and large funding text appears before a two-stage closing sentence.",
+      "evidence": "V02–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q05",
+      "finding": "The formal hearing and informal working table provide a clear visual reversal from exclusion to support.",
+      "evidence": "V02,V03",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q06",
+      "finding": "Dim green and warm lighting, handwritten glass and crowded laptop surfaces give the story a cinematic startup texture.",
+      "evidence": "V01–V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q07",
+      "finding": "The funding amount is prominent; earlier narrative text is smaller and competes with faces and dark scenes.",
+      "evidence": "V01–V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q08",
+      "finding": "The coherent hearing portion of the ASR draft contains an academic-integrity accusation and a reply that the behavior will not be considered cheating in two years. Later fragments are weak and are not used as a reliable script. The exchange is treated as dramatized film content, not verified history.",
+      "evidence": "A02",
+      "status": "uncertain",
+      "reason": "ASR text only; no validated listening, delivery or voice origin.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q09",
+      "finding": "Voice delivery, music, effects and audiovisual alignment were not established by this visual pass.",
+      "evidence": "A01",
+      "status": "not checked",
+      "reason": "No validated direct audio listening input.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q10",
+      "finding": "Voice delivery, music, effects and audiovisual alignment were not established by this visual pass.",
+      "evidence": "A01",
+      "status": "not checked",
+      "reason": "No validated direct audio listening input.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q11",
+      "finding": "Voice delivery, music, effects and audiovisual alignment were not established by this visual pass.",
+      "evidence": "A01",
+      "status": "not checked",
+      "reason": "No validated direct audio listening input.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q12",
+      "finding": "Dramatized hearing footage, founder and group scenes, narrative captions and funding graphics are visible. Historical accuracy and production provenance are unverified.",
+      "evidence": "V01–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q13",
+      "finding": "Manifest duration 42.709s; indexed dimensions 1920×1080. Source unchanged flag recorded; fresh encoding and audio clipping checks not run.",
+      "evidence": "Group manifest",
+      "status": "uncertain",
+      "reason": "Inherited technical metadata; no fresh media probe in this review.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q14",
+      "finding": "On-screen narrative text carries the origin story, while the ASR draft supports the hearing exchange. Neither provides a current product demo.",
+      "evidence": "V01–V03",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q15",
+      "finding": "Faces and the central founder organize the scenes, then the large amount takes over attention.",
+      "evidence": "V02–V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q16",
+      "finding": "The conflict occupies the first half, the group scene supplies the reversal, and the funding reveal is held briefly near the end.",
+      "evidence": "V01–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q17",
+      "finding": "The central figure links the hearing to the later team gathering, keeping the personal story continuous.",
+      "evidence": "V02,V03",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q18",
+      "finding": "Formal opposition followed by a supportive crowd suggests defiance and momentum. Heard delivery and music remain unknown.",
+      "evidence": "V02–V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q19",
+      "finding": "Laptops establish a working setting but do not show a readable product action or result.",
+      "evidence": "V03",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q20",
+      "finding": "Expulsion, job offers, chronology and funding are claims made by the film. The scenes do not independently verify those events.",
+      "evidence": "V01–V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q21",
+      "finding": "Cluely opens the film, returns in the origin text and appears beside a16z in the funding reveal.",
+      "evidence": "V01,V03,V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q22",
+      "finding": "Add one brief present-day task and result after the new-company line so viewers understand what the investment supports.",
+      "evidence": "V03",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q23",
+      "finding": "Use a change in social setting to make a founder-story reversal visible.",
+      "evidence": "V02,V03",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q24",
+      "finding": "Cluely announces a $15 million round through a dramatized founder-origin story.",
+      "evidence": "Model reading from inspected images",
+      "status": "uncertain",
+      "reason": "Model-only new-viewer interpretation; no human test.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q25",
+      "finding": "Contact sheets inspected at displayed size; a phone-size playback, caption audit, flash audit and formal accessibility check were not performed.",
+      "evidence": "Viewed sheets",
+      "status": "not checked",
+      "reason": "Full-size moving-image and device checks unavailable in this pass.",
+      "experiment": "none"
+    }
+  ],
+  "lessons": {
+    "keep": "Express a story reversal through the change from a formal panel to a collaborative table.",
+    "avoid": "Treating a founder controversy as a substitute for the product’s useful action.",
+    "open": "Historical claims, investment details, current workflow and audio remain unverified.",
+    "try": [
+      "For Tin, contrast a stalled approval meeting with the same team reviewing a clear campaign result.",
+      "Insert one current Cluely workflow before the funding card and compare product comprehension."
+    ]
+  },
+  "comparison": {
+    "story": "Introduce the founder and disputed origin. → Create institutional conflict. → Show a new venture and social support. → Reveal the investment as the story payoff. → End with the brand’s provocative position.",
+    "motion": "A low table view reveals the hearing, reaction close-ups cut to a crowded laptop room, and large funding text appears before a two-stage closing sentence. Sampling scope: 1 fps unless a closer window is recorded.",
+    "sound": "No validated listening; unknown.",
+    "texture": "Dim cinematic room, handwritten equations and white narrative text.; Muted green light, formal seating and close reaction views.; Warm low light, busy table and informal group energy.; Large white funding text over the group scene.; Small white centered statement.",
+    "lesson": "Express a story reversal through the change from a formal panel to a collaborative table."
+  },
+  "elements": [
+    {
+      "kind": "motion",
+      "name": "reaction cuts",
+      "events": [
+        "V02"
+      ]
+    },
+    {
+      "kind": "motion",
+      "name": "funding text reveal",
+      "events": [
+        "V04"
+      ]
+    },
+    {
+      "kind": "texture",
+      "name": "handwritten glass",
+      "events": [
+        "V01"
+      ]
+    },
+    {
+      "kind": "texture",
+      "name": "dim cinematic lighting",
+      "events": [
+        "V01",
+        "V02",
+        "V03"
+      ]
+    }
+  ]
+}

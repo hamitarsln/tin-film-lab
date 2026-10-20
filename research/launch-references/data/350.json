@@ -1,0 +1,364 @@
+{
+  "id": 350,
+  "reviewer_model": "gpt-6-astra",
+  "scope": "sampled visual and story review; ASR and measured signal support; no validated audio listening",
+  "viewed_evidence": [
+    "technical-review-2026-10-19/deep-review/motion/350/timeline-00.jpg",
+    "technical-review-2026-10-19/deep-review/motion/350/timeline-01.jpg",
+    "technical-review-2026-10-19/deep-review/motion/350/timeline-02.jpg",
+    "technical-review-2026-10-19/deep-review/motion/350/timeline-03.jpg",
+    "technical-review-2026-10-19/deep-review/audio/350-speech.json"
+  ],
+  "closer_windows": [],
+  "product_from_film": "RoboDock presents robotic charging and inspection for autonomous-vehicle depots.",
+  "explains_well": "A labelled real demo follows a red car through parking, inspection, port detection, charging and departure.",
+  "unclear": "The polished depot sequence and brief real demo do not show how failed checks or difficult charging cases are handled.",
+  "product_type": "robotic fleet operations",
+  "scenario": "Charge and inspect a vehicle before returning it to service.",
+  "product_clear_time": 41,
+  "product_clear_basis": "A robot arm approaches the charge port after the RoboDock depot introduction.",
+  "scenes": [
+    {
+      "id": "V01",
+      "start": 0,
+      "end": 14,
+      "action": "RoboDock logo gives way to autonomous cars on roads and passengers entering vehicles, then a depot view and Still completely manual text.",
+      "design": "Dark title cards alternate with road and passenger footage.",
+      "purpose": "Set up the contrast between autonomous driving and manual depot work.",
+      "evidence": "Visible chronological 1 fps samples, source 0–14s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V02",
+      "start": 14,
+      "end": 29,
+      "action": "Depot workers charge and inspect cars. Many small work images surround Thousands of manual actions, and a dollar counter rises to $5,300,000 per year before large fleet rows appear.",
+      "design": "Worker montage, expanding image grid and large cost text.",
+      "purpose": "Build the scale and cost problem; the calculation is not supplied.",
+      "evidence": "Visible chronological 1 fps samples, source 14–29s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V03",
+      "start": 29,
+      "end": 41,
+      "action": "This is RoboDock overlays charging bays. A car passes an entrance barrier, drives through the depot and appears in a framed license-plate recognition view.",
+      "design": "Polished depot imagery and recognition overlay.",
+      "purpose": "Introduce arrival and vehicle identification.",
+      "evidence": "Visible chronological 1 fps samples, source 29–41s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V04",
+      "start": 41,
+      "end": 60,
+      "action": "A robot arm approaches the open charge port. A port close-up adds a detection box. Thermal-style overlays cover wheel and vehicle areas as a status checklist changes from pending to verified, charge percentage rises and Ready to deploy appears before the car leaves.",
+      "design": "Rendered-looking car imagery, thermal colors and compact status panel.",
+      "purpose": "Explain the proposed charging and inspection flow; imagery provenance is not established.",
+      "evidence": "Visible chronological 1 fps samples, source 41–60s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V05",
+      "start": 60,
+      "end": 70,
+      "action": "Rows of charging arms accompany learning claims, then two named founders speak in a parking garage.",
+      "design": "Repeated hardware rows, black title card and yellow founder name strips.",
+      "purpose": "Connect the broad vision to the team.",
+      "evidence": "Visible chronological 1 fps samples, source 60–70s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V06",
+      "start": 70,
+      "end": 83,
+      "action": "REAL DEMO labels a red car parking beside equipment, sensor and camera checks, a thermal image, an arm moving toward the port, a port-detection inset and the car display showing charging. The arm then withdraws and the car leaves.",
+      "design": "Garage footage with step captions and a detection inset.",
+      "purpose": "Show a concrete sequence supporting the charging workflow, with time compressed.",
+      "evidence": "Visible chronological 1 fps samples, source 70–83s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V07",
+      "start": 83,
+      "end": 96.763,
+      "action": "Compatibility claims accumulate for any vehicle, charger and fleet system. Cost and uptime benefits appear, followed by At scale, the RoboDock logo and robodock.tech.",
+      "design": "Dark geometric cards and a final small website field.",
+      "purpose": "Summarize the offer and invite further reading.",
+      "evidence": "Visible chronological 1 fps samples, source 83–96.763s; boundary approximate; exact motion between samples unverified."
+    }
+  ],
+  "sound": [
+    {
+      "id": "A01",
+      "start": 0,
+      "end": 96.763,
+      "layer": "unknown",
+      "detail": "No validated direct audio listening was performed. Music, speech delivery, effects, mix and sync remain unknown, not absent.",
+      "visual_relation": "All visual scenes; audiovisual alignment unverified",
+      "evidence": "Visual samples only; no actual audio range supplied to this reviewer."
+    },
+    {
+      "id": "A02",
+      "start": 1.46,
+      "end": 93.49,
+      "layer": "ASR draft",
+      "detail": "The coherent ASR draft frames manual depot work as a scaling problem, describes RoboDock identification, charging and vision/thermal checks, then claims co-development and a drop-in upgrade. Brand recognition has errors. Script claims do not establish performance, heard delivery or sound design.",
+      "visual_relation": "Story text support; exact audiovisual alignment and delivery unverified.",
+      "evidence": "technical-review-2026-10-19/deep-review/audio/350-speech.json; local faster-whisper base CPU int8 draft; VAD candidates only, recognition errors possible."
+    }
+  ],
+  "categories": [
+    {
+      "id": "Q01",
+      "finding": "Manual depot work and cost lead to a polished proposed workflow, founders, a labelled real demo and compatibility claims.",
+      "evidence": "V01–V07",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q02",
+      "finding": "The opening challenges the idea that autonomous vehicles are still in the future, then exposes the manual depot work.",
+      "evidence": "V01,V02",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q03",
+      "finding": "Charging and inspection become concrete when the arm and status panel appear; the real demo arrives at 70 s.",
+      "evidence": "V04,V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q04",
+      "finding": "Work thumbnails multiply around the cost claim, the dollar counter rises, detection boxes and thermal overlays appear, checklist states advance and the real robot arm approaches and withdraws from the charge port.",
+      "evidence": "V02,V04,V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q05",
+      "finding": "The real demo repeats the arrival-to-departure order of the earlier polished sequence, helping connect the concept to physical hardware.",
+      "evidence": "V03,V04,V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q06",
+      "finding": "Black cards and yellow accents frame bright vehicle imagery; thermal colors mark inspection areas.",
+      "evidence": "V02,V04,V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q07",
+      "finding": "Large problem statements are readable, while the status panel and final URL are smaller. Real-demo step captions help explain the hardware views.",
+      "evidence": "V02,V04,V06,V07",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q08",
+      "finding": "The coherent ASR draft frames manual depot work as a scaling problem, describes RoboDock identification, charging and vision/thermal checks, then claims co-development and a drop-in upgrade. Brand recognition has errors. Script claims do not establish performance, heard delivery or sound design.",
+      "evidence": "A02",
+      "status": "uncertain",
+      "reason": "ASR text only; no validated listening, delivery or voice origin.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q09",
+      "finding": "Voice delivery, music, effects and audiovisual alignment were not established by this visual pass.",
+      "evidence": "A01",
+      "status": "not checked",
+      "reason": "No validated direct audio listening input.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q10",
+      "finding": "Voice delivery, music, effects and audiovisual alignment were not established by this visual pass.",
+      "evidence": "A01",
+      "status": "not checked",
+      "reason": "No validated direct audio listening input.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q11",
+      "finding": "Voice delivery, music, effects and audiovisual alignment were not established by this visual pass.",
+      "evidence": "A01",
+      "status": "not checked",
+      "reason": "No validated direct audio listening input.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q12",
+      "finding": "Road footage, polished depot visuals, thermal imagery, graphics and garage demonstration footage are combined. Production tools and image provenance are unknown.",
+      "evidence": "V01–V07",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q13",
+      "finding": "Manifest duration 96.763s; indexed dimensions 1920×1080. Source unchanged flag recorded; fresh encoding and audio clipping checks not run.",
+      "evidence": "Group manifest",
+      "status": "uncertain",
+      "reason": "Inherited technical metadata; no fresh media probe in this review.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q14",
+      "finding": "Visible labels explain the main task and the real-demo steps even without validated audio.",
+      "evidence": "V04,V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q15",
+      "finding": "The early montage establishes scale; close views of the port and robot provide the most specific mechanism detail.",
+      "evidence": "V02,V04,V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q16",
+      "finding": "The film spends about 29 s on the problem, then explains the system before giving the real demo about 13 s.",
+      "evidence": "V01–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q17",
+      "finding": "The charging display and port-detection inset strengthen the physical demo, but captions compress the inspection and charge cycle rather than documenting duration.",
+      "evidence": "V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q18",
+      "finding": "The repeated robot rows and large fleet shots position the system as infrastructure at scale; this is a visual reading.",
+      "evidence": "V02,V05,V07",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q19",
+      "finding": "The earlier checklist reaches Ready to deploy, while the real footage gives shorter step labels. No failed-check branch or detailed result record is shown.",
+      "evidence": "V04,V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q20",
+      "finding": "The $5.3 million cost, broad compatibility, inspection accuracy and operational savings lack visible test conditions or calculations. The real demo is evidence of a shown sequence, not all claimed cases.",
+      "evidence": "V02,V06,V07",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q21",
+      "finding": "Repeating the same workflow first as an explanation and then as a labelled real demo is the strongest reusable structure.",
+      "evidence": "V03,V04,V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q22",
+      "finding": "Bring the real demo earlier, show a clear charge-state receipt and add one example of a failed inspection preventing departure.",
+      "evidence": "V04,V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q23",
+      "finding": "Tin can pair a simple workflow explanation with a clearly labelled recording of the same steps and final state.",
+      "evidence": "V04,V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q24",
+      "finding": "RoboDock presents robotic charging and inspection for autonomous-vehicle depots.",
+      "evidence": "Model reading from inspected images",
+      "status": "uncertain",
+      "reason": "Model-only new-viewer interpretation; no human test.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q25",
+      "finding": "Contact sheets inspected at displayed size; a phone-size playback, caption audit, flash audit and formal accessibility check were not performed.",
+      "evidence": "Viewed sheets",
+      "status": "not checked",
+      "reason": "Full-size moving-image and device checks unavailable in this pass.",
+      "experiment": "none"
+    }
+  ],
+  "lessons": {
+    "keep": "Repeat the proposed workflow in a labelled real demonstration.",
+    "avoid": "Avoid letting broad compatibility claims outrun the cases actually shown.",
+    "open": "Cost basis, inspection accuracy, compatibility range, charge duration, image provenance and audio properties remain unverified.",
+    "try": [
+      "For Tin, place a short real run immediately after the animated workflow overview.",
+      "Show one failed check and the resulting blocked action beside the successful path."
+    ]
+  },
+  "comparison": {
+    "story": "Set up the contrast between autonomous driving and manual depot work. → Build the scale and cost problem; the calculation is not supplied. → Introduce arrival and vehicle identification. → Explain the proposed charging and inspection flow; imagery provenance is not established. → Connect the broad vision to the team. → Show a concrete sequence supporting the charging workflow, with time compressed. → Summarize the offer and invite further reading.",
+    "motion": "Work thumbnails multiply around the cost claim, the dollar counter rises, detection boxes and thermal overlays appear, checklist states advance and the real robot arm approaches and withdraws from the charge port. Sampling scope: 1 fps unless a closer window is recorded.",
+    "sound": "No validated listening; unknown.",
+    "texture": "Dark title cards alternate with road and passenger footage.; Worker montage, expanding image grid and large cost text.; Polished depot imagery and recognition overlay.; Rendered-looking car imagery, thermal colors and compact status panel.; Repeated hardware rows, black title card and yellow founder name strips.; Garage footage with step captions and a detection inset.; Dark geometric cards and a final small website field.",
+    "lesson": "Repeat the proposed workflow in a labelled real demonstration."
+  },
+  "elements": [
+    {
+      "kind": "ui",
+      "name": "status checklist",
+      "events": [
+        "V04"
+      ]
+    },
+    {
+      "kind": "motion",
+      "name": "counter increases",
+      "events": [
+        "V02",
+        "V04"
+      ]
+    },
+    {
+      "kind": "motion",
+      "name": "robot arm approaches port",
+      "events": [
+        "V04",
+        "V06"
+      ]
+    },
+    {
+      "kind": "texture",
+      "name": "thermal image",
+      "events": [
+        "V04",
+        "V06"
+      ]
+    },
+    {
+      "kind": "texture",
+      "name": "garage footage",
+      "events": [
+        "V05",
+        "V06"
+      ]
+    }
+  ]
+}

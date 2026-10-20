@@ -1,0 +1,391 @@
+{
+  "id": 439,
+  "viewed_evidence": [
+    "technical-review-2026-10-19/deep-review/motion/439/timeline-00.jpg",
+    "technical-review-2026-10-19/deep-review/motion/439/timeline-01.jpg",
+    "technical-review-2026-10-19/deep-review/motion/439/timeline-02.jpg",
+    "astra-review-2026-10-20/evidence/group-3/439/dense58-62.jpg",
+    "technical-review-2026-10-19/deep-review/audio/439-speech.json"
+  ],
+  "product_from_film": "Solana presents crypto culture entering the world of traditional finance.",
+  "explains_well": "Familiar offices, portraits and the bull statue carry a consistent series of visual jokes.",
+  "unclear": "The film never names a concrete service or action for a viewer outside crypto culture.",
+  "product_type": "brand film",
+  "scenario": "Imagine Wall Street adopting Solana culture.",
+  "product_clear_time": 63,
+  "product_clear_basis": "Wall Street, meet Solana explicitly resolves the brand premise; earlier details mainly require cultural knowledge.",
+  "scenes": [
+    {
+      "start": 0,
+      "end": 4,
+      "action": "City view leads to Wall St sign.",
+      "design": "Cool urban buildings.",
+      "purpose": "Establish finance setting",
+      "id": "V01",
+      "evidence": "Visible 1 fps samples, source 0–4s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 4,
+      "end": 15,
+      "action": "Receptionist greets, types and reacts; keyboard close-ups alternate with face.",
+      "design": "Wood-paneled lobby and white keyboard.",
+      "purpose": "Introduce culture through greeting",
+      "id": "V02",
+      "evidence": "Visible 1 fps samples, source 4–15s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 15,
+      "end": 23,
+      "action": "Meeting room reveals suited penguin-headed participant among colleagues.",
+      "design": "Conventional office staging with surreal character.",
+      "purpose": "Disrupt corporate norm",
+      "id": "V03",
+      "evidence": "Visible 1 fps samples, source 15–23s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 23,
+      "end": 38,
+      "action": "Phones receive notices, trading floor workers shift to relaxed gaming-like posture and screens.",
+      "design": "Market charts, phones and beanbags.",
+      "purpose": "Mix trading and internet culture",
+      "id": "V04",
+      "evidence": "Visible 1 fps samples, source 23–38s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 38,
+      "end": 49,
+      "action": "Portrait corridor ends on Toly nameplate, then ticker mixes conventional and crypto-like symbols.",
+      "design": "Gold frames and financial ticker.",
+      "purpose": "Rewrite finance symbols",
+      "id": "V05",
+      "evidence": "Visible 1 fps samples, source 38–49s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 49,
+      "end": 59,
+      "action": "Toast, juice drinker, labeled binders and J.P. Morgan bust with glowing eyes.",
+      "design": "Luxury office objects with comic details.",
+      "purpose": "Extend visual jokes",
+      "id": "V06",
+      "evidence": "Visible 1 fps samples, source 49–59s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 59,
+      "end": 63,
+      "action": "Bull statue is revealed with green-purple visor; view widens then pushes close.",
+      "design": "Solana name on visor.",
+      "purpose": "Make visual brand payoff",
+      "id": "V07",
+      "evidence": "Visible 1 fps samples, source 59–63s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 63,
+      "end": 67,
+      "action": "Wall Street, meet Solana holds.",
+      "design": "White line over soft brand colors.",
+      "purpose": "State premise",
+      "id": "V08",
+      "evidence": "Visible 1 fps samples, source 63–67s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 67,
+      "end": 77,
+      "action": "Fictional-looking news presenter and Gainzy misclick headline deliver closing gag.",
+      "design": "Breaking News lower third and ticker.",
+      "purpose": "Add epilogue joke",
+      "id": "V09",
+      "evidence": "Visible 1 fps samples, source 67–77s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 77,
+      "end": 79.16,
+      "action": "Solana logo holds on black.",
+      "design": "Brand colors.",
+      "purpose": "Close",
+      "id": "V10",
+      "evidence": "Visible 1 fps samples, source 77–79.16s; boundaries approximate, between-frame action unresolved."
+    }
+  ],
+  "sound": [
+    {
+      "id": "A01",
+      "start": 0,
+      "end": 79.16,
+      "layer": "unknown",
+      "detail": "No validated audio listening; speech, music, effects, mix and sync remain unverified.",
+      "visual_relation": "All visual scenes; alignment not checked",
+      "evidence": "No actual audio supplied to this review; existing technical-review-2026-10-19/deep-review/audio/439.json is not listening evidence."
+    },
+    {
+      "id": "A02",
+      "start": 4.55,
+      "end": 73.86,
+      "layer": "ASR draft",
+      "detail": "Candidate Good morning/GM exchange supports greeting joke; final creator-market news reports a Gainzy accidental-click crash as a comic epilogue. Middle fragments such as us out we turn it about and The three are too weak to interpret. No vocal delivery or music inferred.",
+      "visual_relation": "V02/V09; partial script only.",
+      "evidence": "technical-review-2026-10-19/deep-review/audio/439-speech.json; existing faster-whisper base CPU int8"
+    }
+  ],
+  "categories": [
+    {
+      "finding": "An office-day montage gradually replaces finance conventions with crypto references; bull visor and title resolve the brand joke.",
+      "evidence": "V01–V10",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q01"
+    },
+    {
+      "finding": "City canyon establishes business district; Wall St sign follows around 2s. No product or benefit is stated.",
+      "evidence": "V01",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q02"
+    },
+    {
+      "finding": "Crypto and finance audiences are implied by references; explicit Solana premise arrives at 63s, with no user workflow.",
+      "evidence": "V05/V07/V08",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q03"
+    },
+    {
+      "finding": "Dense 58–62s cuts glowing-eyed bust to overhead bull, moves to frontal wider view revealing visor, holds, then pushes toward face.",
+      "evidence": "V06/V07; dense58-62.jpg",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q04"
+    },
+    {
+      "finding": "Office cuts build a sequence of familiar object then unexpected detail; portrait and ticker montages carry the same finance theme.",
+      "evidence": "V02–V07",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q05"
+    },
+    {
+      "finding": "Cool corporate interiors, dark wood and bronze/gold objects give the jokes a serious institutional setting.",
+      "evidence": "V02/V05/V06",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q06"
+    },
+    {
+      "finding": "Names, notifications and binder labels carry insider jokes; main premise text comes late and is much easier to read.",
+      "evidence": "V04–V08",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q07"
+    },
+    {
+      "finding": "Voice presence and delivery remain unverified.",
+      "evidence": "No validated audio listening",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q08"
+    },
+    {
+      "finding": "Music character and arc remain unverified.",
+      "evidence": "No validated audio listening",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q09"
+    },
+    {
+      "finding": "Sound effects remain unverified.",
+      "evidence": "No validated audio listening",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q10"
+    },
+    {
+      "finding": "Sound-to-motion timing remain unverified.",
+      "evidence": "No validated audio listening",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q11"
+    },
+    {
+      "finding": "Live-action-looking offices and city scenes combine with surreal character, glowing eyes and visor; exact asset origins unknown.",
+      "evidence": "V03/V06/V07",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q12"
+    },
+    {
+      "finding": "Source duration supplied as 79.16s; no independent compression, clipping or delivery check.",
+      "evidence": "Assigned metadata; source integrity checked by parent",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q13"
+    },
+    {
+      "finding": "Silent viewers can understand corporate culture being altered, but specific GM, creator-market and token jokes require context or dialogue.",
+      "evidence": "V02/V05/V09",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q14"
+    },
+    {
+      "finding": "Reaction faces and centered props guide focus; small notification and ticker text need closer viewing.",
+      "evidence": "V02/V04/V05",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q15"
+    },
+    {
+      "finding": "Many independent cultural references arrive quickly; viewers unfamiliar with them may receive mood without meaning.",
+      "evidence": "V03–V06",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q16"
+    },
+    {
+      "finding": "Wall Street opening pays off as a Solana-branded bull and explicit meet-Solana title.",
+      "evidence": "V01/V07/V08",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q17"
+    },
+    {
+      "finding": "Formal settings with absurd details appear intended to create playful disruption and community recognition.",
+      "evidence": "V03/V06/V07",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q18"
+    },
+    {
+      "finding": "Finance locations, suits, portraits and market displays unify unrelated jokes; no single user task is followed.",
+      "evidence": "V01–V09",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q19"
+    },
+    {
+      "finding": "This is brand positioning through a fictional-looking world, not evidence of adoption, financial returns or product functionality.",
+      "evidence": "V03–V09",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q20"
+    },
+    {
+      "finding": "Penguin character, Toly nameplate, token ticker and brand-colored visor create specific cultural cues; their meaning is not explained.",
+      "evidence": "V03/V05/V07",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q21"
+    },
+    {
+      "finding": "For a broader audience, add one plain sentence about what Solana enables before the title; the news epilogue mainly serves existing insiders.",
+      "evidence": "V08/V09",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q22"
+    },
+    {
+      "finding": "For Tin, alter one familiar marketing-room prop to dramatize a real benefit, then reveal the actual workflow. Need a clear visual setup and product payoff.",
+      "evidence": "V03/V07",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q23"
+    },
+    {
+      "finding": "No human new-viewer test; product description above is model interpretation of sampled images.",
+      "evidence": "V01–V10",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q24"
+    },
+    {
+      "finding": "No phone-size, safe-area or flash assessment; small UI text needs separate preview.",
+      "evidence": "Contact sheets",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q25"
+    }
+  ],
+  "lessons": {
+    "keep": "Make the brand reveal the answer to a repeated visual setup.",
+    "try": [
+      "Try a Tin office vignette where a cluttered campaign wall becomes a clearly organized live plan.",
+      "Try a familiar desk object with one unexpected behavior, followed immediately by the actual Tin feature."
+    ],
+    "avoid": "Avoid depending on many unexplained insider references when the audience is new.",
+    "open": "Audio delivery and cultural reception are unverified; the film does not establish a concrete financial service."
+  },
+  "comparison": {
+    "story": "Establish finance setting → Introduce culture through greeting → Disrupt corporate norm → Mix trading and internet culture → Rewrite finance symbols → Extend visual jokes → Make visual brand payoff → State premise → Add epilogue joke → Close",
+    "motion": "Dense 58–62s cuts glowing-eyed bust to overhead bull, moves to frontal wider view revealing visor, holds, then pushes toward face.",
+    "sound": "No validated listening; no absence claims.",
+    "texture": "Cool corporate interiors, dark wood and bronze/gold objects give the jokes a serious institutional setting.",
+    "lesson": "Make the brand reveal the answer to a repeated visual setup."
+  },
+  "elements": [
+    {
+      "kind": "ui",
+      "name": "notification",
+      "events": [
+        "V04"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "chart",
+      "events": [
+        "V04"
+      ]
+    },
+    {
+      "kind": "texture",
+      "name": "office footage",
+      "events": [
+        "V02",
+        "V03"
+      ]
+    },
+    {
+      "kind": "motion",
+      "name": "camera push-in",
+      "events": [
+        "V07"
+      ]
+    }
+  ],
+  "reviewer_model": "gpt-6-astra",
+  "scope": "sampled visual and story review; ASR and measured signal support; no validated audio listening",
+  "closer_windows": [
+    {
+      "start": 58,
+      "end": 62,
+      "rate_fps": 4,
+      "evidence": [
+        "astra-review-2026-10-20/evidence/group-3/439/dense58-62.jpg"
+      ],
+      "resolved": "Glowing bust cuts to overhead bull, frontal visor reveal, wider hold and push-in. Exact production method unknown."
+    }
+  ]
+}

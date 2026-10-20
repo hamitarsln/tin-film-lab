@@ -1,0 +1,360 @@
+{
+  "id": 464,
+  "product_from_film": "Oboe is presented as a way to learn through curiosity: topic prompts lead into illustrated subject explorations.",
+  "explains_well": "The story turns anxiety about AI into questions about intelligence, then nature and complex systems.",
+  "unclear": "The topic boxes are brief; the film does not clearly show what learning material the user receives or how they use it.",
+  "product_type": "Learning product",
+  "scenario": "Move from worry about AI to learning its history, animal intelligence and complex systems.",
+  "product_clear_time": 19,
+  "product_clear_basis": "A topic input appears over a sphere and leads into an AI-history sequence; the broader learning purpose is supported by the ASR.",
+  "scenes": [
+    {
+      "start": 0,
+      "end": 8,
+      "action": "A woman stands on a subway platform among moving commuters and trains; the view moves closer to her face.",
+      "design": "Cool urban colors and close portrait.",
+      "purpose": "Establish personal worry.",
+      "evidence": "1 fps source samples in 0–8s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V01"
+    },
+    {
+      "start": 8,
+      "end": 19,
+      "action": "Foggy crowds, monumental buildings, cubicles, television walls and wired people lead to figures in glass boxes; a sphere contains server imagery.",
+      "design": "Dark, desaturated imagined environments.",
+      "purpose": "Visualize loss of agency around technology.",
+      "evidence": "1 fps source samples in 8–19s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V02"
+    },
+    {
+      "start": 19,
+      "end": 32,
+      "action": "The Beginning of AI is entered in a white box over a sphere; computing machinery, a mathematician-like portrait, a computer and robot chess hand follow.",
+      "design": "Warm gradient surround, circular portal and small topic captions.",
+      "purpose": "Turn anxiety into a learning question.",
+      "evidence": "1 fps source samples in 19–32s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V03"
+    },
+    {
+      "start": 32,
+      "end": 43,
+      "action": "Forms of Intelligence in Nature is entered; octopuses appear in water and a maze, then return inside a sphere.",
+      "design": "Same prompt device with animal imagery.",
+      "purpose": "Follow curiosity into another subject.",
+      "evidence": "1 fps source samples in 32–43s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V04"
+    },
+    {
+      "start": 43,
+      "end": 50,
+      "action": "Complexity Theory is entered; fish, crowds, applause and snowflakes follow.",
+      "design": "Topic caption over varied full-frame examples.",
+      "purpose": "Illustrate patterns across systems.",
+      "evidence": "1 fps source samples in 43–50s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V05"
+    },
+    {
+      "start": 50,
+      "end": 60,
+      "action": "Branching roots, fine networks, a mushroom graphic, trees, soil creatures and forest views form a new sequence.",
+      "design": "Organic branching textures and earthy colors.",
+      "purpose": "Extend the learning chain into natural networks.",
+      "evidence": "1 fps source samples in 50–60s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V06"
+    },
+    {
+      "start": 60,
+      "end": 72,
+      "action": "Documents, construction, children, computers, classroom, city, spacecraft and Earth lead back to the woman smiling outside.",
+      "design": "Human activity montage and warmer final portrait.",
+      "purpose": "Return from abstract worry to an optimistic personal frame.",
+      "evidence": "1 fps source samples in 60–72s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V07"
+    },
+    {
+      "start": 72,
+      "end": 76.033,
+      "action": "Oboe wordmark changes its central character before settling on white.",
+      "design": "Black serif lettering and a small symbol.",
+      "purpose": "Reveal the brand.",
+      "evidence": "1 fps source samples in 72–76.033s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V08"
+    }
+  ],
+  "sound": [
+    {
+      "id": "A01",
+      "start": 0,
+      "end": 76.033,
+      "layer": "ASR script support",
+      "detail": "The draft follows a first-person worry about AI replacement into linked learning topics and a learning tagline. Its history/date wording appears unreliable and is not accepted as factual. No delivery, music, effects or synchronization were heard.",
+      "visual_relation": "V01–V08 follow the curiosity chain in the draft.",
+      "evidence": "Local 464-speech.json; coherent narrative role, uncertain factual wording."
+    }
+  ],
+  "categories": [
+    {
+      "id": "Q01",
+      "finding": "Anxiety → curiosity → linked subjects → hopeful return and brand.",
+      "evidence": "V01–V08",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q02",
+      "finding": "A worried commuter gives the abstract AI theme a human starting point.",
+      "evidence": "V01",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q03",
+      "finding": "Topic entry at 19s suggests learning; exact output format remains unclear.",
+      "evidence": "V03–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q04",
+      "finding": "The sphere frames changing imagery and topic boxes; full-frame examples replace it. Exact transition mechanics unverified.",
+      "evidence": "V03–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q05",
+      "finding": "Repeated topic entry bridges otherwise diverse subject montages.",
+      "evidence": "V03–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q06",
+      "finding": "Cold gray technological scenes give way to warm gradients and natural color.",
+      "evidence": "V02–V07",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q07",
+      "finding": "Topic names are readable; small captions are less prominent than the cinematic imagery.",
+      "evidence": "V03–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q08",
+      "finding": "ASR gives the first-person question chain and learning purpose; factual slips need source checking, and vocal delivery is unknown.",
+      "evidence": "A01",
+      "status": "uncertain",
+      "reason": "Narrative support from local draft only.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q09",
+      "finding": "Music character and structure are unverified.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "No validated listening.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q10",
+      "finding": "Effects and their sources are unverified.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "No validated listening; waveform peaks do not identify effects.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q11",
+      "finding": "Sound sync is unverified.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "No validated listening or paired audiovisual timing.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q12",
+      "finding": "Portraits, imagined environments, diagrams, nature and minimal prompt UI are visible; their production sources are unknown.",
+      "evidence": "V01–V08",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q13",
+      "finding": "Source duration 76.033 s; Watch metadata 1920 × 1080. Frame rate, audio clipping and export quality not checked here.",
+      "evidence": "Whole film",
+      "status": "supported",
+      "reason": "Parent source metadata supports duration and dimensions; visual review is sampled.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q14",
+      "finding": "Topic boxes show subject changes without sound, but the personal reasoning and product promise rely more on the script.",
+      "evidence": "V01–V07",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q15",
+      "finding": "The circular frame gives a stable point between full-frame scenes.",
+      "evidence": "V03–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q16",
+      "finding": "The opening concern lasts about 19s; linked learning examples take the middle, followed by a broad human montage.",
+      "evidence": "V01–V07",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q17",
+      "finding": "Returning to the same woman gives the concern an emotional resolution, although a learning output is not demonstrated.",
+      "evidence": "V01,V07",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q18",
+      "finding": "Cold-to-warm imagery and the changed expression suggest relief; actual viewer response unmeasured.",
+      "evidence": "V01,V02,V07",
+      "status": "uncertain",
+      "reason": "Visual interpretation.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q19",
+      "finding": "AI history leads to definitions of intelligence, then nature and complexity through the script and recurring prompt.",
+      "evidence": "V03–V06,A01",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q20",
+      "finding": "Learning accuracy, historical claims, educational outcomes and the product output format are not verified. ASR date wording must not become a factual claim.",
+      "evidence": "V03–V06,A01",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q21",
+      "finding": "The curiosity chain and circular topic device give the learning story a recognizable form.",
+      "evidence": "V03–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q22",
+      "finding": "Make one learning output explicit.",
+      "evidence": "V03",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "After a topic prompt, show a readable lesson, question or other actual output before the cinematic examples."
+    },
+    {
+      "id": "Q23",
+      "finding": "Connect abstract value to one person’s question.",
+      "evidence": "V01,V03,V07",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "For Tin, start with a concrete campaign uncertainty, show the generated guidance and return to the user’s next action."
+    },
+    {
+      "id": "Q24",
+      "finding": "No human new-viewer test was performed.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "The product summary is this model’s film-only reading.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q25",
+      "finding": "Mobile preview and accessibility checks were not performed.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "Contact sheets are evidence views, not a stated mobile preview or compliance test.",
+      "experiment": "none"
+    }
+  ],
+  "elements": [
+    {
+      "kind": "ui",
+      "name": "topic prompt",
+      "events": [
+        "V03",
+        "V04",
+        "V05"
+      ]
+    },
+    {
+      "kind": "motion",
+      "name": "circular image framing",
+      "events": [
+        "V03",
+        "V04",
+        "V05"
+      ]
+    },
+    {
+      "kind": "texture",
+      "name": "cinematic scene montage",
+      "events": [
+        "V02",
+        "V03",
+        "V04",
+        "V05",
+        "V06",
+        "V07"
+      ]
+    },
+    {
+      "kind": "texture",
+      "name": "branching network",
+      "events": [
+        "V06"
+      ]
+    }
+  ],
+  "lessons": {
+    "keep": "Link each new topic to the previous question and return to the opening person.",
+    "try": [
+      "Show one actual learning output after a topic prompt.",
+      "For Tin, connect a campaign uncertainty to guidance and a clear next action."
+    ],
+    "avoid": "Letting rich subject imagery substitute for the product interaction.",
+    "open": "Output format, learning accuracy, factual script wording and sound remain uncertain."
+  },
+  "comparison": {
+    "story": "Worry becomes curiosity and a hopeful return.",
+    "motion": "Circular topic frames alternate with cinematic examples.",
+    "sound": "First-person narrative supported by ASR; no listening.",
+    "texture": "Cold dystopian imagery shifts toward warm natural scenes.",
+    "lesson": "An emotional arc still needs one concrete product output."
+  },
+  "reviewer_model": "gpt-6-astra",
+  "scope": "sampled visual and story review; ASR and measured signal support; no validated audio listening",
+  "viewed_evidence": [
+    "technical-review-2026-10-19/deep-review/motion/464/timeline-00.jpg",
+    "technical-review-2026-10-19/deep-review/motion/464/timeline-01.jpg",
+    "technical-review-2026-10-19/deep-review/motion/464/timeline-02.jpg"
+  ],
+  "closer_windows": []
+}

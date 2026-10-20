@@ -1,0 +1,374 @@
+{
+  "id": 348,
+  "viewed_evidence": [
+    "technical-review-2026-10-19/deep-review/motion/348/timeline-00.jpg",
+    "technical-review-2026-10-19/deep-review/motion/348/timeline-01.jpg",
+    "technical-review-2026-10-19/deep-review/motion/348/timeline-02.jpg",
+    "astra-review-2026-10-20/evidence/group-3/348/full45.jpg",
+    "technical-review-2026-10-19/deep-review/audio/348-speech.json"
+  ],
+  "product_from_film": "Pollen presents an AI agent for each customer account to surface risks, opportunities and next actions.",
+  "explains_well": "The first-customer theme gives a human reason for better customer-success coverage.",
+  "unclear": "Generic Customer 1/2 examples do not show why an account is flagged or the actual email or review deck prepared for it.",
+  "product_type": "customer success AI",
+  "scenario": "Connect customer data, classify accounts and recommend meetings and review preparation.",
+  "product_clear_time": 30,
+  "product_clear_basis": "Subtitles state that each customer account gets its own AI agent.",
+  "scenes": [
+    {
+      "start": 0,
+      "end": 10,
+      "action": "A rooftop presenter appears behind large Everyone Remembers Their First lettering and flower drawings, then explains the first-customer relationship.",
+      "design": "Tall serif title, white subtitles and flower motif.",
+      "purpose": "Frame customer care personally.",
+      "id": "V01",
+      "evidence": "Visible 1 fps samples, source 0–10s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 10,
+      "end": 24,
+      "action": "Two presenters alternate while describing inactivity, more support tickets and overloaded teams. A closer crop adds isolated START and DOWN words near the end.",
+      "design": "Rooftop footage and subtitle-led problem explanation.",
+      "purpose": "Describe missed risk signals.",
+      "id": "V02",
+      "evidence": "Visible 1 fps samples, source 10–24s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 24,
+      "end": 31,
+      "action": "Pollen branding leads into a white card promising every customer can feel like the first. The second presenter introduces an agent per account.",
+      "design": "Flower logo and large serif promise.",
+      "purpose": "Introduce the solution.",
+      "id": "V03",
+      "evidence": "Visible 1 fps samples, source 24–31s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 31,
+      "end": 38,
+      "action": "Service icons surround the flower, then three customer rows appear labelled Churn, Stable and Upsell.",
+      "design": "Integration marks and coloured status pills.",
+      "purpose": "Explain inputs and signal categories.",
+      "id": "V04",
+      "evidence": "Visible 1 fps samples, source 31–38s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 38,
+      "end": 47,
+      "action": "A translucent Pollen panel builds beside the first presenter with accounts to focus on, recommended actions and a Confirm button.",
+      "design": "Generic Customer 1/2 labels; meeting and QBR preparation actions.",
+      "purpose": "Show a proposed action summary.",
+      "id": "V05",
+      "evidence": "Visible 1 fps samples, source 38–47s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 47,
+      "end": 55,
+      "action": "An Ask Pollen control appears beside the second presenter, then subtitles give example questions about churn and customer wins.",
+      "design": "Floating control without an answer view.",
+      "purpose": "Introduce question-based access.",
+      "id": "V06",
+      "evidence": "Visible 1 fps samples, source 47–55s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 55,
+      "end": 65,
+      "action": "The first presenter promises fewer missed signals and asks viewers to book a demo at Pollen.cx.",
+      "design": "Brand URL above presenter and subtitles.",
+      "purpose": "Close the relationship promise.",
+      "id": "V07",
+      "evidence": "Visible 1 fps samples, source 55–65s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 65,
+      "end": 67.9,
+      "action": "A hand holds a small flower against the skyline, with Pollen.cx and founders@pollen.cx.",
+      "design": "Flower footage and illustrated insects.",
+      "purpose": "End with brand motif and contact.",
+      "id": "V08",
+      "evidence": "Visible 1 fps samples, source 65–67.9s; boundaries approximate, between-frame action unresolved."
+    }
+  ],
+  "sound": [
+    {
+      "id": "A01",
+      "start": 0,
+      "end": 67.9,
+      "layer": "unknown",
+      "detail": "No validated audio listening; speech, music, effects, mix and sync remain unverified.",
+      "visual_relation": "All visual scenes; alignment not checked",
+      "evidence": "No actual audio supplied to this review; existing technical-review-2026-10-19/deep-review/audio/348.json is not listening evidence."
+    },
+    {
+      "id": "A02",
+      "start": 0,
+      "end": 64.2,
+      "layer": "ASR draft",
+      "detail": "Coherent candidate script supports the first-customer premise, missed activity/support signals, per-account agents, connected data, recommendations and a demo invitation. Reject Paulin spelling and turn/fighting substitutions; visible subtitles clarify Pollen, churn and flagging. Delivery, music and effects are unheard.",
+      "visual_relation": "V01–V07; candidate script roles only, no heard sync.",
+      "evidence": "technical-review-2026-10-19/deep-review/audio/348-speech.json; existing faster-whisper base CPU int8"
+    }
+  ],
+  "categories": [
+    {
+      "finding": "The first-customer story leads to missed signals, account agents, recommendations and a demo invitation. It explains intent more than a specific workflow.",
+      "evidence": "V01–V08",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q01"
+    },
+    {
+      "finding": "Large Everyone Remembers Their First text and flower drawings cover much of the rooftop presenter. It creates a personal opening whose customer meaning arrives in subtitles.",
+      "evidence": "V01, 0–2s",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q02"
+    },
+    {
+      "finding": "Customer-success teams and missed account risks are clear in the problem section; the per-account AI-agent role is stated around 30s.",
+      "evidence": "V02–V03",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q03"
+    },
+    {
+      "finding": "Sampled views show icons and customer rows appearing beside presenters, followed by a building recommendation panel. Exact entrance motion and easing are unresolved.",
+      "evidence": "V04–V06",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q04"
+    },
+    {
+      "finding": "Presenter cuts keep the same rooftop setting. A white promise card provides the main visual reset before the product explanation.",
+      "evidence": "V01–V07",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q05"
+    },
+    {
+      "finding": "Natural rooftop footage contrasts with serif type, hand-drawn flowers and pale translucent UI. The softer identity supports the relationship theme.",
+      "evidence": "V01–V08",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q06"
+    },
+    {
+      "finding": "Subtitles explain most of the product. Full45 shows generic Customer 1/2 recommendations and a Confirm button, not the promised QBR deck itself.",
+      "evidence": "V05 full45",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q07"
+    },
+    {
+      "finding": "Voice presence and delivery remain unverified.",
+      "evidence": "No validated audio listening",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q08"
+    },
+    {
+      "finding": "Music character and arc remain unverified.",
+      "evidence": "No validated audio listening",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q09"
+    },
+    {
+      "finding": "Sound effects remain unverified.",
+      "evidence": "No validated audio listening",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q10"
+    },
+    {
+      "finding": "Sound-to-motion timing remain unverified.",
+      "evidence": "No validated audio listening",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q11"
+    },
+    {
+      "finding": "Presenter footage is overlaid with illustrated brand elements, service marks and simplified UI panels. The panels are not established as an executed product capture.",
+      "evidence": "V01–V08",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q12"
+    },
+    {
+      "finding": "Source duration supplied as 67.9s; no independent compression, clipping or delivery check.",
+      "evidence": "Assigned metadata; source integrity checked by parent",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q13"
+    },
+    {
+      "finding": "Subtitles make the customer problem and agent role understandable without sound. The floating chat control gives no visible answer example.",
+      "evidence": "V01–V07",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q14"
+    },
+    {
+      "finding": "Faces remain central; overlays use the side space. The translucent action panel allows the busy skyline to show through, reducing separation.",
+      "evidence": "V05 full45",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q15"
+    },
+    {
+      "finding": "The problem occupies roughly the first third. Integration and status examples are quick, while no source evidence or generated document gets a full scene.",
+      "evidence": "V01–V06",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q16"
+    },
+    {
+      "finding": "The ending repeats the first-customer promise. Account coverage addresses it conceptually, but no restored customer relationship is demonstrated.",
+      "evidence": "V01, V03 and V07",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q17"
+    },
+    {
+      "finding": "The film moves from nostalgia and concern to a caring product promise. Flowers and the final held bloom reinforce the intended warmth.",
+      "evidence": "V01–V08",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q18"
+    },
+    {
+      "finding": "Rooftop location, serif text and flowers connect the whole piece. The hypothetical inactive account is not named or traced through later generic status rows.",
+      "evidence": "V02–V05",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q19"
+    },
+    {
+      "finding": "The film shows classifications and recommended actions, including a visible Confirm control. It does not show a source-to-risk explanation, completed outreach or an actual prepared QBR deck.",
+      "evidence": "V04–V06, full45",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q20"
+    },
+    {
+      "finding": "The flower motif and first-customer language give the film a recognisable identity. Generic account labels make the actual product examples less distinctive.",
+      "evidence": "V01, V03–V05, V08",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q21"
+    },
+    {
+      "finding": "Keep the first-customer premise and concrete risk example; shorten repeated pain statements and show that same account’s evidence and prepared next step.",
+      "evidence": "V01–V06",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q22"
+    },
+    {
+      "finding": "For a customer-success launch, combine a relationship-led opening with one named account, a usage change, a support issue and the exact draft action. Use an opaque close-up for dense evidence.",
+      "evidence": "V01–V06",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q23"
+    },
+    {
+      "finding": "No human new-viewer test; product description above is model interpretation of sampled images.",
+      "evidence": "V01–V08",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q24"
+    },
+    {
+      "finding": "No phone-size, safe-area or flash assessment; small UI text needs separate preview.",
+      "evidence": "Contact sheets",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q25"
+    }
+  ],
+  "lessons": {
+    "keep": "Keep the relationship-led opening and recurring flower motif.",
+    "try": [
+      "Carry one inactive account through its usage/support evidence into a specific outreach draft.",
+      "Show the proposed QBR deck beside the source customer wins instead of only naming the feature."
+    ],
+    "avoid": "Avoid replacing evidence and output with generic account labels and a recommendation panel.",
+    "open": "Audio, signal quality and automated execution are unverified; the panel shows a confirmation step."
+  },
+  "comparison": {
+    "story": "Frame customer care personally. → Describe missed risk signals. → Introduce the solution. → Explain inputs and signal categories. → Show a proposed action summary. → Introduce question-based access. → Close the relationship promise. → End with brand motif and contact.",
+    "motion": "Sampled views show icons and customer rows appearing beside presenters, followed by a building recommendation panel. Exact entrance motion and easing are unresolved.",
+    "sound": "No validated listening; no absence claims.",
+    "texture": "Natural rooftop footage contrasts with serif type, hand-drawn flowers and pale translucent UI. The softer identity supports the relationship theme.",
+    "lesson": "Keep the relationship-led opening and recurring flower motif."
+  },
+  "elements": [
+    {
+      "kind": "ui",
+      "name": "status rows",
+      "events": [
+        "V04"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "recommendation panel",
+      "events": [
+        "V05"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "search control",
+      "events": [
+        "V06"
+      ]
+    },
+    {
+      "kind": "texture",
+      "name": "rooftop presenter footage",
+      "events": [
+        "V01",
+        "V02",
+        "V04",
+        "V07"
+      ]
+    },
+    {
+      "kind": "texture",
+      "name": "flower illustrations",
+      "events": [
+        "V01",
+        "V03",
+        "V08"
+      ]
+    }
+  ],
+  "reviewer_model": "gpt-6-astra",
+  "scope": "sampled visual and story review; ASR and measured signal support; no validated audio listening",
+  "closer_windows": []
+}

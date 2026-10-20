@@ -1,0 +1,347 @@
+{
+  "id": 10,
+  "reviewer_model": "gpt-6-astra",
+  "scope": "sampled visual and story review; ASR and measured signal support; no validated audio listening",
+  "viewed_evidence": [
+    "technical-review-2026-10-19/deep-review/motion/010/timeline-00.jpg",
+    "technical-review-2026-10-19/deep-review/motion/010/timeline-01.jpg",
+    "technical-review-2026-10-19/deep-review/motion/010/timeline-02.jpg",
+    "technical-review-2026-10-19/deep-review/audio/010-speech.json"
+  ],
+  "closer_windows": [],
+  "product_from_film": "Past.dev is presented as memory that lets an AI agent recall prior shared business decisions.",
+  "explains_well": "A renewal request becomes a concrete example of why remembering old terms matters.",
+  "unclear": "How the memory is connected, permissioned and searched is never shown.",
+  "product_type": "AI infrastructure",
+  "scenario": "Colleagues compare agents; one remembers a client pricing agreement.",
+  "product_clear_time": 77,
+  "product_clear_basis": "The memory scenario at 51–63 s is linked to past.dev by the card at 77 s.",
+  "scenes": [
+    {
+      "id": "V01",
+      "start": 0,
+      "end": 13,
+      "action": "Black first sample gives way to alternating office conversation shots and a phone on the table; a third person leans into the exchange.",
+      "design": "Warm wood office, dark suits, small bottom subtitles.",
+      "purpose": "Introduce competing agents through people.",
+      "evidence": "Visible chronological 1 fps samples, source 0–13s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V02",
+      "start": 13,
+      "end": 27,
+      "action": "A phone is placed beside another; reaction shots alternate with subtitles about firm documents and search. A close face holds as the text becomes an internal comparison.",
+      "design": "Phone inserts and restrained cinematic office framing.",
+      "purpose": "Build the comparison around capability and status.",
+      "evidence": "Visible chronological 1 fps samples, source 13–27s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V03",
+      "start": 27,
+      "end": 40,
+      "action": "Another participant displays a phone; subtitles describe its computer and booking a table. Close reactions return before a request to see another agent.",
+      "design": "Blue chat bubbles on phone; small subtitles.",
+      "purpose": "Escalate the comparison.",
+      "evidence": "Visible chronological 1 fps samples, source 27–40s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V04",
+      "start": 40,
+      "end": 51,
+      "action": "The view opens to another seated colleague with papers. He places them down; captions state the agent does all that and remembers everything.",
+      "design": "Wide meeting table followed by medium portrait.",
+      "purpose": "Introduce memory as the difference.",
+      "evidence": "Visible chronological 1 fps samples, source 40–51s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V05",
+      "start": 51,
+      "end": 64,
+      "action": "The colleague holds a phone while subtitles request a standard renewal, recall earlier rejected terms and mention revised pricing ready to use.",
+      "design": "Phone held near face; response conveyed mainly by captions.",
+      "purpose": "Give memory a concrete business consequence.",
+      "evidence": "Visible chronological 1 fps samples, source 51–64s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V06",
+      "start": 64,
+      "end": 77,
+      "action": "Close reactions and a wider table view precede reaching into a jacket and placing a small card onto the table.",
+      "design": "Slow-looking sampled card reveal; exact timing between frames unverified.",
+      "purpose": "Turn the capability into a brand reveal.",
+      "evidence": "Visible chronological 1 fps samples, source 64–77s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V07",
+      "start": 77,
+      "end": 88.404,
+      "action": "The card reads past.dev. Reaction views follow; Give your agents a past appears, then a small past.dev mark holds on black.",
+      "design": "Cream business card, sparse white end type.",
+      "purpose": "Name the memory product.",
+      "evidence": "Visible chronological 1 fps samples, source 77–88.404s; boundary approximate; exact motion between samples unverified."
+    }
+  ],
+  "sound": [
+    {
+      "id": "A01",
+      "start": 0,
+      "end": 88.404,
+      "layer": "unknown",
+      "detail": "No validated direct audio listening was performed. Music, speech delivery, effects, mix and sync remain unknown, not absent.",
+      "visual_relation": "All visual scenes; audiovisual alignment unverified",
+      "evidence": "Visual samples only; no actual audio range supplied to this reviewer."
+    },
+    {
+      "id": "A02",
+      "start": 1.16,
+      "end": 75,
+      "layer": "ASR draft",
+      "detail": "The ASR draft tracks an agent comparison, firm search, a renewal request and a remembered pricing revision. Several phrases are malformed; subtitles support the broad story, not exact spoken wording.",
+      "visual_relation": "Story text support; exact audiovisual alignment and delivery unverified.",
+      "evidence": "technical-review-2026-10-19/deep-review/audio/010-speech.json; local faster-whisper base CPU int8 draft; VAD candidates only, recognition errors possible."
+    }
+  ],
+  "categories": [
+    {
+      "id": "Q01",
+      "finding": "The comparison escalates from everyday tasks to firm search, personal assistance and finally shared memory.",
+      "evidence": "V01–V07",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q02",
+      "finding": "A black first sample and a smiling conversation close-up precede the subtitle Is that your agent?; product meaning is delayed.",
+      "evidence": "V01",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q03",
+      "finding": "AI users are implied early; the memory function appears around 48 s, while past.dev branding only ties it together at 77 s.",
+      "evidence": "V04,V07",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q04",
+      "finding": "People lean, place phones and reveal a business card; no explanatory motion graphic is visible. Exact movement paths are not resolved.",
+      "evidence": "V01,V02,V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q05",
+      "finding": "Alternating faces and phone inserts connect each claim with a reaction; the cut times are bounded only by the samples.",
+      "evidence": "V01–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q06",
+      "finding": "Wood, suits, glassware and warm shelf lighting make the agent comparison feel like a formal meeting.",
+      "evidence": "V01–V07",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q07",
+      "finding": "Bottom subtitles carry most of the function; phones are props with limited readable detail. The card is the clearest product label.",
+      "evidence": "V02,V05,V07",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q08",
+      "finding": "The ASR draft tracks an agent comparison, firm search, a renewal request and a remembered pricing revision. Several phrases are malformed; subtitles support the broad story, not exact spoken wording.",
+      "evidence": "A02",
+      "status": "uncertain",
+      "reason": "ASR text only; no validated listening, delivery or voice origin.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q09",
+      "finding": "Voice delivery, music, effects and audiovisual alignment were not established by this visual pass.",
+      "evidence": "A01",
+      "status": "not checked",
+      "reason": "No validated direct audio listening input.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q10",
+      "finding": "Voice delivery, music, effects and audiovisual alignment were not established by this visual pass.",
+      "evidence": "A01",
+      "status": "not checked",
+      "reason": "No validated direct audio listening input.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q11",
+      "finding": "Voice delivery, music, effects and audiovisual alignment were not established by this visual pass.",
+      "evidence": "A01",
+      "status": "not checked",
+      "reason": "No validated direct audio listening input.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q12",
+      "finding": "The film uses staged-looking people, office views and phone inserts; source and production method are unknown.",
+      "evidence": "V01–V07",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q13",
+      "finding": "Manifest duration 88.404 s; indexed dimensions 3840×2160. Source unchanged flag recorded; fresh encoding and audio clipping checks not run.",
+      "evidence": "Group manifest",
+      "status": "uncertain",
+      "reason": "Inherited technical metadata; no fresh media probe in this review.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q14",
+      "finding": "Captions let the renewal-memory story survive silently; without reading them the technical distinction is hard to infer.",
+      "evidence": "V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q15",
+      "finding": "Faces dominate until the phone request and final card shift focus to the claimed capability and brand.",
+      "evidence": "V05,V06,V07",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q16",
+      "finding": "Several rival capabilities arrive before memory; the 51–63 s renewal example is the most focused explanatory passage.",
+      "evidence": "V02–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q17",
+      "finding": "The opening question about an agent is answered by a remembered client decision, then the give-your-agents-a-past line.",
+      "evidence": "V01,V05,V07",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q18",
+      "finding": "Reaction close-ups suggest rivalry, surprise and a status reversal; no viewer response was measured.",
+      "evidence": "V02,V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q19",
+      "finding": "The meeting table and recurring faces keep the comparison traceable despite many reverse angles.",
+      "evidence": "V01–V07",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q20",
+      "finding": "A remembered pricing agreement is asserted through dialogue captions; no retrieval trail or live product interface proves it.",
+      "evidence": "V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q21",
+      "finding": "The business-card reveal connects the past metaphor with past.dev, but most office imagery could advertise another agent service.",
+      "evidence": "V06,V07",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q22",
+      "finding": "The renewal exchange supplies the key distinction; restaurant booking and early rivalry could be shortened for a faster product reveal.",
+      "evidence": "V03,V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q23",
+      "finding": "Tin could dramatize an agent recalling a previously rejected campaign promise, then show the source decision beside the corrected draft.",
+      "evidence": "V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q24",
+      "finding": "Past.dev is presented as memory that lets an AI agent recall prior shared business decisions.",
+      "evidence": "Model reading from inspected images",
+      "status": "uncertain",
+      "reason": "Model-only new-viewer interpretation; no human test.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q25",
+      "finding": "Contact sheets inspected at displayed size; a phone-size playback, caption audit, flash audit and formal accessibility check were not performed.",
+      "evidence": "Viewed sheets",
+      "status": "not checked",
+      "reason": "Full-size moving-image and device checks unavailable in this pass.",
+      "experiment": "none"
+    }
+  ],
+  "lessons": {
+    "keep": "Explain memory through a decision that would otherwise repeat an old mistake.",
+    "avoid": "Avoid withholding both the brand and usable product proof until the end.",
+    "open": "Sound delivery, permissions and retrieval accuracy are not established.",
+    "try": [
+      "For Tin, show a standard campaign draft blocked by a remembered client constraint; pair the dialogue with the source note.",
+      "Test a short three-person comparison ending in one concrete approval-history recall, with the product name visible before the final card."
+    ]
+  },
+  "comparison": {
+    "story": "Introduce competing agents through people. → Build the comparison around capability and status. → Escalate the comparison. → Introduce memory as the difference. → Give memory a concrete business consequence. → Turn the capability into a brand reveal. → Name the memory product.",
+    "motion": "People lean, place phones and reveal a business card; no explanatory motion graphic is visible. Exact movement paths are not resolved. Sampling scope: 1 fps unless a closer window is recorded.",
+    "sound": "No validated listening; unknown.",
+    "texture": "Warm wood office, dark suits, small bottom subtitles.; Phone inserts and restrained cinematic office framing.; Blue chat bubbles on phone; small subtitles.; Wide meeting table followed by medium portrait.; Phone held near face; response conveyed mainly by captions.; Slow-looking sampled card reveal; exact timing between frames unverified.; Cream business card, sparse white end type.",
+    "lesson": "Explain memory through a decision that would otherwise repeat an old mistake."
+  },
+  "elements": [
+    {
+      "kind": "ui",
+      "name": "phone chat",
+      "events": [
+        "V03"
+      ]
+    },
+    {
+      "kind": "texture",
+      "name": "office footage",
+      "events": [
+        "V01",
+        "V02"
+      ]
+    },
+    {
+      "kind": "motion",
+      "name": "business card reveal",
+      "events": [
+        "V06",
+        "V07"
+      ]
+    }
+  ]
+}

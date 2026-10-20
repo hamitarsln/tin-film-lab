@@ -1,0 +1,326 @@
+{
+  "id": 445,
+  "reviewer_model": "gpt-6-astra",
+  "scope": "sampled visual and story review; ASR and measured signal support; no validated audio listening",
+  "viewed_evidence": [
+    "technical-review-2026-10-19/deep-review/motion/445/timeline-00.jpg",
+    "technical-review-2026-10-19/deep-review/audio/445-speech.json"
+  ],
+  "closer_windows": [],
+  "product_from_film": "Methods presents a mobile service with content tasks, post uploads, analytics and payout screens.",
+  "explains_well": "Close phone views make posting and earning visible parts of the same service.",
+  "unclear": "The fast montage does not explain what a Method requires or how a specific post leads to the shown payout.",
+  "product_type": "mobile product teaser",
+  "scenario": "Choose a content task, upload a post and track earnings.",
+  "product_clear_time": 5,
+  "product_clear_basis": "The post page shows analytics and earnings after a task card with a per-post amount.",
+  "scenes": [
+    {
+      "id": "V01",
+      "start": 0,
+      "end": 7,
+      "action": "Sunset field title cards alternate with phone close-ups: a Methods task card shows a per-post amount, and Your Post moves from an uploaded item to analytics and earnings. The Methods title appears.",
+      "design": "Warm outdoor light, pink-white phone UI and plain white type.",
+      "purpose": "Introduce content tasks and earnings.",
+      "evidence": "Visible chronological 1 fps samples, source 0–7s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V02",
+      "start": 7,
+      "end": 14,
+      "action": "A hand carries the phone through dark lit corridors and stairs while screens show a task, creator grid, analytics, lists and a post.",
+      "design": "Moving handheld product views with bright screen against dark surroundings.",
+      "purpose": "Show a range of app surfaces.",
+      "evidence": "Visible chronological 1 fps samples, source 7–14s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V03",
+      "start": 14,
+      "end": 18,
+      "action": "Phone close-ups show a $674.99 payout request, creator cards, an upload screen and a video preview with a chart.",
+      "design": "Larger pink-accented UI details.",
+      "purpose": "Emphasize payment and content submission.",
+      "evidence": "Visible chronological 1 fps samples, source 14–18s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V04",
+      "start": 18,
+      "end": 21.271,
+      "action": "The sunset field returns with The Future of Work and live at methods.app.",
+      "design": "Simple text over open landscape.",
+      "purpose": "End with positioning and URL.",
+      "evidence": "Visible chronological 1 fps samples, source 18–21.271s; boundary approximate; exact motion between samples unverified."
+    }
+  ],
+  "sound": [
+    {
+      "id": "A01",
+      "start": 0,
+      "end": 21.271,
+      "layer": "unknown",
+      "detail": "No validated direct audio listening was performed. Music, speech delivery, effects, mix and sync remain unknown, not absent.",
+      "visual_relation": "All visual scenes; audiovisual alignment unverified",
+      "evidence": "Visual samples only; no actual audio range supplied to this reviewer."
+    },
+    {
+      "id": "A02",
+      "start": 0,
+      "end": 5.9,
+      "layer": "ASR draft",
+      "detail": "The short coherent ASR draft contrasts making the best content with making the most content. It supplies a volume-based positioning claim, but does not explain the shown task or payout. No heard delivery, music or effects are asserted.",
+      "visual_relation": "Story text support; exact audiovisual alignment and delivery unverified.",
+      "evidence": "technical-review-2026-10-19/deep-review/audio/445-speech.json; local faster-whisper base CPU int8 draft; VAD candidates only, recognition errors possible."
+    }
+  ],
+  "categories": [
+    {
+      "id": "Q01",
+      "finding": "Task and earnings glimpses lead to a rapid app tour, payout screen and destination.",
+      "evidence": "V01–V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q02",
+      "finding": "A field title cuts quickly to a phone with a per-post task amount, linking lifestyle imagery to potential earnings.",
+      "evidence": "V01",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q03",
+      "finding": "Content creators are implied by post uploads and payments. The exact job or method is not explained.",
+      "evidence": "V01,V03",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q04",
+      "finding": "Phone UI states change through cuts and scrolling-looking shifts while the hand and camera move through corridors; field title words replace one another. Exact gesture timing is not resolved at 1 fps.",
+      "evidence": "V01–V04",
+      "status": "uncertain",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q05",
+      "finding": "Alternating field cards and phone inserts introduce the product; the return to the field frames the ending as a broader work promise.",
+      "evidence": "V01,V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q06",
+      "finding": "Sunset gold and dark architectural lighting contrast with the pale pink app interface.",
+      "evidence": "V01–V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q07",
+      "finding": "Large Methods and URL text is easy to read. Detailed phone screens pass rapidly and vary in angle and brightness.",
+      "evidence": "V01–V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q08",
+      "finding": "The short coherent ASR draft contrasts making the best content with making the most content. It supplies a volume-based positioning claim, but does not explain the shown task or payout. No heard delivery, music or effects are asserted.",
+      "evidence": "A02",
+      "status": "uncertain",
+      "reason": "ASR text only; no validated listening, delivery or voice origin.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q09",
+      "finding": "Voice delivery, music, effects and audiovisual alignment were not established by this visual pass.",
+      "evidence": "A01",
+      "status": "not checked",
+      "reason": "No validated direct audio listening input.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q10",
+      "finding": "Voice delivery, music, effects and audiovisual alignment were not established by this visual pass.",
+      "evidence": "A01",
+      "status": "not checked",
+      "reason": "No validated direct audio listening input.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q11",
+      "finding": "Voice delivery, music, effects and audiovisual alignment were not established by this visual pass.",
+      "evidence": "A01",
+      "status": "not checked",
+      "reason": "No validated direct audio listening input.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q12",
+      "finding": "Real-world phone footage, landscape shots, app screens and simple title overlays supply the visuals. Screen provenance is unverified.",
+      "evidence": "V01–V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q13",
+      "finding": "Manifest duration 21.271s; indexed dimensions 1920×1080. Source unchanged flag recorded; fresh encoding and audio clipping checks not run.",
+      "evidence": "Group manifest",
+      "status": "uncertain",
+      "reason": "Inherited technical metadata; no fresh media probe in this review.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q14",
+      "finding": "Silent viewing shows content work and payment surfaces, but the task rules and link from upload to payout remain unclear.",
+      "evidence": "V01,V03",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q15",
+      "finding": "Bright phone screens attract focus in the dark corridor; movement and angle reduce reading time for small labels.",
+      "evidence": "V02",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q16",
+      "finding": "Many distinct screens fit into about twenty seconds. This establishes breadth at the expense of one complete task.",
+      "evidence": "V01–V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q17",
+      "finding": "The future-of-work ending follows visible earning screens, but no full work-and-payment sequence earns that broad claim.",
+      "evidence": "V03–V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q18",
+      "finding": "Warm landscape and mobile movement suggest independence and flexibility; that is an interpretation of the visual framing.",
+      "evidence": "V01–V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q19",
+      "finding": "The repeated pink UI and handheld phone maintain identity, but different posts and totals are not connected as one user journey.",
+      "evidence": "V01–V03",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q20",
+      "finding": "A payout-request screen is visible, not proof that money arrived. No task acceptance criteria or source of the earnings is shown.",
+      "evidence": "V03",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q21",
+      "finding": "Methods is named in the middle and methods.app at the end; pink UI and sunset framing provide continuity.",
+      "evidence": "V01,V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q22",
+      "finding": "Replace several corridor screen cuts with one task brief, upload and resulting approved-earnings state.",
+      "evidence": "V02–V03",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q23",
+      "finding": "Use environmental phone footage for context, but pause on the exact task and result that define the service.",
+      "evidence": "V01–V03",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q24",
+      "finding": "Methods presents a mobile service with content tasks, post uploads, analytics and payout screens.",
+      "evidence": "Model reading from inspected images",
+      "status": "uncertain",
+      "reason": "Model-only new-viewer interpretation; no human test.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q25",
+      "finding": "Contact sheets inspected at displayed size; a phone-size playback, caption audit, flash audit and formal accessibility check were not performed.",
+      "evidence": "Viewed sheets",
+      "status": "not checked",
+      "reason": "Full-size moving-image and device checks unavailable in this pass.",
+      "experiment": "none"
+    }
+  ],
+  "lessons": {
+    "keep": "Show both the work surface and the reward surface when introducing a creator service.",
+    "avoid": "Letting payout imagery stand in for an explanation of the work required.",
+    "open": "Task rules, approval flow, payout completion and sound remain unverified.",
+    "try": [
+      "For Tin, follow one content task from brief to approved output before showing the performance total.",
+      "Compare the moving-phone montage with a stable close view of the same three key screens."
+    ]
+  },
+  "comparison": {
+    "story": "Introduce content tasks and earnings. → Show a range of app surfaces. → Emphasize payment and content submission. → End with positioning and URL.",
+    "motion": "Phone UI states change through cuts and scrolling-looking shifts while the hand and camera move through corridors; field title words replace one another. Exact gesture timing is not resolved at 1 fps. Sampling scope: 1 fps unless a closer window is recorded.",
+    "sound": "No validated listening; unknown.",
+    "texture": "Warm outdoor light, pink-white phone UI and plain white type.; Moving handheld product views with bright screen against dark surroundings.; Larger pink-accented UI details.; Simple text over open landscape.",
+    "lesson": "Show both the work surface and the reward surface when introducing a creator service."
+  },
+  "elements": [
+    {
+      "kind": "ui",
+      "name": "task card",
+      "events": [
+        "V01",
+        "V02"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "analytics",
+      "events": [
+        "V01",
+        "V02"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "payout screen",
+      "events": [
+        "V03"
+      ]
+    },
+    {
+      "kind": "texture",
+      "name": "sunset landscape",
+      "events": [
+        "V01",
+        "V04"
+      ]
+    }
+  ]
+}

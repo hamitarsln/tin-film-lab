@@ -1,0 +1,369 @@
+{
+  "id": 442,
+  "reviewer_model": "gpt-6-astra",
+  "scope": "sampled visual and story review; ASR and measured signal support; no validated audio listening",
+  "viewed_evidence": [
+    "technical-review-2026-10-19/deep-review/motion/442/timeline-00.jpg",
+    "technical-review-2026-10-19/deep-review/motion/442/timeline-01.jpg",
+    "technical-review-2026-10-19/deep-review/motion/442/timeline-02.jpg",
+    "astra-review-2026-10-20/evidence/group-2/442-1-4-4fps.jpg",
+    "astra-review-2026-10-20/evidence/group-2/442-36.png",
+    "technical-review-2026-10-19/deep-review/audio/442-speech.json"
+  ],
+  "closer_windows": [
+    {
+      "start": 1,
+      "end": 4,
+      "rate_fps": 4,
+      "evidence": [
+        "astra-review-2026-10-20/evidence/group-2/442-1-4-4fps.jpg"
+      ],
+      "resolved": "One sampled state shows a woman’s face replacing the presenter through horizontal ripple distortion, followed by the original face. Exact subframe timing is unresolved."
+    }
+  ],
+  "product_from_film": "Doublespeed presents AI personas that take part in social-media conversations, using a provocative dead-internet pitch.",
+  "explains_well": "A story-post and message example makes the claim of AI inside existing social apps more concrete.",
+  "unclear": "The film never explains who buys or controls the personas, or which visible interactions are a real product demonstration.",
+  "product_type": "provocative company introduction",
+  "scenario": "Place AI personas inside familiar social conversations.",
+  "product_clear_time": 31,
+  "product_clear_basis": "The social story and message overlay show the intended interaction surface.",
+  "scenes": [
+    {
+      "id": "V01",
+      "start": 0,
+      "end": 7,
+      "action": "A suited presenter sits before green-lit equipment racks. His face briefly switches to a woman through a ripple glitch, followed by two portrait clips.",
+      "design": "Dark technical setting, subtitles and distorted face replacement.",
+      "purpose": "Suggest multiple identities behind a familiar face.",
+      "evidence": "Visible chronological 1 fps samples, source 0–7s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V02",
+      "start": 7,
+      "end": 19,
+      "action": "The presenter calls the company a bot farm; small fireworks appear, then glasses and a wearable-device insert illustrate alternative AI formats.",
+      "design": "Direct address interrupted by short device footage.",
+      "purpose": "State a deliberately provocative positioning.",
+      "evidence": "Visible chronological 1 fps samples, source 7–19s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V03",
+      "start": 19,
+      "end": 31,
+      "action": "Social reactions, screens, a crowded crossing with message symbols and a large chat projection accompany the argument for AI in social media.",
+      "design": "Mixed illustrative footage and familiar social icons.",
+      "purpose": "Explain the proposed distribution surface.",
+      "evidence": "Visible chronological 1 fps samples, source 19–31s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V04",
+      "start": 31,
+      "end": 37,
+      "action": "A phone story editor shows a notebook photo with a complaint about calculus, then a message thread gives an extended answer. A user asks for just the answer and receives 13.",
+      "design": "Tall phone overlay beside the presenter, keyboard and purple message bubbles.",
+      "purpose": "Show a concrete social interaction example.",
+      "evidence": "Visible chronological 1 fps samples, source 31–37s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V05",
+      "start": 37,
+      "end": 50,
+      "action": "The presenter continues the argument; a grid of television news presenters appears before the Welcome to the dead internet line.",
+      "design": "Repeated front-facing composition, montage insert and close crop.",
+      "purpose": "End the manifesto with a provocative claim.",
+      "evidence": "Visible chronological 1 fps samples, source 37–50s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V06",
+      "start": 50,
+      "end": 60,
+      "action": "The presenter rises and opens his shirt to reveal an exaggerated muscular torso.",
+      "design": "Same equipment background and comic body reveal.",
+      "purpose": "Add a final identity joke.",
+      "evidence": "Visible chronological 1 fps samples, source 50–60s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V07",
+      "start": 60,
+      "end": 62.366,
+      "action": "The dead internet company and Doublespeed marks appear over a wall of eye images.",
+      "design": "Dark closing graphic with small white wordmarks.",
+      "purpose": "Name the company at the end.",
+      "evidence": "Visible chronological 1 fps samples, source 60–62.366s; boundary approximate; exact motion between samples unverified."
+    }
+  ],
+  "sound": [
+    {
+      "id": "A01",
+      "start": 0,
+      "end": 62.366,
+      "layer": "unknown",
+      "detail": "No validated direct audio listening was performed. Music, speech delivery, effects, mix and sync remain unknown, not absent.",
+      "visual_relation": "All visual scenes; audiovisual alignment unverified",
+      "evidence": "Visual samples only; no actual audio range supplied to this reviewer."
+    },
+    {
+      "id": "A02",
+      "start": 0.17,
+      "end": 49.3,
+      "layer": "ASR draft",
+      "detail": "The coherent ASR draft supports the manifesto about AI personas inside social media and the provocative dead-internet framing. It is a pitch, not verification of autonomous behavior or company claims. Voice delivery, music and effects were not heard.",
+      "visual_relation": "Story text support; exact audiovisual alignment and delivery unverified.",
+      "evidence": "technical-review-2026-10-19/deep-review/audio/442-speech.json; local faster-whisper base CPU int8 draft; VAD candidates only, recognition errors possible."
+    }
+  ],
+  "categories": [
+    {
+      "id": "Q01",
+      "finding": "Identity glitch leads to a social-AI manifesto, one social interaction example and an exaggerated closing body reveal.",
+      "evidence": "V01–V07",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q02",
+      "finding": "Direct address says the viewer may already have spoken with the presenter; the face glitch shortly after makes the identity claim visual.",
+      "evidence": "V01",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q03",
+      "finding": "AI participation in social apps is clear, but the buyer, operator and actual service package are not identified.",
+      "evidence": "V03–V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q04",
+      "finding": "A horizontal ripple briefly replaces the presenter’s face, small fireworks overlay the rack scene, and a phone overlay changes from story composition to a message thread. The face switch was checked at 4 fps.",
+      "evidence": "V01,V02,V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q05",
+      "finding": "Repeated returns to the green rack setup anchor varied social and device inserts. The late shirt reveal shifts from explanation back to visual comedy.",
+      "evidence": "V01–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q06",
+      "finding": "Green equipment light, dark suit and exposed cables create a deliberately technical setting; phone overlays provide a familiar everyday contrast.",
+      "evidence": "V01–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q07",
+      "finding": "Subtitles preserve the argument. The phone example is small at sheet scale; a full-resolution frame confirms the short-answer exchange.",
+      "evidence": "V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q08",
+      "finding": "The coherent ASR draft supports the manifesto about AI personas inside social media and the provocative dead-internet framing. It is a pitch, not verification of autonomous behavior or company claims. Voice delivery, music and effects were not heard.",
+      "evidence": "A02",
+      "status": "uncertain",
+      "reason": "ASR text only; no validated listening, delivery or voice origin.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q09",
+      "finding": "Voice delivery, music, effects and audiovisual alignment were not established by this visual pass.",
+      "evidence": "A01",
+      "status": "not checked",
+      "reason": "No validated direct audio listening input.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q10",
+      "finding": "Voice delivery, music, effects and audiovisual alignment were not established by this visual pass.",
+      "evidence": "A01",
+      "status": "not checked",
+      "reason": "No validated direct audio listening input.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q11",
+      "finding": "Voice delivery, music, effects and audiovisual alignment were not established by this visual pass.",
+      "evidence": "A01",
+      "status": "not checked",
+      "reason": "No validated direct audio listening input.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q12",
+      "finding": "Presenter footage, altered identity imagery, device and social montage, phone UI and a news grid form the asset mix. Production method is unverified.",
+      "evidence": "V01–V07",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q13",
+      "finding": "Manifest duration 62.366s; indexed dimensions 1576×1080. Source unchanged flag recorded; fresh encoding and audio clipping checks not run.",
+      "evidence": "Group manifest",
+      "status": "uncertain",
+      "reason": "Inherited technical metadata; no fresh media probe in this review.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q14",
+      "finding": "Subtitles and the message overlay carry the thesis silently. The final body joke adds no clear product operation.",
+      "evidence": "V01–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q15",
+      "finding": "The face stays central through most of the film. The tall phone overlay makes viewers divide attention between text and presenter.",
+      "evidence": "V01,V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q16",
+      "finding": "The script spends more time on cultural provocation than the single interaction example. The final ten seconds are mainly a body-reveal joke.",
+      "evidence": "V03–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q17",
+      "finding": "The opening multiple-identity hint is answered by a bot-persona proposition, but the film stops short of showing how a customer uses or controls it.",
+      "evidence": "V01,V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q18",
+      "finding": "Identity changes and dead-internet language appear intended to unsettle and provoke attention. Actual heard delivery and viewer reaction are unknown.",
+      "evidence": "V01,V05,V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q19",
+      "finding": "The equipment backdrop and presenter hold continuity; a notebook story becomes a related answer thread, but account origin and production context remain unstated.",
+      "evidence": "V01,V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q20",
+      "finding": "A social-message exchange is visible, including a concise answer after a user request. It does not establish autonomous initiation, persona management or the stated company scale.",
+      "evidence": "V02,V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q21",
+      "finding": "Green racks, persona changes and the dead-internet closing line create a distinct identity. The company name arrives only at the end.",
+      "evidence": "V01,V07",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q22",
+      "finding": "Replace some manifesto or body-reveal time with the operator screen and one clearly labeled example from trigger to response.",
+      "evidence": "V05–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q23",
+      "finding": "Show a familiar social surface beside the speaker to ground an abstract AI claim. Keep the initiating event and response readable in one sequence.",
+      "evidence": "V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q24",
+      "finding": "Doublespeed presents AI personas that take part in social-media conversations, using a provocative dead-internet pitch.",
+      "evidence": "Model reading from inspected images",
+      "status": "uncertain",
+      "reason": "Model-only new-viewer interpretation; no human test.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q25",
+      "finding": "Contact sheets inspected at displayed size; a phone-size playback, caption audit, flash audit and formal accessibility check were not performed.",
+      "evidence": "Viewed sheets",
+      "status": "not checked",
+      "reason": "Full-size moving-image and device checks unavailable in this pass.",
+      "experiment": "none"
+    }
+  ],
+  "lessons": {
+    "keep": "Use an actual interaction surface to ground a broad AI positioning claim.",
+    "avoid": "Leaving the viewer unable to distinguish a product example from a visual joke.",
+    "open": "Interaction provenance, buyer and operator roles, autonomy claims and actual sound remain unverified.",
+    "try": [
+      "For Tin, place a readable approval conversation beside a presenter and follow it through to the exact campaign state.",
+      "Compare the provocative opening with a direct user-problem opening while keeping the same concrete message example."
+    ]
+  },
+  "comparison": {
+    "story": "Suggest multiple identities behind a familiar face. → State a deliberately provocative positioning. → Explain the proposed distribution surface. → Show a concrete social interaction example. → End the manifesto with a provocative claim. → Add a final identity joke. → Name the company at the end.",
+    "motion": "A horizontal ripple briefly replaces the presenter’s face, small fireworks overlay the rack scene, and a phone overlay changes from story composition to a message thread. The face switch was checked at 4 fps. Sampling scope: 1 fps unless a closer window is recorded.",
+    "sound": "No validated listening; unknown.",
+    "texture": "Dark technical setting, subtitles and distorted face replacement.; Direct address interrupted by short device footage.; Mixed illustrative footage and familiar social icons.; Tall phone overlay beside the presenter, keyboard and purple message bubbles.; Repeated front-facing composition, montage insert and close crop.; Same equipment background and comic body reveal.; Dark closing graphic with small white wordmarks.",
+    "lesson": "Use an actual interaction surface to ground a broad AI positioning claim."
+  },
+  "elements": [
+    {
+      "kind": "ui",
+      "name": "social story editor",
+      "events": [
+        "V04"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "chat",
+      "events": [
+        "V04"
+      ]
+    },
+    {
+      "kind": "motion",
+      "name": "glitch face replacement",
+      "events": [
+        "V01"
+      ]
+    },
+    {
+      "kind": "texture",
+      "name": "green equipment lighting",
+      "events": [
+        "V01",
+        "V02",
+        "V03",
+        "V04",
+        "V05",
+        "V06"
+      ]
+    }
+  ]
+}

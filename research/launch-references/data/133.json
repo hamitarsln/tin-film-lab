@@ -1,0 +1,316 @@
+{
+  "id": 133,
+  "reviewer_model": "gpt-6-astra",
+  "scope": "sampled visual and story review; ASR and measured signal support; no validated audio listening",
+  "viewed_evidence": [
+    "technical-review-2026-10-19/deep-review/motion/133/timeline-00.jpg",
+    "technical-review-2026-10-19/deep-review/motion/133/timeline-01.jpg"
+  ],
+  "closer_windows": [],
+  "product_from_film": "The film suggests a new creative or storytelling medium, but does not establish a product workflow.",
+  "explains_well": "The curved brand mark appears across text, paint and digital textures.",
+  "unclear": "There is no readable feature explanation, interface or explicit action to take.",
+  "product_type": "brand teaser",
+  "scenario": "A historical media montage; no concrete user scenario established.",
+  "product_clear_time": null,
+  "product_clear_basis": "Inspected images show media and a mark without a usable product demonstration.",
+  "scenes": [
+    {
+      "id": "V01",
+      "start": 0,
+      "end": 7,
+      "action": "Dense red text blocks alternate with blue digital symbols and a teal grid; a curved mark appears within the text texture.",
+      "design": "Vertical frame, saturated red/cyan and tiny glyph patterns.",
+      "purpose": "Establish an evolving visual language.",
+      "evidence": "Visible chronological 1 fps samples, source 0–7s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V02",
+      "start": 7,
+      "end": 15,
+      "action": "A carved spiral stone, people near fire, red painted mark, rock drawings and old mechanical/illustrated media appear.",
+      "design": "Natural rock, paper, paint and monochrome machinery.",
+      "purpose": "Suggest a history of expression.",
+      "evidence": "Visible chronological 1 fps samples, source 7–15s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V03",
+      "start": 15,
+      "end": 23,
+      "action": "A public performer, symbol field, phone user, microphone performer and readers appear before more text and digital marks.",
+      "design": "Live scenes mixed with print and pixel textures.",
+      "purpose": "Connect media with people making and receiving stories.",
+      "evidence": "Visible chronological 1 fps samples, source 15–23s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V04",
+      "start": 23,
+      "end": 33.854,
+      "action": "A blue-toned horse-and-rider illustration carries a white curved symbol that resolves into a rounded arch-like mark, held on black.",
+      "design": "Painterly blue image then stark white-on-black branding.",
+      "purpose": "Leave a memorable visual identity.",
+      "evidence": "Visible chronological 1 fps samples, source 23–33.854s; boundary approximate; exact motion between samples unverified."
+    }
+  ],
+  "sound": [
+    {
+      "id": "A01",
+      "start": 0,
+      "end": 33.854,
+      "layer": "unknown",
+      "detail": "No validated direct audio listening was performed. Music, speech delivery, effects, mix and sync remain unknown, not absent.",
+      "visual_relation": "All visual scenes; audiovisual alignment unverified",
+      "evidence": "Visual samples only; no actual audio range supplied to this reviewer."
+    }
+  ],
+  "categories": [
+    {
+      "id": "Q01",
+      "finding": "The montage moves among early marks, mechanical media, modern creators and a final symbol.",
+      "evidence": "V01–V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q02",
+      "finding": "A dense red vertical text field is visually striking but provides no immediate task context.",
+      "evidence": "V01",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q03",
+      "finding": "Creative expression is suggested; the actual product remains unclear throughout.",
+      "evidence": "V01–V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q04",
+      "finding": "Symbols change within text, paint and pixels, then the final white mark changes shape across sampled states; exact morph paths are unverified.",
+      "evidence": "V01,V02,V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q05",
+      "finding": "The recurring curved motif links otherwise different eras and materials.",
+      "evidence": "V01–V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q06",
+      "finding": "Rock, paper, red pigment, grainy machinery, cyan pixels and blue painting supply the main design vocabulary.",
+      "evidence": "V01–V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q07",
+      "finding": "Text mainly acts as dense texture; no readable feature or CTA copy appears in the inspected samples.",
+      "evidence": "V01,V03,V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q08",
+      "finding": "Voice delivery, music, effects and audiovisual alignment were not established by this visual pass.",
+      "evidence": "A01",
+      "status": "not checked",
+      "reason": "No validated direct audio listening input.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q09",
+      "finding": "Voice delivery, music, effects and audiovisual alignment were not established by this visual pass.",
+      "evidence": "A01",
+      "status": "not checked",
+      "reason": "No validated direct audio listening input.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q10",
+      "finding": "Voice delivery, music, effects and audiovisual alignment were not established by this visual pass.",
+      "evidence": "A01",
+      "status": "not checked",
+      "reason": "No validated direct audio listening input.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q11",
+      "finding": "Voice delivery, music, effects and audiovisual alignment were not established by this visual pass.",
+      "evidence": "A01",
+      "status": "not checked",
+      "reason": "No validated direct audio listening input.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q12",
+      "finding": "Archival-looking clips, artwork and live-action media use are mixed; provenance and production method are unknown.",
+      "evidence": "V02,V03",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q13",
+      "finding": "Manifest duration 33.854 s; indexed dimensions 720×900. Source unchanged flag recorded; fresh encoding and audio clipping checks not run.",
+      "evidence": "Group manifest",
+      "status": "uncertain",
+      "reason": "Inherited technical metadata; no fresh media probe in this review.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q14",
+      "finding": "Without audio the piece communicates a media-history mood, not a clear product function.",
+      "evidence": "V01–V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q15",
+      "finding": "One vertical image at a time keeps a stable center despite frequent content changes.",
+      "evidence": "V01–V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q16",
+      "finding": "The first 23 s carry rapid visual variety; the final mark receives roughly 7 s on black.",
+      "evidence": "V01–V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q17",
+      "finding": "The repeated curved shapes pay off as the final logo, rather than a functional result.",
+      "evidence": "V01,V02,V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q18",
+      "finding": "Historical marks and readers imply continuity and wonder; audience response is unmeasured.",
+      "evidence": "V02,V03",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q19",
+      "finding": "The motif survives multiple materials and becomes the closing identity.",
+      "evidence": "V01–V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q20",
+      "finding": "No feature, customer result or product evidence is established by the sampled images.",
+      "evidence": "V01–V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q21",
+      "finding": "The mark is recognizable by the end, but a name or usable next step is missing visually.",
+      "evidence": "V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q22",
+      "finding": "A single sentence about the new medium could connect the rich montage to a product.",
+      "evidence": "V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q23",
+      "finding": "Tin can carry one brand shape across real marketing artifacts, but should attach it to a concrete workflow and CTA.",
+      "evidence": "V01–V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q24",
+      "finding": "The film suggests a new creative or storytelling medium, but does not establish a product workflow.",
+      "evidence": "Model reading from inspected images",
+      "status": "uncertain",
+      "reason": "Model-only new-viewer interpretation; no human test.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q25",
+      "finding": "Contact sheets inspected at displayed size; a phone-size playback, caption audit, flash audit and formal accessibility check were not performed.",
+      "evidence": "Viewed sheets",
+      "status": "not checked",
+      "reason": "Full-size moving-image and device checks unavailable in this pass.",
+      "experiment": "none"
+    }
+  ],
+  "lessons": {
+    "keep": "Repeat one simple motif across several meaningful materials.",
+    "avoid": "Avoid assuming a rich mood montage explains the product.",
+    "open": "No speech draft is supplied; product function, image origins, full-rate transitions and audio remain unknown.",
+    "try": [
+      "Carry a Tin brand shape through brief, creative and published placement before the logo reveal.",
+      "Add one clear use sentence and URL after a short visual history sequence."
+    ]
+  },
+  "comparison": {
+    "story": "Establish an evolving visual language. → Suggest a history of expression. → Connect media with people making and receiving stories. → Leave a memorable visual identity.",
+    "motion": "Symbols change within text, paint and pixels, then the final white mark changes shape across sampled states; exact morph paths are unverified. Sampling scope: 1 fps unless a closer window is recorded.",
+    "sound": "No validated listening; unknown.",
+    "texture": "Vertical frame, saturated red/cyan and tiny glyph patterns.; Natural rock, paper, paint and monochrome machinery.; Live scenes mixed with print and pixel textures.; Painterly blue image then stark white-on-black branding.",
+    "lesson": "Repeat one simple motif across several meaningful materials."
+  },
+  "elements": [
+    {
+      "kind": "texture",
+      "name": "dense text",
+      "events": [
+        "V01",
+        "V03"
+      ]
+    },
+    {
+      "kind": "texture",
+      "name": "painted mark",
+      "events": [
+        "V02"
+      ]
+    },
+    {
+      "kind": "texture",
+      "name": "digital pixels",
+      "events": [
+        "V01",
+        "V03"
+      ]
+    },
+    {
+      "kind": "motion",
+      "name": "changing logo shape",
+      "events": [
+        "V04"
+      ]
+    }
+  ]
+}

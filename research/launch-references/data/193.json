@@ -1,0 +1,354 @@
+{
+  "id": 193,
+  "product_from_film": "Sentinel from Avea Robotics presents VR-based remote control of robot arms, including an operator view and collision feedback.",
+  "explains_well": "The headset, hand controllers, robot arms and first-person view make the control relationship concrete.",
+  "unclear": "The film states speed and distance benefits but does not show a readable timing comparison or a complete remote setup.",
+  "product_type": "robot teleoperation software",
+  "scenario": "A headset operator controls tabletop robot arms to handle objects and stack blocks, with a collision warning, followed by an industrial example.",
+  "product_clear_time": 19,
+  "product_clear_basis": "The headset and controller viewpoint at 17–19s connects the earlier tele-operation claim to a concrete operator setup.",
+  "scenes": [
+    {
+      "start": 0,
+      "end": 8,
+      "action": "A presenter states a fastest tele-operation claim while two arms move through different poses; any robot anywhere and Avea Robotics appear.",
+      "design": "Bright windowed workshop, purple text and white brand card.",
+      "purpose": "Introduce category, breadth and speed claims.",
+      "evidence": "1 fps source samples in 0–8s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V01"
+    },
+    {
+      "start": 8,
+      "end": 17,
+      "action": "Presenter shots alternate with a gripper approaching small dark tabletop pieces and a camera device.",
+      "design": "Close hardware views with minimal text.",
+      "purpose": "Introduce control/network and camera-stack claims through physical details.",
+      "evidence": "1 fps source samples in 8–17s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V02"
+    },
+    {
+      "start": 17,
+      "end": 31,
+      "action": "A first-person view shows hands lifting a VR headset, then controllers and two arms over a white table with a small blue object; presenter shots continue.",
+      "design": "Wide-angle operator view and fixed interview framing.",
+      "purpose": "Show the operator interface and explain the control pipeline.",
+      "evidence": "1 fps source samples in 17–31s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V03"
+    },
+    {
+      "start": 31,
+      "end": 42,
+      "action": "A camera head changes orientation; grippers handle colored blocks and a short stacked tower is shown, intercut with the presenter.",
+      "design": "Close tabletop task views and bright primary-color blocks.",
+      "purpose": "Illustrate spatial control through a recognizable manipulation task.",
+      "evidence": "1 fps source samples in 31–42s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V04"
+    },
+    {
+      "start": 42,
+      "end": 49,
+      "action": "An operator wears a headset and holds controllers beside the arms. The first-person view shows TELEOP ACTIVE, then COLLISION with an arm tinted red, then the normal view.",
+      "design": "Operator/hardware shots and translucent status overlay.",
+      "purpose": "Show the human control loop and a feedback state.",
+      "evidence": "1 fps source samples in 42–49s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V05"
+    },
+    {
+      "start": 49,
+      "end": 68,
+      "action": "The presenter appears beside a Foundry Robotics sign, followed by a larger arm and yellow-tipped gripper handling metal parts near an assembly.",
+      "design": "Industrial workspace and restrained close-up task footage.",
+      "purpose": "Broaden the application from tabletop demo to industrial work.",
+      "evidence": "1 fps source samples in 49–68s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V06"
+    },
+    {
+      "start": 68,
+      "end": 71.593,
+      "action": "Scale your robots appears with the presenter, then Sentinel and Avea Robotics cards.",
+      "design": "Large white closing copy and simple logo card.",
+      "purpose": "Close with product and company identity.",
+      "evidence": "1 fps source samples in 68–71.593s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V07"
+    }
+  ],
+  "sound": [
+    {
+      "id": "A01",
+      "start": 0,
+      "end": 71.593,
+      "layer": "ASR draft / unknown",
+      "detail": "The partial draft discusses remote operation, network behavior, camera/encoding/rendering, control constraints and industrial data collection/intervention. It garbles teleoperation and the closing name and misses part of the feedback section. No direct listening, latency measurement or sound assessment.",
+      "visual_relation": "V01–V07; broad script context only, exact audible timing and delivery unverified.",
+      "evidence": "technical-review-2026-10-19/deep-review/audio/193-speech.json; local faster-whisper draft inspected."
+    }
+  ],
+  "categories": [
+    {
+      "id": "Q01",
+      "finding": "Teleoperation claim → hardware/control explanation → headset view → block task → collision feedback → industrial example → identity.",
+      "evidence": "V01–V07",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q02",
+      "finding": "The opening names tele-operation immediately and shows two arms within 4s, giving a quick category anchor.",
+      "evidence": "V01",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q03",
+      "finding": "Headset/controller views at 17–19s make remote-control interaction clear. Robotics operators are the shown audience.",
+      "evidence": "V03,V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q04",
+      "finding": "Robot pose changes, gripper object interactions, camera orientation and red collision state are visible. 1 fps samples cannot establish smoothness, jitter or control latency.",
+      "evidence": "V02–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q05",
+      "finding": "Presenter explanations alternate with related camera, gripper and operator shots; the industrial location broadens the same robot-control theme.",
+      "evidence": "V02–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q06",
+      "finding": "Bright workshop windows, white tables and colored blocks keep the demo approachable; later metal parts add an industrial context.",
+      "evidence": "V03,V04,V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q07",
+      "finding": "Large opening claims are readable, but detailed telemetry is small. COLLISION is the clearest status change in the operator view.",
+      "evidence": "V01,V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q08",
+      "finding": "ASR supports technical script topics but has omissions and name errors. Audible delivery, mix and synchronization remain unknown.",
+      "evidence": "A01",
+      "status": "uncertain",
+      "reason": "Draft text only; no validated listening.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q09",
+      "finding": "Music character and structure are unverified.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "No validated listening.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q10",
+      "finding": "Effects and their sources are unverified.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "No validated listening; waveform peaks do not identify effects.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q11",
+      "finding": "Sound sync is unverified.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "No validated listening or paired audiovisual timing.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q12",
+      "finding": "Physical robots, operator footage and status overlays are shown. Capture continuity, network setup and overlay source are not established.",
+      "evidence": "V02–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q13",
+      "finding": "Source duration 71.593 s; Watch metadata 1920 × 1080. Frame rate, audio clipping and export quality not checked here.",
+      "evidence": "Whole film",
+      "status": "supported",
+      "reason": "Parent source metadata supports duration and dimensions; visual review is sampled.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q14",
+      "finding": "Headset/controllers and robot task views explain the interaction silently; the detailed architecture and distance claims depend more on speech.",
+      "evidence": "V03–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q15",
+      "finding": "First-person and external operator views complement each other; close block/part views isolate the practical task.",
+      "evidence": "V03–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q16",
+      "finding": "The film alternates explanation and physical examples throughout, with a longer industrial task section near the end.",
+      "evidence": "V01–V07",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q17",
+      "finding": "The remote-control premise is paid off with a visible headset operator and manipulation tasks; fastest/anywhere claims lack a shown comparison.",
+      "evidence": "V01,V04–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q18",
+      "finding": "Hands-on robot tasks may create confidence through concreteness; viewer trust or usability was not measured.",
+      "evidence": "V04–V06",
+      "status": "uncertain",
+      "reason": "Interpretation of demo choice.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q19",
+      "finding": "Repeated arms, operator perspective and presenter maintain the link between explanation and task footage.",
+      "evidence": "V01–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q20",
+      "finding": "Fastest, any-robot/anywhere, network stability and industrial-use statements are film claims. No latency, distance, reliability or safety validation was performed.",
+      "evidence": "V01,V02,V05,V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q21",
+      "finding": "The visible collision-feedback state and operator/robot pair make the software role clearer than hardware shots alone.",
+      "evidence": "V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q22",
+      "finding": "A synchronized operator/robot view with readable timing would directly support the speed proposition.",
+      "evidence": "V01,V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "Show one controller action and matching robot response side by side with measured timestamps and the actual network context."
+    },
+    {
+      "id": "Q23",
+      "finding": "For Tin, show the users action and agents response together when speed or control is a main claim.",
+      "evidence": "V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "Pair a user approval with the resulting campaign-state change, keeping the same asset and measured timestamps visible."
+    },
+    {
+      "id": "Q24",
+      "finding": "No human new-viewer test was performed.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "The product summary is this model’s film-only reading.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q25",
+      "finding": "Mobile preview and accessibility checks were not performed.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "Contact sheets are evidence views, not a stated mobile preview or compliance test.",
+      "experiment": "none"
+    }
+  ],
+  "elements": [
+    {
+      "kind": "ui",
+      "name": "teleoperation status overlay",
+      "events": [
+        "V05"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "collision warning",
+      "events": [
+        "V05"
+      ]
+    },
+    {
+      "kind": "motion",
+      "name": "robot object manipulation",
+      "events": [
+        "V02",
+        "V04",
+        "V06"
+      ]
+    },
+    {
+      "kind": "texture",
+      "name": "robotics workshop",
+      "events": [
+        "V01",
+        "V03",
+        "V04",
+        "V05"
+      ]
+    },
+    {
+      "kind": "texture",
+      "name": "industrial metal parts",
+      "events": [
+        "V06"
+      ]
+    }
+  ],
+  "lessons": {
+    "keep": "Pair first-person control views with an external view of the human and robot.",
+    "try": [
+      "Show synchronized controller/robot action with measured timestamps and actual network context.",
+      "For Tin, pair approval and resulting campaign-state change with a shared asset identifier and measured timing."
+    ],
+    "avoid": "Using sparse task footage to imply measured smoothness, latency or universal compatibility.",
+    "open": "Remote setup, measured response, compatibility, collision behavior, industrial-use claims and audio remain unverified."
+  },
+  "comparison": {
+    "story": "Control claim → technical explanation → operator/block demo → feedback → industrial application.",
+    "motion": "Robot manipulation and warning states observed; speed/smoothness cannot be measured from 1 fps sheets.",
+    "sound": "Partial ASR supports technical topics; no validated listening.",
+    "texture": "Bright workshop, colored blocks, headset/controllers and metal assembly.",
+    "lesson": "Show both sides of a control loop to make software behind physical action understandable."
+  },
+  "reviewer_model": "gpt-6-astra",
+  "scope": "sampled visual and story review; ASR and measured signal support; no validated audio listening",
+  "viewed_evidence": [
+    "technical-review-2026-10-19/deep-review/motion/193/timeline-00.jpg",
+    "technical-review-2026-10-19/deep-review/motion/193/timeline-01.jpg",
+    "technical-review-2026-10-19/deep-review/motion/193/timeline-02.jpg"
+  ],
+  "closer_windows": []
+}

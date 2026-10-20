@@ -1,0 +1,386 @@
+{
+  "id": 511,
+  "reviewer_model": "gpt-6-astra",
+  "scope": "sampled visual and story review; ASR and measured signal support; no validated audio listening",
+  "viewed_evidence": [
+    "technical-review-2026-10-19/deep-review/motion/511/timeline-00.jpg",
+    "technical-review-2026-10-19/deep-review/motion/511/timeline-01.jpg",
+    "technical-review-2026-10-19/deep-review/motion/511/timeline-02.jpg",
+    "technical-review-2026-10-19/deep-review/motion/511/timeline-03.jpg",
+    "technical-review-2026-10-19/deep-review/motion/511/timeline-04.jpg",
+    "technical-review-2026-10-19/deep-review/motion/511/timeline-05.jpg",
+    "technical-review-2026-10-19/deep-review/audio/511-speech.json"
+  ],
+  "closer_windows": [],
+  "product_from_film": "Cartesia introduces Sonic 2.0 voice generation with speed claims, pronunciation examples, voice changing and spoken-content editing.",
+  "explains_well": "The repeated sentence with Catherine, Jennifer and Jonathan isolates the intended infill edit clearly.",
+  "unclear": "The film presents voice examples but shows no user controls or integration step for creating and editing them.",
+  "product_type": "voice AI model launch",
+  "scenario": "Generate and alter speech for voice agents and creative content.",
+  "product_clear_time": 19,
+  "product_clear_basis": "The title explicitly names Sonic 2.0 as a voice foundation model.",
+  "scenes": [
+    {
+      "id": "V01",
+      "start": 0,
+      "end": 20,
+      "action": "A presenter is labeled Karan Goel, Founder / CEO of Cartesia. A collage of voice-AI headlines leads to Our latest voice foundation model and Sonic 2.0.",
+      "design": "Warm interview setting, black title cards and moving article tiles.",
+      "purpose": "Introduce the company and new model.",
+      "evidence": "Visible chronological 1 fps samples, source 0–20s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V02",
+      "start": 20,
+      "end": 40,
+      "action": "The presenter’s explanation leads to a fastest and most controllable claim, then two pie charts labeled Win Rate and Blinded Human Evals.",
+      "design": "Blue and black chart segments with small methodology text.",
+      "purpose": "Present preference-test claims.",
+      "evidence": "Visible chronological 1 fps samples, source 20–40s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V03",
+      "start": 40,
+      "end": 70,
+      "action": "A Model Latency bar comparison appears beside the presenter, then a P90 Latency chart compares providers across regions. Bars build into their final lengths.",
+      "design": "White and blue bars on black with small labels.",
+      "purpose": "Argue for speed in model and production use.",
+      "evidence": "Visible chronological 1 fps samples, source 40–70s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V04",
+      "start": 70,
+      "end": 90,
+      "action": "A list names names, emails, phone numbers and addresses. A small illustrated character and waveform accompany text giving a confirmation number and delivery address.",
+      "design": "Text reveals beside a character and blue waveform strip.",
+      "purpose": "Give a pronunciation example for critical information.",
+      "evidence": "Visible chronological 1 fps samples, source 70–90s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V05",
+      "start": 90,
+      "end": 111,
+      "action": "Voice cloning titles lead to several illustrated characters with text about a few seconds of audio, nuanced accents and a reporter in a hurricane.",
+      "design": "Black background, small character art, highlighted words and waveform graphics.",
+      "purpose": "Present expressive and cloning examples.",
+      "evidence": "Visible chronological 1 fps samples, source 90–111s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V06",
+      "start": 111,
+      "end": 131,
+      "action": "Voice Changer and Infill are introduced. Two different fantasy characters carry the same short phrase in successive example cards.",
+      "design": "Named character cards, blue waveform and repeated sentence.",
+      "purpose": "Illustrate a voice-change comparison.",
+      "evidence": "Visible chronological 1 fps samples, source 111–131s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V07",
+      "start": 131,
+      "end": 143,
+      "action": "The presenter introduces editing, then the same character and sentence repeat with Catherine, Jennifer and Jonathan highlighted in turn.",
+      "design": "Stable layout with only the name changing in blue.",
+      "purpose": "Isolate the intended content edit.",
+      "evidence": "Visible chronological 1 fps samples, source 131–143s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V08",
+      "start": 143,
+      "end": 164,
+      "action": "The presenter returns to the platform vision. A card says Sonic 2.0 runs natively with phone and laptop icons.",
+      "design": "Warm interview shots followed by spare device outlines.",
+      "purpose": "Describe infrastructure and device reach.",
+      "evidence": "Visible chronological 1 fps samples, source 143–164s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V09",
+      "start": 164,
+      "end": 174.976,
+      "action": "The presenter raises a phone, then the film closes on the Cartesia symbol and cartesia.ai/sonic.",
+      "design": "Phone gesture and simple URL card.",
+      "purpose": "Finish with an assistant-style handoff and destination.",
+      "evidence": "Visible chronological 1 fps samples, source 164–174.976s; boundary approximate; exact motion between samples unverified."
+    }
+  ],
+  "sound": [
+    {
+      "id": "A01",
+      "start": 0,
+      "end": 174.976,
+      "layer": "unknown",
+      "detail": "No validated direct audio listening was performed. Music, speech delivery, effects, mix and sync remain unknown, not absent.",
+      "visual_relation": "All visual scenes; audiovisual alignment unverified",
+      "evidence": "Visual samples only; no actual audio range supplied to this reviewer."
+    },
+    {
+      "id": "A02",
+      "start": 0.2,
+      "end": 171.26,
+      "layer": "ASR draft",
+      "detail": "The coherent ASR draft identifies Sonic 2, describes preference and latency claims, and supplies pronunciation, accent, soundscape, voice-change and name-edit example text. The three names in the infill sequence match the visible comparison structure. The draft does not establish how those examples sound, whether edits are seamless, or whether the benchmark claims are valid; some names and phrases are imperfectly recognized.",
+      "visual_relation": "Story text support; exact audiovisual alignment and delivery unverified.",
+      "evidence": "technical-review-2026-10-19/deep-review/audio/511-speech.json; local faster-whisper base CPU int8 draft; VAD candidates only, recognition errors possible."
+    }
+  ],
+  "categories": [
+    {
+      "id": "Q01",
+      "finding": "Model introduction leads through preference and latency claims, pronunciation and expressive examples, editing features and a platform close.",
+      "evidence": "V01–V09",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q02",
+      "finding": "The founder introduction gives authority, while the model name appears after a short voice-AI trend collage.",
+      "evidence": "V01",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q03",
+      "finding": "Voice-agent builders and creators are the likely users. The visible model label is clear, but implementation details are outside the film.",
+      "evidence": "V01,V04–V08",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q04",
+      "finding": "Article tiles spread across the frame, pie segments and bars build, example sentences reveal beside changing character cards, and highlighted names replace one another in the infill comparison.",
+      "evidence": "V01–V07",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q05",
+      "finding": "The presenter repeatedly introduces a claim, then a chart or example card supplies supporting material. Black cards separate the technical topics.",
+      "evidence": "V01–V08",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q06",
+      "finding": "Warm wood and a textured sweater make the interview personal. Black cards, serif text and blue highlights keep technical examples visually consistent.",
+      "evidence": "V01–V09",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q07",
+      "finding": "Feature titles are concise. Detailed chart labels and footnotes are small, while the highlighted name changes make the infill example especially readable.",
+      "evidence": "V02–V07",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q08",
+      "finding": "The coherent ASR draft identifies Sonic 2, describes preference and latency claims, and supplies pronunciation, accent, soundscape, voice-change and name-edit example text. The three names in the infill sequence match the visible comparison structure. The draft does not establish how those examples sound, whether edits are seamless, or whether the benchmark claims are valid; some names and phrases are imperfectly recognized.",
+      "evidence": "A02",
+      "status": "uncertain",
+      "reason": "ASR text only; no validated listening, delivery or voice origin.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q09",
+      "finding": "Voice delivery, music, effects and audiovisual alignment were not established by this visual pass.",
+      "evidence": "A01",
+      "status": "not checked",
+      "reason": "No validated direct audio listening input.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q10",
+      "finding": "Voice delivery, music, effects and audiovisual alignment were not established by this visual pass.",
+      "evidence": "A01",
+      "status": "not checked",
+      "reason": "No validated direct audio listening input.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q11",
+      "finding": "Voice delivery, music, effects and audiovisual alignment were not established by this visual pass.",
+      "evidence": "A01",
+      "status": "not checked",
+      "reason": "No validated direct audio listening input.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q12",
+      "finding": "Interview footage, article cards, animated charts, illustrated character samples, text and waveform graphics form the production.",
+      "evidence": "V01–V09",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q13",
+      "finding": "Manifest duration 174.976s; indexed dimensions 1280×720. Source unchanged flag recorded; fresh encoding and audio clipping checks not run.",
+      "evidence": "Group manifest",
+      "status": "uncertain",
+      "reason": "Inherited technical metadata; no fresh media probe in this review.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q14",
+      "finding": "The charts and text explain the claimed features visually, but voice quality, accents and soundscape differences cannot be judged without validated listening.",
+      "evidence": "V02–V07",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q15",
+      "finding": "Blue highlights identify the model in charts and the edited names in examples. The small character pictures add identity but do not explain the generation controls.",
+      "evidence": "V02–V07",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q16",
+      "finding": "The first seventy seconds emphasize model positioning and measurements. The most concrete editable-content example arrives around 136s.",
+      "evidence": "V01–V07",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q17",
+      "finding": "The sequence moves from infrastructure claims to creative control. Each example is separate rather than one integrated user workflow.",
+      "evidence": "V02–V08",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q18",
+      "finding": "The measured charts and steady presenter framing suggest a technical product explanation. No judgment of voice warmth or expressiveness is possible from these images.",
+      "evidence": "V01–V09",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q19",
+      "finding": "The repeated name-edit sentence is a strong controlled visual comparison. The voice-change cards also repeat text, but their audible difference remains unverified here.",
+      "evidence": "V06–V07",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q20",
+      "finding": "Preference, latency, uptime and native-device statements are film claims, not independently reproduced results. Waveform graphics do not establish audio quality, exact alignment or successful infill.",
+      "evidence": "V02–V08",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q21",
+      "finding": "Cartesia appears in the presenter label, examples and final URL. Blue highlight treatment connects the technical sections.",
+      "evidence": "V01,V05,V09",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q22",
+      "finding": "Show a short editor or API request that changes one name, then the before-and-after output, with a readable link to the measurement method.",
+      "evidence": "V02,V07",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q23",
+      "finding": "Keep the example sentence fixed and change one marked word to make an editing feature easy to understand.",
+      "evidence": "V07",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q24",
+      "finding": "Cartesia introduces Sonic 2.0 voice generation with speed claims, pronunciation examples, voice changing and spoken-content editing.",
+      "evidence": "Model reading from inspected images",
+      "status": "uncertain",
+      "reason": "Model-only new-viewer interpretation; no human test.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q25",
+      "finding": "Contact sheets inspected at displayed size; a phone-size playback, caption audit, flash audit and formal accessibility check were not performed.",
+      "evidence": "Viewed sheets",
+      "status": "not checked",
+      "reason": "Full-size moving-image and device checks unavailable in this pass.",
+      "experiment": "none"
+    }
+  ],
+  "lessons": {
+    "keep": "Use a stable example and one highlighted change to explain precise editing.",
+    "avoid": "Using waveform graphics as a substitute for demonstrating the actual editing control.",
+    "open": "Audible voice quality, accent fidelity, editing smoothness, benchmark validity and integration steps remain unverified.",
+    "try": [
+      "For Tin, show one campaign sentence with only a selected product or audience detail changed, then its approved result.",
+      "Place a brief input-and-control demonstration before the charts so viewers know how the voice model is used."
+    ]
+  },
+  "comparison": {
+    "story": "Introduce the company and new model. → Present preference-test claims. → Argue for speed in model and production use. → Give a pronunciation example for critical information. → Present expressive and cloning examples. → Illustrate a voice-change comparison. → Isolate the intended content edit. → Describe infrastructure and device reach. → Finish with an assistant-style handoff and destination.",
+    "motion": "Article tiles spread across the frame, pie segments and bars build, example sentences reveal beside changing character cards, and highlighted names replace one another in the infill comparison. Sampling scope: 1 fps unless a closer window is recorded.",
+    "sound": "No validated listening; unknown.",
+    "texture": "Warm interview setting, black title cards and moving article tiles.; Blue and black chart segments with small methodology text.; White and blue bars on black with small labels.; Text reveals beside a character and blue waveform strip.; Black background, small character art, highlighted words and waveform graphics.; Named character cards, blue waveform and repeated sentence.; Stable layout with only the name changing in blue.; Warm interview shots followed by spare device outlines.; Phone gesture and simple URL card.",
+    "lesson": "Use a stable example and one highlighted change to explain precise editing."
+  },
+  "elements": [
+    {
+      "kind": "ui",
+      "name": "pie chart",
+      "events": [
+        "V02"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "bar chart",
+      "events": [
+        "V03"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "waveform graphic",
+      "events": [
+        "V04",
+        "V05",
+        "V06",
+        "V07"
+      ]
+    },
+    {
+      "kind": "motion",
+      "name": "highlighted word replacement",
+      "events": [
+        "V07"
+      ]
+    },
+    {
+      "kind": "texture",
+      "name": "warm interview setting",
+      "events": [
+        "V01",
+        "V03",
+        "V08",
+        "V09"
+      ]
+    }
+  ]
+}

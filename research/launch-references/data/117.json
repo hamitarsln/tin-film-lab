@@ -1,0 +1,403 @@
+{
+  "id": 117,
+  "product_from_film": "Watch.fun presents a luxury-watch prize-draw service with paid tickets, displayed odds and winner screens.",
+  "explains_well": "A physical watch opens the promise, and later UI shows buying tickets, entering a draw and receiving a result.",
+  "unclear": "Fairness, authentication, custody, eligibility, fees and real winner delivery are not verified by the film.",
+  "product_type": "consumer prize-draw platform",
+  "scenario": "Buy tickets, enter a luxury-watch draw, inspect changing displayed odds and see winner or extra-ticket outcomes.",
+  "product_clear_time": 5,
+  "product_clear_basis": "A watch card changes from a $19,000 value to Win $19 beside the presenter; detailed mechanism appears at 76–93s.",
+  "scenes": [
+    {
+      "start": 0,
+      "end": 7,
+      "action": "Presenter holds a watch beside a floating product card that shifts from $19,000 to Win $19.",
+      "design": "Gold-lit rounded card, reflective steel watch and warm interior.",
+      "purpose": "Contrast item value with entry cost as the hook.",
+      "evidence": "1 fps source samples in 0–7s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V01"
+    },
+    {
+      "start": 7,
+      "end": 19,
+      "action": "Presenter identification, website panels, $70,000 text and social icons give way to watch photographs and boxes.",
+      "design": "Founder-style talking head with floating UI and product photography.",
+      "purpose": "Build personal credibility; past-volume claim is not independently checked.",
+      "evidence": "1 fps source samples in 7–19s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V02"
+    },
+    {
+      "start": 19,
+      "end": 30,
+      "action": "Private raffle post and crowded chat bubbles show payment, remaining spots and money-back questions.",
+      "design": "Burgundy field, phone frame and glowing message cards.",
+      "purpose": "Visualize confusion in informal watch groups.",
+      "evidence": "1 fps source samples in 19–30s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V03"
+    },
+    {
+      "start": 30,
+      "end": 44,
+      "action": "PayPal-like policy text and payment-risk label lead to cropped group rules and comment screenshots.",
+      "design": "Highlighted document lines and enlarged dark social posts.",
+      "purpose": "Present payment trust concerns; policy accuracy is not checked.",
+      "evidence": "1 fps source samples in 30–44s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V04"
+    },
+    {
+      "start": 44,
+      "end": 58,
+      "action": "Phone chat shows entry-confirmation questions, then No Authentication and paired Authentic/Fake watch details appear.",
+      "design": "Gold phone, waiting dots and side-by-side watch close-ups.",
+      "purpose": "Add uncertainty about entry status and watch authenticity.",
+      "evidence": "1 fps source samples in 44–58s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V05"
+    },
+    {
+      "start": 58,
+      "end": 76,
+      "action": "Watch.fun title leads to watch listing UI, then a ring of inspection footage cards and On-chain, Transparent and Authenticated labels.",
+      "design": "Burgundy-gold system with rounded footage and interface cards.",
+      "purpose": "Present the proposed service and trust claims; labels are claims.",
+      "evidence": "1 fps source samples in 58–76s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V06"
+    },
+    {
+      "start": 76,
+      "end": 86,
+      "action": "Buying Tickets title leads to ticket packs and a phone entry view; quantity and displayed odds change.",
+      "design": "Dark product interface, gold buttons and enlarged number selector.",
+      "purpose": "Show the purchase and entry mechanism.",
+      "evidence": "1 fps source samples in 76–86s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V07"
+    },
+    {
+      "start": 86,
+      "end": 94,
+      "action": "Dropping Now screen becomes a named winner celebration, followed by extra-ticket and non-winner messaging.",
+      "design": "Confetti, gold tickets and large outcome cards.",
+      "purpose": "Show draw outcomes, including an alternative reward.",
+      "evidence": "1 fps source samples in 86–94s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V08"
+    },
+    {
+      "start": 94,
+      "end": 104,
+      "action": "Presenter returns with four stacked benefit labels, followed by the service page and upcoming drops.",
+      "design": "Gold benefit cards alongside presenter, then browser-like UI.",
+      "purpose": "Recap the offer and available listings.",
+      "evidence": "1 fps source samples in 94–104s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V09"
+    },
+    {
+      "start": 104,
+      "end": 113.9,
+      "action": "Presenter and social-post view ask for DROP comments, then brand mark and watch.fun close the film.",
+      "design": "Comment feed and gold logo on burgundy.",
+      "purpose": "Offer a visible invitation action.",
+      "evidence": "1 fps source samples in 104–113.9s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V10"
+    }
+  ],
+  "categories": [
+    {
+      "id": "Q01",
+      "finding": "Value-versus-entry hook → personal experience → informal-market problems → service → tickets and draw → recap → comment CTA.",
+      "evidence": "V01–V10",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q02",
+      "finding": "A physical watch paired with $19,000 and Win $19 makes the price contrast concrete in the first five seconds.",
+      "evidence": "V01",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q03",
+      "finding": "Watch prize-draw intent is clear at about 5s; detailed participation steps wait until 76s.",
+      "evidence": "V01,V07",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q04",
+      "finding": "Floating cards, changed card orientations, number states and confetti appear. Exact rotations, easing and draw timing need denser frames.",
+      "evidence": "V01,V06–V08",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q05",
+      "finding": "Presenter footage alternates with watch photographs, chat/document evidence and product UI. Burgundy and gold link the changes.",
+      "evidence": "V02–V09",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q06",
+      "finding": "Reflective watch metal and warm interior footage combine with glossy gold-edged cards.",
+      "evidence": "V01,V02,V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q07",
+      "finding": "Key claims and outcomes are large, while policy screenshots, subtitles and draw details are much denser.",
+      "evidence": "V04,V07,V09",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q08",
+      "finding": "The inspected ASR draft provides partial script-role support; recognition limits are recorded in A02. Audible voice characteristics and delivery remain unchecked.",
+      "evidence": "A02",
+      "status": "uncertain",
+      "reason": "Local draft text was read; no direct listening.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q09",
+      "finding": "Music character and structure are unverified.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "No validated listening.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q10",
+      "finding": "Effects and their sources are unverified.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "No validated listening; waveform peaks do not identify effects.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q11",
+      "finding": "Sound sync is unverified.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "No validated listening or paired audiovisual timing.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q12",
+      "finding": "Live-action-style presenter, watch photographs, inspection clips and designed UI are mixed. Asset origins and production tools are unknown.",
+      "evidence": "V01–V09",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q13",
+      "finding": "Source duration 113.9 s; Watch metadata 1280 × 720. Frame rate, audio clipping and export quality not checked here.",
+      "evidence": "Whole film",
+      "status": "supported",
+      "reason": "Parent source metadata supports duration and dimensions; visual review is sampled.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q14",
+      "finding": "The silent sequence explains a paid watch draw and its broad steps; exact terms and spoken details are harder to recover.",
+      "evidence": "V01,V07,V08",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q15",
+      "finding": "The opening watch and price dominate, then highlighted policy lines and isolated UI controls guide attention.",
+      "evidence": "V01,V04,V07",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q16",
+      "finding": "The problem section occupies about 39s before the service reveal, making the setup long relative to the roughly 18s ticket-and-result demo.",
+      "evidence": "V03–V08",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q17",
+      "finding": "The opening low-entry-cost watch promise is followed by ticket purchase and winner views. Actual delivery is not shown.",
+      "evidence": "V01,V07,V08",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q18",
+      "finding": "Luxury materials and celebratory confetti may support aspiration and excitement; audience effects are unmeasured.",
+      "evidence": "V01,V08",
+      "status": "uncertain",
+      "reason": "Interpretation of visual design.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q19",
+      "finding": "Burgundy, gold glow and rounded cards remain consistent across chat, inspection footage and product UI.",
+      "evidence": "V03–V10",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q20",
+      "finding": "The film shows displayed odds, named outcome and inspection imagery. Fairness, authentication, on-chain execution and real delivery are not independently verified.",
+      "evidence": "V06–V08",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q21",
+      "finding": "The eye-like gold mark, burgundy field and founder presentation create a consistent brand presence.",
+      "evidence": "V02,V06,V10",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q22",
+      "finding": "Payment and entry concerns could be compressed so the actual service appears earlier.",
+      "evidence": "V03–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "Keep one payment example and one authenticity comparison, then move directly to the ticket interface."
+    },
+    {
+      "id": "Q23",
+      "finding": "For Tin, pair a specific pain with its matching product step instead of presenting many problems before the demo.",
+      "evidence": "V03–V07",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "Show one approval delay, then immediately demonstrate the approval state that resolves it."
+    },
+    {
+      "id": "Q24",
+      "finding": "No human new-viewer test was performed.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "The product summary is this model’s film-only reading.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q25",
+      "finding": "Mobile preview and accessibility checks were not performed.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "Contact sheets are evidence views, not a stated mobile preview or compliance test.",
+      "experiment": "none"
+    }
+  ],
+  "elements": [
+    {
+      "kind": "ui",
+      "name": "product card",
+      "events": [
+        "V01",
+        "V06"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "chat",
+      "events": [
+        "V03",
+        "V05"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "document",
+      "events": [
+        "V04"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "number selector",
+      "events": [
+        "V07"
+      ]
+    },
+    {
+      "kind": "motion",
+      "name": "confetti",
+      "events": [
+        "V08"
+      ]
+    },
+    {
+      "kind": "motion",
+      "name": "floating cards",
+      "events": [
+        "V06"
+      ]
+    },
+    {
+      "kind": "texture",
+      "name": "reflective metal",
+      "events": [
+        "V01",
+        "V02"
+      ]
+    }
+  ],
+  "lessons": {
+    "keep": "Show the real object beside the offer, then give a visible entry-to-outcome sequence.",
+    "try": [
+      "Shorten the problem section to one payment example and one authentication comparison, then compare time to describe the service.",
+      "For Tin, pair each shown approval problem immediately with its matching product action and visible result."
+    ],
+    "avoid": "Treating trust labels, displayed odds or celebratory UI as independent proof of fairness and fulfilment.",
+    "open": "Draw terms, odds calculation, custody, authentication process, eligibility, real delivery and audio remain unverified."
+  },
+  "comparison": {
+    "story": "Watch value hook → founder credibility → informal-market friction → trust claims → ticket entry → draw outcome → CTA.",
+    "motion": "Floating card states, number changes and confetti; exact movement and timing unverified.",
+    "sound": "No validated listening; captions are visible text, not proof of delivery or music.",
+    "texture": "Reflective watches, warm presenter room and burgundy-gold interface treatment.",
+    "lesson": "Connect the physical prize to the interface, but reach the participation steps sooner."
+  },
+  "reviewer_model": "gpt-6-astra",
+  "scope": "sampled visual and story review; ASR and measured signal support; no validated audio listening",
+  "viewed_evidence": [
+    "technical-review-2026-10-19/deep-review/motion/117/timeline-00.jpg",
+    "technical-review-2026-10-19/deep-review/motion/117/timeline-01.jpg",
+    "technical-review-2026-10-19/deep-review/motion/117/timeline-02.jpg",
+    "technical-review-2026-10-19/deep-review/motion/117/timeline-03.jpg"
+  ],
+  "closer_windows": [],
+  "sound": [
+    {
+      "id": "A01",
+      "start": 0,
+      "end": 113.9,
+      "layer": "unknown",
+      "detail": "No validated audio listening. Voice delivery, music, effects and mix are unknown.",
+      "visual_relation": "All scenes; sound alignment unverified",
+      "evidence": "No actual audio perception in this review; prepared audio files are not listening evidence."
+    },
+    {
+      "id": "A02",
+      "start": 0,
+      "end": 113.9,
+      "layer": "ASR draft",
+      "detail": "The draft follows a founder introduction, problems with informal watch raffles, authentication/payment/odds claims, ticket entry and a live draw, then invite-code instructions. Brand and partner names and some ticket wording are misrecognized; trust and fairness claims remain unverified. No validated listening; delivery, music, effects, mix and synchronization remain unknown.",
+      "visual_relation": "Whole-film script role only; ASR timing and audible delivery not validated.",
+      "evidence": "technical-review-2026-10-19/deep-review/audio/117-speech.json; local faster-whisper draft inspected."
+    }
+  ]
+}

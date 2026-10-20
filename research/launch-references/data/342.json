@@ -1,0 +1,317 @@
+{
+  "id": 342,
+  "reviewer_model": "gpt-6-astra",
+  "scope": "sampled visual and story review; ASR and measured signal support; no validated audio listening",
+  "viewed_evidence": [
+    "technical-review-2026-10-19/deep-review/motion/342/timeline-00.jpg",
+    "technical-review-2026-10-19/deep-review/motion/342/timeline-01.jpg",
+    "astra-review-2026-10-20/evidence/group-2/342-4.5-7.5-8fps.jpg"
+  ],
+  "closer_windows": [
+    {
+      "start": 4.5,
+      "end": 7.5,
+      "rate_fps": 8,
+      "evidence": [
+        "astra-review-2026-10-20/evidence/group-2/342-4.5-7.5-8fps.jpg"
+      ],
+      "resolved": "The car approaches; a small craft becomes visible above it and travels away as the camera follows. The subject remains too small to resolve the attachment or release mechanism."
+    }
+  ],
+  "product_from_film": "The film shows small-aircraft flight footage and a separate bench test of a glowing exhaust device; no product name or offer is visible.",
+  "explains_well": "The daylight sequence keeps the moving car and then airborne craft in a shared outdoor scene.",
+  "unclear": "The film gives no labels connecting the airborne craft to the bench device or explaining the test goal and result.",
+  "product_type": "hardware test footage",
+  "scenario": "Observe a small craft becoming airborne near a moving car, then view a separate exhaust test.",
+  "product_clear_time": null,
+  "product_clear_basis": "No in-film title, specification, presenter explanation or call to action establishes a complete offer.",
+  "scenes": [
+    {
+      "id": "V01",
+      "start": 0,
+      "end": 16,
+      "action": "A wide road view shows a car approaching. In the checked 4.5–7.5 s window, a small craft becomes visible above the car and flies across the field while the camera follows it. Later sky views show it as a distant dot.",
+      "design": "Unlabelled outdoor footage with wide framing and small subjects.",
+      "purpose": "Present a flight event; the exact release mechanism is too small to resolve.",
+      "evidence": "Visible chronological 1 fps samples, source 0–16s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V02",
+      "start": 16,
+      "end": 30,
+      "action": "A night field view holds on distant lights and people, then tilts upward to a small lit object in the sky.",
+      "design": "Dark handheld-looking footage with a small moving light.",
+      "purpose": "Show another flight-related sequence, with identity and relation to the daylight test unspecified.",
+      "evidence": "Visible chronological 1 fps samples, source 16–30s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V03",
+      "start": 30,
+      "end": 59.025,
+      "action": "A cylindrical device sits on a red bench. A pale blue-white flame extends from its opening and changes length. The opening becomes strongly red/pink; the visible flame reduces near the end while the glow remains.",
+      "design": "Dim indoor close-up, red support frame and bright exhaust glow.",
+      "purpose": "Show a separate physical test without labels, measurements or a final explanation.",
+      "evidence": "Visible chronological 1 fps samples, source 30–59.025s; boundary approximate; exact motion between samples unverified."
+    }
+  ],
+  "sound": [
+    {
+      "id": "A01",
+      "start": 0,
+      "end": 59.025,
+      "layer": "unknown",
+      "detail": "No validated direct audio listening was performed. Music, speech delivery, effects, mix and sync remain unknown, not absent.",
+      "visual_relation": "All visual scenes; audiovisual alignment unverified",
+      "evidence": "Visual samples only; no actual audio range supplied to this reviewer."
+    }
+  ],
+  "categories": [
+    {
+      "id": "Q01",
+      "finding": "Daylight flight is followed by night flight-like footage and a long bench exhaust test.",
+      "evidence": "V01–V03",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q02",
+      "finding": "The film begins with an unlabelled road view and makes the viewer wait several seconds for the moving car and craft.",
+      "evidence": "V01",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q03",
+      "finding": "A complete product offer is not established from the visual footage.",
+      "evidence": "V01–V03",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q04",
+      "finding": "The camera pans after the airborne craft, tilts toward a night light and then holds while the bench flame changes length and the outlet glows red. The 8 fps window improves launch continuity but not release-mechanism detail.",
+      "evidence": "V01–V03",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q05",
+      "finding": "The three clips share an apparent flight/hardware theme, but no identifier or annotation proves they show the same system.",
+      "evidence": "V01–V03",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q06",
+      "finding": "Natural daylight changes to dark night footage and a dim bench scene; bright exhaust provides the final visual focus.",
+      "evidence": "V01–V03",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q07",
+      "finding": "The aircraft is tiny in both flight views. The bench device is easier to see, but there is no explanatory text.",
+      "evidence": "V01–V03",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q08",
+      "finding": "Voice delivery, music, effects and audiovisual alignment were not established by this visual pass.",
+      "evidence": "A01",
+      "status": "not checked",
+      "reason": "No validated direct audio listening input.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q09",
+      "finding": "Voice delivery, music, effects and audiovisual alignment were not established by this visual pass.",
+      "evidence": "A01",
+      "status": "not checked",
+      "reason": "No validated direct audio listening input.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q10",
+      "finding": "Voice delivery, music, effects and audiovisual alignment were not established by this visual pass.",
+      "evidence": "A01",
+      "status": "not checked",
+      "reason": "No validated direct audio listening input.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q11",
+      "finding": "Voice delivery, music, effects and audiovisual alignment were not established by this visual pass.",
+      "evidence": "A01",
+      "status": "not checked",
+      "reason": "No validated direct audio listening input.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q12",
+      "finding": "Outdoor flight footage and an indoor device test are visible. Capture equipment and editing tools are unknown.",
+      "evidence": "V01–V03",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q13",
+      "finding": "Manifest duration 59.025s; indexed dimensions 1080×1080. Source unchanged flag recorded; fresh encoding and audio clipping checks not run.",
+      "evidence": "Group manifest",
+      "status": "uncertain",
+      "reason": "Inherited technical metadata; no fresh media probe in this review.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q14",
+      "finding": "The physical events are visible, but purpose, identity and success criteria cannot be understood from the imagery alone. No ASR draft is available.",
+      "evidence": "V01–V03",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q15",
+      "finding": "The flight is framed wide enough to preserve surroundings; the bench device receives a much longer close view.",
+      "evidence": "V01,V03",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q16",
+      "finding": "Daylight footage takes 16 s, night footage 14 s and the bench test almost 29 s. The longest segment has no result label.",
+      "evidence": "V01–V03",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q17",
+      "finding": "The craft is visibly airborne and the bench device emits a flame. Range, endurance, control and successful completion are not shown as measured outcomes.",
+      "evidence": "V01,V03",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q18",
+      "finding": "Unpolished-looking test footage may suggest direct engineering evidence, but its interpretation requires context; this is a creative reading.",
+      "evidence": "V01–V03",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q19",
+      "finding": "The closer window shows a craft above the moving car before the camera follows it. It does not resolve the attachment or release, and the bench clip has no explicit link to the craft.",
+      "evidence": "V01,V03",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q20",
+      "finding": "The source title is not treated as proof of propulsion, autonomy or successful launch mechanics. No test conditions, telemetry or measured performance are visible.",
+      "evidence": "V01–V03",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q21",
+      "finding": "The car, airborne craft and glowing bench device are specific physical events, though the missing labels limit their explanatory value.",
+      "evidence": "V01–V03",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q22",
+      "finding": "Add a title naming the test, a close view of the relevant hardware, a shared system label and a final measured result.",
+      "evidence": "V01–V03",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q23",
+      "finding": "Tin can preserve raw test evidence while adding a clear goal, action marker and pass/fail criterion.",
+      "evidence": "V01–V03",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q24",
+      "finding": "The film shows small-aircraft flight footage and a separate bench test of a glowing exhaust device; no product name or offer is visible.",
+      "evidence": "Model reading from inspected images",
+      "status": "uncertain",
+      "reason": "Model-only new-viewer interpretation; no human test.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q25",
+      "finding": "Contact sheets inspected at displayed size; a phone-size playback, caption audit, flash audit and formal accessibility check were not performed.",
+      "evidence": "Viewed sheets",
+      "status": "not checked",
+      "reason": "Full-size moving-image and device checks unavailable in this pass.",
+      "experiment": "none"
+    }
+  ],
+  "lessons": {
+    "keep": "Keep the action and surrounding physical context in the same shot.",
+    "avoid": "Avoid leaving viewers to infer the product and test success from unlabelled footage.",
+    "open": "System identity, release mechanism, link between clips, test conditions, performance and all audio remain unverified.",
+    "try": [
+      "For Tin, label a raw workflow recording with the test goal and the moment the key action happens.",
+      "End with the measured result and connect any later diagnostic clip to the same run ID."
+    ]
+  },
+  "comparison": {
+    "story": "Present a flight event; the exact release mechanism is too small to resolve. → Show another flight-related sequence, with identity and relation to the daylight test unspecified. → Show a separate physical test without labels, measurements or a final explanation.",
+    "motion": "The camera pans after the airborne craft, tilts toward a night light and then holds while the bench flame changes length and the outlet glows red. The 8 fps window improves launch continuity but not release-mechanism detail. Sampling scope: 1 fps unless a closer window is recorded.",
+    "sound": "No validated listening; unknown.",
+    "texture": "Unlabelled outdoor footage with wide framing and small subjects.; Dark handheld-looking footage with a small moving light.; Dim indoor close-up, red support frame and bright exhaust glow.",
+    "lesson": "Keep the action and surrounding physical context in the same shot."
+  },
+  "elements": [
+    {
+      "kind": "motion",
+      "name": "camera follows aircraft",
+      "events": [
+        "V01"
+      ]
+    },
+    {
+      "kind": "motion",
+      "name": "changing flame length",
+      "events": [
+        "V03"
+      ]
+    },
+    {
+      "kind": "texture",
+      "name": "outdoor test footage",
+      "events": [
+        "V01",
+        "V02"
+      ]
+    },
+    {
+      "kind": "texture",
+      "name": "glowing metal outlet",
+      "events": [
+        "V03"
+      ]
+    }
+  ]
+}

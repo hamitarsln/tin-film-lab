@@ -1,0 +1,340 @@
+{
+  "id": 469,
+  "product_from_film": "Claude for Chrome is a research-preview assistant opened from a browser extension into a sidebar beside web pages.",
+  "explains_well": "The extension icon and sidebar opening clearly show where the assistant lives.",
+  "unclear": "The example pages change quickly and their small prompts and results do not clearly show one completed task.",
+  "product_type": "Browser assistant",
+  "scenario": "Open the Claude sidebar and use it alongside property listings, a document, food listings and a business form.",
+  "product_clear_time": 8,
+  "product_clear_basis": "The Claude extension opens a named sidebar at 8s, followed by the Claude’s in your Chrome page.",
+  "scenes": [
+    {
+      "start": 0,
+      "end": 4,
+      "action": "Research-preview text leads to a drawn monitor and oversized cursor.",
+      "design": "Warm beige field and hand-drawn black lines.",
+      "purpose": "Introduce browser interaction.",
+      "evidence": "1 fps source samples in 0–4s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V01"
+    },
+    {
+      "start": 4,
+      "end": 12,
+      "action": "The view focuses the browser toolbar; the Claude icon is selected and a sidebar opens with a prompt field.",
+      "design": "Close view of toolbar and white sidebar.",
+      "purpose": "Show access and entry point.",
+      "evidence": "1 fps source samples in 4–12s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V02"
+    },
+    {
+      "start": 12,
+      "end": 18,
+      "action": "The whole browser shows Claude’s in your Chrome, then property listings/map and a document table beside assistant responses.",
+      "design": "Consistent browser/sidebar split.",
+      "purpose": "Show assistance across page types.",
+      "evidence": "1 fps source samples in 12–18s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V03"
+    },
+    {
+      "start": 18,
+      "end": 25,
+      "action": "Food listings change to search results, followed by a business form with fields beside the assistant.",
+      "design": "Same browser shell with different site content.",
+      "purpose": "Suggest browsing and form work.",
+      "evidence": "1 fps source samples in 18–25s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V04"
+    },
+    {
+      "start": 25,
+      "end": 32.041,
+      "action": "Research preview and Meet your thinking partner on any tab lead to the Claude logo.",
+      "design": "Centered serif text on beige.",
+      "purpose": "Restate scope and close.",
+      "evidence": "1 fps source samples in 25–32.041s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V05"
+    }
+  ],
+  "categories": [
+    {
+      "id": "Q01",
+      "finding": "Preview label → access point → page examples → promise and brand.",
+      "evidence": "V01–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q02",
+      "finding": "The drawn monitor and oversized cursor provide a simple browser cue.",
+      "evidence": "V01",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q03",
+      "finding": "The extension opening at 8s is the clearest product explanation.",
+      "evidence": "V02",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q04",
+      "finding": "The view moves between toolbar detail and full browser; page states change inside a stable shell. Exact movement timing unverified.",
+      "evidence": "V02–V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q05",
+      "finding": "The browser frame connects the examples; beige cards frame the introduction and close.",
+      "evidence": "V01–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q06",
+      "finding": "Warm neutral surround and restrained black line art soften the software presentation.",
+      "evidence": "V01,V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q07",
+      "finding": "Preview label and final promise are clear; prompts and answers are small in the full-window montage.",
+      "evidence": "V03–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q08",
+      "finding": "Voice delivery is unverified.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "No validated listening.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q09",
+      "finding": "Music character and structure are unverified.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "No validated listening.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q10",
+      "finding": "Effects and their sources are unverified.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "No validated listening; waveform peaks do not identify effects.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q11",
+      "finding": "Sound sync is unverified.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "No validated listening or paired audiovisual timing.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q12",
+      "finding": "Browser extension, chat sidebar, map, document and form are visible; live behavior unverified.",
+      "evidence": "V02–V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q13",
+      "finding": "Source duration 32.041 s; Watch metadata 1920 × 1080. Frame rate, audio clipping and export quality not checked here.",
+      "evidence": "Whole film",
+      "status": "supported",
+      "reason": "Parent source metadata supports duration and dimensions; visual review is sampled.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q14",
+      "finding": "The sidebar location is clear without sound; specific task success is less clear.",
+      "evidence": "V02–V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q15",
+      "finding": "Close toolbar framing teaches entry; later full-window framing favors breadth over readable details.",
+      "evidence": "V02–V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q16",
+      "finding": "About twelve seconds establish access before roughly thirteen seconds of examples.",
+      "evidence": "V01–V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q17",
+      "finding": "The any-tab promise is illustrated by varied pages, but no single final outcome is held.",
+      "evidence": "V03–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q18",
+      "finding": "Restrained framing suggests a calm helper; audience response unmeasured.",
+      "evidence": "V01–V05",
+      "status": "uncertain",
+      "reason": "Visual interpretation.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q19",
+      "finding": "Claude stays in the right sidebar while the page content changes.",
+      "evidence": "V03,V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q20",
+      "finding": "Answer accuracy, form submission, action permissions and current research-preview access were not verified.",
+      "evidence": "V03–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q21",
+      "finding": "The browser-toolbar entry point and consistent sidebar make the integration concrete.",
+      "evidence": "V02–V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q22",
+      "finding": "Give one example a readable result.",
+      "evidence": "V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "Enlarge one request, show the changed field and hold its final status before changing sites."
+    },
+    {
+      "id": "Q23",
+      "finding": "Show where a helper opens before showing its range.",
+      "evidence": "V02",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "For Tin, demonstrate the entry button and one complete campaign task before a feature montage."
+    },
+    {
+      "id": "Q24",
+      "finding": "No human new-viewer test was performed.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "The product summary is this model’s film-only reading.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q25",
+      "finding": "Mobile preview and accessibility checks were not performed.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "Contact sheets are evidence views, not a stated mobile preview or compliance test.",
+      "experiment": "none"
+    }
+  ],
+  "elements": [
+    {
+      "kind": "ui",
+      "name": "browser toolbar",
+      "events": [
+        "V02"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "chat sidebar",
+      "events": [
+        "V02",
+        "V03",
+        "V04"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "map",
+      "events": [
+        "V03"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "document table",
+      "events": [
+        "V03"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "form",
+      "events": [
+        "V04"
+      ]
+    },
+    {
+      "kind": "motion",
+      "name": "UI reframing",
+      "events": [
+        "V02",
+        "V03"
+      ]
+    }
+  ],
+  "lessons": {
+    "keep": "Show the exact entry point and keep the assistant location consistent.",
+    "try": [
+      "Hold one readable request, changed field and final status.",
+      "For Tin, show entry and one complete task before demonstrating range."
+    ],
+    "avoid": "Treating a sequence of app pages as a completed workflow.",
+    "open": "Specific task outcomes, live behavior, permissions and sound remain unverified."
+  },
+  "comparison": {
+    "story": "Access point, broad examples and preview promise.",
+    "motion": "Toolbar close-up to full browser and page-state changes.",
+    "sound": "No validated listening or available ASR.",
+    "texture": "Beige cards, hand-drawn cursor and ordinary browser UI.",
+    "lesson": "Integration is clearest when its entry point is shown."
+  },
+  "reviewer_model": "gpt-6-astra",
+  "scope": "sampled visual and story review; ASR and measured signal support; no validated audio listening",
+  "viewed_evidence": [
+    "technical-review-2026-10-19/deep-review/motion/469/timeline-00.jpg",
+    "technical-review-2026-10-19/deep-review/motion/469/timeline-01.jpg"
+  ],
+  "closer_windows": [],
+  "sound": [
+    {
+      "id": "A01",
+      "start": 0,
+      "end": 32.041,
+      "layer": "unknown",
+      "detail": "No validated audio listening. Voice delivery, music, effects and mix are unknown.",
+      "visual_relation": "All scenes; sound alignment unverified",
+      "evidence": "No actual audio perception in this review; prepared audio files are not listening evidence."
+    }
+  ]
+}

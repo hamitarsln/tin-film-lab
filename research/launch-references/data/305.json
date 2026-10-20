@@ -1,0 +1,347 @@
+{
+  "id": 305,
+  "product_from_film": "Lovable turns a plain-language app idea into a working-looking app, here a player for songs stuck in the creator’s head.",
+  "explains_well": "The recurring musicians and earworm imagery finally become the content and name of the app, giving the imaginative setup a concrete output.",
+  "unclear": "The app is generated and displayed, but the film does not show a user action proving its music capture, playback or saving behavior.",
+  "product_type": "AI app builder",
+  "scenario": "A woman encounters persistent musical imagery, then prompts an earworm app and sees the same band represented in its player.",
+  "product_clear_time": 48,
+  "product_clear_basis": "The visible prompt asks to build an app for songs in her head at 47–48s; an editor and Earworms app follow at 50–51s.",
+  "scenes": [
+    {
+      "start": 0,
+      "end": 10,
+      "action": "A woman walks past homes and street activity. Lovable branding briefly appears; another person wears earphones, workers put up numbered posters, and a radio and shop bell receive close views.",
+      "design": "Naturalistic street footage and brief brand overlay.",
+      "purpose": "Introduce a recurring music/attention motif visually.",
+      "evidence": "1 fps source samples in 0–10s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V01"
+    },
+    {
+      "start": 10,
+      "end": 29,
+      "action": "Inside a bookshop, close-ups show small objects and tapping fingers. A book titled My Little Earworm is handed over; its cover appears in differing worm/band states while the woman reacts and looks around.",
+      "design": "Warm shelves, close hands and a distinctive illustrated cover.",
+      "purpose": "Make the earworm idea visible as a persistent presence.",
+      "evidence": "1 fps source samples in 10–29s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V02"
+    },
+    {
+      "start": 29,
+      "end": 41,
+      "action": "A singer with microphone and musicians appear among the shelves. The woman moves outside, passes a car with a performer visible and reacts again.",
+      "design": "Live-action-looking band and street scenes.",
+      "purpose": "Escalate the idea following her through the day.",
+      "evidence": "1 fps source samples in 29–41s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V03"
+    },
+    {
+      "start": 41,
+      "end": 47,
+      "action": "She enters a room where the same band surrounds her at a table with a laptop.",
+      "design": "Crowded domestic setting, instruments and laptop.",
+      "purpose": "Bring the idea to a place where it can be made.",
+      "evidence": "1 fps source samples in 41–47s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V04"
+    },
+    {
+      "start": 47,
+      "end": 53,
+      "action": "A prompt says Build an app for the songs in my head. A laptop editor displays an Earworms app with the band image and player-like controls; she reacts beside the musicians.",
+      "design": "Black prompt on vivid gradient, dark builder and lime-green app title.",
+      "purpose": "Connect the idea to a concrete app output.",
+      "evidence": "1 fps source samples in 47–53s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V05"
+    },
+    {
+      "start": 53,
+      "end": 60.094,
+      "action": "Some ideas are too loud to ignore appears as the room clears around the laptop. Close views show the Earworms player, then a gradient card says For every idea, there is Lovable.",
+      "design": "Physical room, app close-up and orange-pink-blue brand field.",
+      "purpose": "Resolve the motif into an artifact and name the builder.",
+      "evidence": "1 fps source samples in 53–60.094s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V06"
+    }
+  ],
+  "sound": [
+    {
+      "id": "A01",
+      "start": 0,
+      "end": 60.094,
+      "layer": "unknown",
+      "detail": "No speech draft is available and no validated listening was performed. Visible microphones, instruments, radio, bell and earphones do not establish what was heard. Music, speech, effects, performance and synchronization are unverified; the earworm interpretation comes from the book, prompt and closing text.",
+      "visual_relation": "V01–V06; visible music-related objects only.",
+      "evidence": "Manifest speech_draft is null; chronological visual samples."
+    }
+  ],
+  "categories": [
+    {
+      "id": "Q01",
+      "finding": "Persistent musical idea in everyday scenes → band follows creator → app request → Earworms output → brand close.",
+      "evidence": "V01–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q02",
+      "finding": "A woman walks along a residential street with a brief Lovable mark. The film begins with a character rather than a product explanation.",
+      "evidence": "V01",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q03",
+      "finding": "People with app ideas are the eventual audience; plain-language app building becomes explicit at 47–51s.",
+      "evidence": "V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q04",
+      "finding": "Character movement, reaction views and changing book-cover states carry the story. The prompt and app build states complete it; exact cover transformation mechanics are unverified.",
+      "evidence": "V01–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q05",
+      "finding": "The recurring band moves across bookshop, street and room, then becomes the app’s visible content. The gradient prompt marks the switch into making.",
+      "evidence": "V02–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q06",
+      "finding": "Muted street colors and warm bookshop/domestic scenes contrast with vivid gradient UI and lime-green Earworms lettering.",
+      "evidence": "V01–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q07",
+      "finding": "Little explanatory text appears before the prompt. The book title, build request, app name and final slogan are the key readable story anchors.",
+      "evidence": "V02,V05,V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q08",
+      "finding": "Voice delivery is unverified.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "No validated listening.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q09",
+      "finding": "Music character and structure are unverified.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "No validated listening.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q10",
+      "finding": "Effects and their sources are unverified.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "No validated listening; waveform peaks do not identify effects.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q11",
+      "finding": "Sound sync is unverified.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "No validated listening or paired audiovisual timing.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q12",
+      "finding": "A recurring protagonist and band appear in staged-looking locations, with changing book imagery and product UI. Production techniques and sources are unverified.",
+      "evidence": "V01–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q13",
+      "finding": "Source duration 60.094 s; Watch metadata 1280 × 720. Frame rate, audio clipping and export quality not checked here.",
+      "evidence": "Whole film",
+      "status": "supported",
+      "reason": "Parent source metadata supports duration and dimensions; visual review is sampled.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q14",
+      "finding": "The book title and recurring band suggest an earworm visually, and prompt-to-app is clear. The actual sound experience and earlier cause of reactions remain unknown.",
+      "evidence": "V01–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q15",
+      "finding": "Reaction close-ups, the unusual cover and repeated performers guide attention toward the eventual laptop.",
+      "evidence": "V02–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q16",
+      "finding": "The film spends roughly 47s dramatizing the idea, then about 10s on its app result. This favors narrative over functional detail.",
+      "evidence": "V01–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q17",
+      "finding": "The intrusive earworm motif is answered by an app with the same name and musicians, creating a clear visual payoff.",
+      "evidence": "V02–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q18",
+      "finding": "Repeated reactions and a surrounding band suggest distraction becoming creative relief; this is visual interpretation, not measured response or heard performance.",
+      "evidence": "V02–V06",
+      "status": "uncertain",
+      "reason": "Images and text only.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q19",
+      "finding": "The same woman, band and earworm imagery persist into the final app, linking an abstract idea to a specific artifact.",
+      "evidence": "V01–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q20",
+      "finding": "A build prompt and app screen are shown. No playback, recording, saving, deployment or code behavior is independently demonstrated.",
+      "evidence": "V05,V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q21",
+      "finding": "The band becoming the Earworms app makes this more specific than a generic idea-to-app slogan.",
+      "evidence": "V02–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q22",
+      "finding": "Add one short interaction with the generated app.",
+      "evidence": "V05,V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "Show the creator selecting a track or saving a captured tune and a visible resulting state."
+    },
+    {
+      "id": "Q23",
+      "finding": "For Tin, make the opening motif become the generated asset.",
+      "evidence": "V02–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "Carry a recurring campaign idea through a brief and into the exact image, headline and preview produced at the end."
+    },
+    {
+      "id": "Q24",
+      "finding": "No human new-viewer test was performed.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "The product summary is this model’s film-only reading.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q25",
+      "finding": "Mobile preview and accessibility checks were not performed.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "Contact sheets are evidence views, not a stated mobile preview or compliance test.",
+      "experiment": "none"
+    }
+  ],
+  "elements": [
+    {
+      "kind": "ui",
+      "name": "prompt field",
+      "events": [
+        "V05"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "app builder and preview",
+      "events": [
+        "V05"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "music player",
+      "events": [
+        "V05",
+        "V06"
+      ]
+    },
+    {
+      "kind": "motion",
+      "name": "recurring character and band",
+      "events": [
+        "V02",
+        "V03",
+        "V04",
+        "V05",
+        "V06"
+      ]
+    },
+    {
+      "kind": "texture",
+      "name": "warm bookshop and domestic scenes",
+      "events": [
+        "V02",
+        "V04",
+        "V05",
+        "V06"
+      ]
+    }
+  ],
+  "lessons": {
+    "keep": "Make the same imaginative motif become the final product artifact.",
+    "try": [
+      "Show one track selection or saved-tune state in the generated app.",
+      "For Tin, carry one campaign idea into the exact final image, headline and preview."
+    ],
+    "avoid": "Assuming a displayed app establishes its interaction behavior.",
+    "open": "App behavior, generation process, visual transformation mechanics and all audio qualities remain unverified."
+  },
+  "comparison": {
+    "story": "Persistent earworm → creator surrounded by idea → prompt → matching app.",
+    "motion": "Character/reaction continuity and a late prompt-to-preview sequence.",
+    "sound": "No draft or validated listening; instruments are visual evidence only.",
+    "texture": "Naturalistic streets and warm interiors against vivid builder branding.",
+    "lesson": "An abstract idea becomes clear when its recurring imagery survives in the output."
+  },
+  "reviewer_model": "gpt-6-astra",
+  "scope": "sampled visual and story review; ASR and measured signal support; no validated audio listening",
+  "viewed_evidence": [
+    "technical-review-2026-10-19/deep-review/motion/305/timeline-00.jpg",
+    "technical-review-2026-10-19/deep-review/motion/305/timeline-01.jpg"
+  ],
+  "closer_windows": []
+}

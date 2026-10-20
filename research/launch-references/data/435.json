@@ -1,0 +1,360 @@
+{
+  "id": 435,
+  "viewed_evidence": [
+    "technical-review-2026-10-19/deep-review/motion/435/timeline-00.jpg",
+    "technical-review-2026-10-19/deep-review/motion/435/timeline-01.jpg",
+    "technical-review-2026-10-19/deep-review/motion/435/timeline-02.jpg",
+    "astra-review-2026-10-20/evidence/group-3/435/dense0-5.jpg",
+    "technical-review-2026-10-19/deep-review/audio/435-speech.json"
+  ],
+  "product_from_film": "Sora presents character cameos using invented characters or uploaded video, according to the candidate script.",
+  "explains_well": "A shared casting-room setting makes a varied character collection feel like one feature.",
+  "unclear": "No upload, character creation or reuse step is visible, so silent viewers mainly see a character showcase.",
+  "product_type": "creative video tool",
+  "scenario": "Introduce reusable character cameos through a playful casting session.",
+  "product_clear_time": 5,
+  "product_clear_basis": "Title names Sora Character Cameos; candidate script at 5–12s supplies the creation purpose, absent from UI.",
+  "scenes": [
+    {
+      "start": 0,
+      "end": 5,
+      "action": "Title cuts to color bars, distant crab on studio sweep, more bars and close crab.",
+      "design": "Black script title, white studio, visible equipment edge.",
+      "purpose": "Open casting premise",
+      "id": "V01",
+      "evidence": "Visible 1 fps samples, source 0–5s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 5,
+      "end": 13,
+      "action": "Orange crab gestures toward camera.",
+      "design": "Large eyes, sand on white floor.",
+      "purpose": "Introduce character feature",
+      "id": "V02",
+      "evidence": "Visible 1 fps samples, source 5–13s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 13,
+      "end": 29,
+      "action": "Owl with glasses, troll, frog and gull alternate with color bars.",
+      "design": "Boom microphones and cameras appear in several views.",
+      "purpose": "Show character variety",
+      "id": "V03",
+      "evidence": "Visible 1 fps samples, source 13–29s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 29,
+      "end": 38,
+      "action": "Troll gestures in close framing.",
+      "design": "Textured clothing and green skin against white.",
+      "purpose": "Explain invented characters in candidate script",
+      "id": "V04",
+      "evidence": "Visible 1 fps samples, source 29–38s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 38,
+      "end": 46,
+      "action": "Crab returns, bars interrupt, then jockey appears.",
+      "design": "Consistent white studio.",
+      "purpose": "Explain upload route in candidate script",
+      "id": "V05",
+      "evidence": "Visible 1 fps samples, source 38–46s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 46,
+      "end": 59,
+      "action": "Giant duckling among crew, frog and gull recur; wide studio becomes gull close-up.",
+      "design": "Behind-the-scenes staging and production props.",
+      "purpose": "Extend casting humor",
+      "id": "V06",
+      "evidence": "Visible 1 fps samples, source 46–59s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 59,
+      "end": 61.952,
+      "action": "Sora Character Cameos title returns.",
+      "design": "White script on black.",
+      "purpose": "Close feature",
+      "id": "V07",
+      "evidence": "Visible 1 fps samples, source 59–61.952s; boundaries approximate, between-frame action unresolved."
+    }
+  ],
+  "sound": [
+    {
+      "id": "A01",
+      "start": 0,
+      "end": 61.952,
+      "layer": "unknown",
+      "detail": "No validated audio listening; speech, music, effects, mix and sync remain unverified.",
+      "visual_relation": "All visual scenes; alignment not checked",
+      "evidence": "No actual audio supplied to this review; existing technical-review-2026-10-19/deep-review/audio/435.json is not listening evidence."
+    },
+    {
+      "id": "A02",
+      "start": 0.86,
+      "end": 55.74,
+      "layer": "ASR draft",
+      "detail": "Candidate dialogue introduces character cameos, explains generating new characters and uploading camera-roll or pet videos, mixed with casting jokes. Camo is treated as draft spelling, not a separate feature. Delivery and animal sounds are unheard.",
+      "visual_relation": "V02/V04/V05 provide explanatory script; V01/V03/V06 supply jokes. No actual sync checked.",
+      "evidence": "technical-review-2026-10-19/deep-review/audio/435-speech.json; existing faster-whisper base CPU int8"
+    }
+  ],
+  "categories": [
+    {
+      "finding": "The film stages a casting session rather than a UI demo; draft dialogue supplies creation and upload routes between character jokes.",
+      "evidence": "V01–V06; ASR",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q01"
+    },
+    {
+      "finding": "Feature title is followed by color bars around 1.25s and distant crab around 1.5s, introducing a fictional studio interruption.",
+      "evidence": "V01; dense0-5.jpg",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q02"
+    },
+    {
+      "finding": "Title names the feature immediately; script at 5–12s clarifies new cameos from life and imagination for video creators. Pictures alone do not show how.",
+      "evidence": "V01/V02; ASR",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q03"
+    },
+    {
+      "finding": "Character gestures and wide/close framing dominate. Dense opening confirms cuts through bars, not a continuous camera move from distant to close crab.",
+      "evidence": "V01–V06; dense0-5.jpg",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q04"
+    },
+    {
+      "finding": "Repeated full-screen color bars separate casting takes; they give the assorted characters a common editing device.",
+      "evidence": "V01/V03/V05/V06",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q05"
+    },
+    {
+      "finding": "White studio sweep unifies glossy crab, feathered birds, green troll and live-action-looking crew. Origins are not independently known.",
+      "evidence": "V02–V06",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q06"
+    },
+    {
+      "finding": "Only opening and closing feature titles carry major explanatory text; no dialogue captions or product interface are visible.",
+      "evidence": "V01/V07",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q07"
+    },
+    {
+      "finding": "Voice presence and delivery remain unverified.",
+      "evidence": "No validated audio listening",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q08"
+    },
+    {
+      "finding": "Music character and arc remain unverified.",
+      "evidence": "No validated audio listening",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q09"
+    },
+    {
+      "finding": "Sound effects remain unverified.",
+      "evidence": "No validated audio listening",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q10"
+    },
+    {
+      "finding": "Sound-to-motion timing remain unverified.",
+      "evidence": "No validated audio listening",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q11"
+    },
+    {
+      "finding": "Character performances and staged cameras, lights and microphones create a behind-the-scenes fiction; visible equipment does not prove how the ad was made.",
+      "evidence": "V03/V06",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q12"
+    },
+    {
+      "finding": "Source duration supplied as 61.952s; no independent compression, clipping or delivery check.",
+      "evidence": "Assigned metadata; source integrity checked by parent",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q13"
+    },
+    {
+      "finding": "Silent viewer sees character variety and Sora branding but loses generated-versus-uploaded character routes.",
+      "evidence": "V01–V07",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q14"
+    },
+    {
+      "finding": "One centered character against white stays easy to locate; foreground camera and boom create depth without becoming the main subject.",
+      "evidence": "V02/V03",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q15"
+    },
+    {
+      "finding": "Long troll and crab sections carry script information, while visual meaning remains simple; captions could support these holds.",
+      "evidence": "V04/V05",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q16"
+    },
+    {
+      "finding": "Character Cameos is paid off with repeated cast members, but reuse in another scene is not directly demonstrated.",
+      "evidence": "V01/V03/V06",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q17"
+    },
+    {
+      "finding": "Bloopers, expressive faces and oversized duckling appear designed for playful surprise; vocal comedy is unheard.",
+      "evidence": "V01/V03/V06",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q18"
+    },
+    {
+      "finding": "Crab, frog and gull recur with same studio setting, preserving identity across cuts.",
+      "evidence": "V02/V03/V05/V06",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q19"
+    },
+    {
+      "finding": "Candidate script claims generated characters and camera-roll uploads; no creation controls, reference clip or matching new output is shown.",
+      "evidence": "V04/V05; ASR",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q20"
+    },
+    {
+      "finding": "Sora title and fictional casting concept distinguish the presentation; actual product interface is absent.",
+      "evidence": "V01/V07",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q21"
+    },
+    {
+      "finding": "Keep casting premise but replace one gag with reference character → cameo selection → new scene, with captions.",
+      "evidence": "V03/V06",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q22"
+    },
+    {
+      "finding": "For Tin, let one brand mascot introduce a feature, then show its source asset and use in a campaign. Need consistent character references and clear UI states.",
+      "evidence": "V02/V05",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q23"
+    },
+    {
+      "finding": "No human new-viewer test; product description above is model interpretation of sampled images.",
+      "evidence": "V01–V07",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q24"
+    },
+    {
+      "finding": "No phone-size, safe-area or flash assessment; small UI text needs separate preview.",
+      "evidence": "Contact sheets",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q25"
+    }
+  ],
+  "lessons": {
+    "keep": "Use one recurring set and cast to unify varied examples.",
+    "try": [
+      "Try a Tin mascot casting scene followed by a real reference-to-campaign workflow.",
+      "Try captioned character dialogue with a small source clip beside the reused character result."
+    ],
+    "avoid": "Avoid using character variety as the only evidence of a character-reuse workflow.",
+    "open": "Actual voices, timing of jokes, source provenance and identity consistency across new generations remain unverified."
+  },
+  "comparison": {
+    "story": "Open casting premise → Introduce character feature → Show character variety → Explain invented characters in candidate script → Explain upload route in candidate script → Extend casting humor → Close feature",
+    "motion": "Character gestures and wide/close framing dominate. Dense opening confirms cuts through bars, not a continuous camera move from distant to close crab.",
+    "sound": "No validated listening; no absence claims.",
+    "texture": "White studio sweep unifies glossy crab, feathered birds, green troll and live-action-looking crew. Origins are not independently known.",
+    "lesson": "Use one recurring set and cast to unify varied examples."
+  },
+  "elements": [
+    {
+      "kind": "texture",
+      "name": "studio backdrop",
+      "events": [
+        "V02",
+        "V03",
+        "V06"
+      ]
+    },
+    {
+      "kind": "motion",
+      "name": "hard cut",
+      "events": [
+        "V01",
+        "V03"
+      ]
+    },
+    {
+      "kind": "texture",
+      "name": "animated character",
+      "events": [
+        "V02",
+        "V04"
+      ]
+    }
+  ],
+  "reviewer_model": "gpt-6-astra",
+  "scope": "sampled visual and story review; ASR and measured signal support; no validated audio listening",
+  "closer_windows": [
+    {
+      "start": 0,
+      "end": 5,
+      "rate_fps": 4,
+      "evidence": [
+        "astra-review-2026-10-20/evidence/group-3/435/dense0-5.jpg"
+      ],
+      "resolved": "Title to bars around 1.25s, distant crab around 1.5s, bars around 4.25–4.5s, close crab around 4.75s. Cuts, not a continuous zoom; flash compliance untested."
+    }
+  ]
+}

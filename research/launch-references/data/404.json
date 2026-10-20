@@ -1,0 +1,352 @@
+{
+  "id": 404,
+  "reviewer_model": "gpt-6-astra",
+  "scope": "sampled visual and story review; ASR and measured signal support; no validated audio listening",
+  "viewed_evidence": [
+    "technical-review-2026-10-19/deep-review/motion/404/timeline-00.jpg",
+    "technical-review-2026-10-19/deep-review/motion/404/timeline-01.jpg",
+    "technical-review-2026-10-19/deep-review/motion/404/timeline-02.jpg",
+    "technical-review-2026-10-19/deep-review/audio/404-speech.json"
+  ],
+  "closer_windows": [],
+  "product_from_film": "Framer Marketplace adds video and written tutorials, with remix files and creator submissions.",
+  "explains_well": "The film shows how to filter lessons, open a working file and submit a tutorial.",
+  "unclear": "The review process after submission is not shown, and the long logo ending gives no direct destination.",
+  "product_type": "design education marketplace",
+  "scenario": "Find a lesson, copy its project and submit a new tutorial.",
+  "product_clear_time": 5,
+  "product_clear_basis": "Tutorials page names Framer skills and shows lessons.",
+  "scenes": [
+    {
+      "id": "V01",
+      "start": 0,
+      "end": 11,
+      "action": "A dark marketplace page tilts toward the viewer; template headline changes to tutorials, followed by a video lesson and written guide.",
+      "design": "Black web pages, white type and colorful lesson thumbnails.",
+      "purpose": "Introduce the new learning section.",
+      "evidence": "Visible chronological 1 fps samples, source 0–11s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V02",
+      "start": 11,
+      "end": 24,
+      "action": "Type, Level and Duration filters appear; a duration menu is selected and the grid changes. An embedded editor lesson is followed by a written locale-picker guide.",
+      "design": "Dark filters and article text; bright editor screen within the video.",
+      "purpose": "Explain discovery and two formats.",
+      "evidence": "Visible chronological 1 fps samples, source 11–24s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V03",
+      "start": 24,
+      "end": 32,
+      "action": "Open project leads to a copy dialog, workspace selection and an editor canvas with a project-remixed notification.",
+      "design": "Small dialogs over a dark interface; centered editable site.",
+      "purpose": "Show a reusable working file.",
+      "evidence": "Visible chronological 1 fps samples, source 24–32s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V04",
+      "start": 32,
+      "end": 49,
+      "action": "A tilted lesson grid passes across the frame. Creator Space opens, Tutorials is selected, New Tutorial opens a form, fields and thumbnail fill, and Submit is pressed.",
+      "design": "Dark sidebar and form with blue action buttons.",
+      "purpose": "Invite creators to contribute.",
+      "evidence": "Visible chronological 1 fps samples, source 32–49s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V05",
+      "start": 49,
+      "end": 59,
+      "action": "Several lesson pages show nested links, CMS, a first site and other topics before the screen becomes black and the Framer mark appears.",
+      "design": "Embedded presenter videos and editor screens.",
+      "purpose": "Show topic breadth.",
+      "evidence": "Visible chronological 1 fps samples, source 49–59s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V06",
+      "start": 59,
+      "end": 76.483,
+      "action": "The white Framer mark remains centered on black through the final samples, becoming dimmer at the end.",
+      "design": "Minimal black end card.",
+      "purpose": "Hold the brand.",
+      "evidence": "Visible chronological 1 fps samples, source 59–76.483s; boundary approximate; exact motion between samples unverified."
+    }
+  ],
+  "sound": [
+    {
+      "id": "A01",
+      "start": 0,
+      "end": 76.483,
+      "layer": "unknown",
+      "detail": "No validated direct audio listening was performed. Music, speech delivery, effects, mix and sync remain unknown, not absent.",
+      "visual_relation": "All visual scenes; audiovisual alignment unverified",
+      "evidence": "Visual samples only; no actual audio range supplied to this reviewer."
+    },
+    {
+      "id": "A02",
+      "start": 0,
+      "end": 56.32,
+      "layer": "ASR draft",
+      "detail": "The coherent ASR draft explains video and article formats, type/level/duration filters, remix links and submission for review. It supports the two audience paths; the opening product name is misrecognized. Delivery, music and effects are unverified.",
+      "visual_relation": "Story text support; exact audiovisual alignment and delivery unverified.",
+      "evidence": "technical-review-2026-10-19/deep-review/audio/404-speech.json; local faster-whisper base CPU int8 draft; VAD candidates only, recognition errors possible."
+    }
+  ],
+  "categories": [
+    {
+      "id": "Q01",
+      "finding": "A learner journey leads into a creator journey: browse, watch or read, remix, then submit a lesson.",
+      "evidence": "V01–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q02",
+      "finding": "The opening tilts an existing template marketplace toward the viewer; the new tutorial subject is delayed until about 5s.",
+      "evidence": "V01",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q03",
+      "finding": "Framer learners and tutorial creators are named through the page headline and Creator Space flow.",
+      "evidence": "V01,V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q04",
+      "finding": "Web pages tilt and enlarge, the lesson grid travels diagonally, menus open and form fields populate; the ending holds a still logo.",
+      "evidence": "V01–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q05",
+      "finding": "Cuts connect different lesson pages; the move from Open project to copy dialog preserves the action chain. Exact camera easing is unresolved.",
+      "evidence": "V02–V04",
+      "status": "uncertain",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q06",
+      "finding": "Nearly black backgrounds make white type and colorful thumbnails stand out; bright editor windows provide contrast.",
+      "evidence": "V01–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q07",
+      "finding": "Tutorial titles and main buttons are clearer than article body text and form labels at sheet size. The article is demonstrated as a format, not read in full.",
+      "evidence": "V02,V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q08",
+      "finding": "The coherent ASR draft explains video and article formats, type/level/duration filters, remix links and submission for review. It supports the two audience paths; the opening product name is misrecognized. Delivery, music and effects are unverified.",
+      "evidence": "A02",
+      "status": "uncertain",
+      "reason": "ASR text only; no validated listening, delivery or voice origin.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q09",
+      "finding": "Voice delivery, music, effects and audiovisual alignment were not established by this visual pass.",
+      "evidence": "A01",
+      "status": "not checked",
+      "reason": "No validated direct audio listening input.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q10",
+      "finding": "Voice delivery, music, effects and audiovisual alignment were not established by this visual pass.",
+      "evidence": "A01",
+      "status": "not checked",
+      "reason": "No validated direct audio listening input.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q11",
+      "finding": "Voice delivery, music, effects and audiovisual alignment were not established by this visual pass.",
+      "evidence": "A01",
+      "status": "not checked",
+      "reason": "No validated direct audio listening input.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q12",
+      "finding": "Screen composites include embedded presenter footage; perspective treatment makes pages feel like floating panels. Original asset sources are unknown.",
+      "evidence": "V01–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q13",
+      "finding": "Manifest duration 76.483s; indexed dimensions 1280×720. Source unchanged flag recorded; fresh encoding and audio clipping checks not run.",
+      "evidence": "Group manifest",
+      "status": "uncertain",
+      "reason": "Inherited technical metadata; no fresh media probe in this review.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q14",
+      "finding": "The silent path from filters to lesson and project copy remains clear; submission review is only partly explained by the screen and draft.",
+      "evidence": "V02–V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q15",
+      "finding": "Zooms guide attention from navigation to dropdowns, then Open project and Submit. The angled grid is a short decorative reset.",
+      "evidence": "V02–V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q16",
+      "finding": "The learning and creator paths each get multiple steps, but about 17s of final logo adds no information.",
+      "evidence": "V02–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q17",
+      "finding": "The new tutorial-section promise is paid off with actual browse and contribution states; the close lacks a URL or next action.",
+      "evidence": "V01–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q18",
+      "finding": "The range of lessons and easy project copy appear designed to make learning approachable; creator submission shifts toward participation. Interpretation only.",
+      "evidence": "V02–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q19",
+      "finding": "The copied animation project remains recognizable in the editor. Later lesson montage changes topics rather than completing one learning exercise.",
+      "evidence": "V03,V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q20",
+      "finding": "Filtering, project copy and submission states are shown; approval, publication and learning outcomes are not demonstrated.",
+      "evidence": "V02–V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q21",
+      "finding": "Framer editor, marketplace and geometric mark identify the brand; black tutorial-card design alone is less distinctive.",
+      "evidence": "V01–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q22",
+      "finding": "Shorten the logo hold and add a destination; preserve the copy and workspace steps because they explain remixing.",
+      "evidence": "V03,V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q23",
+      "finding": "For a workflow-template library, capture search filters, a detail lesson, copy dialog and the resulting editable workflow; use modest perspective without shrinking the controls.",
+      "evidence": "V02–V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q24",
+      "finding": "Framer Marketplace adds video and written tutorials, with remix files and creator submissions.",
+      "evidence": "Model reading from inspected images",
+      "status": "uncertain",
+      "reason": "Model-only new-viewer interpretation; no human test.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q25",
+      "finding": "Contact sheets inspected at displayed size; a phone-size playback, caption audit, flash audit and formal accessibility check were not performed.",
+      "evidence": "Viewed sheets",
+      "status": "not checked",
+      "reason": "Full-size moving-image and device checks unavailable in this pass.",
+      "experiment": "none"
+    }
+  ],
+  "lessons": {
+    "keep": "Show a learning resource becoming an editable working file.",
+    "avoid": "A long logo hold with no useful next step.",
+    "open": "Actual audio, tutorial approval process and fine text readability on phones remain unverified.",
+    "try": [
+      "For a Tin template lesson, show Open workflow, destination selection and the copied workflow in sequence.",
+      "Compare a three-second end card with the current long hold, adding the tutorial URL and a clear browse action."
+    ]
+  },
+  "comparison": {
+    "story": "Introduce the new learning section. → Explain discovery and two formats. → Show a reusable working file. → Invite creators to contribute. → Show topic breadth. → Hold the brand.",
+    "motion": "Web pages tilt and enlarge, the lesson grid travels diagonally, menus open and form fields populate; the ending holds a still logo. Sampling scope: 1 fps unless a closer window is recorded.",
+    "sound": "No validated listening; unknown.",
+    "texture": "Black web pages, white type and colorful lesson thumbnails.; Dark filters and article text; bright editor screen within the video.; Small dialogs over a dark interface; centered editable site.; Dark sidebar and form with blue action buttons.; Embedded presenter videos and editor screens.; Minimal black end card.",
+    "lesson": "Show a learning resource becoming an editable working file."
+  },
+  "elements": [
+    {
+      "kind": "ui",
+      "name": "filter menu",
+      "events": [
+        "V02"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "video player",
+      "events": [
+        "V02",
+        "V05"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "document",
+      "events": [
+        "V02"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "form",
+      "events": [
+        "V04"
+      ]
+    },
+    {
+      "kind": "motion",
+      "name": "perspective page movement",
+      "events": [
+        "V01",
+        "V04"
+      ]
+    }
+  ]
+}

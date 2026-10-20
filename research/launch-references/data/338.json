@@ -1,0 +1,382 @@
+{
+  "id": 338,
+  "viewed_evidence": [
+    "technical-review-2026-10-19/deep-review/motion/338/timeline-00.jpg",
+    "technical-review-2026-10-19/deep-review/motion/338/timeline-01.jpg",
+    "technical-review-2026-10-19/deep-review/motion/338/timeline-02.jpg",
+    "astra-review-2026-10-20/evidence/group-3/338/full48.jpg",
+    "astra-review-2026-10-20/evidence/group-3/338/full61.jpg",
+    "technical-review-2026-10-19/deep-review/audio/338-speech.json"
+  ],
+  "product_from_film": "Reframe uses parts lists, email and Slack to help hardware teams plan and manage procurement.",
+  "explains_well": "The dashboard and supplier-delay chat turn a broad procurement problem into specific parts and next steps.",
+  "unclear": "The uploaded parts list is not traced to one final order or schedule change, and the problem setup takes over 30 seconds.",
+  "product_type": "hardware procurement tool",
+  "scenario": "Upload a bill of materials, connect accounts and review parts to order and supplier-delay options.",
+  "product_clear_time": 35,
+  "product_clear_basis": "Presenter subtitles introduce procurement automation; the input steps become concrete at 38–43s.",
+  "scenes": [
+    {
+      "start": 0,
+      "end": 7,
+      "action": "A presenter describes procurement logistics from a sofa in a glass-walled room.",
+      "design": "Name/title lower third and subtitles.",
+      "purpose": "Set the hardware-team problem.",
+      "id": "V01",
+      "evidence": "Visible 1 fps samples, source 0–7s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 7,
+      "end": 15,
+      "action": "A dense equipment parts table replaces the presenter, followed by an email inbox.",
+      "design": "Legacy-looking table and dark email panes.",
+      "purpose": "Show information spread across tools.",
+      "id": "V02",
+      "evidence": "Visible 1 fps samples, source 7–15s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 15,
+      "end": 34,
+      "action": "Presenter returns; a change-management screen briefly overlays him, then the complaint ends with Reframe introduction.",
+      "design": "Subtitles discuss approvals, suppliers and coordination.",
+      "purpose": "Build the case for action beyond stored information.",
+      "id": "V03",
+      "evidence": "Visible 1 fps samples, source 15–34s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 34,
+      "end": 44,
+      "action": "A second presenter introduces automation. A file picker and import conversation appear, followed by email and Slack connection states.",
+      "design": "White onboarding UI and account cards.",
+      "purpose": "Explain starting inputs.",
+      "id": "V04",
+      "evidence": "Visible 1 fps samples, source 34–44s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 44,
+      "end": 53,
+      "action": "The dashboard shows action items and a six-part procurement recommendation. A list gives suppliers, quantities, costs and lead-time context.",
+      "design": "Coloured issue cards and assistant table.",
+      "purpose": "Show a plan tied to a build deadline.",
+      "id": "V05",
+      "evidence": "Visible 1 fps samples, source 44–53s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 53,
+      "end": 63,
+      "action": "A Slack-style thread grows beside the presenter, proposing an alternate vendor and reporting quote requests and a schedule update.",
+      "design": "Dark chat panel over footage.",
+      "purpose": "Show collaboration around a supply delay.",
+      "id": "V06",
+      "evidence": "Visible 1 fps samples, source 53–63s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 63,
+      "end": 78,
+      "action": "The first presenter returns, summarises the promise and invites a call.",
+      "design": "Subtitles: design the product, get the components.",
+      "purpose": "Restate value and next action.",
+      "id": "V07",
+      "evidence": "Visible 1 fps samples, source 63–78s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 78,
+      "end": 79.966,
+      "action": "Footage darkens into a purple-blue symbol with usereframe.ai/demo and a call invitation.",
+      "design": "Dark end card.",
+      "purpose": "Provide booking destination.",
+      "id": "V08",
+      "evidence": "Visible 1 fps samples, source 78–79.966s; boundaries approximate, between-frame action unresolved."
+    }
+  ],
+  "sound": [
+    {
+      "id": "A01",
+      "start": 0,
+      "end": 79.966,
+      "layer": "unknown",
+      "detail": "No validated audio listening; speech, music, effects, mix and sync remain unverified.",
+      "visual_relation": "All visual scenes; alignment not checked",
+      "evidence": "No actual audio supplied to this review; existing technical-review-2026-10-19/deep-review/audio/338.json is not listening evidence."
+    },
+    {
+      "id": "A02",
+      "start": 0.2,
+      "end": 77.98,
+      "layer": "ASR draft",
+      "detail": "Candidate script supports procurement pain, parts-list upload, account connections, sourcing, quotes and a call invitation. Reject corrupted phrases including Proofles, bottom-east procurement and heart repair treatment. Visible subtitles and UI establish the intended terms; no heard delivery or music finding.",
+      "visual_relation": "V01–V07; script roles only, no heard sync.",
+      "evidence": "technical-review-2026-10-19/deep-review/audio/338-speech.json; existing faster-whisper base CPU int8"
+    }
+  ],
+  "categories": [
+    {
+      "finding": "Manual procurement problems lead to upload/connect steps, a parts plan and a supplier-delay conversation. These are related examples but do not trace one input through completion.",
+      "evidence": "V01–V08",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q01"
+    },
+    {
+      "finding": "A seated presenter and subtitles introduce a challenge in hardware manufacturing. There is no immediate product result or part-specific example.",
+      "evidence": "V01, 0–2s",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q02"
+    },
+    {
+      "finding": "Hardware procurement teams are named early; the platform role becomes clear around 35s and its inputs around 38–43s.",
+      "evidence": "V01 and V04",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q03"
+    },
+    {
+      "finding": "Sampled views show screen overlays replacing the presenter, and a tall chat panel extending down the left side. No complex motion claim is needed; exact transition easing is unresolved.",
+      "evidence": "V02–V06",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q04"
+    },
+    {
+      "finding": "Several dissolves briefly overlap dense UI and presenter footage. Direct full-screen interface views are easier to read once the overlap clears.",
+      "evidence": "V02 around 7s; V03 around 21s; V05 around 46s",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q05"
+    },
+    {
+      "finding": "Bright windowed-room footage, a white product UI and a dark chat panel create three clear visual layers. Background reflections add detail behind the speakers.",
+      "evidence": "V01–V07",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q06"
+    },
+    {
+      "finding": "Subtitles explain the steps. Full48 makes the six-part table and March 14 deadline readable; full61 shows alternate-vendor and quote-request text.",
+      "evidence": "V04–V06; full48/full61",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q07"
+    },
+    {
+      "finding": "Voice presence and delivery remain unverified.",
+      "evidence": "No validated audio listening",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q08"
+    },
+    {
+      "finding": "Music character and arc remain unverified.",
+      "evidence": "No validated audio listening",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q09"
+    },
+    {
+      "finding": "Sound effects remain unverified.",
+      "evidence": "No validated audio listening",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q10"
+    },
+    {
+      "finding": "Sound-to-motion timing remain unverified.",
+      "evidence": "No validated audio listening",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q11"
+    },
+    {
+      "finding": "Presenter footage alternates with tables, email and app captures. The film uses old-system screens as problem illustrations; their relationship to the demo data is not established.",
+      "evidence": "V02–V06",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q12"
+    },
+    {
+      "finding": "Source duration supplied as 79.966s; no independent compression, clipping or delivery check.",
+      "evidence": "Assigned metadata; source integrity checked by parent",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q13"
+    },
+    {
+      "finding": "Subtitles preserve the procurement problem, upload steps and promise without sound. Small UI rows still need close viewing.",
+      "evidence": "V01–V08",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q14"
+    },
+    {
+      "finding": "Full-screen dashboard shifts attention from the speaker to action cards and the assistant. Later chat sits beside the face, splitting reading and presenter focus.",
+      "evidence": "V05–V06",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q15"
+    },
+    {
+      "finding": "The 0–34s setup repeats several forms of procurement friction before the product appears. The practical dashboard section gets much less time.",
+      "evidence": "V01–V05",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q16"
+    },
+    {
+      "finding": "The opening asks for better procurement coordination. Suggested orders and alternate-supplier messages answer it partly, but a completed purchase or changed schedule is not shown.",
+      "evidence": "V01; V05–V06",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q17"
+    },
+    {
+      "finding": "The film appears designed to move from frustration with buried information to relief through actionable steps. This is interpretation of the subtitles and UI.",
+      "evidence": "V01–V06",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q18"
+    },
+    {
+      "finding": "The same room connects both presenters. The six-part dashboard and later PC GF30 supplier thread use different examples, weakening one-case continuity.",
+      "evidence": "V04–V06, full48/full61",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q19"
+    },
+    {
+      "finding": "Full48 lists six parts, $1,850.75 estimated total and asks whether to place orders. Full61 says quote requests were sent and a schedule is updating; no external receipt or schedule view verifies those actions.",
+      "evidence": "V05 full48; V06 full61",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q20"
+    },
+    {
+      "finding": "Parts quantities, suppliers, lead times and build blockers make the film specific to hardware procurement. The presenter framing itself is generic.",
+      "evidence": "V05–V06",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q21"
+    },
+    {
+      "finding": "Shorten the repeated old-system complaint and carry one part from upload to risk, approved action and updated delivery plan.",
+      "evidence": "V01–V06",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q22"
+    },
+    {
+      "finding": "For an operations product, prepare one parts list, a real-looking supplier delay, an assistant recommendation and a final schedule state; keep the part name consistent across all screens.",
+      "evidence": "V04–V06",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q23"
+    },
+    {
+      "finding": "No human new-viewer test; product description above is model interpretation of sampled images.",
+      "evidence": "V01–V08",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q24"
+    },
+    {
+      "finding": "No phone-size, safe-area or flash assessment; small UI text needs separate preview.",
+      "evidence": "Contact sheets",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q25"
+    }
+  ],
+  "lessons": {
+    "keep": "Keep specific quantities, suppliers and lead-time consequences in the product demonstration.",
+    "try": [
+      "Start with one delayed part and use the dashboard and Slack thread to resolve that same case.",
+      "Cut the problem introduction to one table/email example and spend the saved time on approval and the resulting order state."
+    ],
+    "avoid": "Avoid changing example parts between the recommendation and collaboration payoff.",
+    "open": "Actual audio, procurement execution and supplier responses are unverified; the schedule update is stated in chat but not displayed."
+  },
+  "comparison": {
+    "story": "Set the hardware-team problem. → Show information spread across tools. → Build the case for action beyond stored information. → Explain starting inputs. → Show a plan tied to a build deadline. → Show collaboration around a supply delay. → Restate value and next action. → Provide booking destination.",
+    "motion": "Sampled views show screen overlays replacing the presenter, and a tall chat panel extending down the left side. No complex motion claim is needed; exact transition easing is unresolved.",
+    "sound": "No validated listening; no absence claims.",
+    "texture": "Bright windowed-room footage, a white product UI and a dark chat panel create three clear visual layers. Background reflections add detail behind the speakers.",
+    "lesson": "Keep specific quantities, suppliers and lead-time consequences in the product demonstration."
+  },
+  "elements": [
+    {
+      "kind": "ui",
+      "name": "table",
+      "events": [
+        "V02",
+        "V05"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "email",
+      "events": [
+        "V02"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "file picker",
+      "events": [
+        "V04"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "chat",
+      "events": [
+        "V04",
+        "V06"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "dashboard",
+      "events": [
+        "V05"
+      ]
+    },
+    {
+      "kind": "texture",
+      "name": "presenter footage",
+      "events": [
+        "V01",
+        "V03",
+        "V04",
+        "V07"
+      ]
+    }
+  ],
+  "reviewer_model": "gpt-6-astra",
+  "scope": "sampled visual and story review; ASR and measured signal support; no validated audio listening",
+  "closer_windows": []
+}

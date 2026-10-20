@@ -1,0 +1,343 @@
+{
+  "id": 232,
+  "reviewer_model": "gpt-6-astra",
+  "scope": "sampled visual and story review; ASR and measured signal support; no validated audio listening",
+  "viewed_evidence": [
+    "technical-review-2026-10-19/deep-review/motion/232/timeline-00.jpg",
+    "technical-review-2026-10-19/deep-review/motion/232/timeline-01.jpg"
+  ],
+  "closer_windows": [],
+  "product_from_film": "Tuyo presents payments where some purchases can become free.",
+  "explains_well": "A flower purchase moves from a transaction list to a free result and a real shop setting.",
+  "unclear": "The film does not explain which purchases qualify, the chance of a free purchase or how the user joins.",
+  "product_type": "consumer payments",
+  "scenario": "Pay at shops and receive a possible free-purchase result.",
+  "product_clear_time": 9,
+  "product_clear_basis": "Fresh Flowers changes from $69.99 to FREE.",
+  "scenes": [
+    {
+      "id": "V01",
+      "start": 0,
+      "end": 8,
+      "action": "An aerial city and overhead person lead to a dark phone transaction list. Merchant rows move through view; Fresh Flowers at $69.99 becomes highlighted.",
+      "design": "Vertical phone, dark list and bright green selection.",
+      "purpose": "Turn routine spending into a question about delight.",
+      "evidence": "Visible chronological 1 fps samples, source 0–8s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V02",
+      "start": 8,
+      "end": 14,
+      "action": "The flower price is struck through and FREE appears. First-person phone use in a flower shop follows, with large notification overlays.",
+      "design": "Floating phone result followed by handheld shop footage.",
+      "purpose": "Give the free purchase a concrete context.",
+      "evidence": "Visible chronological 1 fps samples, source 8–14s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V03",
+      "start": 14,
+      "end": 24,
+      "action": "A phone turns to its edge, then shows a Starbucks receipt at $0. Coffee and grocery payment shots, notifications, another FREE phone and a watch payment follow.",
+      "design": "Dark polished phone renders alternate with bright everyday locations.",
+      "purpose": "Extend the idea across familiar purchases.",
+      "evidence": "Visible chronological 1 fps samples, source 14–24s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V04",
+      "start": 24,
+      "end": 31,
+      "action": "Buy Now, Pay becomes Buy Now, Pay Maybe. A vertical reel of merchant icons passes beside Maybe?.",
+      "design": "Small white copy and familiar circular merchant icons on black.",
+      "purpose": "State the chance-based premise.",
+      "evidence": "Visible chronological 1 fps samples, source 24–31s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V05",
+      "start": 31,
+      "end": 37,
+      "action": "A lime tuyo icon appears with Available now, then get.tuyo.com, and dims.",
+      "design": "Simple centered logo and URL.",
+      "purpose": "Offer a next step.",
+      "evidence": "Visible chronological 1 fps samples, source 31–37s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V06",
+      "start": 37,
+      "end": 43.2,
+      "action": "Samples remain black through the end.",
+      "design": "Black tail.",
+      "purpose": "No further visible message.",
+      "evidence": "Visible chronological 1 fps samples, source 37–43.2s; boundary approximate; exact motion between samples unverified."
+    }
+  ],
+  "sound": [
+    {
+      "id": "A01",
+      "start": 0,
+      "end": 43.2,
+      "layer": "unknown",
+      "detail": "No validated direct audio listening was performed. Music, speech delivery, effects, mix and sync remain unknown, not absent.",
+      "visual_relation": "All visual scenes; audiovisual alignment unverified",
+      "evidence": "Visual samples only; no actual audio range supplied to this reviewer."
+    }
+  ],
+  "categories": [
+    {
+      "id": "Q01",
+      "finding": "Routine spending becomes a free flower purchase, expands to more merchants, then receives the Pay Maybe line and URL.",
+      "evidence": "V01–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q02",
+      "finding": "The city-to-person opening asks about delight before showing the payment list.",
+      "evidence": "V01",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q03",
+      "finding": "FREE on the flower transaction establishes the benefit around 9 s; the chance framing arrives later.",
+      "evidence": "V02,V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q04",
+      "finding": "Merchant rows shift, one row brightens, the phone rotates and prices are replaced by FREE. Exact paths and easing are unverified.",
+      "evidence": "V01–V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q05",
+      "finding": "The Fresh Flowers name bridges list, result and shop, giving the main example continuity. Later examples change merchants.",
+      "evidence": "V01–V03",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q06",
+      "finding": "Black glossy phone scenes contrast with handheld shop footage; lime marks connect the brand and results.",
+      "evidence": "V01–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q07",
+      "finding": "FREE and the URL are clear, while receipt details and notification copy are small in the vertical layout.",
+      "evidence": "V02,V03,V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q08",
+      "finding": "Voice delivery, music, effects and audiovisual alignment were not established by this visual pass.",
+      "evidence": "A01",
+      "status": "not checked",
+      "reason": "No validated direct audio listening input.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q09",
+      "finding": "Voice delivery, music, effects and audiovisual alignment were not established by this visual pass.",
+      "evidence": "A01",
+      "status": "not checked",
+      "reason": "No validated direct audio listening input.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q10",
+      "finding": "Voice delivery, music, effects and audiovisual alignment were not established by this visual pass.",
+      "evidence": "A01",
+      "status": "not checked",
+      "reason": "No validated direct audio listening input.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q11",
+      "finding": "Voice delivery, music, effects and audiovisual alignment were not established by this visual pass.",
+      "evidence": "A01",
+      "status": "not checked",
+      "reason": "No validated direct audio listening input.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q12",
+      "finding": "Phone renders, merchant logos and everyday payment footage are combined; their production sources are unknown.",
+      "evidence": "V01–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q13",
+      "finding": "Manifest duration 43.2s; indexed dimensions 720×900. Source unchanged flag recorded; fresh encoding and audio clipping checks not run.",
+      "evidence": "Group manifest",
+      "status": "uncertain",
+      "reason": "Inherited technical metadata; no fresh media probe in this review.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q14",
+      "finding": "The visual result is understandable without a transcript, but eligibility and probability are not shown.",
+      "evidence": "V02,V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q15",
+      "finding": "A highlighted row and large FREE word direct attention to the changed cost.",
+      "evidence": "V01,V02",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q16",
+      "finding": "The first result arrives within 9 s; repeated payment scenes occupy the middle and roughly 6 s at the end are black.",
+      "evidence": "V02,V03,V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q17",
+      "finding": "The opening asks for delight and the free result provides a visible payoff. The sign-up process stays outside the film.",
+      "evidence": "V01,V02,V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q18",
+      "finding": "Familiar small purchases and the unexpected free result suggest surprise and relief; this is a creative reading.",
+      "evidence": "V02,V03",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q19",
+      "finding": "The flower merchant and price persist into the result. Other shop shots broaden use cases rather than continue one transaction.",
+      "evidence": "V01–V03",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q20",
+      "finding": "The film shows free-purchase claims but no selection rule, odds or funding explanation. It does not establish that every purchase is free.",
+      "evidence": "V02–V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q21",
+      "finding": "Pay Maybe and the receipt-to-free move distinguish the premise from a generic payment montage.",
+      "evidence": "V02,V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q22",
+      "finding": "Place one short eligibility or chance explanation beside the free result, then show how to activate it.",
+      "evidence": "V02,V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q23",
+      "finding": "Tin can carry one named artifact from a list into a changed result and a real-world context.",
+      "evidence": "V01,V02",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q24",
+      "finding": "Tuyo presents payments where some purchases can become free.",
+      "evidence": "Model reading from inspected images",
+      "status": "uncertain",
+      "reason": "Model-only new-viewer interpretation; no human test.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q25",
+      "finding": "Contact sheets inspected at displayed size; a phone-size playback, caption audit, flash audit and formal accessibility check were not performed.",
+      "evidence": "Viewed sheets",
+      "status": "not checked",
+      "reason": "Full-size moving-image and device checks unavailable in this pass.",
+      "experiment": "none"
+    }
+  ],
+  "lessons": {
+    "keep": "Carry one merchant and amount across list, result and real setting.",
+    "avoid": "Avoid presenting a chance-based reward without explaining its basic conditions.",
+    "open": "Eligibility, odds, payment setup, notification authenticity, footage origin and all audio remain unverified.",
+    "try": [
+      "Show a named Tin campaign from its list row to a published result, keeping its title visible.",
+      "Add a short rule beside a surprising reward so viewers understand what caused it."
+    ]
+  },
+  "comparison": {
+    "story": "Turn routine spending into a question about delight. → Give the free purchase a concrete context. → Extend the idea across familiar purchases. → State the chance-based premise. → Offer a next step. → No further visible message.",
+    "motion": "Merchant rows shift, one row brightens, the phone rotates and prices are replaced by FREE. Exact paths and easing are unverified. Sampling scope: 1 fps unless a closer window is recorded.",
+    "sound": "No validated listening; unknown.",
+    "texture": "Vertical phone, dark list and bright green selection.; Floating phone result followed by handheld shop footage.; Dark polished phone renders alternate with bright everyday locations.; Small white copy and familiar circular merchant icons on black.; Simple centered logo and URL.; Black tail.",
+    "lesson": "Carry one merchant and amount across list, result and real setting."
+  },
+  "elements": [
+    {
+      "kind": "ui",
+      "name": "transaction list",
+      "events": [
+        "V01"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "payment receipt",
+      "events": [
+        "V02",
+        "V03"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "notification",
+      "events": [
+        "V02",
+        "V03"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "phone shell",
+      "events": [
+        "V01",
+        "V02",
+        "V03"
+      ]
+    },
+    {
+      "kind": "motion",
+      "name": "merchant logo reel",
+      "events": [
+        "V04"
+      ]
+    }
+  ]
+}

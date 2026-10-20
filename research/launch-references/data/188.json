@@ -1,0 +1,381 @@
+{
+  "id": 188,
+  "viewed_evidence": [
+    "technical-review-2026-10-19/deep-review/motion/188/timeline-00.jpg",
+    "technical-review-2026-10-19/deep-review/motion/188/timeline-01.jpg",
+    "technical-review-2026-10-19/deep-review/motion/188/timeline-02.jpg",
+    "technical-review-2026-10-19/deep-review/audio/188-speech.json",
+    "astra-review-2026-10-20/evidence/group-3/188/dense.jpg"
+  ],
+  "product_from_film": "Fuchsia organises hardware-compliance requirements, documents and agent assistance.",
+  "explains_well": "The film makes scattered standards, paperwork and contacts tangible before showing one software workspace.",
+  "unclear": "Faster certification and testing-lab matching are claims; no finished certification is shown.",
+  "product_type": "hardware compliance software",
+  "scenario": "Gather requirements and documents for a hardware product and inspect a compliance finding.",
+  "product_clear_time": 53,
+  "product_clear_basis": "Fuchsia promise is stated at 49–52 s; findings and document workspace appears at 53 s.",
+  "scenes": [
+    {
+      "start": 0,
+      "end": 11,
+      "action": "Single-word cards lead to a person handling headsets and other devices at a table; captions introduce compliance blocking sales.",
+      "design": "White serif text cards, wide-angle room footage and hardware props.",
+      "purpose": "Introduce the post-development barrier",
+      "id": "V01",
+      "evidence": "Visible 1 fps samples, source 0–11s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 11,
+      "end": 19,
+      "action": "Several versions of a worker occupy tables; map, magnifying glass and requirements label illustrate many regions and standards. Dense 12–16 s samples show a second worker appearing at the back around 12.5 s, then walking right while the seated worker stays in place. A third worker enters from the left foreground at 14.25–15.75 s reading a book. The composition method is not established.",
+      "design": "Brick room and overhead green cutting mat.",
+      "purpose": "Expand the scope of requirements",
+      "id": "V02",
+      "evidence": "Visible 1 fps samples, source 11–19s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 19,
+      "end": 33,
+      "action": "Workers gather papers, read, write and make calls; Slack, email, messages and phone symbols appear on the mat.",
+      "design": "Stacks of books, sticky notes, screens and communication icons.",
+      "purpose": "Show fragmented coordination",
+      "id": "V03",
+      "evidence": "Visible 1 fps samples, source 19–33s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 33,
+      "end": 40,
+      "action": "More books and papers accompany testing-lab captions; workers leave the room before a new presenter steps forward.",
+      "design": "Same room changes from busy workers to direct presenter.",
+      "purpose": "Finish the problem setup",
+      "id": "V04",
+      "evidence": "Visible 1 fps samples, source 33–40s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 40,
+      "end": 53,
+      "action": "Presenter describes months of regulation work, then sits on a sofa and introduces Fuchsia with a weeks-not-months claim.",
+      "design": "Brick wall, blue seating, plants and subtitles.",
+      "purpose": "Introduce the consolidation promise",
+      "id": "V05",
+      "evidence": "Visible 1 fps samples, source 40–53s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 53,
+      "end": 62,
+      "action": "App shows findings list, an e-label access-path issue, library/documents and agent answer about labelling requirements.",
+      "design": "White and pale-pink workspace, dense regulatory text and magenta chat prompt.",
+      "purpose": "Show compliance work artifacts",
+      "id": "V06",
+      "evidence": "Visible 1 fps samples, source 53–62s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 62,
+      "end": 70,
+      "action": "Presenter lists requirements, documents and status updates, then says compliance should not slow hardware down.",
+      "design": "Stable sofa shot with serif captions.",
+      "purpose": "Summarise shared workspace",
+      "id": "V07",
+      "evidence": "Visible 1 fps samples, source 62–70s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 70,
+      "end": 75.375,
+      "action": "Magenta document-shaped mark and fuchsia wordmark hold then darken.",
+      "design": "Minimal white end card.",
+      "purpose": "Close with identity",
+      "id": "V08",
+      "evidence": "Visible 1 fps samples, source 70–75.375s; boundaries approximate, between-frame action unresolved."
+    }
+  ],
+  "sound": [
+    {
+      "id": "A01",
+      "start": 0,
+      "end": 75.375,
+      "layer": "unknown",
+      "detail": "No validated audio listening; speech, music, effects, mix and sync remain unverified.",
+      "visual_relation": "All visual scenes; alignment not checked",
+      "evidence": "No actual audio supplied to this review; existing technical-review-2026-10-19/deep-review/audio/188.json is not listening evidence."
+    },
+    {
+      "id": "A02",
+      "start": 0.202,
+      "end": 70.262,
+      "layer": "ASR draft",
+      "detail": "Three candidate windows describe standards, documents, consultants, suppliers and labs, then claim agents map regulations, draft documents and connect labs. A short early question and some communication labels are mistranscribed. No legal correctness, timing improvement, voice delivery or sync is inferred.",
+      "visual_relation": "V01–V07; script support only",
+      "evidence": "technical-review-2026-10-19/deep-review/audio/188-speech.json; existing faster-whisper base CPU int8; three windows 0.202–70.262 s"
+    }
+  ],
+  "categories": [
+    {
+      "finding": "Hardware is ready but paperwork and coordination delay selling; the film proposes one compliance workspace.",
+      "evidence": "V01–V08",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q01"
+    },
+    {
+      "finding": "Single words on white introduce hardware; the complete situation depends on subsequent device footage and captions.",
+      "evidence": "V01, 0–2 s",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q02"
+    },
+    {
+      "finding": "Hardware makers are addressed at 2–8 s; the software offer arrives around 49–53 s.",
+      "evidence": "V01,V05,V06",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q03"
+    },
+    {
+      "finding": "Dense 12–16 s samples show a second worker appearing at the back around 12.5 s, then walking right while the seated worker stays in place. A third worker enters from the left foreground at 14.25–15.75 s reading a book. The composition method is not established. Software views later enlarge toward findings.",
+      "evidence": "V02–V04,V06",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q04"
+    },
+    {
+      "finding": "Room footage alternates with overhead mat illustrations, then moves to a seated explanation and brief software montage.",
+      "evidence": "V02–V06",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q05"
+    },
+    {
+      "finding": "Wood, brick, paper, hardware and green cutting-mat grid give the problem a tactile workshop setting; product uses pale pink and white.",
+      "evidence": "V01–V06",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q06"
+    },
+    {
+      "finding": "Captions tell the causal story. Dense findings and document text make the software concrete but receive short screen time.",
+      "evidence": "V01–V07",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q07"
+    },
+    {
+      "finding": "Voice presence and delivery remain unverified.",
+      "evidence": "No validated audio listening",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q08"
+    },
+    {
+      "finding": "Music character and arc remain unverified.",
+      "evidence": "No validated audio listening",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q09"
+    },
+    {
+      "finding": "Sound effects remain unverified.",
+      "evidence": "No validated audio listening",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q10"
+    },
+    {
+      "finding": "Sound-to-motion timing remain unverified.",
+      "evidence": "No validated audio listening",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q11"
+    },
+    {
+      "finding": "Repeated worker compositions, overhead physical materials, icons and app screens are combined; compositing method and asset source are unknown.",
+      "evidence": "V02–V06",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q12"
+    },
+    {
+      "finding": "Source duration supplied as 75.375s; no independent compression, clipping or delivery check.",
+      "evidence": "Assigned metadata; source integrity checked by parent",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q13"
+    },
+    {
+      "finding": "Captions preserve the compliance problem and speed claim; visible software supports requirements/documents but not actual lab matching.",
+      "evidence": "V05,V06",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q14"
+    },
+    {
+      "finding": "Workers and paper piles draw attention across the room; software zoom directs it to the finding and agent panel.",
+      "evidence": "V02–V04,V06",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q15"
+    },
+    {
+      "finding": "About 49 s establish the problem before roughly 9 s of app views; the software could use a slower single-example walkthrough.",
+      "evidence": "V01–V06",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q16"
+    },
+    {
+      "finding": "The initial inability to sell is answered by a consolidated workspace promise, not a shown certificate or sales release.",
+      "evidence": "V01,V06,V07",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q17"
+    },
+    {
+      "finding": "Multiple workers and expanding paperwork suggest overwhelm; the calmer seated presentation suggests relief.",
+      "evidence": "V02–V05; interpretation",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q18"
+    },
+    {
+      "finding": "The same workshop, hardware objects and paperwork keep the problem traceable; the product example could link more explicitly to one device.",
+      "evidence": "V01–V06",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q19"
+    },
+    {
+      "finding": "A finding and agent response are shown. Regulatory correctness, lab connection and weeks-not-months timing remain unverified product claims.",
+      "evidence": "V05,V06",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q20"
+    },
+    {
+      "finding": "Hardware props, standards work and an e-label finding make the subject specific; a generic AI claim alone would not.",
+      "evidence": "V01,V06",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q21"
+    },
+    {
+      "finding": "Remove part of the repeated paperwork montage and trace one device requirement into a source-linked resolved finding.",
+      "evidence": "V03,V06",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q22"
+    },
+    {
+      "finding": "For a specialised workflow, dramatise separate roles around real domain objects, then show one shared record replacing scattered work.",
+      "evidence": "V02–V06",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q23"
+    },
+    {
+      "finding": "No human new-viewer test; product description above is model interpretation of sampled images.",
+      "evidence": "V01–V08",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q24"
+    },
+    {
+      "finding": "No phone-size, safe-area or flash assessment; small UI text needs separate preview.",
+      "evidence": "Contact sheets",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q25"
+    }
+  ],
+  "lessons": {
+    "keep": "Use domain-specific objects to make an abstract coordination problem visible.",
+    "try": [
+      "For hardware documentation, carry one headset requirement from a paper source into a linked software finding and resolved status.",
+      "Compare the multi-worker room montage with a shorter three-role sequence, using the saved time for a readable document result."
+    ],
+    "avoid": "Avoid implying that an agent answer or organised document proves certification.",
+    "open": "Which requirement sources support the shown verdict, and was a laboratory or certifier involved?"
+  },
+  "comparison": {
+    "story": "Introduce the post-development barrier → Expand the scope of requirements → Show fragmented coordination → Finish the problem setup → Introduce the consolidation promise → Show compliance work artifacts → Summarise shared workspace → Close with identity",
+    "motion": "Dense 12–16 s samples show a second worker appearing at the back around 12.5 s, then walking right while the seated worker stays in place. A third worker enters from the left foreground at 14.25–15.75 s reading a book. The composition method is not established. Software views later enlarge toward findings.",
+    "sound": "No validated listening; no absence claims.",
+    "texture": "Wood, brick, paper, hardware and green cutting-mat grid give the problem a tactile workshop setting; product uses pale pink and white.",
+    "lesson": "Use domain-specific objects to make an abstract coordination problem visible."
+  },
+  "elements": [
+    {
+      "kind": "ui",
+      "name": "document",
+      "events": [
+        "V06"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "chat",
+      "events": [
+        "V06"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "findings list",
+      "events": [
+        "V06"
+      ]
+    },
+    {
+      "kind": "texture",
+      "name": "paperwork",
+      "events": [
+        "V02",
+        "V03"
+      ]
+    },
+    {
+      "kind": "motion",
+      "name": "repeated person composition",
+      "events": [
+        "V02",
+        "V03"
+      ]
+    }
+  ],
+  "reviewer_model": "gpt-6-astra",
+  "scope": "sampled visual and story review; ASR and measured signal support; no validated audio listening",
+  "closer_windows": [
+    {
+      "start": 12,
+      "end": 16,
+      "rate_fps": 4,
+      "evidence": [
+        "astra-review-2026-10-20/evidence/group-3/188/dense.jpg"
+      ],
+      "resolved": "Dense 12–16 s samples show a second worker appearing at the back around 12.5 s, then walking right while the seated worker stays in place. A third worker enters from the left foreground at 14.25–15.75 s reading a book. The composition method is not established."
+    }
+  ]
+}

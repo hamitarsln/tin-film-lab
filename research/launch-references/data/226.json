@@ -1,0 +1,371 @@
+{
+  "id": 226,
+  "viewed_evidence": [
+    "technical-review-2026-10-19/deep-review/motion/226/timeline-00.jpg",
+    "technical-review-2026-10-19/deep-review/motion/226/timeline-01.jpg",
+    "astra-review-2026-10-20/evidence/group-3/226/dense.jpg",
+    "technical-review-2026-10-19/deep-review/audio/226-speech.json"
+  ],
+  "product_from_film": "Monaco appears to be sales software with account information and suggested contacts; its exact scope is not explained in this film.",
+  "explains_well": "Sports, trading and sales scenes establish an ambitious competitive mood, and the final words clearly connect Monaco with sales.",
+  "unclear": "The short account interface does not explain what Start does, where its data comes from or which sales task becomes easier.",
+  "product_type": "sales software",
+  "scenario": "Enrich a company account and identify possible contacts, inferred from the brief interface insert.",
+  "product_clear_time": 35.75,
+  "product_clear_basis": "Dense samples reveal account fields and suggested co-founder contacts, while the closing slogan identifies the sales domain; scope remains uncertain.",
+  "scenes": [
+    {
+      "start": 0,
+      "end": 8,
+      "action": "City images, telephone dialling, sales-floor scenes, a chalkboard and racing/timer footage cut rapidly.",
+      "design": "Mixed film and sports imagery in varying colours and formats.",
+      "purpose": "Establish competitive work",
+      "id": "V01",
+      "evidence": "Visible 1 fps samples, source 0–8s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 8,
+      "end": 18,
+      "action": "Fire, office performance, a businessman, handwritten names, sports wins, money and a public speech appear.",
+      "design": "Short archival/movie-like clips and intense visual changes.",
+      "purpose": "Build ambition and reward associations",
+      "id": "V02",
+      "evidence": "Visible 1 fps samples, source 8–18s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 18,
+      "end": 28,
+      "action": "Golf, crowded trading, animal movement, boxing, athletics and sales scenes continue.",
+      "design": "Fast montage with no stable product screen.",
+      "purpose": "Sustain competition theme",
+      "id": "V03",
+      "evidence": "Visible 1 fps samples, source 18–28s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 28,
+      "end": 34,
+      "action": "Horse riding, office performance, telephone scenes, snow sport and a monochrome portrait continue the montage.",
+      "design": "Rapid cuts across unrelated settings.",
+      "purpose": "Build toward the product insert",
+      "id": "V04",
+      "evidence": "Visible 1 fps samples, source 28–34s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 34,
+      "end": 36,
+      "action": "An explosion cuts to a Start button, an account card with fields updating, then an account row with suggested contacts.",
+      "design": "Dark interface and small labels.",
+      "purpose": "Briefly reveal sales software",
+      "id": "V05",
+      "evidence": "Visible 1 fps samples, source 34–36s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 36,
+      "end": 42,
+      "action": "Large serif words spell the future of sales is across montage images, followed by the brand symbol.",
+      "design": "One large word per shot.",
+      "purpose": "Name the sales positioning",
+      "id": "V06",
+      "evidence": "Visible 1 fps samples, source 36–42s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 42,
+      "end": 44.21,
+      "action": "Monaco wordmark holds on black.",
+      "design": "Minimal white brand card.",
+      "purpose": "Close on the name",
+      "id": "V07",
+      "evidence": "Visible 1 fps samples, source 42–44.21s; boundaries approximate, between-frame action unresolved."
+    }
+  ],
+  "sound": [
+    {
+      "id": "A01",
+      "start": 0,
+      "end": 44.21,
+      "layer": "unknown",
+      "detail": "No validated audio listening; speech, music, effects, mix and sync remain unverified.",
+      "visual_relation": "All visual scenes; alignment not checked",
+      "evidence": "No actual audio supplied to this review; existing technical-review-2026-10-19/deep-review/audio/226.json is not listening evidence."
+    },
+    {
+      "id": "A02",
+      "start": 0,
+      "end": 35.3,
+      "layer": "ASR draft",
+      "detail": "Candidate text is a collage of sales, money and closing dialogue rather than a product explanation. Several phrases, including Green Caption and the dialling command, are unreliable and rejected as exact wording. Broad sales ambition is the only useful script-role evidence; no heard delivery, soundtrack or sync is inferred.",
+      "visual_relation": "V01–V05; fragmentary candidate dialogue supports montage theme only",
+      "evidence": "technical-review-2026-10-19/deep-review/audio/226-speech.json; existing faster-whisper base CPU int8"
+    }
+  ],
+  "categories": [
+    {
+      "finding": "A long competitive montage leads to a very short software insert and a sales-positioning slogan. It communicates attitude more than a task story.",
+      "evidence": "V01–V07",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q01"
+    },
+    {
+      "finding": "Telephone and sales-floor clips quickly suggest selling, while racing and a timer add urgency.",
+      "evidence": "V01",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q02"
+    },
+    {
+      "finding": "The sales domain is implied early but the product action appears only at 34–36 s. Even then the broader purpose remains uncertain.",
+      "evidence": "V01,V05,V06",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q03"
+    },
+    {
+      "finding": "Dense 34–36 s samples show an explosion cutting to Start, then updating account fields and an account row expanding to suggested contacts. The initiating input and completed field values are not shown.",
+      "evidence": "V05; dense 34–36 s",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q04"
+    },
+    {
+      "finding": "Most transitions are rapid cuts between film, sport and business imagery. The dark interface provides a brief pause before single-word slogan cuts.",
+      "evidence": "V01–V06",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q05"
+    },
+    {
+      "finding": "Colour film, monochrome footage, sports broadcast textures and a dark clean interface are mixed; a white serif slogan unifies the ending.",
+      "evidence": "V01–V07",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q06"
+    },
+    {
+      "finding": "Start is readable, but account fields and suggested contacts receive less than two seconds. There is no explanatory label for the actual workflow.",
+      "evidence": "V05",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q07"
+    },
+    {
+      "finding": "Voice presence and delivery remain unverified.",
+      "evidence": "No validated audio listening",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q08"
+    },
+    {
+      "finding": "Music character and arc remain unverified.",
+      "evidence": "No validated audio listening",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q09"
+    },
+    {
+      "finding": "Sound effects remain unverified.",
+      "evidence": "No validated audio listening",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q10"
+    },
+    {
+      "finding": "Sound-to-motion timing remain unverified.",
+      "evidence": "No validated audio listening",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q11"
+    },
+    {
+      "finding": "Film-like scenes, sports footage, broadcast imagery and a software insert are visible. Exact asset sources and rights are not established.",
+      "evidence": "V01–V07",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q12"
+    },
+    {
+      "finding": "Source duration supplied as 44.21s; no independent compression, clipping or delivery check.",
+      "evidence": "Assigned metadata; source integrity checked by parent",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q13"
+    },
+    {
+      "finding": "Without hearing, the competitive mood and sales slogan remain clear, but the product function is difficult to infer from the brief UI.",
+      "evidence": "V01–V06",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q14"
+    },
+    {
+      "finding": "Full-screen dramatic imagery dominates attention; the account details are much smaller and shorter than the surrounding spectacle.",
+      "evidence": "V01–V06",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q15"
+    },
+    {
+      "finding": "About 34 s build mood, roughly 2 s show software and the final 8 s deliver positioning and brand.",
+      "evidence": "V01–V07",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q16"
+    },
+    {
+      "finding": "The logo supplies recognition but no completed sales outcome resolves the brief interface action.",
+      "evidence": "V05–V07",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q17"
+    },
+    {
+      "finding": "Winning, money, physical competition and energetic business scenes suggest ambition and aggression; this is a visual interpretation.",
+      "evidence": "V01–V04",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q18"
+    },
+    {
+      "finding": "Sales and competition connect the otherwise varied clips. The interface appears abruptly without a repeated person, account or task to anchor it.",
+      "evidence": "V01–V06",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q19"
+    },
+    {
+      "finding": "The visible insert suggests account research and contact suggestions. Data accuracy, outreach, revenue effects and the fundraising claim in the source title are not established by the film images.",
+      "evidence": "V05–V07",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q20"
+    },
+    {
+      "finding": "The dense cultural montage gives the brand a recognisable sales-world attitude, but does little to distinguish the software workflow.",
+      "evidence": "V01–V06",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q21"
+    },
+    {
+      "finding": "Replace several montage clips with a readable account input, enriched result and chosen contact.",
+      "evidence": "V04,V05",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q22"
+    },
+    {
+      "finding": "For a brand-led sales film, keep the cultural mood but give one concrete product action enough screen time to be understood.",
+      "evidence": "V01–V06",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q23"
+    },
+    {
+      "finding": "No human new-viewer test; product description above is model interpretation of sampled images.",
+      "evidence": "V01–V07",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q24"
+    },
+    {
+      "finding": "No phone-size, safe-area or flash assessment; small UI text needs separate preview.",
+      "evidence": "Contact sheets",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q25"
+    }
+  ],
+  "lessons": {
+    "keep": "Use a consistent theme across varied footage to establish a strong brand attitude.",
+    "try": [
+      "Expand the account sequence to show the input company, populated fields and why a suggested contact matters.",
+      "Keep three strong competition clips and use the recovered time for one clear sales outcome."
+    ],
+    "avoid": "Avoid giving product explanation only a two-second slot inside a long montage.",
+    "open": "What does Start initiate, and what useful sales action follows the suggested contacts?"
+  },
+  "comparison": {
+    "story": "Establish competitive work → Build ambition and reward associations → Sustain competition theme → Build toward the product insert → Briefly reveal sales software → Name the sales positioning → Close on the name",
+    "motion": "Dense 34–36 s samples show an explosion cutting to Start, then updating account fields and an account row expanding to suggested contacts. The initiating input and completed field values are not shown.",
+    "sound": "No validated listening; no absence claims.",
+    "texture": "Colour film, monochrome footage, sports broadcast textures and a dark clean interface are mixed; a white serif slogan unifies the ending.",
+    "lesson": "Use a consistent theme across varied footage to establish a strong brand attitude."
+  },
+  "elements": [
+    {
+      "kind": "ui",
+      "name": "account table",
+      "events": [
+        "V05"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "account details",
+      "events": [
+        "V05"
+      ]
+    },
+    {
+      "kind": "motion",
+      "name": "single-word slogan cuts",
+      "events": [
+        "V06"
+      ]
+    },
+    {
+      "kind": "texture",
+      "name": "sports footage",
+      "events": [
+        "V01",
+        "V03"
+      ]
+    },
+    {
+      "kind": "texture",
+      "name": "film montage",
+      "events": [
+        "V02",
+        "V04"
+      ]
+    }
+  ],
+  "reviewer_model": "gpt-6-astra",
+  "scope": "sampled visual and story review; ASR and measured signal support; no validated audio listening",
+  "closer_windows": [
+    {
+      "start": 34,
+      "end": 36,
+      "rate_fps": 4,
+      "evidence": [
+        "astra-review-2026-10-20/evidence/group-3/226/dense.jpg"
+      ],
+      "resolved": "The Start insert is followed by updating account fields, then a table row and suggested co-founder contacts. No complete populated record or downstream action is shown in the window."
+    }
+  ]
+}

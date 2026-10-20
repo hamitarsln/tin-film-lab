@@ -1,0 +1,379 @@
+{
+  "id": 409,
+  "reviewer_model": "gpt-6-astra",
+  "scope": "sampled visual and story review; ASR and measured signal support; no validated audio listening",
+  "viewed_evidence": [
+    "technical-review-2026-10-19/deep-review/motion/409/timeline-00.jpg",
+    "technical-review-2026-10-19/deep-review/motion/409/timeline-01.jpg",
+    "technical-review-2026-10-19/deep-review/motion/409/timeline-02.jpg",
+    "technical-review-2026-10-19/deep-review/motion/409/timeline-03.jpg",
+    "astra-review-2026-10-20/evidence/group-2/409-96-99-4fps.jpg",
+    "technical-review-2026-10-19/deep-review/audio/409-speech.json"
+  ],
+  "closer_windows": [
+    {
+      "start": 96,
+      "end": 99,
+      "rate_fps": 4,
+      "evidence": [
+        "astra-review-2026-10-20/evidence/group-2/409-96-99-4fps.jpg"
+      ],
+      "resolved": "Company-image tiles shrink as more enter the mosaic; dark letter-shaped masking reveals the A16Z form over the image field. Exact easing and sound alignment remain unverified."
+    }
+  ],
+  "product_from_film": "A16Z presents a belief in technology building through a historical and future-facing montage.",
+  "explains_well": "The final company-image mosaic becomes the brand mark, tying many examples to one identity.",
+  "unclear": "The film never explains what A16Z offers or what a new viewer should do next.",
+  "product_type": "brand manifesto",
+  "scenario": "Connect earlier inventions, internet companies and emerging technology to a call to build.",
+  "product_clear_time": null,
+  "product_clear_basis": "The A16Z mark appears near 99s, but its service is not explained.",
+  "scenes": [
+    {
+      "id": "V01",
+      "start": 0,
+      "end": 7,
+      "action": "A book floats, opens and lands on a desk; pages turn into a close view of mechanical patent drawings.",
+      "design": "Dark library, aged paper and monochrome diagrams.",
+      "purpose": "Frame technology as a long history.",
+      "evidence": "Visible chronological 1 fps samples, source 0–7s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V02",
+      "start": 7,
+      "end": 25,
+      "action": "Older-looking computing footage, interviews, a phone presentation and Netscape browser alternate with game, trading and travel screens; a black frame separates the section.",
+      "design": "Varied image quality and screen colors within a dark square frame.",
+      "purpose": "Recall the internet era.",
+      "evidence": "Visible chronological 1 fps samples, source 7–25s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V03",
+      "start": 25,
+      "end": 38,
+      "action": "An illustrated figure holds a glowing orb; metallic head and bright sphere imagery lead to luminous cosmic views and Earth.",
+      "design": "Gold metal, drawn annotations, blue and orange light.",
+      "purpose": "Turn invention into a symbolic spark.",
+      "evidence": "Visible chronological 1 fps samples, source 25–38s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V04",
+      "start": 38,
+      "end": 60,
+      "action": "Street, phone and keyboard images lead to terminal text, sensor cars, drone, brain scan, medical-looking screen, app prompt, code changes, business software and payment; an older person faces a reflective sphere.",
+      "design": "Cool photographic-looking clips mixed with screen captures.",
+      "purpose": "Show technology entering many tasks.",
+      "evidence": "Visible chronological 1 fps samples, source 38–60s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V05",
+      "start": 60,
+      "end": 71,
+      "action": "Robot and human fingers approach with a bright blue glow; a blue burst leads to ruins, fantasy landscape, underwater architecture and aircraft imagery.",
+      "design": "Cinematic teal light and speculative environments.",
+      "purpose": "Suggest new creative and physical possibilities.",
+      "evidence": "Visible chronological 1 fps samples, source 60–71s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V06",
+      "start": 71,
+      "end": 94,
+      "action": "Portraits and company listing celebrations lead to factories, chips, launch site, rocket ignition, ascent and people celebrating.",
+      "design": "Photographic portraits, industrial detail and orange rocket flame.",
+      "purpose": "Connect builders to visible achievements.",
+      "evidence": "Visible chronological 1 fps samples, source 71–94s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V07",
+      "start": 94,
+      "end": 105.538,
+      "action": "Cursor and Oculus brand shots give way to many company-image tiles. Tiles shrink as the field expands; black letter-shaped areas reveal A16Z, which becomes gold and holds.",
+      "design": "Dense image mosaic, then metallic gold mark on black.",
+      "purpose": "Gather the examples under the brand.",
+      "evidence": "Visible chronological 1 fps samples, source 94–105.538s; boundary approximate; exact motion between samples unverified."
+    }
+  ],
+  "sound": [
+    {
+      "id": "A01",
+      "start": 0,
+      "end": 105.538,
+      "layer": "unknown",
+      "detail": "No validated direct audio listening was performed. Music, speech delivery, effects, mix and sync remain unknown, not absent.",
+      "visual_relation": "All visual scenes; audiovisual alignment unverified",
+      "evidence": "Visual samples only; no actual audio range supplied to this reviewer."
+    },
+    {
+      "id": "A02",
+      "start": 2.05,
+      "end": 102.66,
+      "layer": "ASR draft",
+      "detail": "The ASR draft frames technology as civilization’s achievement, recalls internet connectivity, then calls for better tools and building. It supports the manifesto arc, but several phrases are misrecognized and speakers are not identified from the draft. Delivery, music and effects remain unverified.",
+      "visual_relation": "Story text support; exact audiovisual alignment and delivery unverified.",
+      "evidence": "technical-review-2026-10-19/deep-review/audio/409-speech.json; local faster-whisper base CPU int8 draft; VAD candidates only, recognition errors possible."
+    }
+  ],
+  "categories": [
+    {
+      "id": "Q01",
+      "finding": "The film moves from invention history to internet, current applications, speculative futures and builder achievement before revealing A16Z.",
+      "evidence": "V01–V07",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q02",
+      "finding": "A book floats in a dark library; the image creates curiosity but gives no product or audience information.",
+      "evidence": "V01",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q03",
+      "finding": "The subject is technology building; the intended builder audience is suggested by the final draft phrase. A16Z service and engagement path remain unexplained.",
+      "evidence": "V07",
+      "status": "uncertain",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q04",
+      "finding": "Book pages turn, luminous objects expand, fingers approach, a rocket rises and company tiles shrink into a larger mosaic before letter-shaped masking reveals the mark. The final mosaic was checked at 4 fps.",
+      "evidence": "V01,V03,V05–V07",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q05",
+      "finding": "Frequent cuts link technologies by theme rather than one action. The final mosaic-to-mark transition supplies the strongest visible connection across the collection.",
+      "evidence": "V02–V07",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q06",
+      "finding": "Aged paper and low-resolution archive-like clips contrast with polished gold and teal imagery; varied provenance is visually part of the historical sweep.",
+      "evidence": "V01–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q07",
+      "finding": "Most clips lack explanatory captions or identities. Small screen text is illustrative; the end mark is the dominant authored typography.",
+      "evidence": "V02,V04,V07",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q08",
+      "finding": "The ASR draft frames technology as civilization’s achievement, recalls internet connectivity, then calls for better tools and building. It supports the manifesto arc, but several phrases are misrecognized and speakers are not identified from the draft. Delivery, music and effects remain unverified.",
+      "evidence": "A02",
+      "status": "uncertain",
+      "reason": "ASR text only; no validated listening, delivery or voice origin.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q09",
+      "finding": "Voice delivery, music, effects and audiovisual alignment were not established by this visual pass.",
+      "evidence": "A01",
+      "status": "not checked",
+      "reason": "No validated direct audio listening input.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q10",
+      "finding": "Voice delivery, music, effects and audiovisual alignment were not established by this visual pass.",
+      "evidence": "A01",
+      "status": "not checked",
+      "reason": "No validated direct audio listening input.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q11",
+      "finding": "Voice delivery, music, effects and audiovisual alignment were not established by this visual pass.",
+      "evidence": "A01",
+      "status": "not checked",
+      "reason": "No validated direct audio listening input.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q12",
+      "finding": "Interviews, presentation footage, screens, portraits, industrial scenes and speculative imagery are combined. Original sources and production methods are not established.",
+      "evidence": "V01–V07",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q13",
+      "finding": "Manifest duration 105.538s; indexed dimensions 960×720. Source unchanged flag recorded; fresh encoding and audio clipping checks not run.",
+      "evidence": "Group manifest",
+      "status": "uncertain",
+      "reason": "Inherited technical metadata; no fresh media probe in this review.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q14",
+      "finding": "Silent viewing conveys technology progress and ambition, but not the argument or A16Z role. ASR supplies much of the manifesto meaning.",
+      "evidence": "V01–V07",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q15",
+      "finding": "Center-framed subjects make rapid image changes easy to locate; the dense final mosaic changes from individual brands to overall shape.",
+      "evidence": "V02–V07",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q16",
+      "finding": "Many one-second examples demand recognition rather than comprehension. This suits a mood montage but cannot explain the products shown.",
+      "evidence": "V04,V06,V07",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q17",
+      "finding": "The opening book promises a history of invention; the ending joins that history to a brand, without a concrete service payoff.",
+      "evidence": "V01,V07",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q18",
+      "finding": "The progression from old machines to glowing futures and launch celebration appears designed to build optimism and ambition. This is interpretation without heard music or audience data.",
+      "evidence": "V01–V07",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q19",
+      "finding": "Gold light links symbolic invention to the final gold logo; technology changes constantly, so continuity is thematic rather than a single task.",
+      "evidence": "V03,V07",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q20",
+      "finding": "The montage shows many technology images but proves no specific A16Z contribution or product result. Brand associations are not independently checked.",
+      "evidence": "V02–V07",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q21",
+      "finding": "The final portfolio-like mosaic and A16Z mark are specific; most earlier progress imagery could serve another technology brand.",
+      "evidence": "V07",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q22",
+      "finding": "A brief statement of the organization’s role could make the final reveal useful to unfamiliar viewers; individual montage shots are largely interchangeable.",
+      "evidence": "V04,V07",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q23",
+      "finding": "For a studio manifesto, gather cleared project footage and build an expanding tile field that becomes the mark. Each image needs rights and a real connection to the organization.",
+      "evidence": "V07",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q24",
+      "finding": "A16Z presents a belief in technology building through a historical and future-facing montage.",
+      "evidence": "Model reading from inspected images",
+      "status": "uncertain",
+      "reason": "Model-only new-viewer interpretation; no human test.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q25",
+      "finding": "Contact sheets inspected at displayed size; a phone-size playback, caption audit, flash audit and formal accessibility check were not performed.",
+      "evidence": "Viewed sheets",
+      "status": "not checked",
+      "reason": "Full-size moving-image and device checks unavailable in this pass.",
+      "experiment": "none"
+    }
+  ],
+  "lessons": {
+    "keep": "Use a collection of examples as the material of the final brand reveal.",
+    "avoid": "Treating recognizable technology footage as proof of a brand’s contribution.",
+    "open": "Audio structure, clip rights, montage provenance and the service offer remain unverified.",
+    "try": [
+      "For Tin, form the closing mark from actual campaign outputs after showing two complete examples.",
+      "Test a short role statement before the logo so viewers can explain what the organization does."
+    ]
+  },
+  "comparison": {
+    "story": "Frame technology as a long history. → Recall the internet era. → Turn invention into a symbolic spark. → Show technology entering many tasks. → Suggest new creative and physical possibilities. → Connect builders to visible achievements. → Gather the examples under the brand.",
+    "motion": "Book pages turn, luminous objects expand, fingers approach, a rocket rises and company tiles shrink into a larger mosaic before letter-shaped masking reveals the mark. The final mosaic was checked at 4 fps. Sampling scope: 1 fps unless a closer window is recorded.",
+    "sound": "No validated listening; unknown.",
+    "texture": "Dark library, aged paper and monochrome diagrams.; Varied image quality and screen colors within a dark square frame.; Gold metal, drawn annotations, blue and orange light.; Cool photographic-looking clips mixed with screen captures.; Cinematic teal light and speculative environments.; Photographic portraits, industrial detail and orange rocket flame.; Dense image mosaic, then metallic gold mark on black.",
+    "lesson": "Use a collection of examples as the material of the final brand reveal."
+  },
+  "elements": [
+    {
+      "kind": "ui",
+      "name": "terminal",
+      "events": [
+        "V04"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "code editor",
+      "events": [
+        "V04"
+      ]
+    },
+    {
+      "kind": "motion",
+      "name": "image mosaic expansion",
+      "events": [
+        "V07"
+      ]
+    },
+    {
+      "kind": "motion",
+      "name": "logo mask reveal",
+      "events": [
+        "V07"
+      ]
+    },
+    {
+      "kind": "texture",
+      "name": "archive-like footage",
+      "events": [
+        "V02"
+      ]
+    },
+    {
+      "kind": "texture",
+      "name": "metallic gold",
+      "events": [
+        "V03",
+        "V07"
+      ]
+    }
+  ]
+}

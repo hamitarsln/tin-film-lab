@@ -1,0 +1,388 @@
+{
+  "id": 392,
+  "viewed_evidence": [
+    "technical-review-2026-10-19/deep-review/motion/392/timeline-00.jpg",
+    "technical-review-2026-10-19/deep-review/motion/392/timeline-01.jpg",
+    "technical-review-2026-10-19/deep-review/motion/392/timeline-02.jpg",
+    "technical-review-2026-10-19/deep-review/motion/392/timeline-03.jpg",
+    "technical-review-2026-10-19/deep-review/motion/392/timeline-04.jpg",
+    "astra-review-2026-10-20/evidence/group-3/392/full60.jpg",
+    "astra-review-2026-10-20/evidence/group-3/392/full63.jpg",
+    "astra-review-2026-10-20/evidence/group-3/392/full69.jpg",
+    "astra-review-2026-10-20/evidence/group-3/392/full74.jpg",
+    "technical-review-2026-10-19/deep-review/audio/392-speech.json"
+  ],
+  "product_from_film": "GrazeMate presents a phone-controlled drone system for moving cattle between paddocks.",
+  "explains_well": "The phone selection, takeoff, herd view and completion notice form a clear task chain.",
+  "unclear": "The completed herd location is not held beside the selected destination; monitoring cards also lack a concrete ranch decision.",
+  "product_type": "agricultural hardware",
+  "scenario": "Choose cattle and destination, start a muster and receive completion.",
+  "product_clear_time": 63,
+  "product_clear_basis": "Ready to Muster phone form follows the drone setup; destination selection is visible.",
+  "scenes": [
+    {
+      "start": 0,
+      "end": 5,
+      "action": "Drone above its box, then aerial cattle with tracking and route overlays.",
+      "design": "Moving Cattle. Different. over pasture footage.",
+      "purpose": "Preview the outcome",
+      "id": "V01",
+      "evidence": "Visible 1 fps samples, source 0–5s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 5,
+      "end": 21,
+      "action": "Founder outdoors alternates with cattle, vehicle, horseback and helicopter shots.",
+      "design": "Lower third names Sam Rogers; rural greens and dusty browns.",
+      "purpose": "Establish ranch context",
+      "id": "V02",
+      "evidence": "Visible 1 fps samples, source 5–21s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 21,
+      "end": 42,
+      "action": "Time, expense and danger headings alternate with cattle and helicopter footage; dollar counter reaches $1,000,000+.",
+      "design": "White icons and large numbers.",
+      "purpose": "Explain manual burden",
+      "id": "V03",
+      "evidence": "Visible 1 fps samples, source 21–42s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 42,
+      "end": 56,
+      "action": "Logo over vehicle silhouette, man opens drone box, then founder and benefit text.",
+      "design": "GrazeMate; learns from herd and gives ranchers time.",
+      "purpose": "Introduce system",
+      "id": "V04",
+      "evidence": "Visible 1 fps samples, source 42–56s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 56,
+      "end": 65,
+      "action": "Hand taps paddock map; Ready to Muster form has FROM and TO fields and green action, then red state.",
+      "design": "Angled phone, some labels blocked by thumb.",
+      "purpose": "Choose and start",
+      "id": "V05",
+      "evidence": "Visible 1 fps samples, source 56–65s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 65,
+      "end": 82,
+      "action": "Drone rises; aerial route and progress overlay, then Calm/Stressed cattle labels and tracked overhead herd.",
+      "design": "Planning, Deploying, Moving, Completing; lines connect cattle to drone circle.",
+      "purpose": "Show operation",
+      "id": "V06",
+      "evidence": "Visible 1 fps samples, source 65–82s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 82,
+      "end": 90,
+      "action": "Founder returns with Mustering Complete notice.",
+      "design": "Small translucent confirmation.",
+      "purpose": "State completion",
+      "id": "V07",
+      "evidence": "Visible 1 fps samples, source 82–90s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 90,
+      "end": 103,
+      "action": "Wide drone pasture shot gains Health, Weight, Pasture Density and Water Troughs cards.",
+      "design": "Frosted panels over landscape.",
+      "purpose": "Extend monitoring",
+      "id": "V08",
+      "evidence": "Visible 1 fps samples, source 90–103s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 103,
+      "end": 119,
+      "action": "Cattle close-ups, founder, herd count grows to 500,000+ and founder returns.",
+      "design": "Few clicks claim and large count.",
+      "purpose": "Scale and benefit",
+      "id": "V09",
+      "evidence": "Visible 1 fps samples, source 103–119s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 119,
+      "end": 125.673,
+      "action": "Logo and website type over aerial cattle.",
+      "design": "www.grazemate.com.",
+      "purpose": "Next step",
+      "id": "V10",
+      "evidence": "Visible 1 fps samples, source 119–125.673s; boundaries approximate, between-frame action unresolved."
+    }
+  ],
+  "sound": [
+    {
+      "id": "A01",
+      "start": 0,
+      "end": 125.673,
+      "layer": "unknown",
+      "detail": "No validated audio listening; speech, music, effects, mix and sync remain unverified.",
+      "visual_relation": "All visual scenes; alignment not checked",
+      "evidence": "No actual audio supplied to this review; existing technical-review-2026-10-19/deep-review/audio/392.json is not listening evidence."
+    },
+    {
+      "id": "A02",
+      "start": 5.32,
+      "end": 122.8,
+      "layer": "ASR draft",
+      "detail": "Candidate script gives family ranch context, time/cost/danger, phone selection and autonomous muster, then monitoring and scale. Corrupt words such as Rashes, catalar, past equality and Bray’s Mate are not reliable wording; delivery unheard.",
+      "visual_relation": "V02–V09 broadly match script roles; precise sync unverified.",
+      "evidence": "technical-review-2026-10-19/deep-review/audio/392-speech.json; existing faster-whisper base CPU int8"
+    }
+  ],
+  "categories": [
+    {
+      "finding": "Problem tour leads to setup, selection, takeoff, operation and stated completion; later monitoring widens scope.",
+      "evidence": "V02–V09, 5–119s",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q01"
+    },
+    {
+      "finding": "Drone above a box and Moving Cattle. Different. immediately name the domain; aerial overlays preview control.",
+      "evidence": "V01, 0–2s",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q02"
+    },
+    {
+      "finding": "Ranchers are clear from founder and cattle; phone-to-drone task becomes concrete around 63s.",
+      "evidence": "V02/V05",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q03"
+    },
+    {
+      "finding": "Counters change amounts; route lines and tracking labels organize moving herd footage; exact graphic paths between 1 fps samples remain unresolved.",
+      "evidence": "V03/V06/V09",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q04"
+    },
+    {
+      "finding": "Founder shots recur between field examples; the phone-to-takeoff cut carries cause to action.",
+      "evidence": "V02–V06, 5–82s",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q05"
+    },
+    {
+      "finding": "Natural green fields, dusty cattle and warm low sunlight contrast with clean white translucent graphics.",
+      "evidence": "V02/V04/V08",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q06"
+    },
+    {
+      "finding": "Big burden headings read easily; full 63s frame shows Ready to Muster and FROM/TO, but hand and tilt obscure smaller choices.",
+      "evidence": "V03/V05, full63",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q07"
+    },
+    {
+      "finding": "Voice presence and delivery remain unverified.",
+      "evidence": "No validated audio listening",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q08"
+    },
+    {
+      "finding": "Music character and arc remain unverified.",
+      "evidence": "No validated audio listening",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q09"
+    },
+    {
+      "finding": "Sound effects remain unverified.",
+      "evidence": "No validated audio listening",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q10"
+    },
+    {
+      "finding": "Sound-to-motion timing remain unverified.",
+      "evidence": "No validated audio listening",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q11"
+    },
+    {
+      "finding": "Field footage, presenter, phone close-up and aerial views carry the story; route and cattle labels are graphic overlays, provenance unknown.",
+      "evidence": "V02/V05/V06",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q12"
+    },
+    {
+      "finding": "Source duration supplied as 125.673s; no independent compression, clipping or delivery check.",
+      "evidence": "Assigned metadata; source integrity checked by parent",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q13"
+    },
+    {
+      "finding": "Silent viewer can follow app selection, launch and completion; body-language learning and monitoring purpose rely more on explanation.",
+      "evidence": "V05–V08",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q14"
+    },
+    {
+      "finding": "Phone fills left center; destination pin and progress line guide the aerial shot, while linked cattle labels focus on the drone.",
+      "evidence": "V05/V06, full69/full74",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q15"
+    },
+    {
+      "finding": "Three burden themes take 21s; monitoring introduces four separate capabilities within about 6s of card reveals.",
+      "evidence": "V03 21–42s; V08 97–103s",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q16"
+    },
+    {
+      "finding": "Moving cattle differently is answered by phone launch and herd operation, but destination arrival is represented by a notice.",
+      "evidence": "V01/V05–V07",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q17"
+    },
+    {
+      "finding": "Time/cost/danger build intended pressure; simple phone action and completion offer relief.",
+      "evidence": "V03/V05/V07",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q18"
+    },
+    {
+      "finding": "Little Bullock appears in phone and aerial map; this is a useful location bridge, though endpoint is not shown beside the selected route.",
+      "evidence": "V05/V06, full63/full69",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q19"
+    },
+    {
+      "finding": "Phone interaction, drone and cattle are visible; overlays assert calm/stress tracking. Autonomy, learning, savings and 500,000+ reach are not independently verified.",
+      "evidence": "V03/V06/V09",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q20"
+    },
+    {
+      "finding": "Cattle-linked drone graphics and ranch-specific paddock map stay specific even without the logo.",
+      "evidence": "V05/V06",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q21"
+    },
+    {
+      "finding": "Shorten repeated helicopter/burden examples and use that time to show the selected destination after completion.",
+      "evidence": "V02/V03/V07",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q22"
+    },
+    {
+      "finding": "For Tin, connect a real work setting to a selected target, active execution view and matching result; retain the same target name.",
+      "evidence": "V05–V07",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q23"
+    },
+    {
+      "finding": "No human new-viewer test; product description above is model interpretation of sampled images.",
+      "evidence": "V01–V10",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q24"
+    },
+    {
+      "finding": "No phone-size, safe-area or flash assessment; small UI text needs separate preview.",
+      "evidence": "Contact sheets",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q25"
+    }
+  ],
+  "lessons": {
+    "keep": "Carry one place name from interface to real-world action.",
+    "try": [
+      "Try a Tin workflow film with the same campaign name on setup, active run and final result.",
+      "Try a hardware demo with a route overlay and a final wide shot showing the herd at the chosen destination."
+    ],
+    "avoid": "Avoid replacing the final physical result with a floating completion notice.",
+    "open": "Audio delivery, actual autonomy, monitoring accuracy and source footage provenance remain open."
+  },
+  "comparison": {
+    "story": "Preview the outcome → Establish ranch context → Explain manual burden → Introduce system → Choose and start → Show operation → State completion → Extend monitoring → Scale and benefit → Next step",
+    "motion": "Counters change amounts; route lines and tracking labels organize moving herd footage; exact graphic paths between 1 fps samples remain unresolved.",
+    "sound": "No validated listening; no absence claims.",
+    "texture": "Natural green fields, dusty cattle and warm low sunlight contrast with clean white translucent graphics.",
+    "lesson": "Carry one place name from interface to real-world action."
+  },
+  "elements": [
+    {
+      "kind": "ui",
+      "name": "map",
+      "events": [
+        "V05",
+        "V06"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "progress indicator",
+      "events": [
+        "V06"
+      ]
+    },
+    {
+      "kind": "motion",
+      "name": "number counter",
+      "events": [
+        "V03",
+        "V09"
+      ]
+    },
+    {
+      "kind": "texture",
+      "name": "landscape footage",
+      "events": [
+        "V01",
+        "V06"
+      ]
+    }
+  ],
+  "reviewer_model": "gpt-6-astra",
+  "scope": "sampled visual and story review; ASR and measured signal support; no validated audio listening",
+  "closer_windows": []
+}

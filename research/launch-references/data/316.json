@@ -1,0 +1,341 @@
+{
+  "id": 316,
+  "product_from_film": "Verdex uses satellite imagery and local weather models to support remote crop-insurance claim verification.",
+  "explains_well": "The founders name the user, manual-inspection problem and two input sources, then connect them to remote claim settlement.",
+  "unclear": "The film uses illustrative status cards rather than showing one damaged field, its evidence and the resulting audit or claim decision.",
+  "product_type": "Remote crop-insurance verification",
+  "scenario": "Two founders explain the cost of field visits, a remote audit approach, regulatory timing and claimed deployment scale.",
+  "product_clear_time": 22,
+  "product_clear_basis": "Captions describe replacing inspections at 18–20s and satellite imagery with weather models at 21–24s.",
+  "scenes": [
+    {
+      "start": 0,
+      "end": 9,
+      "action": "Two founders introduce themselves. Green name labels and a globe accompany a $5B+ annual manual-verification cost claim.",
+      "design": "Seated founders, whiteboard mark and green overlays.",
+      "purpose": "Identify team, buyer and problem scale.",
+      "evidence": "1 fps source samples in 0–9s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V01"
+    },
+    {
+      "start": 9,
+      "end": 18,
+      "action": "Captions explain sending adjusters to fields. Shield/check graphics change and a ring reaches a nearly 10% premium-cost claim.",
+      "design": "Same founder shot with simple status and percentage graphics.",
+      "purpose": "Explain the burden of physical verification.",
+      "evidence": "1 fps source samples in 9–18s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V02"
+    },
+    {
+      "start": 18,
+      "end": 30,
+      "action": "A Verification Status card changes from Processing to Verified Remotely. Satellite-over-field imagery accompanies satellite/weather explanation; Pay and Transfer Complete cards follow.",
+      "design": "Green illustrative UI and field plane over the founders.",
+      "purpose": "Describe inputs and intended settlement outcome.",
+      "evidence": "1 fps source samples in 18–30s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V03"
+    },
+    {
+      "start": 30,
+      "end": 38,
+      "action": "Remote Verification document graphics gain Approved while captions describe regulatory changes.",
+      "design": "White/green document card beside the founders.",
+      "purpose": "Explain the claimed timing advantage.",
+      "evidence": "1 fps source samples in 30–38s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V04"
+    },
+    {
+      "start": 38,
+      "end": 46,
+      "action": "A US map gains green coverage under claims of a large insurer launch and over 100 million acres, roughly 11% of US farmland.",
+      "design": "Map and numeric overlay within the same composition.",
+      "purpose": "Present adoption scale.",
+      "evidence": "1 fps source samples in 38–46s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V05"
+    },
+    {
+      "start": 46,
+      "end": 52,
+      "action": "A bar-chart graphic accompanies a $50B market and growth claim linked to climate volatility.",
+      "design": "Green chart and founders.",
+      "purpose": "State market ambition.",
+      "evidence": "1 fps source samples in 46–52s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V06"
+    },
+    {
+      "start": 52,
+      "end": 59.605,
+      "action": "Verdex appears on a dark green field; captions invite viewers to talk about insurance verification.",
+      "design": "Minimal logo close and small captions.",
+      "purpose": "Close with contact intent.",
+      "evidence": "1 fps source samples in 52–59.605s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V07"
+    }
+  ],
+  "sound": [
+    {
+      "id": "A01",
+      "start": 0,
+      "end": 59.605,
+      "layer": "script support only",
+      "detail": "The ASR draft coherently supports the manual-verification problem, satellite/weather approach, regulatory timing and adoption pitch. Names, the brand and phrases such as 24/7 are mistranscribed; visible captions are preferred. No vocal delivery, music, effects or synchronization was heard or verified.",
+      "visual_relation": "V01–V07; draft and captions carry the explanation while graphics illustrate it.",
+      "evidence": "316-speech.json draft and visible captions."
+    }
+  ],
+  "categories": [
+    {
+      "id": "Q01",
+      "finding": "Founders → inspection cost → remote audit inputs/outcome → timing → adoption → invitation.",
+      "evidence": "V01–V07",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q02",
+      "finding": "Two founders introduce themselves directly before a large cost claim.",
+      "evidence": "V01",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q03",
+      "finding": "Crop insurers are explicitly named; the proposed job is remote claim verification.",
+      "evidence": "V01,V03",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q04",
+      "finding": "Name labels, status cards, percentage rings and map/chart states change over a mostly fixed founder composition. Exact easing is unverified.",
+      "evidence": "V01–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q05",
+      "finding": "The founders stay in place while topic-specific overlays replace each other, preserving continuity.",
+      "evidence": "V01–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q06",
+      "finding": "Green graphics and the whiteboard mark establish one consistent visual identity against neutral clothing and room.",
+      "evidence": "V01–V07",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q07",
+      "finding": "Subtitles carry most detail; concise status labels and headline metrics provide visual anchors.",
+      "evidence": "V01–V07",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q08",
+      "finding": "ASR supports a structured two-founder pitch. Vocal delivery and speaker timing are not verified.",
+      "evidence": "A01",
+      "status": "uncertain",
+      "reason": "Draft and captions only.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q09",
+      "finding": "Music character and structure are unverified.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "No validated listening.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q10",
+      "finding": "Effects and their sources are unverified.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "No validated listening; waveform peaks do not identify effects.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q11",
+      "finding": "Sound sync is unverified.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "No validated listening or paired audiovisual timing.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q12",
+      "finding": "Founder footage and illustrative cards/maps/charts dominate; no operational product capture is clearly shown.",
+      "evidence": "V01–V07",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q13",
+      "finding": "Source duration 59.605 s; Watch metadata 1920 × 1080. Frame rate, audio clipping and export quality not checked here.",
+      "evidence": "Whole film",
+      "status": "supported",
+      "reason": "Parent source metadata supports duration and dimensions; visual review is sampled.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q14",
+      "finding": "Captions make the target, inputs and outcome understandable visually; the actual audit workflow remains abstract.",
+      "evidence": "V03",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q15",
+      "finding": "Green graphics sit near or between the founders and match the current caption topic.",
+      "evidence": "V01–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q16",
+      "finding": "The core solution arrives around 18s; the second half moves through timing, adoption and market claims.",
+      "evidence": "V03–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q17",
+      "finding": "Processing-to-verified and pay-to-complete graphics illustrate a payoff but do not show evidence being judged.",
+      "evidence": "V03",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q18",
+      "finding": "The direct founder presentation and orderly green graphics suggest clarity and confidence; viewer response is unmeasured.",
+      "evidence": "V01–V07",
+      "status": "uncertain",
+      "reason": "Visual interpretation only.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q19",
+      "finding": "Every section stays tied to crop-insurance verification, keeping the pitch focused.",
+      "evidence": "V01–V07",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q20",
+      "finding": "Cost, regulation, global coverage, deployment and market-size statements are unverified film claims. The status graphics do not establish an actual audit or settlement.",
+      "evidence": "V01–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q21",
+      "finding": "Naming satellite imagery plus local weather explains the mechanism better than a generic AI claim.",
+      "evidence": "V03",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q22",
+      "finding": "Replace one illustrative card with a concrete field audit.",
+      "evidence": "V03",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "Show the claimed damage date, field imagery, weather evidence and a reviewer-readable conclusion."
+    },
+    {
+      "id": "Q23",
+      "finding": "For Tin, name the inputs but also show how they produce the decision.",
+      "evidence": "V03",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "Pair a brief and campaign data with the exact recommended edit and final preview."
+    },
+    {
+      "id": "Q24",
+      "finding": "No human new-viewer test was performed.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "The product summary is this model’s film-only reading.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q25",
+      "finding": "Mobile preview and accessibility checks were not performed.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "Contact sheets are evidence views, not a stated mobile preview or compliance test.",
+      "experiment": "none"
+    }
+  ],
+  "elements": [
+    {
+      "kind": "ui",
+      "name": "verification status card",
+      "events": [
+        "V03"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "payment status card",
+      "events": [
+        "V03"
+      ]
+    },
+    {
+      "kind": "motion",
+      "name": "map coverage fill",
+      "events": [
+        "V05"
+      ]
+    },
+    {
+      "kind": "motion",
+      "name": "percentage ring",
+      "events": [
+        "V02"
+      ]
+    }
+  ],
+  "lessons": {
+    "keep": "Name the buyer, costly task and concrete input sources.",
+    "try": [
+      "Show one field audit with evidence and a readable conclusion.",
+      "For Tin, connect brief and campaign data to an exact edit and preview."
+    ],
+    "avoid": "Letting illustrative success cards stand in for the underlying decision.",
+    "open": "Actual audit workflow, claim evidence, regulatory and business claims, and all audio qualities remain unverified."
+  },
+  "comparison": {
+    "story": "Manual verification cost → remote inputs → claimed timing and scale.",
+    "motion": "Topic overlays on a stable two-founder shot.",
+    "sound": "Coherent ASR with some name/phrase errors; no validated listening.",
+    "texture": "Neutral room with consistent green graphics.",
+    "lesson": "A clear input/outcome explanation still benefits from one real evidence-to-decision example."
+  },
+  "reviewer_model": "gpt-6-astra",
+  "scope": "sampled visual and story review; ASR and measured signal support; no validated audio listening",
+  "viewed_evidence": [
+    "technical-review-2026-10-19/deep-review/motion/316/timeline-00.jpg",
+    "technical-review-2026-10-19/deep-review/motion/316/timeline-01.jpg"
+  ],
+  "closer_windows": []
+}

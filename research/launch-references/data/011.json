@@ -1,0 +1,344 @@
+{
+  "id": 11,
+  "reviewer_model": "gpt-6-astra",
+  "scope": "sampled visual and story review; ASR and measured signal support; no validated audio listening",
+  "viewed_evidence": [
+    "technical-review-2026-10-19/deep-review/motion/011/timeline-00.jpg",
+    "technical-review-2026-10-19/deep-review/motion/011/timeline-01.jpg",
+    "technical-review-2026-10-19/deep-review/audio/011-speech.json"
+  ],
+  "closer_windows": [],
+  "product_from_film": "Krea 3 is presented as an image editor with scene placement, local edits and character or product consistency.",
+  "explains_well": "The same sofa scene makes clothing and object changes easy to compare.",
+  "unclear": "The real controls and measurement behind the speed comparison are not established.",
+  "product_type": "creative tool",
+  "scenario": "Compose a scene, change clothing and shoes, then edit a portrait setting.",
+  "product_clear_time": 5,
+  "product_clear_basis": "The image-editing title follows boxed objects resolving into a room.",
+  "scenes": [
+    {
+      "id": "V01",
+      "start": 0,
+      "end": 8,
+      "action": "A large cursor gives way to Krea 3 lettering and several colored pointers. Boxed chair and person appear separately, then share a room. The room fades toward white around the person.",
+      "design": "White canvas, colored selection boxes, room imagery.",
+      "purpose": "Introduce image editing through composition.",
+      "evidence": "Visible chronological 1 fps samples, source 0–8s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V02",
+      "start": 8,
+      "end": 16,
+      "action": "Large arrows label Speed and Quality among small asset pictures; a model comparison chart replaces them, with Krea highlighted green and 7.89 s visible.",
+      "design": "Black arrows, white background, green highlighted bar.",
+      "purpose": "Claim fast edits at competitive quality.",
+      "evidence": "Visible chronological 1 fps samples, source 8–16s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V03",
+      "start": 16,
+      "end": 28,
+      "action": "A photo collage becomes one sofa scene. Colored pointers label sofa, model and lamp. The woman’s shirt changes to blue and shoes to red boots while the sofa stays recognizable. A circular zoom highlights the boot.",
+      "design": "Concrete wall, brown sofa, pointer labels and circular detail callouts.",
+      "purpose": "Show selected changes within a stable scene.",
+      "evidence": "Visible chronological 1 fps samples, source 16–28s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V04",
+      "start": 28,
+      "end": 40,
+      "action": "Dark backgrounds carry Consistent Characters then Consistent Products. Circular crops enlarge faces, a camera and a watch before a globe fills the lower view.",
+      "design": "Black field, circular crops, small orbit-like image markers.",
+      "purpose": "Extend the consistency claim beyond one example.",
+      "evidence": "Visible chronological 1 fps samples, source 28–40s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V05",
+      "start": 40,
+      "end": 49,
+      "action": "Large text on white leads to one portrait card. Clothing changes, then the setting becomes a snowy mountain and a red sled appears; a prompt line is visible underneath.",
+      "design": "Isolated image card with small prompt and round control icon.",
+      "purpose": "Show a compact editing interaction.",
+      "evidence": "Visible chronological 1 fps samples, source 40–49s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V06",
+      "start": 49,
+      "end": 59.95,
+      "action": "Multistyle Krea 3 lettering appears, separates in sampled states, then a small black mark holds centered on white through the end.",
+      "design": "Mixed letter textures followed by minimal brand hold.",
+      "purpose": "Close on the brand.",
+      "evidence": "Visible chronological 1 fps samples, source 49–59.95s; boundary approximate; exact motion between samples unverified."
+    }
+  ],
+  "sound": [
+    {
+      "id": "A01",
+      "start": 0,
+      "end": 59.95,
+      "layer": "unknown",
+      "detail": "No validated direct audio listening was performed. Music, speech delivery, effects, mix and sync remain unknown, not absent.",
+      "visual_relation": "All visual scenes; audiovisual alignment unverified",
+      "evidence": "Visual samples only; no actual audio range supplied to this reviewer."
+    },
+    {
+      "id": "A02",
+      "start": 3.43,
+      "end": 55.5,
+      "layer": "ASR draft",
+      "detail": "The ASR draft describes fast image editing, scene placement, local changes, consistency and future updates. Recognition errors affect model names and the closing beta statement; voice delivery is not assessed.",
+      "visual_relation": "Story text support; exact audiovisual alignment and delivery unverified.",
+      "evidence": "technical-review-2026-10-19/deep-review/audio/011-speech.json; local faster-whisper base CPU int8 draft; VAD candidates only, recognition errors possible."
+    }
+  ],
+  "categories": [
+    {
+      "id": "Q01",
+      "finding": "Composition leads to speed claims, local edits, consistency examples and a compact portrait edit.",
+      "evidence": "V01–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q02",
+      "finding": "A large cursor and colorful Krea 3 wordmark appear before any task; the following selection boxes make the editing context clearer.",
+      "evidence": "V01",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q03",
+      "finding": "Image editing is explicit at 5 s; creators can infer the task from the sofa edits, but the actual interface is simplified.",
+      "evidence": "V01,V03",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q04",
+      "finding": "Selection boxes, colored pointers and circular crops guide edits; object state changes are visible, while exact morph paths and easing are unresolved.",
+      "evidence": "V01,V03,V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q05",
+      "finding": "A collage gives way to one scene and then to dark circular crops; shared images link the sections despite a large palette change.",
+      "evidence": "V03,V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q06",
+      "finding": "Clean white graphic space alternates with textured interiors and black image galleries; no asset origin is established.",
+      "evidence": "V01–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q07",
+      "finding": "Large feature headings are readable in sheets; benchmark rows and the final prompt require more attention than the edited subject.",
+      "evidence": "V02,V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q08",
+      "finding": "The ASR draft describes fast image editing, scene placement, local changes, consistency and future updates. Recognition errors affect model names and the closing beta statement; voice delivery is not assessed.",
+      "evidence": "A02",
+      "status": "uncertain",
+      "reason": "ASR text only; no validated listening, delivery or voice origin.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q09",
+      "finding": "Voice delivery, music, effects and audiovisual alignment were not established by this visual pass.",
+      "evidence": "A01",
+      "status": "not checked",
+      "reason": "No validated direct audio listening input.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q10",
+      "finding": "Voice delivery, music, effects and audiovisual alignment were not established by this visual pass.",
+      "evidence": "A01",
+      "status": "not checked",
+      "reason": "No validated direct audio listening input.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q11",
+      "finding": "Voice delivery, music, effects and audiovisual alignment were not established by this visual pass.",
+      "evidence": "A01",
+      "status": "not checked",
+      "reason": "No validated direct audio listening input.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q12",
+      "finding": "People, furniture and product images are combined with pointers, charts and circular masks; no original production stack is known.",
+      "evidence": "V01–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q13",
+      "finding": "Manifest duration 59.95 s; indexed dimensions 1280×720. Source unchanged flag recorded; fresh encoding and audio clipping checks not run.",
+      "evidence": "Group manifest",
+      "status": "uncertain",
+      "reason": "Inherited technical metadata; no fresh media probe in this review.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q14",
+      "finding": "Local clothing changes and the snowy portrait result communicate editing without sound; exact promised speed depends on reading the chart.",
+      "evidence": "V02,V03,V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q15",
+      "finding": "Colored pointers first assign scene elements; the boot magnifier then puts the edited detail at the center of attention.",
+      "evidence": "V03",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q16",
+      "finding": "The sofa passage holds one composition across several edits; the face/product gallery introduces more examples with less task context.",
+      "evidence": "V03,V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q17",
+      "finding": "The opening image-editing promise is answered by visible clothing and setting changes; the last logo hold adds no further proof.",
+      "evidence": "V01,V03,V05,V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q18",
+      "finding": "The film appears designed to build creative possibility through many controlled visual changes; audience response is not measured.",
+      "evidence": "V03,V04,V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q19",
+      "finding": "The sofa, wall and woman persist through the main edits, making the changed items traceable.",
+      "evidence": "V03",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q20",
+      "finding": "The film shows edited outcomes and a benchmark claim; it does not establish real-time latency, unchanged pixels or repeatable consistency.",
+      "evidence": "V02–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q21",
+      "finding": "Colored pointers and varied Krea lettering give a recurring visual identity; many image-gallery motifs are more generic.",
+      "evidence": "V01,V03,V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q22",
+      "finding": "The stable sofa scene is the core demonstration; the globe bridge and long final mark could be shorter without losing the task.",
+      "evidence": "V03,V04,V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q23",
+      "finding": "Tin can keep one campaign image fixed and change only one product, headline or crop with a labeled pointer and detail zoom.",
+      "evidence": "V03",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q24",
+      "finding": "Krea 3 is presented as an image editor with scene placement, local edits and character or product consistency.",
+      "evidence": "Model reading from inspected images",
+      "status": "uncertain",
+      "reason": "Model-only new-viewer interpretation; no human test.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q25",
+      "finding": "Contact sheets inspected at displayed size; a phone-size playback, caption audit, flash audit and formal accessibility check were not performed.",
+      "evidence": "Viewed sheets",
+      "status": "not checked",
+      "reason": "Full-size moving-image and device checks unavailable in this pass.",
+      "experiment": "none"
+    }
+  ],
+  "lessons": {
+    "keep": "Keep a stable image composition while highlighting one visible edit at a time.",
+    "avoid": "Avoid presenting animated results or a promotional chart as independent speed or accuracy proof.",
+    "open": "Exact transitions, real latency, preservation of untouched pixels and sound remain open.",
+    "try": [
+      "For Tin creative revisions, use the same ad image for headline, product and crop changes; label each selected target with a colored pointer.",
+      "Compare a result with its previous version using a circular detail crop on the changed region, then return to the full ad."
+    ]
+  },
+  "comparison": {
+    "story": "Introduce image editing through composition. → Claim fast edits at competitive quality. → Show selected changes within a stable scene. → Extend the consistency claim beyond one example. → Show a compact editing interaction. → Close on the brand.",
+    "motion": "Selection boxes, colored pointers and circular crops guide edits; object state changes are visible, while exact morph paths and easing are unresolved. Sampling scope: 1 fps unless a closer window is recorded.",
+    "sound": "No validated listening; unknown.",
+    "texture": "White canvas, colored selection boxes, room imagery.; Black arrows, white background, green highlighted bar.; Concrete wall, brown sofa, pointer labels and circular detail callouts.; Black field, circular crops, small orbit-like image markers.; Isolated image card with small prompt and round control icon.; Mixed letter textures followed by minimal brand hold.",
+    "lesson": "Keep a stable image composition while highlighting one visible edit at a time."
+  },
+  "elements": [
+    {
+      "kind": "ui",
+      "name": "selection boxes",
+      "events": [
+        "V01"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "comparison bar chart",
+      "events": [
+        "V02"
+      ]
+    },
+    {
+      "kind": "motion",
+      "name": "circular detail zoom",
+      "events": [
+        "V03",
+        "V04"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "colored cursors",
+      "events": [
+        "V01",
+        "V03"
+      ]
+    }
+  ]
+}

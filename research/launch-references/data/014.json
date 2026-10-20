@@ -1,0 +1,360 @@
+{
+  "id": 14,
+  "reviewer_model": "gpt-6-astra",
+  "scope": "sampled visual and story review; ASR and measured signal support; no validated audio listening",
+  "viewed_evidence": [
+    "technical-review-2026-10-19/deep-review/motion/014/timeline-00.jpg",
+    "technical-review-2026-10-19/deep-review/motion/014/timeline-01.jpg",
+    "technical-review-2026-10-19/deep-review/motion/014/timeline-02.jpg",
+    "technical-review-2026-10-19/deep-review/audio/014-speech.json"
+  ],
+  "closer_windows": [],
+  "product_from_film": "OpenUI lets agents present responses as interactive interfaces built from chosen components.",
+  "explains_well": "The hotel example contrasts a wall of text with visual choices and adjustable controls.",
+  "unclear": "The integration steps and limits of the component-to-agent contract are not shown.",
+  "product_type": "developer framework",
+  "scenario": "Turn an agent hotel search response into cards and booking controls.",
+  "product_clear_time": 49,
+  "product_clear_basis": "OpenUI 1.0 is named at 47–48 s and a text response is paired with hotel cards by 49 s.",
+  "scenes": [
+    {
+      "id": "V01",
+      "start": 0,
+      "end": 14,
+      "action": "An empty desk becomes a seated presenter view. Older-looking computer footage and an interview insert replace the room, then a rounded prompt appears on white.",
+      "design": "Warm wooden studio; archival-looking images framed on black; captions.",
+      "purpose": "Frame interfaces as a long design problem.",
+      "evidence": "Visible chronological 1 fps samples, source 0–14s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V02",
+      "start": 14,
+      "end": 31,
+      "action": "Text response cards multiply into a wall. The presenter introduces a hotel request; loading steps become two long columns of recommendations.",
+      "design": "White chat surface; dense black paragraphs.",
+      "purpose": "Show the burden of choosing from text.",
+      "evidence": "Visible chronological 1 fps samples, source 14–31s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V03",
+      "start": 31,
+      "end": 43,
+      "action": "The response should be an interface appears beside the presenter. Grid-paper text bridges to phone and dashboard examples, then a question about your agent.",
+      "design": "Grid texture, blue emphasis, app screen inserts.",
+      "purpose": "State the proposed interface shift.",
+      "evidence": "Visible chronological 1 fps samples, source 31–43s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V04",
+      "start": 43,
+      "end": 57,
+      "action": "The product is named beside the presenter. A split text/output view fills with hotel cards, then a budget slider and amenity chips are selected.",
+      "design": "Hotel photo cards, blue slider, outlined selected chip.",
+      "purpose": "Show the useful interactive alternative.",
+      "evidence": "Visible chronological 1 fps samples, source 43–57s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V05",
+      "start": 57,
+      "end": 68,
+      "action": "Boxes labeled components, model, user needs and Open UI connect across a pale grid; the Open UI box becomes blue and branches outward.",
+      "design": "Fine curved connectors and technical-looking grid.",
+      "purpose": "Explain the conceptual division of responsibility.",
+      "evidence": "Visible chronological 1 fps samples, source 57–68s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V06",
+      "start": 68,
+      "end": 79,
+      "action": "Prompt text is surrounded by hotel cards and other interface examples. The presenter returns with growing download and star counts.",
+      "design": "White card montage; large numeric overlays on warm studio.",
+      "purpose": "Restate the value and add claimed adoption.",
+      "evidence": "Visible chronological 1 fps samples, source 68–79s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V07",
+      "start": 79,
+      "end": 88.916,
+      "action": "A thin line brain appears on black, then the presenter and wide desk return. OpenUI branding holds over the darkening room.",
+      "design": "Wire-like brain image and warm room ending.",
+      "purpose": "Close the mind-to-interface metaphor.",
+      "evidence": "Visible chronological 1 fps samples, source 79–88.916s; boundary approximate; exact motion between samples unverified."
+    }
+  ],
+  "sound": [
+    {
+      "id": "A01",
+      "start": 0,
+      "end": 88.916,
+      "layer": "unknown",
+      "detail": "No validated direct audio listening was performed. Music, speech delivery, effects, mix and sync remain unknown, not absent.",
+      "visual_relation": "All visual scenes; audiovisual alignment unverified",
+      "evidence": "Visual samples only; no actual audio range supplied to this reviewer."
+    },
+    {
+      "id": "A02",
+      "start": 1.45,
+      "end": 82.16,
+      "layer": "ASR draft",
+      "detail": "ASR draft supports a GUI-history-to-agent-text problem, a hotel-choice example and OpenUI as a framework for interactive responses. The component/model section has recognition errors, so exact wording is not asserted. Download and star figures are promotional claims. Delivery and soundtrack were not heard.",
+      "visual_relation": "Story text support; exact audiovisual alignment and delivery unverified.",
+      "evidence": "technical-review-2026-10-19/deep-review/audio/014-speech.json; local faster-whisper base CPU int8 draft; VAD candidates only, recognition errors possible."
+    }
+  ],
+  "categories": [
+    {
+      "id": "Q01",
+      "finding": "Interface history leads to text overload, a hotel example, an interactive alternative and a component diagram.",
+      "evidence": "V01–V07",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q02",
+      "finding": "A warm empty desk and chair fill the opening; neither the product nor task is clear yet.",
+      "evidence": "V01",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q03",
+      "finding": "Agent builders are addressed around 42–45 s; the framework function becomes clear with the named interactive output at 49 s.",
+      "evidence": "V03,V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q04",
+      "finding": "Response cards multiply; a budget slider extends right and a chip gains an outline; diagram connectors link component roles. Exact easing is unresolved.",
+      "evidence": "V02,V04,V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q05",
+      "finding": "Presenter shots recur between full-screen diagrams and examples, preserving a human anchor through large visual changes.",
+      "evidence": "V01–V07",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q06",
+      "finding": "Warm timber studio footage contrasts with pale technical grids and clean interface surfaces.",
+      "evidence": "V01,V03,V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q07",
+      "finding": "The dense paragraphs are deliberately used as the problem; hotel photos, slider and chips replace reading with visible choices.",
+      "evidence": "V02,V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q08",
+      "finding": "ASR draft supports a GUI-history-to-agent-text problem, a hotel-choice example and OpenUI as a framework for interactive responses. The component/model section has recognition errors, so exact wording is not asserted. Download and star figures are promotional claims. Delivery and soundtrack were not heard.",
+      "evidence": "A02",
+      "status": "uncertain",
+      "reason": "ASR text only; no validated listening, delivery or voice origin.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q09",
+      "finding": "Voice delivery, music, effects and audiovisual alignment were not established by this visual pass.",
+      "evidence": "A01",
+      "status": "not checked",
+      "reason": "No validated direct audio listening input.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q10",
+      "finding": "Voice delivery, music, effects and audiovisual alignment were not established by this visual pass.",
+      "evidence": "A01",
+      "status": "not checked",
+      "reason": "No validated direct audio listening input.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q11",
+      "finding": "Voice delivery, music, effects and audiovisual alignment were not established by this visual pass.",
+      "evidence": "A01",
+      "status": "not checked",
+      "reason": "No validated direct audio listening input.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q12",
+      "finding": "Presenter, historical-looking footage, phone clips, dashboard screens and a line-rendered brain are mixed; asset origins are unverified.",
+      "evidence": "V01,V03,V07",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q13",
+      "finding": "Manifest duration 88.916 s; indexed dimensions 1920×1080. Source unchanged flag recorded; fresh encoding and audio clipping checks not run.",
+      "evidence": "Group manifest",
+      "status": "uncertain",
+      "reason": "Inherited technical metadata; no fresh media probe in this review.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q14",
+      "finding": "Captions and the text-to-cards comparison communicate the product silently, although the long opening delays it.",
+      "evidence": "V02,V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q15",
+      "finding": "The hotel card photos become focal points after the wall of text; the slider thumb and selected chip identify actions.",
+      "evidence": "V02,V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q16",
+      "finding": "The film spends about half its duration building context before naming OpenUI; the diagram then adds four roles quickly.",
+      "evidence": "V01–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q17",
+      "finding": "The complaint about text-only intelligence is answered by a usable-looking hotel interface and the closing presentation metaphor.",
+      "evidence": "V02,V04,V07",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q18",
+      "finding": "Text overload is framed as frustration, followed by control through visual choices; this is creative interpretation.",
+      "evidence": "V02,V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q19",
+      "finding": "The hotel scenario connects the bad paragraph output to the improved cards and filters.",
+      "evidence": "V02,V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q20",
+      "finding": "Cards, slider and chips are shown in changing states; actual framework integration and adoption counts are not independently verified.",
+      "evidence": "V04,V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q21",
+      "finding": "Blue emphasis, a pale grid and the OpenUI mascot recur; the warm presenter room supplies a second consistent identity.",
+      "evidence": "V03,V04,V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q22",
+      "finding": "The hotel before-and-after is necessary; historical material and external product examples could be shorter to reach it sooner.",
+      "evidence": "V01,V03,V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q23",
+      "finding": "Tin could compare a text-heavy campaign response with a card for each asset plus budget and channel controls, keeping the same request visible.",
+      "evidence": "V02,V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q24",
+      "finding": "OpenUI lets agents present responses as interactive interfaces built from chosen components.",
+      "evidence": "Model reading from inspected images",
+      "status": "uncertain",
+      "reason": "Model-only new-viewer interpretation; no human test.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q25",
+      "finding": "Contact sheets inspected at displayed size; a phone-size playback, caption audit, flash audit and formal accessibility check were not performed.",
+      "evidence": "Viewed sheets",
+      "status": "not checked",
+      "reason": "Full-size moving-image and device checks unavailable in this pass.",
+      "experiment": "none"
+    }
+  ],
+  "lessons": {
+    "keep": "Carry one request from dense text into a visible set of choices and controls.",
+    "avoid": "Avoid spending most of the opening on history before giving a new viewer a concrete product result.",
+    "open": "Exact interaction behavior, integration rules, claimed adoption and sound remain unverified.",
+    "try": [
+      "For Tin, show a campaign-plan paragraph turning into channel cards with a budget slider; keep all option names consistent.",
+      "Use a four-box diagram to explain user inputs, agent choice, approved components and rendered result, followed immediately by the matching UI."
+    ]
+  },
+  "comparison": {
+    "story": "Frame interfaces as a long design problem. → Show the burden of choosing from text. → State the proposed interface shift. → Show the useful interactive alternative. → Explain the conceptual division of responsibility. → Restate the value and add claimed adoption. → Close the mind-to-interface metaphor.",
+    "motion": "Response cards multiply; a budget slider extends right and a chip gains an outline; diagram connectors link component roles. Exact easing is unresolved. Sampling scope: 1 fps unless a closer window is recorded.",
+    "sound": "No validated listening; unknown.",
+    "texture": "Warm wooden studio; archival-looking images framed on black; captions.; White chat surface; dense black paragraphs.; Grid texture, blue emphasis, app screen inserts.; Hotel photo cards, blue slider, outlined selected chip.; Fine curved connectors and technical-looking grid.; White card montage; large numeric overlays on warm studio.; Wire-like brain image and warm room ending.",
+    "lesson": "Carry one request from dense text into a visible set of choices and controls."
+  },
+  "elements": [
+    {
+      "kind": "ui",
+      "name": "hotel cards",
+      "events": [
+        "V04"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "budget slider",
+      "events": [
+        "V04"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "selection chips",
+      "events": [
+        "V04"
+      ]
+    },
+    {
+      "kind": "motion",
+      "name": "card multiplication",
+      "events": [
+        "V02"
+      ]
+    },
+    {
+      "kind": "texture",
+      "name": "grid background",
+      "events": [
+        "V03",
+        "V05"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,374 @@
+{
+  "id": 283,
+  "reviewer_model": "gpt-6-astra",
+  "scope": "sampled visual and story review; ASR and measured signal support; no validated audio listening",
+  "viewed_evidence": [
+    "technical-review-2026-10-19/deep-review/motion/283/timeline-00.jpg",
+    "technical-review-2026-10-19/deep-review/motion/283/timeline-01.jpg",
+    "technical-review-2026-10-19/deep-review/motion/283/timeline-02.jpg",
+    "technical-review-2026-10-19/deep-review/motion/283/timeline-03.jpg",
+    "technical-review-2026-10-19/deep-review/motion/283/timeline-04.jpg"
+  ],
+  "closer_windows": [],
+  "product_from_film": "TAL by Grapevine is a chat-based job-search assistant that suggests roles and helps with interview preparation and salary requests.",
+  "explains_well": "One job seeker and one continuing chat connect job suggestions, interview preparation and negotiation advice.",
+  "unclear": "The story jumps from an Apply option to an interview confirmation without showing the application details or submission.",
+  "product_type": "career assistant",
+  "scenario": "Help Priya find a business-analyst role, prepare for Splice and ask for a higher salary.",
+  "product_clear_time": 14,
+  "product_clear_basis": "The app-store view says Tal finds your next job; the role cards later show how.",
+  "scenes": [
+    {
+      "id": "V01",
+      "start": 0,
+      "end": 15,
+      "action": "A distressed woman sits in a cafe in black-and-white footage. A booklet says I’M TAL and Stop job hunting like the 90s. She reads it; the footage becomes color and an app-store view says Tal finds your next job.",
+      "design": "Monochrome cafe, printed fox mascot and warm color reveal.",
+      "purpose": "Introduce the assistant through a character’s frustration and discovery.",
+      "evidence": "Visible chronological 1 fps samples, source 0–15s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V02",
+      "start": 15,
+      "end": 35,
+      "action": "Priya opens a chat. She describes exhaustion, many applications without callbacks and a manager taking credit. Tal answers that she is misplaced rather than lost and offers to fix it. A clock and home-sofa shots mark the passage of time.",
+      "design": "Orange and white chat bubbles on a patterned background, warm room and reaction shots.",
+      "purpose": "Establish needs through a conversational exchange.",
+      "evidence": "Visible chronological 1 fps samples, source 15–35s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V03",
+      "start": 35,
+      "end": 50,
+      "action": "Role cards include a strategy-and-insights business analyst role and Splice payments intelligence, with pay ranges and Apply, Not interested and Send me another role controls. Tal asks what she wants mornings to feel like. She interacts with the phone and smiles.",
+      "design": "Readable role cards and orange action buttons.",
+      "purpose": "Turn frustration into choices tied to work preferences.",
+      "evidence": "Visible chronological 1 fps samples, source 35–50s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V04",
+      "start": 50,
+      "end": 67,
+      "action": "A Splice interview-confirmation email notification appears. Tal supplies commonly asked questions reported on Grapevine, including diagnosing a flat signup funnel and payment metrics. Priya reads and considers them.",
+      "design": "Email notification and close chat views.",
+      "purpose": "Carry the selected employer into interview preparation.",
+      "evidence": "Visible chronological 1 fps samples, source 50–67s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V05",
+      "start": 67,
+      "end": 85,
+      "action": "Priya takes notes at a desk, continues the chat and gets advice to explain her approach before metrics. Tal offers voice notes; she walks while a recording-style bar appears. Later notifications ask if she is ready and announce interview day.",
+      "design": "Desk notes, phone conversation, microphone-like control and orange waveform bar.",
+      "purpose": "Show preparation extending beyond text into a daily routine.",
+      "evidence": "Visible chronological 1 fps samples, source 67–85s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V06",
+      "start": 85,
+      "end": 100,
+      "action": "Dressed for the interview, Priya asks how to request a 20% salary increase. Tal uses her three years of data experience to suggest wording. She walks outside; We got this appears across the chat and her portrait.",
+      "design": "Blue blazer, close message text and large warm slogan.",
+      "purpose": "End the character’s arc with confidence and specific negotiation language, not a shown job offer.",
+      "evidence": "Visible chronological 1 fps samples, source 85–100s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V07",
+      "start": 100,
+      "end": 118,
+      "action": "An orange brand card introduces Tal by Grapevine and the fox character with The Right Job In Your DMs. The cafe returns in black and white with another frustrated person finding the same booklet, then color returns as he uses the app.",
+      "design": "Orange mascot card and repeated cafe setup.",
+      "purpose": "Turn the first story into a repeatable discovery loop.",
+      "evidence": "Visible chronological 1 fps samples, source 100–118s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V08",
+      "start": 118,
+      "end": 121.16,
+      "action": "A Grapevine product card leads to available-now text with app-store platform icons.",
+      "design": "Dark end cards and small white type.",
+      "purpose": "Give the product family and availability.",
+      "evidence": "Visible chronological 1 fps samples, source 118–121.16s; boundary approximate; exact motion between samples unverified."
+    }
+  ],
+  "sound": [
+    {
+      "id": "A01",
+      "start": 0,
+      "end": 121.16,
+      "layer": "unknown",
+      "detail": "No validated direct audio listening was performed. Music, speech delivery, effects, mix and sync remain unknown, not absent.",
+      "visual_relation": "All visual scenes; audiovisual alignment unverified",
+      "evidence": "Visual samples only; no actual audio range supplied to this reviewer."
+    }
+  ],
+  "categories": [
+    {
+      "id": "Q01",
+      "finding": "Frustration and discovery lead to chat, roles, interview preparation, negotiation advice and a second-person loop.",
+      "evidence": "V01–V08",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q02",
+      "finding": "The printed booklet introduces a character inside the story before the app-store view explains the offer.",
+      "evidence": "V01",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q03",
+      "finding": "The next-job promise is explicit at about 14 s, with concrete role cards after 35 s.",
+      "evidence": "V01,V03",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q04",
+      "finding": "The story changes from monochrome to color, chat messages appear and a recording-style bar grows. Exact transition timing and sound alignment are unverified.",
+      "evidence": "V01,V02,V05,V07",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q05",
+      "finding": "Priya, the same chat and the Splice employer name connect the long sequence of tasks.",
+      "evidence": "V02–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q06",
+      "finding": "Warm orange chat controls match the fox and closing brand card; the home scenes use warm browns and yellow light.",
+      "evidence": "V02–V07",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q07",
+      "finding": "Close phone views make several job and interview details readable. Longer message passages require attention during a fast-moving story.",
+      "evidence": "V03–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q08",
+      "finding": "Voice delivery, music, effects and audiovisual alignment were not established by this visual pass.",
+      "evidence": "A01",
+      "status": "not checked",
+      "reason": "No validated direct audio listening input.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q09",
+      "finding": "Voice delivery, music, effects and audiovisual alignment were not established by this visual pass.",
+      "evidence": "A01",
+      "status": "not checked",
+      "reason": "No validated direct audio listening input.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q10",
+      "finding": "Voice delivery, music, effects and audiovisual alignment were not established by this visual pass.",
+      "evidence": "A01",
+      "status": "not checked",
+      "reason": "No validated direct audio listening input.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q11",
+      "finding": "Voice delivery, music, effects and audiovisual alignment were not established by this visual pass.",
+      "evidence": "A01",
+      "status": "not checked",
+      "reason": "No validated direct audio listening input.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q12",
+      "finding": "Live character scenes, phone-screen views and an animated-looking fox are visible. Production methods and footage origin are unknown.",
+      "evidence": "V01–V08",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q13",
+      "finding": "Manifest duration 121.16s; indexed dimensions 1470×1080. Source unchanged flag recorded; fresh encoding and audio clipping checks not run.",
+      "evidence": "Group manifest",
+      "status": "uncertain",
+      "reason": "Inherited technical metadata; no fresh media probe in this review.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q14",
+      "finding": "The chat text carries the full broad story without needing heard dialogue. Voice-note content and audio remain unknown.",
+      "evidence": "V02–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q15",
+      "finding": "Reaction shots alternate with close message views, linking the interface to the character’s changing mood.",
+      "evidence": "V02–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q16",
+      "finding": "The first 15 s establish discovery. The main chat journey takes about 85 s, followed by a 21 s brand and second-user loop.",
+      "evidence": "V01–V08",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q17",
+      "finding": "The visible payoff is an interview notification, useful preparation and confidence. A job offer or achieved pay increase is not shown.",
+      "evidence": "V04–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q18",
+      "finding": "Monochrome frustration gives way to warmer color and a more confident character; this is a deliberate emotional framing.",
+      "evidence": "V01,V06,V07",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q19",
+      "finding": "Splice persists from role card to interview email and preparation. Application submission is skipped, and salary advice appears before a shown offer.",
+      "evidence": "V03–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q20",
+      "finding": "Role fit, pay ranges, employer availability and the claim about employee-reported questions are not verified. The character story does not establish real hiring outcomes.",
+      "evidence": "V03–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q21",
+      "finding": "The assistant responds to workplace dissatisfaction, gives employer-specific questions and helps phrase a salary request. These are distinct stages of one career task.",
+      "evidence": "V02–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q22",
+      "finding": "Show the selected role’s application preview and confirmation before the interview email, then label salary advice as preparation.",
+      "evidence": "V03,V04,V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q23",
+      "finding": "Tin can follow one customer and one named campaign through discovery, action, preparation and review rather than switching examples for every feature.",
+      "evidence": "V02–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q24",
+      "finding": "TAL by Grapevine is a chat-based job-search assistant that suggests roles and helps with interview preparation and salary requests.",
+      "evidence": "Model reading from inspected images",
+      "status": "uncertain",
+      "reason": "Model-only new-viewer interpretation; no human test.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q25",
+      "finding": "Contact sheets inspected at displayed size; a phone-size playback, caption audit, flash audit and formal accessibility check were not performed.",
+      "evidence": "Viewed sheets",
+      "status": "not checked",
+      "reason": "Full-size moving-image and device checks unavailable in this pass.",
+      "experiment": "none"
+    }
+  ],
+  "lessons": {
+    "keep": "Carry one named person and one concrete opportunity through multiple assistant capabilities.",
+    "avoid": "Avoid skipping the action that connects a recommendation to the claimed next-stage result.",
+    "open": "Application handling, matching inputs, employer and interview data, outcomes, voice-note content and all audio remain unverified.",
+    "try": [
+      "For Tin, keep one campaign visible while the assistant researches, drafts and prepares the launch.",
+      "Show the submission or publish confirmation before jumping to a later success notification."
+    ]
+  },
+  "comparison": {
+    "story": "Introduce the assistant through a character’s frustration and discovery. → Establish needs through a conversational exchange. → Turn frustration into choices tied to work preferences. → Carry the selected employer into interview preparation. → Show preparation extending beyond text into a daily routine. → End the character’s arc with confidence and specific negotiation language, not a shown job offer. → Turn the first story into a repeatable discovery loop. → Give the product family and availability.",
+    "motion": "The story changes from monochrome to color, chat messages appear and a recording-style bar grows. Exact transition timing and sound alignment are unverified. Sampling scope: 1 fps unless a closer window is recorded.",
+    "sound": "No validated listening; unknown.",
+    "texture": "Monochrome cafe, printed fox mascot and warm color reveal.; Orange and white chat bubbles on a patterned background, warm room and reaction shots.; Readable role cards and orange action buttons.; Email notification and close chat views.; Desk notes, phone conversation, microphone-like control and orange waveform bar.; Blue blazer, close message text and large warm slogan.; Orange mascot card and repeated cafe setup.; Dark end cards and small white type.",
+    "lesson": "Carry one named person and one concrete opportunity through multiple assistant capabilities."
+  },
+  "elements": [
+    {
+      "kind": "ui",
+      "name": "chat",
+      "events": [
+        "V02",
+        "V03",
+        "V04",
+        "V05",
+        "V06"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "job card",
+      "events": [
+        "V03"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "notification",
+      "events": [
+        "V04",
+        "V05"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "voice recording control",
+      "events": [
+        "V05"
+      ]
+    },
+    {
+      "kind": "motion",
+      "name": "monochrome to color",
+      "events": [
+        "V01",
+        "V07"
+      ]
+    },
+    {
+      "kind": "texture",
+      "name": "warm interior footage",
+      "events": [
+        "V02",
+        "V05"
+      ]
+    }
+  ]
+}

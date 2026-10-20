@@ -1,0 +1,360 @@
+{
+  "id": 86,
+  "reviewer_model": "gpt-6-astra",
+  "scope": "sampled visual and story review; ASR and measured signal support; no validated audio listening",
+  "viewed_evidence": [
+    "technical-review-2026-10-19/deep-review/motion/086/timeline-00.jpg",
+    "technical-review-2026-10-19/deep-review/motion/086/timeline-01.jpg",
+    "technical-review-2026-10-19/deep-review/motion/086/timeline-02.jpg",
+    "technical-review-2026-10-19/deep-review/audio/086-speech.json"
+  ],
+  "closer_windows": [],
+  "product_from_film": "Graphify is presented as a knowledge-graph memory layer that helps coding agents understand a codebase.",
+  "explains_well": "The shift from overwhelming code to a persistent shared graph gives the memory problem a visible shape.",
+  "unclear": "The actual repository setup, query and correctness check are not demonstrated.",
+  "product_type": "developer knowledge tool",
+  "scenario": "Give coding agents persistent shared codebase context.",
+  "product_clear_time": 38,
+  "product_clear_basis": "Graph-building UI is followed by captions describing persistent shared codebase memory.",
+  "scenes": [
+    {
+      "id": "V01",
+      "start": 0,
+      "end": 10,
+      "action": "Currency close-ups carry words about expensive AI amnesia, then blurred human imagery leads to a person at a table in an empty white room.",
+      "design": "Centered square imagery, black surround, yellow text.",
+      "purpose": "Frame forgotten context as a cost.",
+      "evidence": "Visible chronological 1 fps samples, source 0–10s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V02",
+      "start": 10,
+      "end": 21,
+      "action": "Model symbols surround the person; dense lines accumulate from room surfaces until they fill the image and obscure the figure.",
+      "design": "Monochrome room and radiating line density.",
+      "purpose": "Represent code growth beyond understanding.",
+      "evidence": "Visible chronological 1 fps samples, source 10–21s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V03",
+      "start": 21,
+      "end": 34,
+      "action": "A falling figure, repeated hand images with tracking-like boxes and branching lines lead to a text pause.",
+      "design": "Grainy monochrome imagery, repeated tiles and fine paths.",
+      "purpose": "Question verification and repeated context.",
+      "evidence": "Visible chronological 1 fps samples, source 21–34s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V04",
+      "start": 34,
+      "end": 43,
+      "action": "Your graph is being built UI appears, followed by a dotted mark and colorful connected image nodes. Hands and numbers then overlay each other.",
+      "design": "Dark graph UI, multicolor node network and textured collage.",
+      "purpose": "Introduce shared memory and graph structure.",
+      "evidence": "Visible chronological 1 fps samples, source 34–43s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V05",
+      "start": 43,
+      "end": 54,
+      "action": "Bright rail-like paths sweep through several colors; a walking person becomes dot and pixel-like representations.",
+      "design": "Saturated motion-blurred paths and monochrome transformations.",
+      "purpose": "Suggest change and navigation through a system.",
+      "evidence": "Visible chronological 1 fps samples, source 43–54s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V06",
+      "start": 54,
+      "end": 66,
+      "action": "Posts and repository-like pages show 100,000+, downloads and 5,000+ figures, then testimonial cards accumulate.",
+      "design": "Dark repo pages, white posts, yellow highlights.",
+      "purpose": "Present adoption claims and social proof.",
+      "evidence": "Visible chronological 1 fps samples, source 54–66s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V07",
+      "start": 66,
+      "end": 79.552,
+      "action": "A small dark object becomes a brain-like form, then abstract networks and machinery appear. Graphify and its site hold over city imagery and then black.",
+      "design": "Mixed network textures and sparse white closing mark.",
+      "purpose": "Restate understandable software and brand.",
+      "evidence": "Visible chronological 1 fps samples, source 66–79.552s; boundary approximate; exact motion between samples unverified."
+    }
+  ],
+  "sound": [
+    {
+      "id": "A01",
+      "start": 0,
+      "end": 79.552,
+      "layer": "unknown",
+      "detail": "No validated direct audio listening was performed. Music, speech delivery, effects, mix and sync remain unknown, not absent.",
+      "visual_relation": "All visual scenes; audiovisual alignment unverified",
+      "evidence": "Visual samples only; no actual audio range supplied to this reviewer."
+    },
+    {
+      "id": "A02",
+      "start": 0,
+      "end": 71.19,
+      "layer": "ASR draft",
+      "detail": "ASR draft contrasts expanding context with memory, then presents a shared codebase knowledge graph and formal verification before adoption claims. The opening word, product name and metric phrase are misrecognized, so exact figures and wording are not asserted. It supports the memory-and-verification proposition, not verified capability; delivery and soundtrack were not heard.",
+      "visual_relation": "Story text support; exact audiovisual alignment and delivery unverified.",
+      "evidence": "technical-review-2026-10-19/deep-review/audio/086-speech.json; local faster-whisper base CPU int8 draft; VAD candidates only, recognition errors possible."
+    }
+  ],
+  "categories": [
+    {
+      "id": "Q01",
+      "finding": "Costly forgetting leads to code overload, a graph-memory answer and adoption claims.",
+      "evidence": "V01–V07",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q02",
+      "finding": "Currency imagery and the words The and expensive start a cost hook before the AI-amnesia phrase is complete.",
+      "evidence": "V01",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q03",
+      "finding": "Coding agents and codebase memory become explicit around 34–39 s; earlier imagery establishes a general overload problem.",
+      "evidence": "V02,V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q04",
+      "finding": "Lines accumulate around a fixed person, graphs change scale and cards stack; exact paths and easing remain unresolved.",
+      "evidence": "V02,V04,V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q05",
+      "finding": "Repeated square framing holds the montage together; text pauses and the graph-building panel mark the product pivot.",
+      "evidence": "V01–V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q06",
+      "finding": "Monochrome grain, yellow captions and later saturated rail-like streaks create strong visual contrast.",
+      "evidence": "V01–V07",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q07",
+      "finding": "Yellow lower captions carry much of the argument; large adoption numbers are easier to read than the actual graph UI.",
+      "evidence": "V04,V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q08",
+      "finding": "ASR draft contrasts expanding context with memory, then presents a shared codebase knowledge graph and formal verification before adoption claims. The opening word, product name and metric phrase are misrecognized, so exact figures and wording are not asserted. It supports the memory-and-verification proposition, not verified capability; delivery and soundtrack were not heard.",
+      "evidence": "A02",
+      "status": "uncertain",
+      "reason": "ASR text only; no validated listening, delivery or voice origin.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q09",
+      "finding": "Voice delivery, music, effects and audiovisual alignment were not established by this visual pass.",
+      "evidence": "A01",
+      "status": "not checked",
+      "reason": "No validated direct audio listening input.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q10",
+      "finding": "Voice delivery, music, effects and audiovisual alignment were not established by this visual pass.",
+      "evidence": "A01",
+      "status": "not checked",
+      "reason": "No validated direct audio listening input.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q11",
+      "finding": "Voice delivery, music, effects and audiovisual alignment were not established by this visual pass.",
+      "evidence": "A01",
+      "status": "not checked",
+      "reason": "No validated direct audio listening input.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q12",
+      "finding": "Currency, staged-looking room imagery, human figures, graph UI, posts and abstract scenes are mixed; origins are unknown.",
+      "evidence": "V01–V07",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q13",
+      "finding": "Manifest duration 79.552 s; indexed dimensions 1440×1080. Source unchanged flag recorded; fresh encoding and audio clipping checks not run.",
+      "evidence": "Group manifest",
+      "status": "uncertain",
+      "reason": "Inherited technical metadata; no fresh media probe in this review.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q14",
+      "finding": "Captions explain memory and codebase context silently, but the software operation is not shown step by step.",
+      "evidence": "V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q15",
+      "finding": "A central person anchors the growing code lines, then large metrics become the main focal points.",
+      "evidence": "V02,V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q16",
+      "finding": "A long abstract setup precedes a brief product view, while social-proof screens occupy a substantial closing section.",
+      "evidence": "V01–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q17",
+      "finding": "The amnesia problem is answered with a memory claim and graph imagery, not a demonstrated before-and-after agent task.",
+      "evidence": "V01,V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q18",
+      "finding": "The overwhelming room suggests anxiety, followed by relief through organized memory; this is interpretation.",
+      "evidence": "V02,V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q19",
+      "finding": "Nodes, paths and repeated human silhouettes create thematic continuity despite large media changes.",
+      "evidence": "V02–V07",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q20",
+      "finding": "Graph-building and adoption screens are shown; memory accuracy, mathematical-proof language and metric authenticity are not independently checked.",
+      "evidence": "V04,V06,V07",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q21",
+      "finding": "The graph motif is product-relevant; currency, falling figures and futuristic paths are less brand-specific.",
+      "evidence": "V01,V03,V04,V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q22",
+      "finding": "The overloaded room and graph response carry the concept; a real repository query could replace some abstract path imagery.",
+      "evidence": "V02,V04,V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q23",
+      "finding": "Tin can show many campaign records becoming a small source-linked graph, then use it to answer one previous-decision question.",
+      "evidence": "V02,V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q24",
+      "finding": "Graphify is presented as a knowledge-graph memory layer that helps coding agents understand a codebase.",
+      "evidence": "Model reading from inspected images",
+      "status": "uncertain",
+      "reason": "Model-only new-viewer interpretation; no human test.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q25",
+      "finding": "Contact sheets inspected at displayed size; a phone-size playback, caption audit, flash audit and formal accessibility check were not performed.",
+      "evidence": "Viewed sheets",
+      "status": "not checked",
+      "reason": "Full-size moving-image and device checks unavailable in this pass.",
+      "experiment": "none"
+    }
+  ],
+  "lessons": {
+    "keep": "Turn an abstract information-overload problem into a visible accumulation around one fixed subject.",
+    "avoid": "Avoid using adoption metrics or graph visuals as proof of correctness.",
+    "open": "Graph behavior, metric authenticity, exact transitions and audio remain unverified.",
+    "try": [
+      "For Tin, surround one campaign question with scattered notes, then reveal a small graph linking the correct source decision.",
+      "Follow a graph-building state with one agent answer and its source links, instead of another abstract montage."
+    ]
+  },
+  "comparison": {
+    "story": "Frame forgotten context as a cost. → Represent code growth beyond understanding. → Question verification and repeated context. → Introduce shared memory and graph structure. → Suggest change and navigation through a system. → Present adoption claims and social proof. → Restate understandable software and brand.",
+    "motion": "Lines accumulate around a fixed person, graphs change scale and cards stack; exact paths and easing remain unresolved. Sampling scope: 1 fps unless a closer window is recorded.",
+    "sound": "No validated listening; unknown.",
+    "texture": "Centered square imagery, black surround, yellow text.; Monochrome room and radiating line density.; Grainy monochrome imagery, repeated tiles and fine paths.; Dark graph UI, multicolor node network and textured collage.; Saturated motion-blurred paths and monochrome transformations.; Dark repo pages, white posts, yellow highlights.; Mixed network textures and sparse white closing mark.",
+    "lesson": "Turn an abstract information-overload problem into a visible accumulation around one fixed subject."
+  },
+  "elements": [
+    {
+      "kind": "motion",
+      "name": "accumulating line field",
+      "events": [
+        "V02"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "graph-building status",
+      "events": [
+        "V04"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "knowledge graph",
+      "events": [
+        "V04"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "testimonial cards",
+      "events": [
+        "V06"
+      ]
+    },
+    {
+      "kind": "texture",
+      "name": "grainy monochrome montage",
+      "events": [
+        "V01",
+        "V03"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,371 @@
+{
+  "id": 272,
+  "reviewer_model": "gpt-6-astra",
+  "scope": "sampled visual and story review; ASR and measured signal support; no validated audio listening",
+  "viewed_evidence": [
+    "technical-review-2026-10-19/deep-review/motion/272/timeline-00.jpg",
+    "technical-review-2026-10-19/deep-review/motion/272/timeline-01.jpg",
+    "technical-review-2026-10-19/deep-review/motion/272/timeline-02.jpg",
+    "technical-review-2026-10-19/deep-review/motion/272/timeline-03.jpg",
+    "technical-review-2026-10-19/deep-review/audio/272-speech.json"
+  ],
+  "closer_windows": [],
+  "product_from_film": "Alt-X presents an agent that builds real-estate underwriting models in Excel from documents.",
+  "explains_well": "The demonstration connects a PDF upload and explicit build request to populated spreadsheet sections and proposed changes.",
+  "unclear": "The source-checking promise is not as clear visually as the generation: the detail card does not clearly take the viewer back to the original source passage.",
+  "product_type": "financial modelling tool",
+  "scenario": "Turn a real-estate deal document into an underwriting model and review changes.",
+  "product_clear_time": 35,
+  "product_clear_basis": "PDF icons lead through the branded X to a spreadsheet graphic; the concrete upload follows at 62 s.",
+  "scenes": [
+    {
+      "id": "V01",
+      "start": 0,
+      "end": 12,
+      "action": "A split screen compares a large office with one person at a laptop. Email notifications and deal-sourcing, initial-underwriting and letter-of-intent stages sit above both sides.",
+      "design": "Parallel office views with dark translucent task labels.",
+      "purpose": "Frame a small team facing the same workflow as a large firm.",
+      "evidence": "Visible chronological 1 fps samples, source 0–12s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V02",
+      "start": 12,
+      "end": 43,
+      "action": "A presenter joins the laptop user, then speaks from a hallway. Cell By Cell appears as spreadsheet cells. A blue-green X appears between PDF icons and a spreadsheet graphic.",
+      "design": "Live office footage, simple file icons and blue-green glow.",
+      "purpose": "Introduce the alternative to manual model building.",
+      "evidence": "Visible chronological 1 fps samples, source 12–43s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V03",
+      "start": 43,
+      "end": 61,
+      "action": "An email announces a new deal. A long PDF scrolls while an hours counter rises. A purchase-and-sale agreement is highlighted and an underwriting spreadsheet appears alongside it.",
+      "design": "Dark gradient background, white document and Excel windows.",
+      "purpose": "Show manual reading and transfer of deal information.",
+      "evidence": "Visible chronological 1 fps samples, source 43–61s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V04",
+      "start": 61,
+      "end": 82,
+      "action": "The Alt-X panel accepts a dropped PDF. Begin building underwriting model is typed. Purchase assumptions, financing assumptions and a cash-flow table gain values while Thinking appears. A glowing send icon becomes DONE.",
+      "design": "Large pointer, white chat panel and cropped spreadsheet sections.",
+      "purpose": "Demonstrate input, instruction and generated model structure.",
+      "evidence": "Visible chronological 1 fps samples, source 61–82s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V05",
+      "start": 82,
+      "end": 93,
+      "action": "A spreadsheet cell leads to a 10 YEAR CASH FLOW card with highlighted values. The agent panel shows tool activity and Pending Changes, with green proposed edits and accept/reject icons.",
+      "design": "Enlarged detail card and tall change-review panel.",
+      "purpose": "Show inspection and control, although the original source passage is not clearly paired with the selected cell.",
+      "evidence": "Visible chronological 1 fps samples, source 82–93s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V06",
+      "start": 93,
+      "end": 115,
+      "action": "The presenter returns. Build Fast plus Verify everything appears; portraits and the X mark form a team graphic. The logo ends with alt-x.co.",
+      "design": "Office footage, short text pills and blue-green logo.",
+      "purpose": "Restate speed with verification and give a destination.",
+      "evidence": "Visible chronological 1 fps samples, source 93–115s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V07",
+      "start": 115,
+      "end": 116.693,
+      "action": "The final samples are black.",
+      "design": "Black tail.",
+      "purpose": "No further visible information.",
+      "evidence": "Visible chronological 1 fps samples, source 115–116.693s; boundary approximate; exact motion between samples unverified."
+    }
+  ],
+  "sound": [
+    {
+      "id": "A01",
+      "start": 0,
+      "end": 116.693,
+      "layer": "unknown",
+      "detail": "No validated direct audio listening was performed. Music, speech delivery, effects, mix and sync remain unknown, not absent.",
+      "visual_relation": "All visual scenes; audiovisual alignment unverified",
+      "evidence": "Visual samples only; no actual audio range supplied to this reviewer."
+    },
+    {
+      "id": "A02",
+      "start": 0,
+      "end": 115,
+      "layer": "ASR draft",
+      "detail": "The ASR draft describes small teams building real-estate financial models from documents in Excel, a time-limited underwriting task, model sections, source checking and approval of changes. Source-checking language is a draft claim; the visual samples do not clearly show the original page beside a selected output cell.",
+      "visual_relation": "Story text support; exact audiovisual alignment and delivery unverified.",
+      "evidence": "technical-review-2026-10-19/deep-review/audio/272-speech.json; local faster-whisper base CPU int8 draft; VAD candidates only, recognition errors possible."
+    }
+  ],
+  "categories": [
+    {
+      "id": "Q01",
+      "finding": "Small-versus-large-team framing leads to manual document work, an agent build, review controls and a website.",
+      "evidence": "V01–V07",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q02",
+      "finding": "Parallel task labels make the same workload visible on both sides of the opening comparison.",
+      "evidence": "V01",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q03",
+      "finding": "The PDF-to-spreadsheet diagram explains the offer around 35 s; the full task starts after 61 s.",
+      "evidence": "V02,V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q04",
+      "finding": "Document scrolling, rising hours, typed instructions and appearing spreadsheet values make progress visible. The DONE icon is an edited completion marker.",
+      "evidence": "V03,V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q05",
+      "finding": "The manual document-to-sheet sequence is followed by an automated version of that same task.",
+      "evidence": "V03,V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q06",
+      "finding": "Blue-green glow surrounds white software panels and the X mark; the live office sections use warmer natural-looking colors.",
+      "evidence": "V02–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q07",
+      "finding": "The prompt is readable and important sections are enlarged. The exact source-to-cell relationship is harder to read.",
+      "evidence": "V04,V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q08",
+      "finding": "The ASR draft describes small teams building real-estate financial models from documents in Excel, a time-limited underwriting task, model sections, source checking and approval of changes. Source-checking language is a draft claim; the visual samples do not clearly show the original page beside a selected output cell.",
+      "evidence": "A02",
+      "status": "uncertain",
+      "reason": "ASR text only; no validated listening, delivery or voice origin.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q09",
+      "finding": "Voice delivery, music, effects and audiovisual alignment were not established by this visual pass.",
+      "evidence": "A01",
+      "status": "not checked",
+      "reason": "No validated direct audio listening input.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q10",
+      "finding": "Voice delivery, music, effects and audiovisual alignment were not established by this visual pass.",
+      "evidence": "A01",
+      "status": "not checked",
+      "reason": "No validated direct audio listening input.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q11",
+      "finding": "Voice delivery, music, effects and audiovisual alignment were not established by this visual pass.",
+      "evidence": "A01",
+      "status": "not checked",
+      "reason": "No validated direct audio listening input.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q12",
+      "finding": "Live presenter footage, screen-like windows and graphic overlays are visible. Capture and animation tools are unknown.",
+      "evidence": "V01–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q13",
+      "finding": "Manifest duration 116.693s; indexed dimensions 1920×1080. Source unchanged flag recorded; fresh encoding and audio clipping checks not run.",
+      "evidence": "Group manifest",
+      "status": "uncertain",
+      "reason": "Inherited technical metadata; no fresh media probe in this review.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q14",
+      "finding": "Upload, prompt, generated tables and pending edits work visually. The longer presenter passages need speech or captions for their full meaning.",
+      "evidence": "V02,V04–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q15",
+      "finding": "Cropping isolates one spreadsheet section at a time and then shifts attention to the review panel.",
+      "evidence": "V04,V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q16",
+      "finding": "The first 43 s frame the problem and offer. The main manual-versus-agent comparison occupies about 50 s before the closing pitch.",
+      "evidence": "V01–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q17",
+      "finding": "Populated model sections and editable proposed changes provide a concrete payoff beyond the DONE badge.",
+      "evidence": "V04,V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q18",
+      "finding": "The paired office opening suggests that a smaller team can compete with a larger one; this is the film’s framing, not demonstrated business performance.",
+      "evidence": "V01",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q19",
+      "finding": "The build request stays tied to a real-estate document and an underwriting model. The selected value is not clearly shown beside its source page.",
+      "evidence": "V04,V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q20",
+      "finding": "Formula correctness, source accuracy, financial assumptions and claimed productivity are not verified. The review controls are visible, but one complete accepted correction is not clearly demonstrated.",
+      "evidence": "V04–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q21",
+      "finding": "Purchase assumptions, financing and ten-year cash flow make this specific to property underwriting.",
+      "evidence": "V04,V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q22",
+      "finding": "Show one generated value, its source page and line, then one accepted or rejected change returning to the sheet.",
+      "evidence": "V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q23",
+      "finding": "Tin can pair a manual task with the same automated task, then show where the user checks and approves the result.",
+      "evidence": "V03–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q24",
+      "finding": "Alt-X presents an agent that builds real-estate underwriting models in Excel from documents.",
+      "evidence": "Model reading from inspected images",
+      "status": "uncertain",
+      "reason": "Model-only new-viewer interpretation; no human test.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q25",
+      "finding": "Contact sheets inspected at displayed size; a phone-size playback, caption audit, flash audit and formal accessibility check were not performed.",
+      "evidence": "Viewed sheets",
+      "status": "not checked",
+      "reason": "Full-size moving-image and device checks unavailable in this pass.",
+      "experiment": "none"
+    }
+  ],
+  "lessons": {
+    "keep": "Mirror the manual document-to-sheet task with the agent version.",
+    "avoid": "Avoid using a verification slogan without a readable example of the verification.",
+    "open": "Source-to-cell mapping, formulas, change application, timing and all heard audio remain unverified.",
+    "try": [
+      "For Tin, show the same source information entering a campaign manually and through an agent.",
+      "Keep one source fact visible beside its generated output, then approve a proposed edit and show the changed result."
+    ]
+  },
+  "comparison": {
+    "story": "Frame a small team facing the same workflow as a large firm. → Introduce the alternative to manual model building. → Show manual reading and transfer of deal information. → Demonstrate input, instruction and generated model structure. → Show inspection and control, although the original source passage is not clearly paired with the selected cell. → Restate speed with verification and give a destination. → No further visible information.",
+    "motion": "Document scrolling, rising hours, typed instructions and appearing spreadsheet values make progress visible. The DONE icon is an edited completion marker. Sampling scope: 1 fps unless a closer window is recorded.",
+    "sound": "No validated listening; unknown.",
+    "texture": "Parallel office views with dark translucent task labels.; Live office footage, simple file icons and blue-green glow.; Dark gradient background, white document and Excel windows.; Large pointer, white chat panel and cropped spreadsheet sections.; Enlarged detail card and tall change-review panel.; Office footage, short text pills and blue-green logo.; Black tail.",
+    "lesson": "Mirror the manual document-to-sheet task with the agent version."
+  },
+  "elements": [
+    {
+      "kind": "ui",
+      "name": "spreadsheet",
+      "events": [
+        "V03",
+        "V04",
+        "V05"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "document",
+      "events": [
+        "V03"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "chat",
+      "events": [
+        "V04"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "change review",
+      "events": [
+        "V05"
+      ]
+    },
+    {
+      "kind": "motion",
+      "name": "split screen comparison",
+      "events": [
+        "V01"
+      ]
+    },
+    {
+      "kind": "texture",
+      "name": "blue green glow",
+      "events": [
+        "V02",
+        "V04",
+        "V06"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,348 @@
+{
+  "id": 223,
+  "product_from_film": "Arcium is associated with privacy, encryption and freedom; its practical product is not explained.",
+  "explains_well": "The repeated privacy wording and purple Arcium ending make the brand theme clear.",
+  "unclear": "The montage gives no concrete description of what Arcium does, who uses it or which action it enables.",
+  "product_type": "privacy brand film",
+  "scenario": "Privacy imagery and news/culture clips lead to Believe in Arcium, surreal characters, a phone-call scene and the brand.",
+  "product_clear_time": null,
+  "product_clear_basis": "Privacy and Arcium are repeatedly named, but no practical product mechanism or use case is shown.",
+  "scenes": [
+    {
+      "start": 0,
+      "end": 12,
+      "action": "PRIVACY appears in a green digital badge, repeated text, a purple computer folder, typewriter and sign. Eyes with projected text, a crowd, cinematic action footage and storm imagery alternate.",
+      "design": "Mixed retro pixels, green code, photographic clips and dramatic weather.",
+      "purpose": "Establish privacy as a broad cultural theme.",
+      "evidence": "1 fps source samples in 0–12s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V01"
+    },
+    {
+      "start": 12,
+      "end": 19,
+      "action": "There is never been a better time wording sits on black, followed by a desert figure and Believe in Arcium text on gold, clouds and a snowboard.",
+      "design": "Quiet black pause followed by large material-based slogans.",
+      "purpose": "Move from urgency into brand belief.",
+      "evidence": "1 fps source samples in 12–19s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V02"
+    },
+    {
+      "start": 19,
+      "end": 27,
+      "action": "A phone shows Mail Privacy Protection, framed inbox-like panels appear, an interview speaker is shown, then Freedom appears over desert dunes.",
+      "design": "Recognizable privacy UI mixed with interview and landscape imagery.",
+      "purpose": "Associate the theme with personal communication and freedom.",
+      "evidence": "1 fps source samples in 19–27s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V03"
+    },
+    {
+      "start": 27,
+      "end": 35,
+      "action": "Small square icons and avatars on white lead to surreal wizard-like figures, an illustrated woman against purple digits and a floating figure in a red landscape.",
+      "design": "Internet-avatar imagery, purple digital color and fantasy scenes.",
+      "purpose": "Build a playful community/culture identity.",
+      "evidence": "1 fps source samples in 27–35s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V04"
+    },
+    {
+      "start": 35,
+      "end": 41,
+      "action": "A location/date card reads China, Encrypted HQ, May 14, 2026. A woman with a Make Privacy Great Again cap speaks on a phone against a city skyline, with Chinese subtitles.",
+      "design": "Cinematic phone-call framing and a slogan cap.",
+      "purpose": "Add a final privacy-themed vignette.",
+      "evidence": "1 fps source samples in 35–41s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V05"
+    },
+    {
+      "start": 41,
+      "end": 46.375,
+      "action": "The purple and white Arcium logo holds on black, then the frame is black.",
+      "design": "Minimal brand end card.",
+      "purpose": "Finish on the name.",
+      "evidence": "1 fps source samples in 41–46.375s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V06"
+    }
+  ],
+  "sound": [
+    {
+      "id": "A01",
+      "start": 0,
+      "end": 46.375,
+      "layer": "ASR draft rejected / unknown",
+      "detail": "The draft repeats Chinese time-related phrases over the English-captioned opening and gives an incoherent interview fragment. It is rejected as a reliable script for that montage. The final Chinese phone-call line is not independently verified. No validated listening, translation, music or effects assessment.",
+      "visual_relation": "V01,V03,V05; no dependable script reconstruction.",
+      "evidence": "technical-review-2026-10-19/deep-review/audio/223-speech.json"
+    }
+  ],
+  "categories": [
+    {
+      "id": "Q01",
+      "finding": "Privacy motif montage → brand belief → freedom/privacy associations → culture vignettes → logo.",
+      "evidence": "V01–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q02",
+      "finding": "A bright green PRIVACY badge immediately states the theme and establishes a retro digital style.",
+      "evidence": "V01",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q03",
+      "finding": "The brand and theme are clear, but user, task and product category remain unspecified.",
+      "evidence": "V01–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q04",
+      "finding": "Rapid image changes, repeated typography and changing material treatments are visible; exact transitions are unchecked.",
+      "evidence": "V01,V02,V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q05",
+      "finding": "Privacy wording links otherwise different clips; the pause on black separates the urgency montage from Believe in Arcium.",
+      "evidence": "V01,V02",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q06",
+      "finding": "Green pixels, purple folders/digits, gold lettering, desert landscapes and fantasy imagery create a varied texture palette.",
+      "evidence": "V01–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q07",
+      "finding": "PRIVACY and Believe in Arcium are prominent. Small recurring subtitles and brief source UI are secondary and harder to read.",
+      "evidence": "V01–V03",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q08",
+      "finding": "The ASR draft is unreliable for the opening/interview and is explicitly rejected; the final foreign-language line remains unverified.",
+      "evidence": "A01",
+      "status": "uncertain",
+      "reason": "No validated listening or translation.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q09",
+      "finding": "Music character and structure are unverified.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "No validated listening.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q10",
+      "finding": "Effects and their sources are unverified.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "No validated listening; waveform peaks do not identify effects.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q11",
+      "finding": "Sound sync is unverified.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "No validated listening or paired audiovisual timing.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q12",
+      "finding": "Mixed UI, interview/cinematic footage, avatars and surreal imagery are visible; source rights and generation methods are unknown.",
+      "evidence": "V01–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q13",
+      "finding": "Source duration 46.375 s; Watch metadata 1920 × 1080. Frame rate, audio clipping and export quality not checked here.",
+      "evidence": "Whole film",
+      "status": "supported",
+      "reason": "Parent source metadata supports duration and dimensions; visual review is sampled.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q14",
+      "finding": "Silent viewing establishes privacy branding but cannot explain what the product does.",
+      "evidence": "V01–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q15",
+      "finding": "Large slogan words organize the montage. Small icons and fast contextual clips carry less clear meaning without prior knowledge.",
+      "evidence": "V02,V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q16",
+      "finding": "The opening changes imagery quickly; black text and logo holds provide pauses. No segment is reserved for a product walkthrough.",
+      "evidence": "V01–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q17",
+      "finding": "The privacy opening resolves into Arcium branding, a thematic payoff rather than a demonstrated result.",
+      "evidence": "V01,V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q18",
+      "finding": "Freedom, fantasy and privacy slogans may suggest independence and group identity; response is unmeasured.",
+      "evidence": "V02–V05",
+      "status": "uncertain",
+      "reason": "Interpretation of imagery.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q19",
+      "finding": "Repeated wording supplies continuity, but the sequence does not form an input-action-result chain.",
+      "evidence": "V01–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q20",
+      "finding": "The privacy association does not establish any security mechanism. The Mail Privacy Protection screen is contextual imagery, not proof of Arcium integration.",
+      "evidence": "V03",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q21",
+      "finding": "The green/purple internet-culture imagery and material slogans create a recognizable tone, with limited functional differentiation.",
+      "evidence": "V01,V02,V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q22",
+      "finding": "Insert one simple use case that explains the privacy benefit.",
+      "evidence": "V03",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "Show the user action, what information is hidden and the visible result, with accurate product-specific labels."
+    },
+    {
+      "id": "Q23",
+      "finding": "For Tin, use culture imagery around one concrete workflow rather than as its whole explanation.",
+      "evidence": "V01–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "Connect the brand statement to a brief, an asset and its next action before the logo."
+    },
+    {
+      "id": "Q24",
+      "finding": "No human new-viewer test was performed.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "The product summary is this model’s film-only reading.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q25",
+      "finding": "Mobile preview and accessibility checks were not performed.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "Contact sheets are evidence views, not a stated mobile preview or compliance test.",
+      "experiment": "none"
+    }
+  ],
+  "elements": [
+    {
+      "kind": "ui",
+      "name": "privacy setting screen",
+      "events": [
+        "V03"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "desktop folder",
+      "events": [
+        "V01"
+      ]
+    },
+    {
+      "kind": "motion",
+      "name": "changing slogan treatments",
+      "events": [
+        "V02"
+      ]
+    },
+    {
+      "kind": "texture",
+      "name": "green pixel text",
+      "events": [
+        "V01"
+      ]
+    },
+    {
+      "kind": "texture",
+      "name": "purple digital imagery",
+      "events": [
+        "V01",
+        "V04"
+      ]
+    },
+    {
+      "kind": "texture",
+      "name": "desert landscape",
+      "events": [
+        "V02",
+        "V03"
+      ]
+    }
+  ],
+  "lessons": {
+    "keep": "Repeat a clear visual word across different materials to hold a montage together.",
+    "try": [
+      "Add one accurately labeled privacy use case with action and result.",
+      "For Tin, connect the brand statement to a real brief, asset and next step."
+    ],
+    "avoid": "Letting a strong theme replace a practical explanation of the product.",
+    "open": "Product mechanism, intended user, integration, clip provenance, final-language meaning and audio remain unresolved."
+  },
+  "comparison": {
+    "story": "Privacy culture and freedom associations → Arcium identity.",
+    "motion": "Rapid montage and material slogan changes; exact transitions unchecked.",
+    "sound": "Unreliable draft rejected; no validated listening.",
+    "texture": "Green pixels, purple digits, gold, desert and fantasy.",
+    "lesson": "A repeated motif can unify a collage without explaining a product."
+  },
+  "reviewer_model": "gpt-6-astra",
+  "scope": "sampled visual and story review; ASR and measured signal support; no validated audio listening",
+  "viewed_evidence": [
+    "technical-review-2026-10-19/deep-review/motion/223/timeline-00.jpg",
+    "technical-review-2026-10-19/deep-review/motion/223/timeline-01.jpg"
+  ],
+  "closer_windows": []
+}

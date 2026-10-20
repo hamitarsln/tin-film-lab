@@ -1,0 +1,315 @@
+{
+  "id": 414,
+  "reviewer_model": "gpt-6-astra",
+  "scope": "sampled visual and story review; ASR and measured signal support; no validated audio listening",
+  "viewed_evidence": [
+    "technical-review-2026-10-19/deep-review/motion/414/timeline-00.jpg",
+    "technical-review-2026-10-19/deep-review/audio/414-speech.json"
+  ],
+  "closer_windows": [],
+  "product_from_film": "The film presents four named Grok voice options, supported by an ASR introduction.",
+  "explains_well": "Large names make the four sample sections easy to distinguish visually.",
+  "unclear": "The visual layer gives no voice controls, API use or task result; the core voice differences need actual listening.",
+  "product_type": "voice assistant",
+  "scenario": "Introduce Eve, Ara, Rex and Leo voice samples.",
+  "product_clear_time": 2,
+  "product_clear_basis": "Eve appears as the ASR draft introduces a new Grok voice; visual-only category is not established.",
+  "scenes": [
+    {
+      "id": "V01",
+      "start": 0,
+      "end": 4,
+      "action": "A dim xAI mark sits near the bottom; green glow grows across the lower field and Eve appears in large white type.",
+      "design": "Black background with soft green-yellow light.",
+      "purpose": "Introduce the first named sample.",
+      "evidence": "Visible chronological 1 fps samples, source 0–4s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V02",
+      "start": 4,
+      "end": 8,
+      "action": "Ara replaces Eve; orange and pink glow shifts across the lower background, then the name disappears briefly.",
+      "design": "Large centered white name and blurred warm gradient.",
+      "purpose": "Separate the second sample.",
+      "evidence": "Visible chronological 1 fps samples, source 4–8s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V03",
+      "start": 8,
+      "end": 11,
+      "action": "Rex appears above yellow-green light; the name clears before the next section.",
+      "design": "Same sparse type and low xAI mark.",
+      "purpose": "Separate the third sample.",
+      "evidence": "Visible chronological 1 fps samples, source 8–11s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V04",
+      "start": 11,
+      "end": 14.764,
+      "action": "Leo appears while green changes toward orange, then the text and glow fade to a dark end with the small mark.",
+      "design": "White name, diffuse color and black ending.",
+      "purpose": "Close the sample sequence.",
+      "evidence": "Visible chronological 1 fps samples, source 11–14.764s; boundary approximate; exact motion between samples unverified."
+    }
+  ],
+  "sound": [
+    {
+      "id": "A01",
+      "start": 0,
+      "end": 14.764,
+      "layer": "unknown",
+      "detail": "No validated direct audio listening was performed. Music, speech delivery, effects, mix and sync remain unknown, not absent.",
+      "visual_relation": "All visual scenes; audiovisual alignment unverified",
+      "evidence": "Visual samples only; no actual audio range supplied to this reviewer."
+    },
+    {
+      "id": "A02",
+      "start": 1.67,
+      "end": 13.77,
+      "layer": "ASR draft",
+      "detail": "The ASR draft asks about the new Grok voice, offers a secret, invites questions and describes a trusted assistant or companion. These phrases support a voice sample reel, but do not establish distinct speakers, expression, timbre or delivery.",
+      "visual_relation": "Story text support; exact audiovisual alignment and delivery unverified.",
+      "evidence": "technical-review-2026-10-19/deep-review/audio/414-speech.json; local faster-whisper base CPU int8 draft; VAD candidates only, recognition errors possible."
+    }
+  ],
+  "categories": [
+    {
+      "id": "Q01",
+      "finding": "Four name cards form a sample reel; there is no problem-action-result story.",
+      "evidence": "V01–V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q02",
+      "finding": "The screen starts almost black with a small xAI mark, then green light grows. The voice category is not visually stated.",
+      "evidence": "V01",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q03",
+      "finding": "ASR names a new Grok voice and personal-assistant role. Developer API use and audience are not established by the pictures.",
+      "evidence": "V01–V04",
+      "status": "uncertain",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q04",
+      "finding": "Soft color fields change hue and brightness under static large names; names appear and clear between sample sections. Exact fade curves are unresolved.",
+      "evidence": "V01–V04",
+      "status": "uncertain",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q05",
+      "finding": "Brief name-free states separate Eve, Ara, Rex and Leo without changing the overall layout.",
+      "evidence": "V01–V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q06",
+      "finding": "Diffuse green, orange and pink light against black provides a minimal atmospheric treatment.",
+      "evidence": "V01–V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q07",
+      "finding": "Names are large and legible; the bottom brand mark is small. No visible transcript explains what each sample says.",
+      "evidence": "V01–V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q08",
+      "finding": "The ASR draft asks about the new Grok voice, offers a secret, invites questions and describes a trusted assistant or companion. These phrases support a voice sample reel, but do not establish distinct speakers, expression, timbre or delivery.",
+      "evidence": "A02",
+      "status": "uncertain",
+      "reason": "ASR text only; no validated listening, delivery or voice origin.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q09",
+      "finding": "Voice delivery, music, effects and audiovisual alignment were not established by this visual pass.",
+      "evidence": "A01",
+      "status": "not checked",
+      "reason": "No validated direct audio listening input.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q10",
+      "finding": "Voice delivery, music, effects and audiovisual alignment were not established by this visual pass.",
+      "evidence": "A01",
+      "status": "not checked",
+      "reason": "No validated direct audio listening input.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q11",
+      "finding": "Voice delivery, music, effects and audiovisual alignment were not established by this visual pass.",
+      "evidence": "A01",
+      "status": "not checked",
+      "reason": "No validated direct audio listening input.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q12",
+      "finding": "Only type, logo and blurred color fields are visible; their production source is unknown.",
+      "evidence": "V01–V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q13",
+      "finding": "Manifest duration 14.764s; indexed dimensions 1280×720. Source unchanged flag recorded; fresh encoding and audio clipping checks not run.",
+      "evidence": "Group manifest",
+      "status": "uncertain",
+      "reason": "Inherited technical metadata; no fresh media probe in this review.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q14",
+      "finding": "Silent viewing preserves four names and a brand, but loses the product category and any meaningful difference between voices.",
+      "evidence": "V01–V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q15",
+      "finding": "Centered names dominate; the diffuse lower glow adds variation without another sharp focal point.",
+      "evidence": "V01–V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q16",
+      "finding": "One name at a time keeps visual density low, but the sparse layout carries little explanatory information.",
+      "evidence": "V01–V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q17",
+      "finding": "The draft asks about a new voice and invites questions; no actual question-answer exchange closes that invitation.",
+      "evidence": "V01–V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q18",
+      "finding": "The restrained glow appears designed to create a personal, calm sample space. Voice emotion cannot be judged from ASR.",
+      "evidence": "V01–V04",
+      "status": "uncertain",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q19",
+      "finding": "Fixed name placement and bottom mark maintain continuity through the changing colors.",
+      "evidence": "V01–V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q20",
+      "finding": "Four named sections are visible. Distinct timbre, expressiveness, latency and conversational quality were not checked because actual audio was not supplied.",
+      "evidence": "V01–V04",
+      "status": "not checked",
+      "reason": "Core voice performance requires validated listening.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q21",
+      "finding": "The xAI mark and voice names identify the release to existing users; gradient treatment is generic.",
+      "evidence": "V01–V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q22",
+      "finding": "Add a small voice-sample heading and readable sample text; a brief selection interface could show how users access the voices.",
+      "evidence": "V01–V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q23",
+      "finding": "For a voice feature, keep one name per sample but include the same short sentence across options and validate listening before comparing performance.",
+      "evidence": "V01–V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q24",
+      "finding": "The film presents four named Grok voice options, supported by an ASR introduction.",
+      "evidence": "Model reading from inspected images",
+      "status": "uncertain",
+      "reason": "Model-only new-viewer interpretation; no human test.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q25",
+      "finding": "Contact sheets inspected at displayed size; a phone-size playback, caption audit, flash audit and formal accessibility check were not performed.",
+      "evidence": "Viewed sheets",
+      "status": "not checked",
+      "reason": "Full-size moving-image and device checks unavailable in this pass.",
+      "experiment": "none"
+    }
+  ],
+  "lessons": {
+    "keep": "Keep one clear name visible for each voice section.",
+    "avoid": "Claiming expressive differences from name cards or ASR alone.",
+    "open": "All core voice qualities, music, effects and audiovisual timing remain unverified.",
+    "try": [
+      "For a Tin voice feature, compare the same sentence under each voice name with a readable transcript.",
+      "Add a short selection-control shot before the sample reel to show where the voices are used."
+    ]
+  },
+  "comparison": {
+    "story": "Introduce the first named sample. → Separate the second sample. → Separate the third sample. → Close the sample sequence.",
+    "motion": "Soft color fields change hue and brightness under static large names; names appear and clear between sample sections. Exact fade curves are unresolved. Sampling scope: 1 fps unless a closer window is recorded.",
+    "sound": "No validated listening; unknown.",
+    "texture": "Black background with soft green-yellow light.; Large centered white name and blurred warm gradient.; Same sparse type and low xAI mark.; White name, diffuse color and black ending.",
+    "lesson": "Keep one clear name visible for each voice section."
+  },
+  "elements": [
+    {
+      "kind": "motion",
+      "name": "changing color glow",
+      "events": [
+        "V01",
+        "V02",
+        "V03",
+        "V04"
+      ]
+    },
+    {
+      "kind": "texture",
+      "name": "blurred gradient",
+      "events": [
+        "V01",
+        "V02",
+        "V03",
+        "V04"
+      ]
+    }
+  ]
+}

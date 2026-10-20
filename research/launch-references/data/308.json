@@ -1,0 +1,353 @@
+{
+  "id": 308,
+  "product_from_film": "Button is a small wearable conversational assistant that people ask for practical help and suggestions.",
+  "explains_well": "A visible press, spoken request shown in captions and a response give the wearable a clear role before its name card appears.",
+  "unclear": "Several scenes show questions and witty answers, but activation and ending a session are not equally clear across the examples.",
+  "product_type": "Wearable conversational assistant",
+  "scenario": "People use a chest-worn device while dressing for prom, choosing a book, cooking, repairing a car and fishing; the prom story returns for the payoff.",
+  "product_clear_time": 7,
+  "product_clear_basis": "The opening shows the wearable being pressed, a flower-placement question and the captioned answer by 7s.",
+  "scenes": [
+    {
+      "start": 0,
+      "end": 9,
+      "action": "A young man in formal clothes looks in a mirror, presses a square chest-worn device and asks which side to place a flower. Captions answer left, close to the heart; he adjusts it.",
+      "design": "Warm dim room, mirror and device close-ups.",
+      "purpose": "Introduce the device through a small practical need.",
+      "evidence": "1 fps source samples in 0–9s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V01"
+    },
+    {
+      "start": 9,
+      "end": 19,
+      "action": "A woman in a library asks for a book combining finance and fantasy. Captions give a title; she reacts and a wide library view follows with Done and Shhh captions.",
+      "design": "Red clothing, wood shelves and high-angle room view.",
+      "purpose": "Show conversational recommendation and a social joke.",
+      "evidence": "1 fps source samples in 9–19s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V02"
+    },
+    {
+      "start": 19,
+      "end": 27,
+      "action": "Steak in a pan leads to a cook asking whether it is ready. Captions mention temperature and sounds; smoke is visible in the wider kitchen.",
+      "design": "Food close-up, chest-worn device and smoky warm interior.",
+      "purpose": "Stage a cooking example with a comic answer.",
+      "evidence": "1 fps source samples in 19–27s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V03"
+    },
+    {
+      "start": 27,
+      "end": 34,
+      "action": "A person under a car asks for a German phrase; a garage wide shot and reaction close-ups follow the captioned response.",
+      "design": "Low car angle, workshop detail and overhead view.",
+      "purpose": "Extend the assistant to hands-busy language help.",
+      "evidence": "1 fps source samples in 27–34s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V04"
+    },
+    {
+      "start": 34,
+      "end": 39,
+      "action": "A person fishing in a yellow raincoat asks how many fish make one taco. The captioned answer depends on taco size, followed by Done.",
+      "design": "Green waterside setting and bright clothing.",
+      "purpose": "Repeat the question/answer structure in another setting.",
+      "evidence": "1 fps source samples in 34–39s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V05"
+    },
+    {
+      "start": 39,
+      "end": 55,
+      "action": "The opening young man is now beside a woman at prom. She asks Button when he will make a move. Reactions lead to a kiss; Button. And done. appears across their close-ups.",
+      "design": "Purple/blue lighting, gold PROM letters and shallow-focus reactions.",
+      "purpose": "Resolve the opening character story and establish the repeated phrase.",
+      "evidence": "1 fps source samples in 39–55s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V06"
+    },
+    {
+      "start": 55,
+      "end": 60,
+      "action": "The garage, library, kitchen and fishing characters return under Button. And done. A close-up shows the wearable on red clothing.",
+      "design": "Quick return montage and product detail.",
+      "purpose": "Bind the different scenes to the device.",
+      "evidence": "1 fps source samples in 55–60s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V07"
+    },
+    {
+      "start": 60,
+      "end": 64.064,
+      "action": "A device-shaped mark becomes the Button Computer wordmark on black.",
+      "design": "Minimal white identity on black.",
+      "purpose": "Name the product.",
+      "evidence": "1 fps source samples in 60–64.064s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V08"
+    }
+  ],
+  "sound": [
+    {
+      "id": "A01",
+      "start": 0,
+      "end": 64.064,
+      "layer": "script support only",
+      "detail": "ASR broadly supports the flower, book, cooking, translation, fishing and prom exchanges. Book names and the German phrase are garbled; visible captions are preferred for their role, and no exact recommendation is validated. Captions label whispers, laughter and kisses, but these were not heard. Voice distinction, music, effects, device response time and sync remain unverified.",
+      "visual_relation": "V01–V07; captioned questions and replies carry the demonstrations.",
+      "evidence": "308-speech.json draft plus visible captions; no validated listening."
+    }
+  ],
+  "categories": [
+    {
+      "id": "Q01",
+      "finding": "Flower-placement help → everyday question vignettes → return to prom → repeated slogan → device mark.",
+      "evidence": "V01–V08",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q02",
+      "finding": "A person preparing for prom and pressing a visible wearable opens with a concrete need.",
+      "evidence": "V01",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q03",
+      "finding": "People wanting hands-free everyday help are illustrated in domestic, reading, workshop and outdoor situations.",
+      "evidence": "V01–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q04",
+      "finding": "Pressing the device, adjusting the flower and character reactions establish action/result states. Camera and cut mechanics are not densely sampled.",
+      "evidence": "V01–V07",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q05",
+      "finding": "Each vignette moves between close detail and a wider setting; the closing montage returns to all users.",
+      "evidence": "V01–V07",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q06",
+      "finding": "Warm interiors, green outdoor scenery and purple prom lighting give each setting a distinct palette while the pale device repeats.",
+      "evidence": "V01–V07",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q07",
+      "finding": "Small centered captions explain the exchanges; the larger Button. And done. slogan becomes the closing anchor.",
+      "evidence": "V01–V08",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q08",
+      "finding": "ASR and captions support question/reply structure and a repeated Done phrase. Heard voices and delivery are unverified.",
+      "evidence": "A01",
+      "status": "uncertain",
+      "reason": "Text support only; some draft words are garbled.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q09",
+      "finding": "Music character and structure are unverified.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "No validated listening.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q10",
+      "finding": "Effects and their sources are unverified.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "No validated listening; waveform peaks do not identify effects.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q11",
+      "finding": "Sound sync is unverified.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "No validated listening or paired audiovisual timing.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q12",
+      "finding": "Staged live-action-looking vignettes, product close-ups and a graphic identity close are used. Production methods are not verified.",
+      "evidence": "V01–V08",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q13",
+      "finding": "Source duration 64.064 s; Watch metadata 1920 × 1080. Frame rate, audio clipping and export quality not checked here.",
+      "evidence": "Whole film",
+      "status": "supported",
+      "reason": "Parent source metadata supports duration and dimensions; visual review is sampled.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q14",
+      "finding": "Visible captions let the practical requests and answers be read, though exact activation/session behavior varies by scene.",
+      "evidence": "V01–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q15",
+      "finding": "Device close-ups, bright clothing and reaction shots keep attention on user and assistant.",
+      "evidence": "V01–V07",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q16",
+      "finding": "Four middle examples take roughly 30s; the returning prom story receives a longer 16s payoff.",
+      "evidence": "V02–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q17",
+      "finding": "The opening flower preparation returns as the prom encounter, giving the montage a small story arc.",
+      "evidence": "V01,V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q18",
+      "finding": "The captioned jokes and reactions suggest a playful helpful companion; viewer feeling and audio performance were not assessed.",
+      "evidence": "V01–V07",
+      "status": "uncertain",
+      "reason": "Visual and script interpretation only.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q19",
+      "finding": "The same chest-worn object appears across distinct hands-busy activities.",
+      "evidence": "V01–V07",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q20",
+      "finding": "The scenes illustrate intended interaction, not measured response time, answer accuracy or sensing capability. The cooking exchange is not validated guidance.",
+      "evidence": "V01–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q21",
+      "finding": "The repeated Done motif ties everyday questions to a returning romantic subplot.",
+      "evidence": "V01–V07",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q22",
+      "finding": "Make one full device session explicit.",
+      "evidence": "V01",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "Show the press or wake action, request, reply and visible end state in one continuous example."
+    },
+    {
+      "id": "Q23",
+      "finding": "For Tin, use varied jobs but one recurring action and result phrase.",
+      "evidence": "V01–V07",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "Show the same campaign approval action across two businesses, then return to the first published result."
+    },
+    {
+      "id": "Q24",
+      "finding": "No human new-viewer test was performed.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "The product summary is this model’s film-only reading.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q25",
+      "finding": "Mobile preview and accessibility checks were not performed.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "Contact sheets are evidence views, not a stated mobile preview or compliance test.",
+      "experiment": "none"
+    }
+  ],
+  "elements": [
+    {
+      "kind": "motion",
+      "name": "button press",
+      "events": [
+        "V01"
+      ]
+    },
+    {
+      "kind": "motion",
+      "name": "returning character montage",
+      "events": [
+        "V07"
+      ]
+    },
+    {
+      "kind": "texture",
+      "name": "warm interiors",
+      "events": [
+        "V01",
+        "V02",
+        "V03"
+      ]
+    },
+    {
+      "kind": "texture",
+      "name": "colored prom lighting",
+      "events": [
+        "V06"
+      ]
+    }
+  ],
+  "lessons": {
+    "keep": "Return to the opening character so a montage has an ending.",
+    "try": [
+      "Show one complete activation-to-session-end interaction.",
+      "For Tin, repeat one approval action across businesses and return to the first published result."
+    ],
+    "avoid": "Presenting staged question/reply scenes as measured product performance.",
+    "open": "Activation rules, session ending, answer accuracy, sensing, response time and audio qualities remain unverified."
+  },
+  "comparison": {
+    "story": "Everyday help vignettes inside a returning prom story.",
+    "motion": "Device press, reaction coverage and closing character returns.",
+    "sound": "Caption and partial ASR support; no validated listening.",
+    "texture": "Warm interiors, green outdoors and purple prom light.",
+    "lesson": "A repeated object and closing phrase can connect several short use cases."
+  },
+  "reviewer_model": "gpt-6-astra",
+  "scope": "sampled visual and story review; ASR and measured signal support; no validated audio listening",
+  "viewed_evidence": [
+    "technical-review-2026-10-19/deep-review/motion/308/timeline-00.jpg",
+    "technical-review-2026-10-19/deep-review/motion/308/timeline-01.jpg",
+    "technical-review-2026-10-19/deep-review/motion/308/timeline-02.jpg"
+  ],
+  "closer_windows": []
+}

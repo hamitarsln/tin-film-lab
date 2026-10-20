@@ -1,0 +1,369 @@
+{
+  "id": 138,
+  "product_from_film": "Clear Signing is presented as a standard for making Ethereum transaction-signing details readable to people.",
+  "explains_well": "An opening question about what a user is signing is followed by captioned contributors explaining the purpose and adoption need.",
+  "unclear": "No actual before-and-after wallet signing screen or completed user decision is shown.",
+  "product_type": "blockchain transaction standard explainer",
+  "scenario": "Explain unreadable signing requests, the proposed readable alternative, ecosystem adoption and remaining security limits.",
+  "product_clear_time": 12,
+  "product_clear_basis": "Opening text names ERC-7730 and making Ethereum human-readable around 10–13s; contributor captions repeat the purpose later.",
+  "scenes": [
+    {
+      "start": 0,
+      "end": 5,
+      "action": "Cable/device imagery, number blocks, a static-filled television and a warning-like graphic flash before black.",
+      "design": "Old-display texture and small square media within a portrait composition.",
+      "purpose": "Set up an opaque technical problem.",
+      "evidence": "1 fps source samples in 0–5s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V01"
+    },
+    {
+      "start": 5,
+      "end": 20,
+      "action": "Monospaced text builds upward from crypto trust and wallet numbers to What am I actually signing, ERC-7730 and human-readable Ethereum.",
+      "design": "Small white text on black, later bottom caption begins.",
+      "purpose": "Define the problem and named initiative before interviews.",
+      "evidence": "1 fps source samples in 5–20s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V02"
+    },
+    {
+      "start": 20,
+      "end": 45,
+      "action": "Several captioned contributors explain a new user mindset, JSON-like unreadability and human-readable signing.",
+      "design": "Webcam-style videos within colored textured borders, name/organization labels and bottom captions.",
+      "purpose": "Give the concept multiple contributor voices; identity labels are film text.",
+      "evidence": "1 fps source samples in 20–45s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V03"
+    },
+    {
+      "start": 45,
+      "end": 67,
+      "action": "Further interview segments discuss UX, function metadata and understanding blockchain interaction.",
+      "design": "Consistent framed talking heads and subtitles.",
+      "purpose": "Describe the intended mechanism and benefit in words, without UI demonstration.",
+      "evidence": "1 fps source samples in 45–67s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V04"
+    },
+    {
+      "start": 67,
+      "end": 100,
+      "action": "Contributors discuss adoption, user complaints, approving unclear requests and blind-signing risk.",
+      "design": "Same interview format with changing speakers and backgrounds.",
+      "purpose": "Explain why the initiative matters and how adoption is framed.",
+      "evidence": "1 fps source samples in 67–100s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V05"
+    },
+    {
+      "start": 100,
+      "end": 128,
+      "action": "More contributors discuss ecosystem effort, unwanted signing and a named hack with a loss figure.",
+      "design": "Captioned interviews continue, with no incident evidence shown.",
+      "purpose": "Raise the stakes through claimed examples; factual claims are not independently checked.",
+      "evidence": "1 fps source samples in 100–128s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V06"
+    },
+    {
+      "start": 128,
+      "end": 146,
+      "action": "Speakers say the standard exists, needs adoption and does not require protocol changes.",
+      "design": "Stable webcam framing and captions.",
+      "purpose": "Move toward an ecosystem call to action; technical validity not checked.",
+      "evidence": "1 fps source samples in 128–146s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V07"
+    },
+    {
+      "start": 146,
+      "end": 158,
+      "action": "Final contributor says clear signing is part of a multilayer security approach and will not solve everything.",
+      "design": "One speaker held for the closing qualification.",
+      "purpose": "Limit the earlier solved-problem language.",
+      "evidence": "1 fps source samples in 146–158s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V08"
+    },
+    {
+      "start": 158,
+      "end": 166.449,
+      "action": "Ethereum symbol and contributor marks lead to Clear Signing: Improving transaction signing on Ethereum, with Now Live.",
+      "design": "Large final title on black with textured border.",
+      "purpose": "Recap the purpose and initiative identity.",
+      "evidence": "1 fps source samples in 158–166.449s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V09"
+    }
+  ],
+  "sound": [
+    {
+      "id": "A01",
+      "start": 0,
+      "end": 166.449,
+      "layer": "ASR draft",
+      "detail": "Draft supports discussion of readable signing, metadata, adoption and security limits. Some names, standard numbers and opening words are garbled; readable on-screen captions are separate evidence. No validated listening or voice-delivery assessment.",
+      "visual_relation": "V03–V08; text topic support, not exact audiovisual synchronization.",
+      "evidence": "technical-review-2026-10-19/deep-review/audio/138-speech.json; all segment text inspected."
+    }
+  ],
+  "categories": [
+    {
+      "id": "Q01",
+      "finding": "Opaque signing problem → named standard → contributor explanations → risk and adoption → limitation → title.",
+      "evidence": "V01–V09",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q02",
+      "finding": "Cables and numeric blocks create a technical opening; the user problem is not explicit in the first two seconds.",
+      "evidence": "V01",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q03",
+      "finding": "Readable transaction signing is described around 12s. Wallet users and ecosystem implementers are implied, but their actual steps are not shown.",
+      "evidence": "V02,V07",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q04",
+      "finding": "Opening text changes position as more lines appear; the main body uses ordinary talking-head gestures. No detailed interface motion is demonstrated.",
+      "evidence": "V02–V08",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q05",
+      "finding": "Changes of speaker create most scene changes after 20s. Repeated frames, labels and captions keep the format stable.",
+      "evidence": "V03–V08",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q06",
+      "finding": "Grain-like colored borders and old-display opening contrast with varied home/office webcam backgrounds.",
+      "evidence": "V01,V03–V08",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q07",
+      "finding": "Opening monospaced paragraphs require sustained reading. Bottom captions carry most of the long explanation; the final title is much larger.",
+      "evidence": "V02–V09",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q08",
+      "finding": "Captioned interview content and ASR describe the standard and adoption. Actual pace, clarity, accents and delivery are unverified without listening.",
+      "evidence": "A01,V03–V08",
+      "status": "uncertain",
+      "reason": "Transcript and visible captions only.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q09",
+      "finding": "Music character and structure are unverified.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "No validated listening.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q10",
+      "finding": "Effects and their sources are unverified.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "No validated listening; waveform peaks do not identify effects.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q11",
+      "finding": "Sound sync is unverified.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "No validated listening or paired audiovisual timing.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q12",
+      "finding": "Webcam-style contributor recordings are placed in a shared graphic frame; capture setup and asset provenance are unknown.",
+      "evidence": "V03–V08",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q13",
+      "finding": "Source duration 166.449 s; Watch metadata 1440 × 1080. Frame rate, audio clipping and export quality not checked here.",
+      "evidence": "Whole film",
+      "status": "supported",
+      "reason": "Parent source metadata supports duration and dimensions; visual review is sampled.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q14",
+      "finding": "Captions make the conceptual explanation available silently, but the viewer never sees a concrete improved signing request.",
+      "evidence": "V02–V09",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q15",
+      "finding": "Faces occupy the center while names sit above and subtitles below; sustained reading competes with watching each speaker.",
+      "evidence": "V03–V08",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q16",
+      "finding": "Several speakers repeat readability and risk points across over two minutes. A real example could replace some repetition.",
+      "evidence": "V03–V08",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q17",
+      "finding": "The opening What am I actually signing question receives verbal explanation, but no visual before/after answer.",
+      "evidence": "V02,V03",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q18",
+      "finding": "Warning-like imagery and risk testimony may create concern, followed by reassurance and a closing limit; viewer effect is unmeasured.",
+      "evidence": "V01,V06–V08",
+      "status": "uncertain",
+      "reason": "Interpretation of sequence and text.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q19",
+      "finding": "Shared colored frame and caption placement unify contributors with different backgrounds.",
+      "evidence": "V03–V08",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q20",
+      "finding": "The film states availability, implementation and security claims. No wallet behavior, adoption coverage or loss-prevention effect is independently verified. The final speaker explicitly limits the promise.",
+      "evidence": "V07–V09",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q21",
+      "finding": "Ethereum symbol, contributor labels and standard number make the topic specific, despite a common interview format.",
+      "evidence": "V02,V03,V09",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q22",
+      "finding": "A side-by-side unreadable request and readable request would explain the core change more directly than another interview statement.",
+      "evidence": "V03,V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "Replace one repeated explanation with the same transaction shown in both signing formats."
+    },
+    {
+      "id": "Q23",
+      "finding": "For Tin, explain a complex trust feature with one real decision screen and a clear before/after.",
+      "evidence": "V02,V03",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "Show an unclear approval request beside one with exact asset, channel, date and action details."
+    },
+    {
+      "id": "Q24",
+      "finding": "No human new-viewer test was performed.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "The product summary is this model’s film-only reading.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q25",
+      "finding": "Mobile preview and accessibility checks were not performed.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "Contact sheets are evidence views, not a stated mobile preview or compliance test.",
+      "experiment": "none"
+    }
+  ],
+  "elements": [
+    {
+      "kind": "texture",
+      "name": "webcam interviews",
+      "events": [
+        "V03",
+        "V04",
+        "V05",
+        "V06",
+        "V07",
+        "V08"
+      ]
+    },
+    {
+      "kind": "texture",
+      "name": "colored textured border",
+      "events": [
+        "V03",
+        "V09"
+      ]
+    },
+    {
+      "kind": "motion",
+      "name": "scrolling text",
+      "events": [
+        "V02"
+      ]
+    },
+    {
+      "kind": "texture",
+      "name": "old display texture",
+      "events": [
+        "V01"
+      ]
+    }
+  ],
+  "lessons": {
+    "keep": "Use a consistent frame and caption system to join many contributor recordings, and retain a clear limit on the promise.",
+    "try": [
+      "Replace one repeated interview point with the same transaction shown as an unreadable request and a clear request.",
+      "For Tin, compare an unclear approval request with one showing the exact asset, destination, date and action."
+    ],
+    "avoid": "Letting expert testimony and availability labels substitute for a concrete user-facing example.",
+    "open": "Standard implementation details, adoption coverage, wallet behavior, security outcomes, source identities and audio remain unverified."
+  },
+  "comparison": {
+    "story": "Problem statement → expert explanations → risk → adoption → qualified benefit → title.",
+    "motion": "Text build/scroll and speaker gestures; mostly stable framed interviews.",
+    "sound": "ASR and visible-caption support only; no validated listening.",
+    "texture": "Webcam footage, colored grain-like borders and technical opening graphics.",
+    "lesson": "Many voices can build context, but one before/after screen would explain the actual change."
+  },
+  "reviewer_model": "gpt-6-astra",
+  "scope": "sampled visual and story review; ASR and measured signal support; no validated audio listening",
+  "viewed_evidence": [
+    "technical-review-2026-10-19/deep-review/motion/138/timeline-00.jpg",
+    "technical-review-2026-10-19/deep-review/motion/138/timeline-01.jpg",
+    "technical-review-2026-10-19/deep-review/motion/138/timeline-02.jpg",
+    "technical-review-2026-10-19/deep-review/motion/138/timeline-03.jpg",
+    "technical-review-2026-10-19/deep-review/motion/138/timeline-04.jpg",
+    "technical-review-2026-10-19/deep-review/motion/138/timeline-05.jpg"
+  ],
+  "closer_windows": []
+}

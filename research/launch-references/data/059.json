@@ -1,0 +1,340 @@
+{
+  "id": 59,
+  "reviewer_model": "gpt-6-astra",
+  "scope": "sampled visual and story review; ASR and measured signal support; no validated audio listening",
+  "viewed_evidence": [
+    "technical-review-2026-10-19/deep-review/motion/059/timeline-00.jpg",
+    "technical-review-2026-10-19/deep-review/motion/059/timeline-01.jpg",
+    "technical-review-2026-10-19/deep-review/audio/059-speech.json"
+  ],
+  "closer_windows": [],
+  "product_from_film": "QuiverAI Arrow 2.0 generates vector-style graphics, including icons, illustrations and technical drawings.",
+  "explains_well": "Vector outlines are connected to practical uses such as clothing embroidery and printed stamps.",
+  "unclear": "The actual editability, speed gain and output accuracy are not independently demonstrated.",
+  "product_type": "creative AI tool",
+  "scenario": "Generate graphic variations and apply them to real-looking objects.",
+  "product_clear_time": 10,
+  "product_clear_basis": "Arrow 2.0 is paired with illustrations, icons and technical-drawing labels.",
+  "scenes": [
+    {
+      "id": "V01",
+      "start": 0,
+      "end": 8,
+      "action": "Arrow 2.0 appears over a blue field with a curved path and nodes. Example icons and a technical drawing are paired with a menu and printed manual.",
+      "design": "Pale blue grid, vector nodes and clean split layouts.",
+      "purpose": "Introduce graphics and their applications.",
+      "evidence": "Visible chronological 1 fps samples, source 0–8s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V02",
+      "start": 8,
+      "end": 16,
+      "action": "A vertical list highlights Illustrations, Icons and Technical Drawings among example assets, then returns to the Arrow title and curved path.",
+      "design": "Selection rectangle, faint surrounding labels, blue line.",
+      "purpose": "Show output categories.",
+      "evidence": "Visible chronological 1 fps samples, source 8–16s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V03",
+      "start": 16,
+      "end": 26,
+      "action": "Code overlays sit above artwork; letter outlines and a running-animal sequence follow. The animal mark appears embroidered on fabric.",
+      "design": "Fine paths, dark code box, blue silhouette, cloth texture.",
+      "purpose": "Link generated paths to usable artwork.",
+      "evidence": "Visible chronological 1 fps samples, source 16–26s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V04",
+      "start": 26,
+      "end": 35,
+      "action": "A gallery leads to a prompt asking for variations in a style. Colored vase motifs appear, then as stamp-like printed pieces. A Shaping the Béziers label follows.",
+      "design": "White generation interface, saturated motifs and paper texture.",
+      "purpose": "Show variation generation and application.",
+      "evidence": "Visible chronological 1 fps samples, source 26–35s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V05",
+      "start": 35,
+      "end": 43.84,
+      "action": "The creativity was always yours and a supporting line appear among small assets, ending with QuiverAI on white.",
+      "design": "Sparse black text and logo.",
+      "purpose": "Credit the user’s creative intent.",
+      "evidence": "Visible chronological 1 fps samples, source 35–43.84s; boundary approximate; exact motion between samples unverified."
+    }
+  ],
+  "sound": [
+    {
+      "id": "A01",
+      "start": 0,
+      "end": 43.84,
+      "layer": "unknown",
+      "detail": "No validated direct audio listening was performed. Music, speech delivery, effects, mix and sync remain unknown, not absent.",
+      "visual_relation": "All visual scenes; audiovisual alignment unverified",
+      "evidence": "Visual samples only; no actual audio range supplied to this reviewer."
+    },
+    {
+      "id": "A02",
+      "start": 2.44,
+      "end": 39.86,
+      "layer": "ASR draft",
+      "detail": "The ASR draft describes Arrow 2.0 as faster with cleaner graphics and outlines, then credits users’ creativity. Product names and SVG-like terminology are mistranscribed; no speed measurement or voice delivery is established.",
+      "visual_relation": "Story text support; exact audiovisual alignment and delivery unverified.",
+      "evidence": "technical-review-2026-10-19/deep-review/audio/059-speech.json; local faster-whisper base CPU int8 draft; VAD candidates only, recognition errors possible."
+    }
+  ],
+  "categories": [
+    {
+      "id": "Q01",
+      "finding": "Examples and categories lead to path-based artwork, physical applications and a generation variation flow.",
+      "evidence": "V01–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q02",
+      "finding": "Arrow 2.0 and a curved vector path establish a design-tool context, but not the full task.",
+      "evidence": "V01",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q03",
+      "finding": "Icons, illustrations and technical drawings make the creator audience clear by about 10 s.",
+      "evidence": "V02",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q04",
+      "finding": "Selection frames move among categories; paths and animal poses change; exact drawing and interpolation behavior are not established.",
+      "evidence": "V02,V03",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q05",
+      "finding": "Matching graphics carry the viewer from digital animal to embroidery and generated vase to stamp.",
+      "evidence": "V03,V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q06",
+      "finding": "Fine vector lines and pale grids contrast with cloth and paper application shots.",
+      "evidence": "V01–V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q07",
+      "finding": "Category labels are large; code and some prompts are smaller, while the key variation request is readable in the sampled interface.",
+      "evidence": "V02,V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q08",
+      "finding": "The ASR draft describes Arrow 2.0 as faster with cleaner graphics and outlines, then credits users’ creativity. Product names and SVG-like terminology are mistranscribed; no speed measurement or voice delivery is established.",
+      "evidence": "A02",
+      "status": "uncertain",
+      "reason": "ASR text only; no validated listening, delivery or voice origin.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q09",
+      "finding": "Voice delivery, music, effects and audiovisual alignment were not established by this visual pass.",
+      "evidence": "A01",
+      "status": "not checked",
+      "reason": "No validated direct audio listening input.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q10",
+      "finding": "Voice delivery, music, effects and audiovisual alignment were not established by this visual pass.",
+      "evidence": "A01",
+      "status": "not checked",
+      "reason": "No validated direct audio listening input.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q11",
+      "finding": "Voice delivery, music, effects and audiovisual alignment were not established by this visual pass.",
+      "evidence": "A01",
+      "status": "not checked",
+      "reason": "No validated direct audio listening input.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q12",
+      "finding": "Vector-looking illustrations, code, UI, fabric and stamp imagery are combined; physical production and asset provenance are not verified.",
+      "evidence": "V03,V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q13",
+      "finding": "Manifest duration 43.84 s; indexed dimensions 1280×720. Source unchanged flag recorded; fresh encoding and audio clipping checks not run.",
+      "evidence": "Group manifest",
+      "status": "uncertain",
+      "reason": "Inherited technical metadata; no fresh media probe in this review.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q14",
+      "finding": "The category examples and prompt-to-variation scene communicate graphic generation silently.",
+      "evidence": "V02,V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q15",
+      "finding": "A selection rectangle isolates one category; later the finished motif is larger than the surrounding interface.",
+      "evidence": "V02,V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q16",
+      "finding": "The film covers many output types, but the animal and vase sequences supply two traceable examples.",
+      "evidence": "V03,V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q17",
+      "finding": "The initial model announcement is supported by graphic outcomes and finished applications, not measured model improvement.",
+      "evidence": "V01,V03,V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q18",
+      "finding": "Clean paths becoming tangible designs suggest creative agency; this is interpretation.",
+      "evidence": "V03,V04,V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q19",
+      "finding": "Blue paths, selection nodes and recurring artwork connect the changing examples.",
+      "evidence": "V01–V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q20",
+      "finding": "Generated-looking graphics and variations are shown; file validity, editable paths and speed claims require testing.",
+      "evidence": "V03,V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q21",
+      "finding": "Visible Bézier paths and artwork applications make the style fit a vector product; the final credit-to-creativity line is more general.",
+      "evidence": "V01,V03,V04,V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q22",
+      "finding": "The prompt and application scenes explain value; some category-gallery repetition could be shortened for a longer editable-path view.",
+      "evidence": "V02,V03,V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q23",
+      "finding": "Tin could trace one generated campaign illustration from prompt through variants into its final ad or print placement.",
+      "evidence": "V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q24",
+      "finding": "QuiverAI Arrow 2.0 generates vector-style graphics, including icons, illustrations and technical drawings.",
+      "evidence": "Model reading from inspected images",
+      "status": "uncertain",
+      "reason": "Model-only new-viewer interpretation; no human test.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q25",
+      "finding": "Contact sheets inspected at displayed size; a phone-size playback, caption audit, flash audit and formal accessibility check were not performed.",
+      "evidence": "Viewed sheets",
+      "status": "not checked",
+      "reason": "Full-size moving-image and device checks unavailable in this pass.",
+      "experiment": "none"
+    }
+  ],
+  "lessons": {
+    "keep": "Show the same graphic first as digital output and then in a practical application.",
+    "avoid": "Avoid treating attractive mockups as proof of valid editable vector output.",
+    "open": "Output validity, speed claims, material provenance and sound remain unverified.",
+    "try": [
+      "For Tin, generate three campaign illustration variants, select one and show it in the final ad layout.",
+      "Test a path-outline reveal followed by a close view of the same mark on packaging, keeping shape and color consistent."
+    ]
+  },
+  "comparison": {
+    "story": "Introduce graphics and their applications. → Show output categories. → Link generated paths to usable artwork. → Show variation generation and application. → Credit the user’s creative intent.",
+    "motion": "Selection frames move among categories; paths and animal poses change; exact drawing and interpolation behavior are not established. Sampling scope: 1 fps unless a closer window is recorded.",
+    "sound": "No validated listening; unknown.",
+    "texture": "Pale blue grid, vector nodes and clean split layouts.; Selection rectangle, faint surrounding labels, blue line.; Fine paths, dark code box, blue silhouette, cloth texture.; White generation interface, saturated motifs and paper texture.; Sparse black text and logo.",
+    "lesson": "Show the same graphic first as digital output and then in a practical application."
+  },
+  "elements": [
+    {
+      "kind": "ui",
+      "name": "selection rectangle",
+      "events": [
+        "V02"
+      ]
+    },
+    {
+      "kind": "motion",
+      "name": "vector path reveal",
+      "events": [
+        "V03"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "generation prompt",
+      "events": [
+        "V04"
+      ]
+    },
+    {
+      "kind": "texture",
+      "name": "fabric embroidery",
+      "events": [
+        "V03"
+      ]
+    },
+    {
+      "kind": "texture",
+      "name": "printed stamps",
+      "events": [
+        "V04"
+      ]
+    }
+  ]
+}

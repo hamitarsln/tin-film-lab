@@ -1,0 +1,335 @@
+{
+  "id": 229,
+  "reviewer_model": "gpt-6-astra",
+  "scope": "sampled visual and story review; ASR and measured signal support; no validated audio listening",
+  "viewed_evidence": [
+    "technical-review-2026-10-19/deep-review/motion/229/timeline-00.jpg",
+    "technical-review-2026-10-19/deep-review/motion/229/timeline-01.jpg",
+    "technical-review-2026-10-19/deep-review/audio/229-speech.json"
+  ],
+  "closer_windows": [],
+  "product_from_film": "Mochatrade is presented as a financial-access brand through an Indian participation story; its specific trading product is not explained.",
+  "explains_well": "Cricket, chess, athletics and space imagery build a consistent exclusion-to-participation theme.",
+  "unclear": "The film never shows the product interface, an order or what new market access the user receives.",
+  "product_type": "financial trading brand",
+  "scenario": "Join an early-access trading service framed as wider market participation.",
+  "product_clear_time": null,
+  "product_clear_basis": "Charts and brand imply finance, but no specific service or user workflow is established.",
+  "scenes": [
+    {
+      "id": "V01",
+      "start": 0,
+      "end": 15,
+      "action": "A market-news presenter leads to global launch and technology footage. Large text says it started somewhere else, felt close, but we were not invited. Eye and news images appear inside circular masks.",
+      "design": "White layouts, mixed serif/sans text and archive-like footage.",
+      "purpose": "Frame opportunity as visible but distant.",
+      "evidence": "Visible chronological 1 fps samples, source 0–15s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V02",
+      "start": 15,
+      "end": 25,
+      "action": "Cricket preparation, search text, Indian supporters and a bowler accompany continued learning and movement, then Then things changed.",
+      "design": "Repeated eye crops, sport footage and large chapter text.",
+      "purpose": "Build readiness for participation.",
+      "evidence": "Visible chronological 1 fps samples, source 15–25s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V03",
+      "start": 25,
+      "end": 39,
+      "action": "Chess, older cricket, athletics medals and an Indian rocket launch accompany same-stage and access statements.",
+      "design": "Sports-history collage with layered repeated words.",
+      "purpose": "Use national achievement as evidence of belonging.",
+      "evidence": "Visible chronological 1 fps samples, source 25–39s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V04",
+      "start": 39,
+      "end": 48,
+      "action": "Indian exchange buildings, bull imagery and charts lead back to a stadium and cricket preparation. Text moves toward no longer being outside.",
+      "design": "Finance imagery mixed with competitive sport.",
+      "purpose": "Transfer the access theme to markets.",
+      "evidence": "Visible chronological 1 fps samples, source 39–48s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V05",
+      "start": 48,
+      "end": 60.0,
+      "action": "A helmeted player, bat and match action lead to the Mochatrade logo over blurred market figures. Early-access copy and the website repeat down the frame before black.",
+      "design": "Sport payoff and repeating URL typography.",
+      "purpose": "Invite participation in the brand.",
+      "evidence": "Visible chronological 1 fps samples, source 48–60.0s; boundary approximate; exact motion between samples unverified."
+    }
+  ],
+  "sound": [
+    {
+      "id": "A01",
+      "start": 0,
+      "end": 60.0,
+      "layer": "unknown",
+      "detail": "No validated direct audio listening was performed. Music, speech delivery, effects, mix and sync remain unknown, not absent.",
+      "visual_relation": "All visual scenes; audiovisual alignment unverified",
+      "evidence": "Visual samples only; no actual audio range supplied to this reviewer."
+    },
+    {
+      "id": "A02",
+      "start": 0,
+      "end": 8.23,
+      "layer": "ASR draft",
+      "detail": "The sparse ASR draft captures a market-news fragment and weak short phrases. It does not provide a coherent product explanation and was not used to fill the missing service details. Delivery and soundtrack were not heard.",
+      "visual_relation": "Story text support; exact audiovisual alignment and delivery unverified.",
+      "evidence": "technical-review-2026-10-19/deep-review/audio/229-speech.json; local faster-whisper base CPU int8 draft; VAD candidates only, recognition errors possible."
+    }
+  ],
+  "categories": [
+    {
+      "id": "Q01",
+      "finding": "Distant global opportunity becomes Indian achievement and then a financial-access invitation.",
+      "evidence": "V01–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q02",
+      "finding": "A market-news presenter identifies finance, but the product and audience remain unstated.",
+      "evidence": "V01",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q03",
+      "finding": "Indian sports and exchange imagery suggest the intended audience; the actual trading service is never defined.",
+      "evidence": "V02–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q04",
+      "finding": "Image tiles repeat, circular masks frame eyes/news, words layer down the page and the URL repeats at the end. Exact paths are unverified.",
+      "evidence": "V01,V03,V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q05",
+      "finding": "The repeated access language connects sports, technology and finance more than a single task does.",
+      "evidence": "V01–V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q06",
+      "finding": "White graphic layouts alternate with archival-looking sports footage and dark market imagery.",
+      "evidence": "V01–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q07",
+      "finding": "Large access statements guide the story; the repeated final URL is visible but offers little product explanation.",
+      "evidence": "V01,V03,V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q08",
+      "finding": "The sparse ASR draft captures a market-news fragment and weak short phrases. It does not provide a coherent product explanation and was not used to fill the missing service details. Delivery and soundtrack were not heard.",
+      "evidence": "A02",
+      "status": "uncertain",
+      "reason": "ASR text only; no validated listening, delivery or voice origin.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q09",
+      "finding": "Voice delivery, music, effects and audiovisual alignment were not established by this visual pass.",
+      "evidence": "A01",
+      "status": "not checked",
+      "reason": "No validated direct audio listening input.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q10",
+      "finding": "Voice delivery, music, effects and audiovisual alignment were not established by this visual pass.",
+      "evidence": "A01",
+      "status": "not checked",
+      "reason": "No validated direct audio listening input.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q11",
+      "finding": "Voice delivery, music, effects and audiovisual alignment were not established by this visual pass.",
+      "evidence": "A01",
+      "status": "not checked",
+      "reason": "No validated direct audio listening input.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q12",
+      "finding": "News, technology launches, sports, rocket and exchange imagery are mixed; source rights and historical context are unverified.",
+      "evidence": "V01–V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q13",
+      "finding": "Manifest duration 60.0s; indexed dimensions 1920×1080. Source unchanged flag recorded; fresh encoding and audio clipping checks not run.",
+      "evidence": "Group manifest",
+      "status": "uncertain",
+      "reason": "Inherited technical metadata; no fresh media probe in this review.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q14",
+      "finding": "The belonging theme survives without sound, but viewers cannot identify the specific product function.",
+      "evidence": "V01–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q15",
+      "finding": "Large type and isolated image tiles guide focus; repeated overlapping words sometimes compete with the achievement clips.",
+      "evidence": "V03",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q16",
+      "finding": "The full minute is a brand argument, with no time given to a concrete product interaction.",
+      "evidence": "V01–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q17",
+      "finding": "The not-invited opening ends with we-are-in framing and early access, completing the emotional premise.",
+      "evidence": "V01,V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q18",
+      "finding": "Exclusion shifts toward pride and belonging through recognizable national sporting and technical achievement imagery.",
+      "evidence": "V01–V03",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q19",
+      "finding": "Cricket preparation, performance and stadium imagery recur as the main visual thread.",
+      "evidence": "V02–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q20",
+      "finding": "The film shows no market access, transaction or feature evidence; achievements in other fields do not establish the trading offer.",
+      "evidence": "V03–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q21",
+      "finding": "Indian participation and cricket imagery target a specific cultural audience; the service itself remains generic.",
+      "evidence": "V02–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q22",
+      "finding": "After the access statement, show one newly available market and the user action that opens it.",
+      "evidence": "V04,V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q23",
+      "finding": "Tin can connect a product to a group’s aspiration, but should follow the emotional claim with one concrete enabled action.",
+      "evidence": "V03–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q24",
+      "finding": "Mochatrade is presented as a financial-access brand through an Indian participation story; its specific trading product is not explained.",
+      "evidence": "Model reading from inspected images",
+      "status": "uncertain",
+      "reason": "Model-only new-viewer interpretation; no human test.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q25",
+      "finding": "Contact sheets inspected at displayed size; a phone-size playback, caption audit, flash audit and formal accessibility check were not performed.",
+      "evidence": "Viewed sheets",
+      "status": "not checked",
+      "reason": "Full-size moving-image and device checks unavailable in this pass.",
+      "experiment": "none"
+    }
+  ],
+  "lessons": {
+    "keep": "Use a repeated participation theme to connect varied cultural images.",
+    "avoid": "Avoid expecting cultural pride to explain an unfamiliar financial product.",
+    "open": "Specific product scope, market access, availability, source rights, historical framing and all audio delivery remain unverified.",
+    "try": [
+      "Pair a Tin audience story with one campaign that the audience can now create or run.",
+      "Replace one achievement montage with a clear before/after access screen and a completed first action."
+    ]
+  },
+  "comparison": {
+    "story": "Frame opportunity as visible but distant. → Build readiness for participation. → Use national achievement as evidence of belonging. → Transfer the access theme to markets. → Invite participation in the brand.",
+    "motion": "Image tiles repeat, circular masks frame eyes/news, words layer down the page and the URL repeats at the end. Exact paths are unverified. Sampling scope: 1 fps unless a closer window is recorded.",
+    "sound": "No validated listening; unknown.",
+    "texture": "White layouts, mixed serif/sans text and archive-like footage.; Repeated eye crops, sport footage and large chapter text.; Sports-history collage with layered repeated words.; Finance imagery mixed with competitive sport.; Sport payoff and repeating URL typography.",
+    "lesson": "Use a repeated participation theme to connect varied cultural images."
+  },
+  "elements": [
+    {
+      "kind": "ui",
+      "name": "market chart",
+      "events": [
+        "V04"
+      ]
+    },
+    {
+      "kind": "motion",
+      "name": "repeated image tiles",
+      "events": [
+        "V01",
+        "V03"
+      ]
+    },
+    {
+      "kind": "motion",
+      "name": "repeated URL text",
+      "events": [
+        "V05"
+      ]
+    },
+    {
+      "kind": "texture",
+      "name": "sports archive imagery",
+      "events": [
+        "V02",
+        "V03"
+      ]
+    }
+  ]
+}

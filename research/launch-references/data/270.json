@@ -1,0 +1,343 @@
+{
+  "id": 270,
+  "product_from_film": "Vit adds branch, commit, merge and history controls to collaborative video editing inside DaVinci Resolve.",
+  "explains_well": "The same people and footage from the opening collaboration problem appear in the editor demonstration, connecting the problem to the tool.",
+  "unclear": "The demo names branches and merges but does not clearly show which person changed what or how competing changes are combined.",
+  "product_type": "video editing version control",
+  "scenario": "A team waiting on one editor asks for collaboration, then demonstrates Vit branches, commits, merges and history in Resolve.",
+  "product_clear_time": 34,
+  "product_clear_basis": "After Resolve integration at 28s and live changes at 32s, the visible Create & Work on Branches label at 34s establishes the collaboration mechanism.",
+  "scenes": [
+    {
+      "start": 0,
+      "end": 14,
+      "action": "Four people gather around one laptop. Close views and subtitles show impatience about color grading and stitching a file.",
+      "design": "Casual live-action room, tilted close-ups and small bottom captions.",
+      "purpose": "Establish serial work and waiting.",
+      "evidence": "1 fps source samples in 0–14s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V01"
+    },
+    {
+      "start": 14,
+      "end": 25,
+      "action": "The seated editor asks for a way to collaborate; another person mentions tomorrow’s launch. A large red WHAT ARE text state covers a close-up.",
+      "design": "Group reaction shots and oversized red type.",
+      "purpose": "Escalate the deadline and collaboration need.",
+      "evidence": "1 fps source samples in 14–25s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V02"
+    },
+    {
+      "start": 25,
+      "end": 34,
+      "action": "A dock shows DaVinci Resolve. Its editor opens on the same group footage with a Vit panel and labels Lives On DaVinci Resolve and See Live Changes.",
+      "design": "Dark editor, timeline, orange controls and gradient border.",
+      "purpose": "Locate the product in an existing workflow.",
+      "evidence": "1 fps source samples in 25–34s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V03"
+    },
+    {
+      "start": 34,
+      "end": 43,
+      "action": "A branch-name field and Create control appear. The caption changes to Commit Changes to Vit while timeline and color controls are shown; a commit field and button are emphasized.",
+      "design": "Branch controls, timeline, change list and color wheels.",
+      "purpose": "Show separate work and saving a version.",
+      "evidence": "1 fps source samples in 34–43s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V04"
+    },
+    {
+      "start": 43,
+      "end": 53,
+      "action": "Merge Vit Branches appears beside branch controls. Video states change, then Visualize Vit Graphs accompanies a branching history diagram.",
+      "design": "Orange controls, graph nodes and editor preview.",
+      "purpose": "Show merging and version history.",
+      "evidence": "1 fps source samples in 43–53s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V05"
+    },
+    {
+      "start": 53,
+      "end": 61.994,
+      "action": "The editor dims into a small Vit logo on black, followed by creator credits.",
+      "design": "Minimal black end cards.",
+      "purpose": "Close and credit the team.",
+      "evidence": "1 fps source samples in 53–61.994s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V06"
+    }
+  ],
+  "sound": [
+    {
+      "id": "A01",
+      "start": 0,
+      "end": 61.994,
+      "layer": "ASR draft / unknown",
+      "detail": "The first 27s of draft dialogue broadly matches the subtitles about slow editing, collaboration and a launch deadline, though several words are garbled. Later text is disconnected from the demo and is rejected as product explanation. No validated listening; voice delivery, music, effects and sync remain unknown.",
+      "visual_relation": "V01,V02 supported by script and captions; V03–V05 rely on visible UI.",
+      "evidence": "technical-review-2026-10-19/deep-review/audio/270-speech.json"
+    }
+  ],
+  "categories": [
+    {
+      "id": "Q01",
+      "finding": "Team waits on one editor → deadline pressure → integrated branch/commit/merge demo → history and credits.",
+      "evidence": "V01–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q02",
+      "finding": "A wide group shot around a laptop establishes a team but needs later dialogue to reveal the bottleneck.",
+      "evidence": "V01",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q03",
+      "finding": "Collaborative video editors are the audience; the Resolve panel and branches make the mechanism clear by 34s.",
+      "evidence": "V02–V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q04",
+      "finding": "UI crops move between whole editor and controls; labels change for each operation, with a final branching graph. Exact paths and easing are unresolved.",
+      "evidence": "V03–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q05",
+      "finding": "The same group footage moves from the live-action scene into the editor preview, making the demonstration continuous with the setup.",
+      "evidence": "V02,V03",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q06",
+      "finding": "Casual room footage contrasts with a dark editor surrounded by pink-purple-orange gradient borders.",
+      "evidence": "V01–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q07",
+      "finding": "Feature captions are clear, but small branch fields, logs and graph labels are harder to follow in the full interface.",
+      "evidence": "V03–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q08",
+      "finding": "Opening draft dialogue explains the waiting problem and deadline. Later disconnected draft lines are not used as product narration.",
+      "evidence": "A01",
+      "status": "uncertain",
+      "reason": "ASR and visible subtitles only; no listening.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q09",
+      "finding": "Music character and structure are unverified.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "No validated listening.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q10",
+      "finding": "Effects and their sources are unverified.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "No validated listening; waveform peaks do not identify effects.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q11",
+      "finding": "Sound sync is unverified.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "No validated listening or paired audiovisual timing.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q12",
+      "finding": "Live-action team scenes are reused as the editor’s source material; Resolve is explicitly visible as the integration target, not inferred as the film’s production tool.",
+      "evidence": "V01–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q13",
+      "finding": "Source duration 61.994 s; Watch metadata 1440 × 1080. Frame rate, audio clipping and export quality not checked here.",
+      "evidence": "Whole film",
+      "status": "supported",
+      "reason": "Parent source metadata supports duration and dimensions; visual review is sampled.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q14",
+      "finding": "Subtitles preserve the setup and feature labels preserve the demo, but the detailed contribution-to-merge story remains incomplete.",
+      "evidence": "V01–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q15",
+      "finding": "Punch-in views emphasize orange controls, though several logs and panels remain visible around them.",
+      "evidence": "V03–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q16",
+      "finding": "About 25s sets up the problem before roughly 28s of feature demonstration; the merge sequence needs clearer contribution labels.",
+      "evidence": "V01–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q17",
+      "finding": "The request for collaboration is answered by version-control controls, but no explicit team handoff or completed launch is shown.",
+      "evidence": "V02,V04,V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q18",
+      "finding": "Impatience and a deadline create a comic problem before the practical demo; audience response is unmeasured.",
+      "evidence": "V01–V03",
+      "status": "uncertain",
+      "reason": "Interpretation of captions and acting.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q19",
+      "finding": "The opening actors remain recognizable in the preview and timeline, a strong link across the format change.",
+      "evidence": "V01–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q20",
+      "finding": "Branch, commit, merge and graph states are shown. Reliable simultaneous collaboration, conflict resolution and edit preservation were not independently tested.",
+      "evidence": "V03–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q21",
+      "finding": "Git-like operations inside a named video editor and the self-referential team footage make the demo specific.",
+      "evidence": "V03–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q22",
+      "finding": "Make one merge causal and easy to inspect.",
+      "evidence": "V04,V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "Label one person’s subtitle change and another person’s grade change, then show both retained in the merged preview."
+    },
+    {
+      "id": "Q23",
+      "finding": "For Tin, show parallel review contributions returning to one asset.",
+      "evidence": "V04,V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "Use two labeled edits to a campaign draft and a final view that visibly retains both approved changes."
+    },
+    {
+      "id": "Q24",
+      "finding": "No human new-viewer test was performed.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "The product summary is this model’s film-only reading.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q25",
+      "finding": "Mobile preview and accessibility checks were not performed.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "Contact sheets are evidence views, not a stated mobile preview or compliance test.",
+      "experiment": "none"
+    }
+  ],
+  "elements": [
+    {
+      "kind": "ui",
+      "name": "timeline",
+      "events": [
+        "V03",
+        "V04",
+        "V05"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "branch controls",
+      "events": [
+        "V04",
+        "V05"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "version history graph",
+      "events": [
+        "V05"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "color wheels",
+      "events": [
+        "V04"
+      ]
+    },
+    {
+      "kind": "motion",
+      "name": "large reaction typography",
+      "events": [
+        "V02"
+      ]
+    }
+  ],
+  "lessons": {
+    "keep": "Use the opening scene itself as the material in the product demo.",
+    "try": [
+      "Label two separate contributions and show both retained after a merge.",
+      "For Tin, merge two approved campaign edits into one clearly labeled final view."
+    ],
+    "avoid": "Treating operation labels as enough explanation of what a merge actually changes.",
+    "open": "Concurrent behavior, conflicts, retained edits, audio and viewer understanding are unverified."
+  },
+  "comparison": {
+    "story": "Team bottleneck → deadline → integrated version-control demo.",
+    "motion": "Reaction type, UI crops, feature labels and history graph.",
+    "sound": "Opening ASR dialogue support; later disconnected lines rejected; no listening.",
+    "texture": "Casual team footage and dark editor with gradient border.",
+    "lesson": "Reusing the setup footage gives the demo immediate continuity."
+  },
+  "reviewer_model": "gpt-6-astra",
+  "scope": "sampled visual and story review; ASR and measured signal support; no validated audio listening",
+  "viewed_evidence": [
+    "technical-review-2026-10-19/deep-review/motion/270/timeline-00.jpg",
+    "technical-review-2026-10-19/deep-review/motion/270/timeline-01.jpg",
+    "technical-review-2026-10-19/deep-review/motion/270/timeline-02.jpg"
+  ],
+  "closer_windows": []
+}

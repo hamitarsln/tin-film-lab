@@ -1,0 +1,359 @@
+{
+  "id": 291,
+  "reviewer_model": "gpt-6-astra",
+  "scope": "sampled visual and story review; ASR and measured signal support; no validated audio listening",
+  "viewed_evidence": [
+    "technical-review-2026-10-19/deep-review/motion/291/timeline-00.jpg",
+    "technical-review-2026-10-19/deep-review/motion/291/timeline-01.jpg",
+    "astra-review-2026-10-20/evidence/group-2/291-37.png",
+    "technical-review-2026-10-19/deep-review/audio/291-speech.json"
+  ],
+  "closer_windows": [],
+  "product_from_film": "Lucent presents an AI that reviews PostHog session replays and sends bug and UX reports to a team.",
+  "explains_well": "The film shows a concrete checkout-failure report with severity, reproduction steps and a related session.",
+  "unclear": "The actual failed click and error are small, so the viewer must infer the connection between the replay and its report.",
+  "product_type": "developer analytics",
+  "scenario": "Detect a failed booking payment from a replay and route a report.",
+  "product_clear_time": 21,
+  "product_clear_basis": "The presenter and captions say Lucent watches session replays and finds bugs and UX issues.",
+  "scenes": [
+    {
+      "id": "V01",
+      "start": 0,
+      "end": 16,
+      "action": "A presenter holds a laptop as replay windows multiply behind her. Nobody’s Watching Them appears. A booking page becomes a wall of session thumbnails, some highlighted red.",
+      "design": "Live office footage, floating windows and dark green background.",
+      "purpose": "Show the scale of recorded but unreviewed behavior.",
+      "evidence": "Visible chronological 1 fps samples, source 0–16s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V02",
+      "start": 16,
+      "end": 25,
+      "action": "Lucent is introduced with a green play-like mark. A replay window is highlighted, then a connection form and session dashboard appear beside the presenter. Captions name PostHog.",
+      "design": "Green brand accent and software windows beside the presenter.",
+      "purpose": "Explain automatic review and the source integration.",
+      "evidence": "Visible chronological 1 fps samples, source 16–25s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V03",
+      "start": 25,
+      "end": 30,
+      "action": "A checkout screen appears with notification and report overlays. Captions describe sending detected bugs to Slack and Linear.",
+      "design": "Small booking form, dark notification and white report card.",
+      "purpose": "Show the intended alert handoff, though the exact error is hard to read at this scale.",
+      "evidence": "Visible chronological 1 fps samples, source 25–30s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V04",
+      "start": 30,
+      "end": 36,
+      "action": "Customer quote cards move beside Trusted by 30+ YC Companies.",
+      "design": "Dark cards with green highlighted phrases.",
+      "purpose": "Add adoption and testimonial claims.",
+      "evidence": "Visible chronological 1 fps samples, source 30–36s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V05",
+      "start": 36,
+      "end": 43,
+      "action": "The issue dashboard shows a critical payment-processing failure during checkout, marked Needs Review. The description names a generic server error; reproduction steps and a related session sit below. Another issue concerns a wishlist item not persisting.",
+      "design": "Green sidebar, red issue highlight and structured white report panel.",
+      "purpose": "Show what the team receives and how it can investigate.",
+      "evidence": "Visible chronological 1 fps samples, source 36–43s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V06",
+      "start": 43,
+      "end": 53.42,
+      "action": "Three cards summarize connecting PostHog, AI watching sessions and sending issues to Slack or Email. A one-minute setup claim leads to Lucent, lucenthq.com and a Y Combinator badge.",
+      "design": "Dark green summary cards and black end card.",
+      "purpose": "Summarize setup and invite a free trial.",
+      "evidence": "Visible chronological 1 fps samples, source 43–53.42s; boundary approximate; exact motion between samples unverified."
+    }
+  ],
+  "sound": [
+    {
+      "id": "A01",
+      "start": 0,
+      "end": 53.42,
+      "layer": "unknown",
+      "detail": "No validated direct audio listening was performed. Music, speech delivery, effects, mix and sync remain unknown, not absent.",
+      "visual_relation": "All visual scenes; audiovisual alignment unverified",
+      "evidence": "Visual samples only; no actual audio range supplied to this reviewer."
+    },
+    {
+      "id": "A02",
+      "start": 1.45,
+      "end": 50.65,
+      "layer": "ASR draft",
+      "detail": "The ASR draft supports the replay backlog, automatic bug review, PostHog connection, alerts and setup pitch. It garbles Lucent, PostHog and part of the reporting sentence; visible captions and interfaces support those terms. No voice or music qualities are inferred.",
+      "visual_relation": "Story text support; exact audiovisual alignment and delivery unverified.",
+      "evidence": "technical-review-2026-10-19/deep-review/audio/291-speech.json; local faster-whisper base CPU int8 draft; VAD candidates only, recognition errors possible."
+    }
+  ],
+  "categories": [
+    {
+      "id": "Q01",
+      "finding": "Unwatched replay volume leads to automatic review, alerts, customer proof and a structured issue report.",
+      "evidence": "V01–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q02",
+      "finding": "Multiplying replay windows make the backlog visible around the presenter.",
+      "evidence": "V01",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q03",
+      "finding": "The AI replay-review function is clear by about 21 s.",
+      "evidence": "V02",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q04",
+      "finding": "Windows multiply into a grid, red highlights mark selected sessions and report areas receive changing highlights. Exact timing is sampled.",
+      "evidence": "V01,V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q05",
+      "finding": "Booking and checkout screens recur in the replay and the payment-failure report, giving the demo a consistent application context.",
+      "evidence": "V01,V03,V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q06",
+      "finding": "Green signals the product; red identifies suspected issues. White panels remain distinct from the dark background.",
+      "evidence": "V01–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q07",
+      "finding": "The report has useful structure, but most of it is small in the full composition. A full-resolution frame at 37 s makes the title and steps readable.",
+      "evidence": "V05; inspected 37 s frame",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q08",
+      "finding": "The ASR draft supports the replay backlog, automatic bug review, PostHog connection, alerts and setup pitch. It garbles Lucent, PostHog and part of the reporting sentence; visible captions and interfaces support those terms. No voice or music qualities are inferred.",
+      "evidence": "A02",
+      "status": "uncertain",
+      "reason": "ASR text only; no validated listening, delivery or voice origin.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q09",
+      "finding": "Voice delivery, music, effects and audiovisual alignment were not established by this visual pass.",
+      "evidence": "A01",
+      "status": "not checked",
+      "reason": "No validated direct audio listening input.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q10",
+      "finding": "Voice delivery, music, effects and audiovisual alignment were not established by this visual pass.",
+      "evidence": "A01",
+      "status": "not checked",
+      "reason": "No validated direct audio listening input.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q11",
+      "finding": "Voice delivery, music, effects and audiovisual alignment were not established by this visual pass.",
+      "evidence": "A01",
+      "status": "not checked",
+      "reason": "No validated direct audio listening input.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q12",
+      "finding": "Presenter footage, replay windows and interface overlays are visible. Capture and animation tools are unknown.",
+      "evidence": "V01–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q13",
+      "finding": "Manifest duration 53.42s; indexed dimensions 1920×1080. Source unchanged flag recorded; fresh encoding and audio clipping checks not run.",
+      "evidence": "Group manifest",
+      "status": "uncertain",
+      "reason": "Inherited technical metadata; no fresh media probe in this review.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q14",
+      "finding": "Captions establish the promise, and the report can be read when enlarged. Audio quality and delivery are unverified.",
+      "evidence": "V02,V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q15",
+      "finding": "Early windows stay secondary to the presenter; the later full-screen report gives the output more attention.",
+      "evidence": "V01–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q16",
+      "finding": "The problem takes 16 s. Integration and alerts arrive by 30 s; a readable report structure follows testimonials at 36 s.",
+      "evidence": "V01–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q17",
+      "finding": "A report with reproduction steps and a linked session is a useful visible outcome, while a fix is outside this film’s demonstrated task.",
+      "evidence": "V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q18",
+      "finding": "The transition from many unread sessions to one organized report suggests relief from review overload; this is a creative reading.",
+      "evidence": "V01,V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q19",
+      "finding": "The main report is marked Needs Review, which preserves a human review stage. The final summary names Slack or Email while the earlier pitch names Slack and Linear.",
+      "evidence": "V03,V05,V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q20",
+      "finding": "Detection accuracy, coverage of every session, customer count and one-minute setup are claims. The displayed report’s diagnosis is not independently verified.",
+      "evidence": "V02–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q21",
+      "finding": "The critical checkout issue, wishlist issue, reproduction steps and related replay make the output concrete.",
+      "evidence": "V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q22",
+      "finding": "Enlarge one failed payment action and its error, then carry that exact moment into the report and linked replay.",
+      "evidence": "V03,V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q23",
+      "finding": "Tin can show an observed failure and a structured report with evidence and next steps, rather than only a notification.",
+      "evidence": "V03,V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q24",
+      "finding": "Lucent presents an AI that reviews PostHog session replays and sends bug and UX reports to a team.",
+      "evidence": "Model reading from inspected images",
+      "status": "uncertain",
+      "reason": "Model-only new-viewer interpretation; no human test.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q25",
+      "finding": "Contact sheets inspected at displayed size; a phone-size playback, caption audit, flash audit and formal accessibility check were not performed.",
+      "evidence": "Viewed sheets",
+      "status": "not checked",
+      "reason": "Full-size moving-image and device checks unavailable in this pass.",
+      "experiment": "none"
+    }
+  ],
+  "lessons": {
+    "keep": "Show a structured issue report with reproduction steps and linked evidence.",
+    "avoid": "Avoid shrinking the actual failure while giving more space to generic backlog imagery.",
+    "open": "Detection quality, setup time, integration coverage, claim accuracy and all heard audio remain unverified.",
+    "try": [
+      "For Tin, enlarge one failed workflow step before showing the generated report.",
+      "Keep the same failure title and source timestamp visible in the alert and report so the handoff is easy to follow."
+    ]
+  },
+  "comparison": {
+    "story": "Show the scale of recorded but unreviewed behavior. → Explain automatic review and the source integration. → Show the intended alert handoff, though the exact error is hard to read at this scale. → Add adoption and testimonial claims. → Show what the team receives and how it can investigate. → Summarize setup and invite a free trial.",
+    "motion": "Windows multiply into a grid, red highlights mark selected sessions and report areas receive changing highlights. Exact timing is sampled. Sampling scope: 1 fps unless a closer window is recorded.",
+    "sound": "No validated listening; unknown.",
+    "texture": "Live office footage, floating windows and dark green background.; Green brand accent and software windows beside the presenter.; Small booking form, dark notification and white report card.; Dark cards with green highlighted phrases.; Green sidebar, red issue highlight and structured white report panel.; Dark green summary cards and black end card.",
+    "lesson": "Show a structured issue report with reproduction steps and linked evidence."
+  },
+  "elements": [
+    {
+      "kind": "ui",
+      "name": "session replay",
+      "events": [
+        "V01",
+        "V02"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "connection form",
+      "events": [
+        "V02"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "notification",
+      "events": [
+        "V03"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "issue report",
+      "events": [
+        "V05"
+      ]
+    },
+    {
+      "kind": "motion",
+      "name": "multiplying windows",
+      "events": [
+        "V01"
+      ]
+    },
+    {
+      "kind": "texture",
+      "name": "dark green gradient",
+      "events": [
+        "V01",
+        "V05"
+      ]
+    }
+  ]
+}

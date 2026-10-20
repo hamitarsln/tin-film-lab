@@ -1,0 +1,327 @@
+{
+  "id": 365,
+  "viewed_evidence": [
+    "technical-review-2026-10-19/deep-review/motion/365/timeline-00.jpg",
+    "technical-review-2026-10-19/deep-review/motion/365/timeline-01.jpg",
+    "astra-review-2026-10-20/evidence/group-3/365/full0.jpg",
+    "astra-review-2026-10-20/evidence/group-3/365/full9.jpg",
+    "astra-review-2026-10-20/evidence/group-3/365/full46.jpg"
+  ],
+  "product_from_film": "The film compares GPT-5.3-Codex and GPT-5.3-Codex-Spark building a Snake game.",
+  "explains_well": "The fixed split screen makes the earlier visible Spark game easy to compare with the other model still producing code.",
+  "unclear": "The comparison lacks a shared elapsed timer and run conditions, so the size and fairness of the speed difference are unclear.",
+  "product_type": "developer tool",
+  "scenario": "Build a simple HTML Snake game in two labeled model sessions",
+  "product_clear_time": 0,
+  "product_clear_basis": "Both terminal headers name models and show the same Snake prompt.",
+  "scenes": [
+    {
+      "start": 0,
+      "end": 3,
+      "action": "Two terminal sessions begin with the same Build a simple HTML snake game prompt; model labels stay at the bottom.",
+      "design": "Equal dark panels separated by white line.",
+      "purpose": "Establish comparison",
+      "id": "V01",
+      "evidence": "Visible 1 fps samples, source 0–3s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 3,
+      "end": 9,
+      "action": "Both sessions produce text; Spark output reaches code and completion while the left remains in preparation.",
+      "design": "Monospace terminal output and fixed model labels.",
+      "purpose": "Show relative progress",
+      "id": "V02",
+      "evidence": "Visible 1 fps samples, source 3–9s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 9,
+      "end": 38,
+      "action": "Right panel transitions to a dark Snake game with changing green snake positions; left remains terminal text and file preparation.",
+      "design": "Game board and blue buttons versus code text.",
+      "purpose": "Hold visible speed difference",
+      "id": "V03",
+      "evidence": "Visible 1 fps samples, source 9–38s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 38,
+      "end": 43,
+      "action": "Left session checks files and gives a completion summary while right game continues.",
+      "design": "Left logs; right active board.",
+      "purpose": "Bring slower side to completion",
+      "id": "V04",
+      "evidence": "Visible 1 fps samples, source 38–43s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 43,
+      "end": 47.133,
+      "action": "Left changes to a pale Snake game while right remains dark; both snakes change position before the clip ends.",
+      "design": "Different game styling under unchanged model labels.",
+      "purpose": "Show both outputs",
+      "id": "V05",
+      "evidence": "Visible 1 fps samples, source 43–47.133s; boundaries approximate, between-frame action unresolved."
+    }
+  ],
+  "sound": [
+    {
+      "id": "A01",
+      "start": 0,
+      "end": 47.133,
+      "layer": "unknown",
+      "detail": "No validated audio listening; speech, music, effects, mix and sync remain unverified.",
+      "visual_relation": "All visual scenes; alignment not checked",
+      "evidence": "No actual audio supplied to this review; existing technical-review-2026-10-19/deep-review/audio/365.json is not listening evidence."
+    }
+  ],
+  "categories": [
+    {
+      "finding": "One identical prompt stays central to a two-model comparison, ending with two game outputs.",
+      "evidence": "V01–V05",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q01"
+    },
+    {
+      "finding": "Both Codex terminals already show the same Snake prompt and distinct model names; the task is concrete immediately.",
+      "evidence": "V01; full0.jpg",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q02"
+    },
+    {
+      "finding": "The developer task and models are explicit at 0 s. No research-preview access information is conveyed in the shown comparison.",
+      "evidence": "V01 0–3 s",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q03"
+    },
+    {
+      "finding": "Motion is terminal progress and changing Snake positions inside a fixed split layout. No decorative camera movement is needed to compare the states. Exact game paths are not traced at 1 fps.",
+      "evidence": "V02–V05",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q04"
+    },
+    {
+      "finding": "Each panel independently switches from terminal to game. At full9.jpg the right game overlays fading terminal content; sampled timing places the left game near 43 s.",
+      "evidence": "V03, V05; full9.jpg",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q05"
+    },
+    {
+      "finding": "Dark terminals and a bright green right snake contrast with the pale left game at the end. The visual difference comes from shown outputs.",
+      "evidence": "V03–V05; full46.jpg",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q06"
+    },
+    {
+      "finding": "Large persistent model labels are clear; terminal text is small in the sheets but full0 confirms identical prompts and medium settings.",
+      "evidence": "V01; full0.jpg",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q07"
+    },
+    {
+      "finding": "Voice presence and delivery remain unverified.",
+      "evidence": "No validated audio listening",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q08"
+    },
+    {
+      "finding": "Music character and arc remain unverified.",
+      "evidence": "No validated audio listening",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q09"
+    },
+    {
+      "finding": "Sound effects remain unverified.",
+      "evidence": "No validated audio listening",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q10"
+    },
+    {
+      "finding": "Sound-to-motion timing remain unverified.",
+      "evidence": "No validated audio listening",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q11"
+    },
+    {
+      "finding": "The film uses two software captures and their game outputs. No external footage or illustrative assets are needed for the core argument.",
+      "evidence": "V01–V05",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q12"
+    },
+    {
+      "finding": "Source duration supplied as 47.133s; no independent compression, clipping or delivery check.",
+      "evidence": "Assigned metadata; source integrity checked by parent",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q13"
+    },
+    {
+      "finding": "The same prompt, model names and unequal progress states communicate the comparison silently.",
+      "evidence": "V01–V05",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q14"
+    },
+    {
+      "finding": "The moving bright snake draws attention right while the left text changes slowly; the divider preserves both states for comparison.",
+      "evidence": "V03 9–38 s",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q15"
+    },
+    {
+      "finding": "Nearly thirty seconds of right-side gameplay makes the waiting contrast tangible but repeats the same main idea. A visible timer could make this hold more informative.",
+      "evidence": "V03 9–38 s",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q16"
+    },
+    {
+      "finding": "The shared task ends with two visible games; Spark appears earlier in the presented edit.",
+      "evidence": "V01, V03, V05",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q17"
+    },
+    {
+      "finding": "Extended playable output beside ongoing preparation appears designed to turn waiting into anticipation. No viewer response or heard energy is established.",
+      "evidence": "V03",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q18"
+    },
+    {
+      "finding": "The divider and model labels remain fixed from prompt through output. Different game styling is visible, so output equivalence should not be assumed.",
+      "evidence": "V01–V05",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q19"
+    },
+    {
+      "finding": "The video shows Spark output near 9 s and the other game near 43 s, but these are source presentation times, not a verified benchmark. No shared clock, full run conditions or function checks are supplied by this review.",
+      "evidence": "V03, V05; full0.jpg, full46.jpg",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q20"
+    },
+    {
+      "finding": "Named Codex sessions and one recognizable coding task identify the comparison; the split-screen mechanism is reusable for other tools.",
+      "evidence": "V01–V05",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q21"
+    },
+    {
+      "finding": "Retain the shared prompt and both outputs. Add an elapsed timer and a short conditions note instead of leaving the long wait unexplained.",
+      "evidence": "V01, V03, V05",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q22"
+    },
+    {
+      "finding": "For a Tin workflow comparison, capture the same input in equal panels with persistent labels, a shared timer and a clearly defined ready result. Preserve any speed changes explicitly.",
+      "evidence": "V01–V05",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q23"
+    },
+    {
+      "finding": "No human new-viewer test; product description above is model interpretation of sampled images.",
+      "evidence": "V01–V05",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q24"
+    },
+    {
+      "finding": "No phone-size, safe-area or flash assessment; small UI text needs separate preview.",
+      "evidence": "Contact sheets",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q25"
+    }
+  ],
+  "lessons": {
+    "keep": "Keep input, labels and layout fixed while the two results arrive at different times.",
+    "try": [
+      "Compare one Tin report task using equal panels, the same source data and an elapsed timer, with a named completion criterion.",
+      "At each completion, hold a readable output excerpt and list the same two checked functions so speed does not stand in for quality."
+    ],
+    "avoid": "Avoid presenting source video time as a general performance benchmark.",
+    "open": "Run conditions, edit speed, representative performance, game correctness and all audio remain unverified."
+  },
+  "comparison": {
+    "story": "Establish comparison → Show relative progress → Hold visible speed difference → Bring slower side to completion → Show both outputs",
+    "motion": "Motion is terminal progress and changing Snake positions inside a fixed split layout. No decorative camera movement is needed to compare the states. Exact game paths are not traced at 1 fps.",
+    "sound": "No validated listening; no absence claims.",
+    "texture": "Dark terminals and a bright green right snake contrast with the pale left game at the end. The visual difference comes from shown outputs.",
+    "lesson": "Keep input, labels and layout fixed while the two results arrive at different times."
+  },
+  "elements": [
+    {
+      "kind": "ui",
+      "name": "terminal",
+      "events": [
+        "V01",
+        "V02",
+        "V03",
+        "V04"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "game board",
+      "events": [
+        "V03",
+        "V05"
+      ]
+    },
+    {
+      "kind": "motion",
+      "name": "split-screen comparison",
+      "events": [
+        "V01",
+        "V02",
+        "V03",
+        "V04",
+        "V05"
+      ]
+    }
+  ],
+  "reviewer_model": "gpt-6-astra",
+  "scope": "sampled visual and story review; ASR and measured signal support; no validated audio listening",
+  "closer_windows": []
+}

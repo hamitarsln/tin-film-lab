@@ -1,0 +1,332 @@
+{
+  "id": 155,
+  "reviewer_model": "gpt-6-astra",
+  "scope": "sampled visual and story review; ASR and measured signal support; no validated audio listening",
+  "viewed_evidence": [
+    "technical-review-2026-10-19/deep-review/motion/155/timeline-00.jpg",
+    "technical-review-2026-10-19/deep-review/motion/155/timeline-01.jpg",
+    "technical-review-2026-10-19/deep-review/audio/155-speech.json"
+  ],
+  "closer_windows": [],
+  "product_from_film": "Duels presents competitive trading as an esport with opponents, results and rankings.",
+  "explains_well": "Combat and esport imagery connect directly to duel-like interface and leaderboard states.",
+  "unclear": "Entry rules, settlement and how trading performance decides a contest are not explained.",
+  "product_type": "competitive trading platform",
+  "scenario": "Compete against another trader and view results/rankings.",
+  "product_clear_time": 21,
+  "product_clear_basis": "Competitive-trading caption accompanies a trading panel; opponent imagery follows.",
+  "scenes": [
+    {
+      "id": "V01",
+      "start": 0,
+      "end": 17,
+      "action": "Earth imagery and competition captions lead to historical fighters, combat sports, rugby, racing and poker. A red LIQUIDATION label appears inside an eye before black.",
+      "design": "High-contrast action montage, letterboxing and yellow captions.",
+      "purpose": "Frame competition as a longstanding impulse.",
+      "evidence": "Visible chronological 1 fps samples, source 0–17s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V02",
+      "start": 17,
+      "end": 25,
+      "action": "A trading screen appears, then a multi-monitor user and mouse closeup. Armored figures duel atop interface-like platforms; RESULT CONFIRMED and a large dollar value follow.",
+      "design": "Dark blue/cyan UI, dramatic figures and yellow result emphasis.",
+      "purpose": "Reveal trading as a contest.",
+      "evidence": "Visible chronological 1 fps samples, source 17–25s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V03",
+      "start": 25,
+      "end": 31,
+      "action": "Armored users sit at computers, a stats dashboard appears, then esports celebration and ranked trader cards.",
+      "design": "Game-like characters, stage footage and colored profile cards.",
+      "purpose": "Connect results to player identity and ranking.",
+      "evidence": "Visible chronological 1 fps samples, source 25–31s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V04",
+      "start": 31,
+      "end": 36.68,
+      "action": "Trading is an esport appears with a powered-by line, then a helmet-like mark and Secure your spot.",
+      "design": "Black background, white text and faint particle/light streaks.",
+      "purpose": "State positioning and invite access.",
+      "evidence": "Visible chronological 1 fps samples, source 31–36.68s; boundary approximate; exact motion between samples unverified."
+    }
+  ],
+  "sound": [
+    {
+      "id": "A01",
+      "start": 0,
+      "end": 36.68,
+      "layer": "unknown",
+      "detail": "No validated direct audio listening was performed. Music, speech delivery, effects, mix and sync remain unknown, not absent.",
+      "visual_relation": "All visual scenes; audiovisual alignment unverified",
+      "evidence": "Visual samples only; no actual audio range supplied to this reviewer."
+    },
+    {
+      "id": "A02",
+      "start": 0.1,
+      "end": 27.65,
+      "layer": "ASR draft",
+      "detail": "ASR draft supports competition as a premise and trader-versus-trader positioning. The product-introduction phrase is garbled, so visible competitive-trading captions are used instead. No voice, music, effects or beat synchronization was heard.",
+      "visual_relation": "Story text support; exact audiovisual alignment and delivery unverified.",
+      "evidence": "technical-review-2026-10-19/deep-review/audio/155-speech.json; local faster-whisper base CPU int8 draft; VAD candidates only, recognition errors possible."
+    }
+  ],
+  "categories": [
+    {
+      "id": "Q01",
+      "finding": "A broad competition montage narrows into trading contests, results, rankings and access.",
+      "evidence": "V01–V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q02",
+      "finding": "Earth and competition-in-our-blood wording establish a grand premise before any product appears.",
+      "evidence": "V01",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q03",
+      "finding": "The interface and competitive-trading caption clarify the concept around 21 s.",
+      "evidence": "V02",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q04",
+      "finding": "Trading panels change angle, armored figures fight and ranked cards are enlarged across samples; exact 3D motion is unverified.",
+      "evidence": "V02,V03",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q05",
+      "finding": "The early combat motif returns literally as armored duelists on trading panels.",
+      "evidence": "V01,V02",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q06",
+      "finding": "Dark cinematic footage and neon blue UI create a gaming-arena feel, with yellow for key results.",
+      "evidence": "V01–V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q07",
+      "finding": "Small yellow subtitles carry the early argument; Trading is an esport is the clearest concise positioning line.",
+      "evidence": "V01,V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q08",
+      "finding": "ASR draft supports competition as a premise and trader-versus-trader positioning. The product-introduction phrase is garbled, so visible competitive-trading captions are used instead. No voice, music, effects or beat synchronization was heard.",
+      "evidence": "A02",
+      "status": "uncertain",
+      "reason": "ASR text only; no validated listening, delivery or voice origin.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q09",
+      "finding": "Voice delivery, music, effects and audiovisual alignment were not established by this visual pass.",
+      "evidence": "A01",
+      "status": "not checked",
+      "reason": "No validated direct audio listening input.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q10",
+      "finding": "Voice delivery, music, effects and audiovisual alignment were not established by this visual pass.",
+      "evidence": "A01",
+      "status": "not checked",
+      "reason": "No validated direct audio listening input.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q11",
+      "finding": "Voice delivery, music, effects and audiovisual alignment were not established by this visual pass.",
+      "evidence": "A01",
+      "status": "not checked",
+      "reason": "No validated direct audio listening input.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q12",
+      "finding": "Sports and film-like footage mix with rendered-looking armored figures and product screens; origins are unknown.",
+      "evidence": "V01–V03",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q13",
+      "finding": "Manifest duration 36.68 s; indexed dimensions 1920×1080. Source unchanged flag recorded; fresh encoding and audio clipping checks not run.",
+      "evidence": "Group manifest",
+      "status": "uncertain",
+      "reason": "Inherited technical metadata; no fresh media probe in this review.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q14",
+      "finding": "Competitive-trading caption, result card and rankings explain the category visually; detailed rules remain absent.",
+      "evidence": "V02,V03",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q15",
+      "finding": "Attention shifts from spectacular action to a large result amount, then individual ranked profiles.",
+      "evidence": "V02,V03",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q16",
+      "finding": "Nearly half the 37 s film is a general competition setup; the concrete product arrives late.",
+      "evidence": "V01,V02",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q17",
+      "finding": "The competition premise pays off in trader-versus-trader and ranking imagery.",
+      "evidence": "V01,V03",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q18",
+      "finding": "Celebrations and combat frame financial activity as exciting rivalry; audience response and outcomes are unknown.",
+      "evidence": "V01–V03",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q19",
+      "finding": "Armored figures bridge the historical combat montage and modern computer arena.",
+      "evidence": "V01–V03",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q20",
+      "finding": "A confirmed-result label and dollar amount are shown, but no real contest, settlement or performance evidence is established.",
+      "evidence": "V02,V03",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q21",
+      "finding": "Trading is an esport gives Duels a clear positioning statement and a helmet-like identity.",
+      "evidence": "V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q22",
+      "finding": "A simple contest rule and one end-to-end round would add more meaning than extra action clips.",
+      "evidence": "V01–V03",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q23",
+      "finding": "Tin can borrow a clear result card and ranked options, while avoiding a competitive frame unless it helps a real user decision.",
+      "evidence": "V02,V03",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q24",
+      "finding": "Duels presents competitive trading as an esport with opponents, results and rankings.",
+      "evidence": "Model reading from inspected images",
+      "status": "uncertain",
+      "reason": "Model-only new-viewer interpretation; no human test.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q25",
+      "finding": "Contact sheets inspected at displayed size; a phone-size playback, caption audit, flash audit and formal accessibility check were not performed.",
+      "evidence": "Viewed sheets",
+      "status": "not checked",
+      "reason": "Full-size moving-image and device checks unavailable in this pass.",
+      "experiment": "none"
+    }
+  ],
+  "lessons": {
+    "keep": "Give the final result a clear visual form and connect it to the task.",
+    "avoid": "Avoid making financial outcomes look guaranteed through victory imagery.",
+    "open": "Contest mechanics, settlement, financial results, source rights and sound remain unverified.",
+    "try": [
+      "Show a Tin campaign comparison with objective criteria and a selected winner, then its approval.",
+      "Open with the concrete product action sooner and reserve spectacle for a brief transition."
+    ]
+  },
+  "comparison": {
+    "story": "Frame competition as a longstanding impulse. → Reveal trading as a contest. → Connect results to player identity and ranking. → State positioning and invite access.",
+    "motion": "Trading panels change angle, armored figures fight and ranked cards are enlarged across samples; exact 3D motion is unverified. Sampling scope: 1 fps unless a closer window is recorded.",
+    "sound": "No validated listening; unknown.",
+    "texture": "High-contrast action montage, letterboxing and yellow captions.; Dark blue/cyan UI, dramatic figures and yellow result emphasis.; Game-like characters, stage footage and colored profile cards.; Black background, white text and faint particle/light streaks.",
+    "lesson": "Give the final result a clear visual form and connect it to the task."
+  },
+  "elements": [
+    {
+      "kind": "ui",
+      "name": "trading chart",
+      "events": [
+        "V02"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "result card",
+      "events": [
+        "V02"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "leaderboard",
+      "events": [
+        "V03"
+      ]
+    },
+    {
+      "kind": "motion",
+      "name": "armored character duel",
+      "events": [
+        "V02"
+      ]
+    },
+    {
+      "kind": "texture",
+      "name": "dark neon interface",
+      "events": [
+        "V02",
+        "V03"
+      ]
+    }
+  ]
+}

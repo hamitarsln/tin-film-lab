@@ -1,0 +1,355 @@
+{
+  "id": 497,
+  "reviewer_model": "gpt-6-astra",
+  "scope": "sampled visual and story review; ASR and measured signal support; no validated audio listening",
+  "viewed_evidence": [
+    "technical-review-2026-10-19/deep-review/motion/497/timeline-00.jpg",
+    "technical-review-2026-10-19/deep-review/motion/497/timeline-01.jpg"
+  ],
+  "closer_windows": [],
+  "product_from_film": "Figma Draw adds drawing, vector and texture controls for expressive design work.",
+  "explains_well": "The butterfly develops from simple black geometry through edited curves and color into a finished festival design.",
+  "unclear": "The fast feature montage shows many effects but gives little time to locate each control or understand the steps needed to reproduce it.",
+  "product_type": "design and illustration tool",
+  "scenario": "Draw and style illustrations, type and patterns within a design canvas.",
+  "product_clear_time": 10,
+  "product_clear_basis": "The drawing toolbar leads into a visible design workspace with illustrated posters.",
+  "scenes": [
+    {
+      "id": "V01",
+      "start": 0,
+      "end": 6,
+      "action": "A grid of simple icons gives way to an illustrated person and Draw inspiration text with drawn and selected accents.",
+      "design": "Black icons, pastel gradients and hand-drawn character texture.",
+      "purpose": "Move from basic symbols toward expressive drawing.",
+      "evidence": "Visible chronological 1 fps samples, source 0–6s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V02",
+      "start": 6,
+      "end": 15,
+      "action": "A compact toolbar expands into drawing tools and a loose character stroke appears. A poster canvas shows a dog illustration, brush choices and repeated colored poster variants.",
+      "design": "Floating white toolbar, rough black strokes and pastel paper-like blocks.",
+      "purpose": "Introduce drawing and brush variation in a design context.",
+      "evidence": "Visible chronological 1 fps samples, source 6–15s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V03",
+      "start": 15,
+      "end": 21,
+      "action": "Text follows a curved path, then large orange type appears with a Layer blur control and changing edge treatment.",
+      "design": "Editable paths, selection handles and a small effects panel.",
+      "purpose": "Show type and effect controls.",
+      "evidence": "Visible chronological 1 fps samples, source 15–21s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V04",
+      "start": 21,
+      "end": 31,
+      "action": "A pair of circles becomes a row and then a scattered dot field. New Year poster views lead to a yellow pattern panel and repeated black circles.",
+      "design": "Bold black type, magenta dots and yellow-white repeated marks.",
+      "purpose": "Show repetition and pattern-based graphic work.",
+      "evidence": "Visible chronological 1 fps samples, source 21–31s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V05",
+      "start": 31,
+      "end": 44,
+      "action": "A simple black butterfly shape is edited with points and curves. It becomes a colorful detailed butterfly, receives texture adjustments and appears in a Nature Fest page.",
+      "design": "Vector handles, orange-purple gradients, grain and bright green type.",
+      "purpose": "Connect editable geometry to a finished design.",
+      "evidence": "Visible chronological 1 fps samples, source 31–44s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V06",
+      "start": 44,
+      "end": 53.041,
+      "action": "Express yourself with Figma Draw leads to a collage of textures and shapes that resolves into the Figma symbol.",
+      "design": "Mixed graphic materials, soft pastel backdrop and brand colors.",
+      "purpose": "Summarize creative range and brand.",
+      "evidence": "Visible chronological 1 fps samples, source 44–53.041s; boundary approximate; exact motion between samples unverified."
+    }
+  ],
+  "sound": [
+    {
+      "id": "A01",
+      "start": 0,
+      "end": 53.041,
+      "layer": "unknown",
+      "detail": "No validated direct audio listening was performed. Music, speech delivery, effects, mix and sync remain unknown, not absent.",
+      "visual_relation": "All visual scenes; audiovisual alignment unverified",
+      "evidence": "Visual samples only; no actual audio range supplied to this reviewer."
+    }
+  ],
+  "categories": [
+    {
+      "id": "Q01",
+      "finding": "Simple icons expand into drawing, typography, repetition and a detailed butterfly project before the product close.",
+      "evidence": "V01–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q02",
+      "finding": "The change from generic icons to an illustrated person quickly sets up expressive design as the benefit.",
+      "evidence": "V01",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q03",
+      "finding": "Designers creating illustrations and graphics are the audience; the poster workspace makes the task clear at 10s.",
+      "evidence": "V02",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q04",
+      "finding": "The toolbar expands, strokes build, curved text and effect controls change states, circles multiply into patterns, and butterfly points are reshaped before color and texture appear.",
+      "evidence": "V02–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q05",
+      "finding": "Close control views alternate with finished compositions, helping viewers connect tools to visual outcomes.",
+      "evidence": "V02–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q06",
+      "finding": "Rough brush edges, halftone-like marks, grain, smooth gradients and flat bright colors create a deliberately varied graphic texture.",
+      "evidence": "V01–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q07",
+      "finding": "Large art and titles are easy to read; small effect-panel values and rapid control changes are harder to follow.",
+      "evidence": "V02–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q08",
+      "finding": "Voice delivery, music, effects and audiovisual alignment were not established by this visual pass.",
+      "evidence": "A01",
+      "status": "not checked",
+      "reason": "No validated direct audio listening input.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q09",
+      "finding": "Voice delivery, music, effects and audiovisual alignment were not established by this visual pass.",
+      "evidence": "A01",
+      "status": "not checked",
+      "reason": "No validated direct audio listening input.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q10",
+      "finding": "Voice delivery, music, effects and audiovisual alignment were not established by this visual pass.",
+      "evidence": "A01",
+      "status": "not checked",
+      "reason": "No validated direct audio listening input.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q11",
+      "finding": "Voice delivery, music, effects and audiovisual alignment were not established by this visual pass.",
+      "evidence": "A01",
+      "status": "not checked",
+      "reason": "No validated direct audio listening input.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q12",
+      "finding": "Design canvases, vector points, tool panels, illustrated posters and animated brand graphics are visible. Exact creation history is unverified.",
+      "evidence": "V01–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q13",
+      "finding": "Manifest duration 53.041s; indexed dimensions 1920×1080. Source unchanged flag recorded; fresh encoding and audio clipping checks not run.",
+      "evidence": "Group manifest",
+      "status": "uncertain",
+      "reason": "Inherited technical metadata; no fresh media probe in this review.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q14",
+      "finding": "Visible controls and before/after artwork communicate drawing capabilities without an available speech draft.",
+      "evidence": "V02–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q15",
+      "finding": "The artwork remains the main focus; control panels appear briefly beside the affected area.",
+      "evidence": "V02–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q16",
+      "finding": "Several small demonstrations lead into a longer butterfly sequence, giving the final example more continuity than the earlier effects.",
+      "evidence": "V02–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q17",
+      "finding": "The butterfly stays recognizable as its outline, internal shapes, color and texture change, then appears in the festival layout.",
+      "evidence": "V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q18",
+      "finding": "Bright colors, playful figures and varied marks suggest creative freedom. Heard sound mood is unknown.",
+      "evidence": "V01–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q19",
+      "finding": "Controls visibly accompany changes, but the montage is a feature demonstration rather than a reproducible tutorial.",
+      "evidence": "V02–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q20",
+      "finding": "The sampled views do not establish exact brush behavior, interpolation, edit timing or performance. Software production tools beyond the visible product are not inferred.",
+      "evidence": "V02–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q21",
+      "finding": "Figma Draw is named near the end, and the closing mixed-media symbol connects the feature’s range to the parent brand.",
+      "evidence": "V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q22",
+      "finding": "Label the brush, pattern and texture controls briefly, and hold one control change long enough to see its immediate result.",
+      "evidence": "V02–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q23",
+      "finding": "End a tool montage with one recognizable asset carried into a finished layout.",
+      "evidence": "V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q24",
+      "finding": "Figma Draw adds drawing, vector and texture controls for expressive design work.",
+      "evidence": "Model reading from inspected images",
+      "status": "uncertain",
+      "reason": "Model-only new-viewer interpretation; no human test.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q25",
+      "finding": "Contact sheets inspected at displayed size; a phone-size playback, caption audit, flash audit and formal accessibility check were not performed.",
+      "evidence": "Viewed sheets",
+      "status": "not checked",
+      "reason": "Full-size moving-image and device checks unavailable in this pass.",
+      "experiment": "none"
+    }
+  ],
+  "lessons": {
+    "keep": "Carry one edited illustration through to its finished page.",
+    "avoid": "Showing many attractive effects without enough control context to explain how they are made.",
+    "open": "Exact control mechanics, timing, rendering method and audio remain unverified.",
+    "try": [
+      "For Tin, show one campaign illustration changing through three clear edits before placing it in the ad.",
+      "Add a short control label and a two-second before/after hold to the texture adjustment."
+    ]
+  },
+  "comparison": {
+    "story": "Move from basic symbols toward expressive drawing. → Introduce drawing and brush variation in a design context. → Show type and effect controls. → Show repetition and pattern-based graphic work. → Connect editable geometry to a finished design. → Summarize creative range and brand.",
+    "motion": "The toolbar expands, strokes build, curved text and effect controls change states, circles multiply into patterns, and butterfly points are reshaped before color and texture appear. Sampling scope: 1 fps unless a closer window is recorded.",
+    "sound": "No validated listening; unknown.",
+    "texture": "Black icons, pastel gradients and hand-drawn character texture.; Floating white toolbar, rough black strokes and pastel paper-like blocks.; Editable paths, selection handles and a small effects panel.; Bold black type, magenta dots and yellow-white repeated marks.; Vector handles, orange-purple gradients, grain and bright green type.; Mixed graphic materials, soft pastel backdrop and brand colors.",
+    "lesson": "Carry one edited illustration through to its finished page."
+  },
+  "elements": [
+    {
+      "kind": "ui",
+      "name": "drawing toolbar",
+      "events": [
+        "V02"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "vector handles",
+      "events": [
+        "V03",
+        "V05"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "effects panel",
+      "events": [
+        "V03",
+        "V05"
+      ]
+    },
+    {
+      "kind": "motion",
+      "name": "shape repetition",
+      "events": [
+        "V04"
+      ]
+    },
+    {
+      "kind": "motion",
+      "name": "vector reshaping",
+      "events": [
+        "V05"
+      ]
+    },
+    {
+      "kind": "texture",
+      "name": "grain",
+      "events": [
+        "V05"
+      ]
+    },
+    {
+      "kind": "texture",
+      "name": "rough brush stroke",
+      "events": [
+        "V02"
+      ]
+    }
+  ]
+}

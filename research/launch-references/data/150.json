@@ -1,0 +1,357 @@
+{
+  "id": 150,
+  "product_from_film": "Result presents a workspace with specialized agents and business tools for founders, covering marketing, product, analytics and company knowledge.",
+  "explains_well": "Three user-style interviews name needs, followed by interface sections that correspond to those work areas.",
+  "unclear": "No single request is followed through to a completed and checked business output.",
+  "product_type": "founder business workspace",
+  "scenario": "Support a solo founder, a design-to-code user and a prototype builder with specialized agents and shared business information.",
+  "product_clear_time": 19,
+  "product_clear_basis": "Specialized Agents and SEO, Marketing and Tech labels appear with the interview at 16–20s; actual workspace views arrive at 40s.",
+  "scenes": [
+    {
+      "start": 0,
+      "end": 11,
+      "action": "Result logo and people settling into a plain room lead to a card saying three users were asked about the future of labor.",
+      "design": "White-gray background and small black text.",
+      "purpose": "Frame the film as user testimony.",
+      "evidence": "1 fps source samples in 0–11s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V01"
+    },
+    {
+      "start": 11,
+      "end": 22,
+      "action": "A solo-founder interview is paired with Specialized Agents, SEO, Marketing and Tech overlays.",
+      "design": "Subtitles, name label and dark progress-like cards beside the speaker.",
+      "purpose": "Explain the need for help across business functions.",
+      "evidence": "1 fps source samples in 11–22s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V02"
+    },
+    {
+      "start": 22,
+      "end": 28,
+      "action": "A second speaker appears with Figma and Real code labels, followed by repeated eye symbols.",
+      "design": "White background, simple icon overlays and subtitles.",
+      "purpose": "Connect design, shipping and content reach through a user claim.",
+      "evidence": "1 fps source samples in 22–28s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V03"
+    },
+    {
+      "start": 28,
+      "end": 39,
+      "action": "A third speaker discusses MRI data and early prototypes in captions; pale brain and connected-node graphics appear before a Result logo break.",
+      "design": "Minimal conceptual illustrations behind interview.",
+      "purpose": "Extend the range of claimed user work without showing the dataset or prototype.",
+      "evidence": "1 fps source samples in 28–39s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V04"
+    },
+    {
+      "start": 39,
+      "end": 51,
+      "action": "Marketing, Analytics, Company Brain and Product cards alternate with a prompt home screen, media grid, chart, document board, code/preview and legal/finance/support views.",
+      "design": "Dark workspace and category interstitials.",
+      "purpose": "Show the breadth of the product after testimony.",
+      "evidence": "1 fps source samples in 39–51s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V05"
+    },
+    {
+      "start": 51,
+      "end": 55.296,
+      "action": "Live now appears on black, followed by black frames.",
+      "design": "Small white status text and dark tail.",
+      "purpose": "Announce availability with no new workflow detail.",
+      "evidence": "1 fps source samples in 51–55.296s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V06"
+    }
+  ],
+  "categories": [
+    {
+      "id": "Q01",
+      "finding": "User-testimony framing → three claimed use cases → broad workspace montage → live-now close.",
+      "evidence": "V01–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q02",
+      "finding": "Logo, empty chair and a person entering frame suggest an interview setup; product function is not yet clear.",
+      "evidence": "V01",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q03",
+      "finding": "Founder support becomes clear around 19s through specialized-agent labels; specific workspace categories appear at 39–50s.",
+      "evidence": "V02,V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q04",
+      "finding": "Progress-like cards, cursor labels, eye icons and node connections change around mostly still interviews. Exact easing and transitions are unresolved.",
+      "evidence": "V02–V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q05",
+      "finding": "Interviews share a pale background, then the film changes to dark software views after the logo break.",
+      "evidence": "V01–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q06",
+      "finding": "Plain studio-like footage and light illustrative overlays contrast with dense black software surfaces.",
+      "evidence": "V02–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q07",
+      "finding": "Subtitles carry use-case claims; UI category labels are brief and workspace details arrive quickly.",
+      "evidence": "V02–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q08",
+      "finding": "The inspected ASR draft provides partial script-role support; recognition limits are recorded in A02. Audible voice characteristics and delivery remain unchecked.",
+      "evidence": "A02",
+      "status": "uncertain",
+      "reason": "Local draft text was read; no direct listening.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q09",
+      "finding": "Music character and structure are unverified.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "No validated listening.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q10",
+      "finding": "Effects and their sources are unverified.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "No validated listening; waveform peaks do not identify effects.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q11",
+      "finding": "Sound sync is unverified.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "No validated listening or paired audiovisual timing.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q12",
+      "finding": "Interview footage, illustrative overlays and actual-looking product screens are mixed. The stated users and outcomes are not independently verified.",
+      "evidence": "V01–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q13",
+      "finding": "Source duration 55.296 s; Watch metadata 1920 × 1080. Frame rate, audio clipping and export quality not checked here.",
+      "evidence": "Whole film",
+      "status": "supported",
+      "reason": "Parent source metadata supports duration and dimensions; visual review is sampled.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q14",
+      "finding": "Captions and category labels communicate broad business assistance, but no concrete input-to-output task is completed silently.",
+      "evidence": "V02–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q15",
+      "finding": "Interview faces dominate first; later category cards direct attention to different software areas.",
+      "evidence": "V02–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q16",
+      "finding": "The product montage compresses many sections into about 12s after a much longer interview setup. One fewer testimonial could allow a clear task demo.",
+      "evidence": "V02–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q17",
+      "finding": "The future-of-labor premise is supported by testimony and broad tools, but the claimed reduction in work is not measured.",
+      "evidence": "V01,V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q18",
+      "finding": "Casual interviews and smiles may suggest accessibility and confidence; audience response is unmeasured.",
+      "evidence": "V02–V04",
+      "status": "uncertain",
+      "reason": "Interpretation of presentation.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q19",
+      "finding": "Consistent interview framing joins the speakers; topic labels connect them loosely to later modules, without one continuing project.",
+      "evidence": "V02–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q20",
+      "finding": "Testimonials and interface sections are shown. Actual agent execution, shipped code quality, dataset work and business outcomes remain unverified.",
+      "evidence": "V02–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q21",
+      "finding": "Result wordmark and Company Brain label identify the workspace; plain interviews and category montages are common treatments.",
+      "evidence": "V04,V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q22",
+      "finding": "One request producing a saved output would explain the workspace more directly than another category title.",
+      "evidence": "V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "Show one marketing request, generated asset, edit and saved campaign state."
+    },
+    {
+      "id": "Q23",
+      "finding": "For Tin, use testimony to introduce a real task, then demonstrate that same task rather than switch to a module tour.",
+      "evidence": "V02,V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "Pair one founder quote about approval delays with the exact draft-to-approval workflow."
+    },
+    {
+      "id": "Q24",
+      "finding": "No human new-viewer test was performed.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "The product summary is this model’s film-only reading.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q25",
+      "finding": "Mobile preview and accessibility checks were not performed.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "Contact sheets are evidence views, not a stated mobile preview or compliance test.",
+      "experiment": "none"
+    }
+  ],
+  "elements": [
+    {
+      "kind": "ui",
+      "name": "prompt input",
+      "events": [
+        "V05"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "media grid",
+      "events": [
+        "V05"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "analytics chart",
+      "events": [
+        "V05"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "document board",
+      "events": [
+        "V05"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "code editor",
+      "events": [
+        "V05"
+      ]
+    },
+    {
+      "kind": "texture",
+      "name": "user interviews",
+      "events": [
+        "V02",
+        "V03",
+        "V04"
+      ]
+    }
+  ],
+  "lessons": {
+    "keep": "Let different users name the jobs they need help with, then connect those jobs to relevant product views.",
+    "try": [
+      "Replace two category flashes with one marketing request, generated output, edit and saved state.",
+      "For Tin, follow a founder quote about approval delays with that exact approval workflow and its completed result."
+    ],
+    "avoid": "Treating testimony or a broad module tour as proof of autonomous work quality.",
+    "open": "User identities, claimed outcomes, agent reliability, live availability and audio remain unverified."
+  },
+  "comparison": {
+    "story": "Three users → needs and claims → module montage → live now.",
+    "motion": "Interview overlays and changing product sections; exact timing unresolved.",
+    "sound": "No validated listening; captions provide visible text only.",
+    "texture": "Plain light interview setting and dark workspaces.",
+    "lesson": "A testimonial becomes more useful when its exact task is then demonstrated."
+  },
+  "reviewer_model": "gpt-6-astra",
+  "scope": "sampled visual and story review; ASR and measured signal support; no validated audio listening",
+  "viewed_evidence": [
+    "technical-review-2026-10-19/deep-review/motion/150/timeline-00.jpg",
+    "technical-review-2026-10-19/deep-review/motion/150/timeline-01.jpg"
+  ],
+  "closer_windows": [],
+  "sound": [
+    {
+      "id": "A01",
+      "start": 0,
+      "end": 55.296,
+      "layer": "unknown",
+      "detail": "No validated audio listening. Voice delivery, music, effects and mix are unknown.",
+      "visual_relation": "All scenes; sound alignment unverified",
+      "evidence": "No actual audio perception in this review; prepared audio files are not listening evidence."
+    },
+    {
+      "id": "A02",
+      "start": 0,
+      "end": 55.296,
+      "layer": "ASR draft",
+      "detail": "The partial draft describes a solo founder needing specialized SEO/technical/marketing help, moving from design to code and making early medical-data prototypes. Product names, Figma and MRI-related wording are misrecognized; only the broad testimonial roles are retained. No validated listening; delivery, music, effects, mix and synchronization remain unknown.",
+      "visual_relation": "Whole-film script role only; ASR timing and audible delivery not validated.",
+      "evidence": "technical-review-2026-10-19/deep-review/audio/150-speech.json; local faster-whisper draft inspected."
+    }
+  ]
+}

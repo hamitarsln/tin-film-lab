@@ -1,0 +1,332 @@
+{
+  "id": 493,
+  "reviewer_model": "gpt-6-astra",
+  "scope": "sampled visual and story review; ASR and measured signal support; no validated audio listening",
+  "viewed_evidence": [
+    "technical-review-2026-10-19/deep-review/motion/493/timeline-00.jpg",
+    "technical-review-2026-10-19/deep-review/motion/493/timeline-01.jpg"
+  ],
+  "closer_windows": [],
+  "product_from_film": "Supermemory Context Extender is presented as an API change for longer conversations with lower latency and cost.",
+  "explains_well": "The code snippet gives developers a concrete integration point after the context-length problem.",
+  "unclear": "A short unicorn story and sequel do not demonstrate the claimed billion-token conversation capacity or performance savings.",
+  "product_type": "developer API",
+  "scenario": "Change a base URL and continue a chat with more context.",
+  "product_clear_time": 21,
+  "product_clear_basis": "The code snippet visibly changes the OpenAI client base URL through Supermemory.",
+  "scenes": [
+    {
+      "id": "V01",
+      "start": 0,
+      "end": 12,
+      "action": "Large typing-cursor text says LLMs are powerful and context windows are long. Model-brand cards list token counts, followed by But do they really work?",
+      "design": "Dark gray field, blue cursor lines and contrasting brand cards.",
+      "purpose": "Introduce a gap between advertised context size and usefulness.",
+      "evidence": "Visible chronological 1 fps samples, source 0–12s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V02",
+      "start": 12,
+      "end": 19,
+      "action": "A Model Performance vs Context Length chart shows multiple declining lines, then Supermemory Context Extender appears.",
+      "design": "Multicolor line chart and blue product badge.",
+      "purpose": "Frame the problem and name the solution.",
+      "evidence": "Visible chronological 1 fps samples, source 12–19s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V03",
+      "start": 19,
+      "end": 24,
+      "action": "A code snippet types an OpenAI client base URL through Supermemory, with an instruction to append its domain. And boom follows.",
+      "design": "Syntax-colored code card on dark gray.",
+      "purpose": "Make integration appear small and concrete.",
+      "evidence": "Visible chronological 1 fps samples, source 19–24s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V04",
+      "start": 24,
+      "end": 33,
+      "action": "A blue chat asks for a bedtime story about a unicorn. A long response fills the view and a Write a sequel follow-up appears.",
+      "design": "Large white text and darker blue response blocks.",
+      "purpose": "Illustrate continued conversation.",
+      "evidence": "Visible chronological 1 fps samples, source 24–33s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V05",
+      "start": 33,
+      "end": 45.041,
+      "action": "Cards claim billions of tokens, 80 percent less latency and half the cost, then name coding agents, research agents and personal chatbots. The product name and supermemory.chat close.",
+      "design": "Centered white benefit text and repeated blue badge.",
+      "purpose": "State performance promises, use cases and trial destination.",
+      "evidence": "Visible chronological 1 fps samples, source 33–45.041s; boundary approximate; exact motion between samples unverified."
+    }
+  ],
+  "sound": [
+    {
+      "id": "A01",
+      "start": 0,
+      "end": 45.041,
+      "layer": "unknown",
+      "detail": "No validated direct audio listening was performed. Music, speech delivery, effects, mix and sync remain unknown, not absent.",
+      "visual_relation": "All visual scenes; audiovisual alignment unverified",
+      "evidence": "Visual samples only; no actual audio range supplied to this reviewer."
+    }
+  ],
+  "categories": [
+    {
+      "id": "Q01",
+      "finding": "Context-size claims are challenged with a declining chart, followed by an integration snippet, chat example and performance promises.",
+      "evidence": "V01–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q02",
+      "finding": "Oversized typed text and a blue cursor create a direct technical opening.",
+      "evidence": "V01",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q03",
+      "finding": "Developers building agents and chatbots are the stated audience; the base-URL code change makes the integration concrete at 21s.",
+      "evidence": "V03,V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q04",
+      "finding": "Cursor-led text types and slides across the frame, brand cards cut rapidly, code fills line by line, and a blue chat response scrolls upward.",
+      "evidence": "V01–V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q05",
+      "finding": "Blue cursor and badge accents tie the problem, code and chat sections together.",
+      "evidence": "V01–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q06",
+      "finding": "Flat dark gray, bright blue blocks and syntax coloring give the film a simple developer-tool style.",
+      "evidence": "V01–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q07",
+      "finding": "Short claims are clear, but the chart lacks enough readable scale and context to judge its evidence at this pace.",
+      "evidence": "V02,V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q08",
+      "finding": "Voice delivery, music, effects and audiovisual alignment were not established by this visual pass.",
+      "evidence": "A01",
+      "status": "not checked",
+      "reason": "No validated direct audio listening input.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q09",
+      "finding": "Voice delivery, music, effects and audiovisual alignment were not established by this visual pass.",
+      "evidence": "A01",
+      "status": "not checked",
+      "reason": "No validated direct audio listening input.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q10",
+      "finding": "Voice delivery, music, effects and audiovisual alignment were not established by this visual pass.",
+      "evidence": "A01",
+      "status": "not checked",
+      "reason": "No validated direct audio listening input.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q11",
+      "finding": "Voice delivery, music, effects and audiovisual alignment were not established by this visual pass.",
+      "evidence": "A01",
+      "status": "not checked",
+      "reason": "No validated direct audio listening input.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q12",
+      "finding": "Kinetic typography, model logos, a line chart, code card and stylized chat are visible. Chart provenance is not established by the film.",
+      "evidence": "V01–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q13",
+      "finding": "Manifest duration 45.041s; indexed dimensions 1920×1080. Source unchanged flag recorded; fresh encoding and audio clipping checks not run.",
+      "evidence": "Group manifest",
+      "status": "uncertain",
+      "reason": "Inherited technical metadata; no fresh media probe in this review.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q14",
+      "finding": "All major claims and the integration step are written on screen; the chat text is an illustration of continuation.",
+      "evidence": "V01–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q15",
+      "finding": "The code card is the most actionable visual. Large claim cards receive more attention than any measurable test result.",
+      "evidence": "V03,V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q16",
+      "finding": "The problem takes roughly nineteen seconds, integration is brief, and the final benefits occupy about twelve seconds.",
+      "evidence": "V01–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q17",
+      "finding": "The story-to-sequel request preserves a topic, but the shown conversation is far shorter than the claimed scale.",
+      "evidence": "V04,V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q18",
+      "finding": "The simple cursor graphics and And boom card aim for ease and confidence. Audio tone is unknown.",
+      "evidence": "V01,V03",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q19",
+      "finding": "The film shows a code configuration and a chat example, but no visible execution connecting that exact configuration to a long-context test.",
+      "evidence": "V03,V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q20",
+      "finding": "Token capacities, benchmark lines, latency and cost savings are unverified film claims. The short example does not validate them.",
+      "evidence": "V01,V02,V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q21",
+      "finding": "Supermemory Context Extender is named in the middle and repeated with a trial URL at the end.",
+      "evidence": "V02,V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q22",
+      "finding": "Replace part of the short story with a long-history retrieval test that names a buried detail and shows a measured comparison.",
+      "evidence": "V04,V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q23",
+      "finding": "Give a developer audience one concrete code change after a concise problem statement.",
+      "evidence": "V01–V03",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q24",
+      "finding": "Supermemory Context Extender is presented as an API change for longer conversations with lower latency and cost.",
+      "evidence": "Model reading from inspected images",
+      "status": "uncertain",
+      "reason": "Model-only new-viewer interpretation; no human test.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q25",
+      "finding": "Contact sheets inspected at displayed size; a phone-size playback, caption audit, flash audit and formal accessibility check were not performed.",
+      "evidence": "Viewed sheets",
+      "status": "not checked",
+      "reason": "Full-size moving-image and device checks unavailable in this pass.",
+      "experiment": "none"
+    }
+  ],
+  "lessons": {
+    "keep": "Pair the product promise with a visible integration change.",
+    "avoid": "Using a tiny example as apparent proof of a very large scale claim.",
+    "open": "Benchmark provenance, scale, latency, cost, code execution and audio remain unverified.",
+    "try": [
+      "For Tin, show one API setting and the exact campaign workflow it enables.",
+      "Demonstrate retrieval of an early detail after a long conversation, with clearly scoped baseline numbers."
+    ]
+  },
+  "comparison": {
+    "story": "Introduce a gap between advertised context size and usefulness. → Frame the problem and name the solution. → Make integration appear small and concrete. → Illustrate continued conversation. → State performance promises, use cases and trial destination.",
+    "motion": "Cursor-led text types and slides across the frame, brand cards cut rapidly, code fills line by line, and a blue chat response scrolls upward. Sampling scope: 1 fps unless a closer window is recorded.",
+    "sound": "No validated listening; unknown.",
+    "texture": "Dark gray field, blue cursor lines and contrasting brand cards.; Multicolor line chart and blue product badge.; Syntax-colored code card on dark gray.; Large white text and darker blue response blocks.; Centered white benefit text and repeated blue badge.",
+    "lesson": "Pair the product promise with a visible integration change."
+  },
+  "elements": [
+    {
+      "kind": "ui",
+      "name": "code snippet",
+      "events": [
+        "V03"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "chat",
+      "events": [
+        "V04"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "line chart",
+      "events": [
+        "V02"
+      ]
+    },
+    {
+      "kind": "motion",
+      "name": "typing text",
+      "events": [
+        "V01",
+        "V03",
+        "V04"
+      ]
+    },
+    {
+      "kind": "texture",
+      "name": "flat blue blocks",
+      "events": [
+        "V04"
+      ]
+    }
+  ]
+}

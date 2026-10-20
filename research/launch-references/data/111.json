@@ -1,0 +1,355 @@
+{
+  "id": 111,
+  "viewed_evidence": [
+    "technical-review-2026-10-19/deep-review/motion/111/timeline-00.jpg",
+    "technical-review-2026-10-19/deep-review/motion/111/timeline-01.jpg",
+    "technical-review-2026-10-19/deep-review/motion/111/timeline-02.jpg",
+    "technical-review-2026-10-19/deep-review/audio/111-speech.json"
+  ],
+  "product_from_film": "Stanley is an AI video editor that takes footage and instructions and produces an edited video.",
+  "explains_well": "The film shows an input, timeline, export progress and a shared result.",
+  "unclear": "The exact prompt-to-output quality and real processing time are not verified.",
+  "product_type": "creator tool",
+  "scenario": "A creator moves from tiring manual editing to footage upload, prompt changes and publishing.",
+  "product_clear_time": 35,
+  "product_clear_basis": "The What are we making input with footage is followed by export progress; earlier editor screens establish the domain.",
+  "scenes": [
+    {
+      "start": 0,
+      "end": 11,
+      "action": "A young person edits under a blanket; close views show a clip timeline and smiling reactions.",
+      "design": "Warm bedroom footage, floating yellow words, small yellow captions.",
+      "purpose": "Recall the joy of making videos",
+      "id": "V01",
+      "evidence": "Visible 1 fps samples, source 0–11 s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 11,
+      "end": 21,
+      "action": "An older creator faces a large editing screen; mouse, phone video and text controls appear.",
+      "design": "Cool blue and purple room, white captions, dense timeline.",
+      "purpose": "Show editing as a chore",
+      "id": "V02",
+      "evidence": "Visible 1 fps samples, source 11–21 s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 21,
+      "end": 29,
+      "action": "Dark frame and white purple-word cards lead to a seated Stanley presenter.",
+      "design": "Large serif explanation card, brand overlay and name label.",
+      "purpose": "Introduce the answer",
+      "id": "V03",
+      "evidence": "Visible 1 fps samples, source 21–29 s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 29,
+      "end": 39,
+      "action": "Timeline, captions, music track and text panel appear; footage is entered in a prompt box and export rises from 38% to 100%.",
+      "design": "Dark editing UI, purple tracks and export bar.",
+      "purpose": "Show editing input and output",
+      "id": "V04",
+      "evidence": "Visible 1 fps samples, source 29–39 s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 39,
+      "end": 45,
+      "action": "Presenter and wide overhead editing-room views return.",
+      "design": "Face, desk and broad monitor views with captions.",
+      "purpose": "Restate the workflow contrast",
+      "id": "V05",
+      "evidence": "Visible 1 fps samples, source 39–45 s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 45,
+      "end": 51,
+      "action": "Finished timeline is followed by a typed request for images, music and effects, then a reel-shared confirmation.",
+      "design": "Chat input and success check; actual sound remains unchecked.",
+      "purpose": "Show revision and publication",
+      "id": "V06",
+      "evidence": "Visible 1 fps samples, source 45–51 s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 51,
+      "end": 61.44,
+      "action": "The child and home video return, followed by a smiling creator and Imagine Loving Creating then StanleyStudio.",
+      "design": "Warm footage, white and purple headline, brand close.",
+      "purpose": "Pay off creative enjoyment",
+      "id": "V07",
+      "evidence": "Visible 1 fps samples, source 51–61.44 s; boundaries approximate, between-frame action unresolved."
+    }
+  ],
+  "sound": [
+    {
+      "id": "A01",
+      "start": 0,
+      "end": 61.44,
+      "layer": "unknown",
+      "detail": "No validated audio listening; speech, music, effects, mix and sync remain unverified.",
+      "visual_relation": "All visual scenes; alignment not checked",
+      "evidence": "No actual audio supplied to this review; existing technical-review-2026-10-19/deep-review/audio/111.json is not listening evidence."
+    },
+    {
+      "id": "A02",
+      "start": 0.07,
+      "end": 59.15,
+      "layer": "ASR draft",
+      "detail": "Coherent candidate script moves from early editing enjoyment to workload, an AI editor receiving footage, prompt-based changes and a finished-video review. Being deathless and some transition words are unreliable; the export sentence is cut off. No heard voice, music or effects are inferred.",
+      "visual_relation": "Candidate script support for the existing visual story; no hearing or delivery judgment.",
+      "evidence": "technical-review-2026-10-19/deep-review/audio/111-speech.json; existing faster-whisper base CPU int8; reviewed text segments"
+    }
+  ],
+  "categories": [
+    {
+      "finding": "A childhood editing memory becomes adult fatigue, then an AI editing workflow and return to enjoyment.",
+      "evidence": "V01–V07",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q01"
+    },
+    {
+      "finding": "A child under a blanket uses a device as the words Do you remember editing build overhead.",
+      "evidence": "V01 0–2 s",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q02"
+    },
+    {
+      "finding": "Video creators are implied immediately; Stanley is named 26 s and a footage-to-export workflow is clear 35–38 s.",
+      "evidence": "V01,V03,V04",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q03"
+    },
+    {
+      "finding": "Text accumulates above the child, editing screens change, the export bar fills between 37–38 s and a typed request grows 47–48 s; exact easing is not resolved.",
+      "evidence": "V01,V04,V06",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q04"
+    },
+    {
+      "finding": "Warm childhood imagery cuts to a cool adult workspace at 11 s; white type cards at 22–25 s mark the shift from problem to product.",
+      "evidence": "V01–V03",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q05"
+    },
+    {
+      "finding": "Warm bedroom light contrasts with blue-purple desk lighting; dark UI and purple accents connect the product section.",
+      "evidence": "V01–V06",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q06"
+    },
+    {
+      "finding": "Captions carry the story; editor tracks are demonstrative details, while the prompt and export states provide concrete task text.",
+      "evidence": "V01–V06",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q07"
+    },
+    {
+      "finding": "Voice presence and delivery remain unverified.",
+      "evidence": "No validated audio listening",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q08"
+    },
+    {
+      "finding": "Music character and arc remain unverified.",
+      "evidence": "No validated audio listening",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q09"
+    },
+    {
+      "finding": "Sound effects remain unverified.",
+      "evidence": "No validated audio listening",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q10"
+    },
+    {
+      "finding": "Sound-to-motion timing remain unverified.",
+      "evidence": "No validated audio listening",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q11"
+    },
+    {
+      "finding": "People, device closeups, screen recordings and large typography are mixed; asset provenance is unverified.",
+      "evidence": "V01–V07",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q12"
+    },
+    {
+      "finding": "Source duration supplied as 61.44 s; no independent compression, clipping or delivery check.",
+      "evidence": "Assigned metadata; source integrity checked by parent",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q13"
+    },
+    {
+      "finding": "Captions and the footage/export/shared sequence preserve the central benefit without hearing.",
+      "evidence": "V04,V06",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q14"
+    },
+    {
+      "finding": "Large emotional words first pull focus; tight crops then isolate timeline, prompt and export controls.",
+      "evidence": "V01,V04",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q15"
+    },
+    {
+      "finding": "The first 21 s build context before the product; the 29–38 s UI section introduces several separate operations quickly.",
+      "evidence": "V01–V04",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q16"
+    },
+    {
+      "finding": "The initial pleasure of making a first video is answered by the returning child and Imagine Loving Creating close.",
+      "evidence": "V01,V07",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q17"
+    },
+    {
+      "finding": "Smiles, flat adult expressions and the final smiles frame an intended joy–fatigue–relief arc.",
+      "evidence": "V01,V02,V07; interpretation",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q18"
+    },
+    {
+      "finding": "The repeated child, blanket and original home-video subject link the beginning to the finish.",
+      "evidence": "V01,V07",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q19"
+    },
+    {
+      "finding": "Footage input, export completion and sharing confirmation are shown, but no uncut same-input quality comparison is established.",
+      "evidence": "V04,V06",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q20"
+    },
+    {
+      "finding": "Stanley purple styling recurs, while the childhood editing memory gives this tool a specific creator-oriented frame.",
+      "evidence": "V01,V03,V04",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q21"
+    },
+    {
+      "finding": "The repeated adult room shots 39–44 s could be shortened to hold the revised output longer.",
+      "evidence": "V05–V06",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q22"
+    },
+    {
+      "finding": "For an editing assistant, gather a matched novice/expert story, real footage input, timeline states and a finished example; matching the emotional footage is the main asset need.",
+      "evidence": "V01–V07",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q23"
+    },
+    {
+      "finding": "No human new-viewer test; product description above is model interpretation of sampled images.",
+      "evidence": "V01–V07",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q24"
+    },
+    {
+      "finding": "No phone-size, safe-area or flash assessment; small UI text needs separate preview.",
+      "evidence": "Contact sheets",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q25"
+    }
+  ],
+  "lessons": {
+    "keep": "Return to the opening human scene after the demonstrated workflow.",
+    "try": [
+      "For a video assistant, show the same raw ten-second clip before upload and after the exported edit.",
+      "Pair one manual caption adjustment with one prompt revision, keeping the final caption result visible for three seconds."
+    ],
+    "avoid": "Avoid using export completion as a substitute for output quality.",
+    "open": "How much of the shown edit came from the prompt, and how does the audio support the emotional change?"
+  },
+  "comparison": {
+    "story": "Recall the joy of making videos → Show editing as a chore → Introduce the answer → Show editing input and output → Restate the workflow contrast → Show revision and publication → Pay off creative enjoyment",
+    "motion": "Text accumulates above the child, editing screens change, the export bar fills between 37–38 s and a typed request grows 47–48 s; exact easing is not resolved.",
+    "sound": "No validated listening; no absence claims.",
+    "texture": "Warm bedroom light contrasts with blue-purple desk lighting; dark UI and purple accents connect the product section.",
+    "lesson": "Return to the opening human scene after the demonstrated workflow."
+  },
+  "elements": [
+    {
+      "kind": "ui",
+      "name": "timeline",
+      "events": [
+        "V04",
+        "V06"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "chat",
+      "events": [
+        "V06"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "progress bar",
+      "events": [
+        "V04"
+      ]
+    },
+    {
+      "kind": "texture",
+      "name": "photographic footage",
+      "events": [
+        "V01",
+        "V02",
+        "V07"
+      ]
+    }
+  ],
+  "reviewer_model": "gpt-6-astra",
+  "scope": "sampled visual and story review; ASR and measured signal support; no validated audio listening",
+  "closer_windows": []
+}

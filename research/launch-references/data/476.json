@@ -1,0 +1,349 @@
+{
+  "id": 476,
+  "reviewer_model": "gpt-6-astra",
+  "scope": "sampled visual and story review; ASR and measured signal support; no validated audio listening",
+  "viewed_evidence": [
+    "technical-review-2026-10-19/deep-review/motion/476/timeline-00.jpg",
+    "technical-review-2026-10-19/deep-review/motion/476/timeline-01.jpg"
+  ],
+  "closer_windows": [],
+  "product_from_film": "Claude on mobile drafts an email and carries the same meeting into a calendar event form.",
+  "explains_well": "One meeting stays consistent across the request, email draft, email composer and calendar form.",
+  "unclear": "The assistant says it has added the meeting before the native calendar Add step, which can blur draft preparation and completion.",
+  "product_type": "mobile assistant workflow",
+  "scenario": "Prepare an urgent meeting email and create its calendar event.",
+  "product_clear_time": 13,
+  "product_clear_basis": "The request produces a visible email card with the matching meeting subject.",
+  "scenes": [
+    {
+      "id": "V01",
+      "start": 0,
+      "end": 4,
+      "action": "A drawn hand lifts a white shape that becomes a phone outline and then the Claude mobile interface.",
+      "design": "Cream background, black hand-drawn lines and white phone.",
+      "purpose": "Introduce the mobile context.",
+      "evidence": "Visible chronological 1 fps samples, source 0–4s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V02",
+      "start": 4,
+      "end": 18,
+      "action": "A request about an urgent Brighton Co meeting tomorrow at 2 PM is typed. Claude produces an email card and expanded body with meeting details; a drawn burst highlights Send email.",
+      "design": "Centered phone, quiet background and coral action accents.",
+      "purpose": "Show a natural-language request becoming a draft.",
+      "evidence": "Visible chronological 1 fps samples, source 4–18s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V03",
+      "start": 18,
+      "end": 24,
+      "action": "A share sheet appears, followed by a native email composer containing the same subject and body. The view returns to Claude.",
+      "design": "Native share icons and email form inside the phone.",
+      "purpose": "Show the handoff from draft to email app.",
+      "evidence": "Visible chronological 1 fps samples, source 18–24s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V04",
+      "start": 24,
+      "end": 35,
+      "action": "A follow-up asks to add that meeting to the calendar. A Brighton Co Meeting card shows a date and 2–3 PM time; Add to calendar is highlighted and completion-style assistant text appears.",
+      "design": "The same chat with a structured calendar card.",
+      "purpose": "Reuse context for a second task.",
+      "evidence": "Visible chronological 1 fps samples, source 24–35s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V05",
+      "start": 35,
+      "end": 40,
+      "action": "A native New Event form appears with the meeting name and time. The top-right Add control is circled, then the view returns to chat.",
+      "design": "Calendar form and a hand-drawn action circle.",
+      "purpose": "Expose the final user confirmation step.",
+      "evidence": "Visible chronological 1 fps samples, source 35–40s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V06",
+      "start": 40,
+      "end": 44.3,
+      "action": "The phone gives way to a drawn hand and the Claude symbol and name.",
+      "design": "Cream field and simple brand mark.",
+      "purpose": "Close the mobile workflow.",
+      "evidence": "Visible chronological 1 fps samples, source 40–44.3s; boundary approximate; exact motion between samples unverified."
+    }
+  ],
+  "sound": [
+    {
+      "id": "A01",
+      "start": 0,
+      "end": 44.3,
+      "layer": "unknown",
+      "detail": "No validated direct audio listening was performed. Music, speech delivery, effects, mix and sync remain unknown, not absent.",
+      "visual_relation": "All visual scenes; audiovisual alignment unverified",
+      "evidence": "Visual samples only; no actual audio range supplied to this reviewer."
+    }
+  ],
+  "categories": [
+    {
+      "id": "Q01",
+      "finding": "One urgent meeting request leads to an email draft, native mail handoff, follow-up calendar request and native event confirmation.",
+      "evidence": "V01–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q02",
+      "finding": "A drawn hand turns an abstract white shape into a phone, quickly locating the feature on mobile.",
+      "evidence": "V01",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q03",
+      "finding": "Busy mobile users arranging meetings are the audience; the email card at 13s makes the task concrete.",
+      "evidence": "V02",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q04",
+      "finding": "Typed text builds, chat content scrolls upward, native sheets slide into the phone, and drawn bursts or circles emphasize Send email and Add controls.",
+      "evidence": "V01–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q05",
+      "finding": "A fixed phone position and plain cream field keep attention on the changing workflow states.",
+      "evidence": "V01–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q06",
+      "finding": "Soft cream, white interface surfaces and hand-drawn black or coral marks make the technical demo feel light.",
+      "evidence": "V01–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q07",
+      "finding": "The workflow is readable at close view, but the full email body is dense within a narrow phone. Action highlights improve scanning.",
+      "evidence": "V02–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q08",
+      "finding": "Voice delivery, music, effects and audiovisual alignment were not established by this visual pass.",
+      "evidence": "A01",
+      "status": "not checked",
+      "reason": "No validated direct audio listening input.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q09",
+      "finding": "Voice delivery, music, effects and audiovisual alignment were not established by this visual pass.",
+      "evidence": "A01",
+      "status": "not checked",
+      "reason": "No validated direct audio listening input.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q10",
+      "finding": "Voice delivery, music, effects and audiovisual alignment were not established by this visual pass.",
+      "evidence": "A01",
+      "status": "not checked",
+      "reason": "No validated direct audio listening input.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q11",
+      "finding": "Voice delivery, music, effects and audiovisual alignment were not established by this visual pass.",
+      "evidence": "A01",
+      "status": "not checked",
+      "reason": "No validated direct audio listening input.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q12",
+      "finding": "Phone interface capture or reconstruction, native app sheets and hand-drawn graphics are visible; production method is unverified.",
+      "evidence": "V01–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q13",
+      "finding": "Manifest duration 44.3s; indexed dimensions 1920×1080. Source unchanged flag recorded; fresh encoding and audio clipping checks not run.",
+      "evidence": "Group manifest",
+      "status": "uncertain",
+      "reason": "Inherited technical metadata; no fresh media probe in this review.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q14",
+      "finding": "All key requests and results are visible as text, so the core task can be followed without an available transcript.",
+      "evidence": "V02–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q15",
+      "finding": "Action bursts and the final Add circle direct attention to the controls that move work between apps.",
+      "evidence": "V02,V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q16",
+      "finding": "Most time is spent on the two connected tasks. The illustrated opening and closing are brief.",
+      "evidence": "V01–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q17",
+      "finding": "Brighton Co, the meeting purpose and afternoon time remain recognizable through email and calendar states.",
+      "evidence": "V02–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q18",
+      "finding": "The restrained palette and drawn accents suggest a calm everyday helper. Actual audio tone is unknown.",
+      "evidence": "V01–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q19",
+      "finding": "The film shows both assistant output and native-app handoff. The calendar form clearly requires a final Add action.",
+      "evidence": "V03–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q20",
+      "finding": "Returning to chat does not independently prove email delivery or saved-event persistence. Completion-style text appears before the native calendar confirmation.",
+      "evidence": "V03–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q21",
+      "finding": "Claude is visible within the app and on the simple final card.",
+      "evidence": "V01–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q22",
+      "finding": "Change the pre-confirmation message to Event ready to add, then show a saved event after the user taps Add.",
+      "evidence": "V04,V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q23",
+      "finding": "Carry one named object across multiple apps and show each user confirmation point.",
+      "evidence": "V02–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q24",
+      "finding": "Claude on mobile drafts an email and carries the same meeting into a calendar event form.",
+      "evidence": "Model reading from inspected images",
+      "status": "uncertain",
+      "reason": "Model-only new-viewer interpretation; no human test.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q25",
+      "finding": "Contact sheets inspected at displayed size; a phone-size playback, caption audit, flash audit and formal accessibility check were not performed.",
+      "evidence": "Viewed sheets",
+      "status": "not checked",
+      "reason": "Full-size moving-image and device checks unavailable in this pass.",
+      "experiment": "none"
+    }
+  ],
+  "lessons": {
+    "keep": "Preserve one meeting across the draft and native-app handoffs.",
+    "avoid": "Claiming an action is complete while the visible workflow still needs user confirmation.",
+    "open": "Email delivery, saved-event persistence, exact transition timing and audio remain unverified.",
+    "try": [
+      "For Tin, carry one campaign name from brief to approval card to publishing confirmation.",
+      "Compare completion-style wording with Event ready to add before the native confirmation screen."
+    ]
+  },
+  "comparison": {
+    "story": "Introduce the mobile context. → Show a natural-language request becoming a draft. → Show the handoff from draft to email app. → Reuse context for a second task. → Expose the final user confirmation step. → Close the mobile workflow.",
+    "motion": "Typed text builds, chat content scrolls upward, native sheets slide into the phone, and drawn bursts or circles emphasize Send email and Add controls. Sampling scope: 1 fps unless a closer window is recorded.",
+    "sound": "No validated listening; unknown.",
+    "texture": "Cream background, black hand-drawn lines and white phone.; Centered phone, quiet background and coral action accents.; Native share icons and email form inside the phone.; The same chat with a structured calendar card.; Calendar form and a hand-drawn action circle.; Cream field and simple brand mark.",
+    "lesson": "Preserve one meeting across the draft and native-app handoffs."
+  },
+  "elements": [
+    {
+      "kind": "ui",
+      "name": "chat",
+      "events": [
+        "V02",
+        "V04"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "email composer",
+      "events": [
+        "V03"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "share sheet",
+      "events": [
+        "V03"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "calendar form",
+      "events": [
+        "V05"
+      ]
+    },
+    {
+      "kind": "motion",
+      "name": "action highlight",
+      "events": [
+        "V02",
+        "V05"
+      ]
+    },
+    {
+      "kind": "texture",
+      "name": "hand-drawn line",
+      "events": [
+        "V01",
+        "V06"
+      ]
+    }
+  ]
+}

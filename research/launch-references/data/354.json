@@ -1,0 +1,416 @@
+{
+  "id": 354,
+  "reviewer_model": "gpt-6-astra",
+  "scope": "sampled visual and story review; ASR and measured signal support; no validated audio listening",
+  "viewed_evidence": [
+    "technical-review-2026-10-19/deep-review/motion/354/timeline-00.jpg",
+    "technical-review-2026-10-19/deep-review/motion/354/timeline-01.jpg",
+    "technical-review-2026-10-19/deep-review/motion/354/timeline-02.jpg",
+    "technical-review-2026-10-19/deep-review/motion/354/timeline-03.jpg",
+    "technical-review-2026-10-19/deep-review/motion/354/timeline-04.jpg",
+    "technical-review-2026-10-19/deep-review/motion/354/timeline-05.jpg",
+    "technical-review-2026-10-19/deep-review/motion/354/timeline-06.jpg",
+    "technical-review-2026-10-19/deep-review/motion/354/timeline-07.jpg",
+    "technical-review-2026-10-19/deep-review/motion/354/timeline-08.jpg",
+    "technical-review-2026-10-19/deep-review/motion/354/timeline-09.jpg",
+    "technical-review-2026-10-19/deep-review/motion/354/timeline-10.jpg",
+    "astra-review-2026-10-20/evidence/group-2/354-92-95-8fps.jpg",
+    "technical-review-2026-10-19/deep-review/audio/354-speech.json"
+  ],
+  "closer_windows": [
+    {
+      "start": 92,
+      "end": 95,
+      "rate_fps": 8,
+      "evidence": [
+        "astra-review-2026-10-20/evidence/group-2/354-92-95-8fps.jpg"
+      ],
+      "resolved": "The same call view continues while the label changes from Surprise to Disgust. Mouth, brow and head positions vary across the samples. Triggering speech, exact response latency and emotional correctness remain unverified."
+    }
+  ],
+  "product_from_film": "Tavus presents Phoenix-4 as a real-time human-rendering model for expressive conversational avatars.",
+  "explains_well": "Emotion labels, face landmarks and example calls give concrete visual anchors to the founder explanation.",
+  "unclear": "The long explanation does not show a setup workflow, and the reaction examples lack visible input text or timing markers that would make their context easy to judge.",
+  "product_type": "conversational avatar model",
+  "scenario": "Render an avatar that changes expression and reacts during a conversation.",
+  "product_clear_time": 39,
+  "product_clear_basis": "A Phoenix-4 portrait appears with facial landmarks after the model introduction.",
+  "scenes": [
+    {
+      "id": "V01",
+      "start": 0,
+      "end": 28,
+      "action": "Vintage computers and a workshop lead to founder Hassan Raza seated in the space. A large Phoenix-4 title overlays him; timing, awareness and emotional-intelligence words appear.",
+      "design": "Warm brick workshop, retro computers and pixel-like title lettering.",
+      "purpose": "Introduce the team, model name and conversational goal.",
+      "evidence": "Visible chronological 1 fps samples, source 0–28s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V02",
+      "start": 28,
+      "end": 48,
+      "action": "Small call windows appear beside the founder. Green text fills a retro window describing the model, then a male portrait gains green facial landmarks. A larger female avatar call replaces it.",
+      "design": "Retro window frames, green technical text and a face mesh.",
+      "purpose": "Connect the model description to rendered faces.",
+      "evidence": "Visible chronological 1 fps samples, source 28–48s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V03",
+      "start": 48,
+      "end": 86,
+      "action": "The founder explains, interrupted by a male avatar with colored Happiness, Disgust, Sadness and Anger labels while his expression changes.",
+      "design": "Portrait window over a grainy pastel landscape; founder inset.",
+      "purpose": "Name the range of expression being demonstrated.",
+      "evidence": "Visible chronological 1 fps samples, source 48–86s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V04",
+      "start": 86,
+      "end": 120,
+      "action": "A male avatar call carries Surprise then Disgust labels. A later Talk to an AI Therapist example shows a female avatar and a small participant inset.",
+      "design": "Large call windows with colored labels and an example-use heading.",
+      "purpose": "Show contextual reaction and a proposed use case; context is clearer in the ASR draft than the images.",
+      "evidence": "Visible chronological 1 fps samples, source 86–120s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V05",
+      "start": 120,
+      "end": 157,
+      "action": "The founder returns, a female avatar call appears, then a pink Phoenix-4 animation pipeline diagram. A male avatar listens in a smaller call window over the blurred founder.",
+      "design": "Pipeline boxes and arrows, call windows and blurred background.",
+      "purpose": "Explain the listening and rendering mechanism with a diagram and example.",
+      "evidence": "Visible chronological 1 fps samples, source 120–157s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V06",
+      "start": 157,
+      "end": 190,
+      "action": "Founder explanation is intercut with other labelled avatar examples. Arrows point to User is silent, Looped reverse blinking and Transition. The windows shift and the founder window enlarges.",
+      "design": "Annotated comparison windows on the pastel background.",
+      "purpose": "Frame claimed weaknesses of alternatives; annotations are film claims rather than verified comparative results.",
+      "evidence": "Visible chronological 1 fps samples, source 157–190s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V07",
+      "start": 190,
+      "end": 240,
+      "action": "The founder continues. A male portrait inset is enlarged; a Conversational data window shows two people facing each other under a microphone. Later a female avatar face is enlarged for a close view.",
+      "design": "Repeated workshop angles, human conversation footage and portrait close-ups.",
+      "purpose": "Explain behavioral training and small facial details.",
+      "evidence": "Visible chronological 1 fps samples, source 190–240s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V08",
+      "start": 240,
+      "end": 271,
+      "action": "Founder explanation leads to a female avatar call. The call is initially dimmed while the founder inset remains visible, then becomes brighter and more prominent.",
+      "design": "Large call window with smaller founder and participant views.",
+      "purpose": "Present a longer conversational example.",
+      "evidence": "Visible chronological 1 fps samples, source 240–271s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V09",
+      "start": 271,
+      "end": 308.992,
+      "action": "The founder concludes from front and side angles. A black Tavus end card reads The human computing company.",
+      "design": "Workshop imagery followed by a minimal white logo on black.",
+      "purpose": "Close the model announcement; the draft script supplies platform/API availability and website.",
+      "evidence": "Visible chronological 1 fps samples, source 271–308.992s; boundary approximate; exact motion between samples unverified."
+    }
+  ],
+  "sound": [
+    {
+      "id": "A01",
+      "start": 0,
+      "end": 308.992,
+      "layer": "unknown",
+      "detail": "No validated direct audio listening was performed. Music, speech delivery, effects, mix and sync remain unknown, not absent.",
+      "visual_relation": "All visual scenes; audiovisual alignment unverified",
+      "evidence": "Visual samples only; no actual audio range supplied to this reviewer."
+    },
+    {
+      "id": "A02",
+      "start": 3.37,
+      "end": 302.37,
+      "layer": "ASR draft",
+      "detail": "The mostly coherent ASR draft explains real-time rendering, emotional responses, listening, behavioral training and identity consistency. Example dialogue includes reluctance to discuss family and an accepting reply, job-loss context and a light fashion exchange. It ends with platform/API availability and tavus.io, though brand/model names have recognition errors. These words support script structure, not heard naturalness, lip sync, latency or clinical value.",
+      "visual_relation": "Story text support; exact audiovisual alignment and delivery unverified.",
+      "evidence": "technical-review-2026-10-19/deep-review/audio/354-speech.json; local faster-whisper base CPU int8 draft; VAD candidates only, recognition errors possible."
+    }
+  ],
+  "categories": [
+    {
+      "id": "Q01",
+      "finding": "Founder introduction leads through rendering, emotions, listening, competitor examples, behavior training and a final call demonstration.",
+      "evidence": "V01–V09",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q02",
+      "finding": "Vintage computers and a workshop establish a human-computing theme before the model title.",
+      "evidence": "V01",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q03",
+      "finding": "Phoenix-4 is named early, but a rendered portrait and facial landmarks make the offer concrete around 39 s.",
+      "evidence": "V01,V02",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q04",
+      "finding": "Retro windows appear and enlarge, green face landmarks overlay a portrait, emotion labels change color, and call faces change mouth, brow and head position. The 92–95 s closer window shows continuing facial changes across the Surprise-to-Disgust label change, not verified response timing.",
+      "evidence": "V02–V08",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q05",
+      "finding": "The repeated retro windows distinguish example calls and diagrams from the workshop interview, creating a stable explanation/demo pattern.",
+      "evidence": "V02–V08",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q06",
+      "finding": "Warm workshop lighting contrasts with grainy pastel call backgrounds, green technical text and a pink pipeline diagram.",
+      "evidence": "V01,V02,V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q07",
+      "finding": "Emotion labels and arrows help direct attention; pipeline details and nested participant views are small. Most explanations are not written on screen.",
+      "evidence": "V03–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q08",
+      "finding": "The mostly coherent ASR draft explains real-time rendering, emotional responses, listening, behavioral training and identity consistency. Example dialogue includes reluctance to discuss family and an accepting reply, job-loss context and a light fashion exchange. It ends with platform/API availability and tavus.io, though brand/model names have recognition errors. These words support script structure, not heard naturalness, lip sync, latency or clinical value.",
+      "evidence": "A02",
+      "status": "uncertain",
+      "reason": "ASR text only; no validated listening, delivery or voice origin.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q09",
+      "finding": "Voice delivery, music, effects and audiovisual alignment were not established by this visual pass.",
+      "evidence": "A01",
+      "status": "not checked",
+      "reason": "No validated direct audio listening input.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q10",
+      "finding": "Voice delivery, music, effects and audiovisual alignment were not established by this visual pass.",
+      "evidence": "A01",
+      "status": "not checked",
+      "reason": "No validated direct audio listening input.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q11",
+      "finding": "Voice delivery, music, effects and audiovisual alignment were not established by this visual pass.",
+      "evidence": "A01",
+      "status": "not checked",
+      "reason": "No validated direct audio listening input.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q12",
+      "finding": "Interview footage, portrait calls, an animation-pipeline diagram, facial landmarks and conversation-recording footage are visible. The actual production and model execution are not inspected.",
+      "evidence": "V01–V08",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q13",
+      "finding": "Manifest duration 308.992s; indexed dimensions 1280×720. Source unchanged flag recorded; fresh encoding and audio clipping checks not run.",
+      "evidence": "Group manifest",
+      "status": "uncertain",
+      "reason": "Inherited technical metadata; no fresh media probe in this review.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q14",
+      "finding": "Visible labels communicate emotion and comparison topics, but the rationale and conversational meaning depend strongly on the spoken script.",
+      "evidence": "V03–V07",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q15",
+      "finding": "The founder often remains as a small inset during a demo; the demo window then takes the main area. This preserves the explanation thread.",
+      "evidence": "V03–V08",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q16",
+      "finding": "At just over five minutes, repeated founder passages create a detailed technical introduction. The first full portrait demonstration appears around 39 s, while setup steps never appear.",
+      "evidence": "V01–V09",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q17",
+      "finding": "Faces visibly change and examples include a participant inset. Real-time latency, lip sync and contextually correct reactions cannot be established from silent sampled images.",
+      "evidence": "V03–V08",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q18",
+      "finding": "The vintage-computer workshop and retro windows place the product within a human-computing story; this is a creative reading.",
+      "evidence": "V01–V09",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q19",
+      "finding": "The 92–95 s closer view preserves the same face and call layout as the label changes. It does not reveal the triggering words or validate emotional appropriateness.",
+      "evidence": "V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q20",
+      "finding": "Claims about listening, competitor loops, seamless transitions, identity stability and emotional intelligence require audiovisual and controlled comparison evidence beyond this sampled review. The therapy example is a proposed use case, not evidence of clinical effectiveness.",
+      "evidence": "V04–V08",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q21",
+      "finding": "Named emotion labels and targeted arrows make subtle visual behavior easier to discuss than an unlabelled avatar montage.",
+      "evidence": "V03,V04,V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q22",
+      "finding": "Add the input sentence and a visible response timeline to one short call, then show the minimal setup needed to reproduce it.",
+      "evidence": "V04,V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q23",
+      "finding": "Tin can label the precise behavior under discussion and keep the triggering input visible beside the output.",
+      "evidence": "V03–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q24",
+      "finding": "Tavus presents Phoenix-4 as a real-time human-rendering model for expressive conversational avatars.",
+      "evidence": "Model reading from inspected images",
+      "status": "uncertain",
+      "reason": "Model-only new-viewer interpretation; no human test.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q25",
+      "finding": "Contact sheets inspected at displayed size; a phone-size playback, caption audit, flash audit and formal accessibility check were not performed.",
+      "evidence": "Viewed sheets",
+      "status": "not checked",
+      "reason": "Full-size moving-image and device checks unavailable in this pass.",
+      "experiment": "none"
+    }
+  ],
+  "lessons": {
+    "keep": "Use short labels and targeted callouts to focus attention on subtle output behavior.",
+    "avoid": "Avoid making viewers infer the cause and timing of a reaction from an expressive face alone.",
+    "open": "Conversational timing, lip sync, comparative fairness, model execution, long-run consistency and all heard audio properties remain unverified.",
+    "try": [
+      "For Tin, pair one input sentence with a labelled output change and a visible timeline.",
+      "Show one short setup-to-result flow before a longer technical explanation."
+    ]
+  },
+  "comparison": {
+    "story": "Introduce the team, model name and conversational goal. → Connect the model description to rendered faces. → Name the range of expression being demonstrated. → Show contextual reaction and a proposed use case; context is clearer in the ASR draft than the images. → Explain the listening and rendering mechanism with a diagram and example. → Frame claimed weaknesses of alternatives; annotations are film claims rather than verified comparative results. → Explain behavioral training and small facial details. → Present a longer conversational example. → Close the model announcement; the draft script supplies platform/API availability and website.",
+    "motion": "Retro windows appear and enlarge, green face landmarks overlay a portrait, emotion labels change color, and call faces change mouth, brow and head position. The 92–95 s closer window shows continuing facial changes across the Surprise-to-Disgust label change, not verified response timing. Sampling scope: 1 fps unless a closer window is recorded.",
+    "sound": "No validated listening; unknown.",
+    "texture": "Warm brick workshop, retro computers and pixel-like title lettering.; Retro window frames, green technical text and a face mesh.; Portrait window over a grainy pastel landscape; founder inset.; Large call windows with colored labels and an example-use heading.; Pipeline boxes and arrows, call windows and blurred background.; Annotated comparison windows on the pastel background.; Repeated workshop angles, human conversation footage and portrait close-ups.; Large call window with smaller founder and participant views.; Workshop imagery followed by a minimal white logo on black.",
+    "lesson": "Use short labels and targeted callouts to focus attention on subtle output behavior."
+  },
+  "elements": [
+    {
+      "kind": "ui",
+      "name": "video call",
+      "events": [
+        "V02",
+        "V03",
+        "V04",
+        "V05",
+        "V08"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "node graph",
+      "events": [
+        "V05"
+      ]
+    },
+    {
+      "kind": "motion",
+      "name": "window enlarges",
+      "events": [
+        "V06",
+        "V07"
+      ]
+    },
+    {
+      "kind": "motion",
+      "name": "face expression changes",
+      "events": [
+        "V03",
+        "V04",
+        "V08"
+      ]
+    },
+    {
+      "kind": "texture",
+      "name": "retro window frame",
+      "events": [
+        "V02",
+        "V03",
+        "V04",
+        "V05",
+        "V06"
+      ]
+    },
+    {
+      "kind": "texture",
+      "name": "workshop footage",
+      "events": [
+        "V01",
+        "V07",
+        "V09"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,361 @@
+{
+  "id": 384,
+  "viewed_evidence": [
+    "technical-review-2026-10-19/deep-review/motion/384/timeline-00.jpg",
+    "technical-review-2026-10-19/deep-review/motion/384/timeline-01.jpg",
+    "astra-review-2026-10-20/evidence/group-3/384/dense21-26.jpg"
+  ],
+  "product_from_film": "The film announces Claude Opus 4.6 through a montage of Claude use cases and favorable comments.",
+  "explains_well": "User examples make the breadth of Claude use concrete before the new model name appears.",
+  "unclear": "The film does not explain what changed from Opus 4.5 to 4.6 or which shown examples use the new version.",
+  "product_type": "AI model announcement",
+  "scenario": "Introduce a model update through user stories",
+  "product_clear_time": 26,
+  "product_clear_basis": "Introducing Opus 4.6 title appears; earlier examples establish Claude broadly.",
+  "scenes": [
+    {
+      "start": 0,
+      "end": 4,
+      "action": "Large cropped article headlines about Claude replace one another and pull back to smaller clippings.",
+      "design": "Paper-like news layouts and serif type.",
+      "purpose": "Establish public attention",
+      "id": "V01",
+      "evidence": "Visible 1 fps samples, source 0–4s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 4,
+      "end": 11,
+      "action": "Math imagery and a user quote lead to hands assembling a mini PC, then an MRI-like image with a personal comment.",
+      "design": "Footage and image backgrounds with small profile/quote labels.",
+      "purpose": "Show varied uses",
+      "id": "V02",
+      "evidence": "Visible 1 fps samples, source 4–11s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 11,
+      "end": 21,
+      "action": "Film-making landscapes, knitted garment, school folders, home equipment, Mars rover and mountain website story follow with quote overlays.",
+      "design": "Mixed footage, photos and paper graphics.",
+      "purpose": "Extend user range",
+      "id": "V03",
+      "evidence": "Visible 1 fps samples, source 11–21s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 21,
+      "end": 25,
+      "action": "Dense samples show overlapping example tiles accumulating, then shrinking into a central stack; this clears to Opus 4.5 on white near 23.5 s.",
+      "design": "Layered collage and sparse serif title.",
+      "purpose": "Close prior-version examples",
+      "id": "V04",
+      "evidence": "Visible 1 fps samples, source 21–25s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 25,
+      "end": 29,
+      "action": "Introducing Opus 4.6 appears; a brief ring of software examples surrounds the title and clears.",
+      "design": "White space, serif model name and UI tiles.",
+      "purpose": "Reveal update",
+      "id": "V05",
+      "evidence": "Visible 1 fps samples, source 25–29s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 29,
+      "end": 37,
+      "action": "Opus 4.6 stays while short favorable statements replace one another, including just gets it, huge leap and outperforms other models.",
+      "design": "Small pale comment strips next to model name.",
+      "purpose": "Assert improvement",
+      "id": "V06",
+      "evidence": "Visible 1 fps samples, source 29–37s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 37,
+      "end": 39.416,
+      "action": "Opus 4.6 by ANTHROPIC holds.",
+      "design": "Black text on white.",
+      "purpose": "Close brand attribution",
+      "id": "V07",
+      "evidence": "Visible 1 fps samples, source 37–39.416s; boundaries approximate, between-frame action unresolved."
+    }
+  ],
+  "sound": [
+    {
+      "id": "A01",
+      "start": 0,
+      "end": 39.416,
+      "layer": "unknown",
+      "detail": "No validated audio listening; speech, music, effects, mix and sync remain unverified.",
+      "visual_relation": "All visual scenes; alignment not checked",
+      "evidence": "No actual audio supplied to this review; existing technical-review-2026-10-19/deep-review/audio/384.json is not listening evidence."
+    }
+  ],
+  "categories": [
+    {
+      "finding": "News attention and user examples build to Opus 4.5, then an Opus 4.6 reveal and praise statements. It is a reputation-led update announcement.",
+      "evidence": "V01–V07",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q01"
+    },
+    {
+      "finding": "Oversized news headline fragments about Claude fill the frame; no task or new version is yet established.",
+      "evidence": "V01 0–2 s",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q02"
+    },
+    {
+      "finding": "Claude is connected to varied work through examples, but the new model is not named until about 26 s. No single audience or task is selected.",
+      "evidence": "V02–V05",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q03"
+    },
+    {
+      "finding": "Dense 21–26 s samples show overlapping tiles filling the view, shrinking into a centered stack and disappearing into a sparse Opus 4.5 title. Exact easing and individual tile paths remain unresolved.",
+      "evidence": "V04; dense21-26.jpg",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q04"
+    },
+    {
+      "finding": "Hard example changes become an accumulating collage, then an abrupt reduction to white space gives the version reveal emphasis.",
+      "evidence": "V02–V05",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q05"
+    },
+    {
+      "finding": "Paper-like headlines, photos, footage and small social quote labels create an editorial collage; white space and serif titles provide contrast.",
+      "evidence": "V01–V07",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q06"
+    },
+    {
+      "finding": "Quotes identify specific uses, but several are brief or partly cropped. Later praise is easy to read yet does not name a measurable new capability.",
+      "evidence": "V02–V03, V06",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q07"
+    },
+    {
+      "finding": "Voice presence and delivery remain unverified.",
+      "evidence": "No validated audio listening",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q08"
+    },
+    {
+      "finding": "Music character and arc remain unverified.",
+      "evidence": "No validated audio listening",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q09"
+    },
+    {
+      "finding": "Sound effects remain unverified.",
+      "evidence": "No validated audio listening",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q10"
+    },
+    {
+      "finding": "Sound-to-motion timing remain unverified.",
+      "evidence": "No validated audio listening",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q11"
+    },
+    {
+      "finding": "Hardware, landscapes, garment, rover and software imagery accompany reported user stories. The film presents them as examples; their provenance and claims are not independently verified.",
+      "evidence": "V02–V05",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q12"
+    },
+    {
+      "finding": "Source duration supplied as 39.416s; no independent compression, clipping or delivery check.",
+      "evidence": "Assigned metadata; source integrity checked by parent",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q13"
+    },
+    {
+      "finding": "All main messaging is visual text, so the announcement remains legible silently. The meaning of the version improvement is still vague.",
+      "evidence": "V01–V07",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q14"
+    },
+    {
+      "finding": "Quote labels compete with active imagery in the montage. The empty white version card creates a clear focus reset.",
+      "evidence": "V02–V05",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q15"
+    },
+    {
+      "finding": "Many distinct use cases arrive within about seventeen seconds. The montage conveys breadth more readily than a reproducible action or result.",
+      "evidence": "V02–V03 4–21 s",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q16"
+    },
+    {
+      "finding": "The opening establishes Claude momentum; the payoff is a new version and positive judgments, without a before/after task comparison.",
+      "evidence": "V01, V05–V06",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q17"
+    },
+    {
+      "finding": "Accumulating user examples appear designed to create community momentum, followed by anticipation at the sparse title reveal. Response is unmeasured.",
+      "evidence": "V02–V06",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q18"
+    },
+    {
+      "finding": "Claude naming and quote styling unify varied examples. The Opus 4.5 card suggests earlier examples belong to a prior version, so they should not automatically be credited to 4.6.",
+      "evidence": "V02–V05",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q19"
+    },
+    {
+      "finding": "User comments, Mars claim and outperforms statement are presented claims. The film does not show controlled comparisons, benchmark conditions or continuous product operations.",
+      "evidence": "V02–V06",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q20"
+    },
+    {
+      "finding": "Claude user posts, serif model typography and Anthropic naming provide identity; the collage technique itself is broadly reusable.",
+      "evidence": "V01–V07",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q21"
+    },
+    {
+      "finding": "Keep a few varied concrete user cases and the quiet reveal. Replace one praise line with a specific new capability and matched example.",
+      "evidence": "V02–V06",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q22"
+    },
+    {
+      "finding": "For a product update, gather permissioned user examples, clearly label the version they used, and collapse the montage into a new-version card. Follow with one new capability demonstration.",
+      "evidence": "V04–V06",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q23"
+    },
+    {
+      "finding": "No human new-viewer test; product description above is model interpretation of sampled images.",
+      "evidence": "V01–V07",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q24"
+    },
+    {
+      "finding": "No phone-size, safe-area or flash assessment; small UI text needs separate preview.",
+      "evidence": "Contact sheets",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q25"
+    }
+  ],
+  "lessons": {
+    "keep": "Use a dense example montage followed by clean white space to make an update reveal stand out.",
+    "try": [
+      "For a Tin release, select three user tasks and label the old version, then compare one task directly with the new release.",
+      "Try the collage-to-small-stack transition using readable source labels, followed by a single concrete improvement instead of rotating praise."
+    ],
+    "avoid": "Avoid treating prior-version testimonials as proof of a new version or leaving the actual improvement unnamed.",
+    "open": "Example provenance, quote accuracy, model improvement, comparative claims and all sound remain unverified."
+  },
+  "comparison": {
+    "story": "Establish public attention → Show varied uses → Extend user range → Close prior-version examples → Reveal update → Assert improvement → Close brand attribution",
+    "motion": "Dense 21–26 s samples show overlapping tiles filling the view, shrinking into a centered stack and disappearing into a sparse Opus 4.5 title. Exact easing and individual tile paths remain unresolved.",
+    "sound": "No validated listening; no absence claims.",
+    "texture": "Paper-like headlines, photos, footage and small social quote labels create an editorial collage; white space and serif titles provide contrast.",
+    "lesson": "Use a dense example montage followed by clean white space to make an update reveal stand out."
+  },
+  "elements": [
+    {
+      "kind": "ui",
+      "name": "social quote cards",
+      "events": [
+        "V02",
+        "V03"
+      ]
+    },
+    {
+      "kind": "motion",
+      "name": "collage accumulation",
+      "events": [
+        "V04"
+      ]
+    },
+    {
+      "kind": "motion",
+      "name": "collage shrink",
+      "events": [
+        "V04"
+      ]
+    },
+    {
+      "kind": "texture",
+      "name": "paper headlines",
+      "events": [
+        "V01"
+      ]
+    },
+    {
+      "kind": "texture",
+      "name": "mixed user imagery",
+      "events": [
+        "V02",
+        "V03"
+      ]
+    }
+  ],
+  "reviewer_model": "gpt-6-astra",
+  "scope": "sampled visual and story review; ASR and measured signal support; no validated audio listening",
+  "closer_windows": [
+    {
+      "start": 21,
+      "end": 26,
+      "rate_fps": 4,
+      "evidence": [
+        "astra-review-2026-10-20/evidence/group-3/384/dense21-26.jpg"
+      ],
+      "resolved": "Example tiles overlap, shrink into a central stack and clear to Opus 4.5 near 23.5 s; Introducing Opus follows. Exact tile easing unresolved."
+    }
+  ]
+}

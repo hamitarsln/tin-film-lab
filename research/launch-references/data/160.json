@@ -1,0 +1,338 @@
+{
+  "id": 160,
+  "viewed_evidence": [
+    "technical-review-2026-10-19/deep-review/motion/160/timeline-00.jpg",
+    "astra-review-2026-10-20/evidence/group-3/160/frame-9.jpg",
+    "astra-review-2026-10-20/evidence/group-3/160/frame-20.jpg"
+  ],
+  "product_from_film": "Slashy handles email through a chat-like assistant while the user travels.",
+  "explains_well": "An archived-email summary and follow-up suggestion make the help concrete.",
+  "unclear": "The film does not show the mailbox changes or the sent follow-up.",
+  "product_type": "email assistant",
+  "scenario": "A traveller receives email updates and gives a short reply from her phone.",
+  "product_clear_time": 9,
+  "product_clear_basis": "A readable message says 30 emails needed no replies and were archived.",
+  "scenes": [
+    {
+      "start": 0,
+      "end": 4,
+      "action": "Warning card says checking email 24/7 is not a strategy; phone notifications appear on a table.",
+      "design": "Black warning layout then warm room and blue lock screen.",
+      "purpose": "Establish email burden",
+      "id": "V01",
+      "evidence": "Visible 1 fps samples, source 0–4 s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 4,
+      "end": 8,
+      "action": "Large You should not text gives way to city aerial and a woman walking through a lobby.",
+      "design": "White card, aerial view and warm travel footage.",
+      "purpose": "Promise freedom from email worry",
+      "id": "V02",
+      "evidence": "Visible 1 fps samples, source 4–8 s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 8,
+      "end": 11,
+      "action": "Phone chat and separate message bubbles show an overnight archiving summary and a short reply.",
+      "design": "White chat on phone, matching enlarged bubble.",
+      "purpose": "Show assistant help",
+      "id": "V03",
+      "evidence": "Visible 1 fps samples, source 8–11 s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 11,
+      "end": 19,
+      "action": "Woman enters a car; captions promise never missing email and managing business while travelling; road aerial and orange bright transition follow.",
+      "design": "Sunlight, palms, car interior and large white copy.",
+      "purpose": "Frame a mobile lifestyle benefit",
+      "id": "V04",
+      "evidence": "Visible 1 fps samples, source 11–19 s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 19,
+      "end": 23,
+      "action": "At the beach, a message says Tyler opened an email 3 minutes ago and asks about following up; typed reply says keep it casual. Woman walks toward beach; diagonal white edges appear.",
+      "design": "Phone keyboard and readable external bubble, beach scene.",
+      "purpose": "Show a second mobile task",
+      "id": "V05",
+      "evidence": "Visible 1 fps samples, source 19–23 s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 23,
+      "end": 25.216,
+      "action": "Slashy gradient mark and name hold on white.",
+      "design": "Clean white brand card.",
+      "purpose": "Close the offer",
+      "id": "V06",
+      "evidence": "Visible 1 fps samples, source 23–25.216 s; boundaries approximate, between-frame action unresolved."
+    }
+  ],
+  "sound": [
+    {
+      "id": "A01",
+      "start": 0,
+      "end": 25.216,
+      "layer": "unknown",
+      "detail": "No validated audio listening; speech, music, effects, mix and sync remain unverified.",
+      "visual_relation": "All visual scenes; alignment not checked",
+      "evidence": "No actual audio supplied to this review; existing technical-review-2026-10-19/deep-review/audio/160.json is not listening evidence."
+    }
+  ],
+  "categories": [
+    {
+      "finding": "Email burden is contrasted with travel while a chat assistant reports archiving and asks about follow-up.",
+      "evidence": "V01–V06",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q01"
+    },
+    {
+      "finding": "A warning-style card states checking email 24/7 is not a strategy and includes Slashy.com.",
+      "evidence": "V01",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q02"
+    },
+    {
+      "finding": "Email domain is clear at the opening; specific archiving assistance is clear in the 9 s close frame.",
+      "evidence": "V01,V03; source frame 9 s",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q03"
+    },
+    {
+      "finding": "Chat states change, aerial views change scale and diagonal white shapes cover the beach near 22 s. Exact camera/easing paths are not resolved.",
+      "evidence": "V03–V05",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q04"
+    },
+    {
+      "finding": "White type and aerial scenes bridge phone notifications to travel; the bright 18 s transition moves from car travel to beach arrival.",
+      "evidence": "V02,V04,V05",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q05"
+    },
+    {
+      "finding": "Warm sunlight, palms and polished travel imagery frame a calm lifestyle; clean white phone bubbles keep task content separate.",
+      "evidence": "V02–V05",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q06"
+    },
+    {
+      "finding": "Enlarged external message bubbles repeat the phone text, making archiving and follow-up easier to read than the perspective phone screen.",
+      "evidence": "V03,V05; frames 9,20 s",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q07"
+    },
+    {
+      "finding": "Voice presence and delivery remain unverified.",
+      "evidence": "No validated audio listening",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q08"
+    },
+    {
+      "finding": "Music character and arc remain unverified.",
+      "evidence": "No validated audio listening",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q09"
+    },
+    {
+      "finding": "Sound effects remain unverified.",
+      "evidence": "No validated audio listening",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q10"
+    },
+    {
+      "finding": "Sound-to-motion timing remain unverified.",
+      "evidence": "No validated audio listening",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q11"
+    },
+    {
+      "finding": "Travel/phone imagery and graphic bubbles are combined; production method and authenticity of UI are unknown.",
+      "evidence": "V02–V05",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q12"
+    },
+    {
+      "finding": "Source duration supplied as 25.216 s; no independent compression, clipping or delivery check.",
+      "evidence": "Assigned metadata; source integrity checked by parent",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q13"
+    },
+    {
+      "finding": "Readable bubbles communicate archiving and follow-up requests silently, though the completed email actions are not visible.",
+      "evidence": "V03,V05",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q14"
+    },
+    {
+      "finding": "External white bubbles guide attention beside the angled phone; lifestyle captions briefly compete with the interface.",
+      "evidence": "V03–V05",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q15"
+    },
+    {
+      "finding": "Two concrete examples occupy only about 7 s while travel and general claims take more time.",
+      "evidence": "V03–V05",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q16"
+    },
+    {
+      "finding": "The 24/7-email warning is answered by phone-based delegation while travelling, but completed work is asserted in chat.",
+      "evidence": "V01,V03,V05",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q17"
+    },
+    {
+      "finding": "The transition from notifications to beach arrival suggests relief and freedom; viewer response is unmeasured.",
+      "evidence": "V01–V05; interpretation",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q18"
+    },
+    {
+      "finding": "The same white outfit, phone and chat styling link lobby, car and beach.",
+      "evidence": "V02–V05",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q19"
+    },
+    {
+      "finding": "Archiving is reported and a follow-up is requested; mailbox state and successful send are not shown.",
+      "evidence": "V03,V05",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q20"
+    },
+    {
+      "finding": "Gradient mark and friendly chat contact identify Slashy; luxury-travel footage could fit many productivity products.",
+      "evidence": "V03–V06",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q21"
+    },
+    {
+      "finding": "Replace one broad loved-by claim with a clean mailbox result or completed follow-up state.",
+      "evidence": "V04–V05",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q22"
+    },
+    {
+      "finding": "For a mobile assistant, repeat small screen content in a larger floating bubble and pair it with a meaningful user action.",
+      "evidence": "V03,V05",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q23"
+    },
+    {
+      "finding": "No human new-viewer test; product description above is model interpretation of sampled images.",
+      "evidence": "V01–V06",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q24"
+    },
+    {
+      "finding": "No phone-size, safe-area or flash assessment; small UI text needs separate preview.",
+      "evidence": "Contact sheets",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q25"
+    }
+  ],
+  "lessons": {
+    "keep": "Repeat essential phone text in a clean enlarged bubble beside the device.",
+    "try": [
+      "For email triage, show the 30-email summary then a brief before/after inbox count with an undo control.",
+      "For follow-up drafting, show the casual instruction, generated draft and user approval before returning to travel footage."
+    ],
+    "avoid": "Avoid implying a requested action has finished without a result state.",
+    "open": "How are automatic archiving and follow-up approval controlled?"
+  },
+  "comparison": {
+    "story": "Establish email burden → Promise freedom from email worry → Show assistant help → Frame a mobile lifestyle benefit → Show a second mobile task → Close the offer",
+    "motion": "Chat states change, aerial views change scale and diagonal white shapes cover the beach near 22 s. Exact camera/easing paths are not resolved.",
+    "sound": "No validated listening; no absence claims.",
+    "texture": "Warm sunlight, palms and polished travel imagery frame a calm lifestyle; clean white phone bubbles keep task content separate.",
+    "lesson": "Repeat essential phone text in a clean enlarged bubble beside the device."
+  },
+  "elements": [
+    {
+      "kind": "ui",
+      "name": "chat",
+      "events": [
+        "V03",
+        "V05"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "phone shell",
+      "events": [
+        "V01",
+        "V03",
+        "V05"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "notification",
+      "events": [
+        "V01"
+      ]
+    },
+    {
+      "kind": "texture",
+      "name": "travel footage",
+      "events": [
+        "V02",
+        "V04",
+        "V05"
+      ]
+    }
+  ],
+  "reviewer_model": "gpt-6-astra",
+  "scope": "sampled visual and story review; ASR and measured signal support; no validated audio listening",
+  "closer_windows": []
+}

@@ -1,0 +1,357 @@
+{
+  "id": 252,
+  "reviewer_model": "gpt-6-astra",
+  "scope": "sampled visual and story review; ASR and measured signal support; no validated audio listening",
+  "viewed_evidence": [
+    "technical-review-2026-10-19/deep-review/motion/252/timeline-00.jpg",
+    "technical-review-2026-10-19/deep-review/motion/252/timeline-01.jpg",
+    "technical-review-2026-10-19/deep-review/motion/252/timeline-02.jpg",
+    "technical-review-2026-10-19/deep-review/motion/252/timeline-03.jpg",
+    "technical-review-2026-10-19/deep-review/audio/252-speech.json"
+  ],
+  "closer_windows": [],
+  "product_from_film": "Sam is a small home companion device shown giving reminders and sharing daily-activity updates about an older adult.",
+  "explains_well": "A single day connects cooking, breakfast, medication, gardening and a family dinner around the same person and device.",
+  "unclear": "The film does not explain how Sam knows an activity happened, who receives the updates or how the older adult controls sharing.",
+  "product_type": "home companion device",
+  "scenario": "Support daily routines and keep family informed while an older adult lives at home.",
+  "product_clear_time": 31,
+  "product_clear_basis": "A Sam notification says Nai Nai has eaten breakfast after the kitchen scene.",
+  "scenes": [
+    {
+      "id": "V01",
+      "start": 0,
+      "end": 10,
+      "action": "Sam appears over a kitchen scene. A small white device with blue eye-like lights sits near an older woman preparing food; she turns toward it and smiles. A noodle pan fills the frame.",
+      "design": "Warm domestic light and a friendly rounded device.",
+      "purpose": "Introduce the companion inside an ordinary routine.",
+      "evidence": "Visible chronological 1 fps samples, source 0–10s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V02",
+      "start": 10,
+      "end": 23,
+      "action": "The woman looks between cooking ingredients and the device. Close-ups alternate between her face, Sam and the pan.",
+      "design": "Shot/reverse-shot framing treats the device as a conversational partner.",
+      "purpose": "Show a cooking question and response, supported by draft text.",
+      "evidence": "Visible chronological 1 fps samples, source 10–23s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V03",
+      "start": 23,
+      "end": 32,
+      "action": "A younger woman by a car uses a phone. Back in the kitchen, the older woman lifts food; a Sam notification states that Nai Nai has eaten breakfast.",
+      "design": "Parallel family and home scenes with a small notification overlay.",
+      "purpose": "Connect daily activity to family awareness.",
+      "evidence": "Visible chronological 1 fps samples, source 23–32s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V04",
+      "start": 32,
+      "end": 46,
+      "action": "The older woman approaches a sideboard, takes something to her mouth and drinks water. A notification says she has taken medication. Reading beside Sam and watering the garden follow, with another activity notification.",
+      "design": "Warm home scenes, device in the background and repeated status overlays.",
+      "purpose": "Show reminders and updates across routines.",
+      "evidence": "Visible chronological 1 fps samples, source 32–46s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V05",
+      "start": 46,
+      "end": 64,
+      "action": "Food preparation continues through stove, cutting, stirring and tasting shots. Evening light arrives; the woman welcomes people at the door. Sam sits near bottles on the sideboard.",
+      "design": "Detailed food close-ups and a shift to darker evening interiors.",
+      "purpose": "Build toward the planned family meal.",
+      "evidence": "Visible chronological 1 fps samples, source 46–64s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V06",
+      "start": 64,
+      "end": 87,
+      "action": "A child handles and decorates Sam with circular stickers, then leaves it on the table. Family members serve and eat food, smile and clear dishes; the device remains nearby.",
+      "design": "Intimate family close-ups, shared table and personalized device.",
+      "purpose": "Make the companion part of family life without replacing the gathering.",
+      "evidence": "Visible chronological 1 fps samples, source 64–87s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V07",
+      "start": 87,
+      "end": 111.338,
+      "action": "The family leaves through the doorway. The older woman stays in the hall, turns toward Sam, and a bilingual Goodbye Nai Nai subtitle appears. A final device shot carries Order Sam now at withsam.com.",
+      "design": "Dim home interior and a quiet product close.",
+      "purpose": "Return to the companion after the visit and offer purchase.",
+      "evidence": "Visible chronological 1 fps samples, source 87–111.338s; boundary approximate; exact motion between samples unverified."
+    }
+  ],
+  "sound": [
+    {
+      "id": "A01",
+      "start": 0,
+      "end": 111.338,
+      "layer": "unknown",
+      "detail": "No validated direct audio listening was performed. Music, speech delivery, effects, mix and sync remain unknown, not absent.",
+      "visual_relation": "All visual scenes; audiovisual alignment unverified",
+      "evidence": "Visual samples only; no actual audio range supplied to this reviewer."
+    },
+    {
+      "id": "A02",
+      "start": 2.21,
+      "end": 44.08,
+      "layer": "ASR draft",
+      "detail": "The available ASR draft includes a dinner reminder, a cooking question and answer, a breakfast check, a medication reminder and a plant-watering statement. It supports the early routine sequence. The soy-sauce wording is an unverified script claim, not advice. Much later dialogue is not covered; voice identity, delivery and alignment remain unknown.",
+      "visual_relation": "Story text support; exact audiovisual alignment and delivery unverified.",
+      "evidence": "technical-review-2026-10-19/deep-review/audio/252-speech.json; local faster-whisper base CPU int8 draft; VAD candidates only, recognition errors possible."
+    }
+  ],
+  "categories": [
+    {
+      "id": "Q01",
+      "finding": "A day of cooking and routines builds to a family dinner, then returns to the older woman and Sam after guests leave.",
+      "evidence": "V01–V07",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q02",
+      "finding": "The device appears in a lived-in kitchen immediately, making its home role visible before explanation.",
+      "evidence": "V01",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q03",
+      "finding": "The device seems conversational early; the breakfast notification around 31 s makes the family-update function concrete.",
+      "evidence": "V01–V03",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q04",
+      "finding": "Eye-like display states change, notifications appear and people move between household tasks. No independent locomotion by the device is established.",
+      "evidence": "V01–V07",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q05",
+      "finding": "The same person, house, meal and device carry the film through the day; the dinner reminder receives a family-gathering payoff.",
+      "evidence": "V01–V07,A02",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q06",
+      "finding": "Warm light, food textures and close domestic framing keep the hardware within a human story.",
+      "evidence": "V01–V07",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q07",
+      "finding": "The activity notifications are short and readable. Most conversation is not captioned in the sampled frames; the final bilingual goodbye is visible.",
+      "evidence": "V03,V04,V07",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q08",
+      "finding": "The available ASR draft includes a dinner reminder, a cooking question and answer, a breakfast check, a medication reminder and a plant-watering statement. It supports the early routine sequence. The soy-sauce wording is an unverified script claim, not advice. Much later dialogue is not covered; voice identity, delivery and alignment remain unknown.",
+      "evidence": "A02",
+      "status": "uncertain",
+      "reason": "ASR text only; no validated listening, delivery or voice origin.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q09",
+      "finding": "Voice delivery, music, effects and audiovisual alignment were not established by this visual pass.",
+      "evidence": "A01",
+      "status": "not checked",
+      "reason": "No validated direct audio listening input.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q10",
+      "finding": "Voice delivery, music, effects and audiovisual alignment were not established by this visual pass.",
+      "evidence": "A01",
+      "status": "not checked",
+      "reason": "No validated direct audio listening input.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q11",
+      "finding": "Voice delivery, music, effects and audiovisual alignment were not established by this visual pass.",
+      "evidence": "A01",
+      "status": "not checked",
+      "reason": "No validated direct audio listening input.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q12",
+      "finding": "A staged domestic narrative and product close-ups are visible; hardware functionality and production methods are not independently established.",
+      "evidence": "V01–V07",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q13",
+      "finding": "Manifest duration 111.338s; indexed dimensions 1920×1080. Source unchanged flag recorded; fresh encoding and audio clipping checks not run.",
+      "evidence": "Group manifest",
+      "status": "uncertain",
+      "reason": "Inherited technical metadata; no fresh media probe in this review.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q14",
+      "finding": "The routine and family story is visually clear. Cooking advice and reminders depend partly on the ASR draft because on-screen text is limited.",
+      "evidence": "V02,V04,A02",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q15",
+      "finding": "The device is often foregrounded while the woman works behind it; notification overlays make its claimed role more explicit.",
+      "evidence": "V01,V03,V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q16",
+      "finding": "The first 46 s establish functions, while the longer meal and departure sequence emphasizes family life and companionship.",
+      "evidence": "V01–V07",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q17",
+      "finding": "The opening dinner reminder pays off with the gathering; the final return to Sam closes the day.",
+      "evidence": "V01,V06,V07,A02",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q18",
+      "finding": "Domestic routines, the child’s stickers and family faces suggest warmth and belonging. This is a visual interpretation, not a claim about heard music or delivery.",
+      "evidence": "V01,V06,V07",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q19",
+      "finding": "The same device and older adult persist through activities. Notifications correspond to nearby visible actions, but the sensing or reporting mechanism is not shown.",
+      "evidence": "V03,V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q20",
+      "finding": "The film does not establish activity-detection accuracy, recipient controls or what happens when a reminder is missed. The cooking advice in ASR is a script claim, not medical or nutrition guidance.",
+      "evidence": "V02–V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q21",
+      "finding": "Medication, family updates and the personalized tabletop companion make the role more specific than a general smart-speaker ad.",
+      "evidence": "V03,V04,V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q22",
+      "finding": "Add a brief recipient view and a simple sharing-control step without breaking the day-in-the-life story.",
+      "evidence": "V03,V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q23",
+      "finding": "Tin can keep one person and artifact through a full workday, showing concrete helpful moments before the emotional payoff.",
+      "evidence": "V01–V07",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q24",
+      "finding": "Sam is a small home companion device shown giving reminders and sharing daily-activity updates about an older adult.",
+      "evidence": "Model reading from inspected images",
+      "status": "uncertain",
+      "reason": "Model-only new-viewer interpretation; no human test.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q25",
+      "finding": "Contact sheets inspected at displayed size; a phone-size playback, caption audit, flash audit and formal accessibility check were not performed.",
+      "evidence": "Viewed sheets",
+      "status": "not checked",
+      "reason": "Full-size moving-image and device checks unavailable in this pass.",
+      "experiment": "none"
+    }
+  ],
+  "lessons": {
+    "keep": "Keep the product inside one continuous human day, with task moments that support the final payoff.",
+    "avoid": "Avoid implying reliable observation from an activity notification without showing how it is confirmed.",
+    "open": "Activity confirmation, sharing controls, missed-reminder handling, hardware behavior, later dialogue and all audio remain unverified.",
+    "try": [
+      "Follow a Tin user through a launch day, showing brief helpful actions before the team sees the finished campaign.",
+      "Pair an automatic update with a visible recipient and an easy control for what is shared."
+    ]
+  },
+  "comparison": {
+    "story": "Introduce the companion inside an ordinary routine. → Show a cooking question and response, supported by draft text. → Connect daily activity to family awareness. → Show reminders and updates across routines. → Build toward the planned family meal. → Make the companion part of family life without replacing the gathering. → Return to the companion after the visit and offer purchase.",
+    "motion": "Eye-like display states change, notifications appear and people move between household tasks. No independent locomotion by the device is established. Sampling scope: 1 fps unless a closer window is recorded.",
+    "sound": "No validated listening; unknown.",
+    "texture": "Warm domestic light and a friendly rounded device.; Shot/reverse-shot framing treats the device as a conversational partner.; Parallel family and home scenes with a small notification overlay.; Warm home scenes, device in the background and repeated status overlays.; Detailed food close-ups and a shift to darker evening interiors.; Intimate family close-ups, shared table and personalized device.; Dim home interior and a quiet product close.",
+    "lesson": "Keep the product inside one continuous human day, with task moments that support the final payoff."
+  },
+  "elements": [
+    {
+      "kind": "ui",
+      "name": "activity notification",
+      "events": [
+        "V03",
+        "V04"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "device face display",
+      "events": [
+        "V01",
+        "V02",
+        "V04",
+        "V06",
+        "V07"
+      ]
+    },
+    {
+      "kind": "texture",
+      "name": "warm domestic footage",
+      "events": [
+        "V01",
+        "V02",
+        "V03",
+        "V04",
+        "V05",
+        "V06",
+        "V07"
+      ]
+    }
+  ]
+}

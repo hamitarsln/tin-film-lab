@@ -1,0 +1,383 @@
+{
+  "id": 444,
+  "viewed_evidence": [
+    "technical-review-2026-10-19/deep-review/motion/444/timeline-00.jpg",
+    "technical-review-2026-10-19/deep-review/motion/444/timeline-01.jpg",
+    "technical-review-2026-10-19/deep-review/motion/444/timeline-02.jpg",
+    "technical-review-2026-10-19/deep-review/motion/444/timeline-03.jpg",
+    "technical-review-2026-10-19/deep-review/motion/444/frames/00067.jpg",
+    "technical-review-2026-10-19/deep-review/motion/444/frames/00074.jpg"
+  ],
+  "product_from_film": "Claude prepares a deal teaser, screens the same deal, builds and edits an Excel model, and drafts an investment committee memo.",
+  "explains_well": "Horizon Health Group remains the same deal across documents, email handoff, spreadsheet work and final memo.",
+  "unclear": "Dense source and model text passes too quickly to trace one input number through the final recommendation.",
+  "product_type": "Financial analysis workflow tool",
+  "scenario": "Prepare and assess a Horizon Health Group deal using a data room, templates, Skills and Excel.",
+  "product_clear_time": 7,
+  "product_clear_basis": "The visible prompt requests a deal teaser using a template, Deal Teaser Skill and Egnyte data.",
+  "scenes": [
+    {
+      "start": 0,
+      "end": 7,
+      "action": "A hand-drawn motif on terracotta leads to Sarah’s Claude prompt requesting a Horizon Health Group deal teaser with an attached template and Skill.",
+      "design": "Cream UI, orange highlights and simple line animation.",
+      "purpose": "Set a specific professional task.",
+      "evidence": "1 fps source samples in 0–7s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V01"
+    },
+    {
+      "start": 7,
+      "end": 26,
+      "action": "Claude reads the Skill, searches/fetches data and reports extraction and presentation creation. Tool cards are enlarged over a blurred conversation.",
+      "design": "Chat log and highlighted retrieval cards.",
+      "purpose": "Show the stated source-to-artifact process.",
+      "evidence": "1 fps source samples in 7–26s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V02"
+    },
+    {
+      "start": 26,
+      "end": 39,
+      "action": "Download cards lead to a deal deck with highlights, business overview and financial charts, then an email draft with the deck attached and Send action.",
+      "design": "Deck preview and email window on terracotta.",
+      "purpose": "Produce an artifact and hand it to another person.",
+      "evidence": "1 fps source samples in 26–39s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V03"
+    },
+    {
+      "start": 39,
+      "end": 50,
+      "action": "An envelope-like line motif leads to Jen’s Claude prompt: screen the same deal against criteria, flag contract risks and build an LBO model from a template and Skill.",
+      "design": "Cream chat and highlighted request.",
+      "purpose": "Continue the deal on the receiving side.",
+      "evidence": "1 fps source samples in 39–50s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V04"
+    },
+    {
+      "start": 50,
+      "end": 63,
+      "action": "Screening summary and downloadable model appear; the model opens in Excel, showing assumptions and returns before the Claude add-in opens.",
+      "design": "Spreadsheet tables, yellow highlights and side pane.",
+      "purpose": "Move the analysis into the working file.",
+      "evidence": "1 fps source samples in 50–63s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V05"
+    },
+    {
+      "start": 63,
+      "end": 72,
+      "action": "A prompt asks for a downside case 10% below the base assumptions; the sheet gains changes and Claude reports updated formulas.",
+      "design": "Excel grid and chat side pane; hand-drawn brackets.",
+      "purpose": "Demonstrate editing inside Excel.",
+      "evidence": "1 fps source samples in 63–72s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V06"
+    },
+    {
+      "start": 72,
+      "end": 83,
+      "action": "A new request asks for IRR/MOIC sensitivity across exit multiples and 2029, with an IRR color scale; a small sensitivity table appears and is bracketed.",
+      "design": "Spreadsheet result and explanatory side text.",
+      "purpose": "Add a decision-support view.",
+      "evidence": "1 fps source samples in 72–83s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V07"
+    },
+    {
+      "start": 83,
+      "end": 99,
+      "action": "An investment committee memo request includes screening, risks, model outputs and a recommended range. A formatted memo shows Conditional Pass, risks, metrics and a recommendation.",
+      "design": "Cream prompt and tall document artifact.",
+      "purpose": "Combine the workflow into a final review document.",
+      "evidence": "1 fps source samples in 83–99s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V08"
+    },
+    {
+      "start": 99,
+      "end": 103.066,
+      "action": "Claude mark and wordmark hold on cream.",
+      "design": "Minimal brand close.",
+      "purpose": "End the demo.",
+      "evidence": "1 fps source samples in 99–103.066s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V09"
+    }
+  ],
+  "categories": [
+    {
+      "id": "Q01",
+      "finding": "Seller teaser → email handoff → buyer screening/model → Excel scenarios → committee memo.",
+      "evidence": "V01–V09",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q02",
+      "finding": "Abstract hand-drawn shapes create a short brand lead-in before the task.",
+      "evidence": "V01",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q03",
+      "finding": "Deal-teaser creation is explicit at 7s; later screening and LBO work target finance professionals with assumed domain knowledge.",
+      "evidence": "V01,V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q04",
+      "finding": "UI crops enlarge key cards, backgrounds blur and hand-drawn brackets point to changed spreadsheet ranges. Exact easing unverified.",
+      "evidence": "V02,V06,V07",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q05",
+      "finding": "An envelope motif marks the transition between Sarah’s outgoing teaser and Jen’s assessment of the same company.",
+      "evidence": "V03,V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q06",
+      "finding": "Terracotta and cream frames soften dense software footage; hand-drawn marks give annotations a consistent style.",
+      "evidence": "V01–V09",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q07",
+      "finding": "Prompts carry essential meaning. Small spreadsheet and document text is difficult to inspect even in individual source frames.",
+      "evidence": "V05–V08",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q08",
+      "finding": "Voice delivery is unverified.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "No validated listening.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q09",
+      "finding": "Music character and structure are unverified.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "No validated listening.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q10",
+      "finding": "Effects and their sources are unverified.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "No validated listening; waveform peaks do not identify effects.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q11",
+      "finding": "Sound sync is unverified.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "No validated listening or paired audiovisual timing.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q12",
+      "finding": "Screen recordings/views, deck, email, spreadsheet and memo are combined with line graphics. Live execution and source provenance unverified.",
+      "evidence": "V01–V08",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q13",
+      "finding": "The inspected individual source frames at 66s and 73s are only 420×236, limiting small-text reading. Duration is 103.066s; export/audio quality not otherwise checked.",
+      "evidence": "Individual frames 66s,73s",
+      "status": "supported",
+      "reason": "Directly viewed source frame dimensions and known duration.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q14",
+      "finding": "Prompts, tool cards and artifacts convey the workflow silently, but financial detail requires pausing and domain knowledge.",
+      "evidence": "V01–V08",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q15",
+      "finding": "Blur, orange highlights and brackets guide attention from requests to changed outputs.",
+      "evidence": "V02,V06,V07",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q16",
+      "finding": "Multiple professional tasks fit into 103s. The handoff is clear, but the model logic and final recommendation are too compressed to audit.",
+      "evidence": "V03–V08",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q17",
+      "finding": "The opening teaser becomes an input to a broader decision workflow; the memo completes that chain.",
+      "evidence": "V01,V04,V08",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q18",
+      "finding": "The steady artifact progression appears intended to suggest control and productivity; viewer effect unmeasured.",
+      "evidence": "V02–V08",
+      "status": "uncertain",
+      "reason": "Visual interpretation.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q19",
+      "finding": "Horizon Health Group and the attached deck persist across the handoff, model and memo.",
+      "evidence": "V01–V08",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q20",
+      "finding": "The film presents retrieval, analysis and editing states. Data accuracy, formula correctness, investment suitability, actual connector access and successful email delivery are not independently verified.",
+      "evidence": "V02–V08",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q21",
+      "finding": "The orange/cream palette, Claude mark and hand-drawn annotations connect the software surfaces.",
+      "evidence": "V01–V09",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q22",
+      "finding": "Trace one number.",
+      "evidence": "V05–V08",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "Hold one base assumption, the downside formula and its memo result in a readable three-step comparison."
+    },
+    {
+      "id": "Q23",
+      "finding": "Use an artifact handoff to connect two roles.",
+      "evidence": "V03,V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "For Tin, carry a campaign brief from requester to creator to final review, retaining the same project name and attachment."
+    },
+    {
+      "id": "Q24",
+      "finding": "No human new-viewer test was performed.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "The product summary is this model’s film-only reading.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q25",
+      "finding": "Mobile preview and accessibility checks were not performed.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "Contact sheets are evidence views, not a stated mobile preview or compliance test.",
+      "experiment": "none"
+    }
+  ],
+  "elements": [
+    {
+      "kind": "ui",
+      "name": "chat",
+      "events": [
+        "V01",
+        "V02",
+        "V04",
+        "V08"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "slide deck",
+      "events": [
+        "V03"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "email draft",
+      "events": [
+        "V03"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "spreadsheet",
+      "events": [
+        "V05",
+        "V06",
+        "V07"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "document",
+      "events": [
+        "V08"
+      ]
+    },
+    {
+      "kind": "motion",
+      "name": "hand-drawn annotations",
+      "events": [
+        "V06",
+        "V07"
+      ]
+    }
+  ],
+  "lessons": {
+    "keep": "Carry one named deal through two people and several artifacts.",
+    "try": [
+      "Trace one source assumption through a downside formula into the memo.",
+      "For Tin, preserve the same campaign name through a requester-to-creator handoff."
+    ],
+    "avoid": "Treating a fast model montage as readable evidence of its calculations.",
+    "open": "Data/formula accuracy, connector behavior, financial conclusions and sound remain unverified."
+  },
+  "comparison": {
+    "story": "Deal preparation → handoff → screening/model → committee memo.",
+    "motion": "UI enlargement, blur and drawn brackets.",
+    "sound": "No validated listening; missing ASR does not establish silence.",
+    "texture": "Cream/terracotta and annotated software views.",
+    "lesson": "An artifact handoff can connect many features into one professional story."
+  },
+  "reviewer_model": "gpt-6-astra",
+  "scope": "sampled visual and story review; ASR and measured signal support; no validated audio listening",
+  "closer_windows": [],
+  "sound": [
+    {
+      "id": "A01",
+      "start": 0,
+      "end": 103.066,
+      "layer": "unknown",
+      "detail": "No validated audio listening. Voice delivery, music, effects and mix are unknown.",
+      "visual_relation": "All scenes; sound alignment unverified",
+      "evidence": "No actual audio perception in this review; prepared audio files are not listening evidence."
+    }
+  ]
+}

@@ -1,0 +1,353 @@
+{
+  "id": 114,
+  "product_from_film": "Interfere presents an incident workspace that investigates broken password-reset emails and shows a code fix and resolved status.",
+  "explains_well": "The same password-reset incident carries the story from error messages to root cause, code evidence and resolution.",
+  "unclear": "The film does not establish which investigation or fix steps are automatic, approved by a person or executed in production.",
+  "product_type": "developer incident tool",
+  "scenario": "Investigate password-reset failures after a mailer change, show a TLS-related code diff and mark the incident resolved.",
+  "product_clear_time": 18,
+  "product_clear_basis": "The Interfere workspace shows an investigating card for password-reset emails at 17–19s.",
+  "scenes": [
+    {
+      "start": 0,
+      "end": 4,
+      "action": "Layered technical graphics, terminal-like text, mathematical diagrams and an old desktop appear in quick succession.",
+      "design": "Dark technical montage and low-resolution display texture.",
+      "purpose": "Set up software complexity.",
+      "evidence": "1 fps source samples in 0–4s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V01"
+    },
+    {
+      "start": 4,
+      "end": 12,
+      "action": "A positive chat message is followed by error logs, a rising outage chart, failed build, rollback form, failed test and broken-password message.",
+      "design": "Dark screens, red errors, cropped tilted interface views.",
+      "purpose": "Turn confidence into a concrete production failure.",
+      "evidence": "1 fps source samples in 4–12s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V02"
+    },
+    {
+      "start": 12,
+      "end": 20,
+      "action": "A thin angled white application panel appears over blue-pink light, then the incident card becomes front-facing and readable.",
+      "design": "White Interfere sidebar and an investigating card for password-reset emails.",
+      "purpose": "Introduce an organized workspace for the failure.",
+      "evidence": "1 fps source samples in 12–20s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V03"
+    },
+    {
+      "start": 20,
+      "end": 26,
+      "action": "Activity details show a deployment, mailer root cause, code evidence and affected-session information.",
+      "design": "Large cropped incident feed, code highlight and evidence tabs.",
+      "purpose": "Explain investigation through a connected evidence trail.",
+      "evidence": "1 fps source samples in 20–26s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V04"
+    },
+    {
+      "start": 26,
+      "end": 31,
+      "action": "An action-required section leads to a red-green diff adding requireTLS and a resolved status with lower-impact text.",
+      "design": "Diff colors and green check mark.",
+      "purpose": "Present an intervention and result; execution and causal validity are not independently proved.",
+      "evidence": "1 fps source samples in 26–31s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V05"
+    },
+    {
+      "start": 31,
+      "end": 38.16,
+      "action": "Ship software that never breaks is followed by an early-access URL and Interfere wordmark.",
+      "design": "Black type centered on white.",
+      "purpose": "State the promise and next action.",
+      "evidence": "1 fps source samples in 31–38.16s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V06"
+    }
+  ],
+  "categories": [
+    {
+      "id": "Q01",
+      "finding": "Confidence and failure lead into investigation, code change, resolved state and early-access CTA.",
+      "evidence": "V02–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q02",
+      "finding": "Technical history-like images create atmosphere, but the concrete hook is the sudden error sequence after the positive chat.",
+      "evidence": "V01,V02",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q03",
+      "finding": "The tool function becomes clear at the investigating incident card around 18s.",
+      "evidence": "V03",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q04",
+      "finding": "Angled UI panels become larger readable crops; exact 3D motion, easing and transition timing are unresolved at 1 fps.",
+      "evidence": "V03–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q05",
+      "finding": "Dark error montage changes to bright organized UI, then plain title cards.",
+      "evidence": "V02,V03,V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q06",
+      "finding": "Old-display texture contrasts with a clean white app and blue-pink background light.",
+      "evidence": "V01,V03",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q07",
+      "finding": "Incident text and code are enlarged, but fast cropped evidence leaves limited reading time. The CTA is held across several samples.",
+      "evidence": "V04–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q08",
+      "finding": "Voice delivery is unverified.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "No validated listening.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q09",
+      "finding": "Music character and structure are unverified.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "No validated listening.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q10",
+      "finding": "Effects and their sources are unverified.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "No validated listening; waveform peaks do not identify effects.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q11",
+      "finding": "Sound sync is unverified.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "No validated listening or paired audiovisual timing.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q12",
+      "finding": "Historical-looking screens and polished UI views are visible; capture versus reconstruction and production tools are unknown.",
+      "evidence": "V01–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q13",
+      "finding": "Source duration 38.16 s; Watch metadata 1920 × 1080. Frame rate, audio clipping and export quality not checked here.",
+      "evidence": "Whole film",
+      "status": "supported",
+      "reason": "Parent source metadata supports duration and dimensions; visual review is sampled.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q14",
+      "finding": "Password-reset failures, investigation, diff and resolved status form a readable silent story for a technical viewer.",
+      "evidence": "V02–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q15",
+      "finding": "Crops isolate incident title, root cause, code and status in sequence.",
+      "evidence": "V03–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q16",
+      "finding": "The middle shows several evidence types in about 11s, while the ending leaves roughly 7s for promise, URL and logo.",
+      "evidence": "V04–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q17",
+      "finding": "The broken-password problem is carried to a visible code change and resolved state.",
+      "evidence": "V02,V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q18",
+      "finding": "The change from dark errors to bright order may imply relief and control; emotional effect is unmeasured.",
+      "evidence": "V02,V03",
+      "status": "uncertain",
+      "reason": "Interpretation of color and layout.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q19",
+      "finding": "Password-reset and mailer details repeat across error, evidence and fix states.",
+      "evidence": "V02–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q20",
+      "finding": "UI shows root cause, code change and resolution. It does not verify automatic execution, production safety or the never-breaks promise.",
+      "evidence": "V04–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q21",
+      "finding": "The small patterned mark and serif Interfere name close an otherwise restrained incident workflow.",
+      "evidence": "V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q22",
+      "finding": "The opening technical montage could be shortened to reach the specific incident sooner.",
+      "evidence": "V01,V02",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "Start with the positive chat and immediate password-reset failure, then compare time to explain the tool."
+    },
+    {
+      "id": "Q23",
+      "finding": "For Tin, keep one failure and one asset consistent through diagnosis, correction and result.",
+      "evidence": "V02–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "Show a rejected post, the exact issue, one edited sentence and the approved output."
+    },
+    {
+      "id": "Q24",
+      "finding": "No human new-viewer test was performed.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "The product summary is this model’s film-only reading.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q25",
+      "finding": "Mobile preview and accessibility checks were not performed.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "Contact sheets are evidence views, not a stated mobile preview or compliance test.",
+      "experiment": "none"
+    }
+  ],
+  "elements": [
+    {
+      "kind": "ui",
+      "name": "error logs",
+      "events": [
+        "V02"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "chart",
+      "events": [
+        "V02"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "form",
+      "events": [
+        "V02"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "incident feed",
+      "events": [
+        "V04"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "code diff",
+      "events": [
+        "V05"
+      ]
+    },
+    {
+      "kind": "motion",
+      "name": "angled UI presentation",
+      "events": [
+        "V03"
+      ]
+    },
+    {
+      "kind": "texture",
+      "name": "old display texture",
+      "events": [
+        "V01"
+      ]
+    }
+  ],
+  "lessons": {
+    "keep": "Carry one named incident through evidence, code change and resolved state.",
+    "try": [
+      "Begin at the positive team message and failure instead of the abstract technical montage, then check first-view understanding.",
+      "For Tin, show one rejected draft, highlight the exact issue, apply one visible correction and show the approved result."
+    ],
+    "avoid": "Letting a resolved label imply proven autonomous repair or a guarantee that software never breaks.",
+    "open": "Actual approval and execution steps, accuracy of the shown fix, source of footage and audio design remain unverified."
+  },
+  "comparison": {
+    "story": "Technical atmosphere → confidence → failure → investigation → fix → resolved → CTA.",
+    "motion": "Tilted/cropped interfaces and larger evidence views; exact motion unverified.",
+    "sound": "No validated listening; score, effects and sync unknown.",
+    "texture": "Old display imagery, dark errors and bright clean incident UI.",
+    "lesson": "A single repeated failure makes a complex developer workflow easier to follow."
+  },
+  "reviewer_model": "gpt-6-astra",
+  "scope": "sampled visual and story review; ASR and measured signal support; no validated audio listening",
+  "viewed_evidence": [
+    "technical-review-2026-10-19/deep-review/motion/114/timeline-00.jpg",
+    "technical-review-2026-10-19/deep-review/motion/114/timeline-01.jpg"
+  ],
+  "closer_windows": [],
+  "sound": [
+    {
+      "id": "A01",
+      "start": 0,
+      "end": 38.16,
+      "layer": "unknown",
+      "detail": "No validated audio listening. Voice delivery, music, effects and mix are unknown.",
+      "visual_relation": "All scenes; sound alignment unverified",
+      "evidence": "No actual audio perception in this review; prepared audio files are not listening evidence."
+    }
+  ]
+}

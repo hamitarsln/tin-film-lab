@@ -1,0 +1,386 @@
+{
+  "id": 146,
+  "product_from_film": "Kosh presents a global financial account for freelancers, creators and founders to receive, hold, spend and send money.",
+  "explains_well": "The film links account opening to payment receipt, a card, spending, investment and transfer states.",
+  "unclear": "Eligibility, fees, custody, yield conditions, investment risk and actual transfer performance are not established.",
+  "product_type": "global financial account",
+  "scenario": "Open a USD account, receive client payment, spend through a card, invest or send funds and receive rewards.",
+  "product_clear_time": 33,
+  "product_clear_basis": "Global Financial Account text appears with a phone balance screen at 33s; audience labels follow at 35–37s.",
+  "scenes": [
+    {
+      "start": 0,
+      "end": 7,
+      "action": "Two silhouetted presenters enter a studio, then appear lit. 10,000, Designers and Freelancers appear with portraits and a globe.",
+      "design": "Dark studio, blue field, white text and floating circular faces.",
+      "purpose": "Introduce founders and a cross-country audience claim.",
+      "evidence": "1 fps source samples in 0–7s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V01"
+    },
+    {
+      "start": 7,
+      "end": 31,
+      "action": "Presenters continue; Work is global and Money is global overlays appear, followed by Receive, Hold and Use states.",
+      "design": "Stable two-person framing, globe and currency symbol.",
+      "purpose": "Frame payment friction and the intended account tasks; details are in ASR draft.",
+      "evidence": "1 fps source samples in 7–31s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V02"
+    },
+    {
+      "start": 31,
+      "end": 42,
+      "action": "Brighter blue-backed presenters lead to Global Financial Account, phone UI, audience labels and an Open an account selector with USD account details.",
+      "design": "Dark phone interface, white account card and country symbols.",
+      "purpose": "Name the product and show account setup.",
+      "evidence": "1 fps source samples in 31–42s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V03"
+    },
+    {
+      "start": 42,
+      "end": 53,
+      "action": "Client and platform icons lead to Payment received, a card and software-service icons around a presenter.",
+      "design": "Green check, dark payment card and floating application marks.",
+      "purpose": "Show receiving money and spending it on work tools.",
+      "evidence": "1 fps source samples in 42–53s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V04"
+    },
+    {
+      "start": 53,
+      "end": 63,
+      "action": "An account-value overlay rises beside a presenter, then an investment graph and stock/crypto symbols appear.",
+      "design": "Changing white balance numbers and green chart.",
+      "purpose": "Present growth and investment options as claims, without terms.",
+      "evidence": "1 fps source samples in 53–63s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V05"
+    },
+    {
+      "start": 63,
+      "end": 75,
+      "action": "Recipient portraits lead to a named payment and Payment sent. A scratch-card reward reveals $5.75 with fragments around it.",
+      "design": "Transfer card, green check and reward reveal.",
+      "purpose": "Show sending funds and cashback-like rewards.",
+      "evidence": "1 fps source samples in 63–75s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V06"
+    },
+    {
+      "start": 75,
+      "end": 87,
+      "action": "Presenter explanation leads to multiple currency symbols and Works Globally by default above a globe.",
+      "design": "Blue field, circular currency icons and dotted globe.",
+      "purpose": "Frame the underlying global-money concept; ASR mentions stablecoins with recognition errors.",
+      "evidence": "1 fps source samples in 75–87s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V07"
+    },
+    {
+      "start": 87,
+      "end": 99,
+      "action": "Two presenters return with 10,000 behind them, then Not a bank, Not a wallet, phone account and Global work text.",
+      "design": "Large white count and simple positioning cards.",
+      "purpose": "Recap the audience and account positioning.",
+      "evidence": "1 fps source samples in 87–99s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V08"
+    },
+    {
+      "start": 99,
+      "end": 104.56,
+      "action": "Kosh wordmark, app-store buttons, small URL and fine-print-like text close on blue.",
+      "design": "White logo and small footer text.",
+      "purpose": "Give download destinations; footer conditions are not legible at sampled size.",
+      "evidence": "1 fps source samples in 99–104.56s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V09"
+    }
+  ],
+  "sound": [
+    {
+      "id": "A01",
+      "start": 0,
+      "end": 104.56,
+      "layer": "ASR draft",
+      "detail": "Draft describes cross-border payout difficulty, receiving/holding/using money, a financial account, card, investing, sending, rewards and stablecoin infrastructure. It misrecognizes the brand and USD, and says 4,000 near the start while visible text shows 10,000; discrepancy left unresolved. No validated listening.",
+      "visual_relation": "V01–V08; topic support only, no voice or timing quality assessment.",
+      "evidence": "technical-review-2026-10-19/deep-review/audio/146-speech.json; all timestamped segment text inspected."
+    }
+  ],
+  "categories": [
+    {
+      "id": "Q01",
+      "finding": "Founder audience story → payment problem → account → receive/spend → grow/invest/send → rewards → global positioning → download.",
+      "evidence": "V01–V09",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q02",
+      "finding": "Two silhouettes walk into a blue-lit studio before the presenters are revealed; the service is not yet identified.",
+      "evidence": "V01",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q03",
+      "finding": "Global financial account becomes clear at 33s, followed by freelancers, creators and founders labels.",
+      "evidence": "V03",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q04",
+      "finding": "Portrait/icon positions, account values, currency symbols and reward states change. Exact paths, easing and processing speed are unverified.",
+      "evidence": "V01,V04–V07",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q05",
+      "finding": "Presenter footage alternates with blue graphic cards, maintaining one color system and repeated account UI.",
+      "evidence": "V01–V09",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q06",
+      "finding": "Dark studio surfaces, blue spotlight gradients, soft-edged UI and dotted globe form a restrained financial style.",
+      "evidence": "V02–V09",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q07",
+      "finding": "Main task labels and balances are large; account details and end-card fine print are small in sampled evidence.",
+      "evidence": "V03,V05,V09",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q08",
+      "finding": "ASR supports the task narrative but contains brand/currency errors and a 4,000-versus-visible-10,000 discrepancy. Delivery is unverified.",
+      "evidence": "A01",
+      "status": "uncertain",
+      "reason": "Transcript-only support.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q09",
+      "finding": "Music character and structure are unverified.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "No validated listening.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q10",
+      "finding": "Effects and their sources are unverified.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "No validated listening; waveform peaks do not identify effects.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q11",
+      "finding": "Sound sync is unverified.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "No validated listening or paired audiovisual timing.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q12",
+      "finding": "Presenter recordings are combined with phone, card, graph and icon graphics. Actual app capture versus illustrative animation is not known.",
+      "evidence": "V03–V08",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q13",
+      "finding": "Source duration 104.56 s; Watch metadata 1920 × 1080. Frame rate, audio clipping and export quality not checked here.",
+      "evidence": "Whole film",
+      "status": "supported",
+      "reason": "Parent source metadata supports duration and dimensions; visual review is sampled.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q14",
+      "finding": "Account setup, payment received, card, transfer and reward states are understandable silently; infrastructure and terms depend on speech or small print.",
+      "evidence": "V03–V07",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q15",
+      "finding": "Large account or payment cards sit beside presenters, isolating one task at a time.",
+      "evidence": "V04–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q16",
+      "finding": "The first account UI arrives after about 33s. Later many financial capabilities fit into 42s, leaving little room for conditions.",
+      "evidence": "V02–V07",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q17",
+      "finding": "Receive, Hold and Use framing is followed by visible receipt, account and card states, with additional investment and rewards claims.",
+      "evidence": "V02–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q18",
+      "finding": "Founder origin story and simple green success marks may suggest relief from payment friction; audience response is unmeasured.",
+      "evidence": "V02,V04,V06",
+      "status": "uncertain",
+      "reason": "Interpretation of framing.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q19",
+      "finding": "Blue background, repeated presenters, account values and green success marks link the feature sequence.",
+      "evidence": "V03–V09",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q20",
+      "finding": "Account and payment states are shown. Global availability, instant settlement, yield, investment access and rewards are film claims, not independently checked behavior.",
+      "evidence": "V03–V08",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q21",
+      "finding": "The repeated global-work audience and dark-blue account presentation give context; much icon/globe imagery is generic.",
+      "evidence": "V03,V07,V08",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q22",
+      "finding": "Shortening the founder setup could give more time to one complete receive-to-spend example and its conditions.",
+      "evidence": "V02,V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "Show one client payment reaching the account and funding a tool purchase with fees and elapsed time stated."
+    },
+    {
+      "id": "Q23",
+      "finding": "For Tin, connect broad capability claims through one user’s concrete asset and final result.",
+      "evidence": "V03,V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "Follow one freelancer brief through creation, approval and publishing instead of separate feature icons."
+    },
+    {
+      "id": "Q24",
+      "finding": "No human new-viewer test was performed.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "The product summary is this model’s film-only reading.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q25",
+      "finding": "Mobile preview and accessibility checks were not performed.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "Contact sheets are evidence views, not a stated mobile preview or compliance test.",
+      "experiment": "none"
+    }
+  ],
+  "elements": [
+    {
+      "kind": "ui",
+      "name": "phone account",
+      "events": [
+        "V03",
+        "V08"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "account selector",
+      "events": [
+        "V03"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "payment confirmation",
+      "events": [
+        "V04",
+        "V06"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "payment card",
+      "events": [
+        "V04"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "investment chart",
+      "events": [
+        "V05"
+      ]
+    },
+    {
+      "kind": "motion",
+      "name": "reward reveal",
+      "events": [
+        "V06"
+      ]
+    },
+    {
+      "kind": "texture",
+      "name": "blue studio light",
+      "events": [
+        "V03",
+        "V04",
+        "V08"
+      ]
+    }
+  ],
+  "lessons": {
+    "keep": "Use a clear success state after each money action so the sequence has visible outcomes.",
+    "try": [
+      "Shorten the founder setup and trace one client payment through receipt to a work-tool purchase, stating fees and elapsed time.",
+      "For Tin, follow one freelancer brief through creation, approval and publishing with a visible saved state after each step."
+    ],
+    "avoid": "Letting rising balance animation imply assured returns or universal account availability.",
+    "open": "Eligibility, fees, custody, yield and reward terms, transfer speed, transcript discrepancy and audio remain unverified."
+  },
+  "comparison": {
+    "story": "Founder pain → account → receive/spend → growth/send/rewards → global positioning → download.",
+    "motion": "Floating icons, changing balances and reward reveal; actual processing time unverified.",
+    "sound": "ASR topic support with errors; no validated listening.",
+    "texture": "Dark-blue studio, phone UI, cards and dotted globe.",
+    "lesson": "Task-by-task success states clarify a broad financial feature set."
+  },
+  "reviewer_model": "gpt-6-astra",
+  "scope": "sampled visual and story review; ASR and measured signal support; no validated audio listening",
+  "viewed_evidence": [
+    "technical-review-2026-10-19/deep-review/motion/146/timeline-00.jpg",
+    "technical-review-2026-10-19/deep-review/motion/146/timeline-01.jpg",
+    "technical-review-2026-10-19/deep-review/motion/146/timeline-02.jpg",
+    "technical-review-2026-10-19/deep-review/motion/146/timeline-03.jpg"
+  ],
+  "closer_windows": []
+}

@@ -1,0 +1,354 @@
+{
+  "id": 357,
+  "viewed_evidence": [
+    "technical-review-2026-10-19/deep-review/motion/357/timeline-00.jpg",
+    "technical-review-2026-10-19/deep-review/motion/357/timeline-01.jpg",
+    "technical-review-2026-10-19/deep-review/motion/357/timeline-02.jpg",
+    "astra-review-2026-10-20/evidence/group-1/357/28.jpg",
+    "astra-review-2026-10-20/evidence/group-1/357/29.jpg",
+    "astra-review-2026-10-20/evidence/group-1/357/30.jpg"
+  ],
+  "product_from_film": "Grade ties creator and other worker payments to measured performance.",
+  "explains_well": "A rate field leads to creator performance cards and payment confirmations, making the payment idea visible.",
+  "unclear": "The shown $4 per 1,000 views does not explain the following 25K-view/$1,000 payout example; the film may be switching examples without saying so.",
+  "product_type": "Performance-based payments and payroll",
+  "scenario": "Compare creator reach, set a view-based rate, pay creators, then extend the idea to commissions and recruitment fees.",
+  "product_clear_time": 28,
+  "product_clear_basis": "The Grade identity is followed by a $4 per 1,000 views rate field at 28–29s.",
+  "scenes": [
+    {
+      "start": 0,
+      "end": 9,
+      "action": "A seated presenter is joined by three phone clips with 400, 124K and 46M view counts. The highest-view example returns beside him.",
+      "design": "Dark interview footage and white phone-card layout.",
+      "purpose": "Ask how content value should be paid; the equal-payment twist is in ASR.",
+      "evidence": "1 fps source samples in 0–9s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V01"
+    },
+    {
+      "start": 9,
+      "end": 26,
+      "action": "$650 Billion and every year introduce an ad collage with Failed labels. A second presenter appears, then Spend becomes Spend = Performance and Grade is named.",
+      "design": "Oversized type, green collage and bordered presenter shots.",
+      "purpose": "Frame wasted spending and introduce the proposed rule.",
+      "evidence": "1 fps source samples in 9–26s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V02"
+    },
+    {
+      "start": 26,
+      "end": 36,
+      "action": "A rate form shows $4 per 1,000 views through the Proceed state. Creator cards show views and payouts, including 25K and $1,000. Pay controls change into payment-result cards.",
+      "design": "Isolated form, grid of creator cards and multiple colored cursors.",
+      "purpose": "Show rate setting and payout flow; the numerical link is not explained.",
+      "evidence": "1 fps source samples in 26–36s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V03"
+    },
+    {
+      "start": 36,
+      "end": 44,
+      "action": "Anywhere, any currency and payment method cards alternate with the presenter, followed by It is already happening.",
+      "design": "Green/white checkerboard and large type.",
+      "purpose": "Expand payment reach and transition to other roles.",
+      "evidence": "1 fps source samples in 36–44s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V04"
+    },
+    {
+      "start": 44,
+      "end": 59,
+      "action": "Sales and affiliate commission fields change percentages and save. Recruiter cards follow, then rising earnings labels, a world map and $50 Trillion.",
+      "design": "Small commission forms, person cards and green map field.",
+      "purpose": "Extend the performance-pay thesis beyond creators.",
+      "evidence": "1 fps source samples in 44–59s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V05"
+    },
+    {
+      "start": 59,
+      "end": 75,
+      "action": "Presenter footage frames the future of work. Marketing, Creators and pay for performance titles lead to customer logos and a 185 Million+ Customers statement.",
+      "design": "Interview close-ups, simple text and logo overlays.",
+      "purpose": "Return to the initial audience and add scale claims.",
+      "evidence": "1 fps source samples in 59–75s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V06"
+    },
+    {
+      "start": 75,
+      "end": 80.66,
+      "action": "The future belongs to those who perform changes to those who use grade, followed by usegrade.com and the mark.",
+      "design": "Centered type and green button/brand field.",
+      "purpose": "Close with a wordplay CTA.",
+      "evidence": "1 fps source samples in 75–80.66s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V07"
+    }
+  ],
+  "sound": [
+    {
+      "id": "A01",
+      "start": 0,
+      "end": 80.66,
+      "layer": "ASR draft",
+      "detail": "Draft supports the opening payment question and equal-pay reveal, advertising-waste premise, rate/tracking/payment explanation, commission examples and payroll ambition. A few phrases are garbled; the 185 million statement concerns brands serving customers, not necessarily Grade users. Delivery, music, effects and sync are unverified.",
+      "visual_relation": "V01–V07; script explains the opening comparison and market expansion.",
+      "evidence": "357-speech.json local draft; no validated listening."
+    }
+  ],
+  "categories": [
+    {
+      "id": "Q01",
+      "finding": "Unequal reach/equal pay → waste → performance rate → creator payouts → other commissions → payroll ambition.",
+      "evidence": "V01–V07",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q02",
+      "finding": "A seated presenter appears and phone clips join him; the opening question depends on speech draft support.",
+      "evidence": "V01",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q03",
+      "finding": "Marketers paying creators are the initial audience; the film later broadens to performance payroll. The rate form makes the mechanism clear at 28s.",
+      "evidence": "V03,V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q04",
+      "finding": "Cards multiply, values change, cursors approach payment buttons and oversized text changes scale/position. Exact transitions/easing are unverified.",
+      "evidence": "V01–V07",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q05",
+      "finding": "Presenter shots alternate with white/green graphic demonstrations. Repeated card grids carry the payroll idea across roles.",
+      "evidence": "V02–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q06",
+      "finding": "Dark warm interview footage contrasts with clean green and white graphic fields.",
+      "evidence": "V01–V07",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q07",
+      "finding": "Rate and payout labels carry essential meaning. Full frames at 28–30s show $4/1,000 views followed by 25K views/$1,000; a changed rate or other basis is not stated.",
+      "evidence": "V03",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q08",
+      "finding": "ASR supports a question, problem argument, demo explanation and market ambition; delivery and sound design remain unknown.",
+      "evidence": "A01",
+      "status": "uncertain",
+      "reason": "Text support only; some phrases garbled.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q09",
+      "finding": "Music character and structure are unverified.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "No validated listening.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q10",
+      "finding": "Effects and their sources are unverified.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "No validated listening; waveform peaks do not identify effects.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q11",
+      "finding": "Sound sync is unverified.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "No validated listening or paired audiovisual timing.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q12",
+      "finding": "Presenter footage, social-video examples, forms, cards and maps are combined. Asset origin and live-product status are unverified.",
+      "evidence": "V01–V07",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q13",
+      "finding": "Source duration 80.66 s; Watch metadata 1920 × 1080. Frame rate, audio clipping and export quality not checked here.",
+      "evidence": "Whole film",
+      "status": "supported",
+      "reason": "Parent source metadata supports duration and dimensions; visual review is sampled.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q14",
+      "finding": "Rate setting and payment states are visible, but the equal-pay twist and auto-tracking claim rely on speech support.",
+      "evidence": "V01,V03",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q15",
+      "finding": "Large figures anchor each argument; green buttons and payout amounts guide the demo. Multiple simultaneous cards reduce attention to one calculation.",
+      "evidence": "V02–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q16",
+      "finding": "The central creator demo occupies about 10s before expanding into global reach and other job types. A single calculation deserves a hold.",
+      "evidence": "V03–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q17",
+      "finding": "Different views lead to different payouts, answering the opening value question in principle. The displayed rate-to-payout math is unclear.",
+      "evidence": "V01,V03",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q18",
+      "finding": "The opening question/reversal suggests surprise, then payment confirmations suggest control; viewer response is unmeasured.",
+      "evidence": "V01–V03",
+      "status": "uncertain",
+      "reason": "Visual/script interpretation only.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q19",
+      "finding": "Green/white styling and worker cards unify the roles, but no initial creator is clearly tracked through the final payout.",
+      "evidence": "V01,V03,V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q20",
+      "finding": "Market size, waste, automatic tracking, reach and payment claims are unverified. The numerical discontinuity is a film explanation issue, not a verified product defect.",
+      "evidence": "V02–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q21",
+      "finding": "The rate-per-view form gives Grade specificity; broad future-of-work text is less distinctive.",
+      "evidence": "V03,V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q22",
+      "finding": "Use one mathematically consistent example.",
+      "evidence": "V03",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "Keep a creator visible while $4 × 25 thousand views produces $100, then show the matching payment result or explain any added basis."
+    },
+    {
+      "id": "Q23",
+      "finding": "For Tin, connect a declared metric to one output decision.",
+      "evidence": "V03",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "Show one campaign metric, its rule and the resulting budget/action on the same card before expanding to a grid."
+    },
+    {
+      "id": "Q24",
+      "finding": "No human new-viewer test was performed.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "The product summary is this model’s film-only reading.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q25",
+      "finding": "Mobile preview and accessibility checks were not performed.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "Contact sheets are evidence views, not a stated mobile preview or compliance test.",
+      "experiment": "none"
+    }
+  ],
+  "elements": [
+    {
+      "kind": "ui",
+      "name": "phone shell",
+      "events": [
+        "V01"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "form",
+      "events": [
+        "V03",
+        "V05"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "payment card",
+      "events": [
+        "V03"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "map",
+      "events": [
+        "V05"
+      ]
+    },
+    {
+      "kind": "motion",
+      "name": "changing numbers",
+      "events": [
+        "V03",
+        "V05"
+      ]
+    }
+  ],
+  "lessons": {
+    "keep": "Put the payment rule directly before the worker payout cards.",
+    "try": [
+      "Show one consistent rate × performance calculation and matching payment.",
+      "For Tin, connect one metric and rule to a visible campaign action before multiplying examples."
+    ],
+    "avoid": "Switching numerical examples without explaining the changed basis.",
+    "open": "Tracking method, payout basis, actual payments, scale claims and all audio qualities remain unverified."
+  },
+  "comparison": {
+    "story": "Payment-value question → waste → rate/payout demo → broader payroll.",
+    "motion": "Changing figures, multiplying cards and large type between presenter shots.",
+    "sound": "Coherent ASR argument with some errors; no validated listening.",
+    "texture": "Dark interviews against green/white forms and cards.",
+    "lesson": "A calculation-based demo needs numerical continuity across its rule and result."
+  },
+  "reviewer_model": "gpt-6-astra",
+  "scope": "sampled visual and story review; ASR and measured signal support; no validated audio listening",
+  "closer_windows": []
+}

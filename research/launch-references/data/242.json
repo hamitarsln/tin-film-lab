@@ -1,0 +1,361 @@
+{
+  "id": 242,
+  "reviewer_model": "gpt-6-astra",
+  "scope": "sampled visual and story review; ASR and measured signal support; no validated audio listening",
+  "viewed_evidence": [
+    "technical-review-2026-10-19/deep-review/motion/242/timeline-00.jpg",
+    "technical-review-2026-10-19/deep-review/motion/242/timeline-01.jpg",
+    "technical-review-2026-10-19/deep-review/motion/242/timeline-02.jpg",
+    "technical-review-2026-10-19/deep-review/motion/242/timeline-03.jpg",
+    "technical-review-2026-10-19/deep-review/audio/242-speech.json"
+  ],
+  "closer_windows": [],
+  "product_from_film": "Andco presents agents that retrieve case documents for personal injury law firms.",
+  "explains_well": "A car-accident example makes the need for police, medical and insurance records concrete before the product appears.",
+  "unclear": "The film shows follow-up activity but does not clearly show how a lawyer starts a request or checks that the returned record set is complete.",
+  "product_type": "legal document operations",
+  "scenario": "Collect records across communication channels for a personal injury case.",
+  "product_clear_time": 13,
+  "product_clear_basis": "Andco is introduced as the answer to the record-retrieval delay.",
+  "scenes": [
+    {
+      "id": "V01",
+      "start": 0,
+      "end": 14,
+      "action": "Three founders introduce an accident scenario. Black-and-white crash, police, doctor and paper images accompany large serif words. A 3-to-6-month graphic leads to the Andco logo and Chase justice, not paper.",
+      "design": "Warm founder footage contrasts with monochrome problem inserts.",
+      "purpose": "Explain the human need and time problem.",
+      "evidence": "Visible chronological 1 fps samples, source 0–14s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V02",
+      "start": 14,
+      "end": 28,
+      "action": "A founder describes legal staff work. Phone-hold and fax footage show the repeated steps, with for hours and 3 times enlarged. The three-person shot returns.",
+      "design": "Monochrome office inserts and large duration/repetition words.",
+      "purpose": "Make document chasing feel repetitive.",
+      "evidence": "Visible chronological 1 fps samples, source 14–28s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V03",
+      "start": 28,
+      "end": 43,
+      "action": "Another founder introduces agents. Mail, Email, Phone and Fax pills stack beside him. A white activity log gains request and follow-up rows.",
+      "design": "Colored channel labels and a compact timeline-like log.",
+      "purpose": "Explain multi-channel follow-up.",
+      "evidence": "Visible chronological 1 fps samples, source 28–43s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V04",
+      "start": 43,
+      "end": 54,
+      "action": "The founder returns with captions about case documents and no manual work. Law-firm footage shows a beach portrait, branded shirt, office sign, group and awards.",
+      "design": "Speaker close-up followed by customer-context montage.",
+      "purpose": "Introduce a named customer as supporting evidence.",
+      "evidence": "Visible chronological 1 fps samples, source 43–54s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V05",
+      "start": 54,
+      "end": 66,
+      "action": "A framed webcam testimonial labeled Jon Eberst, Founder, The Eberst Law Firm describes faster intake, records and settlement work.",
+      "design": "Simple video-call frame and captions.",
+      "purpose": "Provide a customer speed claim.",
+      "evidence": "Visible chronological 1 fps samples, source 54–66s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V06",
+      "start": 66,
+      "end": 87,
+      "action": "A founder discusses helping people and winning cases. The group returns, then a US map and thousands-of-requests copy precede a final group shot.",
+      "design": "Warm interview setting, spare map and text.",
+      "purpose": "Broaden the mission and adoption claim.",
+      "evidence": "Visible chronological 1 fps samples, source 66–87s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V07",
+      "start": 87,
+      "end": 95.978,
+      "action": "The Andco icon and wordmark appear with Accelerating justice, hold, and end on a black sample.",
+      "design": "Minimal black mark on white.",
+      "purpose": "Close the mission statement.",
+      "evidence": "Visible chronological 1 fps samples, source 87–95.978s; boundary approximate; exact motion between samples unverified."
+    }
+  ],
+  "sound": [
+    {
+      "id": "A01",
+      "start": 0,
+      "end": 95.978,
+      "layer": "unknown",
+      "detail": "No validated direct audio listening was performed. Music, speech delivery, effects, mix and sync remain unknown, not absent.",
+      "visual_relation": "All visual scenes; audiovisual alignment unverified",
+      "evidence": "Visual samples only; no actual audio range supplied to this reviewer."
+    },
+    {
+      "id": "A02",
+      "start": 0.07,
+      "end": 89.65,
+      "layer": "ASR draft",
+      "detail": "The ASR draft explains accident-related records, long manual follow-up, agents across several channels, a customer speed testimonial and the goal of helping lawyers handle more cases. It supports the problem-to-testimonial structure. Brand and some legal phrases are misrecognized; speed, adoption and delivery are not verified.",
+      "visual_relation": "Story text support; exact audiovisual alignment and delivery unverified.",
+      "evidence": "technical-review-2026-10-19/deep-review/audio/242-speech.json; local faster-whisper base CPU int8 draft; VAD candidates only, recognition errors possible."
+    }
+  ],
+  "categories": [
+    {
+      "id": "Q01",
+      "finding": "Accident and missing records lead to manual chasing, agents across channels, a customer testimonial and a justice mission.",
+      "evidence": "V01–V07",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q02",
+      "finding": "The accident scenario immediately explains why document speed matters to a person.",
+      "evidence": "V01",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q03",
+      "finding": "The named solution appears around 13 s after the record-delay setup; the agent mechanism follows later.",
+      "evidence": "V01,V03",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q04",
+      "finding": "Large words appear over footage, channel pills stack and activity rows accumulate. Exact transition paths are unverified.",
+      "evidence": "V01–V03",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q05",
+      "finding": "Repeated founder shots connect the problem inserts and interface example; the customer montage leads clearly into the testimonial.",
+      "evidence": "V01–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q06",
+      "finding": "Warm people footage contrasts with monochrome paperwork scenes and clean white software graphics.",
+      "evidence": "V01–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q07",
+      "finding": "Key durations and channel names are large. The activity log is much smaller and needs a closer crop to inspect exact actions.",
+      "evidence": "V01–V03",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q08",
+      "finding": "The ASR draft explains accident-related records, long manual follow-up, agents across several channels, a customer speed testimonial and the goal of helping lawyers handle more cases. It supports the problem-to-testimonial structure. Brand and some legal phrases are misrecognized; speed, adoption and delivery are not verified.",
+      "evidence": "A02",
+      "status": "uncertain",
+      "reason": "ASR text only; no validated listening, delivery or voice origin.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q09",
+      "finding": "Voice delivery, music, effects and audiovisual alignment were not established by this visual pass.",
+      "evidence": "A01",
+      "status": "not checked",
+      "reason": "No validated direct audio listening input.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q10",
+      "finding": "Voice delivery, music, effects and audiovisual alignment were not established by this visual pass.",
+      "evidence": "A01",
+      "status": "not checked",
+      "reason": "No validated direct audio listening input.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q11",
+      "finding": "Voice delivery, music, effects and audiovisual alignment were not established by this visual pass.",
+      "evidence": "A01",
+      "status": "not checked",
+      "reason": "No validated direct audio listening input.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q12",
+      "finding": "Founder recording, illustrative accident/office footage, customer montage and webcam video are combined; asset provenance is unknown.",
+      "evidence": "V01–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q13",
+      "finding": "Manifest duration 95.978s; indexed dimensions 1920×1080. Source unchanged flag recorded; fresh encoding and audio clipping checks not run.",
+      "evidence": "Group manifest",
+      "status": "uncertain",
+      "reason": "Inherited technical metadata; no fresh media probe in this review.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q14",
+      "finding": "Captions and large words support the argument without listening; the actual request workflow remains brief.",
+      "evidence": "V01–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q15",
+      "finding": "Selective large words emphasize delay and repetition, while the product log receives less visual weight than the people.",
+      "evidence": "V01–V03",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q16",
+      "finding": "The problem takes about 28 s; the mechanism gets about 15 s and customer/mission material fills much of the second half.",
+      "evidence": "V01–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q17",
+      "finding": "The stated months-to-days improvement receives a named testimonial, but no timed retrieval case is followed on screen.",
+      "evidence": "V01,V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q18",
+      "finding": "The accident framing and lawyer mission suggest urgency and care; the customer section adds reassurance. These are interpretations.",
+      "evidence": "V01,V05,V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q19",
+      "finding": "The communication channels connect to one activity-log concept, but no single case is carried from initial request to a complete document packet.",
+      "evidence": "V03,V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q20",
+      "finding": "The 10x testimonial and request-volume claims are presented without a measurement basis. No-manual-work wording does not show exceptions or a completeness check.",
+      "evidence": "V04–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q21",
+      "finding": "Fax, phone and mail alongside email make the operational problem specific to record retrieval.",
+      "evidence": "V02,V03",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q22",
+      "finding": "Show one case request, its missing-record checklist and the final received packet before the testimonial.",
+      "evidence": "V03–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q23",
+      "finding": "Tin can make an abstract workflow concrete through a single user situation, then show the actual request and final artifact.",
+      "evidence": "V01,V03",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q24",
+      "finding": "Andco presents agents that retrieve case documents for personal injury law firms.",
+      "evidence": "Model reading from inspected images",
+      "status": "uncertain",
+      "reason": "Model-only new-viewer interpretation; no human test.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q25",
+      "finding": "Contact sheets inspected at displayed size; a phone-size playback, caption audit, flash audit and formal accessibility check were not performed.",
+      "evidence": "Viewed sheets",
+      "status": "not checked",
+      "reason": "Full-size moving-image and device checks unavailable in this pass.",
+      "experiment": "none"
+    }
+  ],
+  "lessons": {
+    "keep": "Start with a specific human situation that explains why the workflow matters.",
+    "avoid": "Avoid letting testimonials replace a readable task start and completion check.",
+    "open": "Retrieval setup, record completeness, exception handling, customer metrics, volume claims and all audio remain unverified.",
+    "try": [
+      "Open a Tin film with a launch owner missing campaign assets, then show the exact collection request and delivered set.",
+      "Pair a customer speed claim with a visible before-and-after case timeline and a clear measurement scope."
+    ]
+  },
+  "comparison": {
+    "story": "Explain the human need and time problem. → Make document chasing feel repetitive. → Explain multi-channel follow-up. → Introduce a named customer as supporting evidence. → Provide a customer speed claim. → Broaden the mission and adoption claim. → Close the mission statement.",
+    "motion": "Large words appear over footage, channel pills stack and activity rows accumulate. Exact transition paths are unverified. Sampling scope: 1 fps unless a closer window is recorded.",
+    "sound": "No validated listening; unknown.",
+    "texture": "Warm founder footage contrasts with monochrome problem inserts.; Monochrome office inserts and large duration/repetition words.; Colored channel labels and a compact timeline-like log.; Speaker close-up followed by customer-context montage.; Simple video-call frame and captions.; Warm interview setting, spare map and text.; Minimal black mark on white.",
+    "lesson": "Start with a specific human situation that explains why the workflow matters."
+  },
+  "elements": [
+    {
+      "kind": "ui",
+      "name": "activity log",
+      "events": [
+        "V03"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "communication channel labels",
+      "events": [
+        "V03"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "video call frame",
+      "events": [
+        "V05"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "map",
+      "events": [
+        "V06"
+      ]
+    },
+    {
+      "kind": "texture",
+      "name": "black and white office footage",
+      "events": [
+        "V01",
+        "V02"
+      ]
+    }
+  ]
+}

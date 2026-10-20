@@ -1,0 +1,387 @@
+{
+  "id": 367,
+  "viewed_evidence": [
+    "technical-review-2026-10-19/deep-review/motion/367/timeline-00.jpg",
+    "technical-review-2026-10-19/deep-review/motion/367/timeline-01.jpg",
+    "technical-review-2026-10-19/deep-review/motion/367/timeline-02.jpg",
+    "astra-review-2026-10-20/evidence/group-3/367/dense19-23.jpg",
+    "technical-review-2026-10-19/deep-review/audio/367-speech.json"
+  ],
+  "product_from_film": "Lab is presented as a way to create environments and train your own models.",
+  "explains_well": "A recurring upright slab ties changing worlds to the theme of opening access to model creation.",
+  "unclear": "The film does not show what an environment contains, how training starts or what trained model result the user receives.",
+  "product_type": "AI training platform",
+  "scenario": "Create environments and train models",
+  "product_clear_time": 32,
+  "product_clear_basis": "Train your own models follows Create your own environments; Lab name appears near 60 s.",
+  "scenes": [
+    {
+      "start": 0,
+      "end": 4,
+      "action": "A bright sun emerges over a dark geometric ridge under clouds.",
+      "design": "Monochrome sky and lens-like glow.",
+      "purpose": "Establish frontier mood",
+      "id": "V01",
+      "evidence": "Visible 1 fps samples, source 0–4s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 4,
+      "end": 21.5,
+      "action": "A black upright slab remains centered through barren forest, green atmosphere, dunes, ice and blue burning terrain. Dense 19–23 s samples show the final slab growing toward camera, filling the center near 21.25 s.",
+      "design": "Moody landscapes with a repeated dark rectangle.",
+      "purpose": "Represent closed frontier",
+      "id": "V02",
+      "evidence": "Visible 1 fps samples, source 4–21.5s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 21.5,
+      "end": 32,
+      "action": "The enlarged slab gives way to a fragmented plant-filled room; forward approach reveals Create your own environments, then a darker room and bright opening.",
+      "design": "Point-like surfaces, black gaps, plants and pink stairs.",
+      "purpose": "Introduce environment creation",
+      "id": "V03",
+      "evidence": "Visible 1 fps samples, source 21.5–32s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 32,
+      "end": 39,
+      "action": "A pale curved room with central pillar carries Train your own models, then another pale technical space.",
+      "design": "Fragmented white surfaces against black.",
+      "purpose": "State training capability",
+      "id": "V04",
+      "evidence": "Visible 1 fps samples, source 32–39s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 39,
+      "end": 46,
+      "action": "A long bright corridor approaches; Be your own lab grows across the view as the camera advances toward the ceiling light.",
+      "design": "Repeating pale blocks and small spaced type.",
+      "purpose": "Position user autonomy",
+      "id": "V05",
+      "evidence": "Visible 1 fps samples, source 39–46s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 46,
+      "end": 59,
+      "action": "Rapid science and exploration imagery includes a green grid, terrain, astronauts, Earth, power structures, cells and cosmic clouds; bright cloud contracts to a small light then black.",
+      "design": "Mixed framed and full-screen imagery.",
+      "purpose": "Expand the scope of possibility",
+      "id": "V06",
+      "evidence": "Visible 1 fps samples, source 46–59s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 59,
+      "end": 67,
+      "action": "Introducing Lab and The open superintelligence stack appear as small centered titles on black.",
+      "design": "Sparse white spaced capitals.",
+      "purpose": "Name offering",
+      "id": "V07",
+      "evidence": "Visible 1 fps samples, source 59–67s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 67,
+      "end": 76,
+      "action": "A pale transparent upright slab stands on a green island reflected in still water; scene slowly darkens.",
+      "design": "Lush forest replaces barren worlds.",
+      "purpose": "Resolve visual metaphor",
+      "id": "V08",
+      "evidence": "Visible 1 fps samples, source 67–76s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 76,
+      "end": 83.291,
+      "action": "A small prime lab setup command appears on black, then a white symbol holds.",
+      "design": "Monospaced command and logo.",
+      "purpose": "Give a starting cue",
+      "id": "V09",
+      "evidence": "Visible 1 fps samples, source 76–83.291s; boundaries approximate, between-frame action unresolved."
+    }
+  ],
+  "sound": [
+    {
+      "id": "A01",
+      "start": 0,
+      "end": 83.291,
+      "layer": "unknown",
+      "detail": "No validated audio listening; speech, music, effects, mix and sync remain unverified.",
+      "visual_relation": "All visual scenes; alignment not checked",
+      "evidence": "No actual audio supplied to this review; existing technical-review-2026-10-19/deep-review/audio/367.json is not listening evidence."
+    },
+    {
+      "id": "A02",
+      "start": 0.26,
+      "end": 9.78,
+      "layer": "ASR draft",
+      "detail": "Two coherent candidate lines describe a new era and closed means of shaping the frontier. They support the early closed-access theme only. The short draft does not establish speech absence later or any music/effect character.",
+      "visual_relation": "V01–V02; script theme only, hearing and sync unverified",
+      "evidence": "technical-review-2026-10-19/deep-review/audio/367-speech.json; existing faster-whisper base CPU int8"
+    }
+  ],
+  "categories": [
+    {
+      "finding": "Closed frontier imagery leads to environment creation, model training and user autonomy, then a named stack and setup command. It is a manifesto rather than a demonstrated training task.",
+      "evidence": "V01–V09",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q01"
+    },
+    {
+      "finding": "Sunlight over a geometric dark ridge creates a broad science-fiction mood; no product or user action is visible.",
+      "evidence": "V01 0–2 s",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q02"
+    },
+    {
+      "finding": "Training models is explicit near 32 s; Lab is named around 60 s. The audience needs existing knowledge to interpret environment creation and superintelligence stack.",
+      "evidence": "V03–V07",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q03"
+    },
+    {
+      "finding": "Dense 19–23 s samples show a centered slab growing into the frame, then replacing it with a plant-filled virtual room near 21.5 s. The forward room approach continues. This supports a portal-like transition; exact easing remains unresolved.",
+      "evidence": "V02–V03; dense19-23.jpg",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q04"
+    },
+    {
+      "finding": "Repeated centered slabs link different landscapes. Forward movement into the slab connects landscape to environment; black titles later pause the rapid science montage.",
+      "evidence": "V02–V03, V06–V07",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q05"
+    },
+    {
+      "finding": "Fragmented, point-like rooms have missing black areas and colored fringes. Cold barren imagery changes to lush green water at the end. No capture or rendering method is inferred.",
+      "evidence": "V02–V05, V08",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q06"
+    },
+    {
+      "finding": "Small widely spaced labels identify major promises but provide little explanation. The final command is a concrete cue, although its context is not shown.",
+      "evidence": "V03–V05, V07, V09",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q07"
+    },
+    {
+      "finding": "Voice presence and delivery remain unverified.",
+      "evidence": "No validated audio listening",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q08"
+    },
+    {
+      "finding": "Music character and arc remain unverified.",
+      "evidence": "No validated audio listening",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q09"
+    },
+    {
+      "finding": "Sound effects remain unverified.",
+      "evidence": "No validated audio listening",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q10"
+    },
+    {
+      "finding": "Sound-to-motion timing remain unverified.",
+      "evidence": "No validated audio listening",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q11"
+    },
+    {
+      "finding": "Landscapes, virtual-looking rooms, science imagery and an astronaut scene form a montage. Source provenance and generation methods are unknown.",
+      "evidence": "V01–V08",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q12"
+    },
+    {
+      "finding": "Source duration supplied as 83.291s; no independent compression, clipping or delivery check.",
+      "evidence": "Assigned metadata; source integrity checked by parent",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q13"
+    },
+    {
+      "finding": "Visible text says create environments and train models, but the closed/open argument depends partly on the short candidate script and visual metaphor.",
+      "evidence": "V02–V07",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q14"
+    },
+    {
+      "finding": "The central slab anchors attention through changing landscapes. Forward corridors guide focus to the vanishing point; small captions need active reading beside rich imagery.",
+      "evidence": "V02–V05",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q15"
+    },
+    {
+      "finding": "Twenty-one seconds of frontier imagery precede the first capability. The fast science montage adds scope without clarifying a training input or output.",
+      "evidence": "V02, V06",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q16"
+    },
+    {
+      "finding": "The dark slab becomes pale and transparent in a green landscape, visually answering the closed-frontier theme. There is no operational demonstration of access.",
+      "evidence": "V02, V08–V09",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q17"
+    },
+    {
+      "finding": "Barren terrain, rapid cosmic imagery and a calm green ending appear intended to move from restriction to possibility and relief. Sound and actual audience emotion are unchecked.",
+      "evidence": "V02, V06, V08",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q18"
+    },
+    {
+      "finding": "The upright slab and central framing strongly connect the opening and ending. The science montage is associative, not a traceable product case.",
+      "evidence": "V02, V06, V08",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q19"
+    },
+    {
+      "finding": "Create environments, train models and open stack are stated promises. The film shows illustrative spaces and a setup command; no training run, metrics or resulting model is demonstrated.",
+      "evidence": "V03–V09",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q20"
+    },
+    {
+      "finding": "The slab-to-transparent-slab arc gives this film a coherent motif. Lab and the command identify the offer; the broad cosmic images could fit many AI announcements.",
+      "evidence": "V02, V06–V09",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q21"
+    },
+    {
+      "finding": "Preserve the opening/closing slab match but shorten intermediate worlds to show one environment definition and a completed training result.",
+      "evidence": "V02–V08",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q22"
+    },
+    {
+      "finding": "For an AI workflow film, use one closed object that becomes transparent as access opens, then connect that metaphor to a real setup screen. Requires matched scene framing and actual product states.",
+      "evidence": "V02–V03, V08–V09",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q23"
+    },
+    {
+      "finding": "No human new-viewer test; product description above is model interpretation of sampled images.",
+      "evidence": "V01–V09",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q24"
+    },
+    {
+      "finding": "No phone-size, safe-area or flash assessment; small UI text needs separate preview.",
+      "evidence": "Contact sheets",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q25"
+    }
+  ],
+  "lessons": {
+    "keep": "Carry one simple object across changing environments and transform it at the ending.",
+    "try": [
+      "For an AI training launch, pair one environment definition with a run status and labeled result before returning to the visual metaphor.",
+      "Try a three-shot closed-to-open object arc using identical framing, with the product name and action visible earlier."
+    ],
+    "avoid": "Avoid letting a long science montage substitute for the first practical task.",
+    "open": "Training behavior, openness details, asset provenance, sound and exact montage transitions remain unverified."
+  },
+  "comparison": {
+    "story": "Establish frontier mood → Represent closed frontier → Introduce environment creation → State training capability → Position user autonomy → Expand the scope of possibility → Name offering → Resolve visual metaphor → Give a starting cue",
+    "motion": "Dense 19–23 s samples show a centered slab growing into the frame, then replacing it with a plant-filled virtual room near 21.5 s. The forward room approach continues. This supports a portal-like transition; exact easing remains unresolved.",
+    "sound": "No validated listening; no absence claims.",
+    "texture": "Fragmented, point-like rooms have missing black areas and colored fringes. Cold barren imagery changes to lush green water at the end. No capture or rendering method is inferred.",
+    "lesson": "Carry one simple object across changing environments and transform it at the ending."
+  },
+  "elements": [
+    {
+      "kind": "motion",
+      "name": "forward camera movement",
+      "events": [
+        "V02",
+        "V03",
+        "V05"
+      ]
+    },
+    {
+      "kind": "motion",
+      "name": "matched object across scenes",
+      "events": [
+        "V02",
+        "V08"
+      ]
+    },
+    {
+      "kind": "texture",
+      "name": "fragmented virtual space",
+      "events": [
+        "V03",
+        "V04",
+        "V05"
+      ]
+    },
+    {
+      "kind": "texture",
+      "name": "landscape",
+      "events": [
+        "V02",
+        "V08"
+      ]
+    }
+  ],
+  "reviewer_model": "gpt-6-astra",
+  "scope": "sampled visual and story review; ASR and measured signal support; no validated audio listening",
+  "closer_windows": [
+    {
+      "start": 19,
+      "end": 23,
+      "rate_fps": 4,
+      "evidence": [
+        "astra-review-2026-10-20/evidence/group-3/367/dense19-23.jpg"
+      ],
+      "resolved": "The slab grows to fill the central view near 21.25 s; plant-filled room appears near 21.5 s and approaches. Exact easing and between-sample transition detail remain uncertain."
+    }
+  ]
+}

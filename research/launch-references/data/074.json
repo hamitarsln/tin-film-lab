@@ -1,0 +1,331 @@
+{
+  "id": 74,
+  "reviewer_model": "gpt-6-astra",
+  "scope": "sampled visual and story review; ASR and measured signal support; no validated audio listening",
+  "viewed_evidence": [
+    "technical-review-2026-10-19/deep-review/motion/074/timeline-00.jpg",
+    "watch-cache/frames/8c1f9154bac46022/frame_0013.jpg",
+    "watch-cache/frames/8c1f9154bac46022/frame_0014.jpg",
+    "watch-cache/frames/8c1f9154bac46022/frame_0015.jpg",
+    "watch-cache/frames/8c1f9154bac46022/frame_0016.jpg",
+    "watch-cache/frames/8c1f9154bac46022/frame_0017.jpg",
+    "astra-review-2026-10-20/evidence/group-2/074-12-18-4fps.jpg"
+  ],
+  "closer_windows": [
+    {
+      "start": 12,
+      "end": 18,
+      "rate_fps": 4,
+      "evidence": [
+        "astra-review-2026-10-20/evidence/group-2/074-12-18-4fps.jpg"
+      ],
+      "resolved": "The pointer selects the top-left yellow-background creative around 12.75–13 s. Other grid cards fade, the selected tile remains briefly above the composer, then an attachment appears. Its preview changes from shoe closeup to sole detail to the yellow-background leg/shoe view. This is consistent with a moving commercial preview, not a single unchanged still. Exact media identity and internal preview editing remain unverified."
+    }
+  ],
+  "product_from_film": "Krea’s agent is presented as creating product commercials from a brief and reference image.",
+  "explains_well": "One shoe stays recognizable through product research, trend examples and finished creatives.",
+  "unclear": "The attachment preview changes views after selection, consistent with a video preview but not proven as the same media item; the Meta ads request has no visible launch result.",
+  "product_type": "creative agent",
+  "scenario": "Create shoe commercials and request a selected result be run as an ad.",
+  "product_clear_time": 6,
+  "product_clear_basis": "Create a commercial prompt leads to a completed product sheet with the same shoe.",
+  "scenes": [
+    {
+      "id": "V01",
+      "start": 0,
+      "end": 6,
+      "action": "A large caret becomes a typed commercial request with a reference image. Thinking appears and shoe views assemble into a product sheet.",
+      "design": "White background, black text and light product thumbnails.",
+      "purpose": "Turn a brief into product understanding.",
+      "evidence": "Visible chronological 1 fps samples, source 0–6s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V02",
+      "start": 6,
+      "end": 13,
+      "action": "Product sheet done gives way to researching trends and a six-image mood grid. Creating commercials appears, then finished shoe images replace the references.",
+      "design": "Checkmarks, gray status labels, colorful six-card grids.",
+      "purpose": "Expose intermediate research and creative output.",
+      "evidence": "Visible chronological 1 fps samples, source 6–13s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V03",
+      "start": 13,
+      "end": 18,
+      "action": "The pointer selects the top-left yellow-background creative. Other grid cards fade as its tile remains above the composer. The attached preview then changes among closeup, sole and yellow-background views while Fire! Run it on Meta ads is typed; the pointer reaches submit.",
+      "design": "Rounded input box, selected image and recognizable platform label.",
+      "purpose": "Connect selection with a next action.",
+      "evidence": "V03: full chronological1fps sheets plus directly inspected Watch frames13–17s and local4fps12–18s sheet. Same shoe motif is visible, but exact media identity is unverified."
+    },
+    {
+      "id": "V04",
+      "start": 18,
+      "end": 20.633,
+      "action": "krea.ai/agents-beta holds on white and fades in the last sampled state.",
+      "design": "Simple black URL.",
+      "purpose": "Offer beta access.",
+      "evidence": "Visible chronological 1 fps samples, source 18–20.633s; boundary approximate; exact motion between samples unverified."
+    }
+  ],
+  "sound": [
+    {
+      "id": "A01",
+      "start": 0,
+      "end": 20.633,
+      "layer": "unknown",
+      "detail": "No validated direct audio listening was performed. Music, speech delivery, effects, mix and sync remain unknown, not absent.",
+      "visual_relation": "All visual scenes; audiovisual alignment unverified",
+      "evidence": "Visual samples only; no actual audio range supplied to this reviewer."
+    }
+  ],
+  "categories": [
+    {
+      "id": "Q01",
+      "finding": "One brief moves through product sheet, research, commercials and a deployment request.",
+      "evidence": "V01–V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q02",
+      "finding": "A large caret and Create a @ text immediately establish a prompt-driven interaction.",
+      "evidence": "V01",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q03",
+      "finding": "A shoe commercial request clarifies the creative task by 3 s; product-sheet and output stages support marketer use.",
+      "evidence": "V01,V02",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q04",
+      "finding": "Closer 4 fps samples show the selected tile separated from the fading grid, followed by an attachment preview with changing shoe views. This may be a playing commercial; identical still-image continuity is not established. Exact easing remains unverified.",
+      "evidence": "V01–V03",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q05",
+      "finding": "Status labels carry continuity across grid replacements, preserving the same task while images change.",
+      "evidence": "V02",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q06",
+      "finding": "Nearly empty white space makes the colorful product and reference images the main visual texture.",
+      "evidence": "V01–V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q07",
+      "finding": "Short status labels explain each stage; light-gray completed text may need a contrast check at phone size.",
+      "evidence": "V02",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q08",
+      "finding": "Voice delivery, music, effects and audiovisual alignment were not established by this visual pass.",
+      "evidence": "A01",
+      "status": "not checked",
+      "reason": "No validated direct audio listening input.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q09",
+      "finding": "Voice delivery, music, effects and audiovisual alignment were not established by this visual pass.",
+      "evidence": "A01",
+      "status": "not checked",
+      "reason": "No validated direct audio listening input.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q10",
+      "finding": "Voice delivery, music, effects and audiovisual alignment were not established by this visual pass.",
+      "evidence": "A01",
+      "status": "not checked",
+      "reason": "No validated direct audio listening input.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q11",
+      "finding": "Voice delivery, music, effects and audiovisual alignment were not established by this visual pass.",
+      "evidence": "A01",
+      "status": "not checked",
+      "reason": "No validated direct audio listening input.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q12",
+      "finding": "Product views, reference imagery and finished ad-like images sit in simplified UI; asset origins and real generation are unverified.",
+      "evidence": "V01–V03",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q13",
+      "finding": "Manifest duration 20.633 s; indexed dimensions 1920×1080. Source unchanged flag recorded; fresh encoding and audio clipping checks not run.",
+      "evidence": "Group manifest",
+      "status": "uncertain",
+      "reason": "Inherited technical metadata; no fresh media probe in this review.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q14",
+      "finding": "The written brief, done states and ad request explain the workflow without sound.",
+      "evidence": "V01–V03",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q15",
+      "finding": "The active status sits above the current grid, then attention moves to the selected image and submit button.",
+      "evidence": "V02,V03",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q16",
+      "finding": "Several stages fit into 20 s, but each uses a small consistent grid and one status label.",
+      "evidence": "V01–V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q17",
+      "finding": "The opening commercial request pays off with finished creatives; the follow-on ad launch request has no shown result.",
+      "evidence": "V01,V02,V03",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q18",
+      "finding": "Visible done states suggest steady progress and control; this is interpretation, not measured satisfaction.",
+      "evidence": "V02",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q19",
+      "finding": "The blue-gray shoe motif connects brief, product sheet and creatives. The final attachment changes view; exact identity as one continuous selected media item is unverified.",
+      "evidence": "V01–V03",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q20",
+      "finding": "The film shows a complete-looking creative sequence and submitted ad request; publishing, campaign settings and results are not shown.",
+      "evidence": "V02,V03",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q21",
+      "finding": "The product name is mainly the closing URL; the distinctive strength is the concise creative workflow rather than decoration.",
+      "evidence": "V01–V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q22",
+      "finding": "Every stage adds task meaning; a launch confirmation would close the remaining gap better than extending the CTA hold.",
+      "evidence": "V03,V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q23",
+      "finding": "Tin can directly test this status-plus-artifact sequence for a product campaign, including the final approval and verified destination.",
+      "evidence": "V01–V03",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q24",
+      "finding": "Krea’s agent is presented as creating product commercials from a brief and reference image.",
+      "evidence": "Model reading from inspected images",
+      "status": "uncertain",
+      "reason": "Model-only new-viewer interpretation; no human test.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q25",
+      "finding": "Contact sheets inspected at displayed size; a phone-size playback, caption audit, flash audit and formal accessibility check were not performed.",
+      "evidence": "Viewed sheets",
+      "status": "not checked",
+      "reason": "Full-size moving-image and device checks unavailable in this pass.",
+      "experiment": "none"
+    }
+  ],
+  "lessons": {
+    "keep": "Show one artifact from each agent stage under a short progress label.",
+    "avoid": "Avoid ending on a submitted launch request as though it proves publication.",
+    "open": "Real execution time, generation quality, ad publication and sound remain unverified.",
+    "try": [
+      "For Tin, use one product brief and show product facts, audience research, three creatives and the selected campaign draft in sequence.",
+      "Extend the selected-ad prompt with a real approval state and confirmed campaign ID to complete the action."
+    ]
+  },
+  "comparison": {
+    "story": "Turn a brief into product understanding. → Expose intermediate research and creative output. → Connect selection with a next action. → Offer beta access.",
+    "motion": "Closer 4 fps samples show the selected tile separated from the fading grid, followed by an attachment preview with changing shoe views. This may be a playing commercial; identical still-image continuity is not established. Exact easing remains unverified. Sampling scope: 1 fps unless a closer window is recorded.",
+    "sound": "No validated listening; unknown.",
+    "texture": "White background, black text and light product thumbnails.; Checkmarks, gray status labels, colorful six-card grids.; Rounded input box, selected image and recognizable platform label.; Simple black URL.",
+    "lesson": "Show one artifact from each agent stage under a short progress label."
+  },
+  "elements": [
+    {
+      "kind": "ui",
+      "name": "prompt composer",
+      "events": [
+        "V01",
+        "V03"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "progress checklist",
+      "events": [
+        "V02"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "image grid",
+      "events": [
+        "V02"
+      ]
+    },
+    {
+      "kind": "motion",
+      "name": "typed prompt",
+      "events": [
+        "V01",
+        "V03"
+      ]
+    }
+  ]
+}

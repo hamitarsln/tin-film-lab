@@ -1,0 +1,339 @@
+{
+  "id": 269,
+  "reviewer_model": "gpt-6-astra",
+  "scope": "sampled visual and story review; ASR and measured signal support; no validated audio listening",
+  "viewed_evidence": [
+    "technical-review-2026-10-19/deep-review/motion/269/timeline-00.jpg",
+    "technical-review-2026-10-19/deep-review/motion/269/timeline-01.jpg"
+  ],
+  "closer_windows": [],
+  "product_from_film": "Whop Treasury is presented as a way to move a balance into a yield-bearing treasury position.",
+  "explains_well": "The transfer example shows amount entry, a review step, confirmation and a changed balance allocation.",
+  "unclear": "The film moves from a small account transfer to a large 30-year growth illustration without clearly explaining the illustration’s assumptions.",
+  "product_type": "business treasury",
+  "scenario": "Move USD balance into USDT Treasury and review deposit options.",
+  "product_clear_time": 3,
+  "product_clear_basis": "The title states Whop Treasury and earn up to 6% on your balance.",
+  "scenes": [
+    {
+      "id": "V01",
+      "start": 0,
+      "end": 6,
+      "action": "Introducing Whop Treasury leads to an animated percentage that reaches up to 6% on your balance. A revenue and stats dashboard appears.",
+      "design": "White background, orange product name and simple charts.",
+      "purpose": "State the yield promise.",
+      "evidence": "Visible chronological 1 fps samples, source 0–6s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V02",
+      "start": 6,
+      "end": 14,
+      "action": "A balance page shows $42,740.24. Move opens a Transfer dialog from USD to USDT. $39,790.92 is entered, Review opens a confirmation with amount and exchange-rate information, and Confirm transfer is selected.",
+      "design": "Blue action buttons, modal dialog and dimmed background.",
+      "purpose": "Demonstrate a specific transfer with a review step.",
+      "evidence": "Visible chronological 1 fps samples, source 6–14s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V03",
+      "start": 14,
+      "end": 22,
+      "action": "The balance allocation shifts toward green Treasury. A separate deposit-and-interest bar chart grows over time, showing a 6% APY label, large totals and an earned-in-30-years line.",
+      "design": "Blue deposit bars and green interest bars with rising counters.",
+      "purpose": "Illustrate long-term growth after the immediate action.",
+      "evidence": "Visible chronological 1 fps samples, source 14–22s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V04",
+      "start": 22,
+      "end": 27,
+      "action": "Instantly deposit cash or crypto appears above a method selector with card, crypto and cash-balance options. Red branded coin shapes pass through the frame.",
+      "design": "Compact payment selector and bright red 3D-like tokens.",
+      "purpose": "Broaden funding options and transition to the brand.",
+      "evidence": "Visible chronological 1 fps samples, source 22–27s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V05",
+      "start": 27,
+      "end": 32.16,
+      "action": "Whop holds above Plasma, tether and aave marks on white.",
+      "design": "Centered logo hierarchy.",
+      "purpose": "Name the brand and associated platforms.",
+      "evidence": "Visible chronological 1 fps samples, source 27–32.16s; boundary approximate; exact motion between samples unverified."
+    }
+  ],
+  "sound": [
+    {
+      "id": "A01",
+      "start": 0,
+      "end": 32.16,
+      "layer": "unknown",
+      "detail": "No validated direct audio listening was performed. Music, speech delivery, effects, mix and sync remain unknown, not absent.",
+      "visual_relation": "All visual scenes; audiovisual alignment unverified",
+      "evidence": "Visual samples only; no actual audio range supplied to this reviewer."
+    }
+  ],
+  "categories": [
+    {
+      "id": "Q01",
+      "finding": "A yield promise leads to a concrete transfer, changed allocation, long-term growth example and deposit options.",
+      "evidence": "V01–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q02",
+      "finding": "The feature name and benefit appear immediately in large text.",
+      "evidence": "V01",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q03",
+      "finding": "The up-to-6% balance message establishes the offer around 3 s.",
+      "evidence": "V01",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q04",
+      "finding": "The percentage counts upward, the transfer modal opens, the allocation bar changes and chart columns grow. Intermediate numbers are animated states.",
+      "evidence": "V01–V03",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q05",
+      "finding": "The same balance screen connects the transfer and allocation result. The later growth chart switches to a different illustrative scale.",
+      "evidence": "V02,V03",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q06",
+      "finding": "White space and blue controls make the task readable; green marks Treasury and interest, while orange/red marks the brand.",
+      "evidence": "V01–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q07",
+      "finding": "Amount entry and confirmation are enlarged. The growth assumptions and small transfer terms are less prominent than the totals.",
+      "evidence": "V02,V03",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q08",
+      "finding": "Voice delivery, music, effects and audiovisual alignment were not established by this visual pass.",
+      "evidence": "A01",
+      "status": "not checked",
+      "reason": "No validated direct audio listening input.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q09",
+      "finding": "Voice delivery, music, effects and audiovisual alignment were not established by this visual pass.",
+      "evidence": "A01",
+      "status": "not checked",
+      "reason": "No validated direct audio listening input.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q10",
+      "finding": "Voice delivery, music, effects and audiovisual alignment were not established by this visual pass.",
+      "evidence": "A01",
+      "status": "not checked",
+      "reason": "No validated direct audio listening input.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q11",
+      "finding": "Voice delivery, music, effects and audiovisual alignment were not established by this visual pass.",
+      "evidence": "A01",
+      "status": "not checked",
+      "reason": "No validated direct audio listening input.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q12",
+      "finding": "Software screens, animated charts and rendered-looking tokens are visible; production tools are unknown.",
+      "evidence": "V01–V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q13",
+      "finding": "Manifest duration 32.16s; indexed dimensions 1920×1080. Source unchanged flag recorded; fresh encoding and audio clipping checks not run.",
+      "evidence": "Group manifest",
+      "status": "uncertain",
+      "reason": "Inherited technical metadata; no fresh media probe in this review.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q14",
+      "finding": "The transfer can be followed visually without audio. The meaning of the growth example needs more explicit assumptions.",
+      "evidence": "V02,V03",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q15",
+      "finding": "The dimmed page isolates the transfer review; large later totals draw more attention than the time horizon.",
+      "evidence": "V02,V03",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q16",
+      "finding": "The task is demonstrated within about 14 s; growth and deposit options occupy the next 13 s before the brand hold.",
+      "evidence": "V01–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q17",
+      "finding": "A changed balance allocation gives the transfer a visible immediate payoff. The large growth total is a separate illustration, not the result of that short transfer interval.",
+      "evidence": "V02,V03",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q18",
+      "finding": "Rising green bars suggest future progress and confidence; this is a creative interpretation.",
+      "evidence": "V03",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q19",
+      "finding": "The transfer amount persists through review, while the later chart does not visibly explain its relationship to the example balance.",
+      "evidence": "V02,V03",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q20",
+      "finding": "The up-to rate, APY label and 30-year illustration are claims. Rate variability, contribution assumptions, fees and access terms are not clearly explained in the film.",
+      "evidence": "V01–V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q21",
+      "finding": "The USD-to-USDT transfer and named platform marks make the offer more specific than a generic savings ad.",
+      "evidence": "V02,V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q22",
+      "finding": "Label the growth chart as an illustration and keep starting amount, added deposits, rate and horizon visible together.",
+      "evidence": "V03",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q23",
+      "finding": "Tin can show a real immediate state change before a forecast, and clearly separate the two.",
+      "evidence": "V02,V03",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q24",
+      "finding": "Whop Treasury is presented as a way to move a balance into a yield-bearing treasury position.",
+      "evidence": "Model reading from inspected images",
+      "status": "uncertain",
+      "reason": "Model-only new-viewer interpretation; no human test.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q25",
+      "finding": "Contact sheets inspected at displayed size; a phone-size playback, caption audit, flash audit and formal accessibility check were not performed.",
+      "evidence": "Viewed sheets",
+      "status": "not checked",
+      "reason": "Full-size moving-image and device checks unavailable in this pass.",
+      "experiment": "none"
+    }
+  ],
+  "lessons": {
+    "keep": "Show the review step and resulting state change in the same interface.",
+    "avoid": "Avoid letting a large forecast look like the immediate result of a small action.",
+    "open": "Yield conditions, chart assumptions, fees, transfer execution, withdrawal terms and all audio remain unverified.",
+    "try": [
+      "Show a Tin user approving a campaign change and then the updated campaign state.",
+      "Label projected outcomes separately from observed results, with the assumptions next to the chart."
+    ]
+  },
+  "comparison": {
+    "story": "State the yield promise. → Demonstrate a specific transfer with a review step. → Illustrate long-term growth after the immediate action. → Broaden funding options and transition to the brand. → Name the brand and associated platforms.",
+    "motion": "The percentage counts upward, the transfer modal opens, the allocation bar changes and chart columns grow. Intermediate numbers are animated states. Sampling scope: 1 fps unless a closer window is recorded.",
+    "sound": "No validated listening; unknown.",
+    "texture": "White background, orange product name and simple charts.; Blue action buttons, modal dialog and dimmed background.; Blue deposit bars and green interest bars with rising counters.; Compact payment selector and bright red 3D-like tokens.; Centered logo hierarchy.",
+    "lesson": "Show the review step and resulting state change in the same interface."
+  },
+  "elements": [
+    {
+      "kind": "ui",
+      "name": "balance dashboard",
+      "events": [
+        "V02",
+        "V03"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "transfer dialog",
+      "events": [
+        "V02"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "confirmation dialog",
+      "events": [
+        "V02"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "bar chart",
+      "events": [
+        "V03"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "deposit selector",
+      "events": [
+        "V04"
+      ]
+    },
+    {
+      "kind": "motion",
+      "name": "numeric counters",
+      "events": [
+        "V01",
+        "V03"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,352 @@
+{
+  "id": 293,
+  "reviewer_model": "gpt-6-astra",
+  "scope": "sampled visual and story review; ASR and measured signal support; no validated audio listening",
+  "viewed_evidence": [
+    "technical-review-2026-10-19/deep-review/motion/293/timeline-00.jpg",
+    "technical-review-2026-10-19/deep-review/motion/293/timeline-01.jpg",
+    "technical-review-2026-10-19/deep-review/motion/293/timeline-02.jpg",
+    "technical-review-2026-10-19/deep-review/motion/293/timeline-03.jpg",
+    "technical-review-2026-10-19/deep-review/audio/293-speech.json"
+  ],
+  "closer_windows": [],
+  "product_from_film": "GRU Space presents a machine intended to make building material from lunar regolith as a step toward off-world habitation.",
+  "explains_well": "Dark machine close-ups and marked material samples make the engineering ambition tangible.",
+  "unclear": "The film does not clearly separate the current prototype, its test conditions and the future lunar hotel imagery.",
+  "product_type": "space hardware",
+  "scenario": "Develop a machine intended to manufacture bricks from lunar material.",
+  "product_clear_time": 63,
+  "product_clear_basis": "Text says the machinery will use lunar regolith to manufacture bricks on the Moon.",
+  "scenes": [
+    {
+      "id": "V01",
+      "start": 0,
+      "end": 8,
+      "action": "Glowing particles, metallic machinery, a Lunar Habitat Control screen and a GRU-marked material sample appear in brief close-ups.",
+      "design": "Low light, cold metal highlights and an orange opening glow.",
+      "purpose": "Create curiosity around a physical engineering project.",
+      "evidence": "Visible chronological 1 fps samples, source 0–8s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V02",
+      "start": 8,
+      "end": 28,
+      "action": "A television-news clip describes a first hotel on the Moon, followed by enlarged article fragments highlighting GRU. Hotel-like structures on a granular surface and machine details follow.",
+      "design": "News graphics, cropped print and blue-gray architectural imagery.",
+      "purpose": "Establish public attention and the larger lunar vision; the status and scale of the hotel imagery are not labelled.",
+      "evidence": "Visible chronological 1 fps samples, source 8–28s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V03",
+      "start": 28,
+      "end": 61,
+      "action": "A monochrome interview identifies Skyler Chan as founder of GRU Space. He speaks in alternating medium and close shots.",
+      "design": "Dark interview setting and small lower-third name.",
+      "purpose": "Explain the mission through the founder; the ASR draft supplies the off-world habitation argument.",
+      "evidence": "Visible chronological 1 fps samples, source 28–61s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V04",
+      "start": 61,
+      "end": 77,
+      "action": "Text says lunar regolith will be used to manufacture bricks on the Moon. Close-ups show material in a small container, rotating or changed machine positions, round openings and a shaped piece near the tool.",
+      "design": "Blue-gray industrial footage, granular material and centered white text.",
+      "purpose": "Show a physical manufacturing process, with exact stages and continuous operation unclear from the samples.",
+      "evidence": "Visible chronological 1 fps samples, source 61–77s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V05",
+      "start": 77,
+      "end": 92,
+      "action": "A card claims the patent-pending Moon Factory was designed, built and tested in six weeks. Material samples include an American flag pattern and a GRU imprint. Another card describes enabling life on the Moon, Mars and beyond.",
+      "design": "Black text cards and sharply lit granular samples.",
+      "purpose": "Present a development milestone and a tangible branded output.",
+      "evidence": "Visible chronological 1 fps samples, source 77–92s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V06",
+      "start": 92,
+      "end": 98.345,
+      "action": "Text says the first payload could land on the Moon as early as next year. A Moon image gives way to a pixel-edged GRU roundel against stars.",
+      "design": "Sparse white type, lunar image and logo.",
+      "purpose": "End with a future milestone rather than a user action.",
+      "evidence": "Visible chronological 1 fps samples, source 92–98.345s; boundary approximate; exact motion between samples unverified."
+    }
+  ],
+  "sound": [
+    {
+      "id": "A01",
+      "start": 0,
+      "end": 98.345,
+      "layer": "unknown",
+      "detail": "No validated direct audio listening was performed. Music, speech delivery, effects, mix and sync remain unknown, not absent.",
+      "visual_relation": "All visual scenes; audiovisual alignment unverified",
+      "evidence": "Visual samples only; no actual audio range supplied to this reviewer."
+    },
+    {
+      "id": "A02",
+      "start": 9.83,
+      "end": 60.4,
+      "layer": "ASR draft",
+      "detail": "The ASR draft supports Moon-hotel news framing and the founder’s argument that off-world habitation enables a larger mission. It misrecognizes the founder and brand; the lower third reads Skyler Chan, GRU Space. Later isolated words such as Mining and form are too weak to use as dialogue.",
+      "visual_relation": "Story text support; exact audiovisual alignment and delivery unverified.",
+      "evidence": "technical-review-2026-10-19/deep-review/audio/293-speech.json; local faster-whisper base CPU int8 draft; VAD candidates only, recognition errors possible."
+    }
+  ],
+  "categories": [
+    {
+      "id": "Q01",
+      "finding": "Machine teaser and press attention lead to founder mission, manufacturing footage, claimed prototype milestone and a future launch.",
+      "evidence": "V01–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q02",
+      "finding": "Unlabelled material and machine close-ups create mystery before the Moon-hotel headlines explain the ambition.",
+      "evidence": "V01,V02",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q03",
+      "finding": "The specific brick-manufacturing function becomes explicit around 63 s; earlier hotel imagery conveys the broader destination.",
+      "evidence": "V02,V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q04",
+      "finding": "Close-ups change between machine positions, press fragments move through frame and the closing Moon changes to a logo. A continuous material-to-brick cycle is not established by the samples.",
+      "evidence": "V02,V04,V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q05",
+      "finding": "The granular material and GRU imprint recur at the start and end, linking the teaser to the later prototype claim.",
+      "evidence": "V01,V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q06",
+      "finding": "Cold blue-gray highlights and deep blacks unify the hardware and architectural imagery. The interview is monochrome.",
+      "evidence": "V01–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q07",
+      "finding": "Short milestone cards are readable. The dark machinery and unlabelled close-ups make its operation difficult to understand.",
+      "evidence": "V04,V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q08",
+      "finding": "The ASR draft supports Moon-hotel news framing and the founder’s argument that off-world habitation enables a larger mission. It misrecognizes the founder and brand; the lower third reads Skyler Chan, GRU Space. Later isolated words such as Mining and form are too weak to use as dialogue.",
+      "evidence": "A02",
+      "status": "uncertain",
+      "reason": "ASR text only; no validated listening, delivery or voice origin.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q09",
+      "finding": "Voice delivery, music, effects and audiovisual alignment were not established by this visual pass.",
+      "evidence": "A01",
+      "status": "not checked",
+      "reason": "No validated direct audio listening input.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q10",
+      "finding": "Voice delivery, music, effects and audiovisual alignment were not established by this visual pass.",
+      "evidence": "A01",
+      "status": "not checked",
+      "reason": "No validated direct audio listening input.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q11",
+      "finding": "Voice delivery, music, effects and audiovisual alignment were not established by this visual pass.",
+      "evidence": "A01",
+      "status": "not checked",
+      "reason": "No validated direct audio listening input.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q12",
+      "finding": "Interview, news excerpts, machine footage and architectural imagery are visible. The scale and production method of the hotel imagery are unverified.",
+      "evidence": "V01–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q13",
+      "finding": "Manifest duration 98.345s; indexed dimensions 1920×1080. Source unchanged flag recorded; fresh encoding and audio clipping checks not run.",
+      "evidence": "Group manifest",
+      "status": "uncertain",
+      "reason": "Inherited technical metadata; no fresh media probe in this review.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q14",
+      "finding": "Text cards explain the manufacturing goal and milestone. The long interview has no full visible captions in these samples, so its reasoning relies on speech.",
+      "evidence": "V03–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q15",
+      "finding": "Macro material views emphasize texture and physicality; little wide context shows how the machine is arranged.",
+      "evidence": "V01,V04,V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q16",
+      "finding": "The first 28 s build intrigue and press context. The interview lasts about 33 s before the hardware and milestone sequence.",
+      "evidence": "V01–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q17",
+      "finding": "Imprinted material samples are the visible physical output. Their properties and the conditions under which they were made are not explained.",
+      "evidence": "V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q18",
+      "finding": "Dark industrial imagery and a founder mission frame the work as ambitious exploration; this is a creative reading.",
+      "evidence": "V01,V03,V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q19",
+      "finding": "Hotel imagery, prototype footage and future payload text sit in one story without clear labels distinguishing present evidence from intended outcomes.",
+      "evidence": "V02,V04–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q20",
+      "finding": "Six-week development, patent-pending status and payload timing are claims. Material identity, strength, test conditions and lunar readiness are not established by these images.",
+      "evidence": "V04–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q21",
+      "finding": "GRU and flag patterns in granular samples give the mission a specific physical artifact.",
+      "evidence": "V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q22",
+      "finding": "Label prototype location and material, then show one wide machine view and a complete input-to-output sequence with a test result.",
+      "evidence": "V04,V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q23",
+      "finding": "Tin can separate current demonstrated capability from future ambition with explicit labels and one complete process example.",
+      "evidence": "V02,V04–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q24",
+      "finding": "GRU Space presents a machine intended to make building material from lunar regolith as a step toward off-world habitation.",
+      "evidence": "Model reading from inspected images",
+      "status": "uncertain",
+      "reason": "Model-only new-viewer interpretation; no human test.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q25",
+      "finding": "Contact sheets inspected at displayed size; a phone-size playback, caption audit, flash audit and formal accessibility check were not performed.",
+      "evidence": "Viewed sheets",
+      "status": "not checked",
+      "reason": "Full-size moving-image and device checks unavailable in this pass.",
+      "experiment": "none"
+    }
+  ],
+  "lessons": {
+    "keep": "Use a real-looking physical output to make a broad mission concrete, while stating its evidence limits.",
+    "avoid": "Avoid blending future concept imagery and present prototype evidence without labels.",
+    "open": "Material and test conditions, machine continuity, hotel imagery status, launch timing and all heard audio remain unverified.",
+    "try": [
+      "For Tin, label the working prototype and show one complete workflow before the future roadmap.",
+      "Place a measurable result beside the final artifact so its meaning is clear without a long founder explanation."
+    ]
+  },
+  "comparison": {
+    "story": "Create curiosity around a physical engineering project. → Establish public attention and the larger lunar vision; the status and scale of the hotel imagery are not labelled. → Explain the mission through the founder; the ASR draft supplies the off-world habitation argument. → Show a physical manufacturing process, with exact stages and continuous operation unclear from the samples. → Present a development milestone and a tangible branded output. → End with a future milestone rather than a user action.",
+    "motion": "Close-ups change between machine positions, press fragments move through frame and the closing Moon changes to a logo. A continuous material-to-brick cycle is not established by the samples. Sampling scope: 1 fps unless a closer window is recorded.",
+    "sound": "No validated listening; unknown.",
+    "texture": "Low light, cold metal highlights and an orange opening glow.; News graphics, cropped print and blue-gray architectural imagery.; Dark interview setting and small lower-third name.; Blue-gray industrial footage, granular material and centered white text.; Black text cards and sharply lit granular samples.; Sparse white type, lunar image and logo.",
+    "lesson": "Use a real-looking physical output to make a broad mission concrete, while stating its evidence limits."
+  },
+  "elements": [
+    {
+      "kind": "ui",
+      "name": "control dashboard",
+      "events": [
+        "V01"
+      ]
+    },
+    {
+      "kind": "motion",
+      "name": "headline montage",
+      "events": [
+        "V02"
+      ]
+    },
+    {
+      "kind": "texture",
+      "name": "granular material",
+      "events": [
+        "V01",
+        "V05"
+      ]
+    },
+    {
+      "kind": "texture",
+      "name": "metal machinery",
+      "events": [
+        "V04"
+      ]
+    },
+    {
+      "kind": "texture",
+      "name": "monochrome interview",
+      "events": [
+        "V03"
+      ]
+    }
+  ]
+}

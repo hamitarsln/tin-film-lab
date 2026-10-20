@@ -1,0 +1,389 @@
+{
+  "id": 263,
+  "viewed_evidence": [
+    "technical-review-2026-10-19/deep-review/motion/263/timeline-00.jpg",
+    "technical-review-2026-10-19/deep-review/motion/263/timeline-01.jpg",
+    "astra-review-2026-10-20/evidence/group-3/263/dense.jpg",
+    "technical-review-2026-10-19/deep-review/audio/263-speech.json"
+  ],
+  "product_from_film": "Midnight presents itself as a privacy service or network linked to blockchain concerns.",
+  "explains_well": "The film makes the risk of exposed activity feel personal through news, browsing and payment images.",
+  "unclear": "It never explains which data Midnight protects or what a user does to gain that protection.",
+  "product_type": "privacy network; exact mechanism unclear",
+  "scenario": "Online activity and crypto exposure contrasted with a privacy promise",
+  "product_clear_time": 47,
+  "product_clear_basis": "Midnight branding is followed by Privacy on your terms; earlier blockchain references frame the problem, not the solution.",
+  "scenes": [
+    {
+      "start": 0,
+      "end": 11,
+      "action": "News presenters alternate with cropped articles highlighting crypto and crypto data leak.",
+      "design": "Broadcast graphics and blurred article text with coloured highlights.",
+      "purpose": "Establish threat",
+      "id": "V01",
+      "evidence": "Visible 1 fps samples, source 0–11s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 11,
+      "end": 17,
+      "action": "Forum and document excerpts isolate privacy in blockchain and is broken.",
+      "design": "Tilted text, selective blur and yellow/orange highlights.",
+      "purpose": "Frame a privacy failure",
+      "id": "V02",
+      "evidence": "Visible 1 fps samples, source 11–17s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 17,
+      "end": 22,
+      "action": "Two film characters in a white room appear with large words including you and is being, then black.",
+      "design": "Bright cinematic scene and bold black type.",
+      "purpose": "Address the viewer",
+      "id": "V03",
+      "evidence": "Visible 1 fps samples, source 17–22s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 22,
+      "end": 30,
+      "action": "Phone scrolling, television wall, search, reactions, voting and street crowds appear in quick sequence.",
+      "design": "Everyday screens and superimposed message/reaction icons.",
+      "purpose": "Expand the scope of tracked activity",
+      "id": "V04",
+      "evidence": "Visible 1 fps samples, source 22–30s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 30,
+      "end": 38,
+      "action": "Likes, Google search, player pause, glasses, typing, a payment card and phone shopping follow.",
+      "design": "Close-ups of familiar interaction details.",
+      "purpose": "List personal data traces",
+      "id": "V05",
+      "evidence": "Visible 1 fps samples, source 30–38s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 38,
+      "end": 45,
+      "action": "Everything you do and tracked text bridge film dialogue and a hearing clip; red/blue pill imagery presents a choice.",
+      "design": "Dark green scenes, large white words and hands holding pills.",
+      "purpose": "Turn fear into a control choice",
+      "id": "V06",
+      "evidence": "Visible 1 fps samples, source 38–45s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 45,
+      "end": 48,
+      "action": "Midnight logo gives way to Privacy on your terms.",
+      "design": "White text on black.",
+      "purpose": "Reveal the brand promise",
+      "id": "V07",
+      "evidence": "Visible 1 fps samples, source 45–48s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 48,
+      "end": 54.187,
+      "action": "Midnight is live holds; midnight.network appears below.",
+      "design": "Simple black closing card.",
+      "purpose": "Give a destination",
+      "id": "V08",
+      "evidence": "Visible 1 fps samples, source 48–54.187s; boundaries approximate, between-frame action unresolved."
+    }
+  ],
+  "sound": [
+    {
+      "id": "A01",
+      "start": 0,
+      "end": 54.187,
+      "layer": "unknown",
+      "detail": "No validated audio listening; speech, music, effects, mix and sync remain unverified.",
+      "visual_relation": "All visual scenes; alignment not checked",
+      "evidence": "No actual audio supplied to this review; existing technical-review-2026-10-19/deep-review/audio/263.json is not listening evidence."
+    },
+    {
+      "id": "A02",
+      "start": 0.04,
+      "end": 43.84,
+      "layer": "ASR draft",
+      "detail": "Candidate speech moves from crypto kidnapping/ransom news into an enumeration of clicks, scrolling, opinions, purchases and tracking, then a choice. Final phrase control in amateur fear is unusable and rejected. No heard delivery or sound finding.",
+      "visual_relation": "V01–V06; candidate script only",
+      "evidence": "technical-review-2026-10-19/deep-review/audio/263-speech.json; existing faster-whisper base CPU int8"
+    }
+  ],
+  "categories": [
+    {
+      "finding": "News-based threat expands into everyday tracking, then a symbolic choice and privacy brand reveal. No actual protected transaction or account is demonstrated.",
+      "evidence": "V01–V08",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q01"
+    },
+    {
+      "finding": "A news anchor and crypto-kidnapping lower third establish danger immediately, before any product context.",
+      "evidence": "V01, 0–2 s",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q02"
+    },
+    {
+      "finding": "The privacy promise is clear at 47 s, but blockchain references occur only in the problem section; the product type and first user remain broad.",
+      "evidence": "V02, V07",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q03"
+    },
+    {
+      "finding": "Dense 2–4 s frames show different article crops replacing each other while highlighted crypto remains near centre; surrounding text is blurred. This directs reading without showing a product interaction.",
+      "evidence": "V01; 4 fps window 2–4 s",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q04"
+    },
+    {
+      "finding": "News-to-article cuts create a repeated evidence-like rhythm. Later quick cuts match categories of activity; the film-choice imagery shifts from examples into metaphor.",
+      "evidence": "V01–V06",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q05"
+    },
+    {
+      "finding": "Broadcast blue, blurred white documents and dark green film scenes progress into a plain black brand card. The selective blur makes chosen words dominant.",
+      "evidence": "V01–V08",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q06"
+    },
+    {
+      "finding": "Highlights isolate crypto, privacy and broken; large tracked text is clear. The brand cards state a promise and URL but no feature or action.",
+      "evidence": "V01–V02, V06–V08",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q07"
+    },
+    {
+      "finding": "Voice presence and delivery remain unverified.",
+      "evidence": "No validated audio listening",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q08"
+    },
+    {
+      "finding": "Music character and arc remain unverified.",
+      "evidence": "No validated audio listening",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q09"
+    },
+    {
+      "finding": "Sound effects remain unverified.",
+      "evidence": "No validated audio listening",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q10"
+    },
+    {
+      "finding": "Sound-to-motion timing remain unverified.",
+      "evidence": "No validated audio listening",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q11"
+    },
+    {
+      "finding": "News segments, articles, film scenes, a hearing clip and everyday screen footage are mixed. Their sources and licensing are not established by this review.",
+      "evidence": "V01–V06",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q12"
+    },
+    {
+      "finding": "Source duration supplied as 54.187s; no independent compression, clipping or delivery check.",
+      "evidence": "Assigned metadata; source integrity checked by parent",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q13"
+    },
+    {
+      "finding": "Threat, tracking and a privacy promise remain visible silently. The scope of protection is absent from both images and final text.",
+      "evidence": "V01–V08",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q14"
+    },
+    {
+      "finding": "Highlighted words guide the article sections; large overlaid words direct the later montage. The simple close removes competing images.",
+      "evidence": "V01–V02, V06–V08",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q15"
+    },
+    {
+      "finding": "Many activities accumulate in 22–38 s. The range conveys scale, but leaves no time to explain one privacy problem and its solution.",
+      "evidence": "V04–V05",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q16"
+    },
+    {
+      "finding": "The threat opening makes protection the expected payoff; the ending names Midnight without showing protection in action.",
+      "evidence": "V01 and V07–V08",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q17"
+    },
+    {
+      "finding": "Kidnapping news and tracking examples appear designed to create unease, followed by a choice/control framing. This is an interpretation, not measured persuasion.",
+      "evidence": "V01–V06",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q18"
+    },
+    {
+      "finding": "Central highlighted words provide continuity across documents. The activity montage links conceptually through tracking rather than one person or account.",
+      "evidence": "V01–V05",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q19"
+    },
+    {
+      "finding": "The film presents news excerpts and a privacy claim. Their implied causal relationship and Midnights ability to prevent harms are not demonstrated or independently checked.",
+      "evidence": "V01–V08",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q20"
+    },
+    {
+      "finding": "The Midnight name and dark closing cards connect to privacy, but the bulk of the montage could advertise many privacy products.",
+      "evidence": "V04–V08",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q21"
+    },
+    {
+      "finding": "Reduce some tracking examples to add one before/after showing what is public, what stays private and what the user controls.",
+      "evidence": "V04–V07",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q22"
+    },
+    {
+      "finding": "For a privacy product, isolate one exposed data field with a highlight, then show the same record after protection. Needs an accurate product example and clear audience scope.",
+      "evidence": "V01–V02, V07",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q23"
+    },
+    {
+      "finding": "No human new-viewer test; product description above is model interpretation of sampled images.",
+      "evidence": "V01–V08",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q24"
+    },
+    {
+      "finding": "No phone-size, safe-area or flash assessment; small UI text needs separate preview.",
+      "evidence": "Contact sheets",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q25"
+    }
+  ],
+  "lessons": {
+    "keep": "Keep selective text highlighting to make dense source material readable.",
+    "try": [
+      "Use one wallet transaction example with labelled public and private fields, then show the users chosen disclosure.",
+      "Replace the final symbolic choice with a short product screen and one first action before the URL."
+    ],
+    "avoid": "Avoid implying that broad privacy messaging proves prevention of the harms shown in news clips.",
+    "open": "Audio is unheard; product mechanism, protection scope and the news-to-product causal claims remain unverified."
+  },
+  "comparison": {
+    "story": "Establish threat → Frame a privacy failure → Address the viewer → Expand the scope of tracked activity → List personal data traces → Turn fear into a control choice → Reveal the brand promise → Give a destination",
+    "motion": "Dense 2–4 s frames show different article crops replacing each other while highlighted crypto remains near centre; surrounding text is blurred. This directs reading without showing a product interaction.",
+    "sound": "No validated listening; no absence claims.",
+    "texture": "Broadcast blue, blurred white documents and dark green film scenes progress into a plain black brand card. The selective blur makes chosen words dominant.",
+    "lesson": "Keep selective text highlighting to make dense source material readable."
+  },
+  "elements": [
+    {
+      "kind": "ui",
+      "name": "search",
+      "events": [
+        "V04",
+        "V05"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "video player",
+      "events": [
+        "V05"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "social reactions",
+      "events": [
+        "V04",
+        "V05"
+      ]
+    },
+    {
+      "kind": "motion",
+      "name": "text highlighting",
+      "events": [
+        "V01",
+        "V02"
+      ]
+    },
+    {
+      "kind": "texture",
+      "name": "news footage",
+      "events": [
+        "V01"
+      ]
+    },
+    {
+      "kind": "texture",
+      "name": "film footage",
+      "events": [
+        "V03",
+        "V06"
+      ]
+    }
+  ],
+  "reviewer_model": "gpt-6-astra",
+  "scope": "sampled visual and story review; ASR and measured signal support; no validated audio listening",
+  "closer_windows": [
+    {
+      "start": 2,
+      "end": 4,
+      "rate_fps": 4,
+      "evidence": [
+        "astra-review-2026-10-20/evidence/group-3/263/dense.jpg"
+      ],
+      "resolved": "Anchor remains at 2 s, article crops change at 2.25 and 2.5 s, then crypto-heist excerpt holds from 2.75–3.5 s before another news clip at 3.75 s. Highlighted keyword stays near centre; exact blur animation is unresolved."
+    }
+  ]
+}

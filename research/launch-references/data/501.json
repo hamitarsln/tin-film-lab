@@ -1,0 +1,364 @@
+{
+  "id": 501,
+  "reviewer_model": "gpt-6-astra",
+  "scope": "sampled visual and story review; ASR and measured signal support; no validated audio listening",
+  "viewed_evidence": [
+    "technical-review-2026-10-19/deep-review/motion/501/timeline-00.jpg",
+    "technical-review-2026-10-19/deep-review/motion/501/timeline-01.jpg",
+    "technical-review-2026-10-19/deep-review/motion/501/timeline-02.jpg"
+  ],
+  "closer_windows": [],
+  "product_from_film": "Lovable builds websites and apps from prompts, with collaboration, visual editing, custom domains and code access.",
+  "explains_well": "The shopping-site example shows a first prompt and a specific follow-up that adds a profile sidebar.",
+  "unclear": "The film switches projects between creation, collaboration and publishing, so viewers do not see one app completed through all stages.",
+  "product_type": "AI app builder",
+  "scenario": "Generate a shopping site, refine it, invite collaborators, edit and publish.",
+  "product_clear_time": 27,
+  "product_clear_basis": "The social-shopping request becomes a visible storefront inside the builder.",
+  "scenes": [
+    {
+      "id": "V01",
+      "start": 0,
+      "end": 19,
+      "action": "Gradient spheres and typing text introduce the claim that few people code, then Lovable appears with speed and app-creation claims.",
+      "design": "Cream fields, pink-blue-orange gradients and large kinetic type.",
+      "purpose": "Frame app building as accessible to more people.",
+      "evidence": "Visible chronological 1 fps samples, source 0–19s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V02",
+      "start": 19,
+      "end": 33,
+      "action": "Website examples lead to a prompt for a social shopping marketplace. A storefront appears; a follow-up requests a user-profile, stats and balance sidebar, which appears in the result.",
+      "design": "Glowing rounded frame around a dark chat and white app preview.",
+      "purpose": "Show creation and a targeted refinement.",
+      "evidence": "Visible chronological 1 fps samples, source 19–33s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V03",
+      "start": 33,
+      "end": 41,
+      "action": "Now with collaboration introduces Invite controls, an email field, owner/editor roles, avatars and a shared dashboard with named cursors.",
+      "design": "Clean invitation dialog and multiple presence markers.",
+      "purpose": "Show team access and shared work.",
+      "evidence": "Visible chronological 1 fps samples, source 33–41s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V04",
+      "start": 41,
+      "end": 54,
+      "action": "Edit mode selects a page heading. A text panel changes the headline to Organize Smarter, Maximize Results, then size and color controls change its styling.",
+      "design": "Selected text, compact property panel and palette.",
+      "purpose": "Show direct visual refinement.",
+      "evidence": "Visible chronological 1 fps samples, source 41–54s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V05",
+      "start": 54,
+      "end": 63,
+      "action": "Publishing and custom domains are introduced. Publish dialogs list example domains, followed by a browser page and a laptop view of another finished site.",
+      "design": "Large publish button, domain dialog and polished site mockup.",
+      "purpose": "Present a path to a public site.",
+      "evidence": "Visible chronological 1 fps samples, source 54–63s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V06",
+      "start": 63,
+      "end": 72,
+      "action": "Dev mode opens a file tree and code editor. Titles say code can be edited on the spot or in GitHub.",
+      "design": "Dark code surface and gradient title cards.",
+      "purpose": "Offer a deeper control path for developers.",
+      "evidence": "Visible chronological 1 fps samples, source 63–72s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V07",
+      "start": 72,
+      "end": 80.4,
+      "action": "Now it is your turn and What are you building lead to the Lovable mark and lovable.dev.",
+      "design": "Grainy gradients, white type and heart-like symbol.",
+      "purpose": "Invite the viewer to start.",
+      "evidence": "Visible chronological 1 fps samples, source 72–80.4s; boundary approximate; exact motion between samples unverified."
+    }
+  ],
+  "sound": [
+    {
+      "id": "A01",
+      "start": 0,
+      "end": 80.4,
+      "layer": "unknown",
+      "detail": "No validated direct audio listening was performed. Music, speech delivery, effects, mix and sync remain unknown, not absent.",
+      "visual_relation": "All visual scenes; audiovisual alignment unverified",
+      "evidence": "Visual samples only; no actual audio range supplied to this reviewer."
+    }
+  ],
+  "categories": [
+    {
+      "id": "Q01",
+      "finding": "Accessibility and speed claims lead to creation, refinement, collaboration, visual edits, publishing and code access.",
+      "evidence": "V01–V07",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q02",
+      "finding": "Gradient spheres and a coding-population claim create a broad accessibility premise before the product appears.",
+      "evidence": "V01",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q03",
+      "finding": "New app builders and teams are the audience; the storefront result at 27s provides the first concrete workflow proof.",
+      "evidence": "V02",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q04",
+      "finding": "Spheres and type scale or reframe, a glowing prompt frame becomes an app view, the sidebar appears after a follow-up, avatars gather, text properties change and the editor switches to code.",
+      "evidence": "V01–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q05",
+      "finding": "Short feature titles divide the film, while the same vivid gradient frame unifies different product screens.",
+      "evidence": "V01–V07",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q06",
+      "finding": "Soft luminous gradients, grain, glossy spheres and clean interface panels make the builder feel colorful and approachable.",
+      "evidence": "V01–V07",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q07",
+      "finding": "Large titles and the profile-sidebar request are clear; invitation roles and code are brief and small.",
+      "evidence": "V02,V03,V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q08",
+      "finding": "Voice delivery, music, effects and audiovisual alignment were not established by this visual pass.",
+      "evidence": "A01",
+      "status": "not checked",
+      "reason": "No validated direct audio listening input.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q09",
+      "finding": "Voice delivery, music, effects and audiovisual alignment were not established by this visual pass.",
+      "evidence": "A01",
+      "status": "not checked",
+      "reason": "No validated direct audio listening input.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q10",
+      "finding": "Voice delivery, music, effects and audiovisual alignment were not established by this visual pass.",
+      "evidence": "A01",
+      "status": "not checked",
+      "reason": "No validated direct audio listening input.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q11",
+      "finding": "Voice delivery, music, effects and audiovisual alignment were not established by this visual pass.",
+      "evidence": "A01",
+      "status": "not checked",
+      "reason": "No validated direct audio listening input.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q12",
+      "finding": "Abstract graphics, interface demos, website examples, a laptop mockup and brand animation are visible. Production provenance is unverified.",
+      "evidence": "V01–V07",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q13",
+      "finding": "Manifest duration 80.4s; indexed dimensions 1920×1080. Source unchanged flag recorded; fresh encoding and audio clipping checks not run.",
+      "evidence": "Group manifest",
+      "status": "uncertain",
+      "reason": "Inherited technical metadata; no fresh media probe in this review.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q14",
+      "finding": "Visible prompts and feature labels carry the broad explanation without an available speech draft.",
+      "evidence": "V02–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q15",
+      "finding": "The glowing frame pulls attention to the app preview, while close crops emphasize Invite, Edit and Publish controls.",
+      "evidence": "V02–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q16",
+      "finding": "The opening claims take about nineteen seconds, followed by several short feature demonstrations. Creation and visual editing get the clearest before-and-after states.",
+      "evidence": "V01–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q17",
+      "finding": "The shopping site stays consistent through its sidebar edit. Later dashboard, heading-edit and published-site examples use different projects.",
+      "evidence": "V02–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q18",
+      "finding": "Bright color and direct invitations suggest optimism and easy participation. Actual sound energy is unknown.",
+      "evidence": "V01–V07",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q19",
+      "finding": "The first request and follow-up have matching outputs. The full creation-to-publish chain is assembled from different projects rather than one continuous task.",
+      "evidence": "V02–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q20",
+      "finding": "Adoption counts, coding-population claims, speed, collaboration behavior and live publishing are not independently verified. Visible code access does not prove code quality.",
+      "evidence": "V01–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q21",
+      "finding": "Lovable is introduced early, with its symbol, name and URL repeated at the end.",
+      "evidence": "V01,V07",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q22",
+      "finding": "Use the shopping site for the invitation, visual edit and custom-domain publish steps, preserving one project name throughout.",
+      "evidence": "V02–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q23",
+      "finding": "Follow a broad creation request with a narrow edit whose effect is easy to locate.",
+      "evidence": "V02",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q24",
+      "finding": "Lovable builds websites and apps from prompts, with collaboration, visual editing, custom domains and code access.",
+      "evidence": "Model reading from inspected images",
+      "status": "uncertain",
+      "reason": "Model-only new-viewer interpretation; no human test.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q25",
+      "finding": "Contact sheets inspected at displayed size; a phone-size playback, caption audit, flash audit and formal accessibility check were not performed.",
+      "evidence": "Viewed sheets",
+      "status": "not checked",
+      "reason": "Full-size moving-image and device checks unavailable in this pass.",
+      "experiment": "none"
+    }
+  ],
+  "lessons": {
+    "keep": "Show one specific follow-up edit after the first generated result.",
+    "avoid": "Combining several projects into an apparently continuous end-to-end workflow.",
+    "open": "Build quality, real collaboration, publishing state, performance claims and audio remain unverified.",
+    "try": [
+      "For Tin, generate one campaign page, then add a clearly requested signup panel before inviting a teammate.",
+      "Carry the same shopping project through collaboration and publishing to reduce example switching."
+    ]
+  },
+  "comparison": {
+    "story": "Frame app building as accessible to more people. → Show creation and a targeted refinement. → Show team access and shared work. → Show direct visual refinement. → Present a path to a public site. → Offer a deeper control path for developers. → Invite the viewer to start.",
+    "motion": "Spheres and type scale or reframe, a glowing prompt frame becomes an app view, the sidebar appears after a follow-up, avatars gather, text properties change and the editor switches to code. Sampling scope: 1 fps unless a closer window is recorded.",
+    "sound": "No validated listening; unknown.",
+    "texture": "Cream fields, pink-blue-orange gradients and large kinetic type.; Glowing rounded frame around a dark chat and white app preview.; Clean invitation dialog and multiple presence markers.; Selected text, compact property panel and palette.; Large publish button, domain dialog and polished site mockup.; Dark code surface and gradient title cards.; Grainy gradients, white type and heart-like symbol.",
+    "lesson": "Show one specific follow-up edit after the first generated result."
+  },
+  "elements": [
+    {
+      "kind": "ui",
+      "name": "prompt composer",
+      "events": [
+        "V02"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "invite dialog",
+      "events": [
+        "V03"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "text properties",
+      "events": [
+        "V04"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "publish dialog",
+      "events": [
+        "V05"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "code editor",
+      "events": [
+        "V06"
+      ]
+    },
+    {
+      "kind": "motion",
+      "name": "avatar gathering",
+      "events": [
+        "V03"
+      ]
+    },
+    {
+      "kind": "texture",
+      "name": "luminous gradient",
+      "events": [
+        "V01",
+        "V07"
+      ]
+    }
+  ]
+}

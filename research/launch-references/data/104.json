@@ -1,0 +1,323 @@
+{
+  "id": 104,
+  "reviewer_model": "gpt-6-astra",
+  "scope": "sampled visual and story review; ASR and measured signal support; no validated audio listening",
+  "viewed_evidence": [
+    "technical-review-2026-10-19/deep-review/motion/104/timeline-00.jpg"
+  ],
+  "closer_windows": [],
+  "product_from_film": "Parabolic presents live sports trading with leverage.",
+  "explains_well": "Stadium viewing, sports action and phone UI establish the use context quickly.",
+  "unclear": "The film does not show a complete trade or explain leverage mechanics.",
+  "product_type": "sports trading app",
+  "scenario": "Trade live sports outcomes while watching a game.",
+  "product_clear_time": 6,
+  "product_clear_basis": "Trade live on every game and with leverage captions establish the category.",
+  "scenes": [
+    {
+      "id": "V01",
+      "start": 0,
+      "end": 7,
+      "action": "An aerial stadium with Parabolic branding leads to a spectator holding a phone. Trade live on every game and with leverage appear on black.",
+      "design": "Sports footage, phone in hand and short white/red type.",
+      "purpose": "Place the product in live fandom.",
+      "evidence": "Visible chronological 1 fps samples, source 0–7s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V02",
+      "start": 7,
+      "end": 16,
+      "action": "Soccer and baseball details lead to rising probability lines, then basketball and soccer goal footage.",
+      "design": "Curved blue line, dark chart and fast sports montage.",
+      "purpose": "Connect changing play with changing markets.",
+      "evidence": "Visible chronological 1 fps samples, source 7–16s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V03",
+      "start": 16,
+      "end": 19,
+      "action": "A floating phone shows live game cards; cropped cards show team outcomes and green values.",
+      "design": "Black phone and compact dark UI.",
+      "purpose": "Offer a product glimpse.",
+      "evidence": "Visible chronological 1 fps samples, source 16–19s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V04",
+      "start": 19,
+      "end": 26,
+      "action": "Football plays and crowd reactions lead to a circular fan portrait and a dollar balance.",
+      "design": "Broadcast-style clips, circular crop and rounded balance pill.",
+      "purpose": "Tie fan excitement to account value.",
+      "evidence": "Visible chronological 1 fps samples, source 19–26s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V05",
+      "start": 26,
+      "end": 28.966,
+      "action": "A glowing star-shaped mark resolves into the Parabolic wordmark.",
+      "design": "Black patterned ground and white logo.",
+      "purpose": "Close on brand.",
+      "evidence": "Visible chronological 1 fps samples, source 26–28.966s; boundary approximate; exact motion between samples unverified."
+    }
+  ],
+  "sound": [
+    {
+      "id": "A01",
+      "start": 0,
+      "end": 28.966,
+      "layer": "unknown",
+      "detail": "No validated direct audio listening was performed. Music, speech delivery, effects, mix and sync remain unknown, not absent.",
+      "visual_relation": "All visual scenes; audiovisual alignment unverified",
+      "evidence": "Visual samples only; no actual audio range supplied to this reviewer."
+    }
+  ],
+  "categories": [
+    {
+      "id": "Q01",
+      "finding": "Live-game context leads to market concept, app glimpse, fan response and logo.",
+      "evidence": "V01–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q02",
+      "finding": "A branded stadium and spectator phone make the launch feel part of match day.",
+      "evidence": "V01",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q03",
+      "finding": "Explicit live trading and leverage copy clarifies the category by 6 s.",
+      "evidence": "V01",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q04",
+      "finding": "Probability lines, phone scale changes and a circular portrait transition are visible across samples; exact camera paths and speed are unknown.",
+      "evidence": "V02–V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q05",
+      "finding": "Sports objects precede chart lines; game footage alternates with app cards to connect entertainment and trading.",
+      "evidence": "V02,V03",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q06",
+      "finding": "Dark UI contrasts with saturated stadium footage and green financial values.",
+      "evidence": "V01–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q07",
+      "finding": "Short feature phrases are clear; the brief phone view is too small to read detailed trade settings.",
+      "evidence": "V01,V03",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q08",
+      "finding": "Voice delivery, music, effects and audiovisual alignment were not established by this visual pass.",
+      "evidence": "A01",
+      "status": "not checked",
+      "reason": "No validated direct audio listening input.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q09",
+      "finding": "Voice delivery, music, effects and audiovisual alignment were not established by this visual pass.",
+      "evidence": "A01",
+      "status": "not checked",
+      "reason": "No validated direct audio listening input.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q10",
+      "finding": "Voice delivery, music, effects and audiovisual alignment were not established by this visual pass.",
+      "evidence": "A01",
+      "status": "not checked",
+      "reason": "No validated direct audio listening input.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q11",
+      "finding": "Voice delivery, music, effects and audiovisual alignment were not established by this visual pass.",
+      "evidence": "A01",
+      "status": "not checked",
+      "reason": "No validated direct audio listening input.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q12",
+      "finding": "Sports clips, spectator footage and phone mockups are combined; rights and asset origins are unverified.",
+      "evidence": "V01–V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q13",
+      "finding": "Manifest duration 28.966 s; indexed dimensions 1920×1080. Source unchanged flag recorded; fresh encoding and audio clipping checks not run.",
+      "evidence": "Group manifest",
+      "status": "uncertain",
+      "reason": "Inherited technical metadata; no fresh media probe in this review.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q14",
+      "finding": "The written trading promise and chart/card states explain the category without sound.",
+      "evidence": "V01–V03",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q15",
+      "finding": "The sequence moves from huge stadium to handheld device, then isolates the phone against black.",
+      "evidence": "V01,V03",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q16",
+      "finding": "The 29 s film gives most time to sports excitement and only 3 s to the central app glimpse.",
+      "evidence": "V02–V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q17",
+      "finding": "The opening spectator context returns as a fan portrait with an account balance.",
+      "evidence": "V01,V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q18",
+      "finding": "Celebration footage links trading with winning excitement; this is framing, not evidence of expected outcomes.",
+      "evidence": "V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q19",
+      "finding": "Dark panels and the star-like logo keep the diverse sports imagery under one brand.",
+      "evidence": "V01,V03,V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q20",
+      "finding": "Green values and a dollar balance appear, but no visible order-to-settlement sequence establishes a trade result.",
+      "evidence": "V03,V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q21",
+      "finding": "Parabolic branding appears inside the stadium and at the close; live sports is the main differentiating context.",
+      "evidence": "V01,V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q22",
+      "finding": "A slightly longer order state could clarify what the user does beyond watching a chart.",
+      "evidence": "V03",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q23",
+      "finding": "Tin can use real work context before an isolated phone or dashboard action, then show a confirmed output.",
+      "evidence": "V01,V03",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q24",
+      "finding": "Parabolic presents live sports trading with leverage.",
+      "evidence": "Model reading from inspected images",
+      "status": "uncertain",
+      "reason": "Model-only new-viewer interpretation; no human test.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q25",
+      "finding": "Contact sheets inspected at displayed size; a phone-size playback, caption audit, flash audit and formal accessibility check were not performed.",
+      "evidence": "Viewed sheets",
+      "status": "not checked",
+      "reason": "Full-size moving-image and device checks unavailable in this pass.",
+      "experiment": "none"
+    }
+  ],
+  "lessons": {
+    "keep": "Start with the user’s real context, then isolate one useful interface action.",
+    "avoid": "Avoid equating celebratory footage with guaranteed product outcomes.",
+    "open": "Trade mechanics, financial outcomes, footage origin, exact motion and sound remain unverified.",
+    "try": [
+      "Open a Tin film inside a busy small business, then show one campaign approval on a phone.",
+      "Pair the final positive reaction with a dated, readable campaign result rather than a generic green number."
+    ]
+  },
+  "comparison": {
+    "story": "Place the product in live fandom. → Connect changing play with changing markets. → Offer a product glimpse. → Tie fan excitement to account value. → Close on brand.",
+    "motion": "Probability lines, phone scale changes and a circular portrait transition are visible across samples; exact camera paths and speed are unknown. Sampling scope: 1 fps unless a closer window is recorded.",
+    "sound": "No validated listening; unknown.",
+    "texture": "Sports footage, phone in hand and short white/red type.; Curved blue line, dark chart and fast sports montage.; Black phone and compact dark UI.; Broadcast-style clips, circular crop and rounded balance pill.; Black patterned ground and white logo.",
+    "lesson": "Start with the user’s real context, then isolate one useful interface action."
+  },
+  "elements": [
+    {
+      "kind": "ui",
+      "name": "phone interface",
+      "events": [
+        "V01",
+        "V03"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "line chart",
+      "events": [
+        "V02"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "balance pill",
+      "events": [
+        "V04"
+      ]
+    },
+    {
+      "kind": "motion",
+      "name": "circular image crop",
+      "events": [
+        "V04"
+      ]
+    }
+  ]
+}

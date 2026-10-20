@@ -1,0 +1,336 @@
+{
+  "id": 489,
+  "reviewer_model": "gpt-6-astra",
+  "scope": "sampled visual and story review; ASR and measured signal support; no validated audio listening",
+  "viewed_evidence": [
+    "technical-review-2026-10-19/deep-review/motion/489/timeline-00.jpg",
+    "technical-review-2026-10-19/deep-review/motion/489/timeline-01.jpg",
+    "astra-review-2026-10-20/evidence/group-2/489-end-4fps.jpg",
+    "technical-review-2026-10-19/deep-review/audio/489-speech.json"
+  ],
+  "closer_windows": [
+    {
+      "start": 28,
+      "end": 31.9,
+      "rate_fps": 4,
+      "evidence": [
+        "astra-review-2026-10-20/evidence/group-2/489-end-4fps.jpg"
+      ],
+      "resolved": "The ending alternates black word cards and colored faces. The complete visible wording includes YC Startup School After Party, June 16 and Invite Only; these words were missed by the 1 fps sheet."
+    }
+  ],
+  "product_from_film": "Cluely promotes an invite-only YC Startup School afterparty on June 16.",
+  "explains_well": "A rejected outsider waiting by the YC sign is contrasted with a welcoming party doorway, giving the event a simple social story.",
+  "unclear": "The date and invitation status flash rapidly, and no location or way to request an invite is shown.",
+  "product_type": "event promotion comedy",
+  "scenario": "Turn an outside waiting scene into an afterparty invitation.",
+  "product_clear_time": 30,
+  "product_clear_basis": "The closer ending samples reveal the event name, June 16 and Invite Only.",
+  "scenes": [
+    {
+      "id": "V01",
+      "start": 0,
+      "end": 13,
+      "action": "A person sits beside a Y Combinator sign and a handwritten Rejected from YC, looking for funds board. An off-screen person points and the seated person reacts and gestures.",
+      "design": "Dark exterior, harsh face light and cardboard sign.",
+      "purpose": "Set up an outsider waiting for a party.",
+      "evidence": "Visible chronological 1 fps samples, source 0–13s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V02",
+      "start": 13,
+      "end": 18,
+      "action": "The view pulls far back into the dark street, leaving the sign and seated figure small.",
+      "design": "Very dark wide framing with isolated lights.",
+      "purpose": "Bridge from exclusion to a different destination.",
+      "evidence": "Visible chronological 1 fps samples, source 13–18s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V03",
+      "start": 18,
+      "end": 25,
+      "action": "A purple-lit doorway opens to a welcoming person and others behind him. The view moves toward the doorway and people greet each other.",
+      "design": "Handheld-looking movement, purple interior light and close faces.",
+      "purpose": "Reveal the social alternative.",
+      "evidence": "Visible chronological 1 fps samples, source 18–25s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V04",
+      "start": 25,
+      "end": 31.906,
+      "action": "Large words build Cluely, YC Startup School After Party, June 16 and Invite Only. Black cards alternate with strongly colored close-up faces.",
+      "design": "Fast white typography, color-shifted portraits and black intervals.",
+      "purpose": "Deliver event identity and date.",
+      "evidence": "Visible chronological 1 fps samples, source 25–31.906s; boundary approximate; exact motion between samples unverified."
+    }
+  ],
+  "sound": [
+    {
+      "id": "A01",
+      "start": 0,
+      "end": 31.906,
+      "layer": "unknown",
+      "detail": "No validated direct audio listening was performed. Music, speech delivery, effects, mix and sync remain unknown, not absent.",
+      "visual_relation": "All visual scenes; audiovisual alignment unverified",
+      "evidence": "Visual samples only; no actual audio range supplied to this reviewer."
+    },
+    {
+      "id": "A02",
+      "start": 1.91,
+      "end": 24.88,
+      "layer": "ASR draft",
+      "detail": "The ASR draft supports a confrontational exchange about waiting for an afterparty, followed by welcoming fragments. Some lines are broken and are not treated as exact dialogue. Heard delivery is unverified.",
+      "visual_relation": "Story text support; exact audiovisual alignment and delivery unverified.",
+      "evidence": "technical-review-2026-10-19/deep-review/audio/489-speech.json; local faster-whisper base CPU int8 draft; VAD candidates only, recognition errors possible."
+    }
+  ],
+  "categories": [
+    {
+      "id": "Q01",
+      "finding": "A rejected-founder joke leads to a party welcome and a rapid event-information sequence.",
+      "evidence": "V01–V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q02",
+      "finding": "The YC sign and handwritten rejection message make the outsider setup clear immediately.",
+      "evidence": "V01",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q03",
+      "finding": "Startup School attendees and people in the startup social circle are the audience; the exact event details arrive in the final seconds.",
+      "evidence": "V01,V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q04",
+      "finding": "The camera pulls far back from the seated person, moves into a purple-lit doorway, then cuts between colored faces and one-word title cards. The final sequence was checked at 4 fps.",
+      "evidence": "V01–V04; 28–31.9s closer window",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q05",
+      "finding": "The move from an isolated exterior to a group doorway carries the social contrast; the ending switches to fast poster-like text.",
+      "evidence": "V01–V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q06",
+      "finding": "Cardboard, night shadows, harsh light and saturated party colors create a deliberately rough social-video look.",
+      "evidence": "V01–V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q07",
+      "finding": "The opening sign is readable, but the date and Invite Only require rapid word assembly. Closer samples were needed to recover the full sequence.",
+      "evidence": "V01,V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q08",
+      "finding": "The ASR draft supports a confrontational exchange about waiting for an afterparty, followed by welcoming fragments. Some lines are broken and are not treated as exact dialogue. Heard delivery is unverified.",
+      "evidence": "A02",
+      "status": "uncertain",
+      "reason": "ASR text only; no validated listening, delivery or voice origin.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q09",
+      "finding": "Voice delivery, music, effects and audiovisual alignment were not established by this visual pass.",
+      "evidence": "A01",
+      "status": "not checked",
+      "reason": "No validated direct audio listening input.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q10",
+      "finding": "Voice delivery, music, effects and audiovisual alignment were not established by this visual pass.",
+      "evidence": "A01",
+      "status": "not checked",
+      "reason": "No validated direct audio listening input.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q11",
+      "finding": "Voice delivery, music, effects and audiovisual alignment were not established by this visual pass.",
+      "evidence": "A01",
+      "status": "not checked",
+      "reason": "No validated direct audio listening input.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q12",
+      "finding": "Staged exterior dialogue, doorway footage, colored face close-ups and animated text are visible. Event provenance is unverified.",
+      "evidence": "V01–V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q13",
+      "finding": "Manifest duration 31.906s; indexed dimensions 1280×720. Source unchanged flag recorded; fresh encoding and audio clipping checks not run.",
+      "evidence": "Group manifest",
+      "status": "uncertain",
+      "reason": "Inherited technical metadata; no fresh media probe in this review.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q14",
+      "finding": "The ASR draft helps establish that the seated person is waiting for an afterparty; the ending text supplies the actual event information.",
+      "evidence": "V01,V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q15",
+      "finding": "Faces and signs dominate the opening. Fast word changes compete with saturated face images in the closing sequence.",
+      "evidence": "V01,V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q16",
+      "finding": "Most of the runtime is the comic setup, leaving only a few seconds for the event name, date and access rule.",
+      "evidence": "V01–V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q17",
+      "finding": "The outside-to-doorway sequence supplies a coherent social progression, though the exact identity of every person is not necessary or established.",
+      "evidence": "V01–V03",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q18",
+      "finding": "Exclusion followed by welcome aims for irreverent social humor and excitement. Actual vocal tone and music are unknown.",
+      "evidence": "V01–V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q19",
+      "finding": "This is an event invitation story, with no software workflow. It omits the practical path to obtaining an invite.",
+      "evidence": "V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q20",
+      "finding": "The YC sign does not establish official sponsorship. Event date, access and location are film claims or omissions, not verified current logistics.",
+      "evidence": "V01,V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q21",
+      "finding": "Cluely appears in the rapid ending, followed by the event wording and invitation restriction.",
+      "evidence": "V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q22",
+      "finding": "Hold a final card with event name, date, location and invite link for several seconds after the rapid montage.",
+      "evidence": "V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q23",
+      "finding": "Use a brief outsider-to-welcome story to give an event invitation a human setup.",
+      "evidence": "V01–V03",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q24",
+      "finding": "Cluely promotes an invite-only YC Startup School afterparty on June 16.",
+      "evidence": "Model reading from inspected images",
+      "status": "uncertain",
+      "reason": "Model-only new-viewer interpretation; no human test.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q25",
+      "finding": "Contact sheets inspected at displayed size; a phone-size playback, caption audit, flash audit and formal accessibility check were not performed.",
+      "evidence": "Viewed sheets",
+      "status": "not checked",
+      "reason": "Full-size moving-image and device checks unavailable in this pass.",
+      "experiment": "none"
+    }
+  ],
+  "lessons": {
+    "keep": "Give an event invitation a simple social setup before presenting logistics.",
+    "avoid": "Hiding practical event information inside a fast word-by-word ending.",
+    "open": "Official event affiliation, location, invitation route and audio remain unverified.",
+    "try": [
+      "For Tin, show one person missing a campaign discussion, then joining a clear shared workspace before the event invitation.",
+      "Add a static three-second event card after the fast words and compare recall of the date and invite path."
+    ]
+  },
+  "comparison": {
+    "story": "Set up an outsider waiting for a party. → Bridge from exclusion to a different destination. → Reveal the social alternative. → Deliver event identity and date.",
+    "motion": "The camera pulls far back from the seated person, moves into a purple-lit doorway, then cuts between colored faces and one-word title cards. The final sequence was checked at 4 fps. Sampling scope: 1 fps unless a closer window is recorded.",
+    "sound": "No validated listening; unknown.",
+    "texture": "Dark exterior, harsh face light and cardboard sign.; Very dark wide framing with isolated lights.; Handheld-looking movement, purple interior light and close faces.; Fast white typography, color-shifted portraits and black intervals.",
+    "lesson": "Give an event invitation a simple social setup before presenting logistics."
+  },
+  "elements": [
+    {
+      "kind": "motion",
+      "name": "camera pullback",
+      "events": [
+        "V02"
+      ]
+    },
+    {
+      "kind": "motion",
+      "name": "rapid word cards",
+      "events": [
+        "V04"
+      ]
+    },
+    {
+      "kind": "texture",
+      "name": "handwritten cardboard",
+      "events": [
+        "V01"
+      ]
+    },
+    {
+      "kind": "texture",
+      "name": "colored party light",
+      "events": [
+        "V03",
+        "V04"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,328 @@
+{
+  "id": 454,
+  "reviewer_model": "gpt-6-astra",
+  "scope": "sampled visual and story review; ASR and measured signal support; no validated audio listening",
+  "viewed_evidence": [
+    "technical-review-2026-10-19/deep-review/motion/454/timeline-00.jpg",
+    "technical-review-2026-10-19/deep-review/motion/454/timeline-01.jpg"
+  ],
+  "closer_windows": [],
+  "product_from_film": "Comet is introduced as an AI browser for work and life through animated browser windows and imagery.",
+  "explains_well": "Browser chrome and the explicit AI browser phrase establish the category quickly.",
+  "unclear": "No real question, action or completed task explains what the browser does for the user.",
+  "product_type": "browser brand introduction",
+  "scenario": "Position an AI browser as useful across work and everyday life.",
+  "product_clear_time": 9,
+  "product_clear_basis": "Separate browser windows spell The AI browser.",
+  "scenes": [
+    {
+      "id": "V01",
+      "start": 0,
+      "end": 8,
+      "action": "A black geometric mark changes shape on cream, Introducing Comet separates across the frame, and a small dark sphere moves under a browser toolbar.",
+      "design": "Minimal cream ground, fine lines and restrained serif text.",
+      "purpose": "Introduce the name and browser context.",
+      "evidence": "Visible chronological 1 fps samples, source 0–8s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V02",
+      "start": 8,
+      "end": 18,
+      "action": "Overlapping browser windows spell The AI browser and that works for you, then windows repeat into a diagonal field with fragments of the claim.",
+      "design": "Layered white windows, soft shadows and small colored spheres.",
+      "purpose": "Expand the scope of the promise.",
+      "evidence": "Visible chronological 1 fps samples, source 8–18s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V03",
+      "start": 18,
+      "end": 24,
+      "action": "An oval window cycles through people and flowers under Across work, followed by rotated rounded cards of food and animals around and life.",
+      "design": "Masked footage and rotating card-like compositions.",
+      "purpose": "Connect the browser to broad interests.",
+      "evidence": "Visible chronological 1 fps samples, source 18–24s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V04",
+      "start": 24,
+      "end": 33,
+      "action": "A browser window with a sky image says Ask anything, then fills the scene with Do anything. A bright comet trail crosses the sky behind The internet is better on comet.",
+      "design": "Shift from cream UI framing to luminous blue sky and streaking light.",
+      "purpose": "Build the final brand promise.",
+      "evidence": "Visible chronological 1 fps samples, source 24–33s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V05",
+      "start": 33,
+      "end": 41.375,
+      "action": "A dot becomes a compact black curved mark on cream and holds for several seconds before a dark ending.",
+      "design": "Small centered logo and empty space.",
+      "purpose": "Close with the identity.",
+      "evidence": "Visible chronological 1 fps samples, source 33–41.375s; boundary approximate; exact motion between samples unverified."
+    }
+  ],
+  "sound": [
+    {
+      "id": "A01",
+      "start": 0,
+      "end": 41.375,
+      "layer": "unknown",
+      "detail": "No validated direct audio listening was performed. Music, speech delivery, effects, mix and sync remain unknown, not absent.",
+      "visual_relation": "All visual scenes; audiovisual alignment unverified",
+      "evidence": "Visual samples only; no actual audio range supplied to this reviewer."
+    }
+  ],
+  "categories": [
+    {
+      "id": "Q01",
+      "finding": "Name and category lead to broad work-life imagery, an ask/do promise and a comet-themed brand ending.",
+      "evidence": "V01–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q02",
+      "finding": "A small changing geometric logo provides a restrained identity hook with no immediate use case.",
+      "evidence": "V01",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q03",
+      "finding": "The phrase AI browser establishes the category around 9s; the audience is broad rather than a defined user need.",
+      "evidence": "V02",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q04",
+      "finding": "Browser windows overlap and repeat in depth, footage cycles inside shaped masks, rounded cards rotate, and a bright light trail sweeps across the sky. Exact easing and logo geometry are not resolved by 1 fps samples.",
+      "evidence": "V01–V05",
+      "status": "uncertain",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q05",
+      "finding": "Browser frames act as a common container for words and footage, then the sky content fills the frame for the final promise.",
+      "evidence": "V02–V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q06",
+      "finding": "Cream space, serif text, fine browser chrome and soft shadows give way to a saturated luminous sky.",
+      "evidence": "V01–V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q07",
+      "finding": "Large short claims are readable, but there is no prompt text, task name or output to explain the broad verbs.",
+      "evidence": "V02–V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q08",
+      "finding": "Voice delivery, music, effects and audiovisual alignment were not established by this visual pass.",
+      "evidence": "A01",
+      "status": "not checked",
+      "reason": "No validated direct audio listening input.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q09",
+      "finding": "Voice delivery, music, effects and audiovisual alignment were not established by this visual pass.",
+      "evidence": "A01",
+      "status": "not checked",
+      "reason": "No validated direct audio listening input.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q10",
+      "finding": "Voice delivery, music, effects and audiovisual alignment were not established by this visual pass.",
+      "evidence": "A01",
+      "status": "not checked",
+      "reason": "No validated direct audio listening input.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q11",
+      "finding": "Voice delivery, music, effects and audiovisual alignment were not established by this visual pass.",
+      "evidence": "A01",
+      "status": "not checked",
+      "reason": "No validated direct audio listening input.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q12",
+      "finding": "Animated browser frames, geometric marks, spheres, masked stock-like clips and a comet visual form the asset set.",
+      "evidence": "V01–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q13",
+      "finding": "Manifest duration 41.375s; indexed dimensions 1280×720. Source unchanged flag recorded; fresh encoding and audio clipping checks not run.",
+      "evidence": "Group manifest",
+      "status": "uncertain",
+      "reason": "Inherited technical metadata; no fresh media probe in this review.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q14",
+      "finding": "The category and promise are readable without sound. Actual operation remains unexplained.",
+      "evidence": "V02–V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q15",
+      "finding": "Sparse type begins with a clear focus; window repetition briefly increases visual density before the full sky simplifies it.",
+      "evidence": "V01–V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q16",
+      "finding": "The closing logo hold uses several seconds after the brand promise; that time could show one concrete browser action.",
+      "evidence": "V04–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q17",
+      "finding": "An AI browser is promised to work for the user, but the film supplies evocative imagery rather than a task result.",
+      "evidence": "V02,V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q18",
+      "finding": "Open space and the bright sky suggest breadth and possibility. This is an interpretation, with soundtrack and audience response unchecked.",
+      "evidence": "V01–V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q19",
+      "finding": "Browser chrome and small moving spheres connect the graphic sections; the final comet imagery connects directly to the product name.",
+      "evidence": "V01–V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q20",
+      "finding": "The film demonstrates a brand concept, not task completion, browsing autonomy or answer quality.",
+      "evidence": "V02–V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q21",
+      "finding": "The comet name and light trail reinforce one another, while cream backgrounds and serif type create a coherent visual identity.",
+      "evidence": "V01–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q22",
+      "finding": "Use part of the final hold to show one question, browser action and resulting page or answer.",
+      "evidence": "V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q23",
+      "finding": "Use product windows as containers for the story, but fill at least one with a real task rather than only the claim text.",
+      "evidence": "V02–V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q24",
+      "finding": "Comet is introduced as an AI browser for work and life through animated browser windows and imagery.",
+      "evidence": "Model reading from inspected images",
+      "status": "uncertain",
+      "reason": "Model-only new-viewer interpretation; no human test.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q25",
+      "finding": "Contact sheets inspected at displayed size; a phone-size playback, caption audit, flash audit and formal accessibility check were not performed.",
+      "evidence": "Viewed sheets",
+      "status": "not checked",
+      "reason": "Full-size moving-image and device checks unavailable in this pass.",
+      "experiment": "none"
+    }
+  ],
+  "lessons": {
+    "keep": "Let the product’s own window shape organize the visual story.",
+    "avoid": "Broad ask-anything and do-anything claims with no example of either.",
+    "open": "Task behavior, availability details, exact motion timing and sound remain unverified.",
+    "try": [
+      "For Tin, use campaign panels to carry a short claim, then replace the text with an actual approved campaign result.",
+      "Compare the abstract work-life montage with one concrete browser task using the same cream visual style."
+    ]
+  },
+  "comparison": {
+    "story": "Introduce the name and browser context. → Expand the scope of the promise. → Connect the browser to broad interests. → Build the final brand promise. → Close with the identity.",
+    "motion": "Browser windows overlap and repeat in depth, footage cycles inside shaped masks, rounded cards rotate, and a bright light trail sweeps across the sky. Exact easing and logo geometry are not resolved by 1 fps samples. Sampling scope: 1 fps unless a closer window is recorded.",
+    "sound": "No validated listening; unknown.",
+    "texture": "Minimal cream ground, fine lines and restrained serif text.; Layered white windows, soft shadows and small colored spheres.; Masked footage and rotating card-like compositions.; Shift from cream UI framing to luminous blue sky and streaking light.; Small centered logo and empty space.",
+    "lesson": "Let the product’s own window shape organize the visual story."
+  },
+  "elements": [
+    {
+      "kind": "ui",
+      "name": "browser windows",
+      "events": [
+        "V01",
+        "V02",
+        "V04"
+      ]
+    },
+    {
+      "kind": "motion",
+      "name": "repeating windows",
+      "events": [
+        "V02"
+      ]
+    },
+    {
+      "kind": "motion",
+      "name": "rotating image cards",
+      "events": [
+        "V03"
+      ]
+    },
+    {
+      "kind": "texture",
+      "name": "cream background",
+      "events": [
+        "V01",
+        "V02",
+        "V03",
+        "V05"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,337 @@
+{
+  "id": 374,
+  "product_from_film": "Essential Apps lets a user describe a personal app and deploy it to a Nothing phone.",
+  "explains_well": "A marathon-training need becomes a prompt, a run-time widget and a deployment step before the user leaves in running clothes.",
+  "unclear": "The film does not show how the app gains calendar and weather access or how those inputs produce its suggested times.",
+  "product_type": "Personal app builder",
+  "scenario": "Create a running planner that fits a training plan, calendar and weather, then add it to a phone.",
+  "product_clear_time": 28,
+  "product_clear_basis": "Create your app leads to a prompt editor at 28s; the personalized app preview follows at 35s.",
+  "scenes": [
+    {
+      "start": 0,
+      "end": 11,
+      "action": "A woman checks a phone in a sparse pale room. A grid of apps appears, then Billion apps and Billion people flank her as she walks to a desk.",
+      "design": "Soft gray-green room, wide compositions and small captions.",
+      "purpose": "Contrast generic apps with personal needs.",
+      "evidence": "1 fps source samples in 0–11s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V01"
+    },
+    {
+      "start": 11,
+      "end": 24,
+      "action": "The marathon scenario is introduced in captions. Calendar/weather icons appear, she puts on headphones and opens a laptop, and a highlighted address leads to Nothing Playground.",
+      "design": "Lifestyle footage, floating icons and yellow address strip.",
+      "purpose": "Ground the product in one user need.",
+      "evidence": "1 fps source samples in 11–24s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V02"
+    },
+    {
+      "start": 24,
+      "end": 35,
+      "action": "The Playground page shows Create your app. A prompt asks for training times based on calendar, weather and a training plan; code views follow.",
+      "design": "White prompt UI, yellow controls and brief dark code panels.",
+      "purpose": "Show describing the desired app.",
+      "evidence": "1 fps source samples in 24–35s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V03"
+    },
+    {
+      "start": 35,
+      "end": 41,
+      "action": "A weekly run-time widget shows weather and meeting notes. Deploy your app and Start deployment appear, followed by a phone close-up.",
+      "design": "Minimal widget and yellow deployment button.",
+      "purpose": "Connect generated output to a device.",
+      "evidence": "1 fps source samples in 35–41s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V04"
+    },
+    {
+      "start": 41,
+      "end": 53,
+      "action": "The woman picks up the phone; the same widget floats beside her with Essential Apps and By you/For you text. She next appears in running clothes and walks away.",
+      "design": "Room footage with app overlay and changed outfit.",
+      "purpose": "Return the tool to everyday use; exact wardrobe transition is unverified.",
+      "evidence": "1 fps source samples in 41–53s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V05"
+    },
+    {
+      "start": 53,
+      "end": 68.0,
+      "action": "The prompt form cycles through more personal-app requests, followed by playground.nothing.tech and NOTHING branding on white.",
+      "design": "Small changing prompts, yellow bar and restrained end card.",
+      "purpose": "Broaden possibilities and provide destination.",
+      "evidence": "1 fps source samples in 53–68.0s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V06"
+    }
+  ],
+  "sound": [
+    {
+      "id": "A01",
+      "start": 0,
+      "end": 68.0,
+      "layer": "ASR draft",
+      "detail": "Draft supports generic-app problem, marathon/calendar/weather example, Playground/create/prompt steps and created-by-you-for-you close. It is sparse after 47s. Music, effects, delivery and sync were not heard or verified.",
+      "visual_relation": "V01–V05; captions and draft explain the lifestyle demonstration.",
+      "evidence": "374-speech.json local draft and visible captions; no validated listening."
+    }
+  ],
+  "categories": [
+    {
+      "id": "Q01",
+      "finding": "Generic apps → runner need → describe app → preview/deploy → phone use → more ideas.",
+      "evidence": "V01–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q02",
+      "finding": "A distant person in a pale room is followed by her phone app grid; the opening caption sets up the generic-app problem.",
+      "evidence": "V01",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q03",
+      "finding": "People wanting a personal phone app are addressed through a runner example; creation is concrete at 28s and device deployment at 38s.",
+      "evidence": "V03,V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q04",
+      "finding": "The woman crosses the room, UI overlays appear, text is typed and app states change. Outfit changes between samples; exact transition/easing is unverified.",
+      "evidence": "V01–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q05",
+      "finding": "The same runner and room bracket the screen demo, then the widget reappears beside the phone user.",
+      "evidence": "V02–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q06",
+      "finding": "Muted gray-green lifestyle set and white UI use yellow action accents; the phone hardware is shown in close-up.",
+      "evidence": "V01–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q07",
+      "finding": "Captions carry the scenario, while the prompt and widget show its requirements and outcome. Code is a brief process cue rather than readable instruction.",
+      "evidence": "V02–V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q08",
+      "finding": "ASR/captions support the personal-app story; audible character and layers remain unknown.",
+      "evidence": "A01",
+      "status": "uncertain",
+      "reason": "Draft support only.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q09",
+      "finding": "Music character and structure are unverified.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "No validated listening.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q10",
+      "finding": "Effects and their sources are unverified.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "No validated listening; waveform peaks do not identify effects.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q11",
+      "finding": "Sound sync is unverified.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "No validated listening or paired audiovisual timing.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q12",
+      "finding": "Lifestyle footage, phone/laptop close-ups, composited icons and app screens are combined. Asset origins and live-product status are unverified.",
+      "evidence": "V01–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q13",
+      "finding": "Source duration 68.0 s; Watch metadata 1920 × 1080. Frame rate, audio clipping and export quality not checked here.",
+      "evidence": "Whole film",
+      "status": "supported",
+      "reason": "Parent source metadata supports duration and dimensions; visual review is sampled.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q14",
+      "finding": "Captions, prompt, weekly widget and deployment control explain the main path without checked sound.",
+      "evidence": "V02–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q15",
+      "finding": "Yellow controls focus the screen steps; the wide room keeps the user central and the app overlay appears near her phone.",
+      "evidence": "V02–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q16",
+      "finding": "One main use case gets most of the film; the final prompt montage adds breadth after the payoff. Connection/setup details are skipped.",
+      "evidence": "V02–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q17",
+      "finding": "The app-not-built-for-you premise is answered by a runner-specific widget and phone deployment. The recommendation’s source data is not shown.",
+      "evidence": "V01–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q18",
+      "finding": "Generic choice gives way to a personal fit and readiness to run; this is an intended arc, not measured response.",
+      "evidence": "V01–V05",
+      "status": "uncertain",
+      "reason": "Visual/script interpretation only.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q19",
+      "finding": "Runner, calendar/weather need, prompt and widget remain linked across room and screen views.",
+      "evidence": "V02–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q20",
+      "finding": "The film shows prompt, preview, deployment control and illustrated use. Actual installation, data access, recommendation quality and arbitrary app creation are untested.",
+      "evidence": "V03–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q21",
+      "finding": "Nothing hardware, restrained room styling and a narrow personal use case distinguish the demonstration.",
+      "evidence": "V02–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q22",
+      "finding": "Show the personal-data connection.",
+      "evidence": "V03,V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "Add one calendar/weather connection step and highlight the calendar gap and weather condition used for a suggested run."
+    },
+    {
+      "id": "Q23",
+      "finding": "For Tin, anchor automation in one person’s real constraint.",
+      "evidence": "V02–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "Show a campaign brief constrained by an event date, then the generated schedule and matching published artifact in the user’s work context."
+    },
+    {
+      "id": "Q24",
+      "finding": "No human new-viewer test was performed.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "The product summary is this model’s film-only reading.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q25",
+      "finding": "Mobile preview and accessibility checks were not performed.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "Contact sheets are evidence views, not a stated mobile preview or compliance test.",
+      "experiment": "none"
+    }
+  ],
+  "elements": [
+    {
+      "kind": "ui",
+      "name": "prompt field",
+      "events": [
+        "V03",
+        "V06"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "calendar widget",
+      "events": [
+        "V04",
+        "V05"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "deployment control",
+      "events": [
+        "V04"
+      ]
+    },
+    {
+      "kind": "texture",
+      "name": "minimal lifestyle set",
+      "events": [
+        "V01",
+        "V02",
+        "V05"
+      ]
+    }
+  ],
+  "lessons": {
+    "keep": "Return the generated app to the same person and need that opened the story.",
+    "try": [
+      "Show calendar/weather connection and the inputs behind one suggested run.",
+      "For Tin, connect an event-date constraint to a generated schedule and final artifact."
+    ],
+    "avoid": "Making personalization look automatic without showing where its inputs come from.",
+    "open": "Data connections, installation, recommendation quality, precise transitions and audio qualities remain unverified."
+  },
+  "comparison": {
+    "story": "Personal need → prompt → app → everyday use.",
+    "motion": "Room movement, floating UI, typed prompt and changed app states.",
+    "sound": "ASR/captions support the scenario; no validated listening.",
+    "texture": "Muted lifestyle set, white UI and yellow controls.",
+    "lesson": "A consistent person and use case make app generation feel purposeful."
+  },
+  "reviewer_model": "gpt-6-astra",
+  "scope": "sampled visual and story review; ASR and measured signal support; no validated audio listening",
+  "viewed_evidence": [
+    "technical-review-2026-10-19/deep-review/motion/374/timeline-00.jpg",
+    "technical-review-2026-10-19/deep-review/motion/374/timeline-01.jpg",
+    "technical-review-2026-10-19/deep-review/motion/374/timeline-02.jpg"
+  ],
+  "closer_windows": []
+}

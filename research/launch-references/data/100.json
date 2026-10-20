@@ -1,0 +1,341 @@
+{
+  "id": 100,
+  "reviewer_model": "gpt-6-astra",
+  "scope": "sampled visual and story review; ASR and measured signal support; no validated audio listening",
+  "viewed_evidence": [
+    "technical-review-2026-10-19/deep-review/motion/100/timeline-00.jpg",
+    "technical-review-2026-10-19/deep-review/motion/100/timeline-01.jpg",
+    "technical-review-2026-10-19/deep-review/audio/100-speech.json"
+  ],
+  "closer_windows": [],
+  "product_from_film": "CrowdReply presents a chat agent for improving brand visibility in AI answers.",
+  "explains_well": "A specific question becomes diagnosed gaps, permission and named actions.",
+  "unclear": "The visibility jump to 70% has no time period, measurement basis or independent proof.",
+  "product_type": "marketing agent",
+  "scenario": "Ask why a brand is absent from ChatGPT and approve proposed fixes.",
+  "product_clear_time": 23,
+  "product_clear_basis": "The brand-visibility question appears in the agent composer.",
+  "scenes": [
+    {
+      "id": "V01",
+      "start": 0,
+      "end": 13,
+      "action": "A magnifying glass enlarges AI in a question about being found. Visibility charts, sentiment gauge and tables collect inside a browser window, then the pointer reaches its close control.",
+      "design": "Cream background, floating rounded panels and dashboard charts.",
+      "purpose": "Introduce the visibility problem and reporting burden.",
+      "evidence": "Visible chronological 1 fps samples, source 0–13s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V02",
+      "start": 13,
+      "end": 20,
+      "action": "You and Ask text precede a small app mark and glowing orb. Introducing Superagent and How may I help you appear.",
+      "design": "Soft pink-blue gradients, blurred type and dark interlude.",
+      "purpose": "Reveal a conversational alternative.",
+      "evidence": "Visible chronological 1 fps samples, source 13–20s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V03",
+      "start": 20,
+      "end": 31,
+      "action": "The user asks why their brand is not showing in ChatGPT. Analysis returns three cards: no intent-based content, missing trusted sources and no brand mentions. The agent offers to fix gaps; user replies Yes pls.",
+      "design": "White chat, serif response headings, outlined diagnostic cards.",
+      "purpose": "Connect a plain question to diagnosis and approval.",
+      "evidence": "Visible chronological 1 fps samples, source 20–31s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V04",
+      "start": 31,
+      "end": 40,
+      "action": "Initiating Actions displays content creation, citation outreach, backlinks and social visibility. A visibility percentage rises to 70% across sampled states.",
+      "design": "Gradient progress bars and four action cards.",
+      "purpose": "Claim execution and improvement.",
+      "evidence": "Visible chronological 1 fps samples, source 31–40s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V05",
+      "start": 40,
+      "end": 53.0,
+      "action": "Cards show visibility scores, balance and prompts. Your AI visibility / One prompt away leads to floating suggested questions, crowdreply.io/agent, Try it free and logo.",
+      "design": "Pastel cards, orb, centered CTA and white end plate.",
+      "purpose": "Summarize benefits and invite a trial.",
+      "evidence": "Visible chronological 1 fps samples, source 40–53.0s; boundary approximate; exact motion between samples unverified."
+    }
+  ],
+  "sound": [
+    {
+      "id": "A01",
+      "start": 0,
+      "end": 53.0,
+      "layer": "unknown",
+      "detail": "No validated direct audio listening was performed. Music, speech delivery, effects, mix and sync remain unknown, not absent.",
+      "visual_relation": "All visual scenes; audiovisual alignment unverified",
+      "evidence": "Visual samples only; no actual audio range supplied to this reviewer."
+    },
+    {
+      "id": "A02",
+      "start": 0.01,
+      "end": 47.39,
+      "layer": "ASR draft",
+      "detail": "ASR draft follows the visible structure: being found in AI answers, closing a dashboard, asking an agent, finding gaps and applying fixes. Brand names and several phrases are mistranscribed, including brain/chest/disability, so these are not reliable dialogue. The causal ranking promise remains a claim; voice delivery and sync were not heard.",
+      "visual_relation": "Story text support; exact audiovisual alignment and delivery unverified.",
+      "evidence": "technical-review-2026-10-19/deep-review/audio/100-speech.json; local faster-whisper base CPU int8 draft; VAD candidates only, recognition errors possible."
+    }
+  ],
+  "categories": [
+    {
+      "id": "Q01",
+      "finding": "Problem and dashboard give way to agent, question, diagnosis, approval, action and claimed result.",
+      "evidence": "V01–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q02",
+      "finding": "A magnifying glass enlarges AI inside the opening question, making search visibility literal.",
+      "evidence": "V01",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q03",
+      "finding": "The agent purpose is concrete when the user asks why the brand is absent from ChatGPT at 23 s.",
+      "evidence": "V03",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q04",
+      "finding": "Dashboard panels collect, the interface shifts into chat, progress bars change and percentages rise in sampled states; exact easing is unresolved.",
+      "evidence": "V01–V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q05",
+      "finding": "Closing the dashboard and introducing Ask provides a conceptual transition from monitoring to action.",
+      "evidence": "V01,V02",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q06",
+      "finding": "Cream and white surfaces with pink-blue gradients soften a data-heavy marketing task.",
+      "evidence": "V01–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q07",
+      "finding": "Large opening and CTA copy reads clearly; diagnostic and action cards contain much smaller text.",
+      "evidence": "V01,V03–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q08",
+      "finding": "ASR draft follows the visible structure: being found in AI answers, closing a dashboard, asking an agent, finding gaps and applying fixes. Brand names and several phrases are mistranscribed, including brain/chest/disability, so these are not reliable dialogue. The causal ranking promise remains a claim; voice delivery and sync were not heard.",
+      "evidence": "A02",
+      "status": "uncertain",
+      "reason": "ASR text only; no validated listening, delivery or voice origin.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q09",
+      "finding": "Voice delivery, music, effects and audiovisual alignment were not established by this visual pass.",
+      "evidence": "A01",
+      "status": "not checked",
+      "reason": "No validated direct audio listening input.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q10",
+      "finding": "Voice delivery, music, effects and audiovisual alignment were not established by this visual pass.",
+      "evidence": "A01",
+      "status": "not checked",
+      "reason": "No validated direct audio listening input.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q11",
+      "finding": "Voice delivery, music, effects and audiovisual alignment were not established by this visual pass.",
+      "evidence": "A01",
+      "status": "not checked",
+      "reason": "No validated direct audio listening input.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q12",
+      "finding": "Dashboard and chat mockups mix with a magnifier and glowing orb; live product capture versus compositing is unconfirmed.",
+      "evidence": "V01–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q13",
+      "finding": "Manifest duration 53.0 s; indexed dimensions 1280×720. Source unchanged flag recorded; fresh encoding and audio clipping checks not run.",
+      "evidence": "Group manifest",
+      "status": "uncertain",
+      "reason": "Inherited technical metadata; no fresh media probe in this review.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q14",
+      "finding": "Written question, gap names, approval and action labels communicate the main sequence without audio.",
+      "evidence": "V03,V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q15",
+      "finding": "The composer is enlarged before answer cards; later camera crops prioritize the percentage result.",
+      "evidence": "V03,V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q16",
+      "finding": "The first 20 s introduce problem and agent, leaving about 20 s for the concrete workflow. A shorter reveal could improve task clarity.",
+      "evidence": "V01–V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q17",
+      "finding": "The initial found-in-AI question returns as a measured-looking visibility increase and one-prompt promise.",
+      "evidence": "V01,V04,V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q18",
+      "finding": "The Yes pls approval creates an easy-control impression, though real work and safeguards remain unclear.",
+      "evidence": "V03,V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q19",
+      "finding": "The orb and pastel palette recur from agent reveal to response and CTA.",
+      "evidence": "V02–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q20",
+      "finding": "Action cards and a 70% value are presented, but the film gives no visible measurement window or proof that outreach caused the increase.",
+      "evidence": "V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q21",
+      "finding": "CrowdReply ends with a specific agent URL and free-trial CTA; the orb supplies a recurring visual identity.",
+      "evidence": "V02,V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q22",
+      "finding": "Diagnostic cards are useful narrative evidence; the unsupported speed of improvement weakens the result claim.",
+      "evidence": "V03,V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q23",
+      "finding": "Tin can use the diagnosis-to-approval sequence, followed by a verifiable campaign output and honest result period.",
+      "evidence": "V03,V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q24",
+      "finding": "CrowdReply presents a chat agent for improving brand visibility in AI answers.",
+      "evidence": "Model reading from inspected images",
+      "status": "uncertain",
+      "reason": "Model-only new-viewer interpretation; no human test.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q25",
+      "finding": "Contact sheets inspected at displayed size; a phone-size playback, caption audit, flash audit and formal accessibility check were not performed.",
+      "evidence": "Viewed sheets",
+      "status": "not checked",
+      "reason": "Full-size moving-image and device checks unavailable in this pass.",
+      "experiment": "none"
+    }
+  ],
+  "lessons": {
+    "keep": "Make the agent explain gaps before asking to act.",
+    "avoid": "Avoid implying instant causal improvement with a rapidly rising score.",
+    "open": "Real action execution, score definition, timing, publication permissions and audio remain unverified.",
+    "try": [
+      "For Tin, ask why a campaign is underperforming and display three evidence-linked causes before approval.",
+      "Show one completed outreach or campaign artifact, then a clearly dated performance change instead of an immediate unexplained percentage."
+    ]
+  },
+  "comparison": {
+    "story": "Introduce the visibility problem and reporting burden. → Reveal a conversational alternative. → Connect a plain question to diagnosis and approval. → Claim execution and improvement. → Summarize benefits and invite a trial.",
+    "motion": "Dashboard panels collect, the interface shifts into chat, progress bars change and percentages rise in sampled states; exact easing is unresolved. Sampling scope: 1 fps unless a closer window is recorded.",
+    "sound": "No validated listening; unknown.",
+    "texture": "Cream background, floating rounded panels and dashboard charts.; Soft pink-blue gradients, blurred type and dark interlude.; White chat, serif response headings, outlined diagnostic cards.; Gradient progress bars and four action cards.; Pastel cards, orb, centered CTA and white end plate.",
+    "lesson": "Make the agent explain gaps before asking to act."
+  },
+  "elements": [
+    {
+      "kind": "ui",
+      "name": "dashboard",
+      "events": [
+        "V01"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "chat",
+      "events": [
+        "V03"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "diagnostic cards",
+      "events": [
+        "V03"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "progress bars",
+      "events": [
+        "V04"
+      ]
+    },
+    {
+      "kind": "texture",
+      "name": "pastel gradient",
+      "events": [
+        "V02",
+        "V05"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,325 @@
+{
+  "id": 508,
+  "reviewer_model": "gpt-6-astra",
+  "scope": "sampled visual and story review; this downloaded file has no audio stream",
+  "viewed_evidence": [
+    "technical-review-2026-10-19/deep-review/motion/508/timeline-00.jpg",
+    "astra-review-2026-10-20/evidence/group-2/508-14.png",
+    "astra-review-2026-10-20/evidence/group-2/508-15.png"
+  ],
+  "closer_windows": [],
+  "product_from_film": "A desktop assistant searches for a dog image in Chrome and places it in a Messages conversation with Boss.",
+  "explains_well": "The same bow-tie puppy visibly carries from search results into the final conversation, making the cross-app result easy to follow.",
+  "unclear": "The film does not show a clear recipient or send approval step before the image appears in the conversation.",
+  "product_type": "computer agent demonstration",
+  "scenario": "Find a cute dog image and share it with a named contact.",
+  "product_clear_time": 7,
+  "product_clear_basis": "The submitted request is followed by Chrome opening and dog-image search results.",
+  "scenes": [
+    {
+      "id": "V01",
+      "start": 0,
+      "end": 4,
+      "action": "A compact assistant panel receives a request to copy a cute dog image from Google Chrome and share it with the user’s boss on iMessage. A short checklist sits below the text.",
+      "design": "White floating command panel on a dark desktop; 1x speed label.",
+      "purpose": "State a concrete multi-app task.",
+      "evidence": "Visible chronological 1 fps samples, source 0–4s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V02",
+      "start": 4,
+      "end": 10,
+      "action": "The desktop view widens. A keyboard shortcut overlay appears, Chrome opens and searches for cute dog images. A bow-tie puppy image is selected and a context menu opens.",
+      "design": "Purple-pink desktop border, browser results and floating task status.",
+      "purpose": "Show image discovery and selection.",
+      "evidence": "Visible chronological 1 fps samples, source 4–10s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V03",
+      "start": 10,
+      "end": 13,
+      "action": "Another app-launch shortcut appears and Messages opens to Boss over Chrome. The puppy image begins to appear in the messaging area.",
+      "design": "Overlapping browser and messaging windows with visible shortcut labels.",
+      "purpose": "Show the move between applications.",
+      "evidence": "Visible chronological 1 fps samples, source 10–13s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V04",
+      "start": 13,
+      "end": 15.133,
+      "action": "The same puppy is visible as a large right-aligned image in the conversation above the empty composer. The assistant status changes to Request completed in the final frame.",
+      "design": "Readable image, named recipient and green completion label.",
+      "purpose": "Show the task’s displayed completion.",
+      "evidence": "Visible chronological 1 fps samples, source 13–15.133s; boundary approximate; exact motion between samples unverified."
+    }
+  ],
+  "sound": [
+    {
+      "id": "A01",
+      "start": 0,
+      "end": 15.133,
+      "layer": "source metadata",
+      "detail": "This downloaded file has no audio stream; other versions are unverified.",
+      "visual_relation": "V01–V04; no audio stream in this exact source.",
+      "evidence": "Parent fresh ffprobe audit of the exact downloaded source."
+    }
+  ],
+  "categories": [
+    {
+      "id": "Q01",
+      "finding": "A specific request becomes a browser search, image selection, Messages switch and visible completion.",
+      "evidence": "V01–V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q02",
+      "finding": "The film opens on the exact task, with no abstract introduction.",
+      "evidence": "V01",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q03",
+      "finding": "People who want desktop tasks automated are the implied users. A real browser search begins within the first seven seconds.",
+      "evidence": "V01–V02",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q04",
+      "finding": "Text enters the command panel, windows open and overlap, the cursor selects a search image, shortcut labels appear, and the image moves into Messages before the status turns green.",
+      "evidence": "V01–V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q05",
+      "finding": "The continuous desktop context and persistent task bar link the browser and messaging stages.",
+      "evidence": "V01–V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q06",
+      "finding": "The desktop’s purple-pink border frames mostly ordinary app interfaces; the white task bar remains easy to locate.",
+      "evidence": "V02–V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q07",
+      "finding": "The initial request and final status are useful labels. The 1x speed note is a presentation claim, not an independently measured automation benchmark.",
+      "evidence": "V01–V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q08",
+      "finding": "This downloaded file has no audio stream; other versions are unverified.",
+      "evidence": "A01",
+      "status": "not applicable",
+      "reason": "This downloaded file has no audio stream; other versions are unverified.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q09",
+      "finding": "This downloaded file has no audio stream; other versions are unverified.",
+      "evidence": "A01",
+      "status": "not applicable",
+      "reason": "This downloaded file has no audio stream; other versions are unverified.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q10",
+      "finding": "This downloaded file has no audio stream; other versions are unverified.",
+      "evidence": "A01",
+      "status": "not applicable",
+      "reason": "This downloaded file has no audio stream; other versions are unverified.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q11",
+      "finding": "This downloaded file has no audio stream; other versions are unverified.",
+      "evidence": "A01",
+      "status": "not applicable",
+      "reason": "This downloaded file has no audio stream; other versions are unverified.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q12",
+      "finding": "Desktop capture, command panel, keyboard-shortcut overlays and a colored outer frame form the visible assets.",
+      "evidence": "V01–V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q13",
+      "finding": "Manifest duration 15.133s; indexed dimensions 1034×720. Source unchanged flag recorded; fresh encoding and audio clipping checks not run.",
+      "evidence": "Group manifest",
+      "status": "uncertain",
+      "reason": "Inherited technical metadata; no fresh media probe in this review.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q14",
+      "finding": "The entire task is visually understandable without sound: request, selected dog, target conversation and completion. The downloaded file has no audio stream.",
+      "evidence": "V01–V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q15",
+      "finding": "The selected puppy provides a strong visual anchor across applications. The floating status bar can overlap the bottom of the message area.",
+      "evidence": "V02–V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q16",
+      "finding": "The fifteen-second demo is compact and uses most of its time for the actual task. It ends just after completion with no separate CTA.",
+      "evidence": "V01–V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q17",
+      "finding": "One task and one image persist throughout, providing a complete visible action chain.",
+      "evidence": "V01–V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q18",
+      "finding": "The ordinary dog-sharing task makes computer automation feel familiar and low in complexity; no sound-based mood is present in this exact file.",
+      "evidence": "V01–V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q19",
+      "finding": "Full-resolution frames at 14s and 15s show the bow-tie puppy in the Boss conversation above an empty composer, followed by Request completed. Actual recipient receipt is not shown.",
+      "evidence": "V02–V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q20",
+      "finding": "The visible result supports the depicted cross-app flow, not general reliability or independently verified delivery. A distinct recipient/send approval and failure recovery are not shown.",
+      "evidence": "V01–V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q21",
+      "finding": "A small assistant symbol repeats in the command and task bar, but a full product name or next-step destination is not clearly stated in the clip.",
+      "evidence": "V01–V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q22",
+      "finding": "Add a brief recipient-and-image confirmation before the final send, then a small product name and next step after completion.",
+      "evidence": "V03–V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q23",
+      "finding": "Keep the same recognizable object visible across apps to prove continuity in an automation demo.",
+      "evidence": "V02–V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q24",
+      "finding": "A desktop assistant searches for a dog image in Chrome and places it in a Messages conversation with Boss.",
+      "evidence": "Model reading from inspected images",
+      "status": "uncertain",
+      "reason": "Model-only new-viewer interpretation; no human test.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q25",
+      "finding": "Contact sheets inspected at displayed size; a phone-size playback, caption audit, flash audit and formal accessibility check were not performed.",
+      "evidence": "Viewed sheets",
+      "status": "not checked",
+      "reason": "Full-size moving-image and device checks unavailable in this pass.",
+      "experiment": "none"
+    }
+  ],
+  "lessons": {
+    "keep": "Carry one recognizable image through the full multi-app task.",
+    "avoid": "Treating a completion label as proof of external receipt or broad automation reliability.",
+    "open": "Actual recipient receipt, approval behavior and general task reliability remain unverified; other versions of the public post are unverified.",
+    "try": [
+      "For Tin, keep the same campaign creative visible from generation through review and the final scheduled post.",
+      "Compare the demo with a short confirmation step showing recipient and selected image before completion."
+    ]
+  },
+  "comparison": {
+    "story": "State a concrete multi-app task. → Show image discovery and selection. → Show the move between applications. → Show the task’s displayed completion.",
+    "motion": "Text enters the command panel, windows open and overlap, the cursor selects a search image, shortcut labels appear, and the image moves into Messages before the status turns green. Sampling scope: 1 fps unless a closer window is recorded.",
+    "sound": "This downloaded file has no audio stream; other versions are unverified.",
+    "texture": "White floating command panel on a dark desktop; 1x speed label.; Purple-pink desktop border, browser results and floating task status.; Overlapping browser and messaging windows with visible shortcut labels.; Readable image, named recipient and green completion label.",
+    "lesson": "Carry one recognizable image through the full multi-app task."
+  },
+  "elements": [
+    {
+      "kind": "ui",
+      "name": "command panel",
+      "events": [
+        "V01"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "image search",
+      "events": [
+        "V02"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "context menu",
+      "events": [
+        "V02"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "message thread",
+      "events": [
+        "V03",
+        "V04"
+      ]
+    },
+    {
+      "kind": "motion",
+      "name": "cross-app image transfer",
+      "events": [
+        "V02",
+        "V03",
+        "V04"
+      ]
+    }
+  ]
+}

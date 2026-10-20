@@ -1,0 +1,353 @@
+{
+  "id": 337,
+  "reviewer_model": "gpt-6-astra",
+  "scope": "sampled visual and story review; ASR and measured signal support; no validated audio listening",
+  "viewed_evidence": [
+    "technical-review-2026-10-19/deep-review/motion/337/timeline-00.jpg",
+    "technical-review-2026-10-19/deep-review/motion/337/timeline-01.jpg",
+    "technical-review-2026-10-19/deep-review/motion/337/timeline-02.jpg",
+    "technical-review-2026-10-19/deep-review/audio/337-speech.json"
+  ],
+  "closer_windows": [],
+  "product_from_film": "DroneTector presents a radar system for detecting and distinguishing small drones among other flying objects.",
+  "explains_well": "The demonstration separates detecting several targets from classifying one as a drone.",
+  "unclear": "The view switches between drone camera and sensor display without a shared timestamp or target ID, so their exact correspondence is not visible.",
+  "product_type": "drone detection hardware",
+  "scenario": "Identify and track a small drone approaching a sensor at a test site.",
+  "product_clear_time": 5,
+  "product_clear_basis": "The opening ASR introduction names small-drone radar while the presenter stands beside the hardware; later labels support the function.",
+  "scenes": [
+    {
+      "id": "V01",
+      "start": 0,
+      "end": 5,
+      "action": "A presenter stands beside a white-and-black sensor on a tripod and holds a microphone.",
+      "design": "Plain outdoor hardware introduction against a dark door.",
+      "purpose": "Show the physical product and its scale next to a person.",
+      "evidence": "Visible chronological 1 fps samples, source 0–5s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V02",
+      "start": 5,
+      "end": 28,
+      "action": "A grayscale sky view contains many small yellow markers. Text says the skies contain small flying objects and that DroneTector can track 500 targets simultaneously.",
+      "design": "Fixed sensor-like view, yellow markers and short top captions.",
+      "purpose": "Explain the crowded detection environment and make a capacity claim.",
+      "evidence": "Visible chronological 1 fps samples, source 5–28s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V03",
+      "start": 28,
+      "end": 39,
+      "action": "The presenter returns, then a small dark object is visible against a cloudy sky.",
+      "design": "Hardware shot followed by distant sky footage.",
+      "purpose": "Introduce the specific drone demonstration.",
+      "evidence": "Visible chronological 1 fps samples, source 28–39s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V04",
+      "start": 39,
+      "end": 49,
+      "action": "An aerial view approaches fields and a road. Drone flying towards us appears, and an orange Our system callout points to the ground installation.",
+      "design": "Wide aerial footage with an orange leader line.",
+      "purpose": "Locate the sensor from the drone’s perspective.",
+      "evidence": "Visible chronological 1 fps samples, source 39–49s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V05",
+      "start": 49,
+      "end": 62,
+      "action": "The grayscale display shows several yellow circles. At about 54 s one target becomes red; Drone tagged and tracked continuously appears as its red marker changes position through later samples.",
+      "design": "Yellow-versus-red target markers and a status caption.",
+      "purpose": "Distinguish an unclassified target from the identified drone; continuous tracking between samples is not verified.",
+      "evidence": "Visible chronological 1 fps samples, source 49–62s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V06",
+      "start": 62,
+      "end": 84.776,
+      "action": "The presenter stands beside the sensor for the closing explanation. The ASR draft offers live demonstrations and preorders. DroneTector Advanced Drone Detection closes on black.",
+      "design": "Simple hardware-and-presenter composition and white end logo.",
+      "purpose": "Restate the detection pitch and invite contact.",
+      "evidence": "Visible chronological 1 fps samples, source 62–84.776s; boundary approximate; exact motion between samples unverified."
+    }
+  ],
+  "sound": [
+    {
+      "id": "A01",
+      "start": 0,
+      "end": 84.776,
+      "layer": "unknown",
+      "detail": "No validated direct audio listening was performed. Music, speech delivery, effects, mix and sync remain unknown, not absent.",
+      "visual_relation": "All visual scenes; audiovisual alignment unverified",
+      "evidence": "Visual samples only; no actual audio range supplied to this reviewer."
+    },
+    {
+      "id": "A02",
+      "start": 0.39,
+      "end": 82.15,
+      "layer": "ASR draft",
+      "detail": "The ASR draft supports the small-drone radar introduction, busy-sky problem, classification example and demo/preorder invitation. Its 500-target phrase has a repeated-number error; visible text reads 500. Near-perfect accuracy is a pitch claim, not verified performance.",
+      "visual_relation": "Story text support; exact audiovisual alignment and delivery unverified.",
+      "evidence": "technical-review-2026-10-19/deep-review/audio/337-speech.json; local faster-whisper base CPU int8 draft; VAD candidates only, recognition errors possible."
+    }
+  ],
+  "categories": [
+    {
+      "id": "Q01",
+      "finding": "Hardware introduction leads to a crowded-sky problem, an approaching drone, target classification and a demo invitation.",
+      "evidence": "V01–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q02",
+      "finding": "The product is physically visible from the first shot beside its founder.",
+      "evidence": "V01",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q03",
+      "finding": "The opening draft identifies small-drone radar within 5 s; the classification task becomes visually explicit at 54–55 s.",
+      "evidence": "V01,V05; ASR draft",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q04",
+      "finding": "Yellow markers change position in a fixed sky view, an orange line locates the ground sensor and one target marker turns red before moving across later samples.",
+      "evidence": "V02,V04,V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q05",
+      "finding": "The same sensor concept links the opening hardware, aerial location and detection display, but the camera feeds lack a shared time or target label.",
+      "evidence": "V01,V04,V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q06",
+      "finding": "The demo uses grayscale imagery with yellow detections and a red classified target; orange is reserved for the location callout.",
+      "evidence": "V02,V04,V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q07",
+      "finding": "The color change is clear, while the physical drone is tiny. The orange callout helps locate an otherwise small ground device.",
+      "evidence": "V03–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q08",
+      "finding": "The ASR draft supports the small-drone radar introduction, busy-sky problem, classification example and demo/preorder invitation. Its 500-target phrase has a repeated-number error; visible text reads 500. Near-perfect accuracy is a pitch claim, not verified performance.",
+      "evidence": "A02",
+      "status": "uncertain",
+      "reason": "ASR text only; no validated listening, delivery or voice origin.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q09",
+      "finding": "Voice delivery, music, effects and audiovisual alignment were not established by this visual pass.",
+      "evidence": "A01",
+      "status": "not checked",
+      "reason": "No validated direct audio listening input.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q10",
+      "finding": "Voice delivery, music, effects and audiovisual alignment were not established by this visual pass.",
+      "evidence": "A01",
+      "status": "not checked",
+      "reason": "No validated direct audio listening input.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q11",
+      "finding": "Voice delivery, music, effects and audiovisual alignment were not established by this visual pass.",
+      "evidence": "A01",
+      "status": "not checked",
+      "reason": "No validated direct audio listening input.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q12",
+      "finding": "Presenter, aerial and sensor-like imagery are visible. Display processing and production tools are not identified.",
+      "evidence": "V01–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q13",
+      "finding": "Manifest duration 84.776s; indexed dimensions 1920×1080. Source unchanged flag recorded; fresh encoding and audio clipping checks not run.",
+      "evidence": "Group manifest",
+      "status": "uncertain",
+      "reason": "Inherited technical metadata; no fresh media probe in this review.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q14",
+      "finding": "Top captions explain capacity and classification. The long closing presenter segment has no full visible subtitles, so the draft supports its meaning.",
+      "evidence": "V02,V05,V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q15",
+      "finding": "The demonstration gives the sky and target markers full-screen space, with little decorative animation.",
+      "evidence": "V02,V04,V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q16",
+      "finding": "The crowded-sky view lasts about 23 s; the specific drone sequence takes about 27 s before a 23 s closing pitch.",
+      "evidence": "V02–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q17",
+      "finding": "The red classified marker is the visible payoff. No alert handoff or operator response is shown.",
+      "evidence": "V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q18",
+      "finding": "The restrained test footage seeks practical credibility through an observable classification event; this is a creative reading.",
+      "evidence": "V04,V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q19",
+      "finding": "The film usefully separates multiple detections from one classified drone. It does not show a shared identifier proving which aerial object maps to the red marker.",
+      "evidence": "V04,V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q20",
+      "finding": "500-target capacity, near-perfect accuracy and improved reliability are claims. This single edited example does not establish false-positive rates, range or uninterrupted tracking.",
+      "evidence": "V02,V05; ASR draft",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q21",
+      "finding": "Showing many yellow detections before the red drone label explains classification more clearly than simply showing a dot on a screen.",
+      "evidence": "V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q22",
+      "finding": "Use synchronized side-by-side drone and sensor views with a shared timestamp and target label, then show the resulting operator alert.",
+      "evidence": "V04,V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q23",
+      "finding": "Tin can distinguish finding a possible issue from confirming its type, and show the state change explicitly.",
+      "evidence": "V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q24",
+      "finding": "DroneTector presents a radar system for detecting and distinguishing small drones among other flying objects.",
+      "evidence": "Model reading from inspected images",
+      "status": "uncertain",
+      "reason": "Model-only new-viewer interpretation; no human test.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q25",
+      "finding": "Contact sheets inspected at displayed size; a phone-size playback, caption audit, flash audit and formal accessibility check were not performed.",
+      "evidence": "Viewed sheets",
+      "status": "not checked",
+      "reason": "Full-size moving-image and device checks unavailable in this pass.",
+      "experiment": "none"
+    }
+  ],
+  "lessons": {
+    "keep": "Show detection and classification as two separate visible states.",
+    "avoid": "Avoid treating an edited example as proof of a broad accuracy claim.",
+    "open": "Feed synchronization, target identity, continuous tracking, range, accuracy and all heard audio remain unverified.",
+    "try": [
+      "For Tin, mark possible issues first, then show the evidence that changes one to a confirmed category.",
+      "Keep source footage and system output synchronized with a shared timestamp during a demo."
+    ]
+  },
+  "comparison": {
+    "story": "Show the physical product and its scale next to a person. → Explain the crowded detection environment and make a capacity claim. → Introduce the specific drone demonstration. → Locate the sensor from the drone’s perspective. → Distinguish an unclassified target from the identified drone; continuous tracking between samples is not verified. → Restate the detection pitch and invite contact.",
+    "motion": "Yellow markers change position in a fixed sky view, an orange line locates the ground sensor and one target marker turns red before moving across later samples. Sampling scope: 1 fps unless a closer window is recorded.",
+    "sound": "No validated listening; unknown.",
+    "texture": "Plain outdoor hardware introduction against a dark door.; Fixed sensor-like view, yellow markers and short top captions.; Hardware shot followed by distant sky footage.; Wide aerial footage with an orange leader line.; Yellow-versus-red target markers and a status caption.; Simple hardware-and-presenter composition and white end logo.",
+    "lesson": "Show detection and classification as two separate visible states."
+  },
+  "elements": [
+    {
+      "kind": "ui",
+      "name": "target tracking display",
+      "events": [
+        "V02",
+        "V05"
+      ]
+    },
+    {
+      "kind": "motion",
+      "name": "tracking markers",
+      "events": [
+        "V02",
+        "V05"
+      ]
+    },
+    {
+      "kind": "motion",
+      "name": "location callout",
+      "events": [
+        "V04"
+      ]
+    },
+    {
+      "kind": "texture",
+      "name": "grayscale sensor imagery",
+      "events": [
+        "V02",
+        "V05"
+      ]
+    },
+    {
+      "kind": "texture",
+      "name": "aerial footage",
+      "events": [
+        "V04"
+      ]
+    }
+  ]
+}

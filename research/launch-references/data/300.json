@@ -1,0 +1,362 @@
+{
+  "id": 300,
+  "viewed_evidence": [
+    "technical-review-2026-10-19/deep-review/motion/300/timeline-00.jpg",
+    "technical-review-2026-10-19/deep-review/motion/300/timeline-01.jpg",
+    "technical-review-2026-10-19/deep-review/motion/300/timeline-02.jpg",
+    "technical-review-2026-10-19/deep-review/motion/300/timeline-03.jpg",
+    "astra-review-2026-10-20/evidence/group-1/300/71s.jpg"
+  ],
+  "product_from_film": "Palus Finance offers managed treasury portfolios for startups and businesses, linked to an existing bank account.",
+  "explains_well": "The founders connect newly raised idle cash to a treasury-management need and state the intended offer in plain language.",
+  "unclear": "The film gives benefit claims and a comparison chart but no account-linking, portfolio-choice or withdrawal example.",
+  "product_type": "business treasury management",
+  "scenario": "Founders discuss idle startup cash and existing treasury options, then introduce managed portfolios and an illustrative growth comparison.",
+  "product_clear_time": 61,
+  "product_clear_basis": "After naming Palus and benefit claims at 53–60s, the ASR says it is an app connected to the existing bank account; the following script names advisor-run portfolios.",
+  "scenes": [
+    {
+      "start": 0,
+      "end": 12,
+      "action": "Two founders in a park describe raising money. Large words emphasize a lot of money and opportunity as one founder walks near palms.",
+      "design": "Outdoor footage with oversized mixed serif and sans-serif words.",
+      "purpose": "Introduce idle cash after fundraising.",
+      "evidence": "1 fps source samples in 0–12s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V01"
+    },
+    {
+      "start": 12,
+      "end": 23,
+      "action": "A founder at a picnic table appears with large company logos, then asks what options a startup has. A white card and small founder photo bridge to the interior.",
+      "design": "Company logos and kinetic text.",
+      "purpose": "Contrast large-company treasury resources with startups.",
+      "evidence": "1 fps source samples in 12–23s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V02"
+    },
+    {
+      "start": 23,
+      "end": 41,
+      "action": "A founder sits by a fireplace, naming treasury platforms and criticizing their money-market and fee approach. Large text and brand names punctuate the explanation.",
+      "design": "Warm room, presenter crops and prominent text.",
+      "purpose": "Frame the existing-option complaint.",
+      "evidence": "1 fps source samples in 23–41s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V03"
+    },
+    {
+      "start": 41,
+      "end": 55,
+      "action": "The other founder generalizes the problem to fundraising founders. Palus Finance branding appears as the solution is announced.",
+      "design": "Alternating presenters and cyan logo.",
+      "purpose": "Introduce the product.",
+      "evidence": "1 fps source samples in 41–55s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V04"
+    },
+    {
+      "start": 55,
+      "end": 66,
+      "action": "Higher yields, lower fees and real investment strategies are listed. The presenter continues as the script describes bank connection and professional portfolio management.",
+      "design": "Stacked benefit words and presenter footage.",
+      "purpose": "State the offer.",
+      "evidence": "1 fps source samples in 55–66s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V05"
+    },
+    {
+      "start": 66,
+      "end": 73,
+      "action": "A dark chart titled Growth of $1M since 2021 draws three lines for Palus, Mercury Treasury and Rho Treasury, ending at displayed values of $1.24M, $1.14M and $1.09M. A small methodology note is present.",
+      "design": "Rounded dark chart on white, cyan/purple/green series and value cards.",
+      "purpose": "Illustrate the comparative return claim.",
+      "evidence": "1 fps source samples in 66–73s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V06"
+    },
+    {
+      "start": 73,
+      "end": 88,
+      "action": "A founder says idle cash should be safe and accessible, with a large 50% emphasizing the up-to-more-yield claim. Further text emphasizes possible extra earnings.",
+      "design": "Presenter and large numerical typography.",
+      "purpose": "Emphasize the promised financial benefit.",
+      "evidence": "1 fps source samples in 73–88s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V07"
+    },
+    {
+      "start": 88,
+      "end": 103,
+      "action": "The founders describe making sophisticated treasury strategy available to startups and businesses of different scales, ending on building.",
+      "design": "Warm presenter shots and large type behind/in front of the speaker.",
+      "purpose": "Restate audience and intended outcome.",
+      "evidence": "1 fps source samples in 88–103s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V08"
+    },
+    {
+      "start": 103,
+      "end": 106.56,
+      "action": "Palus Finance logo appears on white, then black.",
+      "design": "Minimal brand card.",
+      "purpose": "Close the announcement.",
+      "evidence": "1 fps source samples in 103–106.56s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V09"
+    }
+  ],
+  "sound": [
+    {
+      "id": "A01",
+      "start": 0,
+      "end": 106.56,
+      "layer": "ASR draft / unknown",
+      "detail": "The draft coherently explains idle fundraising cash, treasury options, bank-linked managed portfolios and benefit claims. Palus, YC and several phrases are misrecognized; visible labels support names and the broad story. No validated listening, delivery, music, effects or sync assessment.",
+      "visual_relation": "V01–V08; script provides the mechanism absent from a UI demo.",
+      "evidence": "technical-review-2026-10-19/deep-review/audio/300-speech.json"
+    }
+  ],
+  "categories": [
+    {
+      "id": "Q01",
+      "finding": "New cash → idle-cash opportunity → existing options criticized → Palus offer → comparison → benefit and mission.",
+      "evidence": "V01–V09",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q02",
+      "finding": "Two founders stand in a park while large words begin the fundraising scenario; the opening has an immediate audience situation.",
+      "evidence": "V01",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q03",
+      "finding": "Startups and business founders are explicit. Bank-linked managed portfolios become clear in the script around 61–66s.",
+      "evidence": "V01,V02,V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q04",
+      "finding": "Words scale and change around speakers, with some large letters visually behind them. The comparison gains line states and value cards; exact easing is unverified.",
+      "evidence": "V01–V08",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q05",
+      "finding": "Park-to-room changes separate setup and product pitch; a rounded presenter frame leads into the chart.",
+      "evidence": "V02,V03,V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q06",
+      "finding": "Bright park scenes give way to a warm fireplace room; white typography and a dark chart create contrast.",
+      "evidence": "V01–V09",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q07",
+      "finding": "Large type emphasizes money and 50%, while comparison methodology is much smaller. The full 71s frame makes the note readable, but normal-speed readability was not tested.",
+      "evidence": "V06,V07",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q08",
+      "finding": "ASR supplies the treasury proposition with name errors; audible delivery is unverified.",
+      "evidence": "A01",
+      "status": "uncertain",
+      "reason": "Draft text only.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q09",
+      "finding": "Music character and structure are unverified.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "No validated listening.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q10",
+      "finding": "Effects and their sources are unverified.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "No validated listening; waveform peaks do not identify effects.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q11",
+      "finding": "Sound sync is unverified.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "No validated listening or paired audiovisual timing.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q12",
+      "finding": "Founder footage, company logos and a comparison chart are used; no actual account workflow is shown in the sampled evidence.",
+      "evidence": "V01–V09",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q13",
+      "finding": "Source duration 106.56 s; Watch metadata 1920 × 1080. Frame rate, audio clipping and export quality not checked here.",
+      "evidence": "Whole film",
+      "status": "supported",
+      "reason": "Parent source metadata supports duration and dimensions; visual review is sampled.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q14",
+      "finding": "Text communicates idle cash and return claims silently, but bank connection and portfolio management rely more on the script.",
+      "evidence": "V01–V08",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q15",
+      "finding": "Oversized words draw attention strongly, sometimes covering much of the presenter scene. The chart values dominate its fine-print assumptions.",
+      "evidence": "V01,V06,V07",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q16",
+      "finding": "More than half the film passes before the named solution; the chart provides the only sustained visual product-related artifact.",
+      "evidence": "V01–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q17",
+      "finding": "The idle-cash opportunity is answered with managed-portfolio and return claims, not a demonstrated customer setup or usable result.",
+      "evidence": "V01,V05–V07",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q18",
+      "finding": "The founders frame neglected cash as an opportunity and greater control; response is unmeasured.",
+      "evidence": "V01–V08",
+      "status": "uncertain",
+      "reason": "Interpretation of pitch.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q19",
+      "finding": "Idle cash and founder scale stay consistent, though the critique of competitors and chart are not connected to one customer case.",
+      "evidence": "V01–V08",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q20",
+      "finding": "The inspected 71s chart note says Palus uses typical SOFR plus a 1.25% spread, monthly compounding, named comparison funds and returns net of platform advisory fees, with a past-performance warning. These are displayed assumptions, not verified results. Safety, accessibility, fees and up-to-50%-more-yield claims remain untested.",
+      "evidence": "V06,V07; full 71s frame",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q21",
+      "finding": "The idle fundraising cash scenario and explicit treasury comparison make the pitch specific; presenter typography itself is generic.",
+      "evidence": "V01,V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q22",
+      "finding": "Show how the customer makes the treasury decision.",
+      "evidence": "V05,V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "Add bank connection, a clearly described portfolio option and the resulting account state, with assumptions visible beside any comparison."
+    },
+    {
+      "id": "Q23",
+      "finding": "For Tin, pair a benefit comparison with its actual setup step.",
+      "evidence": "V05,V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "Show a campaign configuration, its resulting draft and a comparison using the same stated inputs."
+    },
+    {
+      "id": "Q24",
+      "finding": "No human new-viewer test was performed.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "The product summary is this model’s film-only reading.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q25",
+      "finding": "Mobile preview and accessibility checks were not performed.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "Contact sheets are evidence views, not a stated mobile preview or compliance test.",
+      "experiment": "none"
+    }
+  ],
+  "elements": [
+    {
+      "kind": "ui",
+      "name": "comparison line chart",
+      "events": [
+        "V06"
+      ]
+    },
+    {
+      "kind": "motion",
+      "name": "oversized presenter typography",
+      "events": [
+        "V01",
+        "V02",
+        "V03",
+        "V04",
+        "V05",
+        "V07",
+        "V08"
+      ]
+    },
+    {
+      "kind": "motion",
+      "name": "company logo overlays",
+      "events": [
+        "V02",
+        "V03"
+      ]
+    }
+  ],
+  "lessons": {
+    "keep": "Start with the specific moment when the customer’s problem occurs.",
+    "try": [
+      "Show account connection, portfolio choice and resulting state with clear comparison assumptions.",
+      "For Tin, compare drafts generated from the same stated campaign inputs."
+    ],
+    "avoid": "Making the largest benefit number much more visible than its basis and the customer action.",
+    "open": "Return assumptions and results, comparative claims, fees, access, portfolio behavior and audio remain unverified."
+  },
+  "comparison": {
+    "story": "Fundraising cash problem → treasury critique → managed offer → return comparison.",
+    "motion": "Large presenter typography and progressive chart states.",
+    "sound": "Coherent ASR with name errors; no listening.",
+    "texture": "Bright park, warm room and dark financial chart.",
+    "lesson": "A comparison needs both readable assumptions and the action that produces the result."
+  },
+  "reviewer_model": "gpt-6-astra",
+  "scope": "sampled visual and story review; ASR and measured signal support; no validated audio listening",
+  "closer_windows": []
+}

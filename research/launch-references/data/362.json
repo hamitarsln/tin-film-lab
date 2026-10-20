@@ -1,0 +1,372 @@
+{
+  "id": 362,
+  "reviewer_model": "gpt-6-astra",
+  "scope": "sampled visual and story review; ASR and measured signal support; no validated audio listening",
+  "viewed_evidence": [
+    "technical-review-2026-10-19/deep-review/motion/362/timeline-00.jpg",
+    "technical-review-2026-10-19/deep-review/motion/362/timeline-01.jpg",
+    "technical-review-2026-10-19/deep-review/motion/362/timeline-02.jpg",
+    "technical-review-2026-10-19/deep-review/audio/362-speech.json"
+  ],
+  "closer_windows": [],
+  "product_from_film": "Tapcaps Creatures are presented as collectible character objects that also fit onto keyboard keys.",
+  "explains_well": "A close view of the underside and the fitting action connects the character object to a real keyboard before the fantasy story begins.",
+  "unclear": "The product name and buying prompt arrive near the end, while compatibility and the physical object’s exact functions remain unexplained.",
+  "product_type": "collectible keyboard accessory",
+  "scenario": "Play with a character keycap, attach it to a keyboard and discover its fictional world.",
+  "product_clear_time": 38,
+  "product_clear_basis": "The green object is visibly placed onto a keyboard key; the ASR draft calls it a keycap earlier.",
+  "scenes": [
+    {
+      "id": "V01",
+      "start": 0,
+      "end": 20,
+      "action": "A person sits with feet on a desk while another writes lines under Detention. A student enters the yellow classroom, sits down and looks toward classmates; a gum bubble receives a close-up.",
+      "design": "Staged classroom, chalkboard, globe and warm yellow walls.",
+      "purpose": "Build a playful detention setting before revealing the object.",
+      "evidence": "Visible chronological 1 fps samples, source 0–20s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V02",
+      "start": 20,
+      "end": 35,
+      "action": "The student handles a small green creature object. Another person reaches for it, examines it and holds its underside toward the camera, then moves toward a computer as others gather.",
+      "design": "Close hand views and reaction shots.",
+      "purpose": "Turn the object into the cause of a classroom interaction and reveal a keycap-like underside.",
+      "evidence": "Visible chronological 1 fps samples, source 20–35s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V03",
+      "start": 35,
+      "end": 44,
+      "action": "The green object is placed onto a white keyboard. It glows with green particles; a blue light effect surrounds the people and monitor, followed by a bright blue passage.",
+      "design": "Physical keyboard close-up changes into luminous visual effects.",
+      "purpose": "Use the real fitting action as the entry into fantasy.",
+      "evidence": "Visible chronological 1 fps samples, source 35–44s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V04",
+      "start": 44,
+      "end": 61,
+      "action": "Blocky character versions of the people appear in a blue-lit forest. They meet a glowing green creature and other patterned characters; one runs through the trees.",
+      "design": "Three-dimensional character animation, mist, blue rim light and bright green eyes.",
+      "purpose": "Give the collectible objects a fictional world and personalities.",
+      "evidence": "Visible chronological 1 fps samples, source 44–61s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V05",
+      "start": 61,
+      "end": 69,
+      "action": "A bright blue burst fills the forest. Characters gather around a luminous cube and the green creature brightens; the scene contracts back toward a glowing portal-like shape.",
+      "design": "Blue particles, translucent cube and strong glow.",
+      "purpose": "Resolve the fantasy encounter; exact action details between samples remain uncertain.",
+      "evidence": "Visible chronological 1 fps samples, source 61–69s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V06",
+      "start": 69,
+      "end": 74,
+      "action": "The people are back beside the classroom computer and react. The monitor shows a blue desktop background with the white keyboard below.",
+      "design": "Return to live-action classroom framing.",
+      "purpose": "Close the imagined journey in the original setting.",
+      "evidence": "Visible chronological 1 fps samples, source 69–74s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V07",
+      "start": 74,
+      "end": 82.123,
+      "action": "A lineup of creature characters appears in the forest. Tapcaps Creatures branding, Available Now, tapcaps.com and Collect Them All appear in turn.",
+      "design": "Group lineup with large purple-white title and yellow call to action.",
+      "purpose": "Reveal the collection and purchase destination.",
+      "evidence": "Visible chronological 1 fps samples, source 74–82.123s; boundary approximate; exact motion between samples unverified."
+    }
+  ],
+  "sound": [
+    {
+      "id": "A01",
+      "start": 0,
+      "end": 82.123,
+      "layer": "unknown",
+      "detail": "No validated direct audio listening was performed. Music, speech delivery, effects, mix and sync remain unknown, not absent.",
+      "visual_relation": "All visual scenes; audiovisual alignment unverified",
+      "evidence": "Visual samples only; no actual audio range supplied to this reviewer."
+    },
+    {
+      "id": "A02",
+      "start": 6.44,
+      "end": 32.7,
+      "layer": "ASR draft",
+      "detail": "The short ASR draft supports the classroom conflict: a person tells the newcomer to sit down, another complains about clicking, and a line identifies the object as a keycap. Later isolated Thanks for watching and please fragments lack useful context and are not treated as reliable dialogue. Heard clicking, delivery, music and effect timing are unverified.",
+      "visual_relation": "Story text support; exact audiovisual alignment and delivery unverified.",
+      "evidence": "technical-review-2026-10-19/deep-review/audio/362-speech.json; local faster-whisper base CPU int8 draft; VAD candidates only, recognition errors possible."
+    }
+  ],
+  "categories": [
+    {
+      "id": "Q01",
+      "finding": "A detention scene leads to a curious object, its keyboard use, an animated forest adventure and a collectible lineup.",
+      "evidence": "V01–V07",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q02",
+      "finding": "The relaxed authority figure and detention chalkboard create a comic situation before the product appears.",
+      "evidence": "V01",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q03",
+      "finding": "The object appears around 21 s, but its keyboard role becomes visually clear at 38 s. The brand arrives near the end.",
+      "evidence": "V02,V03,V07",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q04",
+      "finding": "Hands pass and turn the green object, it is pressed onto a keyboard, green particles and blue portal-like effects bridge into animated characters running through a forest, then the collection title and purchase text appear.",
+      "evidence": "V02–V07",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q05",
+      "finding": "The green creature and the classroom characters link the physical scene to the animated world; returning to the computer closes that loop.",
+      "evidence": "V02–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q06",
+      "finding": "Warm yellow classroom colors shift to a dark blue forest, with green glow keeping the featured creature visible.",
+      "evidence": "V01,V03,V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q07",
+      "finding": "The final brand and URL are large. Before them, the physical close-ups carry most of the explanation because there are few product labels.",
+      "evidence": "V02,V03,V07",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q08",
+      "finding": "The short ASR draft supports the classroom conflict: a person tells the newcomer to sit down, another complains about clicking, and a line identifies the object as a keycap. Later isolated Thanks for watching and please fragments lack useful context and are not treated as reliable dialogue. Heard clicking, delivery, music and effect timing are unverified.",
+      "evidence": "A02",
+      "status": "uncertain",
+      "reason": "ASR text only; no validated listening, delivery or voice origin.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q09",
+      "finding": "Voice delivery, music, effects and audiovisual alignment were not established by this visual pass.",
+      "evidence": "A01",
+      "status": "not checked",
+      "reason": "No validated direct audio listening input.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q10",
+      "finding": "Voice delivery, music, effects and audiovisual alignment were not established by this visual pass.",
+      "evidence": "A01",
+      "status": "not checked",
+      "reason": "No validated direct audio listening input.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q11",
+      "finding": "Voice delivery, music, effects and audiovisual alignment were not established by this visual pass.",
+      "evidence": "A01",
+      "status": "not checked",
+      "reason": "No validated direct audio listening input.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q12",
+      "finding": "Staged live action, a physical keyboard accessory and three-dimensional fantasy animation are visible. Software and production methods are not established.",
+      "evidence": "V01–V07",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q13",
+      "finding": "Manifest duration 82.123s; indexed dimensions 1920×1080. Source unchanged flag recorded; fresh encoding and audio clipping checks not run.",
+      "evidence": "Group manifest",
+      "status": "uncertain",
+      "reason": "Inherited technical metadata; no fresh media probe in this review.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q14",
+      "finding": "The fitting shot explains the real keyboard role without speech, but the earlier classroom conflict is clearer with the ASR draft.",
+      "evidence": "V02,V03",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q15",
+      "finding": "Close-ups isolate the object and underside before wide animated environments expand its world.",
+      "evidence": "V02–V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q16",
+      "finding": "The film waits about 20 s to reveal the object and spends roughly 25 s in the animated forest before the final collection card.",
+      "evidence": "V01,V04,V05,V07",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q17",
+      "finding": "The object is physically handled and fitted to a keyboard. Fantasy glow and portals communicate character appeal rather than functional product behavior.",
+      "evidence": "V02–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q18",
+      "finding": "The classroom-to-fantasy shift presents the accessory as a playful escape and collectible identity; this is a creative reading.",
+      "evidence": "V01–V07",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q19",
+      "finding": "The attachment action provides a concrete bridge into fantasy, but no close view shows typing afterward or explains how the object fits different keyboards.",
+      "evidence": "V03,V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q20",
+      "finding": "Keyboard compatibility, materials, durability and any function beyond the visible fitting action are not established. The magical effects are treated as story imagery.",
+      "evidence": "V02–V07",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q21",
+      "finding": "A physical action becomes the doorway to the product’s fictional world, making the object central to the story.",
+      "evidence": "V03,V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q22",
+      "finding": "Add an earlier product name and a brief post-adventure shot showing the keycap in ordinary use, with a clear compatibility note.",
+      "evidence": "V03,V06,V07",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q23",
+      "finding": "Tin can let one concrete product action trigger a short visual metaphor, then return to the actual result.",
+      "evidence": "V03–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q24",
+      "finding": "Tapcaps Creatures are presented as collectible character objects that also fit onto keyboard keys.",
+      "evidence": "Model reading from inspected images",
+      "status": "uncertain",
+      "reason": "Model-only new-viewer interpretation; no human test.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q25",
+      "finding": "Contact sheets inspected at displayed size; a phone-size playback, caption audit, flash audit and formal accessibility check were not performed.",
+      "evidence": "Viewed sheets",
+      "status": "not checked",
+      "reason": "Full-size moving-image and device checks unavailable in this pass.",
+      "experiment": "none"
+    }
+  ],
+  "lessons": {
+    "keep": "Use a clear physical product action to motivate a change into a fictional world.",
+    "avoid": "Avoid leaving the real product role and brand hidden for most of a story-led film.",
+    "open": "Exact keycap functions, compatibility, materials, animation details between samples and all sound properties remain unverified.",
+    "try": [
+      "For Tin, let a real button press lead into a short visual metaphor, then return to the completed output.",
+      "Show the product name before the story expands, and end with a practical use close-up beside the buying prompt."
+    ]
+  },
+  "comparison": {
+    "story": "Build a playful detention setting before revealing the object. → Turn the object into the cause of a classroom interaction and reveal a keycap-like underside. → Use the real fitting action as the entry into fantasy. → Give the collectible objects a fictional world and personalities. → Resolve the fantasy encounter; exact action details between samples remain uncertain. → Close the imagined journey in the original setting. → Reveal the collection and purchase destination.",
+    "motion": "Hands pass and turn the green object, it is pressed onto a keyboard, green particles and blue portal-like effects bridge into animated characters running through a forest, then the collection title and purchase text appear. Sampling scope: 1 fps unless a closer window is recorded.",
+    "sound": "No validated listening; unknown.",
+    "texture": "Staged classroom, chalkboard, globe and warm yellow walls.; Close hand views and reaction shots.; Physical keyboard close-up changes into luminous visual effects.; Three-dimensional character animation, mist, blue rim light and bright green eyes.; Blue particles, translucent cube and strong glow.; Return to live-action classroom framing.; Group lineup with large purple-white title and yellow call to action.",
+    "lesson": "Use a clear physical product action to motivate a change into a fictional world."
+  },
+  "elements": [
+    {
+      "kind": "motion",
+      "name": "object placed on keyboard",
+      "events": [
+        "V03"
+      ]
+    },
+    {
+      "kind": "motion",
+      "name": "portal-like transition",
+      "events": [
+        "V03",
+        "V05"
+      ]
+    },
+    {
+      "kind": "motion",
+      "name": "characters run",
+      "events": [
+        "V04"
+      ]
+    },
+    {
+      "kind": "texture",
+      "name": "classroom footage",
+      "events": [
+        "V01",
+        "V02",
+        "V06"
+      ]
+    },
+    {
+      "kind": "texture",
+      "name": "three-dimensional characters",
+      "events": [
+        "V04",
+        "V05",
+        "V07"
+      ]
+    },
+    {
+      "kind": "texture",
+      "name": "glowing particles",
+      "events": [
+        "V03",
+        "V05"
+      ]
+    }
+  ]
+}

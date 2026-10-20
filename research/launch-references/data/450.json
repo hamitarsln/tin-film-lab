@@ -1,0 +1,335 @@
+{
+  "id": 450,
+  "product_from_film": "Framer Marketplace offers vector sets that can be copied into a site, swapped and recolored; creators can submit their own sets.",
+  "explains_well": "One food icon stays in the same website card while its variant and color change.",
+  "unclear": "The creator path moves from submission fields to a listing without a clear submission or approval result.",
+  "product_type": "Website vector marketplace",
+  "scenario": "Find a vector set, copy it into a site, change its appearance and submit a new set.",
+  "product_clear_time": 0.17,
+  "product_clear_basis": "ASR introduces Vectors as a new Framer Marketplace section; collection grids follow.",
+  "scenes": [
+    {
+      "start": 0,
+      "end": 6,
+      "action": "Vectors joins the marketplace navigation; colorful collection cards fill the page.",
+      "design": "Dark navigation and white marketplace grid.",
+      "purpose": "Introduce the category.",
+      "evidence": "1 fps source samples in 0–6s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V01"
+    },
+    {
+      "start": 6,
+      "end": 15,
+      "action": "Flower, sushi and icon sets lead to tilted website cards with illustrations.",
+      "design": "Colorful collections then page examples.",
+      "purpose": "Show range and application.",
+      "evidence": "1 fps source samples in 6–15s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V02"
+    },
+    {
+      "start": 15,
+      "end": 25,
+      "action": "Kitchen and Food set shows Copy Vectors; a food icon appears selected inside a website card.",
+      "design": "Marketplace page becomes an editor canvas.",
+      "purpose": "Connect acquisition to use.",
+      "evidence": "1 fps source samples in 15–25s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V03"
+    },
+    {
+      "start": 25,
+      "end": 37,
+      "action": "The card icon changes among food objects; color controls change the selected cutting board through several colors.",
+      "design": "Fixed card and properties panel.",
+      "purpose": "Make variant and color controls clear.",
+      "evidence": "1 fps source samples in 25–37s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V04"
+    },
+    {
+      "start": 37,
+      "end": 50,
+      "action": "A vector set in Assets gets Copy URL; the Creator Dashboard shows a new-set form; a Vex marketplace listing follows.",
+      "design": "Asset tree, context menu and submission fields.",
+      "purpose": "Explain the creator route, with its final status compressed.",
+      "evidence": "1 fps source samples in 37–50s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V05"
+    },
+    {
+      "start": 50,
+      "end": 64.233,
+      "action": "Marketplace cards give way to a Framer symbol held on black.",
+      "design": "Tilted collection grid and minimal close.",
+      "purpose": "End on the brand.",
+      "evidence": "1 fps source samples in 50–64.233s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V06"
+    }
+  ],
+  "sound": [
+    {
+      "id": "A01",
+      "start": 0,
+      "end": 64.233,
+      "layer": "ASR script support",
+      "detail": "The coherent draft explains finding a set, Copy Vectors, paste, swapping and styling, then Copy URL and Creator Dashboard submission. Delivery, music and effects were not heard. The remaining close is also unassessed for sound.",
+      "visual_relation": "V01–V06 follow the instruction order.",
+      "evidence": "Local 450-speech.json draft; text support only."
+    }
+  ],
+  "categories": [
+    {
+      "id": "Q01",
+      "finding": "Discover → copy → customize → submit.",
+      "evidence": "V01–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q02",
+      "finding": "A new navigation label introduces a concrete addition.",
+      "evidence": "V01",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q03",
+      "finding": "The opening ASR names the marketplace category; grids and site examples explain it visually.",
+      "evidence": "V01,V02",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q04",
+      "finding": "The same card provides a stable view while object and color states change. Exact animation timing is unknown.",
+      "evidence": "V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q05",
+      "finding": "Marketplace, editor and creator dashboard changes follow task stages.",
+      "evidence": "V03–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q06",
+      "finding": "Colorful vector sets stand out against neutral software surfaces.",
+      "evidence": "V01–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q07",
+      "finding": "Copy Vectors and Copy URL supply readable action names; smaller submission fields require a closer read.",
+      "evidence": "V03,V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q08",
+      "finding": "The ASR draft supplies a direct tutorial and a creator pitch; vocal performance is unknown.",
+      "evidence": "A01",
+      "status": "uncertain",
+      "reason": "Coherent local ASR aligns with visible controls.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q09",
+      "finding": "Music character and structure are unverified.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "No validated listening.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q10",
+      "finding": "Effects and their sources are unverified.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "No validated listening; waveform peaks do not identify effects.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q11",
+      "finding": "Sound sync is unverified.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "No validated listening or paired audiovisual timing.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q12",
+      "finding": "Vector artwork, marketplace cards, editor properties and a creator form are visible; asset origin and live behavior unverified.",
+      "evidence": "V01–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q13",
+      "finding": "Source duration 64.233 s; Watch metadata 1280 × 720. Frame rate, audio clipping and export quality not checked here.",
+      "evidence": "Whole film",
+      "status": "supported",
+      "reason": "Parent source metadata supports duration and dimensions; visual review is sampled.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q14",
+      "finding": "The copy, swap and color path is readable from visible controls; creator submission needs a clearer final state.",
+      "evidence": "V03–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q15",
+      "finding": "Holding one card in place makes changes easy to compare.",
+      "evidence": "V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q16",
+      "finding": "The customization receives several seconds; the final logo occupies roughly the last ten seconds.",
+      "evidence": "V04,V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q17",
+      "finding": "A collection becomes a visible website element with editable variants.",
+      "evidence": "V02–V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q18",
+      "finding": "The short path suggests convenience; audience response was not measured.",
+      "evidence": "V03,V04",
+      "status": "uncertain",
+      "reason": "Interpretation of the demonstrated sequence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q19",
+      "finding": "The selected icon and properties stay connected across changes.",
+      "evidence": "V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q20",
+      "finding": "Submission acceptance, asset licensing, live import behavior and the claim of no extra publishing steps are not independently verified.",
+      "evidence": "V03–V05,A01",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q21",
+      "finding": "A vector marketplace and creator-submission path make the product scope specific.",
+      "evidence": "V01,V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q22",
+      "finding": "Show the submission outcome.",
+      "evidence": "V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "Hold a submitted or approved status before showing the marketplace listing."
+    },
+    {
+      "id": "Q23",
+      "finding": "Keep the output slot fixed during variations.",
+      "evidence": "V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "For Tin, keep one campaign placement fixed while swapping asset and brand color."
+    },
+    {
+      "id": "Q24",
+      "finding": "No human new-viewer test was performed.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "The product summary is this model’s film-only reading.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q25",
+      "finding": "Mobile preview and accessibility checks were not performed.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "Contact sheets are evidence views, not a stated mobile preview or compliance test.",
+      "experiment": "none"
+    }
+  ],
+  "elements": [
+    {
+      "kind": "ui",
+      "name": "asset grid",
+      "events": [
+        "V01",
+        "V02",
+        "V05"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "properties panel",
+      "events": [
+        "V04"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "color picker",
+      "events": [
+        "V04"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "submission form",
+      "events": [
+        "V05"
+      ]
+    }
+  ],
+  "lessons": {
+    "keep": "Keep one output card fixed while changing its asset and color.",
+    "try": [
+      "Show the creator submission status before the listing.",
+      "For Tin, compare asset and brand-color variants in one fixed campaign slot."
+    ],
+    "avoid": "Skipping the outcome of a creator submission.",
+    "open": "Submission rules, licensing, live behavior and sound remain unverified."
+  },
+  "comparison": {
+    "story": "Find, use, customize, contribute.",
+    "motion": "Card reframing and visible variant/color state changes.",
+    "sound": "Coherent instructional ASR only; no listening.",
+    "texture": "Colorful vector artwork on neutral editor surfaces.",
+    "lesson": "A fixed output makes customization easy to read."
+  },
+  "reviewer_model": "gpt-6-astra",
+  "scope": "sampled visual and story review; ASR and measured signal support; no validated audio listening",
+  "viewed_evidence": [
+    "technical-review-2026-10-19/deep-review/motion/450/timeline-00.jpg",
+    "technical-review-2026-10-19/deep-review/motion/450/timeline-01.jpg",
+    "technical-review-2026-10-19/deep-review/motion/450/timeline-02.jpg"
+  ],
+  "closer_windows": []
+}

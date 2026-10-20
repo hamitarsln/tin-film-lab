@@ -1,0 +1,361 @@
+{
+  "id": 230,
+  "viewed_evidence": [
+    "technical-review-2026-10-19/deep-review/motion/230/timeline-00.jpg",
+    "technical-review-2026-10-19/deep-review/motion/230/timeline-01.jpg",
+    "astra-review-2026-10-20/evidence/group-3/230/dense.jpg",
+    "technical-review-2026-10-19/deep-review/audio/230-speech.json"
+  ],
+  "product_from_film": "Lovable creates website designs from prompts or references and applies team comments to revise them.",
+  "explains_well": "A selected design receives requests for warmer colours and taller type, then changes visibly in those directions.",
+  "unclear": "The revision also changes the portrait, so the film does not make clear which parts of the design stay fixed when a focused comment is applied.",
+  "product_type": "AI website design",
+  "scenario": "Choose a visual direction and turn team comments into a revised website.",
+  "product_clear_time": 29,
+  "product_clear_basis": "A prompt produces design choices, a direction is selected and the resulting website fills the screen.",
+  "scenes": [
+    {
+      "start": 0,
+      "end": 16,
+      "action": "Great design takes time leads through glowing shapes, colour bars, fruit, fur, grass, typography, a poster and a glowing touch control.",
+      "design": "Rich macro textures, bright gradients and varied type.",
+      "purpose": "Demonstrate design ingredients",
+      "id": "V01",
+      "evidence": "Visible 1 fps samples, source 0–16s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 16,
+      "end": 24,
+      "action": "Design partner title leads to several bold website layouts.",
+      "design": "Black backgrounds, large editorial typography and full-screen previews.",
+      "purpose": "Introduce a design partner",
+      "id": "V02",
+      "evidence": "Visible 1 fps samples, source 16–24s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 24,
+      "end": 30,
+      "action": "User asks for something cool, receives three directions, selects one and opens the resulting page.",
+      "design": "Dark prompt and choice panel over bright gradients.",
+      "purpose": "Show prompt to design choice",
+      "id": "V03",
+      "evidence": "Visible 1 fps samples, source 24–30s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 30,
+      "end": 39,
+      "action": "Comments ask for warmer colours and taller type; Lovable is tagged, then the page changes to orange and tall pink lettering with a changed portrait.",
+      "design": "Comment bubbles, close input and before/after page.",
+      "purpose": "Show collaborative revision",
+      "id": "V04",
+      "evidence": "Visible 1 fps samples, source 30–39s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 39,
+      "end": 48,
+      "action": "Prompts request a store, reference-based design and surprise; headphone website variants appear.",
+      "design": "Prompt cards, reference collage and floating site previews.",
+      "purpose": "Show alternative ways to start",
+      "id": "V05",
+      "evidence": "Visible 1 fps samples, source 39–48s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 48,
+      "end": 54.229,
+      "action": "Colourful design letters and heart mark lead to It used to take time and the Lovable wordmark.",
+      "design": "Glow on black and simple closing text.",
+      "purpose": "Close the speed promise",
+      "id": "V06",
+      "evidence": "Visible 1 fps samples, source 48–54.229s; boundaries approximate, between-frame action unresolved."
+    }
+  ],
+  "sound": [
+    {
+      "id": "A01",
+      "start": 0,
+      "end": 54.229,
+      "layer": "unknown",
+      "detail": "No validated audio listening; speech, music, effects, mix and sync remain unverified.",
+      "visual_relation": "All visual scenes; alignment not checked",
+      "evidence": "No actual audio supplied to this review; existing technical-review-2026-10-19/deep-review/audio/230.json is not listening evidence."
+    },
+    {
+      "id": "A02",
+      "start": 1.25,
+      "end": 51.35,
+      "layer": "ASR draft",
+      "detail": "Coherent candidate script names colour, texture, typography, a design partner, team comments and prompt/reference generation. Tax prompts and the final pronoun are recognition errors. The draft supplies framing only; no music, voice quality or sync is inferred.",
+      "visual_relation": "V01–V06; text-only script support",
+      "evidence": "technical-review-2026-10-19/deep-review/audio/230-speech.json; existing faster-whisper base CPU int8"
+    }
+  ],
+  "categories": [
+    {
+      "finding": "A sensory design montage leads to prompt choices, a collaborative revision and more ways to generate a page.",
+      "evidence": "V01–V06",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q01"
+    },
+    {
+      "finding": "The large glowing design phrase and tactile materials demonstrate the aesthetic promise before showing software.",
+      "evidence": "V01",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q02"
+    },
+    {
+      "finding": "The design-partner category appears around 18 s; the concrete website workflow becomes clear at 26–29 s.",
+      "evidence": "V02,V03",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q03"
+    },
+    {
+      "finding": "Dense 35–39 s samples show the posted comment, the blue page returning around 36.25 s, a warmer transition around 37 s and tall lettering by 37.25 s. The portrait changes too; exact generation process is not visible.",
+      "evidence": "V04; dense 35–39 s",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q04"
+    },
+    {
+      "finding": "Fast texture cuts move into large interface inserts. The revision holds the same page concept long enough for the requested colour and type changes to be compared.",
+      "evidence": "V01–V04",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q05"
+    },
+    {
+      "finding": "Pink, blue and orange glow, tactile surfaces and oversized editorial type make the film itself an example of its design claim.",
+      "evidence": "V01–V06",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q06"
+    },
+    {
+      "finding": "Prompts, direction choices and comments are large and readable. The two specific comments make the visual result easy to judge.",
+      "evidence": "V03,V04",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q07"
+    },
+    {
+      "finding": "Voice presence and delivery remain unverified.",
+      "evidence": "No validated audio listening",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q08"
+    },
+    {
+      "finding": "Music character and arc remain unverified.",
+      "evidence": "No validated audio listening",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q09"
+    },
+    {
+      "finding": "Sound effects remain unverified.",
+      "evidence": "No validated audio listening",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q10"
+    },
+    {
+      "finding": "Sound-to-motion timing remain unverified.",
+      "evidence": "No validated audio listening",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q11"
+    },
+    {
+      "finding": "Macro material imagery, rendered-looking forms, website previews and interface demonstrations appear. Asset creation methods are not established.",
+      "evidence": "V01–V06",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q12"
+    },
+    {
+      "finding": "Source duration supplied as 54.229s; no independent compression, clipping or delivery check.",
+      "evidence": "Assigned metadata; source integrity checked by parent",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q13"
+    },
+    {
+      "finding": "The visible prompts and comments carry the main workflow silently; ASR adds only a short framing explanation.",
+      "evidence": "V03–V05; A02",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q14"
+    },
+    {
+      "finding": "Full-screen inputs and the large CREATE heading focus attention on the action and result. The opening shifts attention quickly among many materials.",
+      "evidence": "V01,V03,V04",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q15"
+    },
+    {
+      "finding": "The first 24 s establish design quality; the next 15 s give a compact selection-and-revision workflow, followed by a short range of starting options.",
+      "evidence": "V01–V05",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q16"
+    },
+    {
+      "finding": "Warmer colours and taller type visibly answer the comments, giving a clear payoff. The changed portrait introduces uncertainty about edit scope.",
+      "evidence": "V04",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q17"
+    },
+    {
+      "finding": "Tactile materials and bright colours suggest play and possibility; the final time statement frames that quality as easier to reach.",
+      "evidence": "V01,V06; interpretation",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q18"
+    },
+    {
+      "finding": "Gradient glow and bold type connect the montage, prompt panels and final mark; repeated website structure anchors the revision.",
+      "evidence": "V01–V06",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q19"
+    },
+    {
+      "finding": "The film shows a designed revision sequence. Generation time, implementation quality, responsive behaviour and the exact source of the output are not independently established.",
+      "evidence": "V03–V05",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q20"
+    },
+    {
+      "finding": "The warmer-colours and taller-type comments make collaboration concrete, beyond a generic text-to-website claim.",
+      "evidence": "V04",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q21"
+    },
+    {
+      "finding": "Label the changed colour and type, and keep the same portrait to make the requested edit scope unambiguous.",
+      "evidence": "V04",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q22"
+    },
+    {
+      "finding": "For design tools, show a specific comment and a legible before-and-after result using the same layout.",
+      "evidence": "V04",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q23"
+    },
+    {
+      "finding": "No human new-viewer test; product description above is model interpretation of sampled images.",
+      "evidence": "V01–V06",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q24"
+    },
+    {
+      "finding": "No phone-size, safe-area or flash assessment; small UI text needs separate preview.",
+      "evidence": "Contact sheets",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q25"
+    }
+  ],
+  "lessons": {
+    "keep": "Use specific visual feedback so viewers can judge whether the result answers the request.",
+    "try": [
+      "Keep the same image while changing only colour and type, then highlight the two requested differences.",
+      "Show a reference image beside the generated page and label which visual traits were carried across."
+    ],
+    "avoid": "Avoid changing unrelated assets in a focused-edit demonstration without explaining why.",
+    "open": "Can the user preserve chosen images and layout while applying only selected comments?"
+  },
+  "comparison": {
+    "story": "Demonstrate design ingredients → Introduce a design partner → Show prompt to design choice → Show collaborative revision → Show alternative ways to start → Close the speed promise",
+    "motion": "Dense 35–39 s samples show the posted comment, the blue page returning around 36.25 s, a warmer transition around 37 s and tall lettering by 37.25 s. The portrait changes too; exact generation process is not visible.",
+    "sound": "No validated listening; no absence claims.",
+    "texture": "Pink, blue and orange glow, tactile surfaces and oversized editorial type make the film itself an example of its design claim.",
+    "lesson": "Use specific visual feedback so viewers can judge whether the result answers the request."
+  },
+  "elements": [
+    {
+      "kind": "ui",
+      "name": "prompt input",
+      "events": [
+        "V03",
+        "V05"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "design direction picker",
+      "events": [
+        "V03"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "comment thread",
+      "events": [
+        "V04"
+      ]
+    },
+    {
+      "kind": "motion",
+      "name": "website before and after",
+      "events": [
+        "V04"
+      ]
+    },
+    {
+      "kind": "texture",
+      "name": "macro material imagery",
+      "events": [
+        "V01"
+      ]
+    }
+  ],
+  "reviewer_model": "gpt-6-astra",
+  "scope": "sampled visual and story review; ASR and measured signal support; no validated audio listening",
+  "closer_windows": [
+    {
+      "start": 35,
+      "end": 39,
+      "rate_fps": 4,
+      "evidence": [
+        "astra-review-2026-10-20/evidence/group-3/230/dense.jpg"
+      ],
+      "resolved": "The comment posts, the blue design returns, then the background warms and headline becomes tall. The portrait also changes, so the visual example does not isolate only the two requested edits."
+    }
+  ]
+}

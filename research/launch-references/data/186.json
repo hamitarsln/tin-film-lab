@@ -1,0 +1,345 @@
+{
+  "id": 186,
+  "reviewer_model": "gpt-6-astra",
+  "scope": "sampled visual and story review; ASR and measured signal support; no validated audio listening",
+  "viewed_evidence": [
+    "technical-review-2026-10-19/deep-review/motion/186/timeline-00.jpg",
+    "technical-review-2026-10-19/deep-review/motion/186/timeline-01.jpg",
+    "technical-review-2026-10-19/deep-review/audio/186-speech.json"
+  ],
+  "closer_windows": [],
+  "product_from_film": "Revnu presents an agent that runs startup growth experiments and reports results.",
+  "explains_well": "Founder dialogue, large captions and notification overlays connect growth work to the promise of more time building.",
+  "unclear": "The film does not show experiment setup, approvals or verifiable results.",
+  "product_type": "marketing automation",
+  "scenario": "Connect a workspace and receive updates from automated growth experiments.",
+  "product_clear_time": 6,
+  "product_clear_basis": "Visible copy states automate growth for your startup; the ASR draft adds the experiment workflow.",
+  "scenes": [
+    {
+      "id": "V01",
+      "start": 0,
+      "end": 7,
+      "action": "Two founders sit behind a white folding table outdoors. Large copy asks why a shipped product has no buyers; name labels and a green mascot accompany the growth promise.",
+      "design": "Outdoor waterfront, bold white/green type and outlined mascot.",
+      "purpose": "State the founder problem and introduce the team.",
+      "evidence": "Visible chronological 1 fps samples, source 0–7s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V02",
+      "start": 7,
+      "end": 14,
+      "action": "The same pair and table appear on a city street. Captions contrast easier coding with the growth bottleneck; huge green REVNU letters stand behind them.",
+      "design": "Consistent table framing with changed location and background-scale type.",
+      "purpose": "Explain the timing and introduce the brand.",
+      "evidence": "Visible chronological 1 fps samples, source 7–14s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V03",
+      "start": 14,
+      "end": 24,
+      "action": "A close-up sits beside a Connect pill and cursor, then We handle everything. A wider park shot shows stacked translucent notification cards over the founders.",
+      "design": "Glass-like button and notification overlays.",
+      "purpose": "Suggest simple setup followed by updates.",
+      "evidence": "Visible chronological 1 fps samples, source 14–24s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V04",
+      "start": 24,
+      "end": 31,
+      "action": "Close-up captions emphasize seven different GTM tools, followed by a compact logo cluster and a line about where customers actually are.",
+      "design": "Large numeral, green logo tiles and short text groups.",
+      "purpose": "Frame consolidation and channel discovery.",
+      "evidence": "Visible chronological 1 fps samples, source 24–31s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V05",
+      "start": 31,
+      "end": 40,
+      "action": "At another waterfront location, huge 24/7 numerals sit behind the founders. A close-up promises no growth hire, then a new seated view asks viewers to return to building.",
+      "design": "Large white/green numerals, alternating close and two-person shots.",
+      "purpose": "Promise continuous operation and time returned.",
+      "evidence": "Visible chronological 1 fps samples, source 31–40s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V06",
+      "start": 40,
+      "end": 46.046,
+      "action": "The founders wash toward white; a small mascot appears before REVNU.com holds centered.",
+      "design": "White background and green wordmark.",
+      "purpose": "End with a clear destination.",
+      "evidence": "Visible chronological 1 fps samples, source 40–46.046s; boundary approximate; exact motion between samples unverified."
+    }
+  ],
+  "sound": [
+    {
+      "id": "A01",
+      "start": 0,
+      "end": 46.046,
+      "layer": "unknown",
+      "detail": "No validated direct audio listening was performed. Music, speech delivery, effects, mix and sync remain unknown, not absent.",
+      "visual_relation": "All visual scenes; audiovisual alignment unverified",
+      "evidence": "Visual samples only; no actual audio range supplied to this reviewer."
+    },
+    {
+      "id": "A02",
+      "start": 0.93,
+      "end": 42.67,
+      "layer": "ASR draft",
+      "detail": "ASR draft supports a founder pitch about growth experiments, ad/email/customer updates, seven-tool consolidation and continuous operation. Names and several phrases are misrecognized; the draft is not a verbatim transcript. No voice delivery, music or synchronization was heard.",
+      "visual_relation": "Story text support; exact audiovisual alignment and delivery unverified.",
+      "evidence": "technical-review-2026-10-19/deep-review/audio/186-speech.json; local faster-whisper base CPU int8 draft; VAD candidates only, recognition errors possible."
+    }
+  ],
+  "categories": [
+    {
+      "id": "Q01",
+      "finding": "A shipped product lacks buyers; growth automation is proposed through workspace connection, updates and tool consolidation.",
+      "evidence": "V01–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q02",
+      "finding": "Two people at an outdoor table and a product-shipping question create a direct founder-facing opening.",
+      "evidence": "V01",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q03",
+      "finding": "Startup growth automation is explicit by 6 s; the ASR draft gives more detail about experiments than the pictures.",
+      "evidence": "V01,V03,A02",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q04",
+      "finding": "Oversized letters and numerals sit behind people; notification cards accumulate above the table. Exact entrance paths are unresolved.",
+      "evidence": "V02,V03,V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q05",
+      "finding": "The same pair and white table carry continuity across several outdoor locations and closer angles.",
+      "evidence": "V01–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q06",
+      "finding": "Natural daylight and streets contrast with bright green graphics and translucent cards.",
+      "evidence": "V01–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q07",
+      "finding": "Large captions carry the core sales points; small notification bodies are secondary and hard to inspect at sheet size.",
+      "evidence": "V03,V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q08",
+      "finding": "ASR draft supports a founder pitch about growth experiments, ad/email/customer updates, seven-tool consolidation and continuous operation. Names and several phrases are misrecognized; the draft is not a verbatim transcript. No voice delivery, music or synchronization was heard.",
+      "evidence": "A02",
+      "status": "uncertain",
+      "reason": "ASR text only; no validated listening, delivery or voice origin.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q09",
+      "finding": "Voice delivery, music, effects and audiovisual alignment were not established by this visual pass.",
+      "evidence": "A01",
+      "status": "not checked",
+      "reason": "No validated direct audio listening input.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q10",
+      "finding": "Voice delivery, music, effects and audiovisual alignment were not established by this visual pass.",
+      "evidence": "A01",
+      "status": "not checked",
+      "reason": "No validated direct audio listening input.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q11",
+      "finding": "Voice delivery, music, effects and audiovisual alignment were not established by this visual pass.",
+      "evidence": "A01",
+      "status": "not checked",
+      "reason": "No validated direct audio listening input.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q12",
+      "finding": "Founder footage is combined with mascot art, large background typography and interface-like overlays; production tools are unknown.",
+      "evidence": "V01–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q13",
+      "finding": "Manifest duration 46.046s; indexed dimensions 1920×1080. Source unchanged flag recorded; fresh encoding and audio clipping checks not run.",
+      "evidence": "Group manifest",
+      "status": "uncertain",
+      "reason": "Inherited technical metadata; no fresh media probe in this review.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q14",
+      "finding": "The growth promise, seven-tool consolidation and continuous operation remain visible; experiment detail relies more on the ASR draft.",
+      "evidence": "V01,V04,V05,A02",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q15",
+      "finding": "The founders stay central while short captions and large numbers occupy nearby space. The stacked notifications compete with faces.",
+      "evidence": "V03,V04,V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q16",
+      "finding": "The 46 s film moves through problem, introduction, setup, updates, consolidation and CTA; little time is given to an actual task.",
+      "evidence": "V01–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q17",
+      "finding": "The opening lack-of-buyers problem ends in an autopilot growth promise, without showing a buyer acquisition.",
+      "evidence": "V01,V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q18",
+      "finding": "Founder presence and friendly mascot suggest approachability; the continuous-operation claims aim for relief from growth work.",
+      "evidence": "V01,V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q19",
+      "finding": "Green accents, the table and the two people connect changing outdoor locations.",
+      "evidence": "V01–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q20",
+      "finding": "Connection and result notifications are presented as overlays; actual experiment execution, customer gains and replacement of a hire remain unverified.",
+      "evidence": "V03,V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q21",
+      "finding": "The green mascot and outdoor folding-table setup are memorable brand devices; the automation promise is broad.",
+      "evidence": "V01–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q22",
+      "finding": "One readable experiment brief, approval and result would add more product evidence than another setting change.",
+      "evidence": "V03–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q23",
+      "finding": "Tin can pair a founder explanation with one real approved experiment and a readable update card, keeping the same person and framing.",
+      "evidence": "V03",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q24",
+      "finding": "Revnu presents an agent that runs startup growth experiments and reports results.",
+      "evidence": "Model reading from inspected images",
+      "status": "uncertain",
+      "reason": "Model-only new-viewer interpretation; no human test.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q25",
+      "finding": "Contact sheets inspected at displayed size; a phone-size playback, caption audit, flash audit and formal accessibility check were not performed.",
+      "evidence": "Viewed sheets",
+      "status": "not checked",
+      "reason": "Full-size moving-image and device checks unavailable in this pass.",
+      "experiment": "none"
+    }
+  ],
+  "lessons": {
+    "keep": "Keep stable people and table framing while changing locations to refresh a spoken explanation.",
+    "avoid": "Avoid claiming that continuous activity removes the need for human growth judgment.",
+    "open": "Experiment quality, workspace access, approvals, growth results, exact overlay motion and audio delivery remain unverified.",
+    "try": [
+      "Film a Tin founder at one table and overlay a readable brief, approval and result from the same campaign.",
+      "Replace the seven-tool logo cluster with one before/after task map showing which steps Tin actually handles."
+    ]
+  },
+  "comparison": {
+    "story": "State the founder problem and introduce the team. → Explain the timing and introduce the brand. → Suggest simple setup followed by updates. → Frame consolidation and channel discovery. → Promise continuous operation and time returned. → End with a clear destination.",
+    "motion": "Oversized letters and numerals sit behind people; notification cards accumulate above the table. Exact entrance paths are unresolved. Sampling scope: 1 fps unless a closer window is recorded.",
+    "sound": "No validated listening; unknown.",
+    "texture": "Outdoor waterfront, bold white/green type and outlined mascot.; Consistent table framing with changed location and background-scale type.; Glass-like button and notification overlays.; Large numeral, green logo tiles and short text groups.; Large white/green numerals, alternating close and two-person shots.; White background and green wordmark.",
+    "lesson": "Keep stable people and table framing while changing locations to refresh a spoken explanation."
+  },
+  "elements": [
+    {
+      "kind": "ui",
+      "name": "notification cards",
+      "events": [
+        "V03"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "connect button",
+      "events": [
+        "V03"
+      ]
+    },
+    {
+      "kind": "motion",
+      "name": "large background text",
+      "events": [
+        "V02",
+        "V05"
+      ]
+    },
+    {
+      "kind": "texture",
+      "name": "outdoor founder footage",
+      "events": [
+        "V01",
+        "V02",
+        "V05"
+      ]
+    }
+  ]
+}

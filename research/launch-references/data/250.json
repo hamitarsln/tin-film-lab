@@ -1,0 +1,341 @@
+{
+  "id": 250,
+  "product_from_film": "EPOCH announces a live mainnet and positions itself around coordination across Web3 systems.",
+  "explains_well": "Coordination and fragmentation are repeated as the central theme, and Mainnet is Live is clear at the end.",
+  "unclear": "The film never explains what EPOCH coordinates, how a user starts or what a completed action looks like.",
+  "product_type": "Web3 coordination protocol announcement",
+  "scenario": "War/news and political coordination clips become an analogy for Web3 fragmentation, ending with an EPOCH mainnet announcement.",
+  "product_clear_time": null,
+  "product_clear_basis": "Web3 coordination is named, but the actual protocol function is not demonstrated or defined.",
+  "scenes": [
+    {
+      "start": 0,
+      "end": 18,
+      "action": "A political speech appears with a camera-recording overlay and captions, followed by black, night attack footage, damaged-building news panels and a news presenter.",
+      "design": "Muted news imagery, recording-frame graphics and breaking-news banners.",
+      "purpose": "Create urgency through geopolitical footage.",
+      "evidence": "1 fps source samples in 0–18s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V01"
+    },
+    {
+      "start": 18,
+      "end": 30,
+      "action": "Social-media posts accumulate on black, then a collage of political/hearing footage, naval imagery and meetings appears under large red coordination wording.",
+      "design": "Overlapping text cards and tiled news sources.",
+      "purpose": "Introduce coordination as the connecting idea.",
+      "evidence": "1 fps source samples in 18–30s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V02"
+    },
+    {
+      "start": 30,
+      "end": 38,
+      "action": "Interview and panel clips carry red captions about fragmentation, coordination in Web3, broken cross-chain UX and scattered liquidity.",
+      "design": "Bright interview footage with centrally overlaid problem labels.",
+      "purpose": "Move the coordination problem into the product domain.",
+      "evidence": "1 fps source samples in 30–38s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V03"
+    },
+    {
+      "start": 38,
+      "end": 43,
+      "action": "CUT TO WEB3, SAME PROBLEM and DIFFERENT SYSTEM appear on black.",
+      "design": "Large plain white title cards.",
+      "purpose": "Make the analogy explicit.",
+      "evidence": "1 fps source samples in 38–43s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V04"
+    },
+    {
+      "start": 43,
+      "end": 50,
+      "action": "A monochrome operations-room image carries ALERT and green typed text about gaps between orders and controlling the outcome.",
+      "design": "Control-room texture with green terminal-like lettering.",
+      "purpose": "Extend the gap/coordination metaphor.",
+      "evidence": "1 fps source samples in 43–50s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V05"
+    },
+    {
+      "start": 50,
+      "end": 58.833,
+      "action": "Green text says EPOCH CLOSES THE GAP IN WEB3. EPOCH logo, Coordination without complexity and Mainnet is Live follow.",
+      "design": "Minimal black, green and white closing cards.",
+      "purpose": "Name the solution and announce launch status.",
+      "evidence": "1 fps source samples in 50–58.833s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V06"
+    }
+  ],
+  "sound": [
+    {
+      "id": "A01",
+      "start": 0,
+      "end": 58.833,
+      "layer": "ASR draft / unknown",
+      "detail": "The partial draft supports a montage of news and coordination/fragmentation phrases. Several names, sentences and interview fragments are badly recognized, so it is not a reliable factual transcript. The late product proposition is taken from visible text. No validated listening, music, effects or synchronization assessment.",
+      "visual_relation": "V01–V03; broad theme support only.",
+      "evidence": "technical-review-2026-10-19/deep-review/audio/250-speech.json"
+    }
+  ],
+  "categories": [
+    {
+      "id": "Q01",
+      "finding": "Geopolitical urgency → coordination → Web3 fragmentation → gap metaphor → mainnet announcement.",
+      "evidence": "V01–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q02",
+      "finding": "A political speech and attack footage create a high-stakes opening, with no early product connection.",
+      "evidence": "V01",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q03",
+      "finding": "Web3 users/developers are implied at 30–38s; a practical user task remains unspecified.",
+      "evidence": "V03,V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q04",
+      "finding": "Overlapping post cards, tiled news panels and progressively typed green text are visible. Exact transitions are unchecked.",
+      "evidence": "V02,V05,V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q05",
+      "finding": "Coordination is repeated across political and Web3 clips, but the analogy does not explain the technical mechanism.",
+      "evidence": "V02–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q06",
+      "finding": "News banners, recording overlays, social posts and a monochrome control room create a tense information-heavy texture.",
+      "evidence": "V01–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q07",
+      "finding": "The final mainnet announcement is readable. Red text over busy footage and small overlapping posts reduce easy reading.",
+      "evidence": "V02,V03,V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q08",
+      "finding": "The partial ASR draft supports coordination as a theme but contains rejected garbled fragments. Audible qualities remain unknown.",
+      "evidence": "A01",
+      "status": "uncertain",
+      "reason": "Draft text without listening.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q09",
+      "finding": "Music character and structure are unverified.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "No validated listening.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q10",
+      "finding": "Effects and their sources are unverified.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "No validated listening; waveform peaks do not identify effects.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q11",
+      "finding": "Sound sync is unverified.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "No validated listening or paired audiovisual timing.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q12",
+      "finding": "News/interview clips and graphic overlays are combined. Clip provenance and production software are not established.",
+      "evidence": "V01–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q13",
+      "finding": "Source duration 58.833 s; Watch metadata 1920 × 1080. Frame rate, audio clipping and export quality not checked here.",
+      "evidence": "Whole film",
+      "status": "supported",
+      "reason": "Parent source metadata supports duration and dimensions; visual review is sampled.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q14",
+      "finding": "Silent viewing identifies Web3 coordination and mainnet status, but not the actual product function.",
+      "evidence": "V03–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q15",
+      "finding": "Large red/green words guide attention across dense source imagery; the final black cards simplify the frame.",
+      "evidence": "V02–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q16",
+      "finding": "Most of the runtime builds the analogy. EPOCHs direct proposition arrives around 50s, leaving under 9s for the launch message.",
+      "evidence": "V01–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q17",
+      "finding": "The repeated coordination problem resolves into a closes-the-gap claim, without an example result.",
+      "evidence": "V02,V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q18",
+      "finding": "War imagery may create urgency, but may also distract from a protocol launch; audience response is unmeasured.",
+      "evidence": "V01–V03",
+      "status": "uncertain",
+      "reason": "Interpretation of topic contrast.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q19",
+      "finding": "The shared word coordination links the montage, but the move from military/news footage to protocol utility lacks a concrete explanatory bridge.",
+      "evidence": "V01–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q20",
+      "finding": "The news content, fragmentation claims and mainnet status are presented by the film and were not independently checked. No protocol performance or transaction was tested.",
+      "evidence": "V01,V03,V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q21",
+      "finding": "The control-room and news treatment gives the launch a distinct tone, with little functional differentiation.",
+      "evidence": "V01–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q22",
+      "finding": "Replace some analogy footage with one protocol action.",
+      "evidence": "V03–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "Show the fragmented starting state, the users request and the coordinated result, then retain the mainnet card."
+    },
+    {
+      "id": "Q23",
+      "finding": "For Tin, use a strong metaphor briefly and anchor it in a visible workflow.",
+      "evidence": "V04–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "Show disconnected campaign inputs becoming one usable brief and output before the final brand statement."
+    },
+    {
+      "id": "Q24",
+      "finding": "No human new-viewer test was performed.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "The product summary is this model’s film-only reading.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q25",
+      "finding": "Mobile preview and accessibility checks were not performed.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "Contact sheets are evidence views, not a stated mobile preview or compliance test.",
+      "experiment": "none"
+    }
+  ],
+  "elements": [
+    {
+      "kind": "motion",
+      "name": "overlapping social posts",
+      "events": [
+        "V02"
+      ]
+    },
+    {
+      "kind": "motion",
+      "name": "news panel collage",
+      "events": [
+        "V02"
+      ]
+    },
+    {
+      "kind": "motion",
+      "name": "typed terminal-style text",
+      "events": [
+        "V05",
+        "V06"
+      ]
+    },
+    {
+      "kind": "texture",
+      "name": "news footage",
+      "events": [
+        "V01",
+        "V02"
+      ]
+    },
+    {
+      "kind": "texture",
+      "name": "monochrome control room",
+      "events": [
+        "V05"
+      ]
+    }
+  ],
+  "lessons": {
+    "keep": "Make launch status explicit in the final card.",
+    "try": [
+      "Show one fragmented starting state, user request and coordinated result.",
+      "For Tin, connect a brief metaphor to the actual campaign workflow."
+    ],
+    "avoid": "Letting a dramatic analogy replace the explanation of what the product does.",
+    "open": "Protocol mechanism, intended task, mainnet status, news context, footage provenance and audio remain unverified."
+  },
+  "comparison": {
+    "story": "News coordination analogy → Web3 gap → mainnet announcement.",
+    "motion": "Post collage, panel montage and typed text; exact timing unchecked.",
+    "sound": "Partial garbled ASR supports broad theme only; no listening.",
+    "texture": "Breaking news, recording overlays and control-room imagery.",
+    "lesson": "A launch announcement needs one concrete action beyond its metaphor."
+  },
+  "reviewer_model": "gpt-6-astra",
+  "scope": "sampled visual and story review; ASR and measured signal support; no validated audio listening",
+  "viewed_evidence": [
+    "technical-review-2026-10-19/deep-review/motion/250/timeline-00.jpg",
+    "technical-review-2026-10-19/deep-review/motion/250/timeline-01.jpg"
+  ],
+  "closer_windows": []
+}

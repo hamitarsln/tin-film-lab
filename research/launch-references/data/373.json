@@ -1,0 +1,336 @@
+{
+  "id": 373,
+  "product_from_film": "Browserbase Functions hosts agent code beside its browser to reduce communication delay.",
+  "explains_well": "The presenter holds separate code/browser windows over his hands, then brings them together to explain colocation.",
+  "unclear": "No deployed function is shown completing a browser task, so the setup-to-result flow remains a concept.",
+  "product_type": "Browser-agent infrastructure",
+  "scenario": "Explain remote code/browser delay, bring them together and show a CLI deployment command.",
+  "product_clear_time": 24,
+  "product_clear_basis": "The code-next-to-browser explanation at 21–22s is named Browserbase Functions at 24s.",
+  "scenes": [
+    {
+      "start": 0,
+      "end": 11,
+      "action": "A presenter and title state AWS Lambda for browser agents. He is identified as Browserbase founder, then text emphasizes latency.",
+      "design": "Office with red brand wall; black/white grid titles.",
+      "purpose": "Introduce the category and key problem.",
+      "evidence": "1 fps source samples in 0–11s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V01"
+    },
+    {
+      "start": 11,
+      "end": 23,
+      "action": "A loading browser is labeled us-west and code us-east. The presenter gestures beneath separate window overlays, then the windows come together near center.",
+      "design": "Browser/code windows composited above hands.",
+      "purpose": "Make distance and colocation tangible.",
+      "evidence": "1 fps source samples in 11–23s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V02"
+    },
+    {
+      "start": 23,
+      "end": 36,
+      "action": "Browserbase Functions is named. Text says colocate code and browsers; separated windows approach/overlap and a combined browser/code view follows.",
+      "design": "White grid, orange/black circular shapes and app-window illustration.",
+      "purpose": "Explain the product mechanism conceptually.",
+      "evidence": "1 fps source samples in 23–36s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V03"
+    },
+    {
+      "start": 36,
+      "end": 45,
+      "action": "Presenter captions mention runtime, sandboxing and dependencies. A code editor and terminal deployment command appear, followed by the B mark.",
+      "design": "Dark editor/terminal against white.",
+      "purpose": "Describe local authoring and managed deployment.",
+      "evidence": "1 fps source samples in 36–45s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V04"
+    },
+    {
+      "start": 45,
+      "end": 53.694,
+      "action": "The presenter states customer use and availability. A red grid card shows the init command, then browserbase.com.",
+      "design": "Red CTA field and white text.",
+      "purpose": "Invite developers to start.",
+      "evidence": "1 fps source samples in 45–53.694s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V05"
+    }
+  ],
+  "sound": [
+    {
+      "id": "A01",
+      "start": 0,
+      "end": 53.694,
+      "layer": "ASR draft",
+      "detail": "Draft and captions explain round-trip latency, code/browser colocation, CLI deployment and managed hosting/scaling/execution. ASR misrecognizes the brand and several technical words; captions clarify them. Delivery, music, effects and sync remain unverified.",
+      "visual_relation": "V01–V05; script supports the spatial demonstration.",
+      "evidence": "373-speech.json draft and visible captions; no validated listening."
+    }
+  ],
+  "categories": [
+    {
+      "id": "Q01",
+      "finding": "Infrastructure analogy → distance/latency → colocation → CLI deployment → start command.",
+      "evidence": "V01–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q02",
+      "finding": "The presenter begins We just built before a title completes the AWS Lambda analogy. It presumes developer familiarity.",
+      "evidence": "V01",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q03",
+      "finding": "Browser-agent developers are addressed; colocation is demonstrated before Functions is named at 24s.",
+      "evidence": "V02,V03",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q04",
+      "finding": "Window overlays occupy separate sides above the presenter’s hands, then sit together; graphic windows later overlap. Exact paths/easing are unverified.",
+      "evidence": "V02,V03",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q05",
+      "finding": "Presenter gestures carry the spatial argument into graphic window layouts, keeping the same two objects.",
+      "evidence": "V02,V03",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q06",
+      "finding": "Red office branding, black/white grids and orange circular graphics create a consistent technical identity.",
+      "evidence": "V01–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q07",
+      "finding": "Captions explain latency and deployment; large region names make the initial separation readable. CLI text serves as the final action.",
+      "evidence": "V02,V04,V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q08",
+      "finding": "ASR/captions support a concise founder explanation; voice quality and other sound layers remain unknown.",
+      "evidence": "A01",
+      "status": "uncertain",
+      "reason": "Text support only.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q09",
+      "finding": "Music character and structure are unverified.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "No validated listening.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q10",
+      "finding": "Effects and their sources are unverified.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "No validated listening; waveform peaks do not identify effects.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q11",
+      "finding": "Sound sync is unverified.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "No validated listening or paired audiovisual timing.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q12",
+      "finding": "Presenter footage, composited window examples and editor/terminal views combine. Production method and real-time execution are unverified.",
+      "evidence": "V01–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q13",
+      "finding": "Source duration 53.694 s; Watch metadata 1920 × 1080. Frame rate, audio clipping and export quality not checked here.",
+      "evidence": "Whole film",
+      "status": "supported",
+      "reason": "Parent source metadata supports duration and dimensions; visual review is sampled.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q14",
+      "finding": "Captions and separated/together windows communicate the mechanism without checked sound.",
+      "evidence": "V02–V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q15",
+      "finding": "Hands guide attention to the two windows, then their central grouping gives a clear visual destination.",
+      "evidence": "V02",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q16",
+      "finding": "The delay explanation receives about 12s; deployment receives about 9s and shows a command rather than a completed run.",
+      "evidence": "V02,V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q17",
+      "finding": "The latency premise is answered with a spatial mechanism, but no measured before/after result is shown.",
+      "evidence": "V01–V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q18",
+      "finding": "Physical demonstration suggests a simpler explanation of an infrastructure problem; response is unmeasured.",
+      "evidence": "V02",
+      "status": "uncertain",
+      "reason": "Visual interpretation only.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q19",
+      "finding": "Code and browser windows recur from separation through colocation and deployment.",
+      "evidence": "V02–V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q20",
+      "finding": "Colocation, fastest/easiest, compatibility, customer use and latency claims are unverified. A command is shown without deployment output or browser task result.",
+      "evidence": "V03–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q21",
+      "finding": "The hand-position explanation makes an abstract hosting choice memorable and tied to this product.",
+      "evidence": "V02",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q22",
+      "finding": "Finish one deployment example.",
+      "evidence": "V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "Run the shown deploy command, display its endpoint and invoke one browser task with its result and measured duration."
+    },
+    {
+      "id": "Q23",
+      "finding": "For Tin, use physical distance to explain a workflow delay.",
+      "evidence": "V02",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "Place a brief and execution artifact on separate sides, then bring them into one visible workflow and show the resulting completed campaign step."
+    },
+    {
+      "id": "Q24",
+      "finding": "No human new-viewer test was performed.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "The product summary is this model’s film-only reading.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q25",
+      "finding": "Mobile preview and accessibility checks were not performed.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "Contact sheets are evidence views, not a stated mobile preview or compliance test.",
+      "experiment": "none"
+    }
+  ],
+  "elements": [
+    {
+      "kind": "ui",
+      "name": "browser shell",
+      "events": [
+        "V02",
+        "V03"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "code editor",
+      "events": [
+        "V02",
+        "V03",
+        "V04"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "terminal",
+      "events": [
+        "V04"
+      ]
+    },
+    {
+      "kind": "motion",
+      "name": "windows moving together",
+      "events": [
+        "V02",
+        "V03"
+      ]
+    },
+    {
+      "kind": "texture",
+      "name": "grid background",
+      "events": [
+        "V01",
+        "V03",
+        "V05"
+      ]
+    }
+  ],
+  "lessons": {
+    "keep": "Use two visible objects and hand positions to explain a spatial infrastructure problem.",
+    "try": [
+      "Show deployment output and one completed browser invocation with measured duration.",
+      "For Tin, bring brief and execution artifacts into one workflow and show the completed step."
+    ],
+    "avoid": "Ending the workflow explanation at a command without its result.",
+    "open": "Deployment behavior, latency, compatibility, customer claims and audio qualities remain unverified."
+  },
+  "comparison": {
+    "story": "Delay → colocate → deploy → start.",
+    "motion": "Separated windows become a central paired object.",
+    "sound": "ASR/captions support explanation; no validated listening.",
+    "texture": "Office red, technical grids and simple circles.",
+    "lesson": "A presenter’s hands can make a spatial software concept concrete."
+  },
+  "reviewer_model": "gpt-6-astra",
+  "scope": "sampled visual and story review; ASR and measured signal support; no validated audio listening",
+  "viewed_evidence": [
+    "technical-review-2026-10-19/deep-review/motion/373/timeline-00.jpg",
+    "technical-review-2026-10-19/deep-review/motion/373/timeline-01.jpg"
+  ],
+  "closer_windows": []
+}

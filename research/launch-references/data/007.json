@@ -1,0 +1,363 @@
+{
+  "id": 7,
+  "product_from_film": "Rainbrand promises shared brand context so agents can create work that fits a brand.",
+  "explains_well": "Repeated chat corrections show the pain of wrong logos, fonts and generic output.",
+  "unclear": "No working Rainbrand setup or corrected agent output is demonstrated.",
+  "product_type": "brand context for AI agents",
+  "scenario": "Ask an agent for a launch campaign, receive mismatched designs, and seek shared brand context.",
+  "product_clear_time": 46,
+  "product_clear_basis": "The poster at 46s says one brand is shared with every agent; the next card promises on-brand work.",
+  "viewed_evidence": [
+    "technical-review-2026-10-19/deep-review/motion/007/timeline-00.jpg",
+    "technical-review-2026-10-19/deep-review/motion/007/timeline-01.jpg",
+    "technical-review-2026-10-19/deep-review/motion/007/timeline-02.jpg",
+    "astra-review-2026-10-20/evidence/group-1/007/36-39-4fps.jpg"
+  ],
+  "closer_windows": [
+    {
+      "start": 36,
+      "end": 39,
+      "rate_fps": 4,
+      "evidence": [
+        "astra-review-2026-10-20/evidence/group-1/007/36-39-4fps.jpg"
+      ],
+      "resolved": "12 frames at 36.00–38.75s show text entry, a brief distressed-person shot at 37s, then multiplying error windows and a return to the desk. Exact sub-frame edits and easing unverified."
+    }
+  ],
+  "scenes": [
+    {
+      "start": 0,
+      "end": 12,
+      "action": "A dark human silhouette stands against orange-blue flowing shapes. A small square remains central while industrial scenes, distorted faces, a porous object and an eye replace the background.",
+      "design": "Neon color, scan lines, apparent surface distortions and a central square emblem.",
+      "purpose": "Build an abstract identity before explaining the tool.",
+      "evidence": "1 fps source samples in 0–12s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V01"
+    },
+    {
+      "start": 12,
+      "end": 23,
+      "action": "Rocket, image grid, faces, bright rays, monochrome people and space imagery alternate around the square. At 22s the background becomes black.",
+      "design": "High-contrast collage; repeated central motif with changing fill.",
+      "purpose": "Continue visual range and prepare the shift to a concrete problem.",
+      "evidence": "1 fps source samples in 12–23s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V02"
+    },
+    {
+      "start": 23,
+      "end": 30,
+      "action": "Warm desk views show an old-style computer, hands on a keyboard and a person at work. The screen fills the frame as a launch-campaign prompt receives six designs.",
+      "design": "Beige computer, warm practical lights; monochrome chat frame with bright artwork grid.",
+      "purpose": "Place the brand problem in a human task.",
+      "evidence": "1 fps source samples in 23–30s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V03"
+    },
+    {
+      "start": 30,
+      "end": 41,
+      "action": "Chat corrections ask for the right logo, font and brand context; output becomes less coherent. In 36–39s close samples, a distressed person briefly interrupts before error windows and sad faces multiply; desk view returns.",
+      "design": "Pixel type, noisy monochrome screen, overlapping error boxes and six-tile campaign grid.",
+      "purpose": "Turn repeated corrections into visible failure.",
+      "evidence": "1 fps source samples in 30–41s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V04"
+    },
+    {
+      "start": 41,
+      "end": 51,
+      "action": "Black pause and square emblem lead to Rainbrand on a shirt, poster, cards, a box and shopping bag. Text states shared brand context and on-brand output.",
+      "design": "Bold consistent wordmark on mostly black-white layouts; orange-blue art persists.",
+      "purpose": "Offer visual consistency as the proposed answer.",
+      "evidence": "1 fps source samples in 41–51s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V05"
+    },
+    {
+      "start": 51,
+      "end": 62.535,
+      "action": "The wordmark persists across black, white and patterned fields. It settles on black with the brand-layer-for-agents line and website, then dims.",
+      "design": "Large wordmark, small descriptor and site URL.",
+      "purpose": "Name the product role and hold a final brand card.",
+      "evidence": "1 fps source samples in 51–62.535s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V06"
+    }
+  ],
+  "categories": [
+    {
+      "id": "Q01",
+      "finding": "Abstract montage precedes a launch-campaign chat that fails; a consistent identity system is offered as the answer.",
+      "evidence": "V01–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q02",
+      "finding": "A dark body silhouette and vivid flowing color fill 0–2s. This establishes visual energy but no task or product.",
+      "evidence": "V01",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q03",
+      "finding": "The user is someone making branded work with agents. The task starts at 27s; the shared-brand product promise is clear at 46s.",
+      "evidence": "V03,V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q04",
+      "finding": "The central square anchors changing imagery. Later, typed chat grows and error windows accumulate. Dense 36–39s samples support the accumulation, not exact easing.",
+      "evidence": "V01,V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q05",
+      "finding": "A black interval around 41s separates failure from brand reveal. At 37s a brief person insert interrupts the chat; by 37.25s the screen returns.",
+      "evidence": "V04,V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q06",
+      "finding": "Neon distortions give way to a warm retro desk, then noisy monochrome failure and clean branded packaging.",
+      "evidence": "V01–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q07",
+      "finding": "Chat sentences carry the problem; the six outputs show mismatch. The final descriptor carries the product definition.",
+      "evidence": "V04,V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q08",
+      "finding": "The inspected ASR draft provides partial script-role support; recognition limits are recorded in A02. Audible voice characteristics and delivery remain unchecked.",
+      "evidence": "A02",
+      "status": "uncertain",
+      "reason": "Local draft text was read; no direct listening.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q09",
+      "finding": "Music character and structure are unverified.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "No validated listening.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q10",
+      "finding": "Effects and their sources are unverified.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "No validated listening; waveform peaks do not identify effects.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q11",
+      "finding": "Sound sync is unverified.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "No validated listening or paired audiovisual timing.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q12",
+      "finding": "Real-world-looking desk and people images mix with abstract faces, an eye, space imagery and packaging mockups; origins are unknown.",
+      "evidence": "V01–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q13",
+      "finding": "Source duration 62.535 s; Watch metadata 1920 × 1080. Frame rate, audio clipping and export quality not checked here.",
+      "evidence": "Whole film",
+      "status": "supported",
+      "reason": "Parent source metadata supports duration and dimensions; visual review is sampled.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q14",
+      "finding": "The written corrections explain the failure without sound. The solution depends on short statements, because no new workflow is shown.",
+      "evidence": "V04,V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q15",
+      "finding": "A fixed central square holds the eye through the opening changes. Chat left and result grid right create a clear request/result comparison later.",
+      "evidence": "V01,V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q16",
+      "finding": "The opening provides many textures before any task. The readable problem begins only after 23s.",
+      "evidence": "V01–V03",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "Test a cut that opens on the first wrong-brand campaign."
+    },
+    {
+      "id": "Q17",
+      "finding": "The opening promises a visual identity experience; the consistent Rainbrand mockups pay that off. The chat problem receives a promise rather than a demonstrated fix.",
+      "evidence": "V01,V04,V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q18",
+      "finding": "Frustration is suggested by corrections, a person holding their face and repeated errors. The clean identity reveal suggests relief; no audience response is measured.",
+      "evidence": "V04,V05",
+      "status": "uncertain",
+      "reason": "Emotional meaning is an interpretation of visible states.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q19",
+      "finding": "The square motif connects the abstract montage to the later brand. The same campaign task is lost when the film switches to packaging.",
+      "evidence": "V01,V04,V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q20",
+      "finding": "The failed chat is staged evidence of a problem. Consistent Rainbrand assets show an identity, but do not prove agents shared context to create it.",
+      "evidence": "V04,V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q21",
+      "finding": "Orange-blue liquid shapes, the small square and the repeated bold wordmark form a distinct identity system.",
+      "evidence": "V01,V05,V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q22",
+      "finding": "The wrong-logo and wrong-font corrections explain the pain directly. Much of the first 23s could be shortened without losing that scenario.",
+      "evidence": "V01–V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q23",
+      "finding": "For Tin, prepare one incorrect campaign and one corrected campaign under the same brief; use brand constraints as visible chat corrections.",
+      "evidence": "V04,V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "Replace the packaging reveal with the same six campaign slots corrected after brand context is added."
+    },
+    {
+      "id": "Q24",
+      "finding": "No human new-viewer test was performed.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "The product summary is this model’s film-only reading.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q25",
+      "finding": "Mobile preview and accessibility checks were not performed.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "Contact sheets are evidence views, not a stated mobile preview or compliance test.",
+      "experiment": "none"
+    }
+  ],
+  "elements": [
+    {
+      "kind": "ui",
+      "name": "chat",
+      "events": [
+        "V03",
+        "V04"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "image grid",
+      "events": [
+        "V03",
+        "V04"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "error dialog",
+      "events": [
+        "V04"
+      ]
+    },
+    {
+      "kind": "motion",
+      "name": "typed text",
+      "events": [
+        "V04"
+      ]
+    },
+    {
+      "kind": "texture",
+      "name": "scan lines",
+      "events": [
+        "V01",
+        "V04"
+      ]
+    }
+  ],
+  "lessons": {
+    "keep": "Show wrong logo and wrong font as specific corrections beside the failed designs.",
+    "try": [
+      "For Tin brand onboarding, show one campaign grid before and after adding the brand kit; retain the exact brief and six slots.",
+      "For a Tin opening, use a two-second wrong-logo correction followed immediately by the brand-context action, using actual prepared UI states."
+    ],
+    "avoid": "A long visual montage that delays the user task and a solution reveal that abandons that task.",
+    "open": "Actual shared-context behavior, audio, and most sub-second opening cuts are unverified."
+  },
+  "comparison": {
+    "story": "Abstract identity montage → retro failed-agent chat → consistent brand mockups → brand-layer statement.",
+    "motion": "Central anchor, typed corrections and accumulating error windows; 36–39s inspected at 4 fps.",
+    "sound": "No validated listening; all sound layers and sync unknown.",
+    "texture": "Neon distortion, retro monitor treatment and clean print-like mockups; provenance unknown.",
+    "lesson": "Make a vague brand-context problem concrete with wrong-logo and wrong-font corrections."
+  },
+  "reviewer_model": "gpt-6-astra",
+  "scope": "sampled visual and story review; ASR and measured signal support; no validated audio listening",
+  "sound": [
+    {
+      "id": "A01",
+      "start": 0,
+      "end": 62.535,
+      "layer": "unknown",
+      "detail": "No validated audio listening. Voice delivery, music, effects and mix are unknown.",
+      "visual_relation": "All scenes; sound alignment unverified",
+      "evidence": "No actual audio perception in this review; prepared audio files are not listening evidence."
+    },
+    {
+      "id": "A02",
+      "start": 0,
+      "end": 62.535,
+      "layer": "ASR draft",
+      "detail": "The draft supports a noisy-world setup, requests for an on-brand launch campaign, repeated logo/font corrections and a better-way question. Opening wording and a fragment near 37s are unreliable, so those fragments are rejected as literal evidence. No validated listening; delivery, music, effects, mix and synchronization remain unknown.",
+      "visual_relation": "Whole-film script role only; ASR timing and audible delivery not validated.",
+      "evidence": "technical-review-2026-10-19/deep-review/audio/007-speech.json; local faster-whisper draft inspected."
+    }
+  ]
+}

@@ -1,0 +1,374 @@
+{
+  "id": 515,
+  "reviewer_model": "gpt-6-astra",
+  "scope": "sampled visual and story review; ASR and measured signal support; no validated audio listening",
+  "viewed_evidence": [
+    "technical-review-2026-10-19/deep-review/motion/515/timeline-00.jpg",
+    "technical-review-2026-10-19/deep-review/motion/515/timeline-01.jpg",
+    "technical-review-2026-10-19/deep-review/motion/515/timeline-02.jpg",
+    "technical-review-2026-10-19/deep-review/audio/515-speech.json"
+  ],
+  "closer_windows": [],
+  "product_from_film": "Supermemory lets users ask questions about saved internet content, organize it into spaces and add material through several entry points.",
+  "explains_well": "The film moves from a saved-content grid to a suggested question and an answer with source cards.",
+  "unclear": "The selected source opens to a loading X page, so the viewer never gets a clear comparison between the answer and the original post.",
+  "product_type": "founder product demo",
+  "scenario": "Retrieve information from saved bookmarks and other content.",
+  "product_clear_time": 23,
+  "product_clear_basis": "The question about shopping in Arc produces an answer and source cards after the saved-content grid.",
+  "scenes": [
+    {
+      "id": "V01",
+      "start": 0,
+      "end": 6,
+      "action": "A presenter in a bedroom introduces supermemory.ai. A website thumbnail and AI second brain for your saved stuff appear.",
+      "design": "Informal direct-camera shot with large white captions.",
+      "purpose": "State the product purpose.",
+      "evidence": "Visible chronological 1 fps samples, source 0–6s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V02",
+      "start": 6,
+      "end": 20,
+      "action": "A split screen shows Your Memories with saved-content cards, then Ask your supermemory with suggested questions. A question about upcoming shopping features in Arc is selected.",
+      "design": "Dark app interface beside the presenter.",
+      "purpose": "Show stored material and a concrete retrieval request.",
+      "evidence": "Visible chronological 1 fps samples, source 6–20s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V03",
+      "start": 20,
+      "end": 29,
+      "action": "An answer appears with source cards. A source opens an X page that remains mostly loading or empty before returning to the app.",
+      "design": "Answer text and compact source cards, followed by a black loading screen.",
+      "purpose": "Show retrieval and an attempted source check.",
+      "evidence": "Visible chronological 1 fps samples, source 20–29s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V04",
+      "start": 29,
+      "end": 43,
+      "action": "A menu and Add memory modal appear with content and space fields. A phone chat with the Supermemory bot follows.",
+      "design": "Small form controls and a narrow phone capture.",
+      "purpose": "Show content entry, organization and mobile chat access.",
+      "evidence": "Visible chronological 1 fps samples, source 29–43s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V05",
+      "start": 43,
+      "end": 58,
+      "action": "The presenter tells the project history. An older-looking app screenshot appears, then large text lists product, cost and redesign struggles.",
+      "design": "Screen overlay and plain white text over the presenter.",
+      "purpose": "Explain the building process.",
+      "evidence": "Visible chronological 1 fps samples, source 43–58s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V06",
+      "start": 58,
+      "end": 78,
+      "action": "Social posts, star-history charts, a GitHub star count near 4k and saved-item/user figures appear. Several overlays accumulate around the presenter.",
+      "design": "Screenshot collage, line charts and social proof.",
+      "purpose": "Present traction and community support.",
+      "evidence": "Visible chronological 1 fps samples, source 58–78s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V07",
+      "start": 78,
+      "end": 88.766,
+      "action": "A short list mentions mobile app, quality improvement and growth to 10k. The presenter finishes with supermemory.ai across the frame.",
+      "design": "Simple roadmap text and a clear URL.",
+      "purpose": "Give future direction and invite use.",
+      "evidence": "Visible chronological 1 fps samples, source 78–88.766s; boundary approximate; exact motion between samples unverified."
+    }
+  ],
+  "sound": [
+    {
+      "id": "A01",
+      "start": 0,
+      "end": 88.766,
+      "layer": "unknown",
+      "detail": "No validated direct audio listening was performed. Music, speech delivery, effects, mix and sync remain unknown, not absent.",
+      "visual_relation": "All visual scenes; audiovisual alignment unverified",
+      "evidence": "Visual samples only; no actual audio range supplied to this reviewer."
+    },
+    {
+      "id": "A02",
+      "start": 0,
+      "end": 87.62,
+      "layer": "ASR draft",
+      "detail": "The coherent ASR draft explains bookmark import, suggested questions, an Arc shopping example, a Chrome extension, manual content entry, spaces and a Telegram bot. It then describes the project’s rewrites, open-source growth, user and saved-item counts, and future mobile work. This supports the demonstration’s intended flow, but does not prove retrieval accuracy or the stated metrics; some product names and phrases are misrecognized.",
+      "visual_relation": "Story text support; exact audiovisual alignment and delivery unverified.",
+      "evidence": "technical-review-2026-10-19/deep-review/audio/515-speech.json; local faster-whisper base CPU int8 draft; VAD candidates only, recognition errors possible."
+    }
+  ],
+  "categories": [
+    {
+      "id": "Q01",
+      "finding": "A short product explanation and retrieval demo lead into input methods, founder history, traction and a try-it invitation.",
+      "evidence": "V01–V07",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q02",
+      "finding": "The URL and plain second-brain statement quickly orient the viewer before the app appears.",
+      "evidence": "V01",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q03",
+      "finding": "People saving internet material are the intended users. The question-and-answer example makes retrieval concrete by 23s.",
+      "evidence": "V01–V03",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q04",
+      "finding": "Saved-content cards scroll, a suggested question enters the prompt, answer text and source cards appear, a modal opens, and later screenshots and charts accumulate over the presenter.",
+      "evidence": "V02–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q05",
+      "finding": "The split screen keeps the founder beside the task, while the later full presenter view marks a shift from product use to the building story.",
+      "evidence": "V02–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q06",
+      "finding": "The ordinary bedroom and direct-camera framing feel informal. Dark app panels and white overlay text provide the main visual structure.",
+      "evidence": "V01–V07",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q07",
+      "finding": "The product statement and ending URL are clear. Dense app text is small in the split view, and several later proof screenshots overlap the presenter.",
+      "evidence": "V01–V07",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q08",
+      "finding": "The coherent ASR draft explains bookmark import, suggested questions, an Arc shopping example, a Chrome extension, manual content entry, spaces and a Telegram bot. It then describes the project’s rewrites, open-source growth, user and saved-item counts, and future mobile work. This supports the demonstration’s intended flow, but does not prove retrieval accuracy or the stated metrics; some product names and phrases are misrecognized.",
+      "evidence": "A02",
+      "status": "uncertain",
+      "reason": "ASR text only; no validated listening, delivery or voice origin.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q09",
+      "finding": "Voice delivery, music, effects and audiovisual alignment were not established by this visual pass.",
+      "evidence": "A01",
+      "status": "not checked",
+      "reason": "No validated direct audio listening input.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q10",
+      "finding": "Voice delivery, music, effects and audiovisual alignment were not established by this visual pass.",
+      "evidence": "A01",
+      "status": "not checked",
+      "reason": "No validated direct audio listening input.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q11",
+      "finding": "Voice delivery, music, effects and audiovisual alignment were not established by this visual pass.",
+      "evidence": "A01",
+      "status": "not checked",
+      "reason": "No validated direct audio listening input.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q12",
+      "finding": "Presenter footage, app capture, a phone chat, earlier app image, social posts and GitHub charts form the production.",
+      "evidence": "V01–V07",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q13",
+      "finding": "Manifest duration 88.766s; indexed dimensions 1920×1080. Source unchanged flag recorded; fresh encoding and audio clipping checks not run.",
+      "evidence": "Group manifest",
+      "status": "uncertain",
+      "reason": "Inherited technical metadata; no fresh media probe in this review.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q14",
+      "finding": "The saved grid, question, answer and source cards communicate the core loop visually. Exact input methods and project history benefit from the ASR draft.",
+      "evidence": "V02–V06,A02",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q15",
+      "finding": "The presenter and app compete for width during the detailed answer. A larger source card would make the retrieval evidence easier to understand.",
+      "evidence": "V02–V03",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q16",
+      "finding": "Roughly the first half demonstrates the product; the second half shifts to building and traction. This serves a founder audience as well as potential users.",
+      "evidence": "V01–V07",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q17",
+      "finding": "The saved material leads to a relevant question and answer, but the original source does not finish loading in the shown sequence.",
+      "evidence": "V02–V03",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q18",
+      "finding": "The personal setting and candid struggle list suggest an open building-in-public story. Voice delivery is unverified.",
+      "evidence": "V05–V07",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q19",
+      "finding": "Source cards create an evidence link, but the X loading state interrupts verification. No newly added memory is followed through to a later answer.",
+      "evidence": "V03–V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q20",
+      "finding": "The demo does not verify answer accuracy or complete source loading. Star, user and saved-item counts are visible film claims, not independently audited metrics.",
+      "evidence": "V03,V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q21",
+      "finding": "Supermemory is repeated in the URL, app headings and bot, keeping the founder narrative tied to the product.",
+      "evidence": "V01–V07",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q22",
+      "finding": "Let the original source load, highlight the relevant passage and return to the answer. Move some traction overlays to a separate update.",
+      "evidence": "V03,V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q23",
+      "finding": "Use a real saved-content question and visible source cards to explain retrieval before describing broad capabilities.",
+      "evidence": "V02–V03",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q24",
+      "finding": "Supermemory lets users ask questions about saved internet content, organize it into spaces and add material through several entry points.",
+      "evidence": "Model reading from inspected images",
+      "status": "uncertain",
+      "reason": "Model-only new-viewer interpretation; no human test.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q25",
+      "finding": "Contact sheets inspected at displayed size; a phone-size playback, caption audit, flash audit and formal accessibility check were not performed.",
+      "evidence": "Viewed sheets",
+      "status": "not checked",
+      "reason": "Full-size moving-image and device checks unavailable in this pass.",
+      "experiment": "none"
+    }
+  ],
+  "lessons": {
+    "keep": "Show saved material, a concrete question and source-linked answer in one short sequence.",
+    "avoid": "Ending a source-verification step on a loading screen.",
+    "open": "Source grounding, import completeness, entry-point behavior, metrics and audio remain unverified.",
+    "try": [
+      "For Tin, retrieve a saved brand rule, show its source text and then the campaign sentence that follows it.",
+      "Compare the current split screen with a full-width answer and source view while the presenter becomes a small corner inset."
+    ]
+  },
+  "comparison": {
+    "story": "State the product purpose. → Show stored material and a concrete retrieval request. → Show retrieval and an attempted source check. → Show content entry, organization and mobile chat access. → Explain the building process. → Present traction and community support. → Give future direction and invite use.",
+    "motion": "Saved-content cards scroll, a suggested question enters the prompt, answer text and source cards appear, a modal opens, and later screenshots and charts accumulate over the presenter. Sampling scope: 1 fps unless a closer window is recorded.",
+    "sound": "No validated listening; unknown.",
+    "texture": "Informal direct-camera shot with large white captions.; Dark app interface beside the presenter.; Answer text and compact source cards, followed by a black loading screen.; Small form controls and a narrow phone capture.; Screen overlay and plain white text over the presenter.; Screenshot collage, line charts and social proof.; Simple roadmap text and a clear URL.",
+    "lesson": "Show saved material, a concrete question and source-linked answer in one short sequence."
+  },
+  "elements": [
+    {
+      "kind": "ui",
+      "name": "saved content grid",
+      "events": [
+        "V02"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "question and answer",
+      "events": [
+        "V02",
+        "V03"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "source cards",
+      "events": [
+        "V03"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "content form",
+      "events": [
+        "V04"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "bot chat",
+      "events": [
+        "V04"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "line chart",
+      "events": [
+        "V06"
+      ]
+    },
+    {
+      "kind": "motion",
+      "name": "screenshot accumulation",
+      "events": [
+        "V06"
+      ]
+    }
+  ]
+}

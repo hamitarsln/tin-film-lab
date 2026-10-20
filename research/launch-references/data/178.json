@@ -1,0 +1,352 @@
+{
+  "id": 178,
+  "reviewer_model": "gpt-6-astra",
+  "scope": "sampled visual and story review; ASR and measured signal support; no validated audio listening",
+  "viewed_evidence": [
+    "technical-review-2026-10-19/deep-review/motion/178/timeline-00.jpg",
+    "technical-review-2026-10-19/deep-review/motion/178/timeline-01.jpg",
+    "technical-review-2026-10-19/deep-review/motion/178/timeline-02.jpg",
+    "technical-review-2026-10-19/deep-review/audio/178-speech.json"
+  ],
+  "closer_windows": [],
+  "product_from_film": "Amboras presents an ecommerce agent that builds a store, tests variants and creates offers and audience-specific pages.",
+  "explains_well": "One pen product stays central through storefront, optimization, bundles and customer examples.",
+  "unclear": "The performance gains and million-dollar trajectory are presented without test dates or evidence.",
+  "product_type": "ecommerce automation agent",
+  "scenario": "Sell a pen through an agent-built and optimized storefront.",
+  "product_clear_time": 21,
+  "product_clear_basis": "A sell-this-pen request leads to a pen storefront.",
+  "scenes": [
+    {
+      "id": "V01",
+      "start": 0,
+      "end": 15,
+      "action": "A cinematic sell-me-this-pen exchange leads to a man running through streets with an oversized yellow pen prop and arriving at a laptop.",
+      "design": "Film-like opening, location comedy and large bright prop.",
+      "purpose": "Make selling one product the narrative challenge.",
+      "evidence": "Visible chronological 1 fps samples, source 0–15s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V02",
+      "start": 15,
+      "end": 24,
+      "action": "A prompt asks the agent to sell the pen. A teal-framed generation view leads to a white pen storefront, then the user asks how the store is doing.",
+      "design": "Teal/cream interface frame, simple prompt and polished product page.",
+      "purpose": "Show setup and follow-up question.",
+      "evidence": "Visible chronological 1 fps samples, source 15–24s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V03",
+      "start": 24,
+      "end": 40,
+      "action": "A web of many page cards narrows to a winning pen page. Charts accompany conversion increase, doubled AOV, revenue trajectory and agentic-purchase percentages.",
+      "design": "Branching card network, cream cards and teal/yellow charts.",
+      "purpose": "Claim testing and optimization gains.",
+      "evidence": "Visible chronological 1 fps samples, source 24–40s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V04",
+      "start": 40,
+      "end": 50,
+      "action": "The user asks about bundle/subscription testing. Bundle-offer cards and two 19/month subscription variants appear with conversion indicators.",
+      "design": "Rounded offer cards and side-by-side test layout.",
+      "purpose": "Extend optimization to commercial offers.",
+      "evidence": "Visible chronological 1 fps samples, source 40–50s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V05",
+      "start": 50,
+      "end": 60,
+      "action": "A request for audience-specific pages leads to five branches for professionals, writers, students, artists and collectors, with tailored pen pages.",
+      "design": "Teal connector tree and distinct product creative cards.",
+      "purpose": "Explain segmentation.",
+      "evidence": "Visible chronological 1 fps samples, source 50–60s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V06",
+      "start": 60,
+      "end": 71.0,
+      "action": "Two people view different pages on laptops; order-like feedback appears. Let AI sell your book/watch/stuff online leads to Amboras logo.",
+      "design": "Live customer scenes, floating page overlays and teal end copy.",
+      "purpose": "Show intended shopping payoff and broaden the use case.",
+      "evidence": "Visible chronological 1 fps samples, source 60–71.0s; boundary approximate; exact motion between samples unverified."
+    }
+  ],
+  "sound": [
+    {
+      "id": "A01",
+      "start": 0,
+      "end": 71.0,
+      "layer": "unknown",
+      "detail": "No validated direct audio listening was performed. Music, speech delivery, effects, mix and sync remain unknown, not absent.",
+      "visual_relation": "All visual scenes; audiovisual alignment unverified",
+      "evidence": "Visual samples only; no actual audio range supplied to this reviewer."
+    },
+    {
+      "id": "A02",
+      "start": 0.1,
+      "end": 59.04,
+      "layer": "ASR draft",
+      "detail": "ASR draft supports the sell-a-pen request, store generation, optimization report, bundle/subscription testing and audience-specific pages. The opening film dialogue is poorly recognized and excluded. Performance numbers match visible claims but remain unverified; voices, music and synchronization were not heard.",
+      "visual_relation": "Story text support; exact audiovisual alignment and delivery unverified.",
+      "evidence": "technical-review-2026-10-19/deep-review/audio/178-speech.json; local faster-whisper base CPU int8 draft; VAD candidates only, recognition errors possible."
+    }
+  ],
+  "categories": [
+    {
+      "id": "Q01",
+      "finding": "A pen-selling challenge leads to store creation, optimization, offer testing, segmentation and shoppers.",
+      "evidence": "V01–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q02",
+      "finding": "The familiar pen-selling setup and oversized prop create a comic concrete objective.",
+      "evidence": "V01",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q03",
+      "finding": "The pen storefront makes ecommerce creation clear by 21 s.",
+      "evidence": "V02",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q04",
+      "finding": "Many page cards narrow to one, charts rise, offer panels expand and audience branches lead to pages; exact animation paths are unverified.",
+      "evidence": "V03–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q05",
+      "finding": "The pen remains the shared artifact from live-action prop to storefront and offers.",
+      "evidence": "V01–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q06",
+      "finding": "Teal and pale yellow/cream UI soften the technical testing diagrams; live action supplies human context.",
+      "evidence": "V02–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q07",
+      "finding": "Short user questions and audience labels are clear; small performance values and chart details need closer reading.",
+      "evidence": "V03–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q08",
+      "finding": "ASR draft supports the sell-a-pen request, store generation, optimization report, bundle/subscription testing and audience-specific pages. The opening film dialogue is poorly recognized and excluded. Performance numbers match visible claims but remain unverified; voices, music and synchronization were not heard.",
+      "evidence": "A02",
+      "status": "uncertain",
+      "reason": "ASR text only; no validated listening, delivery or voice origin.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q09",
+      "finding": "Voice delivery, music, effects and audiovisual alignment were not established by this visual pass.",
+      "evidence": "A01",
+      "status": "not checked",
+      "reason": "No validated direct audio listening input.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q10",
+      "finding": "Voice delivery, music, effects and audiovisual alignment were not established by this visual pass.",
+      "evidence": "A01",
+      "status": "not checked",
+      "reason": "No validated direct audio listening input.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q11",
+      "finding": "Voice delivery, music, effects and audiovisual alignment were not established by this visual pass.",
+      "evidence": "A01",
+      "status": "not checked",
+      "reason": "No validated direct audio listening input.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q12",
+      "finding": "Cinematic/skit footage, polished storefront mockups and infographic charts are mixed; actual live testing is unverified.",
+      "evidence": "V01–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q13",
+      "finding": "Manifest duration 71.0 s; indexed dimensions 1920×1080. Source unchanged flag recorded; fresh encoding and audio clipping checks not run.",
+      "evidence": "Group manifest",
+      "status": "uncertain",
+      "reason": "Inherited technical metadata; no fresh media probe in this review.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q14",
+      "finding": "Pen page, test cards and audience branches explain the workflow visually; ASR supports the candidate user-agent exchange.",
+      "evidence": "V02–V05,A02",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q15",
+      "finding": "Each question is followed by a full-frame diagram or artifact, keeping the answer visually focused.",
+      "evidence": "V02–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q16",
+      "finding": "The first 15 s are setup; the remaining 56 s cover several related ecommerce functions rather than unrelated examples.",
+      "evidence": "V01–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q17",
+      "finding": "The initial sell-the-pen challenge returns as shoppers viewing tailored pages and order-like feedback.",
+      "evidence": "V01,V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q18",
+      "finding": "The agent’s confident progress and rising charts imply effortless commercial success; this is persuasive framing.",
+      "evidence": "V03,V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q19",
+      "finding": "Teal frames, cream cards and the same pen product link all feature demonstrations.",
+      "evidence": "V02–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q20",
+      "finding": "Testing 100 stores, conversion growth, doubled AOV and revenue trajectory are claims without dates, sample size or actual transaction records.",
+      "evidence": "V03,V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q21",
+      "finding": "Amboras is positioned as a broad ecommerce operator through conversational requests and tangible page artifacts.",
+      "evidence": "V02–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q22",
+      "finding": "A dated experiment table would support optimization better than the million-dollar projection.",
+      "evidence": "V03",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q23",
+      "finding": "Tin can follow one product through creative testing, offers and audience variants, with explicit approval and evidence for each result.",
+      "evidence": "V02–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q24",
+      "finding": "Amboras presents an ecommerce agent that builds a store, tests variants and creates offers and audience-specific pages.",
+      "evidence": "Model reading from inspected images",
+      "status": "uncertain",
+      "reason": "Model-only new-viewer interpretation; no human test.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q25",
+      "finding": "Contact sheets inspected at displayed size; a phone-size playback, caption audit, flash audit and formal accessibility check were not performed.",
+      "evidence": "Viewed sheets",
+      "status": "not checked",
+      "reason": "Full-size moving-image and device checks unavailable in this pass.",
+      "experiment": "none"
+    }
+  ],
+  "lessons": {
+    "keep": "Keep one product constant while showing related agent capabilities.",
+    "avoid": "Avoid presenting rising charts and revenue forecasts as verified outcomes.",
+    "open": "Store execution, test validity, conversion gains, transactions, source rights and audio delivery remain unverified.",
+    "try": [
+      "Use one Tin product brief to show two ad variants, a documented test and the chosen next action.",
+      "Map three audience segments to three readable creatives, then show where each was approved to run."
+    ]
+  },
+  "comparison": {
+    "story": "Make selling one product the narrative challenge. → Show setup and follow-up question. → Claim testing and optimization gains. → Extend optimization to commercial offers. → Explain segmentation. → Show intended shopping payoff and broaden the use case.",
+    "motion": "Many page cards narrow to one, charts rise, offer panels expand and audience branches lead to pages; exact animation paths are unverified. Sampling scope: 1 fps unless a closer window is recorded.",
+    "sound": "No validated listening; unknown.",
+    "texture": "Film-like opening, location comedy and large bright prop.; Teal/cream interface frame, simple prompt and polished product page.; Branching card network, cream cards and teal/yellow charts.; Rounded offer cards and side-by-side test layout.; Teal connector tree and distinct product creative cards.; Live customer scenes, floating page overlays and teal end copy.",
+    "lesson": "Keep one product constant while showing related agent capabilities."
+  },
+  "elements": [
+    {
+      "kind": "ui",
+      "name": "storefront",
+      "events": [
+        "V02",
+        "V03",
+        "V05"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "bundle offer cards",
+      "events": [
+        "V04"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "A/B comparison",
+      "events": [
+        "V04"
+      ]
+    },
+    {
+      "kind": "motion",
+      "name": "branching audience diagram",
+      "events": [
+        "V05"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "performance charts",
+      "events": [
+        "V03"
+      ]
+    }
+  ]
+}

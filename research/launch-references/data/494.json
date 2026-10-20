@@ -1,0 +1,359 @@
+{
+  "id": 494,
+  "reviewer_model": "gpt-6-astra",
+  "scope": "sampled visual and story review; ASR and measured signal support; no validated audio listening",
+  "viewed_evidence": [
+    "technical-review-2026-10-19/deep-review/motion/494/timeline-00.jpg",
+    "technical-review-2026-10-19/deep-review/motion/494/timeline-01.jpg",
+    "technical-review-2026-10-19/deep-review/motion/494/timeline-02.jpg",
+    "technical-review-2026-10-19/deep-review/audio/494-speech.json"
+  ],
+  "closer_windows": [],
+  "product_from_film": "Hedra presents character-driven video creation through several styles of a seated spokesperson and a funding announcement.",
+  "explains_well": "The same seated composition across cartoon, drawn, knitted and realistic-looking versions makes style variety easy to compare.",
+  "unclear": "The film shows finished characters but no input, control or generation step that explains how a user creates one.",
+  "product_type": "AI video funding announcement",
+  "scenario": "Use a digital spokesperson to announce a funding round.",
+  "product_clear_time": 17,
+  "product_clear_basis": "The character montage includes visible generative-AI model text; the ASR also identifies the opening as a digital version.",
+  "scenes": [
+    {
+      "id": "V01",
+      "start": 0,
+      "end": 11,
+      "action": "A large-eyed cartoon man sits on a blue sofa in a city apartment and gestures toward the viewer. A Hedra watermark remains at the bottom.",
+      "design": "Polished three-dimensional cartoon look and fixed medium framing.",
+      "purpose": "Introduce a digital spokesperson.",
+      "evidence": "Visible chronological 1 fps samples, source 0–11s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V02",
+      "start": 11,
+      "end": 23,
+      "action": "Character cards pass across a dark background, followed by a neon-lit woman, a podcast-style speaker and a glamorous product presenter.",
+      "design": "Rounded character cards, varied realism and short text captions.",
+      "purpose": "Show different character and content styles.",
+      "evidence": "Visible chronological 1 fps samples, source 11–23s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V03",
+      "start": 23,
+      "end": 32,
+      "action": "A black funding card states $32M Series A led by Andreessen Horowitz beneath the Hedra mark.",
+      "design": "Large pink funding figure with a subtle pink glow.",
+      "purpose": "State the announcement clearly.",
+      "evidence": "Visible chronological 1 fps samples, source 23–32s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V04",
+      "start": 32,
+      "end": 41,
+      "action": "The seated spokesperson returns as a flat illustrated character in a similar city apartment, gesturing with changing expressions.",
+      "design": "Drawn outlines and softer shaded color.",
+      "purpose": "Continue the message while demonstrating another style.",
+      "evidence": "Visible chronological 1 fps samples, source 32–41s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V05",
+      "start": 41,
+      "end": 57,
+      "action": "The same seated setup becomes a knitted or crocheted-looking character and room. Hands and facial expressions change while the composition stays stable.",
+      "design": "Visible yarn-like texture across character, cushions and room.",
+      "purpose": "Make material variety a central visual example.",
+      "evidence": "Visible chronological 1 fps samples, source 41–57s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V06",
+      "start": 57,
+      "end": 73,
+      "action": "A realistic-looking man in a black shirt speaks from a sofa with the city behind him, using hand gestures.",
+      "design": "Natural-looking room and human proportions; provenance unverified.",
+      "purpose": "Extend the style range to a realistic-looking presenter.",
+      "evidence": "Visible chronological 1 fps samples, source 57–73s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V07",
+      "start": 73,
+      "end": 85.101,
+      "action": "The opening cartoon style returns, then the film closes on the white Hedra symbol and name against black.",
+      "design": "Return to the original composition and simple logo card.",
+      "purpose": "Close the announcement with visual continuity.",
+      "evidence": "Visible chronological 1 fps samples, source 73–85.101s; boundary approximate; exact motion between samples unverified."
+    }
+  ],
+  "sound": [
+    {
+      "id": "A01",
+      "start": 0,
+      "end": 85.101,
+      "layer": "unknown",
+      "detail": "No validated direct audio listening was performed. Music, speech delivery, effects, mix and sync remain unknown, not absent.",
+      "visual_relation": "All visual scenes; audiovisual alignment unverified",
+      "evidence": "Visual samples only; no actual audio range supplied to this reviewer."
+    },
+    {
+      "id": "A02",
+      "start": 0,
+      "end": 81.52,
+      "layer": "ASR draft",
+      "detail": "The coherent ASR draft identifies the opening as a digital version made with Character 3, describes creator and marketing uses, announces a $32 million Series A, and links funding to research, hiring and easier character workflows. It also claims this video took less time to make. These are script claims, not verified timing or production facts; delivery and lip sync were not heard.",
+      "visual_relation": "Story text support; exact audiovisual alignment and delivery unverified.",
+      "evidence": "technical-review-2026-10-19/deep-review/audio/494-speech.json; local faster-whisper base CPU int8 draft; VAD candidates only, recognition errors possible."
+    }
+  ],
+  "categories": [
+    {
+      "id": "Q01",
+      "finding": "A digital spokesperson introduces the story, examples show range, a funding card states the news, and changing spokesperson styles carry the remaining message.",
+      "evidence": "V01–V07",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q02",
+      "finding": "A cartoon spokesperson talking directly to the viewer immediately makes the output format visible.",
+      "evidence": "V01",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q03",
+      "finding": "Creators and marketers are named in the ASR draft; podcast and product-presenter examples visually support those uses.",
+      "evidence": "V02,A02",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q04",
+      "finding": "The speaker’s mouth, hands and expressions change within a stable seated frame; character cards move laterally, and cuts replace the same setup with drawn, yarn-like and realistic-looking versions.",
+      "evidence": "V01–V07",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q05",
+      "finding": "Style changes preserve a similar sofa-and-city composition, allowing the viewer to compare appearance without relearning the scene.",
+      "evidence": "V04–V07",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q06",
+      "finding": "Blue apartment tones remain recognizable across styles. Yarn-like surfaces are the most distinct material treatment; the black funding card makes the pink number prominent.",
+      "evidence": "V03–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q07",
+      "finding": "The funding amount and round are readable. Most spokesperson content has no visible captions, while the short example clips include some text.",
+      "evidence": "V01–V07",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q08",
+      "finding": "The coherent ASR draft identifies the opening as a digital version made with Character 3, describes creator and marketing uses, announces a $32 million Series A, and links funding to research, hiring and easier character workflows. It also claims this video took less time to make. These are script claims, not verified timing or production facts; delivery and lip sync were not heard.",
+      "evidence": "A02",
+      "status": "uncertain",
+      "reason": "ASR text only; no validated listening, delivery or voice origin.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q09",
+      "finding": "Voice delivery, music, effects and audiovisual alignment were not established by this visual pass.",
+      "evidence": "A01",
+      "status": "not checked",
+      "reason": "No validated direct audio listening input.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q10",
+      "finding": "Voice delivery, music, effects and audiovisual alignment were not established by this visual pass.",
+      "evidence": "A01",
+      "status": "not checked",
+      "reason": "No validated direct audio listening input.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q11",
+      "finding": "Voice delivery, music, effects and audiovisual alignment were not established by this visual pass.",
+      "evidence": "A01",
+      "status": "not checked",
+      "reason": "No validated direct audio listening input.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q12",
+      "finding": "Character video examples, a stable spokesperson setup, alternate visual styles and a funding card form the asset set. Actual production tools are not shown.",
+      "evidence": "V01–V07",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q13",
+      "finding": "Manifest duration 85.101s; indexed dimensions 1920×1080. Source unchanged flag recorded; fresh encoding and audio clipping checks not run.",
+      "evidence": "Group manifest",
+      "status": "uncertain",
+      "reason": "Inherited technical metadata; no fresh media probe in this review.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q14",
+      "finding": "Without sound, style variety and the funding amount are clear. The reason for the digital stand-in and plans for the money need the ASR draft.",
+      "evidence": "V01,V03–V07,A02",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q15",
+      "finding": "A fixed central speaker keeps attention on face and hands, while the funding card temporarily concentrates attention on one number.",
+      "evidence": "V01,V03–V07",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q16",
+      "finding": "The yarn-like and realistic-looking speakers each hold for about sixteen seconds. They support a speech but add limited new visual information after the style is established.",
+      "evidence": "V05–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q17",
+      "finding": "The same general spokesperson identity and setting create continuity across output styles. A creation workflow is absent.",
+      "evidence": "V01,V04–V07",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q18",
+      "finding": "Friendly expressions, open hand gestures and the playful yarn-like version suggest an approachable announcement. Heard voice character is unverified.",
+      "evidence": "V01,V04–V07",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q19",
+      "finding": "The composition provides a useful comparison, but the film does not show whether one input produced all versions or how they were controlled.",
+      "evidence": "V04–V07",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q20",
+      "finding": "The draft calls the opening a digital version made with Character 3. The images alone do not establish provenance, generation time, controllability or lip-sync quality.",
+      "evidence": "V01–V07,A02",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q21",
+      "finding": "The persistent Hedra watermark, funding card and final logo clearly brand the different output examples.",
+      "evidence": "V01–V07",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q22",
+      "finding": "Show a short input-to-output step beside one character version and caption the main funding and product statements.",
+      "evidence": "V01,V03–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q23",
+      "finding": "Hold composition steady while changing visual style to make output differences easy to compare.",
+      "evidence": "V04–V07",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q24",
+      "finding": "Hedra presents character-driven video creation through several styles of a seated spokesperson and a funding announcement.",
+      "evidence": "Model reading from inspected images",
+      "status": "uncertain",
+      "reason": "Model-only new-viewer interpretation; no human test.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q25",
+      "finding": "Contact sheets inspected at displayed size; a phone-size playback, caption audit, flash audit and formal accessibility check were not performed.",
+      "evidence": "Viewed sheets",
+      "status": "not checked",
+      "reason": "Full-size moving-image and device checks unavailable in this pass.",
+      "experiment": "none"
+    }
+  ],
+  "lessons": {
+    "keep": "Use the same composition across styles to show range clearly.",
+    "avoid": "Treating a finished-output reel as an explanation of creation controls.",
+    "open": "Input method, output provenance, time savings, lip sync and actual voice remain unverified.",
+    "try": [
+      "For Tin, keep one campaign message and layout fixed while comparing several approved visual styles.",
+      "Add a brief character input and style choice before returning to the finished spokesperson."
+    ]
+  },
+  "comparison": {
+    "story": "Introduce a digital spokesperson. → Show different character and content styles. → State the announcement clearly. → Continue the message while demonstrating another style. → Make material variety a central visual example. → Extend the style range to a realistic-looking presenter. → Close the announcement with visual continuity.",
+    "motion": "The speaker’s mouth, hands and expressions change within a stable seated frame; character cards move laterally, and cuts replace the same setup with drawn, yarn-like and realistic-looking versions. Sampling scope: 1 fps unless a closer window is recorded.",
+    "sound": "No validated listening; unknown.",
+    "texture": "Polished three-dimensional cartoon look and fixed medium framing.; Rounded character cards, varied realism and short text captions.; Large pink funding figure with a subtle pink glow.; Drawn outlines and softer shaded color.; Visible yarn-like texture across character, cushions and room.; Natural-looking room and human proportions; provenance unverified.; Return to the original composition and simple logo card.",
+    "lesson": "Use the same composition across styles to show range clearly."
+  },
+  "elements": [
+    {
+      "kind": "motion",
+      "name": "character gestures",
+      "events": [
+        "V01",
+        "V04",
+        "V05",
+        "V06",
+        "V07"
+      ]
+    },
+    {
+      "kind": "motion",
+      "name": "style changes",
+      "events": [
+        "V04",
+        "V05",
+        "V06",
+        "V07"
+      ]
+    },
+    {
+      "kind": "texture",
+      "name": "yarn-like surfaces",
+      "events": [
+        "V05"
+      ]
+    },
+    {
+      "kind": "texture",
+      "name": "drawn character",
+      "events": [
+        "V04"
+      ]
+    }
+  ]
+}

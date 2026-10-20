@@ -1,0 +1,360 @@
+{
+  "id": 132,
+  "reviewer_model": "gpt-6-astra",
+  "scope": "sampled visual and story review; ASR and measured signal support; no validated audio listening",
+  "viewed_evidence": [
+    "technical-review-2026-10-19/deep-review/motion/132/timeline-00.jpg",
+    "technical-review-2026-10-19/deep-review/motion/132/timeline-01.jpg",
+    "technical-review-2026-10-19/deep-review/motion/132/timeline-02.jpg",
+    "technical-review-2026-10-19/deep-review/audio/132-speech.json"
+  ],
+  "closer_windows": [],
+  "product_from_film": "Taste Labs presents data and tools for judging and improving AI design taste.",
+  "explains_well": "Design examples, judgment labels and an API diagram make a subjective infrastructure idea visible.",
+  "unclear": "Percentages around taste and model-improvement claims lack a visible evaluation method.",
+  "product_type": "AI design infrastructure",
+  "scenario": "Provide design judgment and context to models and agents.",
+  "product_clear_time": 51,
+  "product_clear_basis": "Starting with design follows scored design examples and search imagery; API workflow becomes explicit at 60–69 s.",
+  "scenes": [
+    {
+      "id": "V01",
+      "start": 0,
+      "end": 14,
+      "action": "A presenter identified as Thais Castello Branco, founder of Taste Labs, introduces an AI taste problem and data/infrastructure. A counter settles at$18.5M raised beside a framed presenter and end-AI-slop claim.",
+      "design": "Bright room, black blazer, thin rounded guides and black geometric brand shape.",
+      "purpose": "State mission and funding.",
+      "evidence": "Visible chronological 1 fps samples, source 0–14s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V02",
+      "start": 14,
+      "end": 25,
+      "action": "Posters, graphics, websites and apps form angled rows and a ring. Sameness, Templates and No sense of individuality labels follow.",
+      "design": "Dark ground, colorful design cards and repeated outlined text.",
+      "purpose": "Show the perceived quality problem.",
+      "evidence": "Visible chronological 1 fps samples, source 14–25s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V03",
+      "start": 25,
+      "end": 41,
+      "action": "What fits, what is beautiful and what feels like you label design examples. The presenter sits amid a field of subjective phrases and percentages before returning full frame.",
+      "design": "Rounded cards and dense gray text around a central person.",
+      "purpose": "Locate taste in human judgment.",
+      "evidence": "Visible chronological 1 fps samples, source 25–41s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V04",
+      "start": 41,
+      "end": 51,
+      "action": "A phone design is surrounded by scored qualities such as harmony and originality. Code-like text leads to Search for what’s Great among connected design thumbnails.",
+      "design": "Dark evaluation view becomes a white visual graph.",
+      "purpose": "Illustrate measuring and retrieving design judgment.",
+      "evidence": "Visible chronological 1 fps samples, source 41–51s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V05",
+      "start": 51,
+      "end": 59,
+      "action": "Starting with design accompanies the presenter. Data, rationale and code cards surround a central TRAINING brand shape.",
+      "design": "Black/white process diagram with colored input examples.",
+      "purpose": "Describe a model-training role.",
+      "evidence": "Visible chronological 1 fps samples, source 51–59s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V06",
+      "start": 59,
+      "end": 70,
+      "action": "A website prompt and Build button connect to TASTE API, then a finished art-focused webpage appears.",
+      "design": "White composer on dark background, thin connector and central logo.",
+      "purpose": "Show the intended agent integration.",
+      "evidence": "Visible chronological 1 fps samples, source 59–70s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V07",
+      "start": 70,
+      "end": 83.958,
+      "action": "The presenter returns with getting started, Join us and research/engineering/product roles, followed by tastelabs.com.",
+      "design": "Rounded presenter frame expands; simple end plate.",
+      "purpose": "Recruit people to the mission.",
+      "evidence": "Visible chronological 1 fps samples, source 70–83.958s; boundary approximate; exact motion between samples unverified."
+    }
+  ],
+  "sound": [
+    {
+      "id": "A01",
+      "start": 0,
+      "end": 83.958,
+      "layer": "unknown",
+      "detail": "No validated direct audio listening was performed. Music, speech delivery, effects, mix and sync remain unknown, not absent.",
+      "visual_relation": "All visual scenes; audiovisual alignment unverified",
+      "evidence": "Visual samples only; no actual audio range supplied to this reviewer."
+    },
+    {
+      "id": "A02",
+      "start": 0.13,
+      "end": 80.77,
+      "layer": "ASR draft",
+      "detail": "ASR draft supports the founder-led mission: AI taste problem, data/infrastructure, subjective human judgment, design-focused training data and context/verification tools for agents, then hiring. The draft misrecognizes the founder name and several technical phrases; the visible name label is used instead. Delivery and audiovisual alignment remain unverified.",
+      "visual_relation": "Story text support; exact audiovisual alignment and delivery unverified.",
+      "evidence": "technical-review-2026-10-19/deep-review/audio/132-speech.json; local faster-whisper base CPU int8 draft; VAD candidates only, recognition errors possible."
+    }
+  ],
+  "categories": [
+    {
+      "id": "Q01",
+      "finding": "Mission and funding lead to sameness problem, human judgment, evaluation/search infrastructure, agent integration and hiring.",
+      "evidence": "V01–V07",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q02",
+      "finding": "A direct presenter and AI has a taste problem text establish the premise immediately.",
+      "evidence": "V01",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q03",
+      "finding": "Data/infrastructure is broad early; design scoring and Starting with design narrow the domain by 51 s.",
+      "evidence": "V01,V04,V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q04",
+      "finding": "Design cards change arrangement, repeated phrases fill the background, scores change and a connector links prompt to API and output. Exact easing is unverified.",
+      "evidence": "V02–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q05",
+      "finding": "The same rounded-card geometry carries the presenter, design examples and API symbol across sections.",
+      "evidence": "V01–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q06",
+      "finding": "Mostly black/white layouts let colorful design references provide visual variety.",
+      "evidence": "V02–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q07",
+      "finding": "Short problem labels and headings are clear; code and many small score labels function more as texture than readable evidence at sheet scale.",
+      "evidence": "V02,V04,V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q08",
+      "finding": "ASR draft supports the founder-led mission: AI taste problem, data/infrastructure, subjective human judgment, design-focused training data and context/verification tools for agents, then hiring. The draft misrecognizes the founder name and several technical phrases; the visible name label is used instead. Delivery and audiovisual alignment remain unverified.",
+      "evidence": "A02",
+      "status": "uncertain",
+      "reason": "ASR text only; no validated listening, delivery or voice origin.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q09",
+      "finding": "Voice delivery, music, effects and audiovisual alignment were not established by this visual pass.",
+      "evidence": "A01",
+      "status": "not checked",
+      "reason": "No validated direct audio listening input.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q10",
+      "finding": "Voice delivery, music, effects and audiovisual alignment were not established by this visual pass.",
+      "evidence": "A01",
+      "status": "not checked",
+      "reason": "No validated direct audio listening input.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q11",
+      "finding": "Voice delivery, music, effects and audiovisual alignment were not established by this visual pass.",
+      "evidence": "A01",
+      "status": "not checked",
+      "reason": "No validated direct audio listening input.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q12",
+      "finding": "Presenter footage, design galleries, code-like graphics and process diagrams are combined; evaluation implementation is not exposed.",
+      "evidence": "V01–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q13",
+      "finding": "Manifest duration 83.958 s; indexed dimensions 1920×1080. Source unchanged flag recorded; fresh encoding and audio clipping checks not run.",
+      "evidence": "Group manifest",
+      "status": "uncertain",
+      "reason": "Inherited technical metadata; no fresh media probe in this review.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q14",
+      "finding": "Problem labels, design scores and API diagram explain much visually; ASR gives candidate context about data and verification tools.",
+      "evidence": "V02–V06,A02",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q15",
+      "finding": "One central presenter or design artifact stays dominant even when text or reference cards surround it.",
+      "evidence": "V01,V03,V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q16",
+      "finding": "The 84 s film spends roughly 40 s establishing mission and subjectivity before showing the more concrete scoring and API concept.",
+      "evidence": "V01–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q17",
+      "finding": "The initial taste problem returns as a designed webpage after the API diagram; the quality improvement is implied rather than compared.",
+      "evidence": "V01,V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q18",
+      "finding": "A calm bright-room presenter and orderly graphics frame a subjective problem as tractable; audience response is unmeasured.",
+      "evidence": "V01,V03–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q19",
+      "finding": "The rounded black/white geometric symbol serves as portrait frame, training node, API node and closing logo.",
+      "evidence": "V01,V05–V07",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q20",
+      "finding": "Funding and taste scores are displayed, but no benchmark, before/after comparison or independent result establishes improvement.",
+      "evidence": "V01,V04,V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q21",
+      "finding": "The visual system consistently expresses measured design judgment; the closing action is recruitment.",
+      "evidence": "V04–V07",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q22",
+      "finding": "A side-by-side result with a stated criterion could support the API story better than another abstract score field.",
+      "evidence": "V04,V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q23",
+      "finding": "Tin can explain brand review with a specific creative, clear criteria and a visible revision before approval.",
+      "evidence": "V04,V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q24",
+      "finding": "Taste Labs presents data and tools for judging and improving AI design taste.",
+      "evidence": "Model reading from inspected images",
+      "status": "uncertain",
+      "reason": "Model-only new-viewer interpretation; no human test.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q25",
+      "finding": "Contact sheets inspected at displayed size; a phone-size playback, caption audit, flash audit and formal accessibility check were not performed.",
+      "evidence": "Viewed sheets",
+      "status": "not checked",
+      "reason": "Full-size moving-image and device checks unavailable in this pass.",
+      "experiment": "none"
+    }
+  ],
+  "lessons": {
+    "keep": "Make an abstract service concrete through one input, named criteria and an output.",
+    "avoid": "Avoid presenting subjective percentage scores without a clear basis.",
+    "open": "Funding, partnerships, quality scores, model improvement, exact animation and audio delivery remain unverified.",
+    "try": [
+      "Show a Tin ad evaluated against three brand rules, then show the exact corrected version.",
+      "Use one simple connector diagram for the agent service and follow it with a real approval record."
+    ]
+  },
+  "comparison": {
+    "story": "State mission and funding. → Show the perceived quality problem. → Locate taste in human judgment. → Illustrate measuring and retrieving design judgment. → Describe a model-training role. → Show the intended agent integration. → Recruit people to the mission.",
+    "motion": "Design cards change arrangement, repeated phrases fill the background, scores change and a connector links prompt to API and output. Exact easing is unverified. Sampling scope: 1 fps unless a closer window is recorded.",
+    "sound": "No validated listening; unknown.",
+    "texture": "Bright room, black blazer, thin rounded guides and black geometric brand shape.; Dark ground, colorful design cards and repeated outlined text.; Rounded cards and dense gray text around a central person.; Dark evaluation view becomes a white visual graph.; Black/white process diagram with colored input examples.; White composer on dark background, thin connector and central logo.; Rounded presenter frame expands; simple end plate.",
+    "lesson": "Make an abstract service concrete through one input, named criteria and an output."
+  },
+  "elements": [
+    {
+      "kind": "ui",
+      "name": "design gallery",
+      "events": [
+        "V02"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "quality score labels",
+      "events": [
+        "V04"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "prompt composer",
+      "events": [
+        "V06"
+      ]
+    },
+    {
+      "kind": "motion",
+      "name": "connected process diagram",
+      "events": [
+        "V05",
+        "V06"
+      ]
+    },
+    {
+      "kind": "texture",
+      "name": "repeated text",
+      "events": [
+        "V03"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,331 @@
+{
+  "id": 99,
+  "reviewer_model": "gpt-6-astra",
+  "scope": "sampled visual and story review; ASR and measured signal support; no validated audio listening",
+  "viewed_evidence": [
+    "technical-review-2026-10-19/deep-review/motion/099/timeline-00.jpg",
+    "technical-review-2026-10-19/deep-review/motion/099/timeline-01.jpg"
+  ],
+  "closer_windows": [],
+  "product_from_film": "JTX presents spot trading and order routing on Solana.",
+  "explains_well": "The chart, order control and depth view give technical claims concrete visual anchors.",
+  "unclear": "Verification and best-route claims lack a readable transaction receipt.",
+  "product_type": "trading platform",
+  "scenario": "Buy SOL and route trades across markets.",
+  "product_clear_time": 5,
+  "product_clear_basis": "USDC payment field and BUY SOL button follow a full trading screen.",
+  "scenes": [
+    {
+      "id": "V01",
+      "start": 0,
+      "end": 3,
+      "action": "A finger presses a keyboard; thin orbital paths surround the JTX mark.",
+      "design": "Tactile keyboard shifts to sparse black technical graphics.",
+      "purpose": "Open with an action and brand.",
+      "evidence": "Visible chronological 1 fps samples, source 0–3s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V02",
+      "start": 3,
+      "end": 13,
+      "action": "Trading dashboard, USDC field and BUY SOL button lead to a lone candle and full chart. Limit orders that actually rest and Every fill, verified appear.",
+      "design": "Green and red candles, cropped controls, white claims on black.",
+      "purpose": "State trading features using interface detail.",
+      "evidence": "Visible chronological 1 fps samples, source 3–13s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V03",
+      "start": 13,
+      "end": 21,
+      "action": "SOL expands into linked asset labels including BTC and company names. An Anthropic label is isolated; FINDING BEST ROUTE leads to branching paths and via DFlow.",
+      "design": "Thin white graph connectors and bordered labels.",
+      "purpose": "Present market range and routing.",
+      "evidence": "Visible chronological 1 fps samples, source 13–21s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V04",
+      "start": 21,
+      "end": 27,
+      "action": "A square grid surrounds liquidity-source labels before a live depth histogram appears.",
+      "design": "Purple grid accents and red depth bars.",
+      "purpose": "Translate infrastructure into market depth.",
+      "evidence": "Visible chronological 1 fps samples, source 21–27s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V05",
+      "start": 27,
+      "end": 35.166,
+      "action": "Every market, Every order and Every asset sit in wireframe boxes, followed by One platform, JTX. Now Live and the JTX mark.",
+      "design": "Braces, guide handles and a blurred/glowing sampled title state.",
+      "purpose": "Collect features into a launch statement.",
+      "evidence": "Visible chronological 1 fps samples, source 27–35.166s; boundary approximate; exact motion between samples unverified."
+    }
+  ],
+  "sound": [
+    {
+      "id": "A01",
+      "start": 0,
+      "end": 35.166,
+      "layer": "unknown",
+      "detail": "No validated direct audio listening was performed. Music, speech delivery, effects, mix and sync remain unknown, not absent.",
+      "visual_relation": "All visual scenes; audiovisual alignment unverified",
+      "evidence": "Visual samples only; no actual audio range supplied to this reviewer."
+    }
+  ],
+  "categories": [
+    {
+      "id": "Q01",
+      "finding": "Trading controls lead to market coverage, routing, liquidity and launch.",
+      "evidence": "V01–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q02",
+      "finding": "A real keyboard press gives a physical opening before abstract orbital branding.",
+      "evidence": "V01",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q03",
+      "finding": "USDC and BUY SOL establish the trade task by 5 s.",
+      "evidence": "V02",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q04",
+      "finding": "A candle becomes a chart in successive samples; asset labels spread into a graph and route lines change. Exact morphs and easing are unconfirmed.",
+      "evidence": "V02,V03",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q05",
+      "finding": "Thin connectors carry the visual language from asset coverage into routing and liquidity.",
+      "evidence": "V03,V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q06",
+      "finding": "Black grounds, white guides and green/red market marks create a technical trading look.",
+      "evidence": "V01–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q07",
+      "finding": "Short claims are readable at large size; trading tables and asset details are too dense for the same reading speed.",
+      "evidence": "V02–V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q08",
+      "finding": "Voice delivery, music, effects and audiovisual alignment were not established by this visual pass.",
+      "evidence": "A01",
+      "status": "not checked",
+      "reason": "No validated direct audio listening input.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q09",
+      "finding": "Voice delivery, music, effects and audiovisual alignment were not established by this visual pass.",
+      "evidence": "A01",
+      "status": "not checked",
+      "reason": "No validated direct audio listening input.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q10",
+      "finding": "Voice delivery, music, effects and audiovisual alignment were not established by this visual pass.",
+      "evidence": "A01",
+      "status": "not checked",
+      "reason": "No validated direct audio listening input.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q11",
+      "finding": "Voice delivery, music, effects and audiovisual alignment were not established by this visual pass.",
+      "evidence": "A01",
+      "status": "not checked",
+      "reason": "No validated direct audio listening input.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q12",
+      "finding": "Real-world keyboard footage is mixed with trading UI and schematic graph animation; software used to produce it is unknown.",
+      "evidence": "V01–V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q13",
+      "finding": "Manifest duration 35.166 s; indexed dimensions 1280×720. Source unchanged flag recorded; fresh encoding and audio clipping checks not run.",
+      "evidence": "Group manifest",
+      "status": "uncertain",
+      "reason": "Inherited technical metadata; no fresh media probe in this review.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q14",
+      "finding": "BUY SOL, limit-order and routing labels make the category clear without sound.",
+      "evidence": "V02,V03",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q15",
+      "finding": "Full dashboard to control closeup to chart narrows attention to one action.",
+      "evidence": "V02",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q16",
+      "finding": "Most claims receive only one or two sampled seconds; specialist familiarity is assumed.",
+      "evidence": "V02–V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q17",
+      "finding": "The initial trading action is broadened into one-platform positioning at the end.",
+      "evidence": "V02,V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q18",
+      "finding": "Precise grids and verified language imply control and trust; audience response is unmeasured.",
+      "evidence": "V02–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q19",
+      "finding": "White technical guides and green market marks connect the interface to abstract scenes.",
+      "evidence": "V01–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q20",
+      "finding": "A fill toast and live-depth label are shown, but no inspectable transaction evidence or route comparison proves the claims.",
+      "evidence": "V02–V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q21",
+      "finding": "The restrained trading palette and JTX mark frame a specialist platform launch.",
+      "evidence": "V01,V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q22",
+      "finding": "The asset graph gives breadth quickly; a longer receipt view could support the verification claim more strongly.",
+      "evidence": "V02,V03",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q23",
+      "finding": "Tin can pair a short operational claim with one enlarged control and a result record; market-network imagery has less direct relevance.",
+      "evidence": "V02–V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q24",
+      "finding": "JTX presents spot trading and order routing on Solana.",
+      "evidence": "Model reading from inspected images",
+      "status": "uncertain",
+      "reason": "Model-only new-viewer interpretation; no human test.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q25",
+      "finding": "Contact sheets inspected at displayed size; a phone-size playback, caption audit, flash audit and formal accessibility check were not performed.",
+      "evidence": "Viewed sheets",
+      "status": "not checked",
+      "reason": "Full-size moving-image and device checks unavailable in this pass.",
+      "experiment": "none"
+    }
+  ],
+  "lessons": {
+    "keep": "Use a full interface, one enlarged action, and one readable result.",
+    "avoid": "Avoid treating a verified label as evidence without a readable receipt.",
+    "open": "Trading performance, asset availability, exact motion and sound remain unverified.",
+    "try": [
+      "Show a Tin campaign screen, zoom into approval, then show the confirmed destination and timestamp.",
+      "Replace an abstract integration graph with a single visible route from brief to approved campaign."
+    ]
+  },
+  "comparison": {
+    "story": "Open with an action and brand. → State trading features using interface detail. → Present market range and routing. → Translate infrastructure into market depth. → Collect features into a launch statement.",
+    "motion": "A candle becomes a chart in successive samples; asset labels spread into a graph and route lines change. Exact morphs and easing are unconfirmed. Sampling scope: 1 fps unless a closer window is recorded.",
+    "sound": "No validated listening; unknown.",
+    "texture": "Tactile keyboard shifts to sparse black technical graphics.; Green and red candles, cropped controls, white claims on black.; Thin white graph connectors and bordered labels.; Purple grid accents and red depth bars.; Braces, guide handles and a blurred/glowing sampled title state.",
+    "lesson": "Use a full interface, one enlarged action, and one readable result."
+  },
+  "elements": [
+    {
+      "kind": "ui",
+      "name": "trading chart",
+      "events": [
+        "V02"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "order form",
+      "events": [
+        "V02"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "depth chart",
+      "events": [
+        "V04"
+      ]
+    },
+    {
+      "kind": "motion",
+      "name": "connected labels",
+      "events": [
+        "V03"
+      ]
+    },
+    {
+      "kind": "texture",
+      "name": "technical grid",
+      "events": [
+        "V04",
+        "V05"
+      ]
+    }
+  ]
+}

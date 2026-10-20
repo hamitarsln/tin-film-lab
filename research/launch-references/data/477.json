@@ -1,0 +1,331 @@
+{
+  "id": 477,
+  "product_from_film": "The film introduces Cluely’s fox mascot through an office comedy sketch; it does not explain the software product.",
+  "explains_well": "A covered figure, reveal screen and blue fox costume make the mascot announcement clear.",
+  "unclear": "A viewer unfamiliar with Cluely receives no explanation of what the company’s software does.",
+  "product_type": "Mascot announcement",
+  "scenario": "Reveal a mascot in an office, argue about it and end with a physical gag.",
+  "product_clear_time": null,
+  "product_clear_basis": "The mascot is visible around 12s and named on the presentation screen; no software task or benefit is shown.",
+  "scenes": [
+    {
+      "start": 0,
+      "end": 12,
+      "action": "People stand beside a tall cloth-covered figure while another person sits at a meeting table; the screen announces a mascot reveal.",
+      "design": "Vertical handheld-looking office footage.",
+      "purpose": "Build anticipation around a concealed object.",
+      "evidence": "1 fps source samples in 0–12s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V01"
+    },
+    {
+      "start": 12,
+      "end": 21,
+      "action": "The cover comes off a blue, white and dark-furred fox costume; people gesture and the screen reads Meet Clue the Fox.",
+      "design": "Full costume beside presenters and a meeting screen.",
+      "purpose": "Reveal and identify the mascot.",
+      "evidence": "1 fps source samples in 12–21s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V02"
+    },
+    {
+      "start": 21,
+      "end": 33,
+      "action": "The camera alternates between the seated person gesturing and the mascot with a presenter; the presenter points to its chest emblem.",
+      "design": "Reaction framing across the same room.",
+      "purpose": "Stage a disagreement about the mascot.",
+      "evidence": "1 fps source samples in 21–33s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V03"
+    },
+    {
+      "start": 33,
+      "end": 43,
+      "action": "The seated person continues gesturing; the camera returns to the fox and nearby people, who hold or guide its arms.",
+      "design": "Back-and-forth office views.",
+      "purpose": "Escalate the comic exchange.",
+      "evidence": "1 fps source samples in 33–43s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V04"
+    },
+    {
+      "start": 43,
+      "end": 45.91,
+      "action": "The mascot moves toward the table; the last sampled view shows it leaning over the seated person and tabletop.",
+      "design": "Abrupt close physical action in the same vertical frame.",
+      "purpose": "End on a physical gag; exact movement mechanics are not established by 1fps samples.",
+      "evidence": "1 fps source samples in 43–45.91s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V05"
+    }
+  ],
+  "sound": [
+    {
+      "id": "A01",
+      "start": 0,
+      "end": 45.91,
+      "layer": "ASR script support",
+      "detail": "The draft describes an over-budget mascot reveal, excitement, an argument calling the costume a furry, a claimed $100,000 cost and a warning about aggression. These are sketch dialogue, not verified facts. Delivery, laughter, music, impacts and sync were not heard.",
+      "visual_relation": "V01–V05 align broadly with reveal, reactions and final action.",
+      "evidence": "Local 477-speech.json draft; some exclamations are unclear."
+    }
+  ],
+  "categories": [
+    {
+      "id": "Q01",
+      "finding": "Conceal → reveal → disagreement → physical gag.",
+      "evidence": "V01–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q02",
+      "finding": "The covered tall figure creates a simple visual question.",
+      "evidence": "V01",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q03",
+      "finding": "The mascot identity is clear after reveal; the software remains undefined.",
+      "evidence": "V02",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q04",
+      "finding": "Handheld reframing follows speakers and mascot; the last positions show movement toward and over the table, not a verified exact stunt.",
+      "evidence": "V03–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q05",
+      "finding": "The office location remains continuous while framing shifts between reactions.",
+      "evidence": "V01–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q06",
+      "finding": "The bright blue costume stands out against an ordinary office and dark reveal cloth.",
+      "evidence": "V01,V02",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q07",
+      "finding": "The presentation screen supplies the mascot name; no product feature text appears.",
+      "evidence": "V02",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q08",
+      "finding": "ASR supports an argumentative comic script; delivery and audience sounds remain unknown.",
+      "evidence": "A01",
+      "status": "uncertain",
+      "reason": "Text draft only, no listening.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q09",
+      "finding": "Music character and structure are unverified.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "No validated listening.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q10",
+      "finding": "Effects and their sources are unverified.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "No validated listening; waveform peaks do not identify effects.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q11",
+      "finding": "Sound sync is unverified.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "No validated listening or paired audiovisual timing.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q12",
+      "finding": "Office footage, cloth reveal, costume and presentation screen are visible; staging and costume provenance unverified.",
+      "evidence": "V01–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q13",
+      "finding": "Source duration 45.91 s; Watch metadata 480 × 852. Frame rate, audio clipping and export quality not checked here.",
+      "evidence": "Whole film",
+      "status": "supported",
+      "reason": "Parent source metadata supports duration and dimensions; visual review is sampled.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q14",
+      "finding": "The reveal and final gag are visible without sound, but the disagreement’s meaning depends on dialogue.",
+      "evidence": "V02–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q15",
+      "finding": "The vertical frame isolates one side of the exchange at a time, often leaving the other speaker outside view.",
+      "evidence": "V03,V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q16",
+      "finding": "About twelve seconds build to the reveal, followed by a longer argument and a very brief final gag.",
+      "evidence": "V01–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q17",
+      "finding": "The concealed figure pays off visibly as a fox; the final action pays off the draft’s aggression warning.",
+      "evidence": "V01,V02,V05,A01",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q18",
+      "finding": "The mismatch between formal reveal and absurd dispute may create surprise; audience response unmeasured.",
+      "evidence": "V02–V05",
+      "status": "uncertain",
+      "reason": "Story interpretation.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q19",
+      "finding": "The screen name and chest emblem connect the costume to Cluely throughout the exchange.",
+      "evidence": "V02,V03",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q20",
+      "finding": "The stated budget, reality of the dispute, staging and software capabilities are not verified.",
+      "evidence": "V01–V05,A01",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q21",
+      "finding": "A physical fox reveal and argumentative office scene make this a brand-character film.",
+      "evidence": "V01–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q22",
+      "finding": "Add a small product bridge for new viewers.",
+      "evidence": "V02,V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "Include one short line explaining the company before or after the mascot sketch."
+    },
+    {
+      "id": "Q23",
+      "finding": "Use a reveal when the object itself is the announcement.",
+      "evidence": "V01,V02",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "For Tin, reveal a real new output or feature, then immediately connect it to the user’s task."
+    },
+    {
+      "id": "Q24",
+      "finding": "No human new-viewer test was performed.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "The product summary is this model’s film-only reading.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q25",
+      "finding": "Mobile preview and accessibility checks were not performed.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "Contact sheets are evidence views, not a stated mobile preview or compliance test.",
+      "experiment": "none"
+    }
+  ],
+  "elements": [
+    {
+      "kind": "texture",
+      "name": "office footage",
+      "events": [
+        "V01",
+        "V02",
+        "V03",
+        "V04",
+        "V05"
+      ]
+    },
+    {
+      "kind": "motion",
+      "name": "cloth reveal",
+      "events": [
+        "V02"
+      ]
+    },
+    {
+      "kind": "texture",
+      "name": "mascot costume",
+      "events": [
+        "V02",
+        "V03",
+        "V04",
+        "V05"
+      ]
+    },
+    {
+      "kind": "motion",
+      "name": "reaction reframing",
+      "events": [
+        "V03",
+        "V04"
+      ]
+    }
+  ],
+  "lessons": {
+    "keep": "Build a clear visual question and reveal its answer in frame.",
+    "try": [
+      "Add one product-context line for unfamiliar viewers.",
+      "For Tin, connect a revealed feature or output directly to a user task."
+    ],
+    "avoid": "Assuming a mascot sketch explains the underlying software.",
+    "open": "Staging, exact final movement, budget claim and sound remain unverified."
+  },
+  "comparison": {
+    "story": "Mascot reveal becomes an office dispute and physical gag.",
+    "motion": "Handheld reactions and a brief final action.",
+    "sound": "Comic dialogue supported by ASR only; no listening.",
+    "texture": "Ordinary office and bright blue costume.",
+    "lesson": "A reveal can explain a character while leaving the company unexplained."
+  },
+  "reviewer_model": "gpt-6-astra",
+  "scope": "sampled visual and story review; ASR and measured signal support; no validated audio listening",
+  "viewed_evidence": [
+    "technical-review-2026-10-19/deep-review/motion/477/timeline-00.jpg",
+    "technical-review-2026-10-19/deep-review/motion/477/timeline-01.jpg"
+  ],
+  "closer_windows": []
+}

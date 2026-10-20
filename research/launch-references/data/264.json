@@ -1,0 +1,381 @@
+{
+  "id": 264,
+  "viewed_evidence": [
+    "technical-review-2026-10-19/deep-review/motion/264/timeline-00.jpg",
+    "technical-review-2026-10-19/deep-review/motion/264/timeline-01.jpg",
+    "astra-review-2026-10-20/evidence/group-3/264/dense.jpg",
+    "astra-review-2026-10-20/evidence/group-3/264/full34.jpg",
+    "technical-review-2026-10-19/deep-review/audio/264-speech.json"
+  ],
+  "product_from_film": "Totalis combines predictions on different events into a parlay bet.",
+  "explains_well": "Market cards and a combined-bet panel finally show the broad prediction offering.",
+  "unclear": "The selected market examples do not match the final parlay, so the assembly step is unclear.",
+  "product_type": "prediction betting",
+  "scenario": "Choose outcomes across events and enter a stake for a combined bet",
+  "product_clear_time": 34,
+  "product_clear_basis": "Your Parlay panel shows several event choices, a bet amount and estimated payout.",
+  "scenes": [
+    {
+      "start": 0,
+      "end": 7,
+      "action": "Astronaut, sphere, rotary dial, underwater light and eagle alternate with small world/sign captions.",
+      "design": "Square-framed clips, dark background and yellow subtitles.",
+      "purpose": "Frame the world as signals",
+      "id": "V01",
+      "evidence": "Visible 1 fps samples, source 0–7s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 7,
+      "end": 13,
+      "action": "Basketball, market chart, falling ticker and political speech appear.",
+      "design": "Sports and financial/news footage.",
+      "purpose": "Name prediction domains",
+      "id": "V02",
+      "evidence": "Visible 1 fps samples, source 7–13s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 13,
+      "end": 23,
+      "action": "Missile, aircraft, eye, rocket, lunar figure, brain scan, birds and presenter follow.",
+      "design": "Action and thought imagery; star symbol on lunar flag.",
+      "purpose": "Suggest intuition and foresight",
+      "id": "V03",
+      "evidence": "Visible 1 fps samples, source 13–23s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 23,
+      "end": 30,
+      "action": "Image panels and mosaic tiles gather into a four-point symbol, then the mark holds and fades to black captions.",
+      "design": "Collage texture inside a star-like brand shape.",
+      "purpose": "Connect signs into brand",
+      "id": "V04",
+      "evidence": "Visible 1 fps samples, source 23–30s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 30,
+      "end": 33,
+      "action": "Basketball market card recedes; political phrase card replaces it with green Yes highlight, then Bitcoin card with red No highlight.",
+      "design": "Dark floating cards with percentages and Yes/No controls.",
+      "purpose": "Show market choices",
+      "id": "V05",
+      "evidence": "Visible 1 fps samples, source 30–33s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 33,
+      "end": 36,
+      "action": "Your Parlay panels replace the individual cards; one shows gas prices, treasury yield and jobless claims, $100 stake and $744.05 estimated payout; another changes the events.",
+      "design": "Green Submit Parlay button and glowing payout area.",
+      "purpose": "Show combined wager",
+      "id": "V06",
+      "evidence": "Visible 1 fps samples, source 33–36s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 36,
+      "end": 38.033,
+      "action": "Totalis name and symbol hold on black.",
+      "design": "White brand lockup.",
+      "purpose": "Close",
+      "id": "V07",
+      "evidence": "Visible 1 fps samples, source 36–38.033s; boundaries approximate, between-frame action unresolved."
+    }
+  ],
+  "sound": [
+    {
+      "id": "A01",
+      "start": 0,
+      "end": 38.033,
+      "layer": "unknown",
+      "detail": "No validated audio listening; speech, music, effects, mix and sync remain unverified.",
+      "visual_relation": "All visual scenes; alignment not checked",
+      "evidence": "No actual audio supplied to this review; existing technical-review-2026-10-19/deep-review/audio/264.json is not listening evidence."
+    },
+    {
+      "id": "A02",
+      "start": 1.25,
+      "end": 29.79,
+      "layer": "ASR draft",
+      "detail": "Candidate script frames world signals, match/chart/headline anticipation and personal intuition. Several phrases are garbled, including more cost, crack and connect the doors; do not use them as exact copy. Visible captions support connect the dots. No heard delivery or music finding.",
+      "visual_relation": "V01–V04; candidate script only",
+      "evidence": "technical-review-2026-10-19/deep-review/audio/264-speech.json; existing faster-whisper base CPU int8"
+    }
+  ],
+  "categories": [
+    {
+      "finding": "A signals-and-intuition montage leads to market choices and a combined bet. The idea is broad, but the pictured selections do not become the displayed parlay.",
+      "evidence": "V01–V07",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q01"
+    },
+    {
+      "finding": "An astronaut close-up and bright space scene create spectacle; they do not yet indicate prediction betting.",
+      "evidence": "V01, 0–2 s",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q02"
+    },
+    {
+      "finding": "Event market cards identify predictions around 30 s; the parlay panel near 34 s establishes combined betting. Users need prior knowledge of parlay rules.",
+      "evidence": "V05–V06",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q03"
+    },
+    {
+      "finding": "Dense 30–35 s frames show large cards settling smaller in the centre, replacement by new cards, coloured selection highlights and repeated incoming parlay panels. Exact easing is unresolved.",
+      "evidence": "V05–V06; 4 fps window 30–35 s",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q04"
+    },
+    {
+      "finding": "Fast footage cuts connect through short captions. The move to dark cards marks a useful product section, but it occupies only the final few seconds.",
+      "evidence": "V01–V06",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q05"
+    },
+    {
+      "finding": "Dark framing, yellow captions and mixed archival-looking or cinematic images lead to a dark green-glowing interface. Asset origins are unknown.",
+      "evidence": "V01–V06",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q06"
+    },
+    {
+      "finding": "Full frame at 34 s makes stake, estimated payout and event rows readable. At montage pace those details compete with moving panels; the payout is more prominent than its estimated label.",
+      "evidence": "V06; full frame 34 s",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q07"
+    },
+    {
+      "finding": "Voice presence and delivery remain unverified.",
+      "evidence": "No validated audio listening",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q08"
+    },
+    {
+      "finding": "Music character and arc remain unverified.",
+      "evidence": "No validated audio listening",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q09"
+    },
+    {
+      "finding": "Sound effects remain unverified.",
+      "evidence": "No validated audio listening",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q10"
+    },
+    {
+      "finding": "Sound-to-motion timing remain unverified.",
+      "evidence": "No validated audio listening",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q11"
+    },
+    {
+      "finding": "Space, sport, markets, politics and aircraft footage are combined with a mosaic brand mark and UI cards. No footage source or software is established.",
+      "evidence": "V01–V06",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q12"
+    },
+    {
+      "finding": "Source duration supplied as 38.033s; no independent compression, clipping or delivery check.",
+      "evidence": "Assigned metadata; source integrity checked by parent",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q13"
+    },
+    {
+      "finding": "The UI shows Yes/No choices and a parlay with a stake. Silent viewing does not explain how outcomes combine or what happens if one fails.",
+      "evidence": "V05–V06",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q14"
+    },
+    {
+      "finding": "Single floating cards guide the eye centrally; green payout and submit controls dominate the final panel.",
+      "evidence": "V05–V06",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q15"
+    },
+    {
+      "finding": "About 30 s of broad montage precedes about 6 s of actual interface. The core task needs more time than the inspirational setup.",
+      "evidence": "V01–V06",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q16"
+    },
+    {
+      "finding": "Connect-the-dots framing is partly answered by the parlay, but the final selections are unrelated to the immediately preceding cards.",
+      "evidence": "V04–V06",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q17"
+    },
+    {
+      "finding": "Space, sports and fast machines appear intended to build confidence in seeing signals early. This is creative interpretation, not measured response.",
+      "evidence": "V01–V04",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q18"
+    },
+    {
+      "finding": "The star motif links the flag, mosaic and end card. Task continuity breaks from basketball/political/Bitcoin choices to economic indicators in the parlay.",
+      "evidence": "V03–V07",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q19"
+    },
+    {
+      "finding": "The interface shows selections and an estimated payout, not a completed bet or realised return. The displayed amounts and functionality are not independently verified.",
+      "evidence": "V05–V06",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q20"
+    },
+    {
+      "finding": "The four-point mark built from many images supports the idea of combining events; much of the earlier montage could fit other trading brands.",
+      "evidence": "V04–V07",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q21"
+    },
+    {
+      "finding": "Shorten the intuition montage and carry the exact same three events into the combined bet, with one sentence explaining the rule.",
+      "evidence": "V03–V06",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q22"
+    },
+    {
+      "finding": "For a multi-item workflow, show each selected card becoming a row in the final summary. Capture matching items, totals and a clearly labelled outcome state.",
+      "evidence": "V05–V06",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q23"
+    },
+    {
+      "finding": "No human new-viewer test; product description above is model interpretation of sampled images.",
+      "evidence": "V01–V07",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q24"
+    },
+    {
+      "finding": "No phone-size, safe-area or flash assessment; small UI text needs separate preview.",
+      "evidence": "Contact sheets",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q25"
+    }
+  ],
+  "lessons": {
+    "keep": "Keep the change from individual event cards to a combined-bet summary.",
+    "try": [
+      "Use the same basketball, political and Bitcoin selections in the parlay, moving each card into a matching row.",
+      "Replace ten seconds of broad montage with a held example explaining that the combined outcomes must meet the parlay rule, keeping payout labelled estimated."
+    ],
+    "avoid": "Avoid swapping to unrelated selections between choice and summary.",
+    "open": "Audio is unheard; payout calculation, settlement rules and actual product behaviour remain unverified."
+  },
+  "comparison": {
+    "story": "Frame the world as signals → Name prediction domains → Suggest intuition and foresight → Connect signs into brand → Show market choices → Show combined wager → Close",
+    "motion": "Dense 30–35 s frames show large cards settling smaller in the centre, replacement by new cards, coloured selection highlights and repeated incoming parlay panels. Exact easing is unresolved.",
+    "sound": "No validated listening; no absence claims.",
+    "texture": "Dark framing, yellow captions and mixed archival-looking or cinematic images lead to a dark green-glowing interface. Asset origins are unknown.",
+    "lesson": "Keep the change from individual event cards to a combined-bet summary."
+  },
+  "elements": [
+    {
+      "kind": "ui",
+      "name": "market card",
+      "events": [
+        "V05"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "bet form",
+      "events": [
+        "V06"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "chart",
+      "events": [
+        "V02"
+      ]
+    },
+    {
+      "kind": "motion",
+      "name": "card scale change",
+      "events": [
+        "V05",
+        "V06"
+      ]
+    },
+    {
+      "kind": "motion",
+      "name": "image mosaic",
+      "events": [
+        "V04"
+      ]
+    },
+    {
+      "kind": "texture",
+      "name": "cinematic montage",
+      "events": [
+        "V01",
+        "V02",
+        "V03"
+      ]
+    }
+  ],
+  "reviewer_model": "gpt-6-astra",
+  "scope": "sampled visual and story review; ASR and measured signal support; no validated audio listening",
+  "closer_windows": [
+    {
+      "start": 30,
+      "end": 35,
+      "rate_fps": 4,
+      "evidence": [
+        "astra-review-2026-10-20/evidence/group-3/264/dense.jpg",
+        "astra-review-2026-10-20/evidence/group-3/264/full34.jpg"
+      ],
+      "resolved": "Cards change from basketball to political phrase to Bitcoin, with Yes/No highlights. The parlay at 33.5 s instead contains gas price, treasury yield and jobless-claim events; another set arrives after 34 s. A continuous assembly of the same picks is not shown."
+    }
+  ]
+}

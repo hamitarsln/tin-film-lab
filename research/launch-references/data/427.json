@@ -1,0 +1,336 @@
+{
+  "id": 427,
+  "reviewer_model": "gpt-6-astra",
+  "scope": "sampled visual and story review; ASR and measured signal support; no validated audio listening",
+  "viewed_evidence": [
+    "technical-review-2026-10-19/deep-review/motion/427/timeline-00.jpg",
+    "technical-review-2026-10-19/deep-review/motion/427/timeline-01.jpg",
+    "technical-review-2026-10-19/deep-review/audio/427-speech.json"
+  ],
+  "closer_windows": [],
+  "product_from_film": "Hacker Residency Group offers a shared living and building environment for founders.",
+  "explains_well": "The film names loneliness, mentorship and accountability, then shows shared work and learning.",
+  "unclear": "The mansion and ten-person claim do not explain selection, duration, cost or how to join.",
+  "product_type": "founder community",
+  "scenario": "Bring builders together to live, learn and launch.",
+  "product_clear_time": 22,
+  "product_clear_basis": "Hacker Residency name appears after the loneliness problem.",
+  "scenes": [
+    {
+      "id": "V01",
+      "start": 0,
+      "end": 8,
+      "action": "Large AI text and a boardroom scene claim venture capital is no longer needed. Money and coin imagery with 2015, engineers and marketing labels illustrate earlier cost.",
+      "design": "Mixed serif and bold sans type, monochrome boardroom and money close-ups.",
+      "purpose": "Frame a change in startup economics as a claim.",
+      "evidence": "Visible chronological 1 fps samples, source 0–8s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V02",
+      "start": 8,
+      "end": 14,
+      "action": "A gold cow under Today becomes a metallic blue cow under AI, then a field of cows carries TikTok marks.",
+      "design": "Surreal metallic animals on pale backgrounds.",
+      "purpose": "Illustrate the solo-income claim.",
+      "evidence": "Visible chronological 1 fps samples, source 8–14s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V03",
+      "start": 14,
+      "end": 20,
+      "action": "Black card says building alone is lonely; monochrome clips appear under no community, no mentorship and no accountability.",
+      "design": "Dark grain-like texture, large white labels and dramatic clip inserts.",
+      "purpose": "Name the human problem.",
+      "evidence": "Visible chronological 1 fps samples, source 14–20s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V04",
+      "start": 20,
+      "end": 32,
+      "action": "Coastal aerial introduces Hacker Residency Group. Mansion exterior is labeled $20M; shared workspace is labeled ten world-class hackers. Eating, presentation and group discussion follow Live, Learn, Launch.",
+      "design": "Bright coastal footage, house, people and oversized text.",
+      "purpose": "Present the residency response.",
+      "evidence": "Visible chronological 1 fps samples, source 20–32s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V05",
+      "start": 32,
+      "end": 38.996,
+      "action": "Overhead pool view carries founder and take-off wording as the frame pulls wider; @HackerResidency closes on a dark flare background.",
+      "design": "Turquoise pool and white end handle.",
+      "purpose": "Invite brand discovery.",
+      "evidence": "Visible chronological 1 fps samples, source 32–38.996s; boundary approximate; exact motion between samples unverified."
+    }
+  ],
+  "sound": [
+    {
+      "id": "A01",
+      "start": 0,
+      "end": 38.996,
+      "layer": "unknown",
+      "detail": "No validated direct audio listening was performed. Music, speech delivery, effects, mix and sync remain unknown, not absent.",
+      "visual_relation": "All visual scenes; audiovisual alignment unverified",
+      "evidence": "Visual samples only; no actual audio range supplied to this reviewer."
+    },
+    {
+      "id": "A02",
+      "start": 0.07,
+      "end": 36.45,
+      "layer": "ASR draft",
+      "detail": "The coherent ASR draft contrasts expensive earlier startups with claimed solo AI income, then identifies loneliness and introduces a mansion residency for ten builders. It supports the argument but does not verify economic claims or program terms. Delivery, music and effects are unverified.",
+      "visual_relation": "Story text support; exact audiovisual alignment and delivery unverified.",
+      "evidence": "technical-review-2026-10-19/deep-review/audio/427-speech.json; local faster-whisper base CPU int8 draft; VAD candidates only, recognition errors possible."
+    }
+  ],
+  "categories": [
+    {
+      "id": "Q01",
+      "finding": "Claims about cheaper solo building lead to loneliness, then a shared residency as the answer.",
+      "evidence": "V01–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q02",
+      "finding": "AI dominates a boardroom scene and a killed-the-need statement begins; the opening is a provocative economic claim, not a community offer yet.",
+      "evidence": "V01",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q03",
+      "finding": "Solo founders are the implied audience; residency becomes clear around 22s and shared living/learning by 29–31s.",
+      "evidence": "V03–V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q04",
+      "finding": "Large words change scale and position, cow states switch from gold to blue metal to a crowd, and aerial house/pool views move between closer and wider framing.",
+      "evidence": "V01–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q05",
+      "finding": "The shift from surreal cows to dark loneliness labels marks the problem turn; bright coastal footage then marks the proposed solution. Exact cow transition mechanics are unresolved.",
+      "evidence": "V02–V04",
+      "status": "uncertain",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q06",
+      "finding": "Metallic surreal imagery and dark monochrome clips contrast with bright coastal house footage, making the residency visually warmer and more social.",
+      "evidence": "V02–V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q07",
+      "finding": "Large key words explain the argument, but many font styles and scales compete. The join path is reduced to a social handle.",
+      "evidence": "V01–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q08",
+      "finding": "The coherent ASR draft contrasts expensive earlier startups with claimed solo AI income, then identifies loneliness and introduces a mansion residency for ten builders. It supports the argument but does not verify economic claims or program terms. Delivery, music and effects are unverified.",
+      "evidence": "A02",
+      "status": "uncertain",
+      "reason": "ASR text only; no validated listening, delivery or voice origin.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q09",
+      "finding": "Voice delivery, music, effects and audiovisual alignment were not established by this visual pass.",
+      "evidence": "A01",
+      "status": "not checked",
+      "reason": "No validated direct audio listening input.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q10",
+      "finding": "Voice delivery, music, effects and audiovisual alignment were not established by this visual pass.",
+      "evidence": "A01",
+      "status": "not checked",
+      "reason": "No validated direct audio listening input.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q11",
+      "finding": "Voice delivery, music, effects and audiovisual alignment were not established by this visual pass.",
+      "evidence": "A01",
+      "status": "not checked",
+      "reason": "No validated direct audio listening input.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q12",
+      "finding": "Boardroom, money, surreal animals, dramatic clip inserts and residency footage mix. Provenance and rights are not established.",
+      "evidence": "V01–V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q13",
+      "finding": "Manifest duration 38.996s; indexed dimensions 1920×1080. Source unchanged flag recorded; fresh encoding and audio clipping checks not run.",
+      "evidence": "Group manifest",
+      "status": "uncertain",
+      "reason": "Inherited technical metadata; no fresh media probe in this review.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q14",
+      "finding": "Text preserves the whole basic argument silently; program details and evidence for the economic claims are absent.",
+      "evidence": "V01–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q15",
+      "finding": "Big type leads each beat; shared people finally become the focus during Live, Learn, Launch. Mansion price may draw more attention than the actual support.",
+      "evidence": "V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q16",
+      "finding": "Half the film establishes broad startup claims before the residency appears; program specifics receive little time.",
+      "evidence": "V01–V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q17",
+      "finding": "The opening promises a changed founder world; the shared work footage answers loneliness, but not all mentorship/accountability details.",
+      "evidence": "V03–V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q18",
+      "finding": "Provocation and solo-builder anxiety shift to belonging and aspirational surroundings. This is intended effect inferred from the images and draft.",
+      "evidence": "V01–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q19",
+      "finding": "Live, Learn, Launch follows the same residency setting; earlier cows and movie-like clips are metaphors rather than one continuous scenario.",
+      "evidence": "V02–V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q20",
+      "finding": "Shared work and a presentation are visible. Mansion value, participant quality, earnings claims and program outcomes are not independently verified.",
+      "evidence": "V01,V02,V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q21",
+      "finding": "The house, actual gathering and social handle give identity; the AI-is-changing-everything opening is less specific.",
+      "evidence": "V01,V04,V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q22",
+      "finding": "Shorten the money/cow section and show one mentor interaction or launch output, plus a clear application step.",
+      "evidence": "V02,V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q23",
+      "finding": "For a builder cohort, name one isolation problem and answer it with a specific shared session and output. Use location footage to support the work, not replace it.",
+      "evidence": "V03–V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q24",
+      "finding": "Hacker Residency Group offers a shared living and building environment for founders.",
+      "evidence": "Model reading from inspected images",
+      "status": "uncertain",
+      "reason": "Model-only new-viewer interpretation; no human test.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q25",
+      "finding": "Contact sheets inspected at displayed size; a phone-size playback, caption audit, flash audit and formal accessibility check were not performed.",
+      "evidence": "Viewed sheets",
+      "status": "not checked",
+      "reason": "Full-size moving-image and device checks unavailable in this pass.",
+      "experiment": "none"
+    }
+  ],
+  "lessons": {
+    "keep": "Answer each community problem with a visible shared activity.",
+    "avoid": "Letting the venue price stand in for program value.",
+    "open": "Program terms, outcomes, income claims, footage provenance and sound remain unverified.",
+    "try": [
+      "For a Tin workshop, pair no feedback with an actual review session and a revised campaign.",
+      "Replace a broad wealth metaphor with one participant’s finished launch and an application card."
+    ]
+  },
+  "comparison": {
+    "story": "Frame a change in startup economics as a claim. → Illustrate the solo-income claim. → Name the human problem. → Present the residency response. → Invite brand discovery.",
+    "motion": "Large words change scale and position, cow states switch from gold to blue metal to a crowd, and aerial house/pool views move between closer and wider framing. Sampling scope: 1 fps unless a closer window is recorded.",
+    "sound": "No validated listening; unknown.",
+    "texture": "Mixed serif and bold sans type, monochrome boardroom and money close-ups.; Surreal metallic animals on pale backgrounds.; Dark grain-like texture, large white labels and dramatic clip inserts.; Bright coastal footage, house, people and oversized text.; Turquoise pool and white end handle.",
+    "lesson": "Answer each community problem with a visible shared activity."
+  },
+  "elements": [
+    {
+      "kind": "motion",
+      "name": "kinetic typography",
+      "events": [
+        "V01",
+        "V04",
+        "V05"
+      ]
+    },
+    {
+      "kind": "texture",
+      "name": "metallic animal imagery",
+      "events": [
+        "V02"
+      ]
+    },
+    {
+      "kind": "texture",
+      "name": "coastal aerial footage",
+      "events": [
+        "V04",
+        "V05"
+      ]
+    },
+    {
+      "kind": "texture",
+      "name": "community footage",
+      "events": [
+        "V04"
+      ]
+    }
+  ]
+}

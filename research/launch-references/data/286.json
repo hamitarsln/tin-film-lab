@@ -1,0 +1,392 @@
+{
+  "id": 286,
+  "viewed_evidence": [
+    "technical-review-2026-10-19/deep-review/motion/286/timeline-00.jpg",
+    "technical-review-2026-10-19/deep-review/motion/286/timeline-01.jpg",
+    "astra-review-2026-10-20/evidence/group-3/286/dense.jpg",
+    "technical-review-2026-10-19/deep-review/audio/286-speech.json"
+  ],
+  "product_from_film": "Sperm Racing World Cup presents a country-based sperm-racing competition with a stated $100,000 prize.",
+  "explains_well": "Stadium, national flags and a countdown turn an unusual premise into a recognisable sports event.",
+  "unclear": "The science-fiction race does not explain the real entry process, race measurement or connection to the healthiest-man claim.",
+  "product_type": "competition event",
+  "scenario": "Applicants represent countries in a sperm race",
+  "product_clear_time": 7,
+  "product_clear_basis": "World Cup title, 128 countries and prize captions establish the event.",
+  "scenes": [
+    {
+      "start": 0,
+      "end": 5,
+      "action": "Night stadium aerial cuts to two masked men facing one another with national flags and crowd behind.",
+      "design": "Blue stadium light; World Cup corner mark and 128 countries caption.",
+      "purpose": "Establish international stakes",
+      "id": "V01",
+      "evidence": "Visible 1 fps samples, source 0–5s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 5,
+      "end": 12,
+      "action": "Metal SR door opens onto a laboratory with two glowing human chambers and staff.",
+      "design": "Industrial metal, cyan light and prize caption.",
+      "purpose": "Build ceremonial preparation",
+      "id": "V02",
+      "evidence": "Visible 1 fps samples, source 5–12s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 12,
+      "end": 18,
+      "action": "Muscular participant sits with breathing apparatus; microscope and control-panel close-ups follow.",
+      "design": "Laboratory imagery and healthiest man alive text.",
+      "purpose": "Frame testing and selection",
+      "id": "V03",
+      "evidence": "Visible 1 fps samples, source 12–18s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 18,
+      "end": 22,
+      "action": "Participants appear inside chambers with names and country flags; operator approaches controls.",
+      "design": "Portrait data overlays and national framing.",
+      "purpose": "Assign competitors",
+      "id": "V04",
+      "evidence": "Visible 1 fps samples, source 18–22s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 22,
+      "end": 29,
+      "action": "Circular lights illuminate in sequence; view travels along mechanical track and into a tunnel.",
+      "design": "Reflective blue metal and bright launch lights.",
+      "purpose": "Create a race countdown",
+      "id": "V05",
+      "evidence": "Visible 1 fps samples, source 22–29s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 29,
+      "end": 37,
+      "action": "Pink and blue sperm-like racers travel through tunnel; laboratory sparks and Speed Alert screen interrupt the chase.",
+      "design": "Track branding, control-room reaction and warning display.",
+      "purpose": "Escalate race spectacle",
+      "id": "V06",
+      "evidence": "Visible 1 fps samples, source 29–37s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 37,
+      "end": 41,
+      "action": "Two racers with wavy tails move along marked lanes as the view draws back through a flag-lined tunnel.",
+      "design": "Blue and pink racers, US/UK flags and light streaks.",
+      "purpose": "Show head-to-head race",
+      "id": "V07",
+      "evidence": "Visible 1 fps samples, source 37–41s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 41,
+      "end": 45.758,
+      "action": "Apply Now and spermracing.com/worldcup hold on dark blue.",
+      "design": "Bright slanted uppercase CTA.",
+      "purpose": "Invite applications",
+      "id": "V08",
+      "evidence": "Visible 1 fps samples, source 41–45.758s; boundaries approximate, between-frame action unresolved."
+    }
+  ],
+  "sound": [
+    {
+      "id": "A01",
+      "start": 0,
+      "end": 45.758,
+      "layer": "unknown",
+      "detail": "No validated audio listening; speech, music, effects, mix and sync remain unverified.",
+      "visual_relation": "All visual scenes; alignment not checked",
+      "evidence": "No actual audio supplied to this review; existing technical-review-2026-10-19/deep-review/audio/286.json is not listening evidence."
+    },
+    {
+      "id": "A02",
+      "start": 0.26,
+      "end": 21.74,
+      "layer": "ASR draft",
+      "detail": "Candidate narration names the World Cup, 128 countries, $100,000 prize and national stakes. Draft says happiest man; visible caption says healthiest man alive, so the draft word is rejected. No heard performance or effects finding.",
+      "visual_relation": "V01–V04; candidate script only",
+      "evidence": "technical-review-2026-10-19/deep-review/audio/286-speech.json; existing faster-whisper base CPU int8"
+    }
+  ],
+  "categories": [
+    {
+      "finding": "International event setup leads to laboratory preparation, countdown and a stylised race, then application. The film sells spectacle without explaining the real procedure.",
+      "evidence": "V01–V08",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q01"
+    },
+    {
+      "finding": "A dramatic stadium aerial and World Cup caption immediately establish a large event, though the unusual race is not pictured yet.",
+      "evidence": "V01, 0–2 s",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q02"
+    },
+    {
+      "finding": "Title, country count and prize define the competition by 7 s. Eligibility and the actual participant task remain unspecified.",
+      "evidence": "V01–V03",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q03"
+    },
+    {
+      "finding": "Dense 37–40 s frames show pink and blue racers with changing wavy tails moving along lanes while the view pulls back to reveal the tunnel and flags. Motion is clearly stylised, not measurement footage.",
+      "evidence": "V07; 4 fps window 37–40 s",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q04"
+    },
+    {
+      "finding": "Cuts from race to laboratory sparks and warning screen imitate sports/action escalation. The final held CTA gives a clear stop after the fast sequence.",
+      "evidence": "V06–V08",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q05"
+    },
+    {
+      "finding": "Cyan lighting, dark industrial metal, haze and glowing chambers create a science-fiction laboratory style. Provenance and methods are unknown.",
+      "evidence": "V01–V07",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q06"
+    },
+    {
+      "finding": "Short country/prize captions are direct. Small participant panels and the warning screen add atmosphere without explaining rules or a measured result.",
+      "evidence": "V01–V06",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q07"
+    },
+    {
+      "finding": "Voice presence and delivery remain unverified.",
+      "evidence": "No validated audio listening",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q08"
+    },
+    {
+      "finding": "Music character and arc remain unverified.",
+      "evidence": "No validated audio listening",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q09"
+    },
+    {
+      "finding": "Sound effects remain unverified.",
+      "evidence": "No validated audio listening",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q10"
+    },
+    {
+      "finding": "Sound-to-motion timing remain unverified.",
+      "evidence": "No validated audio listening",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q11"
+    },
+    {
+      "finding": "Stadium, laboratory, participant portraits and tunnel-race imagery form a cinematic sequence. The film does not establish which images document the actual event.",
+      "evidence": "V01–V07",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q12"
+    },
+    {
+      "finding": "Source duration supplied as 45.758s; no independent compression, clipping or delivery check.",
+      "evidence": "Assigned metadata; source integrity checked by parent",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q13"
+    },
+    {
+      "finding": "World Cup, country count, prize and Apply Now are clear silently. Real-world racing mechanics and health interpretation are not.",
+      "evidence": "V01–V08",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q14"
+    },
+    {
+      "finding": "Two competitors and two coloured racers create a clear opposing pair. Strong tunnel perspective centres attention on the chase.",
+      "evidence": "V01, V04, V07",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q15"
+    },
+    {
+      "finding": "The 45-second film gives substantial time to atmosphere and racing. A short rules card could make the offer more understandable without removing the main spectacle.",
+      "evidence": "V02–V08",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q16"
+    },
+    {
+      "finding": "The opening promises a World Cup and delivers a dramatic race image, but no finish or winner; the application ending frames it as a recruitment teaser.",
+      "evidence": "V01, V07–V08",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q17"
+    },
+    {
+      "finding": "National flags, prize and laboratory countdown appear intended to create pride, tension and competition. No audience response was measured.",
+      "evidence": "V01–V07",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q18"
+    },
+    {
+      "finding": "The two-chamber setup connects to the two-colour race, although the actual relation between participant and racer is represented symbolically.",
+      "evidence": "V02–V07",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q19"
+    },
+    {
+      "finding": "Country count, prize and healthiest-man framing are claims. The stylised race does not establish real timing, fairness, biological measurement or a valid overall health conclusion.",
+      "evidence": "V01–V07",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q20"
+    },
+    {
+      "finding": "The sperm-race premise, SR mark and country chambers make the film specific even though its visual grammar resembles action trailers.",
+      "evidence": "V01–V07",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q21"
+    },
+    {
+      "finding": "Use part of the lab setup for three plain facts: who can apply, what is measured and how a winner is decided.",
+      "evidence": "V02–V04",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q22"
+    },
+    {
+      "finding": "For an unusual competition, borrow familiar sports structure: rivals, flags, countdown and clear application. Pair spectacle with a concise real-rule card.",
+      "evidence": "V01, V04–V08",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q23"
+    },
+    {
+      "finding": "No human new-viewer test; product description above is model interpretation of sampled images.",
+      "evidence": "V01–V08",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q24"
+    },
+    {
+      "finding": "No phone-size, safe-area or flash assessment; small UI text needs separate preview.",
+      "evidence": "Contact sheets",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q25"
+    }
+  ],
+  "lessons": {
+    "keep": "Keep the familiar two-rival sports structure around the unusual event.",
+    "try": [
+      "Add a three-step rules card after the prize reveal showing application, measured race and winner selection.",
+      "Place a clearly labelled real race view beside the stylised tunnel sequence, with a readable timing display."
+    ],
+    "avoid": "Avoid letting fictional laboratory imagery imply a demonstrated health test.",
+    "open": "Audio is unheard; event claims, race method and health implications remain unverified."
+  },
+  "comparison": {
+    "story": "Establish international stakes → Build ceremonial preparation → Frame testing and selection → Assign competitors → Create a race countdown → Escalate race spectacle → Show head-to-head race → Invite applications",
+    "motion": "Dense 37–40 s frames show pink and blue racers with changing wavy tails moving along lanes while the view pulls back to reveal the tunnel and flags. Motion is clearly stylised, not measurement footage.",
+    "sound": "No validated listening; no absence claims.",
+    "texture": "Cyan lighting, dark industrial metal, haze and glowing chambers create a science-fiction laboratory style. Provenance and methods are unknown.",
+    "lesson": "Keep the familiar two-rival sports structure around the unusual event."
+  },
+  "elements": [
+    {
+      "kind": "ui",
+      "name": "participant profile",
+      "events": [
+        "V04"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "warning display",
+      "events": [
+        "V06"
+      ]
+    },
+    {
+      "kind": "motion",
+      "name": "countdown lights",
+      "events": [
+        "V05"
+      ]
+    },
+    {
+      "kind": "motion",
+      "name": "tunnel race",
+      "events": [
+        "V06",
+        "V07"
+      ]
+    },
+    {
+      "kind": "texture",
+      "name": "industrial metal",
+      "events": [
+        "V02",
+        "V05",
+        "V06",
+        "V07"
+      ]
+    },
+    {
+      "kind": "texture",
+      "name": "cyan lighting",
+      "events": [
+        "V01",
+        "V02",
+        "V03",
+        "V04"
+      ]
+    }
+  ],
+  "reviewer_model": "gpt-6-astra",
+  "scope": "sampled visual and story review; ASR and measured signal support; no validated audio listening",
+  "closer_windows": [
+    {
+      "start": 37,
+      "end": 40,
+      "rate_fps": 4,
+      "evidence": [
+        "astra-review-2026-10-20/evidence/group-3/286/dense.jpg"
+      ],
+      "resolved": "Pink and blue racers advance along lanes with changing tail curves; camera view widens/backtracks through flag-lined tunnel. No finish or measured result appears in this window."
+    }
+  ]
+}

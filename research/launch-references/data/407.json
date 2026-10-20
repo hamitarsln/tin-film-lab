@@ -1,0 +1,331 @@
+{
+  "id": 407,
+  "product_from_film": "Skillsync helps recruiters find engineers from open-source contributions using a natural-language search.",
+  "explains_well": "Three domain searches connect specialist work to contribution cards and outreach messages.",
+  "unclear": "The film jumps from a typed query to a person, without showing the search results or why that person ranked.",
+  "product_type": "Recruiting search",
+  "scenario": "Find compiler, drone and quantum specialists from their contributions.",
+  "product_clear_time": 8,
+  "product_clear_basis": "Search-result text describes finding engineers from open-source contributions; the Skillsync search follows.",
+  "scenes": [
+    {
+      "start": 0,
+      "end": 9,
+      "action": "A coding assistant prompt asks a basic coding question; resumes and a recruiter portrait lead to a Google search and Skillsync result.",
+      "design": "Terminal scanlines, paper documents and warm portrait.",
+      "purpose": "Question how to distinguish technical skill.",
+      "evidence": "1 fps source samples in 0–9s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V01"
+    },
+    {
+      "start": 9,
+      "end": 17,
+      "action": "A compiler/kernel search leads to a London breakfast, a developer portrait with contribution cards and an outreach notification over terminal output.",
+      "design": "Dark search, glass-like cards and cinematic close-up.",
+      "purpose": "Illustrate finding a specialist.",
+      "evidence": "1 fps source samples in 9–17s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V02"
+    },
+    {
+      "start": 17,
+      "end": 25,
+      "action": "A drone flight-control search leads to a sunset drone, a person working beside hardware and a chat invitation.",
+      "design": "Warm sunset and workshop with contribution overlay.",
+      "purpose": "Repeat the pattern for another domain.",
+      "evidence": "1 fps source samples in 17–25s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V03"
+    },
+    {
+      "start": 25,
+      "end": 31,
+      "action": "A quantum-research search leads to a laboratory worker, contribution cards and a recruitment message.",
+      "design": "Cool lab lighting and translucent cards.",
+      "purpose": "Extend the search to researchers.",
+      "evidence": "1 fps source samples in 25–31s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V04"
+    },
+    {
+      "start": 31,
+      "end": 33.375,
+      "action": "Find elite devs from GitHub appears, followed by a pixel-style symbol.",
+      "design": "White text on dark background.",
+      "purpose": "Summarize the source and promise.",
+      "evidence": "1 fps source samples in 31–33.375s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V05"
+    }
+  ],
+  "sound": [
+    {
+      "id": "A01",
+      "start": 0,
+      "end": 33.375,
+      "layer": "ASR draft",
+      "detail": "Short opening draft says everyone claims to code and asks how to find the greats; the final word is mistranscribed. No further reliable speech text is available. This does not establish silence or music absence.",
+      "visual_relation": "V01 supplies the question; later scenes rely on visual search/outreach examples.",
+      "evidence": "407-speech.json draft; no validated listening."
+    }
+  ],
+  "categories": [
+    {
+      "id": "Q01",
+      "finding": "Skill-identification problem → discovery → three search/person/outreach examples → GitHub promise.",
+      "evidence": "V01–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q02",
+      "finding": "A terminal assistant and basic coding question establish a skill-screening problem through juxtaposition.",
+      "evidence": "V01",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q03",
+      "finding": "Recruiter use is supported by searches and outreach; GitHub is explicitly named in the close.",
+      "evidence": "V01–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q04",
+      "finding": "Search text grows, UI reframes and contribution cards overlay portraits; exact motion paths unverified.",
+      "evidence": "V01–V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q05",
+      "finding": "Repeated query → location/work scene → contributions → message provides continuity across domains.",
+      "evidence": "V02–V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q06",
+      "finding": "Dark UI and scanlines contrast with warm portraits and a cool lab; translucent cards connect them.",
+      "evidence": "V01–V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q07",
+      "finding": "Search text and final GitHub line explain the offer; contribution-card details are small and fast.",
+      "evidence": "V02–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q08",
+      "finding": "Only an opening question is supported by the short ASR draft; delivery and later sound unknown.",
+      "evidence": "A01",
+      "status": "uncertain",
+      "reason": "No validated listening.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q09",
+      "finding": "Music character and structure are unverified.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "No validated listening.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q10",
+      "finding": "Effects and their sources are unverified.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "No validated listening; waveform peaks do not identify effects.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q11",
+      "finding": "Sound sync is unverified.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "No validated listening or paired audiovisual timing.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q12",
+      "finding": "Portraits, work scenes, documents, terminal and search screens are combined; whether scenes represent real candidates is unknown.",
+      "evidence": "V01–V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q13",
+      "finding": "Source duration 33.375 s; Watch metadata 1920 × 1080. Frame rate, audio clipping and export quality not checked here.",
+      "evidence": "Whole film",
+      "status": "supported",
+      "reason": "Parent source metadata supports duration and dimensions; visual review is sampled.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q14",
+      "finding": "Queries, contribution labels and messages convey recruiting without sound, but ranking logic is absent.",
+      "evidence": "V02–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q15",
+      "finding": "Large query crops lead to faces, then floating cards and messages; the face/card competition can limit reading.",
+      "evidence": "V02–V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q16",
+      "finding": "Three domains fit into roughly 22s, prioritizing breadth over evidence for any one candidate.",
+      "evidence": "V02–V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q17",
+      "finding": "The question of finding strong engineers is answered conceptually through contribution search, not a visible ranking decision.",
+      "evidence": "V01–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q18",
+      "finding": "Recognizable work environments and direct outreach suggest discovery and opportunity; response unmeasured.",
+      "evidence": "V02–V04",
+      "status": "uncertain",
+      "reason": "Visual interpretation.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q19",
+      "finding": "The query/card/message pattern persists; no selected result links the search to each person.",
+      "evidence": "V02–V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q20",
+      "finding": "Search relevance, elite status, real candidate identity and successful hiring are unverified. Messages illustrate outreach only.",
+      "evidence": "V02–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q21",
+      "finding": "Contribution-based specialist searches distinguish the offer more than generic recruiter imagery.",
+      "evidence": "V02–V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q22",
+      "finding": "Show the selection step.",
+      "evidence": "V02",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "Keep one compiler query, show ranked results, open one contribution and then compose outreach."
+    },
+    {
+      "id": "Q23",
+      "finding": "Reuse the repeated search-to-context pattern with evidence.",
+      "evidence": "V02–V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "For Tin, show a creator query, matching portfolio work and an outreach draft, with the match reason visible."
+    },
+    {
+      "id": "Q24",
+      "finding": "No human new-viewer test was performed.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "The product summary is this model’s film-only reading.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q25",
+      "finding": "Mobile preview and accessibility checks were not performed.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "Contact sheets are evidence views, not a stated mobile preview or compliance test.",
+      "experiment": "none"
+    }
+  ],
+  "elements": [
+    {
+      "kind": "ui",
+      "name": "terminal",
+      "events": [
+        "V01",
+        "V02"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "search",
+      "events": [
+        "V01",
+        "V02",
+        "V03",
+        "V04"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "contribution card",
+      "events": [
+        "V02",
+        "V03",
+        "V04"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "message notification",
+      "events": [
+        "V02",
+        "V03",
+        "V04"
+      ]
+    }
+  ],
+  "lessons": {
+    "keep": "Repeat one query-to-person pattern across distinct technical domains.",
+    "try": [
+      "Open one ranked candidate and a matching contribution before outreach.",
+      "For Tin, connect a creator search to portfolio evidence and a message draft."
+    ],
+    "avoid": "Jumping from query to a persuasive face without the selection evidence.",
+    "open": "Candidate authenticity, ranking quality, hiring outcomes and sound remain unverified."
+  },
+  "comparison": {
+    "story": "Hiring problem → three specialist discoveries → source promise.",
+    "motion": "Text entry, UI reframing and floating overlays.",
+    "sound": "Short opening ASR only; other audio unknown.",
+    "texture": "Cinematic portraits, dark UI and translucent cards.",
+    "lesson": "Repeatable examples need a visible reason for each match."
+  },
+  "reviewer_model": "gpt-6-astra",
+  "scope": "sampled visual and story review; ASR and measured signal support; no validated audio listening",
+  "viewed_evidence": [
+    "technical-review-2026-10-19/deep-review/motion/407/timeline-00.jpg",
+    "technical-review-2026-10-19/deep-review/motion/407/timeline-01.jpg"
+  ],
+  "closer_windows": []
+}

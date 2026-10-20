@@ -1,0 +1,318 @@
+{
+  "id": 419,
+  "product_from_film": "The film announces Anything.com as a shorter brand destination; it does not explain the underlying product.",
+  "explains_well": "Replacing Createanything with Anything makes the domain change visible.",
+  "unclear": "A viewer unfamiliar with Anything learns no concrete task the product supports.",
+  "product_type": "Brand/domain announcement",
+  "scenario": "Replace a longer web address with Anything.com.",
+  "product_clear_time": null,
+  "product_clear_basis": "Domain is clear at 7s; the underlying product function is not established.",
+  "scenes": [
+    {
+      "start": 0,
+      "end": 3,
+      "action": "A retro browser window sits on a curved-screen-looking landscape; the view enlarges to typed Createanything text in the address field.",
+      "design": "Pixel-like UI and blue-sky green-hill wallpaper.",
+      "purpose": "Introduce the old address.",
+      "evidence": "1 fps source samples in 0–3s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V01"
+    },
+    {
+      "start": 3,
+      "end": 6,
+      "action": "A reaction clip gains NOT FOUND error windows, then Wait appears.",
+      "design": "Cream field, black serif text and old-style dialogs.",
+      "purpose": "Create a comic interruption.",
+      "evidence": "1 fps source samples in 3–6s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V02"
+    },
+    {
+      "start": 6,
+      "end": 10,
+      "action": "The address changes to ANYTHING.COM, followed by Here we go around a reaction clip.",
+      "design": "Pixel address text and large serif phrase.",
+      "purpose": "Reveal the shorter domain.",
+      "evidence": "1 fps source samples in 6–10s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V03"
+    },
+    {
+      "start": 10,
+      "end": 15,
+      "action": "Anyone, to do and Anything appear over the landscape, ending in Anything.com.",
+      "design": "Large white serif lettering and saturated sky/hills.",
+      "purpose": "Connect broad brand promise to destination.",
+      "evidence": "1 fps source samples in 10–15s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V04"
+    },
+    {
+      "start": 15,
+      "end": 16.041,
+      "action": "The image ends on black.",
+      "design": "Black field.",
+      "purpose": "End the announcement.",
+      "evidence": "1 fps source samples in 15–16.041s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V05"
+    }
+  ],
+  "categories": [
+    {
+      "id": "Q01",
+      "finding": "Old address → error joke → shorter address → brand line.",
+      "evidence": "V01–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q02",
+      "finding": "Retro browser and enlarged typing establish a web-address story immediately.",
+      "evidence": "V01",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q03",
+      "finding": "Existing users can recognize a domain announcement; the underlying audience/task is not explained.",
+      "evidence": "V01–V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q04",
+      "finding": "The browser reframes into its address field, text changes and error dialogs accumulate. Exact easing unresolved.",
+      "evidence": "V01–V03",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q05",
+      "finding": "Reaction clips punctuate the address change; the landscape returns for the final identity.",
+      "evidence": "V02–V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q06",
+      "finding": "Pixel-style desktop UI contrasts with elegant serif type; bright hills and sky supply nostalgia.",
+      "evidence": "V01–V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q07",
+      "finding": "The domain is the most concrete text. Anyone/to do/Anything is broad positioning rather than a feature explanation.",
+      "evidence": "V03,V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q08",
+      "finding": "Voice delivery is unverified.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "No validated listening.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q09",
+      "finding": "Music character and structure are unverified.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "No validated listening.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q10",
+      "finding": "Effects and their sources are unverified.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "No validated listening; waveform peaks do not identify effects.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q11",
+      "finding": "Sound sync is unverified.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "No validated listening or paired audiovisual timing.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q12",
+      "finding": "Retro UI, landscape and reaction clips are combined; their source and licensing are unknown.",
+      "evidence": "V01–V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q13",
+      "finding": "Source duration 16.041 s; Watch metadata 1280 × 720. Frame rate, audio clipping and export quality not checked here.",
+      "evidence": "Whole film",
+      "status": "supported",
+      "reason": "Parent source metadata supports duration and dimensions; visual review is sampled.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q14",
+      "finding": "The domain replacement is understandable without sound. Product function remains unknown.",
+      "evidence": "V01–V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q15",
+      "finding": "Tight address-bar framing makes the removed prefix easy to notice.",
+      "evidence": "V01,V03",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q16",
+      "finding": "One small announcement fits the short runtime; the reaction interlude occupies several seconds without adding product meaning.",
+      "evidence": "V02,V03",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q17",
+      "finding": "The initial address problem resolves with Anything.com.",
+      "evidence": "V01,V03,V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q18",
+      "finding": "Error windows and reaction clips appear designed as a playful reveal; response unmeasured.",
+      "evidence": "V02,V03",
+      "status": "uncertain",
+      "reason": "Visual interpretation only.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q19",
+      "finding": "Address field and returning wallpaper connect the old and new names.",
+      "evidence": "V01,V03,V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q20",
+      "finding": "This shows a branded domain-change story, not a tested live redirect, ownership record or product workflow.",
+      "evidence": "V01–V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q21",
+      "finding": "The name supports the anyone/anything wordplay; retro-computer style itself is broadly reusable.",
+      "evidence": "V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q22",
+      "finding": "If targeting new users, add one task cue.",
+      "evidence": "V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "Place a short concrete product descriptor under Anything.com in the final landscape."
+    },
+    {
+      "id": "Q23",
+      "finding": "Use a visible text replacement for a naming announcement.",
+      "evidence": "V01,V03",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "For a Tin URL or feature rename, show the old label become the new one inside its real navigation context."
+    },
+    {
+      "id": "Q24",
+      "finding": "No human new-viewer test was performed.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "The product summary is this model’s film-only reading.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q25",
+      "finding": "Mobile preview and accessibility checks were not performed.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "Contact sheets are evidence views, not a stated mobile preview or compliance test.",
+      "experiment": "none"
+    }
+  ],
+  "elements": [
+    {
+      "kind": "ui",
+      "name": "browser address bar",
+      "events": [
+        "V01",
+        "V03"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "error dialog",
+      "events": [
+        "V02"
+      ]
+    },
+    {
+      "kind": "texture",
+      "name": "retro desktop graphics",
+      "events": [
+        "V01",
+        "V02",
+        "V03"
+      ]
+    }
+  ],
+  "lessons": {
+    "keep": "Show the exact text change inside the address field.",
+    "try": [
+      "Add one concrete product descriptor under the final domain.",
+      "For Tin, show a renamed feature inside its real navigation context."
+    ],
+    "avoid": "Expecting a domain announcement to teach a new viewer the product.",
+    "open": "Sound, live domain behavior and asset provenance remain unverified."
+  },
+  "comparison": {
+    "story": "Address problem → shorter domain reveal.",
+    "motion": "Address reframing, typed text and dialog accumulation.",
+    "sound": "No validated listening; absent ASR file does not mean silence.",
+    "texture": "Retro UI, green hills and serif type.",
+    "lesson": "A small naming change benefits from a literal before-and-after."
+  },
+  "reviewer_model": "gpt-6-astra",
+  "scope": "sampled visual and story review; ASR and measured signal support; no validated audio listening",
+  "viewed_evidence": [
+    "technical-review-2026-10-19/deep-review/motion/419/timeline-00.jpg"
+  ],
+  "closer_windows": [],
+  "sound": [
+    {
+      "id": "A01",
+      "start": 0,
+      "end": 16.041,
+      "layer": "unknown",
+      "detail": "No validated audio listening. Voice delivery, music, effects and mix are unknown.",
+      "visual_relation": "All scenes; sound alignment unverified",
+      "evidence": "No actual audio perception in this review; prepared audio files are not listening evidence."
+    }
+  ]
+}

@@ -1,0 +1,359 @@
+{
+  "id": 280,
+  "viewed_evidence": [
+    "technical-review-2026-10-19/deep-review/motion/280/timeline-00.jpg",
+    "technical-review-2026-10-19/deep-review/motion/280/timeline-01.jpg"
+  ],
+  "product_from_film": "Lightreel researches short social videos and creators to suggest marketing ideas.",
+  "explains_well": "A marketing question leads to three named hook patterns with video examples.",
+  "unclear": "The uploaded low-view video and detailed creator-search question never receive visible answers.",
+  "product_type": "social video research",
+  "scenario": "Ask how to market gstack on TikTok and get hook examples",
+  "product_clear_time": 11,
+  "product_clear_basis": "Prompt, video-search count and three labelled hook examples form a clear request/result.",
+  "scenes": [
+    {
+      "start": 0,
+      "end": 3,
+      "action": "Dancing cutout sits beside a meme post about builders needing to dance on TikTok to market their product.",
+      "design": "White background, social post and playful cutout.",
+      "purpose": "Introduce marketing burden",
+      "id": "V01",
+      "evidence": "Visible 1 fps samples, source 0–3s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 3,
+      "end": 7,
+      "action": "Prompt asks how to market gstack on TikTok; Finding TikTok videos count rises from 342 to 412 beside example phrases and thumbnails.",
+      "design": "Minimal prompt and search-status text.",
+      "purpose": "Show research input",
+      "id": "V02",
+      "evidence": "Visible 1 fps samples, source 3–7s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 7,
+      "end": 12,
+      "action": "Three hooks are presented with vertical clips: Youre Using It Wrong, Team of Specialists and Garry Tan/YC.",
+      "design": "Blue intertitle then pink/maroon cards; serif hook titles and small method labels.",
+      "purpose": "Show research output",
+      "id": "V03",
+      "evidence": "Visible 1 fps samples, source 7–12s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 12,
+      "end": 17,
+      "action": "A vertical clip moves into the prompt area; text asks why the video only got 200 views.",
+      "design": "White upload/prompt interface.",
+      "purpose": "Introduce video diagnosis",
+      "id": "V04",
+      "evidence": "Visible 1 fps samples, source 12–17s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 17,
+      "end": 24,
+      "action": "Large UGC and 10000 videos analysed a day claims lead to pattern cards, creator rows and overlapping DETECT/ASK ANYTHING text.",
+      "design": "Blue/white backgrounds, bold condensed type and small results.",
+      "purpose": "Expand research breadth",
+      "id": "V05",
+      "evidence": "Visible 1 fps samples, source 17–24s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 24,
+      "end": 28,
+      "action": "Large request asks for creators with email in bio, 1000+ followers and UCLA affiliation; slogan says AI doomscrolls so you do not have to.",
+      "design": "Centred condensed copy.",
+      "purpose": "Show precise search use and promise",
+      "id": "V06",
+      "evidence": "Visible 1 fps samples, source 24–28s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 28,
+      "end": 30.633,
+      "action": "Lightreel.ai appears with dancing cutout, then Please dont block us Garry joke.",
+      "design": "Blue end card and recurring cutout.",
+      "purpose": "Close with URL and callback",
+      "id": "V07",
+      "evidence": "Visible 1 fps samples, source 28–30.633s; boundaries approximate, between-frame action unresolved."
+    }
+  ],
+  "sound": [
+    {
+      "id": "A01",
+      "start": 0,
+      "end": 30.633,
+      "layer": "unknown",
+      "detail": "No validated audio listening; speech, music, effects, mix and sync remain unverified.",
+      "visual_relation": "All visual scenes; alignment not checked",
+      "evidence": "No actual audio supplied to this review; existing technical-review-2026-10-19/deep-review/audio/280.json is not listening evidence."
+    }
+  ],
+  "categories": [
+    {
+      "finding": "A joke about TikTok marketing leads to a request and three hook examples, then extra diagnosis and creator-search capabilities. Only the first request receives a clear output.",
+      "evidence": "V01–V07",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q01"
+    },
+    {
+      "finding": "Dancing cutout and a meme post establish a social-marketing joke, though the post needs reading to explain it.",
+      "evidence": "V01, 0–2 s",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q02"
+    },
+    {
+      "finding": "By 11 s the prompt-to-hook sequence makes short-video research clear for people marketing a product. Creator discovery is added later.",
+      "evidence": "V02–V03 and V06",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q03"
+    },
+    {
+      "finding": "The search count changes, hook cards replace one another and a video thumbnail moves into the prompt box across 12–16 s. Large type overlays later result cards; exact easing is unresolved.",
+      "evidence": "V02–V05",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q04"
+    },
+    {
+      "finding": "Colour changes separate the hook examples from the white input interface. Rapid capability cuts interrupt the second request before its answer.",
+      "evidence": "V03–V05",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q05"
+    },
+    {
+      "finding": "Plain white UI contrasts with electric blue, maroon and pink intertitles; a dancing cutout adds informal internet humour.",
+      "evidence": "V01–V07",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q06"
+    },
+    {
+      "finding": "The three hook names are useful labels. DETECT and ASK ANYTHING cover part of the detailed result cards, making the actual findings less readable.",
+      "evidence": "V03 and V05",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q07"
+    },
+    {
+      "finding": "Voice presence and delivery remain unverified.",
+      "evidence": "No validated audio listening",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q08"
+    },
+    {
+      "finding": "Music character and arc remain unverified.",
+      "evidence": "No validated audio listening",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q09"
+    },
+    {
+      "finding": "Sound effects remain unverified.",
+      "evidence": "No validated audio listening",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q10"
+    },
+    {
+      "finding": "Sound-to-motion timing remain unverified.",
+      "evidence": "No validated audio listening",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q11"
+    },
+    {
+      "finding": "Social post, vertical video crops, small thumbnails and cutout dancer are combined. Source rights and provenance are not established.",
+      "evidence": "V01–V07",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q12"
+    },
+    {
+      "finding": "Source duration supplied as 30.633s; no independent compression, clipping or delivery check.",
+      "evidence": "Assigned metadata; source integrity checked by parent",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q13"
+    },
+    {
+      "finding": "Prompts and labelled hooks communicate the first task without sound. The 200-view diagnosis is incomplete because no answer is shown.",
+      "evidence": "V02–V04",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q14"
+    },
+    {
+      "finding": "Single prompt and single hook card give clear focus; later oversized type competes with the result cards it is meant to introduce.",
+      "evidence": "V02–V05",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q15"
+    },
+    {
+      "finding": "Three distinct uses arrive in about 30 s. Hook research is understandable, while diagnosis and filtered creator search need more output time.",
+      "evidence": "V02–V06",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q16"
+    },
+    {
+      "finding": "The opening burden of finding marketing ideas is answered by three hooks; the doomscrolling slogan summarises that relief.",
+      "evidence": "V01–V03 and V06",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q17"
+    },
+    {
+      "finding": "The dancer and closing Garry joke appear designed to make a research tool feel native to social media culture. Viewer response was not measured.",
+      "evidence": "V01 and V07",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q18"
+    },
+    {
+      "finding": "The dancing figure bookends the film. The gstack request has a clear output, but later examples switch subjects before completion.",
+      "evidence": "V01–V07",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q19"
+    },
+    {
+      "finding": "The film shows example patterns, search-status counts and creator rows. 10000 daily analysed videos, diagnostic quality and actual filtering are not independently checked.",
+      "evidence": "V02–V06",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q20"
+    },
+    {
+      "finding": "Named hooks, informal marketing meme and doomscrolling wording fit this social-video research service specifically.",
+      "evidence": "V01–V03 and V06",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q21"
+    },
+    {
+      "finding": "Replace one scale claim with the actual answer to the 200-view question or results matching the UCLA creator filter.",
+      "evidence": "V04–V06",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q22"
+    },
+    {
+      "finding": "For a research tool, show one natural-language question, the search state and three labelled examples. Use readable excerpts rather than covering them with slogans.",
+      "evidence": "V02–V05",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q23"
+    },
+    {
+      "finding": "No human new-viewer test; product description above is model interpretation of sampled images.",
+      "evidence": "V01–V07",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q24"
+    },
+    {
+      "finding": "No phone-size, safe-area or flash assessment; small UI text needs separate preview.",
+      "evidence": "Contact sheets",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q25"
+    }
+  ],
+  "lessons": {
+    "keep": "Keep three named hook patterns beside concrete video examples.",
+    "try": [
+      "Finish the 200-view diagnosis with one timestamped weak opening and a suggested replacement hook.",
+      "Show the creator query beside three matching result rows with email, follower count and affiliation fields visible."
+    ],
+    "avoid": "Avoid opening a second research question without showing its answer.",
+    "open": "Audio is unheard; analysis volume, result accuracy and creator-filter coverage remain unverified."
+  },
+  "comparison": {
+    "story": "Introduce marketing burden → Show research input → Show research output → Introduce video diagnosis → Expand research breadth → Show precise search use and promise → Close with URL and callback",
+    "motion": "The search count changes, hook cards replace one another and a video thumbnail moves into the prompt box across 12–16 s. Large type overlays later result cards; exact easing is unresolved.",
+    "sound": "No validated listening; no absence claims.",
+    "texture": "Plain white UI contrasts with electric blue, maroon and pink intertitles; a dancing cutout adds informal internet humour.",
+    "lesson": "Keep three named hook patterns beside concrete video examples."
+  },
+  "elements": [
+    {
+      "kind": "ui",
+      "name": "prompt field",
+      "events": [
+        "V02",
+        "V04"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "video card",
+      "events": [
+        "V03",
+        "V04",
+        "V05"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "social post",
+      "events": [
+        "V01"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "search results",
+      "events": [
+        "V05"
+      ]
+    },
+    {
+      "kind": "motion",
+      "name": "text overlay",
+      "events": [
+        "V05"
+      ]
+    },
+    {
+      "kind": "texture",
+      "name": "cutout figure",
+      "events": [
+        "V01",
+        "V07"
+      ]
+    }
+  ],
+  "reviewer_model": "gpt-6-astra",
+  "scope": "sampled visual and story review; ASR and measured signal support; no validated audio listening",
+  "closer_windows": []
+}

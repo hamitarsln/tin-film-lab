@@ -1,0 +1,342 @@
+{
+  "id": 166,
+  "product_from_film": "Liquid lets a user view a portfolio and request a trade suggestion through a chat interface, then confirm the order.",
+  "explains_well": "The demo follows portfolio request, position request, analysis, suggestion and an explicit confirmation button.",
+  "unclear": "The trade rationale and sizing details are dense and brief compared with the clear prompt and confirmation steps.",
+  "product_type": "conversational trading interface",
+  "scenario": "Ask to see a portfolio, request a long NVDA position, inspect an analysis/suggestion card and select Confirm buy.",
+  "product_clear_time": 21,
+  "product_clear_basis": "The show me my portfolio prompt produces a portfolio card at 21s; the trade workflow follows.",
+  "scenes": [
+    {
+      "start": 0,
+      "end": 7,
+      "action": "Exchange building, newspaper reader, phone operator, keyboard and market table lead to a person surrounded by papers and charts.",
+      "design": "Historical-looking finance imagery and small yellow captions.",
+      "purpose": "Frame market advantage as difficult to obtain.",
+      "evidence": "1 fps source samples in 0–7s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V01"
+    },
+    {
+      "start": 7,
+      "end": 15,
+      "action": "Basketball, aircraft cockpit and parachute scenes lead to a seated outdoor figure. Captions refer to complexity and an elusive edge.",
+      "design": "Sports/adventure imagery with sky and movement.",
+      "purpose": "Express the edge metaphor before the interface.",
+      "evidence": "1 fps source samples in 7–15s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V02"
+    },
+    {
+      "start": 15,
+      "end": 22,
+      "action": "A Liquid toggle-like card leads to a chat field where show me my portfolio is typed and submitted. A portfolio card appears with several holdings.",
+      "design": "Clean white chat, black text and coral submit button.",
+      "purpose": "Show a concrete information request and result.",
+      "evidence": "1 fps source samples in 15–22s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V03"
+    },
+    {
+      "start": 22,
+      "end": 29,
+      "action": "Suggest a long nvda position for me is typed. The answer says it needs current market data; a loading analysis state becomes an NVDA analysis card.",
+      "design": "White chat thread, compact market figures and tool-call-like labels.",
+      "purpose": "Show analysis preceding the suggestion.",
+      "evidence": "1 fps source samples in 22–29s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V04"
+    },
+    {
+      "start": 29,
+      "end": 33,
+      "action": "An NVDA trade suggestion shows size, collateral, entry and setup text. Confirm buy changes through a pending state to Order placed.",
+      "design": "Green action/status button and detailed white card.",
+      "purpose": "Show explicit user confirmation and a claimed execution result.",
+      "evidence": "1 fps source samples in 29–33s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V05"
+    },
+    {
+      "start": 33,
+      "end": 34.566,
+      "action": "Liquid and liquid.trade/coinvest appear on white.",
+      "design": "Black droplet mark and short URL.",
+      "purpose": "Close with the brand and destination.",
+      "evidence": "1 fps source samples in 33–34.566s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V06"
+    }
+  ],
+  "categories": [
+    {
+      "id": "Q01",
+      "finding": "Historic market difficulty → edge metaphor → portfolio chat → analysis → suggestion/confirmation → URL.",
+      "evidence": "V01–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q02",
+      "finding": "An exchange exterior and finance-related scenes identify the market theme before the tool is shown.",
+      "evidence": "V01",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q03",
+      "finding": "The portfolio reply at 21s makes the chat-finance function clear; the later request and confirm action establish trading.",
+      "evidence": "V03–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q04",
+      "finding": "Typed prompts, loading states, card appearance and button status changes are visible. Actual processing and order latency are not established.",
+      "evidence": "V03–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q05",
+      "finding": "The film moves sharply from adventure footage to white chat UI; repeated prompts and NVDA labels then connect the demo steps.",
+      "evidence": "V02–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q06",
+      "finding": "Historical-looking finance and blue-sky adventure footage contrast with a spare white interface.",
+      "evidence": "V01–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q07",
+      "finding": "Prompts and the confirmation button are enlarged, while market numbers and rationale are smaller and pass quickly.",
+      "evidence": "V03–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q08",
+      "finding": "Voice delivery is unverified.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "No validated listening.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q09",
+      "finding": "Music character and structure are unverified.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "No validated listening.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q10",
+      "finding": "Effects and their sources are unverified.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "No validated listening; waveform peaks do not identify effects.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q11",
+      "finding": "Sound sync is unverified.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "No validated listening or paired audiovisual timing.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q12",
+      "finding": "A footage montage is followed by an interface demonstration; capture method and whether the shown transaction is live are unknown.",
+      "evidence": "V01–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q13",
+      "finding": "Source duration 34.566 s; Watch metadata 1920 × 1080. Frame rate, audio clipping and export quality not checked here.",
+      "evidence": "Whole film",
+      "status": "supported",
+      "reason": "Parent source metadata supports duration and dimensions; visual review is sampled.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q14",
+      "finding": "The chat request/result and confirm/order-placed states communicate the workflow silently, though small setup details need more time.",
+      "evidence": "V03–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q15",
+      "finding": "Close views prioritize prompt writing and the green confirmation button; the rationale is subordinate in the card.",
+      "evidence": "V03–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q16",
+      "finding": "About 15s establish the market metaphor, then about 18s show two requests and an order sequence.",
+      "evidence": "V01–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q17",
+      "finding": "The difficult-market setup resolves into a simple conversational workflow; a genuine market advantage is not demonstrated.",
+      "evidence": "V01,V03–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q18",
+      "finding": "Sports and parachute imagery may associate the tool with control and advantage; viewer response is unmeasured.",
+      "evidence": "V02",
+      "status": "uncertain",
+      "reason": "Interpretation of selected imagery.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q19",
+      "finding": "The specific NVDA request is carried into analysis, suggestion and confirmation, creating a coherent task chain.",
+      "evidence": "V04,V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q20",
+      "finding": "The suggested position and order state are shown content, not verified advice or performance. Accuracy, risk treatment and execution were not independently checked.",
+      "evidence": "V04,V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q21",
+      "finding": "Liquid branding and the explicit confirm step give the product a concrete identity within a familiar chat format.",
+      "evidence": "V03,V05,V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q22",
+      "finding": "Give the trade rationale and sizing a short readable pause before confirmation.",
+      "evidence": "V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "Hold the suggestion card with three labeled fields: requested position, proposed size and reason, before the user confirms."
+    },
+    {
+      "id": "Q23",
+      "finding": "For Tin, preserve the visible confirmation step between an AI suggestion and an external action.",
+      "evidence": "V04,V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "Show an agent-proposed campaign change, a readable summary, user approval and the resulting published state."
+    },
+    {
+      "id": "Q24",
+      "finding": "No human new-viewer test was performed.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "The product summary is this model’s film-only reading.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q25",
+      "finding": "Mobile preview and accessibility checks were not performed.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "Contact sheets are evidence views, not a stated mobile preview or compliance test.",
+      "experiment": "none"
+    }
+  ],
+  "elements": [
+    {
+      "kind": "ui",
+      "name": "chat",
+      "events": [
+        "V03",
+        "V04",
+        "V05"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "portfolio cards",
+      "events": [
+        "V03"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "trade suggestion card",
+      "events": [
+        "V05"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "confirmation button",
+      "events": [
+        "V05"
+      ]
+    },
+    {
+      "kind": "motion",
+      "name": "typed prompt",
+      "events": [
+        "V03",
+        "V04"
+      ]
+    }
+  ],
+  "lessons": {
+    "keep": "Show analysis, a proposed action and a separate user confirmation in the same task chain.",
+    "try": [
+      "Hold the proposal with readable position, size and reason before confirmation.",
+      "For Tin, show the proposed campaign change, approval summary and published result as separate visible steps."
+    ],
+    "avoid": "Making the decision rationale harder to read than the action button.",
+    "open": "Rationale clarity, model/tool behavior, market accuracy, execution and audio remain unverified."
+  },
+  "comparison": {
+    "story": "Market difficulty → edge metaphor → portfolio request → trade analysis → user confirmation.",
+    "motion": "Prompt typing, loading and button states; real latency unverified.",
+    "sound": "No validated listening; all sound layers unknown.",
+    "texture": "Finance/archive-like footage, adventure skies and minimal white chat.",
+    "lesson": "A visible confirmation step makes an agent action easier to understand and review."
+  },
+  "reviewer_model": "gpt-6-astra",
+  "scope": "sampled visual and story review; ASR and measured signal support; no validated audio listening",
+  "viewed_evidence": [
+    "technical-review-2026-10-19/deep-review/motion/166/timeline-00.jpg",
+    "technical-review-2026-10-19/deep-review/motion/166/timeline-01.jpg"
+  ],
+  "closer_windows": [],
+  "sound": [
+    {
+      "id": "A01",
+      "start": 0,
+      "end": 34.566,
+      "layer": "unknown",
+      "detail": "No validated audio listening. Voice delivery, music, effects and mix are unknown.",
+      "visual_relation": "All scenes; sound alignment unverified",
+      "evidence": "No actual audio perception in this review; prepared audio files are not listening evidence."
+    }
+  ]
+}

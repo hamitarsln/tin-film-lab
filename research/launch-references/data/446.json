@@ -1,0 +1,375 @@
+{
+  "id": 446,
+  "reviewer_model": "gpt-6-astra",
+  "scope": "sampled visual and story review; ASR and measured signal support; no validated audio listening",
+  "viewed_evidence": [
+    "technical-review-2026-10-19/deep-review/motion/446/timeline-00.jpg",
+    "technical-review-2026-10-19/deep-review/motion/446/timeline-01.jpg",
+    "technical-review-2026-10-19/deep-review/motion/446/timeline-02.jpg",
+    "astra-review-2026-10-20/evidence/group-2/446-6-10-4fps.jpg",
+    "technical-review-2026-10-19/deep-review/audio/446-speech.json"
+  ],
+  "closer_windows": [
+    {
+      "start": 6,
+      "end": 10,
+      "rate_fps": 4,
+      "evidence": [
+        "astra-review-2026-10-20/evidence/group-2/446-6-10-4fps.jpg"
+      ],
+      "resolved": "Cards move laterally and tilt away from the center stack. The street version returns to center, receives a heart overlay and is followed by its full-screen setting. A continuous geometric expansion is not established by the sampled interval."
+    }
+  ],
+  "product_from_film": "Argil Atom pitches generating many speaking-avatar styles from one picture, with brand-detail edits and avatar-library options.",
+  "explains_well": "The same named avatar moves between recognizable settings, making style variation concrete.",
+  "unclear": "The film does not show a script being entered and turned into a finished clip; most examples jump from style card to polished result.",
+  "product_type": "avatar product launch",
+  "scenario": "Create and vary a speaking avatar from one image.",
+  "product_clear_time": 10,
+  "product_clear_basis": "The selected street avatar states the one-picture-to-many-versions proposition.",
+  "scenes": [
+    {
+      "id": "V01",
+      "start": 0,
+      "end": 9,
+      "action": "A woman takes a phone picture in a bathroom; Generate styles leads to a stack of Selena cards. Cards slide past reject and heart symbols until a street version is selected.",
+      "design": "Purple product graphics, rounded cards and a recurring portrait.",
+      "purpose": "Connect one picture with multiple styles.",
+      "evidence": "Visible chronological 1 fps samples, source 0–9s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V02",
+      "start": 9,
+      "end": 24,
+      "action": "The street version speaks, then a yoga card leads to a beach exercise scene before another card selects a changing room.",
+      "design": "Card interludes alternate with full-frame avatar examples.",
+      "purpose": "Show setting, pose and expression variation.",
+      "evidence": "Visible chronological 1 fps samples, source 9–24s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V03",
+      "start": 24,
+      "end": 35,
+      "action": "In a changing room, a small Add a bag prompt and generate control precede a black shoulder bag. A later cursor action leads to a pixel-censored undressing joke.",
+      "design": "Brief control overlay followed by polished output and censor blocks.",
+      "purpose": "Show editing flexibility through a joke.",
+      "evidence": "Visible chronological 1 fps samples, source 24–35s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V04",
+      "start": 35,
+      "end": 50,
+      "action": "A podcast card becomes a neon-lit speaker who describes a customer revenue claim. The view briefly shows an empty chair and microphone, then returns to her.",
+      "design": "Blue-pink studio lighting and repeated card transition.",
+      "purpose": "Present a commercial use claim and artificial-presenter joke.",
+      "evidence": "Visible chronological 1 fps samples, source 35–50s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V05",
+      "start": 50,
+      "end": 62,
+      "action": "A cooking card becomes a kitchen scene; the avatar stirs a pot while warning about competitors, then cards cycle through more styles.",
+      "design": "Warm kitchen and purple selection surface.",
+      "purpose": "Extend the range of usable settings.",
+      "evidence": "Visible chronological 1 fps samples, source 50–62s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V06",
+      "start": 62,
+      "end": 74,
+      "action": "A holiday selfie scene accompanies the builder and 300-avatar claim; a vertical strip of different avatar faces appears.",
+      "design": "Sunlit street, selfie framing and face thumbnails.",
+      "purpose": "Offer alternative starting points.",
+      "evidence": "Visible chronological 1 fps samples, source 62–74s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V07",
+      "start": 74,
+      "end": 86.666,
+      "action": "A dominant-style card leads to a pink scene with a whip prop, then black cards read No more excuses and One picture. Infinite styles. Infinite videos, followed by Argil.",
+      "design": "Pink closing example and small white type on black.",
+      "purpose": "End with a provocative call to make videos.",
+      "evidence": "Visible chronological 1 fps samples, source 74–86.666s; boundary approximate; exact motion between samples unverified."
+    }
+  ],
+  "sound": [
+    {
+      "id": "A01",
+      "start": 0,
+      "end": 86.666,
+      "layer": "unknown",
+      "detail": "No validated direct audio listening was performed. Music, speech delivery, effects, mix and sync remain unknown, not absent.",
+      "visual_relation": "All visual scenes; audiovisual alignment unverified",
+      "evidence": "Visual samples only; no actual audio range supplied to this reviewer."
+    },
+    {
+      "id": "A02",
+      "start": 9.44,
+      "end": 82.55,
+      "layer": "ASR draft",
+      "detail": "The coherent ASR draft explains one-picture avatar variation, brand edits, a customer revenue claim, builder and library options. It supports the pitch structure and jokes. The draft misnames Atom as Adam; the visual product name controls. Heard voice quality, lip sync, music and effects remain unverified.",
+      "visual_relation": "Story text support; exact audiovisual alignment and delivery unverified.",
+      "evidence": "technical-review-2026-10-19/deep-review/audio/446-speech.json; local faster-whisper base CPU int8 draft; VAD candidates only, recognition errors possible."
+    }
+  ],
+  "categories": [
+    {
+      "id": "Q01",
+      "finding": "One photo becomes a set of styles, which expand into several speaking scenes, an edit example, use claims and a closing challenge.",
+      "evidence": "V01–V07",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q02",
+      "finding": "A bathroom selfie gives a concrete starting input before the graphic interface appears.",
+      "evidence": "V01",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q03",
+      "finding": "Video makers and marketers are addressed through repeated avatar examples and the explicit educational, marketing and UGC claim.",
+      "evidence": "V02,V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q04",
+      "finding": "Rounded avatar cards slide and tilt away from a central stack; the chosen street card receives a heart and cuts to a full-screen scene. This was checked at 4 fps from 6–10s. Later examples repeat the card-to-scene pattern.",
+      "evidence": "V01–V07",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q05",
+      "finding": "Returning to the purple card stack separates settings while preserving the named avatar. Each selected card previews the next scene.",
+      "evidence": "V01–V07",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q06",
+      "finding": "Purple UI framing unifies warm outdoor, gold changing-room, neon podcast and pink studio scenes.",
+      "evidence": "V01–V07",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q07",
+      "finding": "Subtitles carry the pitch. The small editing prompt is brief, while style names and final proposition are easier to read.",
+      "evidence": "V01,V03,V07",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q08",
+      "finding": "The coherent ASR draft explains one-picture avatar variation, brand edits, a customer revenue claim, builder and library options. It supports the pitch structure and jokes. The draft misnames Atom as Adam; the visual product name controls. Heard voice quality, lip sync, music and effects remain unverified.",
+      "evidence": "A02",
+      "status": "uncertain",
+      "reason": "ASR text only; no validated listening, delivery or voice origin.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q09",
+      "finding": "Voice delivery, music, effects and audiovisual alignment were not established by this visual pass.",
+      "evidence": "A01",
+      "status": "not checked",
+      "reason": "No validated direct audio listening input.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q10",
+      "finding": "Voice delivery, music, effects and audiovisual alignment were not established by this visual pass.",
+      "evidence": "A01",
+      "status": "not checked",
+      "reason": "No validated direct audio listening input.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q11",
+      "finding": "Voice delivery, music, effects and audiovisual alignment were not established by this visual pass.",
+      "evidence": "A01",
+      "status": "not checked",
+      "reason": "No validated direct audio listening input.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q12",
+      "finding": "Avatar-looking clips, a stylized selection UI, editing overlay, thumbnails and brand cards are combined. The production pipeline is not visible.",
+      "evidence": "V01–V07",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q13",
+      "finding": "Manifest duration 86.666s; indexed dimensions 1920×1080. Source unchanged flag recorded; fresh encoding and audio clipping checks not run.",
+      "evidence": "Group manifest",
+      "status": "uncertain",
+      "reason": "Inherited technical metadata; no fresh media probe in this review.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q14",
+      "finding": "Subtitles, repeated avatar and named cards make the style proposition understandable silently. Voice quality and lip sync remain untested.",
+      "evidence": "V01–V07",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q15",
+      "finding": "Central portraits preserve attention across settings; the bag prompt is less prominent than the presenter and the following censor joke.",
+      "evidence": "V01,V03",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q16",
+      "finding": "Many examples establish variety, but the long revenue and competitor monologues displace a full generation workflow.",
+      "evidence": "V04–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q17",
+      "finding": "The starting photo is answered by many versions of the same named avatar; generating a complete spoken script is not demonstrated.",
+      "evidence": "V01–V07",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q18",
+      "finding": "Beauty, playful editing jokes and direct challenges appear designed to provoke attention. Their audience effect and heard performance are unknown.",
+      "evidence": "V03,V07",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q19",
+      "finding": "The Selena name and similar face connect changing hair, clothing and settings. The card previews make these deliberate variants rather than unexplained scene jumps.",
+      "evidence": "V01–V07",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q20",
+      "finding": "Visible variants and a bag-edit sequence support the intended feature demonstration. Perfect body language, revenue, one-click ease and output consistency remain claims, not verified measurements.",
+      "evidence": "V02–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q21",
+      "finding": "The recurring purple stack and Argil mark keep product identity present even during varied full-screen clips.",
+      "evidence": "V01–V07",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q22",
+      "finding": "Replace one provocative example with script input, generation state and the resulting short spoken clip.",
+      "evidence": "V07",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q23",
+      "finding": "Use a selected preview card as a visual bridge into its output, keeping subject identity stable across varied styles.",
+      "evidence": "V01–V02",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q24",
+      "finding": "Argil Atom pitches generating many speaking-avatar styles from one picture, with brand-detail edits and avatar-library options.",
+      "evidence": "Model reading from inspected images",
+      "status": "uncertain",
+      "reason": "Model-only new-viewer interpretation; no human test.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q25",
+      "finding": "Contact sheets inspected at displayed size; a phone-size playback, caption audit, flash audit and formal accessibility check were not performed.",
+      "evidence": "Viewed sheets",
+      "status": "not checked",
+      "reason": "Full-size moving-image and device checks unavailable in this pass.",
+      "experiment": "none"
+    }
+  ],
+  "lessons": {
+    "keep": "Preview the next output in a card, then reveal that same setting at full size.",
+    "avoid": "Using polished examples and broad quality claims without a visible generation step.",
+    "open": "Generation process, revenue claim, identity consistency, voice quality and lip sync remain unverified.",
+    "try": [
+      "For Tin, select a campaign creative card and reveal the same creative in its destination placement.",
+      "Compare a shorter style montage plus one complete script-to-video step with the current example-heavy pitch."
+    ]
+  },
+  "comparison": {
+    "story": "Connect one picture with multiple styles. → Show setting, pose and expression variation. → Show editing flexibility through a joke. → Present a commercial use claim and artificial-presenter joke. → Extend the range of usable settings. → Offer alternative starting points. → End with a provocative call to make videos.",
+    "motion": "Rounded avatar cards slide and tilt away from a central stack; the chosen street card receives a heart and cuts to a full-screen scene. This was checked at 4 fps from 6–10s. Later examples repeat the card-to-scene pattern. Sampling scope: 1 fps unless a closer window is recorded.",
+    "sound": "No validated listening; unknown.",
+    "texture": "Purple product graphics, rounded cards and a recurring portrait.; Card interludes alternate with full-frame avatar examples.; Brief control overlay followed by polished output and censor blocks.; Blue-pink studio lighting and repeated card transition.; Warm kitchen and purple selection surface.; Sunlit street, selfie framing and face thumbnails.; Pink closing example and small white type on black.",
+    "lesson": "Preview the next output in a card, then reveal that same setting at full size."
+  },
+  "elements": [
+    {
+      "kind": "ui",
+      "name": "avatar cards",
+      "events": [
+        "V01",
+        "V02",
+        "V04",
+        "V05",
+        "V07"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "edit prompt",
+      "events": [
+        "V03"
+      ]
+    },
+    {
+      "kind": "motion",
+      "name": "sliding cards",
+      "events": [
+        "V01",
+        "V02",
+        "V04",
+        "V05",
+        "V07"
+      ]
+    },
+    {
+      "kind": "texture",
+      "name": "purple interface background",
+      "events": [
+        "V01",
+        "V02",
+        "V04",
+        "V05",
+        "V07"
+      ]
+    }
+  ]
+}

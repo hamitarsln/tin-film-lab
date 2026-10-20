@@ -1,0 +1,345 @@
+{
+  "id": 479,
+  "reviewer_model": "gpt-6-astra",
+  "scope": "sampled visual and story review; ASR and measured signal support; no validated audio listening",
+  "viewed_evidence": [
+    "technical-review-2026-10-19/deep-review/motion/479/timeline-00.jpg",
+    "technical-review-2026-10-19/deep-review/motion/479/timeline-01.jpg",
+    "technical-review-2026-10-19/deep-review/audio/479-speech.json"
+  ],
+  "closer_windows": [],
+  "product_from_film": "Cluely frames live web search in meetings as a fortune teller receiving timely information.",
+  "explains_well": "Search panels appear beside each visitor before the fortune teller responds, linking incoming context to an answer.",
+  "unclear": "The joke panels do not show reliable sources or the real search controls, so the actual meeting workflow remains unclear.",
+  "product_type": "live meeting assistant comedy",
+  "scenario": "Look up information during a conversation and use it in a response.",
+  "product_clear_time": 6,
+  "product_clear_basis": "A search panel becomes a salary result beside the first visitor.",
+  "scenes": [
+    {
+      "id": "V01",
+      "start": 0,
+      "end": 2,
+      "action": "Introducing Cluely Web Search overlays a costumed fortune teller holding a crystal ball.",
+      "design": "Warm candlelight, red curtains and large white text.",
+      "purpose": "State the feature through a comic metaphor.",
+      "evidence": "Visible chronological 1 fps samples, source 0–2s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V02",
+      "start": 2,
+      "end": 11,
+      "action": "A visitor appears inside a rounded overlay with a Searching panel. A salary card rises to $600K and a red warning appears before the fortune teller reaction.",
+      "design": "Glowing frame, floating result cards and theatrical props.",
+      "purpose": "Suggest live research about a personal question.",
+      "evidence": "Visible chronological 1 fps samples, source 2–11s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V03",
+      "start": 11,
+      "end": 21,
+      "action": "A second visitor receives a searching panel, then a social-post-like image and a red leadership-related label. The fortune teller responds between these views.",
+      "design": "Repeated overlay grammar and reaction cuts.",
+      "purpose": "Repeat the lookup-and-response pattern.",
+      "evidence": "Visible chronological 1 fps samples, source 11–21s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V04",
+      "start": 21,
+      "end": 30,
+      "action": "A third visitor appears with a search panel and chart. The chart drops and a red card says the coin is down 99 percent; the fortune teller gestures and responds.",
+      "design": "Red graph and warning card against the candlelit room.",
+      "purpose": "Escalate the joke with a financial-risk example.",
+      "evidence": "Visible chronological 1 fps samples, source 21–30s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V05",
+      "start": 30,
+      "end": 33.733,
+      "action": "Web search live in meetings appears over the fortune teller, followed by cluely.com on the scene and then black.",
+      "design": "Large white feature statement and domain.",
+      "purpose": "Translate the metaphor into the product promise.",
+      "evidence": "Visible chronological 1 fps samples, source 30–33.733s; boundary approximate; exact motion between samples unverified."
+    }
+  ],
+  "sound": [
+    {
+      "id": "A01",
+      "start": 0,
+      "end": 33.733,
+      "layer": "unknown",
+      "detail": "No validated direct audio listening was performed. Music, speech delivery, effects, mix and sync remain unknown, not absent.",
+      "visual_relation": "All visual scenes; audiovisual alignment unverified",
+      "evidence": "Visual samples only; no actual audio range supplied to this reviewer."
+    },
+    {
+      "id": "A02",
+      "start": 2.09,
+      "end": 30.45,
+      "layer": "ASR draft",
+      "detail": "The coherent draft supplies three visitor questions about income, a company investment and a coin investment, followed by exaggerated fortune-teller replies. It supports the comic structure only; the claims are not treated as factual advice and delivery is unverified.",
+      "visual_relation": "Story text support; exact audiovisual alignment and delivery unverified.",
+      "evidence": "technical-review-2026-10-19/deep-review/audio/479-speech.json; local faster-whisper base CPU int8 draft; VAD candidates only, recognition errors possible."
+    }
+  ],
+  "categories": [
+    {
+      "id": "Q01",
+      "finding": "A fortune teller setup repeats three visitor-search-response beats before the live-meeting feature close.",
+      "evidence": "V01–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q02",
+      "finding": "A crystal-ball character paired with Web Search creates an immediate comic explanation of apparent knowledge.",
+      "evidence": "V01",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q03",
+      "finding": "People wanting information during conversations are the implied audience; the salary lookup at 6s shows the mechanism as a visual metaphor.",
+      "evidence": "V02",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q04",
+      "finding": "Search cards appear beside visitors, the salary number increases, warning panels replace search states, and a chart falls before reaction cuts.",
+      "evidence": "V02–V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q05",
+      "finding": "The same rounded visitor frame and left-side search panel make three unrelated jokes follow a consistent pattern.",
+      "evidence": "V02–V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q06",
+      "finding": "Candles, red curtains, a crystal ball and warm haze contrast with translucent digital panels.",
+      "evidence": "V01–V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q07",
+      "finding": "Large result numbers and error labels are legible, but source details inside the small social-post panel are not.",
+      "evidence": "V02–V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q08",
+      "finding": "The coherent draft supplies three visitor questions about income, a company investment and a coin investment, followed by exaggerated fortune-teller replies. It supports the comic structure only; the claims are not treated as factual advice and delivery is unverified.",
+      "evidence": "A02",
+      "status": "uncertain",
+      "reason": "ASR text only; no validated listening, delivery or voice origin.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q09",
+      "finding": "Voice delivery, music, effects and audiovisual alignment were not established by this visual pass.",
+      "evidence": "A01",
+      "status": "not checked",
+      "reason": "No validated direct audio listening input.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q10",
+      "finding": "Voice delivery, music, effects and audiovisual alignment were not established by this visual pass.",
+      "evidence": "A01",
+      "status": "not checked",
+      "reason": "No validated direct audio listening input.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q11",
+      "finding": "Voice delivery, music, effects and audiovisual alignment were not established by this visual pass.",
+      "evidence": "A01",
+      "status": "not checked",
+      "reason": "No validated direct audio listening input.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q12",
+      "finding": "Costume comedy footage, floating search panels, result graphics and title cards are visible. Their relationship to the real interface is unverified.",
+      "evidence": "V01–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q13",
+      "finding": "Manifest duration 33.733s; indexed dimensions 1920×1080. Source unchanged flag recorded; fresh encoding and audio clipping checks not run.",
+      "evidence": "Group manifest",
+      "status": "uncertain",
+      "reason": "Inherited technical metadata; no fresh media probe in this review.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q14",
+      "finding": "Feature text establishes live search, while the ASR draft supplies the visitor questions needed to understand each joke.",
+      "evidence": "V02–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q15",
+      "finding": "Bright red warnings and large numbers direct attention away from background props at each punchline.",
+      "evidence": "V02–V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q16",
+      "finding": "Three short examples fit a compact runtime, with little time for source inspection or user controls.",
+      "evidence": "V02–V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q17",
+      "finding": "The repeated visual process is consistent, though each visitor starts a separate topic.",
+      "evidence": "V02–V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q18",
+      "finding": "The costume, crystal ball and exaggerated results aim for absurd humor. Heard performance and musical tone are unknown.",
+      "evidence": "V01–V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q19",
+      "finding": "Conversation context leads to depicted search results and an answer, but no real query entry, source opening or approval action is shown.",
+      "evidence": "V02–V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q20",
+      "finding": "Salary, leadership and coin claims are part of the staged joke and are not verified facts. Search accuracy and live latency are not established.",
+      "evidence": "V02–V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q21",
+      "finding": "Cluely and Web Search appear immediately, and the final card explicitly names live meetings and the domain.",
+      "evidence": "V01,V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q22",
+      "finding": "Keep one joke but add a readable real source result and the action used to open it during a meeting.",
+      "evidence": "V02–V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q23",
+      "finding": "Use one repeated overlay location to show invisible research happening during a conversation.",
+      "evidence": "V02–V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q24",
+      "finding": "Cluely frames live web search in meetings as a fortune teller receiving timely information.",
+      "evidence": "Model reading from inspected images",
+      "status": "uncertain",
+      "reason": "Model-only new-viewer interpretation; no human test.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q25",
+      "finding": "Contact sheets inspected at displayed size; a phone-size playback, caption audit, flash audit and formal accessibility check were not performed.",
+      "evidence": "Viewed sheets",
+      "status": "not checked",
+      "reason": "Full-size moving-image and device checks unavailable in this pass.",
+      "experiment": "none"
+    }
+  ],
+  "lessons": {
+    "keep": "Give background research a stable visible panel beside the ongoing conversation.",
+    "avoid": "Letting comic certainty stand in for a readable source and actual control.",
+    "open": "Real interface fidelity, source reliability, search timing and audio remain unverified.",
+    "try": [
+      "For Tin, show a source panel beside a live campaign discussion and carry one fact into the draft.",
+      "Replace one red joke warning with a real result title, source and open action."
+    ]
+  },
+  "comparison": {
+    "story": "State the feature through a comic metaphor. → Suggest live research about a personal question. → Repeat the lookup-and-response pattern. → Escalate the joke with a financial-risk example. → Translate the metaphor into the product promise.",
+    "motion": "Search cards appear beside visitors, the salary number increases, warning panels replace search states, and a chart falls before reaction cuts. Sampling scope: 1 fps unless a closer window is recorded.",
+    "sound": "No validated listening; unknown.",
+    "texture": "Warm candlelight, red curtains and large white text.; Glowing frame, floating result cards and theatrical props.; Repeated overlay grammar and reaction cuts.; Red graph and warning card against the candlelit room.; Large white feature statement and domain.",
+    "lesson": "Give background research a stable visible panel beside the ongoing conversation."
+  },
+  "elements": [
+    {
+      "kind": "ui",
+      "name": "searching panel",
+      "events": [
+        "V02",
+        "V03",
+        "V04"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "chart",
+      "events": [
+        "V04"
+      ]
+    },
+    {
+      "kind": "motion",
+      "name": "number increase",
+      "events": [
+        "V02"
+      ]
+    },
+    {
+      "kind": "motion",
+      "name": "reaction cuts",
+      "events": [
+        "V02",
+        "V03",
+        "V04"
+      ]
+    },
+    {
+      "kind": "texture",
+      "name": "candlelight",
+      "events": [
+        "V01",
+        "V02"
+      ]
+    }
+  ]
+}

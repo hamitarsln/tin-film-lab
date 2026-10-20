@@ -1,0 +1,360 @@
+{
+  "id": 512,
+  "product_from_film": "Pocket is a small recording device presented with call and live-conversation modes, speaker recognition, action items, summaries and conversation maps.",
+  "explains_well": "Close views isolate the record button and mode switch, then show the kinds of outputs the recording can produce.",
+  "unclear": "No specific recorded conversation is traced into its transcript and summary, so the output cards remain illustrative.",
+  "product_type": "AI recording device",
+  "scenario": "Record a call or conversation and turn it into organized notes and follow-up items.",
+  "product_clear_time": 11,
+  "product_clear_basis": "AI powered recording device is visible around 11s; record and mode controls immediately follow.",
+  "scenes": [
+    {
+      "start": 0,
+      "end": 6,
+      "action": "A presenter sits at a bright table with small devices.",
+      "design": "Daylit room and centered medium shot.",
+      "purpose": "Introduce a physical product.",
+      "evidence": "1 fps source samples in 0–6s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V01"
+    },
+    {
+      "start": 6,
+      "end": 13,
+      "action": "Dark blue-lit device edges lead to Pocket and an AI recording-device description.",
+      "design": "Product close-ups on black.",
+      "purpose": "Reveal shape and function.",
+      "evidence": "1 fps source samples in 6–13s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V02"
+    },
+    {
+      "start": 13,
+      "end": 19,
+      "action": "Record button and live-conversation/phone-call switch are isolated; colored speaker waveforms follow.",
+      "design": "Large hardware controls and waveform panel.",
+      "purpose": "Explain recording modes and claimed speaker recognition.",
+      "evidence": "1 fps source samples in 13–19s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V03"
+    },
+    {
+      "start": 19,
+      "end": 32,
+      "action": "Action-item cards become checked, a summary appears, template categories surround a selected Business Meeting label and a conversation map branches from marketing strategy.",
+      "design": "White and blue cards on black.",
+      "purpose": "Show possible output types.",
+      "evidence": "1 fps source samples in 19–32s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V04"
+    },
+    {
+      "start": 32,
+      "end": 45,
+      "action": "Open Source and privacy wording lead to export icons, four battery lights, a four-day claim, phone attachment and several device colors.",
+      "design": "Blue product renders and white lifestyle-like product display.",
+      "purpose": "Present specifications and options.",
+      "evidence": "1 fps source samples in 32–45s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V05"
+    },
+    {
+      "start": 45,
+      "end": 64,
+      "action": "Presenter holds the device; named color close-ups interrupt, then a phone is held to show attachment.",
+      "design": "Physical object in hand and product inserts.",
+      "purpose": "Connect the renders to scale and carrying.",
+      "evidence": "1 fps source samples in 45–64s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V06"
+    },
+    {
+      "start": 64,
+      "end": 85,
+      "action": "Presenter continues; Limited Time $79 appears near the end.",
+      "design": "Mostly stable medium shot with a price overlay.",
+      "purpose": "Explain positioning and offer through speech.",
+      "evidence": "1 fps source samples in 64–85s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V07"
+    },
+    {
+      "start": 85,
+      "end": 88.32,
+      "action": "Three colored devices appear with Pocket, everyday-companion wording and preorder URL.",
+      "design": "Pale product display with soft shadows.",
+      "purpose": "Close with a destination.",
+      "evidence": "1 fps source samples in 85–88.32s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V08"
+    }
+  ],
+  "sound": [
+    {
+      "id": "A01",
+      "start": 0,
+      "end": 88.32,
+      "layer": "ASR script support",
+      "detail": "The draft supports an introduction, named colors, phone attachment, storage/open-source claims and a preorder offer. The central graphic segment has no useful draft speech; that is not proof of silence. Some storage wording is incomplete. Delivery, music, effects and sync were not heard.",
+      "visual_relation": "V01,V06–V08 contain the usable presenter script; V02–V05 are read visually.",
+      "evidence": "Local 512-speech.json draft and visible labels."
+    }
+  ],
+  "categories": [
+    {
+      "id": "Q01",
+      "finding": "Reveal hardware → controls → outputs → specifications → presenter and offer.",
+      "evidence": "V01–V08",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q02",
+      "finding": "Presenter invitation leads into dark close-ups that conceal then reveal the device.",
+      "evidence": "V01,V02",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q03",
+      "finding": "The recording-device label and large physical controls explain the category by 13s.",
+      "evidence": "V02,V03",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q04",
+      "finding": "Button/switch views, checked-card states and branching map states explain functions; exact movement timing unverified.",
+      "evidence": "V03,V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q05",
+      "finding": "Hardware close-ups give way to output cards and return to hardware before the presenter.",
+      "evidence": "V02–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q06",
+      "finding": "Blue highlights on black create product contrast; the bright presenter room provides a warmer physical reference.",
+      "evidence": "V01–V08",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q07",
+      "finding": "Mode names and feature labels are large; longer summary text and template details are denser.",
+      "evidence": "V03–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q08",
+      "finding": "Partial ASR supports presenter claims but not heard delivery; the middle segment lacks useful transcript text.",
+      "evidence": "A01",
+      "status": "uncertain",
+      "reason": "No validated listening.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q09",
+      "finding": "Music character and structure are unverified.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "No validated listening.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q10",
+      "finding": "Effects and their sources are unverified.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "No validated listening; waveform peaks do not identify effects.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q11",
+      "finding": "Sound sync is unverified.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "No validated listening or paired audiovisual timing.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q12",
+      "finding": "Presenter footage, product renders, UI-like output cards and map graphics are visible; production sources and live behavior unverified.",
+      "evidence": "V01–V08",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q13",
+      "finding": "Source duration 88.32 s; Watch metadata 1920 × 1080. Frame rate, audio clipping and export quality not checked here.",
+      "evidence": "Whole film",
+      "status": "supported",
+      "reason": "Parent source metadata supports duration and dimensions; visual review is sampled.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q14",
+      "finding": "Controls and output categories are readable without sound; the later presenter-only stretch relies on speech.",
+      "evidence": "V03,V04,V07",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q15",
+      "finding": "Large close-ups direct attention to one control at a time before widening to device variants.",
+      "evidence": "V03,V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q16",
+      "finding": "A compact graphic demonstration occupies roughly 6–45s; the latter half repeats or expands the offer through presenter footage.",
+      "evidence": "V02–V08",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q17",
+      "finding": "Recording controls lead to plausible output examples, but the same source conversation is not shown.",
+      "evidence": "V03,V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q18",
+      "finding": "Metallic-looking detail and physical handling may suggest a tangible premium object; audience response unmeasured.",
+      "evidence": "V02,V06",
+      "status": "uncertain",
+      "reason": "Visual interpretation.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q19",
+      "finding": "The same slim device links close-ups, phone attachment, colors and hand-held scale.",
+      "evidence": "V02,V05,V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q20",
+      "finding": "Speaker recognition, battery life, privacy, open-source scope, storage, export behavior and current preorder price are unverified film claims.",
+      "evidence": "V03–V08",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q21",
+      "finding": "Physical mode and record controls distinguish this from a software-only note-taking demo.",
+      "evidence": "V03",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q22",
+      "finding": "Trace one short recording into an output.",
+      "evidence": "V03,V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "Show a named conversation sentence and its matching action item before expanding to other output types."
+    },
+    {
+      "id": "Q23",
+      "finding": "Make input and output visibly related.",
+      "evidence": "V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "For Tin, show one meeting decision becoming the same named campaign task."
+    },
+    {
+      "id": "Q24",
+      "finding": "No human new-viewer test was performed.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "The product summary is this model’s film-only reading.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q25",
+      "finding": "Mobile preview and accessibility checks were not performed.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "Contact sheets are evidence views, not a stated mobile preview or compliance test.",
+      "experiment": "none"
+    }
+  ],
+  "elements": [
+    {
+      "kind": "ui",
+      "name": "speaker waveform",
+      "events": [
+        "V03"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "action checklist",
+      "events": [
+        "V04"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "summary card",
+      "events": [
+        "V04"
+      ]
+    },
+    {
+      "kind": "texture",
+      "name": "conversation map",
+      "events": [
+        "V04"
+      ]
+    },
+    {
+      "kind": "texture",
+      "name": "hardware close-up",
+      "events": [
+        "V02",
+        "V03",
+        "V05"
+      ]
+    }
+  ],
+  "lessons": {
+    "keep": "Isolate physical controls before introducing output types.",
+    "try": [
+      "Trace one recorded sentence into its matching action item.",
+      "For Tin, carry one meeting decision into the same named campaign task."
+    ],
+    "avoid": "Letting generic output cards imply a demonstrated recording-to-summary result.",
+    "open": "Recording accuracy, specifications, privacy, current offer and sound remain unverified."
+  },
+  "comparison": {
+    "story": "Hardware reveal and feature tour followed by presenter offer.",
+    "motion": "Control close-ups, checked cards and branching map states.",
+    "sound": "Partial presenter ASR only; no listening.",
+    "texture": "Blue metallic-looking product imagery and bright room footage.",
+    "lesson": "Physical controls are clear; one traceable conversation would complete the workflow."
+  },
+  "reviewer_model": "gpt-6-astra",
+  "scope": "sampled visual and story review; ASR and measured signal support; no validated audio listening",
+  "viewed_evidence": [
+    "technical-review-2026-10-19/deep-review/motion/512/timeline-00.jpg",
+    "technical-review-2026-10-19/deep-review/motion/512/timeline-01.jpg",
+    "technical-review-2026-10-19/deep-review/motion/512/timeline-02.jpg"
+  ],
+  "closer_windows": []
+}

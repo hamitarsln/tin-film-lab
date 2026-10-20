@@ -1,0 +1,358 @@
+{
+  "id": 328,
+  "reviewer_model": "gpt-6-astra",
+  "scope": "sampled visual and story review; ASR and measured signal support; no validated audio listening",
+  "viewed_evidence": [
+    "technical-review-2026-10-19/deep-review/motion/328/timeline-00.jpg",
+    "technical-review-2026-10-19/deep-review/motion/328/timeline-01.jpg",
+    "technical-review-2026-10-19/deep-review/audio/328-speech.json"
+  ],
+  "closer_windows": [],
+  "product_from_film": "Bitmor presents automatic daily Bitcoin accumulation with goals, streaks and milestones.",
+  "explains_well": "The setup shows a daily amount, a Bitcoin target, a token choice and a plan-start action.",
+  "unclear": "A $10-a-day, ten-year example jumps to $1,000,000 without a visible explanation of the assumed price growth.",
+  "product_type": "crypto savings habit",
+  "scenario": "Set a recurring Bitcoin purchase plan and track its streak and milestones.",
+  "product_clear_time": 7,
+  "product_clear_basis": "Daily contribution, BTC target, USDC choice and Stack on autopilot establish the recurring-plan offer.",
+  "scenes": [
+    {
+      "id": "V01",
+      "start": 0,
+      "end": 10,
+      "action": "An orange collectible-style portrait card leads to a daily contribution form with $5, a BTC target and USDC token choice. Set your goal, Load your wallet and Stack on autopilot accompany a Starting Plan button. Bitmor appears over an orange horizon.",
+      "design": "Orange card art, dark navy UI and bright orange controls.",
+      "purpose": "Introduce the brand and a short setup sequence.",
+      "evidence": "Visible chronological 1 fps samples, source 0–10s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V02",
+      "start": 10,
+      "end": 20,
+      "action": "ZERO FEE, LOW FEE and ZERO text cards precede a portrait card, a film-like crowd insert, a slot machine with token icons and a large Bitcoin symbol.",
+      "design": "Grainy orange gradients, pixel lettering and mixed illustrative inserts.",
+      "purpose": "State fee and Bitcoin-only positioning through strong contrasts.",
+      "evidence": "Visible chronological 1 fps samples, source 10–20s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V03",
+      "start": 20,
+      "end": 32,
+      "action": "An orange activity heatmap leads to a circular day counter progressing to Day 100. A phone shows milestone badges for 150 days and Year 2, 730 days.",
+      "design": "Dark habit dashboard, segmented progress ring and badge cards.",
+      "purpose": "Make recurring purchases feel like a trackable habit.",
+      "evidence": "Visible chronological 1 fps samples, source 20–32s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V04",
+      "start": 32,
+      "end": 39,
+      "action": "A contribution panel shows $10 and 10 Years. It is followed by $1,000,000 and an ascending bar chart under Watch your Stack grow.",
+      "design": "Large pixel number and orange-tipped gray bars.",
+      "purpose": "Present a growth illustration without visible return assumptions.",
+      "evidence": "Visible chronological 1 fps samples, source 32–39s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V05",
+      "start": 39,
+      "end": 50.208,
+      "action": "Text says the viewer has been paying someone to press Buy, followed by Not anymore. Buy a Bit More, Every day, Starting at $1/day, Built on Base and Link below close the film.",
+      "design": "Orange text on black/red glow with block-like border shapes.",
+      "purpose": "Restate automatic buying, minimum amount and a social-post link direction.",
+      "evidence": "Visible chronological 1 fps samples, source 39–50.208s; boundary approximate; exact motion between samples unverified."
+    }
+  ],
+  "sound": [
+    {
+      "id": "A01",
+      "start": 0,
+      "end": 50.208,
+      "layer": "unknown",
+      "detail": "No validated direct audio listening was performed. Music, speech delivery, effects, mix and sync remain unknown, not absent.",
+      "visual_relation": "All visual scenes; audiovisual alignment unverified",
+      "evidence": "Visual samples only; no actual audio range supplied to this reviewer."
+    },
+    {
+      "id": "A02",
+      "start": 0,
+      "end": 49.84,
+      "layer": "ASR draft",
+      "detail": "The ASR draft supports automatic daily Bitcoin buying, zero-fee/no-KYC positioning, goals and milestones, and the $10-a-day/ten-year/million-dollar claim. It mistranscribes Bitmor and streak. The trailing apology after the known source end is rejected as unreliable.",
+      "visual_relation": "Story text support; exact audiovisual alignment and delivery unverified.",
+      "evidence": "technical-review-2026-10-19/deep-review/audio/328-speech.json; local faster-whisper base CPU int8 draft; VAD candidates only, recognition errors possible."
+    }
+  ],
+  "categories": [
+    {
+      "id": "Q01",
+      "finding": "Setup and positioning lead to habit tracking, a growth claim and a low-entry call to action.",
+      "evidence": "V01–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q02",
+      "finding": "The collectible portrait card establishes a playful crypto style before the setup appears.",
+      "evidence": "V01",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q03",
+      "finding": "The recurring purchase plan is visible by about 7 s.",
+      "evidence": "V01",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q04",
+      "finding": "Day segments fill, milestone badges replace each other and the chart rises. These are illustrative progress states, not evidence of elapsed use.",
+      "evidence": "V03,V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q05",
+      "finding": "Orange controls connect the setup to streaks and growth, but the contribution changes from $5 to $10 for a separate example.",
+      "evidence": "V01,V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q06",
+      "finding": "Orange, dark navy and pixel type unify software screens with collectible-card and arcade imagery.",
+      "evidence": "V01–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q07",
+      "finding": "Goals and milestone totals are clear. The growth claim is much larger than any visible assumption or qualification.",
+      "evidence": "V03,V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q08",
+      "finding": "The ASR draft supports automatic daily Bitcoin buying, zero-fee/no-KYC positioning, goals and milestones, and the $10-a-day/ten-year/million-dollar claim. It mistranscribes Bitmor and streak. The trailing apology after the known source end is rejected as unreliable.",
+      "evidence": "A02",
+      "status": "uncertain",
+      "reason": "ASR text only; no validated listening, delivery or voice origin.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q09",
+      "finding": "Voice delivery, music, effects and audiovisual alignment were not established by this visual pass.",
+      "evidence": "A01",
+      "status": "not checked",
+      "reason": "No validated direct audio listening input.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q10",
+      "finding": "Voice delivery, music, effects and audiovisual alignment were not established by this visual pass.",
+      "evidence": "A01",
+      "status": "not checked",
+      "reason": "No validated direct audio listening input.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q11",
+      "finding": "Voice delivery, music, effects and audiovisual alignment were not established by this visual pass.",
+      "evidence": "A01",
+      "status": "not checked",
+      "reason": "No validated direct audio listening input.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q12",
+      "finding": "UI graphics, stylized portraits, a film-like insert and rendered-looking coin imagery are visible. Their origin and production tools are unknown.",
+      "evidence": "V01–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q13",
+      "finding": "Manifest duration 50.208s; indexed dimensions 1920×1080. Source unchanged flag recorded; fresh encoding and audio clipping checks not run.",
+      "evidence": "Group manifest",
+      "status": "uncertain",
+      "reason": "Inherited technical metadata; no fresh media probe in this review.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q14",
+      "finding": "On-screen instructions and numbers convey the main flow. Some positioning depends on the ASR draft because isolated words omit the full sentence.",
+      "evidence": "V01,V02",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q15",
+      "finding": "The habit ring and million-dollar number dominate attention; transaction details and growth assumptions receive little space.",
+      "evidence": "V03,V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q16",
+      "finding": "The setup takes under 10 s, habit features appear at 20 s and the forecast gets a short but prominent seven-second section.",
+      "evidence": "V01–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q17",
+      "finding": "Starting Plan and streak illustrations show intended usage, but a completed purchase receipt is not shown. The million-dollar figure is not a demonstrated outcome.",
+      "evidence": "V01,V03,V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q18",
+      "finding": "Badges and streaks frame saving as a game-like daily achievement; this is a creative reading.",
+      "evidence": "V03",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q19",
+      "finding": "The film moves from recurring contribution settings to a future wealth total without explaining the calculation.",
+      "evidence": "V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q20",
+      "finding": "Zero-fee, no-KYC and growth claims are not verified. The $1,000,000 figure depends on unstated assumptions beyond simply contributing $10 per day.",
+      "evidence": "V02,V04; ASR draft",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q21",
+      "finding": "BTC targets, token selection and daily streak badges give the recurring purchase idea a specific interface.",
+      "evidence": "V01,V03",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q22",
+      "finding": "Label the growth scene as an illustration and show contribution total, price-growth assumption and a range of outcomes together.",
+      "evidence": "V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q23",
+      "finding": "Tin can use milestones to explain repeated work, while separating observed activity from projected results.",
+      "evidence": "V03,V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q24",
+      "finding": "Bitmor presents automatic daily Bitcoin accumulation with goals, streaks and milestones.",
+      "evidence": "Model reading from inspected images",
+      "status": "uncertain",
+      "reason": "Model-only new-viewer interpretation; no human test.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q25",
+      "finding": "Contact sheets inspected at displayed size; a phone-size playback, caption audit, flash audit and formal accessibility check were not performed.",
+      "evidence": "Viewed sheets",
+      "status": "not checked",
+      "reason": "Full-size moving-image and device checks unavailable in this pass.",
+      "experiment": "none"
+    }
+  ],
+  "lessons": {
+    "keep": "Use a simple progress ring and milestones to explain a recurring routine.",
+    "avoid": "Avoid presenting a large future total as the automatic consequence of a small recurring input.",
+    "open": "Purchase execution, fees and network costs, custody, growth assumptions, availability and all heard audio remain unverified.",
+    "try": [
+      "For Tin, show a streak of completed review tasks with a clear definition of what counts.",
+      "Keep projected campaign outcomes separate from completed actions and display the forecast assumptions."
+    ]
+  },
+  "comparison": {
+    "story": "Introduce the brand and a short setup sequence. → State fee and Bitcoin-only positioning through strong contrasts. → Make recurring purchases feel like a trackable habit. → Present a growth illustration without visible return assumptions. → Restate automatic buying, minimum amount and a social-post link direction.",
+    "motion": "Day segments fill, milestone badges replace each other and the chart rises. These are illustrative progress states, not evidence of elapsed use. Sampling scope: 1 fps unless a closer window is recorded.",
+    "sound": "No validated listening; unknown.",
+    "texture": "Orange card art, dark navy UI and bright orange controls.; Grainy orange gradients, pixel lettering and mixed illustrative inserts.; Dark habit dashboard, segmented progress ring and badge cards.; Large pixel number and orange-tipped gray bars.; Orange text on black/red glow with block-like border shapes.",
+    "lesson": "Use a simple progress ring and milestones to explain a recurring routine."
+  },
+  "elements": [
+    {
+      "kind": "ui",
+      "name": "plan form",
+      "events": [
+        "V01",
+        "V04"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "activity heatmap",
+      "events": [
+        "V03"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "progress ring",
+      "events": [
+        "V03"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "milestone badge",
+      "events": [
+        "V03"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "bar chart",
+      "events": [
+        "V04"
+      ]
+    },
+    {
+      "kind": "texture",
+      "name": "pixel typography",
+      "events": [
+        "V02",
+        "V04",
+        "V05"
+      ]
+    },
+    {
+      "kind": "texture",
+      "name": "collectible card art",
+      "events": [
+        "V01",
+        "V02"
+      ]
+    }
+  ]
+}

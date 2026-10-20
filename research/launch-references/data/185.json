@@ -1,0 +1,383 @@
+{
+  "id": 185,
+  "viewed_evidence": [
+    "technical-review-2026-10-19/deep-review/motion/185/timeline-00.jpg",
+    "technical-review-2026-10-19/deep-review/motion/185/timeline-01.jpg",
+    "technical-review-2026-10-19/deep-review/motion/185/timeline-02.jpg",
+    "technical-review-2026-10-19/deep-review/audio/185-speech.json",
+    "astra-review-2026-10-20/evidence/group-3/185/dense.jpg"
+  ],
+  "product_from_film": "LightSprint combines visual feature planning, team collaboration and cloud development agents.",
+  "explains_well": "One referral-program example links visual options, decisions, agent work and an app preview.",
+  "unclear": "The film does not independently establish code correctness, test execution or merge success.",
+  "product_type": "developer collaboration",
+  "scenario": "Plan a referral feature with teammates and send it to a cloud agent for preview and merge.",
+  "product_clear_time": 19,
+  "product_clear_basis": "Referral-program request enters a planning interface; visual options appear at 23 s.",
+  "scenes": [
+    {
+      "start": 0,
+      "end": 10,
+      "action": "Software is built by teams appears; labelled people cursors separate into three dark code/chat windows before out-of-sync statement.",
+      "design": "Dark brown field, serif text and cyan/pink/purple name tags.",
+      "purpose": "Show isolated development work",
+      "id": "V01",
+      "evidence": "Visible 1 fps samples, source 0–10s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 10,
+      "end": 16,
+      "action": "Glowing square mark and LightSprint name appear, then issue cards and people labels surround collaborative claim.",
+      "design": "Amber logo and warm dark typography.",
+      "purpose": "Introduce shared agent work",
+      "id": "V02",
+      "evidence": "Visible 1 fps samples, source 10–16s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 16,
+      "end": 25,
+      "action": "Referral-program request types into a planning field; planning state gives way to several dashboard options.",
+      "design": "Bright white interface, orange cursor and accent controls.",
+      "purpose": "Show visual planning input and alternatives",
+      "id": "V03",
+      "evidence": "Visible 1 fps samples, source 16–25s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 25,
+      "end": 32,
+      "action": "Decision questions lead to refined referral design; Cloud Agents panel shows several choices and create-agent control.",
+      "design": "Product questions, preview card and provider icons.",
+      "purpose": "Move from decisions to execution",
+      "id": "V04",
+      "evidence": "Visible 1 fps samples, source 25–32s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 32,
+      "end": 41,
+      "action": "Task board changes, cloud-session toast appears, then isolated Preview control becomes a tilted referral panel and full rewards app.",
+      "design": "White board, orange preview button and blue referral panel.",
+      "purpose": "Show work tracking and live preview",
+      "id": "V05",
+      "evidence": "Visible 1 fps samples, source 32–41s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 41,
+      "end": 48,
+      "action": "Board gains multiple app preview cards; E2E, unit-test and typecheck labels lead to green Merge control.",
+      "design": "Floating previews, green checkmarks and enlarged action word.",
+      "purpose": "Present verification and merge",
+      "id": "V06",
+      "evidence": "Visible 1 fps samples, source 41–48s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 48,
+      "end": 53,
+      "action": "Team role cursors and orange AI-agent labels occupy multiple board cards under parallel-work claims.",
+      "design": "Shared board with human and agent labels.",
+      "purpose": "Extend to concurrent teamwork",
+      "id": "V07",
+      "evidence": "Visible 1 fps samples, source 48–53s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 53,
+      "end": 66.133,
+      "action": "Orange gradient carries team-multiplication claim and free trial; white field shows URL and assembling square mark.",
+      "design": "Warm gradient, serif headlines and final LightSprint logo.",
+      "purpose": "Invite trial",
+      "id": "V08",
+      "evidence": "Visible 1 fps samples, source 53–66.133s; boundaries approximate, between-frame action unresolved."
+    }
+  ],
+  "sound": [
+    {
+      "id": "A01",
+      "start": 0,
+      "end": 66.133,
+      "layer": "unknown",
+      "detail": "No validated audio listening; speech, music, effects, mix and sync remain unverified.",
+      "visual_relation": "All visual scenes; alignment not checked",
+      "evidence": "No actual audio supplied to this review; existing technical-review-2026-10-19/deep-review/audio/185.json is not listening evidence."
+    },
+    {
+      "id": "A02",
+      "start": 0.17,
+      "end": 58.038,
+      "layer": "ASR draft",
+      "detail": "Four candidate windows describe isolated local agents, collaborative visual planning, cloud work, separate preview environments, tests and merge. These are script claims; the phrase agentic is malformed in the draft. Sound delivery and sync are unknown.",
+      "visual_relation": "V01–V08; text-only script support",
+      "evidence": "technical-review-2026-10-19/deep-review/audio/185-speech.json; existing faster-whisper base CPU int8; four VAD windows"
+    }
+  ],
+  "categories": [
+    {
+      "finding": "Isolated developers become a shared workflow: describe referral feature, compare designs, choose decisions, run agent, preview and merge.",
+      "evidence": "V01–V08",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q01"
+    },
+    {
+      "finding": "Software expands into Software is built by teams; no concrete task appears yet.",
+      "evidence": "V01, 0–2 s",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q02"
+    },
+    {
+      "finding": "Collaborative agent development is claimed at 13–15 s; referral planning is concrete at 19–24 s.",
+      "evidence": "V02,V03",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q03"
+    },
+    {
+      "finding": "Labelled cursors move between work cards. In dense 35–39 s samples, Preview isolates at 36.25 s, referral panel appears tilted at 37.5 s, enlarges through 38.25 s, then full app surrounds it by 38.5 s. Exact easing unresolved.",
+      "evidence": "V01,V05,V07; dense 35–39 s",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q04"
+    },
+    {
+      "finding": "Dark isolated-work setup turns white for the product demonstration; the isolated preview grows into its app context.",
+      "evidence": "V02,V03,V05",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q05"
+    },
+    {
+      "finding": "Warm brown and amber branding contrasts with clean white software views; faint grid and soft orange glow support the preview.",
+      "evidence": "V01–V08",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q06"
+    },
+    {
+      "finding": "Large serif statements explain stages while actual UI carries detailed planning choices and task titles. Tests are simplified labels rather than readable results.",
+      "evidence": "V03–V06",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q07"
+    },
+    {
+      "finding": "Voice presence and delivery remain unverified.",
+      "evidence": "No validated audio listening",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q08"
+    },
+    {
+      "finding": "Music character and arc remain unverified.",
+      "evidence": "No validated audio listening",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q09"
+    },
+    {
+      "finding": "Sound effects remain unverified.",
+      "evidence": "No validated audio listening",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q10"
+    },
+    {
+      "finding": "Sound-to-motion timing remain unverified.",
+      "evidence": "No validated audio listening",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q11"
+    },
+    {
+      "finding": "Illustrated cursors, software screens, provider icons and dimensional preview cards build the film; production stack is unknown.",
+      "evidence": "V01–V08",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q12"
+    },
+    {
+      "finding": "Source duration supplied as 66.133s; no independent compression, clipping or delivery check.",
+      "evidence": "Assigned metadata; source integrity checked by parent",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q13"
+    },
+    {
+      "finding": "On-screen claims and referral example convey planning, agents and previews without sound; some workflow detail comes from small interface text.",
+      "evidence": "V03–V07",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q14"
+    },
+    {
+      "finding": "Orange action controls and cursors guide the white demo; multiple human/agent labels become a busier focus near the end.",
+      "evidence": "V03,V05,V07",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q15"
+    },
+    {
+      "finding": "The full plan-to-merge workflow is compressed into about 32 s; individual options and verification details have limited reading time.",
+      "evidence": "V03–V06",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q16"
+    },
+    {
+      "finding": "The isolated-team opening is answered by role-labelled people and agents sharing one board.",
+      "evidence": "V01,V07",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q17"
+    },
+    {
+      "finding": "Dark separation to bright shared workspace appears designed to suggest coordination and progress.",
+      "evidence": "V01,V03,V07; interpretation",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q18"
+    },
+    {
+      "finding": "The referral-program title and reward panel remain traceable through planning, task cards and preview.",
+      "evidence": "V03–V05",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q19"
+    },
+    {
+      "finding": "UI states and test-pass labels are shown, but real code execution, isolation, successful tests and merge are not independently established.",
+      "evidence": "V04–V06",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q20"
+    },
+    {
+      "finding": "Visual planning choices connected to a referral preview are more specific than generic agent-provider logos.",
+      "evidence": "V03–V05",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q21"
+    },
+    {
+      "finding": "Keep the referral example, reduce a parallel-work claim hold, and show one actual test result tied to its task.",
+      "evidence": "V06–V08",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q22"
+    },
+    {
+      "finding": "For a feature-building demo, preserve one named feature across planning options, task board and resulting application panel.",
+      "evidence": "V03–V05",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q23"
+    },
+    {
+      "finding": "No human new-viewer test; product description above is model interpretation of sampled images.",
+      "evidence": "V01–V08",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q24"
+    },
+    {
+      "finding": "No phone-size, safe-area or flash assessment; small UI text needs separate preview.",
+      "evidence": "Contact sheets",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q25"
+    }
+  ],
+  "lessons": {
+    "keep": "Keep the same named feature visible from planning through the resulting application preview.",
+    "try": [
+      "For a referral-feature demo, show two design options, the selected option and its matching final panel together.",
+      "Build a preview transition from an isolated feature card to its full app context, holding each readable state."
+    ],
+    "avoid": "Avoid treating large green test labels as evidence of a verified build.",
+    "open": "How closely does the generated feature match selected decisions, and what tests actually ran?"
+  },
+  "comparison": {
+    "story": "Show isolated development work → Introduce shared agent work → Show visual planning input and alternatives → Move from decisions to execution → Show work tracking and live preview → Present verification and merge → Extend to concurrent teamwork → Invite trial",
+    "motion": "Labelled cursors move between work cards. In dense 35–39 s samples, Preview isolates at 36.25 s, referral panel appears tilted at 37.5 s, enlarges through 38.25 s, then full app surrounds it by 38.5 s. Exact easing unresolved.",
+    "sound": "No validated listening; no absence claims.",
+    "texture": "Warm brown and amber branding contrasts with clean white software views; faint grid and soft orange glow support the preview.",
+    "lesson": "Keep the same named feature visible from planning through the resulting application preview."
+  },
+  "elements": [
+    {
+      "kind": "ui",
+      "name": "board",
+      "events": [
+        "V05",
+        "V07"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "form",
+      "events": [
+        "V03",
+        "V04"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "product preview",
+      "events": [
+        "V05",
+        "V06"
+      ]
+    },
+    {
+      "kind": "motion",
+      "name": "panel expands",
+      "events": [
+        "V05"
+      ]
+    },
+    {
+      "kind": "motion",
+      "name": "collaborator cursors",
+      "events": [
+        "V01",
+        "V07"
+      ]
+    }
+  ],
+  "reviewer_model": "gpt-6-astra",
+  "scope": "sampled visual and story review; ASR and measured signal support; no validated audio listening",
+  "closer_windows": [
+    {
+      "start": 35,
+      "end": 39,
+      "rate_fps": 4,
+      "evidence": [
+        "astra-review-2026-10-20/evidence/group-3/185/dense.jpg"
+      ],
+      "resolved": "Labelled cursors move between work cards. In dense 35–39 s samples, Preview isolates at 36.25 s, referral panel appears tilted at 37.5 s, enlarges through 38.25 s, then full app surrounds it by 38.5 s. Exact easing unresolved."
+    }
+  ]
+}

@@ -1,0 +1,348 @@
+{
+  "id": 260,
+  "reviewer_model": "gpt-6-astra",
+  "scope": "sampled visual and story review; ASR and measured signal support; no validated audio listening",
+  "viewed_evidence": [
+    "technical-review-2026-10-19/deep-review/motion/260/timeline-00.jpg",
+    "technical-review-2026-10-19/deep-review/motion/260/timeline-01.jpg",
+    "technical-review-2026-10-19/deep-review/audio/260-speech.json"
+  ],
+  "closer_windows": [],
+  "product_from_film": "Wavelength is presented as a conversational dating service that suggests a match and asks for feedback afterward.",
+  "explains_well": "One woman moves from frustration to a specific introduction and a real-world meeting.",
+  "unclear": "The film does not show how the service learns her preferences, confirms mutual interest or arranges the meeting.",
+  "product_type": "dating assistant",
+  "scenario": "Receive a suggested match through a phone conversation and meet him.",
+  "product_clear_time": 25,
+  "product_clear_basis": "The conversation introduces a named filmmaker after the match notification.",
+  "scenes": [
+    {
+      "id": "V01",
+      "start": 0,
+      "end": 12,
+      "action": "A man on a scooter, a woman outside and an exaggerated flower-offering scene lead to her frustrated reactions in several places. She slumps on a sofa, then a phone appears on a table.",
+      "design": "Quick live-action setup with expressive gestures.",
+      "purpose": "Establish disappointment with dating.",
+      "evidence": "Visible chronological 1 fps samples, source 0–12s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V02",
+      "start": 12,
+      "end": 25,
+      "action": "A Wavelength notification says I have found someone for you. She picks up the phone, holds it near her mouth and reacts during a conversation. Yellow captions describe not connecting with anyone and not exploring enough.",
+      "design": "Phone close-ups and warm room light.",
+      "purpose": "Introduce a conversational recommendation.",
+      "evidence": "Visible chronological 1 fps samples, source 12–25s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V03",
+      "start": 25,
+      "end": 38,
+      "action": "Captions introduce Karan, a filmmaker, and suggest why she may like him. Her expression changes from skeptical to smiling; she turns toward a wardrobe.",
+      "design": "Alternating face and phone close-ups.",
+      "purpose": "Make the match personal and motivate action.",
+      "evidence": "Visible chronological 1 fps samples, source 25–38s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V04",
+      "start": 38,
+      "end": 46,
+      "action": "Dress, jewelry, makeup and perfume shots show her getting ready. She smiles and leaves the room.",
+      "design": "Detailed preparation montage.",
+      "purpose": "Show renewed interest through behavior.",
+      "evidence": "Visible chronological 1 fps samples, source 38–46s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V05",
+      "start": 46,
+      "end": 55,
+      "action": "She meets a man on a motorbike holding red flowers. They smile; a Wavelength notification says Tell me everything tomorrow! as she joins him and they leave.",
+      "design": "Outdoor meeting and persistent app notification.",
+      "purpose": "Give the introduction a real-world payoff and imply a feedback loop.",
+      "evidence": "Visible chronological 1 fps samples, source 46–55s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V06",
+      "start": 55,
+      "end": 59.08,
+      "action": "The Wavelength mark holds on a pale background.",
+      "design": "Simple green wordmark and linked-circle symbol.",
+      "purpose": "Close on the brand.",
+      "evidence": "Visible chronological 1 fps samples, source 55–59.08s; boundary approximate; exact motion between samples unverified."
+    }
+  ],
+  "sound": [
+    {
+      "id": "A01",
+      "start": 0,
+      "end": 59.08,
+      "layer": "unknown",
+      "detail": "No validated direct audio listening was performed. Music, speech delivery, effects, mix and sync remain unknown, not absent.",
+      "visual_relation": "All visual scenes; audiovisual alignment unverified",
+      "evidence": "Visual samples only; no actual audio range supplied to this reviewer."
+    },
+    {
+      "id": "A02",
+      "start": 17.83,
+      "end": 37.61,
+      "layer": "ASR draft",
+      "detail": "The ASR draft gives a conversation about not connecting with anyone, exploring more and meeting a filmmaker named Karan who may ask interesting questions. It supports a personalized recommendation, but the last phrase is uncertain and the opening/later scenes are not covered. The speaker’s human or synthetic origin and delivery are not established.",
+      "visual_relation": "Story text support; exact audiovisual alignment and delivery unverified.",
+      "evidence": "technical-review-2026-10-19/deep-review/audio/260-speech.json; local faster-whisper base CPU int8 draft; VAD candidates only, recognition errors possible."
+    }
+  ],
+  "categories": [
+    {
+      "id": "Q01",
+      "finding": "Dating frustration leads to a match notification, personal conversation, preparation and a meeting.",
+      "evidence": "V01–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q02",
+      "finding": "Exaggerated dating situations and frustrated reactions establish an emotional problem quickly.",
+      "evidence": "V01",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q03",
+      "finding": "The match notification introduces the role around 12 s; a specific recommendation makes the task clear around 25 s.",
+      "evidence": "V02,V03",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q04",
+      "finding": "The opening cuts rapidly between situations, while the conversation alternates faces and phone details; notifications appear over scenes.",
+      "evidence": "V01–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q05",
+      "finding": "The same woman carries the full journey, and the return to an outdoor pickup echoes the opening dating scene.",
+      "evidence": "V01,V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q06",
+      "finding": "Warm domestic tones and natural street scenes keep the service grounded in ordinary life.",
+      "evidence": "V01–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q07",
+      "finding": "The two notification messages are concise. Yellow dialogue captions carry key recommendation details but can be small against footage.",
+      "evidence": "V02,V03,V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q08",
+      "finding": "The ASR draft gives a conversation about not connecting with anyone, exploring more and meeting a filmmaker named Karan who may ask interesting questions. It supports a personalized recommendation, but the last phrase is uncertain and the opening/later scenes are not covered. The speaker’s human or synthetic origin and delivery are not established.",
+      "evidence": "A02",
+      "status": "uncertain",
+      "reason": "ASR text only; no validated listening, delivery or voice origin.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q09",
+      "finding": "Voice delivery, music, effects and audiovisual alignment were not established by this visual pass.",
+      "evidence": "A01",
+      "status": "not checked",
+      "reason": "No validated direct audio listening input.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q10",
+      "finding": "Voice delivery, music, effects and audiovisual alignment were not established by this visual pass.",
+      "evidence": "A01",
+      "status": "not checked",
+      "reason": "No validated direct audio listening input.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q11",
+      "finding": "Voice delivery, music, effects and audiovisual alignment were not established by this visual pass.",
+      "evidence": "A01",
+      "status": "not checked",
+      "reason": "No validated direct audio listening input.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q12",
+      "finding": "Staged dating scenes, phone shots and notification overlays are visible; production methods and actual app behavior are unknown.",
+      "evidence": "V01–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q13",
+      "finding": "Manifest duration 59.08s; indexed dimensions 1920×1080. Source unchanged flag recorded; fresh encoding and audio clipping checks not run.",
+      "evidence": "Group manifest",
+      "status": "uncertain",
+      "reason": "Inherited technical metadata; no fresh media probe in this review.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q14",
+      "finding": "Her change in mood and meeting are visually clear. The reason for the match depends on captions and draft dialogue.",
+      "evidence": "V02,V03,A02",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q15",
+      "finding": "Face close-ups emphasize the user’s reaction rather than app controls; the notification anchors the brand role.",
+      "evidence": "V02,V03,V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q16",
+      "finding": "The central conversation receives about 26 s, then preparation and meeting provide a quicker payoff.",
+      "evidence": "V02–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q17",
+      "finding": "The suggested match becomes the man at the pickup, while tomorrow’s feedback remains a promise rather than a shown step.",
+      "evidence": "V03,V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q18",
+      "finding": "The shift from slumping and skepticism to smiling and preparation suggests renewed hope. This is a visual interpretation.",
+      "evidence": "V01–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q19",
+      "finding": "One user and one recommendation create strong continuity. The matching, mutual acceptance and scheduling steps are skipped.",
+      "evidence": "V02–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q20",
+      "finding": "The film does not establish how preferences are gathered, whether the match agrees or how the meeting is arranged. A positive staged encounter is not evidence of match quality.",
+      "evidence": "V02–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q21",
+      "finding": "A conversational recommendation followed by a next-day feedback prompt gives the service a personal-coach role.",
+      "evidence": "V03,V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q22",
+      "finding": "Add a brief preference memory and mutual-confirmation state before the getting-ready montage.",
+      "evidence": "V03,V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q23",
+      "finding": "Tin can show a recommendation changing a user’s behavior, then close the loop with a visible feedback request.",
+      "evidence": "V03–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q24",
+      "finding": "Wavelength is presented as a conversational dating service that suggests a match and asks for feedback afterward.",
+      "evidence": "Model reading from inspected images",
+      "status": "uncertain",
+      "reason": "Model-only new-viewer interpretation; no human test.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q25",
+      "finding": "Contact sheets inspected at displayed size; a phone-size playback, caption audit, flash audit and formal accessibility check were not performed.",
+      "evidence": "Viewed sheets",
+      "status": "not checked",
+      "reason": "Full-size moving-image and device checks unavailable in this pass.",
+      "experiment": "none"
+    }
+  ],
+  "lessons": {
+    "keep": "Follow one recommendation into a visible real-world action.",
+    "avoid": "Avoid skipping mutual confirmation and setup while implying the service handled them.",
+    "open": "Preference collection, match acceptance, scheduling, feedback use, later conversation and all audio remain unverified.",
+    "try": [
+      "Show Tin suggesting one campaign direction based on a named preference, then the user choosing and using it.",
+      "End with a specific feedback prompt that will improve the next recommendation."
+    ]
+  },
+  "comparison": {
+    "story": "Establish disappointment with dating. → Introduce a conversational recommendation. → Make the match personal and motivate action. → Show renewed interest through behavior. → Give the introduction a real-world payoff and imply a feedback loop. → Close on the brand.",
+    "motion": "The opening cuts rapidly between situations, while the conversation alternates faces and phone details; notifications appear over scenes. Sampling scope: 1 fps unless a closer window is recorded.",
+    "sound": "No validated listening; unknown.",
+    "texture": "Quick live-action setup with expressive gestures.; Phone close-ups and warm room light.; Alternating face and phone close-ups.; Detailed preparation montage.; Outdoor meeting and persistent app notification.; Simple green wordmark and linked-circle symbol.",
+    "lesson": "Follow one recommendation into a visible real-world action."
+  },
+  "elements": [
+    {
+      "kind": "ui",
+      "name": "notification",
+      "events": [
+        "V02",
+        "V05"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "phone",
+      "events": [
+        "V02",
+        "V03"
+      ]
+    },
+    {
+      "kind": "motion",
+      "name": "preparation montage",
+      "events": [
+        "V04"
+      ]
+    },
+    {
+      "kind": "texture",
+      "name": "warm live action",
+      "events": [
+        "V01",
+        "V02",
+        "V03",
+        "V04",
+        "V05"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,382 @@
+{
+  "id": 423,
+  "viewed_evidence": [
+    "technical-review-2026-10-19/deep-review/motion/423/timeline-00.jpg",
+    "technical-review-2026-10-19/deep-review/motion/423/timeline-01.jpg",
+    "astra-review-2026-10-20/evidence/group-3/423/dense38-41.jpg",
+    "astra-review-2026-10-20/evidence/group-3/423/full22.jpg",
+    "astra-review-2026-10-20/evidence/group-3/423/full40.jpg",
+    "technical-review-2026-10-19/deep-review/audio/423-speech.json"
+  ],
+  "product_from_film": "Bloom extracts a brand kit from a website and uses it to generate branded assets.",
+  "explains_well": "The Gumroad website, extracted kit and hiring poster form a clear linked example.",
+  "unclear": "The clean hiring poster is held too briefly, and no edit or export step is shown.",
+  "product_type": "marketing tool",
+  "scenario": "Turn a website into a brand kit and create a hiring poster.",
+  "product_clear_time": 22,
+  "product_clear_basis": "The kit visibly contains Gumroad colors, typography, illustrations and interface examples.",
+  "scenes": [
+    {
+      "start": 0,
+      "end": 5,
+      "action": "Generate anything and Always on-brand appear with assets, followed by Meet Bloom and enlarged flowers.",
+      "design": "White and pale lavender fields, purple flower motif.",
+      "purpose": "State promise",
+      "id": "V01",
+      "evidence": "Visible 1 fps samples, source 0–5s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 5,
+      "end": 14,
+      "action": "gumroad.com is entered; status changes from visiting the site to extracting styles and building the kit.",
+      "design": "Domain input, arrow, soft colored orb, floating pink G coins.",
+      "purpose": "Provide source",
+      "id": "V02",
+      "evidence": "Visible 1 fps samples, source 5–14s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 14,
+      "end": 27,
+      "action": "Website scrolls beneath kit panel; colors and graphic examples collect, then success message appears.",
+      "design": "Gumroad palette, type, buttons and illustrations.",
+      "purpose": "Show extracted kit",
+      "id": "V03",
+      "evidence": "Visible 1 fps samples, source 14–27s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 27,
+      "end": 33,
+      "action": "Short statements explain the extracted brand and ability to generate assets.",
+      "design": "Large centered type and lavender background.",
+      "purpose": "Bridge to use",
+      "id": "V04",
+      "evidence": "Visible 1 fps samples, source 27–33s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 33,
+      "end": 41,
+      "action": "Hiring prompt and Gumroad selection lead to blurred poster with Generating, then Done, then briefly clear poster.",
+      "design": "Brand dropdown and pink WE ARE HIRING poster.",
+      "purpose": "Create first asset",
+      "id": "V05",
+      "evidence": "Visible 1 fps samples, source 33–41s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 41,
+      "end": 47,
+      "action": "Company merch prompt and Ulysses selection lead to clothing image.",
+      "design": "People in branded clothing against water and boat setting.",
+      "purpose": "Show merchandise use",
+      "id": "V06",
+      "evidence": "Visible 1 fps samples, source 41–47s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 47,
+      "end": 54,
+      "action": "Quartr-style hype poster prompt and HF0 brand lead to dark UFO poster.",
+      "design": "THE ASCENSION OF THE REPEAT FOUNDER title.",
+      "purpose": "Show another style",
+      "id": "V07",
+      "evidence": "Visible 1 fps samples, source 47–54s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 54,
+      "end": 58.942,
+      "action": "Try today and trybloom.ai lead to flower logo.",
+      "design": "Large simple close.",
+      "purpose": "Invite trial",
+      "id": "V08",
+      "evidence": "Visible 1 fps samples, source 54–58.942s; boundaries approximate, between-frame action unresolved."
+    }
+  ],
+  "sound": [
+    {
+      "id": "A01",
+      "start": 0,
+      "end": 58.942,
+      "layer": "unknown",
+      "detail": "No validated audio listening; speech, music, effects, mix and sync remain unverified.",
+      "visual_relation": "All visual scenes; alignment not checked",
+      "evidence": "No actual audio supplied to this review; existing technical-review-2026-10-19/deep-review/audio/423.json is not listening evidence."
+    },
+    {
+      "id": "A02",
+      "start": 0,
+      "end": 56.77,
+      "layer": "ASR draft",
+      "detail": "Candidate script explains URL input, extraction, kit creation and hiring/merch/poster examples. Newt Bloom and TriBloom.ai are rejected spellings; visible Meet Bloom and trybloom.ai govern. Delivery unheard.",
+      "visual_relation": "V01–V08; script support only, no sound sync established.",
+      "evidence": "technical-review-2026-10-19/deep-review/audio/423-speech.json; existing faster-whisper base CPU int8"
+    }
+  ],
+  "categories": [
+    {
+      "finding": "Website input becomes an extracted kit and then a hiring poster; later examples broaden the outputs but omit their kit source.",
+      "evidence": "V02–V07",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q01"
+    },
+    {
+      "finding": "Generate anything and Always on-brand appear with sample assets, promising variety with visual consistency.",
+      "evidence": "V01 0–2s",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q02"
+    },
+    {
+      "finding": "Website-derived branding is concrete by the kit at 22s; marketers and founders can infer the asset task by the hiring prompt.",
+      "evidence": "V03/V05",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q03"
+    },
+    {
+      "finding": "The 38–41s window shows blurred poster behind status, Done around 39.5–40s, clear result around 40.25–40.5s, then recession/fade. Exact easing unresolved.",
+      "evidence": "V05; dense38-41.jpg",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q04"
+    },
+    {
+      "finding": "Extraction uses accumulating kit items; generation uses a blurred result reveal and then moves quickly into another prompt.",
+      "evidence": "V03/V05",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q05"
+    },
+    {
+      "finding": "Soft lavender fields and glossy colored orb frame sharp website samples; flowers give the interface a playful identity.",
+      "evidence": "V01–V05",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q06"
+    },
+    {
+      "finding": "Large prompt and status copy is readable in full frames. The finished poster has dense secondary copy with only a brief clean hold.",
+      "evidence": "V05 38–41s",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q07"
+    },
+    {
+      "finding": "Voice presence and delivery remain unverified.",
+      "evidence": "No validated audio listening",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q08"
+    },
+    {
+      "finding": "Music character and arc remain unverified.",
+      "evidence": "No validated audio listening",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q09"
+    },
+    {
+      "finding": "Sound effects remain unverified.",
+      "evidence": "No validated audio listening",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q10"
+    },
+    {
+      "finding": "Sound-to-motion timing remain unverified.",
+      "evidence": "No validated audio listening",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q11"
+    },
+    {
+      "finding": "Website capture, illustrated Gumroad assets, product interface and generated-looking output examples are combined; source provenance is unknown.",
+      "evidence": "V03/V05–V07",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q12"
+    },
+    {
+      "finding": "Source duration supplied as 58.942s; no independent compression, clipping or delivery check.",
+      "evidence": "Assigned metadata; source integrity checked by parent",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q13"
+    },
+    {
+      "finding": "URL, extraction states, brand choice and output communicate the main task without speech.",
+      "evidence": "V02–V05",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q14"
+    },
+    {
+      "finding": "Centered input and status guide focus; expanded kit spreads attention across colors, type and graphics before returning to one prompt.",
+      "evidence": "V02–V05",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q15"
+    },
+    {
+      "finding": "Kit extraction has time to develop, but the first completed asset is replaced before its details can be compared with the kit.",
+      "evidence": "V03/V05",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q16"
+    },
+    {
+      "finding": "Always on-brand gains a visible example when Gumroad pink, black and coin graphics recur in the hiring poster.",
+      "evidence": "V01/V03/V05",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q17"
+    },
+    {
+      "finding": "Progress states build anticipation and the clear poster offers intended satisfaction; actual viewer response is not measured.",
+      "evidence": "V02/V05",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q18"
+    },
+    {
+      "finding": "Gumroad name, pink coins and black type bridge source, kit and first output. Ulysses and HF0 arrive without equivalent source context.",
+      "evidence": "V03/V05–V07",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q19"
+    },
+    {
+      "finding": "The film shows a staged extraction and output sequence. Always-on-brand accuracy and editable/exportable output remain untested.",
+      "evidence": "V03/V05",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q20"
+    },
+    {
+      "finding": "Purple flowers and orb are Bloom motifs; Gumroad pink coins demonstrate a distinct client identity.",
+      "evidence": "V01/V03/V05/V08",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q21"
+    },
+    {
+      "finding": "Keep the source-to-kit example, shorten one bridge card and use the saved time for a longer clean poster and export state.",
+      "evidence": "V03–V05",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q22"
+    },
+    {
+      "finding": "For Tin, show a customer URL, extracted palette and one campaign asset with matching motifs. Need actual source kit, generation states and output.",
+      "evidence": "V02–V05",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q23"
+    },
+    {
+      "finding": "No human new-viewer test; product description above is model interpretation of sampled images.",
+      "evidence": "V01–V08",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q24"
+    },
+    {
+      "finding": "No phone-size, safe-area or flash assessment; small UI text needs separate preview.",
+      "evidence": "Contact sheets",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q25"
+    }
+  ],
+  "lessons": {
+    "keep": "Carry the same brand details from website to kit to final asset.",
+    "try": [
+      "Try a Tin split view with the extracted palette and final campaign poster visible together for three seconds.",
+      "Try a complete URL-to-asset sequence ending with a readable result, one edit and an export state."
+    ],
+    "avoid": "Avoid replacing the first finished asset immediately after the loading state.",
+    "open": "Audio remains unheard; exact interpolation and the reliability of brand extraction are unverified."
+  },
+  "comparison": {
+    "story": "State promise → Provide source → Show extracted kit → Bridge to use → Create first asset → Show merchandise use → Show another style → Invite trial",
+    "motion": "The 38–41s window shows blurred poster behind status, Done around 39.5–40s, clear result around 40.25–40.5s, then recession/fade. Exact easing unresolved.",
+    "sound": "No validated listening; no absence claims.",
+    "texture": "Soft lavender fields and glossy colored orb frame sharp website samples; flowers give the interface a playful identity.",
+    "lesson": "Carry the same brand details from website to kit to final asset."
+  },
+  "elements": [
+    {
+      "kind": "ui",
+      "name": "domain input",
+      "events": [
+        "V02"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "brand kit",
+      "events": [
+        "V03"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "prompt input",
+      "events": [
+        "V05",
+        "V06",
+        "V07"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "dropdown",
+      "events": [
+        "V05"
+      ]
+    },
+    {
+      "kind": "motion",
+      "name": "blur reveal",
+      "events": [
+        "V05"
+      ]
+    }
+  ],
+  "reviewer_model": "gpt-6-astra",
+  "scope": "sampled visual and story review; ASR and measured signal support; no validated audio listening",
+  "closer_windows": [
+    {
+      "start": 38,
+      "end": 41,
+      "rate_fps": 4,
+      "evidence": [
+        "astra-review-2026-10-20/evidence/group-3/423/dense38-41.jpg"
+      ],
+      "resolved": "Generating precedes Done; clear poster appears briefly around 40.25–40.5s, then recedes/fades. Source full40 still has Done and blur; boundaries approximate."
+    }
+  ]
+}

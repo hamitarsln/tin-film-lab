@@ -1,0 +1,387 @@
+{
+  "id": 295,
+  "viewed_evidence": [
+    "technical-review-2026-10-19/deep-review/motion/295/timeline-00.jpg",
+    "technical-review-2026-10-19/deep-review/motion/295/timeline-01.jpg",
+    "astra-review-2026-10-20/evidence/group-3/295/dense.jpg",
+    "astra-review-2026-10-20/evidence/group-3/295/full33.jpg"
+  ],
+  "product_from_film": "Payna helps fintech teams organise licensing requirements, forms and compliance status.",
+  "explains_well": "The old computer and paper stacks make the problem clear before the modern dashboard appears.",
+  "unclear": "A changed rule is never followed into a required task and completed filing, so the live-compliance promise remains abstract.",
+  "product_type": "fintech licensing platform",
+  "scenario": "Manage licensing requirements and compliance across US states",
+  "product_clear_time": 17,
+  "product_clear_basis": "Definition card names fintech licensing, followed by company information and dashboard.",
+  "scenes": [
+    {
+      "start": 0,
+      "end": 6,
+      "action": "Old beige computer and WANT A FINANCIAL LICENSE? give way to 50 STATES 50 RULES.",
+      "design": "Scanlines, colour fringing and VHS-style PLAY label.",
+      "purpose": "Frame fragmented requirements",
+      "id": "V01",
+      "evidence": "Visible 1 fps samples, source 0–6s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 6,
+      "end": 13,
+      "action": "Office workers and paper stacks alternate with COSTLY, LENGTHY and NO TIME.",
+      "design": "Busy footage and large distressed words.",
+      "purpose": "Build administrative pain",
+      "id": "V02",
+      "evidence": "Visible 1 fps samples, source 6–13s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 13,
+      "end": 17,
+      "action": "Static contracts to a horizontal band, black holds, then a modern laptop appears and pale blocks build a ring logo.",
+      "design": "Dense samples show laptop pulling back and cube assembly.",
+      "purpose": "Turn from old process to new brand",
+      "id": "V03",
+      "evidence": "Visible 1 fps samples, source 13–17s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 17,
+      "end": 23,
+      "action": "Payna definition describes getting and staying licensed; laptop shows company information and dashboard.",
+      "design": "Clean pale UI replaces noisy imagery.",
+      "purpose": "Introduce service",
+      "id": "V04",
+      "evidence": "Visible 1 fps samples, source 17–23s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 23,
+      "end": 32,
+      "action": "Email, Slack, NMLS and NIPR icons accompany task inbox; state requirements and forms appear.",
+      "design": "State picker, task details and download controls.",
+      "purpose": "Explain connected filing workflow",
+      "id": "V05",
+      "evidence": "Visible 1 fps samples, source 23–32s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 32,
+      "end": 38,
+      "action": "Real-time regulatory tracking claim accompanies people and compliance status detail.",
+      "design": "Role list and MU2 state filing rows in side panel.",
+      "purpose": "Show monitoring",
+      "id": "V06",
+      "evidence": "Visible 1 fps samples, source 32–38s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 38,
+      "end": 42,
+      "action": "Chat asks about state compliance and replies that all 50 states are compliant.",
+      "design": "Large floating message bubbles.",
+      "purpose": "Offer reassurance",
+      "id": "V07",
+      "evidence": "Visible 1 fps samples, source 38–42s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 42,
+      "end": 49,
+      "action": "Newspaper-style pages highlight three times faster and a fraction of the cost; Licenses that never lapse follows.",
+      "design": "Yellow highlights and large final promise.",
+      "purpose": "Repeat benefits",
+      "id": "V08",
+      "evidence": "Visible 1 fps samples, source 42–49s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 49,
+      "end": 52.125,
+      "action": "Payna logo and Now Live close.",
+      "design": "Simple brand lockup.",
+      "purpose": "Announce availability",
+      "id": "V09",
+      "evidence": "Visible 1 fps samples, source 49–52.125s; boundaries approximate, between-frame action unresolved."
+    }
+  ],
+  "sound": [
+    {
+      "id": "A01",
+      "start": 0,
+      "end": 52.125,
+      "layer": "unknown",
+      "detail": "No validated audio listening; speech, music, effects, mix and sync remain unverified.",
+      "visual_relation": "All visual scenes; alignment not checked",
+      "evidence": "No actual audio supplied to this review; existing technical-review-2026-10-19/deep-review/audio/295.json is not listening evidence."
+    }
+  ],
+  "categories": [
+    {
+      "finding": "Paperwork pain turns into clean software, then integrations, state tasks, monitoring and benefit claims. No individual filing links these chapters.",
+      "evidence": "V01–V09",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q01"
+    },
+    {
+      "finding": "The old computer and licensing question establish the topic quickly; 50 states/50 rules adds a concrete source of difficulty.",
+      "evidence": "V01",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q02"
+    },
+    {
+      "finding": "The fintech licensing definition identifies the intended teams by about 17 s.",
+      "evidence": "V04",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q03"
+    },
+    {
+      "finding": "Dense 13–16 s frames show static collapse, a black pause, laptop pullback and pale blocks building the logo. This is an observable old-to-new transition; exact easing is unresolved.",
+      "evidence": "V03; dense 13–16 s",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q04"
+    },
+    {
+      "finding": "The static-to-clean-laptop change clearly divides problem and solution. Later capability cards move quickly between different UI areas.",
+      "evidence": "V03–V06",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q05"
+    },
+    {
+      "finding": "Noisy dark computer footage changes to bright UI, with yellow highlighting returning for benefit claims.",
+      "evidence": "V01–V08",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q06"
+    },
+    {
+      "finding": "Main claims are readable. Full 33 s frame reveals role and filing-status detail, but these small rows need a closer crop to explain the monitoring claim.",
+      "evidence": "V06; full 33 s",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q07"
+    },
+    {
+      "finding": "Voice presence and delivery remain unverified.",
+      "evidence": "No validated audio listening",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q08"
+    },
+    {
+      "finding": "Music character and arc remain unverified.",
+      "evidence": "No validated audio listening",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q09"
+    },
+    {
+      "finding": "Sound effects remain unverified.",
+      "evidence": "No validated audio listening",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q10"
+    },
+    {
+      "finding": "Sound-to-motion timing remain unverified.",
+      "evidence": "No validated audio listening",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q11"
+    },
+    {
+      "finding": "Live-action office imagery, device framing, composited UI and typographic cards form the film. Production software is unknown.",
+      "evidence": "V01–V09",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q12"
+    },
+    {
+      "finding": "Source duration supplied as 52.125s; no independent compression, clipping or delivery check.",
+      "evidence": "Assigned metadata; source integrity checked by parent",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q13"
+    },
+    {
+      "finding": "The licensing problem and major capabilities are communicated visually. The action triggered by a regulatory change is missing.",
+      "evidence": "V01, V04–V06",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q14"
+    },
+    {
+      "finding": "Large headings lead attention, while small compliance rows sit inside a laptop frame and get less reading space.",
+      "evidence": "V04–V06",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q15"
+    },
+    {
+      "finding": "The problem takes about 13 s; the solution gets several short feature beats, but no complete task gets a clear start and finish.",
+      "evidence": "V01–V06",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q16"
+    },
+    {
+      "finding": "State requirements and prefilled forms support the licensing story. A status panel does not explain how a new rule is detected or handled.",
+      "evidence": "V05–V06",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q17"
+    },
+    {
+      "finding": "The clean interface after distressed paperwork appears designed to create relief; the all-states chat reinforces confidence. Audience response was not measured.",
+      "evidence": "V03–V07",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q18"
+    },
+    {
+      "finding": "A generic task inbox, forms and person status panel appear in sequence without a named filing connecting them.",
+      "evidence": "V05–V06",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q19"
+    },
+    {
+      "finding": "All-state compliance, three-times speed, lower cost and licenses never lapsing are presented claims. Newspaper styling does not establish an independent source or measured result.",
+      "evidence": "V07–V08",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q20"
+    },
+    {
+      "finding": "The contrast between obsolete paperwork and a modern licensing workspace is the strongest brand device.",
+      "evidence": "V01–V04",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q21"
+    },
+    {
+      "finding": "Replace one broad assurance with a named state rule change, resulting task, prefilled form and completion status.",
+      "evidence": "V06–V08",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q22"
+    },
+    {
+      "finding": "Use an old-to-new visual contrast to establish relief, then prove it with one continuous administrative task.",
+      "evidence": "V01–V06",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q23"
+    },
+    {
+      "finding": "No human new-viewer test; product description above is model interpretation of sampled images.",
+      "evidence": "V01–V09",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q24"
+    },
+    {
+      "finding": "No phone-size, safe-area or flash assessment; small UI text needs separate preview.",
+      "evidence": "Contact sheets",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q25"
+    }
+  ],
+  "lessons": {
+    "keep": "Keep the clear shift from noisy paperwork to a clean licensing workspace.",
+    "try": [
+      "Follow one state requirement from change alert through assigned task, populated filing and submitted status.",
+      "Replace the generic all-states chat with a close-up showing which filing is complete and what remains due."
+    ],
+    "avoid": "Avoid using newspaper styling or a blanket chat answer as the main evidence of compliance.",
+    "open": "Audio is unheard. Regulatory coverage, filing outcomes, cost and speed claims remain unverified."
+  },
+  "comparison": {
+    "story": "Frame fragmented requirements → Build administrative pain → Turn from old process to new brand → Introduce service → Explain connected filing workflow → Show monitoring → Offer reassurance → Repeat benefits → Announce availability",
+    "motion": "Dense 13–16 s frames show static collapse, a black pause, laptop pullback and pale blocks building the logo. This is an observable old-to-new transition; exact easing is unresolved.",
+    "sound": "No validated listening; no absence claims.",
+    "texture": "Noisy dark computer footage changes to bright UI, with yellow highlighting returning for benefit claims.",
+    "lesson": "Keep the clear shift from noisy paperwork to a clean licensing workspace."
+  },
+  "elements": [
+    {
+      "kind": "ui",
+      "name": "task inbox",
+      "events": [
+        "V05"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "form",
+      "events": [
+        "V04",
+        "V05"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "status panel",
+      "events": [
+        "V06"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "chat",
+      "events": [
+        "V07"
+      ]
+    },
+    {
+      "kind": "motion",
+      "name": "logo assembly",
+      "events": [
+        "V03"
+      ]
+    },
+    {
+      "kind": "texture",
+      "name": "scanlines",
+      "events": [
+        "V01",
+        "V03"
+      ]
+    }
+  ],
+  "reviewer_model": "gpt-6-astra",
+  "scope": "sampled visual and story review; ASR and measured signal support; no validated audio listening",
+  "closer_windows": [
+    {
+      "start": 13,
+      "end": 16,
+      "rate_fps": 4,
+      "evidence": [
+        "astra-review-2026-10-20/evidence/group-3/295/dense.jpg"
+      ],
+      "resolved": "Static contracts to a band, black pauses, laptop pulls back and pale blocks begin forming the ring logo."
+    }
+  ]
+}

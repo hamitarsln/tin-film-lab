@@ -1,0 +1,393 @@
+{
+  "id": 356,
+  "viewed_evidence": [
+    "technical-review-2026-10-19/deep-review/motion/356/timeline-00.jpg",
+    "technical-review-2026-10-19/deep-review/motion/356/timeline-01.jpg",
+    "technical-review-2026-10-19/deep-review/motion/356/timeline-02.jpg",
+    "astra-review-2026-10-20/evidence/group-3/356/dense28-31.jpg",
+    "technical-review-2026-10-19/deep-review/audio/356-speech.json"
+  ],
+  "product_from_film": "CellType presents models of human biology for predicting drug response before trials.",
+  "explains_well": "The mouse-to-human gap and test-before-trial idea form a clear problem and proposed approach.",
+  "unclear": "The virtual human remains a metaphor: no drug input, prediction output or named research result is shown.",
+  "product_type": "biotechnology",
+  "scenario": "Predict a drug response before a clinical trial",
+  "product_clear_time": 41,
+  "product_clear_basis": "Virtual human follows human biology models; test/predict/before trial follows.",
+  "scenes": [
+    {
+      "start": 0,
+      "end": 3,
+      "action": "Cuts show a gloved laptop user, scientist at molecular screen and automated pipette.",
+      "design": "Lab imagery and cool tones.",
+      "purpose": "Establish drug research",
+      "id": "V01",
+      "evidence": "Visible 1 fps samples, source 0–3s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 3,
+      "end": 14,
+      "action": "Drug development is broken title leads to waves with 10 years and billions labels, then crumbling stone with a percentage rising to 90% fail.",
+      "design": "Dark sea and warm stone; bold figures.",
+      "purpose": "State cost and failure problem",
+      "id": "V02",
+      "evidence": "Visible 1 fps samples, source 3–14s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 14,
+      "end": 24,
+      "action": "Blue cellular-looking image carries models are wrong; cut to mouse close-up and do not reflect the human body.",
+      "design": "White upper-case labels over microscopy-like and animal imagery.",
+      "purpose": "Explain proposed cause",
+      "id": "V03",
+      "evidence": "Visible 1 fps samples, source 14–24s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 24,
+      "end": 30,
+      "action": "Overhead crowd on grass carries first agentic drug company. Checked samples show a radial blurred push near 29.5 s before blue biological illustration.",
+      "design": "Tiny people and white title.",
+      "purpose": "Introduce company approach",
+      "id": "V04",
+      "evidence": "Visible 1 fps samples, source 24–30s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 30,
+      "end": 42,
+      "action": "Human biology title overlays translucent strands; cells, microenvironments and tissues labels follow, then a network with virtual human title.",
+      "design": "Blue biological illustrations with glowing particles.",
+      "purpose": "Describe model scope",
+      "id": "V05",
+      "evidence": "Visible 1 fps samples, source 30–42s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 42,
+      "end": 48,
+      "action": "Words TEST, PREDICT, BEFORE, THE TRIAL fill successive round dish positions.",
+      "design": "Grid of blue culture-like dishes.",
+      "purpose": "State intended workflow",
+      "id": "V06",
+      "evidence": "Visible 1 fps samples, source 42–48s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 48,
+      "end": 54,
+      "action": "Green cell-like forms precede a rounded blue tumor illustration with warm glowing surrounding bodies and cold tumors hot text.",
+      "design": "Microscopy-like imagery and colored illustration.",
+      "purpose": "Claim cancer application",
+      "id": "V07",
+      "evidence": "Visible 1 fps samples, source 48–54s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 54,
+      "end": 62,
+      "action": "A blurred transition opens on a warm forest aerial; an attributed science milestone quote holds.",
+      "design": "Sunlit trees and white quotation.",
+      "purpose": "Provide social support",
+      "id": "V08",
+      "evidence": "Visible 1 fps samples, source 54–62s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 62,
+      "end": 67,
+      "action": "Two seated presenters appear with David founder/CEO and Ivan founder/CTO labels.",
+      "design": "Office setting and name captions.",
+      "purpose": "Introduce team",
+      "id": "V09",
+      "evidence": "Visible 1 fps samples, source 62–67s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 67,
+      "end": 71.04,
+      "action": "Sun over water appears with CellType logo, small website and Y Combinator backing mark.",
+      "design": "Warm sunset and white brand.",
+      "purpose": "Close company introduction",
+      "id": "V10",
+      "evidence": "Visible 1 fps samples, source 67–71.04s; boundaries approximate, between-frame action unresolved."
+    }
+  ],
+  "sound": [
+    {
+      "id": "A01",
+      "start": 0,
+      "end": 71.04,
+      "layer": "unknown",
+      "detail": "No validated audio listening; speech, music, effects, mix and sync remain unverified.",
+      "visual_relation": "All visual scenes; alignment not checked",
+      "evidence": "No actual audio supplied to this review; existing technical-review-2026-10-19/deep-review/audio/356.json is not listening evidence."
+    },
+    {
+      "id": "A02",
+      "start": 3.21,
+      "end": 66.43,
+      "layer": "ASR draft",
+      "detail": "Candidate script supplies the causal argument: model mismatch, human biology foundation models, virtual human prediction before trials and a cancer treatment signal. It also claims Google coverage. Reject Damir Mom and Sundar Peacha as reliable names; the transcript misses part of the cold-tumor sentence. Visible founder labels read David and Ivan. Delivery and music are unheard.",
+      "visual_relation": "V02–V09; broad script role only",
+      "evidence": "technical-review-2026-10-19/deep-review/audio/356-speech.json; existing faster-whisper base CPU int8"
+    }
+  ],
+  "categories": [
+    {
+      "finding": "Industry cost/failure leads to model mismatch, human biology modeling, pretrial prediction, cancer claim and team. The specific research case is not carried through.",
+      "evidence": "V02–V09 3–67 s",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q01"
+    },
+    {
+      "finding": "Three research images establish a lab setting quickly, but neither company nor proposed change is named yet.",
+      "evidence": "V01 0–3 s",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q02"
+    },
+    {
+      "finding": "Drug research audience is implied early. Human biology models become visible at 30–41 s, with pretrial prediction at 42–47 s; agentic itself is not explained.",
+      "evidence": "V04–V06 24–48 s",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q03"
+    },
+    {
+      "finding": "The 28–31 s window resolves a radial blurred push from overhead people near 29.5 s into blue biological strands. It suggests a move from humans to their biology; exact easing is unresolved.",
+      "evidence": "V04; dense28-31.jpg",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q04"
+    },
+    {
+      "finding": "Hard image changes carry the problem sequence; a blur transition links crowd and biology. Forest then office shifts from abstract science to endorsement and people.",
+      "evidence": "V02–V04, V08–V09",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q05"
+    },
+    {
+      "finding": "Dark ocean, crumbling warm stone, cool microscopic-looking forms and warm sunset give the argument a dramatic visual arc. These are image treatments, not confirmed asset origins.",
+      "evidence": "V02–V10",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q06"
+    },
+    {
+      "finding": "Bold failure numbers and keywords work as emphasis. Splitting PREDICT and BEFORE across two lines inside small dishes slows the otherwise simple four-word sequence.",
+      "evidence": "V02, V06 42–48 s",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q07"
+    },
+    {
+      "finding": "Voice presence and delivery remain unverified.",
+      "evidence": "No validated audio listening",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q08"
+    },
+    {
+      "finding": "Music character and arc remain unverified.",
+      "evidence": "No validated audio listening",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q09"
+    },
+    {
+      "finding": "Sound effects remain unverified.",
+      "evidence": "No validated audio listening",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q10"
+    },
+    {
+      "finding": "Sound-to-motion timing remain unverified.",
+      "evidence": "No validated audio listening",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q11"
+    },
+    {
+      "finding": "Lab, mouse, crowd, forest and presenters mix with biological illustrations. No provenance record distinguishes filmed, stock or generated assets.",
+      "evidence": "V01–V09",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q12"
+    },
+    {
+      "finding": "Source duration supplied as 71.04s; no independent compression, clipping or delivery check.",
+      "evidence": "Assigned metadata; source integrity checked by parent",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q13"
+    },
+    {
+      "finding": "Visible text explains broken drug development, wrong models, human biology and test-before-trial. The cancer result stays vague without a named compound or finding.",
+      "evidence": "V02–V07",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q14"
+    },
+    {
+      "finding": "Bold words lead the eye over busy backgrounds; in the dish grid attention must move left to right across four circles.",
+      "evidence": "V02, V06",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q15"
+    },
+    {
+      "finding": "The conceptual sequence is readable, but proteins/cells/tissues/virtual human arrive as several levels of abstraction before a practical example.",
+      "evidence": "V05 30–42 s",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q16"
+    },
+    {
+      "finding": "The failure problem is answered by a proposed predictive approach and cancer signal claim. No visible evidence shows how much this reduces failure or time.",
+      "evidence": "V02, V06–V07",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q17"
+    },
+    {
+      "finding": "Dark water and breaking stone suggest frustration; warm forest, founders and sunset suggest confidence. This is intended visual emotion, not measured response.",
+      "evidence": "V02, V08–V10",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q18"
+    },
+    {
+      "finding": "Cool biological imagery connects the solution section; the tumor is a new illustrative object with no traceable connection to earlier model data.",
+      "evidence": "V05–V07",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q19"
+    },
+    {
+      "finding": "10 years, billions and 90% failure are film claims, as are the virtual human and cancer treatment signal. Illustrated biology and a quote do not establish clinical efficacy or model accuracy.",
+      "evidence": "V02, V05–V08",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q20"
+    },
+    {
+      "finding": "Mouse-to-human comparison and pretrial wording fit this company; sea, stone and forest imagery are broad dramatic motifs. The founders and end logo identify CellType.",
+      "evidence": "V03, V06, V09–V10",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q21"
+    },
+    {
+      "finding": "The cause and pretrial idea are essential. Replace part of the scenery with one named research input and measured prediction to make the solution concrete.",
+      "evidence": "V02, V05–V08",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q22"
+    },
+    {
+      "finding": "For a research tool film, use a four-step dish or card grid to reveal input, test, prediction and comparison. Requires real example data and clear labels, with illustrations marked as such.",
+      "evidence": "V06 42–48 s",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q23"
+    },
+    {
+      "finding": "No human new-viewer test; product description above is model interpretation of sampled images.",
+      "evidence": "V01–V10",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q24"
+    },
+    {
+      "finding": "No phone-size, safe-area or flash assessment; small UI text needs separate preview.",
+      "evidence": "Contact sheets",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q25"
+    }
+  ],
+  "lessons": {
+    "keep": "Link the stated problem to a specific model mismatch before presenting the solution.",
+    "try": [
+      "For a science tool, keep one named drug and cell context visible across input, prediction and observed comparison cards.",
+      "Try the four-dish reveal with short single-line labels and a retained input ID; compare comprehension against the current split words."
+    ],
+    "avoid": "Avoid using biological illustration as the only explanation of a model output.",
+    "open": "Clinical claims, quote context, asset origin and all heard sound remain unverified."
+  },
+  "comparison": {
+    "story": "Establish drug research → State cost and failure problem → Explain proposed cause → Introduce company approach → Describe model scope → State intended workflow → Claim cancer application → Provide social support → Introduce team → Close company introduction",
+    "motion": "The 28–31 s window resolves a radial blurred push from overhead people near 29.5 s into blue biological strands. It suggests a move from humans to their biology; exact easing is unresolved.",
+    "sound": "No validated listening; no absence claims.",
+    "texture": "Dark ocean, crumbling warm stone, cool microscopic-looking forms and warm sunset give the argument a dramatic visual arc. These are image treatments, not confirmed asset origins.",
+    "lesson": "Link the stated problem to a specific model mismatch before presenting the solution."
+  },
+  "elements": [
+    {
+      "kind": "motion",
+      "name": "zoom blur transition",
+      "events": [
+        "V04"
+      ]
+    },
+    {
+      "kind": "texture",
+      "name": "biological illustration",
+      "events": [
+        "V05",
+        "V07"
+      ]
+    },
+    {
+      "kind": "texture",
+      "name": "landscape footage",
+      "events": [
+        "V02",
+        "V08",
+        "V10"
+      ]
+    },
+    {
+      "kind": "texture",
+      "name": "presenter footage",
+      "events": [
+        "V09"
+      ]
+    }
+  ],
+  "reviewer_model": "gpt-6-astra",
+  "scope": "sampled visual and story review; ASR and measured signal support; no validated audio listening",
+  "closer_windows": [
+    {
+      "start": 28,
+      "end": 31,
+      "rate_fps": 4,
+      "evidence": [
+        "astra-review-2026-10-20/evidence/group-3/356/dense28-31.jpg"
+      ],
+      "resolved": "Overhead crowd enters a radial blurred push near 29.5 s, then blue biological strands. Exact easing unresolved."
+    }
+  ]
+}

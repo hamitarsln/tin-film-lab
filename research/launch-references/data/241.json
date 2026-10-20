@@ -1,0 +1,376 @@
+{
+  "id": 241,
+  "reviewer_model": "gpt-6-astra",
+  "scope": "sampled visual and story review; ASR and measured signal support; no validated audio listening",
+  "viewed_evidence": [
+    "technical-review-2026-10-19/deep-review/motion/241/timeline-00.jpg",
+    "technical-review-2026-10-19/deep-review/motion/241/timeline-01.jpg",
+    "technical-review-2026-10-19/deep-review/motion/241/timeline-02.jpg",
+    "technical-review-2026-10-19/deep-review/motion/241/timeline-03.jpg",
+    "technical-review-2026-10-19/deep-review/audio/241-speech.json"
+  ],
+  "closer_windows": [],
+  "product_from_film": "Taiga presents medical billing automation from benefits checks through coding and appeals.",
+  "explains_well": "The film first maps the manual billing stages, then shows an automated answer for each stage.",
+  "unclear": "It does not show where practice staff review or correct a claim before submission or appeal.",
+  "product_type": "medical billing",
+  "scenario": "Check benefits, create coded claims and appeal denied or reduced claims.",
+  "product_clear_time": 40,
+  "product_clear_basis": "The Taiga title and caption identify an AI medical billing company.",
+  "scenes": [
+    {
+      "id": "V01",
+      "start": 0,
+      "end": 10,
+      "action": "Two founders sit at a round table with a laptop. Name labels and captions describe their parents’ medical practices and administrative work.",
+      "design": "Bright room, static two-person shot and white caption pills.",
+      "purpose": "Establish personal connection to the problem.",
+      "evidence": "Visible chronological 1 fps samples, source 0–10s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V02",
+      "start": 10,
+      "end": 23,
+      "action": "A pale horizontal workflow advances through Benefits & prior auths, Visit · note · codes and Submit. Small example panels sit beside the headings; the founders remain in a corner.",
+      "design": "Large black stage labels, small interface examples and picture-in-picture.",
+      "purpose": "Explain the repeated manual process.",
+      "evidence": "Visible chronological 1 fps samples, source 10–23s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V03",
+      "start": 23,
+      "end": 38,
+      "action": "Hours burn. Revenue slips. appears with a dollar counter settling at $420,000. A payer-claim list then fills and gains red or amber statuses beneath Payers now run AI on every claim.",
+      "design": "Bold loss statement and color-coded claim rows.",
+      "purpose": "Increase the perceived cost and pressure.",
+      "evidence": "Visible chronological 1 fps samples, source 23–38s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V04",
+      "start": 38,
+      "end": 54,
+      "action": "The Taiga logo introduces the solution. Cleared before they walk in accompanies a checklist whose benefits, authorization and responsibility items turn green; payer names appear below.",
+      "design": "Pale background, green checks and founder inset.",
+      "purpose": "Show pre-visit work being handled.",
+      "evidence": "Visible chronological 1 fps samples, source 38–54s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V05",
+      "start": 54,
+      "end": 63,
+      "action": "No code missed. No revenue lost. sits above a clinical-note panel. Colored highlights connect note phrases to diagnosis and procedure entries on the right.",
+      "design": "Two-column note-to-code example.",
+      "purpose": "Explain how claim content is derived from notes.",
+      "evidence": "Visible chronological 1 fps samples, source 54–63s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V06",
+      "start": 63,
+      "end": 70,
+      "action": "Auto-appeal. Every claim. Until paid. appears over payer rows with waveform-like green graphics and status badges.",
+      "design": "Appeal tracking panel with green and gray rows.",
+      "purpose": "Show continued follow-up after a denial claim.",
+      "evidence": "Visible chronological 1 fps samples, source 63–70s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V07",
+      "start": 70,
+      "end": 87,
+      "action": "The founders return full-size to summarize the benefit and invite a demo. A Taiga title card holds taigabilling.com and fades.",
+      "design": "Stable founder shot and minimal brand card.",
+      "purpose": "Close with patient focus and a next step.",
+      "evidence": "Visible chronological 1 fps samples, source 70–87s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V08",
+      "start": 87,
+      "end": 92.0,
+      "action": "The remaining samples are black.",
+      "design": "Black tail.",
+      "purpose": "No further visible message.",
+      "evidence": "Visible chronological 1 fps samples, source 87–92.0s; boundary approximate; exact motion between samples unverified."
+    }
+  ],
+  "sound": [
+    {
+      "id": "A01",
+      "start": 0,
+      "end": 92.0,
+      "layer": "unknown",
+      "detail": "No validated direct audio listening was performed. Music, speech delivery, effects, mix and sync remain unknown, not absent.",
+      "visual_relation": "All visual scenes; audiovisual alignment unverified",
+      "evidence": "Visual samples only; no actual audio range supplied to this reviewer."
+    },
+    {
+      "id": "A02",
+      "start": 0.71,
+      "end": 84.61,
+      "layer": "ASR draft",
+      "detail": "The ASR draft describes founders’ family practices, benefits checks, visit notes and codes, submission, payer denials, then automated checks, claim creation and appeals. It supports the mirrored workflow structure and patient-focus close. Brand and URL recognition are wrong in places; clinical and revenue claims remain unverified, as does delivery.",
+      "visual_relation": "Story text support; exact audiovisual alignment and delivery unverified.",
+      "evidence": "technical-review-2026-10-19/deep-review/audio/241-speech.json; local faster-whisper base CPU int8 draft; VAD candidates only, recognition errors possible."
+    }
+  ],
+  "categories": [
+    {
+      "id": "Q01",
+      "finding": "Founder background leads to the manual workflow, losses, payer pressure and a stage-by-stage automation answer.",
+      "evidence": "V01–V07",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q02",
+      "finding": "The founders begin with a personal practice story, giving the administrative problem a human source.",
+      "evidence": "V01",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q03",
+      "finding": "The problem is clear early, but the named medical-billing solution arrives around 40 s.",
+      "evidence": "V02–V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q04",
+      "finding": "The workflow pans between stages, rows fill, checkmarks appear and note highlights gain code entries. Exact timing is unverified.",
+      "evidence": "V02–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q05",
+      "finding": "The same stage logic carries from the manual process into the solution, with the founder inset maintaining continuity.",
+      "evidence": "V02–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q06",
+      "finding": "Pale backgrounds and strong black headings support explanation; red/amber problem statuses contrast with green solution checks.",
+      "evidence": "V02–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q07",
+      "finding": "Headlines are easy to scan. Detailed code text and the small revenue-loss basis need closer reading than the main claims.",
+      "evidence": "V03,V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q08",
+      "finding": "The ASR draft describes founders’ family practices, benefits checks, visit notes and codes, submission, payer denials, then automated checks, claim creation and appeals. It supports the mirrored workflow structure and patient-focus close. Brand and URL recognition are wrong in places; clinical and revenue claims remain unverified, as does delivery.",
+      "evidence": "A02",
+      "status": "uncertain",
+      "reason": "ASR text only; no validated listening, delivery or voice origin.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q09",
+      "finding": "Voice delivery, music, effects and audiovisual alignment were not established by this visual pass.",
+      "evidence": "A01",
+      "status": "not checked",
+      "reason": "No validated direct audio listening input.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q10",
+      "finding": "Voice delivery, music, effects and audiovisual alignment were not established by this visual pass.",
+      "evidence": "A01",
+      "status": "not checked",
+      "reason": "No validated direct audio listening input.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q11",
+      "finding": "Voice delivery, music, effects and audiovisual alignment were not established by this visual pass.",
+      "evidence": "A01",
+      "status": "not checked",
+      "reason": "No validated direct audio listening input.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q12",
+      "finding": "A founder recording is combined with designed workflow and billing examples; whether the panels are live product captures is unknown.",
+      "evidence": "V01–V07",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q13",
+      "finding": "Manifest duration 92.0s; indexed dimensions 1920×1080. Source unchanged flag recorded; fresh encoding and audio clipping checks not run.",
+      "evidence": "Group manifest",
+      "status": "uncertain",
+      "reason": "Inherited technical metadata; no fresh media probe in this review.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q14",
+      "finding": "Captions and stage headings support the story without listening. The exact claim logic still requires more detail than the panels provide.",
+      "evidence": "V02–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q15",
+      "finding": "Large headings lead each stage while the founders shrink to an inset, prioritizing the process.",
+      "evidence": "V02–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q16",
+      "finding": "The problem occupies roughly 38 s before the solution. The code example receives about 9 s; a black tail follows the CTA.",
+      "evidence": "V01–V08",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q17",
+      "finding": "Each manual pain receives an automated counterpart, creating a clear structural payoff.",
+      "evidence": "V02,V04–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q18",
+      "finding": "The family-practice origin and return to patient focus suggest care and relief; delivery is not established.",
+      "evidence": "V01,V07",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q19",
+      "finding": "The workflow stages connect well, but no single claim ID visibly persists through benefits, coding, denial and payment.",
+      "evidence": "V02,V04–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q20",
+      "finding": "Absolute wording about every claim and no lost revenue is not demonstrated. Staff review, exceptions and actual paid outcomes are not shown.",
+      "evidence": "V05,V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q21",
+      "finding": "Note phrases linked to codes give a concrete medical-billing example beyond generic automation claims.",
+      "evidence": "V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q22",
+      "finding": "Carry one claim through the stages and mark the staff review point, including one exception.",
+      "evidence": "V04–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q23",
+      "finding": "Tin can explain a process twice: first the manual burden, then the same stages with specific automated help.",
+      "evidence": "V02,V04–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q24",
+      "finding": "Taiga presents medical billing automation from benefits checks through coding and appeals.",
+      "evidence": "Model reading from inspected images",
+      "status": "uncertain",
+      "reason": "Model-only new-viewer interpretation; no human test.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q25",
+      "finding": "Contact sheets inspected at displayed size; a phone-size playback, caption audit, flash audit and formal accessibility check were not performed.",
+      "evidence": "Viewed sheets",
+      "status": "not checked",
+      "reason": "Full-size moving-image and device checks unavailable in this pass.",
+      "experiment": "none"
+    }
+  ],
+  "lessons": {
+    "keep": "Mirror the manual workflow with the solution using the same stage order.",
+    "avoid": "Avoid absolute outcome claims without showing exceptions and the human review point.",
+    "open": "Loss calculation, coding correctness, payer coverage, appeal results, staff oversight and all audio remain unverified.",
+    "try": [
+      "Show manual campaign briefing, drafting and publishing, then repeat those stages with Tin support.",
+      "Highlight a source phrase and its resulting output field, while keeping an approval step visible."
+    ]
+  },
+  "comparison": {
+    "story": "Establish personal connection to the problem. → Explain the repeated manual process. → Increase the perceived cost and pressure. → Show pre-visit work being handled. → Explain how claim content is derived from notes. → Show continued follow-up after a denial claim. → Close with patient focus and a next step. → No further visible message.",
+    "motion": "The workflow pans between stages, rows fill, checkmarks appear and note highlights gain code entries. Exact timing is unverified. Sampling scope: 1 fps unless a closer window is recorded.",
+    "sound": "No validated listening; unknown.",
+    "texture": "Bright room, static two-person shot and white caption pills.; Large black stage labels, small interface examples and picture-in-picture.; Bold loss statement and color-coded claim rows.; Pale background, green checks and founder inset.; Two-column note-to-code example.; Appeal tracking panel with green and gray rows.; Stable founder shot and minimal brand card.; Black tail.",
+    "lesson": "Mirror the manual workflow with the solution using the same stage order."
+  },
+  "elements": [
+    {
+      "kind": "ui",
+      "name": "workflow stages",
+      "events": [
+        "V02"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "claim table",
+      "events": [
+        "V03"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "checklist",
+      "events": [
+        "V04"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "clinical note",
+      "events": [
+        "V05"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "appeal status panel",
+      "events": [
+        "V06"
+      ]
+    },
+    {
+      "kind": "motion",
+      "name": "text highlight to code",
+      "events": [
+        "V05"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,367 @@
+{
+  "id": 243,
+  "reviewer_model": "gpt-6-astra",
+  "scope": "sampled visual and story review; ASR and measured signal support; no validated audio listening",
+  "viewed_evidence": [
+    "technical-review-2026-10-19/deep-review/motion/243/timeline-00.jpg",
+    "technical-review-2026-10-19/deep-review/motion/243/timeline-01.jpg",
+    "technical-review-2026-10-19/deep-review/motion/243/timeline-02.jpg",
+    "technical-review-2026-10-19/deep-review/audio/243-speech.json"
+  ],
+  "closer_windows": [],
+  "product_from_film": "Zolvo presents reconciliation and debtor-contact automation for commercial lending operations.",
+  "explains_well": "It connects the burden of many invoices and manual matching to source connections, payment matching and follow-up screens.",
+  "unclear": "The film does not show how an operator reviews a doubtful match or resolves an exception.",
+  "product_type": "lending operations",
+  "scenario": "Connect finance sources, match payments and follow up on invoices.",
+  "product_clear_time": 45,
+  "product_clear_basis": "The Payment Matching screen follows source-connection settings.",
+  "scenes": [
+    {
+      "id": "V01",
+      "start": 0,
+      "end": 6,
+      "action": "A founder walks toward the camera in an office corridor. Dollar circles appear, a glitch disrupts the image, and the speaker appears inside an old television frame.",
+      "design": "Burgundy labels, dollar graphics and retro screen treatment.",
+      "purpose": "Contrast portfolio ambition with dated operations.",
+      "evidence": "Visible chronological 1 fps samples, source 0–6s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V02",
+      "start": 6,
+      "end": 23,
+      "action": "An invoice icon multiplies into a grid with 15,000 a month. A people symbol gains 14 people and calendar dates. Download, folders, matching checks and a field of contact dots follow.",
+      "design": "Flat burgundy/teal diagrams and large counts.",
+      "purpose": "Break the manual burden into volume, staff, time and actions.",
+      "evidence": "Visible chronological 1 fps samples, source 6–23s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V03",
+      "start": 23,
+      "end": 39,
+      "action": "The founder lowers a newspaper, then joins a colleague in an office. Zolvo and name labels introduce the software and its connection to existing work.",
+      "design": "Casual prop, seated founders and branded pills.",
+      "purpose": "Introduce the alternative and address switching effort.",
+      "evidence": "Visible chronological 1 fps samples, source 23–39s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V04",
+      "start": 39,
+      "end": 53,
+      "action": "Settings fills with connected bank, inbox, folder and management-system cards. Payment Matching shows summary cards and a table, then Payment Detail opens with source information and a matched-record panel.",
+      "design": "Pale application screens inside a burgundy frame.",
+      "purpose": "Show sources feeding reconciliation.",
+      "evidence": "Visible chronological 1 fps samples, source 39–53s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V05",
+      "start": 53,
+      "end": 63,
+      "action": "Debtor Network cards appear, followed by Invoice Queue and a detailed record with a sequence of checks, reminders and contact activity.",
+      "design": "Cards, table and activity list with status colors.",
+      "purpose": "Extend the workflow into collection follow-up.",
+      "evidence": "Visible chronological 1 fps samples, source 53–63s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V06",
+      "start": 63,
+      "end": 75,
+      "action": "The founder returns with an abaco name and a growing dot grid behind her, then operator/scaling labels.",
+      "design": "Live presenter, graphic counts and branded labels.",
+      "purpose": "Give a customer scaling claim and audience statement.",
+      "evidence": "Visible chronological 1 fps samples, source 63–75s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V07",
+      "start": 75,
+      "end": 80.48,
+      "action": "Get a free reconciliation audit appears on a red/teal gradient, followed by zolvo.com.",
+      "design": "Minimal CTA and URL on the brand gradient.",
+      "purpose": "Offer a specific first step.",
+      "evidence": "Visible chronological 1 fps samples, source 75–80.48s; boundary approximate; exact motion between samples unverified."
+    }
+  ],
+  "sound": [
+    {
+      "id": "A01",
+      "start": 0,
+      "end": 80.48,
+      "layer": "unknown",
+      "detail": "No validated direct audio listening was performed. Music, speech delivery, effects, mix and sync remain unknown, not absent.",
+      "visual_relation": "All visual scenes; audiovisual alignment unverified",
+      "evidence": "Visual samples only; no actual audio range supplied to this reviewer."
+    },
+    {
+      "id": "A02",
+      "start": 0.04,
+      "end": 78.4,
+      "layer": "ASR draft",
+      "detail": "The ASR draft describes a lender handling 15,000 invoices with 14 people, then connected sources, automatic matching and debtor contact. It adds percentage and time-saving claims and an audit invitation. It supports the manual-to-automated story, while brand/customer names and some terms are misrecognized. Metrics and voice delivery remain unverified.",
+      "visual_relation": "Story text support; exact audiovisual alignment and delivery unverified.",
+      "evidence": "technical-review-2026-10-19/deep-review/audio/243-speech.json; local faster-whisper base CPU int8 draft; VAD candidates only, recognition errors possible."
+    }
+  ],
+  "categories": [
+    {
+      "id": "Q01",
+      "finding": "Old operations and manual volume lead to connected data, matching, debtor follow-up and a reconciliation-audit CTA.",
+      "evidence": "V01–V07",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q02",
+      "finding": "Dollar graphics and an old television frame turn the dated-back-office claim into a quick visual contrast.",
+      "evidence": "V01",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q03",
+      "finding": "The reconciliation problem is clear in the opening diagrams; the concrete software task is established by Payment Matching around 45 s.",
+      "evidence": "V02,V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q04",
+      "finding": "Icons multiply, counts change, dates extend and screens populate. The opening glitch is visible, but its exact frame structure is not inspected.",
+      "evidence": "V01,V02,V04,V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q05",
+      "finding": "Burgundy and teal carry from the diagrams into the application frame and closing gradient.",
+      "evidence": "V02,V04,V07",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q06",
+      "finding": "Simple colored diagrams explain scale before pale data-heavy screens show the product.",
+      "evidence": "V02,V04,V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q07",
+      "finding": "The volume and staff counts are large. Fine payment details and match evidence need a closer, longer view.",
+      "evidence": "V02,V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q08",
+      "finding": "The ASR draft describes a lender handling 15,000 invoices with 14 people, then connected sources, automatic matching and debtor contact. It adds percentage and time-saving claims and an audit invitation. It supports the manual-to-automated story, while brand/customer names and some terms are misrecognized. Metrics and voice delivery remain unverified.",
+      "evidence": "A02",
+      "status": "uncertain",
+      "reason": "ASR text only; no validated listening, delivery or voice origin.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q09",
+      "finding": "Voice delivery, music, effects and audiovisual alignment were not established by this visual pass.",
+      "evidence": "A01",
+      "status": "not checked",
+      "reason": "No validated direct audio listening input.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q10",
+      "finding": "Voice delivery, music, effects and audiovisual alignment were not established by this visual pass.",
+      "evidence": "A01",
+      "status": "not checked",
+      "reason": "No validated direct audio listening input.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q11",
+      "finding": "Voice delivery, music, effects and audiovisual alignment were not established by this visual pass.",
+      "evidence": "A01",
+      "status": "not checked",
+      "reason": "No validated direct audio listening input.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q12",
+      "finding": "Founder footage, graphic diagrams, a retro-TV treatment and software screens are mixed; production tools are unknown.",
+      "evidence": "V01–V07",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q13",
+      "finding": "Manifest duration 80.48s; indexed dimensions 1920×1080. Source unchanged flag recorded; fresh encoding and audio clipping checks not run.",
+      "evidence": "Group manifest",
+      "status": "uncertain",
+      "reason": "Inherited technical metadata; no fresh media probe in this review.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q14",
+      "finding": "Captions and diagrams support the process story. The exact matching logic is not readable enough to follow without further detail.",
+      "evidence": "V02,V04,V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q15",
+      "finding": "Large icons simplify the problem; the software tour then adds much more visual density.",
+      "evidence": "V02,V04,V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q16",
+      "finding": "The setup lasts roughly 39 s before the application tour. About 24 s cover connection, matching and contact screens.",
+      "evidence": "V01–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q17",
+      "finding": "Manual downloads and matching receive corresponding connected-source and matching screens, giving the feature tour a clear reason.",
+      "evidence": "V02,V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q18",
+      "finding": "The old-TV and newspaper motifs suggest outdated work; the founder and clean screens suggest control. This is interpretation.",
+      "evidence": "V01,V03,V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q19",
+      "finding": "Source connections precede matching and invoice follow-up, but one payment identifier is not legibly tracked through all three.",
+      "evidence": "V04,V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q20",
+      "finding": "Automatic-match and contact percentages, time savings and customer scaling are claims. The film does not show a doubtful match, correction or exception route.",
+      "evidence": "V04–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q21",
+      "finding": "Bank, inbox, folders, debtor cards and invoice follow-up make the lending-operations scope specific.",
+      "evidence": "V04,V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q22",
+      "finding": "Keep one invoice and bank entry readable through the match, then show an unmatched example and operator decision.",
+      "evidence": "V04,V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q23",
+      "finding": "Tin can map each manual action to a visible automated screen, while keeping an exception path in the story.",
+      "evidence": "V02,V04,V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q24",
+      "finding": "Zolvo presents reconciliation and debtor-contact automation for commercial lending operations.",
+      "evidence": "Model reading from inspected images",
+      "status": "uncertain",
+      "reason": "Model-only new-viewer interpretation; no human test.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q25",
+      "finding": "Contact sheets inspected at displayed size; a phone-size playback, caption audit, flash audit and formal accessibility check were not performed.",
+      "evidence": "Viewed sheets",
+      "status": "not checked",
+      "reason": "Full-size moving-image and device checks unavailable in this pass.",
+      "experiment": "none"
+    }
+  ],
+  "lessons": {
+    "keep": "Connect each manual burden to the product screen that addresses it.",
+    "avoid": "Avoid implying complete automation from percentage claims without showing the remaining cases.",
+    "open": "Matching accuracy, customer metrics, time savings, exception handling, source permissions and all audio remain unverified.",
+    "try": [
+      "Show manual campaign asset collection beside Tin source connections and the resulting draft.",
+      "Keep one uncertain output visible and show the operator correcting it before completion."
+    ]
+  },
+  "comparison": {
+    "story": "Contrast portfolio ambition with dated operations. → Break the manual burden into volume, staff, time and actions. → Introduce the alternative and address switching effort. → Show sources feeding reconciliation. → Extend the workflow into collection follow-up. → Give a customer scaling claim and audience statement. → Offer a specific first step.",
+    "motion": "Icons multiply, counts change, dates extend and screens populate. The opening glitch is visible, but its exact frame structure is not inspected. Sampling scope: 1 fps unless a closer window is recorded.",
+    "sound": "No validated listening; unknown.",
+    "texture": "Burgundy labels, dollar graphics and retro screen treatment.; Flat burgundy/teal diagrams and large counts.; Casual prop, seated founders and branded pills.; Pale application screens inside a burgundy frame.; Cards, table and activity list with status colors.; Live presenter, graphic counts and branded labels.; Minimal CTA and URL on the brand gradient.",
+    "lesson": "Connect each manual burden to the product screen that addresses it."
+  },
+  "elements": [
+    {
+      "kind": "ui",
+      "name": "integration settings",
+      "events": [
+        "V04"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "payment table",
+      "events": [
+        "V04"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "record detail",
+      "events": [
+        "V04",
+        "V05"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "activity log",
+      "events": [
+        "V05"
+      ]
+    },
+    {
+      "kind": "motion",
+      "name": "multiplying icons",
+      "events": [
+        "V02"
+      ]
+    },
+    {
+      "kind": "texture",
+      "name": "retro television frame",
+      "events": [
+        "V01"
+      ]
+    }
+  ]
+}

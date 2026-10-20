@@ -1,0 +1,331 @@
+{
+  "id": 273,
+  "product_from_film": "Zora Autosell is presented as automatically selling part of a coin holding as its price reaches higher multiples.",
+  "explains_well": "The repeated 2x, 4x and 8x states, autosold notices and balance view make the automatic-sale idea visible.",
+  "unclear": "The film does not show how to enable the rule, define its reference price or inspect the remaining holding after each sale.",
+  "product_type": "coin trading feature",
+  "scenario": "A coin profile leads to rising price multiples, 20% autosale notices and an increasing account balance.",
+  "product_clear_time": 12,
+  "product_clear_basis": "At 12s, a 2x label accompanies a notice that 20% was autosold; later multiples repeat that relationship.",
+  "scenes": [
+    {
+      "start": 0,
+      "end": 8,
+      "action": "A white opening gives way to Introducing Autosell in blue italic type. Text says to buy and let sells happen automatically, with buy in green and sells in pink.",
+      "design": "Sparse vertical white layout and colored words.",
+      "purpose": "Name the automatic-selling feature.",
+      "evidence": "1 fps source samples in 0–8s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V01"
+    },
+    {
+      "start": 8,
+      "end": 11,
+      "action": "A phone and coin profile appear, then a portrait is isolated within circular blue arrows and dollar symbols.",
+      "design": "Phone interface, profile card and bright financial symbols.",
+      "purpose": "Connect the feature to a held coin.",
+      "evidence": "1 fps source samples in 8–11s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V02"
+    },
+    {
+      "start": 11,
+      "end": 16,
+      "action": "The portrait is paired with 2x, 4x, 8x and later 32x states. Notices report earnings and 20% autosales. Dollar signs and pink-blue rings become denser.",
+      "design": "Large multiples, notification cards and colorful circular graphics.",
+      "purpose": "Illustrate repeated selling as the price rises.",
+      "evidence": "1 fps source samples in 11–16s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V03"
+    },
+    {
+      "start": 16,
+      "end": 21,
+      "action": "The motif returns to a phone account view. Displayed balance increases through several values, ending at $4,646 in the 20s sample.",
+      "design": "White account interface with floating dollar symbols.",
+      "purpose": "Present the claimed payoff as account value.",
+      "evidence": "1 fps source samples in 16–21s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V04"
+    },
+    {
+      "start": 21,
+      "end": 26.533,
+      "action": "Be early, miss less, win more appears, followed by the app icon and zora.co, then white.",
+      "design": "Minimal closing copy and logo.",
+      "purpose": "Give the benefit claim and destination.",
+      "evidence": "1 fps source samples in 21–26.533s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V05"
+    }
+  ],
+  "sound": [
+    {
+      "id": "A01",
+      "start": 0,
+      "end": 26.533,
+      "layer": "unknown",
+      "detail": "No speech draft is available in the assigned evidence and no validated listening was performed. Speech, music, effects, mix and sync are unknown.",
+      "visual_relation": "V01–V05; text carries the visible explanation.",
+      "evidence": "Manifest speech_draft is null; visual samples only."
+    }
+  ],
+  "categories": [
+    {
+      "id": "Q01",
+      "finding": "Feature name → automatic-sale promise → coin/multiple examples → rising balance → slogan and URL.",
+      "evidence": "V01–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q02",
+      "finding": "White space precedes a small Introducing Autosell title that grows across samples; the function is explained several seconds later.",
+      "evidence": "V01",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q03",
+      "finding": "Coin holders are the implied audience. Repeated sale notices at price multiples clarify the feature around 12s.",
+      "evidence": "V02,V03",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q04",
+      "finding": "Title scale increases, phone/profile states alternate and circular arrows surround the portrait. Multiples and dollar symbols change; exact rotation/easing is unverified.",
+      "evidence": "V01–V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q05",
+      "finding": "The same portrait links the phone coin view, abstract multiple graphic and account return.",
+      "evidence": "V02–V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q06",
+      "finding": "White space, blue italic lettering, pink accents, glossy symbols and bright rings give a playful financial treatment.",
+      "evidence": "V01–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q07",
+      "finding": "Large promise and multiple labels are clear; the 20% rule is embedded in smaller notification text.",
+      "evidence": "V01,V03",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q08",
+      "finding": "Voice delivery is unverified.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "No validated listening.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q09",
+      "finding": "Music character and structure are unverified.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "No validated listening.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q10",
+      "finding": "Effects and their sources are unverified.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "No validated listening; waveform peaks do not identify effects.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q11",
+      "finding": "Sound sync is unverified.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "No validated listening or paired audiovisual timing.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q12",
+      "finding": "Phone UI and profile imagery are combined with circular arrows and dollar symbols; asset origin and production tools are unknown.",
+      "evidence": "V02–V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q13",
+      "finding": "Source duration 26.533 s; Watch metadata 1080 × 1080. Frame rate, audio clipping and export quality not checked here.",
+      "evidence": "Whole film",
+      "status": "supported",
+      "reason": "Parent source metadata supports duration and dimensions; visual review is sampled.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q14",
+      "finding": "The main automatic-selling concept survives silently, but setup and reference-price details remain missing.",
+      "evidence": "V01–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q15",
+      "finding": "The portrait anchors the middle while large multiples attract attention; decorative dollar symbols compete with the smaller sale notice.",
+      "evidence": "V03",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q16",
+      "finding": "The short sequence repeats the rule effectively but accelerates to large gains without clarifying the changing remaining position.",
+      "evidence": "V03,V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q17",
+      "finding": "Automatic sells are illustrated by repeated notices; the win-more ending adds an outcome claim beyond the shown mechanism.",
+      "evidence": "V01,V03,V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q18",
+      "finding": "Bright rings and larger values suggest excitement and easy reward; audience response is unmeasured.",
+      "evidence": "V03,V04",
+      "status": "uncertain",
+      "reason": "Interpretation of visible treatment.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q19",
+      "finding": "The portrait and circular motif connect several scales of view, though balance growth is not reconciled with a transaction ledger.",
+      "evidence": "V02–V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q20",
+      "finding": "The multiples, earnings and balance are illustrative film states, not verified returns. Execution, fees, rule basis, remaining position and performance were not tested.",
+      "evidence": "V03,V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q21",
+      "finding": "The coin profile, blue autosell wordmark and circular selling motif make the feature visually recognizable.",
+      "evidence": "V01–V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q22",
+      "finding": "Add setup and one complete sale example.",
+      "evidence": "V03",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "Show the rule toggle, reference value, trigger, quantity sold and remaining quantity in one sequence."
+    },
+    {
+      "id": "Q23",
+      "finding": "For Tin, reuse the trigger→action→updated-state structure for a non-financial workflow.",
+      "evidence": "V03,V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "Show a review deadline triggering a reminder, then a visible response and updated task status."
+    },
+    {
+      "id": "Q24",
+      "finding": "No human new-viewer test was performed.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "The product summary is this model’s film-only reading.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q25",
+      "finding": "Mobile preview and accessibility checks were not performed.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "Contact sheets are evidence views, not a stated mobile preview or compliance test.",
+      "experiment": "none"
+    }
+  ],
+  "elements": [
+    {
+      "kind": "ui",
+      "name": "phone shell",
+      "events": [
+        "V02",
+        "V04"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "sale notification",
+      "events": [
+        "V03"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "account balance",
+      "events": [
+        "V04"
+      ]
+    },
+    {
+      "kind": "motion",
+      "name": "circular arrows",
+      "events": [
+        "V02",
+        "V03"
+      ]
+    },
+    {
+      "kind": "motion",
+      "name": "growing numerical multiples",
+      "events": [
+        "V03"
+      ]
+    }
+  ],
+  "lessons": {
+    "keep": "Repeat trigger, action notice and updated state using the same visual anchor.",
+    "try": [
+      "Show the rule toggle, reference value, sold quantity and remaining quantity.",
+      "For Tin, connect a deadline trigger to a reminder, response and updated status."
+    ],
+    "avoid": "Using rising balances as a substitute for explaining the full state change.",
+    "open": "Rule settings, transaction details, execution, returns, audio and viewer understanding remain unverified."
+  },
+  "comparison": {
+    "story": "Automatic-sale promise → repeated triggers → balance payoff.",
+    "motion": "Title scaling, circular motifs and rising number states.",
+    "sound": "No draft or validated listening.",
+    "texture": "White phone UI and glossy blue-pink graphics.",
+    "lesson": "Repeated notices can explain automation if the full before-and-after state is visible."
+  },
+  "reviewer_model": "gpt-6-astra",
+  "scope": "sampled visual and story review; ASR and measured signal support; no validated audio listening",
+  "viewed_evidence": [
+    "technical-review-2026-10-19/deep-review/motion/273/timeline-00.jpg"
+  ],
+  "closer_windows": []
+}

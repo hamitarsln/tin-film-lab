@@ -1,0 +1,304 @@
+{
+  "id": 496,
+  "reviewer_model": "gpt-6-astra",
+  "scope": "sampled visual and story review; ASR and measured signal support; no validated audio listening",
+  "viewed_evidence": [
+    "technical-review-2026-10-19/deep-review/motion/496/timeline-00.jpg",
+    "technical-review-2026-10-19/deep-review/audio/496-speech.json"
+  ],
+  "closer_windows": [],
+  "product_from_film": "A presenter promotes AIVIDEO.com as a way to create content for a brand or channel, but this short excerpt shows no creation example.",
+  "explains_well": "The group behind the presenter gives the announcement a visible team and a direct human focal point.",
+  "unclear": "References to this project and everything you saw here depend on earlier material that is absent from this file.",
+  "product_type": "founder announcement excerpt",
+  "scenario": "Announce creative tools becoming available in a product.",
+  "product_clear_time": null,
+  "product_clear_basis": "The excerpt names a product destination but shows no input, output or specific feature.",
+  "scenes": [
+    {
+      "id": "V01",
+      "start": 0,
+      "end": 6,
+      "action": "A group stands on an outdoor deck behind a central presenter. Small yellow captions mention launching project elements directly in the product.",
+      "design": "Green ivy, wood deck, casual clothing and a wide group composition.",
+      "purpose": "Announce availability with the team present.",
+      "evidence": "Visible chronological 1 fps samples, source 0–6s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V02",
+      "start": 6,
+      "end": 15,
+      "action": "The framing moves closer to the central presenter as he gestures. Captions refer to making the demonstrated material at home for a brand or channel and working with artists.",
+      "design": "Continuous-looking push toward the speaker; yellow word-sized captions.",
+      "purpose": "Connect the announcement to creators, with missing prior context.",
+      "evidence": "Visible chronological 1 fps samples, source 6–15s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V03",
+      "start": 15,
+      "end": 24.27,
+      "action": "The presenter continues gesturing as the frame tightens. AIVIDEO.com and wording about control appear in the small captions; the clip ends on the group without a separate summary card.",
+      "design": "Medium-close presenter with teammates partly cropped at the edges.",
+      "purpose": "Give a destination and broad control promise.",
+      "evidence": "Visible chronological 1 fps samples, source 15–24.27s; boundary approximate; exact motion between samples unverified."
+    }
+  ],
+  "sound": [
+    {
+      "id": "A01",
+      "start": 0,
+      "end": 24.27,
+      "layer": "unknown",
+      "detail": "No validated direct audio listening was performed. Music, speech delivery, effects, mix and sync remain unknown, not absent.",
+      "visual_relation": "All visual scenes; audiovisual alignment unverified",
+      "evidence": "Visual samples only; no actual audio range supplied to this reviewer."
+    },
+    {
+      "id": "A02",
+      "start": 0,
+      "end": 17.84,
+      "layer": "ASR draft",
+      "detail": "The mostly coherent ASR draft says project elements are launching in the product and can be used at home for a brand or channel. It mentions art and artists, but the final phrase is unclear and is not treated as reliable dialogue. The draft confirms the missing-context structure rather than explaining the absent features.",
+      "visual_relation": "Story text support; exact audiovisual alignment and delivery unverified.",
+      "evidence": "technical-review-2026-10-19/deep-review/audio/496-speech.json; local faster-whisper base CPU int8 draft; VAD candidates only, recognition errors possible."
+    }
+  ],
+  "categories": [
+    {
+      "id": "Q01",
+      "finding": "A single group announcement claims project elements are now available for users, then points to a product destination.",
+      "evidence": "V01–V03",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q02",
+      "finding": "The film starts directly with a presenter and team, without establishing the referenced project or showing its result.",
+      "evidence": "V01",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q03",
+      "finding": "Creators making content for their own brand or channel are named in the captions and ASR. The specific product action remains unclear.",
+      "evidence": "V02,A02",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q04",
+      "finding": "The camera framing steadily tightens from the full deck group toward the presenter while his hands and small yellow caption words change.",
+      "evidence": "V01–V03",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q05",
+      "finding": "The consistent location and gradual closer framing create continuity. There are no screen inserts to illustrate the product promise.",
+      "evidence": "V01–V03",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q06",
+      "finding": "Dense green foliage, wood and casual clothing create an informal outdoor team setting.",
+      "evidence": "V01–V03",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q07",
+      "finding": "Small yellow captions give fragments of the speech and the URL. Their low placement and short phrases make the full offer harder to scan.",
+      "evidence": "V01–V03",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q08",
+      "finding": "The mostly coherent ASR draft says project elements are launching in the product and can be used at home for a brand or channel. It mentions art and artists, but the final phrase is unclear and is not treated as reliable dialogue. The draft confirms the missing-context structure rather than explaining the absent features.",
+      "evidence": "A02",
+      "status": "uncertain",
+      "reason": "ASR text only; no validated listening, delivery or voice origin.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q09",
+      "finding": "Voice delivery, music, effects and audiovisual alignment were not established by this visual pass.",
+      "evidence": "A01",
+      "status": "not checked",
+      "reason": "No validated direct audio listening input.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q10",
+      "finding": "Voice delivery, music, effects and audiovisual alignment were not established by this visual pass.",
+      "evidence": "A01",
+      "status": "not checked",
+      "reason": "No validated direct audio listening input.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q11",
+      "finding": "Voice delivery, music, effects and audiovisual alignment were not established by this visual pass.",
+      "evidence": "A01",
+      "status": "not checked",
+      "reason": "No validated direct audio listening input.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q12",
+      "finding": "One outdoor team shot, a moving or reframed camera view and yellow captions form the visible production.",
+      "evidence": "V01–V03",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q13",
+      "finding": "Manifest duration 24.27s; indexed dimensions 1920×1080. Source unchanged flag recorded; fresh encoding and audio clipping checks not run.",
+      "evidence": "Group manifest",
+      "status": "uncertain",
+      "reason": "Inherited technical metadata; no fresh media probe in this review.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q14",
+      "finding": "The captions convey an announcement and broad creator audience, but the referenced earlier examples are missing even with the ASR draft.",
+      "evidence": "V01–V03,A02",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q15",
+      "finding": "The central presenter and tightening frame guide attention; the team supplies background presence without individual introductions.",
+      "evidence": "V01–V03",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q16",
+      "finding": "The twenty-four-second excerpt stays on one shot. It is brief, but almost all explanation depends on speech and missing context.",
+      "evidence": "V01–V03",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q17",
+      "finding": "There is a promise of access to prior project elements, but no shown problem, creation action or result within this file.",
+      "evidence": "V01–V03",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q18",
+      "finding": "The relaxed group staging and hand gestures suggest a personal announcement; exact delivery and sound mood are unknown.",
+      "evidence": "V01–V03",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q19",
+      "finding": "Everything you saw here refers outside the downloaded excerpt, leaving the main evidence for the claim unavailable.",
+      "evidence": "V02",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q20",
+      "finding": "The file does not demonstrate which elements were launched, their controls or achievable output. Its title is not used as proof of funding or technical features.",
+      "evidence": "V01–V03",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q21",
+      "finding": "AIVIDEO.com appears late in the captions; there is no clear product interface or persistent brand mark in the sampled images.",
+      "evidence": "V03",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q22",
+      "finding": "Insert one output example and the corresponding input, then hold a readable URL and specific feature statement at the end.",
+      "evidence": "V01–V03",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q23",
+      "finding": "A gradual move from group to speaker can focus a team announcement, if the product evidence is supplied separately in the same cut.",
+      "evidence": "V01–V03",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q24",
+      "finding": "A presenter promotes AIVIDEO.com as a way to create content for a brand or channel, but this short excerpt shows no creation example.",
+      "evidence": "Model reading from inspected images",
+      "status": "uncertain",
+      "reason": "Model-only new-viewer interpretation; no human test.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q25",
+      "finding": "Contact sheets inspected at displayed size; a phone-size playback, caption audit, flash audit and formal accessibility check were not performed.",
+      "evidence": "Viewed sheets",
+      "status": "not checked",
+      "reason": "Full-size moving-image and device checks unavailable in this pass.",
+      "experiment": "none"
+    }
+  ],
+  "lessons": {
+    "keep": "Use a group-to-speaker framing change to focus a short announcement.",
+    "avoid": "Publishing an excerpt whose core promise depends on unseen earlier examples.",
+    "open": "The prior project, actual available features, output quality and audio remain unverified.",
+    "try": [
+      "For Tin, place the team introduction after one visible campaign result so the audience knows what the announcement concerns.",
+      "Replace the reference to earlier material with a two-second example and a held feature label."
+    ]
+  },
+  "comparison": {
+    "story": "Announce availability with the team present. → Connect the announcement to creators, with missing prior context. → Give a destination and broad control promise.",
+    "motion": "The camera framing steadily tightens from the full deck group toward the presenter while his hands and small yellow caption words change. Sampling scope: 1 fps unless a closer window is recorded.",
+    "sound": "No validated listening; unknown.",
+    "texture": "Green ivy, wood deck, casual clothing and a wide group composition.; Continuous-looking push toward the speaker; yellow word-sized captions.; Medium-close presenter with teammates partly cropped at the edges.",
+    "lesson": "Use a group-to-speaker framing change to focus a short announcement."
+  },
+  "elements": [
+    {
+      "kind": "motion",
+      "name": "camera push-in",
+      "events": [
+        "V01",
+        "V02",
+        "V03"
+      ]
+    },
+    {
+      "kind": "texture",
+      "name": "outdoor foliage",
+      "events": [
+        "V01",
+        "V02",
+        "V03"
+      ]
+    }
+  ]
+}

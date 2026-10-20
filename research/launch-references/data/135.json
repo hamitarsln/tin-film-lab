@@ -1,0 +1,337 @@
+{
+  "id": 135,
+  "product_from_film": "Sync Labs is positioned as helping audiences watch films across language barriers without relying on subtitles.",
+  "explains_well": "Viewers in a home, transit, shop and cinema connect the language problem to everyday watching.",
+  "unclear": "The images cannot establish dubbing or lip-sync accuracy, and no production workflow is shown.",
+  "product_type": "film localization technology brand film",
+  "scenario": "People watch screen content across locations; a cinema viewer activates a glowing brand object and the screening continues with positive reactions.",
+  "product_clear_time": 53,
+  "product_clear_basis": "The closing line Your next favorite movie doesnt speak English, followed by Yet, clarifies the language-localization promise. Lip-sync mechanism is not demonstrated in sampled images.",
+  "scenes": [
+    {
+      "start": 0,
+      "end": 9,
+      "action": "Two people watch a screen at home; a foreign-language subtitle appears, followed by very close eye views.",
+      "design": "Dim domestic light, blue screen glow and shallow focus.",
+      "purpose": "Focus on the viewer’s effort and attention.",
+      "evidence": "1 fps source samples in 0–9s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V01"
+    },
+    {
+      "start": 9,
+      "end": 18,
+      "action": "People on a subway hold devices, look at screens and move through the station.",
+      "design": "Crowded transit, metallic train surfaces and device-height viewpoints.",
+      "purpose": "Extend screen viewing into everyday travel.",
+      "evidence": "1 fps source samples in 9–18s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V02"
+    },
+    {
+      "start": 18,
+      "end": 27,
+      "action": "A shop entrance leads to a customer and older shopkeeper, with a small screen insert between their reactions.",
+      "design": "Warm shop shelves and yellow clothing against muted background.",
+      "purpose": "Continue the language/viewing theme through another location.",
+      "evidence": "1 fps source samples in 18–27s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V03"
+    },
+    {
+      "start": 27,
+      "end": 41,
+      "action": "Cinema audience faces appear in blue light. One viewer holds a small glowing object with the Sync mark, smiles and covers it.",
+      "design": "Dark theater, blue glow and centered brand symbol.",
+      "purpose": "Introduce a symbolic intervention; it is not an actual software UI demonstration.",
+      "evidence": "1 fps source samples in 27–41s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V04"
+    },
+    {
+      "start": 41,
+      "end": 53,
+      "action": "The projected film shows two men speaking; audience reactions and a wider smiling crowd follow. Dont read a movie appears near the end.",
+      "design": "Cinema screen within frame, faces and projector light.",
+      "purpose": "Present the intended viewing benefit; actual speech and mouth alignment unverified.",
+      "evidence": "1 fps source samples in 41–53s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V05"
+    },
+    {
+      "start": 53,
+      "end": 59.959,
+      "action": "Your next favorite movie doesnt speak English. Yet. leads to Sync Labs branding on a dark field.",
+      "design": "Small restrained white text and logo.",
+      "purpose": "State the localization promise and brand.",
+      "evidence": "1 fps source samples in 53–59.959s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V06"
+    }
+  ],
+  "categories": [
+    {
+      "id": "Q01",
+      "finding": "Home viewers → transit viewers → shop → cinema intervention → engaged audience → language promise.",
+      "evidence": "V01–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q02",
+      "finding": "A dim living-room viewing scene moves to a close face. The product and language theme are not immediately explicit.",
+      "evidence": "V01",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q03",
+      "finding": "Language localization becomes clear from the final English-language line around 53s. The exact service and buyer workflow remain unstated.",
+      "evidence": "V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q04",
+      "finding": "Close eye views, device viewing and changing audience reactions are visible. Precise camera moves and lip-sync quality cannot be established at 1 fps.",
+      "evidence": "V01–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q05",
+      "finding": "Viewing devices and faces link the changing locations; the cinema sequence becomes a longer final setting. Exact transition types remain unresolved.",
+      "evidence": "V01–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q06",
+      "finding": "Muted naturalistic settings and blue screen light lead into dark cinema and projector glow.",
+      "evidence": "V01–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q07",
+      "finding": "Foreign-language subtitle and final English copy carry the concept. Most of the film uses faces rather than explanatory UI.",
+      "evidence": "V01,V05,V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q08",
+      "finding": "The inspected ASR file contains only two short unreliable French-like fragments near the start. It cannot establish dialogue content or language changes.",
+      "evidence": "0–11s",
+      "status": "uncertain",
+      "reason": "No validated listening; sparse error-prone ASR draft at technical-review-2026-10-19/deep-review/audio/135-speech.json",
+      "experiment": "none"
+    },
+    {
+      "id": "Q09",
+      "finding": "Music character and structure are unverified.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "No validated listening.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q10",
+      "finding": "Effects and their sources are unverified.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "No validated listening; waveform peaks do not identify effects.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q11",
+      "finding": "Sound sync is unverified.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "No validated listening or paired audiovisual timing.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q12",
+      "finding": "Live-action-style scenes and projected film inserts are shown; capture, actors, sources and localization processing are not independently known.",
+      "evidence": "V01–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q13",
+      "finding": "Source duration 59.959 s; Watch metadata 1920 × 1080. Frame rate, audio clipping and export quality not checked here.",
+      "evidence": "Whole film",
+      "status": "supported",
+      "reason": "Parent source metadata supports duration and dimensions; visual review is sampled.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q14",
+      "finding": "Silent viewing shows people watching and later smiling; the final text explains the language premise, but its technical benefit cannot be assessed.",
+      "evidence": "V05,V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q15",
+      "finding": "Eye close-ups and screen-lit faces direct attention to viewers; the glowing object becomes the key branded focal point.",
+      "evidence": "V01,V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q16",
+      "finding": "The first 27s establish several viewing contexts before the branded intervention. A shorter setup could reveal the purpose sooner.",
+      "evidence": "V01–V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q17",
+      "finding": "Early subtitles and viewer attention connect to the final dont-read-a-movie message, but improved language access is implied rather than visibly measured.",
+      "evidence": "V01,V05,V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q18",
+      "finding": "Concerned or puzzled-looking faces give way to smiles, suggesting intended relief and immersion; audience effects are unmeasured.",
+      "evidence": "V01,V04,V05",
+      "status": "uncertain",
+      "reason": "Interpretation of facial imagery.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q19",
+      "finding": "Screens, eyes and blue light repeat across locations; individual characters change until the theater sequence.",
+      "evidence": "V01–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q20",
+      "finding": "The film states a language-access promise. Dubbing quality, lip-sync accuracy, preserved performance and production readiness are not verified.",
+      "evidence": "V05,V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q21",
+      "finding": "The glowing Sync-mark object supplies a memorable metaphor, while no recognizable software workspace appears.",
+      "evidence": "V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q22",
+      "finding": "A short clearly labeled original/localized comparison would provide more product information than an additional viewing-location scene.",
+      "evidence": "V02,V03",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "Replace one location with the same dialogue shot before and after, with source language and processing scope labeled."
+    },
+    {
+      "id": "Q23",
+      "finding": "For Tin, use a human outcome story only after showing the actual product change behind it.",
+      "evidence": "V04,V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "Show one localized campaign clip and its source side by side, then the audience-use scene."
+    },
+    {
+      "id": "Q24",
+      "finding": "No human new-viewer test was performed.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "The product summary is this model’s film-only reading.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q25",
+      "finding": "Mobile preview and accessibility checks were not performed.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "Contact sheets are evidence views, not a stated mobile preview or compliance test.",
+      "experiment": "none"
+    }
+  ],
+  "elements": [
+    {
+      "kind": "ui",
+      "name": "video screen",
+      "events": [
+        "V01",
+        "V03",
+        "V05"
+      ]
+    },
+    {
+      "kind": "texture",
+      "name": "cinema audience",
+      "events": [
+        "V04",
+        "V05"
+      ]
+    },
+    {
+      "kind": "texture",
+      "name": "blue screen light",
+      "events": [
+        "V01",
+        "V04",
+        "V05"
+      ]
+    },
+    {
+      "kind": "motion",
+      "name": "eye close-ups",
+      "events": [
+        "V01"
+      ]
+    }
+  ],
+  "lessons": {
+    "keep": "Link the technical promise to people watching in recognizable everyday settings.",
+    "try": [
+      "Replace one setup location with a labeled original/localized dialogue comparison, checked through a validated audiovisual route.",
+      "For Tin, show the source and localized campaign clip before cutting to the audience-use story."
+    ],
+    "avoid": "Treating smiling viewers or a symbolic glowing object as proof of lip-sync accuracy.",
+    "open": "Dialogue, language transitions, lip-sync quality, actual workflow, production readiness and all sound design remain unverified."
+  },
+  "comparison": {
+    "story": "Everyday viewing → cinema intervention → engaged audience → language-access line.",
+    "motion": "Face and eye close-ups, screen inserts and reaction changes; audiovisual synchronization untested.",
+    "sound": "No validated listening; sparse ASR unreliable and insufficient for dialogue claims.",
+    "texture": "Muted real-world-looking scenes, screen glow and dark cinema.",
+    "lesson": "A human benefit story needs an explicit before/after when the technical claim depends on audio."
+  },
+  "reviewer_model": "gpt-6-astra",
+  "scope": "sampled visual and story review; ASR and measured signal support; no validated audio listening",
+  "viewed_evidence": [
+    "technical-review-2026-10-19/deep-review/motion/135/timeline-00.jpg",
+    "technical-review-2026-10-19/deep-review/motion/135/timeline-01.jpg"
+  ],
+  "closer_windows": [],
+  "sound": [
+    {
+      "id": "A01",
+      "start": 0,
+      "end": 59.959,
+      "layer": "unknown",
+      "detail": "No validated audio listening. Voice delivery, music, effects and mix are unknown.",
+      "visual_relation": "All scenes; sound alignment unverified",
+      "evidence": "No actual audio perception in this review; prepared audio files are not listening evidence."
+    }
+  ]
+}

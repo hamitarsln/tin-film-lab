@@ -1,0 +1,384 @@
+{
+  "id": 387,
+  "viewed_evidence": [
+    "technical-review-2026-10-19/deep-review/motion/387/timeline-00.jpg",
+    "technical-review-2026-10-19/deep-review/motion/387/timeline-01.jpg",
+    "astra-review-2026-10-20/evidence/group-3/387/full31.jpg",
+    "astra-review-2026-10-20/evidence/group-3/387/full35.jpg",
+    "astra-review-2026-10-20/evidence/group-3/387/full41.jpg",
+    "astra-review-2026-10-20/evidence/group-3/387/full46.jpg",
+    "technical-review-2026-10-19/deep-review/audio/387-speech.json"
+  ],
+  "product_from_film": "Cardboard is a browser video editor that searches footage and assembles edits from requests.",
+  "explains_well": "The film connects footage overload to description search, a vlog request and an assembled timeline.",
+  "unclear": "The assembled edit is not played long enough to judge its story, and the requested 60-second vlog is followed by a timeline showing 1:08.",
+  "product_type": "video editing tool",
+  "scenario": "Find a bench-press clip, request a day-in-life vlog and change its music",
+  "product_clear_time": 24,
+  "product_clear_basis": "Candidate script and captions name an AI video editor in the browser; editor UI is visible.",
+  "scenes": [
+    {
+      "start": 0,
+      "end": 9,
+      "action": "Person at desk handles an SD card, inserts it and opens editing software; file-list close-up interrupts face shots.",
+      "design": "Warm room and shallow-focus device shots; yellow captions.",
+      "purpose": "Establish footage overload",
+      "id": "V01",
+      "evidence": "Visible 1 fps samples, source 0–9s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 9,
+      "end": 17,
+      "action": "Tired-looking face and blurred timeline strips alternate; person rubs neck before browser search begins.",
+      "design": "Purple tracks, green meter and warm room.",
+      "purpose": "State manual editing friction",
+      "id": "V02",
+      "evidence": "Visible 1 fps samples, source 9–17s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 17,
+      "end": 25,
+      "action": "Cardboard landing page, file drop and analyzing footage states lead to an assistant message about voiceover structure and word timestamps.",
+      "design": "Dark browser editor and chat.",
+      "purpose": "Introduce footage-aware assistant",
+      "id": "V03",
+      "evidence": "Visible 1 fps samples, source 17–25s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 25,
+      "end": 33,
+      "action": "Editor library appears; bench press is typed and two clip cards are returned.",
+      "design": "Dark media library with thumbnails and durations.",
+      "purpose": "Show descriptive search",
+      "id": "V04",
+      "evidence": "Visible 1 fps samples, source 25–33s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 33,
+      "end": 37,
+      "action": "Request asks for a one-minute Instagram day-in-life vlog in New York City; timeline changes from sparse to filled caption and video blocks.",
+      "design": "Director chat and stacked timeline tracks.",
+      "purpose": "Show automated assembly",
+      "id": "V05",
+      "evidence": "Visible 1 fps samples, source 33–37s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 37,
+      "end": 43,
+      "action": "Request asks to change music to something rock and cool; planning state precedes a filled timeline with green audio. At full41 the project duration is 1:08.",
+      "design": "Chat, captions, video and audio tracks.",
+      "purpose": "Show soundtrack revision claim",
+      "id": "V06",
+      "evidence": "Visible 1 fps samples, source 37–43s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 43,
+      "end": 48,
+      "action": "Software-like text overlays the person briefly, then returns to the warm desk scene as the person moves hands and appears pleased.",
+      "design": "Composited UI and live-action-looking room.",
+      "purpose": "Return to user outcome",
+      "id": "V07",
+      "evidence": "Visible 1 fps samples, source 43–48s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 48,
+      "end": 54.954,
+      "action": "Cardboard mark appears on black, followed by usecardboard.com and small made-with-cardboard text.",
+      "design": "Minimal white closing text.",
+      "purpose": "Invite visit",
+      "id": "V08",
+      "evidence": "Visible 1 fps samples, source 48–54.954s; boundaries approximate, between-frame action unresolved."
+    }
+  ],
+  "sound": [
+    {
+      "id": "A01",
+      "start": 0,
+      "end": 54.954,
+      "layer": "unknown",
+      "detail": "No validated audio listening; speech, music, effects, mix and sync remain unverified.",
+      "visual_relation": "All visual scenes; alignment not checked",
+      "evidence": "No actual audio supplied to this review; existing technical-review-2026-10-19/deep-review/audio/387.json is not listening evidence."
+    },
+    {
+      "id": "A02",
+      "start": 0.1,
+      "end": 42,
+      "layer": "ASR draft",
+      "detail": "Coherent candidate script states footage overload, 90% time spent finding/dragging clips, a browser AI editor, plain-English search, 60-second vlog and original soundtrack revision. These are script claims matching the broad screen sequence. Car Board is a recognition spelling against visible Cardboard. No delivery, music-fit or effect judgment follows from this draft.",
+      "visual_relation": "V01–V06; broad script role only, exact sync unchecked",
+      "evidence": "technical-review-2026-10-19/deep-review/audio/387-speech.json; existing faster-whisper base CPU int8"
+    }
+  ],
+  "categories": [
+    {
+      "finding": "Footage overload leads to browser upload/analysis, search, vlog assembly and music revision, then a return to the user.",
+      "evidence": "V01–V08",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q01"
+    },
+    {
+      "finding": "A person at a desk cuts to an SD card close-up; footage ingestion is concrete immediately, with captions about hours of footage.",
+      "evidence": "V01 0–2 s",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q02"
+    },
+    {
+      "finding": "Creators/editors are implied by SD card and timeline. Browser AI editor is named around 20–24 s, then demonstrated through library search.",
+      "evidence": "V01, V03–V04",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q03"
+    },
+    {
+      "finding": "Motion includes quick screen crops, changing library results and timeline tracks appearing. Exact strip-transition paths and the brief face/UI composite are unresolved at 1 fps; workflow states are clearer than decorative motion.",
+      "evidence": "V02–V07",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q04"
+    },
+    {
+      "finding": "Cuts alternate the same person and screen details. Returning to the original desk after the software sequence closes the user story.",
+      "evidence": "V01–V07",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q05"
+    },
+    {
+      "finding": "Warm room light contrasts with charcoal UI, purple captions and green audio tracks. Yellow subtitles connect footage and screen scenes.",
+      "evidence": "V01–V07",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q06"
+    },
+    {
+      "finding": "Full31 makes bench press and a matching lifting thumbnail clear. Full35 shows the exact one-minute request; full41 shows 1:08, a small but relevant mismatch.",
+      "evidence": "V04–V06; full31.jpg, full35.jpg, full41.jpg",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q07"
+    },
+    {
+      "finding": "Voice presence and delivery remain unverified.",
+      "evidence": "No validated audio listening",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q08"
+    },
+    {
+      "finding": "Music character and arc remain unverified.",
+      "evidence": "No validated audio listening",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q09"
+    },
+    {
+      "finding": "Sound effects remain unverified.",
+      "evidence": "No validated audio listening",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q10"
+    },
+    {
+      "finding": "Sound-to-motion timing remain unverified.",
+      "evidence": "No validated audio listening",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q11"
+    },
+    {
+      "finding": "Desk/device footage combines with editor captures and a brief text overlay on the user. No production stack or asset origin is established by the made-with-cardboard claim.",
+      "evidence": "V01–V08",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q12"
+    },
+    {
+      "finding": "Source duration supplied as 54.954s; no independent compression, clipping or delivery check.",
+      "evidence": "Assigned metadata; source integrity checked by parent",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q13"
+    },
+    {
+      "finding": "Captions, search text and prompt/timeline states explain the core flow silently. The claimed soundtrack quality cannot be assessed from waveform graphics.",
+      "evidence": "V03–V06",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q14"
+    },
+    {
+      "finding": "Close crops isolate the search field and prompt, then the multitrack timeline serves as the result. The preview area is often dark, weakening the final story focus.",
+      "evidence": "V04–V06",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q15"
+    },
+    {
+      "finding": "The setup spends about seventeen seconds on frustration, while assembled video quality gets little screen time. A short playback excerpt would be more informative than another timeline hold.",
+      "evidence": "V01–V02, V05–V07",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q16"
+    },
+    {
+      "finding": "The right-clip problem gets a visible search payoff. The promised perfect story and fitting soundtrack are asserted through timeline completion rather than a clearly shown final edit.",
+      "evidence": "V01, V04–V06",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q17"
+    },
+    {
+      "finding": "Neck rubbing and concentrated face suggest strain; the later desk return suggests relief. This is visual interpretation, not a heard-performance judgment.",
+      "evidence": "V02, V07",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q18"
+    },
+    {
+      "finding": "The same desk user connects beginning and end. Bench-press search and New York vlog are different tasks; no selected search clip is tracked into the finished edit.",
+      "evidence": "V01, V04–V07",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q19"
+    },
+    {
+      "finding": "Shown evidence includes search results, a vlog request and populated tracks. The film does not establish search accuracy across the library, exact 60-second compliance, export completion or soundtrack originality/fit.",
+      "evidence": "V04–V06",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q20"
+    },
+    {
+      "finding": "Natural-language footage search plus an editable timeline makes the offer specific. The weary-editor setup is familiar but well tied to the workflow.",
+      "evidence": "V02–V06",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q21"
+    },
+    {
+      "finding": "Keep SD-card setup and descriptive search. Replace part of the frustration montage or closing hold with a labeled final-edit excerpt and actual duration.",
+      "evidence": "V01–V02, V04–V08",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q22"
+    },
+    {
+      "finding": "For a Tin film tool, show source clips, one descriptive search, a requested sequence and the resulting playable excerpt. Requires traceable assets and visible revision states, plus a separate listening check for music.",
+      "evidence": "V04–V06",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q23"
+    },
+    {
+      "finding": "No human new-viewer test; product description above is model interpretation of sampled images.",
+      "evidence": "V01–V08",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q24"
+    },
+    {
+      "finding": "No phone-size, safe-area or flash assessment; small UI text needs separate preview.",
+      "evidence": "Contact sheets",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q25"
+    }
+  ],
+  "lessons": {
+    "keep": "Connect a familiar editing frustration to a concrete natural-language search result.",
+    "try": [
+      "For a film assistant demo, retain one searched clip through the assembled timeline and play its place in the final story.",
+      "Try a before/after soundtrack comparison with the same video excerpt and labeled versions, then validate it through actual listening."
+    ],
+    "avoid": "Avoid using a populated timeline or waveform as the only proof of story quality and music fit.",
+    "open": "Search quality, duration compliance, final playback, export, soundtrack originality and all heard sound remain unverified."
+  },
+  "comparison": {
+    "story": "Establish footage overload → State manual editing friction → Introduce footage-aware assistant → Show descriptive search → Show automated assembly → Show soundtrack revision claim → Return to user outcome → Invite visit",
+    "motion": "Motion includes quick screen crops, changing library results and timeline tracks appearing. Exact strip-transition paths and the brief face/UI composite are unresolved at 1 fps; workflow states are clearer than decorative motion.",
+    "sound": "No validated listening; no absence claims.",
+    "texture": "Warm room light contrasts with charcoal UI, purple captions and green audio tracks. Yellow subtitles connect footage and screen scenes.",
+    "lesson": "Connect a familiar editing frustration to a concrete natural-language search result."
+  },
+  "elements": [
+    {
+      "kind": "ui",
+      "name": "media library",
+      "events": [
+        "V04"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "search",
+      "events": [
+        "V04"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "chat",
+      "events": [
+        "V03",
+        "V05",
+        "V06"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "timeline",
+      "events": [
+        "V02",
+        "V05",
+        "V06"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "audio waveform",
+      "events": [
+        "V06"
+      ]
+    },
+    {
+      "kind": "texture",
+      "name": "warm desk footage",
+      "events": [
+        "V01",
+        "V02",
+        "V07"
+      ]
+    }
+  ],
+  "reviewer_model": "gpt-6-astra",
+  "scope": "sampled visual and story review; ASR and measured signal support; no validated audio listening",
+  "closer_windows": []
+}

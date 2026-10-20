@@ -1,0 +1,353 @@
+{
+  "id": 510,
+  "reviewer_model": "gpt-6-astra",
+  "scope": "sampled visual and story review; ASR and measured signal support; no validated audio listening",
+  "viewed_evidence": [
+    "technical-review-2026-10-19/deep-review/motion/510/timeline-00.jpg",
+    "technical-review-2026-10-19/deep-review/motion/510/timeline-01.jpg",
+    "technical-review-2026-10-19/deep-review/motion/510/timeline-02.jpg",
+    "technical-review-2026-10-19/deep-review/audio/510-speech.json"
+  ],
+  "closer_windows": [],
+  "product_from_film": "Figma Slides is presented as a collaborative presentation tool, with PowerPoint import and export announced at the end.",
+  "explains_well": "Multiple named cursors on one deck and the shared mouse gesture turn collaboration into a clear visual idea.",
+  "unclear": "The film shows editing and approval but gives little detail on how existing slides move into the new workflow.",
+  "product_type": "collaborative presentation comedy",
+  "scenario": "Finish and share a team presentation before a deadline.",
+  "product_clear_time": 23,
+  "product_clear_basis": "The team’s switch is followed by a slide editor with several named cursors on the same deck.",
+  "scenes": [
+    {
+      "id": "V01",
+      "start": 0,
+      "end": 17,
+      "action": "A manager addresses an office team. A basic pink presentation, typing, a team chat deadline, a countdown and distressed reactions appear in a fast montage.",
+      "design": "Office comedy, close hands, old-looking cutaway footage and a large countdown.",
+      "purpose": "Establish presentation stress.",
+      "evidence": "Visible chronological 1 fps samples, source 0–17s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V02",
+      "start": 17,
+      "end": 30,
+      "action": "A colleague raises a hand at the meeting. The group starts using a colorful Almost Soda deck in Figma, with several named cursors, slide thumbnails, font choices and editing controls.",
+      "design": "Bright pink and yellow slides inside a dark editor; relieved-looking team reactions.",
+      "purpose": "Introduce collaborative slide creation.",
+      "evidence": "Visible chronological 1 fps samples, source 17–30s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V03",
+      "start": 30,
+      "end": 39,
+      "action": "The Share control fills the screen. Several colleagues stack their hands on the mouse, then the pointer activates Share.",
+      "design": "Extreme interface close-up and exaggerated shared physical action.",
+      "purpose": "Make sharing the team’s decisive moment.",
+      "evidence": "Visible chronological 1 fps samples, source 30–39s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V04",
+      "start": 39,
+      "end": 47,
+      "action": "A chat typing indicator says Amy the Boss is typing. The team watches with tense faces; the reply no notes! appears and they celebrate.",
+      "design": "Held faces, close chat UI and a short clear approval message.",
+      "purpose": "Resolve the deadline story with approval.",
+      "evidence": "Visible chronological 1 fps samples, source 39–47s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V05",
+      "start": 47,
+      "end": 57,
+      "action": "Confetti and exaggerated office celebration lead to All hands on deck, colored geometric shapes and the Figma Slides logo.",
+      "design": "Fast celebration cuts, bright confetti and simple black title cards.",
+      "purpose": "Connect the team gesture to the brand line.",
+      "evidence": "Visible chronological 1 fps samples, source 47–57s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V06",
+      "start": 57,
+      "end": 66.733,
+      "action": "The manager returns during the celebration. A card announces Import and export .pptx Available Now, then celebration and the Figma mark close the film.",
+      "design": "Comic afterthought, short feature card and logo hold.",
+      "purpose": "Add compatibility as a final feature announcement.",
+      "evidence": "Visible chronological 1 fps samples, source 57–66.733s; boundary approximate; exact motion between samples unverified."
+    }
+  ],
+  "sound": [
+    {
+      "id": "A01",
+      "start": 0,
+      "end": 66.733,
+      "layer": "unknown",
+      "detail": "No validated direct audio listening was performed. Music, speech delivery, effects, mix and sync remain unknown, not absent.",
+      "visual_relation": "All visual scenes; audiovisual alignment unverified",
+      "evidence": "Visual samples only; no actual audio range supplied to this reviewer."
+    },
+    {
+      "id": "A02",
+      "start": 0.2,
+      "end": 58.42,
+      "layer": "ASR draft",
+      "detail": "The ASR draft supports a presentation due by four, a countdown, the explicit switch to Figma Slides and a final one-more-thing beat. A few early lines are unclear and are not quoted as exact dialogue. The visual chat reply supplies the approval outcome; music, comic delivery and synchronization remain unverified.",
+      "visual_relation": "Story text support; exact audiovisual alignment and delivery unverified.",
+      "evidence": "technical-review-2026-10-19/deep-review/audio/510-speech.json; local faster-whisper base CPU int8 draft; VAD candidates only, recognition errors possible."
+    }
+  ],
+  "categories": [
+    {
+      "id": "Q01",
+      "finding": "Deadline stress leads to a tool switch, collaborative editing, a shared send, approval and celebration, followed by a compatibility note.",
+      "evidence": "V01–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q02",
+      "finding": "The office deadline and anxious reactions establish a familiar presentation problem before the product appears.",
+      "evidence": "V01",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q03",
+      "finding": "Teams preparing presentations are the clear users; named cursors on the same deck explain collaboration by 23s.",
+      "evidence": "V01–V02",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q04",
+      "finding": "Rapid reaction cuts and a countdown build pressure; multiple cursors move across the deck, the edit enlarges Share, hands stack on one mouse, and confetti fills the celebration.",
+      "evidence": "V01–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q05",
+      "finding": "The film switches from frantic problem montage to readable product inserts, then slows around Share and the boss’s typing indicator.",
+      "evidence": "V01–V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q06",
+      "finding": "Warm office footage contrasts with saturated pink-and-yellow slides and simple black title cards.",
+      "evidence": "V01–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q07",
+      "finding": "Share, no notes! and All hands on deck are concise story anchors. The final .pptx card carries an important feature in a short afterthought.",
+      "evidence": "V03–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q08",
+      "finding": "The ASR draft supports a presentation due by four, a countdown, the explicit switch to Figma Slides and a final one-more-thing beat. A few early lines are unclear and are not quoted as exact dialogue. The visual chat reply supplies the approval outcome; music, comic delivery and synchronization remain unverified.",
+      "evidence": "A02",
+      "status": "uncertain",
+      "reason": "ASR text only; no validated listening, delivery or voice origin.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q09",
+      "finding": "Voice delivery, music, effects and audiovisual alignment were not established by this visual pass.",
+      "evidence": "A01",
+      "status": "not checked",
+      "reason": "No validated direct audio listening input.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q10",
+      "finding": "Voice delivery, music, effects and audiovisual alignment were not established by this visual pass.",
+      "evidence": "A01",
+      "status": "not checked",
+      "reason": "No validated direct audio listening input.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q11",
+      "finding": "Voice delivery, music, effects and audiovisual alignment were not established by this visual pass.",
+      "evidence": "A01",
+      "status": "not checked",
+      "reason": "No validated direct audio listening input.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q12",
+      "finding": "Office performers, a meeting room, screen inserts, archival-looking cutaways, confetti and branded geometric graphics support the comedy.",
+      "evidence": "V01–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q13",
+      "finding": "Manifest duration 66.733s; indexed dimensions 1280×720. Source unchanged flag recorded; fresh encoding and audio clipping checks not run.",
+      "evidence": "Group manifest",
+      "status": "uncertain",
+      "reason": "Inherited technical metadata; no fresh media probe in this review.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q14",
+      "finding": "The deadline, editing, sharing and approval arc is visually legible. The ASR draft adds the explicit switch to Figma Slides and the opening request.",
+      "evidence": "V01–V04,A02",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q15",
+      "finding": "The large Share close-up and stacked hands make one action unmistakable. Named cursors give the preceding editing scene a clear collaboration cue.",
+      "evidence": "V02–V03",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q16",
+      "finding": "The middle pause around sharing and waiting makes the approval rewarding. The later .pptx announcement may be missed after the apparent brand ending.",
+      "evidence": "V03–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q17",
+      "finding": "One presentation stays the main task, and no notes! resolves the opening deadline pressure. Compatibility is a separate final beat.",
+      "evidence": "V01–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q18",
+      "finding": "Anxious faces become exaggerated relief and celebration, making presentation collaboration a comic workplace story. Heard timing and music remain unknown.",
+      "evidence": "V01–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q19",
+      "finding": "The same team and deck connect creation to sharing and approval. Import or export is claimed at the end but not shown as an action.",
+      "evidence": "V02–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q20",
+      "finding": "The film demonstrates selected editor states and a staged approval story. It does not establish file-format fidelity, actual collaboration latency or the likelihood of approval.",
+      "evidence": "V02–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q21",
+      "finding": "Bright deck colors, the geometric Figma mark and All hands on deck tie the product to the shared-hand gag.",
+      "evidence": "V02,V03,V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q22",
+      "finding": "Give the .pptx feature one brief before-and-after file example, or place it before the main closing card.",
+      "evidence": "V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q23",
+      "finding": "Turn an abstract collaboration benefit into a repeated visible group action with a clear final status.",
+      "evidence": "V02–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q24",
+      "finding": "Figma Slides is presented as a collaborative presentation tool, with PowerPoint import and export announced at the end.",
+      "evidence": "Model reading from inspected images",
+      "status": "uncertain",
+      "reason": "Model-only new-viewer interpretation; no human test.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q25",
+      "finding": "Contact sheets inspected at displayed size; a phone-size playback, caption audit, flash audit and formal accessibility check were not performed.",
+      "evidence": "Viewed sheets",
+      "status": "not checked",
+      "reason": "Full-size moving-image and device checks unavailable in this pass.",
+      "experiment": "none"
+    }
+  ],
+  "lessons": {
+    "keep": "Make collaboration visible through shared cursors and one memorable group action.",
+    "avoid": "Hiding a major practical feature after a closing sequence that feels complete.",
+    "open": "Import/export fidelity, actual performance and audio remain unverified.",
+    "try": [
+      "For Tin, show collaborators reviewing one campaign, then a clear approval status that resolves the opening deadline.",
+      "Compare the final compatibility card with a short import example placed before the celebration."
+    ]
+  },
+  "comparison": {
+    "story": "Establish presentation stress. → Introduce collaborative slide creation. → Make sharing the team’s decisive moment. → Resolve the deadline story with approval. → Connect the team gesture to the brand line. → Add compatibility as a final feature announcement.",
+    "motion": "Rapid reaction cuts and a countdown build pressure; multiple cursors move across the deck, the edit enlarges Share, hands stack on one mouse, and confetti fills the celebration. Sampling scope: 1 fps unless a closer window is recorded.",
+    "sound": "No validated listening; unknown.",
+    "texture": "Office comedy, close hands, old-looking cutaway footage and a large countdown.; Bright pink and yellow slides inside a dark editor; relieved-looking team reactions.; Extreme interface close-up and exaggerated shared physical action.; Held faces, close chat UI and a short clear approval message.; Fast celebration cuts, bright confetti and simple black title cards.; Comic afterthought, short feature card and logo hold.",
+    "lesson": "Make collaboration visible through shared cursors and one memorable group action."
+  },
+  "elements": [
+    {
+      "kind": "ui",
+      "name": "slide editor",
+      "events": [
+        "V02"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "collaborator cursors",
+      "events": [
+        "V02"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "chat approval",
+      "events": [
+        "V04"
+      ]
+    },
+    {
+      "kind": "motion",
+      "name": "reaction montage",
+      "events": [
+        "V01",
+        "V04",
+        "V05"
+      ]
+    },
+    {
+      "kind": "texture",
+      "name": "confetti",
+      "events": [
+        "V05",
+        "V06"
+      ]
+    }
+  ]
+}

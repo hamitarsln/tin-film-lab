@@ -1,0 +1,328 @@
+{
+  "id": 172,
+  "reviewer_model": "gpt-6-astra",
+  "scope": "sampled visual and story review; ASR and measured signal support; no validated audio listening",
+  "viewed_evidence": [
+    "technical-review-2026-10-19/deep-review/motion/172/timeline-00.jpg",
+    "technical-review-2026-10-19/deep-review/motion/172/timeline-01.jpg",
+    "technical-review-2026-10-19/deep-review/motion/172/timeline-02.jpg",
+    "technical-review-2026-10-19/deep-review/motion/172/frames/00033.jpg"
+  ],
+  "closer_windows": [],
+  "product_from_film": "Eden presents a two-armed robot performing repeated tabletop handling while people leave the work area.",
+  "explains_well": "A long fixed wide view gives more task continuity than a rapid capability montage.",
+  "unclear": "The object details, control mode and success rate are not established at the available resolution.",
+  "product_type": "service robot",
+  "scenario": "Handle small items at a table beside a storage bin.",
+  "product_clear_time": 32,
+  "product_clear_basis": "Repeated arm movement between tabletop and right-hand bin establishes an object-handling task.",
+  "scenes": [
+    {
+      "id": "V01",
+      "start": 0,
+      "end": 20,
+      "action": "A tall two-armed robot stands in a sunny forest clearing. The view widens to reveal two seated people in white, who stand and leave.",
+      "design": "Bright green nature, symmetrical robot and slow widening composition.",
+      "purpose": "Frame human leisure alongside robotic presence.",
+      "evidence": "Visible chronological 1 fps samples, source 0–20s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V02",
+      "start": 20,
+      "end": 24,
+      "action": "The scene changes to a white studio with robot behind a metal table, storage shelf and right-side bin. Two people walk away.",
+      "design": "Plain controlled workspace and fixed wide camera.",
+      "purpose": "Transfer the leisure premise into work.",
+      "evidence": "Visible chronological 1 fps samples, source 20–24s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V03",
+      "start": 24,
+      "end": 44,
+      "action": "The robot repeatedly moves its hands over a small tabletop item and toward the right-hand bin.",
+      "design": "Mostly static wide composition with visible arms and work surface.",
+      "purpose": "Show a sustained handling sequence.",
+      "evidence": "Visible chronological 1 fps samples, source 24–44s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V04",
+      "start": 44,
+      "end": 64,
+      "action": "Further handling cycles show arms lifting near the torso, extending toward the bin and returning to the table, then lowering.",
+      "design": "Same uninterrupted-looking viewpoint; fine object detail remains small.",
+      "purpose": "Emphasize repeatable work rather than a single pose.",
+      "evidence": "Visible chronological 1 fps samples, source 44–64s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V05",
+      "start": 64,
+      "end": 68.86,
+      "action": "Autonomous services for humanity appears, followed by Eden logo.",
+      "design": "Plain pale background and black text.",
+      "purpose": "State service mission.",
+      "evidence": "Visible chronological 1 fps samples, source 64–68.86s; boundary approximate; exact motion between samples unverified."
+    }
+  ],
+  "sound": [
+    {
+      "id": "A01",
+      "start": 0,
+      "end": 68.86,
+      "layer": "unknown",
+      "detail": "No validated direct audio listening was performed. Music, speech delivery, effects, mix and sync remain unknown, not absent.",
+      "visual_relation": "All visual scenes; audiovisual alignment unverified",
+      "evidence": "Visual samples only; no actual audio range supplied to this reviewer."
+    }
+  ],
+  "categories": [
+    {
+      "id": "Q01",
+      "finding": "Human leisure in nature leads to people leaving a work area, repeated robot handling and a service mission.",
+      "evidence": "V01–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q02",
+      "finding": "A robot in a lush clearing is an unusual contrast that precedes the human figures.",
+      "evidence": "V01",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q03",
+      "finding": "The studio task establishes practical handling by 32 s; no specific industry or object specification is given.",
+      "evidence": "V02,V03",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q04",
+      "finding": "The opening view widens and the robot arms change position repeatedly during the fixed demo. Exact joint trajectories and grip success are unverified.",
+      "evidence": "V01,V03,V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q05",
+      "finding": "People leaving both the clearing and studio connect leisure with work delegation.",
+      "evidence": "V01,V02",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q06",
+      "finding": "Saturated nature contrasts with an almost monochrome studio and exposed metal work surface.",
+      "evidence": "V01–V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q07",
+      "finding": "Only the final service line and logo carry explanatory text; the task has no labels.",
+      "evidence": "V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q08",
+      "finding": "Voice delivery, music, effects and audiovisual alignment were not established by this visual pass.",
+      "evidence": "A01",
+      "status": "not checked",
+      "reason": "No validated direct audio listening input.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q09",
+      "finding": "Voice delivery, music, effects and audiovisual alignment were not established by this visual pass.",
+      "evidence": "A01",
+      "status": "not checked",
+      "reason": "No validated direct audio listening input.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q10",
+      "finding": "Voice delivery, music, effects and audiovisual alignment were not established by this visual pass.",
+      "evidence": "A01",
+      "status": "not checked",
+      "reason": "No validated direct audio listening input.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q11",
+      "finding": "Voice delivery, music, effects and audiovisual alignment were not established by this visual pass.",
+      "evidence": "A01",
+      "status": "not checked",
+      "reason": "No validated direct audio listening input.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q12",
+      "finding": "Live-action-looking robot footage dominates; control mode, editing and autonomy are not established.",
+      "evidence": "V01–V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q13",
+      "finding": "Manifest duration 68.86 s; indexed dimensions 1920×1080. Source unchanged flag recorded; fresh encoding and audio clipping checks not run.",
+      "evidence": "Group manifest",
+      "status": "uncertain",
+      "reason": "Inherited technical metadata; no fresh media probe in this review.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q14",
+      "finding": "The robot task and people leaving are visually legible, but its exact purpose and autonomy depend on unverified context.",
+      "evidence": "V01–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q15",
+      "finding": "A fixed wide view keeps robot, table, shelf and bin in one frame, making spatial relationships clear.",
+      "evidence": "V02–V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q16",
+      "finding": "About 40 s show handling in the same view, giving unusually sustained task coverage for a69 s launch film.",
+      "evidence": "V03,V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q17",
+      "finding": "The leisure premise is answered by the robot continuing work after people leave.",
+      "evidence": "V01–V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q18",
+      "finding": "Nature and relaxed people frame automation as freeing human time; this is an interpretation, not an employment outcome.",
+      "evidence": "V01,V02",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q19",
+      "finding": "The same robot anchors both settings before the simple Eden end card.",
+      "evidence": "V01–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q20",
+      "finding": "Multiple arm cycles are visible, but object-level success, autonomy, speed and reliability are not proven by these samples.",
+      "evidence": "V03,V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q21",
+      "finding": "The Eden name and natural opening support an idealized human-leisure positioning.",
+      "evidence": "V01,V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q22",
+      "finding": "A closer view, object labels and a cycle counter would clarify what the long demo achieves.",
+      "evidence": "V03,V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q23",
+      "finding": "Tin can show one sustained automation run after a user hands it off, with a readable completion record.",
+      "evidence": "V02–V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q24",
+      "finding": "Eden presents a two-armed robot performing repeated tabletop handling while people leave the work area.",
+      "evidence": "Model reading from inspected images",
+      "status": "uncertain",
+      "reason": "Model-only new-viewer interpretation; no human test.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q25",
+      "finding": "Contact sheets inspected at displayed size; a phone-size playback, caption audit, flash audit and formal accessibility check were not performed.",
+      "evidence": "Viewed sheets",
+      "status": "not checked",
+      "reason": "Full-size moving-image and device checks unavailable in this pass.",
+      "experiment": "none"
+    }
+  ],
+  "lessons": {
+    "keep": "Show enough continuous task context for viewers to follow the work.",
+    "avoid": "Avoid calling repeated movement proof of autonomy or reliable task completion.",
+    "open": "Object identity, control mode, cycle success, safety, exact timing and audio remain unverified.",
+    "try": [
+      "Show a Tin user approving a campaign, leaving the view, and a visible run completing its agreed steps.",
+      "Add a clear before/after artifact and completion count to a long automation demonstration."
+    ]
+  },
+  "comparison": {
+    "story": "Frame human leisure alongside robotic presence. → Transfer the leisure premise into work. → Show a sustained handling sequence. → Emphasize repeatable work rather than a single pose. → State service mission.",
+    "motion": "The opening view widens and the robot arms change position repeatedly during the fixed demo. Exact joint trajectories and grip success are unverified. Sampling scope: 1 fps unless a closer window is recorded.",
+    "sound": "No validated listening; unknown.",
+    "texture": "Bright green nature, symmetrical robot and slow widening composition.; Plain controlled workspace and fixed wide camera.; Mostly static wide composition with visible arms and work surface.; Same uninterrupted-looking viewpoint; fine object detail remains small.; Plain pale background and black text.",
+    "lesson": "Show enough continuous task context for viewers to follow the work."
+  },
+  "elements": [
+    {
+      "kind": "motion",
+      "name": "robot arm handling",
+      "events": [
+        "V03",
+        "V04"
+      ]
+    },
+    {
+      "kind": "motion",
+      "name": "widening camera view",
+      "events": [
+        "V01"
+      ]
+    },
+    {
+      "kind": "texture",
+      "name": "forest setting",
+      "events": [
+        "V01"
+      ]
+    },
+    {
+      "kind": "texture",
+      "name": "white studio",
+      "events": [
+        "V02",
+        "V03",
+        "V04"
+      ]
+    }
+  ]
+}

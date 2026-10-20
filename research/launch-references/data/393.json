@@ -1,0 +1,339 @@
+{
+  "id": 393,
+  "viewed_evidence": [
+    "technical-review-2026-10-19/deep-review/motion/393/timeline-00.jpg",
+    "astra-review-2026-10-20/evidence/group-3/393/dense16-20.jpg",
+    "technical-review-2026-10-19/deep-review/audio/393-speech.json"
+  ],
+  "product_from_film": "Grok Imagine 1.0 is presented through a gallery of creative video examples and a free-trial invitation.",
+  "explains_well": "A moving wall of varied characters quickly shows the range of visual styles.",
+  "unclear": "No prompt, generation action or editable result explains how the viewer makes one of these clips.",
+  "product_type": "creative AI",
+  "scenario": "Browse example clips, then visit Grok Imagine.",
+  "product_clear_time": 19,
+  "product_clear_basis": "The product name appears; generation workflow remains an inference from examples and invitation.",
+  "scenes": [
+    {
+      "start": 0,
+      "end": 4,
+      "action": "A vertical flower-field group clip sits on black; more dark cards appear behind it as the view widens.",
+      "design": "Rounded video cards on black.",
+      "purpose": "Open with one example",
+      "id": "V01",
+      "evidence": "Visible 1 fps samples, source 0–4s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 4,
+      "end": 12,
+      "action": "The gallery moves diagonally in perspective, bringing horse rider, blue-armored figure, cartoon animal and suited man into larger view.",
+      "design": "Many simultaneous character clips in separate cards.",
+      "purpose": "Show variety",
+      "id": "V02",
+      "evidence": "Visible 1 fps samples, source 4–12s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 12,
+      "end": 18.5,
+      "action": "View travels across dancer and fantasy figure cards, widens, then pushes toward the flower-field group and illustrated woman.",
+      "design": "Mixed cinematic, cartoon and illustrated styles.",
+      "purpose": "Repeat and enlarge examples",
+      "id": "V03",
+      "evidence": "Visible 1 fps samples, source 12–18.5s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 18.5,
+      "end": 20,
+      "action": "Gallery disappears to black; Grok Imagine 1.0 fades into view by about 19s.",
+      "design": "Centered white type.",
+      "purpose": "Name product",
+      "id": "V04",
+      "evidence": "Visible 1 fps samples, source 18.5–20s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 20,
+      "end": 25.024,
+      "action": "Try it now for free changes to grok.com/imagine and holds.",
+      "design": "Minimal white text on black.",
+      "purpose": "Invite trial",
+      "id": "V05",
+      "evidence": "Visible 1 fps samples, source 20–25.024s; boundaries approximate, between-frame action unresolved."
+    }
+  ],
+  "sound": [
+    {
+      "id": "A01",
+      "start": 0,
+      "end": 25.024,
+      "layer": "unknown",
+      "detail": "No validated audio listening; speech, music, effects, mix and sync remain unverified.",
+      "visual_relation": "All visual scenes; alignment not checked",
+      "evidence": "No actual audio supplied to this review; existing technical-review-2026-10-19/deep-review/audio/393.json is not listening evidence."
+    },
+    {
+      "id": "A02",
+      "start": 0.17,
+      "end": 14.55,
+      "layer": "ASR draft",
+      "detail": "Candidate opening says the universe became more creative; later fragments include an invitation to imagine. Middle dialogue fragments are weak context and are not treated as a feature explanation. No voice quality or lip-sync finding.",
+      "visual_relation": "V01–V03; speaker identity and alignment unverified.",
+      "evidence": "technical-review-2026-10-19/deep-review/audio/393-speech.json; existing faster-whisper base CPU int8"
+    }
+  ],
+  "categories": [
+    {
+      "finding": "Example showcase leads to name and trial; there is no problem or creation task.",
+      "evidence": "V01–V05",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q01"
+    },
+    {
+      "finding": "One vertical clip of people among red flowers grows against black as a wider gallery emerges. The product is unnamed.",
+      "evidence": "V01 0–2s",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q02"
+    },
+    {
+      "finding": "Creative viewers can infer a media tool, but only Grok Imagine 1.0 at 19s identifies it. Input method is absent from inspected pictures.",
+      "evidence": "V04/V05",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q03"
+    },
+    {
+      "finding": "Gallery tilts and travels; dense 16–20s shows widening then rapid enlargement toward two cards, black at about 18.5s and title fade. Easing is unresolved.",
+      "evidence": "V02–V04; dense16-20",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q04"
+    },
+    {
+      "finding": "Continuous gallery travel links examples; a black break separates them from the title.",
+      "evidence": "V03/V04 18–19s",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q05"
+    },
+    {
+      "finding": "Black gaps unify photoreal-looking people, fantasy, anime-like illustration and a soft cartoon animal. Provenance is unknown.",
+      "evidence": "V02/V03",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q06"
+    },
+    {
+      "finding": "Only final brand, free-trial line and URL need reading; cards have no prompt or output labels.",
+      "evidence": "V04/V05",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q07"
+    },
+    {
+      "finding": "Voice presence and delivery remain unverified.",
+      "evidence": "No validated audio listening",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q08"
+    },
+    {
+      "finding": "Music character and arc remain unverified.",
+      "evidence": "No validated audio listening",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q09"
+    },
+    {
+      "finding": "Sound effects remain unverified.",
+      "evidence": "No validated audio listening",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q10"
+    },
+    {
+      "finding": "Sound-to-motion timing remain unverified.",
+      "evidence": "No validated audio listening",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q11"
+    },
+    {
+      "finding": "Video examples are cropped into vertical rounded rectangles and arranged as a perspective wall. Production and generation sources are unverified.",
+      "evidence": "V01–V03",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q12"
+    },
+    {
+      "finding": "Source duration supplied as 25.024s; no independent compression, clipping or delivery check.",
+      "evidence": "Assigned metadata; source integrity checked by parent",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q13"
+    },
+    {
+      "finding": "Silent view shows a varied media gallery and trial address; it does not explain generation or audio features.",
+      "evidence": "V01–V05",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q14"
+    },
+    {
+      "finding": "Large nearer cards become temporary focal points; multiple moving faces compete during wide views.",
+      "evidence": "V02/V03",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q15"
+    },
+    {
+      "finding": "Many clips are visible at once, making breadth clear but individual quality hard to judge.",
+      "evidence": "V02/V03 4–18.5s",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q16"
+    },
+    {
+      "finding": "The opening promises varied creative examples; the expanding gallery delivers that, but the trial workflow is deferred.",
+      "evidence": "V01/V03/V05",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q17"
+    },
+    {
+      "finding": "A lone clip expanding into a busy wall appears intended to build abundance and curiosity, followed by a calm CTA.",
+      "evidence": "V01–V05",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q18"
+    },
+    {
+      "finding": "Flower-field people recur near the final push, anchoring the varied tour.",
+      "evidence": "V01/V03",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q19"
+    },
+    {
+      "finding": "Examples show moving characters in the film; no prompt, generation time, controls or source/output pairing establishes capability conditions.",
+      "evidence": "V01–V03",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q20"
+    },
+    {
+      "finding": "The gallery treatment could fit many media tools; specificity rests on final Grok name and example selection.",
+      "evidence": "V02/V04",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q21"
+    },
+    {
+      "finding": "Replace part of the repeated gallery travel with one prompt-to-output pair.",
+      "evidence": "V03 12–18.5s",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q22"
+    },
+    {
+      "finding": "For a Tin creative-output film, build a wall from actual campaign assets and enlarge one before showing its brief and export.",
+      "evidence": "V02/V03",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q23"
+    },
+    {
+      "finding": "No human new-viewer test; product description above is model interpretation of sampled images.",
+      "evidence": "V01–V05",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q24"
+    },
+    {
+      "finding": "No phone-size, safe-area or flash assessment; small UI text needs separate preview.",
+      "evidence": "Contact sheets",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q25"
+    }
+  ],
+  "lessons": {
+    "keep": "Use a recurring example to anchor a large gallery.",
+    "try": [
+      "Try a Tin asset gallery that stops on one creative and reveals its source brief.",
+      "Try a two-card comparison showing the input still and resulting clip before the trial URL."
+    ],
+    "avoid": "Avoid treating a broad gallery as an explanation of the creation workflow.",
+    "open": "Actual audio, generation conditions and example provenance remain unknown."
+  },
+  "comparison": {
+    "story": "Open with one example → Show variety → Repeat and enlarge examples → Name product → Invite trial",
+    "motion": "Gallery tilts and travels; dense 16–20s shows widening then rapid enlargement toward two cards, black at about 18.5s and title fade. Easing is unresolved.",
+    "sound": "No validated listening; no absence claims.",
+    "texture": "Black gaps unify photoreal-looking people, fantasy, anime-like illustration and a soft cartoon animal. Provenance is unknown.",
+    "lesson": "Use a recurring example to anchor a large gallery."
+  },
+  "elements": [
+    {
+      "kind": "ui",
+      "name": "media gallery",
+      "events": [
+        "V01",
+        "V02",
+        "V03"
+      ]
+    },
+    {
+      "kind": "motion",
+      "name": "perspective gallery travel",
+      "events": [
+        "V02",
+        "V03"
+      ]
+    },
+    {
+      "kind": "texture",
+      "name": "mixed visual styles",
+      "events": [
+        "V02"
+      ]
+    }
+  ],
+  "reviewer_model": "gpt-6-astra",
+  "scope": "sampled visual and story review; ASR and measured signal support; no validated audio listening",
+  "closer_windows": [
+    {
+      "start": 16,
+      "end": 20,
+      "rate_fps": 4,
+      "evidence": [
+        "astra-review-2026-10-20/evidence/group-3/393/dense16-20.jpg"
+      ],
+      "resolved": "Gallery widens then enlarges toward recurring flower-field and illustrated-woman cards; black near 18.5s precedes title fade. Exact easing unresolved."
+    }
+  ]
+}

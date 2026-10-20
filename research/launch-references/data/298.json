@@ -1,0 +1,338 @@
+{
+  "id": 298,
+  "reviewer_model": "gpt-6-astra",
+  "scope": "sampled visual and story review; ASR and measured signal support; no validated audio listening",
+  "viewed_evidence": [
+    "technical-review-2026-10-19/deep-review/motion/298/timeline-00.jpg",
+    "technical-review-2026-10-19/deep-review/motion/298/timeline-01.jpg",
+    "technical-review-2026-10-19/deep-review/audio/298-speech.json"
+  ],
+  "closer_windows": [],
+  "product_from_film": "Asimov presents a network collecting first-person recordings of everyday human tasks for robot learning.",
+  "explains_well": "A montage of skilled hand movements makes the variety of useful human activity easy to grasp.",
+  "unclear": "The film does not show the recording equipment, an accepted submission or how a contributor gets paid.",
+  "product_type": "robotics data collection",
+  "scenario": "Record ordinary cleaning, cooking and organizing tasks as movement data.",
+  "product_clear_time": 31,
+  "product_clear_basis": "The presenter describes building a movement dataset from first-person recordings of real tasks.",
+  "scenes": [
+    {
+      "id": "V01",
+      "start": 0,
+      "end": 13,
+      "action": "A seated musician is isolated under a light. Large turquoise words introduce movement as language. Close-ups show a baseball glove, a lit match, driving, picking plants, soldering and chopping herbs.",
+      "design": "Small inset image on black expands to tactile hand-action footage.",
+      "purpose": "Make human movement feel skilled and varied.",
+      "evidence": "Visible chronological 1 fps samples, source 0–13s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V02",
+      "start": 13,
+      "end": 18,
+      "action": "The musician remains at the center of a cross-shaped collage of hand tasks. Words contrast models trained on billions of photos with the coming robot discussion.",
+      "design": "Rounded image tiles and turquoise kinetic text on black.",
+      "purpose": "Bridge everyday activity to the training-data argument.",
+      "evidence": "Visible chronological 1 fps samples, source 13–18s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V03",
+      "start": 18,
+      "end": 27,
+      "action": "Two presenters alternate in an industrial interior. Large text accompanies claims that robots still struggle with a glass and repetitive factory tasks are insufficient. A blurred lateral frame separates presenter positions.",
+      "design": "Warm industrial background and large turquoise words.",
+      "purpose": "State the need for more varied real-world task data.",
+      "evidence": "Visible chronological 1 fps samples, source 18–27s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V04",
+      "start": 27,
+      "end": 37,
+      "action": "One presenter sits at a table and describes the human-movement dataset, first-person recordings and tasks such as cleaning and organizing across households and businesses.",
+      "design": "Seated direct-to-camera explanation with changing word overlays.",
+      "purpose": "Name the data-collection offer; no recording workflow appears.",
+      "evidence": "Visible chronological 1 fps samples, source 27–37s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V05",
+      "start": 37,
+      "end": 44.928,
+      "action": "Both presenters stand together and invite viewers to turn a daily routine into a living. tryasimov.ai grows across the image, then holds on black.",
+      "design": "Wide two-person shot and turquoise website.",
+      "purpose": "Recruit contributors through an earnings promise.",
+      "evidence": "Visible chronological 1 fps samples, source 37–44.928s; boundary approximate; exact motion between samples unverified."
+    }
+  ],
+  "sound": [
+    {
+      "id": "A01",
+      "start": 0,
+      "end": 44.928,
+      "layer": "unknown",
+      "detail": "No validated direct audio listening was performed. Music, speech delivery, effects, mix and sync remain unknown, not absent.",
+      "visual_relation": "All visual scenes; audiovisual alignment unverified",
+      "evidence": "Visual samples only; no actual audio range supplied to this reviewer."
+    },
+    {
+      "id": "A02",
+      "start": 2.12,
+      "end": 42.42,
+      "layer": "ASR draft",
+      "detail": "The ASR draft supports movement as language, the robot-data gap, first-person recordings and a contributor invitation. One sentence about real-world variation and the final URL are garbled; visible text confirms tryasimov.ai. The draft does not establish dataset quality or earnings.",
+      "visual_relation": "Story text support; exact audiovisual alignment and delivery unverified.",
+      "evidence": "technical-review-2026-10-19/deep-review/audio/298-speech.json; local faster-whisper base CPU int8 draft; VAD candidates only, recognition errors possible."
+    }
+  ],
+  "categories": [
+    {
+      "id": "Q01",
+      "finding": "Human skill montage leads to a robot-data gap, a collection network and a contributor invitation.",
+      "evidence": "V01–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q02",
+      "finding": "The musician and hand close-ups establish movement as a theme before naming the product.",
+      "evidence": "V01",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q03",
+      "finding": "The first-person dataset offer is clear around 31 s; the contributor earnings angle appears near the close.",
+      "evidence": "V04,V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q04",
+      "finding": "Image tiles form a cross around the musician, words change scale and a lateral blur separates presenter positions. Exact motion curves are unverified.",
+      "evidence": "V02,V03",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q05",
+      "finding": "Hands doing varied tasks support the later argument for diverse household and business recordings. The montage is not labelled as actual collected data.",
+      "evidence": "V01,V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q06",
+      "finding": "Turquoise text on black provides a clear identity; warm footage adds physical detail.",
+      "evidence": "V01–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q07",
+      "finding": "Large individual words are easy to see but do not leave the whole claim on screen at once.",
+      "evidence": "V01–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q08",
+      "finding": "The ASR draft supports movement as language, the robot-data gap, first-person recordings and a contributor invitation. One sentence about real-world variation and the final URL are garbled; visible text confirms tryasimov.ai. The draft does not establish dataset quality or earnings.",
+      "evidence": "A02",
+      "status": "uncertain",
+      "reason": "ASR text only; no validated listening, delivery or voice origin.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q09",
+      "finding": "Voice delivery, music, effects and audiovisual alignment were not established by this visual pass.",
+      "evidence": "A01",
+      "status": "not checked",
+      "reason": "No validated direct audio listening input.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q10",
+      "finding": "Voice delivery, music, effects and audiovisual alignment were not established by this visual pass.",
+      "evidence": "A01",
+      "status": "not checked",
+      "reason": "No validated direct audio listening input.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q11",
+      "finding": "Voice delivery, music, effects and audiovisual alignment were not established by this visual pass.",
+      "evidence": "A01",
+      "status": "not checked",
+      "reason": "No validated direct audio listening input.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q12",
+      "finding": "Hand-action inserts and presenter footage are visible. Their origin and whether the inserts are dataset examples are unknown.",
+      "evidence": "V01,V03–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q13",
+      "finding": "Manifest duration 44.928s; indexed dimensions 1920×1080. Source unchanged flag recorded; fresh encoding and audio clipping checks not run.",
+      "evidence": "Group manifest",
+      "status": "uncertain",
+      "reason": "Inherited technical metadata; no fresh media probe in this review.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q14",
+      "finding": "The visuals explain movement variety, but changing isolated words are less complete than full captions for the detailed pitch.",
+      "evidence": "V01,V03,V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q15",
+      "finding": "Close hand views give way to presenters, so the recording method receives less visual explanation than the data need.",
+      "evidence": "V01,V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q16",
+      "finding": "About 18 s establish the visual idea, 19 s explain the data gap and offer, and the final 8 s recruit contributors.",
+      "evidence": "V01–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q17",
+      "finding": "The film ends with an invitation, not an example upload, acceptance or payment.",
+      "evidence": "V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q18",
+      "finding": "The tactile skill montage gives routine actions value and dignity; this is a creative reading.",
+      "evidence": "V01",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q19",
+      "finding": "The pitch shifts from robot-learning needs to contributor earnings. The connection between a daily recording and an accepted paid contribution is omitted.",
+      "evidence": "V03–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q20",
+      "finding": "Dataset scale, robot-learning value and income potential are claims. Capture requirements, quality criteria and payment terms are not shown.",
+      "evidence": "V04,V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q21",
+      "finding": "First-person household activity is a specific data source, distinct from the factory repetition mentioned in the pitch.",
+      "evidence": "V03,V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q22",
+      "finding": "Show a contributor wearing the capture setup, completing one short task and seeing submission review plus payment details.",
+      "evidence": "V04,V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q23",
+      "finding": "Tin can connect a contributor’s effort to a concrete accepted output before promising value from participation.",
+      "evidence": "V04,V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q24",
+      "finding": "Asimov presents a network collecting first-person recordings of everyday human tasks for robot learning.",
+      "evidence": "Model reading from inspected images",
+      "status": "uncertain",
+      "reason": "Model-only new-viewer interpretation; no human test.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q25",
+      "finding": "Contact sheets inspected at displayed size; a phone-size playback, caption audit, flash audit and formal accessibility check were not performed.",
+      "evidence": "Viewed sheets",
+      "status": "not checked",
+      "reason": "Full-size moving-image and device checks unavailable in this pass.",
+      "experiment": "none"
+    }
+  ],
+  "lessons": {
+    "keep": "Use varied close-up actions to make an abstract data need understandable.",
+    "avoid": "Avoid promising earnings before showing what a valid contribution involves.",
+    "open": "Capture method, dataset provenance and scale, quality review, income terms and all heard audio remain unverified.",
+    "try": [
+      "For Tin, show the raw customer input beside the useful output it helps create.",
+      "Explain participation with one real submission, acceptance criteria and an observable result."
+    ]
+  },
+  "comparison": {
+    "story": "Make human movement feel skilled and varied. → Bridge everyday activity to the training-data argument. → State the need for more varied real-world task data. → Name the data-collection offer; no recording workflow appears. → Recruit contributors through an earnings promise.",
+    "motion": "Image tiles form a cross around the musician, words change scale and a lateral blur separates presenter positions. Exact motion curves are unverified. Sampling scope: 1 fps unless a closer window is recorded.",
+    "sound": "No validated listening; unknown.",
+    "texture": "Small inset image on black expands to tactile hand-action footage.; Rounded image tiles and turquoise kinetic text on black.; Warm industrial background and large turquoise words.; Seated direct-to-camera explanation with changing word overlays.; Wide two-person shot and turquoise website.",
+    "lesson": "Use varied close-up actions to make an abstract data need understandable."
+  },
+  "elements": [
+    {
+      "kind": "motion",
+      "name": "kinetic text",
+      "events": [
+        "V01",
+        "V02",
+        "V03",
+        "V04",
+        "V05"
+      ]
+    },
+    {
+      "kind": "motion",
+      "name": "image collage",
+      "events": [
+        "V02"
+      ]
+    },
+    {
+      "kind": "texture",
+      "name": "hand action footage",
+      "events": [
+        "V01"
+      ]
+    },
+    {
+      "kind": "texture",
+      "name": "industrial interior",
+      "events": [
+        "V03",
+        "V04"
+      ]
+    }
+  ]
+}

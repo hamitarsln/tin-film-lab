@@ -1,0 +1,343 @@
+{
+  "id": 171,
+  "viewed_evidence": [
+    "technical-review-2026-10-19/deep-review/motion/171/timeline-00.jpg",
+    "technical-review-2026-10-19/deep-review/motion/171/timeline-01.jpg",
+    "technical-review-2026-10-19/deep-review/audio/171-speech.json"
+  ],
+  "product_from_film": "Slash presents a payment card for people building companies; the specific banking benefits are not shown.",
+  "explains_well": "The contrast between status imagery and hands-on work defines the intended audience.",
+  "unclear": "Cashback, yield and account functions from the source title are not established by the inspected film.",
+  "product_type": "business finance",
+  "scenario": "A montage of building, research and focused work ends on a Slash card.",
+  "product_clear_time": 32,
+  "product_clear_basis": "A Slash/Visa card appears beside a laptop; no account workflow is demonstrated.",
+  "scenes": [
+    {
+      "start": 0,
+      "end": 6,
+      "action": "Rocket, factory, rising chart, flag, cash-covered table and sports-car presenter change rapidly.",
+      "design": "Wide cinematic strips, saturated spectacle and wealth imagery.",
+      "purpose": "Set familiar success signals",
+      "id": "V01",
+      "evidence": "Visible 1 fps samples, source 0–6 s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 6,
+      "end": 8,
+      "action": "White cards build this then this is not that.",
+      "design": "Black serif type on white.",
+      "purpose": "Reject the opening frame",
+      "id": "V02",
+      "evidence": "Visible 1 fps samples, source 6–8 s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 8,
+      "end": 17,
+      "action": "Wafers, drone work, cleanroom, garage, robot assembly and welding lead to city aerial.",
+      "design": "Industrial footage, reflective surfaces and workshop light.",
+      "purpose": "Show company building",
+      "id": "V03",
+      "evidence": "Visible 1 fps samples, source 8–17 s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 17,
+      "end": 24,
+      "action": "Handwriting, keyboard, code, metalwork, cells, ultrasound and mother with baby appear.",
+      "design": "Close detail across software, manufacturing and biology.",
+      "purpose": "Broaden the meaning of work",
+      "id": "V04",
+      "evidence": "Visible 1 fps samples, source 17–24 s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 24,
+      "end": 32,
+      "action": "Lab worker and concentrated computer user give way to wide workshop and hands repairing electronics.",
+      "design": "Warm workspaces, face closeups and tool detail.",
+      "purpose": "Hold on effort",
+      "id": "V05",
+      "evidence": "Visible 1 fps samples, source 24–32 s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 32,
+      "end": 35.604,
+      "action": "Card sits beside laptop under built for the work; small legal text appears below.",
+      "design": "Warm desk, grey card, large white serif line.",
+      "purpose": "Connect the brand to builders",
+      "id": "V06",
+      "evidence": "Visible 1 fps samples, source 32–35.604 s; boundaries approximate, between-frame action unresolved."
+    }
+  ],
+  "sound": [
+    {
+      "id": "A01",
+      "start": 0,
+      "end": 35.604,
+      "layer": "unknown",
+      "detail": "No validated audio listening; speech, music, effects, mix and sync remain unverified.",
+      "visual_relation": "All visual scenes; alignment not checked",
+      "evidence": "No actual audio supplied to this review; existing technical-review-2026-10-19/deep-review/audio/171.json is not listening evidence."
+    },
+    {
+      "id": "A02",
+      "start": 0.042,
+      "end": 33.718,
+      "layer": "ASR draft",
+      "detail": "Two VAD windows describe familiar charts/flags/status imagery, reject that frame, then list garages, labs, factories, software, steel and cells before built for the work. The draft supports structure only, not delivery or music.",
+      "visual_relation": "V01–V06; thematic script correspondence",
+      "evidence": "technical-review-2026-10-19/deep-review/audio/171-speech.json; existing faster-whisper text, no listening."
+    }
+  ],
+  "categories": [
+    {
+      "finding": "Familiar wealth/progress montage is rejected, then many kinds of work lead to a finance card.",
+      "evidence": "V01–V06",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q01"
+    },
+    {
+      "finding": "Rocket launch becomes robot factory then chart; these suggest progress but do not identify the product.",
+      "evidence": "V01",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q02"
+    },
+    {
+      "finding": "Builder audience emerges 8–31 s; the card category is visible 32 s. The source-title rates are not visible claims here.",
+      "evidence": "V03–V06",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q03"
+    },
+    {
+      "finding": "Most change is shot replacement; individual work actions include typing, welding and tool handling. The final card composition holds.",
+      "evidence": "V03–V06",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q04"
+    },
+    {
+      "finding": "White type break 6–7 s explicitly separates spectacle from work; quick detail cuts then connect very different industries.",
+      "evidence": "V02–V05",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q05"
+    },
+    {
+      "finding": "Metal, glass, chips, cells and warm wooden desks create tactile variety beneath a wide cinematic presentation.",
+      "evidence": "V03–V06",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q06"
+    },
+    {
+      "finding": "Only the pivot and final slogan carry large explanation; card details and legal text are small.",
+      "evidence": "V02,V06",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q07"
+    },
+    {
+      "finding": "Voice presence and delivery remain unverified.",
+      "evidence": "No validated audio listening",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q08"
+    },
+    {
+      "finding": "Music character and arc remain unverified.",
+      "evidence": "No validated audio listening",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q09"
+    },
+    {
+      "finding": "Sound effects remain unverified.",
+      "evidence": "No validated audio listening",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q10"
+    },
+    {
+      "finding": "Sound-to-motion timing remain unverified.",
+      "evidence": "No validated audio listening",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q11"
+    },
+    {
+      "finding": "Industrial, lab, family and workshop images are assembled into a brand montage; origins and real company relationships are unknown.",
+      "evidence": "V01–V05",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q12"
+    },
+    {
+      "finding": "Source duration supplied as 35.604 s; no independent compression, clipping or delivery check.",
+      "evidence": "Assigned metadata; source integrity checked by parent",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q13"
+    },
+    {
+      "finding": "Silent viewing communicates work-focused positioning and a card, but not the financial offer.",
+      "evidence": "V02–V06",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q14"
+    },
+    {
+      "finding": "Close hands and faces narrow attention after large industrial scenes; the final card is the first concrete product object.",
+      "evidence": "V03–V06",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q15"
+    },
+    {
+      "finding": "Many industries arrive quickly, while the card receives about 3.6 s and no functional detail.",
+      "evidence": "V03–V06",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q16"
+    },
+    {
+      "finding": "The opening spectacle is intentionally replaced by effort, but the end gives a slogan rather than a practical payoff.",
+      "evidence": "V01,V02,V06",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q17"
+    },
+    {
+      "finding": "The montage seems designed to move from scepticism about status to respect for focused work.",
+      "evidence": "V02–V05; interpretation",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q18"
+    },
+    {
+      "finding": "The repeated theme of making connects otherwise unrelated subjects; no single business task persists.",
+      "evidence": "V03–V05",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q19"
+    },
+    {
+      "finding": "A card and positioning are shown; no account, purchase, cashback or yield result is demonstrated.",
+      "evidence": "V06",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q20"
+    },
+    {
+      "finding": "The work-first editorial choice has personality, while most images could serve other builder-oriented brands.",
+      "evidence": "V02–V06",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q21"
+    },
+    {
+      "finding": "Add one concrete card use or readable benefit after the workshop sequence.",
+      "evidence": "V05–V06",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q22"
+    },
+    {
+      "finding": "For a business tool, use tactile hands-at-work shots to establish audience, then connect to one actual product action.",
+      "evidence": "V03–V06",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q23"
+    },
+    {
+      "finding": "No human new-viewer test; product description above is model interpretation of sampled images.",
+      "evidence": "V01–V06",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q24"
+    },
+    {
+      "finding": "No phone-size, safe-area or flash assessment; small UI text needs separate preview.",
+      "evidence": "Contact sheets",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q25"
+    }
+  ],
+  "lessons": {
+    "keep": "Use close hands and tools to give an abstract builder audience a concrete visual identity.",
+    "try": [
+      "For a procurement tool, show a technician needing a part then the actual order and receipt.",
+      "Test a shorter multi-industry montage followed by a five-second readable card-benefit screen."
+    ],
+    "avoid": "Avoid leaving the whole practical offer to external post copy.",
+    "open": "Which financial benefits does a viewer understand without the source title or narration?"
+  },
+  "comparison": {
+    "story": "Set familiar success signals → Reject the opening frame → Show company building → Broaden the meaning of work → Hold on effort → Connect the brand to builders",
+    "motion": "Most change is shot replacement; individual work actions include typing, welding and tool handling. The final card composition holds.",
+    "sound": "No validated listening; no absence claims.",
+    "texture": "Metal, glass, chips, cells and warm wooden desks create tactile variety beneath a wide cinematic presentation.",
+    "lesson": "Use close hands and tools to give an abstract builder audience a concrete visual identity."
+  },
+  "elements": [
+    {
+      "kind": "ui",
+      "name": "chart",
+      "events": [
+        "V01"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "code editor",
+      "events": [
+        "V04"
+      ]
+    },
+    {
+      "kind": "texture",
+      "name": "industrial footage",
+      "events": [
+        "V03",
+        "V04"
+      ]
+    },
+    {
+      "kind": "texture",
+      "name": "payment card",
+      "events": [
+        "V06"
+      ]
+    }
+  ],
+  "reviewer_model": "gpt-6-astra",
+  "scope": "sampled visual and story review; ASR and measured signal support; no validated audio listening",
+  "closer_windows": []
+}

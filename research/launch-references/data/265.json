@@ -1,0 +1,354 @@
+{
+  "id": 265,
+  "reviewer_model": "gpt-6-astra",
+  "scope": "sampled visual and story review; ASR and measured signal support; no validated audio listening",
+  "viewed_evidence": [
+    "technical-review-2026-10-19/deep-review/motion/265/timeline-00.jpg",
+    "technical-review-2026-10-19/deep-review/motion/265/timeline-01.jpg",
+    "technical-review-2026-10-19/deep-review/motion/265/timeline-02.jpg",
+    "technical-review-2026-10-19/deep-review/motion/265/frames/00049.jpg",
+    "technical-review-2026-10-19/deep-review/motion/265/frames/00055.jpg",
+    "technical-review-2026-10-19/deep-review/motion/265/frames/00059.jpg",
+    "technical-review-2026-10-19/deep-review/audio/265-speech.json"
+  ],
+  "closer_windows": [],
+  "product_from_film": "Andustry presents industrial sourcing from a natural-language request through supplier quotes and offer acceptance.",
+  "explains_well": "The same request progresses to ranked suppliers, comparable offers, a counteroffer and a final accepted quote.",
+  "unclear": "The film negotiates one supplier’s price but selects another without explaining the price-versus-lead-time choice.",
+  "product_type": "industrial procurement",
+  "scenario": "Source 500 hydraulic butterfly valves, compare suppliers and accept an offer.",
+  "product_clear_time": 40,
+  "product_clear_basis": "The request field contains hydraulic butterfly valves and 500 units with a Find Suppliers action.",
+  "scenes": [
+    {
+      "id": "V01",
+      "start": 0,
+      "end": 11,
+      "action": "Rocket and industrial footage leads to Industry is moving and but you’re STUCK for quotes text.",
+      "design": "Factory montage and large black words on white.",
+      "purpose": "Contrast industrial progress with sourcing delay.",
+      "evidence": "Visible chronological 1 fps samples, source 0–11s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V02",
+      "start": 11,
+      "end": 33,
+      "action": "Laptop marketplace pages, supplier listings, social pages and folders accompany claims about outreach, negotiations and slow comparisons. Manufacturing headlines stack and enlarge.",
+      "design": "Darkened screen footage, white captions and news clipping montage.",
+      "purpose": "Build the case that procurement is difficult.",
+      "evidence": "Visible chronological 1 fps samples, source 11–33s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V03",
+      "start": 33,
+      "end": 43,
+      "action": "There should be a better way leads to Andustry over an illustrated factory. A request field fills with hydraulic butterfly valves DN50, 500 units; Find Suppliers is activated.",
+      "design": "Minimal pale UI and one central input.",
+      "purpose": "Start a concrete sourcing task.",
+      "evidence": "Visible chronological 1 fps samples, source 33–43s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V04",
+      "start": 43,
+      "end": 50,
+      "action": "Three suppliers appear with match scores and contacted statuses. They become quote cards with prices and lead times; the first is marked Best Match.",
+      "design": "Ranked list becomes three side-by-side offers.",
+      "purpose": "Show discovery and comparison.",
+      "evidence": "Visible chronological 1 fps samples, source 43–50s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V05",
+      "start": 50,
+      "end": 60,
+      "action": "An AI strip suggests a counteroffer on the third supplier. Its price changes from $3,800 to $3,300 with an accepted status. The first supplier, still $3,200, is then selected and Quote Accepted appears.",
+      "design": "Stable quote cards, small negotiation status and green final check.",
+      "purpose": "Show negotiation and a final decision; the reason for choosing the first offer is unstated.",
+      "evidence": "Visible chronological 1 fps samples, source 50–60s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V06",
+      "start": 60,
+      "end": 64.361,
+      "action": "The geometric mark resolves above Andustry.com on white.",
+      "design": "Large URL and minimal logo.",
+      "purpose": "Provide a next step.",
+      "evidence": "Visible chronological 1 fps samples, source 60–64.361s; boundary approximate; exact motion between samples unverified."
+    }
+  ],
+  "sound": [
+    {
+      "id": "A01",
+      "start": 0,
+      "end": 64.361,
+      "layer": "unknown",
+      "detail": "No validated direct audio listening was performed. Music, speech delivery, effects, mix and sync remain unknown, not absent.",
+      "visual_relation": "All visual scenes; audiovisual alignment unverified",
+      "evidence": "Visual samples only; no actual audio range supplied to this reviewer."
+    },
+    {
+      "id": "A02",
+      "start": 6.82,
+      "end": 62.73,
+      "layer": "ASR draft",
+      "detail": "The ASR draft contrasts slow supplier search and quote comparison with a request-driven workflow, ranked suppliers, automatic contact, comparison and AI counteroffers. It supports the product sequence. The opening has many recognition errors and the brand is misrecognized; supplier quality and time claims remain unverified, as does delivery.",
+      "visual_relation": "Story text support; exact audiovisual alignment and delivery unverified.",
+      "evidence": "technical-review-2026-10-19/deep-review/audio/265-speech.json; local faster-whisper base CPU int8 draft; VAD candidates only, recognition errors possible."
+    }
+  ],
+  "categories": [
+    {
+      "id": "Q01",
+      "finding": "Industrial progress and sourcing friction lead to one request, supplier ranking, quote comparison, negotiation and acceptance.",
+      "evidence": "V01–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q02",
+      "finding": "Rocket and factory footage establish industrial scale before the quote-delay problem.",
+      "evidence": "V01",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q03",
+      "finding": "The exact sourcing task becomes clear around 40 s through the filled request field.",
+      "evidence": "V03",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q04",
+      "finding": "Text builds, supplier rows become cards, status labels change and one price decreases. Exact transition easing is unverified.",
+      "evidence": "V03–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q05",
+      "finding": "Supplier names persist from ranked list to quotes, giving the product section stronger continuity than the opening montage.",
+      "evidence": "V04,V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q06",
+      "finding": "Black-and-white problem typography gives way to a pale interface with dark green controls.",
+      "evidence": "V01–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q07",
+      "finding": "The request and main prices are readable, but the AI counteroffer line and lead-time details are small.",
+      "evidence": "V03–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q08",
+      "finding": "The ASR draft contrasts slow supplier search and quote comparison with a request-driven workflow, ranked suppliers, automatic contact, comparison and AI counteroffers. It supports the product sequence. The opening has many recognition errors and the brand is misrecognized; supplier quality and time claims remain unverified, as does delivery.",
+      "evidence": "A02",
+      "status": "uncertain",
+      "reason": "ASR text only; no validated listening, delivery or voice origin.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q09",
+      "finding": "Voice delivery, music, effects and audiovisual alignment were not established by this visual pass.",
+      "evidence": "A01",
+      "status": "not checked",
+      "reason": "No validated direct audio listening input.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q10",
+      "finding": "Voice delivery, music, effects and audiovisual alignment were not established by this visual pass.",
+      "evidence": "A01",
+      "status": "not checked",
+      "reason": "No validated direct audio listening input.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q11",
+      "finding": "Voice delivery, music, effects and audiovisual alignment were not established by this visual pass.",
+      "evidence": "A01",
+      "status": "not checked",
+      "reason": "No validated direct audio listening input.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q12",
+      "finding": "Industrial footage, news screenshots, an illustrated factory and designed software panels are mixed; production sources are unknown.",
+      "evidence": "V01–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q13",
+      "finding": "Manifest duration 64.361s; indexed dimensions 1920×1080. Source unchanged flag recorded; fresh encoding and audio clipping checks not run.",
+      "evidence": "Group manifest",
+      "status": "uncertain",
+      "reason": "Inherited technical metadata; no fresh media probe in this review.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q14",
+      "finding": "The product section is understandable through visible input, cards and status changes. The supplier-selection rationale is not stated.",
+      "evidence": "V03–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q15",
+      "finding": "A single input and three cards keep the task focused; the small AI strip receives less emphasis than the prices.",
+      "evidence": "V03–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q16",
+      "finding": "About 33 s explain the problem before the brand transition; the full task occupies roughly 22 s.",
+      "evidence": "V01–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q17",
+      "finding": "Quote Accepted gives the sourcing task a clear end state, though it does not represent delivery of goods.",
+      "evidence": "V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q18",
+      "finding": "The shift from many marketplace screens to a few cards suggests relief and control. This is interpretation.",
+      "evidence": "V02,V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q19",
+      "finding": "The third supplier’s negotiated price changes, but the final choice is the first supplier. This is a visible decision sequence, not evidence of a mismatch; its trade-off is unexplained.",
+      "evidence": "V05; individual 48, 54 and 58 s frames",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q20",
+      "finding": "Verified supplier scores, automatic outreach, response time and negotiation are claims. The film does not explain ranking criteria, why the chosen offer wins or downstream purchase/delivery steps.",
+      "evidence": "V04,V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q21",
+      "finding": "The valve specification, supplier scores and counteroffer make the workflow specific to sourcing.",
+      "evidence": "V03–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q22",
+      "finding": "Add a short reason beside the selected offer, such as the visible price and lead-time trade-off, without implying an unverified ranking basis.",
+      "evidence": "V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q23",
+      "finding": "Tin can keep one request and the same options through comparison and selection, then explain why one wins.",
+      "evidence": "V03–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q24",
+      "finding": "Andustry presents industrial sourcing from a natural-language request through supplier quotes and offer acceptance.",
+      "evidence": "Model reading from inspected images",
+      "status": "uncertain",
+      "reason": "Model-only new-viewer interpretation; no human test.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q25",
+      "finding": "Contact sheets inspected at displayed size; a phone-size playback, caption audit, flash audit and formal accessibility check were not performed.",
+      "evidence": "Viewed sheets",
+      "status": "not checked",
+      "reason": "Full-size moving-image and device checks unavailable in this pass.",
+      "experiment": "none"
+    }
+  ],
+  "lessons": {
+    "keep": "Keep named options visible from discovery through the final choice.",
+    "avoid": "Avoid leaving the reason for the final selection implicit after highlighting a different option.",
+    "open": "Supplier verification, ranking criteria, outreach, quote timing, actual negotiation, delivery and all audio remain unverified.",
+    "try": [
+      "Show three Tin creative options with the same labels through comparison, revision and approval.",
+      "Add a short decision reason when the user selects an option other than the one just improved."
+    ]
+  },
+  "comparison": {
+    "story": "Contrast industrial progress with sourcing delay. → Build the case that procurement is difficult. → Start a concrete sourcing task. → Show discovery and comparison. → Show negotiation and a final decision; the reason for choosing the first offer is unstated. → Provide a next step.",
+    "motion": "Text builds, supplier rows become cards, status labels change and one price decreases. Exact transition easing is unverified. Sampling scope: 1 fps unless a closer window is recorded.",
+    "sound": "No validated listening; unknown.",
+    "texture": "Factory montage and large black words on white.; Darkened screen footage, white captions and news clipping montage.; Minimal pale UI and one central input.; Ranked list becomes three side-by-side offers.; Stable quote cards, small negotiation status and green final check.; Large URL and minimal logo.",
+    "lesson": "Keep named options visible from discovery through the final choice."
+  },
+  "elements": [
+    {
+      "kind": "ui",
+      "name": "request form",
+      "events": [
+        "V03"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "supplier list",
+      "events": [
+        "V04"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "quote cards",
+      "events": [
+        "V04",
+        "V05"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "negotiation status",
+      "events": [
+        "V05"
+      ]
+    },
+    {
+      "kind": "motion",
+      "name": "list to cards",
+      "events": [
+        "V04"
+      ]
+    }
+  ]
+}

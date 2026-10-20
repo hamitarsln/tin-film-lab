@@ -1,0 +1,330 @@
+{
+  "id": 466,
+  "product_from_film": "Skiper-UI offers interface components with a shown shadcn installation command and a gallery of visual examples.",
+  "explains_well": "The film names UI components, shows an install command and quickly demonstrates a range of component appearances.",
+  "unclear": "The fast examples do not show how a developer selects one component and uses it in a page.",
+  "product_type": "UI component library",
+  "scenario": "Discover component examples and a command for adding the library.",
+  "product_clear_time": 2,
+  "product_clear_basis": "A whole new era of UI components appears at 2s, followed by code and component examples.",
+  "scenes": [
+    {
+      "start": 0,
+      "end": 5,
+      "action": "Skiper-UI sits among fine guide lines; a UI-components title leads to code with a blue orb and two white hands pointing toward a circular emblem.",
+      "design": "Black background, thin lines and blue accent.",
+      "purpose": "Introduce a design-oriented component library.",
+      "evidence": "1 fps source samples in 0–5s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V01"
+    },
+    {
+      "start": 5,
+      "end": 9,
+      "action": "Beyond default shadcn/ui leads to stacked cards, a white illustration panel and red letter shapes in a dark card.",
+      "design": "Alternating dark and light component panels.",
+      "purpose": "Show visual variety.",
+      "evidence": "1 fps source samples in 5–9s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V02"
+    },
+    {
+      "start": 9,
+      "end": 13,
+      "action": "An npx shadcn add @skiper-ui command sits over angled cards; one card lists 72+ components and free/pro counts.",
+      "design": "Command above two panels, then isolated on black.",
+      "purpose": "Provide an entry action and claimed breadth.",
+      "evidence": "1 fps source samples in 9–13s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V03"
+    },
+    {
+      "start": 13,
+      "end": 15,
+      "action": "The skiper-ui.com address holds on black.",
+      "design": "Centered white URL.",
+      "purpose": "Give a destination.",
+      "evidence": "1 fps source samples in 13–15s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V04"
+    },
+    {
+      "start": 15,
+      "end": 21.366,
+      "action": "A floating icon toolbar, colored finance cards, sticker-like graphics, photo grid, red/white lettering and a broad component collage follow.",
+      "design": "Rapid full-frame examples with a final white gallery.",
+      "purpose": "Finish by expanding the visual range.",
+      "evidence": "1 fps source samples in 15–21.366s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V05"
+    }
+  ],
+  "categories": [
+    {
+      "id": "Q01",
+      "finding": "Name → category → examples → installation and URL → more examples.",
+      "evidence": "V01–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q02",
+      "finding": "Fine guide lines and restrained type set a design-tool tone.",
+      "evidence": "V01",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q03",
+      "finding": "UI components is explicit at 2s; the install command gives a developer action.",
+      "evidence": "V01,V03",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q04",
+      "finding": "Cards appear stacked and angled; lettering and example states change rapidly. Exact motion curves unverified.",
+      "evidence": "V02,V03,V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q05",
+      "finding": "Simple text cards alternate with component panels, with installation isolated before the URL.",
+      "evidence": "V01–V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q06",
+      "finding": "Black/white surfaces carry blue, red and bright card accents.",
+      "evidence": "V01–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q07",
+      "finding": "The command and URL get dedicated space; component count details and individual examples pass quickly.",
+      "evidence": "V03–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q08",
+      "finding": "Voice delivery is unverified.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "No validated listening.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q09",
+      "finding": "Music character and structure are unverified.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "No validated listening.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q10",
+      "finding": "Effects and their sources are unverified.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "No validated listening; waveform peaks do not identify effects.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q11",
+      "finding": "Sound sync is unverified.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "No validated listening or paired audiovisual timing.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q12",
+      "finding": "Code, illustrations, component previews and photo grids are visible; their source and live interaction are unverified.",
+      "evidence": "V01–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q13",
+      "finding": "Source duration 21.366 s; Watch metadata 1920 × 1080. Frame rate, audio clipping and export quality not checked here.",
+      "evidence": "Whole film",
+      "status": "supported",
+      "reason": "Parent source metadata supports duration and dimensions; visual review is sampled.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q14",
+      "finding": "Category, command and URL remain understandable without sound.",
+      "evidence": "V01,V03,V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q15",
+      "finding": "Centered text gives way to large component cards, then a multi-example collage.",
+      "evidence": "V01–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q16",
+      "finding": "The 21s film gives most examples about a second; this favors range over interaction detail.",
+      "evidence": "V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q17",
+      "finding": "The component promise receives many visual examples, but no installed result.",
+      "evidence": "V01,V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q18",
+      "finding": "Variety and bright accents suggest creative flexibility; response unmeasured.",
+      "evidence": "V05",
+      "status": "uncertain",
+      "reason": "Visual interpretation.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q19",
+      "finding": "The Skiper name and blue orb return within the closing gallery.",
+      "evidence": "V01,V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q20",
+      "finding": "Component counts, compatibility, installation success, accessibility and interaction quality were not checked.",
+      "evidence": "V03,V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q21",
+      "finding": "The shadcn command places the visual library in a recognizable developer workflow.",
+      "evidence": "V02,V03",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q22",
+      "finding": "Show one installed component.",
+      "evidence": "V03,V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "Follow the command with one component name and its working state in a simple page."
+    },
+    {
+      "id": "Q23",
+      "finding": "Pair a gallery with one concrete selection.",
+      "evidence": "V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "For Tin, show a format gallery, select one item and hold its populated campaign result."
+    },
+    {
+      "id": "Q24",
+      "finding": "No human new-viewer test was performed.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "The product summary is this model’s film-only reading.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q25",
+      "finding": "Mobile preview and accessibility checks were not performed.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "Contact sheets are evidence views, not a stated mobile preview or compliance test.",
+      "experiment": "none"
+    }
+  ],
+  "elements": [
+    {
+      "kind": "ui",
+      "name": "code editor",
+      "events": [
+        "V01"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "floating toolbar",
+      "events": [
+        "V05"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "card grid",
+      "events": [
+        "V05"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "photo grid",
+      "events": [
+        "V05"
+      ]
+    },
+    {
+      "kind": "motion",
+      "name": "stacked angled cards",
+      "events": [
+        "V02",
+        "V03"
+      ]
+    }
+  ],
+  "lessons": {
+    "keep": "Give installation and destination text their own uncluttered frames.",
+    "try": [
+      "Show one named component working after installation.",
+      "For Tin, select one gallery item and hold its populated output."
+    ],
+    "avoid": "Using a fast gallery as the only explanation of use.",
+    "open": "Installation, counts, compatibility, interaction behavior and sound remain unverified."
+  },
+  "comparison": {
+    "story": "Component announcement with installation cue and visual range.",
+    "motion": "Stacked panels and rapid example changes.",
+    "sound": "No validated listening or available ASR.",
+    "texture": "Dark minimal type with bright component accents.",
+    "lesson": "A clear command benefits from one visible result."
+  },
+  "reviewer_model": "gpt-6-astra",
+  "scope": "sampled visual and story review; ASR and measured signal support; no validated audio listening",
+  "viewed_evidence": [
+    "technical-review-2026-10-19/deep-review/motion/466/timeline-00.jpg"
+  ],
+  "closer_windows": [],
+  "sound": [
+    {
+      "id": "A01",
+      "start": 0,
+      "end": 21.366,
+      "layer": "unknown",
+      "detail": "No validated audio listening. Voice delivery, music, effects and mix are unknown.",
+      "visual_relation": "All scenes; sound alignment unverified",
+      "evidence": "No actual audio perception in this review; prepared audio files are not listening evidence."
+    }
+  ]
+}

@@ -1,0 +1,340 @@
+{
+  "id": 366,
+  "product_from_film": "Gemini Deep Think is presented as a research assistant for choosing semiconductor growth conditions and automating lab workflows.",
+  "explains_well": "Lab work, a molecular model, furnace handling and parameter charts connect the AI claim to a physical research task.",
+  "unclear": "The recommended thermal profile is not traced through one experiment to its measured result.",
+  "product_type": "AI research assistant",
+  "scenario": "A researcher describes using Deep Think to grow 2D semiconductor material and shows related lab instruments and computer views.",
+  "product_clear_time": 0,
+  "product_clear_basis": "The opening ASR states that the lab uses Deep Think to design new semiconductors; the visual lab context supports the domain.",
+  "scenes": [
+    {
+      "start": 0,
+      "end": 12,
+      "action": "A seated researcher introduces the lab use, then standing and close portraits identify Dr Haozhe Harry Wang, Duke University.",
+      "design": "Portrait footage in a lab; pale blue side panel.",
+      "purpose": "Establish the user and task through testimonial speech.",
+      "evidence": "1 fps source samples in 0–12s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V01"
+    },
+    {
+      "start": 12,
+      "end": 25,
+      "action": "Lab workers handle samples and tools. The researcher appears beside best result ever text, followed by a purple microscope-like material image.",
+      "design": "Close lab details, split views and highlighted quote.",
+      "purpose": "Support the claimed 100-to-130 micron growth story in ASR.",
+      "evidence": "1 fps source samples in 12–25s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V02"
+    },
+    {
+      "start": 25,
+      "end": 45,
+      "action": "Circuit-board details and a computer display lead to an illustrated molecular sheet seen from several angles, intercut with the researcher.",
+      "design": "Macro electronics, charts/terminal and blue molecular model.",
+      "purpose": "Explain the thin-material research context.",
+      "evidence": "1 fps source samples in 25–45s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V03"
+    },
+    {
+      "start": 45,
+      "end": 66,
+      "action": "Lab workers use equipment; paper figures, gas apparatus and a furnace appear. A pale panel highlights finding a sweet spot in parameters.",
+      "design": "Hands, instruments and researcher views.",
+      "purpose": "Show the physical variables and labor behind tuning.",
+      "evidence": "1 fps source samples in 45–66s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V04"
+    },
+    {
+      "start": 66,
+      "end": 76,
+      "action": "Computer terminal output, parameter plots, a material image and microscope use appear before the researcher returns.",
+      "design": "Split-screen workflow details and plotted profiles.",
+      "purpose": "Illustrate the suggested thermal-profile and experiment workflow.",
+      "evidence": "1 fps source samples in 66–76s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V05"
+    },
+    {
+      "start": 76,
+      "end": 88.666,
+      "action": "Typing and a Gemini response view lead to terminal text calling the Gemini Deep Think API, then a standing lab portrait and brand card.",
+      "design": "Computer close-ups and white closing identity.",
+      "purpose": "Point toward automation and name the product.",
+      "evidence": "1 fps source samples in 76–88.666s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V06"
+    }
+  ],
+  "sound": [
+    {
+      "id": "A01",
+      "start": 0,
+      "end": 88.666,
+      "layer": "ASR draft",
+      "detail": "Draft supports the semiconductor use, 100 micron target/130 micron result claim, parameter-tuning difficulty and whole thermal-profile suggestion. The final phrase about instruments is misrecognized as accounting instruments and is not used literally. Delivery, music, effects and sync remain unverified.",
+      "visual_relation": "V01–V06; speech supplies the scientific task and claimed result.",
+      "evidence": "366-speech.json local draft; visible lab and text support only, no validated listening."
+    }
+  ],
+  "categories": [
+    {
+      "id": "Q01",
+      "finding": "Researcher/result claim → material context → tuning difficulty → profile/workflow → API ambition.",
+      "evidence": "V01–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q02",
+      "finding": "A researcher sits in a lab; opening ASR immediately names semiconductor use. No numerical result is visible yet.",
+      "evidence": "V01",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q03",
+      "finding": "Scientific researchers are addressed through a semiconductor-growth example; the task is stated in opening ASR.",
+      "evidence": "V01",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q04",
+      "finding": "Molecular model orientation changes and split-panel arrangements alternate with lab actions. Exact camera/model motion and easing are unverified.",
+      "evidence": "V02–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q05",
+      "finding": "Lab details bridge interview sections; pale quote panels pair a person or instrument with the key idea.",
+      "evidence": "V01–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q06",
+      "finding": "Physical lab textures and warm cabinets contrast with pale blue graphic panels and a blue molecular illustration.",
+      "evidence": "V01–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q07",
+      "finding": "Short highlighted phrases reinforce claims. Parameter screens are context views rather than a readable recipe/result comparison.",
+      "evidence": "V02,V04,V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q08",
+      "finding": "ASR supports a first-person research case study, with a garbled closing phrase. Audible delivery and other layers remain unknown.",
+      "evidence": "A01",
+      "status": "uncertain",
+      "reason": "Draft support only.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q09",
+      "finding": "Music character and structure are unverified.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "No validated listening.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q10",
+      "finding": "Effects and their sources are unverified.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "No validated listening; waveform peaks do not identify effects.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q11",
+      "finding": "Sound sync is unverified.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "No validated listening or paired audiovisual timing.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q12",
+      "finding": "Interview, instrument handling, macro electronics, computer screens and molecular illustration are combined. Asset provenance is unverified.",
+      "evidence": "V01–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q13",
+      "finding": "Source duration 88.666 s; Watch metadata 1080 × 1080. Frame rate, audio clipping and export quality not checked here.",
+      "evidence": "Whole film",
+      "status": "supported",
+      "reason": "Parent source metadata supports duration and dimensions; visual review is sampled.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q14",
+      "finding": "Lab context and profile screens suggest scientific work, but the goal, material definition and size result need speech.",
+      "evidence": "V01–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q15",
+      "finding": "Face and hand close-ups alternate with one quote or instrument, keeping each shot focused. Dense plots do not isolate the changed parameter.",
+      "evidence": "V02–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q16",
+      "finding": "The film gives physical context more time than the exact recommendation. One annotated profile could replace several generic lab cutaways.",
+      "evidence": "V03–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q17",
+      "finding": "The opening AI-use claim receives a testimonial result early, but no visible experiment record links the recommendation to that result.",
+      "evidence": "V01,V02,V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q18",
+      "finding": "Named researcher and hands-on lab work suggest confidence and curiosity; audience response is unmeasured.",
+      "evidence": "V01–V06",
+      "status": "uncertain",
+      "reason": "Visual/script interpretation only.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q19",
+      "finding": "The same researcher and lab recur; the experiment identity is not carried across screens, equipment and material image.",
+      "evidence": "V01–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q20",
+      "finding": "Growth size, best result, time saving and research benefits are testimonial claims. No scientific replication or product verification was performed. A small development-status notice appears on computer shots.",
+      "evidence": "V02,V05,V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q21",
+      "finding": "A furnace, molecular layer and thermal profile make the AI story specific to research rather than generic chat.",
+      "evidence": "V03–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q22",
+      "finding": "Link recommendation to measurement.",
+      "evidence": "V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "Label one proposed thermal profile, the experiment that used it and the matching measured sample size."
+    },
+    {
+      "id": "Q23",
+      "finding": "For Tin, show a recommendation changing a real process.",
+      "evidence": "V04,V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "Keep one campaign recommendation beside the changed setting and its corresponding result, with a shared artifact identifier."
+    },
+    {
+      "id": "Q24",
+      "finding": "No human new-viewer test was performed.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "The product summary is this model’s film-only reading.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q25",
+      "finding": "Mobile preview and accessibility checks were not performed.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "Contact sheets are evidence views, not a stated mobile preview or compliance test.",
+      "experiment": "none"
+    }
+  ],
+  "elements": [
+    {
+      "kind": "ui",
+      "name": "terminal",
+      "events": [
+        "V03",
+        "V05",
+        "V06"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "chart",
+      "events": [
+        "V03",
+        "V05"
+      ]
+    },
+    {
+      "kind": "texture",
+      "name": "lab footage",
+      "events": [
+        "V01",
+        "V02",
+        "V04",
+        "V05",
+        "V06"
+      ]
+    },
+    {
+      "kind": "texture",
+      "name": "molecular model",
+      "events": [
+        "V03"
+      ]
+    }
+  ],
+  "lessons": {
+    "keep": "Pair a technical claim with the physical instrument or material it concerns.",
+    "try": [
+      "Trace one thermal profile through an identified experiment to its measurement.",
+      "For Tin, link a recommendation, changed setting and matching campaign result."
+    ],
+    "avoid": "Using lab atmosphere as the sole bridge between a recommendation and a numerical result.",
+    "open": "Scientific result, experimental method, actual automation, exact UI details and audio qualities remain unverified."
+  },
+  "comparison": {
+    "story": "Research testimonial → context → tuning problem → AI profile/API.",
+    "motion": "Lab actions, molecular-model views and split panels.",
+    "sound": "ASR supports the research narrative; no validated listening.",
+    "texture": "Physical lab, pale blue panels and molecular illustration.",
+    "lesson": "Specific physical context helps a technical story, but causal evidence needs a shared experiment."
+  },
+  "reviewer_model": "gpt-6-astra",
+  "scope": "sampled visual and story review; ASR and measured signal support; no validated audio listening",
+  "viewed_evidence": [
+    "technical-review-2026-10-19/deep-review/motion/366/timeline-00.jpg",
+    "technical-review-2026-10-19/deep-review/motion/366/timeline-01.jpg",
+    "technical-review-2026-10-19/deep-review/motion/366/timeline-02.jpg"
+  ],
+  "closer_windows": []
+}

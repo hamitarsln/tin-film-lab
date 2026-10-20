@@ -1,0 +1,332 @@
+{
+  "id": 199,
+  "product_from_film": "The Monastery invites AI-native founders to apply for a place or program associated with cyber Fund.",
+  "explains_well": "The founder audience, mountain-destination metaphor and Apply now ending establish an aspirational invitation.",
+  "unclear": "The film does not explain what the Monastery provides, whether it is a physical place or program, or what applying involves.",
+  "product_type": "founder program invitation",
+  "scenario": "Human invention and AI opportunity imagery lead to a climber reaching a mountain monastery, then an application CTA.",
+  "product_clear_time": null,
+  "product_clear_basis": "The Monastery for AI-native founders is named at 27s, but the actual offer and participation format are not explained.",
+  "scenes": [
+    {
+      "start": 0,
+      "end": 8,
+      "action": "A hand holds a stone, a cave figure creates a spark and gestures near cave drawings; a horse drawing leads to bird imagery. Captions refer to humans building toward the impossible.",
+      "design": "Monochrome rock, water, drawings and rough/glitch-like image edges.",
+      "purpose": "Place the founder story in a long invention narrative.",
+      "evidence": "1 fps source samples in 0–8s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V01"
+    },
+    {
+      "start": 8,
+      "end": 18,
+      "action": "Early flight, an industry-speaker clip, tape reels, a large market-projection excerpt, eye-like graphics and hands working with electronics under a Cursor mark appear.",
+      "design": "Archive-like media, highlighted text and digital distortion.",
+      "purpose": "Frame AI as a new building opportunity.",
+      "evidence": "1 fps source samples in 8–18s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V02"
+    },
+    {
+      "start": 18,
+      "end": 23,
+      "action": "Crowded work/trading-like footage and a portrait lead to AI Native Founder wording over a climber in snow.",
+      "design": "Busy monochrome scenes shift to blue mountain footage and red framing.",
+      "purpose": "Name the audience and introduce the journey metaphor.",
+      "evidence": "1 fps source samples in 18–23s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V03"
+    },
+    {
+      "start": 23,
+      "end": 33,
+      "action": "A lone climber crosses snowy slopes toward a lit mountain building, then reaches a warm glowing doorway. The Monastery for AI-native founders and Do the impossible appear.",
+      "design": "Cold blue landscape, small human figure and orange destination light.",
+      "purpose": "Make the proposed environment feel like a difficult but meaningful destination.",
+      "evidence": "1 fps source samples in 23–33s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V04"
+    },
+    {
+      "start": 33,
+      "end": 39.3,
+      "action": "cyber Fund appears on black, followed by Apply now with a red accent.",
+      "design": "Minimal white/red type and circular red mark.",
+      "purpose": "Identify the associated brand and action.",
+      "evidence": "1 fps source samples in 33–39.3s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V05"
+    }
+  ],
+  "sound": [
+    {
+      "id": "A01",
+      "start": 0,
+      "end": 39.3,
+      "layer": "ASR draft / unknown",
+      "detail": "The partial draft supports an invention/opportunity/environment argument, but the new-building phrase and Monastery name are badly recognized. Those garbled lines are rejected as literal wording; visible captions establish the audience/name. No validated listening.",
+      "visual_relation": "V01–V04; broad script role only, delivery and sync unknown.",
+      "evidence": "technical-review-2026-10-19/deep-review/audio/199-speech.json; local faster-whisper draft inspected."
+    }
+  ],
+  "categories": [
+    {
+      "id": "Q01",
+      "finding": "Human invention → AI opportunity → founder audience → mountain destination → apply invitation.",
+      "evidence": "V01–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q02",
+      "finding": "A stone, spark and cave figure open an origin-of-invention story rather than the offer itself.",
+      "evidence": "V01",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q03",
+      "finding": "AI-native founders are named at 21–27s, but the service/program format remains unresolved.",
+      "evidence": "V03,V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q04",
+      "finding": "Glitch-like image changes, shifting montage panels and climber position changes are visible. Exact transitions and mountain-shot production are unverified.",
+      "evidence": "V01–V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q05",
+      "finding": "The impossible-building theme connects cave invention to the climbers destination; the cold-to-warm doorway provides a clear arrival endpoint.",
+      "evidence": "V01,V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q06",
+      "finding": "Rough monochrome cave/archive imagery changes to cold blue snow and a warm orange doorway.",
+      "evidence": "V01,V02,V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q07",
+      "finding": "Small captions explain the broad narrative; the market excerpt highlights one large number without full context. The final Apply now is clear.",
+      "evidence": "V01,V02,V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q08",
+      "finding": "The short ASR draft is partially garbled; only its broad invention/opportunity theme is retained. Audible qualities remain unchecked.",
+      "evidence": "A01",
+      "status": "uncertain",
+      "reason": "Draft text only; no validated listening.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q09",
+      "finding": "Music character and structure are unverified.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "No validated listening.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q10",
+      "finding": "Effects and their sources are unverified.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "No validated listening; waveform peaks do not identify effects.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q11",
+      "finding": "Sound sync is unverified.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "No validated listening or paired audiovisual timing.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q12",
+      "finding": "Historical-looking clips, digital graphics and cinematic mountain scenes are mixed; source and production methods are unknown.",
+      "evidence": "V01–V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q13",
+      "finding": "Source duration 39.3 s; Watch metadata 1920 × 1080. Frame rate, audio clipping and export quality not checked here.",
+      "evidence": "Whole film",
+      "status": "supported",
+      "reason": "Parent source metadata supports duration and dimensions; visual review is sampled.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q14",
+      "finding": "The aspiration, founder audience and application action are readable silently, but the offer cannot be understood in practical terms.",
+      "evidence": "V03–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q15",
+      "finding": "Small climber against a huge landscape emphasizes the journey; the glowing doorway then becomes a clear visual destination.",
+      "evidence": "V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q16",
+      "finding": "The first half establishes a broad technological argument; the last 16s focus on the destination and invitation.",
+      "evidence": "V01–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q17",
+      "finding": "The build-toward-the-impossible opening is echoed by a climber arriving at the Monastery, a metaphorical rather than functional payoff.",
+      "evidence": "V01,V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q18",
+      "finding": "Solitary ascent and warm shelter may suggest ambition, focus and belonging; actual viewer response is unmeasured.",
+      "evidence": "V04",
+      "status": "uncertain",
+      "reason": "Interpretation of imagery.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q19",
+      "finding": "A shared invention/journey theme connects the montage, but no actual participant experience is shown.",
+      "evidence": "V01–V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q20",
+      "finding": "Market-size/opportunity claims and the implied environment are film statements; program terms, facilities and participant outcomes were not verified.",
+      "evidence": "V02,V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q21",
+      "finding": "The Monastery name and snow-to-warm-door metaphor create a distinct identity, though the offer remains vague.",
+      "evidence": "V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q22",
+      "finding": "Add one concrete description of what an accepted founder receives before Apply now.",
+      "evidence": "V04,V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "Show three actual program features or a short participant-day sequence, with location/duration only if confirmed."
+    },
+    {
+      "id": "Q23",
+      "finding": "For Tin, let an aspirational scene lead into one concrete artifact or action.",
+      "evidence": "V04,V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "After an ambitious campaign vision, reveal the actual brief, generated asset and next approval step."
+    },
+    {
+      "id": "Q24",
+      "finding": "No human new-viewer test was performed.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "The product summary is this model’s film-only reading.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q25",
+      "finding": "Mobile preview and accessibility checks were not performed.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "Contact sheets are evidence views, not a stated mobile preview or compliance test.",
+      "experiment": "none"
+    }
+  ],
+  "elements": [
+    {
+      "kind": "texture",
+      "name": "monochrome cave imagery",
+      "events": [
+        "V01"
+      ]
+    },
+    {
+      "kind": "texture",
+      "name": "snowy mountain",
+      "events": [
+        "V03",
+        "V04"
+      ]
+    },
+    {
+      "kind": "texture",
+      "name": "warm doorway light",
+      "events": [
+        "V04"
+      ]
+    },
+    {
+      "kind": "motion",
+      "name": "glitch-like montage",
+      "events": [
+        "V01",
+        "V02"
+      ]
+    },
+    {
+      "kind": "motion",
+      "name": "journey to destination",
+      "events": [
+        "V04"
+      ]
+    }
+  ],
+  "lessons": {
+    "keep": "Use a strong destination image to give an abstract aspiration a visual endpoint.",
+    "try": [
+      "Add concrete program features or an actual participant-day sequence before Apply now.",
+      "For Tin, follow campaign ambition with the real brief, output and approval step."
+    ],
+    "avoid": "Letting an evocative place name substitute for explaining the offer.",
+    "open": "Program format, actual environment, application details, market claim context, footage origin and audio remain unverified."
+  },
+  "comparison": {
+    "story": "Invention history → AI opportunity → founder ascent → Monastery arrival → application.",
+    "motion": "Montage/glitch-like changes and journey states; exact transitions unverified.",
+    "sound": "Partial draft has rejected garbled lines; no validated listening.",
+    "texture": "Rough monochrome history, blue snow and orange doorway.",
+    "lesson": "A destination metaphor gives emotional shape, but needs one concrete offer statement."
+  },
+  "reviewer_model": "gpt-6-astra",
+  "scope": "sampled visual and story review; ASR and measured signal support; no validated audio listening",
+  "viewed_evidence": [
+    "technical-review-2026-10-19/deep-review/motion/199/timeline-00.jpg",
+    "technical-review-2026-10-19/deep-review/motion/199/timeline-01.jpg"
+  ],
+  "closer_windows": []
+}

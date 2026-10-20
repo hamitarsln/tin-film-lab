@@ -1,0 +1,326 @@
+{
+  "id": 128,
+  "reviewer_model": "gpt-6-astra",
+  "scope": "sampled visual and story review; ASR and measured signal support; no validated audio listening",
+  "viewed_evidence": [
+    "technical-review-2026-10-19/deep-review/motion/128/timeline-00.jpg",
+    "technical-review-2026-10-19/deep-review/motion/128/timeline-01.jpg"
+  ],
+  "closer_windows": [],
+  "product_from_film": "Exa Agent presents parallel web research that turns a natural-language request into structured data.",
+  "explains_well": "The same SpaceX research request connects human intent, agent scale and tabular output.",
+  "unclear": "The SpaceX IPO query leads to a table that also contains several other company IPO rows. This proves a structured-output presentation, not precise answer scope. Financial facts and agent-count claims are unverified.",
+  "product_type": "web research agent",
+  "scenario": "Research an IPO and create a financial report.",
+  "product_clear_time": 10,
+  "product_clear_basis": "The full financial-research request appears with a Run button.",
+  "scenes": [
+    {
+      "id": "V01",
+      "start": 0,
+      "end": 6,
+      "action": "A person at a laptop leads into a Find everything about the SpaceX IPO prompt; typing hands carry Introducing Exa Agent.",
+      "design": "Natural office footage and a minimal white composer.",
+      "purpose": "Ground the research request in a person.",
+      "evidence": "Visible chronological 1 fps samples, source 0–6s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V02",
+      "start": 6,
+      "end": 10,
+      "action": "Many similarly dressed workers occupy desks under Run100 s of web agents on every task.",
+      "design": "Wide office view, blue clothing and white title.",
+      "purpose": "Visualize parallel effort.",
+      "evidence": "Visible chronological 1 fps samples, source 6–10s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V03",
+      "start": 10,
+      "end": 17,
+      "action": "The financial-report request leads to green structured text, then a table of companies, tickers, sectors and dates.",
+      "design": "White UI, blue Run button, code-like output and thin table rules.",
+      "purpose": "Show a usable output format.",
+      "evidence": "Visible chronological 1 fps samples, source 10–17s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V04",
+      "start": 17,
+      "end": 21,
+      "action": "The prompt is shortened and rewritten to research every corner of the web; the user returns.",
+      "design": "Simple composer and face closeup.",
+      "purpose": "Broaden the coverage promise.",
+      "evidence": "Visible chronological 1 fps samples, source 17–21s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V05",
+      "start": 21,
+      "end": 30.666,
+      "action": "A tiered blue seating area fills with repeated laptop users, then has fewer people in later samples; Exa Agent text appears.",
+      "design": "Wide architectural composition and repeated blue figures.",
+      "purpose": "Reinforce agent scale with a human metaphor.",
+      "evidence": "Visible chronological 1 fps samples, source 21–30.666s; boundary approximate; exact motion between samples unverified."
+    }
+  ],
+  "sound": [
+    {
+      "id": "A01",
+      "start": 0,
+      "end": 30.666,
+      "layer": "unknown",
+      "detail": "No validated direct audio listening was performed. Music, speech delivery, effects, mix and sync remain unknown, not absent.",
+      "visual_relation": "All visual scenes; audiovisual alignment unverified",
+      "evidence": "Visual samples only; no actual audio range supplied to this reviewer."
+    }
+  ],
+  "categories": [
+    {
+      "id": "Q01",
+      "finding": "A research request leads to parallel-worker metaphor, structured output and another scale image.",
+      "evidence": "V01–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q02",
+      "finding": "A person and a concrete IPO query make the task immediate.",
+      "evidence": "V01",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q03",
+      "finding": "The initial query establishes research by 2 s; the financial-report request specifies the output at 10 s.",
+      "evidence": "V01,V03",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q04",
+      "finding": "Prompt text changes, structured output gives way to a table and repeated people fill seating across samples. Exact compositing paths are unverified.",
+      "evidence": "V03–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q05",
+      "finding": "The query remains the anchor across live action and UI, reducing the gap between metaphor and task.",
+      "evidence": "V01–V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q06",
+      "finding": "Natural office textures contrast with mostly empty white software; blue repeats in clothing, seats and controls.",
+      "evidence": "V01–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q07",
+      "finding": "Large feature text reads clearly; dense financial rows and structured text require a slower close view for factual inspection.",
+      "evidence": "V02,V03",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q08",
+      "finding": "Voice delivery, music, effects and audiovisual alignment were not established by this visual pass.",
+      "evidence": "A01",
+      "status": "not checked",
+      "reason": "No validated direct audio listening input.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q09",
+      "finding": "Voice delivery, music, effects and audiovisual alignment were not established by this visual pass.",
+      "evidence": "A01",
+      "status": "not checked",
+      "reason": "No validated direct audio listening input.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q10",
+      "finding": "Voice delivery, music, effects and audiovisual alignment were not established by this visual pass.",
+      "evidence": "A01",
+      "status": "not checked",
+      "reason": "No validated direct audio listening input.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q11",
+      "finding": "Voice delivery, music, effects and audiovisual alignment were not established by this visual pass.",
+      "evidence": "A01",
+      "status": "not checked",
+      "reason": "No validated direct audio listening input.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q12",
+      "finding": "Live-action office scenes, repeated-worker imagery and screen graphics are mixed; actual agent execution is unconfirmed.",
+      "evidence": "V01–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q13",
+      "finding": "Manifest duration 30.666 s; indexed dimensions 1920×1080. Source unchanged flag recorded; fresh encoding and audio clipping checks not run.",
+      "evidence": "Group manifest",
+      "status": "uncertain",
+      "reason": "Inherited technical metadata; no fresh media probe in this review.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q14",
+      "finding": "The query,100 s-of-agents claim and table show the basic concept without audio.",
+      "evidence": "V01–V03",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q15",
+      "finding": "The white composer isolates intent before the dense result table; the final wide shot shifts attention back to scale.",
+      "evidence": "V03,V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q16",
+      "finding": "The 30 s film gives about 7 s to output and nearly 10 s to the final human-scale metaphor.",
+      "evidence": "V03,V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q17",
+      "finding": "The written research request pays off in structured output; table accuracy remains untested.",
+      "evidence": "V01,V03",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q18",
+      "finding": "Repeated workers make the agent feel like a large team serving one user; this is visual framing.",
+      "evidence": "V02,V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q19",
+      "finding": "Blue repeated figures link the two scale scenes and the blue Run button.",
+      "evidence": "V02,V03,V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q20",
+      "finding": "The final table includes SpaceX first and multiple other company IPO rows despite the SpaceX-specific query. It shows structured research output, not proof of a precise answer; financial facts, source coverage and agent count remain unverified.",
+      "evidence": "V02,V03",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q21",
+      "finding": "Exa Agent is framed through web-research scale and clean output, with name-only branding.",
+      "evidence": "V01–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q22",
+      "finding": "A readable source citation would add stronger evidence than extending the final group shot.",
+      "evidence": "V03,V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q23",
+      "finding": "Tin can show parallel research as a brief metaphor, then give most time to a source-backed campaign plan.",
+      "evidence": "V02,V03",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q24",
+      "finding": "Exa Agent presents parallel web research that turns a natural-language request into structured data.",
+      "evidence": "Model reading from inspected images",
+      "status": "uncertain",
+      "reason": "Model-only new-viewer interpretation; no human test.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q25",
+      "finding": "Contact sheets inspected at displayed size; a phone-size playback, caption audit, flash audit and formal accessibility check were not performed.",
+      "evidence": "Viewed sheets",
+      "status": "not checked",
+      "reason": "Full-size moving-image and device checks unavailable in this pass.",
+      "experiment": "none"
+    }
+  ],
+  "lessons": {
+    "keep": "Keep the original query visible as the output becomes more structured.",
+    "avoid": "Avoid presenting generated financial details as checked facts.",
+    "open": "Research accuracy, source completeness, cost, worker count and sound remain unverified.",
+    "try": [
+      "Show a Tin brief turning into a compact audience-and-channel table with source links.",
+      "Use a two-second parallel-worker metaphor, then hold the verified result long enough to read."
+    ]
+  },
+  "comparison": {
+    "story": "Ground the research request in a person. → Visualize parallel effort. → Show a usable output format. → Broaden the coverage promise. → Reinforce agent scale with a human metaphor.",
+    "motion": "Prompt text changes, structured output gives way to a table and repeated people fill seating across samples. Exact compositing paths are unverified. Sampling scope: 1 fps unless a closer window is recorded.",
+    "sound": "No validated listening; unknown.",
+    "texture": "Natural office footage and a minimal white composer.; Wide office view, blue clothing and white title.; White UI, blue Run button, code-like output and thin table rules.; Simple composer and face closeup.; Wide architectural composition and repeated blue figures.",
+    "lesson": "Keep the original query visible as the output becomes more structured."
+  },
+  "elements": [
+    {
+      "kind": "ui",
+      "name": "prompt composer",
+      "events": [
+        "V01",
+        "V03",
+        "V04"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "structured text",
+      "events": [
+        "V03"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "table",
+      "events": [
+        "V03"
+      ]
+    },
+    {
+      "kind": "motion",
+      "name": "repeated people",
+      "events": [
+        "V02",
+        "V05"
+      ]
+    }
+  ]
+}

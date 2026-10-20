@@ -1,0 +1,363 @@
+{
+  "id": 430,
+  "reviewer_model": "gpt-6-astra",
+  "scope": "sampled visual and story review; ASR and measured signal support; no validated audio listening",
+  "viewed_evidence": [
+    "technical-review-2026-10-19/deep-review/motion/430/timeline-00.jpg",
+    "technical-review-2026-10-19/deep-review/motion/430/timeline-01.jpg",
+    "technical-review-2026-10-19/deep-review/motion/430/timeline-02.jpg",
+    "technical-review-2026-10-19/deep-review/audio/430-speech.json"
+  ],
+  "closer_windows": [],
+  "product_from_film": "Seismic pitches a blockchain with privacy for fintech companies through a card-game comedy and a founder explanation.",
+  "explains_well": "The private cards metaphor makes financial privacy easy to understand and returns in the ending.",
+  "unclear": "The film explains the problem and names customers, but never shows what a private transaction or integration looks like.",
+  "product_type": "funding and positioning pitch",
+  "scenario": "Use crypto infrastructure while keeping financial details private.",
+  "product_clear_time": 51,
+  "product_clear_basis": "The Seismic reveal is followed by the explicit blockchain plus privacy message.",
+  "scenes": [
+    {
+      "id": "V01",
+      "start": 0,
+      "end": 18,
+      "action": "Older women play cards; chip and eye close-ups lead to a dispute about looking at another player’s cards.",
+      "design": "Warm domestic light, wood table and reaction shots.",
+      "purpose": "Establish privacy through a familiar social situation.",
+      "evidence": "Visible chronological 1 fps samples, source 0–18s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V02",
+      "start": 18,
+      "end": 24,
+      "action": "Text over the table says even grandma knows some things should stay private; a mauve card says crypto spills everything.",
+      "design": "Elegant white serif text and mauve background.",
+      "purpose": "Translate the joke into the problem.",
+      "evidence": "Visible chronological 1 fps samples, source 18–24s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V03",
+      "start": 24,
+      "end": 37,
+      "action": "A founder walks through an office with coffee, addressing fintech builders, then stands beside another person labeled public finances.",
+      "design": "Moving direct address, subtitles and large headline text.",
+      "purpose": "Explain the audience and exposure problem.",
+      "evidence": "Visible chronological 1 fps samples, source 24–37s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V04",
+      "start": 37,
+      "end": 43,
+      "action": "A phone with a warning symbol becomes surrounded by transaction, account and warning bubbles, then a black card says but.",
+      "design": "Layered glossy notification graphics crowd the frame.",
+      "purpose": "Make public financial information feel overwhelming.",
+      "evidence": "Visible chronological 1 fps samples, source 37–43s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V05",
+      "start": 43,
+      "end": 56,
+      "action": "Seismic appears on mauve; the founder announces backing as a counter reaches $17,000,000, followed by blockchain plus privacy text.",
+      "design": "Brand card, oversized numbers and serif words around the speaker.",
+      "purpose": "Reveal the company and financing claim.",
+      "evidence": "Visible chronological 1 fps samples, source 43–56s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V06",
+      "start": 56,
+      "end": 65,
+      "action": "A seated colleague names Brookwell and CRED while logos appear; the grandmother returns with a phone.",
+      "design": "Office team scene followed by the domestic callback.",
+      "purpose": "Offer customer names and close the metaphor.",
+      "evidence": "Visible chronological 1 fps samples, source 56–65s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V07",
+      "start": 65,
+      "end": 74,
+      "action": "The founder addresses fintech companies at a desk; the grandmother is revealed beside him, followed by Shoot me a text wording.",
+      "design": "Gradually wider framing and selective large text.",
+      "purpose": "Invite direct contact.",
+      "evidence": "Visible chronological 1 fps samples, source 65–74s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V08",
+      "start": 74,
+      "end": 78.208,
+      "action": "A phone number holds on mauve, followed by the Seismic logo.",
+      "design": "Minimal white contact text and brand mark.",
+      "purpose": "Provide a concrete next action.",
+      "evidence": "Visible chronological 1 fps samples, source 74–78.208s; boundary approximate; exact motion between samples unverified."
+    }
+  ],
+  "sound": [
+    {
+      "id": "A01",
+      "start": 0,
+      "end": 78.208,
+      "layer": "unknown",
+      "detail": "No validated direct audio listening was performed. Music, speech delivery, effects, mix and sync remain unknown, not absent.",
+      "visual_relation": "All visual scenes; audiovisual alignment unverified",
+      "evidence": "Visual samples only; no actual audio range supplied to this reviewer."
+    },
+    {
+      "id": "A02",
+      "start": 14.92,
+      "end": 74,
+      "layer": "ASR draft",
+      "detail": "The coherent ASR draft connects private cards to financial privacy, names Seismic, describes seventeen million dollars of backing and ends with a fintech contact invitation. It supports the explanation and callback structure. Spoken claims are not independently verified; music, effects and delivery were not heard.",
+      "visual_relation": "Story text support; exact audiovisual alignment and delivery unverified.",
+      "evidence": "technical-review-2026-10-19/deep-review/audio/430-speech.json; local faster-whisper base CPU int8 draft; VAD candidates only, recognition errors possible."
+    }
+  ],
+  "categories": [
+    {
+      "id": "Q01",
+      "finding": "Private card game becomes a public-finance problem, followed by Seismic, funding, customer names and a direct-contact invitation.",
+      "evidence": "V01–V08",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q02",
+      "finding": "Hands place poker chips on a table. The opening is tactile and social, but the business subject is delayed.",
+      "evidence": "V01",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q03",
+      "finding": "The founder explicitly addresses fintech builders; blockchain plus privacy becomes clear around 51s.",
+      "evidence": "V03,V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q04",
+      "finding": "Notification bubbles accumulate around a phone, the funding counter rises to seventeen million, and framing widens to reveal the grandmother beside the founder.",
+      "evidence": "V04,V05,V07",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q05",
+      "finding": "Reaction cuts build the card-game joke; a mauve text card bridges into the office, and returning grandmother shots link the business explanation to the opening.",
+      "evidence": "V01–V03,V06–V07",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q06",
+      "finding": "Warm domestic and office footage pairs with mauve brand cards and white serif typography. Glossy alert bubbles add a busier contrast.",
+      "evidence": "V01–V08",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q07",
+      "finding": "Subtitles support the founder section. Large words identify fintech, blockchain, privacy and funding; the final number supplies a usable CTA.",
+      "evidence": "V03,V05,V08",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q08",
+      "finding": "The coherent ASR draft connects private cards to financial privacy, names Seismic, describes seventeen million dollars of backing and ends with a fintech contact invitation. It supports the explanation and callback structure. Spoken claims are not independently verified; music, effects and delivery were not heard.",
+      "evidence": "A02",
+      "status": "uncertain",
+      "reason": "ASR text only; no validated listening, delivery or voice origin.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q09",
+      "finding": "Voice delivery, music, effects and audiovisual alignment were not established by this visual pass.",
+      "evidence": "A01",
+      "status": "not checked",
+      "reason": "No validated direct audio listening input.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q10",
+      "finding": "Voice delivery, music, effects and audiovisual alignment were not established by this visual pass.",
+      "evidence": "A01",
+      "status": "not checked",
+      "reason": "No validated direct audio listening input.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q11",
+      "finding": "Voice delivery, music, effects and audiovisual alignment were not established by this visual pass.",
+      "evidence": "A01",
+      "status": "not checked",
+      "reason": "No validated direct audio listening input.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q12",
+      "finding": "Actors or participants, two practical locations, a phone prop, notification graphics, customer logos and typography form the asset set.",
+      "evidence": "V01–V08",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q13",
+      "finding": "Manifest duration 78.208s; indexed dimensions 1550×1080. Source unchanged flag recorded; fresh encoding and audio clipping checks not run.",
+      "evidence": "Group manifest",
+      "status": "uncertain",
+      "reason": "Inherited technical metadata; no fresh media probe in this review.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q14",
+      "finding": "Text and subtitles preserve the privacy argument and contact action without sound. The card-game dialogue is less fully supported visually.",
+      "evidence": "V01–V08",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q15",
+      "finding": "The phone bubble pile attracts attention to exposure; the following plain brand card gives the eye a clear reset.",
+      "evidence": "V04–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q16",
+      "finding": "The card-game setup uses about eighteen seconds before connecting to crypto. A shorter setup could reach the intended builder sooner.",
+      "evidence": "V01–V03",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q17",
+      "finding": "The opening privacy expectation is answered with a private-blockchain claim, but no transaction shows that promise in action.",
+      "evidence": "V01,V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q18",
+      "finding": "Familiar social awkwardness moves into concern about exposure and then a friendly contact invitation. This reading comes from visuals and text, not verified audio tone.",
+      "evidence": "V01–V08",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q19",
+      "finding": "The same grandmother joins the founder at the end, making the initial joke part of the whole story rather than a disconnected cold open.",
+      "evidence": "V01,V06,V07",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q20",
+      "finding": "Funding and customer names are claims presented in the film. No transaction view, integration steps or privacy controls substantiate the technical promise.",
+      "evidence": "V05–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q21",
+      "finding": "Mauve, white serif type and the recurring domestic character distinguish a technical infrastructure pitch.",
+      "evidence": "V02,V05,V08",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q22",
+      "finding": "Replace a few setup seconds with a simple before-and-after transaction visibility example.",
+      "evidence": "V01,V04–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q23",
+      "finding": "Start with a familiar privacy norm, map it directly to a business problem, and return to the character at the CTA. Add a real product state for proof.",
+      "evidence": "V01,V03,V07",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q24",
+      "finding": "Seismic pitches a blockchain with privacy for fintech companies through a card-game comedy and a founder explanation.",
+      "evidence": "Model reading from inspected images",
+      "status": "uncertain",
+      "reason": "Model-only new-viewer interpretation; no human test.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q25",
+      "finding": "Contact sheets inspected at displayed size; a phone-size playback, caption audit, flash audit and formal accessibility check were not performed.",
+      "evidence": "Viewed sheets",
+      "status": "not checked",
+      "reason": "Full-size moving-image and device checks unavailable in this pass.",
+      "experiment": "none"
+    }
+  ],
+  "lessons": {
+    "keep": "Carry an everyday metaphor through to the ending rather than abandoning it after the hook.",
+    "avoid": "Using a relatable privacy metaphor as a substitute for showing the control.",
+    "open": "Funding, customer relationships and privacy implementation are not independently verified; sound remains unreviewed.",
+    "try": [
+      "For Tin, show a familiar approval mistake, connect it to campaign permissions, then demonstrate the exact approval state.",
+      "Compare the current long comedy opening with a six-second version followed by one private-transaction example."
+    ]
+  },
+  "comparison": {
+    "story": "Establish privacy through a familiar social situation. → Translate the joke into the problem. → Explain the audience and exposure problem. → Make public financial information feel overwhelming. → Reveal the company and financing claim. → Offer customer names and close the metaphor. → Invite direct contact. → Provide a concrete next action.",
+    "motion": "Notification bubbles accumulate around a phone, the funding counter rises to seventeen million, and framing widens to reveal the grandmother beside the founder. Sampling scope: 1 fps unless a closer window is recorded.",
+    "sound": "No validated listening; unknown.",
+    "texture": "Warm domestic light, wood table and reaction shots.; Elegant white serif text and mauve background.; Moving direct address, subtitles and large headline text.; Layered glossy notification graphics crowd the frame.; Brand card, oversized numbers and serif words around the speaker.; Office team scene followed by the domestic callback.; Gradually wider framing and selective large text.; Minimal white contact text and brand mark.",
+    "lesson": "Carry an everyday metaphor through to the ending rather than abandoning it after the hook."
+  },
+  "elements": [
+    {
+      "kind": "motion",
+      "name": "stacking notifications",
+      "events": [
+        "V04"
+      ]
+    },
+    {
+      "kind": "motion",
+      "name": "counting numbers",
+      "events": [
+        "V05"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "transaction notification",
+      "events": [
+        "V04"
+      ]
+    },
+    {
+      "kind": "texture",
+      "name": "mauve brand cards",
+      "events": [
+        "V02",
+        "V05",
+        "V08"
+      ]
+    }
+  ]
+}

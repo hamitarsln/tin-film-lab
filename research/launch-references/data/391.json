@@ -1,0 +1,425 @@
+{
+  "id": 391,
+  "reviewer_model": "gpt-6-astra",
+  "scope": "sampled visual and story review; ASR and measured signal support; no validated audio listening",
+  "viewed_evidence": [
+    "technical-review-2026-10-19/deep-review/motion/391/timeline-00.jpg",
+    "technical-review-2026-10-19/deep-review/motion/391/timeline-01.jpg",
+    "technical-review-2026-10-19/deep-review/motion/391/timeline-02.jpg",
+    "technical-review-2026-10-19/deep-review/motion/391/timeline-03.jpg",
+    "technical-review-2026-10-19/deep-review/motion/391/timeline-04.jpg",
+    "technical-review-2026-10-19/deep-review/motion/391/timeline-05.jpg",
+    "technical-review-2026-10-19/deep-review/motion/391/timeline-06.jpg",
+    "technical-review-2026-10-19/deep-review/motion/391/timeline-07.jpg",
+    "technical-review-2026-10-19/deep-review/motion/391/timeline-08.jpg",
+    "technical-review-2026-10-19/deep-review/audio/391-speech.json"
+  ],
+  "closer_windows": [],
+  "product_from_film": "The Codex app is presented as a place to supervise coding agents, review changes, work beside a running app and configure recurring tasks.",
+  "explains_well": "The NASA example follows a visible request through file changes, a code diff and a new Picture of the Day screen in the simulator.",
+  "unclear": "The final automation, worktree and cloud sections show setup controls but no completed run, making their outcomes less concrete than the first coding example.",
+  "product_type": "coding agent desktop app",
+  "scenario": "Add a NASA picture screen to an iOS app, adjust a fitness dashboard and configure an issue-triage automation.",
+  "product_clear_time": 44,
+  "product_clear_basis": "The dictated NASA feature request becomes visible text and starts a task.",
+  "scenes": [
+    {
+      "id": "V01",
+      "start": 0,
+      "end": 16,
+      "action": "A presenter at a laptop introduces the app in a bright office with plants and city windows.",
+      "design": "Clean presenter shot with a small name/title strip.",
+      "purpose": "Explain the command-center framing before the demo.",
+      "evidence": "Visible chronological 1 fps samples, source 0–16s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V02",
+      "start": 16,
+      "end": 35,
+      "action": "The app shows projects and task rows in a sidebar. An AstroScope iOS simulator opens with a map and bottom navigation.",
+      "design": "White desktop interface, small presenter inset and phone simulator.",
+      "purpose": "Establish the existing project and starting app state.",
+      "evidence": "Visible chronological 1 fps samples, source 16–35s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V03",
+      "start": 35,
+      "end": 52,
+      "action": "The composer is enlarged. A dictation waveform appears, then the request to add NASA Astronomy Picture of the Day becomes text. The task starts and exploration/file-read entries appear.",
+      "design": "Close view of prompt input and task activity.",
+      "purpose": "Show how a spoken request becomes delegated work.",
+      "evidence": "Visible chronological 1 fps samples, source 35–52s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V04",
+      "start": 52,
+      "end": 79,
+      "action": "The view switches to dependency and realtime migration tasks with progress lists and tool activity, then returns to the presenter.",
+      "design": "Sidebar project switching and scrolling task logs.",
+      "purpose": "Demonstrate supervising other work while the first task runs.",
+      "evidence": "Visible chronological 1 fps samples, source 52–79s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V05",
+      "start": 79,
+      "end": 109,
+      "action": "The NASA task gains created Swift files and a completion summary. A review panel opens with green code additions, file selection and a line-comment control. Open, Commit and run controls are shown.",
+      "design": "Conversation beside a code diff and file list.",
+      "purpose": "Make the implementation and review surfaces visible before running the result.",
+      "evidence": "Visible chronological 1 fps samples, source 79–109s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V06",
+      "start": 109,
+      "end": 129,
+      "action": "Presenter footage bridges to the simulator. The map returns, then a Picture of the Day tab opens with a space image and description.",
+      "design": "Phone simulator over the task view.",
+      "purpose": "Show a concrete result matching the earlier request.",
+      "evidence": "Visible chronological 1 fps samples, source 109–129s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V07",
+      "start": 129,
+      "end": 159,
+      "action": "A fitness dashboard appears. A conversation is popped into a small window beside it. Dictation is used; the subtitle changes to Small steps today build lasting strength, then progress bars and numbers change.",
+      "design": "Browser dashboard with a compact floating conversation.",
+      "purpose": "Show editing while staying close to the visual result.",
+      "evidence": "Visible chronological 1 fps samples, source 129–159s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V08",
+      "start": 159,
+      "end": 199,
+      "action": "The skills page appears, then a task references a Figma skill. The design file shows desktop/mobile layouts, selected components and properties/code. Task logs then show design-context calls before the presenter returns.",
+      "design": "Skill catalog, design canvas and structured property panel.",
+      "purpose": "Explain design-system context behind the dashboard.",
+      "evidence": "Visible chronological 1 fps samples, source 159–199s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V09",
+      "start": 199,
+      "end": 224,
+      "action": "Skill Creator is selected in a composer. The automation gallery opens; an Issue triage form shows a workspace, prompt and weekday/time schedule. The created automation is reopened for editing.",
+      "design": "Catalog cards and a scheduling form.",
+      "purpose": "Show extension and recurring-task setup without a completed scheduled result.",
+      "evidence": "Visible chronological 1 fps samples, source 199–224s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V10",
+      "start": 224,
+      "end": 261.127,
+      "action": "The composer switches among Local, Worktree and Cloud options. The presenter concludes, followed by the OpenAI mark.",
+      "design": "Environment controls, presenter footage and a minimal end card.",
+      "purpose": "Introduce additional execution choices and close the tour.",
+      "evidence": "Visible chronological 1 fps samples, source 224–261.127s; boundary approximate; exact motion between samples unverified."
+    }
+  ],
+  "sound": [
+    {
+      "id": "A01",
+      "start": 0,
+      "end": 261.127,
+      "layer": "unknown",
+      "detail": "No validated direct audio listening was performed. Music, speech delivery, effects, mix and sync remain unknown, not absent.",
+      "visual_relation": "All visual scenes; audiovisual alignment unverified",
+      "evidence": "Visual samples only; no actual audio range supplied to this reviewer."
+    },
+    {
+      "id": "A02",
+      "start": 0.55,
+      "end": 259.19,
+      "layer": "ASR draft",
+      "detail": "The coherent ASR draft narrates project supervision, a dictated NASA screen request, concurrent dependency/migration work, diff review and simulator output. It then explains a floating conversation for dashboard edits, Figma skills, custom skills, scheduled automation, worktrees and cloud tasks. This supports chapter roles and intended behavior; it does not validate speed, correctness or heard delivery.",
+      "visual_relation": "Story text support; exact audiovisual alignment and delivery unverified.",
+      "evidence": "technical-review-2026-10-19/deep-review/audio/391-speech.json; local faster-whisper base CPU int8 draft; VAD candidates only, recognition errors possible."
+    }
+  ],
+  "categories": [
+    {
+      "id": "Q01",
+      "finding": "The tour starts with a complete iOS feature example, then shows visual iteration, design skills, automation setup and environment choices.",
+      "evidence": "V01–V10",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q02",
+      "finding": "The presenter states the product idea before showing the app at 16 s; the first concrete app example follows soon after.",
+      "evidence": "V01,V02",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q03",
+      "finding": "A readable request becoming an active task at 44 s makes delegation concrete; the earlier sidebar establishes project organization.",
+      "evidence": "V02,V03",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q04",
+      "finding": "The camera view zooms into composer and diff details, dictation produces a waveform then text, task logs accumulate, a conversation detaches into a small window, and dashboard bars change height with rising numbers.",
+      "evidence": "V03–V09",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q05",
+      "finding": "The NASA request, Swift file changes and final picture tab form a strong continuous example. Later features are shorter separate demonstrations.",
+      "evidence": "V03,V05,V06,V08–V10",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q06",
+      "finding": "The product footage uses bright neutral surfaces and restrained color, with green diff additions and colored fitness bars as focal points.",
+      "evidence": "V02–V09",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q07",
+      "finding": "Zooms make the prompt and code controls easier to follow, but long activity logs and skill descriptions remain dense.",
+      "evidence": "V03–V05,V08",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q08",
+      "finding": "The coherent ASR draft narrates project supervision, a dictated NASA screen request, concurrent dependency/migration work, diff review and simulator output. It then explains a floating conversation for dashboard edits, Figma skills, custom skills, scheduled automation, worktrees and cloud tasks. This supports chapter roles and intended behavior; it does not validate speed, correctness or heard delivery.",
+      "evidence": "A02",
+      "status": "uncertain",
+      "reason": "ASR text only; no validated listening, delivery or voice origin.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q09",
+      "finding": "Voice delivery, music, effects and audiovisual alignment were not established by this visual pass.",
+      "evidence": "A01",
+      "status": "not checked",
+      "reason": "No validated direct audio listening input.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q10",
+      "finding": "Voice delivery, music, effects and audiovisual alignment were not established by this visual pass.",
+      "evidence": "A01",
+      "status": "not checked",
+      "reason": "No validated direct audio listening input.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q11",
+      "finding": "Voice delivery, music, effects and audiovisual alignment were not established by this visual pass.",
+      "evidence": "A01",
+      "status": "not checked",
+      "reason": "No validated direct audio listening input.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q12",
+      "finding": "Presenter footage, desktop app recording, iOS simulator, browser dashboard and Figma design views are visible. Capture and editing tools are not identified.",
+      "evidence": "V01–V10",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q13",
+      "finding": "Manifest duration 261.127s; indexed dimensions 1920×1080. Source unchanged flag recorded; fresh encoding and audio clipping checks not run.",
+      "evidence": "Group manifest",
+      "status": "uncertain",
+      "reason": "Inherited technical metadata; no fresh media probe in this review.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q14",
+      "finding": "The request and resulting screen can be understood visually. The meaning of skills, worktrees and cloud execution relies more on the draft narration.",
+      "evidence": "V03,V06,V08,V10",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q15",
+      "finding": "The presenter becomes a small inset during most product work, preserving the main screen for inspection. The detached conversation keeps the dashboard visible.",
+      "evidence": "V02–V09",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q16",
+      "finding": "The first roughly two minutes build and show one iOS feature. The second half broadens into dashboard editing and several configuration capabilities.",
+      "evidence": "V01–V10",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q17",
+      "finding": "The simulator visibly contains the requested picture screen and the dashboard visibly changes. The migration, scheduled task and cloud examples do not show completed outcomes.",
+      "evidence": "V04,V06,V07,V09,V10",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q18",
+      "finding": "The tour positions the user as a supervisor and reviewer, with visible progress and diffs supporting that role; this is a creative reading.",
+      "evidence": "V03–V07",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q19",
+      "finding": "The fitness section first shows a subtitle revision, then a dictated animation request and changing bars. These are separate changes within one dashboard rather than one undifferentiated update.",
+      "evidence": "V07",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q20",
+      "finding": "The edit does not establish actual task duration, code correctness, design parity, conflict avoidance or recurring/cloud reliability. Shown outcomes are limited to the demonstrated UI states.",
+      "evidence": "V03–V10",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q21",
+      "finding": "A complete request→review→running result sequence makes the agent workflow tangible before the feature catalog expands.",
+      "evidence": "V03,V05,V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q22",
+      "finding": "Add brief chapter labels and give the automation section one completed triage result to match the clarity of the iOS example.",
+      "evidence": "V06,V09",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q23",
+      "finding": "Tin can first show one full customer task with input, review and result, then introduce optional capabilities through shorter examples.",
+      "evidence": "V03–V10",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q24",
+      "finding": "The Codex app is presented as a place to supervise coding agents, review changes, work beside a running app and configure recurring tasks.",
+      "evidence": "Model reading from inspected images",
+      "status": "uncertain",
+      "reason": "Model-only new-viewer interpretation; no human test.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q25",
+      "finding": "Contact sheets inspected at displayed size; a phone-size playback, caption audit, flash audit and formal accessibility check were not performed.",
+      "evidence": "Viewed sheets",
+      "status": "not checked",
+      "reason": "Full-size moving-image and device checks unavailable in this pass.",
+      "experiment": "none"
+    }
+  ],
+  "lessons": {
+    "keep": "Show a complete request, review and running result before expanding into other capabilities.",
+    "avoid": "Avoid letting configuration controls stand in for the outcomes of later features.",
+    "open": "Actual timing, code quality, full design parity, migration completion, recurring/cloud execution and heard audio properties remain unverified.",
+    "try": [
+      "For Tin, retain the same task name from request through review and final output.",
+      "End a recurring-task setup with one example run and its delivered result."
+    ]
+  },
+  "comparison": {
+    "story": "Explain the command-center framing before the demo. → Establish the existing project and starting app state. → Show how a spoken request becomes delegated work. → Demonstrate supervising other work while the first task runs. → Make the implementation and review surfaces visible before running the result. → Show a concrete result matching the earlier request. → Show editing while staying close to the visual result. → Explain design-system context behind the dashboard. → Show extension and recurring-task setup without a completed scheduled result. → Introduce additional execution choices and close the tour.",
+    "motion": "The camera view zooms into composer and diff details, dictation produces a waveform then text, task logs accumulate, a conversation detaches into a small window, and dashboard bars change height with rising numbers. Sampling scope: 1 fps unless a closer window is recorded.",
+    "sound": "No validated listening; unknown.",
+    "texture": "Clean presenter shot with a small name/title strip.; White desktop interface, small presenter inset and phone simulator.; Close view of prompt input and task activity.; Sidebar project switching and scrolling task logs.; Conversation beside a code diff and file list.; Phone simulator over the task view.; Browser dashboard with a compact floating conversation.; Skill catalog, design canvas and structured property panel.; Catalog cards and a scheduling form.; Environment controls, presenter footage and a minimal end card.",
+    "lesson": "Show a complete request, review and running result before expanding into other capabilities."
+  },
+  "elements": [
+    {
+      "kind": "ui",
+      "name": "chat",
+      "events": [
+        "V03",
+        "V05",
+        "V07"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "code diff",
+      "events": [
+        "V05"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "phone simulator",
+      "events": [
+        "V02",
+        "V06"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "chart",
+      "events": [
+        "V07"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "design canvas",
+      "events": [
+        "V08"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "schedule form",
+      "events": [
+        "V09"
+      ]
+    },
+    {
+      "kind": "motion",
+      "name": "conversation window detaches",
+      "events": [
+        "V07"
+      ]
+    },
+    {
+      "kind": "motion",
+      "name": "bars change height",
+      "events": [
+        "V07"
+      ]
+    },
+    {
+      "kind": "motion",
+      "name": "zoom into interface",
+      "events": [
+        "V03",
+        "V05",
+        "V08"
+      ]
+    }
+  ]
+}

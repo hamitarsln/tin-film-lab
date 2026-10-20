@@ -1,0 +1,407 @@
+{
+  "id": 486,
+  "product_from_film": "Cluely is a desktop assistant that overlays a call, offers notes, definitions and follow-up questions, and stores meeting summaries with sharing and personalization.",
+  "explains_well": "The demo follows one call from Listen through live notes, definitions, a follow-up draft and a stored summary.",
+  "unclear": "Personalization is introduced late through dense templates, but no later answer shows how a changed preference affects assistance.",
+  "product_type": "Real-time desktop and meeting assistant",
+  "scenario": "Use an assistant during a call, review its notes, draft a follow-up, share a summary and inspect personalization.",
+  "product_clear_time": 3,
+  "product_clear_basis": "AI Desktop Assistant appears at 3s, followed by sees/hears claims and an overlaid call demo.",
+  "scenes": [
+    {
+      "start": 0,
+      "end": 9,
+      "action": "Roy Lee introduces Cluely; AI Desktop Assistant, Sees what you see and Hears what you hear title cards lead into a call.",
+      "design": "Presenter at a desk with blue neon logo, then black cards.",
+      "purpose": "State the product category and input claims.",
+      "evidence": "1 fps source samples in 0–9s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V01"
+    },
+    {
+      "start": 9,
+      "end": 20,
+      "action": "A two-person call has a small translucent assistant overlay. Listen and Record with Cluely controls are enlarged; the interface changes to recording and Live Insights.",
+      "design": "Dark call screen with floating translucent controls.",
+      "purpose": "Show activation and the assistant’s location.",
+      "evidence": "1 fps source samples in 9–20s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V02"
+    },
+    {
+      "start": 20,
+      "end": 31,
+      "action": "Meeting Introduction and Actions populate over the call; suggested definitions and follow-up questions appear.",
+      "design": "Enlarged note card with the participant visible behind it.",
+      "purpose": "Show the first live outputs.",
+      "evidence": "1 fps source samples in 20–31s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V03"
+    },
+    {
+      "start": 31,
+      "end": 46,
+      "action": "The call discusses a date, Japantown and prompt engineering in captions; notes and definition responses appear.",
+      "design": "Call stays visible while overlay panels change.",
+      "purpose": "Connect conversation terms to assistance.",
+      "evidence": "1 fps source samples in 31–46s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V04"
+    },
+    {
+      "start": 46,
+      "end": 62,
+      "action": "Definition cards for the named topics and suggested follow-up questions are enlarged.",
+      "design": "Focused translucent response panels.",
+      "purpose": "Make the generated help readable.",
+      "evidence": "1 fps source samples in 46–62s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V05"
+    },
+    {
+      "start": 62,
+      "end": 82,
+      "action": "The call continues; recording is stopped and a follow-up email draft appears before moving to the dashboard.",
+      "design": "Call overlay, Done control and draft text.",
+      "purpose": "Bridge live assistance to post-call work; sending is not shown.",
+      "evidence": "1 fps source samples in 62–82s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V06"
+    },
+    {
+      "start": 82,
+      "end": 94,
+      "action": "A meeting list appears; a question about yesterday’s action items receives a response, then the latest meeting opens.",
+      "design": "White dashboard and chat window.",
+      "purpose": "Show retrieval across saved meetings.",
+      "evidence": "1 fps source samples in 82–94s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V07"
+    },
+    {
+      "start": 94,
+      "end": 112,
+      "action": "A meeting summary, usage history and sharing controls appear. Make Private and Copy Link are shown, followed by a standalone-looking summary page.",
+      "design": "White document, side panel and public-view-like page.",
+      "purpose": "Show review and share presentation.",
+      "evidence": "1 fps source samples in 94–112s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V08"
+    },
+    {
+      "start": 112,
+      "end": 123,
+      "action": "A question asks how to personalize Cluely; the overlay gives steps and the Personalize navigation item is selected.",
+      "design": "Assistant guidance on top of the dashboard.",
+      "purpose": "Use the product to explain its own settings.",
+      "evidence": "1 fps source samples in 112–123s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V09"
+    },
+    {
+      "start": 123,
+      "end": 136,
+      "action": "Personalize shows a long instruction field and preset cards for several use cases, highlighted in sequence.",
+      "design": "Dense text area and template cards.",
+      "purpose": "Show configuration breadth without a changed-answer example.",
+      "evidence": "1 fps source samples in 123–136s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V10"
+    },
+    {
+      "start": 136,
+      "end": 145.228,
+      "action": "Presenter closes; a Cluely card cycles taglines about invisible AI and cheating on meetings, dates and everything.",
+      "design": "Desk portrait followed by black brand card.",
+      "purpose": "End with provocative positioning.",
+      "evidence": "1 fps source samples in 136–145.228s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V11"
+    }
+  ],
+  "sound": [
+    {
+      "id": "A01",
+      "start": 0,
+      "end": 145.228,
+      "layer": "ASR script support",
+      "detail": "The coherent draft walks through listening controls, live notes, terms from the conversation, suggested questions, a follow-up draft, dashboard, sharing and personalization. Product names and some phrases are mistranscribed. The product’s hears-what-you-hear claim is not evidence that this reviewer heard audio; delivery, music, effects and synchronization remain unknown.",
+      "visual_relation": "V01–V11 are supported by matching captions and visible controls.",
+      "evidence": "Local 486-speech.json draft and chronological sheets; no validated listening."
+    }
+  ],
+  "categories": [
+    {
+      "id": "Q01",
+      "finding": "Introduce → activate → live help → post-call draft → archive/share → personalize → brand.",
+      "evidence": "V01–V11",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q02",
+      "finding": "Short sees/hears cards state the assistant’s proposed inputs immediately.",
+      "evidence": "V01",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q03",
+      "finding": "The category is explicit by 3s and the overlay is visible by 9s.",
+      "evidence": "V01,V02",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q04",
+      "finding": "UI panels are enlarged, angled and highlighted while states update over the call. Exact easing and response latency unverified.",
+      "evidence": "V02–V10",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q05",
+      "finding": "The live call anchors the first half; the white dashboard clearly marks post-call review.",
+      "evidence": "V02–V08",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q06",
+      "finding": "Dark translucent overlays contrast with the later white archive; blue neon and cyan controls reinforce the brand.",
+      "evidence": "V01–V11",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q07",
+      "finding": "Close-ups make definitions and controls readable; long personalization instructions remain dense.",
+      "evidence": "V05,V08,V10",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q08",
+      "finding": "ASR supports the spoken walkthrough and example dialogue; delivery remains unknown.",
+      "evidence": "A01",
+      "status": "uncertain",
+      "reason": "Text support only, no validated listening.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q09",
+      "finding": "Music character and structure are unverified.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "No validated listening.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q10",
+      "finding": "Effects and their sources are unverified.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "No validated listening; waveform peaks do not identify effects.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q11",
+      "finding": "Sound sync is unverified.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "No validated listening or paired audiovisual timing.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q12",
+      "finding": "Presenter, call, translucent assistant, dashboard, summary and settings are visible; live execution unverified.",
+      "evidence": "V01–V11",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q13",
+      "finding": "Source duration 145.228 s; Watch metadata 1920 × 1080. Frame rate, audio clipping and export quality not checked here.",
+      "evidence": "Whole film",
+      "status": "supported",
+      "reason": "Parent source metadata supports duration and dimensions; visual review is sampled.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q14",
+      "finding": "Captions and close-ups make most steps readable without sound, though simultaneity and audio recognition cannot be judged.",
+      "evidence": "V02–V10",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q15",
+      "finding": "The overlay preserves call context, but its text sometimes sits over a participant’s face; enlarged views aid reading.",
+      "evidence": "V03–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q16",
+      "finding": "The film spends over a minute on live call help before archive and settings, giving the core interaction more time than the presets.",
+      "evidence": "V02–V10",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q17",
+      "finding": "Conversation terms reappear as definitions and questions, then in a summary; personalization lacks an output payoff.",
+      "evidence": "V04,V05,V08,V10",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q18",
+      "finding": "The demonstration may communicate convenience while the closing cheating slogans add provocation; audience response unmeasured.",
+      "evidence": "V02–V11",
+      "status": "uncertain",
+      "reason": "Story and visual interpretation.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q19",
+      "finding": "Japantown and prompt engineering connect the call, generated help and follow-up material.",
+      "evidence": "V04–V08",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q20",
+      "finding": "Recognition accuracy, latency, invisibility to others, public-link behavior and personalization effects were not independently checked. The follow-up is a draft, not a sent message.",
+      "evidence": "V02–V11",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q21",
+      "finding": "The translucent desktop overlay and live action suggestions distinguish it from only a post-meeting summary tool.",
+      "evidence": "V02–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q22",
+      "finding": "Show the effect of one saved preference.",
+      "evidence": "V10",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "Change one instruction, save it and repeat a request to show the changed response."
+    },
+    {
+      "id": "Q23",
+      "finding": "Carry one conversation detail through the full workflow.",
+      "evidence": "V04–V08",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "For Tin, trace one campaign decision from meeting context into a draft, action item and shared summary."
+    },
+    {
+      "id": "Q24",
+      "finding": "No human new-viewer test was performed.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "The product summary is this model’s film-only reading.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q25",
+      "finding": "Mobile preview and accessibility checks were not performed.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "Contact sheets are evidence views, not a stated mobile preview or compliance test.",
+      "experiment": "none"
+    }
+  ],
+  "elements": [
+    {
+      "kind": "ui",
+      "name": "video call",
+      "events": [
+        "V02",
+        "V03",
+        "V04",
+        "V05",
+        "V06"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "translucent assistant overlay",
+      "events": [
+        "V02",
+        "V03",
+        "V04",
+        "V05",
+        "V06",
+        "V09"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "meeting summary",
+      "events": [
+        "V07",
+        "V08"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "share controls",
+      "events": [
+        "V08"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "personalization templates",
+      "events": [
+        "V10"
+      ]
+    },
+    {
+      "kind": "motion",
+      "name": "UI reframing",
+      "events": [
+        "V02",
+        "V05",
+        "V08",
+        "V10"
+      ]
+    }
+  ],
+  "lessons": {
+    "keep": "Trace one conversation detail through live help and post-call outputs.",
+    "try": [
+      "Show how one saved preference changes a later answer.",
+      "For Tin, carry one campaign decision into a draft, action item and shared summary."
+    ],
+    "avoid": "Treating a settings screen as proof that personalization improves the output.",
+    "open": "Recognition, latency, visibility to others, sharing behavior, personalization effects and sound remain unverified."
+  },
+  "comparison": {
+    "story": "One call becomes live help, draft, archive and shareable summary.",
+    "motion": "Translucent overlays, enlarged controls and template highlights.",
+    "sound": "Walkthrough and dialogue supported by ASR; no listening.",
+    "texture": "Dark call UI shifts to a white dashboard.",
+    "lesson": "A continuous example makes a broad assistant workflow understandable."
+  },
+  "reviewer_model": "gpt-6-astra",
+  "scope": "sampled visual and story review; ASR and measured signal support; no validated audio listening",
+  "viewed_evidence": [
+    "technical-review-2026-10-19/deep-review/motion/486/timeline-00.jpg",
+    "technical-review-2026-10-19/deep-review/motion/486/timeline-01.jpg",
+    "technical-review-2026-10-19/deep-review/motion/486/timeline-02.jpg",
+    "technical-review-2026-10-19/deep-review/motion/486/timeline-03.jpg",
+    "technical-review-2026-10-19/deep-review/motion/486/timeline-04.jpg"
+  ],
+  "closer_windows": []
+}

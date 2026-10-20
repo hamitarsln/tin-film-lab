@@ -1,0 +1,363 @@
+{
+  "id": 309,
+  "viewed_evidence": [
+    "technical-review-2026-10-19/deep-review/motion/309/timeline-00.jpg",
+    "technical-review-2026-10-19/deep-review/motion/309/timeline-01.jpg",
+    "astra-review-2026-10-20/evidence/group-3/309/full26.jpg",
+    "astra-review-2026-10-20/evidence/group-3/309/full31.jpg",
+    "technical-review-2026-10-19/deep-review/audio/309-speech.json"
+  ],
+  "product_from_film": "Pocket is a portable conversation recorder with an app for notes, speaker labels, tasks and mind maps.",
+  "explains_well": "Close-ups show the button, slim device and phone attachment before the film presents structured notes and tasks.",
+  "unclear": "The source conversation is missing, so viewers cannot compare what was said with the summary or extracted action.",
+  "product_type": "hardware notetaker",
+  "scenario": "Record a real-world conversation and turn it into notes and follow-up tasks",
+  "product_clear_time": 5,
+  "product_clear_basis": "Device button close-up accompanies candidate recording explanation; notes UI appears at 24 s.",
+  "scenes": [
+    {
+      "start": 0,
+      "end": 10,
+      "action": "Presenter holds a blue Pocket device at a desk and points to its side button.",
+      "design": "Hardware close-ups alternate with medium office shot.",
+      "purpose": "Introduce recorder",
+      "id": "V01",
+      "evidence": "Visible 1 fps samples, source 0–10s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 10,
+      "end": 18,
+      "action": "Same presenter appears in a medical room and outdoor cafe, still holding device; side controls are enlarged.",
+      "design": "Location changes preserve hand-held product.",
+      "purpose": "Show everyday use",
+      "id": "V02",
+      "evidence": "Visible 1 fps samples, source 10–18s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 18,
+      "end": 24,
+      "action": "Device attaches to phone and goes toward a pocket; macro product shot leads back to cafe presenter.",
+      "design": "Close physical handling and embossed body detail.",
+      "purpose": "Show portability",
+      "id": "V03",
+      "evidence": "Visible 1 fps samples, source 18–24s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 24,
+      "end": 30,
+      "action": "Phone shows Cafe Chat Recap; enlarged overlay shows overview and key decisions, followed by Sarah and Jonathan labels.",
+      "design": "Translucent note panel beside presenter.",
+      "purpose": "Explain organised notes",
+      "id": "V04",
+      "evidence": "Visible 1 fps samples, source 24–30s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 30,
+      "end": 36,
+      "action": "Task and email action cards appear, then a mind-map panel grows beside presenter.",
+      "design": "Floating cards and connected branches.",
+      "purpose": "Show follow-up outputs",
+      "id": "V05",
+      "evidence": "Visible 1 fps samples, source 30–36s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 36,
+      "end": 44,
+      "action": "Device floats with astronaut above Earth; presenter appears inside helmet-style interface, then wide space view.",
+      "design": "Composited space gag.",
+      "purpose": "Illustrate offline-anywhere claim",
+      "id": "V06",
+      "evidence": "Visible 1 fps samples, source 36–44s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 44,
+      "end": 52,
+      "action": "Back at office, presenter holds Pocket and addresses camera.",
+      "design": "Return to original setting.",
+      "purpose": "Summarise audience and use",
+      "id": "V07",
+      "evidence": "Visible 1 fps samples, source 44–52s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 52,
+      "end": 55.638,
+      "action": "Device turns horizontally in close-up with this is and Get Yours Today website.",
+      "design": "Product and concise call to action.",
+      "purpose": "Close",
+      "id": "V08",
+      "evidence": "Visible 1 fps samples, source 52–55.638s; boundaries approximate, between-frame action unresolved."
+    }
+  ],
+  "sound": [
+    {
+      "id": "A01",
+      "start": 0,
+      "end": 55.638,
+      "layer": "unknown",
+      "detail": "No validated audio listening; speech, music, effects, mix and sync remain unverified.",
+      "visual_relation": "All visual scenes; alignment not checked",
+      "evidence": "No actual audio supplied to this review; existing technical-review-2026-10-19/deep-review/audio/309.json is not listening evidence."
+    },
+    {
+      "id": "A02",
+      "start": 0.01,
+      "end": 55.07,
+      "layer": "ASR draft",
+      "detail": "Candidate presenter script describes button recording, notes, speaker attribution, automatic tasks, mind maps, offline recording and later sync. Reject bucket for Pocket, top for tap and sink for sync as exact wording. Script supports the space gag role, without validating heard delivery or audio quality.",
+      "visual_relation": "V01–V08; candidate script only",
+      "evidence": "technical-review-2026-10-19/deep-review/audio/309-speech.json; existing faster-whisper base CPU int8"
+    }
+  ],
+  "categories": [
+    {
+      "finding": "Physical recorder and everyday settings lead to notes, actions and mind map; space gag illustrates offline use before the purchase close. Outputs are shown without their source conversation.",
+      "evidence": "V01–V08",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q01"
+    },
+    {
+      "finding": "A hand-held blue recorder gives an immediate product anchor. Candidate script names Pocket in the opening seconds.",
+      "evidence": "V01; A02",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q02"
+    },
+    {
+      "finding": "Button demonstration plus candidate script explain recording by about 5 s; the notes interface makes its software value visible later.",
+      "evidence": "V01, V04",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q03"
+    },
+    {
+      "finding": "Samples show hand-held rotation, phone attachment and note overlays appearing beside the presenter. Space scenes show changing device orientation; exact motion paths and easing are unresolved.",
+      "evidence": "V01–V06",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q04"
+    },
+    {
+      "finding": "The same presenter and device tie office, medical room and cafe together; the space cut adds a memorable exaggeration of portability.",
+      "evidence": "V01–V06",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q05"
+    },
+    {
+      "finding": "Natural office and cafe lighting contrasts with dark space imagery. Blue hardware and translucent panels create a consistent product look.",
+      "evidence": "V01–V08",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q06"
+    },
+    {
+      "finding": "Full 26 s note panel is readable and includes a March 15 launch decision and Friday demo deadline. Overview-scale text is dense; full 31 s task card clearly repeats the Friday demo action.",
+      "evidence": "V04–V05; full 26 and 31 s",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q07"
+    },
+    {
+      "finding": "Voice presence and delivery remain unverified.",
+      "evidence": "No validated audio listening",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q08"
+    },
+    {
+      "finding": "Music character and arc remain unverified.",
+      "evidence": "No validated audio listening",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q09"
+    },
+    {
+      "finding": "Sound effects remain unverified.",
+      "evidence": "No validated audio listening",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q10"
+    },
+    {
+      "finding": "Sound-to-motion timing remain unverified.",
+      "evidence": "No validated audio listening",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q11"
+    },
+    {
+      "finding": "Live-action presenter, hardware close-ups, app overlays and composited space scenes form the film. Production tools are unknown.",
+      "evidence": "V01–V08",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q12"
+    },
+    {
+      "finding": "Source duration supplied as 55.638s; no independent compression, clipping or delivery check.",
+      "evidence": "Assigned metadata; source integrity checked by parent",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q13"
+    },
+    {
+      "finding": "Button use, attachment and notes are visible without sound. Offline operation and sync depend mainly on the candidate spoken explanation, with the space image acting as metaphor.",
+      "evidence": "V01–V06; A02",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q14"
+    },
+    {
+      "finding": "Hand close-ups explain physical controls; enlarged notes keep software visible beside the presenter, although both compete for attention.",
+      "evidence": "V01, V04–V05",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q15"
+    },
+    {
+      "finding": "The film spends about 24 s on hardware and context, then roughly 12 s on software outputs. A short source-conversation example would help more than part of the later recap.",
+      "evidence": "V01–V07",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q16"
+    },
+    {
+      "finding": "The notes and Friday demo task show useful organisation. No actual conversation excerpt is paired with those outputs to establish how they were derived.",
+      "evidence": "V04–V05",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q17"
+    },
+    {
+      "finding": "Everyday locations make the recorder seem easy to carry; the space gag appears intended to make offline use memorable. Audience response was not measured.",
+      "evidence": "V02–V06",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q18"
+    },
+    {
+      "finding": "The Friday demo action matches the displayed cafe recap. The adjacent contract-email task has no matching visible source detail in the inspected note panel.",
+      "evidence": "V04–V05; full 26 and 31 s",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q19"
+    },
+    {
+      "finding": "Offline recording, later sync, speaker accuracy and adoption counts are presented claims. The space image is illustrative and does not establish an actual environment test.",
+      "evidence": "V04–V07; A02",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q20"
+    },
+    {
+      "finding": "The hardware-first explanation and humorous space extension distinguish Pocket from a generic meeting-summary screen tour.",
+      "evidence": "V01–V06",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q21"
+    },
+    {
+      "finding": "Add a short cafe exchange and highlight its matching summary sentence and reminder, preserving exact names and deadline.",
+      "evidence": "V04–V05",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q22"
+    },
+    {
+      "finding": "Explain a hardware control with a close-up, then immediately show the software output caused by that action.",
+      "evidence": "V01, V04",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q23"
+    },
+    {
+      "finding": "No human new-viewer test; product description above is model interpretation of sampled images.",
+      "evidence": "V01–V08",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q24"
+    },
+    {
+      "finding": "No phone-size, safe-area or flash assessment; small UI text needs separate preview.",
+      "evidence": "Contact sheets",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q25"
+    }
+  ],
+  "lessons": {
+    "keep": "Keep physical button and attachment close-ups alongside the software outputs.",
+    "try": [
+      "Show Sarah requesting a Friday demo, then match that line to the recap and reminder card.",
+      "Replace part of the office recap with recording-offline and synced-in-app states so the space metaphor has a concrete follow-through."
+    ],
+    "avoid": "Avoid presenting notes and tasks without a visible or captioned source conversation.",
+    "open": "Audio is unheard. Recording quality, speaker attribution, offline operation and sync performance remain unverified."
+  },
+  "comparison": {
+    "story": "Introduce recorder → Show everyday use → Show portability → Explain organised notes → Show follow-up outputs → Illustrate offline-anywhere claim → Summarise audience and use → Close",
+    "motion": "Samples show hand-held rotation, phone attachment and note overlays appearing beside the presenter. Space scenes show changing device orientation; exact motion paths and easing are unresolved.",
+    "sound": "No validated listening; no absence claims.",
+    "texture": "Natural office and cafe lighting contrasts with dark space imagery. Blue hardware and translucent panels create a consistent product look.",
+    "lesson": "Keep physical button and attachment close-ups alongside the software outputs."
+  },
+  "elements": [
+    {
+      "kind": "ui",
+      "name": "notes panel",
+      "events": [
+        "V04"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "task card",
+      "events": [
+        "V05"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "mind map",
+      "events": [
+        "V05"
+      ]
+    },
+    {
+      "kind": "motion",
+      "name": "device rotation",
+      "events": [
+        "V01",
+        "V08"
+      ]
+    }
+  ],
+  "reviewer_model": "gpt-6-astra",
+  "scope": "sampled visual and story review; ASR and measured signal support; no validated audio listening",
+  "closer_windows": []
+}

@@ -1,0 +1,377 @@
+{
+  "id": 256,
+  "product_from_film": "Wizard is a video editor that helps find shots, share edits and act on review comments with AI assistance.",
+  "explains_well": "A request for smiling shots leads to matching selects, and a share request leads to a review notification and comments.",
+  "unclear": "The film shows several requested changes but does not play a clear final before-and-after cut to show their combined result.",
+  "product_type": "collaborative video editor",
+  "scenario": "Editors rework a short film opening, find smiling shots, send the edit for review, discuss grading and sound, and consider a trim suggestion.",
+  "product_clear_time": 42,
+  "product_clear_basis": "The typed request to pull selects of Enny smiling is followed by matching shots and person labels at 45–49s.",
+  "scenes": [
+    {
+      "start": 0,
+      "end": 12,
+      "action": "An editor works at a desk. Text says the previous film took 12 people, three months and 4,234 hours; an office shot introduces a new editing company.",
+      "design": "Live-action desks, hands and large explanatory captions.",
+      "purpose": "Set up post-production effort.",
+      "evidence": "1 fps source samples in 0–12s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V01"
+    },
+    {
+      "start": 12,
+      "end": 23,
+      "action": "Film-set and monitor shots say the team used the tools to re-edit the beginning three days earlier. Abstract lines and text describe media becoming interpretable.",
+      "design": "Film footage, thin graphics and large type.",
+      "purpose": "Introduce the smaller demonstration task.",
+      "evidence": "1 fps source samples in 12–23s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V02"
+    },
+    {
+      "start": 23,
+      "end": 41,
+      "action": "An assembly and selects canvas appears, followed by media groups, woman-and-baby footage and a multitrack timeline with footstep clips. Text describes automated workflows and configurable software.",
+      "design": "Dark editor, media grid, timeline and feature statements.",
+      "purpose": "Establish the editing workspace.",
+      "evidence": "1 fps source samples in 23–41s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V03"
+    },
+    {
+      "start": 41,
+      "end": 50,
+      "action": "A request asks for selects of Enny smiling. A running state precedes shots of the woman and baby with person boxes and names.",
+      "design": "Prompt field, status and labeled video shots.",
+      "purpose": "Show input and retrieval result.",
+      "evidence": "1 fps source samples in 41–50s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V04"
+    },
+    {
+      "start": 50,
+      "end": 60,
+      "action": "A request asks to push to the main edit and send it to Jason. A second editor receives a new-edit notification listing changes.",
+      "design": "Editor views, dock icon and review notification.",
+      "purpose": "Connect editing with handoff.",
+      "evidence": "1 fps source samples in 50–60s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V05"
+    },
+    {
+      "start": 60,
+      "end": 75,
+      "action": "Review comments question a shot, ask to see more of the book and request the grade. Several look thumbnails appear beneath the footage.",
+      "design": "Comments, named cursors and look choices.",
+      "purpose": "Show collaborative decisions on the same scene.",
+      "evidence": "1 fps source samples in 60–75s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V06"
+    },
+    {
+      "start": 75,
+      "end": 84,
+      "action": "A comment asks to boost dialogue and duck music, followed by waveform and control-curve views and the editor working.",
+      "design": "Audio waveform and editing controls.",
+      "purpose": "Show an intended sound adjustment; the audible result is unchecked.",
+      "evidence": "1 fps source samples in 75–84s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V07"
+    },
+    {
+      "start": 84,
+      "end": 101,
+      "action": "A comment says the section feels slow. Wizard suggests shortening shot edges and asks for confirmation; the editor smiles, and text says to direct the edit.",
+      "design": "Comment, assistant suggestion and choice controls.",
+      "purpose": "Frame assistance as a decision the editor can approve.",
+      "evidence": "1 fps source samples in 84–101s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V08"
+    },
+    {
+      "start": 101,
+      "end": 107.753,
+      "action": "The monitor says Edited in Wizard, followed by wizard.inc and a notification signup view.",
+      "design": "Minimal closing text and URL.",
+      "purpose": "Name the tool and next step.",
+      "evidence": "1 fps source samples in 101–107.753s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V09"
+    }
+  ],
+  "sound": [
+    {
+      "id": "A01",
+      "start": 0,
+      "end": 107.753,
+      "layer": "unknown",
+      "detail": "No speech draft is available in the assigned evidence. No validated listening was performed; speech, delivery, music, effects and sync remain unknown. The visible request to boost dialogue and duck music does not establish the heard mix.",
+      "visual_relation": "V01–V09; V07 shows editing intent only.",
+      "evidence": "Assigned manifest speech_draft is null; chronological visual samples only."
+    }
+  ],
+  "categories": [
+    {
+      "id": "Q01",
+      "finding": "Post-production effort → re-edit task → shot retrieval → handoff → review and assisted decisions → signup.",
+      "evidence": "V01–V09",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q02",
+      "finding": "Hands and an editing desk appear with a large claim about people, months and hours, immediately framing labor.",
+      "evidence": "V01",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q03",
+      "finding": "Video editors are the clear audience; shot retrieval becomes concrete at 42–49s.",
+      "evidence": "V03,V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q04",
+      "finding": "Typed requests, status changes, person boxes, comments and alternate look states focus the viewer on decisions. Exact motion paths are not resolved by 1fps samples.",
+      "evidence": "V03–V08",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q05",
+      "finding": "Editor reaction shots alternate with UI; the same woman-and-baby footage links search, review and grade decisions.",
+      "evidence": "V03–V08",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q06",
+      "finding": "Dark interface panels contrast with warm rooms and intimate film footage.",
+      "evidence": "V01–V09",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q07",
+      "finding": "Large prompts and review comments carry the demonstration; timeline details and notification copy are denser.",
+      "evidence": "V03–V08",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q08",
+      "finding": "Voice delivery is unverified.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "No validated listening.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q09",
+      "finding": "Music character and structure are unverified.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "No validated listening.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q10",
+      "finding": "Effects and their sources are unverified.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "No validated listening; waveform peaks do not identify effects.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q11",
+      "finding": "Sound sync is unverified.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "No validated listening or paired audiovisual timing.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q12",
+      "finding": "Desk and film-set footage is combined with editor views, overlays and the short-film material. Asset origin and production stack are unknown.",
+      "evidence": "V01–V09",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q13",
+      "finding": "Source duration 107.753 s; Watch metadata 1920 × 1080. Frame rate, audio clipping and export quality not checked here.",
+      "evidence": "Whole film",
+      "status": "supported",
+      "reason": "Parent source metadata supports duration and dimensions; visual review is sampled.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q14",
+      "finding": "Visible requests, retrieved shots and review comments preserve the main workflow without sound. The sound-edit result cannot be judged visually.",
+      "evidence": "V04–V08",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q15",
+      "finding": "The request is the focus before the matching footage; comments then guide attention to specific editorial choices.",
+      "evidence": "V04–V08",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q16",
+      "finding": "The collaboration chain is readable, but several different changes follow quickly without a final comparison.",
+      "evidence": "V05–V08",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q17",
+      "finding": "The opening labor claim is answered with assisted actions, not a measured equivalent production-time comparison.",
+      "evidence": "V01,V04–V08",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q18",
+      "finding": "Heavy effort gives way to shared decisions and a smiling editor, suggesting relief and control; viewer response is unmeasured.",
+      "evidence": "V01,V08",
+      "status": "uncertain",
+      "reason": "Interpretation of framing.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q19",
+      "finding": "The same woman, baby and book maintain continuity across the retrieval and review steps.",
+      "evidence": "V03–V08",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q20",
+      "finding": "The original full-film post-production and later re-edit of its beginning have different scopes. No measured time saving follows from those numbers; functional quality, grade and audio results are untested.",
+      "evidence": "V01,V02,V04–V08",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q21",
+      "finding": "The film embeds its own editorial material in a concrete multi-person review rather than using only generic generated examples.",
+      "evidence": "V03–V08",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q22",
+      "finding": "Add a short final comparison of the reviewed passage.",
+      "evidence": "V06–V08",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "Show the original passage, accepted comments and revised passage with the same start and end points."
+    },
+    {
+      "id": "Q23",
+      "finding": "For Tin, connect an asset request, result and reviewer decision in one continuous example.",
+      "evidence": "V04–V08",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "Use one campaign clip, a request for alternate opening shots, selected results and an explicit reviewer approval."
+    },
+    {
+      "id": "Q24",
+      "finding": "No human new-viewer test was performed.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "The product summary is this model’s film-only reading.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q25",
+      "finding": "Mobile preview and accessibility checks were not performed.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "Contact sheets are evidence views, not a stated mobile preview or compliance test.",
+      "experiment": "none"
+    }
+  ],
+  "elements": [
+    {
+      "kind": "ui",
+      "name": "timeline",
+      "events": [
+        "V03"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "media grid",
+      "events": [
+        "V03"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "prompt field",
+      "events": [
+        "V04",
+        "V05"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "review comments",
+      "events": [
+        "V06",
+        "V08"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "audio waveform",
+      "events": [
+        "V07"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "review notification",
+      "events": [
+        "V05"
+      ]
+    }
+  ],
+  "lessons": {
+    "keep": "Carry the same film material through retrieval, handoff and review decisions.",
+    "try": [
+      "Show a matched original and revised passage after the accepted comments.",
+      "For Tin, connect an alternate-shot request to selected results and reviewer approval."
+    ],
+    "avoid": "Using differently scoped production figures as an implied measured time saving.",
+    "open": "Actual editing quality, time saved, final grade, audio changes and audio perception remain unverified."
+  },
+  "comparison": {
+    "story": "Production effort → assisted re-edit → collaborative decisions.",
+    "motion": "Typed requests, labels, comments and UI state changes.",
+    "sound": "No available ASR draft or validated listening; visible sound-edit intent only.",
+    "texture": "Dark editor with warm live-action rooms and intimate film material.",
+    "lesson": "Show both the request and the next person receiving its result."
+  },
+  "reviewer_model": "gpt-6-astra",
+  "scope": "sampled visual and story review; ASR and measured signal support; no validated audio listening",
+  "viewed_evidence": [
+    "technical-review-2026-10-19/deep-review/motion/256/timeline-00.jpg",
+    "technical-review-2026-10-19/deep-review/motion/256/timeline-01.jpg",
+    "technical-review-2026-10-19/deep-review/motion/256/timeline-02.jpg",
+    "technical-review-2026-10-19/deep-review/motion/256/timeline-03.jpg"
+  ],
+  "closer_windows": []
+}

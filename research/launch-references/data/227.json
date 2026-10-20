@@ -1,0 +1,359 @@
+{
+  "id": 227,
+  "product_from_film": "Ponder is a video-editing partner that reviews footage, proposes an edit plan, asks for preferences and assembles a timeline.",
+  "explains_well": "The film makes human choice visible through a take-selection question and shows planning, footage review and timeline assembly.",
+  "unclear": "Many short interface and testimonial cuts prevent the viewer from following one chosen answer through to its exact change in the finished edit.",
+  "product_type": "agentic video editor",
+  "scenario": "A film set and editing work introduce the value of taste; founders, editors and interface examples present Ponder as a creative partner.",
+  "product_clear_time": 35,
+  "product_clear_basis": "The edit plan at 30–31s and a concrete take-selection question at 35s show how the partner participates in editing.",
+  "scenes": [
+    {
+      "start": 0,
+      "end": 20,
+      "action": "A studio interview is filmed; a clapper, crew, external drive, editor, media thumbnails and adjustment-layer menu appear. Captions contrast a video with a story and discuss taste.",
+      "design": "Dark cinematic studio, close views of hands/eyes and editing hardware.",
+      "purpose": "Establish the creative work and its friction.",
+      "evidence": "1 fps source samples in 0–20s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V01"
+    },
+    {
+      "start": 20,
+      "end": 30,
+      "action": "Two founders sit beneath an arc lamp and describe a partner for creatives. Laptop use is intercut with the interview.",
+      "design": "Wide studio composition and close founder views.",
+      "purpose": "Introduce the collaborative positioning.",
+      "evidence": "1 fps source samples in 20–30s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V02"
+    },
+    {
+      "start": 30,
+      "end": 40,
+      "action": "NYC Moving Vlog Edit Plan appears beside an agent panel. An editor reacts. A Q&A asks which of two exterior takes to use; another question concerns audio treatment. A creator says it would have taken 30 minutes.",
+      "design": "Dark planning/chat UI alternating with named user interviews.",
+      "purpose": "Show the assistant asking for creative preference.",
+      "evidence": "1 fps source samples in 30–40s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V03"
+    },
+    {
+      "start": 40,
+      "end": 50,
+      "action": "Agent text reports reading project data and adding clips to a rough cut. More editor reactions alternate with footage tags, transcript-like lists and a timeline.",
+      "design": "Detailed process text, clip metadata and blue timeline tracks.",
+      "purpose": "Show planning becoming an assembled edit.",
+      "evidence": "1 fps source samples in 40–50s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V04"
+    },
+    {
+      "start": 50,
+      "end": 61,
+      "action": "A timeline, testimonials, task checklist and workflow menu appear; captions discuss a partner growing with the workflow and finding more choices. The studio returns.",
+      "design": "Alternating UI crops and warm interview scenes.",
+      "purpose": "Extend the partnership claim across the editing process.",
+      "evidence": "1 fps source samples in 50–61s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V05"
+    },
+    {
+      "start": 61,
+      "end": 74,
+      "action": "The Ponder app icon opens into footage thumbnails from the studio shoot. An editor types; asset review text comments on performances and camera coverage. Founders and users return under excellence and speed wording.",
+      "design": "The films own studio material appears inside the editing interface.",
+      "purpose": "Connect the tool to the creative work shown in the film.",
+      "evidence": "1 fps source samples in 61–74s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V06"
+    },
+    {
+      "start": 74,
+      "end": 86.634,
+      "action": "A founder reaches toward the camera, the two founders reappear, and a wider behind-the-scenes view accompanies Get access at ponder.ai. Crew move through the set before darkness.",
+      "design": "Studio reveal and a centered website CTA.",
+      "purpose": "Return to the real production setting and invite access.",
+      "evidence": "1 fps source samples in 74–86.634s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V07"
+    }
+  ],
+  "sound": [
+    {
+      "id": "A01",
+      "start": 0,
+      "end": 86.634,
+      "layer": "ASR draft / unknown",
+      "detail": "The draft supports the taste/creative-partner argument and user testimonials about time and understanding the agents thinking. Several words and the product name are misrecognized; visible captions and labels support the broad reading. No validated listening, testimonial delivery, music, effects or sync assessment.",
+      "visual_relation": "V01–V07; script role only.",
+      "evidence": "technical-review-2026-10-19/deep-review/audio/227-speech.json"
+    }
+  ],
+  "categories": [
+    {
+      "id": "Q01",
+      "finding": "Creative craft/friction → partner → preference questions → assembly/review → film-making loop → access.",
+      "evidence": "V01–V07",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q02",
+      "finding": "The behind-the-scenes opening shows the work of filming before making the taste argument.",
+      "evidence": "V01",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q03",
+      "finding": "Creators and editors are clearly addressed; the first concrete partner behavior is the edit plan and take-selection question at 30–35s.",
+      "evidence": "V02,V03",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q04",
+      "finding": "Interface crops, changes in shot scale and alternating interviews/process views are visible; exact transition timing remains unchecked.",
+      "evidence": "V01–V07",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q05",
+      "finding": "Studio footage later appears in Ponders media grid, linking the films production to the tool being promoted.",
+      "evidence": "V01,V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q06",
+      "finding": "Dark studio light, hands/hardware, warm user interviews and dark editing UI give a craft-focused texture.",
+      "evidence": "V01–V07",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q07",
+      "finding": "Subtitles and role/name labels support the argument. Dense agent text is specific but cannot all be read at normal montage speed.",
+      "evidence": "V03–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q08",
+      "finding": "The ASR coherently supports the partner/taste argument and testimonials, with malformed words excluded. Audible qualities remain unknown.",
+      "evidence": "A01",
+      "status": "uncertain",
+      "reason": "Draft text only.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q09",
+      "finding": "Music character and structure are unverified.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "No validated listening.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q10",
+      "finding": "Effects and their sources are unverified.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "No validated listening; waveform peaks do not identify effects.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q11",
+      "finding": "Sound sync is unverified.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "No validated listening or paired audiovisual timing.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q12",
+      "finding": "Live-action production footage, user interviews and screen imagery are combined; the film does not establish which editing software produced the final export.",
+      "evidence": "V01–V07",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q13",
+      "finding": "Source duration 86.634 s; Watch metadata 1920 × 1080. Frame rate, audio clipping and export quality not checked here.",
+      "evidence": "Whole film",
+      "status": "supported",
+      "reason": "Parent source metadata supports duration and dimensions; visual review is sampled.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q14",
+      "finding": "Visible questions, plans, timeline and captions communicate an editing assistant. The exact effect of one user answer is not traced silently.",
+      "evidence": "V03–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q15",
+      "finding": "Close crops make selected questions and agent actions readable; frequent faces/UI alternation divides attention across many proofs.",
+      "evidence": "V03–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q16",
+      "finding": "The first 30s establish craft and positioning; the next 44s combine UI and testimonials, before a held access ending.",
+      "evidence": "V01–V07",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q17",
+      "finding": "The films own studio footage in the interface is a strong self-referential payoff. It does not prove the whole film was edited with Ponder.",
+      "evidence": "V01,V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q18",
+      "finding": "The emphasis on taste and named creative roles may reassure editors about retaining judgment; audience response is unmeasured.",
+      "evidence": "V02–V06",
+      "status": "uncertain",
+      "reason": "Interpretation of positioning.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q19",
+      "finding": "The question/plan/timeline fragments form a plausible process, but span multiple edits and do not follow one decision to its final result.",
+      "evidence": "V03–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q20",
+      "finding": "Time-saving testimonials and craft-improvement statements are film claims. Actual edit quality, time saved and production usage were not independently tested.",
+      "evidence": "V03–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q21",
+      "finding": "The take-choice question and visible footage analysis differentiate the partner claim from simple prompt-to-video messaging.",
+      "evidence": "V03,V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q22",
+      "finding": "Follow one creative decision all the way to the resulting cut.",
+      "evidence": "V03,V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "Hold the take-choice question, show the answer, then show the chosen clip placed in the timeline and played back."
+    },
+    {
+      "id": "Q23",
+      "finding": "For Tin, make a user preference and its concrete effect visible in one uninterrupted example.",
+      "evidence": "V03,V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "Show a brand-tone choice changing the same draft asset before approval."
+    },
+    {
+      "id": "Q24",
+      "finding": "No human new-viewer test was performed.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "The product summary is this model’s film-only reading.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q25",
+      "finding": "Mobile preview and accessibility checks were not performed.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "Contact sheets are evidence views, not a stated mobile preview or compliance test.",
+      "experiment": "none"
+    }
+  ],
+  "elements": [
+    {
+      "kind": "ui",
+      "name": "edit plan",
+      "events": [
+        "V03"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "chat questions",
+      "events": [
+        "V03"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "video timeline",
+      "events": [
+        "V04",
+        "V05"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "media thumbnail grid",
+      "events": [
+        "V01",
+        "V06"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "task checklist",
+      "events": [
+        "V05"
+      ]
+    },
+    {
+      "kind": "texture",
+      "name": "film set equipment",
+      "events": [
+        "V01",
+        "V07"
+      ]
+    }
+  ],
+  "lessons": {
+    "keep": "Show the assistant asking a meaningful creative preference question.",
+    "try": [
+      "Trace one answered question through timeline placement and playback.",
+      "For Tin, show a tone choice changing the same asset before approval."
+    ],
+    "avoid": "Using many testimonial and interface fragments where one complete decision loop would be clearer.",
+    "open": "Measured time savings, edit quality, actual use in this films production, production software and audio remain unverified."
+  },
+  "comparison": {
+    "story": "Craft friction → creative partner → questions/plans/edits → studio loop → access.",
+    "motion": "UI crops and live-action shot changes; exact transitions unchecked.",
+    "sound": "Coherent ASR positioning/testimonials with errors; no listening.",
+    "texture": "Dark studio, warm interviews and detailed editing interface.",
+    "lesson": "A preference question makes collaboration concrete; its effect should be shown next."
+  },
+  "reviewer_model": "gpt-6-astra",
+  "scope": "sampled visual and story review; ASR and measured signal support; no validated audio listening",
+  "viewed_evidence": [
+    "technical-review-2026-10-19/deep-review/motion/227/timeline-00.jpg",
+    "technical-review-2026-10-19/deep-review/motion/227/timeline-01.jpg",
+    "technical-review-2026-10-19/deep-review/motion/227/timeline-02.jpg"
+  ],
+  "closer_windows": []
+}

@@ -1,0 +1,388 @@
+{
+  "id": 421,
+  "reviewer_model": "gpt-6-astra",
+  "scope": "sampled visual and story review; ASR and measured signal support; no validated audio listening",
+  "viewed_evidence": [
+    "technical-review-2026-10-19/deep-review/motion/421/timeline-00.jpg",
+    "technical-review-2026-10-19/deep-review/motion/421/timeline-01.jpg",
+    "technical-review-2026-10-19/deep-review/motion/421/timeline-02.jpg",
+    "technical-review-2026-10-19/deep-review/motion/421/timeline-03.jpg",
+    "technical-review-2026-10-19/deep-review/motion/421/timeline-04.jpg",
+    "technical-review-2026-10-19/deep-review/audio/421-speech.json"
+  ],
+  "closer_windows": [],
+  "product_from_film": "Anything Max builds apps with parallel agents and presents automated browser testing and repair.",
+  "explains_well": "One dating app connects build, onboarding and QA requests to a visible profile-edit problem.",
+  "unclear": "The repair ends with a checklist instead of showing the corrected profile edit and saved result.",
+  "product_type": "app builder",
+  "scenario": "Build and test a dating app, then invite viewers to a hackathon.",
+  "product_clear_time": 2,
+  "product_clear_basis": "Caption names a vibe coding app; the actual build workflow starts around 25s.",
+  "scenes": [
+    {
+      "id": "V01",
+      "start": 0,
+      "end": 21,
+      "action": "Two founders introduce Anything Max. A participant video grid and comparison bars claim stronger design, accuracy and overall preference than other builders.",
+      "design": "Warm loft interview, captions and dark colored bar chart.",
+      "purpose": "Make a competitive claim.",
+      "evidence": "Visible chronological 1 fps samples, source 0–21s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V02",
+      "start": 21,
+      "end": 33,
+      "action": "A dating app phone preview appears with May I Meet You text. A build prompt fills a large composer beside the presenter and is submitted.",
+      "design": "White UI, phone shell and large typed words.",
+      "purpose": "Define the example app.",
+      "evidence": "Visible chronological 1 fps samples, source 21–33s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V03",
+      "start": 33,
+      "end": 50,
+      "action": "Build steps populate. New chats request onboarding and QA; overlapping task cards and running labels show several jobs at once.",
+      "design": "White cards, file names, progress circles and split presenter view.",
+      "purpose": "Explain parallel agents.",
+      "evidence": "Visible chronological 1 fps samples, source 33–50s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V04",
+      "start": 50,
+      "end": 64,
+      "action": "Live QA Testing phone view moves through profiles and chats; a red annotation identifies a profile-edit issue beside the presenter.",
+      "design": "Phone app, agent cursor and red issue marker.",
+      "purpose": "Make testing visible.",
+      "evidence": "Visible chronological 1 fps samples, source 50–64s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V05",
+      "start": 64,
+      "end": 71,
+      "action": "An iceberg labeled with a competitor exposes only its top; Max reveals lower sections labeled UI, Databases, Backend and APIs.",
+      "design": "Pale blue geometric iceberg and small white labels.",
+      "purpose": "Illustrate a claimed testing-depth difference.",
+      "evidence": "Visible chronological 1 fps samples, source 64–71s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V06",
+      "start": 71,
+      "end": 86,
+      "action": "The profile issue returns with blue progress annotation. A checklist advances through Test Backend, Frontend Bug, Fix Applied, Test and Verified.",
+      "design": "Enlarged task list and blue agent status bubble.",
+      "purpose": "Describe diagnosis and repair.",
+      "evidence": "Visible chronological 1 fps samples, source 71–86s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V07",
+      "start": 86,
+      "end": 102,
+      "action": "Founder introduces customer examples; app screens and revenue cards count upward to claims of $10,000 per month, $20,000 total and $40,000 total.",
+      "design": "White case-study layouts, portraits and rising charts.",
+      "purpose": "Offer business-result social proof.",
+      "evidence": "Visible chronological 1 fps samples, source 86–102s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V08",
+      "start": 102,
+      "end": 134.582,
+      "action": "Founder announces a $100,000 hackathon, growth resources and app ideas. Document pages appear, then a repost/comment demonstration and $100 credit cards precede the Anything mark.",
+      "design": "Large numbers, document previews and social post UI.",
+      "purpose": "Convert interest into participation.",
+      "evidence": "Visible chronological 1 fps samples, source 102–134.582s; boundary approximate; exact motion between samples unverified."
+    }
+  ],
+  "sound": [
+    {
+      "id": "A01",
+      "start": 0,
+      "end": 134.582,
+      "layer": "unknown",
+      "detail": "No validated direct audio listening was performed. Music, speech delivery, effects, mix and sync remain unknown, not absent.",
+      "visual_relation": "All visual scenes; audiovisual alignment unverified",
+      "evidence": "Visual samples only; no actual audio range supplied to this reviewer."
+    },
+    {
+      "id": "A02",
+      "start": 0.2,
+      "end": 132,
+      "layer": "ASR draft",
+      "detail": "The coherent ASR draft explains the comparison, dating-app build, parallel agents, browser QA and a frontend/backend profile bug, then promotes customer revenue and a hackathon. It supplies the repair rationale but does not verify the claim. Several product and technical words are misrecognized; delivery, music and effects remain unknown.",
+      "visual_relation": "Story text support; exact audiovisual alignment and delivery unverified.",
+      "evidence": "technical-review-2026-10-19/deep-review/audio/421-speech.json; local faster-whisper base CPU int8 draft; VAD candidates only, recognition errors possible."
+    }
+  ],
+  "categories": [
+    {
+      "id": "Q01",
+      "finding": "Competitive claim leads to one app demo, parallel build and QA, repair, customer results and hackathon invitation.",
+      "evidence": "V01–V08",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q02",
+      "finding": "Two founders and Introducing Anything Max caption name the product immediately; comparison labels begin entering soon after.",
+      "evidence": "V01",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q03",
+      "finding": "App builders are clearly addressed by the dating-app prompt and multi-agent work. The release category is named in the opening captions.",
+      "evidence": "V01–V03",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q04",
+      "finding": "Comparison bars extend, prompt words accumulate, task cards overlap to represent parallel work, a phone agent cursor changes screens, and repair checks turn green.",
+      "evidence": "V01–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q05",
+      "finding": "Presenter and enlarged UI alternate; the iceberg briefly interrupts the same app scenario to explain the competitor claim, then returns to the profile issue.",
+      "evidence": "V02–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q06",
+      "finding": "Warm founder footage contrasts with clean white UI and a dark comparison chart; pastel iceberg graphics simplify the technical metaphor.",
+      "evidence": "V01–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q07",
+      "finding": "Captions explain the full argument. Large task names and checklist labels are readable, while file paths and detailed test evidence are much smaller.",
+      "evidence": "V03–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q08",
+      "finding": "The coherent ASR draft explains the comparison, dating-app build, parallel agents, browser QA and a frontend/backend profile bug, then promotes customer revenue and a hackathon. It supplies the repair rationale but does not verify the claim. Several product and technical words are misrecognized; delivery, music and effects remain unknown.",
+      "evidence": "A02",
+      "status": "uncertain",
+      "reason": "ASR text only; no validated listening, delivery or voice origin.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q09",
+      "finding": "Voice delivery, music, effects and audiovisual alignment were not established by this visual pass.",
+      "evidence": "A01",
+      "status": "not checked",
+      "reason": "No validated direct audio listening input.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q10",
+      "finding": "Voice delivery, music, effects and audiovisual alignment were not established by this visual pass.",
+      "evidence": "A01",
+      "status": "not checked",
+      "reason": "No validated direct audio listening input.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q11",
+      "finding": "Voice delivery, music, effects and audiovisual alignment were not established by this visual pass.",
+      "evidence": "A01",
+      "status": "not checked",
+      "reason": "No validated direct audio listening input.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q12",
+      "finding": "Founder footage, participant grid, phone preview, diagram, charts and document screens mix. The shown interfaces are presentation evidence, not independent execution records.",
+      "evidence": "V01–V08",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q13",
+      "finding": "Manifest duration 134.582s; indexed dimensions 1920×1080. Source unchanged flag recorded; fresh encoding and audio clipping checks not run.",
+      "evidence": "Group manifest",
+      "status": "uncertain",
+      "reason": "Inherited technical metadata; no fresh media probe in this review.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q14",
+      "finding": "Captions preserve the build/test/repair story silently. The repair’s final success is communicated by labels rather than a repeated successful action.",
+      "evidence": "V02–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q15",
+      "finding": "Red issue marker isolates the failure, then blue progress and green checks direct attention to repair status.",
+      "evidence": "V04,V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q16",
+      "finding": "The demo has enough time to identify one issue, but the last 48s shifts to three customer stories and multiple promotional offers.",
+      "evidence": "V04–V08",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q17",
+      "finding": "The opening superiority claim receives a comparison chart and one testing story. Neither the benchmark method nor a corrected user action is fully shown.",
+      "evidence": "V01,V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q18",
+      "finding": "Founder confidence and claimed comparisons lead to problem discovery, repair relief and business opportunity. This is a story reading, not validated audience effect.",
+      "evidence": "V01–V08",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q19",
+      "finding": "The same dating app and profile problem remain traceable across QA and repair; final customer apps are separate examples.",
+      "evidence": "V02–V07",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q20",
+      "finding": "Visible QA states and a repair checklist support the demonstration. Competitor limitations, benchmark representativeness, actual fixed behavior and revenue figures are not independently verified.",
+      "evidence": "V01,V04–V07",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q21",
+      "finding": "Parallel agent cards and the build-plus-QA scenario distinguish the offer more than the generic revenue and prize graphics.",
+      "evidence": "V03–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q22",
+      "finding": "Add a successful edit-save-reload after Verified, using time from one promotional example. Preserve the red issue moment because it gives the repair a concrete reason.",
+      "evidence": "V04,V06–V08",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q23",
+      "finding": "For Tin agent QA, use a single failed campaign step, show the diagnostic path, then repeat the same action successfully. Parallel task cards should retain names and statuses.",
+      "evidence": "V03–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q24",
+      "finding": "Anything Max builds apps with parallel agents and presents automated browser testing and repair.",
+      "evidence": "Model reading from inspected images",
+      "status": "uncertain",
+      "reason": "Model-only new-viewer interpretation; no human test.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q25",
+      "finding": "Contact sheets inspected at displayed size; a phone-size playback, caption audit, flash audit and formal accessibility check were not performed.",
+      "evidence": "Viewed sheets",
+      "status": "not checked",
+      "reason": "Full-size moving-image and device checks unavailable in this pass.",
+      "experiment": "none"
+    }
+  ],
+  "lessons": {
+    "keep": "Make the defect visible before explaining the repair.",
+    "avoid": "Replacing the repaired user outcome with a Verified checklist alone.",
+    "open": "Benchmark method, competitive claims, customer revenue, actual repaired behavior and sound remain unverified.",
+    "try": [
+      "For Tin, show a failed publish preview, the diagnosed field and the same publish action succeeding after the fix.",
+      "Compare overlapping agent cards with a three-column status view to test whether viewers understand parallel work."
+    ]
+  },
+  "comparison": {
+    "story": "Make a competitive claim. → Define the example app. → Explain parallel agents. → Make testing visible. → Illustrate a claimed testing-depth difference. → Describe diagnosis and repair. → Offer business-result social proof. → Convert interest into participation.",
+    "motion": "Comparison bars extend, prompt words accumulate, task cards overlap to represent parallel work, a phone agent cursor changes screens, and repair checks turn green. Sampling scope: 1 fps unless a closer window is recorded.",
+    "sound": "No validated listening; unknown.",
+    "texture": "Warm loft interview, captions and dark colored bar chart.; White UI, phone shell and large typed words.; White cards, file names, progress circles and split presenter view.; Phone app, agent cursor and red issue marker.; Pale blue geometric iceberg and small white labels.; Enlarged task list and blue agent status bubble.; White case-study layouts, portraits and rising charts.; Large numbers, document previews and social post UI.",
+    "lesson": "Make the defect visible before explaining the repair."
+  },
+  "elements": [
+    {
+      "kind": "ui",
+      "name": "chat",
+      "events": [
+        "V02",
+        "V03"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "phone shell",
+      "events": [
+        "V02",
+        "V04"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "checklist",
+      "events": [
+        "V06"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "chart",
+      "events": [
+        "V01",
+        "V07"
+      ]
+    },
+    {
+      "kind": "motion",
+      "name": "overlapping task cards",
+      "events": [
+        "V03"
+      ]
+    },
+    {
+      "kind": "motion",
+      "name": "counting numbers",
+      "events": [
+        "V07"
+      ]
+    },
+    {
+      "kind": "texture",
+      "name": "founder interview footage",
+      "events": [
+        "V01",
+        "V08"
+      ]
+    }
+  ]
+}

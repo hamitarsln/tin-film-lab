@@ -1,0 +1,402 @@
+{
+  "id": 211,
+  "viewed_evidence": [
+    "technical-review-2026-10-19/deep-review/motion/211/timeline-00.jpg",
+    "technical-review-2026-10-19/deep-review/motion/211/timeline-01.jpg",
+    "technical-review-2026-10-19/deep-review/motion/211/timeline-02.jpg",
+    "technical-review-2026-10-19/deep-review/motion/211/timeline-03.jpg",
+    "technical-review-2026-10-19/deep-review/motion/211/timeline-04.jpg",
+    "astra-review-2026-10-20/evidence/group-3/211/dense.jpg",
+    "technical-review-2026-10-19/deep-review/audio/211-speech.json"
+  ],
+  "product_from_film": "Creatify Agent researches a brand, uses existing footage and AI-generated clips, and makes advertising videos and platform variants.",
+  "explains_well": "A supplement brand and product link connect research, footage selection, scripting and finished ad examples.",
+  "unclear": "Quality-check overlays say verified without showing a detected error, its correction or the user approval before export.",
+  "product_type": "AI advertising creation",
+  "scenario": "Turn a supplement product link and existing content into multiple advertising videos.",
+  "product_clear_time": 9,
+  "product_clear_basis": "Opening captions name competitor research, copywriting and ad creation while script and video editor screens appear.",
+  "scenes": [
+    {
+      "start": 0,
+      "end": 17,
+      "action": "Presenter introduces the agent; competitor cards, script and video timeline preview its work.",
+      "design": "Interview, dark interface inserts and captions.",
+      "purpose": "State the product scope",
+      "id": "V01",
+      "evidence": "Visible 1 fps samples, source 0–17s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 17,
+      "end": 27,
+      "action": "Supplement bottle and many vertical ads establish a 50-ad scenario; user enters a product link and submits.",
+      "design": "Green product, floating cards and purple prompt glow.",
+      "purpose": "Supply a concrete input",
+      "id": "V02",
+      "evidence": "Visible 1 fps samples, source 17–27s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 27,
+      "end": 41,
+      "action": "Progress checklist leads to brand page extraction, content library and competitor ad cards.",
+      "design": "Large status text, labelled pointers and tilted windows.",
+      "purpose": "Explain research inputs",
+      "id": "V03",
+      "evidence": "Visible 1 fps samples, source 27–41s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 41,
+      "end": 50,
+      "action": "Loading bar completes; model names and examples appear in columns.",
+      "design": "Gradient background and moving model panels.",
+      "purpose": "Describe model selection",
+      "id": "V04",
+      "evidence": "Visible 1 fps samples, source 41–50s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 50,
+      "end": 58,
+      "action": "Aurora title appears through a purple glass form, then phone-shaped avatar examples appear.",
+      "design": "Pink glow, translucent geometry and particles.",
+      "purpose": "Show generated presenter footage",
+      "id": "V05",
+      "evidence": "Visible 1 fps samples, source 50–58s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 58,
+      "end": 74,
+      "action": "Comparison graphic leads to an existing content library; clips are selected and AI presenter footage fills gaps.",
+      "design": "Dark grids and floating vertical clips.",
+      "purpose": "Explain reuse of existing footage",
+      "id": "V06",
+      "evidence": "Visible 1 fps samples, source 58–74s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 74,
+      "end": 92,
+      "action": "Avatar interface and close videos carry scan markers, product checks and a verified overlay, then a grid and taste statement.",
+      "design": "Purple frame, face/product highlights and expanding grid.",
+      "purpose": "Claim brand and visual checks",
+      "id": "V07",
+      "evidence": "Visible 1 fps samples, source 74–92s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 92,
+      "end": 104,
+      "action": "Second presenter requests variants for several social platforms.",
+      "design": "Platform branching diagram and enlarged prompt entry.",
+      "purpose": "Extend the concept across channels",
+      "id": "V08",
+      "evidence": "Visible 1 fps samples, source 92–104s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 104,
+      "end": 112,
+      "action": "Social posts and a response screen lead to several new presenter variants.",
+      "design": "Vertical video collage and dark chat output.",
+      "purpose": "Show variation output",
+      "id": "V09",
+      "evidence": "Visible 1 fps samples, source 104–112s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 112,
+      "end": 125.966,
+      "action": "Presenter offers the next thousand ads free; a social reply supplies product and description, followed by an example response and logo.",
+      "design": "Interview with floating videos, social post close-ups and black brand card.",
+      "purpose": "Invite a trial through a comment",
+      "id": "V10",
+      "evidence": "Visible 1 fps samples, source 112–125.966s; boundaries approximate, between-frame action unresolved."
+    }
+  ],
+  "sound": [
+    {
+      "id": "A01",
+      "start": 0,
+      "end": 125.966,
+      "layer": "unknown",
+      "detail": "No validated audio listening; speech, music, effects, mix and sync remain unverified.",
+      "visual_relation": "All visual scenes; alignment not checked",
+      "evidence": "No actual audio supplied to this review; existing technical-review-2026-10-19/deep-review/audio/211.json is not listening evidence."
+    },
+    {
+      "id": "A02",
+      "start": 0.45,
+      "end": 123.6,
+      "layer": "ASR draft",
+      "detail": "Candidate script supports competitor research, existing footage, model selection, gap filling, checks, variants and the comment invitation. Brand names, Opus, Aurora, b-roll, best clips and several embedded-ad phrases are mistranscribed. Nonsensical phrases are rejected; visible captions guide the narrative. No hearing, music or voice quality is inferred.",
+      "visual_relation": "V01–V10; text-only script support",
+      "evidence": "technical-review-2026-10-19/deep-review/audio/211-speech.json; existing faster-whisper base CPU int8"
+    }
+  ],
+  "categories": [
+    {
+      "finding": "The film introduces capabilities, follows a supplement brief through research and generation, then adds quality checks, variants and a comment-based trial.",
+      "evidence": "V01–V10",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q01"
+    },
+    {
+      "finding": "The agent name and three concrete tasks arrive immediately, with interface proof points before the full example.",
+      "evidence": "V01",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q02"
+    },
+    {
+      "finding": "Ad creation is clear by 8–11 s; the input is demonstrated at 23–26 s.",
+      "evidence": "V01,V02",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q03"
+    },
+    {
+      "finding": "Dense 50–54 s samples show oversized glowing Aurora letters behind a moving purple glass form, the word reducing and tilting around 52 s, then vertical presenter cards entering amid particles. This decorates the model reveal.",
+      "evidence": "V05; dense 50–54 s",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q04"
+    },
+    {
+      "finding": "Presenter sections alternate with full-screen interface and diagram sequences. Enlarged prompt boxes mark the two user requests.",
+      "evidence": "V01–V10",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q05"
+    },
+    {
+      "finding": "Black surfaces, purple gradients, pink light and green supplement packaging create a consistent product-demo palette.",
+      "evidence": "V02–V09",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q06"
+    },
+    {
+      "finding": "Large prompts and progress labels explain the stages. Detailed scripts and model lists move quickly; the single product link is the strongest readable anchor.",
+      "evidence": "V02–V04,V08",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q07"
+    },
+    {
+      "finding": "Voice presence and delivery remain unverified.",
+      "evidence": "No validated audio listening",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q08"
+    },
+    {
+      "finding": "Music character and arc remain unverified.",
+      "evidence": "No validated audio listening",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q09"
+    },
+    {
+      "finding": "Sound effects remain unverified.",
+      "evidence": "No validated audio listening",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q10"
+    },
+    {
+      "finding": "Sound-to-motion timing remain unverified.",
+      "evidence": "No validated audio listening",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q11"
+    },
+    {
+      "finding": "Interview footage, screen inserts, model diagrams, generated-presenter claims and motion graphics are visible. Production tooling and asset origin are not independently established.",
+      "evidence": "V01–V10",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q12"
+    },
+    {
+      "finding": "Source duration supplied as 125.966s; no independent compression, clipping or delivery check.",
+      "evidence": "Assigned metadata; source integrity checked by parent",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q13"
+    },
+    {
+      "finding": "Captions preserve the proposition and workflow silently. Embedded ad dialogue is not needed to follow the main demonstration, though its quality cannot be judged without hearing.",
+      "evidence": "V01–V10",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q14"
+    },
+    {
+      "finding": "Zoomed inputs and isolated vertical clips direct attention; dense model columns and collage scenes divide attention across many items.",
+      "evidence": "V02,V04,V06,V09",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q15"
+    },
+    {
+      "finding": "The opening previews the output quickly; the middle spends substantial time on generation and quality claims before the second variation prompt at about 100 s.",
+      "evidence": "V01–V09",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q16"
+    },
+    {
+      "finding": "The same green bottle ties input, selected clips and output variants together. No full finished ad is held from start to end within the reviewed structure.",
+      "evidence": "V02,V05–V09",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q17"
+    },
+    {
+      "finding": "The many output cards and glowing model reveal suggest scale and capability; this is an interpretation of presentation, not measured performance.",
+      "evidence": "V02,V05,V09",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q18"
+    },
+    {
+      "finding": "Green product packaging and purple interface framing connect the two presenters and multiple generation stages.",
+      "evidence": "V01–V10",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q19"
+    },
+    {
+      "finding": "World-first, viral, best-model, zero-error and verification claims are film statements. Displayed status labels do not establish internal reasoning, correction accuracy or ad results.",
+      "evidence": "V01,V04,V07,V09",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q20"
+    },
+    {
+      "finding": "The existing-footage-first explanation and the concrete supplement example communicate a more specific workflow than the broad viral-ad promise.",
+      "evidence": "V02,V06",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q21"
+    },
+    {
+      "finding": "Show one product-label error being flagged, corrected and approved, then hold the finished result beside the source asset.",
+      "evidence": "V07",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q22"
+    },
+    {
+      "finding": "For AI creation software, track one source asset through selection, generation, correction and final output.",
+      "evidence": "V02–V09",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q23"
+    },
+    {
+      "finding": "No human new-viewer test; product description above is model interpretation of sampled images.",
+      "evidence": "V01–V10",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q24"
+    },
+    {
+      "finding": "No phone-size, safe-area or flash assessment; small UI text needs separate preview.",
+      "evidence": "Contact sheets",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q25"
+    }
+  ],
+  "lessons": {
+    "keep": "Use one product and a clear input prompt to connect a wide range of generation steps.",
+    "try": [
+      "Replace one verified montage with a visible failed product detail, correction and user approval.",
+      "Show two finished variants side by side with the exact platform-specific changes labelled."
+    ],
+    "avoid": "Avoid using glowing verification labels as the whole explanation of quality control.",
+    "open": "What is checked, what gets corrected, and where does the user approve the final ad?"
+  },
+  "comparison": {
+    "story": "State the product scope → Supply a concrete input → Explain research inputs → Describe model selection → Show generated presenter footage → Explain reuse of existing footage → Claim brand and visual checks → Extend the concept across channels → Show variation output → Invite a trial through a comment",
+    "motion": "Dense 50–54 s samples show oversized glowing Aurora letters behind a moving purple glass form, the word reducing and tilting around 52 s, then vertical presenter cards entering amid particles. This decorates the model reveal.",
+    "sound": "No validated listening; no absence claims.",
+    "texture": "Black surfaces, purple gradients, pink light and green supplement packaging create a consistent product-demo palette.",
+    "lesson": "Use one product and a clear input prompt to connect a wide range of generation steps."
+  },
+  "elements": [
+    {
+      "kind": "ui",
+      "name": "prompt input",
+      "events": [
+        "V02",
+        "V08"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "video editor",
+      "events": [
+        "V01"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "content library",
+      "events": [
+        "V03",
+        "V06"
+      ]
+    },
+    {
+      "kind": "motion",
+      "name": "glowing title reveal",
+      "events": [
+        "V05"
+      ]
+    },
+    {
+      "kind": "motion",
+      "name": "video card collage",
+      "events": [
+        "V06",
+        "V09"
+      ]
+    }
+  ],
+  "reviewer_model": "gpt-6-astra",
+  "scope": "sampled visual and story review; ASR and measured signal support; no validated audio listening",
+  "closer_windows": [
+    {
+      "start": 50,
+      "end": 54,
+      "rate_fps": 4,
+      "evidence": [
+        "astra-review-2026-10-20/evidence/group-3/211/dense.jpg"
+      ],
+      "resolved": "A translucent purple form crosses large glowing letters, followed by a smaller tilted Aurora word and vertical video cards entering a particle field. Exact animation curves and compositing method remain unknown."
+    }
+  ]
+}

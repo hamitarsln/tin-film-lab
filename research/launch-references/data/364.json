@@ -1,0 +1,347 @@
+{
+  "id": 364,
+  "product_from_film": "OSU presents text-driven building and retexturing for Minecraft-like worlds and characters, with private multiplayer creation.",
+  "explains_well": "A Japanese-castle prompt is followed by a block structure growing through visible stages.",
+  "unclear": "The castle preview, construction sequence and later retextured worlds are not connected by an explicit import or apply step.",
+  "product_type": "Game creation tool",
+  "scenario": "Describe a castle, view construction, request cyberpunk world/character looks and invite friends to a private server.",
+  "product_clear_time": 11,
+  "product_clear_basis": "The castle request at 6s is followed by an in-game castle at 11s.",
+  "scenes": [
+    {
+      "start": 0,
+      "end": 8,
+      "action": "A block-game landscape gives way to What if you could build anything and Just describe it. A prompt requests a Japanese castle with cherry blossoms and Create is selected.",
+      "design": "Dark blue field, purple glowing prompt border and typed text.",
+      "purpose": "Establish text-to-building input.",
+      "evidence": "1 fps source samples in 0–8s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V01"
+    },
+    {
+      "start": 8,
+      "end": 22,
+      "action": "A blossom tree appears inside a wireframe cube, then an in-game castle is shown. Another construction sequence progresses from foundation to tiered walls and roof, ending near stairs.",
+      "design": "Voxel-like models, game HUD and changing daylight.",
+      "purpose": "Illustrate generated structure and in-world scale; exact build duration is not established.",
+      "evidence": "1 fps source samples in 8–22s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V02"
+    },
+    {
+      "start": 22,
+      "end": 31,
+      "action": "Castle and spaceship model examples surround large labels. A Cyberpunk neon world prompt leads to a vivid city view with an asset panel.",
+      "design": "Glowing purple/blue model showcase and game view.",
+      "purpose": "Extend the feature into world retexturing.",
+      "evidence": "1 fps source samples in 22–31s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V03"
+    },
+    {
+      "start": 31,
+      "end": 38,
+      "action": "A basic block character changes to cyberpunk armor after a prompt. City, medieval and fantasy-looking world views follow with AI RETEXTURING text.",
+      "design": "White character stage then saturated in-game views.",
+      "purpose": "Show character and world visual variation.",
+      "evidence": "1 fps source samples in 31–38s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V04"
+    },
+    {
+      "start": 38,
+      "end": 43,
+      "action": "Create with Friends leads to several characters near a castle, Private Servers and New Player Joined notifications around a shield-like frame.",
+      "design": "Game characters, lock/shield symbol and join notices.",
+      "purpose": "Add collaborative creation.",
+      "evidence": "1 fps source samples in 38–43s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V05"
+    },
+    {
+      "start": 43,
+      "end": 50.0,
+      "action": "OSU identity and OSU.ai appear, then Download Desktop App holds.",
+      "design": "White background and purple-blue button.",
+      "purpose": "Provide a download destination.",
+      "evidence": "1 fps source samples in 43–50.0s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V06"
+    }
+  ],
+  "sound": [
+    {
+      "id": "A01",
+      "start": 0,
+      "end": 50.0,
+      "layer": "unknown",
+      "detail": "No speech draft is supplied. Voice, music, effects and sync are unverified; absence of a draft does not mean silence.",
+      "visual_relation": "V01–V06; no heard alignment.",
+      "evidence": "Manifest speech_draft is null; sampled visual review."
+    }
+  ],
+  "categories": [
+    {
+      "id": "Q01",
+      "finding": "Prompt → structure → more objects → world/character looks → friends → download.",
+      "evidence": "V01–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q02",
+      "finding": "A block-game landscape appears before a typed question on dark blue. It establishes the setting before the tool.",
+      "evidence": "V01",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q03",
+      "finding": "Game builders are addressed through prompts and in-game results; the first castle payoff appears at 11s.",
+      "evidence": "V01,V02",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q04",
+      "finding": "Typed prompts, staged construction, model scale/position changes and character appearance changes are visible. Exact transition mechanics/easing are unverified.",
+      "evidence": "V01–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q05",
+      "finding": "Prompt fields repeatedly precede result views; the tree cube and castle build are different objects, so their handoff is less direct.",
+      "evidence": "V01–V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q06",
+      "finding": "Neon blue/purple gradients and glows contrast with green block landscapes and bright character stage.",
+      "evidence": "V01–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q07",
+      "finding": "Short instructions and large feature labels explain the sequence. The castle and cyberpunk prompts are more informative than Anything.",
+      "evidence": "V01–V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q08",
+      "finding": "Voice delivery is unverified.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "No validated listening.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q09",
+      "finding": "Music character and structure are unverified.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "No validated listening.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q10",
+      "finding": "Effects and their sources are unverified.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "No validated listening; waveform peaks do not identify effects.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q11",
+      "finding": "Sound sync is unverified.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "No validated listening or paired audiovisual timing.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q12",
+      "finding": "Game-like views, rendered-looking object showcases and stylized UI are combined. Origins and live-product status are unverified.",
+      "evidence": "V01–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q13",
+      "finding": "Source duration 50.0 s; Watch metadata 1920 × 1080. Frame rate, audio clipping and export quality not checked here.",
+      "evidence": "Whole film",
+      "status": "supported",
+      "reason": "Parent source metadata supports duration and dimensions; visual review is sampled.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q14",
+      "finding": "Visible prompts and labeled results carry the broad feature story without checked sound.",
+      "evidence": "V01–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q15",
+      "finding": "Glowing prompt edges draw attention to input, then large structure/character views become the focus.",
+      "evidence": "V01–V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q16",
+      "finding": "Building, world texture, character texture and multiplayer fit in 43s; apply/setup steps are omitted.",
+      "evidence": "V01–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q17",
+      "finding": "The initial building promise has a castle payoff, while the broad Anything wording exceeds the examples shown.",
+      "evidence": "V01–V03",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q18",
+      "finding": "Construction and increasingly colorful worlds suggest creative possibility; viewer response is unmeasured.",
+      "evidence": "V02–V05",
+      "status": "uncertain",
+      "reason": "Visual interpretation only.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q19",
+      "finding": "The prompt style stays consistent, but castle, tree, city and character examples switch without one sustained project.",
+      "evidence": "V01–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q20",
+      "finding": "The film shows illustrative generation/build states and retexturing outcomes. Actual speed, arbitrary structure support, Java compatibility and multiplayer behavior are untested.",
+      "evidence": "V01–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q21",
+      "finding": "Voxel construction stages and private-server creation give the film game-specific meaning beyond generic prompt UI.",
+      "evidence": "V02,V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q22",
+      "finding": "Show the application handoff.",
+      "evidence": "V01,V02",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "Keep one castle preview visible while selecting its placement in the game and showing the final walk-through."
+    },
+    {
+      "id": "Q23",
+      "finding": "For Tin, retain the same brief across generation and use.",
+      "evidence": "V01–V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "Show a campaign prompt, one resulting asset and its actual placement in the chosen channel before offering more styles."
+    },
+    {
+      "id": "Q24",
+      "finding": "No human new-viewer test was performed.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "The product summary is this model’s film-only reading.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q25",
+      "finding": "Mobile preview and accessibility checks were not performed.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "Contact sheets are evidence views, not a stated mobile preview or compliance test.",
+      "experiment": "none"
+    }
+  ],
+  "elements": [
+    {
+      "kind": "ui",
+      "name": "prompt field",
+      "events": [
+        "V01",
+        "V03",
+        "V04"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "game HUD",
+      "events": [
+        "V02",
+        "V03",
+        "V04"
+      ]
+    },
+    {
+      "kind": "motion",
+      "name": "staged construction",
+      "events": [
+        "V02"
+      ]
+    },
+    {
+      "kind": "texture",
+      "name": "voxel landscape",
+      "events": [
+        "V01",
+        "V02",
+        "V05"
+      ]
+    },
+    {
+      "kind": "texture",
+      "name": "neon glow",
+      "events": [
+        "V01",
+        "V03",
+        "V04"
+      ]
+    }
+  ],
+  "lessons": {
+    "keep": "Show a recognizable structure progressing from foundation to roof.",
+    "try": [
+      "Connect one castle preview to placement and a final in-game walk-through.",
+      "For Tin, carry one generated asset into its actual channel placement."
+    ],
+    "avoid": "Treating a broad montage as an explanation of the apply step.",
+    "open": "Generation speed, placement workflow, visual fidelity, multiplayer support and audio qualities remain unverified."
+  },
+  "comparison": {
+    "story": "Describe → build → restyle → collaborate.",
+    "motion": "Prompt typing, construction states and appearance changes.",
+    "sound": "No draft or validated listening.",
+    "texture": "Block worlds with neon blue/purple presentation.",
+    "lesson": "A visible build sequence explains creation, but the handoff into the user world needs a clear step."
+  },
+  "reviewer_model": "gpt-6-astra",
+  "scope": "sampled visual and story review; ASR and measured signal support; no validated audio listening",
+  "viewed_evidence": [
+    "technical-review-2026-10-19/deep-review/motion/364/timeline-00.jpg",
+    "technical-review-2026-10-19/deep-review/motion/364/timeline-01.jpg"
+  ],
+  "closer_windows": []
+}

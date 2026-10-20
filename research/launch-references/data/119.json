@@ -1,0 +1,308 @@
+{
+  "id": 119,
+  "reviewer_model": "gpt-6-astra",
+  "scope": "sampled visual and story review; ASR and measured signal support; no validated audio listening",
+  "viewed_evidence": [
+    "technical-review-2026-10-19/deep-review/motion/119/timeline-00.jpg",
+    "technical-review-2026-10-19/deep-review/audio/119-speech.json"
+  ],
+  "closer_windows": [],
+  "product_from_film": "Nuke teases access to financial opportunities around perpetual markets, without explaining a usable product.",
+  "explains_well": "Bold money imagery and a nuclear-cloud ending make the brand memorable.",
+  "unclear": "No interface, yield mechanism, user action or concrete result is shown.",
+  "product_type": "financial teaser",
+  "scenario": "Access previously out-of-reach opportunities; exact workflow unclear.",
+  "product_clear_time": null,
+  "product_clear_basis": "Perps and accessibility are stated, but no product mechanism becomes clear.",
+  "scenes": [
+    {
+      "id": "V01",
+      "start": 0,
+      "end": 6,
+      "action": "Dollar bills, financial print and trading monitors sit behind Billions move through perps and best opportunities copy. A podium scene is layered with financial headlines.",
+      "design": "Bold uppercase type mixed with italic phrases and dark collage.",
+      "purpose": "Establish market size and exclusion.",
+      "evidence": "Visible chronological 1 fps samples, source 0–6s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V02",
+      "start": 6,
+      "end": 15,
+      "action": "Money counting, a formal gathering, stag, cash piles and people on phones surround So we made it copy. One sampled person has inverted colors.",
+      "design": "Film-like montage, dark luxury associations and orange emphasis.",
+      "purpose": "Suggest access and wealth.",
+      "evidence": "Visible chronological 1 fps samples, source 6–15s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V03",
+      "start": 15,
+      "end": 23.089,
+      "action": "A mushroom-cloud-like form appears first pale then dark, with a white symbol, NUKE and Public beta soon.",
+      "design": "Monochrome cloud, horizontal distortions and centered branding.",
+      "purpose": "Reveal brand and beta timing.",
+      "evidence": "Visible chronological 1 fps samples, source 15–23.089s; boundary approximate; exact motion between samples unverified."
+    }
+  ],
+  "sound": [
+    {
+      "id": "A01",
+      "start": 0,
+      "end": 23.089,
+      "layer": "unknown",
+      "detail": "No validated direct audio listening was performed. Music, speech delivery, effects, mix and sync remain unknown, not absent.",
+      "visual_relation": "All visual scenes; audiovisual alignment unverified",
+      "evidence": "Visual samples only; no actual audio range supplied to this reviewer."
+    },
+    {
+      "id": "A02",
+      "start": 0.01,
+      "end": 9.95,
+      "layer": "ASR draft",
+      "detail": "The short ASR draft states that billions move through perps, the best opportunities are out of reach, and access has been opened. It matches the broad visible teaser argument but does not explain a product. Exact words, voice quality, music and sync are unverified.",
+      "visual_relation": "Story text support; exact audiovisual alignment and delivery unverified.",
+      "evidence": "technical-review-2026-10-19/deep-review/audio/119-speech.json; local faster-whisper base CPU int8 draft; VAD candidates only, recognition errors possible."
+    }
+  ],
+  "categories": [
+    {
+      "id": "Q01",
+      "finding": "Market size and exclusion lead to an accessibility promise and coming-soon brand reveal.",
+      "evidence": "V01–V03",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q02",
+      "finding": "Bills and huge BILLIONS type announce financial scale immediately.",
+      "evidence": "V01",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q03",
+      "finding": "Perps locates a financial category, but the film never explains what the user can do.",
+      "evidence": "V01–V03",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q04",
+      "finding": "Headlines layer, sampled colors invert and the cloud/logo states change; exact glitch behavior is unverified.",
+      "evidence": "V01–V03",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q05",
+      "finding": "The money montage moves into a literal nuclear-cloud association for Nuke.",
+      "evidence": "V02,V03",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q06",
+      "finding": "Dark finance collage, monochrome cash and a distorted cloud create a dramatic teaser tone.",
+      "evidence": "V01–V03",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q07",
+      "finding": "Large bold nouns dominate while italic connecting words carry the argument.",
+      "evidence": "V01,V02",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q08",
+      "finding": "The short ASR draft states that billions move through perps, the best opportunities are out of reach, and access has been opened. It matches the broad visible teaser argument but does not explain a product. Exact words, voice quality, music and sync are unverified.",
+      "evidence": "A02",
+      "status": "uncertain",
+      "reason": "ASR text only; no validated listening, delivery or voice origin.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q09",
+      "finding": "Voice delivery, music, effects and audiovisual alignment were not established by this visual pass.",
+      "evidence": "A01",
+      "status": "not checked",
+      "reason": "No validated direct audio listening input.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q10",
+      "finding": "Voice delivery, music, effects and audiovisual alignment were not established by this visual pass.",
+      "evidence": "A01",
+      "status": "not checked",
+      "reason": "No validated direct audio listening input.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q11",
+      "finding": "Voice delivery, music, effects and audiovisual alignment were not established by this visual pass.",
+      "evidence": "A01",
+      "status": "not checked",
+      "reason": "No validated direct audio listening input.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q12",
+      "finding": "Existing-looking cinematic and news-style clips mix with financial images and cloud graphics; origins are unverified.",
+      "evidence": "V01–V03",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q13",
+      "finding": "Manifest duration 23.089 s; indexed dimensions 1920×1080. Source unchanged flag recorded; fresh encoding and audio clipping checks not run.",
+      "evidence": "Group manifest",
+      "status": "uncertain",
+      "reason": "Inherited technical metadata; no fresh media probe in this review.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q14",
+      "finding": "Onscreen perps and beta language gives category and timing; ASR adds the accessible promise but no mechanism.",
+      "evidence": "V01–V03,A02",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q15",
+      "finding": "Centered oversized words and the final white symbol dominate busy backgrounds.",
+      "evidence": "V01,V03",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q16",
+      "finding": "The 23 s piece spends most time on mood and roughly 8 s on the cloud reveal.",
+      "evidence": "V02,V03",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q17",
+      "finding": "The promise of access is not paid off by a product example; the payoff is branding.",
+      "evidence": "V02,V03",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q18",
+      "finding": "Wealth imagery and inaccessible-opportunity framing create aspiration and exclusion pressure; audience effect is unknown.",
+      "evidence": "V01,V02",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q19",
+      "finding": "Dark backgrounds and large white type carry continuity through unrelated clips.",
+      "evidence": "V01–V03",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q20",
+      "finding": "No performance evidence, actual financial flow or product state supports the access claim.",
+      "evidence": "V01–V03",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q21",
+      "finding": "The nuclear cloud gives Nuke a direct visual mnemonic.",
+      "evidence": "V03",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q22",
+      "finding": "A single concrete transaction diagram would add more clarity than another wealth clip.",
+      "evidence": "V02",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q23",
+      "finding": "Tin can borrow a concise brand reveal after showing a real workflow; the financial montage offers little functional reference.",
+      "evidence": "V03",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q24",
+      "finding": "Nuke teases access to financial opportunities around perpetual markets, without explaining a usable product.",
+      "evidence": "Model reading from inspected images",
+      "status": "uncertain",
+      "reason": "Model-only new-viewer interpretation; no human test.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q25",
+      "finding": "Inverted/pale sampled frames around 13–15 s warrant full-rate flash review; actual flash frequency and device readability were not checked.",
+      "evidence": "V02,V03",
+      "status": "uncertain",
+      "reason": "One-second samples cannot establish flash rate.",
+      "experiment": "none"
+    }
+  ],
+  "lessons": {
+    "keep": "Use a clear visual metaphor for a short final brand reveal.",
+    "avoid": "Avoid using wealth imagery as a substitute for product or return evidence.",
+    "open": "Product mechanism, financial outcomes, footage rights, full-rate effects and all audio delivery remain unknown.",
+    "try": [
+      "End a Tin workflow film with a brief logo motif derived from the completed output.",
+      "Replace vague scale claims with one input, one agent action and one confirmed result."
+    ]
+  },
+  "comparison": {
+    "story": "Establish market size and exclusion. → Suggest access and wealth. → Reveal brand and beta timing.",
+    "motion": "Headlines layer, sampled colors invert and the cloud/logo states change; exact glitch behavior is unverified. Sampling scope: 1 fps unless a closer window is recorded.",
+    "sound": "No validated listening; unknown.",
+    "texture": "Bold uppercase type mixed with italic phrases and dark collage.; Film-like montage, dark luxury associations and orange emphasis.; Monochrome cloud, horizontal distortions and centered branding.",
+    "lesson": "Use a clear visual metaphor for a short final brand reveal."
+  },
+  "elements": [
+    {
+      "kind": "texture",
+      "name": "financial collage",
+      "events": [
+        "V01",
+        "V02"
+      ]
+    },
+    {
+      "kind": "motion",
+      "name": "layered headlines",
+      "events": [
+        "V01"
+      ]
+    },
+    {
+      "kind": "texture",
+      "name": "distorted cloud",
+      "events": [
+        "V03"
+      ]
+    }
+  ]
+}

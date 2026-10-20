@@ -1,0 +1,306 @@
+{
+  "id": 390,
+  "product_from_film": "Fort is described as a wearable that automatically logs strength training and gives training feedback.",
+  "explains_well": "The script connects manual logging with automatic reps, sets and exercise tracking.",
+  "unclear": "No close-up or workout-to-log example shows what the wearable looks like or how its result appears.",
+  "product_type": "Fitness wearable",
+  "scenario": "Three presenters explain automatic strength-training tracking and invite preorders.",
+  "product_clear_time": 0.26,
+  "product_clear_basis": "ASR opening explicitly describes a strength-training wearable; visuals alone do not establish its function.",
+  "scenes": [
+    {
+      "start": 0,
+      "end": 14,
+      "action": "Three presenters sit behind a wooden table. The center person addresses camera, then the right person gestures.",
+      "design": "Dark wall, plants and plain clothing; no explanatory captions.",
+      "purpose": "Script introduces the wearable and manual logging problem.",
+      "evidence": "1 fps source samples in 0–14s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V01"
+    },
+    {
+      "start": 14,
+      "end": 22,
+      "action": "The left presenter gestures while the other two remain seated in the same framing.",
+      "design": "Stable medium-wide team composition.",
+      "purpose": "Script contrasts strength analytics with cardio and sleep.",
+      "evidence": "1 fps source samples in 14–22s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V02"
+    },
+    {
+      "start": 22,
+      "end": 31,
+      "action": "The center presenter resumes, then the left presenter gestures at the table.",
+      "design": "Same room and camera scale.",
+      "purpose": "Script describes automatic tracking and feedback.",
+      "evidence": "1 fps source samples in 22–31s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V03"
+    },
+    {
+      "start": 31,
+      "end": 39,
+      "action": "The right presenter addresses camera, followed by the center presenter.",
+      "design": "Same team composition.",
+      "purpose": "Script adds all-day tracking and preorder availability.",
+      "evidence": "1 fps source samples in 31–39s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V04"
+    },
+    {
+      "start": 39,
+      "end": 43.71,
+      "action": "fort.cx/order appears over the table while the group remains on screen.",
+      "design": "Small white URL.",
+      "purpose": "Give a purchase destination.",
+      "evidence": "1 fps source samples in 39–43.71s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V05"
+    }
+  ],
+  "sound": [
+    {
+      "id": "A01",
+      "start": 0,
+      "end": 43.71,
+      "layer": "ASR draft",
+      "detail": "Draft supports automatic strength tracking, manual logging pain, reps/sets/exercises, form/intensity feedback, all-day sleep/steps/heart rate and preorder invitation. “Trapped/attracts” are transcription errors around tracking. Health and performance statements are film claims. Delivery, music and SFX were not heard.",
+      "visual_relation": "V01–V05; script carries nearly all product meaning.",
+      "evidence": "390-speech.json local ASR draft; no validated listening."
+    }
+  ],
+  "categories": [
+    {
+      "id": "Q01",
+      "finding": "Manual tracking problem → automatic tracking/feedback → all-day features → preorder. The causal story is in the script.",
+      "evidence": "V01–V05,A01",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q02",
+      "finding": "Three people face camera behind a table; only the opening ASR identifies a wearable.",
+      "evidence": "V01,A01",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q03",
+      "finding": "Strength-training users are named at the start; the device and output remain visually unspecified.",
+      "evidence": "V01,A01",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q04",
+      "finding": "Head, hand and body gestures provide movement; no explanatory object animation is visible.",
+      "evidence": "V01–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q05",
+      "finding": "The stable composition is maintained through presenter handoffs. Samples do not establish hidden cuts.",
+      "evidence": "V01–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q06",
+      "finding": "Warm wood and plants soften a dark neutral background.",
+      "evidence": "V01–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q07",
+      "finding": "The closing URL is the only functional text visible in these samples; there are no explanatory captions.",
+      "evidence": "V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q08",
+      "finding": "Draft narration explains the problem, features and purchase step; delivery remains unassessed.",
+      "evidence": "A01",
+      "status": "uncertain",
+      "reason": "ASR text only.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q09",
+      "finding": "Music character and structure are unverified.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "No validated listening.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q10",
+      "finding": "Effects and their sources are unverified.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "No validated listening; waveform peaks do not identify effects.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q11",
+      "finding": "Sound sync is unverified.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "No validated listening or paired audiovisual timing.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q12",
+      "finding": "A team-to-camera scene fills the film. No isolated device or product screen is shown. Asset origin unverified.",
+      "evidence": "V01–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q13",
+      "finding": "Source duration 43.71 s; Watch metadata 1920 × 1080. Frame rate, audio clipping and export quality not checked here.",
+      "evidence": "Whole film",
+      "status": "supported",
+      "reason": "Parent source metadata supports duration and dimensions; visual review is sampled.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q14",
+      "finding": "Without speech, viewers see a team and URL but cannot learn automatic strength tracking from the images.",
+      "evidence": "V01–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q15",
+      "finding": "Gestures and changing active presenters redirect attention within a stable three-person frame.",
+      "evidence": "V01–V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q16",
+      "finding": "Several tracking and feedback features are spoken without visual examples; one workout result would anchor them.",
+      "evidence": "V03,V04,A01",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q17",
+      "finding": "The opening promises automatic logging; the ending offers a preorder but no visible logging payoff.",
+      "evidence": "V01,V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q18",
+      "finding": "A direct team introduction appears intended to build trust; response is unmeasured.",
+      "evidence": "V01–V05",
+      "status": "uncertain",
+      "reason": "Visual interpretation only.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q19",
+      "finding": "The same people and setting remain easy to track, but no exercise or data object links the feature claims.",
+      "evidence": "V01–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q20",
+      "finding": "Automatic detection, feedback quality, all-day tracking and health benefits are script claims, not demonstrated or independently checked.",
+      "evidence": "A01",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q21",
+      "finding": "The team and URL identify Fort; the plain founder composition could fit many products.",
+      "evidence": "V01,V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q22",
+      "finding": "Insert the missing physical and data evidence.",
+      "evidence": "V03",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "Show the device on a wrist during one set, then the matching exercise, reps and set in the app."
+    },
+    {
+      "id": "Q23",
+      "finding": "Use the team introduction around one concrete demonstration.",
+      "evidence": "V01–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "For Tin, let a founder introduce a campaign need, then show the saved campaign result before returning to the team."
+    },
+    {
+      "id": "Q24",
+      "finding": "No human new-viewer test was performed.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "The product summary is this model’s film-only reading.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q25",
+      "finding": "Mobile preview and accessibility checks were not performed.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "Contact sheets are evidence views, not a stated mobile preview or compliance test.",
+      "experiment": "none"
+    }
+  ],
+  "elements": [
+    {
+      "kind": "texture",
+      "name": "warm wooden table",
+      "events": [
+        "V01",
+        "V02",
+        "V03",
+        "V04",
+        "V05"
+      ]
+    }
+  ],
+  "lessons": {
+    "keep": "Use a stable team composition for clear speaker handoffs.",
+    "try": [
+      "Show one set and its matching automatic log.",
+      "For Tin, place a complete campaign example between the founder introduction and close."
+    ],
+    "avoid": "Explaining a physical product without isolating it or its output.",
+    "open": "Tracking accuracy, health claims, device form, sound and viewer understanding remain unverified."
+  },
+  "comparison": {
+    "story": "Spoken problem → features → preorder.",
+    "motion": "Presenter gestures only in a stable frame.",
+    "sound": "ASR carries meaning; no acoustic assessment.",
+    "texture": "Wood, plants and dark neutral room.",
+    "lesson": "A founder pitch needs a visible product example when the function is physical."
+  },
+  "reviewer_model": "gpt-6-astra",
+  "scope": "sampled visual and story review; ASR and measured signal support; no validated audio listening",
+  "viewed_evidence": [
+    "technical-review-2026-10-19/deep-review/motion/390/timeline-00.jpg",
+    "technical-review-2026-10-19/deep-review/motion/390/timeline-01.jpg"
+  ],
+  "closer_windows": []
+}

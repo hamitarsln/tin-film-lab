@@ -1,0 +1,392 @@
+{
+  "id": 378,
+  "reviewer_model": "gpt-6-astra",
+  "scope": "sampled visual and story review; ASR and measured signal support; no validated audio listening",
+  "viewed_evidence": [
+    "technical-review-2026-10-19/deep-review/motion/378/timeline-00.jpg",
+    "technical-review-2026-10-19/deep-review/motion/378/timeline-01.jpg",
+    "technical-review-2026-10-19/deep-review/motion/378/timeline-02.jpg",
+    "technical-review-2026-10-19/deep-review/motion/378/timeline-03.jpg",
+    "astra-review-2026-10-20/evidence/group-2/378-58.png",
+    "astra-review-2026-10-20/evidence/group-2/378-53.png",
+    "astra-review-2026-10-20/evidence/group-2/378-60.png",
+    "technical-review-2026-10-19/deep-review/audio/378-speech.json"
+  ],
+  "closer_windows": [],
+  "product_from_film": "Lance presents a hotel voice and chat agent that connects guest requests to reservations, housekeeping and operational tracking.",
+  "explains_well": "The pool-party example keeps the guest conversation beside restaurant and housekeeping records, including eight people and a confirmed room request.",
+  "unclear": "The original request to extend the stay does not receive an equally clear final old-date/new-date booking confirmation.",
+  "product_type": "hotel operations agent",
+  "scenario": "Extend a hotel stay, reserve dinner for eight and arrange pool towels.",
+  "product_clear_time": 35,
+  "product_clear_basis": "The guest request to extend a stay appears, followed by hotel identity and availability cards.",
+  "scenes": [
+    {
+      "id": "V01",
+      "start": 0,
+      "end": 13,
+      "action": "A presenter appears as elevator doors open and walks through a hotel corridor while speaking to camera.",
+      "design": "Hotel setting and moving presenter framing.",
+      "purpose": "Place the product in its intended work environment.",
+      "evidence": "Visible chronological 1 fps samples, source 0–13s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V02",
+      "start": 13,
+      "end": 28,
+      "action": "Guest requests handled end-to-end appears over a line. A connection card fills with CRM, website, message, PMS and file rows. A Lance logo sits among dark blocks as action-taken notifications appear.",
+      "design": "Dark teal background, glowing edges and small connection cards.",
+      "purpose": "Claim integration with existing systems and completed actions.",
+      "evidence": "Visible chronological 1 fps samples, source 13–28s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V03",
+      "start": 28,
+      "end": 46,
+      "action": "A glowing orb changes size, then a typed request asks to extend a stay after Demo Day for a pool party. A phone conversation appears beside guest identity, property calendar and room cards.",
+      "design": "Phone shell and floating system records.",
+      "purpose": "Show guest input and the context used to act.",
+      "evidence": "Visible chronological 1 fps samples, source 28–46s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V04",
+      "start": 46,
+      "end": 61,
+      "action": "The agent offers a restaurant near the pool and extra towels. The guest asks for a reservation for eight. A restaurant card selects 20:00, a reservation record shows eight people, and a housekeeping card for room 204 becomes Confirmed.",
+      "design": "Conversation remains beside restaurant and room-system cards.",
+      "purpose": "Show linked actions across systems; eight people and 8 pm are both represented in the visible result.",
+      "evidence": "Visible chronological 1 fps samples, source 46–61s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V05",
+      "start": 61,
+      "end": 79,
+      "action": "The conversation closes with a promise to text confirmations. A location icon and summary card appear, then request tiles show extra towels and task completion. A voice-call phone receives a towel-delivery notification.",
+      "design": "Chat, request cards, call UI and notification overlay.",
+      "purpose": "Broaden from the sample request to tracked voice and text service.",
+      "evidence": "Visible chronological 1 fps samples, source 61–79s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V06",
+      "start": 79,
+      "end": 99,
+      "action": "The same towel-delivery conversation changes through several languages. A vertical start-to-finish timeline gains resolution-time, usage and guest-satisfaction graphics with changing counts.",
+      "design": "Multilingual text, glowing timeline and small metric panels.",
+      "purpose": "Claim multilingual support and operational visibility.",
+      "evidence": "Visible chronological 1 fps samples, source 79–99s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V07",
+      "start": 99,
+      "end": 115.101,
+      "action": "A second presenter walks through a hotel corridor, then a glowing Lance mark resolves to a white logo on black.",
+      "design": "Return to hotel footage and minimal logo ending.",
+      "purpose": "Close with the service positioning; the ASR draft supplies lance.live.",
+      "evidence": "Visible chronological 1 fps samples, source 99–115.101s; boundary approximate; exact motion between samples unverified."
+    }
+  ],
+  "sound": [
+    {
+      "id": "A01",
+      "start": 0,
+      "end": 115.101,
+      "layer": "unknown",
+      "detail": "No validated direct audio listening was performed. Music, speech delivery, effects, mix and sync remain unknown, not absent.",
+      "visual_relation": "All visual scenes; audiovisual alignment unverified",
+      "evidence": "Visual samples only; no actual audio range supplied to this reviewer."
+    },
+    {
+      "id": "A02",
+      "start": 0.87,
+      "end": 110.53,
+      "layer": "ASR draft",
+      "detail": "The coherent ASR draft describes existing-system connections, then a guest asks to extend a stay and book dinner for eight. The agent offers a restaurant and towels, proposes availability at eight and promises confirmations. Later text claims voice/text service, several languages, policy compliance and request tracking. Brand and language-name recognition contain errors; the draft does not validate voice quality or actual fulfillment.",
+      "visual_relation": "Story text support; exact audiovisual alignment and delivery unverified.",
+      "evidence": "technical-review-2026-10-19/deep-review/audio/378-speech.json; local faster-whisper base CPU int8 draft; VAD candidates only, recognition errors possible."
+    }
+  ],
+  "categories": [
+    {
+      "id": "Q01",
+      "finding": "Hotel presenter and integration overview lead to one guest request, linked reservations and housekeeping, then channel/language breadth and metrics.",
+      "evidence": "V01–V07",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q02",
+      "finding": "The opening elevator reveal places the presenter directly in the hotel setting.",
+      "evidence": "V01",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q03",
+      "finding": "The guest request and adjacent hotel records make the offer concrete around 35–45 s; earlier graphics state broad integration claims.",
+      "evidence": "V02,V03",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q04",
+      "finding": "Connection rows accumulate, the orb expands and contracts, chat text fills in, system cards enter beside the phone, language text changes and metric panels build along a vertical timeline.",
+      "evidence": "V02–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q05",
+      "finding": "The same guest and pool-party context connect stay, restaurant and towel requests. The final restaurant/housekeeping records are clearer than the stay-extension result.",
+      "evidence": "V03,V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q06",
+      "finding": "Dark teal, low-contrast translucent panels and green glow dominate the product sequence, contrasting with the warmer hotel footage.",
+      "evidence": "V01–V07",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q07",
+      "finding": "The dark treatment makes small text harder to read in overview shots. Enlarged conversation views and the full-resolution 60 s frame make the reservation details legible.",
+      "evidence": "V03,V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q08",
+      "finding": "The coherent ASR draft describes existing-system connections, then a guest asks to extend a stay and book dinner for eight. The agent offers a restaurant and towels, proposes availability at eight and promises confirmations. Later text claims voice/text service, several languages, policy compliance and request tracking. Brand and language-name recognition contain errors; the draft does not validate voice quality or actual fulfillment.",
+      "evidence": "A02",
+      "status": "uncertain",
+      "reason": "ASR text only; no validated listening, delivery or voice origin.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q09",
+      "finding": "Voice delivery, music, effects and audiovisual alignment were not established by this visual pass.",
+      "evidence": "A01",
+      "status": "not checked",
+      "reason": "No validated direct audio listening input.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q10",
+      "finding": "Voice delivery, music, effects and audiovisual alignment were not established by this visual pass.",
+      "evidence": "A01",
+      "status": "not checked",
+      "reason": "No validated direct audio listening input.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q11",
+      "finding": "Voice delivery, music, effects and audiovisual alignment were not established by this visual pass.",
+      "evidence": "A01",
+      "status": "not checked",
+      "reason": "No validated direct audio listening input.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q12",
+      "finding": "Hotel presenter footage, stylized phone conversations, system cards and metric graphics are visible. Actual integration implementation and editing tools are unknown.",
+      "evidence": "V01–V07",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q13",
+      "finding": "Manifest duration 115.101s; indexed dimensions 1920×1080. Source unchanged flag recorded; fresh encoding and audio clipping checks not run.",
+      "evidence": "Group manifest",
+      "status": "uncertain",
+      "reason": "Inherited technical metadata; no fresh media probe in this review.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q14",
+      "finding": "Written requests and result cards explain the central example without listening. The script adds the voice-agent framing and broader claims.",
+      "evidence": "V03,V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q15",
+      "finding": "Keeping conversation and system records side by side exposes the action path better than the earlier abstract connection graphics.",
+      "evidence": "V02–V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q16",
+      "finding": "The main request occupies about 33 s after a 28 s setup. The final sections add multiple channels, languages and metrics before the closing presenter.",
+      "evidence": "V01–V07",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q17",
+      "finding": "The visible reservation has eight people at 20:00 and the room request is Confirmed. These are shown UI states, not independently verified bookings or physical towel delivery.",
+      "evidence": "V04,V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q18",
+      "finding": "The hotel walk-through and connected-system graphics frame the agent as part of ongoing guest service; this is a creative reading.",
+      "evidence": "V01–V07",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q19",
+      "finding": "Full-resolution frames show that reservation for eight becomes both an eight-person record and a proposed 8 pm time. This resolves a possible party-size/time ambiguity. The initial stay-extension outcome remains less explicit.",
+      "evidence": "V03,V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q20",
+      "finding": "Integration speed, hotel-customer claims, policy compliance, multilingual accuracy and metric values lack visible methodology. The film does not show physical fulfillment or a clear updated stay booking.",
+      "evidence": "V02–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q21",
+      "finding": "The side-by-side guest conversation and action records make cross-system work understandable.",
+      "evidence": "V03,V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q22",
+      "finding": "End the example with a single receipt listing the new checkout date, restaurant party/time and towel request status, and raise text contrast.",
+      "evidence": "V03–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q23",
+      "finding": "Tin can show each customer request beside the exact record changed, then collect the outcomes in one readable receipt.",
+      "evidence": "V03–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q24",
+      "finding": "Lance presents a hotel voice and chat agent that connects guest requests to reservations, housekeeping and operational tracking.",
+      "evidence": "Model reading from inspected images",
+      "status": "uncertain",
+      "reason": "Model-only new-viewer interpretation; no human test.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q25",
+      "finding": "Contact sheets inspected at displayed size; a phone-size playback, caption audit, flash audit and formal accessibility check were not performed.",
+      "evidence": "Viewed sheets",
+      "status": "not checked",
+      "reason": "Full-size moving-image and device checks unavailable in this pass.",
+      "experiment": "none"
+    }
+  ],
+  "lessons": {
+    "keep": "Keep the request and the corresponding changed system record visible together.",
+    "avoid": "Avoid claiming an end-to-end result while one original request has no clear final record.",
+    "open": "Actual integration, changed stay dates, real bookings, physical delivery, metric basis and heard audio properties remain unverified.",
+    "try": [
+      "For Tin, finish a multistep request with one receipt listing every requested outcome.",
+      "Use brighter text and fewer simultaneous cards when showing action details on a dark background."
+    ]
+  },
+  "comparison": {
+    "story": "Place the product in its intended work environment. → Claim integration with existing systems and completed actions. → Show guest input and the context used to act. → Show linked actions across systems; eight people and 8 pm are both represented in the visible result. → Broaden from the sample request to tracked voice and text service. → Claim multilingual support and operational visibility. → Close with the service positioning; the ASR draft supplies lance.live.",
+    "motion": "Connection rows accumulate, the orb expands and contracts, chat text fills in, system cards enter beside the phone, language text changes and metric panels build along a vertical timeline. Sampling scope: 1 fps unless a closer window is recorded.",
+    "sound": "No validated listening; unknown.",
+    "texture": "Hotel setting and moving presenter framing.; Dark teal background, glowing edges and small connection cards.; Phone shell and floating system records.; Conversation remains beside restaurant and room-system cards.; Chat, request cards, call UI and notification overlay.; Multilingual text, glowing timeline and small metric panels.; Return to hotel footage and minimal logo ending.",
+    "lesson": "Keep the request and the corresponding changed system record visible together."
+  },
+  "elements": [
+    {
+      "kind": "ui",
+      "name": "chat",
+      "events": [
+        "V03",
+        "V04",
+        "V05",
+        "V06"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "phone shell",
+      "events": [
+        "V03",
+        "V04",
+        "V05",
+        "V06"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "calendar",
+      "events": [
+        "V03"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "reservation card",
+      "events": [
+        "V04"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "chart",
+      "events": [
+        "V06"
+      ]
+    },
+    {
+      "kind": "motion",
+      "name": "cards appear beside phone",
+      "events": [
+        "V03",
+        "V04"
+      ]
+    },
+    {
+      "kind": "motion",
+      "name": "text changes language",
+      "events": [
+        "V06"
+      ]
+    },
+    {
+      "kind": "texture",
+      "name": "hotel footage",
+      "events": [
+        "V01",
+        "V07"
+      ]
+    }
+  ]
+}

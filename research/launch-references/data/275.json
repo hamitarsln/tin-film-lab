@@ -1,0 +1,335 @@
+{
+  "id": 275,
+  "reviewer_model": "gpt-6-astra",
+  "scope": "sampled visual and story review; ASR and measured signal support; no validated audio listening",
+  "viewed_evidence": [
+    "technical-review-2026-10-19/deep-review/motion/275/timeline-00.jpg",
+    "technical-review-2026-10-19/deep-review/motion/275/timeline-01.jpg",
+    "technical-review-2026-10-19/deep-review/audio/275-speech.json"
+  ],
+  "closer_windows": [],
+  "product_from_film": "Mave Health presents a wearable headset with a 20-minute daily routine and claims about mood, attention and stress.",
+  "explains_well": "The presenter holds and wears the device, and the daily time commitment is stated plainly.",
+  "unclear": "The film does not show starting a session, what the wearer experiences or how improvement is measured.",
+  "product_type": "consumer wearable",
+  "scenario": "Use a headset for a daily session intended to support mood, attention and stress.",
+  "product_clear_time": 31,
+  "product_clear_basis": "The headset is shown at 2 s, but the daily routine and intended benefits become clear at 27–31 s.",
+  "scenes": [
+    {
+      "id": "V01",
+      "start": 0,
+      "end": 6,
+      "action": "A presenter stands by a burning pile of money-like paper, raises a curved headset and then stands next to a larger pile with $2.1M text.",
+      "design": "Waterfront footage, fire and large funding labels.",
+      "purpose": "Open with a literal image of spending money and announce funding.",
+      "evidence": "Visible chronological 1 fps samples, source 0–6s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V02",
+      "start": 6,
+      "end": 23,
+      "action": "The presenter moves between reeds, a desk and bed. Captions describe difficulty finding flow, overthinking and replaying the day. Gaming and food inserts appear before black bars narrow the bed image to a strip.",
+      "design": "Everyday scenes, brief colored flash and a narrowing horizontal view.",
+      "purpose": "Give the problem a personal daily-life sequence.",
+      "evidence": "Visible chronological 1 fps samples, source 6–23s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V03",
+      "start": 23,
+      "end": 32,
+      "action": "Large yellow words appear behind the presenter. WILLPOWER gives way to a brain image labelled NEUROSCIENCE. A hand picks up the headset, followed by 20-minute text and MOOD, ATTENTION and STRESS.",
+      "design": "Tall yellow type, brain image and product close-up.",
+      "purpose": "Name the proposed method and benefits.",
+      "evidence": "Visible chronological 1 fps samples, source 23–32s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V04",
+      "start": 32,
+      "end": 41,
+      "action": "The presenter places the headset on his head. A rolling number settles at 384,960 minutes. Social and purchase-related cards multiply around him as captions claim hundreds of preorders.",
+      "design": "Large white counter and layered dark cards.",
+      "purpose": "Show how the device is worn and add adoption claims.",
+      "evidence": "Visible chronological 1 fps samples, source 32–41s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V05",
+      "start": 41,
+      "end": 47.922,
+      "action": "Grab yours today appears. The presenter rises, picks up the device and leaves the red chair. Text states availability in the US and India, then mavehealth.com.",
+      "design": "Empty red chair in the outdoor setting and centered white text.",
+      "purpose": "Finish with purchase direction and website.",
+      "evidence": "Visible chronological 1 fps samples, source 41–47.922s; boundary approximate; exact motion between samples unverified."
+    }
+  ],
+  "sound": [
+    {
+      "id": "A01",
+      "start": 0,
+      "end": 47.922,
+      "layer": "unknown",
+      "detail": "No validated direct audio listening was performed. Music, speech delivery, effects, mix and sync remain unknown, not absent.",
+      "visual_relation": "All visual scenes; audiovisual alignment unverified",
+      "evidence": "Visual samples only; no actual audio range supplied to this reviewer."
+    },
+    {
+      "id": "A02",
+      "start": 0,
+      "end": 42.26,
+      "layer": "ASR draft",
+      "detail": "The ASR draft supports the funding hook, difficulty with focus and stress, a 20-minute daily headset routine, usage minutes and preorder invitation. It has gaps in the bed montage and does not establish health effects or heard delivery.",
+      "visual_relation": "Story text support; exact audiovisual alignment and delivery unverified.",
+      "evidence": "technical-review-2026-10-19/deep-review/audio/275-speech.json; local faster-whisper base CPU int8 draft; VAD candidates only, recognition errors possible."
+    }
+  ],
+  "categories": [
+    {
+      "id": "Q01",
+      "finding": "Funding hook leads to everyday mental friction, the headset routine, usage claims and a purchase invitation.",
+      "evidence": "V01–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q02",
+      "finding": "Burning money-like paper makes the phrase about spending development money literal and visually unusual.",
+      "evidence": "V01",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q03",
+      "finding": "The object is visible early; the intended daily use is explained around 27–31 s.",
+      "evidence": "V01,V03",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q04",
+      "finding": "Black bars narrow the bed image, large words replace each other and a numeric counter settles. Intermediate counter values are animation states.",
+      "evidence": "V02–V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q05",
+      "finding": "The same presenter connects waterfront, work, bed and the seated product explanation. The headset returns for wearing and the exit.",
+      "evidence": "V01–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q06",
+      "finding": "Yellow type echoes the presenter’s shirt; green clothing and reeds keep the outdoor sections consistent.",
+      "evidence": "V01–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q07",
+      "finding": "The daily time and three benefit words are prominent. The surrounding social cards are too quick and small to inspect fully.",
+      "evidence": "V03,V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q08",
+      "finding": "The ASR draft supports the funding hook, difficulty with focus and stress, a 20-minute daily headset routine, usage minutes and preorder invitation. It has gaps in the bed montage and does not establish health effects or heard delivery.",
+      "evidence": "A02",
+      "status": "uncertain",
+      "reason": "ASR text only; no validated listening, delivery or voice origin.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q09",
+      "finding": "Voice delivery, music, effects and audiovisual alignment were not established by this visual pass.",
+      "evidence": "A01",
+      "status": "not checked",
+      "reason": "No validated direct audio listening input.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q10",
+      "finding": "Voice delivery, music, effects and audiovisual alignment were not established by this visual pass.",
+      "evidence": "A01",
+      "status": "not checked",
+      "reason": "No validated direct audio listening input.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q11",
+      "finding": "Voice delivery, music, effects and audiovisual alignment were not established by this visual pass.",
+      "evidence": "A01",
+      "status": "not checked",
+      "reason": "No validated direct audio listening input.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q12",
+      "finding": "Live presenter scenes, a brain image, text and layered cards are visible. The origin of inserts and production methods is unknown.",
+      "evidence": "V01–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q13",
+      "finding": "Manifest duration 47.922s; indexed dimensions 1440×1080. Source unchanged flag recorded; fresh encoding and audio clipping checks not run.",
+      "evidence": "Group manifest",
+      "status": "uncertain",
+      "reason": "Inherited technical metadata; no fresh media probe in this review.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q14",
+      "finding": "Captions and benefit words convey the broad promise visually, but the session itself is not shown.",
+      "evidence": "V02–V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q15",
+      "finding": "The device close-up and wearing action bring attention back to the product after the personal-problem montage.",
+      "evidence": "V03,V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q16",
+      "finding": "About half the film establishes funding and the problem. The routine and adoption claims take about 18 s before the final call to action.",
+      "evidence": "V01–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q17",
+      "finding": "Wearing the headset is shown; a completed session or measured change is not.",
+      "evidence": "V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q18",
+      "finding": "The daily frustrations seek recognition, while the seated outdoor scene suggests ease. This is a creative reading, not evidence of an effect.",
+      "evidence": "V02,V03",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q19",
+      "finding": "The headline benefits follow the brain image, but the device’s operating process remains unexplained.",
+      "evidence": "V03,V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q20",
+      "finding": "Funding, usage totals, preorder volume and health-related benefits are claims in the film. Usage minutes do not establish benefit; no outcome measurement is shown.",
+      "evidence": "V01,V03,V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q21",
+      "finding": "The physical curved headset and a specific 20-minute routine distinguish the offer from a general wellbeing message.",
+      "evidence": "V03,V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q22",
+      "finding": "Show the session-start control, a brief view of the routine and the kind of outcome record a user can inspect.",
+      "evidence": "V03,V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q23",
+      "finding": "Tin can put the actual action and observable result between a relatable problem and adoption claims.",
+      "evidence": "V02–V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q24",
+      "finding": "Mave Health presents a wearable headset with a 20-minute daily routine and claims about mood, attention and stress.",
+      "evidence": "Model reading from inspected images",
+      "status": "uncertain",
+      "reason": "Model-only new-viewer interpretation; no human test.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q25",
+      "finding": "Contact sheets inspected at displayed size; a phone-size playback, caption audit, flash audit and formal accessibility check were not performed.",
+      "evidence": "Viewed sheets",
+      "status": "not checked",
+      "reason": "Full-size moving-image and device checks unavailable in this pass.",
+      "experiment": "none"
+    }
+  ],
+  "lessons": {
+    "keep": "Pair a daily time commitment with a clear physical use action.",
+    "avoid": "Avoid treating total usage as proof of the promised improvement.",
+    "open": "Session operation, benefit evidence, claim conditions, funding and preorder totals, and all heard audio remain unverified.",
+    "try": [
+      "For Tin, show a user starting a short routine and the resulting saved output.",
+      "Place one readable result before usage counts so adoption does not carry the whole proof burden."
+    ]
+  },
+  "comparison": {
+    "story": "Open with a literal image of spending money and announce funding. → Give the problem a personal daily-life sequence. → Name the proposed method and benefits. → Show how the device is worn and add adoption claims. → Finish with purchase direction and website.",
+    "motion": "Black bars narrow the bed image, large words replace each other and a numeric counter settles. Intermediate counter values are animation states. Sampling scope: 1 fps unless a closer window is recorded.",
+    "sound": "No validated listening; unknown.",
+    "texture": "Waterfront footage, fire and large funding labels.; Everyday scenes, brief colored flash and a narrowing horizontal view.; Tall yellow type, brain image and product close-up.; Large white counter and layered dark cards.; Empty red chair in the outdoor setting and centered white text.",
+    "lesson": "Pair a daily time commitment with a clear physical use action."
+  },
+  "elements": [
+    {
+      "kind": "motion",
+      "name": "numeric counter",
+      "events": [
+        "V04"
+      ]
+    },
+    {
+      "kind": "motion",
+      "name": "layered cards",
+      "events": [
+        "V04"
+      ]
+    },
+    {
+      "kind": "motion",
+      "name": "narrowing frame",
+      "events": [
+        "V02"
+      ]
+    },
+    {
+      "kind": "texture",
+      "name": "outdoor footage",
+      "events": [
+        "V01",
+        "V03",
+        "V05"
+      ]
+    }
+  ]
+}

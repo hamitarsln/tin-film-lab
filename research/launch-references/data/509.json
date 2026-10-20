@@ -1,0 +1,507 @@
+{
+  "id": 509,
+  "reviewer_model": "gpt-6-astra",
+  "scope": "sampled visual and story review; ASR and measured signal support; no validated audio listening",
+  "viewed_evidence": [
+    "technical-review-2026-10-19/deep-review/motion/509/timeline-00.jpg",
+    "technical-review-2026-10-19/deep-review/motion/509/timeline-01.jpg",
+    "technical-review-2026-10-19/deep-review/motion/509/timeline-02.jpg",
+    "technical-review-2026-10-19/deep-review/motion/509/timeline-03.jpg",
+    "technical-review-2026-10-19/deep-review/motion/509/timeline-04.jpg",
+    "technical-review-2026-10-19/deep-review/motion/509/timeline-05.jpg",
+    "technical-review-2026-10-19/deep-review/motion/509/timeline-06.jpg",
+    "technical-review-2026-10-19/deep-review/motion/509/timeline-07.jpg",
+    "technical-review-2026-10-19/deep-review/motion/509/timeline-08.jpg",
+    "technical-review-2026-10-19/deep-review/motion/509/timeline-09.jpg",
+    "technical-review-2026-10-19/deep-review/motion/509/timeline-10.jpg",
+    "technical-review-2026-10-19/deep-review/motion/509/timeline-11.jpg",
+    "technical-review-2026-10-19/deep-review/motion/509/timeline-12.jpg",
+    "technical-review-2026-10-19/deep-review/motion/509/timeline-13.jpg",
+    "technical-review-2026-10-19/deep-review/motion/509/timeline-14.jpg",
+    "technical-review-2026-10-19/deep-review/motion/509/timeline-15.jpg",
+    "technical-review-2026-10-19/deep-review/motion/509/timeline-16.jpg",
+    "astra-review-2026-10-20/evidence/group-2/509-ball-4fps.jpg",
+    "technical-review-2026-10-19/deep-review/audio/509-speech.json"
+  ],
+  "closer_windows": [
+    {
+      "start": 245,
+      "end": 249,
+      "rate_fps": 4,
+      "evidence": [
+        "astra-review-2026-10-20/evidence/group-2/509-ball-4fps.jpg"
+      ],
+      "resolved": "Pedestrians pass in the foreground; the red ball leaves the wooden toy, descends to the pavement and moves away as the view follows it. This supports the requested action but does not validate exact physical realism."
+    }
+  ],
+  "product_from_film": "Runway Gen-4 generates images and video using references to keep objects, characters and settings recognizable.",
+  "explains_well": "A physical toy is photographed, combined with a street reference, selected from results and animated with a readable prompt.",
+  "unclear": "Most case studies show selected outputs without their prompts or iteration history; the draft leaves scene references coming soon despite their central role.",
+  "product_type": "AI media generation",
+  "scenario": "Combine a photographed wooden toy and a street photo, then animate the toy’s ball falling while people pass.",
+  "product_clear_time": 228,
+  "product_clear_basis": "Two reference images and a composition prompt produce four street images of the toy; earlier draft narration describes generation.",
+  "scenes": [
+    {
+      "id": "V01",
+      "start": 0,
+      "end": 6,
+      "action": "Two presenters stand behind a table with a small red-ball wooden toy and tablet. Name labels appear.",
+      "design": "Plain studio and small Runway watermark.",
+      "purpose": "Introduce the model announcement.",
+      "evidence": "Visible chronological 1 fps samples, source 0–6s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V02",
+      "start": 6,
+      "end": 38,
+      "action": "A bridge explodes, then vehicles, creatures, portraits, animation and a mouse appear in a rapid showcase. A slate returns to the presenters.",
+      "design": "Mixed realistic, illustrated and dimensional styles.",
+      "purpose": "Establish breadth before explanation.",
+      "evidence": "Visible chronological 1 fps samples, source 6–38s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V03",
+      "start": 38,
+      "end": 67,
+      "action": "Presenters alternate with an underwater sofa, vehicle shots, a recurring woman and a classical bust in fire, streets and water; a raccoon ducks into a bin.",
+      "design": "Repeated subjects across different settings.",
+      "purpose": "Illustrate the world-consistency claim.",
+      "evidence": "Visible chronological 1 fps samples, source 38–67s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V04",
+      "start": 67,
+      "end": 96,
+      "action": "Robot and character shots lead to line drawings and finished versions of rock and flame characters, plus a clay-like moon.",
+      "design": "Storyboard and rendered-looking comparisons.",
+      "purpose": "Connect model capabilities to storytelling.",
+      "evidence": "Visible chronological 1 fps samples, source 67–96s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V05",
+      "start": 96,
+      "end": 125,
+      "action": "The Lonely Little Flame title leads to a skunk, unhappy flame and rock character; the rock eventually holds the flame.",
+      "design": "Soft dimensional woodland characters and reaction close-ups.",
+      "purpose": "Present a short emotional story.",
+      "evidence": "Visible chronological 1 fps samples, source 96–125s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V06",
+      "start": 125,
+      "end": 168,
+      "action": "Presenters replay the skunk scene on a tablet, draw yellow circles and arrows, then return to woodland scenes and character reactions.",
+      "design": "Overhead tablet annotation alternating with full-screen examples.",
+      "purpose": "Explain direction and expression through replay.",
+      "evidence": "Visible chronological 1 fps samples, source 125–168s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V07",
+      "start": 168,
+      "end": 206,
+      "action": "Other recurring characters lead back to the table. A presenter lifts the wooden toy and photographs it with a phone before returning to the computer.",
+      "design": "Physical prop, phone camera and studio views.",
+      "purpose": "Establish a real reference source.",
+      "evidence": "Visible chronological 1 fps samples, source 168–206s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V08",
+      "start": 206,
+      "end": 233,
+      "action": "The toy photo and a street photo enter image-reference slots. A prompt names both references; four loading tiles resolve to toy-on-sidewalk variations, and one opens larger.",
+      "design": "Dark generation UI, reference tokens and result grid.",
+      "purpose": "Show composition from explicit inputs.",
+      "evidence": "Visible chronological 1 fps samples, source 206–233s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V09",
+      "start": 233,
+      "end": 249,
+      "action": "A prompt requests the red ball falling and people crossing the foreground. Generate is pressed; pedestrians pass the toy, then the ball drops and moves across the sidewalk. A 4 fps window confirms the ball leaving its perch and reaching the ground.",
+      "design": "Readable prompt crop followed by full-screen output.",
+      "purpose": "Connect a motion instruction to a visible result.",
+      "evidence": "Visible chronological 1 fps samples, source 233–249s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V10",
+      "start": 249,
+      "end": 261,
+      "action": "The same toy appears in a shelter, snow and a dusty desert before the presenters return.",
+      "design": "Different environmental treatments of one object.",
+      "purpose": "Extend reference reuse beyond one location.",
+      "evidence": "Visible chronological 1 fps samples, source 249–261s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V11",
+      "start": 261,
+      "end": 294,
+      "action": "A dark rural short shows a cowboy, a young man hiding among cows, an eye close-up and spreading fire; the man runs and a house burns.",
+      "design": "Fog, low light and orange fire in a wide frame.",
+      "purpose": "Show dramatic narrative and physical effects.",
+      "evidence": "Visible chronological 1 fps samples, source 261–294s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V12",
+      "start": 294,
+      "end": 329,
+      "action": "Presenters replay the cow eye and trace a small reflected shape, then annotate the fire and its surrounding grass on the tablet.",
+      "design": "Yellow drawn marks over paused examples.",
+      "purpose": "Point out selected details that a viewer might miss.",
+      "evidence": "Visible chronological 1 fps samples, source 294–329s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V13",
+      "start": 329,
+      "end": 369,
+      "action": "Character, cattle and environment shots recur; diagonal comparison wipes reveal sketches or separate scene states becoming finished shots.",
+      "design": "Storyboard lines, reference-like stills and finished dark imagery.",
+      "purpose": "Explain building and branching a consistent scene.",
+      "evidence": "Visible chronological 1 fps samples, source 329–369s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V14",
+      "start": 369,
+      "end": 398,
+      "action": "New York animals appear: elephants in streets, a lion outside a library, snake and lizard in transit spaces, giraffe, bear and zebras.",
+      "design": "Recognizable urban locations with unusual animal scale and placement.",
+      "purpose": "Show visual-effects possibilities.",
+      "evidence": "Visible chronological 1 fps samples, source 369–398s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V15",
+      "start": 398,
+      "end": 438,
+      "action": "Presenters explain the city examples; animal and subway reference photos precede combined shots. Further examples include creatures and a crossing-sign figure leaving its sign for the street.",
+      "design": "Reference images, presenter cutbacks and full-screen results.",
+      "purpose": "Explain combining sources and broad creative range.",
+      "evidence": "Visible chronological 1 fps samples, source 398–438s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V16",
+      "start": 438,
+      "end": 461,
+      "action": "A monkey uses a radio and appears in black-and-white dance-like poses, including a three-figure arrangement, close-ups and a small mound.",
+      "design": "Monochrome studio and changing shot scale.",
+      "purpose": "Present a music-video example described in the draft; music itself unverified.",
+      "evidence": "Visible chronological 1 fps samples, source 438–461s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V17",
+      "start": 461,
+      "end": 479,
+      "action": "Presenters summarize between a few final example shots. The draft states paid-user availability and says scene references are coming soon.",
+      "design": "Studio return without a prominent matching availability card.",
+      "purpose": "Close the product pitch with a release qualification.",
+      "evidence": "Visible chronological 1 fps samples, source 461–479s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V18",
+      "start": 479,
+      "end": 500.958,
+      "action": "Cars, rocket, underwater figure and rock creature form a final montage. The monkey returns to the radio, whose display reads Runway Studios, then the Runway logo closes.",
+      "design": "Mixed spectacle followed by monochrome brand callback.",
+      "purpose": "End with visual range and a remembered character.",
+      "evidence": "Visible chronological 1 fps samples, source 479–500.958s; boundary approximate; exact motion between samples unverified."
+    }
+  ],
+  "sound": [
+    {
+      "id": "A01",
+      "start": 0,
+      "end": 500.958,
+      "layer": "unknown",
+      "detail": "No validated direct audio listening was performed. Music, speech delivery, effects, mix and sync remain unknown, not absent.",
+      "visual_relation": "All visual scenes; audiovisual alignment unverified",
+      "evidence": "Visual samples only; no actual audio range supplied to this reviewer."
+    },
+    {
+      "id": "A02",
+      "start": 0.26,
+      "end": 478.74,
+      "layer": "ASR draft",
+      "detail": "The mostly coherent draft introduces Gen-4 and world consistency, narrates the short-film breakdowns and toy-reference workflow, and closes with paid-user availability while scene references are coming soon. Weak isolated example-dialogue fragments are not used as factual script evidence. This is text support, not validated listening or voice characterization.",
+      "visual_relation": "Story text support; exact audiovisual alignment and delivery unverified.",
+      "evidence": "technical-review-2026-10-19/deep-review/audio/509-speech.json; local faster-whisper base CPU int8 draft; VAD candidates only, recognition errors possible."
+    }
+  ],
+  "categories": [
+    {
+      "id": "Q01",
+      "finding": "Announcement and showcase lead to short-film breakdowns, a complete toy-reference demo, dramatic and city cases, then availability and a closing montage.",
+      "evidence": "V01–V18",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q02",
+      "finding": "The bridge explosion starts the showcase quickly, but practical operation arrives over three minutes later.",
+      "evidence": "V02,V07,V08",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q03",
+      "finding": "Storyboard comparisons, annotated scene breakdowns and reference inputs address filmmakers and visual creators.",
+      "evidence": "V04,V06,V08,V13",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q04",
+      "finding": "Yellow circles and arrows build over paused scenes, diagonal wipes reveal source-to-finished comparisons, reference thumbnails enter slots, and the generated toy ball falls after foreground pedestrians pass.",
+      "evidence": "V06,V08,V09,V12,V13",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q05",
+      "finding": "The film alternates results, presenters and annotated replays; the toy sequence adds a rare complete input-to-output path.",
+      "evidence": "V06–V09,V12",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q06",
+      "finding": "A neutral studio separates soft clay-like woodland imagery, dark cinematic fire scenes, urban animal composites and monochrome monkey shots.",
+      "evidence": "V01,V05,V11,V14,V16",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q07",
+      "finding": "The toy composition and motion prompts are readable in close crops; many other examples lack visible prompt or setup labels.",
+      "evidence": "V08,V09,V11,V14",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q08",
+      "finding": "The mostly coherent draft introduces Gen-4 and world consistency, narrates the short-film breakdowns and toy-reference workflow, and closes with paid-user availability while scene references are coming soon. Weak isolated example-dialogue fragments are not used as factual script evidence. This is text support, not validated listening or voice characterization.",
+      "evidence": "A02",
+      "status": "uncertain",
+      "reason": "ASR text only; no validated listening, delivery or voice origin.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q09",
+      "finding": "Voice delivery, music, effects and audiovisual alignment were not established by this visual pass.",
+      "evidence": "A01",
+      "status": "not checked",
+      "reason": "No validated direct audio listening input.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q10",
+      "finding": "Voice delivery, music, effects and audiovisual alignment were not established by this visual pass.",
+      "evidence": "A01",
+      "status": "not checked",
+      "reason": "No validated direct audio listening input.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q11",
+      "finding": "Voice delivery, music, effects and audiovisual alignment were not established by this visual pass.",
+      "evidence": "A01",
+      "status": "not checked",
+      "reason": "No validated direct audio listening input.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q12",
+      "finding": "Studio footage, phone capture, reference photos, UI, storyboards and model-output examples are presented. Their full production and selection history is unknown.",
+      "evidence": "V01–V18",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q13",
+      "finding": "Manifest duration 500.958s; indexed dimensions 1280×720. Source unchanged flag recorded; fresh encoding and audio clipping checks not run.",
+      "evidence": "Group manifest",
+      "status": "uncertain",
+      "reason": "Inherited technical metadata; no fresh media probe in this review.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q14",
+      "finding": "The coherent ASR draft supplies the consistency claim, scene-by-scene explanations, toy instructions and a distinction between available Gen-4 and forthcoming scene references.",
+      "evidence": "V03,V06–V09,V12,V17",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q15",
+      "finding": "Tablet annotations slow the viewer down to inspect the skunk path, cow-eye reflection and fire area. The reflection’s exact fidelity is not established at sheet scale.",
+      "evidence": "V06,V12",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q16",
+      "finding": "At roughly eight minutes, the film favors instruction and repeated cases; the toy demo offers a useful self-contained shorter excerpt.",
+      "evidence": "V07–V10",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q17",
+      "finding": "The physical red-ball toy remains recognizable in its phone photo, input thumbnail, image grid and animated street output. Repeated film characters connect scene breakdowns to earlier results.",
+      "evidence": "V05–V10,V11–V13",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q18",
+      "finding": "The lonely flame offers an emotional example, rural fire adds tension and city animals add playful surprise. Heard delivery and soundtrack remain unverified.",
+      "evidence": "V05,V11,V14",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q19",
+      "finding": "The toy sequence exposes capture, reference loading, prompt, alternatives, selection and animation. Other cases omit generation attempts, edits and output assembly.",
+      "evidence": "V07–V09,V11–V16",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q20",
+      "finding": "The selected outputs do not establish typical success rate, exact physics or real generation time. The closing draft says scene references are coming soon, which limits a launch-day reading of the demonstrated workflow.",
+      "evidence": "V08,V09,V12,V17",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q21",
+      "finding": "Runway watermark persists and the radio display provides a closing brand callback. Availability is mainly in the draft speech rather than a readable closing card.",
+      "evidence": "V16–V18",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q22",
+      "finding": "Make a short version centered on the photographed toy, and label which demonstrated reference features are available versus coming soon.",
+      "evidence": "V07–V10,V17",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q23",
+      "finding": "Show a physical input first, then preserve that object through every software step and final result.",
+      "evidence": "V07–V09",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q24",
+      "finding": "Runway Gen-4 generates images and video using references to keep objects, characters and settings recognizable.",
+      "evidence": "Model reading from inspected images",
+      "status": "uncertain",
+      "reason": "Model-only new-viewer interpretation; no human test.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q25",
+      "finding": "Contact sheets inspected at displayed size; a phone-size playback, caption audit, flash audit and formal accessibility check were not performed.",
+      "evidence": "Viewed sheets",
+      "status": "not checked",
+      "reason": "Full-size moving-image and device checks unavailable in this pass.",
+      "experiment": "none"
+    }
+  ],
+  "lessons": {
+    "keep": "Use one recognizable object to connect capture, generation, selection and animation.",
+    "avoid": "Letting selected showcase clips stand in for a reproducible workflow or hiding release qualifications in closing speech.",
+    "open": "Generation latency, retries, full editing process, typical consistency, exact reflection and physics fidelity, and all heard sound remain unverified.",
+    "try": [
+      "For Tin, photograph a package and carry that exact package through reference loading, creative selection and a final campaign asset.",
+      "Add a small availability label beside each demonstrated capability and a final available/coming-soon card."
+    ]
+  },
+  "comparison": {
+    "story": "Introduce the model announcement. → Establish breadth before explanation. → Illustrate the world-consistency claim. → Connect model capabilities to storytelling. → Present a short emotional story. → Explain direction and expression through replay. → Establish a real reference source. → Show composition from explicit inputs. → Connect a motion instruction to a visible result. → Extend reference reuse beyond one location. → Show dramatic narrative and physical effects. → Point out selected details that a viewer might miss. → Explain building and branching a consistent scene. → Show visual-effects possibilities. → Explain combining sources and broad creative range. → Present a music-video example described in the draft; music itself unverified. → Close the product pitch with a release qualification. → End with visual range and a remembered character.",
+    "motion": "Yellow circles and arrows build over paused scenes, diagonal wipes reveal source-to-finished comparisons, reference thumbnails enter slots, and the generated toy ball falls after foreground pedestrians pass. Sampling scope: 1 fps unless a closer window is recorded.",
+    "sound": "No validated listening; unknown.",
+    "texture": "Plain studio and small Runway watermark.; Mixed realistic, illustrated and dimensional styles.; Repeated subjects across different settings.; Storyboard and rendered-looking comparisons.; Soft dimensional woodland characters and reaction close-ups.; Overhead tablet annotation alternating with full-screen examples.; Physical prop, phone camera and studio views.; Dark generation UI, reference tokens and result grid.; Readable prompt crop followed by full-screen output.; Different environmental treatments of one object.; Fog, low light and orange fire in a wide frame.; Yellow drawn marks over paused examples.; Storyboard lines, reference-like stills and finished dark imagery.; Recognizable urban locations with unusual animal scale and placement.; Reference images, presenter cutbacks and full-screen results.; Monochrome studio and changing shot scale.; Studio return without a prominent matching availability card.; Mixed spectacle followed by monochrome brand callback.",
+    "lesson": "Use one recognizable object to connect capture, generation, selection and animation."
+  },
+  "elements": [
+    {
+      "kind": "ui",
+      "name": "reference image input",
+      "events": [
+        "V08"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "prompt field",
+      "events": [
+        "V08",
+        "V09"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "image grid",
+      "events": [
+        "V08"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "video player",
+      "events": [
+        "V06",
+        "V12"
+      ]
+    },
+    {
+      "kind": "motion",
+      "name": "drawn annotation",
+      "events": [
+        "V06",
+        "V12"
+      ]
+    },
+    {
+      "kind": "motion",
+      "name": "comparison wipe",
+      "events": [
+        "V13"
+      ]
+    },
+    {
+      "kind": "texture",
+      "name": "clay-like characters",
+      "events": [
+        "V05"
+      ]
+    },
+    {
+      "kind": "texture",
+      "name": "monochrome imagery",
+      "events": [
+        "V16"
+      ]
+    }
+  ]
+}

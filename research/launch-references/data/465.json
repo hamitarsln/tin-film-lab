@@ -1,0 +1,345 @@
+{
+  "id": 465,
+  "product_from_film": "Ablad uses a chat interface to create and edit WordPress sites, with examples of setup, plugin data and article creation.",
+  "explains_well": "The demo connects a plumbing-site request to setup states and a finished-looking website, then keeps chat beside later edits.",
+  "unclear": "The beach comedy continues in an inset during a dense demo, while article scheduling and image creation are asserted faster than their results can be read.",
+  "product_type": "AI WordPress builder",
+  "scenario": "Create a plumbing website and use chat to work with plugins, search data, articles and page design.",
+  "product_clear_time": 15,
+  "product_clear_basis": "Create Your WordPress Site and the request box are visible at 15s; later setup and website states clarify the task.",
+  "scenes": [
+    {
+      "start": 0,
+      "end": 6,
+      "action": "A suited presenter sits with a laptop on a beach under large introductory text and Cursor/WordPress references.",
+      "design": "Handheld-looking outdoor shot and bold captions.",
+      "purpose": "Introduce the builder through a familiar product analogy.",
+      "evidence": "1 fps source samples in 0–6s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V01"
+    },
+    {
+      "start": 6,
+      "end": 15,
+      "action": "The presenter stands with a pink flamingo float and a CENSORED graphic; the camera tilts and the float stays on sand while a beach inset appears.",
+      "design": "Physical comedy, tilted framing and recording overlay.",
+      "purpose": "Create a comic interruption before the demo.",
+      "evidence": "1 fps source samples in 6–15s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V02"
+    },
+    {
+      "start": 15,
+      "end": 28,
+      "action": "A plumbing-site request leads to domain/setup screens, plugin installation and a website-ready message; a blue plumbing homepage is shown.",
+      "design": "Screen recording with chat on the right and beach inset below.",
+      "purpose": "Show creation from request to site.",
+      "evidence": "1 fps source samples in 15–28s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V03"
+    },
+    {
+      "start": 28,
+      "end": 39,
+      "action": "A chat request leads to Google connection and Search Performance data; an article request is followed by Creating SEO Articles progress.",
+      "design": "Dashboard beside assistant text and progress panel.",
+      "purpose": "Show connected data and content tasks.",
+      "evidence": "1 fps source samples in 28–39s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V04"
+    },
+    {
+      "start": 39,
+      "end": 46,
+      "action": "A reference page card sits in chat; a white plumbing homepage appears and its headline formatting changes.",
+      "design": "Website preview beside persistent chat.",
+      "purpose": "Show design adaptation and editing.",
+      "evidence": "1 fps source samples in 39–46s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V05"
+    },
+    {
+      "start": 46,
+      "end": 54.433,
+      "action": "Waitlist page overlays the beach and float; presenter returns in the recording frame, then a black card repeats the URL.",
+      "design": "Comic footage, large waitlist instruction and website address.",
+      "purpose": "Close with an access invitation.",
+      "evidence": "1 fps source samples in 46–54.433s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V06"
+    }
+  ],
+  "sound": [
+    {
+      "id": "A01",
+      "start": 0,
+      "end": 54.433,
+      "layer": "ASR script support",
+      "detail": "The draft combines a comic interruption with claims about WordPress creation, setup, plugin data, SEO articles and chat editing. Opening names are garbled, so visible product labels guide interpretation. Delivery, music, effects and sync were not heard.",
+      "visual_relation": "V01–V06 broadly follow the demo claims and waitlist close.",
+      "evidence": "Local 465-speech.json; usable task language with transcription errors."
+    }
+  ],
+  "categories": [
+    {
+      "id": "Q01",
+      "finding": "Presenter joke → creation demo → connected tasks → editing → waitlist.",
+      "evidence": "V01–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q02",
+      "finding": "A formal presenter on a beach and a flamingo interruption create an unusual opening.",
+      "evidence": "V01,V02",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q03",
+      "finding": "The readable site-builder page at 15s is clearer than the interrupted opening captions.",
+      "evidence": "V01,V03",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q04",
+      "finding": "Tilted beach framing contrasts with UI zooms and changing page states; fine timing unverified.",
+      "evidence": "V02–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q05",
+      "finding": "A persistent beach inset connects the comedy to the screen demo, but competes with it for attention.",
+      "evidence": "V03–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q06",
+      "finding": "Bright beach props and an orange-blue desktop surround contrast with white app screens.",
+      "evidence": "V02–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q07",
+      "finding": "Setup progress and headline changes are readable; dense chat and search data are small.",
+      "evidence": "V03–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q08",
+      "finding": "ASR supports the joke and feature-list structure; garbled names and unheard delivery limit audio assessment.",
+      "evidence": "A01",
+      "status": "uncertain",
+      "reason": "Draft text only, no validated listening.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q09",
+      "finding": "Music character and structure are unverified.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "No validated listening.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q10",
+      "finding": "Effects and their sources are unverified.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "No validated listening; waveform peaks do not identify effects.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q11",
+      "finding": "Sound sync is unverified.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "No validated listening or paired audiovisual timing.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q12",
+      "finding": "Presenter footage, screen recording, chat, plugin setup and site previews are visible; live behavior unverified.",
+      "evidence": "V01–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q13",
+      "finding": "Source duration 54.433 s; Watch metadata 1920 × 1080. Frame rate, audio clipping and export quality not checked here.",
+      "evidence": "Whole film",
+      "status": "supported",
+      "reason": "Parent source metadata supports duration and dimensions; visual review is sampled.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q14",
+      "finding": "The creation request and site result can be followed visually; the breadth of later claims needs the script.",
+      "evidence": "V03–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q15",
+      "finding": "The right chat/left page structure is consistent, but inset footage and a profile bubble add competing focal points.",
+      "evidence": "V03–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q16",
+      "finding": "About fifteen seconds precede the demo; several connected tasks then share less than half a minute.",
+      "evidence": "V01–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q17",
+      "finding": "The initial site request gets a homepage payoff; article scheduling and image claims have less explicit outcomes.",
+      "evidence": "V03–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q18",
+      "finding": "The comic mismatch may make the presenter memorable; audience response was not measured.",
+      "evidence": "V01,V02,V06",
+      "status": "uncertain",
+      "reason": "Visual interpretation.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q19",
+      "finding": "The plumbing business stays consistent across initial generation and later design changes.",
+      "evidence": "V03,V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q20",
+      "finding": "A functional deployed site, domain purchase, plugin integration, SEO benefits, scheduling and unrestricted editing are not verified.",
+      "evidence": "V03–V05,A01",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q21",
+      "finding": "WordPress setup and plugin-data tasks distinguish this from a generic website prompt demo.",
+      "evidence": "V03,V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q22",
+      "finding": "Reduce competing activity during the most complex step.",
+      "evidence": "V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "Pause the beach inset and hold the article request beside its scheduled result."
+    },
+    {
+      "id": "Q23",
+      "finding": "Show a connected task through its final state.",
+      "evidence": "V03,V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "For Tin, pair one data source, one content request and one reviewable scheduled item."
+    },
+    {
+      "id": "Q24",
+      "finding": "No human new-viewer test was performed.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "The product summary is this model’s film-only reading.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q25",
+      "finding": "Mobile preview and accessibility checks were not performed.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "Contact sheets are evidence views, not a stated mobile preview or compliance test.",
+      "experiment": "none"
+    }
+  ],
+  "elements": [
+    {
+      "kind": "ui",
+      "name": "chat sidebar",
+      "events": [
+        "V03",
+        "V04",
+        "V05"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "setup progress",
+      "events": [
+        "V03",
+        "V04"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "website preview",
+      "events": [
+        "V03",
+        "V05"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "analytics dashboard",
+      "events": [
+        "V04"
+      ]
+    },
+    {
+      "kind": "motion",
+      "name": "picture-in-picture footage",
+      "events": [
+        "V03",
+        "V04",
+        "V05"
+      ]
+    }
+  ],
+  "lessons": {
+    "keep": "Carry the same example business from generation into editing.",
+    "try": [
+      "Pause the comedy inset while holding an article request and scheduled result.",
+      "For Tin, connect one source to one content request and one scheduled item."
+    ],
+    "avoid": "Packing extra feature claims into a demo that has several competing focal points.",
+    "open": "Live functionality, deployment, scheduling, SEO results and sound remain unverified."
+  },
+  "comparison": {
+    "story": "Comic introduction and multi-feature WordPress demo.",
+    "motion": "Tilted footage, inset video and UI reframing.",
+    "sound": "Feature and joke structure supported by imperfect ASR; no listening.",
+    "texture": "Beach footage and bright desktop surround.",
+    "lesson": "An entertaining frame needs room for a readable task payoff."
+  },
+  "reviewer_model": "gpt-6-astra",
+  "scope": "sampled visual and story review; ASR and measured signal support; no validated audio listening",
+  "viewed_evidence": [
+    "technical-review-2026-10-19/deep-review/motion/465/timeline-00.jpg",
+    "technical-review-2026-10-19/deep-review/motion/465/timeline-01.jpg"
+  ],
+  "closer_windows": []
+}

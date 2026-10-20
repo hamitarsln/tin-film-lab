@@ -1,0 +1,353 @@
+{
+  "id": 381,
+  "product_from_film": "Pax Historia is a map-based alternate-history game with AI-driven diplomacy and user-created scenarios.",
+  "explains_well": "A Greenland negotiation example shows one choice leading to a rejection and wider international responses.",
+  "unclear": "The film does not clearly show how the player submits an open-ended action or how a turn advances.",
+  "product_type": "AI strategy sandbox game",
+  "scenario": "Explore alternate histories, negotiate over Greenland in a fictional game and create a custom scenario for others.",
+  "product_clear_time": 19,
+  "product_clear_basis": "The Pax Historia identity at 18s is followed by diplomacy panels on an alternate-history map at 19s.",
+  "scenes": [
+    {
+      "start": 0,
+      "end": 10,
+      "action": "Colored maps accompany what-if questions about America/Greenland, Rome and the Soviet Union. A wider map combines several highlighted regions.",
+      "design": "Dark geographic map, bright territory colors and captions.",
+      "purpose": "Invite counterfactual play; these are fictional scenarios.",
+      "evidence": "1 fps source samples in 0–10s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V01"
+    },
+    {
+      "start": 10,
+      "end": 18,
+      "action": "An illustrated siege has Fortify, Resist and Observe buttons, followed by a fixed survival outcome. Pax Historia is then named on black.",
+      "design": "Fantasy/historical illustration and three choice buttons.",
+      "purpose": "Contrast the proposed game with fixed-path play.",
+      "evidence": "1 fps source samples in 10–18s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V02"
+    },
+    {
+      "start": 18,
+      "end": 31,
+      "action": "Roman Empire and neighboring territories appear with Diplomacy and World Events panels. Captions describe memory and adaptive responses, then a 35,000+ Daily card appears.",
+      "design": "Map, dark text panels and large metric.",
+      "purpose": "Introduce responsive agents and audience claim.",
+      "evidence": "1 fps source samples in 18–31s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V03"
+    },
+    {
+      "start": 31,
+      "end": 50,
+      "action": "The map shifts to the United States and Greenland. Captions offer negotiation, trade or invasion, then describe a negotiation rejected by Denmark, NATO involvement and EU sanctions. Diplomacy and event panels accompany the expanding map.",
+      "design": "Map reframing, country labels and dark message panels.",
+      "purpose": "Show a fictional choice-and-consequence chain.",
+      "evidence": "1 fps source samples in 31–50s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V04"
+    },
+    {
+      "start": 50,
+      "end": 59,
+      "action": "Create New Preset leads to custom map borders and forms for starting year, world background and simulation rules, then Play Now.",
+      "design": "Scenario form and green action button.",
+      "purpose": "Show user authorship of game worlds.",
+      "evidence": "1 fps source samples in 50–59s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V05"
+    },
+    {
+      "start": 59,
+      "end": 66,
+      "action": "A gallery lists popular and updated worlds. Creators Build, Players Pay and Creators earn Tokens overlay it.",
+      "design": "Scenario thumbnail catalog and large white text.",
+      "purpose": "Describe community scale and reward model.",
+      "evidence": "1 fps source samples in 59–66s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V06"
+    },
+    {
+      "start": 66,
+      "end": 76.766,
+      "action": "Pax Historia identity and paxhistoria.co hold on black.",
+      "design": "White globe mark and long dark end card.",
+      "purpose": "Close with destination.",
+      "evidence": "1 fps source samples in 66–76.766s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V07"
+    }
+  ],
+  "sound": [
+    {
+      "id": "A01",
+      "start": 0,
+      "end": 76.766,
+      "layer": "ASR draft",
+      "detail": "Draft supports alternate-history questions, adaptive-agent claims, the Greenland game example and scenario publishing/reward model. Several names and opening words are garbled; captions clarify them. No delivery, music, effects or sync was verified.",
+      "visual_relation": "V01–V07; script explains fictional map events and creation controls.",
+      "evidence": "381-speech.json draft plus captions; no validated listening."
+    }
+  ],
+  "categories": [
+    {
+      "id": "Q01",
+      "finding": "What-if hooks → fixed-path contrast → responsive diplomacy → example consequences → scenario creation → community.",
+      "evidence": "V01–V07",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q02",
+      "finding": "North America and a what-if caption lead into a Greenland question. The map immediately sets a geopolitical game context.",
+      "evidence": "V01",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q03",
+      "finding": "Strategy and alternate-history players are addressed; map diplomacy makes the game clear at 19s and creation tools at 50s.",
+      "evidence": "V03,V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q04",
+      "finding": "Maps reframe between territories, panels appear and form text changes. Exact pan/zoom mechanics and transition timing are unverified.",
+      "evidence": "V01–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q05",
+      "finding": "Map views carry the main story; the siege-button comparison is a separate illustrative contrast before the product.",
+      "evidence": "V02–V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q06",
+      "finding": "Dark blue maps use strong territory colors; black UI and white typography keep the presentation restrained.",
+      "evidence": "V01–V07",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q07",
+      "finding": "Captions explain consequences more clearly than the small diplomacy paragraphs. Preset fields reveal authoring controls, while token economics remain a slogan.",
+      "evidence": "V04–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q08",
+      "finding": "ASR/captions support a narrated game explanation with recognition errors. Sound qualities remain unknown.",
+      "evidence": "A01",
+      "status": "uncertain",
+      "reason": "Draft support only.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q09",
+      "finding": "Music character and structure are unverified.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "No validated listening.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q10",
+      "finding": "Effects and their sources are unverified.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "No validated listening; waveform peaks do not identify effects.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q11",
+      "finding": "Sound sync is unverified.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "No validated listening or paired audiovisual timing.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q12",
+      "finding": "Map UI, illustrated siege, forms and scenario gallery are combined. Asset origin and live-game status are unverified.",
+      "evidence": "V01–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q13",
+      "finding": "Source duration 76.766 s; Watch metadata 1920 × 1080. Frame rate, audio clipping and export quality not checked here.",
+      "evidence": "Whole film",
+      "status": "supported",
+      "reason": "Parent source metadata supports duration and dimensions; visual review is sampled.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q14",
+      "finding": "Captions preserve the gameplay argument without checked sound; the player’s input and turn control remain missing.",
+      "evidence": "V03–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q15",
+      "finding": "Territory colors and labels establish focus, then diplomacy panels provide detail; small text competes with the broad map.",
+      "evidence": "V03,V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q16",
+      "finding": "The 19s Greenland example is the clearest causal section. The final brand hold lasts roughly 11s.",
+      "evidence": "V04,V07",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q17",
+      "finding": "The reshape-history promise receives a branching diplomatic example, but no player-entered action is clearly shown.",
+      "evidence": "V01,V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q18",
+      "finding": "Counterfactual questions suggest curiosity and agency; audience response is unmeasured.",
+      "evidence": "V01–V05",
+      "status": "uncertain",
+      "reason": "Visual/script interpretation only.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q19",
+      "finding": "The Greenland example keeps one objective across negotiation and broader reactions, unlike the opening’s quick era changes.",
+      "evidence": "V01,V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q20",
+      "finding": "Adaptive memory, unscripted behavior, player/world counts and token rewards are unverified claims. Map events are fictional gameplay, not real-world reporting or prediction.",
+      "evidence": "V03–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q21",
+      "finding": "Custom borders, dates and AI rules combine historical strategy with user-made worlds.",
+      "evidence": "V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q22",
+      "finding": "Show the input-to-turn step.",
+      "evidence": "V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "Type one player proposal, submit it, show the turn advancing and highlight the resulting response on the same map."
+    },
+    {
+      "id": "Q23",
+      "finding": "For Tin, make a decision’s downstream effects visible.",
+      "evidence": "V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "Change one campaign decision and trace the resulting schedule, asset and channel changes with consistent labels."
+    },
+    {
+      "id": "Q24",
+      "finding": "No human new-viewer test was performed.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "The product summary is this model’s film-only reading.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q25",
+      "finding": "Mobile preview and accessibility checks were not performed.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "Contact sheets are evidence views, not a stated mobile preview or compliance test.",
+      "experiment": "none"
+    }
+  ],
+  "elements": [
+    {
+      "kind": "ui",
+      "name": "map",
+      "events": [
+        "V01",
+        "V03",
+        "V04",
+        "V05"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "diplomacy chat",
+      "events": [
+        "V03",
+        "V04"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "form",
+      "events": [
+        "V05"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "scenario gallery",
+      "events": [
+        "V06"
+      ]
+    },
+    {
+      "kind": "texture",
+      "name": "historical illustration",
+      "events": [
+        "V02"
+      ]
+    }
+  ],
+  "lessons": {
+    "keep": "Use one diplomatic decision to demonstrate a chain of consequences.",
+    "try": [
+      "Show a typed proposal, submission, turn advance and matching response.",
+      "For Tin, trace one changed decision into schedule, asset and channel changes."
+    ],
+    "avoid": "Explaining agency only through narrated consequences without the player’s input.",
+    "open": "Adaptive behavior, memory, game mechanics, reward model, scale claims and audio qualities remain unverified."
+  },
+  "comparison": {
+    "story": "What if → adaptive diplomacy → create/share worlds.",
+    "motion": "Map reframing, panel appearances and changing form states.",
+    "sound": "ASR/captions support the fictional scenario; no validated listening.",
+    "texture": "Colored territory maps and dark UI.",
+    "lesson": "A causal example is stronger when the viewer sees the action that starts it."
+  },
+  "reviewer_model": "gpt-6-astra",
+  "scope": "sampled visual and story review; ASR and measured signal support; no validated audio listening",
+  "viewed_evidence": [
+    "technical-review-2026-10-19/deep-review/motion/381/timeline-00.jpg",
+    "technical-review-2026-10-19/deep-review/motion/381/timeline-01.jpg",
+    "technical-review-2026-10-19/deep-review/motion/381/timeline-02.jpg"
+  ],
+  "closer_windows": []
+}

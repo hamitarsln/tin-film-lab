@@ -1,0 +1,334 @@
+{
+  "id": 219,
+  "reviewer_model": "gpt-6-astra",
+  "scope": "sampled visual and story review; ASR and measured signal support; no validated audio listening",
+  "viewed_evidence": [
+    "technical-review-2026-10-19/deep-review/motion/219/timeline-00.jpg",
+    "technical-review-2026-10-19/deep-review/motion/219/timeline-01.jpg",
+    "technical-review-2026-10-19/deep-review/audio/219-speech.json"
+  ],
+  "closer_windows": [],
+  "product_from_film": "Euphoria presents a playful mobile trading interface with a grid and small-value positions.",
+  "explains_well": "A mock TV diagnosis sets up dull trading, then the palette and imagery switch to a playful alternative.",
+  "unclear": "The grid action, what each tap buys and how a position resolves are not explained.",
+  "product_type": "trading interface",
+  "scenario": "Replace conventional chart-focused trading with a tap-based interface.",
+  "product_clear_time": 38,
+  "product_clear_basis": "The final phone view connects the brand to a trading grid, though its rules remain unclear.",
+  "scenes": [
+    {
+      "id": "V01",
+      "start": 0,
+      "end": 7,
+      "action": "A presenter inside a curved TV frame introduces STD, then expands it to Sterile Trading Disorder. Breaking News and a phone number frame the parody.",
+      "design": "Retro scan-like TV texture, burgundy bars and white background.",
+      "purpose": "Create a comic diagnosis of dull trading.",
+      "evidence": "Visible chronological 1 fps samples, source 0–7s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V02",
+      "start": 7,
+      "end": 19,
+      "action": "Candlestick charts, a solitary trader, keyboards and red/green finance imagery overlap. Copy says the viewer is not alone.",
+      "design": "Monochrome and tinted footage, layered charts and blur.",
+      "purpose": "Depict conventional trading as joyless or overwhelming.",
+      "evidence": "Visible chronological 1 fps samples, source 7–19s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V03",
+      "start": 19,
+      "end": 30,
+      "action": "Have Fun appears on a display. Eyes, a bright face, lips, abstract grid, a sphere and city imagery shift into purple and magenta.",
+      "design": "Bloom, grain-like texture and surreal collage.",
+      "purpose": "Introduce a more playful mood.",
+      "evidence": "Visible chronological 1 fps samples, source 19–30s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V04",
+      "start": 30,
+      "end": 38,
+      "action": "Cartoon and live-action figures are layered with yellow value cards. A line chart and stacked yellow blocks appear, then a suited figure under pink clouds and the Euphoria URL.",
+      "design": "Neon yellow cards, magenta environment and sparkling brand icon.",
+      "purpose": "Associate trading with playful transformation.",
+      "evidence": "Visible chronological 1 fps samples, source 30–38s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V05",
+      "start": 38,
+      "end": 42.633,
+      "action": "A phone shows the Euphoria grid and rising clusters of yellow cells beside One tap could change everything.",
+      "design": "Dark phone mockup, purple interface and bright yellow blocks.",
+      "purpose": "Reveal the product surface and close on a tap promise.",
+      "evidence": "Visible chronological 1 fps samples, source 38–42.633s; boundary approximate; exact motion between samples unverified."
+    }
+  ],
+  "sound": [
+    {
+      "id": "A01",
+      "start": 0,
+      "end": 42.633,
+      "layer": "unknown",
+      "detail": "No validated direct audio listening was performed. Music, speech delivery, effects, mix and sync remain unknown, not absent.",
+      "visual_relation": "All visual scenes; audiovisual alignment unverified",
+      "evidence": "Visual samples only; no actual audio range supplied to this reviewer."
+    },
+    {
+      "id": "A02",
+      "start": 0,
+      "end": 34.31,
+      "layer": "ASR draft",
+      "detail": "ASR draft supports the mock trading-disorder pitch and repeated fun theme. Several phrases are weak or possibly lyrical, so they are not treated as precise dialogue. Voice delivery, music and synchronization were not heard.",
+      "visual_relation": "Story text support; exact audiovisual alignment and delivery unverified.",
+      "evidence": "technical-review-2026-10-19/deep-review/audio/219-speech.json; local faster-whisper base CPU int8 draft; VAD candidates only, recognition errors possible."
+    }
+  ],
+  "categories": [
+    {
+      "id": "Q01",
+      "finding": "A mock trading disorder is followed by stressful chart imagery, playful transformation and a mobile product reveal.",
+      "evidence": "V01–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q02",
+      "finding": "The TV presenter and Breaking News frame establish parody; STD creates a deliberately ambiguous hook.",
+      "evidence": "V01",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q03",
+      "finding": "Trading is clear early, but the actual Euphoria interface appears only around 38 s and remains unexplained.",
+      "evidence": "V01,V02,V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q04",
+      "finding": "Layered charts, changing image scales, yellow cards and rising grid-cell groups animate the contrast; precise paths and easing are unverified.",
+      "evidence": "V02–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q05",
+      "finding": "A strong shift from burgundy/gray to magenta/yellow separates the problem and alternative; individual collage clips have loose thematic links.",
+      "evidence": "V02,V03",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q06",
+      "finding": "Retro TV texture, tinted footage, bloom and bright finance graphics create a deliberately excessive visual style.",
+      "evidence": "V01–V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q07",
+      "finding": "The parody label and final tap line are readable; phone-grid values are small and the interaction rules are absent.",
+      "evidence": "V01,V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q08",
+      "finding": "ASR draft supports the mock trading-disorder pitch and repeated fun theme. Several phrases are weak or possibly lyrical, so they are not treated as precise dialogue. Voice delivery, music and synchronization were not heard.",
+      "evidence": "A02",
+      "status": "uncertain",
+      "reason": "ASR text only; no validated listening, delivery or voice origin.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q09",
+      "finding": "Voice delivery, music, effects and audiovisual alignment were not established by this visual pass.",
+      "evidence": "A01",
+      "status": "not checked",
+      "reason": "No validated direct audio listening input.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q10",
+      "finding": "Voice delivery, music, effects and audiovisual alignment were not established by this visual pass.",
+      "evidence": "A01",
+      "status": "not checked",
+      "reason": "No validated direct audio listening input.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q11",
+      "finding": "Voice delivery, music, effects and audiovisual alignment were not established by this visual pass.",
+      "evidence": "A01",
+      "status": "not checked",
+      "reason": "No validated direct audio listening input.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q12",
+      "finding": "Presenter footage, chart screens, cartoon imagery, live-action clips and phone mockup are mixed; sources and rights are unverified.",
+      "evidence": "V01–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q13",
+      "finding": "Manifest duration 42.633s; indexed dimensions 1920×1080. Source unchanged flag recorded; fresh encoding and audio clipping checks not run.",
+      "evidence": "Group manifest",
+      "status": "uncertain",
+      "reason": "Inherited technical metadata; no fresh media probe in this review.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q14",
+      "finding": "The film communicates fun trading visually, but the precise product task cannot be reconstructed from the grid alone.",
+      "evidence": "V04,V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q15",
+      "finding": "Bright yellow cards stand out against magenta collage; the final phone competes with the large slogan but offers a stable focus.",
+      "evidence": "V04,V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q16",
+      "finding": "Most of the 43 s builds tone; only the final five seconds show a stable product surface.",
+      "evidence": "V01–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q17",
+      "finding": "The sterile-trading setup receives a fun-looking interface as payoff, without showing why its use is better.",
+      "evidence": "V01,V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q18",
+      "finding": "The parody and bright transformation aim for amusement and excitement; viewer response is not measured.",
+      "evidence": "V01,V03,V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q19",
+      "finding": "Purple and yellow connect the late collage to the phone; no single position or user action runs across the film.",
+      "evidence": "V03–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q20",
+      "finding": "Yellow values and grid blocks do not establish a real trade, return or settlement; the one-tap promise is promotional.",
+      "evidence": "V04,V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q21",
+      "finding": "The playful trading-disorder parody and purple/yellow grid give a distinct tone, while much collage is generic excitement.",
+      "evidence": "V01,V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q22",
+      "finding": "Show one tap with its position details and resolved state before the final slogan.",
+      "evidence": "V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q23",
+      "finding": "Tin can use a short parody to name a familiar frustration, but should give more time to the new action and result.",
+      "evidence": "V01,V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q24",
+      "finding": "Euphoria presents a playful mobile trading interface with a grid and small-value positions.",
+      "evidence": "Model reading from inspected images",
+      "status": "uncertain",
+      "reason": "Model-only new-viewer interpretation; no human test.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q25",
+      "finding": "Contact sheets inspected at displayed size; a phone-size playback, caption audit, flash audit and formal accessibility check were not performed.",
+      "evidence": "Viewed sheets",
+      "status": "not checked",
+      "reason": "Full-size moving-image and device checks unavailable in this pass.",
+      "experiment": "none"
+    }
+  ],
+  "lessons": {
+    "keep": "Use a clear palette change to mark the shift from problem to alternative.",
+    "avoid": "Avoid spending nearly the whole film on tone while leaving the main interaction unexplained.",
+    "open": "Grid mechanics, trading results, precise transitions, flash intensity, source rights and all sound remain unverified.",
+    "try": [
+      "Open a Tin film with one brief parody of manual campaign work, then show the full corrected workflow.",
+      "Use the same campaign card in muted and bright states to make the actual before/after change visible."
+    ]
+  },
+  "comparison": {
+    "story": "Create a comic diagnosis of dull trading. → Depict conventional trading as joyless or overwhelming. → Introduce a more playful mood. → Associate trading with playful transformation. → Reveal the product surface and close on a tap promise.",
+    "motion": "Layered charts, changing image scales, yellow cards and rising grid-cell groups animate the contrast; precise paths and easing are unverified. Sampling scope: 1 fps unless a closer window is recorded.",
+    "sound": "No validated listening; unknown.",
+    "texture": "Retro scan-like TV texture, burgundy bars and white background.; Monochrome and tinted footage, layered charts and blur.; Bloom, grain-like texture and surreal collage.; Neon yellow cards, magenta environment and sparkling brand icon.; Dark phone mockup, purple interface and bright yellow blocks.",
+    "lesson": "Use a clear palette change to mark the shift from problem to alternative."
+  },
+  "elements": [
+    {
+      "kind": "ui",
+      "name": "candlestick chart",
+      "events": [
+        "V02"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "trading grid",
+      "events": [
+        "V05"
+      ]
+    },
+    {
+      "kind": "texture",
+      "name": "retro television",
+      "events": [
+        "V01"
+      ]
+    },
+    {
+      "kind": "texture",
+      "name": "magenta collage",
+      "events": [
+        "V03",
+        "V04"
+      ]
+    }
+  ]
+}

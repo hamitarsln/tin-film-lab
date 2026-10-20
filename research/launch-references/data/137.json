@@ -1,0 +1,355 @@
+{
+  "id": 137,
+  "viewed_evidence": [
+    "technical-review-2026-10-19/deep-review/motion/137/timeline-00.jpg",
+    "technical-review-2026-10-19/deep-review/motion/137/timeline-01.jpg",
+    "technical-review-2026-10-19/deep-review/audio/137-speech.json",
+    "astra-review-2026-10-20/evidence/group-3/137/dense.jpg"
+  ],
+  "product_from_film": "Lightwork is a recurring technology show about what matters in a fast-changing field.",
+  "explains_well": "The montage shows the range of technology topics and gives a Monday 8 am ET schedule.",
+  "unclear": "The film gives little detail about the format or how topics are selected.",
+  "product_type": "media show",
+  "scenario": "A flood of technology information resolves into a weekly show with two hosts.",
+  "product_clear_time": 36,
+  "product_clear_basis": "The show name and Monday 8 am ET schedule establish the recurring offer.",
+  "scenes": [
+    {
+      "start": 0,
+      "end": 4,
+      "action": "A golden futuristic city and moving-car view lead to Lightwork is here.",
+      "design": "Warm retro-future city imagery and orange title.",
+      "purpose": "Promise a future-facing show",
+      "id": "V01",
+      "evidence": "Visible 1 fps samples, source 0–4 s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 4,
+      "end": 10,
+      "action": "Archive text leads to a rounded multi-clip screen, keyboard closeup and a typed tech-news search.",
+      "design": "Orange card, old browser search and photographic hands.",
+      "purpose": "Introduce information seeking",
+      "id": "V02",
+      "evidence": "Visible 1 fps samples, source 4–10 s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 10,
+      "end": 17,
+      "action": "Overlapping news windows grow over a grassy desktop; white frame 13 s gives way to a person on a hill, pixel cursor and floating article.",
+      "design": "Old desktop styling, cutout windows and bright graphic layers.",
+      "purpose": "Show information overload",
+      "id": "V03",
+      "evidence": "Visible 1 fps samples, source 10–17 s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 17,
+      "end": 28,
+      "action": "Interviews, chip discussion, launch footage, sticky notes, body scan, chair graphic and a dark data object appear.",
+      "design": "Varied source footage and brief graphic inserts.",
+      "purpose": "Sample the topic range",
+      "id": "V04",
+      "evidence": "Visible 1 fps samples, source 17–28 s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 28,
+      "end": 35,
+      "action": "A mosaic sits inside a small retro TV; the view widens to a colourful set and two hosts beside it. Closer view: The mosaic stays within the TV while the view steadily widens 28–31.75 s, revealing its gold case, pink shelf, props and two hosts. The source does not establish physical camera versus digital scaling.",
+      "design": "Pink/orange set, toy-like objects, TV and Lightspeed sign.",
+      "purpose": "Reveal the programme setting",
+      "id": "V05",
+      "evidence": "Visible 1 fps samples, source 28–35 s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 35,
+      "end": 39.233,
+      "action": "Arch mark becomes Lightwork lockup with Mondays at 8 AM ET and platform icons; final samples are black.",
+      "design": "Orange card, cream letters and concentric arch.",
+      "purpose": "Give the schedule",
+      "id": "V06",
+      "evidence": "Visible 1 fps samples, source 35–39.233 s; boundaries approximate, between-frame action unresolved."
+    }
+  ],
+  "sound": [
+    {
+      "id": "A01",
+      "start": 0,
+      "end": 39.233,
+      "layer": "unknown",
+      "detail": "No validated audio listening; speech, music, effects, mix and sync remain unverified.",
+      "visual_relation": "All visual scenes; alignment not checked",
+      "evidence": "No actual audio supplied to this review; existing technical-review-2026-10-19/deep-review/audio/137.json is not listening evidence."
+    },
+    {
+      "id": "A02",
+      "start": 0.138,
+      "end": 31.254,
+      "layer": "ASR draft",
+      "detail": "Draft narration describes an archive, too much to know and finding what matters each week. Brief quoted speaker fragments are noisy and not treated as validated claims.",
+      "visual_relation": "Broad correspondence with scene sequence; exact audio alignment not checked",
+      "evidence": "technical-review-2026-10-19/deep-review/audio/137-speech.json; existing faster-whisper text, VAD ranges [{'start': 0.138, 'end': 25.138}, {'start': 25.138, 'end': 31.254}]; no actual listening."
+    }
+  ],
+  "categories": [
+    {
+      "finding": "Future imagery leads to information overload, topic samples and a hosted weekly programme.",
+      "evidence": "V01–V06",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q01"
+    },
+    {
+      "finding": "A golden city is replaced by a close moving-car view; it establishes a future theme rather than a concrete show format.",
+      "evidence": "V01 0–2 s",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q02"
+    },
+    {
+      "finding": "Tech news search identifies the subject 9 s; hosts appear 31 s and the recurring programme schedule is clear 36 s.",
+      "evidence": "V02,V05,V06",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q03"
+    },
+    {
+      "finding": "The mosaic stays within the TV while the view steadily widens 28–31.75 s, revealing its gold case, pink shelf, props and two hosts. The source does not establish physical camera versus digital scaling.",
+      "evidence": "V05; dense 28–32 s",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q04"
+    },
+    {
+      "finding": "The white sample 13 s separates desktop collage from the grassy scene; the final TV pulls many clips into one shared object.",
+      "evidence": "V03,V05",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q05"
+    },
+    {
+      "finding": "Golden retro-future imagery, old desktop graphics and a saturated pink/orange studio create a nostalgic technology theme.",
+      "evidence": "V01,V03,V05",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q06"
+    },
+    {
+      "finding": "The search query and final schedule are clear anchors; many source clips retain small captions unrelated to the central schedule.",
+      "evidence": "V02,V04,V06",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q07"
+    },
+    {
+      "finding": "Voice presence and delivery remain unverified.",
+      "evidence": "No validated audio listening",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q08"
+    },
+    {
+      "finding": "Music character and arc remain unverified.",
+      "evidence": "No validated audio listening",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q09"
+    },
+    {
+      "finding": "Sound effects remain unverified.",
+      "evidence": "No validated audio listening",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q10"
+    },
+    {
+      "finding": "Sound-to-motion timing remain unverified.",
+      "evidence": "No validated audio listening",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q11"
+    },
+    {
+      "finding": "City imagery, interviews, news clips, launch footage and a physical-looking studio are combined; provenance is unknown.",
+      "evidence": "V01–V05",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q12"
+    },
+    {
+      "finding": "Source duration supplied as 39.233 s; no independent compression, clipping or delivery check.",
+      "evidence": "Assigned metadata; source integrity checked by parent",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q13"
+    },
+    {
+      "finding": "Technology topics and weekly-show identity remain clear; the reason these topics matter is mostly implied.",
+      "evidence": "V04–V06",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q14"
+    },
+    {
+      "finding": "The crowded windows create dispersed focus; the final single TV and two hosts gather attention.",
+      "evidence": "V03,V05",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q15"
+    },
+    {
+      "finding": "The seventeen-to-twenty-seven-second topic montage is dense; no individual topic is explained.",
+      "evidence": "V04",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q16"
+    },
+    {
+      "finding": "The promise of a new Lightwork show ends with hosts, identity and schedule.",
+      "evidence": "V01,V05,V06",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q17"
+    },
+    {
+      "finding": "Information overload appears intended to become relief through a curated programme.",
+      "evidence": "V03,V05; interpretation",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q18"
+    },
+    {
+      "finding": "The rounded screen and arch recur across archive display, studio TV and end logo.",
+      "evidence": "V02,V05,V06",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q19"
+    },
+    {
+      "finding": "Hosts and schedule show a programme exists in the film; the quality of curation and recurring release are not independently checked.",
+      "evidence": "V05–V06",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q20"
+    },
+    {
+      "finding": "The concentric arch and colourful toy-like studio offer stronger identity than generic technology clips.",
+      "evidence": "V05–V06",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q21"
+    },
+    {
+      "finding": "One labelled example of the show explaining a development would strengthen the promise more than another topic flash.",
+      "evidence": "V04",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q22"
+    },
+    {
+      "finding": "For a weekly research digest, turn noisy article windows into a single branded screen and reveal the presenters or summary format.",
+      "evidence": "V03,V05",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q23"
+    },
+    {
+      "finding": "No human new-viewer test; product description above is model interpretation of sampled images.",
+      "evidence": "V01–V06",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q24"
+    },
+    {
+      "finding": "No phone-size, safe-area or flash assessment; small UI text needs separate preview.",
+      "evidence": "Contact sheets",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q25"
+    }
+  ],
+  "lessons": {
+    "keep": "Gather scattered content into one recognisable screen before revealing the programme.",
+    "try": [
+      "For a Tin weekly digest, collect six campaign-news cards into one screen, then show the actual three-item summary.",
+      "Test an end card that holds the show name, one value sentence and schedule for four seconds."
+    ],
+    "avoid": "Avoid topic variety replacing a concrete example of the show’s value.",
+    "open": "What is the programme format, and is the white transition comfortable at full speed?"
+  },
+  "comparison": {
+    "story": "Promise a future-facing show → Introduce information seeking → Show information overload → Sample the topic range → Reveal the programme setting → Give the schedule",
+    "motion": "The mosaic stays within the TV while the view steadily widens 28–31.75 s, revealing its gold case, pink shelf, props and two hosts. The source does not establish physical camera versus digital scaling.",
+    "sound": "No validated listening; no absence claims.",
+    "texture": "Golden retro-future imagery, old desktop graphics and a saturated pink/orange studio create a nostalgic technology theme.",
+    "lesson": "Gather scattered content into one recognisable screen before revealing the programme."
+  },
+  "elements": [
+    {
+      "kind": "ui",
+      "name": "search",
+      "events": [
+        "V02"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "browser shell",
+      "events": [
+        "V03"
+      ]
+    },
+    {
+      "kind": "texture",
+      "name": "CRT screen",
+      "events": [
+        "V02",
+        "V05"
+      ]
+    },
+    {
+      "kind": "texture",
+      "name": "collage",
+      "events": [
+        "V03",
+        "V04"
+      ]
+    }
+  ],
+  "reviewer_model": "gpt-6-astra",
+  "scope": "sampled visual and story review; ASR and measured signal support; no validated audio listening",
+  "closer_windows": [
+    {
+      "start": 28,
+      "end": 32,
+      "rate_fps": 4,
+      "evidence": [
+        "astra-review-2026-10-20/evidence/group-3/137/dense.jpg"
+      ],
+      "resolved": "The mosaic stays within the TV while the view steadily widens 28–31.75 s, revealing its gold case, pink shelf, props and two hosts. The source does not establish physical camera versus digital scaling."
+    }
+  ]
+}

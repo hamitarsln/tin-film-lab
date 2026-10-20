@@ -1,0 +1,344 @@
+{
+  "id": 2,
+  "viewed_evidence": [
+    "technical-review-2026-10-19/deep-review/motion/002/timeline-00.jpg",
+    "technical-review-2026-10-19/deep-review/motion/002/timeline-01.jpg"
+  ],
+  "product_from_film": "Rho links starting a business with banking, but the exact formation service is not explained visually.",
+  "explains_well": "The same founder connects a side project, daily strain and the hope of full-time work.",
+  "unclear": "The steps from side project to a registered business and bank account remain offscreen.",
+  "product_type": "business banking / founder service",
+  "scenario": "A train conversation leads into a founder’s work and commute, then Rho branding.",
+  "product_clear_time": 26,
+  "product_clear_basis": "Laptop banking headline at 26 s gives the service category; the incorporation URL at 39 s adds a further clue, without showing that task.",
+  "scenes": [
+    {
+      "start": 0,
+      "end": 6,
+      "action": "Two seated people alternate in close views; the headphone wearer raises a hand and the captions identify a side project.",
+      "design": "Train interior; white and pale yellow dialogue text beside faces.",
+      "purpose": "Introduces the founder through an ordinary question.",
+      "id": "V01",
+      "evidence": "Visible 1 fps samples, source 0–6 s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 6,
+      "end": 11,
+      "action": "Train exterior changes to computer and hand inserts, then two people at laptops.",
+      "design": "Dark blue and purple work images with text/code overlays.",
+      "purpose": "Makes the project tangible without a product demo.",
+      "id": "V02",
+      "evidence": "Visible 1 fps samples, source 6–11 s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 11,
+      "end": 18,
+      "action": "The conversation returns; blurred sampled views separate the speakers; full-time ambition appears in captions.",
+      "design": "Large words move between free areas beside each face.",
+      "purpose": "Defines the desired change.",
+      "id": "V03",
+      "evidence": "Visible 1 fps samples, source 11–18 s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 18,
+      "end": 25,
+      "action": "Bike commute, tooth brushing and desk work alternate; hands cover the face at 22 s.",
+      "design": "Real-world-looking daily scenes and floating dialogue captions.",
+      "purpose": "Suggests strain from fitting the project around everyday work.",
+      "id": "V04",
+      "evidence": "Visible 1 fps samples, source 18–25 s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 25,
+      "end": 33,
+      "action": "Laptop banking page leads to headphone close-up, Rho billboard and low-angle outdoor founder views.",
+      "design": "Website embedded in footage; large side-gigs/full-time-projects text.",
+      "purpose": "Introduces the brand as part of the hoped-for change.",
+      "id": "V05",
+      "evidence": "Visible 1 fps samples, source 25–33 s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 33,
+      "end": 37,
+      "action": "Night work returns with a small card status graphic; desk and physical cards lead into Day 0 starts here.",
+      "design": "Purple light, shallow-focus desk objects and white status chip.",
+      "purpose": "Associates a business beginning with a concrete card.",
+      "id": "V06",
+      "evidence": "Visible 1 fps samples, source 33–37 s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 37,
+      "end": 42.459,
+      "action": "Footage gives way to dark cards: Day 0, incorporation URL, Rho, then LOCK IN.",
+      "design": "Sparse white type on near-black; very small legal text at bottom.",
+      "purpose": "Finishes with brand and destination rather than a demonstrated result.",
+      "id": "V07",
+      "evidence": "Visible 1 fps samples, source 37–42.459 s; boundaries approximate, between-frame action unresolved."
+    }
+  ],
+  "sound": [
+    {
+      "id": "A01",
+      "start": 0,
+      "end": 42.459,
+      "layer": "unknown",
+      "detail": "No validated listening; music, effects, delivery and sync remain unverified.",
+      "visual_relation": "V01–V07; audio alignment unverified",
+      "evidence": "technical-review-2026-10-19/deep-review/audio/002.json; signal/ASR file is not listening evidence."
+    },
+    {
+      "id": "A02",
+      "start": 0.55,
+      "end": 29.622,
+      "layer": "ASR draft",
+      "detail": "Draft words describe a side project, full-time hopes and difficulty juggling work; some phrases are malformed.",
+      "visual_relation": "V01–V05; broad subject matches visible captions, exact alignment not checked.",
+      "evidence": "technical-review-2026-10-19/deep-review/audio/002-speech.json; faster-whisper base, VAD-selected ranges only."
+    }
+  ],
+  "categories": [
+    {
+      "finding": "Question about work → project montage → daily strain → Rho introduction; service causality is implied.",
+      "status": "supported",
+      "reason": "Inspected visual samples; interpretation is identified in the finding.",
+      "evidence": "V01",
+      "experiment": "none",
+      "id": "Q01"
+    },
+    {
+      "finding": "0–2 s shows a train passenger and a question caption; the product is not yet identified.",
+      "status": "supported",
+      "reason": "Inspected visual samples; interpretation is identified in the finding.",
+      "evidence": "V01",
+      "experiment": "none",
+      "id": "Q02"
+    },
+    {
+      "finding": "26 s banking page and 39 s incorporation URL suggest a founder audience; precise formation process stays unclear.",
+      "status": "supported",
+      "reason": "Inspected visual samples; interpretation is identified in the finding.",
+      "evidence": "V05",
+      "experiment": "none",
+      "id": "Q03"
+    },
+    {
+      "finding": "Hands, faces and daily actions supply motion; blur is visible at 13 s and 16 s, but path and easing are unresolved.",
+      "status": "supported",
+      "reason": "Inspected visual samples; interpretation is identified in the finding.",
+      "evidence": "V03",
+      "experiment": "none",
+      "id": "Q04"
+    },
+    {
+      "finding": "Conversation and work inserts alternate; 37 s changes to dark end cards. Exact cut times lie between samples.",
+      "status": "supported",
+      "reason": "Inspected visual samples; interpretation is identified in the finding.",
+      "evidence": "V07",
+      "experiment": "none",
+      "id": "Q05"
+    },
+    {
+      "finding": "Daylight train greens contrast with purple night-work light and soft-focus desk images.",
+      "status": "supported",
+      "reason": "Inspected visual samples; interpretation is identified in the finding.",
+      "evidence": "V02",
+      "experiment": "none",
+      "id": "Q06"
+    },
+    {
+      "finding": "Dialogue captions are explanation; website and card chip are product text; end logos and URL are branding.",
+      "status": "supported",
+      "reason": "Inspected visual samples; interpretation is identified in the finding.",
+      "evidence": "V01",
+      "experiment": "none",
+      "id": "Q07"
+    },
+    {
+      "finding": "ASR supports a dialogue draft; voice pace, emphasis and origin are unverified.",
+      "evidence": "technical-review-2026-10-19/deep-review/audio/002-speech.json",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q08"
+    },
+    {
+      "finding": "Music character and arc remain unverified.",
+      "evidence": "No validated audio listening",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q09"
+    },
+    {
+      "finding": "No effects have been identified by listening.",
+      "evidence": "No validated audio listening",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q10"
+    },
+    {
+      "finding": "Caption, cut and sound alignment has not been checked.",
+      "evidence": "No validated audio listening",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q11"
+    },
+    {
+      "finding": "People, train, bike, desk and billboard footage-like images dominate; capture origin and licenses are unknown.",
+      "status": "supported",
+      "reason": "Inspected visual samples; interpretation is identified in the finding.",
+      "evidence": "V04",
+      "experiment": "none",
+      "id": "Q12"
+    },
+    {
+      "finding": "42.459 s duration is supplied; resolution metadata awaits parent validation, and delivery defects were not independently checked.",
+      "evidence": "Assigned source metadata",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q13"
+    },
+    {
+      "finding": "Visible captions preserve ambition and strain; banking and incorporation are brief clues, not a full silent service explanation.",
+      "status": "supported",
+      "reason": "Inspected visual samples; interpretation is identified in the finding.",
+      "evidence": "V05",
+      "experiment": "none",
+      "id": "Q14"
+    },
+    {
+      "finding": "Faces anchor attention; captions occupy different open areas, requiring repeated gaze shifts.",
+      "status": "supported",
+      "reason": "Inspected visual samples; interpretation is identified in the finding.",
+      "evidence": "V01",
+      "experiment": "none",
+      "id": "Q15"
+    },
+    {
+      "finding": "The daily-life montage at 18–25 s carries one emotional idea; product information at 25–39 s is brief.",
+      "status": "supported",
+      "reason": "Inspected visual samples; interpretation is identified in the finding.",
+      "evidence": "V04",
+      "experiment": "none",
+      "id": "Q16"
+    },
+    {
+      "finding": "Full-time ambition receives a brand invitation, not an observed business outcome.",
+      "status": "supported",
+      "reason": "Inspected visual samples; interpretation is identified in the finding.",
+      "evidence": "V07",
+      "experiment": "none",
+      "id": "Q17"
+    },
+    {
+      "finding": "Interpretation: self-doubt captions and face-covering gesture build strain; upward outdoor views and Day 0 suggest possibility.",
+      "status": "supported",
+      "reason": "Inspected visual samples; interpretation is identified in the finding.",
+      "evidence": "V04",
+      "experiment": "none",
+      "id": "Q18"
+    },
+    {
+      "finding": "The headphone-wearing founder remains traceable across commute, desk and street scenes.",
+      "status": "supported",
+      "reason": "Inspected visual samples; interpretation is identified in the finding.",
+      "evidence": "V04",
+      "experiment": "none",
+      "id": "Q19"
+    },
+    {
+      "finding": "Banking page and card are shown; business formation completion or banking functionality is not demonstrated.",
+      "status": "supported",
+      "reason": "Inspected visual samples; interpretation is identified in the finding.",
+      "evidence": "V05",
+      "experiment": "none",
+      "id": "Q20"
+    },
+    {
+      "finding": "Rho billboard and card are specific; founder lifestyle footage alone could fit many startup brands.",
+      "status": "supported",
+      "reason": "Inspected visual samples; interpretation is identified in the finding.",
+      "evidence": "V05",
+      "experiment": "none",
+      "id": "Q21"
+    },
+    {
+      "finding": "The work inserts establish effort; one insert could make room for a clear formation-to-account state change.",
+      "status": "supported",
+      "reason": "Inspected visual samples; interpretation is identified in the finding.",
+      "evidence": "V04",
+      "experiment": "none",
+      "id": "Q22"
+    },
+    {
+      "finding": "A Tin founder story could use one desk location, a daily routine and a real product completion state.",
+      "status": "supported",
+      "reason": "Inspected visual samples; interpretation is identified in the finding.",
+      "evidence": "V05",
+      "experiment": "none",
+      "id": "Q23"
+    },
+    {
+      "finding": "No human new-viewer test; this model reads founder ambition and banking but cannot infer the full formation offer.",
+      "evidence": "Model sampled-image interpretation",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q24"
+    },
+    {
+      "finding": "No phone-sized preview or flash test; moving captions and small end legal copy require a separate check.",
+      "evidence": "Contact sheets only",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q25"
+    }
+  ],
+  "lessons": {
+    "keep": "Carry the same person through problem and brand introduction.",
+    "try": [
+      "For a Tin small-business launch, film one owner before work and at a desk, then show a completed campaign in the same setting.",
+      "For a banking scenario, replace one lifestyle insert with two readable states: formation submitted and account ready; use real approved UI assets."
+    ],
+    "avoid": "Leaving the practical service mostly to a brief website and URL.",
+    "open": "Whether viewers can name the formation offer, and how the unheard sound shapes the montage."
+  },
+  "comparison": {
+    "story": "Conversation, work strain, brand opportunity, dark end cards.",
+    "motion": "Human gestures and montage; sampled blur at 13/16 s, exact transitions unresolved.",
+    "sound": "ASR draft only; music, effects and sync unverified.",
+    "texture": "Daylight footage-like scenes, purple night scenes, physical card; origin unknown.",
+    "lesson": "A recurring person can connect several locations before the brand arrives."
+  },
+  "reviewer_model": "gpt-6-astra",
+  "scope": "sampled visual and story review; ASR and measured signal support; no validated audio listening",
+  "closer_windows": [],
+  "elements": [
+    {
+      "kind": "ui",
+      "name": "website",
+      "events": [
+        "V05"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "status chip",
+      "events": [
+        "V06"
+      ]
+    },
+    {
+      "kind": "texture",
+      "name": "night footage",
+      "events": [
+        "V02",
+        "V06"
+      ]
+    }
+  ]
+}

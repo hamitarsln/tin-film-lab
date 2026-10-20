@@ -1,0 +1,334 @@
+{
+  "id": 112,
+  "viewed_evidence": [
+    "technical-review-2026-10-19/deep-review/motion/112/timeline-00.jpg",
+    "astra-review-2026-10-20/evidence/group-3/112/dense.jpg"
+  ],
+  "product_from_film": "Base 44 and Contra announce a live challenge with $15,000 in prizes.",
+  "explains_well": "The large challenge and prize cards make the event and reward clear.",
+  "unclear": "The entry task, deadline and entry link are not explained in these samples.",
+  "product_type": "builder challenge",
+  "scenario": "A collage of app-like designs leads to a challenge and prize announcement.",
+  "product_clear_time": 6,
+  "product_clear_basis": "Challenge now live appears 3–4 s and $15,000 in prizes at 6 s.",
+  "scenes": [
+    {
+      "start": 0,
+      "end": 1.75,
+      "action": "A layered design collage changes to a map view and a grid of nature-themed UI examples.",
+      "design": "Pastel panels, photos, map, calendar, publish control.",
+      "purpose": "Display creative possibilities",
+      "id": "V01",
+      "evidence": "Visible 1 fps samples, source 0–1.75 s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 1.75,
+      "end": 3,
+      "action": "A row of colored symbols becomes black symbols, compresses toward centre and resolves into the Base 44 wordmark by 2.5 s.",
+      "design": "White field, icons then orange/black logo.",
+      "purpose": "Connect variety to one brand",
+      "id": "V02",
+      "evidence": "Visible 1 fps samples, source 1.75–3 s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 3,
+      "end": 7,
+      "action": "Dark challenge card adds Now live; an orange dollar number gives way to $15,000 in prizes on dark.",
+      "design": "Large white type, orange full-frame emphasis.",
+      "purpose": "Announce event and reward",
+      "id": "V03",
+      "evidence": "Visible 1 fps samples, source 3–7 s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 7,
+      "end": 9,
+      "action": "A Build your own agent collage appears, followed by eight rounded black blocks on orange.",
+      "design": "UI tiles, portrait and geometric mark.",
+      "purpose": "Suggest a building task",
+      "id": "V04",
+      "evidence": "Visible 1 fps samples, source 7–9 s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 9,
+      "end": 12.033,
+      "action": "Base 44 and Contra logos hold together on dark.",
+      "design": "Small centred partner lockup.",
+      "purpose": "Close with partners",
+      "id": "V05",
+      "evidence": "Visible 1 fps samples, source 9–12.033 s; boundaries approximate, between-frame action unresolved."
+    }
+  ],
+  "sound": [
+    {
+      "id": "A01",
+      "start": 0,
+      "end": 12.033,
+      "layer": "unknown",
+      "detail": "No validated audio listening; speech, music, effects, mix and sync remain unverified.",
+      "visual_relation": "All visual scenes; alignment not checked",
+      "evidence": "No actual audio supplied to this review; existing technical-review-2026-10-19/deep-review/audio/112.json is not listening evidence."
+    }
+  ],
+  "categories": [
+    {
+      "finding": "Design examples lead to a branded challenge, prize amount and partner close.",
+      "evidence": "V01–V05",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q01"
+    },
+    {
+      "finding": "Overlapping maps, cards and photos change to a full map and then a nature UI grid; no challenge is yet stated.",
+      "evidence": "V01",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q02"
+    },
+    {
+      "finding": "A builder audience is suggested by app designs and Build your own agent; the live $15,000 challenge is clear 6 s, entry rules are not.",
+      "evidence": "V03–V04",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q03"
+    },
+    {
+      "finding": "The 1–4 s closer window shows a symbol row 1.75 s, black symbols 2 s, compressed mixed glyphs 2.25 s and Base 44 logo 2.5 s; the exact shape interpolation remains unresolved.",
+      "evidence": "V02; dense 1–4 s",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q04"
+    },
+    {
+      "finding": "White logo field switches to dark challenge card by 3 s; orange prize and graphic cards provide short contrasting interruptions.",
+      "evidence": "V02–V04",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q05"
+    },
+    {
+      "finding": "Pastel collage and nature photography alternate with flat white, charcoal and saturated orange fields.",
+      "evidence": "V01–V05",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q06"
+    },
+    {
+      "finding": "Challenge and $15,000 dominate; small Now live and in prizes clarify them. The end card has partner names but no readable entry route.",
+      "evidence": "V03,V05",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q07"
+    },
+    {
+      "finding": "Voice presence and delivery remain unverified.",
+      "evidence": "No validated audio listening",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q08"
+    },
+    {
+      "finding": "Music character and arc remain unverified.",
+      "evidence": "No validated audio listening",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q09"
+    },
+    {
+      "finding": "Sound effects remain unverified.",
+      "evidence": "No validated audio listening",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q10"
+    },
+    {
+      "finding": "Sound-to-motion timing remain unverified.",
+      "evidence": "No validated audio listening",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q11"
+    },
+    {
+      "finding": "Maps, portrait/photo tiles, product-like cards and symbols form a graphic montage; sources and actual product functionality are unverified.",
+      "evidence": "V01,V04",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q12"
+    },
+    {
+      "finding": "Source duration supplied as 12.033 s; no independent compression, clipping or delivery check.",
+      "evidence": "Assigned metadata; source integrity checked by parent",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q13"
+    },
+    {
+      "finding": "The live competition and reward survive silent viewing; rules and entry steps remain missing.",
+      "evidence": "V03–V05",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q14"
+    },
+    {
+      "finding": "The eye moves from many tiles to a centred logo, huge event title and huge amount.",
+      "evidence": "V01–V03",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q15"
+    },
+    {
+      "finding": "Twelve seconds fit event and prize well, but the 7 s building instruction is brief and shares space with collage.",
+      "evidence": "V04",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q16"
+    },
+    {
+      "finding": "The opening variety is tied to a building challenge, but a specific participant action is not completed.",
+      "evidence": "V01,V04",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q17"
+    },
+    {
+      "finding": "Dense creative examples and a large prize seem designed to invite excitement; response is unmeasured.",
+      "evidence": "V01,V03; interpretation",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q18"
+    },
+    {
+      "finding": "Orange and black symbols tie the logo, prize card and closing geometry together.",
+      "evidence": "V02–V04",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q19"
+    },
+    {
+      "finding": "The film claims a live challenge and prize pool; no entry submission or reward distribution is shown.",
+      "evidence": "V03",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q20"
+    },
+    {
+      "finding": "The transforming icon line and orange Base 44 mark provide identity; a generic prize card alone would not.",
+      "evidence": "V02,V03",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q21"
+    },
+    {
+      "finding": "Use part of the three-second partner hold for a deadline and short entry address.",
+      "evidence": "V05",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q22"
+    },
+    {
+      "finding": "For a builder contest, collect app screenshots, vector symbols, event terms and partner marks; animate the symbols into the event identity.",
+      "evidence": "V01–V05",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q23"
+    },
+    {
+      "finding": "No human new-viewer test; product description above is model interpretation of sampled images.",
+      "evidence": "V01–V05",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q24"
+    },
+    {
+      "finding": "No phone-size, safe-area or flash assessment; small UI text needs separate preview.",
+      "evidence": "Contact sheets",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q25"
+    }
+  ],
+  "lessons": {
+    "keep": "Use a clear prize card after showing the kind of work participants can make.",
+    "try": [
+      "For a Tin campaign challenge, follow example campaign cards with one entry action and a deadline.",
+      "Build a two-second icon-to-wordmark sequence with six approved symbols, then hold the event name for two seconds."
+    ],
+    "avoid": "Avoid closing an actionable challenge with only partner logos.",
+    "open": "What are the rules, and are the quick number changes readable at phone size?"
+  },
+  "comparison": {
+    "story": "Display creative possibilities → Connect variety to one brand → Announce event and reward → Suggest a building task → Close with partners",
+    "motion": "The 1–4 s closer window shows a symbol row 1.75 s, black symbols 2 s, compressed mixed glyphs 2.25 s and Base 44 logo 2.5 s; the exact shape interpolation remains unresolved.",
+    "sound": "No validated listening; no absence claims.",
+    "texture": "Pastel collage and nature photography alternate with flat white, charcoal and saturated orange fields.",
+    "lesson": "Use a clear prize card after showing the kind of work participants can make."
+  },
+  "elements": [
+    {
+      "kind": "ui",
+      "name": "map",
+      "events": [
+        "V01"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "calendar",
+      "events": [
+        "V01"
+      ]
+    },
+    {
+      "kind": "motion",
+      "name": "symbols become logo",
+      "events": [
+        "V02"
+      ]
+    },
+    {
+      "kind": "texture",
+      "name": "collage",
+      "events": [
+        "V01",
+        "V04"
+      ]
+    }
+  ],
+  "reviewer_model": "gpt-6-astra",
+  "scope": "sampled visual and story review; ASR and measured signal support; no validated audio listening",
+  "closer_windows": [
+    {
+      "start": 1,
+      "end": 4,
+      "rate_fps": 4,
+      "evidence": [
+        "astra-review-2026-10-20/evidence/group-3/112/dense.jpg"
+      ],
+      "resolved": "Colored icon row 1.75 s becomes black icons 2 s, compressed mixed glyphs 2.25 s and Base 44 logo 2.5 s; dark challenge card 3 s. Sub-frame morphing unresolved."
+    }
+  ]
+}

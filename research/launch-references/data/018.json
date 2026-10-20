@@ -1,0 +1,408 @@
+{
+  "id": 18,
+  "reviewer_model": "gpt-6-astra",
+  "scope": "sampled visual and story review; ASR and measured signal support; no validated audio listening",
+  "viewed_evidence": [
+    "technical-review-2026-10-19/deep-review/motion/018/timeline-00.jpg",
+    "technical-review-2026-10-19/deep-review/motion/018/timeline-01.jpg",
+    "technical-review-2026-10-19/deep-review/motion/018/timeline-02.jpg",
+    "technical-review-2026-10-19/deep-review/motion/018/timeline-03.jpg",
+    "technical-review-2026-10-19/deep-review/motion/018/timeline-04.jpg",
+    "technical-review-2026-10-19/deep-review/motion/018/timeline-05.jpg",
+    "technical-review-2026-10-19/deep-review/audio/018-speech.json"
+  ],
+  "closer_windows": [],
+  "product_from_film": "RoboParty RP1 is presented as an open humanoid robot platform for research and development.",
+  "explains_well": "Parts, ports, replaceable modules and motion examples give the platform a concrete physical form.",
+  "unclear": "The limits, reproducibility and safety of the demonstrated abilities are not independently tested.",
+  "product_type": "robotics hardware",
+  "scenario": "Inspect, modify and operate a modular humanoid robot.",
+  "product_clear_time": 17,
+  "product_clear_basis": "The named robot is followed by a presenter and full-stack open-source text.",
+  "scenes": [
+    {
+      "id": "V01",
+      "start": 0,
+      "end": 14,
+      "action": "Small greeting text on black leads to robot face, chest, hand and full-body views. The RP1 title sits behind the body, followed by separated component imagery.",
+      "design": "White shell, blue joints, black face with simple eyes.",
+      "purpose": "Reveal the robot and its construction.",
+      "evidence": "Visible chronological 1 fps samples, source 0–14s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V02",
+      "start": 14,
+      "end": 25,
+      "action": "Presenter stands beside a component layout; a hand holds an actuator, then separated gears and motor parts fill the screen.",
+      "design": "White studio and metallic exploded component views.",
+      "purpose": "Introduce the research platform and actuator claim.",
+      "evidence": "Visible chronological 1 fps samples, source 14–25s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V03",
+      "start": 25,
+      "end": 39,
+      "action": "Joint close-ups alternate with robot poses. Transparent arm housings reveal internals; the same view appears on a monitor beside a person working at a desk.",
+      "design": "Blue joints, clear shell cutaway, clean desk.",
+      "purpose": "Connect internal design with developer access.",
+      "evidence": "Visible chronological 1 fps samples, source 25–39s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V04",
+      "start": 39,
+      "end": 52,
+      "action": "Code and robot simulation screens replace the desk view, then people inspect the body. Ports receive labels and a sensor/head is shown being fitted.",
+      "design": "Dark code screen, laptop simulations, labeled ports.",
+      "purpose": "Show software access and physical extension points.",
+      "evidence": "Visible chronological 1 fps samples, source 39–52s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V05",
+      "start": 52,
+      "end": 67,
+      "action": "Clear arm sections expose blue internals; hands fit different end effectors. Several differently shaped heads appear with labels.",
+      "design": "Close hardware views and white background.",
+      "purpose": "Explain interchangeable modules.",
+      "evidence": "Visible chronological 1 fps samples, source 52–67s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V06",
+      "start": 67,
+      "end": 79,
+      "action": "A headset-wearing person and robot hold changing arm and leg poses beside each other; synchronization text appears, then joint close-ups return.",
+      "design": "Wide neutral studio, person and robot side by side.",
+      "purpose": "Claim motion control correspondence.",
+      "evidence": "Visible chronological 1 fps samples, source 67–79s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V07",
+      "start": 79,
+      "end": 92,
+      "action": "Feet and joint views lead to running-like poses and a sequence of stepped blocks traversed by the robot.",
+      "design": "Gray studio, low block course, white labels.",
+      "purpose": "Show movement and terrain capability.",
+      "evidence": "Visible chronological 1 fps samples, source 79–92s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V08",
+      "start": 92,
+      "end": 105,
+      "action": "Robot poses cross an obstacle, lift large containers and return upright from a low pose. A split view shows a physical stop control and a web stop state.",
+      "design": "Hardware action footage with safety control insert.",
+      "purpose": "Add strength and stopping examples.",
+      "evidence": "Visible chronological 1 fps samples, source 92–105s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V09",
+      "start": 105,
+      "end": 120,
+      "action": "People handle joints and housing; another person approaches the standing robot and exchanges a rear module while battery text appears.",
+      "design": "Close inspection and wider module exchange.",
+      "purpose": "Show serviceability and battery handling.",
+      "evidence": "Visible chronological 1 fps samples, source 105–120s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V10",
+      "start": 120,
+      "end": 132,
+      "action": "The robot remains upright, then Hardware, Software and Control fill large surfaces. A paper-like wall shape opens around a robot view.",
+      "design": "Large white type in a pale set.",
+      "purpose": "Sum up the platform layers.",
+      "evidence": "Visible chronological 1 fps samples, source 120–132s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V11",
+      "start": 132,
+      "end": 148,
+      "action": "Presenter stands with the robot; team imagery and tall code-like columns follow, then the robot gestures beside dense cards.",
+      "design": "White studio, team photo, long technical text columns.",
+      "purpose": "Connect the platform to a team and ecosystem.",
+      "evidence": "Visible chronological 1 fps samples, source 132–148s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V12",
+      "start": 148,
+      "end": 152.24,
+      "action": "Full-stack Open-source Humanoid RP1 text sits beside the robot, followed by RoboParty logo on white.",
+      "design": "Large product statement and blue logo.",
+      "purpose": "Restate the offer.",
+      "evidence": "Visible chronological 1 fps samples, source 148–152.24s; boundary approximate; exact motion between samples unverified."
+    }
+  ],
+  "sound": [
+    {
+      "id": "A01",
+      "start": 0,
+      "end": 152.24,
+      "layer": "unknown",
+      "detail": "No validated direct audio listening was performed. Music, speech delivery, effects, mix and sync remain unknown, not absent.",
+      "visual_relation": "All visual scenes; audiovisual alignment unverified",
+      "evidence": "Visual samples only; no actual audio range supplied to this reviewer."
+    },
+    {
+      "id": "A02",
+      "start": 15.49,
+      "end": 146.34,
+      "layer": "ASR draft",
+      "detail": "The coherent ASR draft presents RP1 for robotics researchers, then actuator access, open-source design, interfaces, interchangeable effectors/heads, motion, safety features, batteries and charging. It supports the feature sequence seen in the images. Synchronization, safety, battery and power figures remain product claims; no delivery or soundtrack was heard.",
+      "visual_relation": "Story text support; exact audiovisual alignment and delivery unverified.",
+      "evidence": "technical-review-2026-10-19/deep-review/audio/018-speech.json; local faster-whisper base CPU int8 draft; VAD candidates only, recognition errors possible."
+    }
+  ],
+  "categories": [
+    {
+      "id": "Q01",
+      "finding": "A physical reveal leads through internals, software, modularity, operation, safety and a team ending.",
+      "evidence": "V01–V12",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q02",
+      "finding": "Black and a small welcome sentence create a quiet reveal before the robot face arrives after 3 s.",
+      "evidence": "V01",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q03",
+      "finding": "The robot is clear early; research/development positioning becomes explicit in presenter text around 17–20 s.",
+      "evidence": "V01,V02",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q04",
+      "finding": "Exploded hardware separates along its axis; pose sequences show robots and humans changing stance. Exact synchronization and movement timing are unresolved.",
+      "evidence": "V02,V06,V07",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q05",
+      "finding": "Macro parts alternate with full-body demonstrations; the transparent arm becomes a monitor image to link design and use.",
+      "evidence": "V03",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q06",
+      "finding": "White shells, blue joints and metallic internals remain consistent across dark reveal and bright demonstration settings.",
+      "evidence": "V01–V12",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q07",
+      "finding": "Section claims are modestly sized; white labels often sit on pale backgrounds, making them harder to read in sheets.",
+      "evidence": "V02–V11",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q08",
+      "finding": "The coherent ASR draft presents RP1 for robotics researchers, then actuator access, open-source design, interfaces, interchangeable effectors/heads, motion, safety features, batteries and charging. It supports the feature sequence seen in the images. Synchronization, safety, battery and power figures remain product claims; no delivery or soundtrack was heard.",
+      "evidence": "A02",
+      "status": "uncertain",
+      "reason": "ASR text only; no validated listening, delivery or voice origin.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q09",
+      "finding": "Voice delivery, music, effects and audiovisual alignment were not established by this visual pass.",
+      "evidence": "A01",
+      "status": "not checked",
+      "reason": "No validated direct audio listening input.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q10",
+      "finding": "Voice delivery, music, effects and audiovisual alignment were not established by this visual pass.",
+      "evidence": "A01",
+      "status": "not checked",
+      "reason": "No validated direct audio listening input.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q11",
+      "finding": "Voice delivery, music, effects and audiovisual alignment were not established by this visual pass.",
+      "evidence": "A01",
+      "status": "not checked",
+      "reason": "No validated direct audio listening input.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q12",
+      "finding": "Hardware-looking footage, presenter, simulations, transparent cutaways and exploded assemblies are combined; their production origin is unknown.",
+      "evidence": "V01–V11",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q13",
+      "finding": "Manifest duration 152.24 s; indexed dimensions 1920×1080. Source unchanged flag recorded; fresh encoding and audio clipping checks not run.",
+      "evidence": "Group manifest",
+      "status": "uncertain",
+      "reason": "Inherited technical metadata; no fresh media probe in this review.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q14",
+      "finding": "Modularity and movement remain apparent silently; finer claims rely on small labels and captions.",
+      "evidence": "V04–V09",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q15",
+      "finding": "Macro shots isolate the active joint or connector before wide demonstrations show the whole body.",
+      "evidence": "V02–V09",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q16",
+      "finding": "The film contains many hardware claims; the module, motion and safety sections are distinct but require sustained viewing.",
+      "evidence": "V04–V09",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q17",
+      "finding": "The initial robot reveal is answered by extensive construction and operation examples and the final open-platform statement.",
+      "evidence": "V01,V12",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q18",
+      "finding": "A friendly face and hands-on inspection appear designed to make the robot approachable; this is interpretation, not a trust measurement.",
+      "evidence": "V01,V05,V09",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q19",
+      "finding": "The blue-white body and repeated joint details anchor the many scene changes.",
+      "evidence": "V01–V12",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q20",
+      "finding": "Visible samples support module changes and varied poses, but not measured latency, weight capacity, safety certification or open-source completeness.",
+      "evidence": "V04–V09",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q21",
+      "finding": "The oval black face, simple eyes and blue joints make the hardware recognizable without the logo.",
+      "evidence": "V01,V05,V12",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q22",
+      "finding": "Ports, module swaps and stop controls answer practical questions; the long technical-column ending is less legible than those demonstrations.",
+      "evidence": "V04,V05,V08,V11",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q23",
+      "finding": "A Tin integration film can borrow the part-to-system sequence: show one connector, its configuration, then a complete workflow result.",
+      "evidence": "V03,V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q24",
+      "finding": "RoboParty RP1 is presented as an open humanoid robot platform for research and development.",
+      "evidence": "Model reading from inspected images",
+      "status": "uncertain",
+      "reason": "Model-only new-viewer interpretation; no human test.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q25",
+      "finding": "Contact sheets inspected at displayed size; a phone-size playback, caption audit, flash audit and formal accessibility check were not performed.",
+      "evidence": "Viewed sheets",
+      "status": "not checked",
+      "reason": "Full-size moving-image and device checks unavailable in this pass.",
+      "experiment": "none"
+    }
+  ],
+  "lessons": {
+    "keep": "Move from a close view of a changeable part to the whole system using it.",
+    "avoid": "Avoid treating promotional movement samples as measured safety or latency proof.",
+    "open": "Actual motion continuity, audio, performance limits and component availability remain unverified.",
+    "try": [
+      "For a Tin integration demo, show one connector credential panel, the resulting workflow node and the finished campaign action in that order.",
+      "For a hardware film, keep a fixed camera on a module swap and place only its name and purpose beside the hands."
+    ]
+  },
+  "comparison": {
+    "story": "Reveal the robot and its construction. → Introduce the research platform and actuator claim. → Connect internal design with developer access. → Show software access and physical extension points. → Explain interchangeable modules. → Claim motion control correspondence. → Show movement and terrain capability. → Add strength and stopping examples. → Show serviceability and battery handling. → Sum up the platform layers. → Connect the platform to a team and ecosystem. → Restate the offer.",
+    "motion": "Exploded hardware separates along its axis; pose sequences show robots and humans changing stance. Exact synchronization and movement timing are unresolved. Sampling scope: 1 fps unless a closer window is recorded.",
+    "sound": "No validated listening; unknown.",
+    "texture": "White shell, blue joints, black face with simple eyes.; White studio and metallic exploded component views.; Blue joints, clear shell cutaway, clean desk.; Dark code screen, laptop simulations, labeled ports.; Close hardware views and white background.; Wide neutral studio, person and robot side by side.; Gray studio, low block course, white labels.; Hardware action footage with safety control insert.; Close inspection and wider module exchange.; Large white type in a pale set.; White studio, team photo, long technical text columns.; Large product statement and blue logo.",
+    "lesson": "Move from a close view of a changeable part to the whole system using it."
+  },
+  "elements": [
+    {
+      "kind": "texture",
+      "name": "blue and white robot shell",
+      "events": [
+        "V01",
+        "V05"
+      ]
+    },
+    {
+      "kind": "motion",
+      "name": "exploded assembly",
+      "events": [
+        "V02"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "code editor",
+      "events": [
+        "V04"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "stop control",
+      "events": [
+        "V08"
+      ]
+    },
+    {
+      "kind": "motion",
+      "name": "transparent component cutaway",
+      "events": [
+        "V03"
+      ]
+    }
+  ]
+}

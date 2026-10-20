@@ -1,0 +1,348 @@
+{
+  "id": 125,
+  "viewed_evidence": [
+    "technical-review-2026-10-19/deep-review/motion/125/timeline-00.jpg",
+    "technical-review-2026-10-19/deep-review/motion/125/timeline-01.jpg",
+    "technical-review-2026-10-19/deep-review/audio/125-speech.json",
+    "astra-review-2026-10-20/evidence/group-3/125/dense.jpg"
+  ],
+  "product_from_film": "Kaito offers a way to find influential voices in different online subjects.",
+  "explains_well": "The shift from one broadcast centre to many communities is clear.",
+  "unclear": "No influence-search or ranking workflow is shown.",
+  "product_type": "influence discovery",
+  "scenario": "A history-of-media montage leads to finding relevant people across domains.",
+  "product_clear_time": 48,
+  "product_clear_basis": "Find them and with Kaito close the sequence of domain examples.",
+  "scenes": [
+    {
+      "start": 0,
+      "end": 7,
+      "action": "People face one television; closeups and creator images sit beneath targeting circles, followed by older phone footage.",
+      "design": "Dark viewing room, rounded retro screens and yellow subtitles.",
+      "purpose": "Establish central authority",
+      "id": "V01",
+      "evidence": "Visible 1 fps samples, source 0–7 s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 7,
+      "end": 17,
+      "action": "Library, diagrams, control room, filmstrip, browser address and eye closeup appear; the eye becomes pale around Not anymore.",
+      "design": "Archival-looking clips, technical drawings, treated eye.",
+      "purpose": "Challenge the old information order",
+      "id": "V02",
+      "evidence": "Visible 1 fps samples, source 7–17 s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 17,
+      "end": 24,
+      "action": "Webcam face, huge AI letters, filenames, eye and brain scan lead to The result.",
+      "design": "Mixed photographic and graphic sources with tiny yellow captions.",
+      "purpose": "Introduce broader creation power",
+      "id": "V03",
+      "evidence": "Visible 1 fps samples, source 17–24 s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 24,
+      "end": 35,
+      "action": "Interview gives way to a grid of creators and then street, crowd, musician and runner clips.",
+      "design": "Portrait mosaic and varied footage.",
+      "purpose": "Show separate communities",
+      "id": "V04",
+      "evidence": "Visible 1 fps samples, source 24–35 s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 35,
+      "end": 46,
+      "action": "The question is overlays a runner and eye; stocks, AI mark, robot and coins illustrate domains.",
+      "design": "Centred white text, domain symbols and screens.",
+      "purpose": "Ask who matters in each field",
+      "id": "V05",
+      "evidence": "Visible 1 fps samples, source 35–46 s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 46,
+      "end": 50.155,
+      "action": "Desk clip joins many tiles in a curved wall, then the Kaito mark appears with the final caption. Closer view: Desk view shrinks as surrounding tiles enter 46.75–48.25 s. Black masks reveal the Kaito shape 48.5 s; mosaic-filled mark shrinks 48.75–49 s and turns white 49.5 s. Exact easing unresolved.",
+      "design": "Mosaic on dark, textured white mark.",
+      "purpose": "Connect discovery to Kaito",
+      "id": "V06",
+      "evidence": "Visible 1 fps samples, source 46–50.155 s; boundaries approximate, between-frame action unresolved."
+    }
+  ],
+  "sound": [
+    {
+      "id": "A01",
+      "start": 0,
+      "end": 50.155,
+      "layer": "unknown",
+      "detail": "No validated audio listening; speech, music, effects, mix and sync remain unverified.",
+      "visual_relation": "All visual scenes; alignment not checked",
+      "evidence": "No actual audio supplied to this review; existing technical-review-2026-10-19/deep-review/audio/125.json is not listening evidence."
+    },
+    {
+      "id": "A02",
+      "start": 0.362,
+      "end": 50.155,
+      "layer": "ASR draft",
+      "detail": "Draft narration moves from central authority to many specialist communities and asks who matters in each domain. This supports script structure only; delivery and soundtrack are unheard.",
+      "visual_relation": "Broad correspondence with scene sequence; exact audio alignment not checked",
+      "evidence": "technical-review-2026-10-19/deep-review/audio/125-speech.json; existing faster-whisper text, VAD ranges [{'start': 0.362, 'end': 25.362}, {'start': 25.362, 'end': 50.202}]; no actual listening."
+    }
+  ],
+  "categories": [
+    {
+      "finding": "Central broadcast authority becomes many communities, followed by a question about relevant voices and a Kaito close.",
+      "evidence": "V01–V06",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q01"
+    },
+    {
+      "finding": "Silhouettes watch a single TV; the caption Authority and central framing set the theme.",
+      "evidence": "V01 0–2 s",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q02"
+    },
+    {
+      "finding": "Influence discovery emerges from the final question and Find them close; the interface and customer remain unstated.",
+      "evidence": "V05–V06",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q03"
+    },
+    {
+      "finding": "Desk view shrinks as surrounding tiles enter 46.75–48.25 s. Black masks reveal the Kaito shape 48.5 s; mosaic-filled mark shrinks 48.75–49 s and turns white 49.5 s. Exact easing unresolved.",
+      "evidence": "V06; dense 46–50 s",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q04"
+    },
+    {
+      "finding": "Frequent clip changes follow the caption concepts; eye imagery recurs at the Not anymore and question pivots.",
+      "evidence": "V02,V05",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q05"
+    },
+    {
+      "finding": "Old-video softness, scanline-like surfaces, technical drawings and crisp black cards create a media-history collage.",
+      "evidence": "V01–V06",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q06"
+    },
+    {
+      "finding": "Small yellow captions carry much of the argument; large Not anymore and The question is act as chapter markers.",
+      "evidence": "V02,V05",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q07"
+    },
+    {
+      "finding": "Voice presence and delivery remain unverified.",
+      "evidence": "No validated audio listening",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q08"
+    },
+    {
+      "finding": "Music character and arc remain unverified.",
+      "evidence": "No validated audio listening",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q09"
+    },
+    {
+      "finding": "Sound effects remain unverified.",
+      "evidence": "No validated audio listening",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q10"
+    },
+    {
+      "finding": "Sound-to-motion timing remain unverified.",
+      "evidence": "No validated audio listening",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q11"
+    },
+    {
+      "finding": "Broadcast, interviews, creators, sports, diagrams, eye closeups and robot imagery are mixed; origins and permissions are unknown.",
+      "evidence": "V01–V06",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q12"
+    },
+    {
+      "finding": "Source duration supplied as 50.155 s; no independent compression, clipping or delivery check.",
+      "evidence": "Assigned metadata; source integrity checked by parent",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q13"
+    },
+    {
+      "finding": "Captions support the central-to-fragmented story, but the actual discovery action is missing.",
+      "evidence": "V01–V06",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q14"
+    },
+    {
+      "finding": "Single TV centre expands into many faces; large pivot text restores focus during the montage.",
+      "evidence": "V01,V04,V05",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q15"
+    },
+    {
+      "finding": "Many examples arrive in one-second samples; conceptual variety outweighs time on product explanation.",
+      "evidence": "V02–V05",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q16"
+    },
+    {
+      "finding": "The authority question receives a find-relevant-voices answer, but no demonstrated search result.",
+      "evidence": "V01,V06",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q17"
+    },
+    {
+      "finding": "The move from a dark shared TV to many active communities suggests expansion and possibility.",
+      "evidence": "V01,V04; interpretation",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q18"
+    },
+    {
+      "finding": "Eyes and portrait grids repeat; the topic captions provide stronger continuity than any single subject.",
+      "evidence": "V02–V05",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q19"
+    },
+    {
+      "finding": "The final discovery promise is asserted through domain examples, not an actual ranking or query.",
+      "evidence": "V05–V06",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q20"
+    },
+    {
+      "finding": "Kaito mark is distinctive at the end; most media-history assets are broadly reusable.",
+      "evidence": "V06",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q21"
+    },
+    {
+      "finding": "Replace several domain examples with one search and a contextual influence result.",
+      "evidence": "V05–V06",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q22"
+    },
+    {
+      "finding": "For a research tool, use one-to-many portrait framing then show the real filtered expert list.",
+      "evidence": "V01,V04,V06",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q23"
+    },
+    {
+      "finding": "No human new-viewer test; product description above is model interpretation of sampled images.",
+      "evidence": "V01–V06",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q24"
+    },
+    {
+      "finding": "No phone-size, safe-area or flash assessment; small UI text needs separate preview.",
+      "evidence": "Contact sheets",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q25"
+    }
+  ],
+  "lessons": {
+    "keep": "Change from one central screen to a portrait mosaic to explain fragmented attention.",
+    "try": [
+      "For expert discovery, turn a broadcast image into topic clusters and then reveal a real ranked result.",
+      "Test a shorter media-history opening followed by a query for one named topic and three useful profiles."
+    ],
+    "avoid": "Avoid implying that a domain montage proves discovery quality.",
+    "open": "How are people ranked, and what audio texture supports the montage?"
+  },
+  "comparison": {
+    "story": "Establish central authority → Challenge the old information order → Introduce broader creation power → Show separate communities → Ask who matters in each field → Connect discovery to Kaito",
+    "motion": "Desk view shrinks as surrounding tiles enter 46.75–48.25 s. Black masks reveal the Kaito shape 48.5 s; mosaic-filled mark shrinks 48.75–49 s and turns white 49.5 s. Exact easing unresolved.",
+    "sound": "No validated listening; no absence claims.",
+    "texture": "Old-video softness, scanline-like surfaces, technical drawings and crisp black cards create a media-history collage.",
+    "lesson": "Change from one central screen to a portrait mosaic to explain fragmented attention."
+  },
+  "elements": [
+    {
+      "kind": "ui",
+      "name": "browser shell",
+      "events": [
+        "V02"
+      ]
+    },
+    {
+      "kind": "texture",
+      "name": "collage",
+      "events": [
+        "V03",
+        "V04"
+      ]
+    },
+    {
+      "kind": "motion",
+      "name": "portrait mosaic",
+      "events": [
+        "V04",
+        "V06"
+      ]
+    }
+  ],
+  "reviewer_model": "gpt-6-astra",
+  "scope": "sampled visual and story review; ASR and measured signal support; no validated audio listening",
+  "closer_windows": [
+    {
+      "start": 46,
+      "end": 50,
+      "rate_fps": 4,
+      "evidence": [
+        "astra-review-2026-10-20/evidence/group-3/125/dense.jpg"
+      ],
+      "resolved": "Desk view shrinks as surrounding tiles enter 46.75–48.25 s. Black masks reveal the Kaito shape 48.5 s; mosaic-filled mark shrinks 48.75–49 s and turns white 49.5 s. Exact easing unresolved."
+    }
+  ]
+}

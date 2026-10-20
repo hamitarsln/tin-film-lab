@@ -1,0 +1,390 @@
+{
+  "id": 26,
+  "viewed_evidence": [
+    "technical-review-2026-10-19/deep-review/motion/026/timeline-00.jpg",
+    "technical-review-2026-10-19/deep-review/motion/026/timeline-01.jpg",
+    "technical-review-2026-10-19/deep-review/motion/026/timeline-02.jpg",
+    "astra-review-2026-10-20/evidence/group-3/026/dense.jpg",
+    "technical-review-2026-10-19/deep-review/audio/026-speech.json"
+  ],
+  "product_from_film": "Pancake presents prompt-based tools for landing pages and recurring lead generation.",
+  "explains_well": "The freefall-to-parachute story makes the shift from poor control to guided work easy to follow.",
+  "unclear": "The analogy depends on GTM and Vercel knowledge, and the shown lead workflow does not verify actual lead quality.",
+  "product_type": "marketing / go-to-market automation",
+  "scenario": "Build a landing page and schedule finding, enriching and contacting 50 warm leads.",
+  "product_clear_time": 36,
+  "product_clear_basis": "Prompt Build me a fresh landing page and its preview establish a concrete output at 36–37 s; recurring lead task follows.",
+  "scenes": [
+    {
+      "start": 0,
+      "end": 5,
+      "action": "A suited person at an airplane door gestures; captions compare finding customers with jumping out; the tandem pair leaves the plane.",
+      "design": "Wide-angle outdoor footage, large white opening text.",
+      "purpose": "Introduce uncontrolled acquisition.",
+      "id": "V01",
+      "evidence": "Visible 1 fps samples, source 0–5 s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 5,
+      "end": 12,
+      "action": "The pair freefalls over fields; captions mention noise, no control and not flying.",
+      "design": "Blue sky, horizon, close front-facing skydiver.",
+      "purpose": "Sustain the loss-of-control metaphor.",
+      "id": "V02",
+      "evidence": "Visible 1 fps samples, source 5–12 s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 12,
+      "end": 22,
+      "action": "Freefall continues as captions list tools, Claude, LinkedIn plans and comparison with others; a close face ends with reassurance.",
+      "design": "Small bottom captions over moving scenery.",
+      "purpose": "Connect freefall to scattered marketing work.",
+      "id": "V03",
+      "evidence": "Visible 1 fps samples, source 12–22 s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 22,
+      "end": 31,
+      "action": "Wide view shows parachute lines and then a seated harness close-up under an open canopy.",
+      "design": "Green parachute, calmer repeating composition, visible farmland.",
+      "purpose": "Change from falling to guided descent.",
+      "id": "V04",
+      "evidence": "Visible 1 fps samples, source 22–31 s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 31,
+      "end": 38,
+      "action": "Pancake name and Vercel for GTM line appear; a prompt builds toward a landing-page request and a site preview appears above.",
+      "design": "White rounded prompt panel over softened skydiving footage.",
+      "purpose": "Introduce prompt-to-output work.",
+      "id": "V05",
+      "evidence": "Visible 1 fps samples, source 31–38 s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 38,
+      "end": 47,
+      "action": "A lead prompt grows; dots and message symbols turn into weekday cards and a 50 warmest leads card with a live status.",
+      "design": "Color dots, compact schedule cards and white workflow summary.",
+      "purpose": "Show recurring lead work.",
+      "id": "V06",
+      "evidence": "Visible 1 fps samples, source 38–47 s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 47,
+      "end": 56,
+      "action": "Colored discs gather into a smiling pancake stack; data provider, tools and GTM brain panels surround it; prompt asks for customers before landing. Three colored discs change relative positions around the center from 47–48 s, overlap at 48.25 s and form a vertical stack by 48.5 s; a data-provider panel appears at 49.25 s. Exact easing and dimensional production method remain unknown.",
+      "design": "Playful flat-dimensional mascot over the same footage.",
+      "purpose": "Package the system components.",
+      "id": "V07",
+      "evidence": "Visible 1 fps samples, source 47–56 s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 56,
+      "end": 67,
+      "action": "Landing sequence leads to the speaker and instructor standing in a field; captions compare technical help with relying on the instructor.",
+      "design": "Wide outdoor footage and bottom captions.",
+      "purpose": "Pay off the helper analogy.",
+      "id": "V08",
+      "evidence": "Visible 1 fps samples, source 56–67 s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 67,
+      "end": 69.766,
+      "action": "Pancake wordmark and Vercel for GTM line hold on black.",
+      "design": "White branding.",
+      "purpose": "Close with identity.",
+      "id": "V09",
+      "evidence": "Visible 1 fps samples, source 67–69.766 s; boundaries approximate, between-frame action unresolved."
+    }
+  ],
+  "sound": [
+    {
+      "id": "A01",
+      "start": 0,
+      "end": 69.766,
+      "layer": "unknown",
+      "detail": "No validated audio listening; speech, music, effects, mix and sync remain unverified.",
+      "visual_relation": "All visual scenes; alignment not checked",
+      "evidence": "No actual audio supplied to this review; existing technical-review-2026-10-19/deep-review/audio/026.json is not listening evidence."
+    },
+    {
+      "id": "A02",
+      "start": 0.39,
+      "end": 69.18,
+      "layer": "ASR draft",
+      "detail": "Candidate script moves from a falling metaphor to agent building blocks for prospecting, enrichment and contact. Several opening tool-friction phrases are garbled and rejected. Cloud and versatile are unreliable proper-name transcriptions; the final exchange is also uncertain.",
+      "visual_relation": "Candidate script support for the existing visual story; no hearing or delivery judgment.",
+      "evidence": "technical-review-2026-10-19/deep-review/audio/026-speech.json; existing faster-whisper base CPU int8; reviewed text segments"
+    }
+  ],
+  "categories": [
+    {
+      "finding": "Uncontrolled fall becomes supported descent, with prompt outputs shown during the calmer section.",
+      "evidence": "V01–V08",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q01"
+    },
+    {
+      "finding": "A person at an open plane door and Finding new customers text tie danger to a marketing problem.",
+      "evidence": "V01",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q02"
+    },
+    {
+      "finding": "The title at 31–33 s uses jargon; landing-page preview at 36–37 s gives a concrete product job.",
+      "evidence": "V05",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q03"
+    },
+    {
+      "finding": "Three colored discs change relative positions around the center from 47–48 s, overlap at 48.25 s and form a vertical stack by 48.5 s; a data-provider panel appears at 49.25 s. Exact easing and dimensional production method remain unknown.",
+      "evidence": "V02,V06,V07; dense 47–50 s",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q04"
+    },
+    {
+      "finding": "Freefall and open-canopy shots divide problem and solution; floating panels preserve the skydiver background through demos.",
+      "evidence": "V04–V07",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q05"
+    },
+    {
+      "finding": "Bright real-world-looking skydiving footage contrasts with white UI and candy-colored mascot discs. Origin is unverified.",
+      "evidence": "V01,V05,V07",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q06"
+    },
+    {
+      "finding": "Large opening text is readable at sheet scale; later prompt and schedule labels are small; Vercel/GTM phrasing assumes familiarity.",
+      "evidence": "V01,V05–V06",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q07"
+    },
+    {
+      "finding": "Voice presence and delivery remain unverified.",
+      "evidence": "No validated audio listening",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q08"
+    },
+    {
+      "finding": "Music character and arc remain unverified.",
+      "evidence": "No validated audio listening",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q09"
+    },
+    {
+      "finding": "Sound effects remain unverified.",
+      "evidence": "No validated audio listening",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q10"
+    },
+    {
+      "finding": "Sound-to-motion timing remain unverified.",
+      "evidence": "No validated audio listening",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q11"
+    },
+    {
+      "finding": "Tandem skydiving footage is combined with prompt panels, output previews and a mascot; capture and asset origin are unknown.",
+      "evidence": "V01–V07",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q12"
+    },
+    {
+      "finding": "Source duration supplied as 69.766 s; no independent compression, clipping or delivery check.",
+      "evidence": "Assigned metadata; source integrity checked by parent",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q13"
+    },
+    {
+      "finding": "Captions convey the analogy; visible prompts and cards explain page/lead tasks without hearing.",
+      "evidence": "V05–V06",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q14"
+    },
+    {
+      "finding": "The speaker’s face competes with prompt and result panels; softened background reduces some competition.",
+      "evidence": "V05–V07",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q15"
+    },
+    {
+      "finding": "Roughly half the runtime is analogy before a concrete output; the lead task is the densest useful sequence.",
+      "evidence": "V01–V06",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q16"
+    },
+    {
+      "finding": "The opening jump lands safely and prompts gain outputs; the physical landing pays off the film’s setup.",
+      "evidence": "V01,V08",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q17"
+    },
+    {
+      "finding": "Interpretation: exposure and freefall seek tension, canopy and landing suggest relief; no audience data or audible delivery evidence.",
+      "evidence": "V01,V04,V08",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q18"
+    },
+    {
+      "finding": "The same suit, harness, instructor and landscape bind the product overlays to one journey.",
+      "evidence": "V01–V08",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q19"
+    },
+    {
+      "finding": "Page preview and live lead-plan card are represented; contact outcomes and customer acquisition are not verified.",
+      "evidence": "V05–V06",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q20"
+    },
+    {
+      "finding": "Pancake discs become a named mascot; the specific stack creates identity beyond a generic prompt panel.",
+      "evidence": "V07",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q21"
+    },
+    {
+      "finding": "The list of tool-friction captions could be shorter to expose the product sooner while keeping takeoff and landing.",
+      "evidence": "V03,V05",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q22"
+    },
+    {
+      "finding": "For Tin, use a modest guided-task analogy and one actual recurring campaign output; a skydive shoot is not required to reuse the causal structure.",
+      "evidence": "V04–V08",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q23"
+    },
+    {
+      "finding": "No human new-viewer test; product description above is model interpretation of sampled images.",
+      "evidence": "V01–V09",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q24"
+    },
+    {
+      "finding": "No phone-size, safe-area or flash assessment; small UI text needs separate preview.",
+      "evidence": "Contact sheets",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q25"
+    }
+  ],
+  "lessons": {
+    "keep": "Place a clear before/after emotional turn before showing task outputs.",
+    "try": [
+      "For Tin, show an owner juggling three marketing tabs, then a calm fixed screen with one scheduled campaign and its result.",
+      "Test the lead-generation prompt and weekly schedule as a standalone 12-second cut with a still background and enlarged labels."
+    ],
+    "avoid": "Making outside product jargon carry the category explanation.",
+    "open": "Whether prompt outputs are actual product behavior and how the unheard audio supports the physical story."
+  },
+  "comparison": {
+    "story": "Introduce uncontrolled acquisition. → Sustain the loss-of-control metaphor. → Connect freefall to scattered marketing work. → Change from falling to guided descent. → Introduce prompt-to-output work. → Show recurring lead work. → Package the system components. → Pay off the helper analogy. → Close with identity.",
+    "motion": "People/horizon change continuously across sampled freefall states; UI cards build over descent footage; discs gather into a mascot. Exact motion timing is unresolved.",
+    "sound": "No validated listening; no absence claims.",
+    "texture": "Bright real-world-looking skydiving footage contrasts with white UI and candy-colored mascot discs. Origin is unverified.",
+    "lesson": "Place a clear before/after emotional turn before showing task outputs."
+  },
+  "elements": [
+    {
+      "kind": "ui",
+      "name": "prompt box",
+      "events": [
+        "V05",
+        "V06"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "website preview",
+      "events": [
+        "V05"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "schedule cards",
+      "events": [
+        "V06"
+      ]
+    },
+    {
+      "kind": "motion",
+      "name": "mascot assembly",
+      "events": [
+        "V07"
+      ]
+    },
+    {
+      "kind": "texture",
+      "name": "outdoor footage",
+      "events": [
+        "V01",
+        "V08"
+      ]
+    }
+  ],
+  "reviewer_model": "gpt-6-astra",
+  "scope": "sampled visual and story review; ASR and measured signal support; no validated audio listening",
+  "closer_windows": [
+    {
+      "start": 47,
+      "end": 50,
+      "rate_fps": 4,
+      "evidence": [
+        "astra-review-2026-10-20/evidence/group-3/026/dense.jpg"
+      ],
+      "resolved": "Three colored discs change relative positions around the center from 47–48 s, overlap at 48.25 s and form a vertical stack by 48.5 s; a data-provider panel appears at 49.25 s. Exact easing and dimensional production method remain unknown."
+    }
+  ]
+}

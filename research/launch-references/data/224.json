@@ -1,0 +1,370 @@
+{
+  "id": 224,
+  "reviewer_model": "gpt-6-astra",
+  "scope": "sampled visual and story review; ASR and measured signal support; no validated audio listening",
+  "viewed_evidence": [
+    "technical-review-2026-10-19/deep-review/motion/224/timeline-00.jpg",
+    "technical-review-2026-10-19/deep-review/motion/224/timeline-01.jpg",
+    "technical-review-2026-10-19/deep-review/motion/224/timeline-02.jpg",
+    "technical-review-2026-10-19/deep-review/audio/224-speech.json",
+    "astra-review-2026-10-20/evidence/group-2/224-38.png",
+    "astra-review-2026-10-20/evidence/group-2/224-39.png",
+    "astra-review-2026-10-20/evidence/group-2/224-39.5.png",
+    "astra-review-2026-10-20/evidence/group-2/224-39.7.png",
+    "astra-review-2026-10-20/evidence/group-2/224-37.5-40.5-4fps.jpg"
+  ],
+  "closer_windows": [
+    {
+      "start": 37.5,
+      "end": 40.5,
+      "rate_fps": 4,
+      "evidence": [
+        "astra-review-2026-10-20/evidence/group-2/224-38.png",
+        "astra-review-2026-10-20/evidence/group-2/224-39.png",
+        "astra-review-2026-10-20/evidence/group-2/224-39.5.png",
+        "astra-review-2026-10-20/evidence/group-2/224-39.7.png",
+        "astra-review-2026-10-20/evidence/group-2/224-37.5-40.5-4fps.jpg"
+      ],
+      "resolved": "Confirmation counts upward to 11.563 SOL, close to the estimated 11.561 SOL. The roughly 10.41 figure was intermediate. Same 1,000 USDC order; no large mismatch established."
+    }
+  ],
+  "product_from_film": "JTX presents a trading terminal with direct SOL buys, smart-fill execution and order information.",
+  "explains_well": "The product section shows an amount entry, a purchase confirmation and a larger order using smart fill.",
+  "unclear": "The long performance montage delays the product, and the savings comparison does not show its reference price or calculation.",
+  "product_type": "crypto trading terminal",
+  "scenario": "Buy SOL with USDC and use smart fill for a large order.",
+  "product_clear_time": 37,
+  "product_clear_basis": "The terminal zooms to a USDC-to-SOL order form.",
+  "scenes": [
+    {
+      "id": "V01",
+      "start": 0,
+      "end": 11,
+      "action": "A rocket above Earth leads to financial-city imagery, an eye reflecting a chart, old-looking trader footage, a TV market display and a desk keyboard.",
+      "design": "Cinematic finance collage with small yellow Chinese captions.",
+      "purpose": "Establish ambition and trading history.",
+      "evidence": "Visible chronological 1 fps samples, source 0–11s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V02",
+      "start": 11,
+      "end": 22,
+      "action": "A sports car moves across snow with a horse visible above it; trading-floor people, data screens and paper handling follow, then a stadium-like spectacle.",
+      "design": "Fast collage, cool car imagery and busy trading scenes.",
+      "purpose": "Build speed and competitive pressure.",
+      "evidence": "Visible chronological 1 fps samples, source 11–22s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V03",
+      "start": 22,
+      "end": 36,
+      "action": "A lone desk user, clock, chart and intense face close-ups lead through black samples to racing-car and helmet images.",
+      "design": "Dark isolation, facial changes and motorsport inserts.",
+      "purpose": "Prepare an upgrade or transformation theme.",
+      "evidence": "Visible chronological 1 fps samples, source 22–36s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V04",
+      "start": 36,
+      "end": 41,
+      "action": "A dark terminal zooms to a USDC/SOL form with 1,000 entered and an estimated 11.561 SOL receive amount. The confirmation number counts upward, settling at 11.563 SOL for 1,000 USDC before a savings message. The earlier roughly 10.41 sample was an intermediate animation value, not the final fill.",
+      "design": "Green buy button, order book and dark confirmation panel.",
+      "purpose": "Demonstrate a smaller purchase and claimed saving.",
+      "evidence": "Visible chronological 1 fps samples, source 36–41s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V05",
+      "start": 41,
+      "end": 53,
+      "action": "The form changes to 5,000,000 USDC with Run Smart Fill. A progress panel appears, followed by a large savings claim, balance/order tables and a chart marked with repeated buy dots and order detail.",
+      "design": "Cyan progress bar, trading tables and green chart markers.",
+      "purpose": "Show execution tools for a larger order.",
+      "evidence": "Visible chronological 1 fps samples, source 41–53s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V06",
+      "start": 53,
+      "end": 61.834,
+      "action": "Racing footage returns, followed by a person climbing rocks and a bright particle form. JTX holds on black before a final black sample.",
+      "design": "Performance imagery and minimal brand ending.",
+      "purpose": "Close on advancement and identity.",
+      "evidence": "Visible chronological 1 fps samples, source 53–61.834s; boundary approximate; exact motion between samples unverified."
+    }
+  ],
+  "sound": [
+    {
+      "id": "A01",
+      "start": 0,
+      "end": 61.834,
+      "layer": "unknown",
+      "detail": "No validated direct audio listening was performed. Music, speech delivery, effects, mix and sync remain unknown, not absent.",
+      "visual_relation": "All visual scenes; audiovisual alignment unverified",
+      "evidence": "Visual samples only; no actual audio range supplied to this reviewer."
+    }
+  ],
+  "categories": [
+    {
+      "id": "Q01",
+      "finding": "A long trading/performance montage leads to a small buy and larger smart-fill example, then returns to ambition imagery.",
+      "evidence": "V01–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q02",
+      "finding": "A rocket above Earth signals speed and ambition, without yet identifying trading software.",
+      "evidence": "V01",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q03",
+      "finding": "Trading is a repeated theme, but the product task becomes concrete only at the order form around 37 s.",
+      "evidence": "V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q04",
+      "finding": "The terminal enlarges into the form, order values change, a progress bar fills and repeated buy markers appear on the chart. Exact timing and execution cadence are unverified.",
+      "evidence": "V04,V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q05",
+      "finding": "Racing imagery brackets the software as a performance metaphor; the lengthy collage has loose thematic continuity.",
+      "evidence": "V03,V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q06",
+      "finding": "Dark finance screens and cinematic footage dominate; green/cyan execution graphics provide functional emphasis.",
+      "evidence": "V01–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q07",
+      "finding": "Buy and Smart Fill labels are clear in close-up; small yellow Chinese captions and detailed order tables are harder to read at sheet size.",
+      "evidence": "V01–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q08",
+      "finding": "The Chinese ASR draft is fragmented and contains implausible wording. It was not used as a reliable translation or dialogue record; delivery remains unknown.",
+      "evidence": "technical-review-2026-10-19/deep-review/audio/224-speech.json",
+      "status": "not checked",
+      "reason": "No validated direct audio listening input.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q09",
+      "finding": "Voice delivery, music, effects and audiovisual alignment were not established by this visual pass.",
+      "evidence": "A01",
+      "status": "not checked",
+      "reason": "No validated direct audio listening input.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q10",
+      "finding": "Voice delivery, music, effects and audiovisual alignment were not established by this visual pass.",
+      "evidence": "A01",
+      "status": "not checked",
+      "reason": "No validated direct audio listening input.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q11",
+      "finding": "Voice delivery, music, effects and audiovisual alignment were not established by this visual pass.",
+      "evidence": "A01",
+      "status": "not checked",
+      "reason": "No validated direct audio listening input.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q12",
+      "finding": "Rocket, finance, car, human and climbing imagery is combined with terminal graphics; sources and production methods are unknown.",
+      "evidence": "V01–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q13",
+      "finding": "Manifest duration 61.834s; indexed dimensions 1280×720. Source unchanged flag recorded; fresh encoding and audio clipping checks not run.",
+      "evidence": "Group manifest",
+      "status": "uncertain",
+      "reason": "Inherited technical metadata; no fresh media probe in this review.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q14",
+      "finding": "The two order sizes and smart-fill progression are understandable visually; the early montage argument is less accessible without reliable script text.",
+      "evidence": "V01–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q15",
+      "finding": "The green button and cyan progress bar focus the product section more clearly than the earlier layered montage.",
+      "evidence": "V04,V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q16",
+      "finding": "Roughly 36 s precede the product demonstration, while the two execution examples share about 17 s.",
+      "evidence": "V01–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q17",
+      "finding": "The performance framing receives a smart-execution payoff, but the relation between displayed savings and exact trade states is unclear.",
+      "evidence": "V03–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q18",
+      "finding": "Isolation and intense faces suggest pressure; racing and climbing suggest mastery. These are creative interpretations.",
+      "evidence": "V03,V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q19",
+      "finding": "The same 1,000 USDC order connects the estimated 11.561 SOL quote to a final 11.563 SOL confirmation. A closer check resolves the apparent mismatch as an upward count animation.",
+      "evidence": "V04; closer window 37.5–40.5 s and full-size 39.7 s frame",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q20",
+      "finding": "The confirmation shows average fill $86.49/SOL, actual slippage 0.06% and fees $0. These are visible claims; execution and the later savings comparison are not independently verified.",
+      "evidence": "V04; closer window 37.5–40.5 s and full-size 39.7 s frame",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q21",
+      "finding": "The Smart Fill workflow and terminal make the offer specific; most ambition footage could fit other trading brands.",
+      "evidence": "V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q22",
+      "finding": "Shorten the montage and hold the settled confirmation long enough to read before introducing the savings comparison.",
+      "evidence": "V01–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q23",
+      "finding": "Tin can contrast a small direct action with a larger managed workflow. Hold final values after a count animation so viewers can compare input and result.",
+      "evidence": "V04,V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q24",
+      "finding": "JTX presents a trading terminal with direct SOL buys, smart-fill execution and order information.",
+      "evidence": "Model reading from inspected images",
+      "status": "uncertain",
+      "reason": "Model-only new-viewer interpretation; no human test.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q25",
+      "finding": "Contact sheets inspected at displayed size; a phone-size playback, caption audit, flash audit and formal accessibility check were not performed.",
+      "evidence": "Viewed sheets",
+      "status": "not checked",
+      "reason": "Full-size moving-image and device checks unavailable in this pass.",
+      "experiment": "none"
+    }
+  ],
+  "lessons": {
+    "keep": "Use two task scales to explain why a more advanced execution tool matters.",
+    "avoid": "Avoid cutting away immediately after a numerical count; sparse samples can catch an intermediate value.",
+    "open": "Execution, price comparison, savings math, Chinese script accuracy, footage rights, exact transitions and all audio remain unverified.",
+    "try": [
+      "Show a small Tin publish action beside a larger batch workflow with visible progress and approvals.",
+      "Keep the settled input, output and savings basis readable together after any animated count."
+    ]
+  },
+  "comparison": {
+    "story": "Establish ambition and trading history. → Build speed and competitive pressure. → Prepare an upgrade or transformation theme. → Demonstrate a smaller purchase and claimed saving. → Show execution tools for a larger order. → Close on advancement and identity.",
+    "motion": "The terminal enlarges into the form, order values change, a progress bar fills and repeated buy markers appear on the chart. Exact timing and execution cadence are unverified. Sampling scope: 1 fps unless a closer window is recorded.",
+    "sound": "No validated listening; unknown.",
+    "texture": "Cinematic finance collage with small yellow Chinese captions.; Fast collage, cool car imagery and busy trading scenes.; Dark isolation, facial changes and motorsport inserts.; Green buy button, order book and dark confirmation panel.; Cyan progress bar, trading tables and green chart markers.; Performance imagery and minimal brand ending.",
+    "lesson": "Use two task scales to explain why a more advanced execution tool matters."
+  },
+  "elements": [
+    {
+      "kind": "ui",
+      "name": "trading terminal",
+      "events": [
+        "V04",
+        "V05"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "order form",
+      "events": [
+        "V04",
+        "V05"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "progress bar",
+      "events": [
+        "V05"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "order table",
+      "events": [
+        "V05"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "candlestick chart",
+      "events": [
+        "V05"
+      ]
+    },
+    {
+      "kind": "texture",
+      "name": "racing footage",
+      "events": [
+        "V03",
+        "V06"
+      ]
+    }
+  ]
+}

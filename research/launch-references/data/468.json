@@ -1,0 +1,342 @@
+{
+  "id": 468,
+  "reviewer_model": "gpt-6-astra",
+  "scope": "sampled visual and story review; ASR and measured signal support; no validated audio listening",
+  "viewed_evidence": [
+    "technical-review-2026-10-19/deep-review/motion/468/timeline-00.jpg",
+    "technical-review-2026-10-19/deep-review/motion/468/timeline-01.jpg",
+    "technical-review-2026-10-19/deep-review/audio/468-speech.json"
+  ],
+  "closer_windows": [],
+  "product_from_film": "Cluely University is pitched as a course about viral attention and intern life through exaggerated wealth and lifestyle comedy.",
+  "explains_well": "The repeated hoodie, presenters and university title keep the identity clear across the jokes.",
+  "unclear": "The film does not show a lesson, curriculum or practical learning outcome, and the joking price exchange leaves the offer uncertain.",
+  "product_type": "satirical course launch",
+  "scenario": "Promote a course associated with viral content and intern culture.",
+  "product_clear_time": 49,
+  "product_clear_basis": "The closing University reveal identifies the offer after repeated course references.",
+  "scenes": [
+    {
+      "id": "V01",
+      "start": 0,
+      "end": 13,
+      "action": "A presenter enters in a Cluely University hoodie; age and income graphics accompany mansion, phone, social and watch cutaways.",
+      "design": "Casual handheld footage, bold numbers and framed inserts.",
+      "purpose": "Hook attention with exaggerated lifestyle claims.",
+      "evidence": "Visible chronological 1 fps samples, source 0–13s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V02",
+      "start": 13,
+      "end": 22,
+      "action": "A second presenter speaks outdoors about teenage millionaires and a $5,000 course, with watch and walking inserts.",
+      "design": "Direct address and recurring branded hoodie.",
+      "purpose": "Introduce the course through a wealth pitch.",
+      "evidence": "Visible chronological 1 fps samples, source 13–22s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V03",
+      "start": 22,
+      "end": 32,
+      "action": "Another presenter sits with a laptop on a park bench; social-post and party-like inserts accompany claims about money and buying the course.",
+      "design": "Loose documentary-style cuts and small subtitles.",
+      "purpose": "Extend the satire.",
+      "evidence": "Visible chronological 1 fps samples, source 22–32s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V04",
+      "start": 32,
+      "end": 46,
+      "action": "The presenters alternate around a park, listing viral content, dates and scrolling during company hours; a dance attempt interrupts the exchange.",
+      "design": "Large words appear behind people and quick reaction cuts.",
+      "purpose": "Show the supposed lesson themes as jokes.",
+      "evidence": "Visible chronological 1 fps samples, source 32–46s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V05",
+      "start": 46,
+      "end": 56,
+      "action": "Both presenters stand together before a monument; Cluely University fills the wide frame, then a close exchange questions whether the course costs $5,000.",
+      "design": "Paired framing, oversized title and visible reactions.",
+      "purpose": "Reveal the named offer and undercut the price pitch.",
+      "evidence": "Visible chronological 1 fps samples, source 46–56s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V06",
+      "start": 56,
+      "end": 60.393,
+      "action": "The university mark and now appear on black, then a dance clip carries cluely.university.",
+      "design": "Simple brand cards and a final outtake-like scene.",
+      "purpose": "Supply the destination.",
+      "evidence": "Visible chronological 1 fps samples, source 56–60.393s; boundary approximate; exact motion between samples unverified."
+    }
+  ],
+  "sound": [
+    {
+      "id": "A01",
+      "start": 0,
+      "end": 60.393,
+      "layer": "unknown",
+      "detail": "No validated direct audio listening was performed. Music, speech delivery, effects, mix and sync remain unknown, not absent.",
+      "visual_relation": "All visual scenes; audiovisual alignment unverified",
+      "evidence": "Visual samples only; no actual audio range supplied to this reviewer."
+    },
+    {
+      "id": "A02",
+      "start": 0,
+      "end": 54.12,
+      "layer": "ASR draft",
+      "detail": "The broadly coherent ASR draft supports the exaggerated wealth pitch, repeated course price and final question about that price. Several names and intern-related words are mistranscribed, so visible branding and subtitles take priority. Voice delivery, music and effects remain unverified.",
+      "visual_relation": "Story text support; exact audiovisual alignment and delivery unverified.",
+      "evidence": "technical-review-2026-10-19/deep-review/audio/468-speech.json; local faster-whisper base CPU int8 draft; VAD candidates only, recognition errors possible."
+    }
+  ],
+  "categories": [
+    {
+      "id": "Q01",
+      "finding": "Wealth boasts become a repeated course sales joke, a list of lifestyle topics and a university reveal.",
+      "evidence": "V01–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q02",
+      "finding": "The branded hoodie and age claim introduce a young presenter as the attention hook.",
+      "evidence": "V01",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q03",
+      "finding": "The film appears aimed at young viewers interested in online attention and startup culture; an actual learning need is not defined.",
+      "evidence": "V01–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q04",
+      "finding": "Large number and topic words appear around or behind presenters; handheld reframing and quick cutaways interrupt direct address, ending with a dance clip.",
+      "evidence": "V01–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q05",
+      "finding": "Presenter swaps and reaction cuts carry the jokes. The wide paired shot becomes the main brand reveal near the end.",
+      "evidence": "V02–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q06",
+      "finding": "Casual indoor and cool outdoor footage, college-style hoodie lettering and simple oversized graphics create an informal campus-like tone.",
+      "evidence": "V01–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q07",
+      "finding": "Subtitles make the repeated course pitch readable; income and watch figures receive large emphasis, while no curriculum appears.",
+      "evidence": "V01–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q08",
+      "finding": "The broadly coherent ASR draft supports the exaggerated wealth pitch, repeated course price and final question about that price. Several names and intern-related words are mistranscribed, so visible branding and subtitles take priority. Voice delivery, music and effects remain unverified.",
+      "evidence": "A02",
+      "status": "uncertain",
+      "reason": "ASR text only; no validated listening, delivery or voice origin.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q09",
+      "finding": "Voice delivery, music, effects and audiovisual alignment were not established by this visual pass.",
+      "evidence": "A01",
+      "status": "not checked",
+      "reason": "No validated direct audio listening input.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q10",
+      "finding": "Voice delivery, music, effects and audiovisual alignment were not established by this visual pass.",
+      "evidence": "A01",
+      "status": "not checked",
+      "reason": "No validated direct audio listening input.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q11",
+      "finding": "Voice delivery, music, effects and audiovisual alignment were not established by this visual pass.",
+      "evidence": "A01",
+      "status": "not checked",
+      "reason": "No validated direct audio listening input.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q12",
+      "finding": "Two main presenters, home and park footage, social screenshots, lifestyle inserts and text overlays form the film.",
+      "evidence": "V01–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q13",
+      "finding": "Manifest duration 60.393s; indexed dimensions 1920×1080. Source unchanged flag recorded; fresh encoding and audio clipping checks not run.",
+      "evidence": "Group manifest",
+      "status": "uncertain",
+      "reason": "Inherited technical metadata; no fresh media probe in this review.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q14",
+      "finding": "Subtitles preserve the comedy and course references silently, but the practical offer is still unclear.",
+      "evidence": "V01–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q15",
+      "finding": "Large numbers pull attention toward status claims; the actual learning content never receives an equally clear visual.",
+      "evidence": "V01,V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q16",
+      "finding": "Most of the minute develops the lifestyle joke. The final named offer and URL get only a short closing section.",
+      "evidence": "V01–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q17",
+      "finding": "The wealth hook ends in a course invitation, but no example connects course participation to a skill or result.",
+      "evidence": "V01,V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q18",
+      "finding": "Exaggerated boasts and the price interruption suggest self-mocking bravado. Heard delivery and audience interpretation are unverified.",
+      "evidence": "V01–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q19",
+      "finding": "The hoodie and recurring pair hold continuity; the late price question deliberately complicates the earlier sales claim.",
+      "evidence": "V01,V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q20",
+      "finding": "Income, lifestyle and course-price statements are presented within a comic pitch. No earnings records, lesson sample or student result is supplied.",
+      "evidence": "V01–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q21",
+      "finding": "Cluely University branding appears throughout on clothing and dominates the closing reveal.",
+      "evidence": "V01–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q22",
+      "finding": "Add one concrete lesson and its deliverable before the URL, and state the actual offer plainly.",
+      "evidence": "V05–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q23",
+      "finding": "A recurring visual identity can hold a loose comedy montage together, but a course launch still needs a clear learning outcome.",
+      "evidence": "V01–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q24",
+      "finding": "Cluely University is pitched as a course about viral attention and intern life through exaggerated wealth and lifestyle comedy.",
+      "evidence": "Model reading from inspected images",
+      "status": "uncertain",
+      "reason": "Model-only new-viewer interpretation; no human test.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q25",
+      "finding": "Contact sheets inspected at displayed size; a phone-size playback, caption audit, flash audit and formal accessibility check were not performed.",
+      "evidence": "Viewed sheets",
+      "status": "not checked",
+      "reason": "Full-size moving-image and device checks unavailable in this pass.",
+      "experiment": "none"
+    }
+  ],
+  "lessons": {
+    "keep": "Use recurring clothing and presenters to keep a loose comic sequence recognizable.",
+    "avoid": "Relying on status jokes to explain the value of a learning product.",
+    "open": "Actual course contents, price, income claims and sound remain unverified.",
+    "try": [
+      "For Tin training, keep a playful opening but show one campaign skill and the output the learner will produce.",
+      "Compare the lifestyle-only pitch with a short lesson sample before the same branded ending."
+    ]
+  },
+  "comparison": {
+    "story": "Hook attention with exaggerated lifestyle claims. → Introduce the course through a wealth pitch. → Extend the satire. → Show the supposed lesson themes as jokes. → Reveal the named offer and undercut the price pitch. → Supply the destination.",
+    "motion": "Large number and topic words appear around or behind presenters; handheld reframing and quick cutaways interrupt direct address, ending with a dance clip. Sampling scope: 1 fps unless a closer window is recorded.",
+    "sound": "No validated listening; unknown.",
+    "texture": "Casual handheld footage, bold numbers and framed inserts.; Direct address and recurring branded hoodie.; Loose documentary-style cuts and small subtitles.; Large words appear behind people and quick reaction cuts.; Paired framing, oversized title and visible reactions.; Simple brand cards and a final outtake-like scene.",
+    "lesson": "Use recurring clothing and presenters to keep a loose comic sequence recognizable."
+  },
+  "elements": [
+    {
+      "kind": "motion",
+      "name": "large text overlays",
+      "events": [
+        "V01",
+        "V04",
+        "V05"
+      ]
+    },
+    {
+      "kind": "texture",
+      "name": "casual handheld footage",
+      "events": [
+        "V01",
+        "V02",
+        "V03",
+        "V04",
+        "V05",
+        "V06"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "social post insert",
+      "events": [
+        "V03"
+      ]
+    }
+  ]
+}

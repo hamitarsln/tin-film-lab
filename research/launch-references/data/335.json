@@ -1,0 +1,381 @@
+{
+  "id": 335,
+  "viewed_evidence": [
+    "technical-review-2026-10-19/deep-review/motion/335/timeline-00.jpg",
+    "technical-review-2026-10-19/deep-review/motion/335/timeline-01.jpg",
+    "technical-review-2026-10-19/deep-review/motion/335/timeline-02.jpg",
+    "astra-review-2026-10-20/evidence/group-3/335/full50.jpg",
+    "astra-review-2026-10-20/evidence/group-3/335/full54.jpg",
+    "astra-review-2026-10-20/evidence/group-3/335/full60.jpg",
+    "technical-review-2026-10-19/deep-review/audio/335-speech.json"
+  ],
+  "product_from_film": "Proliferate presents a workspace for coding agents with tool integrations, event automations and direct requests.",
+  "explains_well": "The interface connects named integrations to named coding automations and run records.",
+  "unclear": "Neither the bug-fix example nor the blog-page request reaches a visible code change or completed result.",
+  "product_type": "developer tool",
+  "scenario": "Browse integrations and Sentry Bug Auto-Fix runs, then draft a blog-page request.",
+  "product_clear_time": 38,
+  "product_clear_basis": "Automation names such as PR Code Review and Sentry Bug Auto-Fix make the coding use clear; ASR supports an earlier platform introduction.",
+  "scenes": [
+    {
+      "start": 0,
+      "end": 17,
+      "action": "A presenter faces the camera. Vertical tool-logo groups appear beside him, then a square-dot mark and GitHub mark.",
+      "design": "Office footage and logo overlays.",
+      "purpose": "Introduce agent-tool fragmentation and the platform; problem wording comes from candidate ASR.",
+      "id": "V01",
+      "evidence": "Visible 1 fps samples, source 0–17s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 17,
+      "end": 27,
+      "action": "A screen recording shows a text panel beside a website headed The autonomous engineering organization, then scrolls the site.",
+      "design": "Dense split screen with presenter inset.",
+      "purpose": "Show an agent workspace context.",
+      "id": "V02",
+      "evidence": "Visible 1 fps samples, source 17–27s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 27,
+      "end": 37,
+      "action": "Integrations opens, followed by a catalogue with GitHub, Sentry, Linear, Slack and other services. The crop moves closer to the cards.",
+      "design": "White app, cards and large pointer.",
+      "purpose": "Show available tool connections.",
+      "id": "V03",
+      "evidence": "Visible 1 fps samples, source 27–37s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 37,
+      "end": 50,
+      "action": "Automations opens and holds on named coding jobs, including PR Code Review, Sentry Bug Auto-Fix and Dependency Upgrade Bot.",
+      "design": "Table with trigger and action columns.",
+      "purpose": "Explain repeatable work.",
+      "id": "V04",
+      "evidence": "Visible 1 fps samples, source 37–50s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 50,
+      "end": 55,
+      "action": "Sentry Bug Auto-Fix detail gives way to a Runs list containing specific errors and Session links.",
+      "design": "Runs list and status filters; full54 shows errors, not their fixes.",
+      "purpose": "Show records of triggered work.",
+      "id": "V05",
+      "evidence": "Visible 1 fps samples, source 50–55s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 55,
+      "end": 66,
+      "action": "The home composer contains a request for a matching blog page, with PR or auto-archive instructions. The cursor later opens an activity menu.",
+      "design": "Prompt composer and recent activity.",
+      "purpose": "Show a direct task request.",
+      "id": "V06",
+      "evidence": "Visible 1 fps samples, source 55–66s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 66,
+      "end": 75,
+      "action": "The presenter returns with dark social-post cards around him.",
+      "design": "Office footage with quoted external posts.",
+      "purpose": "Support the wider agent-coding argument.",
+      "id": "V07",
+      "evidence": "Visible 1 fps samples, source 66–75s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 75,
+      "end": 85.374,
+      "action": "The presenter continues; a GitHub repository URL appears near the end as he stands.",
+      "design": "github.com/proliferate-ai/proliferate overlay.",
+      "purpose": "Invite repository exploration.",
+      "id": "V08",
+      "evidence": "Visible 1 fps samples, source 75–85.374s; boundaries approximate, between-frame action unresolved."
+    }
+  ],
+  "sound": [
+    {
+      "id": "A01",
+      "start": 0,
+      "end": 85.374,
+      "layer": "unknown",
+      "detail": "No validated audio listening; speech, music, effects, mix and sync remain unverified.",
+      "visual_relation": "All visual scenes; alignment not checked",
+      "evidence": "No actual audio supplied to this review; existing technical-review-2026-10-19/deep-review/audio/335.json is not listening evidence."
+    },
+    {
+      "id": "A02",
+      "start": 0.17,
+      "end": 82.99,
+      "layer": "ASR draft",
+      "detail": "Candidate script describes siloed coding agents, a company-specific open-source platform, tool access, event automations and direct feature requests. The ending points to GitHub. Reject corrupted phrases such as docking dinners and copes, and Prolyphrate/century spellings; the initial can-access phrase may have lost a negation. No delivery, music or SFX claim.",
+      "visual_relation": "V01–V08; candidate script roles only, no heard sync.",
+      "evidence": "technical-review-2026-10-19/deep-review/audio/335-speech.json; existing faster-whisper base CPU int8"
+    }
+  ],
+  "categories": [
+    {
+      "finding": "The film moves from a presenter introduction to integrations, automations, runs and a direct request. It is a feature tour rather than one completed case.",
+      "evidence": "V01–V08",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q01"
+    },
+    {
+      "finding": "A presenter fills the frame; tool logos start appearing beside him. Without speech, the initial problem is not yet clear.",
+      "evidence": "V01, 0–2s",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q02"
+    },
+    {
+      "finding": "The app identifies coding work through automation names around 38s; candidate ASR introduces company-specific background agents around 11–15s.",
+      "evidence": "V04 37–50s; ASR draft",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q03"
+    },
+    {
+      "finding": "Sampled views show crop changes toward integration cards, navigation and the prompt. The large cursor directs attention; exact zoom paths and easing are unresolved.",
+      "evidence": "V03–V06, 27–66s",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q04"
+    },
+    {
+      "finding": "Cuts move from the presenter to the screen tour and back. App navigation maintains the same white workspace across feature changes.",
+      "evidence": "V02 17s; V03–V06; V07 66s, approximate",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q05"
+    },
+    {
+      "finding": "Warm office footage contrasts with the mostly white workspace. Rounded presenter insets sit over the demo.",
+      "evidence": "V01–V08",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q06"
+    },
+    {
+      "finding": "Large crops make integrations, automation names and the blog request readable; the initial split screen and full tables contain much smaller detail.",
+      "evidence": "V02; V03–V06, full50/full54/full60",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q07"
+    },
+    {
+      "finding": "Voice presence and delivery remain unverified.",
+      "evidence": "No validated audio listening",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q08"
+    },
+    {
+      "finding": "Music character and arc remain unverified.",
+      "evidence": "No validated audio listening",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q09"
+    },
+    {
+      "finding": "Sound effects remain unverified.",
+      "evidence": "No validated audio listening",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q10"
+    },
+    {
+      "finding": "Sound-to-motion timing remain unverified.",
+      "evidence": "No validated audio listening",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q11"
+    },
+    {
+      "finding": "Presenter footage, screen recordings, tool marks and social-post cards are layered. Source origins beyond visible content are not checked.",
+      "evidence": "V01–V08",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q12"
+    },
+    {
+      "finding": "Source duration supplied as 85.374s; no independent compression, clipping or delivery check.",
+      "evidence": "Assigned metadata; source integrity checked by parent",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q13"
+    },
+    {
+      "finding": "Coding automations and the request are understandable silently. The opening complaint and open-source argument rely heavily on the candidate script.",
+      "evidence": "V01 and V03–V08",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q14"
+    },
+    {
+      "finding": "The large cursor and tighter crops point to useful rows. The presenter inset competes with lower-right content in wider app views.",
+      "evidence": "V03–V06",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q15"
+    },
+    {
+      "finding": "The automation list stays on screen long enough to read names, but adds no completed case before moving into another workflow.",
+      "evidence": "V04, 37–50s",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q16"
+    },
+    {
+      "finding": "The candidate opening promises less handholding for company agents. The tour shows setup surfaces, but not an unattended task finishing.",
+      "evidence": "V01 ASR; V03–V06",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q17"
+    },
+    {
+      "finding": "The presenter-to-demo-to-repository structure appears designed to make a technical platform approachable and actionable. This is creative interpretation.",
+      "evidence": "V01–V08",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q18"
+    },
+    {
+      "finding": "The workspace sidebar and presenter inset preserve continuity. Moving from bug runs to a blog request changes the example before either pays off.",
+      "evidence": "V03–V06",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q19"
+    },
+    {
+      "finding": "The Runs page lists errors and sessions; it does not show fixes. The blog prompt is visible, but no submitted run or resulting PR is traced. External post claims do not establish this product’s performance.",
+      "evidence": "V05 full54; V06 full60; V07",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q20"
+    },
+    {
+      "finding": "Company-tool integrations and event-driven coding job names carry more product meaning than the generic presenter and social proof framing.",
+      "evidence": "V03–V05",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q21"
+    },
+    {
+      "finding": "Keep the concrete integrations and one automation. Replace part of the long list hold and social-post section with one error-to-PR result.",
+      "evidence": "V04–V07",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q22"
+    },
+    {
+      "finding": "For a developer-tool demo, prepare one integration, one reproducible error, its run log and a resulting PR; use close crops to connect each state.",
+      "evidence": "V03–V06",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q23"
+    },
+    {
+      "finding": "No human new-viewer test; product description above is model interpretation of sampled images.",
+      "evidence": "V01–V08",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q24"
+    },
+    {
+      "finding": "No phone-size, safe-area or flash assessment; small UI text needs separate preview.",
+      "evidence": "Contact sheets",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q25"
+    }
+  ],
+  "lessons": {
+    "keep": "Keep named automation examples and readable crops that connect tools to developer work.",
+    "try": [
+      "Carry the amount-of-undefined error through one run to a readable code diff and PR.",
+      "Submit the blog request and show its preview beside the request, shortening the automation-list hold."
+    ],
+    "avoid": "Avoid ending both example workflows before the result.",
+    "open": "Actual audio and product execution are unverified; ASR contains corrupted names and technical phrases."
+  },
+  "comparison": {
+    "story": "Introduce agent-tool fragmentation and the platform; problem wording comes from candidate ASR. → Show an agent workspace context. → Show available tool connections. → Explain repeatable work. → Show records of triggered work. → Show a direct task request. → Support the wider agent-coding argument. → Invite repository exploration.",
+    "motion": "Sampled views show crop changes toward integration cards, navigation and the prompt. The large cursor directs attention; exact zoom paths and easing are unresolved.",
+    "sound": "No validated listening; no absence claims.",
+    "texture": "Warm office footage contrasts with the mostly white workspace. Rounded presenter insets sit over the demo.",
+    "lesson": "Keep named automation examples and readable crops that connect tools to developer work."
+  },
+  "elements": [
+    {
+      "kind": "ui",
+      "name": "integration cards",
+      "events": [
+        "V03"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "table",
+      "events": [
+        "V04"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "run list",
+      "events": [
+        "V05"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "prompt composer",
+      "events": [
+        "V06"
+      ]
+    },
+    {
+      "kind": "texture",
+      "name": "presenter footage",
+      "events": [
+        "V01",
+        "V07",
+        "V08"
+      ]
+    },
+    {
+      "kind": "motion",
+      "name": "screen zoom",
+      "events": [
+        "V03",
+        "V06"
+      ]
+    }
+  ],
+  "reviewer_model": "gpt-6-astra",
+  "scope": "sampled visual and story review; ASR and measured signal support; no validated audio listening",
+  "closer_windows": []
+}

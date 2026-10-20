@@ -1,0 +1,337 @@
+{
+  "id": 164,
+  "product_from_film": "Surface Laptop Ultra is presented as a powerful laptop for makers, with emphasis on cooling and internal hardware.",
+  "explains_well": "The film moves from fan and circuit details to the complete laptop, ports, name and release-season card.",
+  "unclear": "No maker task is shown, so the new kind of power promise has no concrete workload or result.",
+  "product_type": "laptop hardware launch",
+  "scenario": "A visual tour moves through cooling fans and circuitry before revealing the laptop exterior and launch information.",
+  "product_clear_time": 28,
+  "product_clear_basis": "A closed laptop is clearly shown on a white pedestal at 28s; the full Surface Laptop Ultra name appears at 38s.",
+  "scenes": [
+    {
+      "start": 0,
+      "end": 10,
+      "action": "Dark fan blades appear with THROTTLE=OFF -- EXECUTE text, followed by a bright outlined fan/internal view and darkness.",
+      "design": "Black metal, narrow highlights and monospace command-like copy.",
+      "purpose": "Establish a power/cooling theme.",
+      "evidence": "1 fps source samples in 0–10s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V01"
+    },
+    {
+      "start": 10,
+      "end": 20,
+      "action": "Laptop corner and internal dual-fan views lead to close passes across cooling fins and board-like surfaces.",
+      "design": "Monochrome metallic hardware and low sweeping viewpoints.",
+      "purpose": "Reveal the machine through its internal construction.",
+      "evidence": "1 fps source samples in 10–20s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V02"
+    },
+    {
+      "start": 20,
+      "end": 28,
+      "action": "False-color board and heat-like imagery alternate with code-like text, chip close-ups and another internal overview, then black.",
+      "design": "Green, cyan and yellow technical-looking textures.",
+      "purpose": "Build the performance theme through diagnostic-looking images.",
+      "evidence": "1 fps source samples in 20–28s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V03"
+    },
+    {
+      "start": 28,
+      "end": 37,
+      "action": "A closed laptop on a white pedestal is followed by edge/port, lid-logo, keyboard and connector close-ups with A new kind of power / For a new kind of maker.",
+      "design": "Dark blue chassis against white and black, fine metallic edges.",
+      "purpose": "Reveal exterior design and intended positioning.",
+      "evidence": "1 fps source samples in 28–37s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V04"
+    },
+    {
+      "start": 37,
+      "end": 42,
+      "action": "The open laptop appears frontally with DEVICE_NAME=SURFACE_LAPTOP_ULTRA and ACCELERATED_BY=NVIDIA_RTX_SPARK.",
+      "design": "Centered product hero and command-style labels.",
+      "purpose": "Name the product and stated hardware association.",
+      "evidence": "1 fps source samples in 37–42s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V05"
+    },
+    {
+      "start": 42,
+      "end": 51,
+      "action": "COMING=FALL_2026 is followed by a closed-laptop glimpse, Microsoft mark and learn more at microsoft.com/ultra, then black.",
+      "design": "Sparse black cards and white text.",
+      "purpose": "Give release timing and destination as presented in the film.",
+      "evidence": "1 fps source samples in 42–51s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V06"
+    }
+  ],
+  "categories": [
+    {
+      "id": "Q01",
+      "finding": "Cooling hook → internals → technical color imagery → exterior → named laptop → release and URL.",
+      "evidence": "V01–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q02",
+      "finding": "A dark fan and command-like THROTTLE text create a technical mystery before the device is identified.",
+      "evidence": "V01",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q03",
+      "finding": "The laptop category is clear at 28s and exact name at 38s. Makers are named, but no particular making task is demonstrated.",
+      "evidence": "V04,V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q04",
+      "finding": "Fan blade states, changing macro viewpoints, typed labels and an open-laptop reveal are visible; precise rotations and easing are unverified.",
+      "evidence": "V01–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q05",
+      "finding": "Fan imagery connects abstract power to internal cooling; black pauses separate internal views from the pedestal reveal.",
+      "evidence": "V01–V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q06",
+      "finding": "Dark brushed-looking metal and sharp highlights dominate; false-color thermal-like images interrupt the monochrome middle.",
+      "evidence": "V01–V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q07",
+      "finding": "Monospace labels make the launch feel like a system command. The device name, association and season are explicit but late.",
+      "evidence": "V01,V05,V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q08",
+      "finding": "Voice delivery is unverified.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "No validated listening.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q09",
+      "finding": "Music character and structure are unverified.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "No validated listening.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q10",
+      "finding": "Effects and their sources are unverified.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "No validated listening; waveform peaks do not identify effects.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q11",
+      "finding": "Sound sync is unverified.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "No validated listening or paired audiovisual timing.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q12",
+      "finding": "Hardware macro/render-like imagery and diagnostic-looking views are used; actual capture, simulation and production software are unknown.",
+      "evidence": "V01–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q13",
+      "finding": "Source duration 51.0 s; Watch metadata 1280 × 720. Frame rate, audio clipping and export quality not checked here.",
+      "evidence": "Whole film",
+      "status": "supported",
+      "reason": "Parent source metadata supports duration and dimensions; visual review is sampled.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q14",
+      "finding": "Silent viewing conveys hardware, cooling and launch identity; no application result explains the performance benefit.",
+      "evidence": "V01–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q15",
+      "finding": "Extreme close-ups delay recognition, then a white pedestal and frontal hero view isolate the complete device.",
+      "evidence": "V01–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q16",
+      "finding": "About 28s explore internals before the exterior reveal; the final section supplies identification and timing.",
+      "evidence": "V01–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q17",
+      "finding": "The opening fan is paid off by dual-fan internals and a complete laptop; the maker promise has no corresponding task payoff.",
+      "evidence": "V01,V02,V04,V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q18",
+      "finding": "Low-key lighting and command-style copy may suggest precision and power; viewer response is unmeasured.",
+      "evidence": "V01–V05",
+      "status": "uncertain",
+      "reason": "Interpretation of design choices.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q19",
+      "finding": "Dark hardware, centered monospace copy and repeated cooling forms maintain continuity across macro views.",
+      "evidence": "V01–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q20",
+      "finding": "Performance, hardware association and release season are film claims. Thermal-like colors are not treated as measured temperature or benchmark evidence.",
+      "evidence": "V03,V05,V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q21",
+      "finding": "Surface/Microsoft marks and the command-style naming provide identity; the maker benefit remains broad.",
+      "evidence": "V04–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q22",
+      "finding": "A short workload/result example would connect the internal power story to the named audience.",
+      "evidence": "V03,V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "Replace one diagnostic-looking insert with a maker task and a clearly labeled measured result, if available."
+    },
+    {
+      "id": "Q23",
+      "finding": "For Tin, follow technical infrastructure imagery with one user-visible output.",
+      "evidence": "V02–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "After a brief processing visualization, reveal the exact campaign asset and the action the user can take next."
+    },
+    {
+      "id": "Q24",
+      "finding": "No human new-viewer test was performed.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "The product summary is this model’s film-only reading.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q25",
+      "finding": "Mobile preview and accessibility checks were not performed.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "Contact sheets are evidence views, not a stated mobile preview or compliance test.",
+      "experiment": "none"
+    }
+  ],
+  "elements": [
+    {
+      "kind": "texture",
+      "name": "metal hardware",
+      "events": [
+        "V01",
+        "V02",
+        "V04"
+      ]
+    },
+    {
+      "kind": "texture",
+      "name": "thermal-like colors",
+      "events": [
+        "V03"
+      ]
+    },
+    {
+      "kind": "motion",
+      "name": "hardware close-up sequence",
+      "events": [
+        "V02",
+        "V04"
+      ]
+    },
+    {
+      "kind": "motion",
+      "name": "typed labels",
+      "events": [
+        "V01",
+        "V05",
+        "V06"
+      ]
+    }
+  ],
+  "lessons": {
+    "keep": "Move from a repeated internal component to a clean complete-product reveal.",
+    "try": [
+      "Use one maker workload and a labeled measured result to explain the power claim.",
+      "For Tin, connect a brief processing visualization directly to the resulting campaign asset and next action."
+    ],
+    "avoid": "Using diagnostic-looking imagery as a substitute for a concrete user benefit.",
+    "open": "Workload benefit, performance measurements, hardware claims, release status, rendering methods and audio remain unverified."
+  },
+  "comparison": {
+    "story": "Internal power mystery → exterior reveal → name and launch timing.",
+    "motion": "Macro viewpoint changes and typed labels; precise fan motion and easing unverified.",
+    "sound": "No validated listening; all sound layers unknown.",
+    "texture": "Black metal, thin highlights, false-color circuitry and white pedestal.",
+    "lesson": "An internal-component motif can make a hardware reveal coherent, but still needs a user outcome."
+  },
+  "reviewer_model": "gpt-6-astra",
+  "scope": "sampled visual and story review; ASR and measured signal support; no validated audio listening",
+  "viewed_evidence": [
+    "technical-review-2026-10-19/deep-review/motion/164/timeline-00.jpg",
+    "technical-review-2026-10-19/deep-review/motion/164/timeline-01.jpg"
+  ],
+  "closer_windows": [],
+  "sound": [
+    {
+      "id": "A01",
+      "start": 0,
+      "end": 51.0,
+      "layer": "unknown",
+      "detail": "No validated audio listening. Voice delivery, music, effects and mix are unknown.",
+      "visual_relation": "All scenes; sound alignment unverified",
+      "evidence": "No actual audio perception in this review; prepared audio files are not listening evidence."
+    }
+  ]
+}

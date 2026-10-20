@@ -1,0 +1,369 @@
+{
+  "id": 385,
+  "viewed_evidence": [
+    "technical-review-2026-10-19/deep-review/motion/385/timeline-00.jpg",
+    "technical-review-2026-10-19/deep-review/motion/385/timeline-01.jpg",
+    "astra-review-2026-10-20/evidence/group-3/385/full8.jpg",
+    "astra-review-2026-10-20/evidence/group-3/385/full22.jpg",
+    "astra-review-2026-10-20/evidence/group-3/385/full25.jpg",
+    "astra-review-2026-10-20/evidence/group-3/385/full32.jpg"
+  ],
+  "product_from_film": "Perplexity Model Council runs a question through three selected models and compares their answers.",
+  "explains_well": "The film shows where to enable the mode, select models and inspect agreements, disagreements and individual responses.",
+  "unclear": "The dense output tables pass too quickly to show why one disagreement matters or what the user should do next.",
+  "product_type": "AI research tool",
+  "scenario": "Compare three answers about US inflation in 2025",
+  "product_clear_time": 8,
+  "product_clear_basis": "Model Council mode and three enabled model toggles are visible.",
+  "scenes": [
+    {
+      "start": 0,
+      "end": 3,
+      "action": "Introducing Model Council appears over a glass-like cube with colored light rays.",
+      "design": "Dark teal image and serif title.",
+      "purpose": "Name feature",
+      "id": "V01",
+      "evidence": "Visible 1 fps samples, source 0–3s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 3,
+      "end": 10,
+      "action": "Cursor opens the plus menu, chooses Model council and opens three-model selection.",
+      "design": "White composer; teal toggles for Gemini 3 Pro, GPT-5.2 and Claude Opus 4.5.",
+      "purpose": "Show setup",
+      "id": "V02",
+      "evidence": "Visible 1 fps samples, source 3–10s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 10,
+      "end": 15,
+      "action": "Question about main factors driving US inflation in 2025 fills the composer.",
+      "design": "Single retained prompt.",
+      "purpose": "Set a research task",
+      "id": "V03",
+      "evidence": "Visible 1 fps samples, source 10–15s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 15,
+      "end": 20,
+      "action": "Three model progress cards appear, reach completion and show synthesizing responses.",
+      "design": "Stacked status rows.",
+      "purpose": "Show parallel work",
+      "id": "V04",
+      "evidence": "Visible 1 fps samples, source 15–20s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 20,
+      "end": 27,
+      "action": "Agreement table fills, then disagreement table replaces it.",
+      "design": "Columns for model icons, evidence and reasons for differences.",
+      "purpose": "Show comparison output",
+      "id": "V05",
+      "evidence": "Visible 1 fps samples, source 20–27s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 27,
+      "end": 30,
+      "action": "Unique discoveries table and summary appear.",
+      "design": "Model-specific findings and source-like labels.",
+      "purpose": "Add synthesis",
+      "id": "V06",
+      "evidence": "Visible 1 fps samples, source 27–30s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 30,
+      "end": 37,
+      "action": "Individual GPT-5.2, Claude Opus 4.5 and Gemini 3 Pro response panes are shown in turn.",
+      "design": "Long prose and citations in a side panel.",
+      "purpose": "Expose underlying responses",
+      "id": "V07",
+      "evidence": "Visible 1 fps samples, source 30–37s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 37,
+      "end": 41.72,
+      "action": "Perplexity mark and wordmark appear, blur and fade to white.",
+      "design": "Minimal brand ending.",
+      "purpose": "Close feature tour",
+      "id": "V08",
+      "evidence": "Visible 1 fps samples, source 37–41.72s; boundaries approximate, between-frame action unresolved."
+    }
+  ],
+  "sound": [
+    {
+      "id": "A01",
+      "start": 0,
+      "end": 41.72,
+      "layer": "unknown",
+      "detail": "No validated audio listening; speech, music, effects, mix and sync remain unverified.",
+      "visual_relation": "All visual scenes; alignment not checked",
+      "evidence": "No actual audio supplied to this review; existing technical-review-2026-10-19/deep-review/audio/385.json is not listening evidence."
+    }
+  ],
+  "categories": [
+    {
+      "finding": "One question travels from model selection through parallel progress to comparison and individual responses. The scenario is consistent.",
+      "evidence": "V02–V07",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q01"
+    },
+    {
+      "finding": "A refractive-looking cube and Introducing Model Council title appear; the function is not yet explained.",
+      "evidence": "V01 0–2 s",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q02"
+    },
+    {
+      "finding": "Three model toggles at 8 s and one question establish the comparison tool; intended audience is research users who want multiple answers.",
+      "evidence": "V02–V03; full8.jpg",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q03"
+    },
+    {
+      "finding": "Most motion is cursor/menu action, typed prompt, progress changes and output replacement. The fixed white UI keeps the task stable; exact title-cube motion is not resolved.",
+      "evidence": "V02–V07",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q04"
+    },
+    {
+      "finding": "The dark cube title cuts to white UI. Output crops change between summary tables and individual panes without changing the question.",
+      "evidence": "V01–V07",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q05"
+    },
+    {
+      "finding": "A dark prismatic opening gives way to restrained white tables and teal controls; thin gray dividers organize dense text.",
+      "evidence": "V01–V07",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q06"
+    },
+    {
+      "finding": "Model names and mode are clear in full8. Full22 and full25 reveal useful evidence and why-they-differ columns, but the film holds too little time to read each row.",
+      "evidence": "V02, V05; full8.jpg, full22.jpg, full25.jpg",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q07"
+    },
+    {
+      "finding": "Voice presence and delivery remain unverified.",
+      "evidence": "No validated audio listening",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q08"
+    },
+    {
+      "finding": "Music character and arc remain unverified.",
+      "evidence": "No validated audio listening",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q09"
+    },
+    {
+      "finding": "Sound effects remain unverified.",
+      "evidence": "No validated audio listening",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q10"
+    },
+    {
+      "finding": "Sound-to-motion timing remain unverified.",
+      "evidence": "No validated audio listening",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q11"
+    },
+    {
+      "finding": "A stylized cube introduces an otherwise software-screen tour. The research content is shown as product output, not independently checked factual evidence.",
+      "evidence": "V01–V07",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q12"
+    },
+    {
+      "finding": "Source duration supplied as 41.72s; no independent compression, clipping or delivery check.",
+      "evidence": "Assigned metadata; source integrity checked by parent",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q13"
+    },
+    {
+      "finding": "Selection, question and agreement/disagreement headings explain the feature silently. A viewer can understand the structure without reading every economic claim.",
+      "evidence": "V02–V07",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q14"
+    },
+    {
+      "finding": "Cursor guides setup, then repeated three-model rows establish parallelism. Dense output lacks a single highlighted row to guide the eye.",
+      "evidence": "V02, V04–V07",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q15"
+    },
+    {
+      "finding": "Six agreement rows, four disagreement rows, unique findings and three long responses arrive in about seventeen seconds. One highlighted difference would better explain the value.",
+      "evidence": "V05–V07 20–37 s",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q16"
+    },
+    {
+      "finding": "The council title receives a clear three-model comparison payoff, with underlying responses available to inspect.",
+      "evidence": "V01, V04–V07",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q17"
+    },
+    {
+      "finding": "Progress-to-organized-comparison suggests clarity and control after uncertainty; this is inferred from layout, not measured viewer response.",
+      "evidence": "V04–V07",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q18"
+    },
+    {
+      "finding": "The same inflation question and three model identities remain consistent through output.",
+      "evidence": "V03–V07",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q19"
+    },
+    {
+      "finding": "The film shows completed states and comparative text. Model agreement does not itself prove truth; source correctness, independence, generation latency and response quality were not checked.",
+      "evidence": "V04–V07",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q20"
+    },
+    {
+      "finding": "Model Council selection and agreement/disagreement/unique-discovery structure identify the feature. The glass cube is a broad visual metaphor.",
+      "evidence": "V01–V07",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q21"
+    },
+    {
+      "finding": "Keep setup and comparison headings. Shorten one full-response pane and spend that time highlighting one meaningful disagreement and its source.",
+      "evidence": "V05–V07",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q22"
+    },
+    {
+      "finding": "For a research workflow, present one retained question, parallel status rows and a focused comparison table with accessible original outputs. Requires real outputs and a chosen disagreement that is worth explaining.",
+      "evidence": "V03–V07",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q23"
+    },
+    {
+      "finding": "No human new-viewer test; product description above is model interpretation of sampled images.",
+      "evidence": "V01–V08",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q24"
+    },
+    {
+      "finding": "No phone-size, safe-area or flash assessment; small UI text needs separate preview.",
+      "evidence": "Contact sheets",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q25"
+    }
+  ],
+  "lessons": {
+    "keep": "Expose both the combined comparison and the original model responses.",
+    "try": [
+      "For a Tin research comparison, highlight one disagreement row, then open its two source passages before returning to the summary.",
+      "Try a compact three-model progress view followed by one agreement, one disagreement and one unresolved question, with enough hold time to read."
+    ],
+    "avoid": "Avoid implying that three agreeing models establish accuracy or showing more text than the viewer can inspect.",
+    "open": "Economic output accuracy, source checks, model independence, performance and all audio remain unverified."
+  },
+  "comparison": {
+    "story": "Name feature → Show setup → Set a research task → Show parallel work → Show comparison output → Add synthesis → Expose underlying responses → Close feature tour",
+    "motion": "Most motion is cursor/menu action, typed prompt, progress changes and output replacement. The fixed white UI keeps the task stable; exact title-cube motion is not resolved.",
+    "sound": "No validated listening; no absence claims.",
+    "texture": "A dark prismatic opening gives way to restrained white tables and teal controls; thin gray dividers organize dense text.",
+    "lesson": "Expose both the combined comparison and the original model responses."
+  },
+  "elements": [
+    {
+      "kind": "ui",
+      "name": "model selector",
+      "events": [
+        "V02"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "prompt composer",
+      "events": [
+        "V03"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "progress cards",
+      "events": [
+        "V04"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "comparison table",
+      "events": [
+        "V05",
+        "V06"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "response panel",
+      "events": [
+        "V07"
+      ]
+    },
+    {
+      "kind": "texture",
+      "name": "glass-like cube",
+      "events": [
+        "V01"
+      ]
+    }
+  ],
+  "reviewer_model": "gpt-6-astra",
+  "scope": "sampled visual and story review; ASR and measured signal support; no validated audio listening",
+  "closer_windows": []
+}

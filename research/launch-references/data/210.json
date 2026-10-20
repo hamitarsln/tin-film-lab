@@ -1,0 +1,379 @@
+{
+  "id": 210,
+  "product_from_film": "InsForge supplies backend services that a coding agent can operate through its CLI and skills to build an application.",
+  "explains_well": "The example connects installation, an app request, a working screenshot interface and the resulting backend records.",
+  "unclear": "The build itself is compressed between dense prompt/terminal views and the finished app; the viewer cannot easily separate setup, generation and deployment.",
+  "product_type": "backend platform for coding agents",
+  "scenario": "A presenter demonstrates connecting Claude Code to InsForge, requesting a screenshot service, using the app and inspecting its backend resources.",
+  "product_clear_time": 17,
+  "product_clear_basis": "Install InsForge shows a CLI command and coding-agent options at 11–17s; the ASR opening explicitly identifies the backend role.",
+  "viewed_evidence": [
+    "technical-review-2026-10-19/deep-review/motion/210/timeline-00.jpg",
+    "technical-review-2026-10-19/deep-review/motion/210/timeline-01.jpg",
+    "technical-review-2026-10-19/deep-review/motion/210/timeline-02.jpg",
+    "technical-review-2026-10-19/deep-review/motion/210/timeline-03.jpg",
+    "technical-review-2026-10-19/deep-review/motion/210/timeline-04.jpg",
+    "astra-review-2026-10-20/evidence/group-1/210/43s.jpg"
+  ],
+  "scenes": [
+    {
+      "start": 0,
+      "end": 11,
+      "action": "A dark project dashboard shows service cards and observability graphs with a presenter inset at lower right. The pointer moves toward installation controls.",
+      "design": "Screen recording in a light geometric surround.",
+      "purpose": "Introduce the backend workspace.",
+      "evidence": "1 fps source samples in 0–11s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V01"
+    },
+    {
+      "start": 11,
+      "end": 23,
+      "action": "Install InsForge opens with a CLI command and agent installation choices. Text is selected, then the dashboard and sidebar return.",
+      "design": "Magnified UI and large pointer.",
+      "purpose": "Explain the common entry point for coding agents.",
+      "evidence": "1 fps source samples in 11–23s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V02"
+    },
+    {
+      "start": 23,
+      "end": 39,
+      "action": "An Example Walkthrough card leads to the install dialog, Claude Code instructions and a terminal where installation text and responses appear.",
+      "design": "Simple chapter card followed by dark terminal recording.",
+      "purpose": "Begin a specific setup sequence.",
+      "evidence": "1 fps source samples in 23–39s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V03"
+    },
+    {
+      "start": 39,
+      "end": 62,
+      "action": "The terminal is enlarged. A Snap screenshot-service prompt specifies URL or HTML input, PNG/PDF output, storage, database, compute and a web interface. Setup and agent response text remain on screen.",
+      "design": "Dense monospaced prompt with a large text cursor and presenter inset.",
+      "purpose": "Define the example app and show the agent context.",
+      "evidence": "1 fps source samples in 39–62s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V04"
+    },
+    {
+      "start": 62,
+      "end": 73,
+      "action": "A purple-accented Snap login/signup screen is filled. The app opens; an API key is created and a success row appears.",
+      "design": "Dark app UI, purple buttons and green success state.",
+      "purpose": "Demonstrate access to the built app and its API key flow.",
+      "evidence": "1 fps source samples in 62–73s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V05"
+    },
+    {
+      "start": 73,
+      "end": 92,
+      "action": "A Playground receives inputs and produces a Hacker News page image. A browser opens briefly; a second request produces the InsForge landing-page image.",
+      "design": "Request controls on the left and image output on the right.",
+      "purpose": "Show two concrete URL-to-image results.",
+      "evidence": "1 fps source samples in 73–92s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V06"
+    },
+    {
+      "start": 92,
+      "end": 111,
+      "action": "The presenter returns to InsForge Authentication, database tables for API keys and snapshots, and storage buckets with image files and thumbnails.",
+      "design": "Tabbed resource tables and sidebar navigation.",
+      "purpose": "Connect the app results to stored users, data and files.",
+      "evidence": "1 fps source samples in 92–111s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V07"
+    },
+    {
+      "start": 111,
+      "end": 128.615,
+      "action": "Deployment overview shows the app preview, then a compute Services page shows a deployed service. The screen remains there for the closing explanation.",
+      "design": "Dark dashboard with a small service card and presenter inset.",
+      "purpose": "Close with the infrastructure behind the example.",
+      "evidence": "1 fps source samples in 111–128.615s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V08"
+    }
+  ],
+  "sound": [
+    {
+      "id": "A01",
+      "start": 0,
+      "end": 128.615,
+      "layer": "ASR draft / unknown",
+      "detail": "The draft explains backend access through CLI/skills, installation in Claude Code, a URL screenshot service, signup/API key, two image results and backend resources. Product/tool names are often garbled, so visible labels supply names. The final one-prompt claim and under-two-second target are draft/visible claims, not independently measured. No validated listening.",
+      "visual_relation": "V01–V08; script-role support, delivery and sync unknown.",
+      "evidence": "technical-review-2026-10-19/deep-review/audio/210-speech.json"
+    }
+  ],
+  "categories": [
+    {
+      "id": "Q01",
+      "finding": "Platform overview → install → app prompt → signup/key → screenshot results → backend audit.",
+      "evidence": "V01–V08",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q02",
+      "finding": "The dashboard opens immediately, making this a direct walkthrough; the visible opening lacks a concise benefit heading.",
+      "evidence": "V01",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q03",
+      "finding": "CLI, coding-agent options and the backend sidebar identify a developer audience. The draft clarifies the agent-operated backend role early.",
+      "evidence": "V01,V02,A01",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q04",
+      "finding": "Pointer movement, selected text, UI changes and zoomed screen crops guide the demonstration; exact zoom easing is unchecked.",
+      "evidence": "V02–V08",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q05",
+      "finding": "The Example Walkthrough card clearly separates overview from the example. The later return to backend resources connects visible app behavior to its infrastructure.",
+      "evidence": "V03,V07",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q06",
+      "finding": "Dark functional UI, purple app accents, monospaced terminal text and a consistent presenter inset dominate.",
+      "evidence": "V01–V08",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q07",
+      "finding": "The enlarged terminal helps, but long prompts and small table labels still demand close reading. The inspected 43s full-resolution frame clarifies the app request.",
+      "evidence": "V04; full-resolution 43s frame",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q08",
+      "finding": "A coherent ASR walkthrough supports the steps; garbled product names are resolved only from visible labels. Voice qualities are unassessed.",
+      "evidence": "A01",
+      "status": "uncertain",
+      "reason": "Draft text; no validated listening.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q09",
+      "finding": "Music character and structure are unverified.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "No validated listening.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q10",
+      "finding": "Effects and their sources are unverified.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "No validated listening; waveform peaks do not identify effects.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q11",
+      "finding": "Sound sync is unverified.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "No validated listening or paired audiovisual timing.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q12",
+      "finding": "The visible format is a screen recording with presenter inset, chapter card and enlarged crops; editing software is unknown.",
+      "evidence": "V01–V08",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q13",
+      "finding": "Source duration 128.615 s; Watch metadata 1724 × 1080. Frame rate, audio clipping and export quality not checked here.",
+      "evidence": "Whole film",
+      "status": "supported",
+      "reason": "Parent source metadata supports duration and dimensions; visual review is sampled.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q14",
+      "finding": "The login, key creation and image results are understandable silently, but the distinction between backend product and generated Snap app needs labels.",
+      "evidence": "V04–V07",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q15",
+      "finding": "Large pointer/crops help focus. Dense terminal content and the broad app frame compete with the small presenter inset.",
+      "evidence": "V03–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q16",
+      "finding": "Setup and terminal context occupy about half the film; the result sequence begins at 62s, followed by a long backend inventory.",
+      "evidence": "V01–V08",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q17",
+      "finding": "The screenshot-service request pays off with two page images, then corresponding stored records and files.",
+      "evidence": "V04,V06,V07",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q18",
+      "finding": "The two results and backend inspection may create confidence through specificity; viewer trust is not measured.",
+      "evidence": "V06,V07",
+      "status": "uncertain",
+      "reason": "Interpretation of demonstrated sequence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q19",
+      "finding": "Input, output and persistence are linked well. The actual generation interval and deployment steps are not fully shown.",
+      "evidence": "V04–V08",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q20",
+      "finding": "The film shows two output images and backend resources. One-shot completeness, performance, deployment reliability and code quality were not independently tested.",
+      "evidence": "V04–V08,A01",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q21",
+      "finding": "The agent installation panel and backend-resource follow-through distinguish the example from a frontend-only demo.",
+      "evidence": "V02,V07,V08",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q22",
+      "finding": "Add clear stage labels and shorten static terminal/closing holds.",
+      "evidence": "V04,V08",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "Label Connect agent, Build Snap, Use Snap and Inspect backend; retain the two outputs and mark any skipped build time."
+    },
+    {
+      "id": "Q23",
+      "finding": "For Tin, connect the generated output to the saved record or next workflow state.",
+      "evidence": "V06,V07",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "Show one generated campaign asset, then its approval record and scheduled destination with matching labels."
+    },
+    {
+      "id": "Q24",
+      "finding": "No human new-viewer test was performed.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "The product summary is this model’s film-only reading.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q25",
+      "finding": "Mobile preview and accessibility checks were not performed.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "Contact sheets are evidence views, not a stated mobile preview or compliance test.",
+      "experiment": "none"
+    }
+  ],
+  "elements": [
+    {
+      "kind": "ui",
+      "name": "dashboard",
+      "events": [
+        "V01",
+        "V02",
+        "V08"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "terminal",
+      "events": [
+        "V03",
+        "V04"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "login form",
+      "events": [
+        "V05"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "request playground",
+      "events": [
+        "V06"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "database table",
+      "events": [
+        "V07"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "storage file list",
+      "events": [
+        "V07"
+      ]
+    },
+    {
+      "kind": "motion",
+      "name": "screen crop zoom",
+      "events": [
+        "V02",
+        "V04"
+      ]
+    }
+  ],
+  "lessons": {
+    "keep": "Follow the visible result into the stored records that support it.",
+    "try": [
+      "Label the four stages and mark skipped build time while shortening static holds.",
+      "For Tin, connect an asset to its approval record and scheduled destination."
+    ],
+    "avoid": "Leaving viewers to decode long terminal text to understand which stage they are seeing.",
+    "open": "Actual generation duration, completeness, performance, code quality and audio remain unverified."
+  },
+  "comparison": {
+    "story": "Connect agent → request screenshot app → use it → inspect resources.",
+    "motion": "Pointer guidance, text selection and screen zoom states; precise easing unchecked.",
+    "sound": "Coherent ASR walkthrough with garbled names; no listening.",
+    "texture": "Dark developer UI, terminal text, purple controls and presenter inset.",
+    "lesson": "A concrete result becomes more persuasive when its stored state is shown afterward."
+  },
+  "reviewer_model": "gpt-6-astra",
+  "scope": "sampled visual and story review; ASR and measured signal support; no validated audio listening",
+  "closer_windows": []
+}

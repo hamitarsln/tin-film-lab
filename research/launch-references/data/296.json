@@ -1,0 +1,359 @@
+{
+  "id": 296,
+  "viewed_evidence": [
+    "technical-review-2026-10-19/deep-review/motion/296/timeline-00.jpg",
+    "astra-review-2026-10-20/evidence/group-3/296/dense.jpg"
+  ],
+  "product_from_film": "Anything imports a Figma design into a generated website workspace.",
+  "explains_well": "The same green landscape page appears before and after import, making the handoff easy to recognise.",
+  "unclear": "The result is shown as a matching page, but no interaction demonstrates what became functional.",
+  "product_type": "design-to-website tool",
+  "scenario": "Copy a Figma link, import it and generate a website",
+  "product_clear_time": 20,
+  "product_clear_basis": "Import from Figma dialog makes the integration action explicit.",
+  "scenes": [
+    {
+      "start": 0,
+      "end": 6,
+      "action": "Collaborator cursors and selection handles build Introducing on a white canvas.",
+      "design": "Magenta, purple and green name tags around selected type.",
+      "purpose": "Establish collaborative design language",
+      "id": "V01",
+      "evidence": "Visible 1 fps samples, source 0–6s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 6,
+      "end": 10,
+      "action": "Selected text becomes Anything x Figma.",
+      "design": "Serif Anything and plain Figma wordmarks inside design handles.",
+      "purpose": "Announce integration",
+      "id": "V02",
+      "evidence": "Visible 1 fps samples, source 6–10s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 10,
+      "end": 15,
+      "action": "Figma canvas builds a green landscape website, headline and white curved graphic.",
+      "design": "Editor panels and visible collaborator cursors.",
+      "purpose": "Show source design",
+      "id": "V03",
+      "evidence": "Visible 1 fps samples, source 10–15s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 15,
+      "end": 19,
+      "action": "View zooms to URL copy control; blue pill expands to Link copied, then carries into the next screen.",
+      "design": "Oversized pointer becomes hand cursor; copy state is prominent.",
+      "purpose": "Explain transfer",
+      "id": "V04",
+      "evidence": "Visible 1 fps samples, source 15–19s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 19,
+      "end": 23,
+      "action": "Anything prompt opens Import from Figma; URL fills and Generate is selected.",
+      "design": "Small white import modal on coloured glow.",
+      "purpose": "Show input action",
+      "id": "V05",
+      "evidence": "Visible 1 fps samples, source 19–23s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 23,
+      "end": 27,
+      "action": "Matching green website appears beside build conversation; created-page summary is enlarged.",
+      "design": "Browser-like app workspace and familiar design.",
+      "purpose": "Show generated result",
+      "id": "V06",
+      "evidence": "Visible 1 fps samples, source 23–27s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 27,
+      "end": 29.333,
+      "action": "Anything wordmark closes on black.",
+      "design": "White serif logo.",
+      "purpose": "Close",
+      "id": "V07",
+      "evidence": "Visible 1 fps samples, source 27–29.333s; boundaries approximate, between-frame action unresolved."
+    }
+  ],
+  "sound": [
+    {
+      "id": "A01",
+      "start": 0,
+      "end": 29.333,
+      "layer": "unknown",
+      "detail": "No validated audio listening; speech, music, effects, mix and sync remain unverified.",
+      "visual_relation": "All visual scenes; alignment not checked",
+      "evidence": "No actual audio supplied to this review; existing technical-review-2026-10-19/deep-review/audio/296.json is not listening evidence."
+    }
+  ],
+  "categories": [
+    {
+      "finding": "The film goes from collaborative design to copy, import and matching result. This is a clear source-to-output chain with a missing functional check.",
+      "evidence": "V01–V07",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q01"
+    },
+    {
+      "finding": "Selection handles and named cursors establish a design-tool world immediately, although the integration itself arrives later.",
+      "evidence": "V01–V02",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q02"
+    },
+    {
+      "finding": "Anything x Figma appears around 8 s; the import modal at 20 s makes the task clear for designers and builders.",
+      "evidence": "V02, V05",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q03"
+    },
+    {
+      "finding": "Dense 15–18 s frames show zoom toward copy, cursor contact, blue control expanding into Link copied, and a hand approaching before the pill tilts. Exact easing is unresolved.",
+      "evidence": "V04; dense 15–18 s",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q04"
+    },
+    {
+      "finding": "The enlarged copied-link control bridges design source and import destination, keeping the transfer object visible.",
+      "evidence": "V04–V05",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q05"
+    },
+    {
+      "finding": "White editor surfaces and coloured collaborator labels contrast with the deep green website. Black logo ending makes a clean stop.",
+      "evidence": "V01–V07",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q06"
+    },
+    {
+      "finding": "Headlines and the import button are readable. Build-summary text receives only a brief close-up, so its technical contents are secondary.",
+      "evidence": "V05–V06",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q07"
+    },
+    {
+      "finding": "Voice presence and delivery remain unverified.",
+      "evidence": "No validated audio listening",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q08"
+    },
+    {
+      "finding": "Music character and arc remain unverified.",
+      "evidence": "No validated audio listening",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q09"
+    },
+    {
+      "finding": "Sound effects remain unverified.",
+      "evidence": "No validated audio listening",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q10"
+    },
+    {
+      "finding": "Sound-to-motion timing remain unverified.",
+      "evidence": "No validated audio listening",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q11"
+    },
+    {
+      "finding": "Design-editor UI, enlarged cursor choreography and a generated-site preview carry the film. Production software is unknown.",
+      "evidence": "V01–V06",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q12"
+    },
+    {
+      "finding": "Source duration supplied as 29.333s; no independent compression, clipping or delivery check.",
+      "evidence": "Assigned metadata; source integrity checked by parent",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q13"
+    },
+    {
+      "finding": "Copy confirmation, pasted URL and repeated page design make the main sequence understandable without sound.",
+      "evidence": "V04–V06",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q14"
+    },
+    {
+      "finding": "Zoomed copy and import controls direct attention to the exact handoff actions.",
+      "evidence": "V04–V05",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q15"
+    },
+    {
+      "finding": "The introduction and source design take half the short film; the generated result gets roughly four seconds and no interactive demonstration.",
+      "evidence": "V01–V06",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q16"
+    },
+    {
+      "finding": "The repeated landscape, headline and white curved motif visually support design preservation. Functionality and responsive behaviour are not illustrated.",
+      "evidence": "V03, V06",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q17"
+    },
+    {
+      "finding": "Collaborator cursors make the announcement playful and familiar to design users; response was not measured.",
+      "evidence": "V01–V03",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q18"
+    },
+    {
+      "finding": "The green source and output preserve a clear visual identity through the workflow. The URL itself is small and partially cropped.",
+      "evidence": "V03–V06",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q19"
+    },
+    {
+      "finding": "Visible states support a design import demonstration. Generation speed, exact layout fidelity and working interactions were not independently checked.",
+      "evidence": "V05–V06",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q20"
+    },
+    {
+      "finding": "Using actual selection handles and collaborative cursors as the title treatment ties the announcement closely to its Figma feature.",
+      "evidence": "V01–V02",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q21"
+    },
+    {
+      "finding": "Shorten the title construction and use the saved time to click one generated interaction or show the responsive layout.",
+      "evidence": "V01, V06",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q22"
+    },
+    {
+      "finding": "Carry the same distinctive page through source, transfer and output so viewers can compare the result immediately.",
+      "evidence": "V03–V06",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q23"
+    },
+    {
+      "finding": "No human new-viewer test; product description above is model interpretation of sampled images.",
+      "evidence": "V01–V07",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q24"
+    },
+    {
+      "finding": "No phone-size, safe-area or flash assessment; small UI text needs separate preview.",
+      "evidence": "Contact sheets",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q25"
+    }
+  ],
+  "lessons": {
+    "keep": "Keep the copied-link state and matching source/output design.",
+    "try": [
+      "Replace three seconds of the title with one working navigation or form action in the generated page.",
+      "Show a split source/output comparison, then switch the result to a narrow viewport to explain what import preserves."
+    ],
+    "avoid": "Avoid letting a matching screenshot stand in for an explanation of what became usable.",
+    "open": "Audio is unheard. Exact generation time, functional behaviour and responsive fidelity remain unverified."
+  },
+  "comparison": {
+    "story": "Establish collaborative design language → Announce integration → Show source design → Explain transfer → Show input action → Show generated result → Close",
+    "motion": "Dense 15–18 s frames show zoom toward copy, cursor contact, blue control expanding into Link copied, and a hand approaching before the pill tilts. Exact easing is unresolved.",
+    "sound": "No validated listening; no absence claims.",
+    "texture": "White editor surfaces and coloured collaborator labels contrast with the deep green website. Black logo ending makes a clean stop.",
+    "lesson": "Keep the copied-link state and matching source/output design."
+  },
+  "elements": [
+    {
+      "kind": "ui",
+      "name": "design editor",
+      "events": [
+        "V03"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "import dialog",
+      "events": [
+        "V05"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "website preview",
+      "events": [
+        "V06"
+      ]
+    },
+    {
+      "kind": "motion",
+      "name": "cursor movement",
+      "events": [
+        "V01",
+        "V04"
+      ]
+    },
+    {
+      "kind": "motion",
+      "name": "zoom",
+      "events": [
+        "V04"
+      ]
+    }
+  ],
+  "reviewer_model": "gpt-6-astra",
+  "scope": "sampled visual and story review; ASR and measured signal support; no validated audio listening",
+  "closer_windows": [
+    {
+      "start": 15,
+      "end": 18,
+      "rate_fps": 4,
+      "evidence": [
+        "astra-review-2026-10-20/evidence/group-3/296/dense.jpg"
+      ],
+      "resolved": "Zoom to copy control, pointer contact, blue pill expansion and Link copied confirmation are visible before the hand cursor and tilt."
+    }
+  ]
+}

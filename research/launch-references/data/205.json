@@ -1,0 +1,392 @@
+{
+  "id": 205,
+  "viewed_evidence": [
+    "technical-review-2026-10-19/deep-review/motion/205/timeline-00.jpg",
+    "technical-review-2026-10-19/deep-review/motion/205/timeline-01.jpg",
+    "technical-review-2026-10-19/deep-review/motion/205/timeline-02.jpg",
+    "astra-review-2026-10-20/evidence/group-3/205/dense.jpg",
+    "technical-review-2026-10-19/deep-review/audio/205-speech.json"
+  ],
+  "product_from_film": "General Instinct prepares AI models and software stacks for small edge devices.",
+  "explains_well": "The held circuit board and large-versus-small memory diagrams explain why cloud-sized models are hard to run on a device.",
+  "unclear": "The film jumps from hardware constraints to a working robot without showing model preparation, deployment or a measured result on the stated chip.",
+  "product_type": "edge AI deployment",
+  "scenario": "Prepare a model stack for a robot, drone or other device with limited memory.",
+  "product_clear_time": 58,
+  "product_clear_basis": "General Instinct appears between model names and a packaged stack, with captions describing compressed models and edge deployment.",
+  "scenes": [
+    {
+      "start": 0,
+      "end": 7,
+      "action": "Data centre and robot footage introduce humanoids, quadrupeds and autonomous vehicles.",
+      "design": "Dark technology footage with large white labels.",
+      "purpose": "Introduce physical AI",
+      "id": "V01",
+      "evidence": "Visible 1 fps samples, source 0–7s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 7,
+      "end": 17,
+      "action": "Rooftop presenter holds a small board; second presenter and memory grids compare 72 GB and 16 GB.",
+      "design": "Hand-held hardware, red constraint label and simple memory blocks.",
+      "purpose": "Make the hardware limit concrete",
+      "id": "V02",
+      "evidence": "Visible 1 fps samples, source 7–17s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 17,
+      "end": 35,
+      "action": "Cloud options are labelled infinite while edge options are limited; model and server images carry parameter, memory and GPU figures.",
+      "design": "Bold numeric overlays and server close-ups.",
+      "purpose": "Explain scale mismatch",
+      "id": "V03",
+      "evidence": "Visible 1 fps samples, source 17–35s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 35,
+      "end": 48,
+      "action": "Small robot, drone and board images contrast 8 GB memory with large models; presenter lists smaller memory, slower inference and rebuilding.",
+      "design": "Compact hardware shots and short text labels.",
+      "purpose": "Show device constraints",
+      "id": "V04",
+      "evidence": "Visible 1 fps samples, source 35–48s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 48,
+      "end": 56,
+      "action": "Presenter describes weeks or months of engineering between checkpoint and deployment.",
+      "design": "Wide rooftop shot with person, grid and stack icons.",
+      "purpose": "Name the preparation cost",
+      "id": "V05",
+      "evidence": "Visible 1 fps samples, source 48–56s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 56,
+      "end": 61,
+      "action": "Model names feed through General Instinct into a software stack diagram.",
+      "design": "White icons over an interior presenter shot.",
+      "purpose": "Introduce model preparation service",
+      "id": "V06",
+      "evidence": "Visible 1 fps samples, source 56–61s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 61,
+      "end": 69,
+      "action": "A black grid fills with drone, humanoid, satellite and task examples.",
+      "design": "Multiple footage panels and white captions.",
+      "purpose": "Show supported use cases",
+      "id": "V07",
+      "evidence": "Visible 1 fps samples, source 61–69s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 69,
+      "end": 75,
+      "action": "Presenter stands by water while stack icons receive checks and a package outline.",
+      "design": "Line diagram and waterfront footage.",
+      "purpose": "Describe validation and packaging",
+      "id": "V08",
+      "evidence": "Visible 1 fps samples, source 69–75s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 75,
+      "end": 81,
+      "action": "Robot arm moves yellow pieces from a white tray to a dark mat; captions claim a robotics foundation model on a $200 chip.",
+      "design": "Close demonstration footage.",
+      "purpose": "Offer a physical task example",
+      "id": "V09",
+      "evidence": "Visible 1 fps samples, source 75–81s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 81,
+      "end": 88.588,
+      "action": "Two founders close by the water, followed by general-instinct.com and a founder email address.",
+      "design": "Two-person shot and dark contact card.",
+      "purpose": "Invite contact",
+      "id": "V10",
+      "evidence": "Visible 1 fps samples, source 81–88.588s; boundaries approximate, between-frame action unresolved."
+    }
+  ],
+  "sound": [
+    {
+      "id": "A01",
+      "start": 0,
+      "end": 88.588,
+      "layer": "unknown",
+      "detail": "No validated audio listening; speech, music, effects, mix and sync remain unverified.",
+      "visual_relation": "All visual scenes; alignment not checked",
+      "evidence": "No actual audio supplied to this review; existing technical-review-2026-10-19/deep-review/audio/205.json is not listening evidence."
+    },
+    {
+      "id": "A02",
+      "start": 0.874,
+      "end": 85.398,
+      "layer": "ASR draft",
+      "detail": "Five candidate ranges support the hardware-constraint, preparation-cost and packaged-stack narrative. Model names, GPU wording and some technical phrases are mistranscribed and rejected in favour of visible captions. No hearing or performance verification is inferred.",
+      "visual_relation": "V01–V10; candidate script structure only",
+      "evidence": "technical-review-2026-10-19/deep-review/audio/205-speech.json; existing faster-whisper base CPU int8"
+    }
+  ],
+  "categories": [
+    {
+      "finding": "The story moves from hardware limits through engineering cost to a packaged stack and robot example. The preparation workflow remains a diagram.",
+      "evidence": "V01–V10",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q01"
+    },
+    {
+      "finding": "Robot categories and a data centre establish physical AI before the hand-held board focuses the constraint.",
+      "evidence": "V01,V02",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q02"
+    },
+    {
+      "finding": "The memory mismatch is concrete by 11–16 s; the named service arrives around 56–60 s.",
+      "evidence": "V02,V06",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q03"
+    },
+    {
+      "finding": "Memory blocks and stack icons translate abstract limits into simple shapes. Dense samples at 75–79 s show the arm carrying pieces toward the mat, with one deposited piece visible by about 77 s and another transfer near 78.5 s.",
+      "evidence": "V02,V08,V09; dense 75–79 s",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q04"
+    },
+    {
+      "finding": "Cuts alternate presenters, hardware and numeric overlays. The use-case grid bridges the service diagram and waterfront explanation.",
+      "evidence": "V02–V09",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q05"
+    },
+    {
+      "finding": "Rooftop and waterfront presenters mix with server, board and robot footage; white line icons maintain a simple technical layer.",
+      "evidence": "V02–V10",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q06"
+    },
+    {
+      "finding": "Memory figures and short labels make the bottleneck readable. No interface shows how a user chooses a model or receives a deployable package.",
+      "evidence": "V02–V08",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q07"
+    },
+    {
+      "finding": "Voice presence and delivery remain unverified.",
+      "evidence": "No validated audio listening",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q08"
+    },
+    {
+      "finding": "Music character and arc remain unverified.",
+      "evidence": "No validated audio listening",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q09"
+    },
+    {
+      "finding": "Sound effects remain unverified.",
+      "evidence": "No validated audio listening",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q10"
+    },
+    {
+      "finding": "Sound-to-motion timing remain unverified.",
+      "evidence": "No validated audio listening",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q11"
+    },
+    {
+      "finding": "Presenter footage, hardware close-ups, diagrams and a robot demonstration are visible; source provenance and production tools are unknown.",
+      "evidence": "V01–V10",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q12"
+    },
+    {
+      "finding": "Source duration supplied as 88.588s; no independent compression, clipping or delivery check.",
+      "evidence": "Assigned metadata; source integrity checked by parent",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q13"
+    },
+    {
+      "finding": "Captions and memory diagrams preserve the main proposition silently; small model names and detailed technical figures need larger inspection for exact reading.",
+      "evidence": "V02–V08",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q14"
+    },
+    {
+      "finding": "The board held toward camera gives the viewer a physical scale; large memory values then contrast with this small object.",
+      "evidence": "V02–V04",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q15"
+    },
+    {
+      "finding": "Over half the film develops the hardware and engineering problem before the service appears; the final task example is brief.",
+      "evidence": "V01–V09",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q16"
+    },
+    {
+      "finding": "The robot example supplies visible action after several diagrams, but does not connect the earlier memory comparison to a before-and-after result.",
+      "evidence": "V02,V06,V09",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q17"
+    },
+    {
+      "finding": "Small hardware against large model requirements suggests constraint; the final robot action suggests practical relief.",
+      "evidence": "V02–V09; interpretation",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q18"
+    },
+    {
+      "finding": "Recurring presenters and simple white overlays connect locations. The robot task changes from explanation to visible physical action.",
+      "evidence": "V02–V10",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q19"
+    },
+    {
+      "finding": "Parameter counts, memory needs, engineering time, chip price and deployment claims are film statements. Device identity, model runtime and performance are not independently established.",
+      "evidence": "V03–V09",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q20"
+    },
+    {
+      "finding": "The hand-held board and explicit memory mismatch distinguish the problem more clearly than broad physical-AI claims.",
+      "evidence": "V02–V04",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q21"
+    },
+    {
+      "finding": "Add one model-selection and packaging step, then label the same device and measured task result in the robot scene.",
+      "evidence": "V06–V09",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q22"
+    },
+    {
+      "finding": "For infrastructure software, pair a physical constraint with a short input-to-package workflow and a result on that same hardware.",
+      "evidence": "V02,V06,V09",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q23"
+    },
+    {
+      "finding": "No human new-viewer test; product description above is model interpretation of sampled images.",
+      "evidence": "V01–V10",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q24"
+    },
+    {
+      "finding": "No phone-size, safe-area or flash assessment; small UI text needs separate preview.",
+      "evidence": "Contact sheets",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q25"
+    }
+  ],
+  "lessons": {
+    "keep": "Make a hardware constraint tangible with a held object and a simple memory comparison.",
+    "try": [
+      "Show one model entering the pipeline, its prepared package and the exact target board beside the running robot.",
+      "Add a before-and-after memory and latency comparison using the same task and device."
+    ],
+    "avoid": "Avoid using a working robot alone to explain an unseen deployment workflow.",
+    "open": "What does the user supply, what package is returned, and which measured change makes it fit?"
+  },
+  "comparison": {
+    "story": "Introduce physical AI → Make the hardware limit concrete → Explain scale mismatch → Show device constraints → Name the preparation cost → Introduce model preparation service → Show supported use cases → Describe validation and packaging → Offer a physical task example → Invite contact",
+    "motion": "Memory blocks and stack icons translate abstract limits into simple shapes. Dense samples at 75–79 s show the arm carrying pieces toward the mat, with one deposited piece visible by about 77 s and another transfer near 78.5 s.",
+    "sound": "No validated listening; no absence claims.",
+    "texture": "Rooftop and waterfront presenters mix with server, board and robot footage; white line icons maintain a simple technical layer.",
+    "lesson": "Make a hardware constraint tangible with a held object and a simple memory comparison."
+  },
+  "elements": [
+    {
+      "kind": "texture",
+      "name": "hardware footage",
+      "events": [
+        "V02",
+        "V04"
+      ]
+    },
+    {
+      "kind": "motion",
+      "name": "memory diagram",
+      "events": [
+        "V02"
+      ]
+    },
+    {
+      "kind": "motion",
+      "name": "pipeline diagram",
+      "events": [
+        "V06",
+        "V08"
+      ]
+    },
+    {
+      "kind": "texture",
+      "name": "robot arm footage",
+      "events": [
+        "V09"
+      ]
+    }
+  ],
+  "reviewer_model": "gpt-6-astra",
+  "scope": "sampled visual and story review; ASR and measured signal support; no validated audio listening",
+  "closer_windows": [
+    {
+      "start": 75,
+      "end": 79,
+      "rate_fps": 4,
+      "evidence": [
+        "astra-review-2026-10-20/evidence/group-3/205/dense.jpg"
+      ],
+      "resolved": "The gripper approaches the tray, carries a piece toward the mat and returns for another. A deposited piece is visible around 77 s and another transfer occurs around 78.5 s. Grip closure is partly occluded; chip identity and runtime remain unverified."
+    }
+  ]
+}

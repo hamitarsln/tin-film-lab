@@ -1,0 +1,374 @@
+{
+  "id": 319,
+  "viewed_evidence": [
+    "technical-review-2026-10-19/deep-review/motion/319/timeline-00.jpg",
+    "technical-review-2026-10-19/deep-review/motion/319/timeline-01.jpg",
+    "technical-review-2026-10-19/deep-review/motion/319/timeline-02.jpg",
+    "astra-review-2026-10-20/evidence/group-3/319/full60.jpg",
+    "astra-review-2026-10-20/evidence/group-3/319/full66.jpg",
+    "technical-review-2026-10-19/deep-review/audio/319-speech.json"
+  ],
+  "product_from_film": "End Close reconciles payment records and delegates exceptions to AI agents.",
+  "explains_well": "The film names the systems and operational problem before showing records, an exception and the delegation control.",
+  "unclear": "The agent sequence ends while customer outreach is still in progress, so the promised resolved exception is never shown.",
+  "product_type": "payment reconciliation platform",
+  "scenario": "Investigate an unmatched payment and delegate reconciliation work",
+  "product_clear_time": 33,
+  "product_clear_basis": "Continuous reconciliation appears with End Close brand; later UI shows record matching and exceptions.",
+  "scenes": [
+    {
+      "start": 0,
+      "end": 15,
+      "action": "Presenter on sofa explains money tracking; banks, processors, ledgers and warehouses appear, followed by loss and compliance-risk words.",
+      "design": "Large white kinetic type around presenter.",
+      "purpose": "Define fragmented payment data",
+      "id": "V01",
+      "evidence": "Visible 1 fps samples, source 0–15s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 15,
+      "end": 29,
+      "action": "Month-end close and exception handling are emphasised while presenter continues.",
+      "design": "Alternating wide and closer sofa shots with selected words.",
+      "purpose": "Explain existing-workflow gap",
+      "id": "V02",
+      "evidence": "Visible 1 fps samples, source 15–29s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 29,
+      "end": 46,
+      "action": "End Close launch, continuous reconciliation, AI agents and trillion-dollar experience claim appear.",
+      "design": "Brand lockup and oversized numeric emphasis.",
+      "purpose": "Introduce service and credibility",
+      "id": "V03",
+      "evidence": "Visible 1 fps samples, source 29–46s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 46,
+      "end": 52,
+      "action": "Second presenter introduces existing stack; system icons connect to End Close.",
+      "design": "Warm room cuts to clean white connector graphic.",
+      "purpose": "Explain integration",
+      "id": "V04",
+      "evidence": "Visible 1 fps samples, source 46–52s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 52,
+      "end": 58,
+      "action": "Record table and reconcile panel appear, followed by exception list.",
+      "design": "White data-heavy UI with status colours.",
+      "purpose": "Show operating workspace",
+      "id": "V05",
+      "evidence": "Visible 1 fps samples, source 52–58s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 58,
+      "end": 61,
+      "action": "Missing counterparty confirmation detail opens; cursor targets Delegate to agent.",
+      "design": "Investigation panel and transaction activity list.",
+      "purpose": "Start investigation",
+      "id": "V06",
+      "evidence": "Visible 1 fps samples, source 58–61s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 61,
+      "end": 67,
+      "action": "Goal card says find matching invoice; warehouse and invoice steps complete, customer outreach remains in progress and notify team waits.",
+      "design": "Small centred checklist on pale grid.",
+      "purpose": "Illustrate agent steps",
+      "id": "V07",
+      "evidence": "Visible 1 fps samples, source 61–67s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 67,
+      "end": 81,
+      "action": "Presenters repeat minutes, autonomy, transparency and modern-payments benefits.",
+      "design": "Large word emphasis and shot changes.",
+      "purpose": "Summarise promise",
+      "id": "V08",
+      "evidence": "Visible 1 fps samples, source 67–81s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 81,
+      "end": 85.018,
+      "action": "End Close logo holds then fades.",
+      "design": "Black logo on white.",
+      "purpose": "Close",
+      "id": "V09",
+      "evidence": "Visible 1 fps samples, source 81–85.018s; boundaries approximate, between-frame action unresolved."
+    }
+  ],
+  "sound": [
+    {
+      "id": "A01",
+      "start": 0,
+      "end": 85.018,
+      "layer": "unknown",
+      "detail": "No validated audio listening; speech, music, effects, mix and sync remain unverified.",
+      "visual_relation": "All visual scenes; alignment not checked",
+      "evidence": "No actual audio supplied to this review; existing technical-review-2026-10-19/deep-review/audio/319.json is not listening evidence."
+    },
+    {
+      "id": "A02",
+      "start": 0.01,
+      "end": 80.35,
+      "layer": "ASR draft",
+      "detail": "Coherent candidate script explains payment-system mismatch, limits of month-end tools, continuous reconciliation and agent exception handling. Reject at-courish, existing staff and Connecture Solaces as exact wording. The trillion-dollar passage is presenter experience, not verified End Close throughput. No heard delivery or mix finding.",
+      "visual_relation": "V01–V08; candidate script only",
+      "evidence": "technical-review-2026-10-19/deep-review/audio/319-speech.json; existing faster-whisper base CPU int8"
+    }
+  ],
+  "categories": [
+    {
+      "finding": "Problem, legacy limits, launch and experience claim lead to an exception-delegation demo, then benefit recap. The workflow stops before the resolution it promises.",
+      "evidence": "V01–V09",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q01"
+    },
+    {
+      "finding": "Money tracking line gives a broad business hook; named systems soon make the payments context more concrete.",
+      "evidence": "V01",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q02"
+    },
+    {
+      "finding": "Continuous reconciliation at 32–33 s identifies the service. Audience context comes earlier from payment processors and ledgers.",
+      "evidence": "V01, V03",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q03"
+    },
+    {
+      "finding": "Kinetic words change size and position around presenters; UI zoom moves from record list to exception detail, then checklist statuses change. Exact easing is unresolved.",
+      "evidence": "V01–V08",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q04"
+    },
+    {
+      "finding": "The second presenter leads into integrations and UI, providing a useful change after a long spoken setup. Return to presenters occurs before agent completion.",
+      "evidence": "V04–V08",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q05"
+    },
+    {
+      "finding": "Warm sofa scenes contrast with pale software screens. White oversized typography adds emphasis but sometimes fills most of the presenter frame.",
+      "evidence": "V01–V08",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q06"
+    },
+    {
+      "finding": "The key delegation action is readable in full 60 s frame. The small checklist requires enlargement; full 66 s clearly shows outreach in progress and notification waiting.",
+      "evidence": "V06–V07; full 60 and 66 s",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q07"
+    },
+    {
+      "finding": "Voice presence and delivery remain unverified.",
+      "evidence": "No validated audio listening",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q08"
+    },
+    {
+      "finding": "Music character and arc remain unverified.",
+      "evidence": "No validated audio listening",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q09"
+    },
+    {
+      "finding": "Sound effects remain unverified.",
+      "evidence": "No validated audio listening",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q10"
+    },
+    {
+      "finding": "Sound-to-motion timing remain unverified.",
+      "evidence": "No validated audio listening",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q11"
+    },
+    {
+      "finding": "Presenter footage, kinetic text, connector graphic and product-like data screens carry the explanation. Production tools are unknown.",
+      "evidence": "V01–V09",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q12"
+    },
+    {
+      "finding": "Source duration supplied as 85.018s; no independent compression, clipping or delivery check.",
+      "evidence": "Assigned metadata; source integrity checked by parent",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q13"
+    },
+    {
+      "finding": "Selected keywords communicate payments and exceptions, but complete explanation depends on speech. UI labels support the delegation sequence without sound.",
+      "evidence": "V01–V07; A02",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q14"
+    },
+    {
+      "finding": "Large words attract attention during long presenter passages. The crucial agent result is much smaller than the benefit claims that follow.",
+      "evidence": "V03, V07–V08",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q15"
+    },
+    {
+      "finding": "The first 46 s are mostly presenter explanation; core UI appears for about 15 s before the checklist. Shortening setup would allow a complete resolved case.",
+      "evidence": "V01–V07",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q16"
+    },
+    {
+      "finding": "Delegate to agent is a concrete action. The next card explains a process, but ends before matching invoice or resolved status is visible.",
+      "evidence": "V06–V07",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q17"
+    },
+    {
+      "finding": "Named operational pain and experienced presenters appear intended to build confidence. Audience trust was not measured.",
+      "evidence": "V01–V03",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q18"
+    },
+    {
+      "finding": "The detail is Missing counterparty confirmation with Amount mismatch tag; the next goal is matching an invoice, without an explicit case identifier tying the two together.",
+      "evidence": "V06–V07; full 60 and 66 s",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q19"
+    },
+    {
+      "finding": "Trillion-dollar experience and hours-to-minutes autonomy are claims. Visible checklist timing is illustrative; it does not establish end-to-end resolution or independent performance.",
+      "evidence": "V03, V07–V08",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q20"
+    },
+    {
+      "finding": "Exception handling, rather than only matched-record reporting, is the most specific value in the film.",
+      "evidence": "V02, V06–V07",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q21"
+    },
+    {
+      "finding": "Carry the same exception identifier through agent steps to a completed reconciliation with the matched invoice and reason visible.",
+      "evidence": "V06–V07",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q22"
+    },
+    {
+      "finding": "When demonstrating an agent, finish with the changed business record, not only a checklist of activities.",
+      "evidence": "V06–V08",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q23"
+    },
+    {
+      "finding": "No human new-viewer test; product description above is model interpretation of sampled images.",
+      "evidence": "V01–V09",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q24"
+    },
+    {
+      "finding": "No phone-size, safe-area or flash assessment; small UI text needs separate preview.",
+      "evidence": "Contact sheets",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q25"
+    }
+  ],
+  "lessons": {
+    "keep": "Keep the visible exception and Delegate to agent action.",
+    "try": [
+      "Trim ten seconds of the setup and show the same exception reach resolved status with its matched invoice.",
+      "Enlarge the agent checklist and keep the case identifier visible through every step, including the final notification."
+    ],
+    "avoid": "Avoid cutting from an in-progress agent step to a completed-result claim.",
+    "open": "Audio is unheard. Resolution accuracy, autonomy, speed and experience claims remain unverified."
+  },
+  "comparison": {
+    "story": "Define fragmented payment data → Explain existing-workflow gap → Introduce service and credibility → Explain integration → Show operating workspace → Start investigation → Illustrate agent steps → Summarise promise → Close",
+    "motion": "Kinetic words change size and position around presenters; UI zoom moves from record list to exception detail, then checklist statuses change. Exact easing is unresolved.",
+    "sound": "No validated listening; no absence claims.",
+    "texture": "Warm sofa scenes contrast with pale software screens. White oversized typography adds emphasis but sometimes fills most of the presenter frame.",
+    "lesson": "Keep the visible exception and Delegate to agent action."
+  },
+  "elements": [
+    {
+      "kind": "ui",
+      "name": "table",
+      "events": [
+        "V05"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "exception panel",
+      "events": [
+        "V06"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "checklist",
+      "events": [
+        "V07"
+      ]
+    },
+    {
+      "kind": "motion",
+      "name": "kinetic typography",
+      "events": [
+        "V01",
+        "V03",
+        "V08"
+      ]
+    }
+  ],
+  "reviewer_model": "gpt-6-astra",
+  "scope": "sampled visual and story review; ASR and measured signal support; no validated audio listening",
+  "closer_windows": []
+}

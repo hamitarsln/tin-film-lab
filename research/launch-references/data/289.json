@@ -1,0 +1,327 @@
+{
+  "id": 289,
+  "product_from_film": "Replit is presented as a platform that lets people build software without first becoming software engineers.",
+  "explains_well": "The founder announcement clearly connects new funding to wider access, global expansion and product investment in the script.",
+  "unclear": "Agent 4 is named but no task or new capability shows what it changes for a creator.",
+  "product_type": "software creation platform; funding announcement",
+  "scenario": "The founder announces funding, describes expansion and investors, and mentions Agent 4 as the next product launch.",
+  "product_clear_time": 4,
+  "product_clear_basis": "The ASR opening states that anyone should be able to build software without first becoming an engineer; no product UI is shown.",
+  "scenes": [
+    {
+      "start": 0,
+      "end": 14,
+      "action": "A rounded presenter crop on white becomes a full office-corridor shot. A lower third identifies Amjad Masad as Replit CEO and founder; medium and closer framings alternate.",
+      "design": "Warm symmetrical corridor and minimal identity text.",
+      "purpose": "Introduce the mission and announcement.",
+      "evidence": "1 fps source samples in 0–14s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V01"
+    },
+    {
+      "start": 14,
+      "end": 25,
+      "action": "Outlined overlays show $400M Series D Funding, then $9B and a 3x comparison while the founder continues.",
+      "design": "Thin connected rounded boxes over presenter footage.",
+      "purpose": "Emphasize the funding figures.",
+      "evidence": "1 fps source samples in 14–25s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V02"
+    },
+    {
+      "start": 25,
+      "end": 71,
+      "action": "The same presenter remains in alternating close and medium shots with no explanatory inserts for most of this span.",
+      "design": "Stable warm background and hand gestures.",
+      "purpose": "Explain access to creation, growth and intended expansion in the script.",
+      "evidence": "1 fps source samples in 25–71s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V03"
+    },
+    {
+      "start": 71,
+      "end": 89,
+      "action": "A row of investor-name pills appears, followed by a smaller strategic-investor row.",
+      "design": "Small outlined labels crossing the presenter’s torso.",
+      "purpose": "Name the backing organizations.",
+      "evidence": "1 fps source samples in 71–89s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V04"
+    },
+    {
+      "start": 89,
+      "end": 108,
+      "action": "Replit and Agent 4 appear beside the founder, followed later by Creativity runs on Replit. The presenter continues between overlays.",
+      "design": "Orange product labels and sparse slogan treatment.",
+      "purpose": "Link the capital announcement to the new agent and mission.",
+      "evidence": "1 fps source samples in 89–108s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V05"
+    },
+    {
+      "start": 108,
+      "end": 116.908,
+      "action": "The founder gives a concluding statement; the film ends on a small orange Replit mark on white.",
+      "design": "Presenter close and minimal brand card.",
+      "purpose": "Close the company update.",
+      "evidence": "1 fps source samples in 108–116.908s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V06"
+    }
+  ],
+  "sound": [
+    {
+      "id": "A01",
+      "start": 0,
+      "end": 116.908,
+      "layer": "ASR draft / unknown",
+      "detail": "The draft coherently states the software-building mission, funding and valuation, projected revenue, global expansion, partners and Agent 4. Replit, funding round and multiple investor names are misrecognized, so visible labels support exact named claims where available. No validated listening, delivery, music, effects or sync assessment.",
+      "visual_relation": "V01–V06; most substantive meaning comes from script text.",
+      "evidence": "technical-review-2026-10-19/deep-review/audio/289-speech.json"
+    }
+  ],
+  "categories": [
+    {
+      "id": "Q01",
+      "finding": "Mission → funding figures → access and growth → expansion/investors → Agent 4 → mission close.",
+      "evidence": "V01–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q02",
+      "finding": "A presenter portrait expands from a rounded crop into an office shot; identity text appears but the function depends on speech.",
+      "evidence": "V01",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q03",
+      "finding": "People who want to build software are named in the opening draft around 4s. The film is primarily a company update.",
+      "evidence": "V01,A01",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q04",
+      "finding": "Medium/close presenter states alternate; outlined funding and partner labels appear, followed by orange agent and brand marks. Exact transition paths are unresolved.",
+      "evidence": "V01–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q05",
+      "finding": "Framing changes provide visual variation within one continuous address. Text overlays mark figures and names rather than a demonstrated process.",
+      "evidence": "V01–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q06",
+      "finding": "Warm wood, soft corridor depth and navy clothing keep a consistent restrained treatment; orange marks provide brand contrast.",
+      "evidence": "V01–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q07",
+      "finding": "Funding figures are readable; investor pills are small and thin. Most speech has no visible captions in the sampled frames.",
+      "evidence": "V02–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q08",
+      "finding": "The draft supplies the mission and funding rationale, with several names and terms rejected as transcription errors. Delivery is unverified.",
+      "evidence": "A01",
+      "status": "uncertain",
+      "reason": "ASR text only.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q09",
+      "finding": "Music character and structure are unverified.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "No validated listening.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q10",
+      "finding": "Effects and their sources are unverified.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "No validated listening; waveform peaks do not identify effects.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q11",
+      "finding": "Sound sync is unverified.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "No validated listening or paired audiovisual timing.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q12",
+      "finding": "Presenter footage and simple typography dominate; no product screen or creation example appears in the inspected samples.",
+      "evidence": "V01–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q13",
+      "finding": "Source duration 116.908 s; Watch metadata 1920 × 1080. Frame rate, audio clipping and export quality not checked here.",
+      "evidence": "Whole film",
+      "status": "supported",
+      "reason": "Parent source metadata supports duration and dimensions; visual review is sampled.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q14",
+      "finding": "Silent viewing conveys funding figures, some investors and Agent 4 branding, but loses most mission, expansion and product meaning.",
+      "evidence": "V01–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q15",
+      "finding": "Centered presenter framing is consistent; small overlays sit across his torso and hand gestures.",
+      "evidence": "V02,V04,V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q16",
+      "finding": "The nearly two-minute address has long stretches with little visual change or text support, especially 25–71s.",
+      "evidence": "V03",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q17",
+      "finding": "The opening access mission is repeated at the close and linked to funding; no creator result demonstrates it.",
+      "evidence": "V01,V05,V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q18",
+      "finding": "Founder presence and growth figures suggest confidence and momentum; audience response is unmeasured.",
+      "evidence": "V01–V06",
+      "status": "uncertain",
+      "reason": "Interpretation of framing and claims.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q19",
+      "finding": "The same speaker and corridor provide strong visual continuity; overlays consistently mark named facts.",
+      "evidence": "V01–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q20",
+      "finding": "Funding, valuation, projected revenue, investor participation and product-access claims are statements in the film. They were not independently verified and Agent 4 behavior is not demonstrated.",
+      "evidence": "V02–V05,A01",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q21",
+      "finding": "The founder, named investors and orange Replit marks identify the announcement, while the presentation format is broadly reusable.",
+      "evidence": "V01,V04,V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q22",
+      "finding": "Add a brief creator example around the Agent 4 mention.",
+      "evidence": "V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "Show one plain-language request, a generated working page and the creator making an edit."
+    },
+    {
+      "id": "Q23",
+      "finding": "For Tin, pair company news with a visible customer task.",
+      "evidence": "V02,V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "After one milestone card, show a brief becoming a reviewed campaign asset."
+    },
+    {
+      "id": "Q24",
+      "finding": "No human new-viewer test was performed.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "The product summary is this model’s film-only reading.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q25",
+      "finding": "Mobile preview and accessibility checks were not performed.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "Contact sheets are evidence views, not a stated mobile preview or compliance test.",
+      "experiment": "none"
+    }
+  ],
+  "elements": [
+    {
+      "kind": "motion",
+      "name": "funding figure overlays",
+      "events": [
+        "V02"
+      ]
+    },
+    {
+      "kind": "motion",
+      "name": "investor name pills",
+      "events": [
+        "V04"
+      ]
+    },
+    {
+      "kind": "motion",
+      "name": "product name overlay",
+      "events": [
+        "V05"
+      ]
+    }
+  ],
+  "lessons": {
+    "keep": "Use restrained overlays to make the key announcement figures easy to locate.",
+    "try": [
+      "Pair Agent 4 with a request, working output and creator edit.",
+      "For Tin, follow a milestone card with a brief-to-reviewed-asset example."
+    ],
+    "avoid": "Leaving nearly all product meaning in uncaptained speech during a long presenter film.",
+    "open": "Funding and growth claims, investor details, Agent 4 behavior, audio and viewer understanding remain unverified."
+  },
+  "comparison": {
+    "story": "Founder mission and funding update → expansion → Agent 4.",
+    "motion": "Presenter framing changes and sparse labeled overlays.",
+    "sound": "Coherent announcement ASR with name errors; no listening.",
+    "texture": "Warm symmetrical corridor and thin white outlines.",
+    "lesson": "Company news gains product meaning from one visible creator task."
+  },
+  "reviewer_model": "gpt-6-astra",
+  "scope": "sampled visual and story review; ASR and measured signal support; no validated audio listening",
+  "viewed_evidence": [
+    "technical-review-2026-10-19/deep-review/motion/289/timeline-00.jpg",
+    "technical-review-2026-10-19/deep-review/motion/289/timeline-01.jpg",
+    "technical-review-2026-10-19/deep-review/motion/289/timeline-02.jpg",
+    "technical-review-2026-10-19/deep-review/motion/289/timeline-03.jpg"
+  ],
+  "closer_windows": []
+}

@@ -1,0 +1,336 @@
+{
+  "id": 284,
+  "product_from_film": "HydraDB is presented as context storage for AI that keeps relationships, decisions and changes over time to improve retrieval.",
+  "explains_well": "The wrong-book and right-book library analogy makes the difference between a matching term and a relevant answer easy to follow.",
+  "unclear": "The film never returns to its opening customer-contract question with a corrected answer and source, so the product benefit stays mostly metaphorical.",
+  "product_type": "AI context database",
+  "scenario": "A wrong contract answer leads to a library analogy, then a context-storage diagram and a founder explanation.",
+  "product_clear_time": 52,
+  "product_clear_basis": "The script explicitly says HydraDB stores actual context at 52s, with relationships and temporal details in the following diagram; the earlier library story explains a general retrieval problem.",
+  "scenes": [
+    {
+      "start": 0,
+      "end": 15,
+      "action": "A founder, laptop and prompt ask for the latest request on an Acme contract. The response instead names Apex Technologies. Abstract intelligence graphics and a NOT FOUND state support the wrong-document explanation.",
+      "design": "Presenter footage, sparse chat UI and dark abstract graphics.",
+      "purpose": "Make the retrieval error concrete.",
+      "evidence": "1 fps source samples in 0–15s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V01"
+    },
+    {
+      "start": 15,
+      "end": 28,
+      "action": "A suited visitor enters a large library and brings a camera to a librarian. A book titled Fifty Shades of Grey is placed on the desk.",
+      "design": "Warm lamps, dark wooden shelves and close-up props.",
+      "purpose": "Illustrate a superficial association with photography or colors.",
+      "evidence": "1 fps source samples in 15–28s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V02"
+    },
+    {
+      "start": 28,
+      "end": 40,
+      "action": "The visitor examines an old manuscript; a page references color. Disordered books and shelves precede the founder explaining flat indexing and embeddings.",
+      "design": "Aged paper, crowded shelves and office presenter.",
+      "purpose": "Extend the analogy of irrelevant retrieval.",
+      "evidence": "1 fps source samples in 28–40s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V03"
+    },
+    {
+      "start": 40,
+      "end": 51,
+      "action": "A second librarian hears the request, searches the shelves and provides Understanding Exposure.",
+      "design": "Warm library views, hand close-ups and a clearly titled book.",
+      "purpose": "Illustrate a relevant answer.",
+      "evidence": "1 fps source samples in 40–51s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V04"
+    },
+    {
+      "start": 51,
+      "end": 59,
+      "action": "Small profile text and vector-like numbers lead to orange cubes in a wireframe space. Labels and text refer to context, relationships, decisions and evolution over time; orange blocks fill more of the frame.",
+      "design": "White diagram, fine grid, orange cubes and small contextual text.",
+      "purpose": "State the proposed storage difference.",
+      "evidence": "1 fps source samples in 51–59s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V05"
+    },
+    {
+      "start": 59,
+      "end": 68.383,
+      "action": "The founder summarizes the promise. The visitor reads in the library under Context to AI, followed by the logo and hydradb.com.",
+      "design": "Presenter, library payoff and black end card.",
+      "purpose": "Close the metaphor and name the destination.",
+      "evidence": "1 fps source samples in 59–68.383s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V06"
+    }
+  ],
+  "sound": [
+    {
+      "id": "A01",
+      "start": 0,
+      "end": 68.383,
+      "layer": "ASR draft / unknown",
+      "detail": "The draft coherently describes wrong-document retrieval, the library analogy and storing context, relationships and changes over time. Some nouns are misrecognized; visible props and captions support the broad interpretation. Its claims about vector databases are the film’s framing, not verified technical conclusions. No validated listening, delivery, music, effects or sync assessment.",
+      "visual_relation": "V01–V06; script carries the database explanation.",
+      "evidence": "technical-review-2026-10-19/deep-review/audio/284-speech.json"
+    }
+  ],
+  "categories": [
+    {
+      "id": "Q01",
+      "finding": "Wrong contract answer → poor librarian analogy → better librarian → context-storage claim → reading payoff and URL.",
+      "evidence": "V01–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q02",
+      "finding": "The founder begins explaining an AI question, followed by typing; the actual mismatch appears at 2–6s.",
+      "evidence": "V01",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q03",
+      "finding": "AI builders are the implied audience. The product’s context-storage proposition is explicit around 52s.",
+      "evidence": "V05,A01",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q04",
+      "finding": "Prompt and response crops, library close-ups and orange-cube diagram states guide the story. Exact cube motion and easing are unresolved at 1fps.",
+      "evidence": "V01–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q05",
+      "finding": "The camera prop links the request to the wrong book and then the correct photography book. The diagram shifts from analogy to a technical claim.",
+      "evidence": "V02–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q06",
+      "finding": "Warm wood, lamps and aged paper contrast with white diagrams and orange geometry.",
+      "evidence": "V02–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q07",
+      "finding": "Captions help carry the spoken explanation. The book titles are memorable, but fine diagram text is dense and brief.",
+      "evidence": "V02–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q08",
+      "finding": "The coherent draft supplies the full analogy and storage claim; tone and audible delivery are unverified.",
+      "evidence": "A01",
+      "status": "uncertain",
+      "reason": "ASR text only.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q09",
+      "finding": "Music character and structure are unverified.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "No validated listening.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q10",
+      "finding": "Effects and their sources are unverified.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "No validated listening; waveform peaks do not identify effects.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q11",
+      "finding": "Sound sync is unverified.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "No validated listening or paired audiovisual timing.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q12",
+      "finding": "Founder footage, staged-looking library scenes, chat UI and abstract diagrams are combined. Actual filming/generation methods are not established.",
+      "evidence": "V01–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q13",
+      "finding": "Source duration 68.383 s; Watch metadata 1920 × 1080. Frame rate, audio clipping and export quality not checked here.",
+      "evidence": "Whole film",
+      "status": "supported",
+      "reason": "Parent source metadata supports duration and dimensions; visual review is sampled.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q14",
+      "finding": "Wrong and right books explain relevance visually; the technical difference and intended database use rely more on captions/script.",
+      "evidence": "V02–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q15",
+      "finding": "Camera and book close-ups make the analogy easy to inspect; small text around cubes has a weaker focus hierarchy.",
+      "evidence": "V02–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q16",
+      "finding": "The library analogy receives more than half the film, while the actual data model gets about eight seconds.",
+      "evidence": "V02–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q17",
+      "finding": "The retrieval problem gets a metaphorical right-book payoff, but the opening contract task is not rerun.",
+      "evidence": "V01,V04,V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q18",
+      "finding": "A confused visitor becomes a reader with a relevant book, suggesting relief and competence; response is unmeasured.",
+      "evidence": "V02–V06",
+      "status": "uncertain",
+      "reason": "Interpretation of imagery.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q19",
+      "finding": "The visitor, camera request and books maintain the analogy, but the contract example is disconnected from the final proof.",
+      "evidence": "V01–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q20",
+      "finding": "The film’s broad criticism of vector databases and claims of better context are not independently verified. No retrieval benchmark, source trace or corrected contract result is shown.",
+      "evidence": "V01,V03,V05,A01",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q21",
+      "finding": "A library metaphor with specific wrong and right titles is distinctive; orange geometry identifies the technical section.",
+      "evidence": "V02–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q22",
+      "finding": "Return to the opening query after the diagram.",
+      "evidence": "V01,V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "Show the same contract question retrieving the correct document with a source link and the changed answer."
+    },
+    {
+      "id": "Q23",
+      "finding": "For Tin, use a familiar analogy and then close the actual task.",
+      "evidence": "V02–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "Explain a wrong campaign reference with a simple matching analogy, then show the right source and corrected draft."
+    },
+    {
+      "id": "Q24",
+      "finding": "No human new-viewer test was performed.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "The product summary is this model’s film-only reading.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q25",
+      "finding": "Mobile preview and accessibility checks were not performed.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "Contact sheets are evidence views, not a stated mobile preview or compliance test.",
+      "experiment": "none"
+    }
+  ],
+  "elements": [
+    {
+      "kind": "ui",
+      "name": "chat prompt and response",
+      "events": [
+        "V01"
+      ]
+    },
+    {
+      "kind": "motion",
+      "name": "wireframe space with cubes",
+      "events": [
+        "V05"
+      ]
+    },
+    {
+      "kind": "texture",
+      "name": "wooden library",
+      "events": [
+        "V02",
+        "V03",
+        "V04",
+        "V06"
+      ]
+    },
+    {
+      "kind": "texture",
+      "name": "aged book pages",
+      "events": [
+        "V03"
+      ]
+    }
+  ],
+  "lessons": {
+    "keep": "Use a specific wrong object and right object to explain relevance.",
+    "try": [
+      "Rerun the original contract query with the correct source and answer.",
+      "For Tin, follow an analogy with a corrected source-backed campaign draft."
+    ],
+    "avoid": "Allowing a metaphor to serve as the only proof of the actual task.",
+    "open": "Retrieval quality, technical generalizations, context model behavior, production sources and audio remain unverified."
+  },
+  "comparison": {
+    "story": "Wrong retrieval → library analogy → context claim → metaphor payoff.",
+    "motion": "UI crops and orange-cube diagram amid library scenes.",
+    "sound": "Coherent ASR explanation; no listening.",
+    "texture": "Warm library and white/orange technical diagram.",
+    "lesson": "A useful analogy should return to the original product problem."
+  },
+  "reviewer_model": "gpt-6-astra",
+  "scope": "sampled visual and story review; ASR and measured signal support; no validated audio listening",
+  "viewed_evidence": [
+    "technical-review-2026-10-19/deep-review/motion/284/timeline-00.jpg",
+    "technical-review-2026-10-19/deep-review/motion/284/timeline-01.jpg",
+    "technical-review-2026-10-19/deep-review/motion/284/timeline-02.jpg"
+  ],
+  "closer_windows": []
+}

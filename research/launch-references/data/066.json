@@ -1,0 +1,338 @@
+{
+  "id": 66,
+  "reviewer_model": "gpt-6-astra",
+  "scope": "sampled visual and story review; ASR and measured signal support; no validated audio listening",
+  "viewed_evidence": [
+    "technical-review-2026-10-19/deep-review/motion/066/timeline-00.jpg",
+    "technical-review-2026-10-19/deep-review/motion/066/timeline-01.jpg",
+    "technical-review-2026-10-19/deep-review/motion/066/timeline-02.jpg",
+    "technical-review-2026-10-19/deep-review/audio/066-speech.json"
+  ],
+  "closer_windows": [],
+  "product_from_film": "State Machines is framed as infrastructure for agents to work with enterprise apps; the exact environment is only partly explained.",
+  "explains_well": "The film establishes a clear question about testing software that can act.",
+  "unclear": "How an agent is tested and how enterprise access works are not demonstrated.",
+  "product_type": "agent infrastructure",
+  "scenario": "Introduce the need for agent testing and enterprise-app access.",
+  "product_clear_time": 59,
+  "product_clear_basis": "Give agents enterprise apps APIs is visible after the testing question; exact offer remains partial.",
+  "scenes": [
+    {
+      "id": "V01",
+      "start": 0,
+      "end": 14,
+      "action": "Clock and technical imagery lead to an office, short text about making work easier, train diagrams, historical workers, computers and circuitry.",
+      "design": "Monochrome archival-looking footage, technical drawings and black text cards.",
+      "purpose": "Frame technology as multiplying human ability.",
+      "evidence": "Visible chronological 1 fps samples, source 0–14s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V02",
+      "start": 14,
+      "end": 25,
+      "action": "AI Agents text, formulas and abstract imagery lead to interview clips with a large AI-infrastructure question, then particle and factory views.",
+      "design": "Scanline-like treatment, cyan text and archival montage.",
+      "purpose": "Bring the history to agents.",
+      "evidence": "Visible chronological 1 fps samples, source 14–25s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V03",
+      "start": 25,
+      "end": 37,
+      "action": "Rocket test footage alternates with captions about testing before real-world use, followed by a speaker clip and large word overlays.",
+      "design": "Rocket exhaust and low-resolution-looking interview imagery.",
+      "purpose": "Raise the issue of reliable behavior.",
+      "evidence": "Visible chronological 1 fps samples, source 25–37s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V04",
+      "start": 37,
+      "end": 44,
+      "action": "Centered text asks how to test software that can behave; circular abstract forms appear, followed by several black sampled frames.",
+      "design": "Sparse text on black and round motifs.",
+      "purpose": "Pause on the core question.",
+      "evidence": "Visible chronological 1 fps samples, source 37–44s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V05",
+      "start": 44,
+      "end": 58,
+      "action": "Enterprise-company imagery, a presenter, a year card, typing, dictionary text and app screens form another montage.",
+      "design": "Mixed office footage, clipped webpage text and event images.",
+      "purpose": "Move toward enterprise context.",
+      "evidence": "Visible chronological 1 fps samples, source 44–58s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V06",
+      "start": 58,
+      "end": 69.402,
+      "action": "Text says Give agents enterprise apps APIs, then Work with Salesforce, ServiceNow and NetSuite. State machines name and symbol close on black.",
+      "design": "Small centered white type; occasional word glow.",
+      "purpose": "Name the product direction and integrations.",
+      "evidence": "Visible chronological 1 fps samples, source 58–69.402s; boundary approximate; exact motion between samples unverified."
+    }
+  ],
+  "sound": [
+    {
+      "id": "A01",
+      "start": 0,
+      "end": 69.402,
+      "layer": "unknown",
+      "detail": "No validated direct audio listening was performed. Music, speech delivery, effects, mix and sync remain unknown, not absent.",
+      "visual_relation": "All visual scenes; audiovisual alignment unverified",
+      "evidence": "Visual samples only; no actual audio range supplied to this reviewer."
+    },
+    {
+      "id": "A02",
+      "start": 3.17,
+      "end": 46.46,
+      "layer": "ASR draft",
+      "detail": "The ASR draft describes machines, internet and agents, then asks how to test software that behaves. Later launch wording is malformed, so the exact offer cannot be recovered from the draft.",
+      "visual_relation": "Story text support; exact audiovisual alignment and delivery unverified.",
+      "evidence": "technical-review-2026-10-19/deep-review/audio/066-speech.json; local faster-whisper base CPU int8 draft; VAD candidates only, recognition errors possible."
+    }
+  ],
+  "categories": [
+    {
+      "id": "Q01",
+      "finding": "Historical progress leads to a testing question and an enterprise-app proposition; the causal product mechanism is missing.",
+      "evidence": "V01–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q02",
+      "finding": "Clock and wire-like technical imagery establish a broad technology theme, not a task.",
+      "evidence": "V01",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q03",
+      "finding": "Agent builders and enterprise contexts are implied; the specific app-access proposition appears only near 59 s.",
+      "evidence": "V05,V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q04",
+      "finding": "Text builds phrase by phrase and montage images change scale or crop; exact transition paths are unresolved.",
+      "evidence": "V01–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q05",
+      "finding": "Topic-based cuts join machines, agents and rocket tests; black sampled frames around 41–43 s separate the core question from the enterprise montage.",
+      "evidence": "V03,V04,V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q06",
+      "finding": "Scanline-like texture, monochrome footage and muted color create a historical-tech treatment.",
+      "evidence": "V01–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q07",
+      "finding": "Short central sentences and larger interview overlays guide the argument; app-screen text is mostly too brief and small to serve as a demo.",
+      "evidence": "V02,V04,V05,V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q08",
+      "finding": "The ASR draft describes machines, internet and agents, then asks how to test software that behaves. Later launch wording is malformed, so the exact offer cannot be recovered from the draft.",
+      "evidence": "A02",
+      "status": "uncertain",
+      "reason": "ASR text only; no validated listening, delivery or voice origin.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q09",
+      "finding": "Voice delivery, music, effects and audiovisual alignment were not established by this visual pass.",
+      "evidence": "A01",
+      "status": "not checked",
+      "reason": "No validated direct audio listening input.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q10",
+      "finding": "Voice delivery, music, effects and audiovisual alignment were not established by this visual pass.",
+      "evidence": "A01",
+      "status": "not checked",
+      "reason": "No validated direct audio listening input.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q11",
+      "finding": "Voice delivery, music, effects and audiovisual alignment were not established by this visual pass.",
+      "evidence": "A01",
+      "status": "not checked",
+      "reason": "No validated direct audio listening input.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q12",
+      "finding": "Historical-looking clips, interviews, rocket footage, event imagery and software screens are combined; identities, sources and rights are not established here.",
+      "evidence": "V01–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q13",
+      "finding": "Manifest duration 69.402 s; indexed dimensions 1920×1080. Source unchanged flag recorded; fresh encoding and audio clipping checks not run.",
+      "evidence": "Group manifest",
+      "status": "uncertain",
+      "reason": "Inherited technical metadata; no fresh media probe in this review.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q14",
+      "finding": "Captions retain the testing question and integration names silently; the exact product operation is still unclear.",
+      "evidence": "V04,V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q15",
+      "finding": "Centered phrases focus the eye between crowded montages, but the repeated source changes demand frequent refocusing.",
+      "evidence": "V01–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q16",
+      "finding": "Much of the 69 s film builds context; the final app-access proposition receives only a brief text sequence.",
+      "evidence": "V01–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q17",
+      "finding": "The testing question is raised clearly but answered with an offer statement rather than a test run and outcome.",
+      "evidence": "V04,V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q18",
+      "finding": "Historical progress and rocket tests suggest ambition and caution; this is interpretation.",
+      "evidence": "V01,V03",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q19",
+      "finding": "Technology and testing remain conceptual links, but there is no recurring user task or interface state.",
+      "evidence": "V01–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q20",
+      "finding": "The film names enterprise apps and APIs; no agent action, evaluation result or safety boundary is demonstrated.",
+      "evidence": "V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q21",
+      "finding": "The final lowercase name and geometric mark are specific; the broad technology montage could fit other infrastructure products.",
+      "evidence": "V01–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q22",
+      "finding": "The behavior-testing question is essential; fewer historical inserts could leave room for one agent test in an enterprise environment.",
+      "evidence": "V01,V04,V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q23",
+      "finding": "Tin can introduce a risky agent action, show a sandbox run and then present the observed result before any historical metaphor.",
+      "evidence": "V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q24",
+      "finding": "State Machines is framed as infrastructure for agents to work with enterprise apps; the exact environment is only partly explained.",
+      "evidence": "Model reading from inspected images",
+      "status": "uncertain",
+      "reason": "Model-only new-viewer interpretation; no human test.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q25",
+      "finding": "Contact sheets inspected at displayed size; a phone-size playback, caption audit, flash audit and formal accessibility check were not performed.",
+      "evidence": "Viewed sheets",
+      "status": "not checked",
+      "reason": "Full-size moving-image and device checks unavailable in this pass.",
+      "experiment": "none"
+    }
+  ],
+  "lessons": {
+    "keep": "Turn a broad technology story into one explicit question the product must answer.",
+    "avoid": "Avoid ending a testing argument without a visible test case and result.",
+    "open": "Exact product scope, enterprise integrations, interview context, motion and audio remain unverified.",
+    "try": [
+      "For Tin, ask whether an agent can update the correct campaign record, then show a test input, resulting state and check.",
+      "Compare one failed agent action with its corrected sandbox result using the same app screen and visible record ID."
+    ]
+  },
+  "comparison": {
+    "story": "Frame technology as multiplying human ability. → Bring the history to agents. → Raise the issue of reliable behavior. → Pause on the core question. → Move toward enterprise context. → Name the product direction and integrations.",
+    "motion": "Text builds phrase by phrase and montage images change scale or crop; exact transition paths are unresolved. Sampling scope: 1 fps unless a closer window is recorded.",
+    "sound": "No validated listening; unknown.",
+    "texture": "Monochrome archival-looking footage, technical drawings and black text cards.; Scanline-like treatment, cyan text and archival montage.; Rocket exhaust and low-resolution-looking interview imagery.; Sparse text on black and round motifs.; Mixed office footage, clipped webpage text and event images.; Small centered white type; occasional word glow.",
+    "lesson": "Turn a broad technology story into one explicit question the product must answer."
+  },
+  "elements": [
+    {
+      "kind": "texture",
+      "name": "archival-looking montage",
+      "events": [
+        "V01",
+        "V02"
+      ]
+    },
+    {
+      "kind": "texture",
+      "name": "scanline treatment",
+      "events": [
+        "V02"
+      ]
+    },
+    {
+      "kind": "motion",
+      "name": "progressive text reveal",
+      "events": [
+        "V04",
+        "V06"
+      ]
+    }
+  ]
+}

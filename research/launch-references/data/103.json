@@ -1,0 +1,404 @@
+{
+  "id": 103,
+  "product_from_film": "MicroFactory presents robot-control training equipment and a compact assembly cell, demonstrated on small-object handling.",
+  "explains_well": "Hands, pedals, grippers and objects are shown together, then close-ups reveal what changes at contact.",
+  "unclear": "Reliability and training-time claims are not independently verified; much of the method needs speech or transcript.",
+  "product_type": "robotics training and assembly",
+  "scenario": "Guide robot arms, test connector placement, handle zip ties and scoop mushrooms, then explain hardware options.",
+  "product_clear_time": 26,
+  "product_clear_basis": "The first 26s show manual controls and pedals leading to opposed grippers meeting around a small component. Brand and package names appear much later.",
+  "scenes": [
+    {
+      "start": 0,
+      "end": 26,
+      "action": "A seated operator holds small articulated controls in front of larger robot arms. Foot-pedal close-ups show R, cross and check symbols, then the hands/controllers return.",
+      "design": "Bright workbench, exposed cables, black frames and colored pedal symbols.",
+      "purpose": "Show the human input side of a robot-training task.",
+      "evidence": "1 fps source samples in 0–26s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V01"
+    },
+    {
+      "start": 26,
+      "end": 44,
+      "action": "Close views show yellow grippers meeting around a green component; overhead and side views return to the operator gesturing at the cell.",
+      "design": "Small green part and yellow gripper tips contrast with gray hardware.",
+      "purpose": "Make precision handling visible.",
+      "evidence": "1 fps source samples in 26–44s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V02"
+    },
+    {
+      "start": 44,
+      "end": 63,
+      "action": "Opposed grippers approach around the green part, then separate. A hand repositions the part near one gripper; the grippers meet again in later samples.",
+      "design": "Tight contact views with shallow focus.",
+      "purpose": "Show a changed starting position and another attempt; success interpretation needs finer detail.",
+      "evidence": "1 fps source samples in 44–63s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V03"
+    },
+    {
+      "start": 63,
+      "end": 83,
+      "action": "Two panels compare robot views, then an inset cell repeats operations with orange ties accumulating on the work surface.",
+      "design": "White margins, paired clips and a visible pile of orange material.",
+      "purpose": "Extend the task to flexible-object handling.",
+      "evidence": "1 fps source samples in 63–83s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V04"
+    },
+    {
+      "start": 83,
+      "end": 96,
+      "action": "The presenter gestures beside the cell; a research-page image and Zip Tie bar chart appear, followed by a chapter 3 title.",
+      "design": "White research graphic and simple chapter card.",
+      "purpose": "Support a performance claim and introduce method.",
+      "evidence": "1 fps source samples in 83–96s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V05"
+    },
+    {
+      "start": 96,
+      "end": 128,
+      "action": "The operator demonstrates the small controller, with hand and joint close-ups. A yellow/blue gripper descends toward a green piece on a flat surface and later holds it above the surface.",
+      "design": "Controller cables, mechanical joints and close contact point.",
+      "purpose": "Explain human correction and show a manipulation result.",
+      "evidence": "1 fps source samples in 96–128s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V06"
+    },
+    {
+      "start": 128,
+      "end": 145,
+      "action": "The operator continues beside the same rig, then the scene moves to another workbench with a white robot and food trays.",
+      "design": "Working-lab environment with tools and people.",
+      "purpose": "Transition from precision assembly to another task.",
+      "evidence": "1 fps source samples in 128–145s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V07"
+    },
+    {
+      "start": 145,
+      "end": 178,
+      "action": "A scoop moves through mushrooms and rises with a load. Wider views and picture-in-picture pair the white arm’s operation with the presenter’s explanation.",
+      "design": "Metal food trays, white scoop and practical bench lighting.",
+      "purpose": "Demonstrate a visibly different handling task.",
+      "evidence": "1 fps source samples in 145–178s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V08"
+    },
+    {
+      "start": 178,
+      "end": 193,
+      "action": "The presenter walks through the workshop; chapter 4 introduces a first prototype. MicroFactory signage, a small photo and another presenter beside a framed mechanism follow.",
+      "design": "White chapter card, prototype frame and blue physical brand letters.",
+      "purpose": "Give development history.",
+      "evidence": "1 fps source samples in 178–193s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V09"
+    },
+    {
+      "start": 193,
+      "end": 232,
+      "action": "Interview views alternate with the prototype presenter and close-ups of a motor/gear assembly. A two-gear diagram appears at 226–228s.",
+      "design": "Exposed mechanical parts and a simple line diagram.",
+      "purpose": "Explain hardware design choices; exact technical meaning relies on speech.",
+      "evidence": "1 fps source samples in 193–232s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V10"
+    },
+    {
+      "start": 232,
+      "end": 261.07,
+      "action": "The original presenter returns to a table. Large labels identify the kit and assembly cell; arms, box and kit included appears, then microfactory.com and a final separate production-link card.",
+      "design": "Large outlined product labels, white margins and physical machines.",
+      "purpose": "Clarify the two offered packages and next step.",
+      "evidence": "1 fps source samples in 232–261.07s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V11"
+    }
+  ],
+  "sound": [
+    {
+      "id": "A01",
+      "start": 0,
+      "end": 137.8,
+      "layer": "ASR draft",
+      "detail": "Draft describes demonstration positions, pedal scaling, connector insertion, a zip-tie success claim and real-time correction. These are transcript claims, not verified performance or heard delivery.",
+      "visual_relation": "V01–V07; semantic correspondence only, exact sync unverified",
+      "evidence": "technical-review-2026-10-19/deep-review/audio/103-speech.json; local faster-whisper draft segments read."
+    },
+    {
+      "id": "A02",
+      "start": 137.8,
+      "end": 261.07,
+      "layer": "ASR draft",
+      "detail": "Draft describes mushroom scooping, prototype constraints, paired motors for backlash and kit/assembly-cell packages. Music, effects, mix and voice delivery remain unknown.",
+      "visual_relation": "V07–V11; exact sync unverified",
+      "evidence": "technical-review-2026-10-19/deep-review/audio/103-speech.json; local draft read through 257.6s, no validated listening."
+    }
+  ],
+  "categories": [
+    {
+      "id": "Q01",
+      "finding": "A hands-on connector demo leads to zip ties, correction controls, mushroom scooping, prototype history and product packages.",
+      "evidence": "V01–V11",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q02",
+      "finding": "The operator and robot workbench are visible immediately, with a hand on a control. The viewer sees a physical demonstration before a brand claim.",
+      "evidence": "V01",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q03",
+      "finding": "Robot teaching/manipulation is visible early and concrete at 26s. The kit versus full-cell offer is only labeled at 241–253s.",
+      "evidence": "V02,V11",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q04",
+      "finding": "Human controls, pedals and robot joints change position; close contact views show grippers approaching and separating. Exact force, speed and easing are not established.",
+      "evidence": "V01–V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q05",
+      "finding": "Wide operator views alternate with contact-point close-ups. White chapter cards mark larger topic changes; picture-in-picture supports the scoop explanation.",
+      "evidence": "V05,V08,V09",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q06",
+      "finding": "Exposed cables, bench lighting and unfinished-looking hardware create a practical workshop setting. This is visible treatment, not proof of production readiness.",
+      "evidence": "V01–V11",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q07",
+      "finding": "Most early instruction is not captioned. Late large package labels are clear; the research page is too dense for reading as a whole at sheet size.",
+      "evidence": "V05,V11",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q08",
+      "finding": "The ASR draft supplies detailed method explanation and performance claims; voice pace, emphasis and clarity were not heard.",
+      "evidence": "A01,A02",
+      "status": "uncertain",
+      "reason": "Transcript-only support, not validated listening.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q09",
+      "finding": "Music character and structure are unverified.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "No validated listening.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q10",
+      "finding": "Effects and their sources are unverified.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "No validated listening; waveform peaks do not identify effects.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q11",
+      "finding": "Sound sync is unverified.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "No validated listening or paired audiovisual timing.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q12",
+      "finding": "Workshop footage, hardware close-ups, comparison insets, research graphic and gear diagram are used. Source provenance is not independently known.",
+      "evidence": "V01–V11",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q13",
+      "finding": "Source duration 261.07 s; Watch metadata 1920 × 1080. Frame rate, audio clipping and export quality not checked here.",
+      "evidence": "Whole film",
+      "status": "supported",
+      "reason": "Parent source metadata supports duration and dimensions; visual review is sampled.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q14",
+      "finding": "The gripper and scoop actions remain visible silently; training logic, benchmark conditions and motor explanation require text or speech.",
+      "evidence": "V02,V06,V08,V10",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q15",
+      "finding": "Close-ups focus on the contact point. Wider demonstrations contain many arms and cables, so labels would help identify controller versus controlled arm.",
+      "evidence": "V01,V02,V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q16",
+      "finding": "The long format gives room for repeated attempts and hardware detail. Uncaptioned interview stretches carry little new visual information.",
+      "evidence": "V07,V10",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "Add short labels for demonstration, correction and retry states."
+    },
+    {
+      "id": "Q17",
+      "finding": "The opening promises hands-on robot control; connector and scoop examples deliver visible actions, and the ending names purchasable packages.",
+      "evidence": "V01,V02,V08,V11",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q18",
+      "finding": "Visible attempts and workshop detail appear intended to build trust through process. Actual trust or interest was not measured.",
+      "evidence": "V02,V06,V08",
+      "status": "uncertain",
+      "reason": "Interpretation of presentation choices.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q19",
+      "finding": "The operator, controller and cell remain traceable through the first task. Chapter cards and new benches clearly mark changes.",
+      "evidence": "V01–V09",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q20",
+      "finding": "Object-handling states are visible. ASR mentions 97% over 100 zip ties and under 40 minutes of data, but the full benchmark and training process are not shown or checked.",
+      "evidence": "V04,V05,A01",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q21",
+      "finding": "The physical controller/arm arrangement, foot pedals and compact frame provide specificity beyond branding.",
+      "evidence": "V01,V06,V11",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q22",
+      "finding": "Contact close-ups and the second task prove visible range. The prototype section adds engineering context but could be separate from a short launch cut.",
+      "evidence": "V02,V08,V09,V10",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q23",
+      "finding": "For Tin, show a human correction, the system’s next output and a repeated task with the correction retained.",
+      "evidence": "V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "Use a split-screen of the user correction and the later automated result, with matching labels."
+    },
+    {
+      "id": "Q24",
+      "finding": "No human new-viewer test was performed.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "The product summary is this model’s film-only reading.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q25",
+      "finding": "Mobile preview and accessibility checks were not performed.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "Contact sheets are evidence views, not a stated mobile preview or compliance test.",
+      "experiment": "none"
+    }
+  ],
+  "elements": [
+    {
+      "kind": "ui",
+      "name": "comparison panels",
+      "events": [
+        "V04"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "bar chart",
+      "events": [
+        "V05"
+      ]
+    },
+    {
+      "kind": "motion",
+      "name": "robot gripper action",
+      "events": [
+        "V02",
+        "V03",
+        "V06"
+      ]
+    },
+    {
+      "kind": "motion",
+      "name": "picture in picture",
+      "events": [
+        "V08"
+      ]
+    },
+    {
+      "kind": "texture",
+      "name": "physical workshop",
+      "events": [
+        "V01",
+        "V08",
+        "V10"
+      ]
+    }
+  ],
+  "lessons": {
+    "keep": "Cut from the whole operator setup to the exact contact point where the task succeeds or fails.",
+    "try": [
+      "For Tin correction learning, show one wrong draft, one human correction and the next matching draft with the corrected detail retained.",
+      "For a workflow demo, pair a wide process overview with a close result inset, and label the current stage rather than relying on narration."
+    ],
+    "avoid": "Presenting a short successful action as proof of a stated benchmark or broad reliability.",
+    "open": "Benchmark validity, actual training procedure, force/speed detail, sound and continuous task execution remain unverified."
+  },
+  "comparison": {
+    "story": "Robot teaching → precision and flexible-object demos → correction method → second task → prototype → packages.",
+    "motion": "Physical controller/gripper/scoop actions shown at 1 fps; exact dynamics and success rates unverified.",
+    "sound": "Local ASR draft read for method/claims; no validated listening or sound-layer analysis.",
+    "texture": "Practical workshop with exposed hardware, white chapter cards and evidence graphics.",
+    "lesson": "A contact-point close-up is stronger explanatory evidence than a wide machine shot."
+  },
+  "reviewer_model": "gpt-6-astra",
+  "scope": "sampled visual and story review; ASR and measured signal support; no validated audio listening",
+  "viewed_evidence": [
+    "technical-review-2026-10-19/deep-review/motion/103/timeline-00.jpg",
+    "technical-review-2026-10-19/deep-review/motion/103/timeline-01.jpg",
+    "technical-review-2026-10-19/deep-review/motion/103/timeline-02.jpg",
+    "technical-review-2026-10-19/deep-review/motion/103/timeline-03.jpg",
+    "technical-review-2026-10-19/deep-review/motion/103/timeline-04.jpg",
+    "technical-review-2026-10-19/deep-review/motion/103/timeline-05.jpg",
+    "technical-review-2026-10-19/deep-review/motion/103/timeline-06.jpg",
+    "technical-review-2026-10-19/deep-review/motion/103/timeline-07.jpg",
+    "technical-review-2026-10-19/deep-review/motion/103/timeline-08.jpg"
+  ],
+  "closer_windows": []
+}

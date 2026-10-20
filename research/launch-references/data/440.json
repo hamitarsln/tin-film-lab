@@ -1,0 +1,327 @@
+{
+  "id": 440,
+  "reviewer_model": "gpt-6-astra",
+  "scope": "sampled visual and story review; ASR and measured signal support; no validated audio listening",
+  "viewed_evidence": [
+    "technical-review-2026-10-19/deep-review/motion/440/timeline-00.jpg",
+    "astra-review-2026-10-20/evidence/group-2/440-3-7-4fps.jpg"
+  ],
+  "closer_windows": [
+    {
+      "start": 3,
+      "end": 7,
+      "rate_fps": 4,
+      "evidence": [
+        "astra-review-2026-10-20/evidence/group-2/440-3-7-4fps.jpg"
+      ],
+      "resolved": "The arc of icon discs contracts into one circle above the arrow. A rounded-square outline then draws around the human-like mark and fills as an app tile."
+    }
+  ],
+  "product_from_film": "A short brand animation connects the Grammarly mark and several app symbols to the Superhuman identity.",
+  "explains_well": "The surrounding symbols collapse into the dot of the new human-like mark, giving the brand combination a visual form.",
+  "unclear": "The animation does not explain which products are included or what changes for a user.",
+  "product_type": "brand identity reveal",
+  "scenario": "Bring several app identities into one Superhuman mark.",
+  "product_clear_time": null,
+  "product_clear_basis": "Only symbols and a brand name are shown; no product function is explained.",
+  "scenes": [
+    {
+      "id": "V01",
+      "start": 0,
+      "end": 1,
+      "action": "A pale Grammarly G mark sits on a pink-purple horizon background.",
+      "design": "Soft glow, gradient and small sparkles.",
+      "purpose": "Establish a familiar starting identity.",
+      "evidence": "Visible chronological 1 fps samples, source 0–1s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V02",
+      "start": 1,
+      "end": 4,
+      "action": "Several circular app symbols form an arc above a large arrow-like mark that changes orientation.",
+      "design": "Pale translucent icon discs over the same gradient.",
+      "purpose": "Show a family of products around a central shape.",
+      "evidence": "Visible chronological 1 fps samples, source 1–4s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V03",
+      "start": 4,
+      "end": 7,
+      "action": "The icon discs converge above the arrow into one circle. A rounded-square outline forms around the resulting human-like mark and fills into an app tile.",
+      "design": "Glowing overlap, line drawing and pale filled tile.",
+      "purpose": "Combine the identities into one symbol.",
+      "evidence": "Visible chronological 1 fps samples, source 4–7s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V04",
+      "start": 7,
+      "end": 9.333,
+      "action": "The tile shrinks and the SUPERHUMAN name appears beneath it.",
+      "design": "Centered white mark and uppercase wordmark.",
+      "purpose": "Name the new identity.",
+      "evidence": "Visible chronological 1 fps samples, source 7–9.333s; boundary approximate; exact motion between samples unverified."
+    }
+  ],
+  "sound": [
+    {
+      "id": "A01",
+      "start": 0,
+      "end": 9.333,
+      "layer": "none",
+      "detail": "The downloaded source has no audio stream, confirmed by the parent ffprobe audit.",
+      "visual_relation": "No audio track accompanies the visual sequence in this file.",
+      "evidence": "Parent fresh ffprobe audit of source 440"
+    }
+  ],
+  "categories": [
+    {
+      "id": "Q01",
+      "finding": "An existing mark expands into a family of symbols, then combines into a Superhuman app icon and name.",
+      "evidence": "V01–V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q02",
+      "finding": "The Grammarly mark gives existing users a recognizable starting point before the icon arc appears.",
+      "evidence": "V01–V02",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q03",
+      "finding": "Existing users may recognize the product family, but no new viewer can infer a specific task from the symbols alone.",
+      "evidence": "V01–V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q04",
+      "finding": "The central arrow rotates, surrounding icon discs converge into its head dot, a rounded-square border draws around it, and the completed tile scales down. The convergence was inspected at 4 fps from 3–7s.",
+      "evidence": "V02–V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q05",
+      "finding": "Shared center position and persistent gradient connect the icon stages; the final shrink creates space for the brand name.",
+      "evidence": "V02–V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q06",
+      "finding": "Pink-purple gradients, pale translucent discs, glow and small sparkles give the mark a soft luminous setting.",
+      "evidence": "V01–V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q07",
+      "finding": "Only the closing Superhuman name is spelled out; the other product identities depend on symbol recognition.",
+      "evidence": "V02,V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q08",
+      "finding": "The downloaded source has no audio stream, confirmed by the parent ffprobe audit. Other versions of the post remain unverified.",
+      "evidence": "A01",
+      "status": "not applicable",
+      "reason": "This downloaded file has no audio stream; other versions are unverified.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q09",
+      "finding": "The downloaded source has no audio stream, confirmed by the parent ffprobe audit. Other versions of the post remain unverified.",
+      "evidence": "A01",
+      "status": "not applicable",
+      "reason": "This downloaded file has no audio stream; other versions are unverified.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q10",
+      "finding": "The downloaded source has no audio stream, confirmed by the parent ffprobe audit. Other versions of the post remain unverified.",
+      "evidence": "A01",
+      "status": "not applicable",
+      "reason": "This downloaded file has no audio stream; other versions are unverified.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q11",
+      "finding": "The downloaded source has no audio stream, confirmed by the parent ffprobe audit. Other versions of the post remain unverified.",
+      "evidence": "A01",
+      "status": "not applicable",
+      "reason": "This downloaded file has no audio stream; other versions are unverified.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q12",
+      "finding": "Brand marks, simple geometric shapes, gradient background and particles are the complete visible asset set.",
+      "evidence": "V01–V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q13",
+      "finding": "Manifest duration 9.333s; indexed dimensions 1620×1080. Source unchanged flag recorded; fresh encoding and audio clipping checks not run.",
+      "evidence": "Group manifest",
+      "status": "uncertain",
+      "reason": "Inherited technical metadata; no fresh media probe in this review.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q14",
+      "finding": "The downloaded source has no audio stream. The visual combination reads independently, though its product meaning needs outside context.",
+      "evidence": "V01–V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q15",
+      "finding": "The large central shape holds focus while the icon arc moves inward; the smaller final tile makes the name the ending focus.",
+      "evidence": "V02–V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q16",
+      "finding": "The brief duration suits a logo reveal, with one central transformation and a short named hold.",
+      "evidence": "V01–V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q17",
+      "finding": "The recognizable opening mark resolves into a new named identity, but no promise about product changes is stated.",
+      "evidence": "V01,V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q18",
+      "finding": "Soft light and unified shapes suggest a friendly combined identity; audience response has not been measured.",
+      "evidence": "V02–V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q19",
+      "finding": "The arrow-like shape survives as the body of the new symbol, and the icon arc supplies its head dot.",
+      "evidence": "V02–V03",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q20",
+      "finding": "The animation proves a visual identity relationship only; it does not demonstrate integration or shared functionality.",
+      "evidence": "V02–V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q21",
+      "finding": "The entire film is a brand transition, using old marks to make the new Superhuman symbol understandable.",
+      "evidence": "V01–V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q22",
+      "finding": "Add one short line naming what the combined suite helps users do, if this must stand alone.",
+      "evidence": "V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q23",
+      "finding": "Use component icons as actual parts of the final symbol when introducing a suite; follow with one practical task example.",
+      "evidence": "V02–V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q24",
+      "finding": "A short brand animation connects the Grammarly mark and several app symbols to the Superhuman identity.",
+      "evidence": "Model reading from inspected images",
+      "status": "uncertain",
+      "reason": "Model-only new-viewer interpretation; no human test.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q25",
+      "finding": "Contact sheets inspected at displayed size; a phone-size playback, caption audit, flash audit and formal accessibility check were not performed.",
+      "evidence": "Viewed sheets",
+      "status": "not checked",
+      "reason": "Full-size moving-image and device checks unavailable in this pass.",
+      "experiment": "none"
+    }
+  ],
+  "lessons": {
+    "keep": "Make the old identities visibly contribute to the new mark.",
+    "avoid": "Assuming that familiar logos explain a new product structure to everyone.",
+    "open": "Product grouping and user-facing changes are not explained; other versions of the public post remain unverified.",
+    "try": [
+      "For Tin, combine a few recognizable workflow icons into one campaign overview, then show the actual overview screen.",
+      "Compare the symbol-only reveal with a final plain-language line describing the shared user benefit."
+    ]
+  },
+  "comparison": {
+    "story": "Establish a familiar starting identity. → Show a family of products around a central shape. → Combine the identities into one symbol. → Name the new identity.",
+    "motion": "The central arrow rotates, surrounding icon discs converge into its head dot, a rounded-square border draws around it, and the completed tile scales down. The convergence was inspected at 4 fps from 3–7s. Sampling scope: 1 fps unless a closer window is recorded.",
+    "sound": "Downloaded source has no audio stream (ffprobe confirmed).",
+    "texture": "Soft glow, gradient and small sparkles.; Pale translucent icon discs over the same gradient.; Glowing overlap, line drawing and pale filled tile.; Centered white mark and uppercase wordmark.",
+    "lesson": "Make the old identities visibly contribute to the new mark."
+  },
+  "elements": [
+    {
+      "kind": "motion",
+      "name": "converging icons",
+      "events": [
+        "V03"
+      ]
+    },
+    {
+      "kind": "motion",
+      "name": "logo rotation",
+      "events": [
+        "V02"
+      ]
+    },
+    {
+      "kind": "motion",
+      "name": "drawing border",
+      "events": [
+        "V03"
+      ]
+    },
+    {
+      "kind": "texture",
+      "name": "purple gradient",
+      "events": [
+        "V01",
+        "V02",
+        "V03",
+        "V04"
+      ]
+    }
+  ]
+}

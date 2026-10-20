@@ -1,0 +1,389 @@
+{
+  "id": 406,
+  "viewed_evidence": [
+    "technical-review-2026-10-19/deep-review/motion/406/timeline-00.jpg",
+    "technical-review-2026-10-19/deep-review/motion/406/timeline-01.jpg",
+    "technical-review-2026-10-19/deep-review/motion/406/timeline-02.jpg",
+    "technical-review-2026-10-19/deep-review/motion/406/timeline-03.jpg",
+    "technical-review-2026-10-19/deep-review/motion/406/timeline-04.jpg",
+    "technical-review-2026-10-19/deep-review/motion/406/timeline-05.jpg",
+    "technical-review-2026-10-19/deep-review/motion/406/timeline-06.jpg",
+    "astra-review-2026-10-20/evidence/group-3/406/full135.jpg",
+    "astra-review-2026-10-20/evidence/group-3/406/full140.jpg",
+    "astra-review-2026-10-20/evidence/group-3/406/full160.jpg",
+    "technical-review-2026-10-19/deep-review/audio/406-speech.json"
+  ],
+  "product_from_film": "Replit presents building mobile apps from a description and starting publication from the same workspace.",
+  "explains_well": "The French tutor prompt leads to a recognizable phone conversation and publishing screen.",
+  "unclear": "The long history discussion delays the demo, and the App Store flow stops at its start rather than showing submission or availability.",
+  "product_type": "app builder",
+  "scenario": "Describe a French-learning tutor, use its phone chat and begin publishing.",
+  "product_clear_time": 0,
+  "product_clear_basis": "Mobile Apps on Replit title states the topic; description-to-app task is visible at 121–140s.",
+  "scenes": [
+    {
+      "start": 0,
+      "end": 2,
+      "action": "Title overlays blurred two-person couch shot.",
+      "design": "Introducing Mobile Apps on Replit; Amjad & Jordan.",
+      "purpose": "State launch",
+      "id": "V01",
+      "evidence": "Visible 1 fps samples, source 0–2s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 2,
+      "end": 33,
+      "action": "Wide couch conversation with lower thirds, then closer reverse angle.",
+      "design": "Orange couch, laptop on table, windows and plants.",
+      "purpose": "Introduce speakers",
+      "id": "V02",
+      "evidence": "Visible 1 fps samples, source 2–33s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 33,
+      "end": 70,
+      "action": "Alternating close-ups and two-shot continue; gestures change but no product UI.",
+      "design": "Consistent interview setting.",
+      "purpose": "Discuss interface history",
+      "id": "V03",
+      "evidence": "Visible 1 fps samples, source 33–70s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 70,
+      "end": 119,
+      "action": "Conversation continues in the same angles; laptop remains closed until the end of this section.",
+      "design": "No explanatory graphics or subtitles in inspected samples.",
+      "purpose": "Bridge to mobile creation",
+      "id": "V04",
+      "evidence": "Visible 1 fps samples, source 70–119s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 119,
+      "end": 137,
+      "action": "Laptop opens, dissolve to prompt entry; French tutor request fills field, then work panel shows generated guidelines, installed dependencies and Working.",
+      "design": "White prompt and builder UI inside dark border.",
+      "purpose": "Create example app",
+      "id": "V05",
+      "evidence": "Visible 1 fps samples, source 119–137s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 137,
+      "end": 141,
+      "action": "Phone Conversation Practice screen shows Beginner French introduction and Bonjour message.",
+      "design": "Tall phone capture with text chat.",
+      "purpose": "Show app use",
+      "id": "V06",
+      "evidence": "Visible 1 fps samples, source 137–141s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 141,
+      "end": 154,
+      "action": "Return to interview close-ups.",
+      "design": "Same couch and speakers.",
+      "purpose": "Discuss publishing",
+      "id": "V07",
+      "evidence": "Visible 1 fps samples, source 141–154s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 154,
+      "end": 164,
+      "action": "Publish your app form changes app title, then published workspace and Start publishing to the App Store button.",
+      "design": "Replit domain visible; Apple Developer/TestFlight/review requirements in panel.",
+      "purpose": "Begin distribution",
+      "id": "V08",
+      "evidence": "Visible 1 fps samples, source 154–164s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 164,
+      "end": 198,
+      "action": "Interview returns, alternating close-ups and wide shot; laptop later closed.",
+      "design": "Same setting and concluding gestures.",
+      "purpose": "Summarize broader promise",
+      "id": "V09",
+      "evidence": "Visible 1 fps samples, source 164–198s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 198,
+      "end": 200.295,
+      "action": "Orange outline mark resolves to solid Replit logo on white.",
+      "design": "Minimal logo.",
+      "purpose": "Brand close",
+      "id": "V10",
+      "evidence": "Visible 1 fps samples, source 198–200.295s; boundaries approximate, between-frame action unresolved."
+    }
+  ],
+  "sound": [
+    {
+      "id": "A01",
+      "start": 0,
+      "end": 200.295,
+      "layer": "unknown",
+      "detail": "No validated audio listening; speech, music, effects, mix and sync remain unverified.",
+      "visual_relation": "All visual scenes; alignment not checked",
+      "evidence": "No actual audio supplied to this review; existing technical-review-2026-10-19/deep-review/audio/406.json is not listening evidence."
+    },
+    {
+      "id": "A02",
+      "start": 1.83,
+      "end": 197.57,
+      "layer": "ASR draft",
+      "detail": "Candidate dialogue traces React and React Native to describing mobile apps without writing code, then integrated publication. It supports the history-to-demo structure. Corrupt personal names, Replet/Replic and phrase errors are not used as exact wording; speaker identity and delivery are not inferred from ASR.",
+      "visual_relation": "V02–V09; broad topic correspondence, no heard sync.",
+      "evidence": "technical-review-2026-10-19/deep-review/audio/406-speech.json; existing faster-whisper base CPU int8"
+    }
+  ],
+  "categories": [
+    {
+      "finding": "History conversation leads to a compact French tutor build/use demo and publication start, then a broader closing discussion.",
+      "evidence": "V02–V09",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q01"
+    },
+    {
+      "finding": "Mobile Apps on Replit title is immediately readable over blurred speakers, naming the launch before discussion.",
+      "evidence": "V01",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q02"
+    },
+    {
+      "finding": "Topic is clear at 0s; no-code description-to-mobile workflow becomes visible around 121–140s and is supported by candidate script.",
+      "evidence": "V01/V05/V06",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q03"
+    },
+    {
+      "finding": "Motion mainly consists of speaker gestures, shot changes, typed prompt and UI state changes; no defining complex motion needs a denser window.",
+      "evidence": "V02–V08",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q04"
+    },
+    {
+      "finding": "Wide and over-shoulder interview cuts maintain conversation; a dissolve near 120s connects opened laptop to screen capture.",
+      "evidence": "V04/V05",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q05"
+    },
+    {
+      "finding": "Warm orange couch, soft green plants and daylight contrast with plain white UI on dark matte.",
+      "evidence": "V02/V05",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q06"
+    },
+    {
+      "finding": "Opening title and names are clear; prompt is initially small, then full 135s frame makes the French adaptive-tutor request readable. No dialogue subtitles visible in sampled frames.",
+      "evidence": "V01/V02/V05",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q07"
+    },
+    {
+      "finding": "Voice presence and delivery remain unverified.",
+      "evidence": "No validated audio listening",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q08"
+    },
+    {
+      "finding": "Music character and arc remain unverified.",
+      "evidence": "No validated audio listening",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q09"
+    },
+    {
+      "finding": "Sound effects remain unverified.",
+      "evidence": "No validated audio listening",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q10"
+    },
+    {
+      "finding": "Sound-to-motion timing remain unverified.",
+      "evidence": "No validated audio listening",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q11"
+    },
+    {
+      "finding": "Interview footage alternates with screen recordings and narrow phone output; exact production method unknown.",
+      "evidence": "V02/V05/V06/V08",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q12"
+    },
+    {
+      "finding": "Source duration supplied as 200.295s; no independent compression, clipping or delivery check.",
+      "evidence": "Assigned metadata; source integrity checked by parent",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q13"
+    },
+    {
+      "finding": "Silent view names mobile apps and shows prompt/chat/publish, but loses the long React history and why native matters.",
+      "evidence": "V03/V04/V05–V08",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q14"
+    },
+    {
+      "finding": "Faces own most of the screen time; UI inserts finally shift focus to the actual task, while phone chat stays narrow.",
+      "evidence": "V02–V08",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q15"
+    },
+    {
+      "finding": "About two minutes pass before prompt input. The demo itself is brief relative to the historical setup.",
+      "evidence": "V02–V05",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q16"
+    },
+    {
+      "finding": "Mobile Apps opening is answered by French tutor phone output; distribution promise reaches only the start of App Store publishing.",
+      "evidence": "V01/V06/V08",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q17"
+    },
+    {
+      "finding": "Conversational presentation appears intended to build trust through shared history, then make creation feel approachable.",
+      "evidence": "V02–V05",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q18"
+    },
+    {
+      "finding": "French tutor prompt, Conversation Practice and Parlez Francais publishing workspace maintain task identity.",
+      "evidence": "V05/V06/V08",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q19"
+    },
+    {
+      "finding": "Prompt, build states, phone chat and web published status are visible. App Store panel explicitly requires an active Apple Developer account, TestFlight and review; store availability is not shown.",
+      "evidence": "V05/V06/V08; full160",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q20"
+    },
+    {
+      "finding": "Replit UI and orange brand identify the product; couch conversation alone is generic.",
+      "evidence": "V01/V05/V08/V10",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q21"
+    },
+    {
+      "finding": "Shorten historical setup and show a concrete tutor correction plus the next publishing step.",
+      "evidence": "V03/V04/V06/V08",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q22"
+    },
+    {
+      "finding": "For Tin, pair a founder explanation with one brief, generated result and publishing state; keep the demo early enough to ground the discussion.",
+      "evidence": "V05–V08",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q23"
+    },
+    {
+      "finding": "No human new-viewer test; product description above is model interpretation of sampled images.",
+      "evidence": "V01–V10",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q24"
+    },
+    {
+      "finding": "No phone-size, safe-area or flash assessment; small UI text needs separate preview.",
+      "evidence": "Contact sheets",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q25"
+    }
+  ],
+  "lessons": {
+    "keep": "Keep the same named example through creation, use and publication.",
+    "try": [
+      "Try a Tin interview that shows the actual campaign brief within the first 15 seconds.",
+      "Try a build demo that holds one user input and useful app response, then labels web published versus store submission states."
+    ],
+    "avoid": "Avoid showing a publication-start button as if distribution is complete.",
+    "open": "Audio delivery, unshown build interval, native behavior and store submission remain unverified."
+  },
+  "comparison": {
+    "story": "State launch → Introduce speakers → Discuss interface history → Bridge to mobile creation → Create example app → Show app use → Discuss publishing → Begin distribution → Summarize broader promise → Brand close",
+    "motion": "Motion mainly consists of speaker gestures, shot changes, typed prompt and UI state changes; no defining complex motion needs a denser window.",
+    "sound": "No validated listening; no absence claims.",
+    "texture": "Warm orange couch, soft green plants and daylight contrast with plain white UI on dark matte.",
+    "lesson": "Keep the same named example through creation, use and publication."
+  },
+  "elements": [
+    {
+      "kind": "ui",
+      "name": "prompt input",
+      "events": [
+        "V05"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "chat",
+      "events": [
+        "V05",
+        "V06"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "publishing form",
+      "events": [
+        "V08"
+      ]
+    },
+    {
+      "kind": "texture",
+      "name": "interview footage",
+      "events": [
+        "V02",
+        "V03",
+        "V04"
+      ]
+    }
+  ],
+  "reviewer_model": "gpt-6-astra",
+  "scope": "sampled visual and story review; ASR and measured signal support; no validated audio listening",
+  "closer_windows": []
+}

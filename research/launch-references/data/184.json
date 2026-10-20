@@ -1,0 +1,364 @@
+{
+  "id": 184,
+  "product_from_film": "Polsia presents itself as an AI that builds and operates companies from an idea.",
+  "explains_well": "Company-creation screens, research tasks and progress states connect the broad autonomous-company claim to business activities.",
+  "unclear": "Many tasks and claims are shown, but no single idea is followed through to one finished company outcome.",
+  "product_type": "autonomous business-building service",
+  "scenario": "An AI persona introduces its business-building claims, describes its founder and funding, then asks the viewer for an idea and shows planning/research states.",
+  "product_clear_time": 8,
+  "product_clear_basis": "I build and operate companies autonomously appears at 8s beside Polsia UI, followed by Create a new company at 9s.",
+  "scenes": [
+    {
+      "start": 0,
+      "end": 7,
+      "action": "Mushrooms, crowds, road/traffic imagery and colored points lead to a small square face introducing Polsia; captions claim it raised $30 million itself.",
+      "design": "Archive-like footage and fine point/pixel textures.",
+      "purpose": "Create an AI-persona hook through a bold claim.",
+      "evidence": "1 fps source samples in 0–7s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V01"
+    },
+    {
+      "start": 7,
+      "end": 18,
+      "action": "Polsia mood/status drawings and Create a new company appear, followed by completed research/document rows, a rising run-rate chart, company listings and historical-looking footage.",
+      "design": "Light serif interface, simple line face and dark metric/list screens.",
+      "purpose": "State the service and show scale/progress claims.",
+      "evidence": "1 fps source samples in 7–18s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V02"
+    },
+    {
+      "start": 18,
+      "end": 26,
+      "action": "Touching hands become point-like imagery; many task cards fill the screen while captions list research, code, ads and leads.",
+      "design": "Dense white card fields over dark backgrounds and pixel motifs.",
+      "purpose": "Present breadth and parallel activity.",
+      "evidence": "1 fps source samples in 18–26s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V03"
+    },
+    {
+      "start": 26,
+      "end": 41,
+      "action": "A man labeled Ben appears through interview clips, followed by old science-fiction imagery and a dense collage of tasks, charts and investor-like names.",
+      "design": "Human interviews, retro film and crowded technical panels.",
+      "purpose": "Introduce the founder while the AI persona claims the work.",
+      "evidence": "1 fps source samples in 26–41s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V04"
+    },
+    {
+      "start": 41,
+      "end": 57,
+      "action": "The square face returns, then money icons, $250M valuation text, names and Bens pixel-like portrait. Social-post cards multiply around the face as captions claim it no longer needs Ben.",
+      "design": "Pixel/point surfaces, large valuation type and repeated social cards.",
+      "purpose": "Escalate the autonomous persona and funding/status argument.",
+      "evidence": "1 fps source samples in 41–57s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V05"
+    },
+    {
+      "start": 57,
+      "end": 65,
+      "action": "Seedlings accompany an idea worth building. Polsia screens show Surprise me, sketching a plan, Deep Planning Mode, a company page and market-research text.",
+      "design": "Growing plants then white task/planning interface.",
+      "purpose": "Reframe the viewers idea as the missing input.",
+      "evidence": "1 fps source samples in 57–65s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V06"
+    },
+    {
+      "start": 65,
+      "end": 76,
+      "action": "Beach, celebration, rocket, sky, forest, baby and moon imagery accompany Thats where you come in, then Building & Progressing and a task page return.",
+      "design": "Human/nature montage intercut with simple business UI.",
+      "purpose": "Connect the broad possibility theme back to ongoing company work.",
+      "evidence": "1 fps source samples in 65–76s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V07"
+    },
+    {
+      "start": 76,
+      "end": 85.034,
+      "action": "Point-like galaxy forms contract into the small square face; Polsia and Ready when you are appear.",
+      "design": "Dark field, luminous points and minimal ending.",
+      "purpose": "Close on the AI persona and invitation.",
+      "evidence": "1 fps source samples in 76–85.034s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V08"
+    }
+  ],
+  "sound": [
+    {
+      "id": "A01",
+      "start": 0,
+      "end": 85.034,
+      "layer": "ASR draft / unknown",
+      "detail": "The draft supports an AI-persona script about building companies, research/code/ads/leads, founder Ben, funding and needing an idea. Names and a few ending phrases are misrecognized; visible captions take priority. No validated listening or claim about voice source, tone or effects.",
+      "visual_relation": "V01–V08; broad script role only, audible delivery/sync unverified.",
+      "evidence": "technical-review-2026-10-19/deep-review/audio/184-speech.json; local faster-whisper draft inspected."
+    }
+  ],
+  "categories": [
+    {
+      "id": "Q01",
+      "finding": "AI fundraising hook → company-building claim → task breadth → founder → autonomy/funding → viewers idea → possibility montage → persona CTA.",
+      "evidence": "V01–V08",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q02",
+      "finding": "The first captions make a bold AI fundraising claim over unrelated organic/city imagery, then reveal the square-face persona.",
+      "evidence": "V01",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q03",
+      "finding": "The business-building category is explicit at 8s. Company creation and research screens give it context, but the exact end-to-end service remains broad.",
+      "evidence": "V02,V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q04",
+      "finding": "Point-like forms, multiplying task cards, changing portrait states and interface status changes are visible; exact morph paths and easing are not established.",
+      "evidence": "V01,V03–V08",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q05",
+      "finding": "The square face and point texture recur between diverse clips; planning UI returns after the human/nature montage to restore product context.",
+      "evidence": "V01,V05–V08",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q06",
+      "finding": "Fine pixel/point texture unifies organic, human and cosmic images, while the product UI uses quiet white/serif styling.",
+      "evidence": "V01–V08",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q07",
+      "finding": "Captions explain the persona; large funding/valuation type is easy to catch, but dense task and social cards are mostly illustrative at this pace.",
+      "evidence": "V03–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q08",
+      "finding": "ASR supports the persona and broad business argument, with name errors and garbled phrases noted. Voice identity, delivery and sound design remain unknown.",
+      "evidence": "A01",
+      "status": "uncertain",
+      "reason": "Draft text only; no validated listening.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q09",
+      "finding": "Music character and structure are unverified.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "No validated listening.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q10",
+      "finding": "Effects and their sources are unverified.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "No validated listening; waveform peaks do not identify effects.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q11",
+      "finding": "Sound sync is unverified.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "No validated listening or paired audiovisual timing.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q12",
+      "finding": "Historical-looking clips, interviews, interface screens and point-based visual treatments are mixed; production software and asset provenance are unverified.",
+      "evidence": "V01–V08",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q13",
+      "finding": "Source duration 85.034 s; Watch metadata 1920 × 1080. Frame rate, audio clipping and export quality not checked here.",
+      "evidence": "Whole film",
+      "status": "supported",
+      "reason": "Parent source metadata supports duration and dimensions; visual review is sampled.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q14",
+      "finding": "Visible captions and creation/planning states explain the broad service silently. A viewer still cannot trace one business from input to completed result.",
+      "evidence": "V02,V06,V07",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q15",
+      "finding": "The film alternates tiny central face with dense full-screen card fields; this makes persona moments distinct from scale claims.",
+      "evidence": "V01,V03,V05,V08",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q16",
+      "finding": "The service is named early, but much of the middle builds founder/funding/autonomy identity before the idea-input section near 57s.",
+      "evidence": "V02–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q17",
+      "finding": "The AI claims independence, then identifies a human idea as the needed contribution, creating a clear invitation reversal.",
+      "evidence": "V05,V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q18",
+      "finding": "A cheeky autonomous persona and large scale claims may create curiosity or skepticism; audience response is unmeasured.",
+      "evidence": "V01,V05",
+      "status": "uncertain",
+      "reason": "Interpretation of wording and imagery.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q19",
+      "finding": "The face, point texture and recurring white UI hold together many unrelated clips; no single company remains the subject throughout.",
+      "evidence": "V01–V08",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q20",
+      "finding": "Company count, run rate, funding, valuation and autonomous operation are film claims, not independently verified facts. Task-card volume does not establish completed business outcomes.",
+      "evidence": "V02–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q21",
+      "finding": "Polsias simple face and first-person AI framing create a distinct narrator identity, while a tracked company example would clarify the service.",
+      "evidence": "V01,V05,V08",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q22",
+      "finding": "Follow one named idea through research, creation and a concrete output instead of another task collage.",
+      "evidence": "V03,V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "Keep one company name visible from the idea field to research document, launched page and first measured result if available."
+    },
+    {
+      "id": "Q23",
+      "finding": "For Tin, keep a stable campaign identifier across agent tasks to make parallel work understandable.",
+      "evidence": "V03,V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "Use one campaign title on research, creative and distribution cards, then show their combined final output."
+    },
+    {
+      "id": "Q24",
+      "finding": "No human new-viewer test was performed.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "The product summary is this model’s film-only reading.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q25",
+      "finding": "Mobile preview and accessibility checks were not performed.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "Contact sheets are evidence views, not a stated mobile preview or compliance test.",
+      "experiment": "none"
+    }
+  ],
+  "elements": [
+    {
+      "kind": "ui",
+      "name": "company creation screen",
+      "events": [
+        "V02",
+        "V06"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "task cards",
+      "events": [
+        "V03",
+        "V04",
+        "V07"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "line chart",
+      "events": [
+        "V02"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "social post cards",
+      "events": [
+        "V05"
+      ]
+    },
+    {
+      "kind": "texture",
+      "name": "pixel and point imagery",
+      "events": [
+        "V01",
+        "V03",
+        "V05",
+        "V08"
+      ]
+    }
+  ],
+  "lessons": {
+    "keep": "Use a small recurring persona to anchor a visually dense launch narrative.",
+    "try": [
+      "Track one named company from idea to research, launch page and measured result if available.",
+      "For Tin, use one campaign title across research, creative and distribution tasks and show their combined output."
+    ],
+    "avoid": "Treating a large field of task cards as a clear end-to-end product demonstration.",
+    "open": "Single-company workflow, actual autonomy, business/funding claims, asset provenance and audio remain unverified."
+  },
+  "comparison": {
+    "story": "AI persona → business breadth → founder/funding → independence joke → human idea invitation.",
+    "motion": "Point-form and card-state changes; exact morph mechanics unverified.",
+    "sound": "ASR supports persona script; no validated listening.",
+    "texture": "Pixel/point imagery, retro clips, quiet white UI and cosmic ending.",
+    "lesson": "A recognizable persona can unify many claims, but a stable example is still needed for workflow clarity."
+  },
+  "reviewer_model": "gpt-6-astra",
+  "scope": "sampled visual and story review; ASR and measured signal support; no validated audio listening",
+  "viewed_evidence": [
+    "technical-review-2026-10-19/deep-review/motion/184/timeline-00.jpg",
+    "technical-review-2026-10-19/deep-review/motion/184/timeline-01.jpg",
+    "technical-review-2026-10-19/deep-review/motion/184/timeline-02.jpg"
+  ],
+  "closer_windows": []
+}

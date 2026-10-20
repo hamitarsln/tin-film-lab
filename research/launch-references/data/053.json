@@ -1,0 +1,298 @@
+{
+  "id": 53,
+  "reviewer_model": "gpt-6-astra",
+  "scope": "sampled visual and story review; ASR and measured signal support; no validated audio listening",
+  "viewed_evidence": [
+    "technical-review-2026-10-19/deep-review/motion/053/timeline-00.jpg"
+  ],
+  "closer_windows": [],
+  "product_from_film": "The film announces Claude Opus 5.5, without explaining a specific capability.",
+  "explains_well": "A repeated curved boundary links very different textures into one coherent discovery theme.",
+  "unclear": "What changed in the model and who benefits are not explained.",
+  "product_type": "AI model teaser",
+  "scenario": "Announce a model through a discovery metaphor.",
+  "product_clear_time": null,
+  "product_clear_basis": "Opus 5.5 and Claude are named at 16–18 s; no task is demonstrated.",
+  "scenes": [
+    {
+      "id": "V01",
+      "start": 0,
+      "end": 8,
+      "action": "A glowing horizon-like arc is replaced by close organic-looking edges, a blue cellular pattern, a pale textured arc, a dark ridged form and a magenta edge with round beads.",
+      "design": "Macro-like material textures and saturated color; common lower curve.",
+      "purpose": "Invite discovery through changing scale and material.",
+      "evidence": "Visible chronological 1 fps samples, source 0–8s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V02",
+      "start": 8,
+      "end": 16,
+      "action": "The arc persists across drawings, warm fields, vivid bands, grainy gold and printed-looking images. The words There’s, more to, discover appear over successive scenes.",
+      "design": "Serif text, paper-like prints and luminous textures.",
+      "purpose": "State the discovery theme.",
+      "evidence": "Visible chronological 1 fps samples, source 8–16s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V03",
+      "start": 16,
+      "end": 20.0,
+      "action": "Opus 5.5 appears on a dark field above a low blue glow, followed by Claude and the original horizon-like arc.",
+      "design": "Sparse white serif branding and blue-orange edge.",
+      "purpose": "Name the model and close the visual loop.",
+      "evidence": "Visible chronological 1 fps samples, source 16–20.0s; boundary approximate; exact motion between samples unverified."
+    }
+  ],
+  "sound": [
+    {
+      "id": "A01",
+      "start": 0,
+      "end": 20.0,
+      "layer": "unknown",
+      "detail": "No validated direct audio listening was performed. Music, speech delivery, effects, mix and sync remain unknown, not absent.",
+      "visual_relation": "All visual scenes; audiovisual alignment unverified",
+      "evidence": "Visual samples only; no actual audio range supplied to this reviewer."
+    }
+  ],
+  "categories": [
+    {
+      "id": "Q01",
+      "finding": "Material discoveries share one curved composition and lead to a model-name reveal.",
+      "evidence": "V01–V03",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q02",
+      "finding": "A blue-orange horizon-like glow holds; it conveys atmosphere without product meaning.",
+      "evidence": "V01",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q03",
+      "finding": "Claude Opus 5.5 is named near the end; capability and audience require prior knowledge.",
+      "evidence": "V03",
+      "status": "uncertain",
+      "reason": "No task or feature is shown.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q04",
+      "finding": "The sampled composition preserves a curved lower boundary while materials change; continuous movement and exact morphing are unresolved.",
+      "evidence": "V01,V02",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q05",
+      "finding": "Shape-matched replacements carry the eye across unrelated textures; exact transition mechanisms are unverified.",
+      "evidence": "V01,V02",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q06",
+      "finding": "Organic-looking microtexture, print-like line work, grain and luminous color are the main visual material.",
+      "evidence": "V01,V02",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q07",
+      "finding": "Only a short discovery sentence and model/brand names need reading, keeping text load low.",
+      "evidence": "V02,V03",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q08",
+      "finding": "Voice delivery, music, effects and audiovisual alignment were not established by this visual pass.",
+      "evidence": "A01",
+      "status": "not checked",
+      "reason": "No validated direct audio listening input.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q09",
+      "finding": "Voice delivery, music, effects and audiovisual alignment were not established by this visual pass.",
+      "evidence": "A01",
+      "status": "not checked",
+      "reason": "No validated direct audio listening input.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q10",
+      "finding": "Voice delivery, music, effects and audiovisual alignment were not established by this visual pass.",
+      "evidence": "A01",
+      "status": "not checked",
+      "reason": "No validated direct audio listening input.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q11",
+      "finding": "Voice delivery, music, effects and audiovisual alignment were not established by this visual pass.",
+      "evidence": "A01",
+      "status": "not checked",
+      "reason": "No validated direct audio listening input.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q12",
+      "finding": "Macro-like, abstract and printed-looking images are used; their actual subjects, scales and origins are not established.",
+      "evidence": "V01,V02",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q13",
+      "finding": "Manifest duration 20.0 s; indexed dimensions 1920×1080. Source unchanged flag recorded; fresh encoding and audio clipping checks not run.",
+      "evidence": "Group manifest",
+      "status": "uncertain",
+      "reason": "Inherited technical metadata; no fresh media probe in this review.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q14",
+      "finding": "The announcement and discovery slogan remain clear silently, but there is no product function to recover.",
+      "evidence": "V02,V03",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q15",
+      "finding": "The repeated curved edge keeps attention near the same region even when the texture changes completely.",
+      "evidence": "V01,V02",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q16",
+      "finding": "Visual changes are frequent but share one idea; the final model name has a calmer hold.",
+      "evidence": "V01–V03",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q17",
+      "finding": "The opening unknown horizon returns at the end, resolving the visual loop rather than demonstrating a new capability.",
+      "evidence": "V01,V03",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q18",
+      "finding": "Changing scale and unfamiliar material appear designed to create curiosity; no audience response was tested.",
+      "evidence": "V01,V02",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q19",
+      "finding": "The arc and final return to blue-orange glow create strong shape and color continuity.",
+      "evidence": "V01,V03",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q20",
+      "finding": "The film announces a model name; it provides no visible performance or capability proof.",
+      "evidence": "V03",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q21",
+      "finding": "The restrained serif branding is specific at the end; the discovery imagery could fit other research brands.",
+      "evidence": "V02,V03",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q22",
+      "finding": "Texture variety supports the teaser; a feature-specific version would need one task/result scene after the model name.",
+      "evidence": "V01–V03",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q23",
+      "finding": "Tin can use a repeated crop or curved edge to connect a set of campaign images, then end on the actual campaign output.",
+      "evidence": "V01,V02",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q24",
+      "finding": "The film announces Claude Opus 5.5, without explaining a specific capability.",
+      "evidence": "Model reading from inspected images",
+      "status": "uncertain",
+      "reason": "Model-only new-viewer interpretation; no human test.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q25",
+      "finding": "Contact sheets inspected at displayed size; a phone-size playback, caption audit, flash audit and formal accessibility check were not performed.",
+      "evidence": "Viewed sheets",
+      "status": "not checked",
+      "reason": "Full-size moving-image and device checks unavailable in this pass.",
+      "experiment": "none"
+    }
+  ],
+  "lessons": {
+    "keep": "Keep one compositional shape stable while changing materials.",
+    "avoid": "Avoid mistaking an evocative model announcement for an explanation of new capability.",
+    "open": "Exact material sources, transition mechanics and audio are unverified.",
+    "try": [
+      "For Tin, match a curved product silhouette across three campaign creatives before revealing the final ad.",
+      "Test a 15-second teaser with the same short phrase across varied textures, then add one concrete product result to measure clarity."
+    ]
+  },
+  "comparison": {
+    "story": "Invite discovery through changing scale and material. → State the discovery theme. → Name the model and close the visual loop.",
+    "motion": "The sampled composition preserves a curved lower boundary while materials change; continuous movement and exact morphing are unresolved. Sampling scope: 1 fps unless a closer window is recorded.",
+    "sound": "No validated listening; unknown.",
+    "texture": "Macro-like material textures and saturated color; common lower curve.; Serif text, paper-like prints and luminous textures.; Sparse white serif branding and blue-orange edge.",
+    "lesson": "Keep one compositional shape stable while changing materials."
+  },
+  "elements": [
+    {
+      "kind": "motion",
+      "name": "shape-matched montage",
+      "events": [
+        "V01",
+        "V02"
+      ]
+    },
+    {
+      "kind": "texture",
+      "name": "macro-like organic imagery",
+      "events": [
+        "V01"
+      ]
+    },
+    {
+      "kind": "texture",
+      "name": "printed linework",
+      "events": [
+        "V02"
+      ]
+    }
+  ]
+}

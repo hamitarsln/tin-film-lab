@@ -1,0 +1,367 @@
+{
+  "id": 447,
+  "product_from_film": "Airbound builds a compact winged drone, shown through design, fabrication, assembly and outdoor flight.",
+  "explains_well": "The recurring checked material and wing form link workshop processes to the finished aircraft.",
+  "unclear": "No delivery, payload or customer scene explains what the aircraft is intended to do.",
+  "product_type": "Drone hardware",
+  "scenario": "Show an aircraft progressing from design and materials to flight.",
+  "product_clear_time": 18,
+  "product_clear_basis": "A recognizable winged aircraft with propellers is visible in the technical product views around 18s.",
+  "scenes": [
+    {
+      "start": 0,
+      "end": 13,
+      "action": "An illuminated curved worktable shape changes orientation in a black studio; a person with a laptop is revealed, followed by face and eye close-ups.",
+      "design": "White luminous shape, dark room and cool skin light.",
+      "purpose": "Introduce design and a recurring brand-like shape.",
+      "evidence": "1 fps source samples in 0–13s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V01"
+    },
+    {
+      "start": 13,
+      "end": 23,
+      "action": "Wireframe/transparent aircraft views reveal wings, body and internal layers before a checked material surface fills the frame.",
+      "design": "Blue-white technical imagery on black.",
+      "purpose": "Present the aircraft concept.",
+      "evidence": "1 fps source samples in 13–23s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V02"
+    },
+    {
+      "start": 23,
+      "end": 39,
+      "action": "Gloved hands cut and lay material, smooth the checked sheet, place it in a wing-shaped mold and cover it with green film.",
+      "design": "Fabric-like checked surface, mold and translucent film.",
+      "purpose": "Show fabrication stages.",
+      "evidence": "1 fps source samples in 23–39s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V03"
+    },
+    {
+      "start": 39,
+      "end": 51,
+      "action": "A part sits inside a red-lit enclosure, then makers appear in monochrome portraits with small inspection labels.",
+      "design": "Red enclosure and grayscale faces.",
+      "purpose": "Connect processing with inspection and team.",
+      "evidence": "1 fps source samples in 39–51s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V04"
+    },
+    {
+      "start": 51,
+      "end": 67,
+      "action": "A cutting head traces material; separated wing/body/frame pieces appear suspended around the lit table before a wider assembly view.",
+      "design": "Blue/red light and exploded component arrangement.",
+      "purpose": "Show parts becoming a designed whole; exact assembly paths unverified.",
+      "evidence": "1 fps source samples in 51–67s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V05"
+    },
+    {
+      "start": 67,
+      "end": 81,
+      "action": "Makers work with components and soldering equipment; yellow internal frames and prototype labels appear.",
+      "design": "Hands, tools, checked skins and yellow structure.",
+      "purpose": "Ground the product in assembly work.",
+      "evidence": "1 fps source samples in 67–81s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V06"
+    },
+    {
+      "start": 81,
+      "end": 103,
+      "action": "Motor/body details, wireframe-like views, a display with changing numbers and the completed checked aircraft appear.",
+      "design": "Dark technical imagery and bright product pedestal.",
+      "purpose": "Build toward the finished object; display measurement context is not clear.",
+      "evidence": "1 fps source samples in 81–103s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V07"
+    },
+    {
+      "start": 103,
+      "end": 125,
+      "action": "Team portraits and a corridor lead to the aircraft outside, then airborne over trees and hills in varied orientations and distances.",
+      "design": "Natural daylight and landscape.",
+      "purpose": "Give the making sequence a flight payoff.",
+      "evidence": "1 fps source samples in 103–125s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V08"
+    },
+    {
+      "start": 125,
+      "end": 134.188,
+      "action": "Repeated aircraft/pedestal shapes form an expanding field, then an Airbound symbol and wordmark.",
+      "design": "Bright repeated shapes on black.",
+      "purpose": "Turn the product motif into brand identity.",
+      "evidence": "1 fps source samples in 125–134.188s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V09"
+    }
+  ],
+  "categories": [
+    {
+      "id": "Q01",
+      "finding": "Design → material fabrication → assembly → completed aircraft → outdoor flight → brand.",
+      "evidence": "V01–V09",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q02",
+      "finding": "A bright curved shape on black is visually distinctive but initially ambiguous as a worktable/product motif.",
+      "evidence": "V01",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q03",
+      "finding": "The aircraft category becomes visible around 18s; customer, payload and purpose remain unspecified.",
+      "evidence": "V02,V08",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q04",
+      "finding": "Camera/object orientation changes around the worktable; components separate in technical views; the ending repeats and rearranges aircraft-like shapes. Exact paths/easing unresolved.",
+      "evidence": "V01,V05,V09",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q05",
+      "finding": "Checked material and wing silhouettes connect technical imagery to hands-on fabrication and the final aircraft.",
+      "evidence": "V02–V08",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q06",
+      "finding": "Checked composite-looking surfaces, translucent green film, metal tools and red/blue light create a tactile engineering treatment.",
+      "evidence": "V03–V07",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q07",
+      "finding": "Small technical labels suggest inspection/material detail but are secondary; there is no large use-case explanation.",
+      "evidence": "V03–V07",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q08",
+      "finding": "Voice delivery is unverified.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "No validated listening.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q09",
+      "finding": "Music character and structure are unverified.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "No validated listening.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q10",
+      "finding": "Effects and their sources are unverified.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "No validated listening; waveform peaks do not identify effects.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q11",
+      "finding": "Sound sync is unverified.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "No validated listening or paired audiovisual timing.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q12",
+      "finding": "Workshop footage, maker portraits, technical/exploded views and airborne scenes are combined; rendering versus physical footage is not independently established for every shot.",
+      "evidence": "V01–V09",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q13",
+      "finding": "Source duration 134.188 s; Watch metadata 1280 × 720. Frame rate, audio clipping and export quality not checked here.",
+      "evidence": "Whole film",
+      "status": "supported",
+      "reason": "Parent source metadata supports duration and dimensions; visual review is sampled.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q14",
+      "finding": "The making-to-flight story works silently. Intended use and comparative performance remain unclear.",
+      "evidence": "V02–V08",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q15",
+      "finding": "Bright table and isolated parts focus attention, then outdoor sky separates the aircraft from its background.",
+      "evidence": "V01–V08",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q16",
+      "finding": "Most of the 134s film develops the build; the flight section arrives after 103s and no customer use is added.",
+      "evidence": "V01–V08",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q17",
+      "finding": "The early aircraft concept receives a clear airborne payoff.",
+      "evidence": "V02,V08",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q18",
+      "finding": "Detailed making and maker portraits appear intended to create craftsmanship and pride before flight; response unmeasured.",
+      "evidence": "V03–V08",
+      "status": "uncertain",
+      "reason": "Visual interpretation.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q19",
+      "finding": "Checked skin and distinctive wing/body form remain recognizable from material handling to outdoor aircraft.",
+      "evidence": "V03–V08",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q20",
+      "finding": "The film shows fabrication-like processes and airborne views, but does not verify range, payload, delivery cost, reliability, manufacturing scale or the title’s funding claim.",
+      "evidence": "V03–V09",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q21",
+      "finding": "The curved lit table and final repeated symbol connect the making environment with Airbound’s identity.",
+      "evidence": "V01,V09",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q22",
+      "finding": "Add one use-case payoff after flight.",
+      "evidence": "V08",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "Show a labeled payload loaded, the flight destination and the completed delivery if that is the intended task."
+    },
+    {
+      "id": "Q23",
+      "finding": "Follow one distinctive material through production.",
+      "evidence": "V03–V08",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "For Tin, carry one visible campaign asset from rough source through edits into the final placement, preserving its identifying details."
+    },
+    {
+      "id": "Q24",
+      "finding": "No human new-viewer test was performed.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "The product summary is this model’s film-only reading.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q25",
+      "finding": "Mobile preview and accessibility checks were not performed.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "Contact sheets are evidence views, not a stated mobile preview or compliance test.",
+      "experiment": "none"
+    }
+  ],
+  "elements": [
+    {
+      "kind": "motion",
+      "name": "separated aircraft components",
+      "events": [
+        "V05"
+      ]
+    },
+    {
+      "kind": "motion",
+      "name": "repeated product field",
+      "events": [
+        "V09"
+      ]
+    },
+    {
+      "kind": "texture",
+      "name": "checked composite-looking material",
+      "events": [
+        "V03",
+        "V05",
+        "V06",
+        "V07",
+        "V08"
+      ]
+    },
+    {
+      "kind": "texture",
+      "name": "red and blue workshop light",
+      "events": [
+        "V04",
+        "V05"
+      ]
+    }
+  ],
+  "lessons": {
+    "keep": "Carry a distinctive material and silhouette from workshop to finished product.",
+    "try": [
+      "Add a concrete payload/customer result after flight.",
+      "For Tin, preserve one asset’s identifying details from source through final placement."
+    ],
+    "avoid": "Explaining manufacturing in detail while leaving the customer task undefined.",
+    "open": "Flight performance, payload, scale, funding, exact motion and sound remain unverified."
+  },
+  "comparison": {
+    "story": "Design and making → flight → identity.",
+    "motion": "Reframing, exploded parts and repeated product shapes.",
+    "sound": "No validated listening; no ASR available.",
+    "texture": "Checked surfaces, green film and dramatic workshop lighting.",
+    "lesson": "Material continuity makes a hardware build feel coherent."
+  },
+  "reviewer_model": "gpt-6-astra",
+  "scope": "sampled visual and story review; ASR and measured signal support; no validated audio listening",
+  "viewed_evidence": [
+    "technical-review-2026-10-19/deep-review/motion/447/timeline-00.jpg",
+    "technical-review-2026-10-19/deep-review/motion/447/timeline-01.jpg",
+    "technical-review-2026-10-19/deep-review/motion/447/timeline-02.jpg",
+    "technical-review-2026-10-19/deep-review/motion/447/timeline-03.jpg",
+    "technical-review-2026-10-19/deep-review/motion/447/timeline-04.jpg"
+  ],
+  "closer_windows": [],
+  "sound": [
+    {
+      "id": "A01",
+      "start": 0,
+      "end": 134.188,
+      "layer": "unknown",
+      "detail": "No validated audio listening. Voice delivery, music, effects and mix are unknown.",
+      "visual_relation": "All scenes; sound alignment unverified",
+      "evidence": "No actual audio perception in this review; prepared audio files are not listening evidence."
+    }
+  ]
+}

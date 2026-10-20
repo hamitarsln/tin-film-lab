@@ -1,0 +1,347 @@
+{
+  "id": 139,
+  "reviewer_model": "gpt-6-astra",
+  "scope": "sampled visual and story review; ASR and measured signal support; no validated audio listening",
+  "viewed_evidence": [
+    "technical-review-2026-10-19/deep-review/motion/139/timeline-00.jpg",
+    "technical-review-2026-10-19/deep-review/motion/139/timeline-01.jpg",
+    "technical-review-2026-10-19/deep-review/motion/139/timeline-02.jpg",
+    "technical-review-2026-10-19/deep-review/audio/139-speech.json"
+  ],
+  "closer_windows": [],
+  "product_from_film": "Boardy Pro is presented as a relationship agent that moves deals beyond introductions.",
+  "explains_well": "An interrupted launch skit leads into a clear benefit and several user-style testimonials.",
+  "unclear": "No actual introduction, follow-up or closed deal is shown.",
+  "product_type": "networking and deal agent",
+  "scenario": "Find useful connections and progress a deal after introduction.",
+  "product_clear_time": 28,
+  "product_clear_basis": "Visible captions say the agent moves deals forward and gets them closed.",
+  "scenes": [
+    {
+      "id": "V01",
+      "start": 0,
+      "end": 8,
+      "action": "A presenter identified as Andrew D’Souza, CEO, begins an announcement. Another person interrupts with a Boardy Pro got out notice.",
+      "design": "Warm office interview becomes a handheld-looking interruption.",
+      "purpose": "Create a comic escaped-agent hook.",
+      "evidence": "Visible chronological 1 fps samples, source 0–8s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V02",
+      "start": 8,
+      "end": 24,
+      "action": "Hands write notes and use a laptop before a wide meeting room marked Boardy headquarters Toronto. Participants discuss the powerful and risky release; someone asks its purpose.",
+      "design": "Wooden table, paperwork, meeting coverage and subtitles.",
+      "purpose": "Stage a mock crisis and set up explanation.",
+      "evidence": "Visible chronological 1 fps samples, source 8–24s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V03",
+      "start": 24,
+      "end": 45,
+      "action": "A Boardy avatar appears on a purple screen beside the presenter. Captions explain moving deals beyond introductions, a$150billion network claim and 500early users.",
+      "design": "Simple character icon and alternating meeting reactions.",
+      "purpose": "State capability and scale.",
+      "evidence": "Visible chronological 1 fps samples, source 24–45s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V04",
+      "start": 45,
+      "end": 50,
+      "action": "A white title says500 people had early access and introduces their comments.",
+      "design": "Small centered text and tiny moving icon-like marks.",
+      "purpose": "Transition from skit to testimonial evidence.",
+      "evidence": "Visible chronological 1 fps samples, source 45–50s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V05",
+      "start": 50,
+      "end": 71,
+      "action": "Several people in event spaces discuss detail, personal knowledge, fundraising and connection quality in visible captions.",
+      "design": "Warm/red-blue event lighting and direct-to-camera interviews.",
+      "purpose": "Present user enthusiasm.",
+      "evidence": "Visible chronological 1 fps samples, source 50–71s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V06",
+      "start": 71,
+      "end": 85,
+      "action": "The meeting resumes with how do we stop him and we can’t. Captions say Boardy has social accounts and viewers can message for access.",
+      "design": "Reaction shots and recurring purple avatar screen.",
+      "purpose": "Resolve the joke into a route to access.",
+      "evidence": "Visible chronological 1 fps samples, source 71–85s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V07",
+      "start": 85,
+      "end": 89.881,
+      "action": "Go beyond the intro with Boardy Pro and comment below for free-for-life access appear.",
+      "design": "White cards with black text.",
+      "purpose": "Invite a social response.",
+      "evidence": "Visible chronological 1 fps samples, source 85–89.881s; boundary approximate; exact motion between samples unverified."
+    }
+  ],
+  "sound": [
+    {
+      "id": "A01",
+      "start": 0,
+      "end": 89.881,
+      "layer": "unknown",
+      "detail": "No validated direct audio listening was performed. Music, speech delivery, effects, mix and sync remain unknown, not absent.",
+      "visual_relation": "All visual scenes; audiovisual alignment unverified",
+      "evidence": "Visual samples only; no actual audio range supplied to this reviewer."
+    },
+    {
+      "id": "A02",
+      "start": 0.17,
+      "end": 83.73,
+      "layer": "ASR draft",
+      "detail": "ASR draft supports the interrupted announcement, escaped Boardy joke, beyond-introduction benefit,500early users, testimonial segment and message-for-access close. It repeatedly misrecognizes Boardy as Bordeaux and corrupts some testimonial/social-account words; visible captions take priority. Delivery, comic timing, music and synchronization were not heard.",
+      "visual_relation": "Story text support; exact audiovisual alignment and delivery unverified.",
+      "evidence": "technical-review-2026-10-19/deep-review/audio/139-speech.json; local faster-whisper base CPU int8 draft; VAD candidates only, recognition errors possible."
+    }
+  ],
+  "categories": [
+    {
+      "id": "Q01",
+      "finding": "An escaped-agent skit sets up benefits, early-user comments and a social access CTA.",
+      "evidence": "V01–V07",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q02",
+      "finding": "The interruption breaks a familiar founder announcement and creates a question about what escaped.",
+      "evidence": "V01",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q03",
+      "finding": "The capability becomes clear around 26–28 s through captions about moving and closing deals.",
+      "evidence": "V03",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q04",
+      "finding": "Camera angles and reaction cuts dominate; the avatar has changing circular emphasis. Precise cut rhythm and audio response are unverified.",
+      "evidence": "V01–V03,V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q05",
+      "finding": "A white 500-user card cleanly separates dramatized meeting from testimonial footage.",
+      "evidence": "V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q06",
+      "finding": "Warm office and event footage support a people-and-network product; purple avatar screen adds a recurring brand surface.",
+      "evidence": "V01–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q07",
+      "finding": "Subtitles carry most meaning; final CTA is concise but small relative to the frame.",
+      "evidence": "V01–V07",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q08",
+      "finding": "ASR draft supports the interrupted announcement, escaped Boardy joke, beyond-introduction benefit,500early users, testimonial segment and message-for-access close. It repeatedly misrecognizes Boardy as Bordeaux and corrupts some testimonial/social-account words; visible captions take priority. Delivery, comic timing, music and synchronization were not heard.",
+      "evidence": "A02",
+      "status": "uncertain",
+      "reason": "ASR text only; no validated listening, delivery or voice origin.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q09",
+      "finding": "Voice delivery, music, effects and audiovisual alignment were not established by this visual pass.",
+      "evidence": "A01",
+      "status": "not checked",
+      "reason": "No validated direct audio listening input.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q10",
+      "finding": "Voice delivery, music, effects and audiovisual alignment were not established by this visual pass.",
+      "evidence": "A01",
+      "status": "not checked",
+      "reason": "No validated direct audio listening input.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q11",
+      "finding": "Voice delivery, music, effects and audiovisual alignment were not established by this visual pass.",
+      "evidence": "A01",
+      "status": "not checked",
+      "reason": "No validated direct audio listening input.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q12",
+      "finding": "A staged office narrative mixes with testimonial-style event clips; authenticity and participant claims are unverified.",
+      "evidence": "V01–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q13",
+      "finding": "Manifest duration 89.881 s; indexed dimensions 1920×1080. Source unchanged flag recorded; fresh encoding and audio clipping checks not run.",
+      "evidence": "Group manifest",
+      "status": "uncertain",
+      "reason": "Inherited technical metadata; no fresh media probe in this review.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q14",
+      "finding": "Visible subtitles communicate the skit and benefits, though one-second samples omit some dialogue. ASR adds draft support.",
+      "evidence": "V01–V06,A02",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q15",
+      "finding": "Faces and reactions remain central; product identity is represented by an avatar rather than interface tasks.",
+      "evidence": "V03,V05,V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q16",
+      "finding": "Abouthalf the 90 s film precedes testimonials; the concrete capability waits until the first meeting explanation.",
+      "evidence": "V01–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q17",
+      "finding": "The escaped-agent concern becomes an invitation to contact the agent, completing the joke.",
+      "evidence": "V01,V06,V07",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q18",
+      "finding": "Mock danger implies exceptional capability; friendly testimonials counter it with reassurance. This is narrative framing.",
+      "evidence": "V02,V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q19",
+      "finding": "The Boardy avatar and beyond-the-intro phrase link skit, feature and close.",
+      "evidence": "V03,V06,V07",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q20",
+      "finding": "Testimonials support reported enthusiasm, not measured deal outcomes; network scale and GDP claims are unverified.",
+      "evidence": "V03,V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q21",
+      "finding": "The escaped-character concept gives the agent personality and a direct social-access route.",
+      "evidence": "V01,V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q22",
+      "finding": "One real follow-up and completed introduction could add clarity while shortening some crisis dialogue.",
+      "evidence": "V02,V03",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q23",
+      "finding": "Tin can use a short interrupted-founder hook, then show one real agent action before customer comments.",
+      "evidence": "V01,V03,V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q24",
+      "finding": "Boardy Pro is presented as a relationship agent that moves deals beyond introductions.",
+      "evidence": "Model reading from inspected images",
+      "status": "uncertain",
+      "reason": "Model-only new-viewer interpretation; no human test.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q25",
+      "finding": "Contact sheets inspected at displayed size; a phone-size playback, caption audit, flash audit and formal accessibility check were not performed.",
+      "evidence": "Viewed sheets",
+      "status": "not checked",
+      "reason": "Full-size moving-image and device checks unavailable in this pass.",
+      "experiment": "none"
+    }
+  ],
+  "lessons": {
+    "keep": "Let a brief comic hook lead quickly to a concrete capability.",
+    "avoid": "Avoid treating staged urgency and enthusiastic quotes as proof of business impact.",
+    "open": "Testimonial authenticity, network value, closed deals, offer terms and audio delivery remain unverified.",
+    "try": [
+      "Interrupt a Tin founder intro with a completed campaign notification, then show the approved output.",
+      "Pair one customer quote with the exact campaign artifact and dated result it describes."
+    ]
+  },
+  "comparison": {
+    "story": "Create a comic escaped-agent hook. → Stage a mock crisis and set up explanation. → State capability and scale. → Transition from skit to testimonial evidence. → Present user enthusiasm. → Resolve the joke into a route to access. → Invite a social response.",
+    "motion": "Camera angles and reaction cuts dominate; the avatar has changing circular emphasis. Precise cut rhythm and audio response are unverified. Sampling scope: 1 fps unless a closer window is recorded.",
+    "sound": "No validated listening; unknown.",
+    "texture": "Warm office interview becomes a handheld-looking interruption.; Wooden table, paperwork, meeting coverage and subtitles.; Simple character icon and alternating meeting reactions.; Small centered text and tiny moving icon-like marks.; Warm/red-blue event lighting and direct-to-camera interviews.; Reaction shots and recurring purple avatar screen.; White cards with black text.",
+    "lesson": "Let a brief comic hook lead quickly to a concrete capability."
+  },
+  "elements": [
+    {
+      "kind": "ui",
+      "name": "agent avatar",
+      "events": [
+        "V03",
+        "V06"
+      ]
+    },
+    {
+      "kind": "texture",
+      "name": "office meeting",
+      "events": [
+        "V02",
+        "V03"
+      ]
+    },
+    {
+      "kind": "texture",
+      "name": "event interview",
+      "events": [
+        "V05"
+      ]
+    }
+  ]
+}

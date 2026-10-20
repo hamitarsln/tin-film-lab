@@ -1,0 +1,292 @@
+{
+  "id": 107,
+  "product_from_film": "The clip shows a humanoid robot changing the poses of its exposed mechanical hands.",
+  "explains_well": "The hands are kept large and unobstructed against a simple outdoor background.",
+  "unclear": "No API, task, control method or practical manipulation result is shown.",
+  "product_type": "humanoid robotics demonstration",
+  "scenario": "A robot raises both hands, changes finger poses and lowers them outdoors.",
+  "product_clear_time": 0,
+  "product_clear_basis": "A robot-like figure with exposed articulated hands is visible immediately; broader product function and audience are not established.",
+  "scenes": [
+    {
+      "start": 0,
+      "end": 5,
+      "action": "A capped, sunglass-wearing humanoid holds both hands in front of its chest. Finger poses change between samples while the body stays in similar framing.",
+      "design": "Cream fabric-like body, exposed hand mechanisms, blue sky and green trees.",
+      "purpose": "Show hand articulation directly.",
+      "evidence": "1 fps source samples in 0–5s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V01"
+    },
+    {
+      "start": 5,
+      "end": 10,
+      "action": "The hands remain raised, with different finger and wrist orientations in successive frames. No object is held.",
+      "design": "Mechanical fingers remain the focal point; costume adds a casual human reference.",
+      "purpose": "Continue the range-of-pose demonstration.",
+      "evidence": "1 fps source samples in 5–10s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V02"
+    },
+    {
+      "start": 10,
+      "end": 13.054,
+      "action": "Hands leave the frame and the upper body remains outdoors until the end.",
+      "design": "Same daylight setting and red cap.",
+      "purpose": "End the gesture sequence without a product title.",
+      "evidence": "1 fps source samples in 10–13.054s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V03"
+    }
+  ],
+  "categories": [
+    {
+      "id": "Q01",
+      "finding": "A single pose demonstration begins with raised hands and ends with them lowered. No problem/result narrative is supplied.",
+      "evidence": "V01–V03",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q02",
+      "finding": "The robot and both mechanical hands are immediately visible, making the subject clear.",
+      "evidence": "V01",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q03",
+      "finding": "Robotics is visible from 0s, but intended user and practical task are not stated.",
+      "evidence": "V01",
+      "status": "uncertain",
+      "reason": "Subject is visible; product service and audience are not established.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q04",
+      "finding": "Finger and wrist poses change; hands lower out of frame by 10s. Exact gesture sequence, speed and joint limits are unresolved at 1 fps.",
+      "evidence": "V01–V03",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q05",
+      "finding": "The inspected samples keep one setting and similar framing. Sub-second cuts cannot be ruled out.",
+      "evidence": "V01–V03",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q06",
+      "finding": "Soft cream body material contrasts with exposed metal-like mechanisms and a natural outdoor setting.",
+      "evidence": "V01",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q07",
+      "finding": "No explanatory text or UI is visible in inspected samples. This describes only the sampled frames.",
+      "evidence": "V01–V03",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q08",
+      "finding": "Voice delivery is unverified.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "No validated listening.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q09",
+      "finding": "Music character and structure are unverified.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "No validated listening.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q10",
+      "finding": "Effects and their sources are unverified.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "No validated listening; waveform peaks do not identify effects.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q11",
+      "finding": "Sound sync is unverified.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "No validated listening or paired audiovisual timing.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q12",
+      "finding": "A robot-like subject appears outdoors in continuous-looking footage. Actual capture, generation and processing are not independently known.",
+      "evidence": "V01–V03",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q13",
+      "finding": "Source duration 13.054 s; Watch metadata 1920 × 1080. Frame rate, audio clipping and export quality not checked here.",
+      "evidence": "Whole film",
+      "status": "supported",
+      "reason": "Parent source metadata supports duration and dimensions; visual review is sampled.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q14",
+      "finding": "Hand articulation is understandable silently, while the API claim in the source title is not established by the picture.",
+      "evidence": "V01,V02",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q15",
+      "finding": "Raised hands occupy the foreground and are separated from the trees by depth and light color.",
+      "evidence": "V01,V02",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q16",
+      "finding": "One idea is shown for 13s, leaving time to inspect the hands. A practical object task would add a distinct fact.",
+      "evidence": "V01–V03",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q17",
+      "finding": "The opening hand display is fulfilled by changing hand poses. No broader ability is promised on screen.",
+      "evidence": "V01,V02",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q18",
+      "finding": "Cap and sunglasses may make the robot seem casual or playful; no viewer reaction is measured.",
+      "evidence": "V01",
+      "status": "uncertain",
+      "reason": "Interpretation of styling.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q19",
+      "finding": "The same subject and outdoor framing stay consistent throughout sampled coverage.",
+      "evidence": "V01–V03",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q20",
+      "finding": "Changing hand poses are visible. Dexterity under load, API control, autonomy and useful object manipulation are untested.",
+      "evidence": "V01,V02",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q21",
+      "finding": "The contrast between dressed body and exposed hands is distinctive, but no visible product name identifies the maker.",
+      "evidence": "V01",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q22",
+      "finding": "The hand display is the whole content. A brief object grasp could add practical meaning without a longer montage.",
+      "evidence": "V01–V03",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q23",
+      "finding": "For Tin, isolate one actual behavior in an uncluttered screen and show its result before adding brand treatment.",
+      "evidence": "V01",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "Use one short input-to-output workflow with no unrelated feature cards."
+    },
+    {
+      "id": "Q24",
+      "finding": "No human new-viewer test was performed.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "The product summary is this model’s film-only reading.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q25",
+      "finding": "Mobile preview and accessibility checks were not performed.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "Contact sheets are evidence views, not a stated mobile preview or compliance test.",
+      "experiment": "none"
+    }
+  ],
+  "elements": [
+    {
+      "kind": "motion",
+      "name": "hand pose changes",
+      "events": [
+        "V01",
+        "V02"
+      ]
+    },
+    {
+      "kind": "texture",
+      "name": "exposed mechanical hands",
+      "events": [
+        "V01",
+        "V02"
+      ]
+    }
+  ],
+  "lessons": {
+    "keep": "Keep the demonstrated mechanism large and unobstructed.",
+    "try": [
+      "For a robotics film, pair three hand poses with one simple object transfer using a stable camera and clear background.",
+      "For Tin, show one real workflow action and its output in a single uncluttered view, then add a one-line purpose label."
+    ],
+    "avoid": "Claiming an API or practical dexterity from free-space hand poses alone.",
+    "open": "Control source, exact gesture timing, physical performance, audio and footage provenance remain unverified."
+  },
+  "comparison": {
+    "story": "Raised hands → changing poses → hands lowered.",
+    "motion": "Mechanical hand and wrist states, sampled at 1 fps; exact articulation sequence unresolved.",
+    "sound": "No validated listening; all sound layers unknown.",
+    "texture": "Cream fabric-like body, exposed mechanisms and daylight outdoors.",
+    "lesson": "A focused mechanism demo is clear, but a useful task is still needed."
+  },
+  "reviewer_model": "gpt-6-astra",
+  "scope": "sampled visual and story review; ASR and measured signal support; no validated audio listening",
+  "viewed_evidence": [
+    "technical-review-2026-10-19/deep-review/motion/107/timeline-00.jpg"
+  ],
+  "closer_windows": [],
+  "sound": [
+    {
+      "id": "A01",
+      "start": 0,
+      "end": 13.054,
+      "layer": "unknown",
+      "detail": "No validated audio listening. Voice delivery, music, effects and mix are unknown.",
+      "visual_relation": "All scenes; sound alignment unverified",
+      "evidence": "No actual audio perception in this review; prepared audio files are not listening evidence."
+    }
+  ]
+}

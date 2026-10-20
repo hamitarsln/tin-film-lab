@@ -1,0 +1,354 @@
+{
+  "id": 499,
+  "reviewer_model": "gpt-6-astra",
+  "scope": "sampled visual and story review; ASR and measured signal support; no validated audio listening",
+  "viewed_evidence": [
+    "technical-review-2026-10-19/deep-review/motion/499/timeline-00.jpg",
+    "technical-review-2026-10-19/deep-review/motion/499/timeline-01.jpg",
+    "technical-review-2026-10-19/deep-review/motion/499/timeline-02.jpg",
+    "technical-review-2026-10-19/deep-review/audio/499-speech.json"
+  ],
+  "closer_windows": [],
+  "product_from_film": "Cluely recruits engineers, designers, creators and fifty interns through an office tour and ambitious growth pitch.",
+  "explains_well": "Large overlays make the location, internship count and compensation offer easy to notice while the presenters move through the office.",
+  "unclear": "The film says little about the actual projects, daily work or selection criteria, so applicants mainly receive ambition and lifestyle signals.",
+  "product_type": "recruitment film",
+  "scenario": "Invite candidates to apply for an early-stage team.",
+  "product_clear_time": 9,
+  "product_clear_basis": "Role text identifies engineers, followed by other creative roles; the internship offer becomes explicit at 37s.",
+  "scenes": [
+    {
+      "id": "V01",
+      "start": 0,
+      "end": 8,
+      "action": "A handwritten CEO Cluely sign leads to a presenter at a doorway and a $500,000 office caption. Aerial views carry San Francisco text.",
+      "design": "Rough paper sign, bright loft and city aerials.",
+      "purpose": "Introduce the workplace and location.",
+      "evidence": "Visible chronological 1 fps samples, source 0–8s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V02",
+      "start": 8,
+      "end": 25,
+      "action": "A second presenter walks through the loft as role names appear. The first presenter in the kitchen is accompanied by million-dollar growth claims and a $100 million target.",
+      "design": "Large floating white text across open office spaces.",
+      "purpose": "Recruit broad talent through growth ambition.",
+      "evidence": "Visible chronological 1 fps samples, source 8–25s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V03",
+      "start": 25,
+      "end": 36,
+      "action": "A presenter moves near an industrial stairwell while Average age 21 appears.",
+      "design": "Concrete, steel stairs and wood beams.",
+      "purpose": "Present a young unconventional team identity.",
+      "evidence": "Visible chronological 1 fps samples, source 25–36s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V04",
+      "start": 36,
+      "end": 48,
+      "action": "A seated presenter explains the internship pitch under a persistent 50 Interns title.",
+      "design": "Centered couch view and large white headline.",
+      "purpose": "State the main hiring offer.",
+      "evidence": "Visible chronological 1 fps samples, source 36–48s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V05",
+      "start": 48,
+      "end": 58,
+      "action": "A standing presenter is overlaid with $50+ per hour and $10,000+ bonus. Both presenters then sit in a sparse work area.",
+      "design": "Oversized compensation text and unfinished-looking office space.",
+      "purpose": "Add tangible incentives and a joint appeal.",
+      "evidence": "Visible chronological 1 fps samples, source 48–58s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V06",
+      "start": 58,
+      "end": 69.027,
+      "action": "A high view of the loft pulls back from a presenter as Cluely Ground Zero appears. A black card gives cluely.com/careers.",
+      "design": "Wide office reveal and small centered application URL.",
+      "purpose": "Frame the office as a beginning and provide the application route.",
+      "evidence": "Visible chronological 1 fps samples, source 58–69.027s; boundary approximate; exact motion between samples unverified."
+    }
+  ],
+  "sound": [
+    {
+      "id": "A01",
+      "start": 0,
+      "end": 69.027,
+      "layer": "unknown",
+      "detail": "No validated direct audio listening was performed. Music, speech delivery, effects, mix and sync remain unknown, not absent.",
+      "visual_relation": "All visual scenes; audiovisual alignment unverified",
+      "evidence": "Visual samples only; no actual audio range supplied to this reviewer."
+    },
+    {
+      "id": "A02",
+      "start": 1.87,
+      "end": 62.63,
+      "layer": "ASR draft",
+      "detail": "The coherent draft identifies the hiring roles, growth ambition, young team, fifty internships, competitive expectations and bonuses. It supports the recruitment structure; figures and claims remain unverified, and spoken delivery is not assessed.",
+      "visual_relation": "Story text support; exact audiovisual alignment and delivery unverified.",
+      "evidence": "technical-review-2026-10-19/deep-review/audio/499-speech.json; local faster-whisper base CPU int8 draft; VAD candidates only, recognition errors possible."
+    }
+  ],
+  "categories": [
+    {
+      "id": "Q01",
+      "finding": "Workplace and location lead to roles, growth goals, team identity, internship count, compensation and an application link.",
+      "evidence": "V01–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q02",
+      "finding": "The handwritten CEO sign gives a casual founder tone before the expensive-office claim.",
+      "evidence": "V01",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q03",
+      "finding": "Engineers, designers, creators and interns are explicitly addressed. The role labels establish recruitment early.",
+      "evidence": "V02,V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q04",
+      "finding": "The camera follows presenters through rooms, blurred pans bridge locations, large numbers appear over the space, and the final view pulls up and back to reveal the loft.",
+      "evidence": "V01–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q05",
+      "finding": "Moving between rooms gives each pitch point a new setting while the same two presenters maintain continuity.",
+      "evidence": "V01–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q06",
+      "finding": "Wood beams, concrete, steel stairs and a rough paper sign combine an expensive loft with an early-startup aesthetic.",
+      "evidence": "V01–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q07",
+      "finding": "The large role and compensation text is clear; the final application URL is comparatively small.",
+      "evidence": "V02,V04–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q08",
+      "finding": "The coherent draft identifies the hiring roles, growth ambition, young team, fifty internships, competitive expectations and bonuses. It supports the recruitment structure; figures and claims remain unverified, and spoken delivery is not assessed.",
+      "evidence": "A02",
+      "status": "uncertain",
+      "reason": "ASR text only; no validated listening, delivery or voice origin.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q09",
+      "finding": "Voice delivery, music, effects and audiovisual alignment were not established by this visual pass.",
+      "evidence": "A01",
+      "status": "not checked",
+      "reason": "No validated direct audio listening input.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q10",
+      "finding": "Voice delivery, music, effects and audiovisual alignment were not established by this visual pass.",
+      "evidence": "A01",
+      "status": "not checked",
+      "reason": "No validated direct audio listening input.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q11",
+      "finding": "Voice delivery, music, effects and audiovisual alignment were not established by this visual pass.",
+      "evidence": "A01",
+      "status": "not checked",
+      "reason": "No validated direct audio listening input.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q12",
+      "finding": "Office-tour footage, city aerials, presenter shots and tracked-looking text overlays are visible. Exact tracking and production method are unknown.",
+      "evidence": "V01–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q13",
+      "finding": "Manifest duration 69.027s; indexed dimensions 1920×1080. Source unchanged flag recorded; fresh encoding and audio clipping checks not run.",
+      "evidence": "Group manifest",
+      "status": "uncertain",
+      "reason": "Inherited technical metadata; no fresh media probe in this review.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q14",
+      "finding": "The ASR draft explains the growth goals, team background and competitive internship expectations, while visible text anchors the key offer numbers.",
+      "evidence": "V02–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q15",
+      "finding": "Oversized metrics and role names guide attention, sometimes taking more space than the presenters.",
+      "evidence": "V02,V03,V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q16",
+      "finding": "The internship count receives a long stable hold after a faster office tour, making the core offer easier to retain.",
+      "evidence": "V01–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q17",
+      "finding": "The same office and two presenters connect the pitch, but no employee task or finished product work is shown.",
+      "evidence": "V01–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q18",
+      "finding": "Young-team language, large goals and a spacious office aim to create ambition and exclusivity. Heard delivery is unverified.",
+      "evidence": "V02–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q19",
+      "finding": "The film supplies an application destination but does not show role requirements or the hiring process.",
+      "evidence": "V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q20",
+      "finding": "Office cost, revenue history, future growth, compensation and team age are claims in the film. Their accuracy and current availability are unverified.",
+      "evidence": "V01–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q21",
+      "finding": "Cluely appears on the opening sign and closing Ground Zero title, with a direct careers URL.",
+      "evidence": "V01,V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q22",
+      "finding": "Show one real engineering or design task and name two selection criteria before the application card.",
+      "evidence": "V02,V04,V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q23",
+      "finding": "Give each recruitment point a physical location and emphasize the most useful offer details with simple large text.",
+      "evidence": "V01–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q24",
+      "finding": "Cluely recruits engineers, designers, creators and fifty interns through an office tour and ambitious growth pitch.",
+      "evidence": "Model reading from inspected images",
+      "status": "uncertain",
+      "reason": "Model-only new-viewer interpretation; no human test.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q25",
+      "finding": "Contact sheets inspected at displayed size; a phone-size playback, caption audit, flash audit and formal accessibility check were not performed.",
+      "evidence": "Viewed sheets",
+      "status": "not checked",
+      "reason": "Full-size moving-image and device checks unavailable in this pass.",
+      "experiment": "none"
+    }
+  ],
+  "lessons": {
+    "keep": "Pair the hiring offer with visible location, count, compensation and application route.",
+    "avoid": "Using ambition and office scale as the main explanation of the work candidates would do.",
+    "open": "Hiring terms, revenue claims, role details, application status and audio remain unverified.",
+    "try": [
+      "For Tin, show one team project during the office tour and name what a new hire would own.",
+      "Replace one growth-goal section with a day-in-the-role example and clear application criteria."
+    ]
+  },
+  "comparison": {
+    "story": "Introduce the workplace and location. → Recruit broad talent through growth ambition. → Present a young unconventional team identity. → State the main hiring offer. → Add tangible incentives and a joint appeal. → Frame the office as a beginning and provide the application route.",
+    "motion": "The camera follows presenters through rooms, blurred pans bridge locations, large numbers appear over the space, and the final view pulls up and back to reveal the loft. Sampling scope: 1 fps unless a closer window is recorded.",
+    "sound": "No validated listening; unknown.",
+    "texture": "Rough paper sign, bright loft and city aerials.; Large floating white text across open office spaces.; Concrete, steel stairs and wood beams.; Centered couch view and large white headline.; Oversized compensation text and unfinished-looking office space.; Wide office reveal and small centered application URL.",
+    "lesson": "Pair the hiring offer with visible location, count, compensation and application route."
+  },
+  "elements": [
+    {
+      "kind": "motion",
+      "name": "office tracking shots",
+      "events": [
+        "V02",
+        "V03"
+      ]
+    },
+    {
+      "kind": "motion",
+      "name": "large number overlays",
+      "events": [
+        "V02",
+        "V05"
+      ]
+    },
+    {
+      "kind": "motion",
+      "name": "camera pullback",
+      "events": [
+        "V06"
+      ]
+    },
+    {
+      "kind": "texture",
+      "name": "industrial loft",
+      "events": [
+        "V01",
+        "V03",
+        "V06"
+      ]
+    },
+    {
+      "kind": "texture",
+      "name": "handwritten sign",
+      "events": [
+        "V01"
+      ]
+    }
+  ]
+}

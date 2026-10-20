@@ -1,0 +1,346 @@
+{
+  "id": 70,
+  "product_from_film": "Learner-1 is presented as a way for AI models to keep improving through context about users and tasks.",
+  "explains_well": "Human learning examples give a familiar analogy for the claimed need for ongoing model learning.",
+  "unclear": "There is no product interface, implementation example or measured before-and-after learning result.",
+  "product_type": "AI memory and learning infrastructure",
+  "scenario": "Explain why static models need ongoing context, using human growth and practice as an analogy.",
+  "product_clear_time": 58,
+  "product_clear_basis": "Learner-1 is named at 45–46s; captions at 48–58s connect improvement to users/tasks and injecting tokens into model context.",
+  "scenes": [
+    {
+      "start": 0,
+      "end": 13,
+      "action": "Black changes to a fetus-like image, then Humans are always learning text. Walking, cycling and graduation images precede a white-framed abstract center.",
+      "design": "Dark field, red biological imagery and small archival-looking frames.",
+      "purpose": "Establish learning as a lifelong human process.",
+      "evidence": "1 fps source samples in 0–13s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V01"
+    },
+    {
+      "start": 13,
+      "end": 25,
+      "action": "Hands making fire, a cave, tool marks, a face and rocket imagery follow captions about failure, intuition and challenges.",
+      "design": "Earth tones, orange light and historical-looking space images.",
+      "purpose": "Extend the analogy from individual practice to human progress.",
+      "evidence": "1 fps source samples in 13–25s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V02"
+    },
+    {
+      "start": 25,
+      "end": 37,
+      "action": "Chip-like grids, numbers, a clock and brain scans accompany a question about trained models. Waves wash over a rock; a white card says it is not an intelligence problem.",
+      "design": "Monochrome technology/brain imagery and pale white typography card.",
+      "purpose": "Frame static model behavior as the problem.",
+      "evidence": "1 fps source samples in 25–37s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V03"
+    },
+    {
+      "start": 37,
+      "end": 47,
+      "action": "Dancers in a white border carry learning text. A solution sentence leads to Learner-1 on a soft blue field.",
+      "design": "Black-white dancers, then blue identity color.",
+      "purpose": "Name learning as the missing part and reveal the product.",
+      "evidence": "1 fps source samples in 37–47s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V04"
+    },
+    {
+      "start": 47,
+      "end": 60,
+      "action": "A blue flower opens across samples, then orange square image patches sit over flowers. Blue-tinted people, hands, mountains and a window accompany user/task/context captions.",
+      "design": "Blue monochrome imagery with orange patches and small subtitle boxes.",
+      "purpose": "Describe the intended context mechanism through metaphors.",
+      "evidence": "1 fps source samples in 47–60s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V05"
+    },
+    {
+      "start": 60,
+      "end": 70,
+      "action": "Fine branching patterns, ocean-like texture, a child riding a bicycle and a branch accompany claims about real-time learning like humans.",
+      "design": "Strong blue treatment unifies otherwise different footage.",
+      "purpose": "Return the product ambition to human learning.",
+      "evidence": "1 fps source samples in 60–70s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V06"
+    },
+    {
+      "start": 70,
+      "end": 79.833,
+      "action": "A runner, feet stepping over stones and butterfly/flower imagery close the continuous-learning statement. A white supermemory logo card ends the film.",
+      "design": "Blue halftone-like treatment; warm flower accent then plain white.",
+      "purpose": "Finish the lifelong-learning analogy and brand.",
+      "evidence": "1 fps source samples in 70–79.833s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V07"
+    }
+  ],
+  "categories": [
+    {
+      "id": "Q01",
+      "finding": "Human learning history leads to static-model problem, Learner-1 reveal and context/continuous-learning claims.",
+      "evidence": "V01–V07",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q02",
+      "finding": "0s is black; a red fetus-like image appears at 1–2s. It creates a biological-growth frame, not a product explanation.",
+      "evidence": "V01",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q03",
+      "finding": "AI model builders are implied by training and context-token captions. The product role needs the 48–58s explanatory sequence.",
+      "evidence": "V03,V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q04",
+      "finding": "Flower forms change size/open state and square patches appear over imagery. Most motion is in footage; exact paths and easing are unresolved.",
+      "evidence": "V05,V07",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q05",
+      "finding": "White title cards separate problem and solution. A blue visual treatment then links many different examples.",
+      "evidence": "V03–V07",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q06",
+      "finding": "Red biological imagery and earth/monochrome history give way to a strongly blue solution world, with orange accents.",
+      "evidence": "V01–V07",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q07",
+      "finding": "Small bottom captions carry technical meaning; large learning and Learner-1 text supply only keywords. No readable code or UI example is shown.",
+      "evidence": "V03–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q08",
+      "finding": "The inspected ASR draft provides partial script-role support; recognition limits are recorded in A02. Audible voice characteristics and delivery remain unchecked.",
+      "evidence": "A02",
+      "status": "uncertain",
+      "reason": "Local draft text was read; no direct listening.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q09",
+      "finding": "Music character and structure are unverified.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "No validated listening.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q10",
+      "finding": "Effects and their sources are unverified.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "No validated listening; waveform peaks do not identify effects.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q11",
+      "finding": "Sound sync is unverified.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "No validated listening or paired audiovisual timing.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q12",
+      "finding": "Human life, cave, rocket, brain, nature and dance images build an analogy. Their capture/generation source is not known.",
+      "evidence": "V01–V07",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q13",
+      "finding": "Source duration 79.833 s; Watch metadata 1920 × 1080. Frame rate, audio clipping and export quality not checked here.",
+      "evidence": "Whole film",
+      "status": "supported",
+      "reason": "Parent source metadata supports duration and dimensions; visual review is sampled.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q14",
+      "finding": "Growth and learning are clear visually, but the product’s token/context mechanism relies on reading the captions.",
+      "evidence": "V01,V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q15",
+      "finding": "Central framed images and short text holds keep a stable focus; small captions require looking away from the strongest imagery.",
+      "evidence": "V01,V03,V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q16",
+      "finding": "The explanation takes over 40s to name the product and continues through many metaphors. A technical viewer receives few concrete implementation facts.",
+      "evidence": "V01–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "Insert one before/after agent response using remembered context."
+    },
+    {
+      "id": "Q17",
+      "finding": "The human-learning opening returns through cycling, stepping and growth at the end. The promise remains conceptual rather than demonstrated.",
+      "evidence": "V01,V06,V07",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q18",
+      "finding": "Life stages and practice suggest aspiration and progress; the visual switch to blue suggests an answer. This is inferred intent only.",
+      "evidence": "V01–V07",
+      "status": "uncertain",
+      "reason": "No viewer result or validated sound input.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q19",
+      "finding": "Human growth and nature recur consistently, but no single user or agent task is tracked.",
+      "evidence": "V01–V07",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q20",
+      "finding": "Continuous improvement and understanding are stated in captions. The film supplies analogy, not tested model output or performance evidence.",
+      "evidence": "V05,V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q21",
+      "finding": "The coherent blue solution world and plant motifs fit memory/growth branding; most historical montage could serve other AI companies.",
+      "evidence": "V02,V05–V07",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q22",
+      "finding": "The human/model contrast and product definition are necessary. Several historical examples could be shortened to allow a concrete result.",
+      "evidence": "V02,V03,V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q23",
+      "finding": "For Tin memory, keep the growth metaphor brief, then show a user preference remembered in a later campaign draft.",
+      "evidence": "V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "Use two dated prompts and highlight the one corrected detail retained across them."
+    },
+    {
+      "id": "Q24",
+      "finding": "No human new-viewer test was performed.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "The product summary is this model’s film-only reading.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q25",
+      "finding": "Mobile preview and accessibility checks were not performed.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "Contact sheets are evidence views, not a stated mobile preview or compliance test.",
+      "experiment": "none"
+    }
+  ],
+  "elements": [
+    {
+      "kind": "motion",
+      "name": "changing flower state",
+      "events": [
+        "V05"
+      ]
+    },
+    {
+      "kind": "motion",
+      "name": "image patch overlay",
+      "events": [
+        "V05"
+      ]
+    },
+    {
+      "kind": "texture",
+      "name": "blue monochrome treatment",
+      "events": [
+        "V05",
+        "V06",
+        "V07"
+      ]
+    }
+  ],
+  "lessons": {
+    "keep": "Use a clear visual palette change to mark the move from problem to proposed solution.",
+    "try": [
+      "For Tin memory, show one user correction and a later draft that keeps it; use the same phrase and campaign context as proof.",
+      "Build a short growth analogy with one plant image, then shift to a plain UI showing the remembered detail rather than extending the montage."
+    ],
+    "avoid": "Claiming continuous learning through imagery without showing a changed model response.",
+    "open": "Actual learning mechanism, model behavior, sound and exact transition details remain unverified."
+  },
+  "comparison": {
+    "story": "Human learning → static-model problem → Learner-1 → context mechanism claims → lifelong-learning analogy.",
+    "motion": "Footage changes, flower states and patch overlays; precise motion unverified.",
+    "sound": "No validated listening; captions are visual evidence only.",
+    "texture": "Biological red, historical/monochrome footage, then strong blue treatment.",
+    "lesson": "A visual chapter change can clarify problem versus solution, but needs concrete product proof."
+  },
+  "reviewer_model": "gpt-6-astra",
+  "scope": "sampled visual and story review; ASR and measured signal support; no validated audio listening",
+  "viewed_evidence": [
+    "technical-review-2026-10-19/deep-review/motion/070/timeline-00.jpg",
+    "technical-review-2026-10-19/deep-review/motion/070/timeline-01.jpg",
+    "technical-review-2026-10-19/deep-review/motion/070/timeline-02.jpg"
+  ],
+  "closer_windows": [],
+  "sound": [
+    {
+      "id": "A01",
+      "start": 0,
+      "end": 79.833,
+      "layer": "unknown",
+      "detail": "No validated audio listening. Voice delivery, music, effects and mix are unknown.",
+      "visual_relation": "All scenes; sound alignment unverified",
+      "evidence": "No actual audio perception in this review; prepared audio files are not listening evidence."
+    },
+    {
+      "id": "A02",
+      "start": 0,
+      "end": 79.833,
+      "layer": "ASR draft",
+      "detail": "The draft contrasts lifelong human learning with static model training, then describes Learner 1 building user/task context and injecting tokens. Several phrases are garbled, especially the ending; only the broad learning/context argument is retained. No validated listening; delivery, music, effects, mix and synchronization remain unknown.",
+      "visual_relation": "Whole-film script role only; ASR timing and audible delivery not validated.",
+      "evidence": "technical-review-2026-10-19/deep-review/audio/070-speech.json; local faster-whisper draft inspected."
+    }
+  ]
+}

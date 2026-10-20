@@ -1,0 +1,324 @@
+{
+  "id": 183,
+  "reviewer_model": "gpt-6-astra",
+  "scope": "sampled visual and story review; ASR and measured signal support; no validated audio listening",
+  "viewed_evidence": [
+    "technical-review-2026-10-19/deep-review/motion/183/timeline-00.jpg",
+    "technical-review-2026-10-19/deep-review/audio/183-speech.json"
+  ],
+  "closer_windows": [],
+  "product_from_film": "Umbra promises private crypto trading and transfers, with a web waitlist.",
+  "explains_well": "Public wallet visibility is framed as both a trading and personal-security concern.",
+  "unclear": "No product screen shows how privacy is achieved or what remains public.",
+  "product_type": "crypto privacy",
+  "scenario": "Trade or transfer without exposing wallet activity.",
+  "product_clear_time": 21,
+  "product_clear_basis": "The closing card explicitly says trade and transfer privately.",
+  "scenes": [
+    {
+      "id": "V01",
+      "start": 0,
+      "end": 6,
+      "action": "Oversized cropped words about crypto privacy give way to a social post on copy trading, then a theft headline enlarged across the screen.",
+      "design": "White pages, black typography and tight crops.",
+      "purpose": "Introduce public exposure as a problem.",
+      "evidence": "Visible chronological 1 fps samples, source 0–6s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V02",
+      "start": 6,
+      "end": 13,
+      "action": "A wallet-tracking post stays centered over changing blue and monochrome abstract imagery. A presenter clip, phone and candlestick charts follow.",
+      "design": "Glowing line, particle and liquid-like backgrounds; mixed media.",
+      "purpose": "Link visible activity with speculation and trading.",
+      "evidence": "Visible chronological 1 fps samples, source 6–13s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V03",
+      "start": 13,
+      "end": 21,
+      "action": "A robbery headline receives a red blot; surveillance-like footage shows a person in a green box. Privacy is highlighted in a page, followed by holdings and layered wallet-related posts.",
+      "design": "Red mark, tracking box, yellow highlight and blurred background posts.",
+      "purpose": "Raise the stakes from trading to personal exposure.",
+      "evidence": "Visible chronological 1 fps samples, source 13–21s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V04",
+      "start": 21,
+      "end": 25.983,
+      "action": "Clouds replace the dense montage. Trade and transfer privately becomes Umbra web waitlist open, then a glowing small white icon remains.",
+      "design": "Blue sky, soft clouds and centered white copy.",
+      "purpose": "Offer privacy as relief and invite interest.",
+      "evidence": "Visible chronological 1 fps samples, source 21–25.983s; boundary approximate; exact motion between samples unverified."
+    }
+  ],
+  "sound": [
+    {
+      "id": "A01",
+      "start": 0,
+      "end": 25.983,
+      "layer": "unknown",
+      "detail": "No validated direct audio listening was performed. Music, speech delivery, effects, mix and sync remain unknown, not absent.",
+      "visual_relation": "All visual scenes; audiovisual alignment unverified",
+      "evidence": "Visual samples only; no actual audio range supplied to this reviewer."
+    },
+    {
+      "id": "A02",
+      "start": 2.63,
+      "end": 12.09,
+      "layer": "ASR draft",
+      "detail": "The short ASR draft includes a candidate remark about Polymarket winnings, which fits the trading montage. Recognition is uncertain and does not explain Umbra. Voice delivery and soundtrack were not heard.",
+      "visual_relation": "Story text support; exact audiovisual alignment and delivery unverified.",
+      "evidence": "technical-review-2026-10-19/deep-review/audio/183-speech.json; local faster-whisper base CPU int8 draft; VAD candidates only, recognition errors possible."
+    }
+  ],
+  "categories": [
+    {
+      "id": "Q01",
+      "finding": "Public crypto activity, trading and theft examples build toward a private trading/transfer promise.",
+      "evidence": "V01–V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q02",
+      "finding": "Large cropped words create an unfinished privacy statement; the opening needs successive frames to resolve it.",
+      "evidence": "V01",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q03",
+      "finding": "The task becomes explicit at 21 s; the mechanism and audience requirements remain unstated.",
+      "evidence": "V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q04",
+      "finding": "Text crops change scale, background textures change behind a fixed post, and posts layer over a blurred field; precise paths are unresolved.",
+      "evidence": "V01–V03",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q05",
+      "finding": "Headlines, charts and posts share crypto subject matter, but they do not follow one user or transaction.",
+      "evidence": "V01–V03",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q06",
+      "finding": "Hard monochrome pages and red threat marking contrast with the soft blue cloud ending.",
+      "evidence": "V03,V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q07",
+      "finding": "The closing promise is readable; most social posts arrive too densely for full reading in sampled states.",
+      "evidence": "V01,V03,V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q08",
+      "finding": "The short ASR draft includes a candidate remark about Polymarket winnings, which fits the trading montage. Recognition is uncertain and does not explain Umbra. Voice delivery and soundtrack were not heard.",
+      "evidence": "A02",
+      "status": "uncertain",
+      "reason": "ASR text only; no validated listening, delivery or voice origin.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q09",
+      "finding": "Voice delivery, music, effects and audiovisual alignment were not established by this visual pass.",
+      "evidence": "A01",
+      "status": "not checked",
+      "reason": "No validated direct audio listening input.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q10",
+      "finding": "Voice delivery, music, effects and audiovisual alignment were not established by this visual pass.",
+      "evidence": "A01",
+      "status": "not checked",
+      "reason": "No validated direct audio listening input.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q11",
+      "finding": "Voice delivery, music, effects and audiovisual alignment were not established by this visual pass.",
+      "evidence": "A01",
+      "status": "not checked",
+      "reason": "No validated direct audio listening input.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q12",
+      "finding": "Screens, social posts, presenter footage, surveillance-like imagery and abstract textures are mixed; provenance is unverified.",
+      "evidence": "V01–V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q13",
+      "finding": "Manifest duration 25.983 s; indexed dimensions 1920×1080. Source unchanged flag recorded; fresh encoding and audio clipping checks not run.",
+      "evidence": "Group manifest",
+      "status": "uncertain",
+      "reason": "Inherited technical metadata; no fresh media probe in this review.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q14",
+      "finding": "Headlines and final copy support the privacy theme without speech; no operating steps can be learned.",
+      "evidence": "V01,V03,V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q15",
+      "finding": "Red blot, yellow highlight and green tracking box direct attention to threats and privacy.",
+      "evidence": "V03",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q16",
+      "finding": "Several distinct privacy examples fill the first 21 s; the final five seconds simplify to one promise and brand.",
+      "evidence": "V01–V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q17",
+      "finding": "The opening privacy concern is answered with a promise, not a demonstrated private transaction.",
+      "evidence": "V01,V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q18",
+      "finding": "Threat headlines and tracking imagery appear designed to create concern; the cloud ending suggests relief.",
+      "evidence": "V03,V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q19",
+      "finding": "Public wallet exposure provides thematic continuity; the footage does not preserve one account or asset.",
+      "evidence": "V01–V03",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q20",
+      "finding": "News and social posts frame need, but do not establish that Umbra prevents exposure, copying or theft.",
+      "evidence": "V01–V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q21",
+      "finding": "The cloud icon and final name identify Umbra; the preceding crypto-risk montage could serve other privacy brands.",
+      "evidence": "V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q22",
+      "finding": "One wallet exposure example followed by a concrete privacy state would explain more than additional posts.",
+      "evidence": "V03,V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q23",
+      "finding": "Tin could highlight one exposed setting, then show its corrected state with the same data; avoid unrelated fear imagery.",
+      "evidence": "V03,V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q24",
+      "finding": "Umbra promises private crypto trading and transfers, with a web waitlist.",
+      "evidence": "Model reading from inspected images",
+      "status": "uncertain",
+      "reason": "Model-only new-viewer interpretation; no human test.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q25",
+      "finding": "Contact sheets inspected at displayed size; a phone-size playback, caption audit, flash audit and formal accessibility check were not performed.",
+      "evidence": "Viewed sheets",
+      "status": "not checked",
+      "reason": "Full-size moving-image and device checks unavailable in this pass.",
+      "experiment": "none"
+    }
+  ],
+  "lessons": {
+    "keep": "Use a clear visual release from dense problem evidence to a simple final promise.",
+    "avoid": "Avoid using threat headlines as proof of product protection.",
+    "open": "Privacy behavior, security claims, source rights, actual motion and all audio delivery remain unverified.",
+    "try": [
+      "Show one public wallet view beside the actual information visible after a private transfer.",
+      "For Tin, follow one draft permission problem to an approved publishing state with one highlighted setting."
+    ]
+  },
+  "comparison": {
+    "story": "Introduce public exposure as a problem. → Link visible activity with speculation and trading. → Raise the stakes from trading to personal exposure. → Offer privacy as relief and invite interest.",
+    "motion": "Text crops change scale, background textures change behind a fixed post, and posts layer over a blurred field; precise paths are unresolved. Sampling scope: 1 fps unless a closer window is recorded.",
+    "sound": "No validated listening; unknown.",
+    "texture": "White pages, black typography and tight crops.; Glowing line, particle and liquid-like backgrounds; mixed media.; Red mark, tracking box, yellow highlight and blurred background posts.; Blue sky, soft clouds and centered white copy.",
+    "lesson": "Use a clear visual release from dense problem evidence to a simple final promise."
+  },
+  "elements": [
+    {
+      "kind": "ui",
+      "name": "social post",
+      "events": [
+        "V01",
+        "V03"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "candlestick chart",
+      "events": [
+        "V02"
+      ]
+    },
+    {
+      "kind": "texture",
+      "name": "cloud background",
+      "events": [
+        "V04"
+      ]
+    },
+    {
+      "kind": "motion",
+      "name": "text enlargement",
+      "events": [
+        "V01"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,332 @@
+{
+  "id": 203,
+  "product_from_film": "Archer is presented as one trading platform, with wallet connection and a market chart interface.",
+  "explains_well": "The montage connects major market news, different assets and continuous trading to one platform.",
+  "unclear": "The short interface view does not explain which instrument is traded, how an order is placed, or what the user receives.",
+  "product_type": "trading platform",
+  "scenario": "Market news and asset imagery lead to Connect Wallet, a trading interface and a one-platform statement.",
+  "product_clear_time": 27,
+  "product_clear_basis": "The Archer-branded chart and order-panel interface appears after Connect Wallet at 25–26s.",
+  "scenes": [
+    {
+      "start": 0,
+      "end": 7,
+      "action": "A central-bank speaker, Bitcoin, an illustrated ape, clock, Buy control and surprised person appear in succession.",
+      "design": "Mixed news, symbolic assets and reaction footage.",
+      "purpose": "Establish market activity and urgency.",
+      "evidence": "1 fps source samples in 0–7s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V01"
+    },
+    {
+      "start": 7,
+      "end": 15,
+      "action": "Oil pumps, geopolitical news, Nvidia stock coverage, an exchange floor and political/meme-coin imagery appear.",
+      "design": "Broadcast graphics and financial headlines.",
+      "purpose": "Link global events to a range of trading interests.",
+      "evidence": "1 fps source samples in 7–15s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V02"
+    },
+    {
+      "start": 15,
+      "end": 25,
+      "action": "Repeated computer icons give way to falling numbers, gold, city buildings, tickers, terminal-like text, a finance interview and exchange floors.",
+      "design": "Paper diagram mixed with dense market footage.",
+      "purpose": "Broaden the market scope before the product reveal.",
+      "evidence": "1 fps source samples in 15–25s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V03"
+    },
+    {
+      "start": 25,
+      "end": 30,
+      "action": "An orange Connect Wallet control appears with a pointer. An Archer trading screen follows, with a candlestick chart, order fields and bright green controls.",
+      "design": "Black surround, orange entry action and dark trading UI.",
+      "purpose": "Provide the first concrete entry point and product surface.",
+      "evidence": "1 fps source samples in 25–30s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V04"
+    },
+    {
+      "start": 30,
+      "end": 35.32,
+      "action": "Trade wording changes, including Trade Stocks, followed by One Platform and the Archer logo.",
+      "design": "Minimal white/orange type on black.",
+      "purpose": "Summarize the multi-asset promise and name.",
+      "evidence": "1 fps source samples in 30–35.32s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V05"
+    }
+  ],
+  "sound": [
+    {
+      "id": "A01",
+      "start": 0,
+      "end": 35.32,
+      "layer": "ASR draft / unknown",
+      "detail": "The draft supports 24/7 trading, tokenization and access to many assets with an internet connection. News fragments such as prices above 72.com and Tradeable news is closed are garbled and rejected as literal facts. No validated listening; voice identity, music, effects and synchronization unknown.",
+      "visual_relation": "V01–V05; broad script role only.",
+      "evidence": "technical-review-2026-10-19/deep-review/audio/203-speech.json"
+    }
+  ],
+  "categories": [
+    {
+      "id": "Q01",
+      "finding": "Market/news montage → wide asset scope → wallet entry → trading UI → one platform.",
+      "evidence": "V01–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q02",
+      "finding": "A recognizable financial-news setting immediately establishes the topic before the brand appears.",
+      "evidence": "V01",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q03",
+      "finding": "Traders are implied by Buy, Connect Wallet and the chart/order interface; the exact instruments remain unclear.",
+      "evidence": "V01,V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q04",
+      "finding": "Rapid changes between news sources, repeated computer icons and a changing-size interface are visible; exact transitions are not established by 1 fps sampling.",
+      "evidence": "V01–V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q05",
+      "finding": "The move from many markets to one isolated wallet button creates a clear narrative simplification.",
+      "evidence": "V03,V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q06",
+      "finding": "Broadcast lower thirds, market tickers and dark interface graphics create a finance-focused visual texture.",
+      "evidence": "V01–V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q07",
+      "finding": "Connect Wallet and One Platform are readable. Small chart/order labels receive little space or time.",
+      "evidence": "V04,V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q08",
+      "finding": "The ASR draft provides a broad continuous-trading argument, with malformed news fragments explicitly excluded.",
+      "evidence": "A01",
+      "status": "uncertain",
+      "reason": "Draft only; no listening.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q09",
+      "finding": "Music character and structure are unverified.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "No validated listening.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q10",
+      "finding": "Effects and their sources are unverified.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "No validated listening; waveform peaks do not identify effects.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q11",
+      "finding": "Sound sync is unverified.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "No validated listening or paired audiovisual timing.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q12",
+      "finding": "News clips, asset symbols, reaction footage and interface imagery are combined; licensing and production methods are unknown.",
+      "evidence": "V01–V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q13",
+      "finding": "Source duration 35.32 s; Watch metadata 1920 × 1080. Frame rate, audio clipping and export quality not checked here.",
+      "evidence": "Whole film",
+      "status": "supported",
+      "reason": "Parent source metadata supports duration and dimensions; visual review is sampled.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q14",
+      "finding": "Silent viewing identifies trading and wallet entry but does not teach a trade.",
+      "evidence": "V04,V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q15",
+      "finding": "The orange entry button is isolated after dense market scenes, making the next action easy to notice.",
+      "evidence": "V03,V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q16",
+      "finding": "Roughly 25s of the 35s film builds market context; the product screen occupies only about 3s.",
+      "evidence": "V01–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q17",
+      "finding": "The many-market opening resolves into One Platform, but no completed order proves the promise visually.",
+      "evidence": "V01–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q18",
+      "finding": "News and reaction footage may convey urgency and opportunity; audience response is unmeasured.",
+      "evidence": "V01,V02",
+      "status": "uncertain",
+      "reason": "Interpretation of montage.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q19",
+      "finding": "The market theme is consistent, but the button-to-interface jump omits connection and order steps.",
+      "evidence": "V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q20",
+      "finding": "Continuous access and asset breadth are film claims. Instrument structure, availability and actual execution were not checked.",
+      "evidence": "A01,V04,V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q21",
+      "finding": "Orange branding against black distinguishes the final product sequence from the news montage.",
+      "evidence": "V04,V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q22",
+      "finding": "Give the interface enough time to show one clearly named instrument and one completed action.",
+      "evidence": "V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "Replace several news beats with a labeled wallet-to-order-to-result sequence."
+    },
+    {
+      "id": "Q23",
+      "finding": "For Tin, compress the broad market context and spend that time on the actual user action.",
+      "evidence": "V01–V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "Show a brief becoming one campaign output and an approval result in the space saved from the opening montage."
+    },
+    {
+      "id": "Q24",
+      "finding": "No human new-viewer test was performed.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "The product summary is this model’s film-only reading.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q25",
+      "finding": "Mobile preview and accessibility checks were not performed.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "Contact sheets are evidence views, not a stated mobile preview or compliance test.",
+      "experiment": "none"
+    }
+  ],
+  "elements": [
+    {
+      "kind": "ui",
+      "name": "wallet connection button",
+      "events": [
+        "V04"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "candlestick chart",
+      "events": [
+        "V04"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "order panel",
+      "events": [
+        "V04"
+      ]
+    },
+    {
+      "kind": "motion",
+      "name": "news montage",
+      "events": [
+        "V01",
+        "V02",
+        "V03"
+      ]
+    },
+    {
+      "kind": "texture",
+      "name": "market ticker",
+      "events": [
+        "V03"
+      ]
+    }
+  ],
+  "lessons": {
+    "keep": "Isolate one entry action after a dense context montage.",
+    "try": [
+      "Show one named instrument and a complete order result.",
+      "For Tin, shorten context and show the brief, output and approval action."
+    ],
+    "avoid": "Giving the product interface less time than the surrounding market imagery.",
+    "open": "Instrument meaning, actual asset coverage, order execution, clip origin and audio remain unresolved."
+  },
+  "comparison": {
+    "story": "Market activity → many assets → one wallet entry and trading platform.",
+    "motion": "Fast montage and interface scale changes; precise transitions unchecked.",
+    "sound": "Broad ASR trading thesis with rejected garbled fragments; no listening.",
+    "texture": "News footage, tickers, dark charts and orange branding.",
+    "lesson": "A clear entry button is useful, but a product story needs the action after entry."
+  },
+  "reviewer_model": "gpt-6-astra",
+  "scope": "sampled visual and story review; ASR and measured signal support; no validated audio listening",
+  "viewed_evidence": [
+    "technical-review-2026-10-19/deep-review/motion/203/timeline-00.jpg",
+    "technical-review-2026-10-19/deep-review/motion/203/timeline-01.jpg"
+  ],
+  "closer_windows": []
+}

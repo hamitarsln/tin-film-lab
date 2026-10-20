@@ -1,0 +1,360 @@
+{
+  "id": 246,
+  "product_from_film": "ReasonBlocks is presented as an agent runtime that detects failure loops, reuses recovery patterns, shows diagnostics and compresses context.",
+  "explains_well": "A side-by-side trace shows a repeating parse error versus an inserted loop guard followed by successful steps.",
+  "unclear": "The integration step is missing, and No retries could mean no further retries after recovery; that scope is not stated beside the earlier two-retry example.",
+  "product_type": "agent runtime and diagnostics",
+  "scenario": "A failure/recovery comparison leads to mid-run correction, diagnostics, context compression, benchmark claims and a growing reasoning library.",
+  "product_clear_time": 14,
+  "product_clear_basis": "The right-hand trace inserts a loop_guard pattern after a parse error, making the intervention role concrete around 14s.",
+  "viewed_evidence": [
+    "technical-review-2026-10-19/deep-review/motion/246/timeline-00.jpg",
+    "technical-review-2026-10-19/deep-review/motion/246/timeline-01.jpg",
+    "technical-review-2026-10-19/deep-review/motion/246/timeline-02.jpg",
+    "astra-review-2026-10-20/evidence/group-1/246/17s.jpg",
+    "astra-review-2026-10-20/evidence/group-1/246/18.5s.jpg"
+  ],
+  "scenes": [
+    {
+      "start": 0,
+      "end": 6,
+      "action": "Introducing ReasonBlocks and Your agents smarter and cheaper with every run appear below a block-like logo.",
+      "design": "White monospaced text on black.",
+      "purpose": "State the product and benefit.",
+      "evidence": "1 fps source samples in 0–6s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V01"
+    },
+    {
+      "start": 6,
+      "end": 19,
+      "action": "Same task. Two outcomes introduces a left trace repeating read_file and parse_token errors. A right trace adds a loop_guard pattern, then verify_token, issue_session and return ok. Summaries compare tokens, cost and time.",
+      "design": "Red failure and green recovery panels on white.",
+      "purpose": "Show the proposed intervention with a concrete sequence.",
+      "evidence": "1 fps source samples in 6–19s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V02"
+    },
+    {
+      "start": 19,
+      "end": 26,
+      "action": "Your agent gets stuck. We catch it mid-run appears above a row of boxes. A highlighted point is followed by green boxes and No retries. No wasted tokens.",
+      "design": "Minimal step diagram with orange/green status emphasis.",
+      "purpose": "Generalize the correction idea.",
+      "evidence": "1 fps source samples in 19–26s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V03"
+    },
+    {
+      "start": 26,
+      "end": 34,
+      "action": "See every run. Catch every failure heads a diagnostics dashboard with run list, step bars and changing metrics.",
+      "design": "Small dashboard centered on a white field.",
+      "purpose": "Show visibility into agent runs.",
+      "evidence": "1 fps source samples in 26–34s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V04"
+    },
+    {
+      "start": 34,
+      "end": 42,
+      "action": "Keep what matters. Compress the rest appears above a full context bar and many rows, followed by a smaller bar and compact retained panel.",
+      "design": "Before/after context-size diagram.",
+      "purpose": "Explain the compression benefit.",
+      "evidence": "1 fps source samples in 34–42s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V05"
+    },
+    {
+      "start": 42,
+      "end": 47,
+      "action": "Three cards settle on 42% more accurate, 52% lower cost and 24% lower latency.",
+      "design": "Large green percentages with smaller supporting labels.",
+      "purpose": "State performance claims.",
+      "evidence": "1 fps source samples in 42–47s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V06"
+    },
+    {
+      "start": 47,
+      "end": 57,
+      "action": "A multicolored grid of blocks surrounds Your reasoning library grows with every run, with small pattern cards appearing over highlighted blocks.",
+      "design": "Dense colored mosaic and monospaced white cards.",
+      "purpose": "Represent accumulating reusable patterns.",
+      "evidence": "1 fps source samples in 47–57s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V07"
+    },
+    {
+      "start": 57,
+      "end": 61.82,
+      "action": "ReasonBlocks, Every agent run made smarter and reasonblocks.com hold on white.",
+      "design": "Minimal centered brand card.",
+      "purpose": "Give a destination.",
+      "evidence": "1 fps source samples in 57–61.82s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V08"
+    }
+  ],
+  "sound": [
+    {
+      "id": "A01",
+      "start": 0,
+      "end": 61.82,
+      "layer": "unknown",
+      "detail": "No speech draft is listed for this film and the expected local speech file is absent. This does not establish absence of speech or other audio. No validated listening; voice, music, effects and synchronization remain unknown.",
+      "visual_relation": "All scenes; no audio relationship established.",
+      "evidence": "Assignment speech_draft is null; local expected speech path absent."
+    }
+  ],
+  "categories": [
+    {
+      "id": "Q01",
+      "finding": "Benefit → failure/recovery example → correction → diagnostics → compression → metrics → reusable library.",
+      "evidence": "V01–V08",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q02",
+      "finding": "The opening names the product and promises smarter/cheaper runs directly.",
+      "evidence": "V01",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q03",
+      "finding": "Code traces, token costs and diagnostics clearly address agent developers; the intervention becomes concrete in the comparison.",
+      "evidence": "V02–V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q04",
+      "finding": "Trace rows accumulate, a step line changes status, a context bar shrinks and pattern cards appear. Exact animation timing is unchecked.",
+      "evidence": "V02–V07",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q05",
+      "finding": "Red repeated failure versus green recovered steps gives the comparison a clear visual logic.",
+      "evidence": "V02",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q06",
+      "finding": "Monospaced text, thin panel borders and status colors support a developer-tool identity; the final library adds a colorful block motif.",
+      "evidence": "V01–V08",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q07",
+      "finding": "Headlines and outcome summaries are clear. The full-resolution 17s frame reveals the two-retry statement and the full recovery trace.",
+      "evidence": "V02; full-resolution 17s frame",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q08",
+      "finding": "No local speech draft is available; audio remains unknown rather than absent.",
+      "evidence": "A01",
+      "status": "not checked",
+      "reason": "No validated listening or transcript.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q09",
+      "finding": "Music character and structure are unverified.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "No validated listening.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q10",
+      "finding": "Effects and their sources are unverified.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "No validated listening; waveform peaks do not identify effects.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q11",
+      "finding": "Sound sync is unverified.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "No validated listening or paired audiovisual timing.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q12",
+      "finding": "The film uses diagrammatic traces, a dashboard and graphic blocks. Whether the comparison is recorded execution or illustrative animation is not established.",
+      "evidence": "V02–V07",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q13",
+      "finding": "Source duration 61.82 s; Watch metadata 1280 × 720. Frame rate, audio clipping and export quality not checked here.",
+      "evidence": "Whole film",
+      "status": "supported",
+      "reason": "Parent source metadata supports duration and dimensions; visual review is sampled.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q14",
+      "finding": "The main correction and compression ideas are explained visually and in text without requiring speech.",
+      "evidence": "V02–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q15",
+      "finding": "Two aligned panels support comparison. The smaller diagnostics dashboard and library cards are harder to inspect at normal size.",
+      "evidence": "V02,V04,V07",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q16",
+      "finding": "The example gets about 13s, followed by short feature chapters and a 10s library section.",
+      "evidence": "V02–V07",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q17",
+      "finding": "The repeated-error opening is answered with a specific inserted pattern and successful return, then expanded into reuse across runs.",
+      "evidence": "V02,V07",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q18",
+      "finding": "Status colors and concise code steps may create a sense of control; actual developer confidence is unmeasured.",
+      "evidence": "V02–V05",
+      "status": "uncertain",
+      "reason": "Interpretation of diagram design.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q19",
+      "finding": "The comparison says Loop caught in 2 retries; No retries in the following correction diagram could mean no further retries after recovery, but this is not explicit. Running remains above a Resolved footer at 17s and 18.5s near the end of the comparison. These are visible presentation ambiguities, not verified product defects.",
+      "evidence": "V02,V03",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q20",
+      "finding": "Token/cost/time values and 42% accuracy, 52% cost, 24% latency gains are film claims. Benchmark method, integration and actual recovery behavior were not independently tested.",
+      "evidence": "V02,V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q21",
+      "finding": "A readable error trace plus reusable-pattern mosaic gives the block/library identity a functional basis.",
+      "evidence": "V02,V07",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q22",
+      "finding": "Clarify retry wording and show the integration point.",
+      "evidence": "V02,V03",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "Use one consistent recovery definition, then show the minimal code/config change enabling the same example."
+    },
+    {
+      "id": "Q23",
+      "finding": "For Tin, show the exact corrective action rather than only a success badge.",
+      "evidence": "V02",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "Display a failed campaign step, the specific correction and the successful result in matching rows."
+    },
+    {
+      "id": "Q24",
+      "finding": "No human new-viewer test was performed.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "The product summary is this model’s film-only reading.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q25",
+      "finding": "Mobile preview and accessibility checks were not performed.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "Contact sheets are evidence views, not a stated mobile preview or compliance test.",
+      "experiment": "none"
+    }
+  ],
+  "elements": [
+    {
+      "kind": "ui",
+      "name": "agent execution trace",
+      "events": [
+        "V02"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "diagnostics dashboard",
+      "events": [
+        "V04"
+      ]
+    },
+    {
+      "kind": "motion",
+      "name": "step status changes",
+      "events": [
+        "V03"
+      ]
+    },
+    {
+      "kind": "motion",
+      "name": "context compression bar",
+      "events": [
+        "V05"
+      ]
+    },
+    {
+      "kind": "motion",
+      "name": "reasoning block mosaic",
+      "events": [
+        "V07"
+      ]
+    }
+  ],
+  "lessons": {
+    "keep": "Make the corrective step visible between failure and success.",
+    "try": [
+      "Align retry wording and show the integration change for the example.",
+      "For Tin, show the failed step, exact correction and matching successful result."
+    ],
+    "avoid": "Leaving the scope of a short recovery promise unclear beside a more specific example.",
+    "open": "Illustrative versus recorded traces, benchmark method, integration, recovery limits and audio remain unresolved."
+  },
+  "comparison": {
+    "story": "Loop failure → intervention → diagnostics/compression → performance/library.",
+    "motion": "Trace rows, status boxes, shrinking context and block cards; exact timing unchecked.",
+    "sound": "No speech draft; no listening; audio unknown.",
+    "texture": "Thin technical panels, monospaced type and colored block library.",
+    "lesson": "A concrete correction is persuasive only when its labels and headline agree."
+  },
+  "reviewer_model": "gpt-6-astra",
+  "scope": "sampled visual and story review; ASR and measured signal support; no validated audio listening",
+  "closer_windows": []
+}

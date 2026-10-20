@@ -1,0 +1,367 @@
+{
+  "id": 214,
+  "reviewer_model": "gpt-6-astra",
+  "scope": "sampled visual and story review; ASR and measured signal support; no validated audio listening",
+  "viewed_evidence": [
+    "technical-review-2026-10-19/deep-review/motion/214/timeline-00.jpg",
+    "technical-review-2026-10-19/deep-review/motion/214/timeline-01.jpg",
+    "technical-review-2026-10-19/deep-review/motion/214/timeline-02.jpg",
+    "technical-review-2026-10-19/deep-review/audio/214-speech.json"
+  ],
+  "closer_windows": [],
+  "product_from_film": "Riffle presents a collaborative music workspace with samples, layered tracks and an assistant for musical parts.",
+  "explains_well": "A selected sample becomes a track, an assistant proposes a bassline, and the workspace leads to a shareable player.",
+  "unclear": "The rapid collage makes it hard to tell which musical changes belong to the same piece, especially without hearing the audio.",
+  "product_type": "music creation",
+  "scenario": "Build a layered piece from samples, ask for a bassline and share it.",
+  "product_clear_time": 28,
+  "product_clear_basis": "A colored multitrack workspace appears after the Riffle introduction.",
+  "scenes": [
+    {
+      "id": "V01",
+      "start": 0,
+      "end": 17,
+      "action": "Small grave markers become music-file icons; brain text and everyday footage lead to music-software icons, dense controls and a cockpit image. A bright blast-like landscape follows.",
+      "design": "White square layouts, clipped images, playful symbols and abrupt visual contrasts.",
+      "purpose": "Frame unused musical ideas and intimidating tools.",
+      "evidence": "Visible chronological 1 fps samples, source 0–17s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V02",
+      "start": 17,
+      "end": 28,
+      "action": "Painted eyes, brief app imagery, a disc with a 30-year line and a CRT lead to Riffle branding over a relaxed group outdoors.",
+      "design": "Mixed art, retro objects and organic footage.",
+      "purpose": "Introduce a more playful creative space.",
+      "evidence": "Visible chronological 1 fps samples, source 17–28s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V03",
+      "start": 28,
+      "end": 45,
+      "action": "A colored multitrack board appears over nature footage. A curved gallery presents sample cards; a selected card moves into an empty workspace and becomes a blue waveform track, with orange material added later.",
+      "design": "White interface, cyan/orange/lime tracks and image-based library.",
+      "purpose": "Show finding and layering source material.",
+      "evidence": "Visible chronological 1 fps samples, source 28–45s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V04",
+      "start": 45,
+      "end": 61,
+      "action": "Band footage introduces a sous-chef helper. A user asks what the stack needs; the assistant suggests and creates a bassline, which appears as a lime waveform alongside existing tracks.",
+      "design": "Conversational panel, chef icon and colored audio clips.",
+      "purpose": "Show assistance within human composition.",
+      "evidence": "Visible chronological 1 fps samples, source 45–61s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V05",
+      "start": 61,
+      "end": 71,
+      "action": "Party footage carries a Share control and multiple colored cursors; a band performing in a vehicle follows.",
+      "design": "Social clips with collaboration overlays.",
+      "purpose": "Frame creation as a group activity.",
+      "evidence": "Visible chronological 1 fps samples, source 61–71s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V06",
+      "start": 71,
+      "end": 80,
+      "action": "The multitrack board is shared into a branded player with cover art, waveform and comment panel, followed by a collage of musicians.",
+      "design": "Dark translucent player, colorful art and feedback column.",
+      "purpose": "Show publishing and response.",
+      "evidence": "Visible chronological 1 fps samples, source 71–80s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V07",
+      "start": 80,
+      "end": 87.552,
+      "action": "A go play button sits over a plant seed head, then riffle.studio and a small music mark hold on white before black.",
+      "design": "Natural detail and simple end card.",
+      "purpose": "Invite playful creation.",
+      "evidence": "Visible chronological 1 fps samples, source 80–87.552s; boundary approximate; exact motion between samples unverified."
+    }
+  ],
+  "sound": [
+    {
+      "id": "A01",
+      "start": 0,
+      "end": 87.552,
+      "layer": "unknown",
+      "detail": "No validated direct audio listening was performed. Music, speech delivery, effects, mix and sync remain unknown, not absent.",
+      "visual_relation": "All visual scenes; audiovisual alignment unverified",
+      "evidence": "Visual samples only; no actual audio range supplied to this reviewer."
+    },
+    {
+      "id": "A02",
+      "start": 0,
+      "end": 81.47,
+      "layer": "ASR draft",
+      "detail": "ASR draft supports the unused-ideas metaphor, tool complexity, sample selection, assistant help, collaboration and sharing. The helper is described as assisting rather than making the whole song. Some names and short phrases are uncertain; no musical changes, voice delivery or soundtrack were heard.",
+      "visual_relation": "Story text support; exact audiovisual alignment and delivery unverified.",
+      "evidence": "technical-review-2026-10-19/deep-review/audio/214-speech.json; local faster-whisper base CPU int8 draft; VAD candidates only, recognition errors possible."
+    }
+  ],
+  "categories": [
+    {
+      "id": "Q01",
+      "finding": "Ideas trapped by complex tools lead to samples, layered creation, assistant help, collaboration and sharing.",
+      "evidence": "V01–V07",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q02",
+      "finding": "Minimal text and a single grave marker create a metaphor that needs the following icons and script to resolve.",
+      "evidence": "V01",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q03",
+      "finding": "Riffle is named around 25 s and the multitrack view at 28 s establishes the music workspace.",
+      "evidence": "V02,V03",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q04",
+      "finding": "Sample cards sit on a curved gallery, one card enters the workspace, and waveform clips build a track stack; exact drag paths are not fully resolved.",
+      "evidence": "V03,V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q05",
+      "finding": "Collage inserts bridge feature sections; persistent colored tracks provide more continuity than the changing footage.",
+      "evidence": "V03–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q06",
+      "finding": "White UI, bright track colors, organic footage and retro media objects create a loose creative-play style.",
+      "evidence": "V01–V07",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q07",
+      "finding": "The assistant question and bassline suggestion are legible; small track controls and some fast metaphor text need slower viewing.",
+      "evidence": "V03,V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q08",
+      "finding": "ASR draft supports the unused-ideas metaphor, tool complexity, sample selection, assistant help, collaboration and sharing. The helper is described as assisting rather than making the whole song. Some names and short phrases are uncertain; no musical changes, voice delivery or soundtrack were heard.",
+      "evidence": "A02",
+      "status": "uncertain",
+      "reason": "ASR text only; no validated listening, delivery or voice origin.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q09",
+      "finding": "Voice delivery, music, effects and audiovisual alignment were not established by this visual pass.",
+      "evidence": "A01",
+      "status": "not checked",
+      "reason": "No validated direct audio listening input.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q10",
+      "finding": "Voice delivery, music, effects and audiovisual alignment were not established by this visual pass.",
+      "evidence": "A01",
+      "status": "not checked",
+      "reason": "No validated direct audio listening input.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q11",
+      "finding": "Voice delivery, music, effects and audiovisual alignment were not established by this visual pass.",
+      "evidence": "A01",
+      "status": "not checked",
+      "reason": "No validated direct audio listening input.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q12",
+      "finding": "Film-like clips, paintings, software icons, musicians and product graphics are mixed; source rights and provenance are unknown.",
+      "evidence": "V01–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q13",
+      "finding": "Manifest duration 87.552s; indexed dimensions 960×720. Source unchanged flag recorded; fresh encoding and audio clipping checks not run.",
+      "evidence": "Group manifest",
+      "status": "uncertain",
+      "reason": "Inherited technical metadata; no fresh media probe in this review.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q14",
+      "finding": "Samples, tracks, chat and sharing are visible, but the musical contribution of each step cannot be judged without validated listening.",
+      "evidence": "V03–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q15",
+      "finding": "Selected sample cards brighten against a faded grid, then lime waveform output draws attention within the white workspace.",
+      "evidence": "V03,V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q16",
+      "finding": "The first 28 s establish tone and problem; the remaining minute covers a coherent set of creation and social features.",
+      "evidence": "V01–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q17",
+      "finding": "The unused-ideas opening ends with a shareable piece and a creative community, matching the expression promise.",
+      "evidence": "V01,V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q18",
+      "finding": "The film shifts from tool intimidation to playful experimentation and social connection, through images and informal copy.",
+      "evidence": "V01–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q19",
+      "finding": "Track colors link sample creation, assistant addition and sharing, but the exact same audio composition is unverified.",
+      "evidence": "V03,V04,V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q20",
+      "finding": "The UI demonstrates a proposed sample-to-share path; musical quality, assistant output and live collaboration behavior are not independently established.",
+      "evidence": "V03–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q21",
+      "finding": "The sous-chef metaphor and social music playground framing distinguish the assistant from a one-click song generator.",
+      "evidence": "V04,V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q22",
+      "finding": "A short uninterrupted before/after of the same track would clarify the assistant contribution better than an extra collage insert.",
+      "evidence": "V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q23",
+      "finding": "Tin can show a helper adding one useful part to a human-led workflow, then preserve the artifact through approval and sharing.",
+      "evidence": "V04,V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q24",
+      "finding": "Riffle presents a collaborative music workspace with samples, layered tracks and an assistant for musical parts.",
+      "evidence": "Model reading from inspected images",
+      "status": "uncertain",
+      "reason": "Model-only new-viewer interpretation; no human test.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q25",
+      "finding": "Contact sheets inspected at displayed size; a phone-size playback, caption audit, flash audit and formal accessibility check were not performed.",
+      "evidence": "Viewed sheets",
+      "status": "not checked",
+      "reason": "Full-size moving-image and device checks unavailable in this pass.",
+      "experiment": "none"
+    }
+  ],
+  "lessons": {
+    "keep": "Make AI assistance a visible addition to a human-owned artifact.",
+    "avoid": "Avoid using dense collage to hide the actual difference made by a feature.",
+    "open": "Audio changes, musical quality, precise transitions, collaboration behavior, asset rights and all soundtrack details remain unverified.",
+    "try": [
+      "Show a Tin user making a campaign, asking for one missing asset and adding the result into the existing plan.",
+      "Preserve one creation from selection through edit and shared preview with matching labels at each step."
+    ]
+  },
+  "comparison": {
+    "story": "Frame unused musical ideas and intimidating tools. → Introduce a more playful creative space. → Show finding and layering source material. → Show assistance within human composition. → Frame creation as a group activity. → Show publishing and response. → Invite playful creation.",
+    "motion": "Sample cards sit on a curved gallery, one card enters the workspace, and waveform clips build a track stack; exact drag paths are not fully resolved. Sampling scope: 1 fps unless a closer window is recorded.",
+    "sound": "No validated listening; unknown.",
+    "texture": "White square layouts, clipped images, playful symbols and abrupt visual contrasts.; Mixed art, retro objects and organic footage.; White interface, cyan/orange/lime tracks and image-based library.; Conversational panel, chef icon and colored audio clips.; Social clips with collaboration overlays.; Dark translucent player, colorful art and feedback column.; Natural detail and simple end card.",
+    "lesson": "Make AI assistance a visible addition to a human-owned artifact."
+  },
+  "elements": [
+    {
+      "kind": "ui",
+      "name": "multitrack timeline",
+      "events": [
+        "V03",
+        "V04"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "sample gallery",
+      "events": [
+        "V03"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "assistant chat",
+      "events": [
+        "V04"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "shared player",
+      "events": [
+        "V06"
+      ]
+    },
+    {
+      "kind": "motion",
+      "name": "multiple cursors",
+      "events": [
+        "V05"
+      ]
+    },
+    {
+      "kind": "texture",
+      "name": "retro television",
+      "events": [
+        "V02"
+      ]
+    }
+  ]
+}

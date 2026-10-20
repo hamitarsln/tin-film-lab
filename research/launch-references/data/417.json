@@ -1,0 +1,343 @@
+{
+  "id": 417,
+  "product_from_film": "ChatGPT Images creates image variations, edits people and settings, and collects results in a phone gallery.",
+  "explains_well": "The same people and dog remain recognizable while clothing, groups, places and visual styles change.",
+  "unclear": "No edit request or control shows how the user asks for a specific change.",
+  "product_type": "Consumer image creation",
+  "scenario": "Turn a personal portrait into group pictures, imagined adventures and stylized versions.",
+  "product_clear_time": 5,
+  "product_clear_basis": "ChatGPT Images title plus repeated portrait changes establish image editing by about 5s.",
+  "scenes": [
+    {
+      "start": 0,
+      "end": 3,
+      "action": "ChatGPT becomes ChatGPT Images around changing portrait examples.",
+      "design": "Black type and a small image on white.",
+      "purpose": "Name the image product.",
+      "evidence": "1 fps source samples in 0–3s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V01"
+    },
+    {
+      "start": 3,
+      "end": 14,
+      "action": "A portrait gains hairstyle, hat and glasses changes; a red-shirt version appears in wider crops, poses, cartoon style, snow and isolated full-body views.",
+      "design": "White background and layered image cards.",
+      "purpose": "Show identity-preserving variation as a visual claim.",
+      "evidence": "1 fps source samples in 3–14s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V02"
+    },
+    {
+      "start": 14,
+      "end": 24,
+      "action": "The woman joins an older woman; settings/clothing change, then a man and dog join. Birthday and holiday frames place the group in keepsake formats.",
+      "design": "Group portraits, fridge decoration and a holiday card.",
+      "purpose": "Expand editing into personal group memories.",
+      "evidence": "1 fps source samples in 14–24s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V03"
+    },
+    {
+      "start": 24,
+      "end": 37,
+      "action": "The group appears at dinner, cities, rides, water, snow, climbing, skydiving and space; overlapping cards carry each new scene.",
+      "design": "Photo-like adventure montage with white margins.",
+      "purpose": "Demonstrate broad imagined situations.",
+      "evidence": "1 fps source samples in 24–37s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V04"
+    },
+    {
+      "start": 37,
+      "end": 47,
+      "action": "The group becomes crafted/cartoon-like characters in snow, underwater and jungle scenes. A dog close-up becomes a plush-looking dog and beach image.",
+      "design": "Felt/fur-like surfaces and illustrated scenes.",
+      "purpose": "Show style changes and a final character focus.",
+      "evidence": "1 fps source samples in 37–47s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V05"
+    },
+    {
+      "start": 47,
+      "end": 52,
+      "action": "Results form a thumbnail grid, then a phone Images page with style suggestions and My images.",
+      "design": "Image gallery and pink-tinted phone UI.",
+      "purpose": "Connect the examples to the product surface.",
+      "evidence": "1 fps source samples in 47–52s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V06"
+    },
+    {
+      "start": 52,
+      "end": 55.233,
+      "action": "ChatGPT Images and the OpenAI mark close on white.",
+      "design": "Minimal title and logo.",
+      "purpose": "Close with identity.",
+      "evidence": "1 fps source samples in 52–55.233s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V07"
+    }
+  ],
+  "sound": [
+    {
+      "id": "A01",
+      "start": 0,
+      "end": 55.233,
+      "layer": "ASR draft rejected",
+      "detail": "Draft has a very long repeated phrase and disconnected lyric-like fragments. It is not reliable product narration and is not used to infer music, lyrics, voice or silence. No validated listening occurred.",
+      "visual_relation": "V01–V07; sound relationship unknown.",
+      "evidence": "417-speech.json local draft rejected for repetition and lack of coherent explanatory content."
+    }
+  ],
+  "categories": [
+    {
+      "id": "Q01",
+      "finding": "Single portrait variations → group edits → imagined adventures → style changes → gallery.",
+      "evidence": "V01–V07",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q02",
+      "finding": "ChatGPT text gains an image and Images label; the product category is immediate.",
+      "evidence": "V01",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q03",
+      "finding": "Personal image creation/editing is clear through repeated changes; the actual request workflow remains absent.",
+      "evidence": "V01–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q04",
+      "finding": "Image cards overlap, change size and arrangement; isolated figures and a final thumbnail grid organize variation. Exact interpolation and easing unresolved.",
+      "evidence": "V02–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q05",
+      "finding": "The recurring faces and dog connect rapid setting/style changes; layered cards make the sequence feel like accumulating options.",
+      "evidence": "V02–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q06",
+      "finding": "Photo-like images give way to felt/fur-like and cartoon surfaces, all framed by a plain white field.",
+      "evidence": "V02–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q07",
+      "finding": "There is little explanatory text beyond the product title and final gallery labels; pictures carry the feature claim.",
+      "evidence": "V01,V06,V07",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q08",
+      "finding": "ASR draft rejected as repetitive and fragmentary; no speech or music classification follows from it.",
+      "evidence": "A01",
+      "status": "uncertain",
+      "reason": "No validated listening.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q09",
+      "finding": "Music character and structure are unverified.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "No validated listening.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q10",
+      "finding": "Effects and their sources are unverified.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "No validated listening; waveform peaks do not identify effects.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q11",
+      "finding": "Sound sync is unverified.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "No validated listening or paired audiovisual timing.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q12",
+      "finding": "Portraits, group composites, imagined settings and crafted-looking characters are presented as examples; exact creation process and source inputs unverified.",
+      "evidence": "V02–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q13",
+      "finding": "Source duration 55.233 s; Watch metadata 1920 × 1080. Frame rate, audio clipping and export quality not checked here.",
+      "evidence": "Whole film",
+      "status": "supported",
+      "reason": "Parent source metadata supports duration and dimensions; visual review is sampled.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q14",
+      "finding": "Image variation and the gallery remain clear silently, but prompts and edit controls are not taught.",
+      "evidence": "V02–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q15",
+      "finding": "One portrait grows into a familiar group; white margins and central cards keep the subject distinct despite rapid changes.",
+      "evidence": "V02–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q16",
+      "finding": "Many results arrive at about one-second sample intervals; this communicates range more than edit precision.",
+      "evidence": "V04,V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q17",
+      "finding": "The initial image-product promise is answered with many variations and a gallery destination.",
+      "evidence": "V01–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q18",
+      "finding": "Family-like groups, celebrations and playful adventures suggest warmth and imagination; response unmeasured.",
+      "evidence": "V03–V05",
+      "status": "uncertain",
+      "reason": "Visual interpretation.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q19",
+      "finding": "Recurring faces, red clothing early on and the dog preserve continuity across major setting/style shifts.",
+      "evidence": "V02–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q20",
+      "finding": "The montage shows selected outputs. Prompt adherence, identity fidelity across unrestricted edits, generation speed and actual app behavior are not independently tested.",
+      "evidence": "V02–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q21",
+      "finding": "The personal cast and expanding adventure sequence give the montage a specific through-line; branding is sparse.",
+      "evidence": "V02–V07",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q22",
+      "finding": "Add one edit request.",
+      "evidence": "V02",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "Show the original portrait, a request to add a red hat, and the corresponding result before the broader montage."
+    },
+    {
+      "id": "Q23",
+      "finding": "Reuse one subject to demonstrate controlled variation.",
+      "evidence": "V02–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "For Tin, keep one product pack and headline fixed while showing three requested campaign styles with their prompts."
+    },
+    {
+      "id": "Q24",
+      "finding": "No human new-viewer test was performed.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "The product summary is this model’s film-only reading.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q25",
+      "finding": "Mobile preview and accessibility checks were not performed.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "Contact sheets are evidence views, not a stated mobile preview or compliance test.",
+      "experiment": "none"
+    }
+  ],
+  "elements": [
+    {
+      "kind": "ui",
+      "name": "image gallery",
+      "events": [
+        "V06"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "phone shell",
+      "events": [
+        "V06"
+      ]
+    },
+    {
+      "kind": "motion",
+      "name": "overlapping image cards",
+      "events": [
+        "V02",
+        "V04",
+        "V05"
+      ]
+    },
+    {
+      "kind": "texture",
+      "name": "felt-like characters",
+      "events": [
+        "V05"
+      ]
+    }
+  ],
+  "lessons": {
+    "keep": "Carry the same people and dog across varied outputs.",
+    "try": [
+      "Show one original-request-result edit before the montage.",
+      "For Tin, keep a product and headline fixed while demonstrating three requested styles."
+    ],
+    "avoid": "Letting output variety hide the user’s control over each change.",
+    "open": "Prompt fidelity, source process, generation time and all acoustic qualities remain unverified."
+  },
+  "comparison": {
+    "story": "Personal portrait → group adventures → style range → gallery.",
+    "motion": "Layered cards, reframing and gallery arrangement.",
+    "sound": "Repetitive ASR rejected; no listening.",
+    "texture": "Photo-like images and crafted/furry stylization.",
+    "lesson": "A stable cast makes a broad image capability easy to follow."
+  },
+  "reviewer_model": "gpt-6-astra",
+  "scope": "sampled visual and story review; ASR and measured signal support; no validated audio listening",
+  "viewed_evidence": [
+    "technical-review-2026-10-19/deep-review/motion/417/timeline-00.jpg",
+    "technical-review-2026-10-19/deep-review/motion/417/timeline-01.jpg"
+  ],
+  "closer_windows": []
+}

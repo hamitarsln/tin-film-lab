@@ -1,0 +1,310 @@
+{
+  "id": 424,
+  "reviewer_model": "gpt-6-astra",
+  "scope": "sampled visual and story review; ASR and measured signal support; no validated audio listening",
+  "viewed_evidence": [
+    "technical-review-2026-10-19/deep-review/motion/424/timeline-00.jpg",
+    "astra-review-2026-10-20/evidence/group-2/424-1-4-4fps.jpg"
+  ],
+  "closer_windows": [
+    {
+      "start": 1,
+      "end": 4,
+      "rate_fps": 4,
+      "evidence": [
+        "astra-review-2026-10-20/evidence/group-2/424-1-4-4fps.jpg"
+      ],
+      "resolved": "Orange jacket becomes pale jacket and tan trousers become blue-green while the person continues walking. Adjacent sampled states preserve pose continuity; a subframe morph versus aligned replacement is not resolved."
+    }
+  ],
+  "product_from_film": "Perplexity presents a way to picture different clothing on a person.",
+  "explains_well": "The same walking figure changes clothes while the pose and framing stay recognizable.",
+  "unclear": "No photo input, garment selection or try-on control explains how a user gets this result.",
+  "product_type": "shopping visualization",
+  "scenario": "Preview changing outfits on one walking person.",
+  "product_clear_time": 7,
+  "product_clear_basis": "Try anything on appears beside the changing outfit.",
+  "scenes": [
+    {
+      "id": "V01",
+      "start": 0,
+      "end": 5,
+      "action": "A side-view person walks toward the right while the view tracks them. Orange puffer changes to a pale jacket, then tan trousers change to blue-green trousers. You imagine it and You picture it appear on opposite sides.",
+      "design": "Muted pink-gray studio-like space and soft clothing colors.",
+      "purpose": "Visualize outfit alternatives.",
+      "evidence": "Visible chronological 1 fps samples, source 0–5s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V02",
+      "start": 5,
+      "end": 10,
+      "action": "The walking figure continues as the background opens into a pastel landscape; a pink top and round shoulder bag appear. Sky and ground become swirling pink-blue forms under Now you can see it and Try anything on.",
+      "design": "Painterly-looking landscape, soft reflections and flowing color.",
+      "purpose": "Expand the try-on promise into imagination.",
+      "evidence": "Visible chronological 1 fps samples, source 5–10s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V03",
+      "start": 10,
+      "end": 17.083,
+      "action": "Black card reads Curiosity looks good on you, then the Perplexity symbol and name appear; final samples are black.",
+      "design": "Small white type and logo on black.",
+      "purpose": "Attach the fashion idea to the brand.",
+      "evidence": "Visible chronological 1 fps samples, source 10–17.083s; boundary approximate; exact motion between samples unverified."
+    }
+  ],
+  "sound": [
+    {
+      "id": "A01",
+      "start": 0,
+      "end": 17.083,
+      "layer": "unknown",
+      "detail": "No validated direct audio listening was performed. Music, speech delivery, effects, mix and sync remain unknown, not absent.",
+      "visual_relation": "All visual scenes; audiovisual alignment unverified",
+      "evidence": "Visual samples only; no actual audio range supplied to this reviewer."
+    }
+  ],
+  "categories": [
+    {
+      "id": "Q01",
+      "finding": "One person cycles through outfits, enters a stylized world and closes on a fashion-themed brand line. No user workflow is shown.",
+      "evidence": "V01–V03",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q02",
+      "finding": "A person in an orange puffer walks beside You imagine it; this reads as fashion imagery before a feature is named.",
+      "evidence": "V01",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q03",
+      "finding": "Try anything on clarifies the intended shopping visualization at 7s, while Perplexity is named around 13s. Access level is not stated in the film.",
+      "evidence": "V02–V03",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q04",
+      "finding": "The person walks right as the camera tracks; jacket and trouser states switch while gait continues. Pastel scenery expands and swirls around the figure. Clothing changes were checked at 4 fps from 1–4s; exact subframe replacement remains unresolved.",
+      "evidence": "V01–V02",
+      "status": "uncertain",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q05",
+      "finding": "Aligned person scale and walking pose carry the wardrobe changes. A hard change to black separates the visual promise from the closing line.",
+      "evidence": "V01–V03",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q06",
+      "finding": "Soft pink, gray and teal tones move from minimal floor to surreal painterly landscape; clothing remains the main sharp subject.",
+      "evidence": "V01–V02",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q07",
+      "finding": "Short white phrases are easy to isolate, but no functional label such as upload or select grounds the feature.",
+      "evidence": "V01–V03",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q08",
+      "finding": "Voice delivery, music, effects and audiovisual alignment were not established by this visual pass.",
+      "evidence": "A01",
+      "status": "not checked",
+      "reason": "No validated direct audio listening input.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q09",
+      "finding": "Voice delivery, music, effects and audiovisual alignment were not established by this visual pass.",
+      "evidence": "A01",
+      "status": "not checked",
+      "reason": "No validated direct audio listening input.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q10",
+      "finding": "Voice delivery, music, effects and audiovisual alignment were not established by this visual pass.",
+      "evidence": "A01",
+      "status": "not checked",
+      "reason": "No validated direct audio listening input.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q11",
+      "finding": "Voice delivery, music, effects and audiovisual alignment were not established by this visual pass.",
+      "evidence": "A01",
+      "status": "not checked",
+      "reason": "No validated direct audio listening input.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q12",
+      "finding": "Fashion-looking character imagery and stylized environment are combined; the source method and relationship to actual product outputs are unverified.",
+      "evidence": "V01–V02",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q13",
+      "finding": "Manifest duration 17.083s; indexed dimensions 1280×720. Source unchanged flag recorded; fresh encoding and audio clipping checks not run.",
+      "evidence": "Group manifest",
+      "status": "uncertain",
+      "reason": "Inherited technical metadata; no fresh media probe in this review.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q14",
+      "finding": "The change of clothes and try-on phrase work silently. How to start and what input is needed remain missing.",
+      "evidence": "V01–V03",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q15",
+      "finding": "The steady side-view figure anchors attention while text alternates sides; expanding scenery becomes more prominent near the end.",
+      "evidence": "V01–V02",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q16",
+      "finding": "Three short phrases and several outfit states fit the brief duration, but nearly half the film is branding or ending rather than workflow.",
+      "evidence": "V01–V03",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q17",
+      "finding": "Imagine and picture are answered by visible outfit changes; the film does not demonstrate the product producing those changes.",
+      "evidence": "V01–V02",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q18",
+      "finding": "Continuous walking into a colorful world suggests possibility and personal style; this is an interpretation, not measured response.",
+      "evidence": "V01–V02",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q19",
+      "finding": "One recognizable person and side-view gait hold continuity despite garment and setting changes.",
+      "evidence": "V01–V02",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q20",
+      "finding": "Outfit variations are visible; identity preservation, fit accuracy, available garments and actual generation process are not verified.",
+      "evidence": "V01–V02",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q21",
+      "finding": "The closing Perplexity mark identifies the brand; the fashion film alone could belong to another try-on tool.",
+      "evidence": "V03",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q22",
+      "finding": "Add a brief source-photo plus garment-selection shot before the walk. A shorter black ending could supply that time.",
+      "evidence": "V01,V03",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q23",
+      "finding": "For creative variants, keep one subject and framing fixed while changing one attribute, then reveal the control used. This needs matched outputs and a readable input step.",
+      "evidence": "V01–V02",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q24",
+      "finding": "Perplexity presents a way to picture different clothing on a person.",
+      "evidence": "Model reading from inspected images",
+      "status": "uncertain",
+      "reason": "Model-only new-viewer interpretation; no human test.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q25",
+      "finding": "Contact sheets inspected at displayed size; a phone-size playback, caption audit, flash audit and formal accessibility check were not performed.",
+      "evidence": "Viewed sheets",
+      "status": "not checked",
+      "reason": "Full-size moving-image and device checks unavailable in this pass.",
+      "experiment": "none"
+    }
+  ],
+  "lessons": {
+    "keep": "Keep the same subject and motion while changing the option being compared.",
+    "avoid": "Presenting a polished result without the input or action that creates it.",
+    "open": "Actual product output provenance, exact transition mechanism, fit accuracy and sound remain unverified.",
+    "try": [
+      "For Tin ad variants, hold composition and subject constant while switching headline or brand palette.",
+      "Add a two-second photo-and-garment input view before the first outfit swap to test workflow understanding."
+    ]
+  },
+  "comparison": {
+    "story": "Visualize outfit alternatives. → Expand the try-on promise into imagination. → Attach the fashion idea to the brand.",
+    "motion": "The person walks right as the camera tracks; jacket and trouser states switch while gait continues. Pastel scenery expands and swirls around the figure. Clothing changes were checked at 4 fps from 1–4s; exact subframe replacement remains unresolved. Sampling scope: 1 fps unless a closer window is recorded.",
+    "sound": "No validated listening; unknown.",
+    "texture": "Muted pink-gray studio-like space and soft clothing colors.; Painterly-looking landscape, soft reflections and flowing color.; Small white type and logo on black.",
+    "lesson": "Keep the same subject and motion while changing the option being compared."
+  },
+  "elements": [
+    {
+      "kind": "motion",
+      "name": "outfit state changes",
+      "events": [
+        "V01",
+        "V02"
+      ]
+    },
+    {
+      "kind": "motion",
+      "name": "tracking walk",
+      "events": [
+        "V01",
+        "V02"
+      ]
+    },
+    {
+      "kind": "texture",
+      "name": "pastel surreal landscape",
+      "events": [
+        "V02"
+      ]
+    }
+  ]
+}

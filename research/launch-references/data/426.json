@@ -1,0 +1,344 @@
+{
+  "id": 426,
+  "viewed_evidence": [
+    "technical-review-2026-10-19/deep-review/motion/426/timeline-00.jpg",
+    "astra-review-2026-10-20/evidence/group-3/426/dense4-7.jpg",
+    "astra-review-2026-10-20/evidence/group-3/426/full6.jpg",
+    "astra-review-2026-10-20/evidence/group-3/426/full10.jpg"
+  ],
+  "product_from_film": "Replit announces Agent Fast Mode for quick scoped changes.",
+  "explains_well": "The orange Fast switch gives the feature a concrete control.",
+  "unclear": "The prompt asks for a rounded button, but the changed button is never shown.",
+  "product_type": "developer tool",
+  "scenario": "Enable Fast Mode for a small interface change.",
+  "product_clear_time": 3,
+  "product_clear_basis": "Fast Mode is labeled Now in Replit Agent; the later prompt gives a small-change use case.",
+  "scenes": [
+    {
+      "start": 0,
+      "end": 2,
+      "action": "Quick changes, instant updates appears on dark panel.",
+      "design": "White and muted grey type.",
+      "purpose": "Promise speed",
+      "id": "V01",
+      "evidence": "Visible 1 fps samples, source 0–2s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 2,
+      "end": 4,
+      "action": "Fast Mode enlarges with orange underline and Replit Agent label.",
+      "design": "Black rounded stage.",
+      "purpose": "Name feature",
+      "id": "V02",
+      "evidence": "Visible 1 fps samples, source 2–4s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 4,
+      "end": 7,
+      "action": "Cursor activates orange Fast toggle beside Make the button rounded prompt; view fades dark.",
+      "design": "Simplified chat/browser with Instant Updates and Scoped Changes badges.",
+      "purpose": "Show control",
+      "id": "V03",
+      "evidence": "Visible 1 fps samples, source 4–7s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 7,
+      "end": 9,
+      "action": "10x Faster Iteration fills center.",
+      "design": "White claim on faint warm glow.",
+      "purpose": "State speed claim",
+      "id": "V04",
+      "evidence": "Visible 1 fps samples, source 7–9s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 9,
+      "end": 11,
+      "action": "Free appears with particles and Limited Time Only, available now for all users.",
+      "design": "White confetti at sides, dim secondary text.",
+      "purpose": "Announce offer",
+      "id": "V05",
+      "evidence": "Visible 1 fps samples, source 9–11s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 11,
+      "end": 13.1,
+      "action": "Replit and Agent Fast Mode settle on black.",
+      "design": "Small brand lockup.",
+      "purpose": "Close",
+      "id": "V06",
+      "evidence": "Visible 1 fps samples, source 11–13.1s; boundaries approximate, between-frame action unresolved."
+    }
+  ],
+  "sound": [
+    {
+      "id": "A01",
+      "start": 0,
+      "end": 13.1,
+      "layer": "unknown",
+      "detail": "No validated audio listening; speech, music, effects, mix and sync remain unverified.",
+      "visual_relation": "All visual scenes; alignment not checked",
+      "evidence": "No actual audio supplied to this review; existing technical-review-2026-10-19/deep-review/audio/426.json is not listening evidence."
+    }
+  ],
+  "categories": [
+    {
+      "finding": "Speed promise leads to feature switch, numerical claim, offer and brand; no completed change connects the prompt to a result.",
+      "evidence": "V01–V06",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q01"
+    },
+    {
+      "finding": "Quick changes, instant updates is centered on a nearly black panel, giving a benefit without its product yet.",
+      "evidence": "V01",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q02"
+    },
+    {
+      "finding": "Replit Agent is named by 3s; prompt at 4–6s suggests developers making small UI edits.",
+      "evidence": "V02/V03",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q03"
+    },
+    {
+      "finding": "Dense 4–7s shows cursor at Fast switch, orange activation around 4.5s, stable active state, then fade around 6.5s.",
+      "evidence": "V03; dense4-7.jpg",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q04"
+    },
+    {
+      "finding": "Dark stage stays constant across text and UI, then UI fades before the speed figure; particle offer is a separate beat.",
+      "evidence": "V02–V05",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q05"
+    },
+    {
+      "finding": "Very dark layered panels, grey outlines and warm orange accents create low contrast except for key claims.",
+      "evidence": "V02/V03/V04",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q06"
+    },
+    {
+      "finding": "10x and Free dominate. Full frames reveal prompt and Limited Time Only, but these secondary details are dim and small.",
+      "evidence": "V03–V05",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q07"
+    },
+    {
+      "finding": "Voice presence and delivery remain unverified.",
+      "evidence": "No validated audio listening",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q08"
+    },
+    {
+      "finding": "Music character and arc remain unverified.",
+      "evidence": "No validated audio listening",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q09"
+    },
+    {
+      "finding": "Sound effects remain unverified.",
+      "evidence": "No validated audio listening",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q10"
+    },
+    {
+      "finding": "Sound-to-motion timing remain unverified.",
+      "evidence": "No validated audio listening",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q11"
+    },
+    {
+      "finding": "Simplified interface and typography carry the film; no working app preview or real-world footage appears in inspected samples.",
+      "evidence": "V01–V06",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q12"
+    },
+    {
+      "finding": "Source duration supplied as 13.1s; no independent compression, clipping or delivery check.",
+      "evidence": "Assigned metadata; source integrity checked by parent",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q13"
+    },
+    {
+      "finding": "Silent viewer understands a faster mode and temporary free offer, but cannot see what the edit produces.",
+      "evidence": "V02–V05",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q14"
+    },
+    {
+      "finding": "Orange switch focuses the UI; large white numbers then take over. Scope badges are separated from the main prompt.",
+      "evidence": "V03/V04",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q15"
+    },
+    {
+      "finding": "Thirteen seconds fit multiple claims; one real before/after would explain more than the second speed statement.",
+      "evidence": "V01/V04",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q16"
+    },
+    {
+      "finding": "Instant updates is supported by an activation control, not a visible updated button; payoff is chiefly promotional.",
+      "evidence": "V01/V03/V04",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q17"
+    },
+    {
+      "finding": "Large speed figure and confetti appear intended to create excitement about speed and access.",
+      "evidence": "V04/V05",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q18"
+    },
+    {
+      "finding": "Orange accent connects underline, toggle and logo; the requested button has no visual continuity because it is not shown.",
+      "evidence": "V02/V03/V06",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q19"
+    },
+    {
+      "finding": "Film says 10x Faster Iteration, not the 5x in source title. No benchmark or timed comparison is visible; Free is explicitly limited-time.",
+      "evidence": "V04/V05",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q20"
+    },
+    {
+      "finding": "Orange Replit symbol identifies the brand, while dark UI and speed typography are generic.",
+      "evidence": "V02/V06",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q21"
+    },
+    {
+      "finding": "Replace one title beat with square-to-rounded button result, retaining the mode switch and offer qualifier.",
+      "evidence": "V01–V05",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q22"
+    },
+    {
+      "finding": "For Tin, show a quick asset revision with its mode control and before/after. Need actual request, control and changed asset.",
+      "evidence": "V03",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q23"
+    },
+    {
+      "finding": "No human new-viewer test; product description above is model interpretation of sampled images.",
+      "evidence": "V01–V06",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q24"
+    },
+    {
+      "finding": "No phone-size, safe-area or flash assessment; small UI text needs separate preview.",
+      "evidence": "Contact sheets",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q25"
+    }
+  ],
+  "lessons": {
+    "keep": "Use a distinct accent color to show the exact mode being activated.",
+    "try": [
+      "Try a Tin quick-edit sequence: request rounded card corners, enable mode, hold changed card.",
+      "Try a speed comparison only with labeled task, real elapsed times and equal start/end states."
+    ],
+    "avoid": "Avoid a speed number without showing the requested result.",
+    "open": "Audio, true latency and offer applicability remain unverified; source title differs from visible speed claim."
+  },
+  "comparison": {
+    "story": "Promise speed → Name feature → Show control → State speed claim → Announce offer → Close",
+    "motion": "Dense 4–7s shows cursor at Fast switch, orange activation around 4.5s, stable active state, then fade around 6.5s.",
+    "sound": "No validated listening; no absence claims.",
+    "texture": "Very dark layered panels, grey outlines and warm orange accents create low contrast except for key claims.",
+    "lesson": "Use a distinct accent color to show the exact mode being activated."
+  },
+  "elements": [
+    {
+      "kind": "ui",
+      "name": "toggle",
+      "events": [
+        "V03"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "prompt input",
+      "events": [
+        "V03"
+      ]
+    },
+    {
+      "kind": "motion",
+      "name": "fade",
+      "events": [
+        "V03"
+      ]
+    },
+    {
+      "kind": "texture",
+      "name": "dark interface",
+      "events": [
+        "V03"
+      ]
+    }
+  ],
+  "reviewer_model": "gpt-6-astra",
+  "scope": "sampled visual and story review; ASR and measured signal support; no validated audio listening",
+  "closer_windows": [
+    {
+      "start": 4,
+      "end": 7,
+      "rate_fps": 4,
+      "evidence": [
+        "astra-review-2026-10-20/evidence/group-3/426/dense4-7.jpg"
+      ],
+      "resolved": "Cursor activates Fast control, orange active state persists, then interface fades. No changed button result appears in the window."
+    }
+  ]
+}

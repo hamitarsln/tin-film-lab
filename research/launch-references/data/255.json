@@ -1,0 +1,376 @@
+{
+  "id": 255,
+  "reviewer_model": "gpt-6-astra",
+  "scope": "sampled visual and story review; ASR and measured signal support; no validated audio listening",
+  "viewed_evidence": [
+    "technical-review-2026-10-19/deep-review/motion/255/timeline-00.jpg",
+    "technical-review-2026-10-19/deep-review/motion/255/timeline-01.jpg",
+    "technical-review-2026-10-19/deep-review/motion/255/timeline-02.jpg",
+    "technical-review-2026-10-19/deep-review/motion/255/timeline-03.jpg",
+    "technical-review-2026-10-19/deep-review/audio/255-speech.json"
+  ],
+  "closer_windows": [],
+  "product_from_film": "Omi for macOS is presented as an assistant that observes on-screen context, gives advice and helps with actions.",
+  "explains_well": "The final replay points back to a briefly visible person in a video call, giving the memory claim a concrete story payoff.",
+  "unclear": "The film does not explain observation controls, what is stored or when an action needs confirmation.",
+  "product_type": "desktop assistant",
+  "scenario": "Check a social claim, resume an email task, recall a video-call detail and help order food.",
+  "product_clear_time": 11,
+  "product_clear_basis": "A contextual tip appears beside the social feed, followed by evidence cards.",
+  "scenes": [
+    {
+      "id": "V01",
+      "start": 0,
+      "end": 8,
+      "action": "A man on a video call stands to fetch something; another person is briefly visible behind the caller. After a black sample, he reaches toward the camera and sits alone.",
+      "design": "Fixed wide desktop-facing camera with translucent call overlay.",
+      "purpose": "Plant a detail that will matter later and restart the scene.",
+      "evidence": "Visible chronological 1 fps samples, source 0–8s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V02",
+      "start": 8,
+      "end": 21,
+      "action": "A social feed appears at left with a sensational identity claim. A right-side tip disputes it and evidence cards appear. A focus prompt tells the man to return to emailing his boss.",
+      "design": "Feed, contextual tip, evidence cards and focus notification around the person.",
+      "purpose": "Show fact-checking and attention guidance.",
+      "evidence": "Visible chronological 1 fps samples, source 8–21s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V03",
+      "start": 21,
+      "end": 34,
+      "action": "An email composer replaces the feed. A Don’t apologize tip appears as the draft changes, then the composer shrinks away and the man leans back.",
+      "design": "White email window and small translucent advice card.",
+      "purpose": "Show context-aware writing help.",
+      "evidence": "Visible chronological 1 fps samples, source 21–34s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V04",
+      "start": 34,
+      "end": 60,
+      "action": "A Maya call label appears, then a video call. The man and caller exchange expressions while he remains seated.",
+      "design": "Long held two-person call composition.",
+      "purpose": "Set up the personal situation used by the later action.",
+      "evidence": "Visible chronological 1 fps samples, source 34–60s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V05",
+      "start": 60,
+      "end": 80,
+      "action": "The man leaves his seat and returns with a blue portrait painting. Another person is briefly visible behind the caller. The call ends; he puts the painting down and a tip says it was thoughtful.",
+      "design": "Physical prop and repeated call-background detail.",
+      "purpose": "Build a personal disappointment and show contextual reassurance.",
+      "evidence": "Visible chronological 1 fps samples, source 60–80s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V06",
+      "start": 80,
+      "end": 101,
+      "action": "An Ordering Thai Food for Maya action appears, followed by a question about ordering for two. A large replay panel opens, shows the earlier call and enlarges the person in its background.",
+      "design": "Action cards, video replay timeline and a growing crop.",
+      "purpose": "Demonstrate recall of a missed detail; the relationship implication is narrative, not established fact.",
+      "evidence": "Visible chronological 1 fps samples, source 80–101s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V07",
+      "start": 101,
+      "end": 114.28,
+      "action": "The replay leaves and the man reacts in the held room shot. Omi closes on black with For macOS. It sees everything. and omi.me/macos.",
+      "design": "Human reaction followed by bold white wordmark.",
+      "purpose": "Land the story twist and name the product.",
+      "evidence": "Visible chronological 1 fps samples, source 101–114.28s; boundary approximate; exact motion between samples unverified."
+    }
+  ],
+  "sound": [
+    {
+      "id": "A01",
+      "start": 0,
+      "end": 114.28,
+      "layer": "unknown",
+      "detail": "No validated direct audio listening was performed. Music, speech delivery, effects, mix and sync remain unknown, not absent.",
+      "visual_relation": "All visual scenes; audiovisual alignment unverified",
+      "evidence": "Visual samples only; no actual audio range supplied to this reviewer."
+    },
+    {
+      "id": "A02",
+      "start": 0.01,
+      "end": 113.36,
+      "layer": "ASR draft",
+      "detail": "The ASR draft supports a social-claim correction, an email-focus reminder, writing advice, a declined dinner plan, a painting gift, a food-order request and a replay explanation about another person in the call background. A final cancellation line appears in the draft. This supports the story twist, not the truth of any relationship inference or a real order. Delivery remains unverified.",
+      "visual_relation": "Story text support; exact audiovisual alignment and delivery unverified.",
+      "evidence": "technical-review-2026-10-19/deep-review/audio/255-speech.json; local faster-whisper base CPU int8 draft; VAD candidates only, recognition errors possible."
+    }
+  ],
+  "categories": [
+    {
+      "id": "Q01",
+      "finding": "A planted call detail leads through fact-checking and email help into a longer call, food action and replay reveal.",
+      "evidence": "V01–V07",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q02",
+      "finding": "The opening call plants a background person before the viewer knows why it matters.",
+      "evidence": "V01",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q03",
+      "finding": "The contextual tip and evidence cards establish an observing assistant around 11 s; macOS is named at the end.",
+      "evidence": "V02,V07",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q04",
+      "finding": "Panels appear, shrink and leave around a stable camera view. The final replay expands and crops toward a background person. Exact easing is unverified.",
+      "evidence": "V02,V03,V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q05",
+      "finding": "The fixed room and repeated call scene make the final replay recognizably refer to an earlier moment.",
+      "evidence": "V01,V04–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q06",
+      "finding": "Translucent gray panels sit over warm live-action footage; the email window is brighter and more solid.",
+      "evidence": "V01–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q07",
+      "finding": "Short tips and action labels are readable. Fine evidence-card and email text is smaller, while the final crop deliberately enlarges its key detail.",
+      "evidence": "V02,V03,V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q08",
+      "finding": "The ASR draft supports a social-claim correction, an email-focus reminder, writing advice, a declined dinner plan, a painting gift, a food-order request and a replay explanation about another person in the call background. A final cancellation line appears in the draft. This supports the story twist, not the truth of any relationship inference or a real order. Delivery remains unverified.",
+      "evidence": "A02",
+      "status": "uncertain",
+      "reason": "ASR text only; no validated listening, delivery or voice origin.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q09",
+      "finding": "Voice delivery, music, effects and audiovisual alignment were not established by this visual pass.",
+      "evidence": "A01",
+      "status": "not checked",
+      "reason": "No validated direct audio listening input.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q10",
+      "finding": "Voice delivery, music, effects and audiovisual alignment were not established by this visual pass.",
+      "evidence": "A01",
+      "status": "not checked",
+      "reason": "No validated direct audio listening input.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q11",
+      "finding": "Voice delivery, music, effects and audiovisual alignment were not established by this visual pass.",
+      "evidence": "A01",
+      "status": "not checked",
+      "reason": "No validated direct audio listening input.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q12",
+      "finding": "Live-action performance and composited desktop interfaces form the film; no capture or implementation method is established.",
+      "evidence": "V01–V07",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q13",
+      "finding": "Manifest duration 114.28s; indexed dimensions 1920×1080. Source unchanged flag recorded; fresh encoding and audio clipping checks not run.",
+      "evidence": "Group manifest",
+      "status": "uncertain",
+      "reason": "Inherited technical metadata; no fresh media probe in this review.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q14",
+      "finding": "Tips and replay text show the assistant’s role, but the longer personal conversation depends on dialogue; ASR provides only draft support.",
+      "evidence": "V04–V06,A02",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q15",
+      "finding": "The person stays central while task panels occupy the sides; the reveal grows over the center to change focus.",
+      "evidence": "V02–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q16",
+      "finding": "The call setup and painting scene take roughly 46 s, making the memory twist the main payoff rather than a quick feature list.",
+      "evidence": "V04,V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q17",
+      "finding": "The final replay resolves the planted background detail and demonstrates recall in story terms. It does not establish the implied relationship.",
+      "evidence": "V01,V05,V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q18",
+      "finding": "Facial reactions, the painting and the replay build awkwardness and disappointment. These are visual interpretations; delivery is unverified.",
+      "evidence": "V05–V07",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q19",
+      "finding": "The same call, person and painting recur, supporting strong narrative continuity. The food action has no completed receipt.",
+      "evidence": "V04–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q20",
+      "finding": "The film does not show observation permissions, retention controls, evidence reliability or an approved/completed food order. Sees everything is a broad brand claim.",
+      "evidence": "V02,V06,V07",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q21",
+      "finding": "The replay of a missed call-background detail is specific and memorable; the other assistant features are familiar.",
+      "evidence": "V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q22",
+      "finding": "Keep the recall example but show a clear observation indicator and user confirmation before the external action.",
+      "evidence": "V04–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q23",
+      "finding": "Tin can plant a task detail early and recall it later with a precise source link, while leaving decisions with the user.",
+      "evidence": "V01,V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q24",
+      "finding": "Omi for macOS is presented as an assistant that observes on-screen context, gives advice and helps with actions.",
+      "evidence": "Model reading from inspected images",
+      "status": "uncertain",
+      "reason": "Model-only new-viewer interpretation; no human test.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q25",
+      "finding": "Contact sheets inspected at displayed size; a phone-size playback, caption audit, flash audit and formal accessibility check were not performed.",
+      "evidence": "Viewed sheets",
+      "status": "not checked",
+      "reason": "Full-size moving-image and device checks unavailable in this pass.",
+      "experiment": "none"
+    }
+  ],
+  "lessons": {
+    "keep": "Plant a visible detail and return to its source at the moment it becomes useful.",
+    "avoid": "Avoid turning an observed detail into an unsupported personal conclusion.",
+    "open": "Observation controls, stored context, evidence quality, action approval, food-order completion and all audio remain unverified.",
+    "try": [
+      "Show Tin recalling an earlier campaign constraint with the exact brief excerpt beside the draft.",
+      "Add a clear confirmation card before an assistant publishes or orders anything in the story."
+    ]
+  },
+  "comparison": {
+    "story": "Plant a detail that will matter later and restart the scene. → Show fact-checking and attention guidance. → Show context-aware writing help. → Set up the personal situation used by the later action. → Build a personal disappointment and show contextual reassurance. → Demonstrate recall of a missed detail; the relationship implication is narrative, not established fact. → Land the story twist and name the product.",
+    "motion": "Panels appear, shrink and leave around a stable camera view. The final replay expands and crops toward a background person. Exact easing is unverified. Sampling scope: 1 fps unless a closer window is recorded.",
+    "sound": "No validated listening; unknown.",
+    "texture": "Fixed wide desktop-facing camera with translucent call overlay.; Feed, contextual tip, evidence cards and focus notification around the person.; White email window and small translucent advice card.; Long held two-person call composition.; Physical prop and repeated call-background detail.; Action cards, video replay timeline and a growing crop.; Human reaction followed by bold white wordmark.",
+    "lesson": "Plant a visible detail and return to its source at the moment it becomes useful."
+  },
+  "elements": [
+    {
+      "kind": "ui",
+      "name": "video call",
+      "events": [
+        "V01",
+        "V04",
+        "V05"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "social feed",
+      "events": [
+        "V02"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "evidence cards",
+      "events": [
+        "V02"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "email composer",
+      "events": [
+        "V03"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "action notification",
+      "events": [
+        "V06"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "video replay",
+      "events": [
+        "V06"
+      ]
+    },
+    {
+      "kind": "motion",
+      "name": "replay crop enlargement",
+      "events": [
+        "V06"
+      ]
+    }
+  ]
+}

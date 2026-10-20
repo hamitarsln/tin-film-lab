@@ -1,0 +1,377 @@
+{
+  "id": 127,
+  "viewed_evidence": [
+    "technical-review-2026-10-19/deep-review/motion/127/timeline-00.jpg",
+    "technical-review-2026-10-19/deep-review/motion/127/timeline-01.jpg",
+    "technical-review-2026-10-19/deep-review/motion/127/timeline-02.jpg",
+    "technical-review-2026-10-19/deep-review/motion/127/timeline-03.jpg",
+    "technical-review-2026-10-19/deep-review/motion/127/timeline-04.jpg",
+    "technical-review-2026-10-19/deep-review/audio/127-speech.json"
+  ],
+  "product_from_film": "HeyClicky teaches within the current app by drawing labels and shapes over the screen.",
+  "explains_well": "Two sustained examples show geometric explanation and guided drum-pattern entry.",
+  "unclear": "The universal any-program claim and teaching accuracy are not independently tested.",
+  "product_type": "learning assistant",
+  "scenario": "Ask for help on a geometry video, then follow highlighted steps in FL Studio.",
+  "product_clear_time": 3,
+  "product_clear_basis": "The presenter caption says the system draws directly on your screen; subsequent demos show this.",
+  "scenes": [
+    {
+      "start": 0,
+      "end": 11,
+      "action": "Presenter draws a browser, triangle, arrow and curve on a board.",
+      "design": "Glass-board sketch, white captions and medium closeups.",
+      "purpose": "Explain screen annotation",
+      "id": "V01",
+      "evidence": "Visible 1 fps samples, source 0–11 s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 11,
+      "end": 28,
+      "action": "Presenter holds a laptop showing a geometry video and asks for explanation; screen crops replace angled laptop shots.",
+      "design": "YouTube-like player with coloured triangle notes.",
+      "purpose": "Set the first learning task",
+      "id": "V02",
+      "evidence": "Visible 1 fps samples, source 11–28 s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 28,
+      "end": 53,
+      "action": "Red labels identify the right angle and triangle sides; squares appear on the legs and hypotenuse.",
+      "design": "Red overlay outlines and labels above existing multicolour diagram.",
+      "purpose": "Demonstrate visual teaching",
+      "id": "V03",
+      "evidence": "Visible 1 fps samples, source 28–53 s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 53,
+      "end": 63,
+      "action": "Presenter summarises the geometry result and introduces a harder example.",
+      "design": "Face and annotated laptop alternate.",
+      "purpose": "Bridge to application learning",
+      "id": "V04",
+      "evidence": "Visible 1 fps samples, source 53–63 s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 63,
+      "end": 83,
+      "action": "FL Studio screen appears; presenter explains switching between tutorials and app, then asks for a first beat.",
+      "design": "Music software, white captions, hand gestures.",
+      "purpose": "Set a practical learning task",
+      "id": "V05",
+      "evidence": "Visible 1 fps samples, source 63–83 s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 83,
+      "end": 100,
+      "action": "Red box outlines channel rack; labels point across the kick row at steps 1,5,9,13.",
+      "design": "Dense sequencer, red guide marks and explanatory captions.",
+      "purpose": "Guide first pattern entry",
+      "id": "V06",
+      "evidence": "Visible 1 fps samples, source 83–100 s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 100,
+      "end": 114,
+      "action": "Guide moves to the snare row, points to 5 and 13 and asks for space to play.",
+      "design": "Sequencer and changing level meters; actual output unheard.",
+      "purpose": "Complete the pattern",
+      "id": "V07",
+      "evidence": "Visible 1 fps samples, source 100–114 s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 114,
+      "end": 137,
+      "action": "Presenter celebrates the result, describes more questions and invites users to try any programme.",
+      "design": "Laptop, face, board and readable captions.",
+      "purpose": "Generalise and invite trial",
+      "id": "V08",
+      "evidence": "Visible 1 fps samples, source 114–137 s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 137,
+      "end": 140.373,
+      "action": "Try it for free then heyclicky appears on black.",
+      "design": "Simple white closing text.",
+      "purpose": "Name the service",
+      "id": "V09",
+      "evidence": "Visible 1 fps samples, source 137–140.373 s; boundaries approximate, between-frame action unresolved."
+    }
+  ],
+  "sound": [
+    {
+      "id": "A01",
+      "start": 0,
+      "end": 140.373,
+      "layer": "unknown",
+      "detail": "No validated audio listening; speech, music, effects, mix and sync remain unverified.",
+      "visual_relation": "All visual scenes; alignment not checked",
+      "evidence": "No actual audio supplied to this review; existing technical-review-2026-10-19/deep-review/audio/127.json is not listening evidence."
+    },
+    {
+      "id": "A02",
+      "start": 0.074,
+      "end": 137.686,
+      "layer": "ASR draft",
+      "detail": "Seven VAD windows supply draft text for screen drawing, geometry labels and kick/snare steps. Most broad instructions match visible captions; some app names and equations are malformed. No voice quality or beat output is verified.",
+      "visual_relation": "V01–V08; caption correspondence, not actual sound perception",
+      "evidence": "technical-review-2026-10-19/deep-review/audio/127-speech.json; existing faster-whisper base CPU int8; text-only inspection."
+    }
+  ],
+  "categories": [
+    {
+      "finding": "A screen-drawing promise is demonstrated on geometry and then a music app; the second case extends the first into guided action.",
+      "evidence": "V01–V09",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q01"
+    },
+    {
+      "finding": "Presenter stands at a board with a browser outline; caption says a system can draw.",
+      "evidence": "V01 0–2 s",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q02"
+    },
+    {
+      "finding": "Screen annotation is clear 3 s; learning use 8 s; practical software guidance is shown 85 s onward.",
+      "evidence": "V01,V06",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q03"
+    },
+    {
+      "finding": "Red labels and shape outlines appear over the unchanged geometry source, then guide marks move across sequencer cells. Exact line-drawing timing is unresolved at 1 fps.",
+      "evidence": "V03,V06,V07",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q04"
+    },
+    {
+      "finding": "Cuts alternate presenter-held laptop with clean screen crops, preserving the same task rather than switching to unrelated imagery.",
+      "evidence": "V02–V07",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q05"
+    },
+    {
+      "finding": "Plain room and glass board support a demonstration-led style; red overlays distinguish assistant guidance from existing UI.",
+      "evidence": "V01–V08",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q06"
+    },
+    {
+      "finding": "Captions explain each step; overlay labels identify exact geometry parts and sequencer targets, though UI is dense.",
+      "evidence": "V03,V06,V07",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q07"
+    },
+    {
+      "finding": "Voice presence and delivery remain unverified.",
+      "evidence": "No validated audio listening",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q08"
+    },
+    {
+      "finding": "Music character and arc remain unverified.",
+      "evidence": "No validated audio listening",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q09"
+    },
+    {
+      "finding": "Sound effects remain unverified.",
+      "evidence": "No validated audio listening",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q10"
+    },
+    {
+      "finding": "Sound-to-motion timing remain unverified.",
+      "evidence": "No validated audio listening",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q11"
+    },
+    {
+      "finding": "Presenter footage, angled laptop views and screen capture are used; the visible named app is FL Studio, not an inferred production tool.",
+      "evidence": "V05–V07",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q12"
+    },
+    {
+      "finding": "Source duration supplied as 140.373 s; no independent compression, clipping or delivery check.",
+      "evidence": "Assigned metadata; source integrity checked by parent",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q13"
+    },
+    {
+      "finding": "Captions and red highlights preserve the teaching process silently; the completed beat cannot be judged without listening.",
+      "evidence": "V06–V07",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q14"
+    },
+    {
+      "finding": "Red guides direct attention to one side or cell; presenter cutaways interrupt detailed inspection but restore personal context.",
+      "evidence": "V03,V06",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q15"
+    },
+    {
+      "finding": "Long step-by-step sequences make the mechanism inspectable; the long recap 114–136 s could be shorter.",
+      "evidence": "V03,V06–V08",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q16"
+    },
+    {
+      "finding": "The promise of drawing on screen is paid off by annotations directly over the two source applications.",
+      "evidence": "V01,V03,V06",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q17"
+    },
+    {
+      "finding": "A puzzled question becomes an annotated explanation and smiling presenter; intended confidence is visible in performance, not viewer-tested.",
+      "evidence": "V02,V03,V08; interpretation",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q18"
+    },
+    {
+      "finding": "The same laptop, presenter and red guidance treatment remain traceable across two different tasks.",
+      "evidence": "V01–V08",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q19"
+    },
+    {
+      "finding": "Screen annotations and sequencer changes are shown; claims of any programme, any subject and ten-second creation exceed these two demonstrations.",
+      "evidence": "V03,V06–V08",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q20"
+    },
+    {
+      "finding": "Drawing on top of an existing lesson is a specific product mechanism; the room and captions are generic.",
+      "evidence": "V03",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q21"
+    },
+    {
+      "finding": "Retain both examples but shorten the repeated presenter summary; show the final pattern cleanly for a longer hold.",
+      "evidence": "V07–V08",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q22"
+    },
+    {
+      "finding": "For software onboarding, capture an unchanged app screen plus a separate coloured guide layer and show a user completing the indicated task.",
+      "evidence": "V06–V07",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q23"
+    },
+    {
+      "finding": "No human new-viewer test; product description above is model interpretation of sampled images.",
+      "evidence": "V01–V09",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q24"
+    },
+    {
+      "finding": "No phone-size, safe-area or flash assessment; small UI text needs separate preview.",
+      "evidence": "Contact sheets",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q25"
+    }
+  ],
+  "lessons": {
+    "keep": "Show guidance on the exact screen where the learner is already working.",
+    "try": [
+      "For a campaign builder, highlight one field at a time while the user creates a real first campaign.",
+      "Compare a full screen recording with the presenter version, keeping identical annotated steps and a completed result."
+    ],
+    "avoid": "Avoid extending two examples into an unqualified universal capability claim.",
+    "open": "Was the final beat correct, and how reliably do the annotations match unfamiliar screens?"
+  },
+  "comparison": {
+    "story": "Explain screen annotation → Set the first learning task → Demonstrate visual teaching → Bridge to application learning → Set a practical learning task → Guide first pattern entry → Complete the pattern → Generalise and invite trial → Name the service",
+    "motion": "Red labels and shape outlines appear over the unchanged geometry source, then guide marks move across sequencer cells. Exact line-drawing timing is unresolved at 1 fps.",
+    "sound": "No validated listening; no absence claims.",
+    "texture": "Plain room and glass board support a demonstration-led style; red overlays distinguish assistant guidance from existing UI.",
+    "lesson": "Show guidance on the exact screen where the learner is already working."
+  },
+  "elements": [
+    {
+      "kind": "ui",
+      "name": "video player",
+      "events": [
+        "V02",
+        "V03"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "sequencer",
+      "events": [
+        "V05",
+        "V06",
+        "V07"
+      ]
+    },
+    {
+      "kind": "motion",
+      "name": "annotation overlays",
+      "events": [
+        "V03",
+        "V06",
+        "V07"
+      ]
+    },
+    {
+      "kind": "texture",
+      "name": "hand drawn diagram",
+      "events": [
+        "V01"
+      ]
+    }
+  ],
+  "reviewer_model": "gpt-6-astra",
+  "scope": "sampled visual and story review; ASR and measured signal support; no validated audio listening",
+  "closer_windows": []
+}

@@ -1,0 +1,350 @@
+{
+  "id": 63,
+  "product_from_film": "Moe presents a way to see the market value of personal belongings and act on that value.",
+  "explains_well": "A phone aimed at collectibles leads to a named card and visible price.",
+  "unclear": "How prices are validated, how selling works and what No Listings means are not demonstrated.",
+  "product_type": "consumer belongings valuation",
+  "scenario": "Recognize a collectible with a phone, see a market value and consider a selling action.",
+  "product_clear_time": 42,
+  "product_clear_basis": "A phone scan at 39–40s is followed by a named Pikachu card and $2,750 value at 41–42s; earlier portfolio screens alone are ambiguous.",
+  "scenes": [
+    {
+      "start": 0,
+      "end": 14,
+      "action": "Black changes to a historical market painting with large years. City views, rolling years and banknote detail carry stock-market and value text, then green HOLD, OWN ASSETS and INVEST cards.",
+      "design": "Bold compressed type, currency engraving and neon green.",
+      "purpose": "Frame personal value through familiar financial language.",
+      "evidence": "1 fps source samples in 0–14s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V01"
+    },
+    {
+      "start": 14,
+      "end": 28,
+      "action": "Torn photo stacks show financial/property references. Old-computer footage with chat bubbles asks about wealth; records, shoes and furniture appear with circular price-like labels.",
+      "design": "Paper tears, archival-looking screens and isolated object cutouts.",
+      "purpose": "Broaden assets from finance to owned things.",
+      "evidence": "1 fps source samples in 14–28s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V02"
+    },
+    {
+      "start": 28,
+      "end": 39,
+      "action": "A reel recorder, people and a room accompany bought/kept/forgotten text. A falling chart over a banknote changes to a phone portfolio with a rising green graph; a green monitor text card follows.",
+      "design": "Retro media, bold white copy, phone dashboard and green CRT treatment.",
+      "purpose": "Suggest hidden value in possessions.",
+      "evidence": "1 fps source samples in 28–39s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V03"
+    },
+    {
+      "start": 39,
+      "end": 47,
+      "action": "A person points a phone at items on a bed. A Pikachu collectible card with $2,750 appears over the scene, then alone. Marketplace-like source cards and up-to-the-minute-data text follow.",
+      "design": "Warm room footage, black valuation card, green price and dark data grid.",
+      "purpose": "Make scanning and market valuation tangible.",
+      "evidence": "1 fps source samples in 39–47s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V04"
+    },
+    {
+      "start": 47,
+      "end": 57,
+      "action": "A List Item button sits across marketplace-name strips. NO LISTINGS text and a bargaining chat follow, then old computer users, city and a boombox.",
+      "design": "Lime button and typography; small blue/white chat bubbles.",
+      "purpose": "Suggest a different selling experience, though the actual mechanism is unclear.",
+      "evidence": "1 fps source samples in 47–57s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V05"
+    },
+    {
+      "start": 57,
+      "end": 60.84,
+      "action": "A held phone appears before WELCOME TO THE MARKET OF EVERYTHING, then the Moe mark rests on black.",
+      "design": "Lime headline and white logo.",
+      "purpose": "Close the broad personal-market promise.",
+      "evidence": "1 fps source samples in 57–60.84s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V06"
+    }
+  ],
+  "categories": [
+    {
+      "id": "Q01",
+      "finding": "Financial history broadens to possessions, then a portfolio, scan/value example and selling claim.",
+      "evidence": "V01–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q02",
+      "finding": "0s is black; a large 1790 then 1792 overlays a historical market scene. It signals a history story rather than a present user task.",
+      "evidence": "V01",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q03",
+      "finding": "People who own collectibles or unused goods are implied. The scan-to-price task becomes clear at 41–42s, late in the film.",
+      "evidence": "V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q04",
+      "finding": "Photo stacks, circular object labels, phone scale changes and floating price cards give motion-led emphasis. Exact movement paths are not resolved.",
+      "evidence": "V02–V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q05",
+      "finding": "The film repeatedly switches between archival-looking footage and black/green text cards. The selected collectible carries continuity through the most concrete demo.",
+      "evidence": "V01–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q06",
+      "finding": "Torn paper, engraving, CRT textures and bright green finance-style graphics combine old and new markets.",
+      "evidence": "V01–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q07",
+      "finding": "Large headlines are easy to identify in sheets. Circular object labels and bargaining chat are small; NO LISTINGS seems to require explanation after List Item.",
+      "evidence": "V02,V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q08",
+      "finding": "The inspected ASR draft provides partial script-role support; recognition limits are recorded in A02. Audible voice characteristics and delivery remain unchecked.",
+      "evidence": "A02",
+      "status": "uncertain",
+      "reason": "Local draft text was read; no direct listening.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q09",
+      "finding": "Music character and structure are unverified.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "No validated listening.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q10",
+      "finding": "Effects and their sources are unverified.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "No validated listening; waveform peaks do not identify effects.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q11",
+      "finding": "Sound sync is unverified.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "No validated listening or paired audiovisual timing.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q12",
+      "finding": "Historical-looking images, room/phone scenes and collectible cutouts are mixed. Source provenance and licenses are unknown.",
+      "evidence": "V01–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q13",
+      "finding": "Source duration 60.84 s; Watch metadata 1920 × 1080. Frame rate, audio clipping and export quality not checked here.",
+      "evidence": "Whole film",
+      "status": "supported",
+      "reason": "Parent source metadata supports duration and dimensions; visual review is sampled.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q14",
+      "finding": "The phone-to-price step is clear silently. The financial-history argument and listing model are less clear without speech.",
+      "evidence": "V01,V04,V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q15",
+      "finding": "The centered collectible price card becomes the main focal object. Earlier many type and footage changes compete for attention.",
+      "evidence": "V01–V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q16",
+      "finding": "Almost two-thirds of the runtime precedes the scan example. Financial-history references add many ideas before the core action.",
+      "evidence": "V01–V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "Open with the bed scan and price card, then give one sentence of context."
+    },
+    {
+      "id": "Q17",
+      "finding": "The stock-market framing pays off in a portfolio of personal items. The final market-of-everything line closes that analogy, but selling is not resolved.",
+      "evidence": "V01,V03,V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q18",
+      "finding": "The shift from forgotten belongings to a rising portfolio suggests discovery and opportunity. No actual user gain or response is established.",
+      "evidence": "V03,V04",
+      "status": "uncertain",
+      "reason": "Emotional interpretation and implied benefit only.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q19",
+      "finding": "The collectible remains traceable through scan and valuation. The larger montage switches objects frequently and does not finish a sale for that item.",
+      "evidence": "V04,V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q20",
+      "finding": "A phone scan and price overlay are shown. Price accuracy, freshness and sale execution remain claims without independent validation.",
+      "evidence": "V04,V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q21",
+      "finding": "Lime color and rising-arrow-like Moe lettering support market identity; collectible objects give the product more specificity than banknote imagery.",
+      "evidence": "V01,V04,V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q22",
+      "finding": "The scan result is essential. Several history and computer inserts could be removed to explain the selling action more clearly.",
+      "evidence": "V01,V02,V04,V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q23",
+      "finding": "For Tin, use the same physical product from phone capture through a generated product card to a final campaign preview.",
+      "evidence": "V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "Keep one product name and image fixed across every output state."
+    },
+    {
+      "id": "Q24",
+      "finding": "No human new-viewer test was performed.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "The product summary is this model’s film-only reading.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q25",
+      "finding": "Mobile preview and accessibility checks were not performed.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "Contact sheets are evidence views, not a stated mobile preview or compliance test.",
+      "experiment": "none"
+    }
+  ],
+  "elements": [
+    {
+      "kind": "ui",
+      "name": "portfolio chart",
+      "events": [
+        "V03"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "valuation card",
+      "events": [
+        "V04"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "chat bubbles",
+      "events": [
+        "V02",
+        "V05"
+      ]
+    },
+    {
+      "kind": "motion",
+      "name": "layered photo stack",
+      "events": [
+        "V02"
+      ]
+    },
+    {
+      "kind": "texture",
+      "name": "torn paper",
+      "events": [
+        "V02"
+      ]
+    }
+  ],
+  "lessons": {
+    "keep": "Show the physical collectible and its matching digital result together before isolating the result.",
+    "try": [
+      "For Tin product capture, point a phone at one product, reveal its extracted card over the same shot, then use that card in a campaign.",
+      "Cut a 15-second version with scan, named result, source evidence and one explicit action, using four matched states."
+    ],
+    "avoid": "Delaying the core scan for a long market-history montage or leaving conflicting listing language unexplained.",
+    "open": "Valuation accuracy, selling behavior, audio, exact transitions and source provenance remain unverified."
+  },
+  "comparison": {
+    "story": "Market history → belongings as assets → portfolio → scan/value → selling claim → brand.",
+    "motion": "Photo stacks and isolated phone/value cards; sampled state changes only.",
+    "sound": "No validated listening; music, narration delivery, effects and sync unknown.",
+    "texture": "Paper collage, currency detail, CRT and lime digital graphics.",
+    "lesson": "A physical-to-digital match makes a broad market metaphor concrete."
+  },
+  "reviewer_model": "gpt-6-astra",
+  "scope": "sampled visual and story review; ASR and measured signal support; no validated audio listening",
+  "viewed_evidence": [
+    "technical-review-2026-10-19/deep-review/motion/063/timeline-00.jpg",
+    "technical-review-2026-10-19/deep-review/motion/063/timeline-01.jpg",
+    "technical-review-2026-10-19/deep-review/motion/063/timeline-02.jpg"
+  ],
+  "closer_windows": [],
+  "sound": [
+    {
+      "id": "A01",
+      "start": 0,
+      "end": 60.84,
+      "layer": "unknown",
+      "detail": "No validated audio listening. Voice delivery, music, effects and mix are unknown.",
+      "visual_relation": "All scenes; sound alignment unverified",
+      "evidence": "No actual audio perception in this review; prepared audio files are not listening evidence."
+    },
+    {
+      "id": "A02",
+      "start": 0,
+      "end": 60.84,
+      "layer": "ASR draft",
+      "detail": "The draft connects conventional investing to possessions, then describes photographing an item, identifying/value-estimating it and selling it across channels. This explains the portfolio metaphor. Exact historical, valuation and selling claims are not independently established. No validated listening; delivery, music, effects, mix and synchronization remain unknown.",
+      "visual_relation": "Whole-film script role only; ASR timing and audible delivery not validated.",
+      "evidence": "technical-review-2026-10-19/deep-review/audio/063-speech.json; local faster-whisper draft inspected."
+    }
+  ]
+}

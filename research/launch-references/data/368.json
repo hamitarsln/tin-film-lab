@@ -1,0 +1,351 @@
+{
+  "id": 368,
+  "product_from_film": "ChatGPT Deep Research lets users choose sources, adjust a running research task and read or export a sourced report.",
+  "explains_well": "One consumer-spending question continues through source selection, a follow-up request and a report containing the added retail section.",
+  "unclear": "The film does not show how a reader checks a particular report claim against its source or resolves a conflicting source.",
+  "product_type": "Research assistant",
+  "scenario": "Compare US consumer spending and population growth from 2010 to 2020, select sources, add retail analysis and inspect/export the report.",
+  "product_clear_time": 15,
+  "product_clear_basis": "The Deep research prompt and source controls visibly define a specific research task by 15s.",
+  "scenes": [
+    {
+      "start": 0,
+      "end": 10,
+      "action": "Research with more control and expert-level results introduces the ChatGPT window. Deep research opens a Ready when you are composer.",
+      "design": "White typography and app window over blue/pink gradient.",
+      "purpose": "State the improved-control promise and enter the tool.",
+      "evidence": "1 fps source samples in 0–10s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V01"
+    },
+    {
+      "start": 10,
+      "end": 32,
+      "action": "A question compares US consumer spending in 2010 and 2020 relative to population growth. Apps opens and LSEG is selected. Specific sites adds bea.gov, census.gov and fred.stlouisfed.org before submission.",
+      "design": "Prompt, app toggles and source-domain form.",
+      "purpose": "Demonstrate explicit research inputs and sources.",
+      "evidence": "1 fps source samples in 10–32s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V02"
+    },
+    {
+      "start": 32,
+      "end": 45,
+      "action": "A plan/checklist appears for spending versus population growth, with app/site chips and visible progress states. An Update control is approached.",
+      "design": "Research plan and progress line.",
+      "purpose": "Expose the running process rather than only its answer.",
+      "evidence": "1 fps source samples in 32–45s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V03"
+    },
+    {
+      "start": 45,
+      "end": 54,
+      "action": "A follow-up asks for US retail-sector performance during the same period, including analyst commentary, and is submitted while the research view remains.",
+      "design": "Attached task context and follow-up composer.",
+      "purpose": "Show control after the task has begun.",
+      "evidence": "1 fps source samples in 45–54s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V04"
+    },
+    {
+      "start": 54,
+      "end": 66,
+      "action": "A title announces comprehensive reports in ChatGPT. The completed report opens with a table of contents, methodology and sources.",
+      "design": "Document view with navigation sidebar.",
+      "purpose": "Present the research artifact.",
+      "evidence": "1 fps source samples in 54–66s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V05"
+    },
+    {
+      "start": 66,
+      "end": 75,
+      "action": "The report displays retail-sector performance and analyst commentary, a table and source list. The export menu offers Markdown, Word and PDF.",
+      "design": "Multi-column document/source layout and export menu.",
+      "purpose": "Pay off the added request and show reuse options.",
+      "evidence": "1 fps source samples in 66–75s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V06"
+    },
+    {
+      "start": 75,
+      "end": 79.116,
+      "action": "ChatGPT text and the OpenAI mark close on white.",
+      "design": "Minimal brand card.",
+      "purpose": "End the walkthrough.",
+      "evidence": "1 fps source samples in 75–79.116s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V07"
+    }
+  ],
+  "sound": [
+    {
+      "id": "A01",
+      "start": 0,
+      "end": 79.116,
+      "layer": "unknown",
+      "detail": "No speech draft is supplied. Voice, music, effects and sync remain unverified, not absent.",
+      "visual_relation": "V01–V07; no heard alignment.",
+      "evidence": "Manifest speech_draft is null; sampled visual review."
+    }
+  ],
+  "categories": [
+    {
+      "id": "Q01",
+      "finding": "Control promise → question/sources → plan → added requirement → report → sources/export.",
+      "evidence": "V01–V07",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q02",
+      "finding": "A black-on-white title promises more control and expert-level results; no task is visible yet.",
+      "evidence": "V01",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q03",
+      "finding": "Researchers and analysts are addressed by a concrete economic comparison; task and source controls are clear by 15s.",
+      "evidence": "V02",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q04",
+      "finding": "Typing, toggles, menus, report scrolling and close crops guide the walkthrough. Exact transition/easing and elapsed research time are unverified.",
+      "evidence": "V02–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q05",
+      "finding": "The same app window links input and output; two brief title cards separate setup and report viewing.",
+      "evidence": "V01–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q06",
+      "finding": "Clean white UI sits on a soft blue/pink background, with limited color in app/source icons.",
+      "evidence": "V01–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q07",
+      "finding": "The full question and domain controls carry meaning. Report text is dense; section headings and export choices are more readily tracked than individual findings.",
+      "evidence": "V02–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q08",
+      "finding": "Voice delivery is unverified.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "No validated listening.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q09",
+      "finding": "Music character and structure are unverified.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "No validated listening.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q10",
+      "finding": "Effects and their sources are unverified.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "No validated listening; waveform peaks do not identify effects.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q11",
+      "finding": "Sound sync is unverified.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "No validated listening or paired audiovisual timing.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q12",
+      "finding": "Application views and simple title cards dominate. Live timing and production method are unverified.",
+      "evidence": "V01–V07",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q13",
+      "finding": "Source duration 79.116 s; Watch metadata 1920 × 1080. Frame rate, audio clipping and export quality not checked here.",
+      "evidence": "Whole film",
+      "status": "supported",
+      "reason": "Parent source metadata supports duration and dimensions; visual review is sampled.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q14",
+      "finding": "The typed prompt, selected sources and retail section explain the workflow without verified sound.",
+      "evidence": "V02–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q15",
+      "finding": "Crops guide attention from composer to source dialog, progress and report navigation.",
+      "evidence": "V02–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q16",
+      "finding": "Source selection receives about 22s and report viewing about 18s, giving controls more time than the headline claim.",
+      "evidence": "V02,V05,V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q17",
+      "finding": "The control promise is answered by source selection and a mid-task request that appears in the final report. Expert-level quality is not established.",
+      "evidence": "V01–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q18",
+      "finding": "Visible progress and editable scope suggest user control; response is unmeasured.",
+      "evidence": "V03,V04",
+      "status": "uncertain",
+      "reason": "Visual interpretation only.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q19",
+      "finding": "The same spending/population topic persists and the retail addition reappears as a report heading.",
+      "evidence": "V02–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q20",
+      "finding": "The film shows selected domains, a plan, a report and export options. Accuracy, source adherence, economic findings, model version and actual export completion are unverified.",
+      "evidence": "V02–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q21",
+      "finding": "Source restriction and mid-task scope adjustment distinguish this demo from a generic prompt-to-answer sequence.",
+      "evidence": "V02,V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q22",
+      "finding": "Demonstrate one source check.",
+      "evidence": "V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "Select one report claim, open its cited source and highlight the matching evidence before exporting."
+    },
+    {
+      "id": "Q23",
+      "finding": "For Tin, show a changed requirement reaching the final artifact.",
+      "evidence": "V04,V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "Add a channel-specific constraint while a campaign runs, then highlight the matching change in the generated campaign asset."
+    },
+    {
+      "id": "Q24",
+      "finding": "No human new-viewer test was performed.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "The product summary is this model’s film-only reading.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q25",
+      "finding": "Mobile preview and accessibility checks were not performed.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "Contact sheets are evidence views, not a stated mobile preview or compliance test.",
+      "experiment": "none"
+    }
+  ],
+  "elements": [
+    {
+      "kind": "ui",
+      "name": "prompt field",
+      "events": [
+        "V02",
+        "V04"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "source selector",
+      "events": [
+        "V02"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "progress checklist",
+      "events": [
+        "V03"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "document",
+      "events": [
+        "V05",
+        "V06"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "export menu",
+      "events": [
+        "V06"
+      ]
+    }
+  ],
+  "lessons": {
+    "keep": "Make a mid-task request visibly reappear in the final report.",
+    "try": [
+      "Trace one report claim into its cited evidence before export.",
+      "For Tin, add a constraint during generation and highlight its effect in the final asset."
+    ],
+    "avoid": "Equating a long sourced report with demonstrated expert-level accuracy.",
+    "open": "Research accuracy, source adherence, elapsed time, export completion and audio qualities remain unverified."
+  },
+  "comparison": {
+    "story": "Choose sources → run → adjust → inspect/export.",
+    "motion": "Cursor, menus, typed input and report navigation.",
+    "sound": "No draft or validated listening.",
+    "texture": "White application UI and soft colored background.",
+    "lesson": "An added requirement appearing in the result makes user control concrete."
+  },
+  "reviewer_model": "gpt-6-astra",
+  "scope": "sampled visual and story review; ASR and measured signal support; no validated audio listening",
+  "viewed_evidence": [
+    "technical-review-2026-10-19/deep-review/motion/368/timeline-00.jpg",
+    "technical-review-2026-10-19/deep-review/motion/368/timeline-01.jpg",
+    "technical-review-2026-10-19/deep-review/motion/368/timeline-02.jpg"
+  ],
+  "closer_windows": []
+}

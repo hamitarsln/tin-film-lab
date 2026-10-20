@@ -1,0 +1,356 @@
+{
+  "id": 361,
+  "reviewer_model": "gpt-6-astra",
+  "scope": "sampled visual and story review; ASR and measured signal support; no validated audio listening",
+  "viewed_evidence": [
+    "technical-review-2026-10-19/deep-review/motion/361/timeline-00.jpg",
+    "technical-review-2026-10-19/deep-review/motion/361/timeline-01.jpg",
+    "astra-review-2026-10-20/evidence/group-2/361-26.png"
+  ],
+  "closer_windows": [],
+  "product_from_film": "Manus is shown working inside a messenger chat to generate a product video, schedule meeting summaries and return tool outputs.",
+  "explains_well": "The skincare example preserves the amber bottle from the user image through the request, chat response and video result.",
+  "unclear": "The later repetitive-task and connected-tool examples are compressed, with the voice request and tool connection steps hidden.",
+  "product_type": "messenger AI agent",
+  "scenario": "Request a skincare launch video and a weekly meeting summary in chat.",
+  "product_clear_time": 7,
+  "product_clear_basis": "A product image and a request to create a launch video are visible in the Manus conversation.",
+  "scenes": [
+    {
+      "id": "V01",
+      "start": 0,
+      "end": 7,
+      "action": "Use Manus within your chats appears with a Telegram icon. A phone chat list rises into view, then a conversation shows a request for a fun, slightly sassy personality and a saved-preference reply.",
+      "design": "White background, rounded phone UI and green chat wallpaper.",
+      "purpose": "Establish access through a familiar messenger and personalization.",
+      "evidence": "Visible chronological 1 fps samples, source 0–7s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V02",
+      "start": 7,
+      "end": 12,
+      "action": "An amber skincare bottle image appears above a request for a launch video. Responses describe the task and a generated video thumbnail appears. Side text reads Use Skills and Direct From Your Messenger.",
+      "design": "Tall chat view with product image and dense response text.",
+      "purpose": "Show a concrete creative request and returned asset.",
+      "evidence": "Visible chronological 1 fps samples, source 7–12s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V03",
+      "start": 12,
+      "end": 20,
+      "action": "The bottle video fills a wider black area. The bottle and pedestal change framing against warm light and large leaf shadows, then a white border surrounds the result.",
+      "design": "Amber glass, warm wall shadows and a product pedestal.",
+      "purpose": "Give the generated artifact a clear showcase.",
+      "evidence": "Visible chronological 1 fps samples, source 12–20s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V04",
+      "start": 20,
+      "end": 27,
+      "action": "A large blue microphone control leads into a phone chat with a voice-message bubble. Manus confirms a recurring Monday 9 am meeting summary and later says a weekly PDF is ready.",
+      "design": "Set Repetitive Tasks headline beside a small phone.",
+      "purpose": "Show voice input and recurring delivery; the spoken request itself is not readable.",
+      "evidence": "Visible chronological 1 fps samples, source 20–27s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V05",
+      "start": 27,
+      "end": 32,
+      "action": "Additional narrow panels appear, including a document and portrait outputs. Connect to Tools appears beside them while the earlier recurring-task panel shrinks.",
+      "design": "Multiple phone and document panels with rapidly changing content.",
+      "purpose": "Broaden the feature set, with limited detail on the connections.",
+      "evidence": "Visible chronological 1 fps samples, source 27–32s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V06",
+      "start": 32,
+      "end": 37.082,
+      "action": "A Manus notification and Telegram icon are joined by LINE, Messenger and WhatsApp icons under Available in More Messengers Soon, then the Manus logo closes.",
+      "design": "White patterned background and floating messenger icons.",
+      "purpose": "State that more messenger support is planned.",
+      "evidence": "Visible chronological 1 fps samples, source 32–37.082s; boundary approximate; exact motion between samples unverified."
+    }
+  ],
+  "sound": [
+    {
+      "id": "A01",
+      "start": 0,
+      "end": 37.082,
+      "layer": "unknown",
+      "detail": "No validated direct audio listening was performed. Music, speech delivery, effects, mix and sync remain unknown, not absent.",
+      "visual_relation": "All visual scenes; audiovisual alignment unverified",
+      "evidence": "Visual samples only; no actual audio range supplied to this reviewer."
+    }
+  ],
+  "categories": [
+    {
+      "id": "Q01",
+      "finding": "Messenger access and personality preference lead to a product-video example, recurring meeting summaries, connected outputs and future messenger availability.",
+      "evidence": "V01–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q02",
+      "finding": "Use Manus within your chats immediately states the access point and shows Telegram.",
+      "evidence": "V01",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q03",
+      "finding": "The skincare request makes the agent task clear before the broader features appear.",
+      "evidence": "V02",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q04",
+      "finding": "The phone view rises and changes scale, chat messages accumulate, the product video expands into a wider showcase, and several smaller panels gather beside the tool headline. Messenger icons appear around the final notification.",
+      "evidence": "V01–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q05",
+      "finding": "The amber bottle links input and output clearly. Later document and portrait panels switch scenarios without equally clear input-to-result continuity.",
+      "evidence": "V02,V03,V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q06",
+      "finding": "Green messenger wallpaper contrasts with white surroundings; warm amber product imagery gives the central example a distinct look.",
+      "evidence": "V01–V03",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q07",
+      "finding": "Large side headlines explain features, but long chat responses and multiple shrinking panels limit reading time.",
+      "evidence": "V02,V04,V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q08",
+      "finding": "Voice delivery, music, effects and audiovisual alignment were not established by this visual pass.",
+      "evidence": "A01",
+      "status": "not checked",
+      "reason": "No validated direct audio listening input.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q09",
+      "finding": "Voice delivery, music, effects and audiovisual alignment were not established by this visual pass.",
+      "evidence": "A01",
+      "status": "not checked",
+      "reason": "No validated direct audio listening input.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q10",
+      "finding": "Voice delivery, music, effects and audiovisual alignment were not established by this visual pass.",
+      "evidence": "A01",
+      "status": "not checked",
+      "reason": "No validated direct audio listening input.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q11",
+      "finding": "Voice delivery, music, effects and audiovisual alignment were not established by this visual pass.",
+      "evidence": "A01",
+      "status": "not checked",
+      "reason": "No validated direct audio listening input.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q12",
+      "finding": "Chat UI, voice-message UI, a product-video result, document output and portrait images are visible. The generating and editing tools are not established.",
+      "evidence": "V01–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q13",
+      "finding": "Manifest duration 37.082s; indexed dimensions 1280×720. Source unchanged flag recorded; fresh encoding and audio clipping checks not run.",
+      "evidence": "Group manifest",
+      "status": "uncertain",
+      "reason": "Inherited technical metadata; no fresh media probe in this review.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q14",
+      "finding": "The first task is understandable from written chat. The recurring request arrives as a voice bubble, so its exact input remains unknown without listening.",
+      "evidence": "V02,V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q15",
+      "finding": "The film gives the bottle result its own wider stage, then compresses the later feature examples into smaller panels.",
+      "evidence": "V03,V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q16",
+      "finding": "About eight seconds showcase the product video, while several later capabilities share roughly twelve seconds.",
+      "evidence": "V03–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q17",
+      "finding": "A returned video and a summary-ready message are visible. The recurring schedule is stated in chat; no later Monday delivery or tool-authentication process is shown.",
+      "evidence": "V02–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q18",
+      "finding": "Familiar chat wallpaper and casual preference text make the agent feel like an existing conversation; this is a creative reading.",
+      "evidence": "V01",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q19",
+      "finding": "The readable 26 s frame confirms Monday at 9 am and a weekly meeting-summary PDF, but it does not reveal the voice request or source calendar.",
+      "evidence": "V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q20",
+      "finding": "Video generation quality, actual recurrence, connected-tool permissions and future messenger availability are not verified beyond the film claims.",
+      "evidence": "V02–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q21",
+      "finding": "Showing the same product image in the request and the generated video gives the strongest evidence chain.",
+      "evidence": "V02,V03",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q22",
+      "finding": "Transcribe the voice request on screen and show one connected calendar item leading into the summary.",
+      "evidence": "V04,V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q23",
+      "finding": "Tin can use a familiar chat shell but should keep one request and its output readable through the full example.",
+      "evidence": "V02–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q24",
+      "finding": "Manus is shown working inside a messenger chat to generate a product video, schedule meeting summaries and return tool outputs.",
+      "evidence": "Model reading from inspected images",
+      "status": "uncertain",
+      "reason": "Model-only new-viewer interpretation; no human test.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q25",
+      "finding": "Contact sheets inspected at displayed size; a phone-size playback, caption audit, flash audit and formal accessibility check were not performed.",
+      "evidence": "Viewed sheets",
+      "status": "not checked",
+      "reason": "Full-size moving-image and device checks unavailable in this pass.",
+      "experiment": "none"
+    }
+  ],
+  "lessons": {
+    "keep": "Carry the same recognizable asset from the request into the output showcase.",
+    "avoid": "Avoid introducing several tool outputs faster than their inputs can be understood.",
+    "open": "Voice request, recurring execution, connected-tool setup, output provenance and all audio properties remain unverified.",
+    "try": [
+      "For Tin, keep a source image beside the generated creative for a direct comparison.",
+      "Write out a voice request and show the scheduled task record before showing its delivered summary."
+    ]
+  },
+  "comparison": {
+    "story": "Establish access through a familiar messenger and personalization. → Show a concrete creative request and returned asset. → Give the generated artifact a clear showcase. → Show voice input and recurring delivery; the spoken request itself is not readable. → Broaden the feature set, with limited detail on the connections. → State that more messenger support is planned.",
+    "motion": "The phone view rises and changes scale, chat messages accumulate, the product video expands into a wider showcase, and several smaller panels gather beside the tool headline. Messenger icons appear around the final notification. Sampling scope: 1 fps unless a closer window is recorded.",
+    "sound": "No validated listening; unknown.",
+    "texture": "White background, rounded phone UI and green chat wallpaper.; Tall chat view with product image and dense response text.; Amber glass, warm wall shadows and a product pedestal.; Set Repetitive Tasks headline beside a small phone.; Multiple phone and document panels with rapidly changing content.; White patterned background and floating messenger icons.",
+    "lesson": "Carry the same recognizable asset from the request into the output showcase."
+  },
+  "elements": [
+    {
+      "kind": "ui",
+      "name": "chat",
+      "events": [
+        "V01",
+        "V02",
+        "V04"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "phone shell",
+      "events": [
+        "V01",
+        "V02",
+        "V04",
+        "V05"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "video player",
+      "events": [
+        "V02",
+        "V03"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "document",
+      "events": [
+        "V05"
+      ]
+    },
+    {
+      "kind": "motion",
+      "name": "panels change scale",
+      "events": [
+        "V01",
+        "V03",
+        "V05"
+      ]
+    },
+    {
+      "kind": "texture",
+      "name": "amber glass bottle",
+      "events": [
+        "V02",
+        "V03"
+      ]
+    }
+  ]
+}

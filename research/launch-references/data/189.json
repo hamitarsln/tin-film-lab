@@ -1,0 +1,352 @@
+{
+  "id": 189,
+  "reviewer_model": "gpt-6-astra",
+  "scope": "sampled visual and story review; ASR and measured signal support; no validated audio listening",
+  "viewed_evidence": [
+    "technical-review-2026-10-19/deep-review/motion/189/timeline-00.jpg",
+    "technical-review-2026-10-19/deep-review/motion/189/timeline-01.jpg",
+    "technical-review-2026-10-19/deep-review/audio/189-speech.json"
+  ],
+  "closer_windows": [],
+  "product_from_film": "AquaShield presents leak monitoring across buildings and property portfolios.",
+  "explains_well": "The camera moves from occupied offices to hidden pipes, then expands to building-level and portfolio alerts.",
+  "unclear": "The detection method and actual maintenance response are not shown.",
+  "product_type": "property monitoring",
+  "scenario": "Find a hidden pipe problem and locate it in a managed property.",
+  "product_clear_time": 24,
+  "product_clear_basis": "A building cutaway and alert details connect the hidden pipe story to monitoring software.",
+  "scenes": [
+    {
+      "id": "V01",
+      "start": 0,
+      "end": 5,
+      "action": "An occupied building facade leads to an office interior and ceiling. You do not know this yet appears over the facade.",
+      "design": "Real-world-looking office imagery and simple white copy.",
+      "purpose": "Introduce an unseen building risk.",
+      "evidence": "Visible chronological 1 fps samples, source 0–5s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V02",
+      "start": 5,
+      "end": 15,
+      "action": "Close views travel along copper pipes and into a vertical service shaft. The view settles on a weathered pipe junction before pulling away.",
+      "design": "Metal, copper, dark cavities and worn surfaces.",
+      "purpose": "Make hidden infrastructure visible.",
+      "evidence": "Visible chronological 1 fps samples, source 5–15s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V03",
+      "start": 15,
+      "end": 24,
+      "action": "The view returns outside and widens to the full building. A dark alert card labels 1450 Market St and an east-riser floor location.",
+      "design": "Aerial building image with a small location-specific overlay.",
+      "purpose": "Locate the problem within a property.",
+      "evidence": "Visible chronological 1 fps samples, source 15–24s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V04",
+      "start": 24,
+      "end": 31,
+      "action": "A dark panel pairs a stacked-floor diagram and red vertical riser with issue details. The view expands to several properties marked by alert cards within an AquaShield dashboard.",
+      "design": "Transparent floor diagram, colored markers, map inset and summary sidebar.",
+      "purpose": "Scale from one fault to portfolio monitoring.",
+      "evidence": "Visible chronological 1 fps samples, source 24–31s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V05",
+      "start": 31,
+      "end": 39,
+      "action": "A warehouse, residential area, campus and towers accompany every asset class, every building type and a protection-cost claim.",
+      "design": "Wide aerial scenes and centered white text.",
+      "purpose": "Broaden the addressable property types.",
+      "evidence": "Visible chronological 1 fps samples, source 31–39s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V06",
+      "start": 39,
+      "end": 44.885,
+      "action": "The building background blurs for a demo URL, then AquaShield name and detect leaks before disasters tagline.",
+      "design": "Soft blue-gray background and outlined circular logo.",
+      "purpose": "Close on action and product purpose.",
+      "evidence": "Visible chronological 1 fps samples, source 39–44.885s; boundary approximate; exact motion between samples unverified."
+    }
+  ],
+  "sound": [
+    {
+      "id": "A01",
+      "start": 0,
+      "end": 44.885,
+      "layer": "unknown",
+      "detail": "No validated direct audio listening was performed. Music, speech delivery, effects, mix and sync remain unknown, not absent.",
+      "visual_relation": "All visual scenes; audiovisual alignment unverified",
+      "evidence": "Visual samples only; no actual audio range supplied to this reviewer."
+    },
+    {
+      "id": "A02",
+      "start": 0.71,
+      "end": 38.63,
+      "layer": "ASR draft",
+      "detail": "ASR draft supports the hidden leak, delayed damage, real-time monitoring, located fault and maintenance-response story, followed by pilot-to-portfolio scaling. These are sales claims, not independent checks. Delivery, music and effects were not heard.",
+      "visual_relation": "Story text support; exact audiovisual alignment and delivery unverified.",
+      "evidence": "technical-review-2026-10-19/deep-review/audio/189-speech.json; local faster-whisper base CPU int8 draft; VAD candidates only, recognition errors possible."
+    }
+  ],
+  "categories": [
+    {
+      "id": "Q01",
+      "finding": "An unseen fault inside an occupied building becomes a located alert and portfolio view, then a broad protection promise.",
+      "evidence": "V01–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q02",
+      "finding": "A facade full of occupied windows and an unfinished warning create concern about an unseen problem.",
+      "evidence": "V01",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q03",
+      "finding": "The pipe sequence suggests water infrastructure; the building diagnostic panel makes monitoring tangible at 24 s.",
+      "evidence": "V02,V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q04",
+      "finding": "Successive views move inward from building to pipe, then outward to building and portfolio; exact continuous camera paths are not established by samples.",
+      "evidence": "V01–V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q05",
+      "finding": "The pipe, riser location and red diagram line carry the idea across interior and exterior views. Whether the footage is one physical building is unverified.",
+      "evidence": "V02–V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q06",
+      "finding": "Worn copper and dark service spaces contrast with clean aerial views and dark diagnostic panels.",
+      "evidence": "V02–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q07",
+      "finding": "Main claims and end card are readable; detailed fault cards and dashboard metrics are small at sheet size.",
+      "evidence": "V03–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q08",
+      "finding": "ASR draft supports the hidden leak, delayed damage, real-time monitoring, located fault and maintenance-response story, followed by pilot-to-portfolio scaling. These are sales claims, not independent checks. Delivery, music and effects were not heard.",
+      "evidence": "A02",
+      "status": "uncertain",
+      "reason": "ASR text only; no validated listening, delivery or voice origin.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q09",
+      "finding": "Voice delivery, music, effects and audiovisual alignment were not established by this visual pass.",
+      "evidence": "A01",
+      "status": "not checked",
+      "reason": "No validated direct audio listening input.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q10",
+      "finding": "Voice delivery, music, effects and audiovisual alignment were not established by this visual pass.",
+      "evidence": "A01",
+      "status": "not checked",
+      "reason": "No validated direct audio listening input.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q11",
+      "finding": "Voice delivery, music, effects and audiovisual alignment were not established by this visual pass.",
+      "evidence": "A01",
+      "status": "not checked",
+      "reason": "No validated direct audio listening input.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q12",
+      "finding": "Building, office and pipe imagery is combined with diagnostic overlays; imagery provenance and actual monitoring capture are unknown.",
+      "evidence": "V01–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q13",
+      "finding": "Manifest duration 44.885s; indexed dimensions 1920×1080. Source unchanged flag recorded; fresh encoding and audio clipping checks not run.",
+      "evidence": "Group manifest",
+      "status": "uncertain",
+      "reason": "Inherited technical metadata; no fresh media probe in this review.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q14",
+      "finding": "The imagery and final tagline explain leak detection; the early crack, time progression and maintenance promise rely on ASR draft text.",
+      "evidence": "V02,V06,A02",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q15",
+      "finding": "The pipe junction centers attention before alert cards identify a property and red diagram line marks a vertical area.",
+      "evidence": "V02–V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q16",
+      "finding": "The first 15 s build the hidden-risk story; software appears later and moves quickly from fault to portfolio.",
+      "evidence": "V01–V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q17",
+      "finding": "The unseen-risk opening is answered with a visible location and monitoring view, though prevention is only promised.",
+      "evidence": "V01,V03,V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q18",
+      "finding": "The hidden pipe sequence appears designed to create concern; broad property views and clean diagnostics imply control.",
+      "evidence": "V02–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q19",
+      "finding": "The inward-then-outward scale pattern links infrastructure, building and portfolio; the exact physical fault is not traceable across every shot.",
+      "evidence": "V02–V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q20",
+      "finding": "A fault diagram and alerts show the proposed information surface, not verified early detection, complete pipe coverage or dispatched maintenance.",
+      "evidence": "V03,V04,A02",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q21",
+      "finding": "Pipe shafts, floor/riser location and property-wide alert mapping make this specific to building water monitoring.",
+      "evidence": "V02–V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q22",
+      "finding": "A timestamped detection-to-maintenance record would strengthen the central promise more than another property montage.",
+      "evidence": "V04,V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q23",
+      "finding": "Tin can use the same scale progression: one failed ad detail, campaign context and portfolio view, preserving a single identifier.",
+      "evidence": "V02–V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q24",
+      "finding": "AquaShield presents leak monitoring across buildings and property portfolios.",
+      "evidence": "Model reading from inspected images",
+      "status": "uncertain",
+      "reason": "Model-only new-viewer interpretation; no human test.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q25",
+      "finding": "Contact sheets inspected at displayed size; a phone-size playback, caption audit, flash audit and formal accessibility check were not performed.",
+      "evidence": "Viewed sheets",
+      "status": "not checked",
+      "reason": "Full-size moving-image and device checks unavailable in this pass.",
+      "experiment": "none"
+    }
+  ],
+  "lessons": {
+    "keep": "Move from a specific hidden fault to the wider system that must manage it.",
+    "avoid": "Avoid making illustrative location overlays stand in for measured detection and response.",
+    "open": "Sensor method, detection accuracy, actual deployment, maintenance response, cost claim, image provenance and audio delivery remain unverified.",
+    "try": [
+      "Show one Tin campaign issue inside a creative, then its campaign card and portfolio alert with the same ID.",
+      "Add a short real detection timeline with alert, assigned owner and confirmed fix before the broad portfolio shot."
+    ]
+  },
+  "comparison": {
+    "story": "Introduce an unseen building risk. → Make hidden infrastructure visible. → Locate the problem within a property. → Scale from one fault to portfolio monitoring. → Broaden the addressable property types. → Close on action and product purpose.",
+    "motion": "Successive views move inward from building to pipe, then outward to building and portfolio; exact continuous camera paths are not established by samples. Sampling scope: 1 fps unless a closer window is recorded.",
+    "sound": "No validated listening; unknown.",
+    "texture": "Real-world-looking office imagery and simple white copy.; Metal, copper, dark cavities and worn surfaces.; Aerial building image with a small location-specific overlay.; Transparent floor diagram, colored markers, map inset and summary sidebar.; Wide aerial scenes and centered white text.; Soft blue-gray background and outlined circular logo.",
+    "lesson": "Move from a specific hidden fault to the wider system that must manage it."
+  },
+  "elements": [
+    {
+      "kind": "ui",
+      "name": "building diagram",
+      "events": [
+        "V04"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "alert cards",
+      "events": [
+        "V03",
+        "V04"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "map",
+      "events": [
+        "V04"
+      ]
+    },
+    {
+      "kind": "texture",
+      "name": "copper pipes",
+      "events": [
+        "V02"
+      ]
+    },
+    {
+      "kind": "motion",
+      "name": "view expands from detail to system",
+      "events": [
+        "V02",
+        "V03",
+        "V04"
+      ]
+    }
+  ]
+}

@@ -199,6 +199,11 @@ uv run --project ../.. python music/tools/cut.py music/library/745-house-vibez m
 
 Each film folder is a self-contained Claude Code project. This is the part to reuse.
 
+**20 October reference update:** before writing a new feature-film brief, use the
+[feature-film rules](research/launch-references/WORKFLOW_RULES.md). Reuse known answers, ask for missing story choices,
+and choose one product action with a visible result. Use the linked scene examples when planning motion and texture;
+the reference review does not validate their sound. Keep the existing render and music tools below.
+
 | File | Role |
 |---|---|
 | `CLAUDE.md` | House rules: the render contract (pure `seek(t)`, no timers, CSS transitions or Math.random), music rules, the look and its banned list, truth rules, the critique loop. |

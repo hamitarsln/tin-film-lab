@@ -1,0 +1,347 @@
+{
+  "id": 212,
+  "product_from_film": "Odyssey introduces Agora 1, a world model said to let several human or AI participants interact in one shared simulation.",
+  "explains_well": "The multiplayer idea is made concrete by several people using controllers and viewing a shared-looking game environment.",
+  "unclear": "The film does not label each player view or show matched simultaneous actions clearly enough to explain shared-state behavior visually.",
+  "product_type": "multi-agent world model research demo",
+  "scenario": "A presenter explains world models in a bedroom, introduces Agora 1, shows a retro multiplayer-style demonstration and discusses future uses.",
+  "product_clear_time": 29,
+  "product_clear_basis": "The inspected ASR defines multiple participants in one real-time simulation around 26–33s; visible Agora 1 text and player inserts support the introduction.",
+  "scenes": [
+    {
+      "start": 0,
+      "end": 13,
+      "action": "A man enters a bright bedroom and sits on the bed facing the camera, then gestures while speaking.",
+      "design": "Warm daylight, striped bedding, photo-covered wall and a broad room view.",
+      "purpose": "Introduce a human guide in a familiar gaming setting.",
+      "evidence": "1 fps source samples in 0–13s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V01"
+    },
+    {
+      "start": 13,
+      "end": 30,
+      "action": "A closer presenter angle is followed by Agora 1 text and several small player/video panels around the wider bedroom shot.",
+      "design": "Simple serif title over live action; layered participant views.",
+      "purpose": "Introduce the model and multiple participants.",
+      "evidence": "1 fps source samples in 13–30s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V02"
+    },
+    {
+      "start": 30,
+      "end": 41,
+      "action": "The presenter continues, then turns toward a person sitting at a CRT television with a controller.",
+      "design": "Alternating room angles and a visible retro monitor.",
+      "purpose": "Move from explanation into the demonstration.",
+      "evidence": "1 fps source samples in 30–41s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V03"
+    },
+    {
+      "start": 41,
+      "end": 69,
+      "action": "TV screens show a simple corridor-like game environment and figures; several people hold controllers. Individual views alternate with a four-panel player montage. Screen states include red overlays and different figure positions.",
+      "design": "CRT framing, warm room footage and dark low-detail game imagery.",
+      "purpose": "Make multiplayer interaction tangible through players and screens.",
+      "evidence": "1 fps source samples in 41–69s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V04"
+    },
+    {
+      "start": 69,
+      "end": 88,
+      "action": "The presenter returns in close and wide seated views, with the bedroom and television behind him.",
+      "design": "Steady human framing and familiar room continuity.",
+      "purpose": "Discuss the larger meaning and possible future uses.",
+      "evidence": "1 fps source samples in 69–88s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V05"
+    },
+    {
+      "start": 88,
+      "end": 99.988,
+      "action": "The presenter gives the closing statement; Odyssey appears over him and then on black, with a growing field of white points around it.",
+      "design": "Minimal logo ending with particle-like points.",
+      "purpose": "Close the introduction and retain the brand.",
+      "evidence": "1 fps source samples in 88–99.988s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V06"
+    }
+  ],
+  "sound": [
+    {
+      "id": "A01",
+      "start": 0,
+      "end": 99.988,
+      "layer": "ASR draft / unknown",
+      "detail": "The coherent draft defines world models, describes multiple human/AI participants, claims four synchronized players without a game engine, and lists possible future applications. Model names, game title and closing URL are inconsistently recognized; those spellings are not treated as literal evidence. No validated listening, music/effects or sync assessment.",
+      "visual_relation": "V01–V06; explanatory script support only.",
+      "evidence": "technical-review-2026-10-19/deep-review/audio/212-speech.json"
+    }
+  ],
+  "categories": [
+    {
+      "id": "Q01",
+      "finding": "World-model introduction → multi-participant claim → controller/game demonstration → future applications → brand close.",
+      "evidence": "V01–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q02",
+      "finding": "The room is visible before the presenter enters, establishing a familiar setting before the technical explanation.",
+      "evidence": "V01",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q03",
+      "finding": "Agora 1 is named visually around 23s; the draft defines the shared simulation by about 29s. Practical audience/use cases are mainly in the later script.",
+      "evidence": "V02,V05,A01",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q04",
+      "finding": "Changes in presenter framing, layered player panels and four-panel montage are visible. Game state changes are visible, but exact responsiveness is not established.",
+      "evidence": "V02–V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q05",
+      "finding": "The bedroom/CRT setting gives the technical claim a familiar multiplayer context; the camera turns from the explanation toward people playing.",
+      "evidence": "V03,V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q06",
+      "finding": "Warm bedroom materials and CRT screens contrast with the sparse dark simulation and black particle end card.",
+      "evidence": "V01–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q07",
+      "finding": "Agora 1 and Odyssey are the main large text anchors. Persistent explanatory labels or captions are not visible in the sampled frames.",
+      "evidence": "V02,V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q08",
+      "finding": "The ASR gives a coherent model definition and demonstration explanation; names and URL are unreliable. Audible delivery remains unknown.",
+      "evidence": "A01",
+      "status": "uncertain",
+      "reason": "ASR draft only.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q09",
+      "finding": "Music character and structure are unverified.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "No validated listening.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q10",
+      "finding": "Effects and their sources are unverified.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "No validated listening; waveform peaks do not identify effects.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q11",
+      "finding": "Sound sync is unverified.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "No validated listening or paired audiovisual timing.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q12",
+      "finding": "Live-action presenter/player footage is combined with screen views and simple overlays. The simulation production claim comes from the script, not visual verification.",
+      "evidence": "V01–V06,A01",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q13",
+      "finding": "Source duration 99.988 s; Watch metadata 1920 × 1080. Frame rate, audio clipping and export quality not checked here.",
+      "evidence": "Whole film",
+      "status": "supported",
+      "reason": "Parent source metadata supports duration and dimensions; visual review is sampled.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q14",
+      "finding": "Silent viewing shows people playing and a model name, but cannot distinguish this from an ordinary multiplayer game without explanatory text.",
+      "evidence": "V02–V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q15",
+      "finding": "Faces and CRT frames make the participants clear; the small dark game views make exact shared actions harder to follow.",
+      "evidence": "V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q16",
+      "finding": "The demonstration begins around 41s and occupies about 28s; explanation returns for roughly the last third.",
+      "evidence": "V01–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q17",
+      "finding": "The multiple-participant introduction pays off with several controller users, but shared state is asserted more clearly than visually traced.",
+      "evidence": "V02,V04,A01",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q18",
+      "finding": "The bedroom and CRT may evoke familiar shared gaming experiences; actual response is unmeasured.",
+      "evidence": "V01,V04",
+      "status": "uncertain",
+      "reason": "Interpretation of setting.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q19",
+      "finding": "Presenter, room and players provide continuity. Unlabeled screen changes make it difficult to map one participants action into another view.",
+      "evidence": "V03,V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q20",
+      "finding": "Real-time synchronization, four-player generation, no game engine and future robotics/driving uses are script claims. Architecture, latency and generalization were not tested.",
+      "evidence": "A01,V04,V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q21",
+      "finding": "A technical AI model is introduced through a warm retro gaming room rather than an abstract diagram alone.",
+      "evidence": "V01–V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q22",
+      "finding": "Show one clearly labeled shared action across synchronized views.",
+      "evidence": "V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "Hold two player views together with A/B labels and trace one movement or interaction across both."
+    },
+    {
+      "id": "Q23",
+      "finding": "For Tin, make cross-user state changes visible instead of relying on a spoken collaboration claim.",
+      "evidence": "V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "Show an editor approving an asset and the same asset changing status in the other users view."
+    },
+    {
+      "id": "Q24",
+      "finding": "No human new-viewer test was performed.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "The product summary is this model’s film-only reading.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q25",
+      "finding": "Mobile preview and accessibility checks were not performed.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "Contact sheets are evidence views, not a stated mobile preview or compliance test.",
+      "experiment": "none"
+    }
+  ],
+  "elements": [
+    {
+      "kind": "ui",
+      "name": "game viewport",
+      "events": [
+        "V04"
+      ]
+    },
+    {
+      "kind": "motion",
+      "name": "multiple player panels",
+      "events": [
+        "V02",
+        "V04"
+      ]
+    },
+    {
+      "kind": "motion",
+      "name": "particle logo field",
+      "events": [
+        "V06"
+      ]
+    },
+    {
+      "kind": "texture",
+      "name": "CRT television",
+      "events": [
+        "V03",
+        "V04"
+      ]
+    },
+    {
+      "kind": "texture",
+      "name": "warm bedroom",
+      "events": [
+        "V01",
+        "V02",
+        "V03",
+        "V04",
+        "V05"
+      ]
+    }
+  ],
+  "lessons": {
+    "keep": "Use a familiar shared activity to introduce a difficult technical concept.",
+    "try": [
+      "Label two simultaneous player views and trace one shared action.",
+      "For Tin, show one approval updating the same asset in a second users view."
+    ],
+    "avoid": "Expecting unlabeled gameplay and reactions to explain synchronization.",
+    "open": "Architecture, latency, shared-state behavior, future applications, closing URL and audio remain unverified."
+  },
+  "comparison": {
+    "story": "Model definition → multi-player demonstration → future possibilities.",
+    "motion": "Camera-angle changes, player panels and game states; exact interaction latency unchecked.",
+    "sound": "Coherent ASR explanation with unreliable names/URL; no listening.",
+    "texture": "Warm bedroom, CRTs and sparse game world.",
+    "lesson": "A familiar setting helps, but technical differentiation still needs a labeled proof moment."
+  },
+  "reviewer_model": "gpt-6-astra",
+  "scope": "sampled visual and story review; ASR and measured signal support; no validated audio listening",
+  "viewed_evidence": [
+    "technical-review-2026-10-19/deep-review/motion/212/timeline-00.jpg",
+    "technical-review-2026-10-19/deep-review/motion/212/timeline-01.jpg",
+    "technical-review-2026-10-19/deep-review/motion/212/timeline-02.jpg",
+    "technical-review-2026-10-19/deep-review/motion/212/timeline-03.jpg"
+  ],
+  "closer_windows": []
+}

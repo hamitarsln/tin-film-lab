@@ -1,0 +1,325 @@
+{
+  "id": 215,
+  "reviewer_model": "gpt-6-astra",
+  "scope": "sampled visual and story review; ASR and measured signal support; no validated audio listening",
+  "viewed_evidence": [
+    "technical-review-2026-10-19/deep-review/motion/215/timeline-00.jpg",
+    "technical-review-2026-10-19/deep-review/motion/215/timeline-01.jpg"
+  ],
+  "closer_windows": [],
+  "product_from_film": "The film promises wallet privacy and no link between wallets through a magical coin-and-potion metaphor.",
+  "explains_well": "Repeated watching eyes turn public visibility into a simple visual threat, then the wizard escapes.",
+  "unclear": "There is no wallet interaction or explanation of how the user obtains privacy; the network and product mechanics remain unstated.",
+  "product_type": "crypto privacy",
+  "scenario": "Hide the link between wallet activity through a privacy service.",
+  "product_clear_time": 40,
+  "product_clear_basis": "The closing claim explicitly says there is no link between wallets.",
+  "scenes": [
+    {
+      "id": "V01",
+      "start": 0,
+      "end": 9,
+      "action": "An ornate purple spiral coin floats against black as red watching eyes multiply around it. Copy says a wallet tells everyone everything.",
+      "design": "Metal ornament, violet glow and flat red eyes.",
+      "purpose": "Make public visibility feel threatening.",
+      "evidence": "Visible chronological 1 fps samples, source 0–9s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V02",
+      "start": 9,
+      "end": 19,
+      "action": "Black cards ask what if it did not. A small wizard enters a purple-lit library, touches a large book and stands behind candles.",
+      "design": "Fantasy library, warm wax light and blue/purple magic.",
+      "purpose": "Introduce a protector and ritual.",
+      "evidence": "Visible chronological 1 fps samples, source 9–19s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V03",
+      "start": 19,
+      "end": 30,
+      "action": "The wizard reads above a cauldron and holds the spiral coin over purple energy. Watching eyes return briefly; the coin floats and Privacy Potion appears.",
+      "design": "Rich book/metal textures, particles and violet light.",
+      "purpose": "Represent the privacy transformation.",
+      "evidence": "Visible chronological 1 fps samples, source 19–30s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V04",
+      "start": 30,
+      "end": 40,
+      "action": "A shower of purple particles surrounds the wizard and cauldron. Smoke subsides; the wizard enters a blue circular portal that contracts into a bright point and disappears.",
+      "design": "Particle burst, smoke and glowing portal.",
+      "purpose": "Suggest escape from observation.",
+      "evidence": "Visible chronological 1 fps samples, source 30–40s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V05",
+      "start": 40,
+      "end": 52.224,
+      "action": "The empty library carries No link between wallets. Ever. A spiral mark appears on black beside Just Math and And a bit of magic, then fades.",
+      "design": "Minimal lavender text and persistent spiral identity.",
+      "purpose": "State the promise and close the metaphor.",
+      "evidence": "Visible chronological 1 fps samples, source 40–52.224s; boundary approximate; exact motion between samples unverified."
+    }
+  ],
+  "sound": [
+    {
+      "id": "A01",
+      "start": 0,
+      "end": 52.224,
+      "layer": "unknown",
+      "detail": "No validated direct audio listening was performed. Music, speech delivery, effects, mix and sync remain unknown, not absent.",
+      "visual_relation": "All visual scenes; audiovisual alignment unverified",
+      "evidence": "Visual samples only; no actual audio range supplied to this reviewer."
+    }
+  ],
+  "categories": [
+    {
+      "id": "Q01",
+      "finding": "An exposed coin faces watching eyes; a wizard uses a potion and portal, ending with a wallet-unlinking promise.",
+      "evidence": "V01–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q02",
+      "finding": "A glowing ornate coin and red eyes establish surveillance imagery, but no user task is yet clear.",
+      "evidence": "V01",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q03",
+      "finding": "Wallet privacy is stated early as a problem; the specific no-link promise arrives around 40 s. The network is not explained.",
+      "evidence": "V01,V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q04",
+      "finding": "Eyes multiply, the coin changes orientation, particles burst and a portal shrinks to a point. Exact paths and easing are unverified.",
+      "evidence": "V01,V03,V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q05",
+      "finding": "The spiral coin carries identity through threat, ritual and final logo; brief black cards divide the story.",
+      "evidence": "V01–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q06",
+      "finding": "Purple magical light, ornate metal, leather-like books and candle wax create a consistent fantasy world.",
+      "evidence": "V01–V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q07",
+      "finding": "Short wallet and privacy lines are readable; the film uses very little explanatory text beyond the metaphor.",
+      "evidence": "V01,V03,V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q08",
+      "finding": "Voice delivery, music, effects and audiovisual alignment were not established by this visual pass.",
+      "evidence": "A01",
+      "status": "not checked",
+      "reason": "No validated direct audio listening input.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q09",
+      "finding": "Voice delivery, music, effects and audiovisual alignment were not established by this visual pass.",
+      "evidence": "A01",
+      "status": "not checked",
+      "reason": "No validated direct audio listening input.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q10",
+      "finding": "Voice delivery, music, effects and audiovisual alignment were not established by this visual pass.",
+      "evidence": "A01",
+      "status": "not checked",
+      "reason": "No validated direct audio listening input.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q11",
+      "finding": "Voice delivery, music, effects and audiovisual alignment were not established by this visual pass.",
+      "evidence": "A01",
+      "status": "not checked",
+      "reason": "No validated direct audio listening input.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q12",
+      "finding": "Stylized character, library, coin and effects form a fantasy sequence; production method and asset origin are unknown.",
+      "evidence": "V01–V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q13",
+      "finding": "Manifest duration 52.224s; indexed dimensions 1920×940. Source unchanged flag recorded; fresh encoding and audio clipping checks not run.",
+      "evidence": "Group manifest",
+      "status": "uncertain",
+      "reason": "Inherited technical metadata; no fresh media probe in this review.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q14",
+      "finding": "Watching eyes, disappearance and final copy communicate privacy without speech; operational meaning remains limited.",
+      "evidence": "V01,V04,V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q15",
+      "finding": "Bright eyes and coin compete in the opening; later the wizard and glowing cauldron form the main focus.",
+      "evidence": "V01,V03",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q16",
+      "finding": "Most of the 52 s develops the magical ritual; only a few short lines explain the product promise.",
+      "evidence": "V02–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q17",
+      "finding": "The wallet-exposure opening is answered by disappearance and an explicit unlinking claim, not a demonstrated transaction.",
+      "evidence": "V01,V04,V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q18",
+      "finding": "Red eyes suggest threat, the small wizard suggests protection, and the portal gives an escape payoff.",
+      "evidence": "V01–V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q19",
+      "finding": "Spiral emblem, violet palette and wizard remain consistent through the full sequence.",
+      "evidence": "V01–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q20",
+      "finding": "The fantasy illustrates privacy but does not prove unlinkability or the absolute Ever claim.",
+      "evidence": "V03–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q21",
+      "finding": "The wizard, spiral coin and math/magic line form a cohesive identity; product naming is less explicit than the visual brand.",
+      "evidence": "V01–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q22",
+      "finding": "One short wallet action before the ritual and a changed visible transaction state after it would clarify the service.",
+      "evidence": "V03–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q23",
+      "finding": "Tin can use a recurring artifact in a metaphor, but should anchor the transformation in a real before/after product state.",
+      "evidence": "V01,V03,V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q24",
+      "finding": "The film promises wallet privacy and no link between wallets through a magical coin-and-potion metaphor.",
+      "evidence": "Model reading from inspected images",
+      "status": "uncertain",
+      "reason": "Model-only new-viewer interpretation; no human test.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q25",
+      "finding": "Contact sheets inspected at displayed size; a phone-size playback, caption audit, flash audit and formal accessibility check were not performed.",
+      "evidence": "Viewed sheets",
+      "status": "not checked",
+      "reason": "Full-size moving-image and device checks unavailable in this pass.",
+      "experiment": "none"
+    }
+  ],
+  "lessons": {
+    "keep": "Repeat one emblem across object, story action and final brand mark.",
+    "avoid": "Avoid making an absolute technical promise through fantasy alone.",
+    "open": "Wallet behavior, network support, unlinkability, precise effects, asset origin and all audio remain unverified.",
+    "try": [
+      "Use one Tin campaign card as the object in a short metaphor, then return to its actual approved state.",
+      "Pair a privacy metaphor with a plain before/after view of what information remains visible."
+    ]
+  },
+  "comparison": {
+    "story": "Make public visibility feel threatening. → Introduce a protector and ritual. → Represent the privacy transformation. → Suggest escape from observation. → State the promise and close the metaphor.",
+    "motion": "Eyes multiply, the coin changes orientation, particles burst and a portal shrinks to a point. Exact paths and easing are unverified. Sampling scope: 1 fps unless a closer window is recorded.",
+    "sound": "No validated listening; unknown.",
+    "texture": "Metal ornament, violet glow and flat red eyes.; Fantasy library, warm wax light and blue/purple magic.; Rich book/metal textures, particles and violet light.; Particle burst, smoke and glowing portal.; Minimal lavender text and persistent spiral identity.",
+    "lesson": "Repeat one emblem across object, story action and final brand mark."
+  },
+  "elements": [
+    {
+      "kind": "motion",
+      "name": "watching eyes multiply",
+      "events": [
+        "V01"
+      ]
+    },
+    {
+      "kind": "motion",
+      "name": "portal closes",
+      "events": [
+        "V04"
+      ]
+    },
+    {
+      "kind": "texture",
+      "name": "glowing coin",
+      "events": [
+        "V01",
+        "V03"
+      ]
+    },
+    {
+      "kind": "texture",
+      "name": "fantasy library",
+      "events": [
+        "V02",
+        "V03"
+      ]
+    }
+  ]
+}

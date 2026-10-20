@@ -1,0 +1,400 @@
+{
+  "id": 301,
+  "viewed_evidence": [
+    "technical-review-2026-10-19/deep-review/motion/301/timeline-00.jpg",
+    "technical-review-2026-10-19/deep-review/motion/301/timeline-01.jpg",
+    "technical-review-2026-10-19/deep-review/motion/301/timeline-02.jpg",
+    "technical-review-2026-10-19/deep-review/motion/301/timeline-03.jpg",
+    "astra-review-2026-10-20/evidence/group-3/301/full56.jpg",
+    "astra-review-2026-10-20/evidence/group-3/301/full83.jpg",
+    "technical-review-2026-10-19/deep-review/audio/301-speech.json"
+  ],
+  "product_from_film": "Samora AI offers managed multilingual voice agents for customer service, with human handoff and call records.",
+  "explains_well": "The sink-maintenance scenario connects immediate pickup, request handling and human escalation in one recognisable situation.",
+  "unclear": "The later policy and system diagrams do not show which rule changes an answer or completes a real request.",
+  "product_type": "managed voice agents",
+  "scenario": "Answer a maintenance call, route urgent help and expose business call records",
+  "product_clear_time": 12,
+  "product_clear_basis": "Picking up immediately card introduces the automated service, with brand and voice-agent site at 36–38 s.",
+  "scenes": [
+    {
+      "start": 0,
+      "end": 7,
+      "action": "A seated caller stands; phone lies on the floor during a call.",
+      "design": "Warm living-room footage and close phone view.",
+      "purpose": "Introduce waiting frustration",
+      "id": "V01",
+      "evidence": "Visible 1 fps samples, source 0–7s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 7,
+      "end": 14,
+      "action": "Four callers appear in circles; customer excellence heading leads to Alex Rivera call card and pickup claim.",
+      "design": "Purple outlines and white background.",
+      "purpose": "State immediate service benefit",
+      "id": "V02",
+      "evidence": "Visible 1 fps samples, source 7–14s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 14,
+      "end": 24,
+      "action": "Kitchen caller speaks by sink; caller circle connects through agent icon to staff choices; faster-than-human claim appears.",
+      "design": "Live-action inset becomes a simple service diagram.",
+      "purpose": "Illustrate maintenance request",
+      "id": "V03",
+      "evidence": "Visible 1 fps samples, source 14–24s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 24,
+      "end": 30,
+      "action": "Caller and agent connect to Maintenance card with call timer and human-handoff heading.",
+      "design": "Thin lines and purple status badge.",
+      "purpose": "Show escalation",
+      "id": "V04",
+      "evidence": "Visible 1 fps samples, source 24–30s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 30,
+      "end": 39,
+      "action": "Clear, aware and customer-language cards lead to Samora AI and voice-agent website.",
+      "design": "Large icons and pale purple cards.",
+      "purpose": "Define service and brand",
+      "id": "V05",
+      "evidence": "Visible 1 fps samples, source 30–39s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 39,
+      "end": 55,
+      "action": "Telephony, LLM, speech and knowledge nodes connect to agent and dashboard; callers, waveform and language choices follow.",
+      "design": "Connected cards, purple paths and language list.",
+      "purpose": "Explain system and multilingual coverage",
+      "id": "V06",
+      "evidence": "Visible 1 fps samples, source 39–55s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 55,
+      "end": 63,
+      "action": "Policies & Procedures document connects through agent to billing, CRM and refund cards, then redirect path.",
+      "design": "Document and branch diagram.",
+      "purpose": "Explain business automation",
+      "id": "V07",
+      "evidence": "Visible 1 fps samples, source 55–63s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 63,
+      "end": 69,
+      "action": "Minimal engineering, no scripts, no model training and no operational burden claims appear.",
+      "design": "Two-line typography.",
+      "purpose": "Reduce setup concerns",
+      "id": "V08",
+      "evidence": "Visible 1 fps samples, source 63–69s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 69,
+      "end": 77,
+      "action": "Paths merge into conversation; budget question produces redirect to Trained Professionals.",
+      "design": "Chat card and connected handoff node.",
+      "purpose": "Show human fallback",
+      "id": "V09",
+      "evidence": "Visible 1 fps samples, source 69–77s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 77,
+      "end": 87,
+      "action": "Call list opens Upgrade Inquiry record; refund card gives way to masked rows and access request card.",
+      "design": "Call log, transcript button and lock icons.",
+      "purpose": "Show oversight and privacy",
+      "id": "V10",
+      "evidence": "Visible 1 fps samples, source 77–87s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 87,
+      "end": 97.291,
+      "action": "Go live in one week, logo, tagline and website close, followed by black.",
+      "design": "Large launch-time claim and simple brand hold.",
+      "purpose": "Give next step",
+      "id": "V11",
+      "evidence": "Visible 1 fps samples, source 87–97.291s; boundaries approximate, between-frame action unresolved."
+    }
+  ],
+  "sound": [
+    {
+      "id": "A01",
+      "start": 0,
+      "end": 97.291,
+      "layer": "unknown",
+      "detail": "No validated audio listening; speech, music, effects, mix and sync remain unverified.",
+      "visual_relation": "All visual scenes; alignment not checked",
+      "evidence": "No actual audio supplied to this review; existing technical-review-2026-10-19/deep-review/audio/301.json is not listening evidence."
+    },
+    {
+      "id": "A02",
+      "start": 0.04,
+      "end": 95.1,
+      "layer": "ASR draft",
+      "detail": "Coherent candidate script starts with a hold message, then leaking-sink request and maintenance handoff. Later narration describes managed deployment, languages, policies, oversight, security and launch timing. Reject Samura spelling and clipped Train Samora operators phrase as exact wording. No listening, delivery, music or mix finding.",
+      "visual_relation": "V01–V11; script roles only, with dialogue supporting V03–V04 urgency",
+      "evidence": "technical-review-2026-10-19/deep-review/audio/301-speech.json; existing faster-whisper base CPU int8"
+    }
+  ],
+  "categories": [
+    {
+      "finding": "Waiting frustration leads to a maintenance scenario, then platform architecture, policy automation, oversight and launch promise. The early single-case story is clearer than the later broad capability tour.",
+      "evidence": "V01–V11",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q01"
+    },
+    {
+      "finding": "A caller and dropped phone create a human problem; candidate ASR identifies a please-hold message that explains the frustration.",
+      "evidence": "V01; A02",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q02"
+    },
+    {
+      "finding": "Immediate pickup and request routing clarify customer-service automation; the site explicitly names voice agents at 37 s.",
+      "evidence": "V02–V05",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q03"
+    },
+    {
+      "finding": "Caller footage becomes circular portraits, connector lines grow across diagrams and the view moves between nodes and wider systems. Only sampled states establish these changes; exact easing is unresolved.",
+      "evidence": "V03–V07",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q04"
+    },
+    {
+      "finding": "The caller-to-agent-to-maintenance diagram preserves the same person across a useful escalation sequence. Later diagrams switch use cases more often.",
+      "evidence": "V03–V04, V07–V10",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q05"
+    },
+    {
+      "finding": "Lavender accents, pale backgrounds and thin connectors maintain a consistent software identity; warm footage adds human context.",
+      "evidence": "V01–V10",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q06"
+    },
+    {
+      "finding": "Main headings are clear, while pale secondary text and dense documents are hard to read at overview scale. Full 56 s reveals a generic SECURITY POLICY with COMPANY NAME placeholders.",
+      "evidence": "V07; full 56 s",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q07"
+    },
+    {
+      "finding": "Voice presence and delivery remain unverified.",
+      "evidence": "No validated audio listening",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q08"
+    },
+    {
+      "finding": "Music character and arc remain unverified.",
+      "evidence": "No validated audio listening",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q09"
+    },
+    {
+      "finding": "Sound effects remain unverified.",
+      "evidence": "No validated audio listening",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q10"
+    },
+    {
+      "finding": "Sound-to-motion timing remain unverified.",
+      "evidence": "No validated audio listening",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q11"
+    },
+    {
+      "finding": "Live-action caller scenes combine with composited UI cards, diagrams and typography. Production tools are not established.",
+      "evidence": "V01–V11",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q12"
+    },
+    {
+      "finding": "Source duration supplied as 97.291s; no independent compression, clipping or delivery check.",
+      "evidence": "Assigned metadata; source integrity checked by parent",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q13"
+    },
+    {
+      "finding": "Pickup and human-handoff headings support the visual story. Uncaptioned caller dialogue needs sound or transcript support to explain the leaking-sink urgency fully.",
+      "evidence": "V03–V04; A02",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q14"
+    },
+    {
+      "finding": "Circular portraits keep customers attached to abstract routing; zoomed records then move attention toward operator oversight.",
+      "evidence": "V03–V04, V10",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q15"
+    },
+    {
+      "finding": "The first 30 s sustain one maintenance case. The remaining minute covers many benefits, with little time to explain the policy-to-action example.",
+      "evidence": "V01–V10",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q16"
+    },
+    {
+      "finding": "The maintenance handoff is concrete. The generic security document does not explain a billing or refund decision despite adjacent automation cards.",
+      "evidence": "V03–V04, V07",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q17"
+    },
+    {
+      "finding": "Warm customer footage and visible human fallback appear intended to make automation feel responsive and supported; audience response was not measured.",
+      "evidence": "V01–V04, V09",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q18"
+    },
+    {
+      "finding": "The early caller remains consistent through escalation. Later budget, refund, upgrade and policy examples are separate and do not form one case history.",
+      "evidence": "V03–V04, V07–V10",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q19"
+    },
+    {
+      "finding": "Natural voice, multilingual quality, speed, reliability, security and one-week launch remain claims. Waveforms and lock icons do not verify those outcomes.",
+      "evidence": "V05–V11",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q20"
+    },
+    {
+      "finding": "The combination of managed voice service and named human escalation is more specific than the generic agent-system diagram alone.",
+      "evidence": "V04, V09",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q21"
+    },
+    {
+      "finding": "Use an actual sample service rule in the policy card, then show its effect on a caller response and matching call record.",
+      "evidence": "V07–V10",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q22"
+    },
+    {
+      "finding": "Attach a human scenario to each abstract system diagram, preserving the caller and request all the way to the record.",
+      "evidence": "V03–V04, V10",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q23"
+    },
+    {
+      "finding": "No human new-viewer test; product description above is model interpretation of sampled images.",
+      "evidence": "V01–V11",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q24"
+    },
+    {
+      "finding": "No phone-size, safe-area or flash assessment; small UI text needs separate preview.",
+      "evidence": "Contact sheets",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q25"
+    }
+  ],
+  "lessons": {
+    "keep": "Keep the maintenance caller through pickup, routing and human escalation.",
+    "try": [
+      "Replace the generic security policy with a short urgent-leak rule, then show the resulting maintenance handoff and logged outcome.",
+      "Reuse the same caller and request in the later transcript screen instead of switching between budget, upgrade and refund examples."
+    ],
+    "avoid": "Avoid relying on generic connected cards to explain policy-driven decisions.",
+    "open": "Audio is unheard; candidate ASR supports script structure only. Voice quality, language accuracy, performance and security remain unverified."
+  },
+  "comparison": {
+    "story": "Introduce waiting frustration → State immediate service benefit → Illustrate maintenance request → Show escalation → Define service and brand → Explain system and multilingual coverage → Explain business automation → Reduce setup concerns → Show human fallback → Show oversight and privacy → Give next step",
+    "motion": "Caller footage becomes circular portraits, connector lines grow across diagrams and the view moves between nodes and wider systems. Only sampled states establish these changes; exact easing is unresolved.",
+    "sound": "No validated listening; no absence claims.",
+    "texture": "Lavender accents, pale backgrounds and thin connectors maintain a consistent software identity; warm footage adds human context.",
+    "lesson": "Keep the maintenance caller through pickup, routing and human escalation."
+  },
+  "elements": [
+    {
+      "kind": "ui",
+      "name": "call card",
+      "events": [
+        "V02",
+        "V04"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "node diagram",
+      "events": [
+        "V06",
+        "V07"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "chat",
+      "events": [
+        "V09"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "call log",
+      "events": [
+        "V10"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "document",
+      "events": [
+        "V07"
+      ]
+    }
+  ],
+  "reviewer_model": "gpt-6-astra",
+  "scope": "sampled visual and story review; ASR and measured signal support; no validated audio listening",
+  "closer_windows": []
+}

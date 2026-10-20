@@ -1,0 +1,369 @@
+{
+  "id": 451,
+  "product_from_film": "Strawberry is a browser with named AI companions that work inside tabs for outreach, recruiting and invoices.",
+  "explains_well": "Each task has a distinct character and prompt; the recruiting example ends in a candidate table and a request for human input.",
+  "unclear": "The outreach example shows prepared messages and Send buttons without a clear delivery result or approval boundary.",
+  "product_type": "AI browser agents",
+  "scenario": "Delegate outreach, candidate collection and invoice transfer; answer a question when the agent needs help.",
+  "product_clear_time": 3,
+  "product_clear_basis": "The self-driving browser title is visible, followed by companions operating within browser tabs.",
+  "scenes": [
+    {
+      "start": 0,
+      "end": 13,
+      "action": "Presenter, Strawberry logo and self-driving browser title lead to three companions and text entered into a browser form.",
+      "design": "Soft colored shapes, white browser and peach surround.",
+      "purpose": "Define companions as tab operators.",
+      "evidence": "1 fps source samples in 0–13s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V01"
+    },
+    {
+      "start": 13,
+      "end": 28,
+      "action": "Stacked outreach messages show a manual draft; blue Prospect Peter receives a request and personalized messages appear.",
+      "design": "Large blue character, prompt and message cards.",
+      "purpose": "Contrast manual outreach with delegation.",
+      "evidence": "1 fps source samples in 13–28s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V02"
+    },
+    {
+      "start": 28,
+      "end": 44,
+      "action": "Many profile cards surround Recruiter Ryan; a candidate spreadsheet gains rows.",
+      "design": "Green triangular character, named pointer and table.",
+      "purpose": "Show recruiting input and structured output.",
+      "evidence": "1 fps source samples in 28–44s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V03"
+    },
+    {
+      "start": 44,
+      "end": 56,
+      "action": "Gmail bills lead to Invoice Ivy and a find-invoices request; PDF icons connect to an accounting page.",
+      "design": "Yellow character and app windows.",
+      "purpose": "Show an invoice-transfer scenario.",
+      "evidence": "1 fps source samples in 44–56s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V04"
+    },
+    {
+      "start": 56,
+      "end": 64,
+      "action": "Presenter returns; Ryan asks whether remote work is allowed, then acknowledges the choice and resumes the table.",
+      "design": "Yes/No choice over the spreadsheet.",
+      "purpose": "Show a human input boundary.",
+      "evidence": "1 fps source samples in 56–64s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V05"
+    },
+    {
+      "start": 64,
+      "end": 74,
+      "action": "Create Companion form names Sales Sally, describes a task and adds app icons; a gallery offers other companions.",
+      "design": "Purple character and simple configuration fields.",
+      "purpose": "Show customization and templates.",
+      "evidence": "1 fps source samples in 64–74s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V06"
+    },
+    {
+      "start": 74,
+      "end": 94,
+      "action": "Presenter appears with $6M, investor logos and a counter toward 10,000 beta users.",
+      "design": "Funding overlays and a horizontal progress line.",
+      "purpose": "Add company context and access invitation.",
+      "evidence": "1 fps source samples in 74–94s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V07"
+    },
+    {
+      "start": 94,
+      "end": 102.166,
+      "action": "Strawberry logo and website address hold on a pale background.",
+      "design": "Minimal closing card.",
+      "purpose": "Give the next step.",
+      "evidence": "1 fps source samples in 94–102.166s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V08"
+    }
+  ],
+  "sound": [
+    {
+      "id": "A01",
+      "start": 0,
+      "end": 102.166,
+      "layer": "ASR script support",
+      "detail": "Coherent draft describes companions clicking and typing, three delegated tasks, asking when stuck, custom companions and a beta invitation. Funding and speed are film claims. Delivery, music and effects were not heard. The remaining close is also unassessed for sound.",
+      "visual_relation": "V01–V08 follow the same task order.",
+      "evidence": "Local 451-speech.json draft; names checked against visible labels."
+    }
+  ],
+  "categories": [
+    {
+      "id": "Q01",
+      "finding": "Three tasks → human help → customization → company and beta invitation.",
+      "evidence": "V01–V08",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q02",
+      "finding": "The self-driving browser phrase quickly states the category.",
+      "evidence": "V01",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q03",
+      "finding": "The browser title and in-tab typing establish the product in the opening seconds.",
+      "evidence": "V01",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q04",
+      "finding": "Characters enlarge over app windows; cards multiply and table rows appear. Exact paths and easing are unverified.",
+      "evidence": "V02–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q05",
+      "finding": "Matching character colors connect each task introduction to its pointer and output.",
+      "evidence": "V02–V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q06",
+      "finding": "Rounded pastel characters soften otherwise dense work apps.",
+      "evidence": "V01–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q07",
+      "finding": "Character names and prompts are large; full outreach and invoice details are harder to read at this pace.",
+      "evidence": "V02–V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q08",
+      "finding": "The transcript explains the task examples and user-control claim; vocal style is unknown.",
+      "evidence": "A01",
+      "status": "uncertain",
+      "reason": "Coherent ASR with matching captions and visual tasks.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q09",
+      "finding": "Music character and structure are unverified.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "No validated listening.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q10",
+      "finding": "Effects and their sources are unverified.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "No validated listening; waveform peaks do not identify effects.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q11",
+      "finding": "Sound sync is unverified.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "No validated listening or paired audiovisual timing.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q12",
+      "finding": "Presenter footage, animated characters, browser pages and app outputs are visible; source and live execution unverified.",
+      "evidence": "V01–V07",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q13",
+      "finding": "Source duration 102.166 s; Watch metadata 1920 × 1080. Frame rate, audio clipping and export quality not checked here.",
+      "evidence": "Whole film",
+      "status": "supported",
+      "reason": "Parent source metadata supports duration and dimensions; visual review is sampled.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q14",
+      "finding": "Task labels, prompts and output tables make the main sequence readable without sound.",
+      "evidence": "V02–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q15",
+      "finding": "Large characters identify the actor while reframing directs attention to messages and rows.",
+      "evidence": "V02,V03",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q16",
+      "finding": "Each task receives a compact demonstration; the last quarter shifts to funding and access.",
+      "evidence": "V02–V08",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q17",
+      "finding": "The recruiting example pays off with a table and a meaningful user question.",
+      "evidence": "V03,V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q18",
+      "finding": "Companion faces suggest friendliness and approachability; no viewer test supports the effect.",
+      "evidence": "V02–V06",
+      "status": "uncertain",
+      "reason": "Visual interpretation.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q19",
+      "finding": "The same role name and color follow each companion into its task.",
+      "evidence": "V02–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q20",
+      "finding": "Delivery, invoice accuracy, agent reliability, setup time, funding and current beta availability are unverified.",
+      "evidence": "V02–V07",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q21",
+      "finding": "Named role characters distinguish task types inside an ordinary browser.",
+      "evidence": "V02–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q22",
+      "finding": "Clarify outreach approval and completion.",
+      "evidence": "V02",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "Show whether the agent drafts or sends, then hold the resulting status."
+    },
+    {
+      "id": "Q23",
+      "finding": "Give an agent a clear role and a visible question when blocked.",
+      "evidence": "V03,V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "For Tin, show a campaign agent ask one audience question and continue into a readable output table."
+    },
+    {
+      "id": "Q24",
+      "finding": "No human new-viewer test was performed.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "The product summary is this model’s film-only reading.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q25",
+      "finding": "Mobile preview and accessibility checks were not performed.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "Contact sheets are evidence views, not a stated mobile preview or compliance test.",
+      "experiment": "none"
+    }
+  ],
+  "elements": [
+    {
+      "kind": "ui",
+      "name": "message composer",
+      "events": [
+        "V02"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "spreadsheet",
+      "events": [
+        "V03",
+        "V05"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "email inbox",
+      "events": [
+        "V04"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "confirmation question",
+      "events": [
+        "V05"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "configuration form",
+      "events": [
+        "V06"
+      ]
+    },
+    {
+      "kind": "motion",
+      "name": "character scale change",
+      "events": [
+        "V02",
+        "V03",
+        "V04"
+      ]
+    }
+  ],
+  "lessons": {
+    "keep": "Tie a named role to its prompt, pointer and output.",
+    "try": [
+      "Show the outreach approval and final status.",
+      "For Tin, let a campaign agent ask one clear question before continuing to a readable output."
+    ],
+    "avoid": "Using a Send button alone as proof of delivery.",
+    "open": "Live task success, sending permissions, invoice accuracy and sound remain unverified."
+  },
+  "comparison": {
+    "story": "Role-based tasks, human help, customization and invitation.",
+    "motion": "Large characters, multiplying cards and table state changes.",
+    "sound": "Explanatory ASR only; no listening.",
+    "texture": "Pastel characters over familiar work apps.",
+    "lesson": "A visible question explains how an agent returns control to the user."
+  },
+  "reviewer_model": "gpt-6-astra",
+  "scope": "sampled visual and story review; ASR and measured signal support; no validated audio listening",
+  "viewed_evidence": [
+    "technical-review-2026-10-19/deep-review/motion/451/timeline-00.jpg",
+    "technical-review-2026-10-19/deep-review/motion/451/timeline-01.jpg",
+    "technical-review-2026-10-19/deep-review/motion/451/timeline-02.jpg",
+    "technical-review-2026-10-19/deep-review/motion/451/timeline-03.jpg"
+  ],
+  "closer_windows": []
+}

@@ -1,0 +1,369 @@
+{
+  "id": 179,
+  "viewed_evidence": [
+    "technical-review-2026-10-19/deep-review/motion/179/timeline-00.jpg",
+    "technical-review-2026-10-19/deep-review/motion/179/timeline-01.jpg",
+    "technical-review-2026-10-19/deep-review/motion/179/timeline-02.jpg",
+    "technical-review-2026-10-19/deep-review/audio/179-speech.json"
+  ],
+  "product_from_film": "Hessian builds and runs business agents that use existing tools to complete follow-up work.",
+  "explains_well": "The sales-call example connects context gathering, proposal drafting, email and CRM updates.",
+  "unclear": "Actual autonomous execution, permissions and measured savings are not independently verified.",
+  "product_type": "business automation",
+  "scenario": "A sales call triggers proposal preparation and team/CRM follow-up.",
+  "product_clear_time": 11,
+  "product_clear_basis": "Agent workflow and execution screens appear; concrete sales scenario is explained from 29 s onward.",
+  "scenes": [
+    {
+      "start": 0,
+      "end": 5,
+      "action": "Three cofounders sit together with name labels; one takes over the explanation.",
+      "design": "Bright brick office, plants and simple lower thirds.",
+      "purpose": "Introduce the team",
+      "id": "V01",
+      "evidence": "Visible 1 fps samples, source 0–5 s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 5,
+      "end": 19,
+      "action": "Dark workflow nodes connect; outputs and logs appear, then Learn what matters, Build the systems and Work done labels rise on blocks.",
+      "design": "Green/red nodes, terminal logs and dark dimensional cards.",
+      "purpose": "Show agent-system process",
+      "id": "V02",
+      "evidence": "Visible 1 fps samples, source 5–19 s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 19,
+      "end": 29,
+      "action": "Presenter and sales/finance/marketing dashboards alternate; another presenter introduces the example.",
+      "design": "Dark metrics panels and warm office footage.",
+      "purpose": "Broaden business use",
+      "id": "V03",
+      "evidence": "Visible 1 fps samples, source 19–29 s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 29,
+      "end": 38,
+      "action": "Traditional and AI-native sales reps appear as contrasting panels; the AI side gains completed-step labels and expands.",
+      "design": "Black/white split, waveform-like symbols and green completion text.",
+      "purpose": "Frame the workflow comparison",
+      "id": "V04",
+      "evidence": "Visible 1 fps samples, source 29–38 s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 38,
+      "end": 45,
+      "action": "Chat thread displays a call item, suggested follow-up email and proposal PDF; integration icons surround a mark.",
+      "design": "Dark team chat and white icon field.",
+      "purpose": "Show outputs and context sources",
+      "id": "V05",
+      "evidence": "Visible 1 fps samples, source 38–45 s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 45,
+      "end": 61,
+      "action": "Terminal-like start command leads to a pricing proposal; email draft and CRM update panels overlay it with labelled agent cursor.",
+      "design": "White document, small black text, green send and orange update buttons.",
+      "purpose": "Trace proposal through follow-up actions",
+      "id": "V06",
+      "evidence": "Visible 1 fps samples, source 45–61 s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 61,
+      "end": 66,
+      "action": "Large dollar figure 537,600 appears then presenter returns.",
+      "design": "Animated number on white and talking head.",
+      "purpose": "Emphasise business value",
+      "id": "V07",
+      "evidence": "Visible 1 fps samples, source 61–66 s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 66,
+      "end": 75.07,
+      "action": "Founders return with hessian.sh address, then brand mark closes on white.",
+      "design": "Group shot and clean wordmark.",
+      "purpose": "Invite engagement",
+      "id": "V08",
+      "evidence": "Visible 1 fps samples, source 66–75.07 s; boundaries approximate, between-frame action unresolved."
+    }
+  ],
+  "sound": [
+    {
+      "id": "A01",
+      "start": 0,
+      "end": 75.07,
+      "layer": "unknown",
+      "detail": "No validated audio listening; speech, music, effects, mix and sync remain unverified.",
+      "visual_relation": "All visual scenes; alignment not checked",
+      "evidence": "No actual audio supplied to this review; existing technical-review-2026-10-19/deep-review/audio/179.json is not listening evidence."
+    },
+    {
+      "id": "A02",
+      "start": 0.202,
+      "end": 72.63,
+      "layer": "ASR draft",
+      "detail": "Three VAD windows describe building/deploying/monitoring agents and a sales-call example using transcript, customer and pricing context. Draft says proposal sent and CRM updated after ten minutes; these are film claims. Brand/URL transcriptions are wrong and replaced only by visible text.",
+      "visual_relation": "Candidate script structure only; sound delivery and sync unknown",
+      "evidence": "technical-review-2026-10-19/deep-review/audio/179-speech.json; existing faster-whisper; ranges [{'start': 0.202, 'end': 25.202}, {'start': 25.202, 'end': 50.202}, {'start': 50.202, 'end': 72.63}]"
+    }
+  ],
+  "categories": [
+    {
+      "finding": "Founders introduce agent systems, then compare sales reps through a call-to-proposal-to-CRM workflow.",
+      "evidence": "V01–V08",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q01"
+    },
+    {
+      "finding": "Three labelled cofounders sit in an office; it establishes people, not the concrete task.",
+      "evidence": "V01",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q02"
+    },
+    {
+      "finding": "Business-agent system is implied 5–14 s; the sales-follow-up use case is concrete 38–60 s.",
+      "evidence": "V02,V05,V06",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q03"
+    },
+    {
+      "finding": "Workflow nodes and logs populate, comparison panel expands and document/email/CRM layers appear under an agent-labelled cursor. Exact cursor paths/easing are unresolved.",
+      "evidence": "V02,V04,V06",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q04"
+    },
+    {
+      "finding": "Dark infrastructure views shift to white workflow comparison and document views, making the concrete example visually distinct.",
+      "evidence": "V02,V04–V06",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q05"
+    },
+    {
+      "finding": "Brick-office photography contrasts with dark green-accented technical UI and clean white document graphics.",
+      "evidence": "V01–V06",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q06"
+    },
+    {
+      "finding": "Large process labels explain the approach; proposal and chat contain useful but dense text, while metrics need context.",
+      "evidence": "V02,V03,V05,V06",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q07"
+    },
+    {
+      "finding": "Voice presence and delivery remain unverified.",
+      "evidence": "No validated audio listening",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q08"
+    },
+    {
+      "finding": "Music character and arc remain unverified.",
+      "evidence": "No validated audio listening",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q09"
+    },
+    {
+      "finding": "Sound effects remain unverified.",
+      "evidence": "No validated audio listening",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q10"
+    },
+    {
+      "finding": "Sound-to-motion timing remain unverified.",
+      "evidence": "No validated audio listening",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q11"
+    },
+    {
+      "finding": "Founders, workflow screens, chat, terminal and document illustrations are mixed; no production software is inferred.",
+      "evidence": "V01–V08",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q12"
+    },
+    {
+      "finding": "Source duration supplied as 75.07 s; no independent compression, clipping or delivery check.",
+      "evidence": "Assigned metadata; source integrity checked by parent",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q13"
+    },
+    {
+      "finding": "The proposal/email/CRM chain remains visible silently; custom engagement and automatic-trigger claims rely on draft narration.",
+      "evidence": "V05–V06",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q14"
+    },
+    {
+      "finding": "Green highlights and agent-labelled cursor guide attention across the proposal and communication panels.",
+      "evidence": "V06",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q15"
+    },
+    {
+      "finding": "The concrete example receives about 23 s; many small panels could benefit from a single full-size result hold.",
+      "evidence": "V05–V06",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q16"
+    },
+    {
+      "finding": "A broad team-of-many promise is answered by several follow-up artifacts, though no verified time saving is shown.",
+      "evidence": "V01,V05,V06; ASR",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q17"
+    },
+    {
+      "finding": "The contrast between manual uncertainty and completed AI steps suggests relief and efficiency.",
+      "evidence": "V04–V06; interpretation",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q18"
+    },
+    {
+      "finding": "The same sales prospect/proposal context links chat, document, email and CRM panels.",
+      "evidence": "V05–V06",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q19"
+    },
+    {
+      "finding": "Drafts and controls are depicted; real send/update execution and claimed ten-minute timing are not independently established. The large dollar figure is not proven savings.",
+      "evidence": "V06–V07",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q20"
+    },
+    {
+      "finding": "The sales artifact chain is more specific than generic nodes and integration logos.",
+      "evidence": "V02,V05,V06",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q21"
+    },
+    {
+      "finding": "Shorten a dashboard montage to hold one source transcript, generated proposal and confirmed result together.",
+      "evidence": "V03,V06",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q22"
+    },
+    {
+      "finding": "For business automation, trace one stable customer context through source, generated artifact and destination update.",
+      "evidence": "V05–V06",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q23"
+    },
+    {
+      "finding": "No human new-viewer test; product description above is model interpretation of sampled images.",
+      "evidence": "V01–V08",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q24"
+    },
+    {
+      "finding": "No phone-size, safe-area or flash assessment; small UI text needs separate preview.",
+      "evidence": "Contact sheets",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q25"
+    }
+  ],
+  "lessons": {
+    "keep": "Carry the same customer context through every generated artifact.",
+    "try": [
+      "For a sales assistant, show a call excerpt, the matching proposal paragraph and a confirmed CRM field update.",
+      "Compare a three-panel source/draft/result view with the layered window animation, keeping all text readable."
+    ],
+    "avoid": "Avoid treating buttons, animated cursors or large figures as verified execution and savings.",
+    "open": "Which actions need approval, and how is each generated detail linked to source evidence?"
+  },
+  "comparison": {
+    "story": "Introduce the team → Show agent-system process → Broaden business use → Frame the workflow comparison → Show outputs and context sources → Trace proposal through follow-up actions → Emphasise business value → Invite engagement",
+    "motion": "Workflow nodes and logs populate, comparison panel expands and document/email/CRM layers appear under an agent-labelled cursor. Exact cursor paths/easing are unresolved.",
+    "sound": "No validated listening; no absence claims.",
+    "texture": "Brick-office photography contrasts with dark green-accented technical UI and clean white document graphics.",
+    "lesson": "Carry the same customer context through every generated artifact."
+  },
+  "elements": [
+    {
+      "kind": "ui",
+      "name": "node graph",
+      "events": [
+        "V02"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "terminal",
+      "events": [
+        "V02",
+        "V06"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "chat",
+      "events": [
+        "V05"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "document",
+      "events": [
+        "V06"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "email",
+      "events": [
+        "V06"
+      ]
+    }
+  ],
+  "reviewer_model": "gpt-6-astra",
+  "scope": "sampled visual and story review; ASR and measured signal support; no validated audio listening",
+  "closer_windows": []
+}

@@ -1,0 +1,387 @@
+{
+  "id": 383,
+  "viewed_evidence": [
+    "technical-review-2026-10-19/deep-review/motion/383/timeline-00.jpg",
+    "technical-review-2026-10-19/deep-review/motion/383/timeline-01.jpg",
+    "technical-review-2026-10-19/deep-review/motion/383/timeline-02.jpg",
+    "astra-review-2026-10-20/evidence/group-3/383/dense37-42.jpg",
+    "astra-review-2026-10-20/evidence/group-3/383/full41.jpg",
+    "technical-review-2026-10-19/deep-review/audio/383-speech.json"
+  ],
+  "product_from_film": "SurfCash presents crypto spending through QR payments, with a self-custodial wallet.",
+  "explains_well": "The $100 amount, QR graphic and completed-payment card give the offer a concrete payment sequence.",
+  "unclear": "The film does not explain why $100 becomes $99.9, which countries are supported or how a user funds and confirms the payment.",
+  "product_type": "crypto payments",
+  "scenario": "Spend crypto at a merchant through QR payment",
+  "product_clear_time": 38,
+  "product_clear_basis": "Spend your crypto caption, Pay amount and QR code appear after the SurfCash brand.",
+  "scenes": [
+    {
+      "start": 0,
+      "end": 18,
+      "action": "Fast montage moves through trees, close-up faces, horizontal face strips, cities, card terminal, QR phone and people.",
+      "design": "Warm live-action-looking imagery with small yellow captions.",
+      "purpose": "Introduce local payment context",
+      "id": "V01",
+      "evidence": "Visible 1 fps samples, source 0–18s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 18,
+      "end": 29,
+      "action": "Card use cuts to rotating illustrated cards, then several terminal payments with red negative-dollar badges.",
+      "design": "Card graphics and payment footage.",
+      "purpose": "Present card cost problem",
+      "id": "V02",
+      "evidence": "Visible 1 fps samples, source 18–29s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 29,
+      "end": 37,
+      "action": "Faces, surfer and everyday users lead to SurfCash logo surrounded by coin graphics.",
+      "design": "Warm footage gives way to white and blue brand.",
+      "purpose": "Introduce alternative",
+      "id": "V03",
+      "evidence": "Visible 1 fps samples, source 29–37s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 37,
+      "end": 42,
+      "action": "Dense samples show amount counting to $100, QR appearing below, blue scan band crossing it, then Successful Payment $99.9 and 100 USDC; a Completed transaction card enters on the right.",
+      "design": "Large numerals, QR and white receipt panel.",
+      "purpose": "Show proposed crypto payment",
+      "id": "V04",
+      "evidence": "Visible 1 fps samples, source 37–42s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 42,
+      "end": 54,
+      "action": "Card and intermediary icons give way to blue coin, lock and SELF-CUSTODIAL WALLET, then yield counter settles at up to 15% APY.",
+      "design": "Glossy icons on blue/white gradients.",
+      "purpose": "Add ownership and yield claims",
+      "id": "V05",
+      "evidence": "Visible 1 fps samples, source 42–54s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 54,
+      "end": 65,
+      "action": "Gamers and laptop user precede count rising to 12 Countries, profile/earning cards, then a cafe user.",
+      "design": "People, globe and example balances.",
+      "purpose": "Identify crypto earners and reach",
+      "id": "V06",
+      "evidence": "Visible 1 fps samples, source 54–65s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 65,
+      "end": 73,
+      "action": "Bank icon, Respects Your Money and rotating brand symbol lead to rows of diverse user clips.",
+      "design": "Glossy bank/coins and rounded video tiles.",
+      "purpose": "Frame broad financial usefulness",
+      "id": "V07",
+      "evidence": "Visible 1 fps samples, source 65–73s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 73,
+      "end": 77.827,
+      "action": "SurfCash wordmark holds with Live Now on App Store and Circle Alliance program line, then black.",
+      "design": "Blue curtain-like background and white brand.",
+      "purpose": "Invite app download",
+      "id": "V08",
+      "evidence": "Visible 1 fps samples, source 73–77.827s; boundaries approximate, between-frame action unresolved."
+    }
+  ],
+  "sound": [
+    {
+      "id": "A01",
+      "start": 0,
+      "end": 77.827,
+      "layer": "unknown",
+      "detail": "No validated audio listening; speech, music, effects, mix and sync remain unverified.",
+      "visual_relation": "All visual scenes; alignment not checked",
+      "evidence": "No actual audio supplied to this review; existing technical-review-2026-10-19/deep-review/audio/383.json is not listening evidence."
+    },
+    {
+      "id": "A02",
+      "start": 4.39,
+      "end": 76.73,
+      "layer": "ASR draft",
+      "detail": "Coherent candidate script contrasts local QR payments with card networks, presents crypto spending, self-custody, up to 15% yield, 12 countries and app download. It calls the offer a bank; that is a script claim. SurfCache is a recognition error against visible SurfCash. Draft begins mid-sentence and does not establish heard delivery or music.",
+      "visual_relation": "V01–V08; script structure broadly matches captions, precise sync unchecked",
+      "evidence": "technical-review-2026-10-19/deep-review/audio/383-speech.json; existing faster-whisper base CPU int8"
+    }
+  ],
+  "categories": [
+    {
+      "finding": "Local payment context leads to card-fee problem, QR crypto payment and several wallet/reach benefits before app CTA. The payment case is brief within a broader montage.",
+      "evidence": "V01–V08",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q01"
+    },
+    {
+      "finding": "Blurred warm trees cut to a close face and horizontal face-strip composition; neither money nor product is clear immediately.",
+      "evidence": "V01 0–2 s",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q02"
+    },
+    {
+      "finding": "QR crypto spending becomes clear around 38 s. People who earn crypto are identified later around 61 s.",
+      "evidence": "V04, V06",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q03"
+    },
+    {
+      "finding": "Dense 37–42 s samples resolve amount count-up, QR appearing under it, a moving blue scan band, then replacement by success amount and a receipt panel entering from the right. No actual scanner interaction is visible.",
+      "evidence": "V04; dense37-42.jpg",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q04"
+    },
+    {
+      "finding": "Rapid people/payment cuts establish scale; the white brand transition makes the QR sequence a distinct section. Icons and montage then replace the transaction before its amount difference is explained.",
+      "evidence": "V01–V06",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q05"
+    },
+    {
+      "finding": "Warm photographic imagery contrasts with glossy blue coins, white panels and green success/yield labels. The style changes support section changes but create a broad commercial collage.",
+      "evidence": "V01–V08",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q06"
+    },
+    {
+      "finding": "Large payment and yield numbers are clear. Small yellow captions over busy footage carry important context; $99.9 and 100 USDC appear together without a fee/exchange explanation.",
+      "evidence": "V01, V04–V06; full41.jpg",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q07"
+    },
+    {
+      "finding": "Voice presence and delivery remain unverified.",
+      "evidence": "No validated audio listening",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q08"
+    },
+    {
+      "finding": "Music character and arc remain unverified.",
+      "evidence": "No validated audio listening",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q09"
+    },
+    {
+      "finding": "Sound effects remain unverified.",
+      "evidence": "No validated audio listening",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q10"
+    },
+    {
+      "finding": "Sound-to-motion timing remain unverified.",
+      "evidence": "No validated audio listening",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q11"
+    },
+    {
+      "finding": "City, face, merchant and gaming footage mixes with stylized cards, coins, bank and app-like payment states. Production and asset origins are unknown.",
+      "evidence": "V01–V08",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q12"
+    },
+    {
+      "finding": "Source duration supplied as 77.827s; no independent compression, clipping or delivery check.",
+      "evidence": "Assigned metadata; source integrity checked by parent",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q13"
+    },
+    {
+      "finding": "Captions preserve much of the argument, while QR and success states explain the basic action. The relationship between crypto amount and merchant amount remains unclear.",
+      "evidence": "V04; full41.jpg",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q14"
+    },
+    {
+      "finding": "Large center amount leads to QR, then success text and right-hand receipt. Later rotating icons and numerous people create competing focal shifts.",
+      "evidence": "V04–V07",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q15"
+    },
+    {
+      "finding": "The product arrives after about 35 seconds of setup. Payment, custody, yield, countries and bank positioning then arrive quickly; a complete transaction would need more time.",
+      "evidence": "V03–V07",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q16"
+    },
+    {
+      "finding": "The fee problem is answered by a claimed lower-friction payment, but the actual $100 to $99.9 change is left unexplained.",
+      "evidence": "V02, V04",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q17"
+    },
+    {
+      "finding": "People, surfers and smiling users appear intended to connect financial control with everyday freedom; this is visual interpretation, not a measured effect.",
+      "evidence": "V03, V06–V07",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q18"
+    },
+    {
+      "finding": "Blue coin and brand colors connect benefit sections. The payment has a stable amount/QR thread until the unexplained success amount change.",
+      "evidence": "V04–V07",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q19"
+    },
+    {
+      "finding": "Shown payment completion is a film state, not independently verified transfer. Fee badges, self-custody, up to 15% APY, 12-country reach and bank wording are claims without supporting conditions in the inspected sequence.",
+      "evidence": "V02, V04–V07",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q20"
+    },
+    {
+      "finding": "QR spending for crypto earners gives the offer specificity; glossy coins and diverse lifestyle montage are broadly shared financial-ad devices.",
+      "evidence": "V04, V06–V07",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q21"
+    },
+    {
+      "finding": "Keep the QR-to-receipt sequence. Replace part of the opening montage or secondary benefits with a labeled amount/fee breakdown and confirmation step.",
+      "evidence": "V01, V04–V05",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q22"
+    },
+    {
+      "finding": "For a payment or credit workflow, show one amount, action, fee and final receipt in a stable sequence. Requires consistent currencies and a labeled example transaction rather than unexplained counters.",
+      "evidence": "V04 37–42 s",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q23"
+    },
+    {
+      "finding": "No human new-viewer test; product description above is model interpretation of sampled images.",
+      "evidence": "V01–V08",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q24"
+    },
+    {
+      "finding": "No phone-size, safe-area or flash assessment; small UI text needs separate preview.",
+      "evidence": "Contact sheets",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q25"
+    }
+  ],
+  "lessons": {
+    "keep": "Use a clear amount-to-action-to-receipt sequence as the center of a financial product film.",
+    "try": [
+      "For a payment demo, retain input amount, conversion or fee and recipient amount together until the receipt appears.",
+      "Try a shorter local-life montage followed by one user funding, scanning and confirming a payment before adding secondary benefits."
+    ],
+    "avoid": "Avoid an unexplained amount change or a yield headline without the context needed to understand the offer.",
+    "open": "Transaction reality, fees, custody, yield conditions, reach, bank status, asset sources and all sound remain unverified."
+  },
+  "comparison": {
+    "story": "Introduce local payment context → Present card cost problem → Introduce alternative → Show proposed crypto payment → Add ownership and yield claims → Identify crypto earners and reach → Frame broad financial usefulness → Invite app download",
+    "motion": "Dense 37–42 s samples resolve amount count-up, QR appearing under it, a moving blue scan band, then replacement by success amount and a receipt panel entering from the right. No actual scanner interaction is visible.",
+    "sound": "No validated listening; no absence claims.",
+    "texture": "Warm photographic imagery contrasts with glossy blue coins, white panels and green success/yield labels. The style changes support section changes but create a broad commercial collage.",
+    "lesson": "Use a clear amount-to-action-to-receipt sequence as the center of a financial product film."
+  },
+  "elements": [
+    {
+      "kind": "ui",
+      "name": "QR code",
+      "events": [
+        "V01",
+        "V04"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "payment confirmation",
+      "events": [
+        "V04"
+      ]
+    },
+    {
+      "kind": "motion",
+      "name": "number counter",
+      "events": [
+        "V04",
+        "V05",
+        "V06"
+      ]
+    },
+    {
+      "kind": "texture",
+      "name": "glossy 3D icons",
+      "events": [
+        "V02",
+        "V05",
+        "V07"
+      ]
+    },
+    {
+      "kind": "texture",
+      "name": "lifestyle footage",
+      "events": [
+        "V01",
+        "V03",
+        "V06"
+      ]
+    }
+  ],
+  "reviewer_model": "gpt-6-astra",
+  "scope": "sampled visual and story review; ASR and measured signal support; no validated audio listening",
+  "closer_windows": [
+    {
+      "start": 37,
+      "end": 42,
+      "rate_fps": 4,
+      "evidence": [
+        "astra-review-2026-10-20/evidence/group-3/383/dense37-42.jpg"
+      ],
+      "resolved": "Amount reaches $100, QR appears with scan-band animation, then success shows $99.9/100 USDC and Completed receipt. No explanation for amount difference or real scanner action is shown."
+    }
+  ]
+}

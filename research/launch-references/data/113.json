@@ -1,0 +1,358 @@
+{
+  "id": 113,
+  "reviewer_model": "gpt-6-astra",
+  "scope": "sampled visual and story review; ASR and measured signal support; no validated audio listening",
+  "viewed_evidence": [
+    "technical-review-2026-10-19/deep-review/motion/113/timeline-00.jpg",
+    "technical-review-2026-10-19/deep-review/motion/113/timeline-01.jpg",
+    "technical-review-2026-10-19/deep-review/audio/113-speech.json"
+  ],
+  "closer_windows": [],
+  "product_from_film": "Alliance invites founders to apply for a selective funded program with a New York network.",
+  "explains_well": "Applicant scale is made visible through repeated desks and a smaller group of figures.",
+  "unclear": "The opening remaining-life number and later program statistics have no visible source.",
+  "product_type": "founder accelerator",
+  "scenario": "Apply for funding and access to a founder network.",
+  "product_clear_time": 32,
+  "product_clear_basis": "Funding text and New York travel begin to explain the concrete program offer.",
+  "scenes": [
+    {
+      "id": "V01",
+      "start": 0,
+      "end": 8,
+      "action": "Embryo-like imagery, a tinted figure, eye and clocks accompany a days-left and age23 premise.",
+      "design": "Grainy mixed imagery, large digits and sparse white text on black.",
+      "purpose": "Create urgency around limited time.",
+      "evidence": "Visible chronological 1 fps samples, source 0–8s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V02",
+      "start": 8,
+      "end": 15,
+      "action": "A collage of art and technical images forms around guides, then people writing and discussing appear.",
+      "design": "White collage canvas, framed footage and geometric spiral.",
+      "purpose": "Connect choices with solving a problem.",
+      "evidence": "Visible chronological 1 fps samples, source 8–15s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V03",
+      "start": 15,
+      "end": 25,
+      "action": "A person at a desk under a spotlight becomes a field of desks under 5000. Black silhouettes with question marks form a25-person grid.",
+      "design": "Dark spotlit3D scene changes to high-contrast white pictograms.",
+      "purpose": "Visualize applicant volume and selection.",
+      "evidence": "Visible chronological 1 fps samples, source 15–25s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V04",
+      "start": 25,
+      "end": 35,
+      "action": "Cohort labels multiply and are replaced by dollar bills. Cash piles accompany the next-cohort line; a person at a laptop and a banknote plane over New York accompany funding/travel claims.",
+      "design": "White layout, cash imagery, city footage and captions.",
+      "purpose": "Present track record and tangible offer.",
+      "evidence": "Visible chronological 1 fps samples, source 25–35s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V05",
+      "start": 35,
+      "end": 44,
+      "action": "Meeting, speaker and casual office clips lead to historical computer-founder imagery and newspaper closeups.",
+      "design": "White framed documentary clips and archival texture.",
+      "purpose": "Associate the program with a network and category creation.",
+      "evidence": "Visible chronological 1 fps samples, source 35–44s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V06",
+      "start": 44,
+      "end": 51,
+      "action": "An old monitor in a cluttered room displays REJECTED and a more-suitable-candidate message. A small computer appears inside an eye closeup.",
+      "design": "Warm desk scene, scanline-like texture and surreal composite.",
+      "purpose": "Frame rejection as compatible with future impact.",
+      "evidence": "Visible chronological 1 fps samples, source 44–51s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V07",
+      "start": 51,
+      "end": 56.938,
+      "action": "A pixel-like white form changes into the Alliance symbol above seek alliance, then wordmark and alliance.xyz/apply.",
+      "design": "Black field, patterned logo construction and concise URL.",
+      "purpose": "Invite an application.",
+      "evidence": "Visible chronological 1 fps samples, source 51–56.938s; boundary approximate; exact motion between samples unverified."
+    }
+  ],
+  "sound": [
+    {
+      "id": "A01",
+      "start": 0,
+      "end": 56.938,
+      "layer": "unknown",
+      "detail": "No validated direct audio listening was performed. Music, speech delivery, effects, mix and sync remain unknown, not absent.",
+      "visual_relation": "All visual scenes; audiovisual alignment unverified",
+      "evidence": "Visual samples only; no actual audio range supplied to this reviewer."
+    },
+    {
+      "id": "A02",
+      "start": 0.33,
+      "end": 53.23,
+      "layer": "ASR draft",
+      "detail": "ASR draft follows limited lifetime,5000 applicants and 25 selected,17cohorts, valuation, funding, New York and a strong founder network. It broadly supports the visible persuasion structure. Several words, including the ending and a description of people in the room, are wrong or unclear and are excluded. Statistics remain claims; voice delivery and timing were not heard.",
+      "visual_relation": "Story text support; exact audiovisual alignment and delivery unverified.",
+      "evidence": "technical-review-2026-10-19/deep-review/audio/113-speech.json; local faster-whisper base CPU int8 draft; VAD candidates only, recognition errors possible."
+    }
+  ],
+  "categories": [
+    {
+      "id": "Q01",
+      "finding": "Limited time and founder ambition lead to selection, program benefits, historical aspiration and application.",
+      "evidence": "V01–V07",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q02",
+      "finding": "The days-left premise combines bodily and clock imagery to create urgency, but the exact lifespan assumption is unsupported.",
+      "evidence": "V01",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q03",
+      "finding": "Applicants and cohorts imply a program by 20–25 s; funding and New York travel make its offer concrete at 32–34 s.",
+      "evidence": "V03,V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q04",
+      "finding": "One desk becomes a large field, cohort labels give way to bills and a patterned shape becomes the logo across samples; exact morphs are unverified.",
+      "evidence": "V03,V04,V07",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q05",
+      "finding": "The black desk field changes to a white silhouette grid to distinguish applicant scale from selection.",
+      "evidence": "V03",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q06",
+      "finding": "Archival grain, clean white layouts, dark 3D desks and old-screen texture mix founder history with present opportunity.",
+      "evidence": "V01–V07",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q07",
+      "finding": "5000 and 25 dominate their frames; smaller captions carry the detailed program offer.",
+      "evidence": "V03,V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q08",
+      "finding": "ASR draft follows limited lifetime,5000 applicants and 25 selected,17cohorts, valuation, funding, New York and a strong founder network. It broadly supports the visible persuasion structure. Several words, including the ending and a description of people in the room, are wrong or unclear and are excluded. Statistics remain claims; voice delivery and timing were not heard.",
+      "evidence": "A02",
+      "status": "uncertain",
+      "reason": "ASR text only; no validated listening, delivery or voice origin.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q09",
+      "finding": "Voice delivery, music, effects and audiovisual alignment were not established by this visual pass.",
+      "evidence": "A01",
+      "status": "not checked",
+      "reason": "No validated direct audio listening input.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q10",
+      "finding": "Voice delivery, music, effects and audiovisual alignment were not established by this visual pass.",
+      "evidence": "A01",
+      "status": "not checked",
+      "reason": "No validated direct audio listening input.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q11",
+      "finding": "Voice delivery, music, effects and audiovisual alignment were not established by this visual pass.",
+      "evidence": "A01",
+      "status": "not checked",
+      "reason": "No validated direct audio listening input.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q12",
+      "finding": "Documentary-looking clips, archival images,3D desks and cash composites are mixed; asset provenance is unknown.",
+      "evidence": "V02–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q13",
+      "finding": "Manifest duration 56.938 s; indexed dimensions 1920×1080. Source unchanged flag recorded; fresh encoding and audio clipping checks not run.",
+      "evidence": "Group manifest",
+      "status": "uncertain",
+      "reason": "Inherited technical metadata; no fresh media probe in this review.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q14",
+      "finding": "Onscreen numbers, funding/travel captions and application URL carry the offer; ASR supports candidate script structure only.",
+      "evidence": "V03,V04,V07,A02",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q15",
+      "finding": "Large numbers and repeated figures guide attention to selectivity before the human network clips.",
+      "evidence": "V03,V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q16",
+      "finding": "The first 15 s establish motivation, with roughly 20 s on selection/offer and a later historical metaphor.",
+      "evidence": "V01–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q17",
+      "finding": "The opening time pressure resolves into an invitation to act now through the application URL.",
+      "evidence": "V01,V07",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q18",
+      "finding": "Scarcity, ambition and rejection imagery frame selection as a path to significance; audience effect is unmeasured.",
+      "evidence": "V03,V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q19",
+      "finding": "White borders and black/white typography connect otherwise varied archival and abstract scenes.",
+      "evidence": "V02–V07",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q20",
+      "finding": "Applicant counts, cohort counts and funding are visible claims; eligibility, valuation basis and actual outcomes are not verified.",
+      "evidence": "V03,V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q21",
+      "finding": "The Alliance triangle is revealed late after a founder-network narrative, ending with a precise application route.",
+      "evidence": "V07",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q22",
+      "finding": "The desk-to-selection comparison explains scale well; the lifespan premise could be shorter or clearly qualified.",
+      "evidence": "V01,V03",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q23",
+      "finding": "Tin can turn workflow volume into repeated objects and then show the small set requiring a user decision.",
+      "evidence": "V03",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q24",
+      "finding": "Alliance invites founders to apply for a selective funded program with a New York network.",
+      "evidence": "Model reading from inspected images",
+      "status": "uncertain",
+      "reason": "Model-only new-viewer interpretation; no human test.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q25",
+      "finding": "Contact sheets inspected at displayed size; a phone-size playback, caption audit, flash audit and formal accessibility check were not performed.",
+      "evidence": "Viewed sheets",
+      "status": "not checked",
+      "reason": "Full-size moving-image and device checks unavailable in this pass.",
+      "experiment": "none"
+    }
+  ],
+  "lessons": {
+    "keep": "Use repeated objects to make scale and selection understandable.",
+    "avoid": "Avoid unsourced scarcity or lifespan numbers as factual proof.",
+    "open": "Program statistics, eligibility, historical connections, exact transitions and audio delivery remain unverified.",
+    "try": [
+      "Show many incoming Tin opportunities becoming three evidence-backed campaign options.",
+      "Pair a customer-network scene with one named, permissioned outcome and a clear application or signup step."
+    ]
+  },
+  "comparison": {
+    "story": "Create urgency around limited time. → Connect choices with solving a problem. → Visualize applicant volume and selection. → Present track record and tangible offer. → Associate the program with a network and category creation. → Frame rejection as compatible with future impact. → Invite an application.",
+    "motion": "One desk becomes a large field, cohort labels give way to bills and a patterned shape becomes the logo across samples; exact morphs are unverified. Sampling scope: 1 fps unless a closer window is recorded.",
+    "sound": "No validated listening; unknown.",
+    "texture": "Grainy mixed imagery, large digits and sparse white text on black.; White collage canvas, framed footage and geometric spiral.; Dark spotlit3D scene changes to high-contrast white pictograms.; White layout, cash imagery, city footage and captions.; White framed documentary clips and archival texture.; Warm desk scene, scanline-like texture and surreal composite.; Black field, patterned logo construction and concise URL.",
+    "lesson": "Use repeated objects to make scale and selection understandable."
+  },
+  "elements": [
+    {
+      "kind": "motion",
+      "name": "repeated desk grid",
+      "events": [
+        "V03"
+      ]
+    },
+    {
+      "kind": "motion",
+      "name": "changing number",
+      "events": [
+        "V03"
+      ]
+    },
+    {
+      "kind": "texture",
+      "name": "archival footage",
+      "events": [
+        "V05"
+      ]
+    },
+    {
+      "kind": "texture",
+      "name": "old monitor",
+      "events": [
+        "V06"
+      ]
+    },
+    {
+      "kind": "motion",
+      "name": "pixel logo reveal",
+      "events": [
+        "V07"
+      ]
+    }
+  ]
+}

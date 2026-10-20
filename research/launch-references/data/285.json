@@ -1,0 +1,356 @@
+{
+  "id": 285,
+  "product_from_film": "Superteam USA is a founder community offering access to funding, feedback, community and hiring, including people new to crypto.",
+  "explains_well": "The founder repeatedly contradicts a dramatic lone-founder story, setting up community support as the final answer.",
+  "unclear": "The support categories are listed late, but no example shows how a founder joins or receives useful help.",
+  "product_type": "founder support community",
+  "scenario": "A mock startup thriller exaggerates hardship until its protagonist reveals that a community supported him.",
+  "product_clear_time": 59,
+  "product_clear_basis": "The protagonist explicitly names support from the Superteam USA community at 58–60s; concrete service categories appear at 71–74s.",
+  "scenes": [
+    {
+      "start": 0,
+      "end": 13,
+      "action": "A person enters a shared workspace. Captions describe total commitment and no breaks, but the protagonist objects and turns his monitor to a Minecraft view.",
+      "design": "Letterboxed office footage, cool light and small subtitles.",
+      "purpose": "Set up the exaggerated founder narrative and first contradiction.",
+      "evidence": "1 fps source samples in 0–13s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V01"
+    },
+    {
+      "start": 13,
+      "end": 28,
+      "action": "A sleeping scene contradicts sleepless nights. A true-story card leads to claims of isolation and a lost wife; the protagonist says he has never married and questions another claim.",
+      "design": "Dim bedroom and warm living room scenes with direct reactions.",
+      "purpose": "Repeat the gap between dramatic story and ordinary life.",
+      "evidence": "1 fps source samples in 13–28s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V02"
+    },
+    {
+      "start": 28,
+      "end": 40,
+      "action": "Powder and a container imply a drug claim, then the protagonist identifies creatine. An office confrontation follows the enemies claim, with a confused reaction and apology.",
+      "design": "Prop close-ups and shared-office action.",
+      "purpose": "Escalate the comic misrepresentation.",
+      "evidence": "1 fps source samples in 28–40s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V03"
+    },
+    {
+      "start": 40,
+      "end": 52,
+      "action": "A This Summer card leads to an alley encounter with exaggerated venture capitalists and a term sheet. A running scene gains review-star overlays; the protagonist asks who he is running from.",
+      "design": "Night scenes, theatrical confrontation and mock review text.",
+      "purpose": "Parody a movie trailer.",
+      "evidence": "1 fps source samples in 40–52s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V04"
+    },
+    {
+      "start": 52,
+      "end": 66,
+      "action": "One Man Alone and Against the Entire World lead to a rooftop. The protagonist stops the story and says he had community support; any founder can join, even outside Solana.",
+      "design": "Night skyline, title cards and direct address.",
+      "purpose": "Reveal the actual proposition.",
+      "evidence": "1 fps source samples in 52–66s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V05"
+    },
+    {
+      "start": 66,
+      "end": 78,
+      "action": "Red, white and blue stars and USA graphics introduce Superteam USA powered by Solana. Funding, Feedback, Community and Hiring appear, followed by a welcome to people new to crypto.",
+      "design": "Bold colored typography and star motifs.",
+      "purpose": "Name support categories and inclusive eligibility claim.",
+      "evidence": "1 fps source samples in 66–78s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V06"
+    },
+    {
+      "start": 78,
+      "end": 83.22,
+      "action": "The protagonist writes on a surface. The script calls it rewriting the rules; he calls it his grocery list.",
+      "design": "Office close-up and subtitles.",
+      "purpose": "Finish with the established contradiction joke.",
+      "evidence": "1 fps source samples in 78–83.22s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V07"
+    }
+  ],
+  "sound": [
+    {
+      "id": "A01",
+      "start": 0,
+      "end": 83.22,
+      "layer": "ASR draft / unknown",
+      "detail": "The draft and captions support a two-part script: exaggerated founder hardship and the protagonist’s corrections, followed by the community offer. Several words, including Solana and term sheet, are misrecognized in the draft. No validated listening; vocal performance, music, effects and joke timing against sound are unverified.",
+      "visual_relation": "V01–V07; script structure is supported by text and reactions.",
+      "evidence": "technical-review-2026-10-19/deep-review/audio/285-speech.json"
+    }
+  ],
+  "categories": [
+    {
+      "id": "Q01",
+      "finding": "Repeated false hardship claims → protagonist corrections → lone-founder climax rejected → community support → final joke.",
+      "evidence": "V01–V07",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q02",
+      "finding": "A dark figure enters a busy office; it establishes a cinematic setting but no product information.",
+      "evidence": "V01",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q03",
+      "finding": "Founders are the audience throughout. Community support becomes explicit around 59s and service categories at 71–74s.",
+      "evidence": "V05,V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q04",
+      "finding": "Live-action reactions, monitor reveal, title cards and review overlays drive the film. Stars and bold type animate the offer section; exact paths/easing are unverified.",
+      "evidence": "V01–V07",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q05",
+      "finding": "Each hardship statement is followed by a contradicting scene or response, making the reveal structurally consistent.",
+      "evidence": "V01–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q06",
+      "finding": "Cool offices, warm dark domestic scenes and blue night exteriors give way to vivid patriotic graphics.",
+      "evidence": "V01–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q07",
+      "finding": "Subtitles are essential to the jokes and appear small in the letterboxed frame. Final support words are large and clear.",
+      "evidence": "V01–V07",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q08",
+      "finding": "ASR plus captions establishes the claim/correction dialogue pattern; actual voice characterization and timing were not heard.",
+      "evidence": "A01",
+      "status": "uncertain",
+      "reason": "Text evidence only.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q09",
+      "finding": "Music character and structure are unverified.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "No validated listening.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q10",
+      "finding": "Effects and their sources are unverified.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "No validated listening; waveform peaks do not identify effects.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q11",
+      "finding": "Sound sync is unverified.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "No validated listening or paired audiovisual timing.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q12",
+      "finding": "A recurring protagonist carries staged-looking office, home, alley and rooftop scenes. Production method and asset sources are not established.",
+      "evidence": "V01–V07",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q13",
+      "finding": "Source duration 83.22 s; Watch metadata 1920 × 1080. Frame rate, audio clipping and export quality not checked here.",
+      "evidence": "Whole film",
+      "status": "supported",
+      "reason": "Parent source metadata supports duration and dimensions; visual review is sampled.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q14",
+      "finding": "Subtitles preserve the comedy and reveal without sound, but a small-screen reading check was not performed.",
+      "evidence": "V01–V07",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q15",
+      "finding": "The protagonist’s reactions and prop reveals focus the jokes; the final large category list is visually simpler.",
+      "evidence": "V01–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q16",
+      "finding": "About a minute of comedy precedes the offer; several joke cycles could be shortened to make room for a support example.",
+      "evidence": "V01–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q17",
+      "finding": "The initial lone-founder struggle is deliberately rejected by the community reveal. The final grocery-list joke completes the same pattern.",
+      "evidence": "V01,V05,V07",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q18",
+      "finding": "Threat and hardship are repeatedly undercut by ordinary life, aiming for humor and relief; viewer response is unmeasured.",
+      "evidence": "V01–V07",
+      "status": "uncertain",
+      "reason": "Interpretation of script and reactions.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q19",
+      "finding": "The same protagonist and contradiction structure connect varied locations; the color shift clearly separates the offer card.",
+      "evidence": "V01–V07",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q20",
+      "finding": "The trailer scenes and review overlays are framed as parody, not evidence of actual hardship or reviews. Access to funding, feedback and hiring is claimed but no real support outcome is shown.",
+      "evidence": "V04–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q21",
+      "finding": "The lone-founder myth reversal fits a founder community, while Solana and USA/star graphics identify the specific organization.",
+      "evidence": "V05,V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q22",
+      "finding": "Trade one repeated joke for a concrete help example.",
+      "evidence": "V02,V03,V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "Show a founder asking for hiring feedback and receiving an introduction or useful review before the final card."
+    },
+    {
+      "id": "Q23",
+      "finding": "For Tin, let a recurring exaggerated claim be corrected by an actual workflow.",
+      "evidence": "V01–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "Contrast a chaotic imagined campaign process with a short visible brief, draft and team review sequence."
+    },
+    {
+      "id": "Q24",
+      "finding": "No human new-viewer test was performed.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "The product summary is this model’s film-only reading.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q25",
+      "finding": "Mobile preview and accessibility checks were not performed.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "Contact sheets are evidence views, not a stated mobile preview or compliance test.",
+      "experiment": "none"
+    }
+  ],
+  "elements": [
+    {
+      "kind": "ui",
+      "name": "game on monitor",
+      "events": [
+        "V01"
+      ]
+    },
+    {
+      "kind": "motion",
+      "name": "movie trailer title cards",
+      "events": [
+        "V02",
+        "V04",
+        "V05"
+      ]
+    },
+    {
+      "kind": "motion",
+      "name": "review star overlays",
+      "events": [
+        "V04"
+      ]
+    },
+    {
+      "kind": "motion",
+      "name": "bold support category typography",
+      "events": [
+        "V06"
+      ]
+    },
+    {
+      "kind": "texture",
+      "name": "letterboxed cinematic scenes",
+      "events": [
+        "V01",
+        "V02",
+        "V03",
+        "V04",
+        "V05",
+        "V07"
+      ]
+    }
+  ],
+  "lessons": {
+    "keep": "Build a repeatable comic pattern that the product reveal resolves.",
+    "try": [
+      "Replace one joke with a founder receiving a useful review or introduction.",
+      "For Tin, contrast an imagined chaotic process with a visible brief-to-review workflow."
+    ],
+    "avoid": "Delaying the offer so long that its actual support remains a short list.",
+    "open": "Membership route, support outcomes, actual parody reception, production method and audio remain unverified."
+  },
+  "comparison": {
+    "story": "Mock founder thriller repeatedly contradicted → community reveal.",
+    "motion": "Reaction edits, trailer cards, review overlays and bold offer type.",
+    "sound": "ASR/caption dialogue structure; no validated listening.",
+    "texture": "Letterboxed dramatic scenes and red-white-blue graphics.",
+    "lesson": "The joke structure can explain a promise when the final reveal answers it."
+  },
+  "reviewer_model": "gpt-6-astra",
+  "scope": "sampled visual and story review; ASR and measured signal support; no validated audio listening",
+  "viewed_evidence": [
+    "technical-review-2026-10-19/deep-review/motion/285/timeline-00.jpg",
+    "technical-review-2026-10-19/deep-review/motion/285/timeline-01.jpg",
+    "technical-review-2026-10-19/deep-review/motion/285/timeline-02.jpg"
+  ],
+  "closer_windows": []
+}

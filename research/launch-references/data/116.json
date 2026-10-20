@@ -1,0 +1,369 @@
+{
+  "id": 116,
+  "viewed_evidence": [
+    "technical-review-2026-10-19/deep-review/motion/116/timeline-00.jpg",
+    "technical-review-2026-10-19/deep-review/motion/116/timeline-01.jpg",
+    "technical-review-2026-10-19/deep-review/motion/116/timeline-02.jpg",
+    "technical-review-2026-10-19/deep-review/motion/116/timeline-03.jpg",
+    "astra-review-2026-10-20/evidence/group-3/116/dense.jpg",
+    "technical-review-2026-10-19/deep-review/audio/116-speech.json"
+  ],
+  "product_from_film": "The pictures suggest software incident response; the ASR draft describes finding and fixing a checkout failure.",
+  "explains_well": "An interrupted date and return to the bar give the technical incident a human consequence.",
+  "unclear": "The actual Sazabi interface and independent repair capability are not demonstrated.",
+  "product_type": "developer tool",
+  "scenario": "A phone alert interrupts a date; a man works on a laptop in a bathroom and returns.",
+  "product_clear_time": null,
+  "product_clear_basis": "Images show alerts, laptop and diagnostic charts, but the specific service is established mainly by an unverified ASR draft.",
+  "scenes": [
+    {
+      "start": 0,
+      "end": 13,
+      "action": "A bar-wide view gives way to alternating closeups of a man and woman talking and smiling.",
+      "design": "Blue light, red vertical lamps, shallow-focus background.",
+      "purpose": "Establish a date",
+      "id": "V01",
+      "evidence": "Visible 1 fps samples, source 0–13 s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 13,
+      "end": 23,
+      "action": "Phone notifications accumulate; the man reacts and leaves, opens a door and retrieves a laptop.",
+      "design": "Phone lock screen and close shots of handle, bag and hands.",
+      "purpose": "Interrupt personal time",
+      "id": "V02",
+      "evidence": "Visible 1 fps samples, source 13–23 s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 23,
+      "end": 40,
+      "action": "The man types while seated in a bathroom; his face is overlaid with charts, rings and data, alternating with a curved dashboard and overhead bathroom view.",
+      "design": "Dark tiles, cyan and pink diagnostic graphics.",
+      "purpose": "Enter the incident response",
+      "id": "V03",
+      "evidence": "Visible 1 fps samples, source 23–40 s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 40,
+      "end": 60,
+      "action": "Man and another woman alternate in closeup beneath data overlays; chart fields and percentage rings change.",
+      "design": "Layered charts and small data across faces.",
+      "purpose": "Show a technical exchange",
+      "id": "V04",
+      "evidence": "Visible 1 fps samples, source 40–60 s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 60,
+      "end": 84,
+      "action": "Concerned faces continue; the circular gauge rises across the man face 70–71.75 s and turns cyan by 72 s. Smiles appear 76 s onward.",
+      "design": "Red/pink to cyan/green graphic accents; dense numerical overlays.",
+      "purpose": "Suggest recovery",
+      "id": "V05",
+      "evidence": "Visible 1 fps samples, source 60–84 s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 84,
+      "end": 95,
+      "action": "Laptop closes, door opens and the man returns to the original woman at the bar.",
+      "design": "Original blue/red setting and matching shot/reverse-shot.",
+      "purpose": "Restore the interrupted date",
+      "id": "V06",
+      "evidence": "Visible 1 fps samples, source 84–95 s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 95,
+      "end": 104.844,
+      "action": "Fragments resolve into SAZABI; a small symbol follows, then dark frame.",
+      "design": "White glowing wordmark and symbol on black.",
+      "purpose": "Name the product",
+      "id": "V07",
+      "evidence": "Visible 1 fps samples, source 95–104.844 s; boundaries approximate, between-frame action unresolved."
+    }
+  ],
+  "sound": [
+    {
+      "id": "A01",
+      "start": 0,
+      "end": 104.844,
+      "layer": "unknown",
+      "detail": "No validated audio listening; speech, music, effects, mix and sync remain unverified.",
+      "visual_relation": "All visual scenes; alignment not checked",
+      "evidence": "No actual audio supplied to this review; existing technical-review-2026-10-19/deep-review/audio/116.json is not listening evidence."
+    },
+    {
+      "id": "A02",
+      "start": 0.394,
+      "end": 95.126,
+      "layer": "ASR draft",
+      "detail": "Five VAD-selected windows total 82.448 s. Draft text describes checkout failures, a commit, a roll-forward recommendation, falling failure rate and a return to the date. Several names and technical words are malformed; not verbatim validated dialogue.",
+      "visual_relation": "V02–V06; broad story correspondence, exact sound timing unverified",
+      "evidence": "technical-review-2026-10-19/deep-review/audio/116-speech.json; faster-whisper base CPU int8; text-only inspection, no hearing."
+    }
+  ],
+  "categories": [
+    {
+      "finding": "A date is interrupted by alerts; private laptop work and a technical exchange precede a return to the date. The draft transcript supplies checkout-failure details.",
+      "evidence": "V01–V06; ASR26–84 s",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q01"
+    },
+    {
+      "finding": "Dark bar silhouettes reveal a smiling woman across a table; no software context appears yet.",
+      "evidence": "V01 0–2 s",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q02"
+    },
+    {
+      "finding": "Alerts and diagnostic charts suggest an on-call developer scenario; specific incident response comes from draft speech, not a readable demonstration.",
+      "evidence": "V02–V05; ASR26–74 s",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q03"
+    },
+    {
+      "finding": "The 70–73 s closer window shows a pink gauge rising from chin to eye level, changing to cyan by 72 s, then a cut to the other face 72.5 s. Exact projection/compositing technique is unknown.",
+      "evidence": "V05; dense 70–73 s",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q04"
+    },
+    {
+      "finding": "Phone inserts break the conversation; handle/bag/laptop cuts move rapidly into work; the original bar shots return after the laptop closes.",
+      "evidence": "V02,V03,V06",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q05"
+    },
+    {
+      "finding": "Blue/red bar light continues as cyan/pink face graphics, making the technical section feel part of the same dark world.",
+      "evidence": "V01–V06",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q06"
+    },
+    {
+      "finding": "There are no sustained dialogue subtitles in inspected frames; dense charts act more as atmosphere than readable instructions.",
+      "evidence": "V01–V06",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q07"
+    },
+    {
+      "finding": "Voice presence and delivery remain unverified.",
+      "evidence": "No validated audio listening",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q08"
+    },
+    {
+      "finding": "Music character and arc remain unverified.",
+      "evidence": "No validated audio listening",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q09"
+    },
+    {
+      "finding": "Sound effects remain unverified.",
+      "evidence": "No validated audio listening",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q10"
+    },
+    {
+      "finding": "Sound-to-motion timing remain unverified.",
+      "evidence": "No validated audio listening",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q11"
+    },
+    {
+      "finding": "Live-action-looking people and room imagery are combined with transparent data graphics and curved dashboard views; origin and production method are unverified.",
+      "evidence": "V01–V06",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q12"
+    },
+    {
+      "finding": "Source duration supplied as 104.844 s; no independent compression, clipping or delivery check.",
+      "evidence": "Assigned metadata; source integrity checked by parent",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q13"
+    },
+    {
+      "finding": "The interruption, work and return are clear silently; the exact fault, recommended action and repair depend on unavailable speech understanding.",
+      "evidence": "V02–V06",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q14"
+    },
+    {
+      "finding": "Faces hold attention while overlays cross their eyes and mouths; the gauges compete with facial expression.",
+      "evidence": "V03–V05",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q15"
+    },
+    {
+      "finding": "The diagnostic face exchange spans roughly 27–83 s, a long section with little legible change of task.",
+      "evidence": "V03–V05",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q16"
+    },
+    {
+      "finding": "The initial date resumes after work, paying off the interruption even though the product mechanism stays abstract.",
+      "evidence": "V01,V06",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q17"
+    },
+    {
+      "finding": "Smiles give way to worried faces and then relief; this suggests a tension/recovery arc, not measured audience response.",
+      "evidence": "V01,V02,V05,V06; interpretation",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q18"
+    },
+    {
+      "finding": "The same man and original bar setting anchor the long middle section; the second woman appears only in the technical exchange.",
+      "evidence": "V01–V06",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q19"
+    },
+    {
+      "finding": "Draft speech describes tracing a commit and a recovery; images show graphs and reactions, not an independently verified patch or deployment.",
+      "evidence": "V03–V05; ASR29–74 s",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q20"
+    },
+    {
+      "finding": "The bathroom incident-response scenario is specific; glowing face dashboards are a more general science-fiction motif.",
+      "evidence": "V03–V05",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q21"
+    },
+    {
+      "finding": "A short real interface shot connecting alert to culprit commit and resolution would add more proof than repeated face overlays.",
+      "evidence": "V04–V05",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q22"
+    },
+    {
+      "finding": "For incident tooling, combine a recognisable interruption with three actual states: alert, root cause and healthy service. Keep the face graphics as brief emphasis.",
+      "evidence": "V02–V06",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q23"
+    },
+    {
+      "finding": "No human new-viewer test; product description above is model interpretation of sampled images.",
+      "evidence": "V01–V07",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q24"
+    },
+    {
+      "finding": "No phone-size, safe-area or flash assessment; small UI text needs separate preview.",
+      "evidence": "Contact sheets",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q25"
+    }
+  ],
+  "lessons": {
+    "keep": "Show the user returning to the interrupted personal activity after resolving the problem.",
+    "try": [
+      "For an incident assistant, show a dinner alert, one real root-cause panel and a healthy-service result before returning to dinner.",
+      "Compare the long face-overlay exchange with a 15-second version containing three captioned incident steps."
+    ],
+    "avoid": "Do not rely on unreadable diagnostic graphics to explain the repair.",
+    "open": "What dialogue was actually said, and does the product support the depicted repair flow?"
+  },
+  "comparison": {
+    "story": "Establish a date → Interrupt personal time → Enter the incident response → Show a technical exchange → Suggest recovery → Restore the interrupted date → Name the product",
+    "motion": "The 70–73 s closer window shows a pink gauge rising from chin to eye level, changing to cyan by 72 s, then a cut to the other face 72.5 s. Exact projection/compositing technique is unknown.",
+    "sound": "No validated listening; no absence claims.",
+    "texture": "Blue/red bar light continues as cyan/pink face graphics, making the technical section feel part of the same dark world.",
+    "lesson": "Show the user returning to the interrupted personal activity after resolving the problem."
+  },
+  "elements": [
+    {
+      "kind": "ui",
+      "name": "notification",
+      "events": [
+        "V02"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "chart",
+      "events": [
+        "V03",
+        "V04",
+        "V05"
+      ]
+    },
+    {
+      "kind": "motion",
+      "name": "data overlays",
+      "events": [
+        "V03",
+        "V04",
+        "V05"
+      ]
+    },
+    {
+      "kind": "texture",
+      "name": "photographic footage",
+      "events": [
+        "V01",
+        "V06"
+      ]
+    }
+  ],
+  "reviewer_model": "gpt-6-astra",
+  "scope": "sampled visual and story review; ASR and measured signal support; no validated audio listening",
+  "closer_windows": [
+    {
+      "start": 70,
+      "end": 73,
+      "rate_fps": 4,
+      "evidence": [
+        "astra-review-2026-10-20/evidence/group-3/116/dense.jpg"
+      ],
+      "resolved": "Pink gauge rises from chin to eye 70–71.75 s, changes cyan by 72 s, and face shot changes by 72.5 s; exact compositing and easing unresolved."
+    }
+  ]
+}

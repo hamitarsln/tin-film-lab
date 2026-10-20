@@ -1,0 +1,349 @@
+{
+  "id": 34,
+  "reviewer_model": "gpt-6-astra",
+  "scope": "sampled visual and story review; ASR and measured signal support; no validated audio listening",
+  "viewed_evidence": [
+    "technical-review-2026-10-19/deep-review/motion/034/timeline-00.jpg",
+    "technical-review-2026-10-19/deep-review/motion/034/timeline-01.jpg",
+    "technical-review-2026-10-19/deep-review/audio/034-speech.json"
+  ],
+  "closer_windows": [],
+  "product_from_film": "Scuba is presented as a shared place to capture work material and turn it into team context and briefings.",
+  "explains_well": "Scattered documents become collected cards and a readable briefing, giving the organizing idea a visible result.",
+  "unclear": "The exact capture steps, permissions and agent behavior are not shown in depth.",
+  "product_type": "team knowledge tool",
+  "scenario": "Collect documents and recordings into a launch-readiness briefing.",
+  "product_clear_time": 32,
+  "product_clear_basis": "A briefing with sources follows capture and collection cards; final branding links this to Scuba.",
+  "scenes": [
+    {
+      "id": "V01",
+      "start": 0,
+      "end": 8,
+      "action": "An old-looking office image leads to a desktop where browser windows, files and folders fill the screen; a PDF is selected.",
+      "design": "Wood desktop wallpaper, overlapping windows and familiar file icons.",
+      "purpose": "Show scattered work material.",
+      "evidence": "Visible chronological 1 fps samples, source 0–8s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V02",
+      "start": 8,
+      "end": 20,
+      "action": "Writing, notebooks, a connected-note wall, group meetings and stacked paper objects replace the desktop.",
+      "design": "Warm physical paper textures, monochrome meeting images, white product-object layouts.",
+      "purpose": "Extend the problem to individual and shared thinking.",
+      "evidence": "Visible chronological 1 fps samples, source 8–20s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V03",
+      "start": 20,
+      "end": 31,
+      "action": "An overhead desk view gains colored dots. A four-color mark appears among capture notifications and cards; Capture what matters leads to collection pages and a recording timer.",
+      "design": "Teal, yellow and navy fields; rounded cards and serif headings.",
+      "purpose": "Introduce capture and collection.",
+      "evidence": "Visible chronological 1 fps samples, source 20–31s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V04",
+      "start": 31,
+      "end": 39,
+      "action": "A daily briefing names launch-readiness trends and sources. A thread-like view is followed by individual captures with contributor avatars, accumulating across a cream field.",
+      "design": "Green briefing surface, cream canvas, small profile labels.",
+      "purpose": "Turn shared inputs into summarized context.",
+      "evidence": "Visible chronological 1 fps samples, source 31–39s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V05",
+      "start": 39,
+      "end": 49,
+      "action": "White blobs become many dots on navy. Image cards form a curved sequence, then dots gather into a flock-like shape and are replaced by birds in the sky.",
+      "design": "Navy particles, image cards and natural sky footage.",
+      "purpose": "Metaphorically connect many contributions into one pattern.",
+      "evidence": "Visible chronological 1 fps samples, source 39–49s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V06",
+      "start": 49,
+      "end": 56.4,
+      "action": "Orchestra and whiteboard collaboration views appear, then a small card and colored dots give way to Scuba and scuba.app on navy.",
+      "design": "Human collaboration imagery and quiet serif brand ending.",
+      "purpose": "Close on collective understanding and destination.",
+      "evidence": "Visible chronological 1 fps samples, source 49–56.4s; boundary approximate; exact motion between samples unverified."
+    }
+  ],
+  "sound": [
+    {
+      "id": "A01",
+      "start": 0,
+      "end": 56.4,
+      "layer": "unknown",
+      "detail": "No validated direct audio listening was performed. Music, speech delivery, effects, mix and sync remain unknown, not absent.",
+      "visual_relation": "All visual scenes; audiovisual alignment unverified",
+      "evidence": "Visual samples only; no actual audio range supplied to this reviewer."
+    },
+    {
+      "id": "A02",
+      "start": 1.83,
+      "end": 55.67,
+      "layer": "ASR draft",
+      "detail": "ASR draft repeats never lose across tabs, documents, notes and decisions, then introduces capturing context so a team can work together. Later lines invite clearing the desktop and breathing. The middle feature wording is fragmented and not quoted. It supports the clutter-to-shared-context story; delivery and soundtrack were not heard.",
+      "visual_relation": "Story text support; exact audiovisual alignment and delivery unverified.",
+      "evidence": "technical-review-2026-10-19/deep-review/audio/034-speech.json; local faster-whisper base CPU int8 draft; VAD candidates only, recognition errors possible."
+    }
+  ],
+  "categories": [
+    {
+      "id": "Q01",
+      "finding": "Scattered files and human notes lead to captures, a briefing and a collective-pattern metaphor.",
+      "evidence": "V01–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q02",
+      "finding": "An office image and blurred lateral-looking image precede the cluttered desktop; the exact product is not established.",
+      "evidence": "V01",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q03",
+      "finding": "Team use is suggested by contributor avatars and a sourced briefing; capture and context become clear around 25–33 s.",
+      "evidence": "V03,V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q04",
+      "finding": "Windows pile up, capture cards accumulate and dot fields form a flock-like grouping; exact paths and easing remain unresolved.",
+      "evidence": "V01,V03,V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q05",
+      "finding": "Paper objects bridge physical work and digital captures; dot shapes link the product mark to a bird-flock metaphor.",
+      "evidence": "V02,V03,V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q06",
+      "finding": "Paper, handwriting and warm desk imagery contrast with flat teal/navy fields and rounded cards.",
+      "evidence": "V01–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q07",
+      "finding": "Serif feature headings are prominent; the briefing gives a concrete text result but smaller contributor labels are harder to read.",
+      "evidence": "V03,V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q08",
+      "finding": "ASR draft repeats never lose across tabs, documents, notes and decisions, then introduces capturing context so a team can work together. Later lines invite clearing the desktop and breathing. The middle feature wording is fragmented and not quoted. It supports the clutter-to-shared-context story; delivery and soundtrack were not heard.",
+      "evidence": "A02",
+      "status": "uncertain",
+      "reason": "ASR text only; no validated listening, delivery or voice origin.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q09",
+      "finding": "Voice delivery, music, effects and audiovisual alignment were not established by this visual pass.",
+      "evidence": "A01",
+      "status": "not checked",
+      "reason": "No validated direct audio listening input.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q10",
+      "finding": "Voice delivery, music, effects and audiovisual alignment were not established by this visual pass.",
+      "evidence": "A01",
+      "status": "not checked",
+      "reason": "No validated direct audio listening input.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q11",
+      "finding": "Voice delivery, music, effects and audiovisual alignment were not established by this visual pass.",
+      "evidence": "A01",
+      "status": "not checked",
+      "reason": "No validated direct audio listening input.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q12",
+      "finding": "Office and collaboration imagery, paper objects, software-like cards and particle patterns are combined; sources are unknown.",
+      "evidence": "V01–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q13",
+      "finding": "Manifest duration 56.4 s; indexed dimensions 1920×1080. Source unchanged flag recorded; fresh encoding and audio clipping checks not run.",
+      "evidence": "Group manifest",
+      "status": "uncertain",
+      "reason": "Inherited technical metadata; no fresh media probe in this review.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q14",
+      "finding": "Capture, collection and a briefing remain understandable silently; the agent role is not directly demonstrated.",
+      "evidence": "V03,V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q15",
+      "finding": "One card is isolated against flat color before the briefing fills the view; this focuses attention better than the opening window pile.",
+      "evidence": "V01,V03,V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q16",
+      "finding": "Many media forms appear early, but the daily briefing provides a focused result; the later particles add metaphor rather than task detail.",
+      "evidence": "V02,V04,V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q17",
+      "finding": "The scattered-material opening is answered by a sourced briefing and collected contributor inputs.",
+      "evidence": "V01,V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q18",
+      "finding": "Warm human scenes and coordinated birds suggest shared understanding; this is interpretation, not a measured response.",
+      "evidence": "V02,V05,V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q19",
+      "finding": "Four colored dots recur from the desk to the mark; captured images recur as collection and contributor cards.",
+      "evidence": "V03,V04,V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q20",
+      "finding": "The film shows example capture and briefing states; it does not prove source completeness, retrieval quality or permission handling.",
+      "evidence": "V03,V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q21",
+      "finding": "The four-color rounded mark, serif headings and navy/teal fields create a recognizable repeated system.",
+      "evidence": "V03–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q22",
+      "finding": "The capture-to-briefing passage carries the product; fewer opening meeting inserts could bring that passage forward.",
+      "evidence": "V02,V03,V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q23",
+      "finding": "Tin can show scattered campaign notes becoming source-linked cards and one concise daily campaign briefing.",
+      "evidence": "V01,V03,V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q24",
+      "finding": "Scuba is presented as a shared place to capture work material and turn it into team context and briefings.",
+      "evidence": "Model reading from inspected images",
+      "status": "uncertain",
+      "reason": "Model-only new-viewer interpretation; no human test.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q25",
+      "finding": "Contact sheets inspected at displayed size; a phone-size playback, caption audit, flash audit and formal accessibility check were not performed.",
+      "evidence": "Viewed sheets",
+      "status": "not checked",
+      "reason": "Full-size moving-image and device checks unavailable in this pass.",
+      "experiment": "none"
+    }
+  ],
+  "lessons": {
+    "keep": "Show scattered inputs resolving into a sourced briefing with the same material still visible.",
+    "avoid": "Avoid a collective-intelligence metaphor replacing the concrete capture and retrieval steps.",
+    "open": "Agent behavior, permissions, exact particle motion and sound remain unverified.",
+    "try": [
+      "For Tin, collect three campaign notes and a run result into cards, then show the daily briefing citing each card.",
+      "Use a recurring four-color marker to follow each input from capture through a combined campaign summary."
+    ]
+  },
+  "comparison": {
+    "story": "Show scattered work material. → Extend the problem to individual and shared thinking. → Introduce capture and collection. → Turn shared inputs into summarized context. → Metaphorically connect many contributions into one pattern. → Close on collective understanding and destination.",
+    "motion": "Windows pile up, capture cards accumulate and dot fields form a flock-like grouping; exact paths and easing remain unresolved. Sampling scope: 1 fps unless a closer window is recorded.",
+    "sound": "No validated listening; unknown.",
+    "texture": "Wood desktop wallpaper, overlapping windows and familiar file icons.; Warm physical paper textures, monochrome meeting images, white product-object layouts.; Teal, yellow and navy fields; rounded cards and serif headings.; Green briefing surface, cream canvas, small profile labels.; Navy particles, image cards and natural sky footage.; Human collaboration imagery and quiet serif brand ending.",
+    "lesson": "Show scattered inputs resolving into a sourced briefing with the same material still visible."
+  },
+  "elements": [
+    {
+      "kind": "ui",
+      "name": "overlapping windows",
+      "events": [
+        "V01"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "capture cards",
+      "events": [
+        "V03"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "sourced briefing",
+      "events": [
+        "V04"
+      ]
+    },
+    {
+      "kind": "motion",
+      "name": "particle flock",
+      "events": [
+        "V05"
+      ]
+    },
+    {
+      "kind": "texture",
+      "name": "paper and handwriting",
+      "events": [
+        "V02"
+      ]
+    }
+  ]
+}

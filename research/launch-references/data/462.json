@@ -1,0 +1,354 @@
+{
+  "id": 462,
+  "reviewer_model": "gpt-6-astra",
+  "scope": "sampled visual and story review; ASR and measured signal support; no validated audio listening",
+  "viewed_evidence": [
+    "technical-review-2026-10-19/deep-review/motion/462/timeline-00.jpg",
+    "technical-review-2026-10-19/deep-review/motion/462/timeline-01.jpg",
+    "technical-review-2026-10-19/deep-review/motion/462/timeline-02.jpg",
+    "technical-review-2026-10-19/deep-review/audio/462-speech.json"
+  ],
+  "closer_windows": [],
+  "product_from_film": "Matiks announces funding through a math-themed investor-meeting comedy.",
+  "explains_well": "The opening funding-reduction question pays off in the final 3.14 million and pi joke.",
+  "unclear": "The film jokes about whether Matiks is a game or learning platform but never shows a readable user task that answers that question.",
+  "product_type": "funding announcement comedy",
+  "scenario": "Reenact a funding discussion and explain a math-themed investment amount.",
+  "product_clear_time": null,
+  "product_clear_basis": "The brand and funding are clear, but the actual product experience is not established.",
+  "scenes": [
+    {
+      "id": "V01",
+      "start": 0,
+      "end": 15,
+      "action": "Funding reduced by 1 crore appears over dark poker-table scenes with cigars, chips and a drink. A participant is labelled and the irrational funding title appears.",
+      "design": "Large white condensed type, green felt and smoky dark lighting.",
+      "purpose": "Set up a surprising funding question and poker metaphor.",
+      "evidence": "Visible chronological 1 fps samples, source 0–15s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V02",
+      "start": 15,
+      "end": 32,
+      "action": "Poker-table remarks cut to a bright meeting room. A division question is followed by a participant giving a long decimal answer, with name labels and reactions.",
+      "design": "Alternating dark poker and cool office scenes with small subtitles.",
+      "purpose": "Establish mathematical confidence and the negotiation story.",
+      "evidence": "Visible chronological 1 fps samples, source 15–32s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V03",
+      "start": 32,
+      "end": 55,
+      "action": "A tablet and laptop are briefly shown, then meeting participants debate whether the product is a game or learning platform, whether it is cool and whether to use subscriptions or ads.",
+      "design": "Shot/reverse-shot conversation and unreadable device screens.",
+      "purpose": "Present the founders’ attitude and business-model debate.",
+      "evidence": "Visible chronological 1 fps samples, source 32–55s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V04",
+      "start": 55,
+      "end": 65,
+      "action": "Poker and meeting scenes alternate around not knowing the full potential and keeping chips in play. The meeting appears to agree.",
+      "design": "Matching conversational cuts and chip close-ups.",
+      "purpose": "Frame the venture as an ambitious bet.",
+      "evidence": "Visible chronological 1 fps samples, source 55–65s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V05",
+      "start": 65,
+      "end": 82,
+      "action": "A remote participant makes a final request. The room reacts to reducing funding by one crore; the line about 3.5 million not being cool leads back to cards and chips.",
+      "design": "Video-call screen, reaction shots and deliberate dark pauses.",
+      "purpose": "Return to the opening mystery and prepare the numerical punchline.",
+      "evidence": "Visible chronological 1 fps samples, source 65–82s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V06",
+      "start": 82,
+      "end": 86.92,
+      "action": "Matiks just raised 3.14 M USD appears with investor marks, then the amount changes to pi M USD.",
+      "design": "Cream funding typography over cards on green felt.",
+      "purpose": "Resolve the joke and announce the round.",
+      "evidence": "Visible chronological 1 fps samples, source 82–86.92s; boundary approximate; exact motion between samples unverified."
+    }
+  ],
+  "sound": [
+    {
+      "id": "A01",
+      "start": 0,
+      "end": 86.92,
+      "layer": "unknown",
+      "detail": "No validated direct audio listening was performed. Music, speech delivery, effects, mix and sync remain unknown, not absent.",
+      "visual_relation": "All visual scenes; audiovisual alignment unverified",
+      "evidence": "Visual samples only; no actual audio range supplied to this reviewer."
+    },
+    {
+      "id": "A02",
+      "start": 15.78,
+      "end": 78.71,
+      "layer": "ASR draft",
+      "detail": "The useful middle ASR section supports the division example, game-versus-learning discussion, ads debate and funding-reduction request. The beginning contains broken recognition and the ending includes unrelated lyric-like text; those parts are not used as dialogue evidence. Delivery is unverified.",
+      "visual_relation": "Story text support; exact audiovisual alignment and delivery unverified.",
+      "evidence": "technical-review-2026-10-19/deep-review/audio/462-speech.json; local faster-whisper base CPU int8 draft; VAD candidates only, recognition errors possible."
+    }
+  ],
+  "categories": [
+    {
+      "id": "Q01",
+      "finding": "A funding-reduction mystery leads through a staged meeting and poker metaphor to a pi-themed amount reveal.",
+      "evidence": "V01–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q02",
+      "finding": "Funding reduced by 1 crore is an unusual negative-sounding headline that invites an explanation.",
+      "evidence": "V01",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q03",
+      "finding": "The story addresses startup and math-culture viewers, but a prospective user does not get a clear product demonstration.",
+      "evidence": "V02,V03",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q04",
+      "finding": "Poker and office scenes alternate through reaction cuts, name labels appear with arrows, and the final 3.14 amount changes into the pi symbol.",
+      "evidence": "V01–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q05",
+      "finding": "Green poker scenes act as a repeated metaphor for negotiation and risk; the final amount resolves the opening wording.",
+      "evidence": "V01,V04–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q06",
+      "finding": "Smoke, green felt, cards and glass create a dark cinematic setting against the brighter glass-walled office.",
+      "evidence": "V01–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q07",
+      "finding": "Opening and final text are bold and clear. Dialogue subtitles are small, and the briefly shown device screens do not explain the product.",
+      "evidence": "V01–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q08",
+      "finding": "The useful middle ASR section supports the division example, game-versus-learning discussion, ads debate and funding-reduction request. The beginning contains broken recognition and the ending includes unrelated lyric-like text; those parts are not used as dialogue evidence. Delivery is unverified.",
+      "evidence": "A02",
+      "status": "uncertain",
+      "reason": "ASR text only; no validated listening, delivery or voice origin.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q09",
+      "finding": "Voice delivery, music, effects and audiovisual alignment were not established by this visual pass.",
+      "evidence": "A01",
+      "status": "not checked",
+      "reason": "No validated direct audio listening input.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q10",
+      "finding": "Voice delivery, music, effects and audiovisual alignment were not established by this visual pass.",
+      "evidence": "A01",
+      "status": "not checked",
+      "reason": "No validated direct audio listening input.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q11",
+      "finding": "Voice delivery, music, effects and audiovisual alignment were not established by this visual pass.",
+      "evidence": "A01",
+      "status": "not checked",
+      "reason": "No validated direct audio listening input.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q12",
+      "finding": "Staged meeting and poker footage, name labels, subtitles, a video call and funding graphics form the film. Production provenance is unknown.",
+      "evidence": "V01–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q13",
+      "finding": "Manifest duration 86.92s; indexed dimensions 1920×1080. Source unchanged flag recorded; fresh encoding and audio clipping checks not run.",
+      "evidence": "Group manifest",
+      "status": "uncertain",
+      "reason": "Inherited technical metadata; no fresh media probe in this review.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q14",
+      "finding": "Subtitles carry the business-model argument and mathematical joke; the visual-only product meaning remains weak.",
+      "evidence": "V02–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q15",
+      "finding": "Faces and reactions dominate attention. The laptop and tablet are props rather than readable demonstrations.",
+      "evidence": "V02,V03,V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q16",
+      "finding": "The final amount arrives after an extended conversation. The math answer and delayed request create two separate comic beats.",
+      "evidence": "V02,V05,V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q17",
+      "finding": "The funding-reduction headline is answered by the final pi amount, while poker chips recur as the negotiation metaphor.",
+      "evidence": "V01,V04–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q18",
+      "finding": "Cigars, sunglasses and exaggerated reactions suggest a playful cinematic parody. Vocal delivery and music are unverified.",
+      "evidence": "V01–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q19",
+      "finding": "No start-to-result user workflow is visible. The meeting itself openly debates the product category.",
+      "evidence": "V03",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q20",
+      "finding": "The closing funding figure is a film claim, not independently verified. The staged conversation does not prove actual negotiations or business-model decisions.",
+      "evidence": "V03,V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q21",
+      "finding": "Matiks is named in dialogue subtitles and the final funding card, where investor marks reinforce the announcement.",
+      "evidence": "V03,V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q22",
+      "finding": "Insert one short playable math challenge and result after the mental-division scene to connect the joke to a user benefit.",
+      "evidence": "V02,V03",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q23",
+      "finding": "Set up a numerical mystery early and let the final title resolve it in a brand-relevant way.",
+      "evidence": "V01,V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q24",
+      "finding": "Matiks announces funding through a math-themed investor-meeting comedy.",
+      "evidence": "Model reading from inspected images",
+      "status": "uncertain",
+      "reason": "Model-only new-viewer interpretation; no human test.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q25",
+      "finding": "Contact sheets inspected at displayed size; a phone-size playback, caption audit, flash audit and formal accessibility check were not performed.",
+      "evidence": "Viewed sheets",
+      "status": "not checked",
+      "reason": "Full-size moving-image and device checks unavailable in this pass.",
+      "experiment": "none"
+    }
+  ],
+  "lessons": {
+    "keep": "Build the announcement around a specific numerical setup and final payoff.",
+    "avoid": "Letting a category debate replace a clear example of what the product does.",
+    "open": "Actual product mechanics, funding terms, staging provenance and audio remain unverified.",
+    "try": [
+      "For Tin, open with an unusual campaign metric, then reveal the exact experiment that explains it.",
+      "Add one readable Matiks challenge after the division answer and compare product comprehension."
+    ]
+  },
+  "comparison": {
+    "story": "Set up a surprising funding question and poker metaphor. → Establish mathematical confidence and the negotiation story. → Present the founders’ attitude and business-model debate. → Frame the venture as an ambitious bet. → Return to the opening mystery and prepare the numerical punchline. → Resolve the joke and announce the round.",
+    "motion": "Poker and office scenes alternate through reaction cuts, name labels appear with arrows, and the final 3.14 amount changes into the pi symbol. Sampling scope: 1 fps unless a closer window is recorded.",
+    "sound": "No validated listening; unknown.",
+    "texture": "Large white condensed type, green felt and smoky dark lighting.; Alternating dark poker and cool office scenes with small subtitles.; Shot/reverse-shot conversation and unreadable device screens.; Matching conversational cuts and chip close-ups.; Video-call screen, reaction shots and deliberate dark pauses.; Cream funding typography over cards on green felt.",
+    "lesson": "Build the announcement around a specific numerical setup and final payoff."
+  },
+  "elements": [
+    {
+      "kind": "ui",
+      "name": "video call",
+      "events": [
+        "V05"
+      ]
+    },
+    {
+      "kind": "motion",
+      "name": "reaction cuts",
+      "events": [
+        "V02",
+        "V03",
+        "V05"
+      ]
+    },
+    {
+      "kind": "motion",
+      "name": "number to symbol",
+      "events": [
+        "V06"
+      ]
+    },
+    {
+      "kind": "texture",
+      "name": "poker table",
+      "events": [
+        "V01",
+        "V04",
+        "V06"
+      ]
+    },
+    {
+      "kind": "texture",
+      "name": "smoke",
+      "events": [
+        "V01"
+      ]
+    }
+  ]
+}

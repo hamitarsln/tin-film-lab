@@ -1,0 +1,318 @@
+{
+  "id": 422,
+  "reviewer_model": "gpt-6-astra",
+  "scope": "sampled visual and story review; ASR and measured signal support; no validated audio listening",
+  "viewed_evidence": [
+    "technical-review-2026-10-19/deep-review/motion/422/timeline-00.jpg",
+    "technical-review-2026-10-19/deep-review/motion/422/timeline-01.jpg"
+  ],
+  "closer_windows": [],
+  "product_from_film": "Framer announces branded clothing and accessories in an Essential Collection.",
+  "explains_well": "Close fabric detail, models and isolated products show both material and appearance.",
+  "unclear": "Available Now is shown without a store URL, price or product-selection step.",
+  "product_type": "merchandise",
+  "scenario": "Show Framer clothing and accessories as a collection.",
+  "product_clear_time": 2,
+  "product_clear_basis": "People wear branded black shirts and caps after a logo detail.",
+  "scenes": [
+    {
+      "id": "V01",
+      "start": 0,
+      "end": 11,
+      "action": "Extreme embroidery detail gives way to a black shirt logo, two models, shirt side detail, cap front and embroidered rear strap.",
+      "design": "Black fabric, raised white stitching, blue sky and sun flare.",
+      "purpose": "Establish materials and wearable fit.",
+      "evidence": "Visible chronological 1 fps samples, source 0–11s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V02",
+      "start": 11,
+      "end": 17,
+      "action": "A black cup floats against sky, followed by a sticker-covered laptop and a small blue-black keypad-like accessory.",
+      "design": "Isolated product imagery, bright sky and subtle depth.",
+      "purpose": "Expand the merchandise range.",
+      "evidence": "Visible chronological 1 fps samples, source 11–17s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V03",
+      "start": 17,
+      "end": 25,
+      "action": "Shirt, sweatshirt, cap and cups float together under The Framer Essential Collection. Two larger cups replace the group under Available Now.",
+      "design": "White announcement type over black products and blue sky.",
+      "purpose": "Name the collection and availability.",
+      "evidence": "Visible chronological 1 fps samples, source 17–25s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V04",
+      "start": 25,
+      "end": 31.541,
+      "action": "Models sit on a rooftop ledge with a large circular graphic over the center. A warm bright wash precedes the white Framer mark on black.",
+      "design": "Outdoor fashion image, graphic overlay and brief colored flare.",
+      "purpose": "Return the collection to people and close the brand.",
+      "evidence": "Visible chronological 1 fps samples, source 25–31.541s; boundary approximate; exact motion between samples unverified."
+    }
+  ],
+  "sound": [
+    {
+      "id": "A01",
+      "start": 0,
+      "end": 31.541,
+      "layer": "unknown",
+      "detail": "No validated direct audio listening was performed. Music, speech delivery, effects, mix and sync remain unknown, not absent.",
+      "visual_relation": "All visual scenes; audiovisual alignment unverified",
+      "evidence": "Visual samples only; no actual audio range supplied to this reviewer."
+    }
+  ],
+  "categories": [
+    {
+      "id": "Q01",
+      "finding": "Material close-up expands to worn items, accessory range, collection announcement and people again.",
+      "evidence": "V01–V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q02",
+      "finding": "White embroidered threads fill the frame before the full logo on black cloth appears, making texture the opening subject.",
+      "evidence": "V01",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q03",
+      "finding": "Branded clothing is clear by 2s and the wider Essential Collection is named at 17s; the implied audience is Framer fans.",
+      "evidence": "V01,V03",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q04",
+      "finding": "View scale moves from stitch macro to models; isolated products tilt and drift against sky, the grouped collection changes arrangement, and a bright wash ends the rooftop shot.",
+      "evidence": "V01–V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q05",
+      "finding": "Cuts alternate material, worn product and isolated object views. Sky color links these treatments; the final bright wash leads to a black logo card. Exact transition timing is unresolved.",
+      "evidence": "V01–V04",
+      "status": "uncertain",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q06",
+      "finding": "Raised embroidery, matte black clothing, cup surfaces and saturated blue sky make the physical materials central.",
+      "evidence": "V01–V03",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q07",
+      "finding": "Only collection and availability statements need reading; logos and garment graphics serve branding. No purchase destination appears.",
+      "evidence": "V03–V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q08",
+      "finding": "Voice delivery, music, effects and audiovisual alignment were not established by this visual pass.",
+      "evidence": "A01",
+      "status": "not checked",
+      "reason": "No validated direct audio listening input.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q09",
+      "finding": "Voice delivery, music, effects and audiovisual alignment were not established by this visual pass.",
+      "evidence": "A01",
+      "status": "not checked",
+      "reason": "No validated direct audio listening input.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q10",
+      "finding": "Voice delivery, music, effects and audiovisual alignment were not established by this visual pass.",
+      "evidence": "A01",
+      "status": "not checked",
+      "reason": "No validated direct audio listening input.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q11",
+      "finding": "Voice delivery, music, effects and audiovisual alignment were not established by this visual pass.",
+      "evidence": "A01",
+      "status": "not checked",
+      "reason": "No validated direct audio listening input.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q12",
+      "finding": "Fashion-looking footage and floating product composites mix. The source method of the isolated objects is not established.",
+      "evidence": "V01–V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q13",
+      "finding": "Manifest duration 31.541s; indexed dimensions 1280×720. Source unchanged flag recorded; fresh encoding and audio clipping checks not run.",
+      "evidence": "Group manifest",
+      "status": "uncertain",
+      "reason": "Inherited technical metadata; no fresh media probe in this review.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q14",
+      "finding": "The merchandise range and availability remain clear silently; buying details are missing in the visual layer.",
+      "evidence": "V01–V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q15",
+      "finding": "Macro texture directs attention to quality, then faces and caps, then centered isolated items; the final circular graphic partly covers the clothing.",
+      "evidence": "V01–V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q16",
+      "finding": "About 11s are spent on clothing detail before a short accessory montage; the limited text keeps density low.",
+      "evidence": "V01–V03",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q17",
+      "finding": "The opening embroidery is paid off by complete garments and a named collection. Available Now does not supply a practical next step.",
+      "evidence": "V01,V03",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q18",
+      "finding": "The sunny rooftop and clean product isolation appear designed to create casual brand belonging and desire; no viewer response is measured.",
+      "evidence": "V01–V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q19",
+      "finding": "Black items, white marks and sky background carry continuity across macro, model and floating-object shots.",
+      "evidence": "V01–V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q20",
+      "finding": "Appearance and wearing context are shown; material specification, sizing, durability and current stock are not verified.",
+      "evidence": "V01–V03",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q21",
+      "finding": "Framer embroidery, strap text, stickers and custom graphics make the merchandise specific even without the closing logo.",
+      "evidence": "V01–V03",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q22",
+      "finding": "Replace part of the cup hold with a store destination. Keep the embroidery macro because it gives a tangible reason to look closely.",
+      "evidence": "V01,V03",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q23",
+      "finding": "For a physical brand kit, capture macro texture, a person using the item and a clean isolated view with consistent background color. Add a clear destination.",
+      "evidence": "V01–V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q24",
+      "finding": "Framer announces branded clothing and accessories in an Essential Collection.",
+      "evidence": "Model reading from inspected images",
+      "status": "uncertain",
+      "reason": "Model-only new-viewer interpretation; no human test.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q25",
+      "finding": "Contact sheets inspected at displayed size; a phone-size playback, caption audit, flash audit and formal accessibility check were not performed.",
+      "evidence": "Viewed sheets",
+      "status": "not checked",
+      "reason": "Full-size moving-image and device checks unavailable in this pass.",
+      "experiment": "none"
+    }
+  ],
+  "lessons": {
+    "keep": "Move from material detail to the full item in use.",
+    "avoid": "Announcing availability without a purchase destination.",
+    "open": "Actual sound, source methods, material specifications and buying details remain unverified.",
+    "try": [
+      "For Tin event merchandise, open on stitching, show the garment worn and finish with the exact shop link.",
+      "Test a split view of fabric detail and full fit before the product range montage."
+    ]
+  },
+  "comparison": {
+    "story": "Establish materials and wearable fit. → Expand the merchandise range. → Name the collection and availability. → Return the collection to people and close the brand.",
+    "motion": "View scale moves from stitch macro to models; isolated products tilt and drift against sky, the grouped collection changes arrangement, and a bright wash ends the rooftop shot. Sampling scope: 1 fps unless a closer window is recorded.",
+    "sound": "No validated listening; unknown.",
+    "texture": "Black fabric, raised white stitching, blue sky and sun flare.; Isolated product imagery, bright sky and subtle depth.; White announcement type over black products and blue sky.; Outdoor fashion image, graphic overlay and brief colored flare.",
+    "lesson": "Move from material detail to the full item in use."
+  },
+  "elements": [
+    {
+      "kind": "motion",
+      "name": "floating product rotation",
+      "events": [
+        "V02",
+        "V03"
+      ]
+    },
+    {
+      "kind": "texture",
+      "name": "embroidered fabric",
+      "events": [
+        "V01"
+      ]
+    },
+    {
+      "kind": "texture",
+      "name": "blue sky backdrop",
+      "events": [
+        "V01",
+        "V02",
+        "V03"
+      ]
+    },
+    {
+      "kind": "texture",
+      "name": "fashion footage",
+      "events": [
+        "V01",
+        "V04"
+      ]
+    }
+  ]
+}

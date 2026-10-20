@@ -1,0 +1,418 @@
+{
+  "id": 327,
+  "viewed_evidence": [
+    "technical-review-2026-10-19/deep-review/motion/327/timeline-00.jpg",
+    "technical-review-2026-10-19/deep-review/motion/327/timeline-01.jpg",
+    "technical-review-2026-10-19/deep-review/motion/327/timeline-02.jpg",
+    "technical-review-2026-10-19/deep-review/motion/327/timeline-03.jpg",
+    "technical-review-2026-10-19/deep-review/motion/327/timeline-04.jpg",
+    "technical-review-2026-10-19/deep-review/motion/327/timeline-05.jpg",
+    "technical-review-2026-10-19/deep-review/motion/327/timeline-06.jpg",
+    "technical-review-2026-10-19/deep-review/motion/327/timeline-07.jpg",
+    "astra-review-2026-10-20/evidence/group-3/327/full61.jpg",
+    "astra-review-2026-10-20/evidence/group-3/327/full145.jpg",
+    "astra-review-2026-10-20/evidence/group-3/327/full147.jpg",
+    "astra-review-2026-10-20/evidence/group-3/327/full166.jpg",
+    "astra-review-2026-10-20/evidence/group-3/327/full210.jpg",
+    "astra-review-2026-10-20/evidence/group-3/327/full211.jpg",
+    "technical-review-2026-10-19/deep-review/audio/327-speech.json"
+  ],
+  "product_from_film": "Typeless is a mobile voice keyboard for dictation, spoken edits and translation inside other apps.",
+  "explains_well": "The same text is dictated, translated, reformatted and shortened, making the edit chain easy to compare.",
+  "unclear": "Repeated explanations delay the next action, and small text makes it hard to judge exactly what was removed or preserved.",
+  "product_type": "mobile voice writing assistant",
+  "scenario": "Dictate a note, revise it by voice and write a translated social reply",
+  "product_clear_time": 10,
+  "product_clear_basis": "Founder introduction names Dictate, Edit and Translate with app controls.",
+  "scenes": [
+    {
+      "start": 0,
+      "end": 25,
+      "action": "Huang Song introduces mobile 1.0 and three voice features beside feature tiles.",
+      "design": "Circular presenter, name/role label and green/yellow captions.",
+      "purpose": "Orient viewer",
+      "id": "V01",
+      "evidence": "Visible 1 fps samples, source 0–25s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 25,
+      "end": 61,
+      "action": "Dictate chapter shows blank Notes page and active voice-keyboard button while captions describe Typeless and its features.",
+      "design": "Long stable phone capture with waveform and spoken-word captions.",
+      "purpose": "Demonstrate dictation input",
+      "id": "V02",
+      "evidence": "Visible 1 fps samples, source 25–61s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 61,
+      "end": 71,
+      "action": "Formatted note appears with four numbered features and closing paragraph.",
+      "design": "Result text above keyboard.",
+      "purpose": "Show cleaned output",
+      "id": "V03",
+      "evidence": "Visible 1 fps samples, source 61–71s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 71,
+      "end": 110,
+      "action": "Edit chapter explains selecting text and pen control; note becomes selected and edit interface opens.",
+      "design": "Selection highlight and persistent keyboard.",
+      "purpose": "Teach editing gesture",
+      "id": "V04",
+      "evidence": "Visible 1 fps samples, source 71–110s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 110,
+      "end": 120,
+      "action": "Captioned command asks for Japanese, shorter text and emojis; Japanese numbered text with emojis appears.",
+      "design": "Command capture followed by replacement text.",
+      "purpose": "Show compound edit",
+      "id": "V05",
+      "evidence": "Visible 1 fps samples, source 110–120s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 120,
+      "end": 148,
+      "action": "Explanation covers default last-text targeting; command requests English, no emojis and email format; English email appears.",
+      "design": "Same document changes without manual reselection.",
+      "purpose": "Show contextual follow-up edit",
+      "id": "V06",
+      "evidence": "Visible 1 fps samples, source 120–148s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 148,
+      "end": 168,
+      "action": "Command requests short one-paragraph Twitter post, then removal of hashtags; concise paragraph remains.",
+      "design": "Repeated voice command/result states.",
+      "purpose": "Show iterative refinement",
+      "id": "V07",
+      "evidence": "Visible 1 fps samples, source 148–168s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 168,
+      "end": 201,
+      "action": "Translate chapter shows Japanese social post and reply composer; instructions explain long press and swipe to Translate; mode menu opens and selection changes.",
+      "design": "Social app above voice keyboard with mode arc.",
+      "purpose": "Teach translation gesture",
+      "id": "V08",
+      "evidence": "Visible 1 fps samples, source 168–201s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 201,
+      "end": 212,
+      "action": "English thank-you message is captioned during capture; Japanese reply fills composer.",
+      "design": "Thinking state then ready reply text.",
+      "purpose": "Show translated output",
+      "id": "V09",
+      "evidence": "Visible 1 fps samples, source 201–212s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 212,
+      "end": 221,
+      "action": "Settings shows translation target Japanese and language options.",
+      "design": "Simple settings screen.",
+      "purpose": "Explain configuration",
+      "id": "V10",
+      "evidence": "Visible 1 fps samples, source 212–221s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 221,
+      "end": 224.333,
+      "action": "All-platform availability card lists desktop and mobile downloads with QR code.",
+      "design": "Download buttons on pale background.",
+      "purpose": "Close",
+      "id": "V11",
+      "evidence": "Visible 1 fps samples, source 221–224.333s; boundaries approximate, between-frame action unresolved."
+    }
+  ],
+  "sound": [
+    {
+      "id": "A01",
+      "start": 0,
+      "end": 224.333,
+      "layer": "unknown",
+      "detail": "No validated audio listening; speech, music, effects, mix and sync remain unverified.",
+      "visual_relation": "All visual scenes; alignment not checked",
+      "evidence": "No actual audio supplied to this review; existing technical-review-2026-10-19/deep-review/audio/327.json is not listening evidence."
+    },
+    {
+      "id": "A02",
+      "start": 0.55,
+      "end": 218.13,
+      "layer": "ASR draft",
+      "detail": "Candidate founder script and commands support three chapters, filler removal, last-text targeting, Japanese/English edits and translated reply. Reject Type-This, a phone, followers, parking and other obvious recognition errors; visible Typeless labels and captions are primary. No actual hearing, delivery or mix finding.",
+      "visual_relation": "V01–V10; candidate script with caption support",
+      "evidence": "technical-review-2026-10-19/deep-review/audio/327-speech.json; existing faster-whisper base CPU int8"
+    }
+  ],
+  "categories": [
+    {
+      "finding": "Three labelled chapters cover dictation, editing and translation. The repeated document across edits creates a strong causal chain, but the explanation is much longer than the visible actions.",
+      "evidence": "V01–V11",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q01"
+    },
+    {
+      "finding": "Founder greeting and name establish a personal introduction; the concrete features arrive about eight seconds later.",
+      "evidence": "V01",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q02"
+    },
+    {
+      "finding": "The three feature names and mobile controls identify a voice-writing assistant by about 10 s.",
+      "evidence": "V01",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q03"
+    },
+    {
+      "finding": "UI states show recording waveform, text insertion, selection highlight, edit replacement and a long-press mode menu. These functional changes dominate; precise gesture timing is unresolved.",
+      "evidence": "V02–V10",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q04"
+    },
+    {
+      "finding": "Persistent Dictate/Edit/Translate labels mark chapter changes. Keeping the same note through editing avoids unnecessary example resets.",
+      "evidence": "V02–V09",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q05"
+    },
+    {
+      "finding": "Pale background, black controls and large chapter labels create a simple tutorial frame. Green/yellow captions provide the main colour emphasis.",
+      "evidence": "V01–V11",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q06"
+    },
+    {
+      "finding": "Full 61 s makes the numbered output readable, and full 166 s shows one paragraph without hashtags. At contact-sheet scale, captions are much easier to read than the document details.",
+      "evidence": "V03, V07; full 61 and 166 s",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q07"
+    },
+    {
+      "finding": "Voice presence and delivery remain unverified.",
+      "evidence": "No validated audio listening",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q08"
+    },
+    {
+      "finding": "Music character and arc remain unverified.",
+      "evidence": "No validated audio listening",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q09"
+    },
+    {
+      "finding": "Sound effects remain unverified.",
+      "evidence": "No validated audio listening",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q10"
+    },
+    {
+      "finding": "Sound-to-motion timing remain unverified.",
+      "evidence": "No validated audio listening",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q11"
+    },
+    {
+      "finding": "Presenter inset, mobile screen capture, chapter labels and captions form a practical tutorial. Production software is unknown.",
+      "evidence": "V01–V11",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q12"
+    },
+    {
+      "finding": "Source duration supplied as 224.333s; no independent compression, clipping or delivery check.",
+      "evidence": "Assigned metadata; source integrity checked by parent",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q13"
+    },
+    {
+      "finding": "Captions state commands and button instructions, so most steps can be followed without sound. Translation quality cannot be established from the existence of Japanese text alone.",
+      "evidence": "V04–V10",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q14"
+    },
+    {
+      "finding": "Chapter labels orient the viewer, but the document and keyboard share a narrow column. Zooming to the changed sentence would show the value more clearly.",
+      "evidence": "V03–V09",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q15"
+    },
+    {
+      "finding": "Dictation input lasts about 36 s and edit explanation about 39 s before the first edit command. The long tutorial could be shortened substantially while preserving the useful result chain.",
+      "evidence": "V02, V04",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q16"
+    },
+    {
+      "finding": "The displayed output removes captioned filler words and formats a list; later commands produce Japanese text, an English email and a short paragraph. Exact fidelity needs closer comparison beyond the sampled review.",
+      "evidence": "V02–V07",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q17"
+    },
+    {
+      "finding": "A founder-led walkthrough with visible controls appears intended to make the app approachable and teachable. Audience response was not measured.",
+      "evidence": "V01, V04, V08",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q18"
+    },
+    {
+      "finding": "The same four-feature description persists across note and email versions. The later social reply is a separate example, clearly introduced by the Translate chapter.",
+      "evidence": "V03–V09",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q19"
+    },
+    {
+      "finding": "Perfect-text, native-speaker, everywhere and viral-post wording are claims or prompts. The film shows changed outputs, not independent accuracy, language quality or reach results.",
+      "evidence": "V02, V07–V09",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q20"
+    },
+    {
+      "finding": "Editing the last dictated text without reselection is a specific workflow detail, and the film explicitly explains and demonstrates it.",
+      "evidence": "V06",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q21"
+    },
+    {
+      "finding": "Replace repeated benefit statements with close before/after comparisons and put gesture instructions directly beside the active control.",
+      "evidence": "V04–V08",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q22"
+    },
+    {
+      "finding": "Reuse one piece of content across several edits so viewers can see what each command changes. Label the requested change before showing its result.",
+      "evidence": "V03–V07",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q23"
+    },
+    {
+      "finding": "No human new-viewer test; product description above is model interpretation of sampled images.",
+      "evidence": "V01–V11",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q24"
+    },
+    {
+      "finding": "No phone-size, safe-area or flash assessment; small UI text needs separate preview.",
+      "evidence": "Contact sheets",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q25"
+    }
+  ],
+  "lessons": {
+    "keep": "Keep the same content through dictation and successive voice edits.",
+    "try": [
+      "Cut repeated explanations and show each command immediately beside a before/after text comparison.",
+      "Zoom into the pen and Translate gestures, then hold the resulting changed sentence instead of the whole phone screen."
+    ],
+    "avoid": "Avoid making viewers wait through repeated capability claims while the screen remains unchanged.",
+    "open": "Audio is unheard. Speech accuracy, translation nuance, compatibility and actual processing latency remain unverified."
+  },
+  "comparison": {
+    "story": "Orient viewer → Demonstrate dictation input → Show cleaned output → Teach editing gesture → Show compound edit → Show contextual follow-up edit → Show iterative refinement → Teach translation gesture → Show translated output → Explain configuration → Close",
+    "motion": "UI states show recording waveform, text insertion, selection highlight, edit replacement and a long-press mode menu. These functional changes dominate; precise gesture timing is unresolved.",
+    "sound": "No validated listening; no absence claims.",
+    "texture": "Pale background, black controls and large chapter labels create a simple tutorial frame. Green/yellow captions provide the main colour emphasis.",
+    "lesson": "Keep the same content through dictation and successive voice edits."
+  },
+  "elements": [
+    {
+      "kind": "ui",
+      "name": "voice keyboard",
+      "events": [
+        "V02",
+        "V04",
+        "V08"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "text editor",
+      "events": [
+        "V02",
+        "V03",
+        "V04"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "selection highlight",
+      "events": [
+        "V04"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "social reply composer",
+      "events": [
+        "V08",
+        "V09"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "settings",
+      "events": [
+        "V10"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "mode menu",
+      "events": [
+        "V08"
+      ]
+    }
+  ],
+  "reviewer_model": "gpt-6-astra",
+  "scope": "sampled visual and story review; ASR and measured signal support; no validated audio listening",
+  "closer_windows": []
+}

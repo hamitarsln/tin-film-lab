@@ -1,0 +1,392 @@
+{
+  "id": 372,
+  "viewed_evidence": [
+    "technical-review-2026-10-19/deep-review/motion/372/timeline-00.jpg",
+    "technical-review-2026-10-19/deep-review/motion/372/timeline-01.jpg",
+    "astra-review-2026-10-20/evidence/group-3/372/dense23-27.jpg",
+    "astra-review-2026-10-20/evidence/group-3/372/full22.jpg",
+    "astra-review-2026-10-20/evidence/group-3/372/full32.jpg",
+    "technical-review-2026-10-19/deep-review/audio/372-speech.json"
+  ],
+  "product_from_film": "VoiceOS presents a voice interface that drafts text across apps.",
+  "explains_well": "The same small voice pill connects email, an AI prompt and a social reply into a simple repeated pattern.",
+  "unclear": "The spoken instruction is not written beside each result, so silent viewers cannot judge how the draft follows the request.",
+  "product_type": "productivity tool",
+  "scenario": "Speak a request to draft an email, expand a prompt or write a social reply",
+  "product_clear_time": 20,
+  "product_clear_basis": "Voice pill leads into a visible email draft; ASR separately names voice productivity at 14–18 s.",
+  "scenes": [
+    {
+      "start": 0,
+      "end": 4,
+      "action": "A small sky-filled sphere changes color and becomes a black circle.",
+      "design": "White field and cloud texture.",
+      "purpose": "Introduce round motif",
+      "id": "V01",
+      "evidence": "Visible 1 fps samples, source 0–4s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 4,
+      "end": 11,
+      "action": "What if your computer did not need a keyboard appears in pieces with a keyboard icon; circle and thin wave-like lines replace text.",
+      "design": "Black type, dot and line shapes.",
+      "purpose": "Pose alternative input",
+      "id": "V02",
+      "evidence": "Visible 1 fps samples, source 4–11s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 11,
+      "end": 18,
+      "action": "Cloud sphere grows into sky scene with geometric mark, then VoiceOS wordmark and a black pill with white bars.",
+      "design": "Clouds, blue glow and black brand.",
+      "purpose": "Introduce voice interface",
+      "id": "V03",
+      "evidence": "Visible 1 fps samples, source 11–18s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 18,
+      "end": 24,
+      "action": "Mail icon joins pill; email window fills with a project follow-up draft above Instantly replies for you. Window tilts and recedes in dense 23–24 s samples.",
+      "design": "White email card with blue glow.",
+      "purpose": "Show email drafting",
+      "id": "V04",
+      "evidence": "Visible 1 fps samples, source 18–24s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 24,
+      "end": 29,
+      "action": "Pill gains AI app icon; a narrow tilted panel emerges below near 25.25 s, expands and faces front by about 25.75 s; prompt text fills under Thought to polished prompt.",
+      "design": "Cream prompt composer and black caption pill.",
+      "purpose": "Show prompt expansion",
+      "id": "V05",
+      "evidence": "Visible 1 fps samples, source 24–29s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 29,
+      "end": 34,
+      "action": "X icon pill precedes reply composer; text becomes This is the kind of energy I am bringing to 2026 under Sounds just like you.",
+      "design": "Social draft and Reply button.",
+      "purpose": "Show social writing",
+      "id": "V06",
+      "evidence": "Visible 1 fps samples, source 29–34s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 34,
+      "end": 40,
+      "action": "Universal and works across all apps claims sit inside a ring of app icons, followed by zero setup required.",
+      "design": "Blue emphasis words and white icon tiles.",
+      "purpose": "Claim broad compatibility",
+      "id": "V07",
+      "evidence": "Visible 1 fps samples, source 34–40s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 40,
+      "end": 46.033,
+      "action": "Blue concentric rings lead to pale mark, then black VoiceOS wordmark and voiceos.com.",
+      "design": "White space and brand.",
+      "purpose": "Close with URL",
+      "id": "V08",
+      "evidence": "Visible 1 fps samples, source 40–46.033s; boundaries approximate, between-frame action unresolved."
+    }
+  ],
+  "sound": [
+    {
+      "id": "A01",
+      "start": 0,
+      "end": 46.033,
+      "layer": "unknown",
+      "detail": "No validated audio listening; speech, music, effects, mix and sync remain unverified.",
+      "visual_relation": "All visual scenes; alignment not checked",
+      "evidence": "No actual audio supplied to this review; existing technical-review-2026-10-19/deep-review/audio/372.json is not listening evidence."
+    },
+    {
+      "id": "A02",
+      "start": 3.37,
+      "end": 44.09,
+      "layer": "ASR draft",
+      "detail": "Coherent candidate script poses voice instead of keyboard, names VoiceOS, asks for a non-desperate reschedule reply, a payment-system prompt and a funny social comment, then claims all-app support with zero setup. This supports request-to-draft roles only. The email request says he while visible recipient is Emily, so exact alignment or wording may differ. No heard delivery or music finding.",
+      "visual_relation": "V02–V08; broad script support, exact timing unchecked",
+      "evidence": "technical-review-2026-10-19/deep-review/audio/372-speech.json; existing faster-whisper base CPU int8"
+    }
+  ],
+  "categories": [
+    {
+      "finding": "Keyboard alternative leads to voice branding and three text-drafting examples, then compatibility and URL.",
+      "evidence": "V02–V08",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q01"
+    },
+    {
+      "finding": "A small sky-filled sphere changes over white; no task or product is identified yet.",
+      "evidence": "V01 0–2 s",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q02"
+    },
+    {
+      "finding": "The voice pill and email draft establish a writing helper near 20 s; spoken candidate introduction names productivity earlier. Audience is broad computer users.",
+      "evidence": "V03–V04; ASR 14–18 s",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q03"
+    },
+    {
+      "finding": "Dense 23–27 s samples show email panel receding, a persistent pill, and a new prompt panel growing from a narrow tilted shape below it to a front-facing card. Bars change height; sound sync is unchecked.",
+      "evidence": "V04–V05; dense23-27.jpg",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q04"
+    },
+    {
+      "finding": "The pill bridges app changes while panels rotate in perspective and replace one another. This preserves a repeated input/result pattern.",
+      "evidence": "V04–V06",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q05"
+    },
+    {
+      "finding": "White space, soft blue edge glow, sky clouds and black rounded controls create a light visual system. No material or software provenance is established.",
+      "evidence": "V01–V08",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q06"
+    },
+    {
+      "finding": "Benefit captions are large, but original requests are not captioned beside output. Email full22 retains Send email and social full32 retains Reply, so both are draft states.",
+      "evidence": "V04–V06; full22.jpg, full32.jpg",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q07"
+    },
+    {
+      "finding": "Voice presence and delivery remain unverified.",
+      "evidence": "No validated audio listening",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q08"
+    },
+    {
+      "finding": "Music character and arc remain unverified.",
+      "evidence": "No validated audio listening",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q09"
+    },
+    {
+      "finding": "Sound effects remain unverified.",
+      "evidence": "No validated audio listening",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q10"
+    },
+    {
+      "finding": "Sound-to-motion timing remain unverified.",
+      "evidence": "No validated audio listening",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q11"
+    },
+    {
+      "finding": "Cloud imagery, stylized software panels, app icons and geometric marks fill the film. No presenter footage is used in the inspected samples.",
+      "evidence": "V01–V08",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q12"
+    },
+    {
+      "finding": "Source duration supplied as 46.033s; no independent compression, clipping or delivery check.",
+      "evidence": "Assigned metadata; source integrity checked by parent",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q13"
+    },
+    {
+      "finding": "The pill and growing text imply voice writing, but exact tone and content instructions are available only in the candidate ASR.",
+      "evidence": "V04–V06",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q14"
+    },
+    {
+      "finding": "One centered pill becomes one centered output card; the app-icon ring later introduces much more peripheral movement.",
+      "evidence": "V04–V07",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q15"
+    },
+    {
+      "finding": "Three short examples communicate breadth, but each output gets only a brief hold. The email body is still revealing at full22.",
+      "evidence": "V04–V06",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q16"
+    },
+    {
+      "finding": "The keyboard-alternative question is answered by text appearing in three composers, while sending or approval remains outside the shown flow.",
+      "evidence": "V02, V04–V06",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q17"
+    },
+    {
+      "finding": "Open white space and floating cloud shapes suggest ease and lightness; this is a visual interpretation, not measured response or heard delivery.",
+      "evidence": "V01–V08",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q18"
+    },
+    {
+      "finding": "The black pill stays recognizable while its app icon changes. Email, prompt and social reply are separate cases with consistent framing.",
+      "evidence": "V04–V06",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q19"
+    },
+    {
+      "finding": "The film shows draft text, not completed sends or a built payment system. Universal compatibility, zero setup and personal voice matching are claims beyond the three displayed composers.",
+      "evidence": "V04–V07",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q20"
+    },
+    {
+      "finding": "The voice pill and triangle/circle wordmark tie the examples to VoiceOS. The cloud and app-logo vocabulary is less specific.",
+      "evidence": "V03–V08",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q21"
+    },
+    {
+      "finding": "Retain the repeated pill-to-output structure. Replace some opening sphere time with a written instruction beside one result to clarify the transformation.",
+      "evidence": "V01, V04–V06",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q22"
+    },
+    {
+      "finding": "For a Tin drafting demo, retain one command pill as the result panel changes. Requires a real request, approved draft, app icon and state labels; perspective motion should not hide key text.",
+      "evidence": "V04–V06",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q23"
+    },
+    {
+      "finding": "No human new-viewer test; product description above is model interpretation of sampled images.",
+      "evidence": "V01–V08",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q24"
+    },
+    {
+      "finding": "No phone-size, safe-area or flash assessment; small UI text needs separate preview.",
+      "evidence": "Contact sheets",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q25"
+    }
+  ],
+  "lessons": {
+    "keep": "Use one persistent input control to connect several app-specific outputs.",
+    "try": [
+      "For an email assistant, show the exact short request above the pill and highlight the matching sentence in the resulting draft.",
+      "Try one restrained perspective panel entrance, then hold it flat for reading and label Draft ready before any send action."
+    ],
+    "avoid": "Avoid calling a visible draft a completed reply or hiding the instruction needed to judge the result.",
+    "open": "Actual voice recognition, personal style matching, compatibility, setup and all heard sound remain unverified."
+  },
+  "comparison": {
+    "story": "Introduce round motif → Pose alternative input → Introduce voice interface → Show email drafting → Show prompt expansion → Show social writing → Claim broad compatibility → Close with URL",
+    "motion": "Dense 23–27 s samples show email panel receding, a persistent pill, and a new prompt panel growing from a narrow tilted shape below it to a front-facing card. Bars change height; sound sync is unchecked.",
+    "sound": "No validated listening; no absence claims.",
+    "texture": "White space, soft blue edge glow, sky clouds and black rounded controls create a light visual system. No material or software provenance is established.",
+    "lesson": "Use one persistent input control to connect several app-specific outputs."
+  },
+  "elements": [
+    {
+      "kind": "ui",
+      "name": "voice input pill",
+      "events": [
+        "V03",
+        "V04",
+        "V05",
+        "V06"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "email composer",
+      "events": [
+        "V04"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "prompt composer",
+      "events": [
+        "V05"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "social reply",
+      "events": [
+        "V06"
+      ]
+    },
+    {
+      "kind": "motion",
+      "name": "perspective panel transition",
+      "events": [
+        "V04",
+        "V05"
+      ]
+    },
+    {
+      "kind": "texture",
+      "name": "clouds",
+      "events": [
+        "V01",
+        "V03"
+      ]
+    }
+  ],
+  "reviewer_model": "gpt-6-astra",
+  "scope": "sampled visual and story review; ASR and measured signal support; no validated audio listening",
+  "closer_windows": [
+    {
+      "start": 23,
+      "end": 27,
+      "rate_fps": 4,
+      "evidence": [
+        "astra-review-2026-10-20/evidence/group-3/372/dense23-27.jpg"
+      ],
+      "resolved": "Email panel recedes, pill persists, new prompt panel expands from a narrow tilted shape below the pill and faces front. Bar changes are visible; sound sync and easing are not established."
+    }
+  ]
+}

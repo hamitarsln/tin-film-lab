@@ -1,0 +1,377 @@
+{
+  "id": 517,
+  "product_from_film": "Perplexity is a search and answer interface that asks clarifying questions and returns sources, text, images and video.",
+  "explains_well": "One travel query is narrowed by preferences, answered with sources, then extended into a visual follow-up about The Narrows.",
+  "unclear": "The move from the image follow-up to a new sunset video query skips how that next request was entered.",
+  "product_type": "Search and answer tool",
+  "scenario": "Explore summer destinations, narrow interests to nature, then inspect a suggested place through images and video.",
+  "product_clear_time": 31,
+  "product_clear_basis": "By 31s the preference questions lead to sources and visual results; the answer view follows at 32s.",
+  "scenes": [
+    {
+      "start": 0,
+      "end": 11,
+      "action": "Keyboard close-ups and people using devices carry search prompts about headphones, travel and a career pivot.",
+      "design": "Dark macro keys, warm human scenes and thin search overlays.",
+      "purpose": "Make common questions the starting point.",
+      "evidence": "1 fps source samples in 0–11s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V01"
+    },
+    {
+      "start": 11,
+      "end": 18,
+      "action": "Pixel-like screen detail gives way to search results layered over eyes; text says search engines often leave us lost.",
+      "design": "Dense links and face overlay.",
+      "purpose": "Frame information overload as the problem.",
+      "evidence": "1 fps source samples in 11–18s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V02"
+    },
+    {
+      "start": 18,
+      "end": 29,
+      "action": "A person opens a laptop, then a travel query appears in a clean interface; Copilot asks travel type and nature interests, and choices are selected before Send.",
+      "design": "White canvas, teal selected pills and enlarged form controls.",
+      "purpose": "Show the product narrowing a broad question.",
+      "evidence": "1 fps source samples in 18–29s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V03"
+    },
+    {
+      "start": 29,
+      "end": 34,
+      "action": "The interface shows research states, sources, destination images and an answer to the summer travel query.",
+      "design": "Full result page with source cards and image rail.",
+      "purpose": "Pay off the preference input with an answer.",
+      "evidence": "1 fps source samples in 29–34s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V04"
+    },
+    {
+      "start": 34,
+      "end": 41,
+      "action": "A close view of the follow-up field types a request to see The Narrows; the answer page gains canyon image results.",
+      "design": "Large input crop returns to the full page.",
+      "purpose": "Continue the same inquiry through a specific visual request.",
+      "evidence": "1 fps source samples in 34–41s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V05"
+    },
+    {
+      "start": 41,
+      "end": 47,
+      "action": "A dark image viewer displays several canyon photos as the selected thumbnail changes.",
+      "design": "Large central image and narrow thumbnail column.",
+      "purpose": "Let the user inspect the destination visually.",
+      "evidence": "1 fps source samples in 41–47s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V06"
+    },
+    {
+      "start": 47,
+      "end": 56,
+      "action": "A sunset-at-Zion query with video results leads to an open video player, then a full-frame canyon walker; text says We are not one-size-fits-all and Neither are you.",
+      "design": "Results UI, video player and landscape scene.",
+      "purpose": "Extend search into media and connect it to personal exploration.",
+      "evidence": "1 fps source samples in 47–56s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V07"
+    },
+    {
+      "start": 56,
+      "end": 69.069,
+      "action": "This is where knowledge begins leads to the Perplexity mark and website, held before fading to a dark ending.",
+      "design": "White end card, restrained teal brand and small URL.",
+      "purpose": "Close with the brand promise and destination.",
+      "evidence": "1 fps source samples in 56–69.069s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V08"
+    }
+  ],
+  "categories": [
+    {
+      "id": "Q01",
+      "finding": "Common questions → search overload → guided travel search → visual follow-up → personal exploration → brand.",
+      "evidence": "V01–V08",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q02",
+      "finding": "Familiar search questions make the premise legible before the product is named.",
+      "evidence": "V01",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q03",
+      "finding": "The preference form shows the search approach by 23s; sources and results make the payoff clear around 31s.",
+      "evidence": "V03,V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q04",
+      "finding": "Prompt text grows across samples, preference pills change selection and viewer thumbnails change active image; exact transition mechanics unverified.",
+      "evidence": "V01,V03,V05,V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q05",
+      "finding": "The travel theme persists from the initial query through preferences, canyon images and video.",
+      "evidence": "V03–V07",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q06",
+      "finding": "Dark search overload contrasts with a spacious white results UI and teal controls.",
+      "evidence": "V02–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q07",
+      "finding": "Large question and preference crops are readable; full answer prose and source labels are too small for full inspection in the sheets.",
+      "evidence": "V03–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q08",
+      "finding": "Voice delivery is unverified.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "No validated listening.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q09",
+      "finding": "Music character and structure are unverified.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "No validated listening.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q10",
+      "finding": "Effects and their sources are unverified.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "No validated listening; waveform peaks do not identify effects.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q11",
+      "finding": "Sound sync is unverified.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "No validated listening or paired audiovisual timing.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q12",
+      "finding": "Device footage, search overlays, an answer interface, image viewer and video player are visible; capture method and asset provenance are unknown.",
+      "evidence": "V01–V07",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q13",
+      "finding": "Source duration 69.069 s; Watch metadata 1280 × 720. Frame rate, audio clipping and export quality not checked here.",
+      "evidence": "Whole film",
+      "status": "supported",
+      "reason": "Parent source metadata supports duration and dimensions; visual review is sampled.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q14",
+      "finding": "The full search-to-image sequence is understandable from written prompts and visible selections without a transcript.",
+      "evidence": "V03–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q15",
+      "finding": "Input controls and follow-up text receive close framing; full-page views restore where the results live.",
+      "evidence": "V03–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q16",
+      "finding": "About twenty-six seconds follow the same travel inquiry, allowing preference selection and visual follow-up to build on each other.",
+      "evidence": "V03–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q17",
+      "finding": "Clarifying questions lead to a sourced answer and image results; the video step is shown with less input continuity.",
+      "evidence": "V03–V07",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q18",
+      "finding": "The canyon imagery frames search as personal discovery; this is an intended emotional reading, not measured response.",
+      "evidence": "V06,V07",
+      "status": "uncertain",
+      "reason": "Visual interpretation only.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q19",
+      "finding": "A nature preference and visual follow-up visibly shape the output type; the new sunset request appears without its entry step.",
+      "evidence": "V03–V07",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q20",
+      "finding": "Answer accuracy, source quality, live speed and personalization are not independently verified. The funding amount in the source title is not established by the inspected film.",
+      "evidence": "V03–V08",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q21",
+      "finding": "The same travel inquiry ties preference controls to text, pictures and further exploration.",
+      "evidence": "V03–V07",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q22",
+      "finding": "Bridge the last change of request.",
+      "evidence": "V07",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "Show the short sunset-video request being entered before the video results appear."
+    },
+    {
+      "id": "Q23",
+      "finding": "Carry one concrete request through its refinements and outputs.",
+      "evidence": "V03–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "For Tin, keep one campaign brief visible through audience choices, generated work and its final preview."
+    },
+    {
+      "id": "Q24",
+      "finding": "No human new-viewer test was performed.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "The product summary is this model’s film-only reading.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q25",
+      "finding": "Mobile preview and accessibility checks were not performed.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "Contact sheets are evidence views, not a stated mobile preview or compliance test.",
+      "experiment": "none"
+    }
+  ],
+  "elements": [
+    {
+      "kind": "ui",
+      "name": "search field",
+      "events": [
+        "V01",
+        "V03"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "preference selection",
+      "events": [
+        "V03"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "source cards",
+      "events": [
+        "V04",
+        "V05",
+        "V07"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "image viewer",
+      "events": [
+        "V06"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "video player",
+      "events": [
+        "V07"
+      ]
+    },
+    {
+      "kind": "motion",
+      "name": "text entry",
+      "events": [
+        "V01",
+        "V03",
+        "V05"
+      ]
+    },
+    {
+      "kind": "texture",
+      "name": "face and search overlay",
+      "events": [
+        "V02"
+      ]
+    }
+  ],
+  "lessons": {
+    "keep": "Keep one inquiry continuous through questions, answer and a visual follow-up.",
+    "try": [
+      "Show the entry step that connects the image inquiry to video results.",
+      "For Tin, carry one campaign brief through choices, generated work and a final preview."
+    ],
+    "avoid": "Switching to a new query without showing the action that starts it.",
+    "open": "No local speech draft was present; audio remains unassessed rather than absent. Accuracy, speed and media provenance are unverified."
+  },
+  "comparison": {
+    "story": "A broad travel question becomes a more specific visual exploration.",
+    "motion": "Text entry, preference states and image selection visible in samples.",
+    "sound": "No validated listening and no local speech draft.",
+    "texture": "Human device footage, search overload overlay and clean answer UI.",
+    "lesson": "One continuous inquiry explains multiple capabilities with little extra explanation."
+  },
+  "reviewer_model": "gpt-6-astra",
+  "scope": "sampled visual and story review; ASR and measured signal support; no validated audio listening",
+  "viewed_evidence": [
+    "technical-review-2026-10-19/deep-review/motion/517/timeline-00.jpg",
+    "technical-review-2026-10-19/deep-review/motion/517/timeline-01.jpg",
+    "technical-review-2026-10-19/deep-review/motion/517/timeline-02.jpg"
+  ],
+  "closer_windows": [],
+  "sound": [
+    {
+      "id": "A01",
+      "start": 0,
+      "end": 69.069,
+      "layer": "unknown",
+      "detail": "No validated audio listening. Voice delivery, music, effects and mix are unknown.",
+      "visual_relation": "All scenes; sound alignment unverified",
+      "evidence": "No actual audio perception in this review; prepared audio files are not listening evidence."
+    }
+  ]
+}

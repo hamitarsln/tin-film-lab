@@ -1,0 +1,367 @@
+{
+  "id": 492,
+  "reviewer_model": "gpt-6-astra",
+  "scope": "sampled visual and story review; ASR and measured signal support; no validated audio listening",
+  "viewed_evidence": [
+    "technical-review-2026-10-19/deep-review/motion/492/timeline-00.jpg",
+    "technical-review-2026-10-19/deep-review/motion/492/timeline-01.jpg",
+    "technical-review-2026-10-19/deep-review/motion/492/timeline-02.jpg",
+    "technical-review-2026-10-19/deep-review/motion/492/timeline-03.jpg",
+    "technical-review-2026-10-19/deep-review/motion/492/timeline-04.jpg",
+    "technical-review-2026-10-19/deep-review/motion/492/timeline-05.jpg",
+    "technical-review-2026-10-19/deep-review/motion/492/timeline-06.jpg",
+    "technical-review-2026-10-19/deep-review/motion/492/timeline-07.jpg",
+    "technical-review-2026-10-19/deep-review/audio/492-speech.json"
+  ],
+  "closer_windows": [],
+  "product_from_film": "Silvia is a personal financial assistant presented through a phone conversation about balances and investments.",
+  "explains_well": "Follow-up questions move from total cash to account split, then from market news to one holding and portfolio risk.",
+  "unclear": "No account dashboard or source is shown, so viewers cannot see how the answers connect to the underlying financial data.",
+  "product_type": "personal financial assistant",
+  "scenario": "Ask by phone about cash, market effects and portfolio concentration.",
+  "product_clear_time": 23,
+  "product_clear_basis": "The captioned assistant reply supplies a specific cash balance after the presenter asks.",
+  "scenes": [
+    {
+      "id": "V01",
+      "start": 0,
+      "end": 14,
+      "action": "A suited presenter at a desk introduces a personal CFO and calls the demonstration live. He holds a phone and green captions introduce Silvia.",
+      "design": "Fixed office view, bookshelf, white presenter captions and green assistant captions.",
+      "purpose": "Explain the category and begin a phone demonstration.",
+      "evidence": "Visible chronological 1 fps samples, source 0–14s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V02",
+      "start": 14,
+      "end": 30,
+      "action": "The presenter asks how much cash he has. After a pause and lookup wording, the green captions state $18.5 million.",
+      "design": "Same office framing and alternating caption colors.",
+      "purpose": "Show account information through conversation.",
+      "evidence": "Visible chronological 1 fps samples, source 14–30s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V03",
+      "start": 30,
+      "end": 44,
+      "action": "A follow-up asks for checking versus savings. Captions give $18 million and $500,000 before asking what else to discuss.",
+      "design": "Phone held near the presenter and short caption chunks.",
+      "purpose": "Demonstrate conversational context and detail.",
+      "evidence": "Visible chronological 1 fps samples, source 30–44s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V04",
+      "start": 44,
+      "end": 97,
+      "action": "The presenter asks how China trade negotiations affect his portfolio. A long captioned response discusses tariffs, a market rally and possible fragility, then offers more specific holding analysis.",
+      "design": "Nearly unchanged camera view with sustained green captions.",
+      "purpose": "Connect current events to financial questions, initially at a broad level.",
+      "evidence": "Visible chronological 1 fps samples, source 44–97s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V05",
+      "start": 97,
+      "end": 124,
+      "action": "The presenter asks about Nvidia. Captions state a holding value around $12.482 million and describe possible cost and profitability effects.",
+      "design": "Fixed presenter view with waiting intervals and captioned reply.",
+      "purpose": "Narrow the broad market question to a named holding.",
+      "evidence": "Visible chronological 1 fps samples, source 97–124s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V06",
+      "start": 124,
+      "end": 161,
+      "action": "The presenter asks for the biggest portfolio risk. The answer identifies concentration in Nvidia and Tesla, gives approximate holdings and suggests diversification; the presenter ends the call.",
+      "design": "Same office composition and clear white/green text distinction.",
+      "purpose": "Show a portfolio-level interpretation and close the example.",
+      "evidence": "Visible chronological 1 fps samples, source 124–161s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V07",
+      "start": 161,
+      "end": 194,
+      "action": "The presenter addresses the camera and lists phone, email and dashboard chat access, connected account types, net worth tracking and market insight.",
+      "design": "Direct-to-camera explanation with white captions and a Silvia corner mark.",
+      "purpose": "Broaden the product beyond the demonstrated phone call.",
+      "evidence": "Visible chronological 1 fps samples, source 161–194s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V08",
+      "start": 194,
+      "end": 217,
+      "action": "He claims encryption and anonymization, describes personal use and invites viewers to CFOsilvia.com.",
+      "design": "Unchanged office setup and captioned claims.",
+      "purpose": "Address trust and provide the next step.",
+      "evidence": "Visible chronological 1 fps samples, source 194–217s; boundary approximate; exact motion between samples unverified."
+    },
+    {
+      "id": "V09",
+      "start": 217,
+      "end": 224.7,
+      "action": "Silvia and CFOsilvia.com hold on black.",
+      "design": "Green serif brand name and white URL.",
+      "purpose": "Give a clear destination.",
+      "evidence": "Visible chronological 1 fps samples, source 217–224.7s; boundary approximate; exact motion between samples unverified."
+    }
+  ],
+  "sound": [
+    {
+      "id": "A01",
+      "start": 0,
+      "end": 224.7,
+      "layer": "unknown",
+      "detail": "No validated direct audio listening was performed. Music, speech delivery, effects, mix and sync remain unknown, not absent.",
+      "visual_relation": "All visual scenes; audiovisual alignment unverified",
+      "evidence": "Visual samples only; no actual audio range supplied to this reviewer."
+    },
+    {
+      "id": "A02",
+      "start": 0.04,
+      "end": 216.51,
+      "layer": "ASR draft",
+      "detail": "The ASR draft supports the introduction, balance questions, market-news follow-up, Nvidia question, concentration discussion and closing feature pitch. It misses parts of several replies and misreads some figures; visible captions establish the displayed numbers. It does not validate financial claims, voice quality or live operation.",
+      "visual_relation": "Story text support; exact audiovisual alignment and delivery unverified.",
+      "evidence": "technical-review-2026-10-19/deep-review/audio/492-speech.json; local faster-whisper base CPU int8 draft; VAD candidates only, recognition errors possible."
+    }
+  ],
+  "categories": [
+    {
+      "id": "Q01",
+      "finding": "A short introduction leads to five connected financial questions, then a broader feature and trust explanation and URL.",
+      "evidence": "V01–V09",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q02",
+      "finding": "The presenter states the personal-CFO category immediately and moves to a phone demonstration within seconds.",
+      "evidence": "V01",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q03",
+      "finding": "People managing several financial accounts are the stated audience, though the example uses unusually large balances. The first concrete answer appears at 23s.",
+      "evidence": "V02,V07",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q04",
+      "finding": "The camera stays nearly fixed as the presenter raises and lowers the phone, gestures and waits; short captions change throughout, followed by a static end card.",
+      "evidence": "V01–V09",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q05",
+      "finding": "White questions and green assistant replies distinguish the two sides of a conversation without showing the phone interface.",
+      "evidence": "V01–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q06",
+      "finding": "A suit, bookshelf and office desk provide a professional setting; green serif branding adds a restrained financial identity.",
+      "evidence": "V01–V09",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q07",
+      "finding": "Short caption chunks are readable, but the green text can lose contrast against the blue suit and busy background. No visual summary collects the key numbers.",
+      "evidence": "V02–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q08",
+      "finding": "The ASR draft supports the introduction, balance questions, market-news follow-up, Nvidia question, concentration discussion and closing feature pitch. It misses parts of several replies and misreads some figures; visible captions establish the displayed numbers. It does not validate financial claims, voice quality or live operation.",
+      "evidence": "A02",
+      "status": "uncertain",
+      "reason": "ASR text only; no validated listening, delivery or voice origin.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q09",
+      "finding": "Voice delivery, music, effects and audiovisual alignment were not established by this visual pass.",
+      "evidence": "A01",
+      "status": "not checked",
+      "reason": "No validated direct audio listening input.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q10",
+      "finding": "Voice delivery, music, effects and audiovisual alignment were not established by this visual pass.",
+      "evidence": "A01",
+      "status": "not checked",
+      "reason": "No validated direct audio listening input.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q11",
+      "finding": "Voice delivery, music, effects and audiovisual alignment were not established by this visual pass.",
+      "evidence": "A01",
+      "status": "not checked",
+      "reason": "No validated direct audio listening input.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q12",
+      "finding": "Presenter footage, caption overlays and a brand card are visible. There is no readable app screen or account visualization.",
+      "evidence": "V01–V09",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q13",
+      "finding": "Manifest duration 224.7s; indexed dimensions 1920×1080. Source unchanged flag recorded; fresh encoding and audio clipping checks not run.",
+      "evidence": "Group manifest",
+      "status": "uncertain",
+      "reason": "Inherited technical metadata; no fresh media probe in this review.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q14",
+      "finding": "Captions preserve the questions and answers for a visual review. The ASR draft is partial and omits or mishears some numbers, so visible captions are stronger evidence for those details.",
+      "evidence": "V02–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q15",
+      "finding": "The presenter remains the sole visual focus; long assistant replies provide little change beyond captions and facial reactions.",
+      "evidence": "V02–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q16",
+      "finding": "The market-news answer occupies roughly fifty seconds. The extended fixed shot supports a live-demo feel but slows the explanation without visual data anchors.",
+      "evidence": "V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q17",
+      "finding": "The follow-ups preserve context: cash becomes account split, market news becomes Nvidia exposure, then portfolio concentration.",
+      "evidence": "V02–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q18",
+      "finding": "The office and direct address suggest personal trust and seriousness. Actual voice quality, latency as heard and music are unknown.",
+      "evidence": "V01–V08",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q19",
+      "finding": "Question-to-captioned-answer chains are visible, but account connection, source retrieval and dashboard use are not shown.",
+      "evidence": "V02–V07",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q20",
+      "finding": "Live-demo status, balances, market analysis, encryption and anonymization are claims in the film. This review does not verify them; caption pauses also do not prove end-to-end latency.",
+      "evidence": "V01–V08",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q21",
+      "finding": "Silvia stays in the lower corner and the closing URL is held long enough to read.",
+      "evidence": "V01–V09",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q22",
+      "finding": "Add a small account card for the cash split and a holdings chart for the concentration answer, then shorten the general market explanation.",
+      "evidence": "V03,V04,V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q23",
+      "finding": "Use follow-up questions to move from a broad answer to a specific personal detail.",
+      "evidence": "V02–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled images; interpretation is identified in the finding.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q24",
+      "finding": "Silvia is a personal financial assistant presented through a phone conversation about balances and investments.",
+      "evidence": "Model reading from inspected images",
+      "status": "uncertain",
+      "reason": "Model-only new-viewer interpretation; no human test.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q25",
+      "finding": "Contact sheets inspected at displayed size; a phone-size playback, caption audit, flash audit and formal accessibility check were not performed.",
+      "evidence": "Viewed sheets",
+      "status": "not checked",
+      "reason": "Full-size moving-image and device checks unavailable in this pass.",
+      "experiment": "none"
+    }
+  ],
+  "lessons": {
+    "keep": "Build the demo around connected follow-up questions rather than unrelated features.",
+    "avoid": "Asking viewers to retain many financial figures without showing the underlying account view or a summary.",
+    "open": "Account data, source accuracy, live-demo integrity, privacy claims, voice quality and actual latency remain unverified.",
+    "try": [
+      "For Tin, ask for campaign spend, then the channel split, then the largest performance risk using the same campaign.",
+      "Add a visible source account card and holdings chart beside the phone conversation."
+    ]
+  },
+  "comparison": {
+    "story": "Explain the category and begin a phone demonstration. → Show account information through conversation. → Demonstrate conversational context and detail. → Connect current events to financial questions, initially at a broad level. → Narrow the broad market question to a named holding. → Show a portfolio-level interpretation and close the example. → Broaden the product beyond the demonstrated phone call. → Address trust and provide the next step. → Give a clear destination.",
+    "motion": "The camera stays nearly fixed as the presenter raises and lowers the phone, gestures and waits; short captions change throughout, followed by a static end card. Sampling scope: 1 fps unless a closer window is recorded.",
+    "sound": "No validated listening; unknown.",
+    "texture": "Fixed office view, bookshelf, white presenter captions and green assistant captions.; Same office framing and alternating caption colors.; Phone held near the presenter and short caption chunks.; Nearly unchanged camera view with sustained green captions.; Fixed presenter view with waiting intervals and captioned reply.; Same office composition and clear white/green text distinction.; Direct-to-camera explanation with white captions and a Silvia corner mark.; Unchanged office setup and captioned claims.; Green serif brand name and white URL.",
+    "lesson": "Build the demo around connected follow-up questions rather than unrelated features."
+  },
+  "elements": [
+    {
+      "kind": "motion",
+      "name": "speaker-colored captions",
+      "events": [
+        "V01",
+        "V02",
+        "V03",
+        "V04",
+        "V05",
+        "V06"
+      ]
+    },
+    {
+      "kind": "texture",
+      "name": "office bookshelf",
+      "events": [
+        "V01",
+        "V07"
+      ]
+    }
+  ]
+}

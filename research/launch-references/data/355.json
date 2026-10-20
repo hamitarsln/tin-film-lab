@@ -1,0 +1,396 @@
+{
+  "id": 355,
+  "viewed_evidence": [
+    "technical-review-2026-10-19/deep-review/motion/355/timeline-00.jpg",
+    "technical-review-2026-10-19/deep-review/motion/355/timeline-01.jpg",
+    "technical-review-2026-10-19/deep-review/motion/355/timeline-02.jpg",
+    "technical-review-2026-10-19/deep-review/motion/355/timeline-03.jpg",
+    "astra-review-2026-10-20/evidence/group-3/355/dense62-66.jpg",
+    "technical-review-2026-10-19/deep-review/audio/355-speech.json"
+  ],
+  "product_from_film": "Lyria 3 is a music generation model from Google.",
+  "explains_well": "Prompt cards and changing genre, dynamics and language words show the kinds of direction a user can give.",
+  "unclear": "The film does not show where to enter an image or prompt, generate a track and retrieve that same result.",
+  "product_type": "creative tool",
+  "scenario": "Direct music through text, image, genre and language choices",
+  "product_clear_time": 10,
+  "product_clear_basis": "The music generation model title names the task.",
+  "scenes": [
+    {
+      "start": 0,
+      "end": 5,
+      "action": "Large tilted green words replace each other, then vertical gradient bars appear.",
+      "design": "Mint background; tcha, tá and passando text.",
+      "purpose": "Introduce a music-like word motif",
+      "id": "V01",
+      "evidence": "Visible 1 fps samples, source 0–5s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 5,
+      "end": 12,
+      "action": "Lyria 3 and Google titles resolve, followed by music generation model.",
+      "design": "Green type on pale green gradient.",
+      "purpose": "Name product",
+      "id": "V02",
+      "evidence": "Visible 1 fps samples, source 5–12s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 12,
+      "end": 16,
+      "action": "A white card fills with a detailed vocal and arrangement prompt.",
+      "design": "Small black prose with green highlighted phrases.",
+      "purpose": "Show text direction",
+      "id": "V03",
+      "evidence": "Visible 1 fps samples, source 12–16s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 16,
+      "end": 27,
+      "action": "Pink bands replace green; feet, red clay ground and repeated singing words change scale and arrangement.",
+      "design": "White lyric-like text on pink vertical bands.",
+      "purpose": "Suggest a generated example",
+      "id": "V04",
+      "evidence": "Visible 1 fps samples, source 16–27s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 27,
+      "end": 41,
+      "action": "Rounded image cards move across white space; a wine website and coastal road become isolated central cards over enlarged soft backgrounds.",
+      "design": "Paintings, photos and website thumbnail.",
+      "purpose": "Suggest image-led use cases",
+      "id": "V05",
+      "evidence": "Visible 1 fps samples, source 27–41s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 41,
+      "end": 59,
+      "action": "A genre list gives way to a rock illustration with repeated Rock text, then new hybrid genres and Syncopated Psychedelic Funk.",
+      "design": "Purple and pink gradients; green illustrated creature.",
+      "purpose": "Show genre range",
+      "id": "V06",
+      "evidence": "Visible 1 fps samples, source 41–59s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 59,
+      "end": 71,
+      "action": "A new detailed prompt precedes repeated Dynamics text. In the checked 62–66 s window the column enlarges, shrinks and grows again before bars enter below. Tempo words and bars follow.",
+      "design": "Pink prompt card, type column and gradient bars.",
+      "purpose": "Show musical control concepts",
+      "id": "V07",
+      "evidence": "Visible 1 fps samples, source 59–71s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 71,
+      "end": 83,
+      "action": "Language names multiply across the frame; Hindi then Spanish dominate successive grids.",
+      "design": "Small repeated white and yellow words.",
+      "purpose": "Show language range",
+      "id": "V08",
+      "evidence": "Visible 1 fps samples, source 71–83s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 83,
+      "end": 89,
+      "action": "Layered colored rectangles give way to a tilted spectrum-like panel and Watermarked music title.",
+      "design": "Multicolor planes; purple blue frequency-like texture.",
+      "purpose": "State export watermark claim",
+      "id": "V09",
+      "evidence": "Visible 1 fps samples, source 83–89s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 89,
+      "end": 100.633,
+      "action": "Large soft letter fragments resolve into Lyria 3, then Learn more and deepmind.google/lyria hold.",
+      "design": "Return to mint green.",
+      "purpose": "Close with information route",
+      "id": "V10",
+      "evidence": "Visible 1 fps samples, source 89–100.633s; boundaries approximate, between-frame action unresolved."
+    }
+  ],
+  "sound": [
+    {
+      "id": "A01",
+      "start": 0,
+      "end": 100.633,
+      "layer": "unknown",
+      "detail": "No validated audio listening; speech, music, effects, mix and sync remain unverified.",
+      "visual_relation": "All visual scenes; alignment not checked",
+      "evidence": "No actual audio supplied to this review; existing technical-review-2026-10-19/deep-review/audio/355.json is not listening evidence."
+    },
+    {
+      "id": "A02",
+      "start": 3.55,
+      "end": 95.16,
+      "layer": "ASR draft",
+      "detail": "Candidate script names a music generation model, detailed prompts, images for brand/place music, genre and tempo direction, languages and identifiable watermarked export. These roles broadly fit the visual blocks. Reject the opening nonsense phrase, Orblin and Luria spelling as reliable wording. Lyrics and sound character are not validated.",
+      "visual_relation": "V02–V10; broad script support, precise sync unchecked",
+      "evidence": "technical-review-2026-10-19/deep-review/audio/355-speech.json; existing faster-whisper base CPU int8"
+    }
+  ],
+  "categories": [
+    {
+      "finding": "Capability tour moves from prompt to image ideas, genre, controls, languages and watermark; no continuous generation task.",
+      "evidence": "V03–V09 12–89 s",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q01"
+    },
+    {
+      "finding": "Tilted Portuguese-looking word fragments arrive over mint green; music generation is not yet named.",
+      "evidence": "V01 0–2 s",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q02"
+    },
+    {
+      "finding": "Music model is clear near 10 s; creative use cases follow in prompt and image cards. No specific user role is named.",
+      "evidence": "V02–V05 5–41 s",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q03"
+    },
+    {
+      "finding": "Dense 62–66 s samples resolve a vertical Dynamics column swelling, shrinking and swelling again, with bars entering at the end. This is a visual metaphor; loudness sync is unchecked.",
+      "evidence": "V07; dense62-66.jpg",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q04"
+    },
+    {
+      "finding": "Color changes separate sections, while repeated words and rounded cards carry continuity. Pink lyric-like text ends before the white image gallery near 27 s.",
+      "evidence": "V04–V05 16–41 s",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q05"
+    },
+    {
+      "finding": "Soft mint, pink and purple gradients sit behind crisp type; translucent bands add depth, and picture cards provide varied imagery.",
+      "evidence": "V01–V09",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q06"
+    },
+    {
+      "finding": "Large concept labels are legible in the sheets; the detailed prompt at 12–16 s demands more reading than the short labels. Genre and language words also function as decoration.",
+      "evidence": "V03, V06–V08",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q07"
+    },
+    {
+      "finding": "Voice presence and delivery remain unverified.",
+      "evidence": "No validated audio listening",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q08"
+    },
+    {
+      "finding": "Music character and arc remain unverified.",
+      "evidence": "No validated audio listening",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q09"
+    },
+    {
+      "finding": "Sound effects remain unverified.",
+      "evidence": "No validated audio listening",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q10"
+    },
+    {
+      "finding": "Sound-to-motion timing remain unverified.",
+      "evidence": "No validated audio listening",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q11"
+    },
+    {
+      "finding": "Rounded photographs, artwork and a wine website thumbnail are arranged as floating cards. Their production and source licenses are unknown.",
+      "evidence": "V05 27–41 s",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q12"
+    },
+    {
+      "finding": "Source duration supplied as 100.633s; no independent compression, clipping or delivery check.",
+      "evidence": "Assigned metadata; source integrity checked by parent",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q13"
+    },
+    {
+      "finding": "Silent viewing conveys music generation and many controls; it cannot establish what any generated example sounds like. The image-to-music relationship relies partly on candidate narration.",
+      "evidence": "V03–V08; ASR 26–37 s",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q14"
+    },
+    {
+      "finding": "Isolation of the wine page and coast card creates a clear focal object after a crowded gallery. Repeated Rock text can compete with its central artwork.",
+      "evidence": "V05–V06 27–52 s",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q15"
+    },
+    {
+      "finding": "Several capability blocks replace one another without a stable output player. A single labeled prompt/result example would give the range a clearer anchor.",
+      "evidence": "V03–V09 12–89 s",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q16"
+    },
+    {
+      "finding": "The model title is answered by a range of creative controls and a Learn more URL; the practical first generation step is still missing.",
+      "evidence": "V02, V10",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q17"
+    },
+    {
+      "finding": "Color changes and playful repeating type appear intended to suggest creative variety and freedom. Audience response and musical emotion are unmeasured.",
+      "evidence": "V04, V06–V08",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q18"
+    },
+    {
+      "finding": "Rounded corners and gradients unify the tour, but the text prompt, wine page, coast and rock artwork are different examples rather than one traceable song.",
+      "evidence": "V03–V06",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q19"
+    },
+    {
+      "finding": "Visible claims include music generation and watermarking. Animated prompt and concept cards show the promise; model quality, watermark detection and actual generated audio have not been checked.",
+      "evidence": "V02–V09",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q20"
+    },
+    {
+      "finding": "Google colors in layered panels and Lyria naming provide brand anchors; the general gradient and floating card vocabulary could serve other creative tools.",
+      "evidence": "V09–V10 83–100.633 s",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q21"
+    },
+    {
+      "finding": "The genre/control blocks explain range. Shorten one repetition and add a prompt, Generate action and named output player to explain access.",
+      "evidence": "V06–V08 41–83 s",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q22"
+    },
+    {
+      "finding": "For a Tin audio or narration chooser, animate one control word with matching size changes, then show an actual labeled before/after output. Requires two output assets, prompt text and a player state.",
+      "evidence": "V07 59–71 s",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q23"
+    },
+    {
+      "finding": "No human new-viewer test; product description above is model interpretation of sampled images.",
+      "evidence": "V01–V10",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q24"
+    },
+    {
+      "finding": "No phone-size, safe-area or flash assessment; small UI text needs separate preview.",
+      "evidence": "Contact sheets",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q25"
+    }
+  ],
+  "lessons": {
+    "keep": "Make the visual behavior of a control word illustrate its meaning.",
+    "try": [
+      "For a narration feature, animate Dynamics as a growing and shrinking text column, then compare two labeled audio outputs in a validated listening pass.",
+      "For image-to-music, retain one uploaded image beside its prompt and named track player through generation so the input/result link stays visible."
+    ],
+    "avoid": "Do not let a long range-of-capabilities montage replace the first usable workflow.",
+    "open": "Audio quality, music changes, sync, watermark behavior and current user access remain unchecked."
+  },
+  "comparison": {
+    "story": "Introduce a music-like word motif → Name product → Show text direction → Suggest a generated example → Suggest image-led use cases → Show genre range → Show musical control concepts → Show language range → State export watermark claim → Close with information route",
+    "motion": "Dense 62–66 s samples resolve a vertical Dynamics column swelling, shrinking and swelling again, with bars entering at the end. This is a visual metaphor; loudness sync is unchecked.",
+    "sound": "No validated listening; no absence claims.",
+    "texture": "Soft mint, pink and purple gradients sit behind crisp type; translucent bands add depth, and picture cards provide varied imagery.",
+    "lesson": "Make the visual behavior of a control word illustrate its meaning."
+  },
+  "elements": [
+    {
+      "kind": "ui",
+      "name": "prompt card",
+      "events": [
+        "V03",
+        "V07"
+      ]
+    },
+    {
+      "kind": "motion",
+      "name": "text scaling",
+      "events": [
+        "V07"
+      ]
+    },
+    {
+      "kind": "motion",
+      "name": "repeated text",
+      "events": [
+        "V04",
+        "V06",
+        "V08"
+      ]
+    },
+    {
+      "kind": "texture",
+      "name": "gradient",
+      "events": [
+        "V01",
+        "V06",
+        "V07"
+      ]
+    }
+  ],
+  "reviewer_model": "gpt-6-astra",
+  "scope": "sampled visual and story review; ASR and measured signal support; no validated audio listening",
+  "closer_windows": [
+    {
+      "start": 62,
+      "end": 66,
+      "rate_fps": 4,
+      "evidence": [
+        "astra-review-2026-10-20/evidence/group-3/355/dense62-66.jpg"
+      ],
+      "resolved": "Dynamics column grows, shrinks and grows again; bars enter at the end. Sound alignment and easing are unverified."
+    }
+  ]
+}

@@ -1,0 +1,336 @@
+{
+  "id": 343,
+  "product_from_film": "Beyond Reach Labs presents an orbital solar-energy ambition, linking space hardware and solar panels to computing and other benefits on Earth.",
+  "explains_well": "The Sun repeats from the opening through life, farming, rockets and orbital panels, giving the energy theme a clear visual thread.",
+  "unclear": "The film does not explain the specific hardware mechanism, deployment sequence or customer action; the deployable-array detail in the source title is not clear from the film alone.",
+  "product_type": "Orbital solar-energy hardware brand film",
+  "scenario": "A Sun-to-life history montage expands into space hardware, computing and future benefits, then returns to the Sun and brand.",
+  "product_clear_time": 28,
+  "product_clear_basis": "The partial draft names hardware harnessing heat/light at 24s and the film shows orbital hardware and solar panels at 25–28s; the exact product remains broad.",
+  "scenes": [
+    {
+      "start": 0,
+      "end": 8,
+      "action": "Close solar imagery leads to a microscopic organism and green growth over rocky ground.",
+      "design": "Orange Sun, microscopic image and green natural texture.",
+      "purpose": "Connect the Sun to life.",
+      "evidence": "1 fps source samples in 0–8s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V01"
+    },
+    {
+      "start": 8,
+      "end": 18,
+      "action": "Historical farming images lead to a classroom Sun/Earth diagram, rocket exhaust, a glowing Sun and light crossing a panel-like surface.",
+      "design": "Archive-like photos, classroom footage and cinematic light.",
+      "purpose": "Extend the energy story from agriculture to technology.",
+      "evidence": "1 fps source samples in 8–18s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V02"
+    },
+    {
+      "start": 18,
+      "end": 25,
+      "action": "A dark pause gives way to a small Earth that becomes larger, then an orbital station above the planet.",
+      "design": "Black space and blue Earth.",
+      "purpose": "Shift the scale into orbit.",
+      "evidence": "1 fps source samples in 18–25s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V03"
+    },
+    {
+      "start": 25,
+      "end": 31,
+      "action": "A wireframe-like structure view, orbital hardware, solar panels and the Sun follow.",
+      "design": "Technical geometry and reflective space surfaces.",
+      "purpose": "Suggest the hardware/solar mechanism without explaining deployment.",
+      "evidence": "1 fps source samples in 25–31s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V04"
+    },
+    {
+      "start": 31,
+      "end": 39,
+      "action": "Technical drawings of computing equipment lead to a floating vial, a lab/clinical-looking room, a hand holding the vial and a rocket launch seen beyond a pool.",
+      "design": "Schematic collage and cinematic application imagery.",
+      "purpose": "Suggest computing, science and energy benefits.",
+      "evidence": "1 fps source samples in 31–39s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V05"
+    },
+    {
+      "start": 39,
+      "end": 47.583,
+      "action": "Sunset and a bright Sun return to the opening solar texture, now labeled Beyond Reach Labs.",
+      "design": "Orange solar imagery and white brand text.",
+      "purpose": "Close the recurring Sun motif.",
+      "evidence": "1 fps source samples in 39–47.583s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V06"
+    }
+  ],
+  "sound": [
+    {
+      "id": "A01",
+      "start": 0,
+      "end": 47.583,
+      "layer": "partial script support",
+      "detail": "The draft links the Sun, life, hardware harvesting heat/light, solar power, data centers and energy from above. Several later phrases are garbled; the exact medicine and closing wording are not relied on. The opening distance statement is treated as film narration, not scientific guidance. No voice delivery, music, effects or synchronization was heard or verified.",
+      "visual_relation": "V01–V06; partial script gives the montage its energy narrative.",
+      "evidence": "343-speech.json draft and chronological imagery."
+    }
+  ],
+  "categories": [
+    {
+      "id": "Q01",
+      "finding": "Sun → life/agriculture → technology/orbit → solar hardware → applications → Sun/brand.",
+      "evidence": "V01–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q02",
+      "finding": "A close view of the Sun opens at a large physical scale before the film moves to microscopic life.",
+      "evidence": "V01",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q03",
+      "finding": "The audience is broadly people interested in space energy and infrastructure; a specific buyer is not named in the visible film.",
+      "evidence": "V04,V05",
+      "status": "uncertain",
+      "reason": "Thematically inferred from imagery and partial draft.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q04",
+      "finding": "Solar activity, rocket exhaust, changing Earth scale and hardware views provide motion; exact transition mechanics are unverified.",
+      "evidence": "V01–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q05",
+      "finding": "The recurring Sun links otherwise varied life, space and application images. A dark pause separates the history montage from orbit.",
+      "evidence": "V01–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q06",
+      "finding": "Orange solar imagery contrasts with green life and blue/black space; the ending restores the opening palette.",
+      "evidence": "V01–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q07",
+      "finding": "Very little product text appears before the final brand. The classroom diagram and technical drawings do not explain the offering on their own.",
+      "evidence": "V02,V04–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q08",
+      "finding": "Partial ASR supports the energy narrative; garbled medicine/closing phrases are not treated as exact script. Delivery is unknown.",
+      "evidence": "A01",
+      "status": "uncertain",
+      "reason": "Draft only, no validated listening.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q09",
+      "finding": "Music character and structure are unverified.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "No validated listening.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q10",
+      "finding": "Effects and their sources are unverified.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "No validated listening; waveform peaks do not identify effects.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q11",
+      "finding": "Sound sync is unverified.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "No validated listening or paired audiovisual timing.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q12",
+      "finding": "Solar/nature images, historical photographs, technical graphics and cinematic space/application scenes are mixed. Sources and production methods are unverified.",
+      "evidence": "V01–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q13",
+      "finding": "Source duration 47.583 s; Watch metadata 1440 × 1080. Frame rate, audio clipping and export quality not checked here.",
+      "evidence": "Whole film",
+      "status": "supported",
+      "reason": "Parent source metadata supports duration and dimensions; visual review is sampled.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q14",
+      "finding": "The solar/space theme is visible, but the exact product requires more explanation than the imagery provides.",
+      "evidence": "V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q15",
+      "finding": "Large bright solar forms and reflective panels provide strong focal points; the brand arrives on the same solar texture.",
+      "evidence": "V01,V04,V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q16",
+      "finding": "Roughly half the 48s film builds the Sun/history/orbit context before the hardware imagery around 25s.",
+      "evidence": "V01–V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q17",
+      "finding": "The ending completes the Sun motif, but does not resolve a specific hardware problem or demonstrate deployment.",
+      "evidence": "V04,V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q18",
+      "finding": "Cosmic scale and life imagery suggest wonder and ambition; viewer emotion and sound character are unmeasured.",
+      "evidence": "V01–V06",
+      "status": "uncertain",
+      "reason": "Visual interpretation only.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q19",
+      "finding": "Sun imagery remains the central source across biology, agriculture, orbit and future applications.",
+      "evidence": "V01–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q20",
+      "finding": "Energy, computing and medicine benefits are film claims. The exact deployable-array scale from the source title is not demonstrated in the sampled film, and scientific/engineering claims are not verified.",
+      "evidence": "V04,V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q21",
+      "finding": "The Sun-to-life-to-orbit structure gives an energy company a broad origin story.",
+      "evidence": "V01–V06",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q22",
+      "finding": "Add a clear hardware transformation.",
+      "evidence": "V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "Show the compact launch form opening into the deployed array, with a scale marker and one plain function label."
+    },
+    {
+      "id": "Q23",
+      "finding": "For Tin, connect a broad ambition to a specific mechanism.",
+      "evidence": "V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "Follow the brand-level benefit with one brief becoming one finished campaign output."
+    },
+    {
+      "id": "Q24",
+      "finding": "No human new-viewer test was performed.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "The product summary is this model’s film-only reading.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q25",
+      "finding": "Mobile preview and accessibility checks were not performed.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "Contact sheets are evidence views, not a stated mobile preview or compliance test.",
+      "experiment": "none"
+    }
+  ],
+  "elements": [
+    {
+      "kind": "ui",
+      "name": "wireframe structure view",
+      "events": [
+        "V04"
+      ]
+    },
+    {
+      "kind": "texture",
+      "name": "solar surface imagery",
+      "events": [
+        "V01",
+        "V02",
+        "V04",
+        "V06"
+      ]
+    },
+    {
+      "kind": "texture",
+      "name": "historical farming photographs",
+      "events": [
+        "V02"
+      ]
+    },
+    {
+      "kind": "texture",
+      "name": "orbital hardware imagery",
+      "events": [
+        "V03",
+        "V04"
+      ]
+    }
+  ],
+  "lessons": {
+    "keep": "Repeat one physical source motif across a broad story.",
+    "try": [
+      "Show compact hardware opening into a labeled deployed array with scale.",
+      "For Tin, connect the broad benefit to one brief and finished output."
+    ],
+    "avoid": "Letting application imagery carry an unexplained hardware proposition.",
+    "open": "Exact hardware, deployment, buyer action, engineering/scientific claims and audio qualities remain unverified."
+  },
+  "comparison": {
+    "story": "Sun and life → orbit → solar hardware → future applications.",
+    "motion": "Solar/rocket activity and changes in scale.",
+    "sound": "Partial energy-themed ASR; uncertain phrases rejected.",
+    "texture": "Orange Sun, archival farming, black space and technical imagery.",
+    "lesson": "A repeated motif gives cohesion, but a hardware film still needs the mechanism shown plainly."
+  },
+  "reviewer_model": "gpt-6-astra",
+  "scope": "sampled visual and story review; ASR and measured signal support; no validated audio listening",
+  "viewed_evidence": [
+    "technical-review-2026-10-19/deep-review/motion/343/timeline-00.jpg",
+    "technical-review-2026-10-19/deep-review/motion/343/timeline-01.jpg"
+  ],
+  "closer_windows": []
+}

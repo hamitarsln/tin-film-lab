@@ -1,0 +1,403 @@
+{
+  "id": 268,
+  "viewed_evidence": [
+    "technical-review-2026-10-19/deep-review/motion/268/timeline-00.jpg",
+    "technical-review-2026-10-19/deep-review/motion/268/timeline-01.jpg",
+    "technical-review-2026-10-19/deep-review/motion/268/timeline-02.jpg",
+    "astra-review-2026-10-20/evidence/group-3/268/47.jpg",
+    "technical-review-2026-10-19/deep-review/audio/268-speech.json"
+  ],
+  "product_from_film": "Gojiberry helps small sales teams find buyers showing intent and send outreach at that time.",
+  "explains_well": "The dinner interruption joke makes poorly timed outreach easy to understand.",
+  "unclear": "The example messages do not show how a specific buyer signal changes the wording.",
+  "product_type": "sales outreach",
+  "scenario": "Detect job changes, problem posts or competitor interest and send a relevant message",
+  "product_clear_time": 35,
+  "product_clear_basis": "Small sales teams focus on the right buyers appears with a team-to-buyer diagram.",
+  "scenes": [
+    {
+      "start": 0,
+      "end": 10,
+      "action": "Presenter celebrates Y Combinator with confetti, then floating mother-message cards ask what the company does; hearts and for them text follow.",
+      "design": "Purple-orange studio, seated presenter and message overlays.",
+      "purpose": "Set a simple explanation challenge",
+      "id": "V01",
+      "evidence": "Visible 1 fps samples, source 0–10s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 10,
+      "end": 21,
+      "action": "New customer headshots appear; a cold message writes into a floating card, followed by Not buying response.",
+      "design": "White message cards beside the presenter.",
+      "purpose": "Show poorly timed outreach",
+      "id": "V02",
+      "evidence": "Visible 1 fps samples, source 10–21s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 21,
+      "end": 31,
+      "action": "Descending money labels and rude replies surround the presenter; phone-call overlay leads to a woman interrupted at dinner.",
+      "design": "Orange falling chart and short domestic comedy cutaway.",
+      "purpose": "Make the problem relatable",
+      "id": "V03",
+      "evidence": "Visible 1 fps samples, source 21–31s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 31,
+      "end": 36,
+      "action": "Brand and simple text introduce a light diagram: sales-team faces connect through Gojiberry to buyer cards.",
+      "design": "Peach gradient, small tiles and profile cards.",
+      "purpose": "Explain targeting",
+      "id": "V04",
+      "evidence": "Visible 1 fps samples, source 31–36s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 36,
+      "end": 42,
+      "action": "Checklist marks changes jobs, talks about a problem and looks at competitors; matching profile, post and company cards appear.",
+      "design": "Three visible signal categories and cursor.",
+      "purpose": "Explain buyer intent",
+      "id": "V05",
+      "evidence": "Visible 1 fps samples, source 36–42s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 42,
+      "end": 50,
+      "action": "Invitation/message cards point toward a buyer; view changes to a connected sequence of Send Message cards with contact and answer counts.",
+      "design": "Blue-header workflow cards on a pale dotted background.",
+      "purpose": "Explain timed automatic outreach",
+      "id": "V06",
+      "evidence": "Visible 1 fps samples, source 42–50s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 50,
+      "end": 60,
+      "action": "Presenter contrasts messaging everyone with right-time contacts; fewer messages copy leads to 3–5x and a replies graphic.",
+      "design": "Floating contacts and large orange claim.",
+      "purpose": "State benefit",
+      "id": "V07",
+      "evidence": "Visible 1 fps samples, source 50–60s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 60,
+      "end": 66,
+      "action": "Presenter returns to the mother joke with not spam bubble and brand.",
+      "design": "Orange speech bubble; studio setting.",
+      "purpose": "Close the explanation loop",
+      "id": "V08",
+      "evidence": "Visible 1 fps samples, source 60–66s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 66,
+      "end": 71,
+      "action": "Two-minute setup claim and Try for free today button hold.",
+      "design": "Peach brand card and cursor.",
+      "purpose": "Invite trial",
+      "id": "V09",
+      "evidence": "Visible 1 fps samples, source 66–71s; boundaries approximate, between-frame action unresolved."
+    },
+    {
+      "start": 71,
+      "end": 76.115,
+      "action": "Presenter stands and leaves; empty chair and microphone remain.",
+      "design": "Unchanged studio set.",
+      "purpose": "Add an exit beat",
+      "id": "V10",
+      "evidence": "Visible 1 fps samples, source 71–76.115s; boundaries approximate, between-frame action unresolved."
+    }
+  ],
+  "sound": [
+    {
+      "id": "A01",
+      "start": 0,
+      "end": 76.115,
+      "layer": "unknown",
+      "detail": "No validated audio listening; speech, music, effects, mix and sync remain unverified.",
+      "visual_relation": "All visual scenes; alignment not checked",
+      "evidence": "No actual audio supplied to this review; existing technical-review-2026-10-19/deep-review/audio/268.json is not listening evidence."
+    },
+    {
+      "id": "A02",
+      "start": 0.17,
+      "end": 74.79,
+      "layer": "ASR draft",
+      "detail": "Candidate script supports the mother-explanation joke, dinner-call analogy, buyer intent signals, automatic messaging and reply-lift claim. Late lines suggest an off-screen joke about a website and Facebook, but delivery is unheard. Reject white combinator, company door and free to 5 misreads; visible labels establish Y Combinator, competitors and 3–5x.",
+      "visual_relation": "V01–V10; candidate script only",
+      "evidence": "technical-review-2026-10-19/deep-review/audio/268-speech.json; existing faster-whisper base CPU int8"
+    }
+  ],
+  "categories": [
+    {
+      "finding": "A mother who cannot understand the company motivates a plain explanation: bad outreach timing, buyer signals, automated messages and more replies.",
+      "evidence": "V01–V09",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q01"
+    },
+    {
+      "finding": "Presenter and Y Combinator/confetti overlay start with company news rather than the user problem; mother-message joke soon gives it a purpose.",
+      "evidence": "V01, 0–2 s",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q02"
+    },
+    {
+      "finding": "Small sales teams are named early; by 35 s the buyer diagram identifies the service, and 36–50 s supplies signal-to-message logic.",
+      "evidence": "V02, V04–V06",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q03"
+    },
+    {
+      "finding": "Floating cards, cursor checks, falling money line and a connected message sequence illustrate the explanation. Sampled frames establish state changes, not exact easing.",
+      "evidence": "V02–V07",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q04"
+    },
+    {
+      "finding": "The dinner cutaway gives a clear analogy before a bright diagram replaces the studio. Returning to the presenter reconnects the technical section to the mother joke.",
+      "evidence": "V03–V08",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q05"
+    },
+    {
+      "finding": "Purple and orange studio lights contrast with pale peach diagrams, while orange gradient emphasis ties them together.",
+      "evidence": "V01–V09",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q06"
+    },
+    {
+      "finding": "The three signal labels are concrete and readable. Full frame at 47 s shows generic FirstName templates and contact/answer counts, not a message tailored to the displayed signal.",
+      "evidence": "V05–V06; full frame 47 s",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q07"
+    },
+    {
+      "finding": "Voice presence and delivery remain unverified.",
+      "evidence": "No validated audio listening",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q08"
+    },
+    {
+      "finding": "Music character and arc remain unverified.",
+      "evidence": "No validated audio listening",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q09"
+    },
+    {
+      "finding": "Sound effects remain unverified.",
+      "evidence": "No validated audio listening",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q10"
+    },
+    {
+      "finding": "Sound-to-motion timing remain unverified.",
+      "evidence": "No validated audio listening",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q11"
+    },
+    {
+      "finding": "Presenter footage, domestic comedy, profile cutouts and simplified workflow cards are combined. Their production sources are unknown.",
+      "evidence": "V01–V08",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q12"
+    },
+    {
+      "finding": "Source duration supplied as 76.115s; no independent compression, clipping or delivery check.",
+      "evidence": "Assigned metadata; source integrity checked by parent",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q13"
+    },
+    {
+      "finding": "Captions, rejection card, signal checklist and message sequence explain the core service silently. The uncaptained exit beat is less clear without candidate speech.",
+      "evidence": "V02–V10",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q14"
+    },
+    {
+      "finding": "Presenter remains an anchor while overlays illustrate each point; the light full-screen diagrams give the eye a cleaner technical focus.",
+      "evidence": "V01–V06",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q15"
+    },
+    {
+      "finding": "The 36–50 s section moves through three signals and several cards quickly, but each category has a label. One worked signal would strengthen retention.",
+      "evidence": "V05–V06",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q16"
+    },
+    {
+      "finding": "The opening promises an explanation for the founders mothers; the later not spam bubble deliberately returns to that frame.",
+      "evidence": "V01 and V08",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q17"
+    },
+    {
+      "finding": "Proud but confused family messages and the dinner interruption appear intended to make a sales tool approachable and funny. Response was not measured.",
+      "evidence": "V01–V03",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q18"
+    },
+    {
+      "finding": "Presenter, orange accents and profile cards hold continuity. The specific signal examples do not carry through into the actual message text.",
+      "evidence": "V05–V06",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q19"
+    },
+    {
+      "finding": "The film shows a conceptual signal workflow and reply counts. The 3–5x benefit and two-minute setup remain untested claims, and no real sent-message result is established.",
+      "evidence": "V06–V09",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q20"
+    },
+    {
+      "finding": "The mother-explanation frame and dinner analogy give this film personality beyond standard sales automation diagrams.",
+      "evidence": "V01–V03 and V08",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q21"
+    },
+    {
+      "finding": "Replace one repeated generic message card with a single buyer signal, a tailored sentence and its reply. The empty-chair ending can be shorter for silent use.",
+      "evidence": "V06 and V10",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q22"
+    },
+    {
+      "finding": "For a complex B2B tool, use a familiar interruption as the problem, then a three-step diagram. Capture the actual trigger and tailored output to make the analogy precise.",
+      "evidence": "V03–V06",
+      "status": "supported",
+      "reason": "Direct sampled visual evidence; interpretation is identified.",
+      "experiment": "none",
+      "id": "Q23"
+    },
+    {
+      "finding": "No human new-viewer test; product description above is model interpretation of sampled images.",
+      "evidence": "V01–V10",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q24"
+    },
+    {
+      "finding": "No phone-size, safe-area or flash assessment; small UI text needs separate preview.",
+      "evidence": "Contact sheets",
+      "status": "not checked",
+      "reason": "Input does not establish this claim.",
+      "experiment": "none",
+      "id": "Q25"
+    }
+  ],
+  "lessons": {
+    "keep": "Keep the dinner interruption analogy and return to the mother-explanation frame.",
+    "try": [
+      "Use a job-change signal for one buyer, highlight the relevant sentence in the generated message and show its reply.",
+      "Test a shorter opening that reaches the dinner interruption by 5 s, then keeps the family joke as the closing callback."
+    ],
+    "avoid": "Avoid generic outreach templates when claiming the right message for a specific signal.",
+    "open": "Audio is unheard; signal sources, sending controls and claimed reply lift remain unverified."
+  },
+  "comparison": {
+    "story": "Set a simple explanation challenge → Show poorly timed outreach → Make the problem relatable → Explain targeting → Explain buyer intent → Explain timed automatic outreach → State benefit → Close the explanation loop → Invite trial → Add an exit beat",
+    "motion": "Floating cards, cursor checks, falling money line and a connected message sequence illustrate the explanation. Sampled frames establish state changes, not exact easing.",
+    "sound": "No validated listening; no absence claims.",
+    "texture": "Purple and orange studio lights contrast with pale peach diagrams, while orange gradient emphasis ties them together.",
+    "lesson": "Keep the dinner interruption analogy and return to the mother-explanation frame."
+  },
+  "elements": [
+    {
+      "kind": "ui",
+      "name": "message card",
+      "events": [
+        "V01",
+        "V02",
+        "V06"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "checklist",
+      "events": [
+        "V05"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "workflow",
+      "events": [
+        "V06"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "chart",
+      "events": [
+        "V03"
+      ]
+    },
+    {
+      "kind": "motion",
+      "name": "floating cards",
+      "events": [
+        "V01",
+        "V02",
+        "V07"
+      ]
+    },
+    {
+      "kind": "texture",
+      "name": "studio footage",
+      "events": [
+        "V01",
+        "V02",
+        "V03",
+        "V07",
+        "V08",
+        "V10"
+      ]
+    }
+  ],
+  "reviewer_model": "gpt-6-astra",
+  "scope": "sampled visual and story review; ASR and measured signal support; no validated audio listening",
+  "closer_windows": []
+}

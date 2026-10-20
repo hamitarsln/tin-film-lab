@@ -1,0 +1,332 @@
+{
+  "id": 90,
+  "product_from_film": "Cero presents a spending app with rewards, prize-like benefits, a score and a credit line.",
+  "explains_well": "Repeated checkout scenes connect the app to everyday spending, while enlarged phone panels show benefits.",
+  "unclear": "Eligibility, probabilities, fees and the relationship between rewards, salary doubling and credit are not explained.",
+  "product_type": "consumer finance and rewards",
+  "scenario": "Pay at shops, receive reward-like outcomes and improve a score that unlocks a credit line.",
+  "product_clear_time": 5,
+  "product_clear_basis": "The paid-by-Cero phone result at 4s is followed by a checkout payment at 5s.",
+  "scenes": [
+    {
+      "start": 0,
+      "end": 6,
+      "action": "A hand holds a green token against city buildings, then the token is above the hand. A phone shows 100% and a free purchase result; a food-stall payment follows.",
+      "design": "Lime token and phone highlights against real-world-looking street footage.",
+      "purpose": "Tie everyday spending to a reward surprise.",
+      "evidence": "1 fps source samples in 0–6s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V01"
+    },
+    {
+      "start": 6,
+      "end": 14,
+      "action": "Short serif phrases accompany an opened green pack, confetti, prize objects and a $1,100,000 megapot. A score phone shows 280.",
+      "design": "White background, lime radial rays, glossy pack and floating prizes.",
+      "purpose": "Introduce game-like upside and score.",
+      "evidence": "1 fps source samples in 6–14s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V02"
+    },
+    {
+      "start": 14,
+      "end": 21,
+      "action": "Cafe and store payments lead to a salary notification. A green wheel shows $3200, 2x and then $6400; another checkout follows.",
+      "design": "Warm retail footage and large circular reward diagram.",
+      "purpose": "Extend rewards to salary and repeated daily use.",
+      "evidence": "1 fps source samples in 14–21s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V03"
+    },
+    {
+      "start": 21,
+      "end": 27,
+      "action": "Cash held and bank accounts cards add points. A score diagram includes wallets, spending and socials, then a phone score reaches 1000 and a locked credit line becomes a visible amount.",
+      "design": "Clean white info cards, colored category icons and lime gauge.",
+      "purpose": "Link financial activity to score and credit availability.",
+      "evidence": "1 fps source samples in 21–27s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V04"
+    },
+    {
+      "start": 27,
+      "end": 34.783,
+      "action": "Checkout imagery repeats inside expanding circular arrangements. The green mark, upside-of-spending line and Cero name close on white.",
+      "design": "Circular crops and restrained final wordmark.",
+      "purpose": "Summarize broad daily use and brand.",
+      "evidence": "1 fps source samples in 27–34.783s; state changes visible, exact transition timing/easing unverified.",
+      "id": "V05"
+    }
+  ],
+  "categories": [
+    {
+      "id": "Q01",
+      "finding": "A purchase reward introduces packs/prizes, salary upside and a score-to-credit feature; checkout imagery links them.",
+      "evidence": "V01–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q02",
+      "finding": "A green token held in a hand becomes a small object above the street at 1–2s. It is a visual hook without a stated task yet.",
+      "evidence": "V01",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q03",
+      "finding": "Consumer spending is clear at 4–5s. The full app scope grows later through score and credit screens.",
+      "evidence": "V01,V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q04",
+      "finding": "Token position, pack opening states, radial layouts, wheel values and circular photo crops provide repeated round motifs. Exact spins and easing are not resolved.",
+      "evidence": "V01–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q05",
+      "finding": "Retail footage alternates with white product/benefit cards. Circular crops unite several checkout scenes at the end.",
+      "evidence": "V02–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q06",
+      "finding": "Lime rays and glossy prize objects create a game-like treatment beside warm shop scenes.",
+      "evidence": "V02,V03",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q07",
+      "finding": "Large prize and salary amounts dominate. The smaller terms or eligibility needed to interpret them are not visible in the sampled evidence.",
+      "evidence": "V02,V03",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q08",
+      "finding": "Voice delivery is unverified.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "No validated listening.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q09",
+      "finding": "Music character and structure are unverified.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "No validated listening.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q10",
+      "finding": "Effects and their sources are unverified.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "No validated listening; waveform peaks do not identify effects.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q11",
+      "finding": "Sound sync is unverified.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "No validated listening or paired audiovisual timing.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q12",
+      "finding": "First-person checkout views, phone mockups, token and prize objects are mixed; production and asset origin are unknown.",
+      "evidence": "V01–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q13",
+      "finding": "Source duration 34.783 s; Watch metadata 1920 × 1080. Frame rate, audio clipping and export quality not checked here.",
+      "evidence": "Whole film",
+      "status": "supported",
+      "reason": "Parent source metadata supports duration and dimensions; visual review is sampled.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q14",
+      "finding": "Payment, rewards and score are visible silently. The meaning and conditions of each financial benefit remain unclear.",
+      "evidence": "V01–V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q15",
+      "finding": "Bright green circles guide attention to the reward amount and score. Repeated retail scenes reset the context.",
+      "evidence": "V01–V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q16",
+      "finding": "Multiple benefit types appear within 27s. A single spend-to-reward-to-score example would explain the relationship more clearly.",
+      "evidence": "V02–V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "Keep one purchase amount across the reward and score states."
+    },
+    {
+      "id": "Q17",
+      "finding": "The token and free-purchase opening promise upside; prizes and salary doubling extend that promise, while the closing repeats the spending theme.",
+      "evidence": "V01–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q18",
+      "finding": "Confetti, prizes and doubling values suggest excitement and anticipation; actual response is unmeasured.",
+      "evidence": "V02,V03",
+      "status": "uncertain",
+      "reason": "Interpretation of visible reward language.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q19",
+      "finding": "Green circular forms and checkout hands stay consistent, but no one transaction is followed through all benefits.",
+      "evidence": "V01–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q20",
+      "finding": "Screens depict rewards, salary multiplication and a credit unlock. Availability, probability and financial terms are not independently established.",
+      "evidence": "V02–V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q21",
+      "finding": "The green circular Cero mark and repeated round layouts give visual consistency; checkout footage is broadly reusable.",
+      "evidence": "V01–V05",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q22",
+      "finding": "A checkout and corresponding reward establish utility. The megapot and salary wheel add claims before the score relationship is explained.",
+      "evidence": "V01–V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q23",
+      "finding": "For Tin, connect one completed workflow to one visible result and one updated metric, using repeated circular highlights only where meaningful.",
+      "evidence": "V04",
+      "status": "supported",
+      "reason": "Directly inspected sampled visual evidence.",
+      "experiment": "Hold the same campaign identity across completion, outcome and dashboard update."
+    },
+    {
+      "id": "Q24",
+      "finding": "No human new-viewer test was performed.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "The product summary is this model’s film-only reading.",
+      "experiment": "none"
+    },
+    {
+      "id": "Q25",
+      "finding": "Mobile preview and accessibility checks were not performed.",
+      "evidence": "Whole film",
+      "status": "not checked",
+      "reason": "Contact sheets are evidence views, not a stated mobile preview or compliance test.",
+      "experiment": "none"
+    }
+  ],
+  "elements": [
+    {
+      "kind": "ui",
+      "name": "score gauge",
+      "events": [
+        "V02",
+        "V04"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "notification card",
+      "events": [
+        "V01",
+        "V03"
+      ]
+    },
+    {
+      "kind": "ui",
+      "name": "credit line card",
+      "events": [
+        "V04"
+      ]
+    },
+    {
+      "kind": "motion",
+      "name": "circular image layout",
+      "events": [
+        "V05"
+      ]
+    },
+    {
+      "kind": "texture",
+      "name": "lime radial rays",
+      "events": [
+        "V02"
+      ]
+    }
+  ],
+  "lessons": {
+    "keep": "Return to real-world use between feature graphics so the app stays tied to everyday action.",
+    "try": [
+      "For Tin, alternate one real product shot with its campaign output and measurable result, retaining the same product throughout.",
+      "Use one simple gauge update after a completed workflow, with a clear label for what changed and why."
+    ],
+    "avoid": "Stacking attractive benefit amounts without explaining their conditions or relationship.",
+    "open": "Financial terms, eligibility, outcome probabilities, sound and precise motion remain unverified."
+  },
+  "comparison": {
+    "story": "Rewarded purchase → packs/prizes → salary upside → score/credit → everyday-use montage.",
+    "motion": "Circular motif, changing value/gauge states and crop layouts; exact animation unverified.",
+    "sound": "No validated listening; voice, music, effects and sync unknown.",
+    "texture": "White/lime graphics and warm retail footage; provenance unknown.",
+    "lesson": "Real-world use inserts can connect an abstract feature list to a familiar action."
+  },
+  "reviewer_model": "gpt-6-astra",
+  "scope": "sampled visual and story review; ASR and measured signal support; no validated audio listening",
+  "viewed_evidence": [
+    "technical-review-2026-10-19/deep-review/motion/090/timeline-00.jpg",
+    "technical-review-2026-10-19/deep-review/motion/090/timeline-01.jpg"
+  ],
+  "closer_windows": [],
+  "sound": [
+    {
+      "id": "A01",
+      "start": 0,
+      "end": 34.783,
+      "layer": "unknown",
+      "detail": "No validated audio listening. Voice delivery, music, effects and mix are unknown.",
+      "visual_relation": "All scenes; sound alignment unverified",
+      "evidence": "No actual audio perception in this review; prepared audio files are not listening evidence."
+    }
+  ]
+}
